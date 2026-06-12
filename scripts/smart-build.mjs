@@ -19,4 +19,17 @@ const cmd = hasCloud
 	: 'npx tinacms build --local --skip-cloud-checks -c "npx astro build"';
 
 console.log(`[smart-build] Tina mode: ${hasCloud ? 'CLOUD (admin enabled)' : 'LOCAL (set PUBLIC_TINA_CLIENT_ID + TINA_TOKEN to enable /admin)'}`);
-execSync(cmd, { stdio: 'inherit', shell: true });
+
+// Nach einem Schema-Push indexiert Tina Cloud den Commit asynchron — der
+// Cloud-Check kann das Rennen verlieren. Bis zu 3 Versuche mit Wartezeit.
+const ATTEMPTS = hasCloud ? 3 : 1;
+for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
+	try {
+		execSync(cmd, { stdio: 'inherit', shell: true });
+		break;
+	} catch (err) {
+		if (attempt === ATTEMPTS) throw err;
+		console.log(`[smart-build] Versuch ${attempt} fehlgeschlagen — warte 45 s auf Tina-Cloud-Indexierung und versuche erneut …`);
+		execSync(process.platform === 'win32' ? 'timeout /t 45 /nobreak >nul' : 'sleep 45', { stdio: 'ignore', shell: true });
+	}
+}

@@ -74,6 +74,15 @@ OG/Twitter-Meta (Bild = Hero der Seite), JSON-LD (Person + WebSite global,
 FAQPage auf Seiten mit FAQ-Block), `og:locale de_DE`. Pro Seite pflegbar:
 `seoTitle` + `seoDescription` in Tina („Seiten“-Collection).
 
+## Troubleshooting: Build-Fehler „local GraphQL schema doesn't match remote“
+
+Nach einer Schema-Änderung (Felder in `*.template.ts` / `tina/collections/*`)
+muss `tina/tina-lock.json` mit committet werden — und das Lock wird **nur von
+`npm run dev` regeneriert**, nicht von `tinacms build`. Workflow also: Schema
+ändern → einmal `npm run dev` starten (3 Sekunden reichen) → Lock-Änderung mit
+committen. Der Vercel-Build retried zusätzlich automatisch (smart-build),
+falls Tina Cloud den neuen Commit noch nicht fertig indexiert hat.
+
 ## Troubleshooting: Deployment „BLOCKED“ (COMMIT_AUTHOR_REQUIRED)
 
 Vercel (Pro/Team) blockiert Deployments, deren Git-Commit-Autor keinem
