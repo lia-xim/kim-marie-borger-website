@@ -1,5 +1,6 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
+import Img from '../Img.astro';
 
 const { data } = Astro.props;
 const cards = (data.cards ?? []).filter((c: unknown) => c !== null);
@@ -38,7 +39,7 @@ const right = cards[1];
 			)}
 
 			<div class="solemn-arch reveal d1">
-				<div class="arch-in"><img src={data.image?.src} alt={data.image?.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')}></div>
+				<div class="arch-in"><Img src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 92vw, 38vw" loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')} /></div>
 			</div>
 
 			{right && (

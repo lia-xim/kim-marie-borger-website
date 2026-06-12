@@ -15,7 +15,16 @@ export default defineConfig({
 		|| (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : '')
 		|| (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:4321'),
 	output: 'static',
-	adapter: vercel(),
+	adapter: vercel({
+		// Aktiviert /_vercel/image für die <Img>-Komponente (AVIF/WebP,
+		// responsive Breiten). sizes muss zu IMAGE_SIZES in src/lib/img.ts passen.
+		imagesConfig: {
+			sizes: [320, 640, 960, 1280, 1600, 2000],
+			formats: ['image/avif', 'image/webp'],
+			domains: [],
+			minimumCacheTTL: 2678400,
+		},
+	}),
 	integrations: [mdx(), sitemap(), tina()],
 	// Tina Cloud rewrites CMS image src to assets.tina.io; let Astro
 	// fetch those URLs at build time so <Image> can transcode + resize them.

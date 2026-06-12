@@ -44,6 +44,21 @@ HTML-Design-Export (`../`-Verzeichnis), pixelgenau auf Basis von `kmb.css`.
    (~1–2 Min bis live).
 6. Editorin einladen: app.tina.io → Project → Collaborators (Free-Plan: 2 User).
 
+## Echte Hörproben einbinden (Audio)
+
+1. Master-Aufnahmen (WAV/AIFF/FLAC — beste verfügbare Qualität) in den Ordner
+   `audio-src/` legen (liegt im Repo-Root, wird nicht committet).
+2. `npm run optimize:audio` — normalisiert die Lautheit nach Streaming-Standard
+   (EBU R128, −14 LUFS, True Peak −1 dB) und erzeugt MP3 320 kbps in
+   `public/uploads/audio/`. 320 kbps ist für Musik praktisch transparent und
+   läuft in jedem Browser; eine 4-Minuten-Aufnahme ≈ 9–10 MB.
+3. Im CMS (Portfolio → Hörproben-Block) beim jeweiligen Stück den Pfad
+   eintragen: `/uploads/audio/<name>.mp3`. Tracks ohne Pfad spielen weiterhin
+   die synthetische Klangskizze.
+4. Committen/deployen — die Dauer wird automatisch aus der Datei gelesen,
+   wenn das Feld leer bleibt. Audio wird mit den `/uploads`-Cache-Headern
+   ausgeliefert und per `preload="metadata"` erst bei Klick geladen.
+
 ## Kontaktformular scharf schalten
 
 1. Konto auf https://resend.com (Free: 100 Mails/Tag), Domain verifizieren.

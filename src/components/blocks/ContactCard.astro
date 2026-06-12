@@ -1,5 +1,6 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
+import Img from '../Img.astro';
 import { getConfig } from '../../lib/data';
 
 const { data } = Astro.props;
@@ -12,7 +13,7 @@ const checklist = (contact?.checklist ?? []).filter((c: unknown) => c !== null);
 	<div class="wrap">
 		<div class="contact-card form-first">
 			<aside class="contact-aside reveal">
-				{contact?.asideImage && <img class="c-bg" src={contact.asideImage} alt="" aria-hidden="true" loading="lazy">}
+				{contact?.asideImage && <Img class="c-bg" src={contact.asideImage} alt="" sizes="(max-width: 900px) 94vw, 42vw" aria-hidden="true" loading="lazy" />}
 				{contact?.eyebrow && <p class="eyebrow" data-tina-field={contact ? tinaField(contact, 'eyebrow') : undefined}>{contact.eyebrow}</p>}
 				{contact?.title && <h2 class="display-s" style="margin:16px 0 14px;" data-tina-field={contact ? tinaField(contact, 'title') : undefined}>{contact.title}</h2>}
 				{contact?.lead && <p class="lead" data-tina-field={contact ? tinaField(contact, 'lead') : undefined}>{contact.lead}</p>}

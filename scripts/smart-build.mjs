@@ -8,6 +8,10 @@
  */
 import { execSync } from 'node:child_process';
 
+// Bild-Manifest (Maße für width/height/srcset) vor dem Build aktualisieren,
+// damit auch frisch über das CMS hochgeladene Bilder erfasst sind.
+execSync('node scripts/image-manifest.mjs', { stdio: 'inherit', shell: true });
+
 const hasCloud = Boolean(process.env.PUBLIC_TINA_CLIENT_ID && process.env.TINA_TOKEN);
 
 const cmd = hasCloud

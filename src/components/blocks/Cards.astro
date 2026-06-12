@@ -1,5 +1,6 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
+import Img from '../Img.astro';
 
 const { data } = Astro.props;
 const items = (data.items ?? []).filter((i: unknown) => i !== null);
@@ -17,7 +18,7 @@ const titleLines: string[] = (data.title ?? '').split('\n');
 		<div class="gal cols-4 reveal d1">
 			{items.map((item: any) => item.image?.src ? (
 				<a class="gal-card" href={item.href ?? '#'} data-tina-field={tinaField(item)}>
-					<img src={item.image.src} alt={item.image.alt ?? ''} loading="lazy" decoding="async">
+					<Img src={item.image.src} alt={item.image.alt ?? ''} sizes="(max-width: 700px) 94vw, (max-width: 1100px) 46vw, 23vw" loading="lazy" decoding="async" />
 					<span class="gc-body">
 						<span class="gc-title">{item.title}</span>
 						<span class="gc-poet">{item.poet}</span>

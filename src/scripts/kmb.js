@@ -350,9 +350,11 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
   frame.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); open(); } });
 });
 
-/* ---------- WebAudio sketch player ---------- */
+/* ---------- audio player: echte Aufnahmen (per CMS gepflegt) mit
+   WebAudio-Analyser für die EQ-Bars; Tracks ohne Datei fallen auf die
+   synthetische Klangskizze zurück ---------- */
 (function(){
-  const TRACKS = [
+  const DEMO = [
     { t:'Méditation',        c:'Jules Massenet · aus „Thaïs“',    tag:'Trauung',  dur:'5:10', root:293.66 },
     { t:'Air',               c:'J. S. Bach · aus der Orchestersuite Nr. 3', tag:'Einzug', dur:'4:40', root:261.63 },
     { t:'Cellosuite Nr. 1',  c:'J. S. Bach · Prélude (Arr. Viola)',tag:'Empfang', dur:'2:30', root:196.00 },
@@ -366,63 +368,111 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
   const playIcon=document.getElementById('playIcon');
   const npKick=document.getElementById('npKick'), npTitle=document.getElementById('npTitle'), npComposer=document.getElementById('npComposer');
   const elapsedEl=document.getElementById('elapsed');
+  const eqLabel=document.getElementById('eqLabel');
   const player=document.getElementById('player');
   const BARS=48;
   for(let i=0;i<BARS;i++){ const b=document.createElement('span'); b.className='bar'; eq.appendChild(b); }
   const bars=[...eq.children];
 
-  TRACKS.forEach((tr,i)=>{
-    const btn=document.createElement('button'); btn.className='track'+(i===0?' active':''); btn.dataset.i=i;
-    btn.innerHTML='<span class="ti">'+String(i+1).padStart(2,'0')+'</span>'+
-      '<span><span class="tn">'+tr.t+'</span><span class="tc" style="display:block">'+tr.c+'</span></span>'+
-      '<span class="tg">'+tr.tag+'</span><span class="td">'+tr.dur+'</span>';
-    btn.addEventListener('click',()=>select(i,true));
-    playlist.appendChild(btn);
-  });
+  // Playlist: vom Server gerendert (CMS-Tracks) — sonst Demo aufbauen.
+  let buttons=[...playlist.querySelectorAll('.track')];
+  if(!buttons.length){
+    DEMO.forEach((tr,i)=>{
+      const btn=document.createElement('button'); btn.className='track'+(i===0?' active':''); btn.type='button';
+      btn.dataset.title=tr.t; btn.dataset.composer=tr.c; btn.dataset.dur=tr.dur; btn.dataset.root=tr.root;
+      btn.innerHTML='<span class="ti">'+String(i+1).padStart(2,'0')+'</span>'+
+        '<span><span class="tn">'+tr.t+'</span><span class="tc" style="display:block">'+tr.c+'</span></span>'+
+        '<span class="tg">'+tr.tag+'</span><span class="td">'+tr.dur+'</span>';
+      playlist.appendChild(btn);
+    });
+    buttons=[...playlist.children];
+  }
+  const tracks=buttons.map(b=>({
+    t: b.dataset.title || '', c: b.dataset.composer || '',
+    src: b.dataset.src || '', root: parseFloat(b.dataset.root || '261.63'),
+    durEl: b.querySelector('.td')
+  }));
+  buttons.forEach((b,i)=>b.addEventListener('click',()=>select(i,true)));
 
-  let ctx, master, analyser, data, nodes=[], current=0, playing=false, raf, startedAt=0;
+  let ctx, analyser, data, synthGain, mediaGain, audioEl=null, nodes=[];
+  let current=0, playing=false, raf, startedAt=0, mode='synth';
+
   function ensure(){
     if(ctx) return;
     const AC=window.AudioContext||window.webkitAudioContext; if(!AC) return;
-    ctx=new AC(); master=ctx.createGain(); master.gain.value=0;
+    ctx=new AC();
     analyser=ctx.createAnalyser(); analyser.fftSize=128; data=new Uint8Array(analyser.frequencyBinCount);
-    master.connect(analyser); analyser.connect(ctx.destination);
+    synthGain=ctx.createGain(); synthGain.gain.value=0; synthGain.connect(analyser);
+    mediaGain=ctx.createGain(); mediaGain.gain.value=1; mediaGain.connect(analyser);
+    analyser.connect(ctx.destination);
+  }
+  function ensureAudioEl(){
+    if(audioEl) return;
+    audioEl=new Audio(); audioEl.preload='metadata';
+    audioEl.addEventListener('ended',()=>{ if(current<tracks.length-1){ select(current+1,true); } else { pause(); } });
+    audioEl.addEventListener('loadedmetadata',()=>{
+      const tr=tracks[current];
+      if(tr && tr.durEl && !tr.durEl.textContent.trim() && isFinite(audioEl.duration)){
+        const s=Math.round(audioEl.duration);
+        tr.durEl.textContent=Math.floor(s/60)+':'+String(s%60).padStart(2,'0');
+      }
+    });
+    const srcNode=ctx.createMediaElementSource(audioEl);
+    srcNode.connect(mediaGain);
   }
   function stopNodes(){ nodes.forEach(n=>{ try{n.stop();}catch(e){} try{n.disconnect();}catch(e){} }); nodes=[]; }
   function startVoice(root){
-    const lp=ctx.createBiquadFilter(); lp.type='lowpass'; lp.frequency.value=1300; lp.Q.value=.6; lp.connect(master);
+    const lp=ctx.createBiquadFilter(); lp.type='lowpass'; lp.frequency.value=1300; lp.Q.value=.6; lp.connect(synthGain);
     const freqs=[root, root*1.5, root*2]; const gains=[.6,.32,.16];
     const lfo=ctx.createOscillator(); lfo.frequency.value=5.2; const lfoG=ctx.createGain(); lfoG.gain.value=4; lfo.connect(lfoG); lfo.start(); nodes.push(lfo);
     freqs.forEach((f,k)=>{
       const o=ctx.createOscillator(); o.type='sawtooth'; o.frequency.value=f; lfoG.connect(o.detune);
       const g=ctx.createGain(); g.gain.value=gains[k]; o.connect(g); g.connect(lp); o.start(); nodes.push(o);
     });
-    master.gain.cancelScheduledValues(ctx.currentTime);
-    master.gain.setValueAtTime(0.0001, ctx.currentTime);
-    master.gain.exponentialRampToValueAtTime(0.06, ctx.currentTime+0.9);
+    synthGain.gain.cancelScheduledValues(ctx.currentTime);
+    synthGain.gain.setValueAtTime(0.0001, ctx.currentTime);
+    synthGain.gain.exponentialRampToValueAtTime(0.06, ctx.currentTime+0.9);
   }
   function animate(){
     if(playing && analyser){
       analyser.getByteFrequencyData(data);
       for(let i=0;i<BARS;i++){ const v=data[i%data.length]/255; const h=6+v*94; bars[i].style.height=h+'%'; }
-      const s=Math.floor(ctx.currentTime-startedAt); elapsedEl.textContent=Math.floor(s/60)+':'+String(s%60).padStart(2,'0');
+      const s=Math.floor(mode==='media' && audioEl ? audioEl.currentTime : ctx.currentTime-startedAt);
+      elapsedEl.textContent=Math.floor(s/60)+':'+String(s%60).padStart(2,'0');
     }
     raf=requestAnimationFrame(animate);
   }
-  function setMeta(i){ const tr=TRACKS[i]; npKick.textContent='Klangskizze läuft'; npTitle.textContent=tr.t; npComposer.textContent=tr.c;
-    [...playlist.children].forEach((el,k)=>el.classList.toggle('active',k===i)); }
+  function setMeta(i){
+    const tr=tracks[i]; npTitle.textContent=tr.t; npComposer.textContent=tr.c;
+    buttons.forEach((el,k)=>el.classList.toggle('active',k===i));
+    if(eqLabel) eqLabel.textContent=tr.src?'Aufnahme':'Klangskizze';
+  }
   function play(i){
     ensure(); if(!ctx){ return; }
     if(ctx.state==='suspended') ctx.resume();
-    stopNodes(); current=i; startVoice(TRACKS[i].root); startedAt=ctx.currentTime;
+    stopNodes();
+    if(audioEl && !audioEl.paused) audioEl.pause();
+    current=i;
+    const tr=tracks[i];
+    if(tr.src){
+      mode='media'; ensureAudioEl();
+      const abs=new URL(tr.src, location.href).href;
+      if(audioEl.src!==abs){ audioEl.src=tr.src; }
+      audioEl.play().catch(()=>{ npKick.textContent='Wiedergabe nicht möglich'; });
+      npKick.textContent='Aufnahme läuft';
+    } else {
+      mode='synth'; startVoice(tr.root); startedAt=ctx.currentTime;
+      npKick.textContent='Klangskizze läuft';
+    }
     playing=true; player.classList.add('playing'); playIcon.innerHTML='<rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/>';
-    setMeta(i); npKick.textContent='Klangskizze läuft';
+    setMeta(i);
     cancelAnimationFrame(raf); animate();
   }
   function pause(){
     playing=false; player.classList.remove('playing');
     playIcon.innerHTML='<path d="M8 5v14l11-7z"/>';
-    if(ctx){ master.gain.cancelScheduledValues(ctx.currentTime); master.gain.setValueAtTime(master.gain.value, ctx.currentTime); master.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime+0.4); setTimeout(stopNodes,420); }
+    if(mode==='media' && audioEl){ audioEl.pause(); }
+    else if(ctx){ synthGain.gain.cancelScheduledValues(ctx.currentTime); synthGain.gain.setValueAtTime(synthGain.gain.value, ctx.currentTime); synthGain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime+0.4); setTimeout(stopNodes,420); }
     bars.forEach(b=>b.style.height='6%'); npKick.textContent='Pausiert';
   }
   function select(i,autoplay){ current=i; if(playing){ play(i); } else { setMeta(i); npKick.textContent='Jetzt ausgewählt'; if(autoplay) play(i); } }

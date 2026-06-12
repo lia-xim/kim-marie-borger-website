@@ -1,7 +1,12 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
+import Img from '../Img.astro';
 
 const { data } = Astro.props;
+const tracks = (data.tracks ?? []).filter((t: unknown) => t !== null);
+const first = tracks[0];
+const hasReal = tracks.some((t: any) => t.src);
+const pad2 = (n: number) => String(n).padStart(2, '0');
 ---
 <section class="section bg-paper2">
 	<div class="wrap audio-split">
@@ -15,11 +20,11 @@ const { data } = Astro.props;
 
 		<div class="player reveal d1" id="player">
 			<div class="player-now">
-				<div class="player-art"><img src="/uploads/mq0uz91j-viola-6668608_1280.jpg" alt=""></div>
+				<div class="player-art"><Img src={data.art?.src ?? '/uploads/mq0uz91j-viola-6668608_1280.jpg'} alt={data.art?.alt ?? ''} sizes="120px" data-tina-field={data.art ? tinaField(data, 'art') : undefined} /></div>
 				<div class="player-meta">
 					<div class="pk" id="npKick">Jetzt ausgewählt</div>
-					<div class="pt" id="npTitle">Méditation</div>
-					<div class="pc" id="npComposer">Jules Massenet · aus „Thaïs“</div>
+					<div class="pt" id="npTitle">{first?.title ?? 'Méditation'}</div>
+					<div class="pc" id="npComposer">{first?.composer ?? 'Jules Massenet · aus „Thaïs“'}</div>
 				</div>
 				<div class="player-ctrl">
 					<button class="pbtn play" id="playBtn" aria-label="Abspielen">
@@ -28,8 +33,24 @@ const { data } = Astro.props;
 				</div>
 			</div>
 			<div class="eq" id="eq" aria-hidden="true"></div>
-			<div class="eq-time"><span>Klangskizze</span><span class="now" id="elapsed">0:00</span></div>
-			<div class="playlist" id="playlist"></div>
+			<div class="eq-time"><span id="eqLabel">{hasReal ? 'Aufnahme' : 'Klangskizze'}</span><span class="now" id="elapsed">0:00</span></div>
+			<div class="playlist" id="playlist">
+				{tracks.map((t: any, i: number) => (
+					<button
+						class={`track${i === 0 ? ' active' : ''}`}
+						type="button"
+						data-src={t.src || undefined}
+						data-title={t.title}
+						data-composer={t.composer ?? ''}
+						data-dur={t.dur ?? ''}
+						data-tina-field={tinaField(t)}
+					>
+						<span class="ti">{pad2(i + 1)}</span>
+						<span><span class="tn">{t.title}</span><span class="tc" style="display:block">{t.composer}</span></span>
+						<span class="tg">{t.tag}</span><span class="td">{t.dur}</span>
+					</button>
+				))}
+			</div>
 			{data.note && <div class="player-foot" data-tina-field={tinaField(data, 'note')}><span class="pip"></span>{data.note}</div>}
 		</div>
 	</div>

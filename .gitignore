@@ -53,6 +53,9 @@ node_modules/
 # Astro
 .astro
 
+# Audio-Master (Quelldateien für optimize:audio — nur lokal)
+audio-src/
+
 # builds
 .vercel
 dist

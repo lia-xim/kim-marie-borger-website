@@ -1,5 +1,6 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
+import Img from '../Img.astro';
 
 const { data } = Astro.props;
 const bgClass = data.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
@@ -17,11 +18,11 @@ const titleStyle = `margin:18px 0 22px;max-width:${data.titleWidth ?? '18ch'};`;
 		{data.imageFirst && (
 			<div class={`figure${figureClass} reveal`} style="order:0;">
 				<div class="frame" style={frameStyle}>
-					<img data-parallax="0.05" src={data.image?.src} alt={data.image?.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')}>
+					<Img data-parallax="0.05" src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')} />
 				</div>
 				{data.secondImage?.src && (
 					<div class="frame" style={frameStyle}>
-						<img data-parallax="0.05" src={data.secondImage.src} alt={data.secondImage.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'secondImage')}>
+						<Img data-parallax="0.05" src={data.secondImage.src} alt={data.secondImage.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaField(data, 'secondImage')} />
 					</div>
 				)}
 				{data.seal && <span class="seal" data-tina-field={tinaField(data, 'seal')}>{sealLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}</span>}
@@ -48,20 +49,20 @@ const titleStyle = `margin:18px 0 22px;max-width:${data.titleWidth ?? '18ch'};`;
 		</div>
 		{!data.imageFirst && twin && (
 			<div class="twin reveal d2">
-				<div class="tframe float-soft"><img src={data.image?.src} alt={data.image?.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')}></div>
+				<div class="tframe float-soft"><Img src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 46vw, 22vw" loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')} /></div>
 				{data.secondImage?.src && (
-					<div class="tframe"><img src={data.secondImage.src} alt={data.secondImage.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'secondImage')}></div>
+					<div class="tframe"><Img src={data.secondImage.src} alt={data.secondImage.alt ?? ''} sizes="(max-width: 900px) 46vw, 22vw" loading="lazy" decoding="async" data-tina-field={tinaField(data, 'secondImage')} /></div>
 				)}
 			</div>
 		)}
 		{!data.imageFirst && !twin && (
 			<div class={`figure${figureClass} reveal d2`}>
 				<div class="frame" style={frameStyle}>
-					<img data-parallax="0.06" src={data.image?.src} alt={data.image?.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')}>
+					<Img data-parallax="0.06" src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')} />
 				</div>
 				{data.secondImage?.src && (
 					<div class="frame" style={frameStyle}>
-						<img data-parallax="0.06" src={data.secondImage.src} alt={data.secondImage.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'secondImage')}>
+						<Img data-parallax="0.06" src={data.secondImage.src} alt={data.secondImage.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaField(data, 'secondImage')} />
 					</div>
 				)}
 				{data.seal && <span class="seal" data-tina-field={tinaField(data, 'seal')}>{sealLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}</span>}

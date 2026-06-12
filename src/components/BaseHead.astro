@@ -15,7 +15,8 @@ import '@fontsource/manrope/300.css';
 import '@fontsource/manrope/400.css';
 import '@fontsource/manrope/500.css';
 import '@fontsource/manrope/600.css';
-import '@fontsource/manrope/700.css';
+
+import { buildSrcset, isOptimizable, onVercel } from '../lib/img';
 
 interface Props {
 	title: string;
@@ -26,6 +27,10 @@ interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const { title, description, image = '/uploads/mq0uvv7v-20250327-DSC01550.jpg' } = Astro.props;
+
+// LCP: das Hero-Bild der Seite vorladen — mit demselben srcset wie im Markup,
+// damit Preload und <img> exakt dieselbe Variante treffen.
+const heroPreload = onVercel && isOptimizable(image) ? buildSrcset(image) : null;
 ---
 
 <meta charset="utf-8" />
@@ -39,6 +44,10 @@ const { title, description, image = '/uploads/mq0uvv7v-20250327-DSC01550.jpg' } 
 <!-- Tina Cloud rewrites media URLs to assets.tina.io in production; warm the connection. -->
 <link rel="preconnect" href="https://assets.tina.io" crossorigin />
 <link rel="dns-prefetch" href="https://assets.tina.io" />
+
+{heroPreload && (
+	<link rel="preload" as="image" imagesrcset={heroPreload.srcset} imagesizes="100vw" fetchpriority="high" />
+)}
 
 <link rel="canonical" href={canonicalURL} />
 

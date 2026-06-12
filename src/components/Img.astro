@@ -1,0 +1,36 @@
+---
+/**
+ * Drop-in-Ersatz für <img> auf CMS-Bildern (public/uploads):
+ * - srcset über Vercel Image Optimization (AVIF/WebP, responsive Breiten)
+ * - width/height aus dem Build-Manifest gegen Layout-Shift (CLS)
+ * - außerhalb von Vercel (lokal): unverändertes Originalbild
+ * Alle weiteren Attribute (class, loading, data-tina-field, …) werden
+ * 1:1 durchgereicht.
+ */
+import { buildSrcset, imageDims, isOptimizable, onVercel } from '../lib/img';
+
+interface Props {
+	src?: string | null;
+	alt?: string;
+	sizes?: string;
+	quality?: number;
+	[key: string]: unknown;
+}
+
+const { src, alt = '', sizes = '100vw', quality = 75, ...rest } = Astro.props;
+
+const dims = imageDims(src ?? undefined);
+const optimized = onVercel && isOptimizable(src);
+const set = optimized ? buildSrcset(src as string, quality) : undefined;
+---
+{src && (
+	<img
+		src={set ? set.fallback : src}
+		srcset={set?.srcset}
+		sizes={set ? sizes : undefined}
+		alt={alt}
+		width={dims?.width}
+		height={dims?.height}
+		{...rest}
+	/>
+)}

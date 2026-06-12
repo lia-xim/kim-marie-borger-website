@@ -1,5 +1,6 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
+import Img from '../Img.astro';
 
 const { data } = Astro.props;
 const tiles = (data.tiles ?? []).filter((t: unknown) => t !== null);
@@ -13,7 +14,7 @@ const url = data.url ?? '#';
 		<div class="ig-grid reveal d1">
 			{tiles.map((tile: any) => (
 				<a class="ig-tile" href={url} target="_blank" rel="noopener" data-tina-field={tinaField(tile)}>
-					<img src={tile.image?.src} alt={tile.image?.alt ?? ''} loading="lazy" decoding="async">
+					<Img src={tile.image?.src} alt={tile.image?.alt ?? ''} sizes="(max-width: 700px) 94vw, 31vw" loading="lazy" decoding="async" />
 					<span class="ig-ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></span>
 				</a>
 			))}
