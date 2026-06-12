@@ -8,7 +8,11 @@ import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
+	// SITE_URL gewinnt; sonst die Produktions-Domain des Vercel-Projekts (passt
+	// sich automatisch an, wenn eine eigene Domain verbunden wird), dann die
+	// Deployment-URL (Previews), dann localhost (lokale Builds).
 	site: process.env.SITE_URL
+		|| (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : '')
 		|| (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:4321'),
 	output: 'static',
 	adapter: vercel(),

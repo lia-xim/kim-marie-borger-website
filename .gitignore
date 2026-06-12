@@ -56,3 +56,5 @@ node_modules/
 # builds
 .vercel
 dist
+
+.vercel
