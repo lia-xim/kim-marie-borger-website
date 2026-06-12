@@ -1,0 +1,20 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+const items = (data.items ?? []).filter((i: unknown) => i !== null);
+const delays = ['', ' d1', ' d2'];
+---
+<section class="section bg-paper2">
+	<div class="wrap">
+		{data.eyebrow && <p class="eyebrow reveal" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+		<div class="words">
+			{items.map((item: any, i: number) => (
+				<div class={`word-row reveal${delays[i % 3]}`} data-tina-field={tinaField(item)}>
+					<span class="w">{item.word}</span>
+					<span class="note">{item.note}</span>
+				</div>
+			))}
+		</div>
+	</div>
+</section>

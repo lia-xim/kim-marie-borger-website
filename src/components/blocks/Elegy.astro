@@ -1,0 +1,24 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+const passages = (data.passages ?? []).filter((p: unknown) => p !== null);
+---
+<section class="section">
+	<div class="wrap">
+		<div class="elegy">
+			<div class="reveal">
+				<svg class="fermata" viewBox="0 0 44 30" fill="none" aria-hidden="true" style="width:44px;height:30px;">
+					<path d="M2 26 C7 6, 37 6, 42 26" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+					<circle cx="22" cy="22" r="3" fill="currentColor"/>
+				</svg>
+				{data.quote && <p class="e-quote" data-tina-field={tinaField(data, 'quote')}>{data.quote}</p>}
+			</div>
+			<div class="e-right reveal d1">
+				{passages.map((item: any) => (
+					<p data-tina-field={tinaField(item)}><b data-tina-field={tinaField(item, 'strong')}>{item.strong}</b>{item.text}</p>
+				))}
+			</div>
+		</div>
+	</div>
+</section>

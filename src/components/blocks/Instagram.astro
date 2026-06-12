@@ -1,0 +1,26 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+const tiles = (data.tiles ?? []).filter((t: unknown) => t !== null);
+const url = data.url ?? '#';
+---
+<section class="section bg-rose">
+	<div class="wrap">
+		{data.eyebrow && <p class="eyebrow reveal" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+		{data.title && <h2 class="display-m reveal" style="margin-top:14px;max-width:22ch;" data-tina-field={tinaField(data, 'title')}>{data.title}</h2>}
+		{data.lead && <p class="lead reveal d1" style="margin-top:14px;" data-tina-field={tinaField(data, 'lead')}>{data.lead}</p>}
+		<div class="ig-grid reveal d1">
+			{tiles.map((tile: any) => (
+				<a class="ig-tile" href={url} target="_blank" rel="noopener" data-tina-field={tinaField(tile)}>
+					<img src={tile.image?.src} alt={tile.image?.alt ?? ''} loading="lazy" decoding="async">
+					<span class="ig-ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></span>
+				</a>
+			))}
+		</div>
+		<div class="reveal d2" style="margin-top:28px;display:flex;gap:18px;flex-wrap:wrap;align-items:center;">
+			{data.handle && <a href={url} target="_blank" rel="noopener" class="btn btn-solid" data-tina-field={tinaField(data, 'handle')}>@{data.handle} folgen <span class="ar">→</span></a>}
+			{data.note && <span class="ksmall" data-tina-field={tinaField(data, 'note')}>{data.note}</span>}
+		</div>
+	</div>
+</section>

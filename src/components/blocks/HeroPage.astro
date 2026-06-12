@@ -1,0 +1,21 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+const titleLines: string[] = (data.title ?? '').split('\n');
+---
+<section class="hero hero-page">
+	<div class="hero-photo"><img data-parallax="0.12" src={data.image?.src} alt={data.image?.alt ?? ''} fetchpriority="high" decoding="async" data-tina-field={tinaField(data, 'image')} /></div>
+	<div class="hero-scrim" aria-hidden="true"></div>
+	<div class="hero-mat" aria-hidden="true"></div>
+	<div class="hero-content">
+		<div class="hero-inner">
+			{data.eyebrow && <p class="eyebrow ho ho-1" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+			<h1 class="hp-title ho ho-2" data-tina-field={tinaField(data, 'title')}>
+				{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
+			</h1>
+			{data.lead && <p class="hp-lead ho ho-2" data-tina-field={tinaField(data, 'lead')}>{data.lead}</p>}
+			{data.badge && <div class="ho ho-3"><span class="consult-badge" data-tina-field={tinaField(data, 'badge')}><i aria-hidden="true"></i>{data.badge}</span></div>}
+		</div>
+	</div>
+</section>

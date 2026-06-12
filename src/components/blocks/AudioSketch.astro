@@ -1,0 +1,36 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+---
+<section class="section bg-paper2">
+	<div class="wrap audio-split">
+		<div class="reveal">
+			{data.eyebrow && <p class="eyebrow" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+			{data.title && <h2 class="display-m" style="margin:16px 0 18px;" data-tina-field={tinaField(data, 'title')}>{data.title}</h2>}
+			{data.lead && <p class="lead" data-tina-field={tinaField(data, 'lead')}>{data.lead}</p>}
+			{data.castLabel && <p class="ksmall" style="margin-top:26px;" data-tina-field={tinaField(data, 'castLabel')}>{data.castLabel}</p>}
+			{data.castText && <p class="lead" style="margin-top:8px;" data-tina-field={tinaField(data, 'castText')}>{data.castText}</p>}
+		</div>
+
+		<div class="player reveal d1" id="player">
+			<div class="player-now">
+				<div class="player-art"><img src="/uploads/mq0uz91j-viola-6668608_1280.jpg" alt=""></div>
+				<div class="player-meta">
+					<div class="pk" id="npKick">Jetzt ausgewählt</div>
+					<div class="pt" id="npTitle">Méditation</div>
+					<div class="pc" id="npComposer">Jules Massenet · aus „Thaïs“</div>
+				</div>
+				<div class="player-ctrl">
+					<button class="pbtn play" id="playBtn" aria-label="Abspielen">
+						<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" id="playIcon"><path d="M8 5v14l11-7z"/></svg>
+					</button>
+				</div>
+			</div>
+			<div class="eq" id="eq" aria-hidden="true"></div>
+			<div class="eq-time"><span>Klangskizze</span><span class="now" id="elapsed">0:00</span></div>
+			<div class="playlist" id="playlist"></div>
+			{data.note && <div class="player-foot" data-tina-field={tinaField(data, 'note')}><span class="pip"></span>{data.note}</div>}
+		</div>
+	</div>
+</section>

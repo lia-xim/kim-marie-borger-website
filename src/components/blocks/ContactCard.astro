@@ -1,0 +1,47 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+import { getConfig } from '../../lib/data';
+
+const { data } = Astro.props;
+const bgClass = data?.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
+const config = (await getConfig()).data?.config ?? null;
+const contact = config?.contact ?? null;
+const checklist = (contact?.checklist ?? []).filter((c: unknown) => c !== null);
+---
+<section class={`section${bgClass}`} id={data?.anchorId || 'kontakt'}>
+	<div class="wrap">
+		<div class="contact-card form-first">
+			<aside class="contact-aside reveal">
+				{contact?.asideImage && <img class="c-bg" src={contact.asideImage} alt="" aria-hidden="true" loading="lazy">}
+				{contact?.eyebrow && <p class="eyebrow" data-tina-field={contact ? tinaField(contact, 'eyebrow') : undefined}>{contact.eyebrow}</p>}
+				{contact?.title && <h2 class="display-s" style="margin:16px 0 14px;" data-tina-field={contact ? tinaField(contact, 'title') : undefined}>{contact.title}</h2>}
+				{contact?.lead && <p class="lead" data-tina-field={contact ? tinaField(contact, 'lead') : undefined}>{contact.lead}</p>}
+				{checklist.length > 0 && (
+					<div class="checklist">
+						{checklist.map((c: string) => <span>{c}</span>)}
+					</div>
+				)}
+				<div class="c-rows">
+					<div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><div><div class="ck">E-Mail</div><a class="cv" href={`mailto:${contact?.email ?? ''}`}>{contact?.email}</a></div></div>
+					<div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><div class="ck">Einsatzgebiet</div><span class="cv">{contact?.area}</span></div></div>
+				</div>
+			</aside>
+			<div class="form-panel">
+				<div class="fp-head reveal">
+					{contact?.formEyebrow && <p class="eyebrow" data-tina-field={contact ? tinaField(contact, 'formEyebrow') : undefined}>{contact.formEyebrow}</p>}
+					{contact?.formTitle && <h3 class="display-s" style="margin-top:10px;" data-tina-field={contact ? tinaField(contact, 'formTitle') : undefined}>{contact.formTitle}</h3>}
+				</div>
+				<form class="reveal d1" id="anfrageForm" novalidate>
+					<input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;height:0;width:0;opacity:0;" />
+					<div class="row-2">
+						<div class="field"><label for="f-name">Name</label><input id="f-name" type="text" name="name" placeholder="Dein Name" required></div>
+						<div class="field"><label for="f-mail">E-Mail</label><input id="f-mail" type="email" name="email" placeholder="dein@email.de" required></div>
+					</div>
+					<div class="field"><label for="f-msg">Nachricht <span class="opt">(optional)</span></label><textarea id="f-msg" name="nachricht" placeholder="Erzähl mir von deinem Anlass — gern mit Datum, Ort und Wünschen …"></textarea></div>
+					<button type="submit" class="btn btn-solid" style="width:100%;justify-content:center;">Anfrage senden <span class="ar">→</span></button>
+					<div class="form-ok" id="formOk">{contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'}</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>

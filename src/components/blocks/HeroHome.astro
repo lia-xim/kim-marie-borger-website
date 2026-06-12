@@ -1,0 +1,27 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+---
+<section class="hero" id="home">
+	<div class="hero-photo"><img data-parallax="0.12" src={data.image?.src} alt={data.image?.alt ?? ''} fetchpriority="high" decoding="async" data-tina-field={tinaField(data, 'image')} /></div>
+	<div class="hero-scrim" aria-hidden="true"></div>
+	<div class="hero-mat" aria-hidden="true"></div>
+	{data.rail && <span class="hero-rail" aria-hidden="true" data-tina-field={tinaField(data, 'rail')}>{data.rail}</span>}
+
+	<div class="hero-content">
+		<div class="hero-inner">
+			{data.eyebrow && <p class="eyebrow ho ho-1" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+			<h1 class="hero-name">
+				<span class="line"><span class="t" data-tina-field={tinaField(data, 'nameLine1')}>{data.nameLine1}</span></span>
+				<span class="line"><span class="t it" data-tina-field={tinaField(data, 'nameLine2')}>{data.nameLine2}</span></span>
+			</h1>
+			<p class="hero-tag ho ho-2" data-tina-field={tinaField(data, 'taglineBefore')}>{data.taglineBefore}&nbsp;<em style="color:var(--brass-hi)">{data.taglineAccent}</em></p>
+			{data.sub && <p class="hero-sub ho ho-2" data-tina-field={tinaField(data, 'sub')}>{data.sub}</p>}
+			<div class="hero-actions ho ho-3">
+				{data.primaryCta?.label && <a href={data.primaryCta.link ?? '#'} class="btn btn-solid" data-tina-field={tinaField(data, 'primaryCta')}>{data.primaryCta.label} <span class="ar">→</span></a>}
+				{data.secondaryCta?.label && <a href={data.secondaryCta.link ?? '#'} class="btn-text" data-tina-field={tinaField(data, 'secondaryCta')}>{data.secondaryCta.label} <span class="ar">→</span></a>}
+			</div>
+		</div>
+	</div>
+</section>

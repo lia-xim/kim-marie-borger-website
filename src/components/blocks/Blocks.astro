@@ -1,0 +1,72 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+import HeroHome from './HeroHome.astro';
+import HeroPage from './HeroPage.astro';
+import Statement from './Statement.astro';
+import Cards from './Cards.astro';
+import Solemn from './Solemn.astro';
+import Collage from './Collage.astro';
+import Split from './Split.astro';
+import Quote from './Quote.astro';
+import Timeline from './Timeline.astro';
+import Setlist from './Setlist.astro';
+import Faq from './Faq.astro';
+import ContactCard from './ContactCard.astro';
+import Html from './Html.astro';
+import Marquee from './Marquee.astro';
+import Elegy from './Elegy.astro';
+import Moods from './Moods.astro';
+import Triptych from './Triptych.astro';
+import Programme from './Programme.astro';
+import Sched from './Sched.astro';
+import Ledger from './Ledger.astro';
+import LearnDeck from './LearnDeck.astro';
+import Steps from './Steps.astro';
+import Instagram from './Instagram.astro';
+import Words from './Words.astro';
+import AudioSketch from './AudioSketch.astro';
+import VideoFeature from './VideoFeature.astro';
+import CtaBand from './CtaBand.astro';
+import type { CmsPage } from '../../lib/data';
+
+interface Props {
+	data?: CmsPage | null;
+}
+
+const { data } = Astro.props;
+const blocks = (data?.blocks ?? []).filter((b) => b !== null);
+---
+{blocks.map((block) => {
+	const rendered = (() => {
+		switch (block.__typename) {
+			case 'PageBlocksHeroHome': return <HeroHome data={block} />;
+			case 'PageBlocksHeroPage': return <HeroPage data={block} />;
+			case 'PageBlocksStatement': return <Statement data={block} />;
+			case 'PageBlocksCards': return <Cards data={block} />;
+			case 'PageBlocksSolemn': return <Solemn data={block} />;
+			case 'PageBlocksCollage': return <Collage data={block} />;
+			case 'PageBlocksSplit': return <Split data={block} />;
+			case 'PageBlocksQuote': return <Quote data={block} />;
+			case 'PageBlocksTimeline': return <Timeline data={block} />;
+			case 'PageBlocksSetlist': return <Setlist data={block} />;
+			case 'PageBlocksFaq': return <Faq data={block} />;
+			case 'PageBlocksContactCard': return <ContactCard data={block} />;
+			case 'PageBlocksMarquee': return <Marquee data={block} />;
+			case 'PageBlocksElegy': return <Elegy data={block} />;
+			case 'PageBlocksMoods': return <Moods data={block} />;
+			case 'PageBlocksTriptych': return <Triptych data={block} />;
+			case 'PageBlocksProgramme': return <Programme data={block} />;
+			case 'PageBlocksSched': return <Sched data={block} />;
+			case 'PageBlocksLedger': return <Ledger data={block} />;
+			case 'PageBlocksLearnDeck': return <LearnDeck data={block} />;
+			case 'PageBlocksSteps': return <Steps data={block} />;
+			case 'PageBlocksInstagram': return <Instagram data={block} />;
+			case 'PageBlocksWords': return <Words data={block} />;
+			case 'PageBlocksAudioSketch': return <AudioSketch data={block} />;
+			case 'PageBlocksVideoFeature': return <VideoFeature data={block} />;
+			case 'PageBlocksCtaBand': return <CtaBand data={block} />;
+			case 'PageBlocksHtml': return <Html data={block} />;
+		}
+	})();
+	return <div data-tina-field={tinaField(block)}>{rendered}</div>;
+})}

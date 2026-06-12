@@ -1,0 +1,33 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+const items = (data.items ?? []).filter((i: unknown) => i !== null);
+const titleLines: string[] = (data.title ?? '').split('\n');
+const delays = ['', ' d1', ' d2'];
+const roman = (n: number): string => {
+	const map: [number, string][] = [[10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']];
+	let out = '';
+	for (const [value, symbol] of map) {
+		while (n >= value) { out += symbol; n -= value; }
+	}
+	return out;
+};
+---
+<section class="section bg-rose">
+	<div class="wrap">
+		{data.eyebrow && <p class="eyebrow reveal" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+		{data.title && <h2 class="display-m reveal" style="margin-top:14px;max-width:22ch;" data-tina-field={tinaField(data, 'title')}>
+			{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
+		</h2>}
+		<div class="learn-deck">
+			{items.map((item: any, i: number) => (
+				<div class={`ld-card${item.tone && item.tone !== 'none' ? ` ${item.tone}` : ''} reveal${delays[i % 3]}`} data-tina-field={tinaField(item)}>
+					<span class="num" aria-hidden="true">{roman(i + 1)}</span>
+					<b>{item.title}</b>
+					<p>{item.text}</p>
+				</div>
+			))}
+		</div>
+	</div>
+</section>

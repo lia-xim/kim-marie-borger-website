@@ -1,0 +1,63 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import TinaIsland from '@tinacms/astro/TinaIsland.astro';
+import { getConfig } from '../lib/data';
+import { islands } from '../lib/islands';
+
+interface Props {
+	title: string;
+	description: string;
+	image?: string;
+	bodyClass?: string;
+}
+
+const { title, description, image, bodyClass } = Astro.props;
+const config = (await getConfig()).data?.config ?? null;
+
+// Structured data: musician + website, fed from the editable global config.
+const sameAs = [config?.footer?.instagram, config?.footer?.youtube].filter(Boolean);
+const jsonLd = {
+	'@context': 'https://schema.org',
+	'@graph': [
+		{
+			'@type': 'Person',
+			'@id': new URL('/#person', Astro.site ?? Astro.url).href,
+			name: config?.brand?.name ?? 'Kim Marie Borger',
+			jobTitle: 'Bratschistin',
+			description: config?.seo?.description,
+			email: config?.contact?.email ? `mailto:${config.contact.email}` : undefined,
+			url: (Astro.site ?? Astro.url).href,
+			...(sameAs.length ? { sameAs } : {}),
+			knowsAbout: ['Viola', 'Hochzeitsmusik', 'Trauermusik', 'Kammermusik', 'Musikunterricht'],
+		},
+		{
+			'@type': 'WebSite',
+			'@id': new URL('/#website', Astro.site ?? Astro.url).href,
+			name: config?.seo?.title ?? 'Kim Marie Borger · Viola',
+			url: (Astro.site ?? Astro.url).href,
+			inLanguage: 'de',
+			publisher: { '@id': new URL('/#person', Astro.site ?? Astro.url).href },
+		},
+	],
+};
+---
+
+<!doctype html>
+<html lang="de">
+	<head>
+		<BaseHead title={title} description={description} image={image} />
+		<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+	</head>
+	<body class={bodyClass || undefined}>
+		<TinaIsland name="global" wrapper={islands.global.wrapper}>
+			<Header config={config} />
+		</TinaIsland>
+		<slot />
+		<TinaIsland name="global-footer" wrapper={islands['global-footer'].wrapper}>
+			<Footer config={config} />
+		</TinaIsland>
+		<script src="../scripts/kmb.js"></script>
+	</body>
+</html>

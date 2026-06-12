@@ -1,0 +1,27 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+const bgClass = data.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
+const items = (data.items ?? []).filter((i: unknown) => i !== null);
+const titleLines: string[] = (data.title ?? '').split('\n');
+---
+<section class={`section${bgClass}`}>
+	<div class="wrap">
+		{data.eyebrow && <p class="eyebrow reveal" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+		{data.title && <h2 class="display-m reveal" style="margin-top:14px;max-width:20ch;" data-tina-field={tinaField(data, 'title')}>
+			{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
+		</h2>}
+		{data.lead && <p class="lead reveal d1" style="margin-top:14px;" data-tina-field={tinaField(data, 'lead')}>{data.lead}</p>}
+		<ol class="timeline">
+			{items.map((item: any) => (
+				<li class="reveal" data-tina-field={tinaField(item)}>
+					{item.kicker && <span class="tl-k">{item.kicker}</span>}
+					<h3>{item.title}</h3>
+					<p>{item.text}</p>
+					{item.piece && <span class="tl-piece">{item.piece}</span>}
+				</li>
+			))}
+		</ol>
+	</div>
+</section>

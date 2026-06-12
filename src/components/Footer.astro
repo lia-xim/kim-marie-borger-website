@@ -1,0 +1,54 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+import type { CmsConfig } from '../lib/data';
+
+interface Props {
+	config?: CmsConfig | null;
+}
+
+const { config } = Astro.props;
+const brand = config?.brand ?? null;
+const footer = config?.footer ?? null;
+const email = config?.contact?.email ?? 'kim-marie.borger@t-online.de';
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+	<div class="wrap">
+		<div class="footer-top">
+			<div class="f-brand">
+				<span class="name" data-tina-field={brand ? tinaField(brand, 'name') : undefined}>{brand?.name ?? 'Kim Marie Borger'}</span>
+				<p data-tina-field={footer ? tinaField(footer, 'text') : undefined}>{footer?.text}</p>
+				<p class="f-sign" data-tina-field={footer ? tinaField(footer, 'sign') : undefined}>{footer?.sign}</p>
+			</div>
+			<div><h4>Anlässe</h4><ul>
+				<li><a href="/hochzeiten">Hochzeit</a></li>
+				<li><a href="/beerdigungen">Beerdigung / Trauerfeier</a></li>
+				<li><a href="/geburtstage">Geburtstag</a></li>
+				<li><a href="/taufen">Taufe</a></li>
+				<li><a href="/konzerte">Konzert / Event</a></li>
+				<li><a href="/firmenfeiern">Firmenfeier</a></li>
+				<li><a href="/unterricht">Unterricht</a></li>
+			</ul></div>
+			<div><h4>Seiten</h4><ul>
+				<li><a href="/">Start</a></li>
+				<li><a href="/leistungen">Leistungen</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
+				<li><a href="/ueber-mich">Über mich</a></li>
+				<li><a href="/anfragen">Anfrage</a></li>
+			</ul></div>
+			<div><h4>Kontakt</h4><ul>
+				<li><a href={`mailto:${email}`}>{email}</a></li>
+				{footer?.instagram && <li><a href={footer.instagram} rel="noopener" target="_blank">Instagram</a></li>}
+				{footer?.youtube && <li><a href={footer.youtube} rel="noopener" target="_blank">YouTube</a></li>}
+			</ul></div>
+		</div>
+		<div class="footer-bottom">
+			<span>© <span id="year">{year}</span> Kim Marie Borger · Viola</span>
+			<span style="display:flex;gap:22px;">
+				<a href={footer?.impressum || '#'}>Impressum</a>
+				<a href={footer?.datenschutz || '#'}>Datenschutz</a>
+			</span>
+		</div>
+	</div>
+</footer>

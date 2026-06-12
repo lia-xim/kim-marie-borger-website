@@ -1,0 +1,27 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+const items = (data.items ?? []).filter((i: unknown) => i !== null);
+
+function roman(n: number): string {
+	const map: [number, string][] = [[10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']];
+	let out = '';
+	for (const [v, s] of map) { while (n >= v) { out += s; n -= v; } }
+	return out;
+}
+---
+<section class="section">
+	<div class="wrap">
+		{data.eyebrow && <p class="eyebrow reveal" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+		{data.title && <h2 class="display-m reveal" style="margin-top:14px;max-width:22ch;" data-tina-field={tinaField(data, 'title')}>{data.title}</h2>}
+		{data.lead && <p class="lead reveal d1" style="margin-top:14px;" data-tina-field={tinaField(data, 'lead')}>{data.lead}</p>}
+		<div class="setlist reveal d1">
+			{items.map((item: any, i: number) => (
+				<div class={`set-li${item.you ? ' you' : ''}`} data-tina-field={tinaField(item)}>
+					<span class="no">{roman(i + 1)}.</span><b>{item.title}</b><span class="dots" aria-hidden="true"></span><span class="by">{item.by}</span>
+				</div>
+			))}
+		</div>
+	</div>
+</section>

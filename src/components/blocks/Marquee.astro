@@ -1,0 +1,12 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+const lines = (data.lines ?? []).filter((i: unknown) => i !== null);
+---
+<div class="marquee" aria-hidden="true">
+	<div class="marquee-track">
+		{lines.map((line: string, i: number) => <i data-tina-field={tinaField(data, 'lines', i)}>{line}</i>)}
+		{lines.map((line: string, i: number) => <i data-tina-field={tinaField(data, 'lines', i)}>{line}</i>)}
+	</div>
+</div>

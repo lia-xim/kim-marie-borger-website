@@ -1,0 +1,12 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+---
+<section class="section bg-bordeaux" style="text-align:center;">
+	<div class="wrap">
+		{data.eyebrow && <p class="eyebrow c reveal" style="margin-bottom:30px;" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+		<blockquote class="bigquote reveal d1" data-tina-field={tinaField(data, 'before')}>{data.before}{data.mark && <span class="mk">{data.mark}</span>}{data.after}</blockquote>
+		{data.attribution && <p class="quote-by reveal d2" data-tina-field={tinaField(data, 'attribution')}>{data.attribution}</p>}
+	</div>
+</section>

@@ -1,0 +1,25 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+const items = (data.items ?? []).filter((i: unknown) => i !== null);
+const delay = ['', ' d1', ' d2'];
+const titleLines: string[] = (data.title ?? '').split('\n');
+---
+<section class="section">
+	<div class="wrap">
+		{data.eyebrow && <p class="eyebrow c reveal" style="justify-content:center;display:flex;" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+		{data.title && <h2 class="display-m reveal" style="text-align:center;margin:14px auto 0;" data-tina-field={tinaField(data, 'title')}>
+			{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
+		</h2>}
+		<div class="triptych">
+			{items.map((item: any, i: number) => (
+				<div class={`tri reveal${delay[i % 3]}`} data-tina-field={tinaField(item)}>
+					<span class="rom">{item.rom}</span>
+					<h3>{item.title}</h3>
+					<p>{item.text}</p>
+				</div>
+			))}
+		</div>
+	</div>
+</section>

@@ -1,0 +1,60 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+import type { CmsConfig } from '../lib/data';
+
+interface Props {
+	config?: CmsConfig | null;
+}
+
+const { config } = Astro.props;
+const brand = config?.brand ?? null;
+const email = config?.contact?.email ?? 'kim-marie.borger@t-online.de';
+
+const leistungen = [
+	{ href: '/hochzeiten', label: 'Hochzeit' },
+	{ href: '/beerdigungen', label: 'Beerdigung / Trauerfeier' },
+	{ href: '/geburtstage', label: 'Geburtstag' },
+	{ href: '/taufen', label: 'Taufe' },
+	{ href: '/konzerte', label: 'Konzert / Event' },
+	{ href: '/firmenfeiern', label: 'Firmenfeier' },
+	{ href: '/anfragen', label: 'Sonstiges' },
+	{ href: '/unterricht', label: 'Unterricht' },
+];
+---
+
+<header class="nav" id="nav">
+	<a class="brand" href="/">
+		<span class="name" data-tina-field={brand ? tinaField(brand, 'name') : undefined}>{brand?.name ?? 'Kim Marie Borger'}</span>
+		<span class="sub" data-tina-field={brand ? tinaField(brand, 'sub') : undefined}>{brand?.sub ?? 'Viola · Live'}</span>
+	</a>
+	<nav class="nav-links">
+		<a href="/">Start</a>
+		<span class="nav-item">
+			<a href="/leistungen">Leistungen <span class="caret" aria-hidden="true">▾</span></a>
+			<span class="nav-drop">
+				{leistungen.map((l) => <a href={l.href}>{l.label}</a>)}
+			</span>
+		</span>
+		<a href="/portfolio">Portfolio</a>
+		<a href="/ueber-mich">Über mich</a>
+		<a href="/anfragen">Anfragen</a>
+	</nav>
+	<button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+<nav class="mobile-menu" id="mobileMenu">
+	<a href="/">Start</a>
+	<div class="mm-group" id="mmGroup">
+		<button class="mm-toggle" type="button" aria-expanded="false" aria-controls="mmSub">Leistungen
+			<svg class="mm-caret" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+		</button>
+		<div class="mm-sub" id="mmSub">
+			<div class="mm-sub-in">
+				{leistungen.filter((l) => l.href !== '/anfragen').map((l) => <a href={l.href}>{l.label}</a>)}
+			</div>
+		</div>
+	</div>
+	<a href="/portfolio">Portfolio</a>
+	<a href="/ueber-mich">Über mich</a>
+	<a href="/anfragen">Anfragen</a>
+	<a class="mm-mail" href={`mailto:${email}`} data-tina-field={config?.contact ? tinaField(config.contact, 'email') : undefined}>{email}</a>
+</nav>

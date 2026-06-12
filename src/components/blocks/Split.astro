@@ -1,0 +1,71 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+const bgClass = data.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
+const paragraphs = (data.paragraphs ?? []).filter((p: unknown) => p !== null);
+const ctas = (data.ctas ?? []).filter((c: unknown) => c !== null);
+const twin = data.figureClass === 'twin';
+const figureClass = data.figureClass && !twin ? ` ${data.figureClass}` : '';
+const frameStyle = data.aspect ? `aspect-ratio:${data.aspect};` : undefined;
+const sealLines: string[] = (data.seal ?? '').split('\n');
+const titleLines: string[] = (data.title ?? '').split('\n');
+const titleStyle = `margin:18px 0 22px;max-width:${data.titleWidth ?? '18ch'};`;
+---
+<section class={`section${bgClass}`} id={data.anchorId || undefined}>
+	<div class="wrap split">
+		{data.imageFirst && (
+			<div class={`figure${figureClass} reveal`} style="order:0;">
+				<div class="frame" style={frameStyle}>
+					<img data-parallax="0.05" src={data.image?.src} alt={data.image?.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')}>
+				</div>
+				{data.secondImage?.src && (
+					<div class="frame" style={frameStyle}>
+						<img data-parallax="0.05" src={data.secondImage.src} alt={data.secondImage.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'secondImage')}>
+					</div>
+				)}
+				{data.seal && <span class="seal" data-tina-field={tinaField(data, 'seal')}>{sealLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}</span>}
+			</div>
+		)}
+		<div class={`copy reveal${data.imageFirst ? ' d1' : ''}`}>
+			{data.eyebrow && <p class="eyebrow" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+			{data.title && <h2 class="display-m" style={titleStyle} data-tina-field={tinaField(data, 'title')}>
+				{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
+			</h2>}
+			{data.lede && <p class="lede" data-tina-field={tinaField(data, 'lede')}>{data.lede}</p>}
+			{paragraphs.map((p: string, i: number) => (
+				<p class="lead" style={i > 0 || data.lede ? 'margin-top:16px;' : undefined} data-tina-field={tinaField(data, 'paragraphs', i)}>{p}</p>
+			))}
+			{ctas.length > 0 && (
+				<div style="margin-top:28px;display:flex;gap:24px;flex-wrap:wrap;align-items:center;">
+					{ctas.map((cta: any) => cta.style === 'link-line' ? (
+						<a href={cta.link ?? '#'} class="link-line" data-tina-field={tinaField(cta)}>{cta.label} <span class="ar">→</span></a>
+					) : (
+						<a href={cta.link ?? '#'} class={`btn ${cta.style ?? 'btn-ghost'}`} data-tina-field={tinaField(cta)}>{cta.label} <span class="ar">→</span></a>
+					))}
+				</div>
+			)}
+		</div>
+		{!data.imageFirst && twin && (
+			<div class="twin reveal d2">
+				<div class="tframe float-soft"><img src={data.image?.src} alt={data.image?.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')}></div>
+				{data.secondImage?.src && (
+					<div class="tframe"><img src={data.secondImage.src} alt={data.secondImage.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'secondImage')}></div>
+				)}
+			</div>
+		)}
+		{!data.imageFirst && !twin && (
+			<div class={`figure${figureClass} reveal d2`}>
+				<div class="frame" style={frameStyle}>
+					<img data-parallax="0.06" src={data.image?.src} alt={data.image?.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')}>
+				</div>
+				{data.secondImage?.src && (
+					<div class="frame" style={frameStyle}>
+						<img data-parallax="0.06" src={data.secondImage.src} alt={data.secondImage.alt ?? ''} loading="lazy" decoding="async" data-tina-field={tinaField(data, 'secondImage')}>
+					</div>
+				)}
+				{data.seal && <span class="seal" data-tina-field={tinaField(data, 'seal')}>{sealLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}</span>}
+			</div>
+		)}
+	</div>
+</section>

@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import TinaIsland from '@tinacms/astro/TinaIsland.astro';
+import PageBody from '../components/islands/PageBody.astro';
+import { getConfig, getPage, listPages } from '../lib/data';
+import { islands } from '../lib/islands';
+import { firstBlockImage } from '../lib/seo';
+
+export async function getStaticPaths() {
+	const pages = await listPages();
+	return pages
+		.map((node) => node._sys.filename)
+		.filter((slug) => slug !== 'home')
+		.map((slug) => ({ params: { slug } }));
+}
+
+const slug = (Astro.params.slug ?? '').toString();
+const page = await getPage(slug);
+const data = page.data?.page;
+if (!data) return new Response('Not Found', { status: 404 });
+const config = (await getConfig()).data?.config ?? null;
+---
+
+<Base
+	title={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
+	description={data.seoDescription || config?.seo?.description || ''}
+	image={firstBlockImage(data)}
+	bodyClass={data.bodyClass ?? undefined}
+>
+	<TinaIsland name="page" wrapper={islands.page.wrapper} params={{ slug }} primary>
+		<PageBody data={data} />
+	</TinaIsland>
+</Base>
