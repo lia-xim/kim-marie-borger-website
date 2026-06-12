@@ -13,6 +13,16 @@ export const onVercel = Boolean(process.env.VERCEL);
 type Dims = { width?: number; height?: number };
 const dimsMap = manifest as Record<string, Dims>;
 
+/**
+ * Tina Cloud liefert Repo-Medien im Cloud-Modus als assets.tina.io-URLs aus.
+ * Dieselbe Datei liegt im Deployment unter /uploads — der lokale Pfad ist
+ * cachebar (eigene Header) und durch /_vercel/image optimierbar.
+ */
+export function normalizeSrc(src: string | undefined | null): string | undefined {
+	if (!src) return undefined;
+	return src.replace(/^https?:\/\/assets\.tina\.io\/[^/]+\//, '/uploads/');
+}
+
 export function imageDims(src: string | undefined | null): Dims | undefined {
 	if (!src) return undefined;
 	return dimsMap[src.replace(/^\/uploads\//, '')];

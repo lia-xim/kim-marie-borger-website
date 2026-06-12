@@ -16,7 +16,12 @@ import '@fontsource/manrope/400.css';
 import '@fontsource/manrope/500.css';
 import '@fontsource/manrope/600.css';
 
-import { buildSrcset, isOptimizable, onVercel } from '../lib/img';
+import { buildSrcset, isOptimizable, normalizeSrc, onVercel } from '../lib/img';
+// Kritische Schriftschnitte des Hero vorladen (Cormorant 400 + 300-italic für
+// den Namen, Manrope 600 für die Überzeile) — verkürzt das LCP-Render-Delay.
+import cormorant400 from '@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-normal.woff2?url';
+import cormorant300it from '@fontsource/cormorant-garamond/files/cormorant-garamond-latin-300-italic.woff2?url';
+import manrope600 from '@fontsource/manrope/files/manrope-latin-600-normal.woff2?url';
 
 interface Props {
 	title: string;
@@ -26,7 +31,8 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = '/uploads/mq0uvv7v-20250327-DSC01550.jpg' } = Astro.props;
+const { title, description, image: rawImage = '/uploads/mq0uvv7v-20250327-DSC01550.jpg' } = Astro.props;
+const image = normalizeSrc(rawImage) ?? rawImage;
 
 // LCP: das Hero-Bild der Seite vorladen — mit demselben srcset wie im Markup,
 // damit Preload und <img> exakt dieselbe Variante treffen.
@@ -41,9 +47,9 @@ const heroPreload = onVercel && isOptimizable(image) ? buildSrcset(image) : null
 <link rel="sitemap" href="/sitemap-index.xml" />
 <meta name="generator" content={Astro.generator} />
 
-<!-- Tina Cloud rewrites media URLs to assets.tina.io in production; warm the connection. -->
-<link rel="preconnect" href="https://assets.tina.io" crossorigin />
-<link rel="dns-prefetch" href="https://assets.tina.io" />
+<link rel="preload" as="font" type="font/woff2" href={cormorant400} crossorigin />
+<link rel="preload" as="font" type="font/woff2" href={cormorant300it} crossorigin />
+<link rel="preload" as="font" type="font/woff2" href={manrope600} crossorigin />
 
 {heroPreload && (
 	<link rel="preload" as="image" imagesrcset={heroPreload.srcset} imagesizes="100vw" fetchpriority="high" />

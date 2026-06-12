@@ -1,6 +1,7 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
 import Img from '../Img.astro';
+import { normalizeSrc } from '../../lib/img';
 
 const { data } = Astro.props;
 const tracks = (data.tracks ?? []).filter((t: unknown) => t !== null);
@@ -39,7 +40,7 @@ const pad2 = (n: number) => String(n).padStart(2, '0');
 					<button
 						class={`track${i === 0 ? ' active' : ''}`}
 						type="button"
-						data-src={t.src || undefined}
+						data-src={normalizeSrc(t.src) || undefined}
 						data-title={t.title}
 						data-composer={t.composer ?? ''}
 						data-dur={t.dur ?? ''}
