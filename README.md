@@ -59,6 +59,18 @@ OG/Twitter-Meta (Bild = Hero der Seite), JSON-LD (Person + WebSite global,
 FAQPage auf Seiten mit FAQ-Block), `og:locale de_DE`. Pro Seite pflegbar:
 `seoTitle` + `seoDescription` in Tina („Seiten“-Collection).
 
+## Troubleshooting: Deployment „BLOCKED“ (COMMIT_AUTHOR_REQUIRED)
+
+Vercel (Pro/Team) blockiert Deployments, deren Git-Commit-Autor keinem
+GitHub-User mit Projektzugriff zugeordnet werden kann — das Deployment hängt
+dann scheinbar ewig in der Queue (CLI zeigt „UNKNOWN“; die API verrät
+`readyState: BLOCKED`). Deshalb ist der Commit-Autor in diesem Repo lokal auf
+die GitHub-noreply-Adresse des Accounts gesetzt (`git config user.email`).
+Falls später Tina-Cloud-Commits blockiert werden: im Vercel-Dashboard das
+blockierte Deployment öffnen (zeigt den Grund) und die Autor-E-Mail dem Team
+hinzufügen bzw. in Tina Cloud die Commit-E-Mail auf eine zugeordnete Adresse
+stellen.
+
 ## Offene Punkte (bewusst)
 
 - **Impressum & Datenschutz** fehlen inhaltlich (Pflicht vor Live-Gang!) —
