@@ -1,0 +1,19 @@
+---
+import { tinaField } from '@tinacms/astro/tina-field';
+
+const { data } = Astro.props;
+const sections = (data.sections ?? []).filter((s: unknown) => s !== null);
+const paragraphs = (text: string) => (text ?? '').split(/\n\s*\n/).filter((p: string) => p.trim());
+---
+<section class="section" style="padding-top:calc(var(--navH, 86px) + clamp(40px,6vw,80px));">
+	<div class="wrap" style="max-width:72ch;">
+		{data.title && <h1 class="display-m" data-tina-field={tinaField(data, 'title')}>{data.title}</h1>}
+		{data.intro && <p class="lead" style="margin-top:18px;" data-tina-field={tinaField(data, 'intro')}>{data.intro}</p>}
+		{sections.map((s: any) => (
+			<div style="margin-top:clamp(28px,4vw,44px);" data-tina-field={tinaField(s)}>
+				{s.heading && <h2 class="display-s" style="margin-bottom:12px;">{s.heading}</h2>}
+				{paragraphs(s.text).map((p: string) => <p class="lead" style="margin-top:10px;overflow-wrap:anywhere;">{p}</p>)}
+			</div>
+		))}
+	</div>
+</section>

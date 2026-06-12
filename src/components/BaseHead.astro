@@ -31,7 +31,7 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image: rawImage = '/uploads/mq0uvv7v-20250327-DSC01550.jpg' } = Astro.props;
+const { title, description, image: rawImage = '/og-default.png' } = Astro.props;
 const image = normalizeSrc(rawImage) ?? rawImage;
 
 // LCP: das Hero-Bild der Seite vorladen — mit demselben srcset wie im Markup,

@@ -59,5 +59,16 @@ const jsonLd = {
 			<Footer config={config} />
 		</TinaIsland>
 		<script src="../scripts/kmb.js"></script>
+		<script is:inline>
+			// Umami-Analytics (selbst gehostet, cookielos) — nur für echte
+			// Besuche: nicht im Tina-Editor-iframe, nicht in lokaler Entwicklung.
+			if (window.self === window.top && !/^(localhost|127\.|192\.168\.)/.test(location.hostname)) {
+				var u = document.createElement('script');
+				u.defer = true;
+				u.src = 'https://analytics.contextter.com/script.js';
+				u.setAttribute('data-website-id', '374375a3-486e-4c83-97de-e05aa223c92d');
+				document.head.appendChild(u);
+			}
+		</script>
 	</body>
 </html>

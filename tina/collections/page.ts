@@ -12,6 +12,7 @@ import { setlistBlockSchema } from '../../src/components/blocks/setlist.template
 import { faqBlockSchema } from '../../src/components/blocks/faq.template';
 import { contactCardBlockSchema } from '../../src/components/blocks/contactCard.template';
 import { htmlBlockSchema } from '../../src/components/blocks/html.template';
+import { legalBlockSchema } from '../../src/components/blocks/legal.template';
 import { marqueeBlockSchema } from '../../src/components/blocks/marquee.template';
 import { elegyBlockSchema } from '../../src/components/blocks/elegy.template';
 import { moodsBlockSchema } from '../../src/components/blocks/moods.template';
@@ -92,6 +93,7 @@ export const PageCollection: Collection = {
 				audioSketchBlockSchema,
 				videoFeatureBlockSchema,
 				ctaBandBlockSchema,
+				legalBlockSchema,
 				htmlBlockSchema,
 			],
 		},
