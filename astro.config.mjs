@@ -19,13 +19,18 @@ export default defineConfig({
 		// Aktiviert /_vercel/image für die <Img>-Komponente (AVIF/WebP,
 		// responsive Breiten). sizes muss zu IMAGE_SIZES in src/lib/img.ts passen.
 		imagesConfig: {
-			sizes: [320, 640, 960, 1280, 1600, 2000],
+			sizes: [320, 480, 640, 800, 960, 1280, 1600, 2000],
 			formats: ['image/avif', 'image/webp'],
 			domains: [],
 			minimumCacheTTL: 2678400,
 		},
 	}),
 	integrations: [mdx(), sitemap(), tina()],
+	build: {
+		// Das eine gemeinsame Stylesheet (~33 KB) blockierte das Rendering
+		// ~450 ms; inline spart den Roundtrip auf dem kritischen Pfad.
+		inlineStylesheets: 'always',
+	},
 	// Tina Cloud rewrites CMS image src to assets.tina.io; let Astro
 	// fetch those URLs at build time so <Image> can transcode + resize them.
 	image: {

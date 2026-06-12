@@ -1359,3 +1359,12 @@ a,button,summary{ touch-action:manipulation; }
 }
 @keyframes lb-in{ from{ opacity:0; transform:scale(.96); } }
 .collage .polaroid{ cursor:zoom-in; }
+
+/* =====================================================================
+   PERFORMANCE-OVERRIDE (bewusste Design-Entscheidung, Juni 2026):
+   Die Hero-Intro-Animationen (aufsteigender Name, verzögertes Einblenden)
+   kosteten ~1,2 s LCP. Speed > Animation — Hero-Inhalte rendern sofort.
+   Der Ken-Burns-Effekt des Hero-Fotos bleibt (kostet kein LCP).
+   ===================================================================== */
+.ho{ opacity:1 !important; animation:none !important; }
+.hero-name .t{ transform:none !important; animation:none !important; letter-spacing:-.02em !important; }

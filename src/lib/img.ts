@@ -6,7 +6,7 @@
 import manifest from './image-manifest.json';
 
 /** Muss exakt mit imagesConfig.sizes in astro.config.mjs übereinstimmen. */
-export const IMAGE_SIZES = [320, 640, 960, 1280, 1600, 2000];
+export const IMAGE_SIZES = [320, 480, 640, 800, 960, 1280, 1600, 2000];
 
 export const onVercel = Boolean(process.env.VERCEL);
 
