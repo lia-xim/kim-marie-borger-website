@@ -44,7 +44,7 @@ export interface TopicSeoPage {
 	faqs: TopicFaq[];
 }
 
-export const TOPIC_SEO_PAGES: TopicSeoPage[] = [
+const CORE_TOPIC_SEO_PAGES: TopicSeoPage[] = [
 	{
 		serviceSlug: 'beerdigungen',
 		baseSlug: 'beerdigungen',
@@ -718,6 +718,466 @@ export const TOPIC_SEO_PAGES: TopicSeoPage[] = [
 		],
 	},
 ];
+
+type TopicTemplateKind =
+	| 'wedding-moment'
+	| 'wedding-format'
+	| 'wedding-style'
+	| 'funeral-format'
+	| 'funeral-repertoire'
+	| 'business-format'
+	| 'private-format'
+	| 'baptism-format'
+	| 'concert-format'
+	| 'lesson-format';
+
+interface TopicSeed {
+	serviceSlug: LocalServiceSlug;
+	slug: string;
+	label: string;
+	keyword: string;
+	kind: TopicTemplateKind;
+	priority?: TopicSeoPage['priority'];
+	volume?: number;
+	angle?: string;
+	audience?: string;
+}
+
+const GENERATED_TOPIC_SEEDS: TopicSeed[] = [
+	// Hochzeit: Hauptangebot, Instrument, Stil, Zeremonie und konkrete Momente.
+	{ serviceSlug: 'hochzeiten', slug: 'hochzeitsmusik-buchen', label: 'Hochzeitsmusik buchen', keyword: 'Hochzeitsmusik buchen', kind: 'wedding-format', priority: 'P1', angle: 'für Paare, die Musik früh und verlässlich planen möchten' },
+	{ serviceSlug: 'hochzeiten', slug: 'live-musik-hochzeit', label: 'Live Musik Hochzeit', keyword: 'Live Musik Hochzeit', kind: 'wedding-format', priority: 'P1', angle: 'für Trauung, Empfang und Feier aus einer Hand' },
+	{ serviceSlug: 'hochzeiten', slug: 'live-musik-hochzeit-buchen', label: 'Live Musik Hochzeit buchen', keyword: 'Live Musik Hochzeit buchen', kind: 'wedding-format', priority: 'P2', angle: 'für eine klare Buchung mit Ablauf, Zeiten und Wunschmusik' },
+	{ serviceSlug: 'hochzeiten', slug: 'musikerin-hochzeit', label: 'Musikerin Hochzeit', keyword: 'Musikerin Hochzeit', kind: 'wedding-format', priority: 'P2', angle: 'für eine persönliche Solo-Begleitung mit direkter Abstimmung' },
+	{ serviceSlug: 'hochzeiten', slug: 'hochzeitsmusikerin', label: 'Hochzeitsmusikerin', keyword: 'Hochzeitsmusikerin', kind: 'wedding-format', priority: 'P2', angle: 'für Paare, die eine Musikerin für die Zeremonie suchen' },
+	{ serviceSlug: 'hochzeiten', slug: 'geigerin-hochzeit', label: 'Geigerin Hochzeit', keyword: 'Geigerin Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für Suchende, die Streicherklang zur Hochzeit meinen' },
+	{ serviceSlug: 'hochzeiten', slug: 'violinistin-hochzeit', label: 'Violinistin Hochzeit', keyword: 'Violinistin Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für modernen Streicherklang mit Solo-Viola als warmer Alternative' },
+	{ serviceSlug: 'hochzeiten', slug: 'bratschistin-hochzeit', label: 'Bratschistin Hochzeit', keyword: 'Bratschistin Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für den warmen, tieferen Streicherklang der Bratsche' },
+	{ serviceSlug: 'hochzeiten', slug: 'viola-hochzeit', label: 'Viola Hochzeit', keyword: 'Viola Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für elegante Hochzeitsmusik mit warmem Solo-Klang' },
+	{ serviceSlug: 'hochzeiten', slug: 'bratsche-hochzeit', label: 'Bratsche Hochzeit', keyword: 'Bratsche Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für Paare, die etwas Weicheres als klassische Geige suchen' },
+	{ serviceSlug: 'hochzeiten', slug: 'geige-hochzeit', label: 'Geige Hochzeit', keyword: 'Geige Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für Streicherklang zur Hochzeit mit Viola als charaktervoller Stimme' },
+	{ serviceSlug: 'hochzeiten', slug: 'streichmusik-hochzeit', label: 'Streichmusik Hochzeit', keyword: 'Streichmusik Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für klassische und moderne Streicher-Atmosphäre' },
+	{ serviceSlug: 'hochzeiten', slug: 'streicherin-hochzeit', label: 'Streicherin Hochzeit', keyword: 'Streicherin Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für Solo-Streicherklang ohne großes Ensemble' },
+	{ serviceSlug: 'hochzeiten', slug: 'solo-musikerin-hochzeit', label: 'Solo Musikerin Hochzeit', keyword: 'Solo Musikerin Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für reduzierte, persönliche Live-Musik' },
+	{ serviceSlug: 'hochzeiten', slug: 'musik-hochzeitszeremonie', label: 'Musik Hochzeitszeremonie', keyword: 'Musik für Hochzeitszeremonie', kind: 'wedding-moment', priority: 'P3', angle: 'für den gesamten Ablauf von Einzug bis Auszug' },
+	{ serviceSlug: 'hochzeiten', slug: 'musik-brautpaar', label: 'Musik für Brautpaar', keyword: 'Musik für Brautpaar', kind: 'wedding-moment', priority: 'P3', angle: 'für ein persönliches Lied und besondere Erinnerungsmomente' },
+	{ serviceSlug: 'hochzeiten', slug: 'musik-ringtausch', label: 'Musik zum Ringtausch', keyword: 'Musik zum Ringtausch', kind: 'wedding-moment', priority: 'P3', angle: 'für den stillen Moment zwischen Worten und Applaus' },
+	{ serviceSlug: 'hochzeiten', slug: 'musik-ja-wort', label: 'Musik zum Ja-Wort', keyword: 'Musik zum Ja-Wort', kind: 'wedding-moment', priority: 'P3', angle: 'für den Moment direkt vor oder nach dem Versprechen' },
+	{ serviceSlug: 'hochzeiten', slug: 'musik-nach-ja-wort', label: 'Musik nach dem Ja-Wort', keyword: 'Musik nach Ja-Wort', kind: 'wedding-moment', priority: 'P3', angle: 'für Applaus, Emotion und den ersten gemeinsamen Augenblick' },
+	{ serviceSlug: 'hochzeiten', slug: 'musik-unterschrift-standesamt', label: 'Musik Unterschrift Standesamt', keyword: 'Musik Unterschrift Standesamt', kind: 'wedding-moment', priority: 'P3', angle: 'für die formale Phase im Standesamt' },
+	{ serviceSlug: 'hochzeiten', slug: 'musik-waehrend-trauung', label: 'Musik während der Trauung', keyword: 'Musik während Trauung', kind: 'wedding-moment', priority: 'P3', angle: 'für Rituale, Lesungen und stille Zwischenmomente' },
+	{ serviceSlug: 'hochzeiten', slug: 'musik-hochzeitsempfang', label: 'Musik Hochzeitsempfang', keyword: 'Musik für Hochzeitsempfang', kind: 'wedding-format', priority: 'P3', angle: 'für Gratulationen, Ankommen und erste Gespräche' },
+	{ serviceSlug: 'hochzeiten', slug: 'musik-hochzeitsdinner', label: 'Musik Hochzeitsdinner', keyword: 'Musik für Hochzeitsdinner', kind: 'wedding-format', priority: 'P3', angle: 'für Essen, Reden und ruhige Übergänge' },
+	{ serviceSlug: 'hochzeiten', slug: 'dinnermusik-hochzeit', label: 'Dinnermusik Hochzeit', keyword: 'Dinnermusik Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für ein festliches Dinner ohne laute Beschallung' },
+	{ serviceSlug: 'hochzeiten', slug: 'hintergrundmusik-hochzeit', label: 'Hintergrundmusik Hochzeit', keyword: 'Hintergrundmusik Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für dezente musikalische Atmosphäre' },
+	{ serviceSlug: 'hochzeiten', slug: 'klassische-musik-hochzeit', label: 'Klassische Musik Hochzeit', keyword: 'klassische Musik Hochzeit', kind: 'wedding-style', priority: 'P3', angle: 'für zeitlose Stücke und festliche Ruhe' },
+	{ serviceSlug: 'hochzeiten', slug: 'moderne-hochzeitsmusik', label: 'Moderne Hochzeitsmusik', keyword: 'moderne Hochzeitsmusik', kind: 'wedding-style', priority: 'P3', angle: 'für Lieblingssongs in einer warmen Viola-Fassung' },
+	{ serviceSlug: 'hochzeiten', slug: 'romantische-hochzeitsmusik', label: 'Romantische Hochzeitsmusik', keyword: 'romantische Hochzeitsmusik', kind: 'wedding-style', priority: 'P3', angle: 'für emotionale, aber nicht kitschige Momente' },
+	{ serviceSlug: 'hochzeiten', slug: 'emotionale-hochzeitsmusik', label: 'Emotionale Hochzeitsmusik', keyword: 'emotionale Hochzeitsmusik', kind: 'wedding-style', priority: 'P3', angle: 'für Musik, die nahegeht und trotzdem elegant bleibt' },
+	{ serviceSlug: 'hochzeiten', slug: 'dezente-hochzeitsmusik', label: 'Dezente Hochzeitsmusik', keyword: 'dezente Hochzeitsmusik', kind: 'wedding-style', priority: 'P3', angle: 'für Paare, die Atmosphäre statt Show suchen' },
+	{ serviceSlug: 'hochzeiten', slug: 'elegante-hochzeitsmusik', label: 'Elegante Hochzeitsmusik', keyword: 'elegante Hochzeitsmusik', kind: 'wedding-style', priority: 'P3', angle: 'für hochwertige Locations und ruhige Abläufe' },
+	{ serviceSlug: 'hochzeiten', slug: 'instrumentalmusik-hochzeit', label: 'Instrumentalmusik Hochzeit', keyword: 'Instrumentalmusik Hochzeit', kind: 'wedding-style', priority: 'P3', angle: 'für Musik ohne Gesang, die Raum für Worte lässt' },
+	{ serviceSlug: 'hochzeiten', slug: 'live-instrumentalmusik-hochzeit', label: 'Live Instrumentalmusik Hochzeit', keyword: 'Live Instrumentalmusik Hochzeit', kind: 'wedding-style', priority: 'P3', angle: 'für eine akustische Begleitung mit persönlichem Klang' },
+	{ serviceSlug: 'hochzeiten', slug: 'musik-schloss-hochzeit', label: 'Musik Schloss Hochzeit', keyword: 'Musik für Schloss Hochzeit', kind: 'wedding-format', priority: 'P3', angle: 'für Trauungen und Empfänge in festlichen Räumen' },
+
+	// Beerdigung / Trauerfeier.
+	{ serviceSlug: 'beerdigungen', slug: 'trauermusik-buchen', label: 'Trauermusik buchen', keyword: 'Trauermusik buchen', kind: 'funeral-format', priority: 'P1', angle: 'für eine ruhige und verlässliche Abstimmung im Vorfeld' },
+	{ serviceSlug: 'beerdigungen', slug: 'musik-trauerfeier', label: 'Musik Trauerfeier', keyword: 'Musik Trauerfeier', kind: 'funeral-format', priority: 'P1', angle: 'für Beginn, Abschiedsworte, Auszug oder Gang zum Grab' },
+	{ serviceSlug: 'beerdigungen', slug: 'musik-beerdigung', label: 'Musik Beerdigung', keyword: 'Musik Beerdigung', kind: 'funeral-format', priority: 'P1', angle: 'für einen würdevollen musikalischen Rahmen' },
+	{ serviceSlug: 'beerdigungen', slug: 'musik-bestattung', label: 'Musik Bestattung', keyword: 'Musik Bestattung', kind: 'funeral-format', priority: 'P2', angle: 'für Trauerhalle, Kirche, Kapelle oder Friedhof' },
+	{ serviceSlug: 'beerdigungen', slug: 'live-musik-trauerfeier', label: 'Live Musik Trauerfeier', keyword: 'Live Musik Trauerfeier', kind: 'funeral-format', priority: 'P2', angle: 'für einen unmittelbaren Klang ohne Playback' },
+	{ serviceSlug: 'beerdigungen', slug: 'live-musik-beerdigung', label: 'Live Musik Beerdigung', keyword: 'Live Musik Beerdigung', kind: 'funeral-format', priority: 'P2', angle: 'für eine persönliche Abschiedsfeier' },
+	{ serviceSlug: 'beerdigungen', slug: 'musikerin-trauerfeier', label: 'Musikerin Trauerfeier', keyword: 'Musikerin Trauerfeier', kind: 'funeral-format', priority: 'P3', angle: 'für Familien, die eine direkte Ansprechpartnerin suchen' },
+	{ serviceSlug: 'beerdigungen', slug: 'trauermusikerin', label: 'Trauermusikerin', keyword: 'Trauermusikerin', kind: 'funeral-format', priority: 'P3', angle: 'für eine behutsame musikalische Begleitung' },
+	{ serviceSlug: 'beerdigungen', slug: 'geige-beerdigung', label: 'Geige Beerdigung', keyword: 'Geige Beerdigung', kind: 'funeral-format', priority: 'P3', angle: 'für warmen Streicherklang bei einer Beerdigung' },
+	{ serviceSlug: 'beerdigungen', slug: 'viola-beerdigung', label: 'Viola Beerdigung', keyword: 'Viola Beerdigung', kind: 'funeral-format', priority: 'P3', angle: 'für den dunkleren, tragenden Klang der Viola' },
+	{ serviceSlug: 'beerdigungen', slug: 'bratsche-beerdigung', label: 'Bratsche Beerdigung', keyword: 'Bratsche Beerdigung', kind: 'funeral-format', priority: 'P3', angle: 'für eine warme Alternative zur Geige' },
+	{ serviceSlug: 'beerdigungen', slug: 'musik-abschied', label: 'Musik Abschied', keyword: 'Musik Abschied', kind: 'funeral-format', priority: 'P2', angle: 'für persönliche Erinnerungen und stille Momente' },
+	{ serviceSlug: 'beerdigungen', slug: 'musik-letzter-abschied', label: 'Musik letzter Abschied', keyword: 'Musik letzter Abschied', kind: 'funeral-format', priority: 'P3', angle: 'für den letzten gemeinsamen Moment am Ende der Feier' },
+	{ serviceSlug: 'beerdigungen', slug: 'musik-am-grab', label: 'Musik am Grab', keyword: 'Musik am Grab', kind: 'funeral-format', priority: 'P3', angle: 'für den Gang zum Grab oder die stille Verabschiedung' },
+	{ serviceSlug: 'beerdigungen', slug: 'klassische-musik-beerdigung', label: 'Klassische Musik Beerdigung', keyword: 'klassische Musik Beerdigung', kind: 'funeral-repertoire', priority: 'P3', volume: 140, angle: 'für vertraute Stücke wie Air, Ave Maria oder Meditation' },
+	{ serviceSlug: 'beerdigungen', slug: 'instrumentalmusik-trauerfeier', label: 'Instrumentalmusik Trauerfeier', keyword: 'Instrumentalmusik Trauerfeier', kind: 'funeral-repertoire', priority: 'P3', angle: 'für Abschiedsmusik ohne Worte' },
+	{ serviceSlug: 'beerdigungen', slug: 'moderne-trauermusik', label: 'Moderne Trauermusik', keyword: 'moderne Trauermusik', kind: 'funeral-repertoire', priority: 'P3', angle: 'für persönliche Lieblingslieder in reduzierter Fassung' },
+	{ serviceSlug: 'beerdigungen', slug: 'ave-maria-beerdigung', label: 'Ave Maria Beerdigung', keyword: 'Ave Maria Beerdigung', kind: 'funeral-repertoire', priority: 'P3', volume: 70, angle: 'für einen klassischen, stillen Abschiedsmoment' },
+	{ serviceSlug: 'beerdigungen', slug: 'amazing-grace-beerdigung', label: 'Amazing Grace Beerdigung', keyword: 'Amazing Grace Beerdigung', kind: 'funeral-repertoire', priority: 'P3', volume: 70, angle: 'für ein bekanntes Abschiedslied ohne Gesang' },
+
+	// Firmenfeiern / Business.
+	{ serviceSlug: 'firmenfeiern', slug: 'live-musik-firmenevent', label: 'Live Musik Firmenevent', keyword: 'Live Musik Firmenevent', kind: 'business-format', priority: 'P2', angle: 'für Empfang, Dinner, Messe oder Kundenevent' },
+	{ serviceSlug: 'firmenfeiern', slug: 'musik-firmenfeier', label: 'Musik Firmenfeier', keyword: 'Musik Firmenfeier', kind: 'business-format', priority: 'P2', volume: 170, angle: 'für einen hochwertigen, aber gesprächsfreundlichen Rahmen' },
+	{ serviceSlug: 'firmenfeiern', slug: 'musikerin-firmenevent', label: 'Musikerin Firmenevent', keyword: 'Musikerin Firmenevent', kind: 'business-format', priority: 'P3', angle: 'für direkte Planung mit einer Solo-Musikerin' },
+	{ serviceSlug: 'firmenfeiern', slug: 'eventmusikerin', label: 'Eventmusikerin', keyword: 'Eventmusikerin', kind: 'business-format', priority: 'P3', angle: 'für Business-Events, private Anlässe und Empfänge' },
+	{ serviceSlug: 'firmenfeiern', slug: 'viola-firmenevent', label: 'Viola Firmenevent', keyword: 'Viola Firmenevent', kind: 'business-format', priority: 'P3', angle: 'für einen warmen, eleganten Business-Klang' },
+	{ serviceSlug: 'firmenfeiern', slug: 'geige-firmenevent', label: 'Geige Firmenevent', keyword: 'Geige Firmenevent', kind: 'business-format', priority: 'P3', angle: 'für Suchende, die Live-Streicher für ein Event meinen' },
+	{ serviceSlug: 'firmenfeiern', slug: 'streichmusik-firmenevent', label: 'Streichmusik Firmenevent', keyword: 'Streichmusik Firmenevent', kind: 'business-format', priority: 'P3', angle: 'für repräsentative Atmosphäre ohne Showbühne' },
+	{ serviceSlug: 'firmenfeiern', slug: 'instrumentalmusik-firmenevent', label: 'Instrumentalmusik Firmenevent', keyword: 'Instrumentalmusik Firmenevent', kind: 'business-format', priority: 'P3', angle: 'für Empfang und Networking ohne Gesang' },
+	{ serviceSlug: 'firmenfeiern', slug: 'hintergrundmusik-firmenevent', label: 'Hintergrundmusik Firmenevent', keyword: 'Hintergrundmusik Firmenevent', kind: 'business-format', priority: 'P3', angle: 'für Gespräche, Empfang und Dinner' },
+	{ serviceSlug: 'firmenfeiern', slug: 'dinnermusik-firmenevent', label: 'Dinnermusik Firmenevent', keyword: 'Dinnermusik Firmenevent', kind: 'business-format', priority: 'P3', angle: 'für Galadinner, Kundenessen und interne Feiern' },
+	{ serviceSlug: 'firmenfeiern', slug: 'empfangsmusik-firmenevent', label: 'Empfangsmusik Firmenevent', keyword: 'Empfangsmusik Firmenevent', kind: 'business-format', priority: 'P3', angle: 'für Ankommen, Akkreditierung und Begrüßung' },
+	{ serviceSlug: 'firmenfeiern', slug: 'musik-firmenempfang', label: 'Musik Firmenempfang', keyword: 'Musik Firmenempfang', kind: 'business-format', priority: 'P3', angle: 'für offizielle Gäste und einen wertigen ersten Eindruck' },
+	{ serviceSlug: 'firmenfeiern', slug: 'musik-kundenempfang', label: 'Musik Kundenempfang', keyword: 'Musik Kundenempfang', kind: 'business-format', priority: 'P3', angle: 'für Wartezeiten, Begegnung und ruhige Atmosphäre' },
+	{ serviceSlug: 'firmenfeiern', slug: 'musik-business-event', label: 'Musik Business Event', keyword: 'Musik Business Event', kind: 'business-format', priority: 'P3', angle: 'für Business-Events mit klarem Ablauf' },
+	{ serviceSlug: 'firmenfeiern', slug: 'musik-networking-event', label: 'Musik Networking Event', keyword: 'Musik Networking Event', kind: 'business-format', priority: 'P3', angle: 'für Gespräche ohne akustische Konkurrenz' },
+	{ serviceSlug: 'firmenfeiern', slug: 'musik-eroeffnung', label: 'Musik Eröffnung', keyword: 'Musik Eröffnung', kind: 'business-format', priority: 'P3', angle: 'für Auftakt, Ribbon-Cut oder feierliche Begrüßung' },
+	{ serviceSlug: 'firmenfeiern', slug: 'musik-produktpraesentation', label: 'Musik Produktpräsentation', keyword: 'Musik Produktpräsentation', kind: 'business-format', priority: 'P3', angle: 'für Launch, Präsentation und markante Übergänge' },
+	{ serviceSlug: 'firmenfeiern', slug: 'musik-jubilaeum', label: 'Musik Jubiläum', keyword: 'Musik Jubiläum', kind: 'business-format', priority: 'P3', angle: 'für Firmenjubiläum, Ehrung und festliche Reden' },
+
+	// Geburtstag / private Feier, ohne den falschen SERP-Intent "Geburtstagsständchen".
+	{ serviceSlug: 'geburtstage', slug: 'live-musik-geburtstag', label: 'Live Musik Geburtstag', keyword: 'Live Musik Geburtstag', kind: 'private-format', priority: 'P3', angle: 'für Empfang, Dinner oder einen persönlichen Musikmoment' },
+	{ serviceSlug: 'geburtstage', slug: 'musikerin-geburtstag', label: 'Musikerin Geburtstag', keyword: 'Musikerin Geburtstag', kind: 'private-format', priority: 'P3', angle: 'für eine private Feier mit direkter Abstimmung' },
+	{ serviceSlug: 'geburtstage', slug: 'viola-geburtstag', label: 'Viola Geburtstag', keyword: 'Viola Geburtstag', kind: 'private-format', priority: 'P3', volume: 30, angle: 'für warmen Solo-Klang zur Geburtstagsfeier' },
+	{ serviceSlug: 'geburtstage', slug: 'geige-geburtstag', label: 'Geige Geburtstag', keyword: 'Geige Geburtstag', kind: 'private-format', priority: 'P3', angle: 'für Suchende nach Streicherklang zur privaten Feier' },
+	{ serviceSlug: 'geburtstage', slug: 'bratsche-geburtstag', label: 'Bratsche Geburtstag', keyword: 'Bratsche Geburtstag', kind: 'private-format', priority: 'P3', angle: 'für eine warme Alternative zur klassischen Geige' },
+	{ serviceSlug: 'geburtstage', slug: 'streichmusik-geburtstag', label: 'Streichmusik Geburtstag', keyword: 'Streichmusik Geburtstag', kind: 'private-format', priority: 'P3', angle: 'für elegante Geburtstagsmusik ohne große Bühne' },
+	{ serviceSlug: 'geburtstage', slug: 'instrumentalmusik-geburtstag', label: 'Instrumentalmusik Geburtstag', keyword: 'Instrumentalmusik Geburtstag', kind: 'private-format', priority: 'P3', angle: 'für Begleitung ohne Gesang und ohne Textbindung' },
+	{ serviceSlug: 'geburtstage', slug: 'musik-familienfeier', label: 'Musik Familienfeier', keyword: 'Musik Familienfeier', kind: 'private-format', priority: 'P3', angle: 'für generationenübergreifende Feiern' },
+	{ serviceSlug: 'geburtstage', slug: 'musik-gartenfeier', label: 'Musik Gartenfeier', keyword: 'Musik Gartenfeier', kind: 'private-format', priority: 'P3', angle: 'für sommerliche Feiern im geschützten Außenbereich' },
+	{ serviceSlug: 'geburtstage', slug: 'musik-gartenfest', label: 'Musik Gartenfest', keyword: 'Musik Gartenfest', kind: 'private-format', priority: 'P3', angle: 'für lockere Feiern mit festlichem Klang' },
+	{ serviceSlug: 'geburtstage', slug: 'sektempfang-geburtstag', label: 'Musik Sektempfang Geburtstag', keyword: 'Musik Sektempfang Geburtstag', kind: 'private-format', priority: 'P3', angle: 'für Ankommen, Gratulation und erste Gespräche' },
+	{ serviceSlug: 'geburtstage', slug: 'dinner-geburtstag', label: 'Musik Dinner Geburtstag', keyword: 'Musik Dinner Geburtstag', kind: 'private-format', priority: 'P3', angle: 'für Essen, Toasts und ruhige Übergänge' },
+	{ serviceSlug: 'geburtstage', slug: 'hintergrundmusik-geburtstag', label: 'Hintergrundmusik Geburtstag', keyword: 'Hintergrundmusik Geburtstag', kind: 'private-format', priority: 'P3', angle: 'für dezente Atmosphäre bei privaten Feiern' },
+	{ serviceSlug: 'geburtstage', slug: 'musikalische-ueberraschung-geburtstag', label: 'Musikalische Überraschung Geburtstag', keyword: 'musikalische Überraschung Geburtstag', kind: 'private-format', priority: 'P3', angle: 'für ein vorbereitetes Lieblingslied ohne falschen Songlisten-Intent' },
+	{ serviceSlug: 'geburtstage', slug: 'musikalisches-geschenk-geburtstag', label: 'Musikalisches Geschenk Geburtstag', keyword: 'musikalisches Geburtstagsgeschenk', kind: 'private-format', priority: 'P3', angle: 'für einen kurzen, persönlichen Live-Musikmoment' },
+
+	// Taufe, Kommunion, Konfirmation.
+	{ serviceSlug: 'taufen', slug: 'musik-taufe', label: 'Musik Taufe', keyword: 'Musik Taufe', kind: 'baptism-format', priority: 'P3', volume: 20, angle: 'für Gottesdienst, Segnung und Familienfeier' },
+	{ serviceSlug: 'taufen', slug: 'live-musik-taufe', label: 'Live Musik Taufe', keyword: 'Live Musik Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für eine warme, persönliche Taufbegleitung' },
+	{ serviceSlug: 'taufen', slug: 'musikerin-taufe', label: 'Musikerin Taufe', keyword: 'Musikerin Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für direkte Abstimmung mit Familie und Kirche' },
+	{ serviceSlug: 'taufen', slug: 'viola-taufe', label: 'Viola Taufe', keyword: 'Viola Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für sanften Solo-Klang zur Taufe' },
+	{ serviceSlug: 'taufen', slug: 'geige-taufe', label: 'Geige Taufe', keyword: 'Geige Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für Suchende nach Streicherklang im Gottesdienst' },
+	{ serviceSlug: 'taufen', slug: 'bratsche-taufe', label: 'Bratsche Taufe', keyword: 'Bratsche Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für warmen, ruhigen Klang in Kirche oder Kapelle' },
+	{ serviceSlug: 'taufen', slug: 'streichmusik-taufe', label: 'Streichmusik Taufe', keyword: 'Streichmusik Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für klassische und moderne Taufmusik' },
+	{ serviceSlug: 'taufen', slug: 'instrumentalmusik-taufe', label: 'Instrumentalmusik Taufe', keyword: 'Instrumentalmusik Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für Musik ohne Gesang im Taufgottesdienst' },
+	{ serviceSlug: 'taufen', slug: 'klassische-musik-taufe', label: 'Klassische Musik Taufe', keyword: 'klassische Musik Taufe', kind: 'baptism-format', priority: 'P3', volume: 10, angle: 'für ruhige Klassiker und traditionelle Momente' },
+	{ serviceSlug: 'taufen', slug: 'moderne-musik-taufe', label: 'Moderne Musik Taufe', keyword: 'moderne Musik Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für persönliche Lieder in einer sanften Fassung' },
+	{ serviceSlug: 'taufen', slug: 'sanfte-musik-taufe', label: 'Sanfte Musik Taufe', keyword: 'sanfte Musik Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für ein Kind und eine ruhige Gottesdienst-Atmosphäre' },
+	{ serviceSlug: 'taufen', slug: 'emotionale-musik-taufe', label: 'Emotionale Musik Taufe', keyword: 'emotionale Musik Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für Familienmomente ohne Pathos' },
+	{ serviceSlug: 'taufen', slug: 'musik-kirche-taufe', label: 'Musik Kirche Taufe', keyword: 'Musik Kirche Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für Kirche, Kapelle und liturgischen Ablauf' },
+	{ serviceSlug: 'taufen', slug: 'musik-gottesdienst-taufe', label: 'Musik Gottesdienst Taufe', keyword: 'Musik Gottesdienst Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für Einzug, Segnung und Auszug im Gottesdienst' },
+	{ serviceSlug: 'taufen', slug: 'musik-familienfeier-taufe', label: 'Musik Familienfeier Taufe', keyword: 'Musik Familienfeier Taufe', kind: 'baptism-format', priority: 'P3', angle: 'für die Feier nach dem Gottesdienst' },
+	{ serviceSlug: 'taufen', slug: 'musik-segnung', label: 'Musik zur Segnung', keyword: 'Musik zur Segnung', kind: 'baptism-format', priority: 'P3', angle: 'für Segnung, Willkommensfest oder freie Zeremonie' },
+	{ serviceSlug: 'taufen', slug: 'musik-kommunion', label: 'Musik Kommunion', keyword: 'Musik Kommunion', kind: 'baptism-format', priority: 'P3', volume: 10, angle: 'für Kommunion, Familiengottesdienst und anschließende Feier' },
+	{ serviceSlug: 'taufen', slug: 'musik-konfirmation', label: 'Musik Konfirmation', keyword: 'Musik Konfirmation', kind: 'baptism-format', priority: 'P3', volume: 10, angle: 'für Konfirmation, Segen und Familienfeier' },
+	{ serviceSlug: 'taufen', slug: 'kirchliche-feier', label: 'Musik kirchliche Feier', keyword: 'Musik kirchliche Feier', kind: 'baptism-format', priority: 'P3', angle: 'für Taufe, Kommunion, Konfirmation und Segnung' },
+
+	// Konzerte / Kultur.
+	{ serviceSlug: 'konzerte', slug: 'viola-konzert', label: 'Viola Konzert', keyword: 'Viola Konzert', kind: 'concert-format', priority: 'P2', volume: 90, angle: 'für Salon, Bühne, Kulturabend oder besondere Begegnung' },
+	{ serviceSlug: 'konzerte', slug: 'bratschenkonzert', label: 'Bratschenkonzert', keyword: 'Bratschenkonzert', kind: 'concert-format', priority: 'P3', volume: 20, angle: 'für Programme rund um den warmen Klang der Bratsche' },
+	{ serviceSlug: 'konzerte', slug: 'bratsche-konzert', label: 'Bratsche Konzert', keyword: 'Bratsche Konzert', kind: 'concert-format', priority: 'P3', angle: 'für klassische und moderne Viola-Programme' },
+	{ serviceSlug: 'konzerte', slug: 'live-musik-konzert', label: 'Live Musik Konzert', keyword: 'Live Musik Konzert', kind: 'concert-format', priority: 'P3', angle: 'für kuratierte Konzertmomente statt Hintergrundmusik' },
+	{ serviceSlug: 'konzerte', slug: 'klassische-musik-event', label: 'Klassische Musik Event', keyword: 'klassische Musik Event', kind: 'concert-format', priority: 'P3', angle: 'für Kulturformate, Empfänge und besondere Bühnen' },
+	{ serviceSlug: 'konzerte', slug: 'live-musik-event', label: 'Live Musik Event', keyword: 'Live Musik Event', kind: 'concert-format', priority: 'P3', angle: 'für kleine Bühnen, Lesungen und Empfänge' },
+	{ serviceSlug: 'konzerte', slug: 'musik-vernissage', label: 'Musik Vernissage', keyword: 'Musik Vernissage', kind: 'concert-format', priority: 'P3', volume: 10, angle: 'für Ausstellungseröffnung und ruhige Begegnungen' },
+	{ serviceSlug: 'konzerte', slug: 'musik-lesung', label: 'Musik Lesung', keyword: 'Musik Lesung', kind: 'concert-format', priority: 'P3', volume: 10, angle: 'für Übergänge, Pausen und literarische Atmosphäre' },
+	{ serviceSlug: 'konzerte', slug: 'musik-kulturabend', label: 'Musik Kulturabend', keyword: 'Musik Kulturabend', kind: 'concert-format', priority: 'P3', angle: 'für Programme mit Gespräch, Text oder Kunst' },
+	{ serviceSlug: 'konzerte', slug: 'musik-salonkonzert', label: 'Musik Salonkonzert', keyword: 'Musik Salonkonzert', kind: 'concert-format', priority: 'P3', angle: 'für intime Räume und kuratierte Viola-Programme' },
+
+	// Unterricht: Bratsche/Viola, passend zur bestehenden Leistungsseite.
+	{ serviceSlug: 'unterricht', slug: 'bratschenunterricht', label: 'Bratschenunterricht', keyword: 'Bratschenunterricht', kind: 'lesson-format', priority: 'P2', volume: 30, angle: 'für Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene' },
+	{ serviceSlug: 'unterricht', slug: 'bratsche-lernen', label: 'Bratsche lernen', keyword: 'Bratsche lernen', kind: 'lesson-format', priority: 'P3', volume: 40, angle: 'für einen ruhigen Einstieg in Haltung, Bogen und Klang' },
+	{ serviceSlug: 'unterricht', slug: 'viola-lernen', label: 'Viola lernen', keyword: 'Viola lernen', kind: 'lesson-format', priority: 'P3', angle: 'für alle, die den warmen Klang der Viola entdecken möchten' },
+	{ serviceSlug: 'unterricht', slug: 'viola-unterricht', label: 'Viola Unterricht', keyword: 'Viola Unterricht', kind: 'lesson-format', priority: 'P3', angle: 'für individuellen Unterricht mit klarer Struktur' },
+	{ serviceSlug: 'unterricht', slug: 'bratsche-unterricht', label: 'Bratsche Unterricht', keyword: 'Bratsche Unterricht', kind: 'lesson-format', priority: 'P3', angle: 'für Technik, Klang und musikalisches Verständnis' },
+	{ serviceSlug: 'unterricht', slug: 'bratschenunterricht-erwachsene', label: 'Bratschenunterricht Erwachsene', keyword: 'Bratschenunterricht für Erwachsene', kind: 'lesson-format', priority: 'P3', angle: 'für Erwachsene, die neu anfangen oder wieder einsteigen' },
+	{ serviceSlug: 'unterricht', slug: 'bratschenunterricht-kinder', label: 'Bratschenunterricht Kinder', keyword: 'Bratschenunterricht für Kinder', kind: 'lesson-format', priority: 'P3', angle: 'für geduldigen Aufbau und kindgerechte Schritte' },
+	{ serviceSlug: 'unterricht', slug: 'bratschenunterricht-anfaenger', label: 'Bratschenunterricht Anfänger', keyword: 'Bratschenunterricht Anfänger', kind: 'lesson-format', priority: 'P3', angle: 'für Grundlagen ohne Druck' },
+	{ serviceSlug: 'unterricht', slug: 'musikunterricht-bratsche', label: 'Musikunterricht Bratsche', keyword: 'Musikunterricht Bratsche', kind: 'lesson-format', priority: 'P3', angle: 'für Unterricht mit Instrument, Theorie und musikalischer Praxis' },
+	{ serviceSlug: 'unterricht', slug: 'musikunterricht-viola', label: 'Musikunterricht Viola', keyword: 'Musikunterricht Viola', kind: 'lesson-format', priority: 'P3', angle: 'für Viola-Unterricht mit persönlichem Lernplan' },
+];
+
+const GENERATED_TOPIC_SEO_PAGES = GENERATED_TOPIC_SEEDS.map(createGeneratedTopicPage);
+
+export const TOPIC_SEO_PAGES: TopicSeoPage[] = [
+	...CORE_TOPIC_SEO_PAGES,
+	...GENERATED_TOPIC_SEO_PAGES.filter(
+		(page) =>
+			!CORE_TOPIC_SEO_PAGES.some(
+				(corePage) => corePage.serviceSlug === page.serviceSlug && corePage.slug === page.slug,
+			),
+	),
+];
+
+function createGeneratedTopicPage(seed: TopicSeed): TopicSeoPage {
+	const service = generatedServiceCopy(seed.serviceSlug);
+	const kind = generatedKindCopy(seed.kind);
+	const angle = seed.angle ?? kind.defaultAngle;
+
+	return {
+		serviceSlug: seed.serviceSlug,
+		baseSlug: seed.serviceSlug,
+		slug: seed.slug,
+		label: seed.label,
+		linkLabel: seed.label,
+		keyword: seed.keyword,
+		intentCluster: `${seed.serviceSlug}:${seed.slug}`,
+		priority: seed.priority ?? 'P3',
+		volume: seed.volume ?? 0,
+		seoTitle: `${seed.label} | ${service.seoTitleSuffix}`,
+		seoDescription: generatedMetaDescription(seed),
+		eyebrow: service.eyebrow,
+		heroTitle: `${seed.label}, persönlich geplant und live begleitet.`,
+		heroLead: `${service.heroLead} Diese Seite bündelt den Suchintent "${seed.keyword}" ${angle}.`,
+		badge: service.badge,
+		splitTitle: kind.splitTitle,
+		splitLede: `${kind.splitLede} Für ${seed.label.toLowerCase()} zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.`,
+		paragraphs: [
+			`${seed.label} wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für ${service.context}.`,
+			`Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was ${service.audience} für diesen Moment brauchen.`,
+			`Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist.`,
+		],
+		focusEyebrow: kind.focusEyebrow,
+		focusTitle: `${seed.label}: worauf es ankommt.`,
+		focusLead: `Die folgenden Punkte trennen diese Suchintention bewusst von allgemeineren Seiten und helfen bei der Planung.`,
+		items: generatedItems(seed, service, kind),
+		faqs: generatedFaqs(seed, service, kind),
+	};
+}
+
+function generatedServiceCopy(serviceSlug: LocalServiceSlug) {
+	switch (serviceSlug) {
+		case 'hochzeiten':
+			return {
+				seoTitleSuffix: 'Hochzeitsmusik mit Live-Viola',
+				seoDescription: 'Live-Viola für Trauung, Empfang, Dinner oder Hochzeitsfeier',
+				eyebrow: 'Hochzeitsmusik',
+				heroLead: 'Live-Viola für Hochzeiten mit warmem, elegantem Streicherklang.',
+				badge: 'Wunschlied nach Absprache möglich',
+				context: 'eure Hochzeit',
+				audience: 'ihr',
+			};
+		case 'beerdigungen':
+			return {
+				seoTitleSuffix: 'Trauermusik mit Viola',
+				seoDescription: 'Trauermusik für Beerdigung, Trauerfeier, Bestattung und Abschied',
+				eyebrow: 'Trauermusik',
+				heroLead: 'Behutsame Live-Viola für Abschiede, Trauerfeiern und stille Erinnerungsmomente.',
+				badge: 'Ruhig und zuverlässig abgestimmt',
+				context: 'den Abschied',
+				audience: 'Familie und Angehörige',
+			};
+		case 'firmenfeiern':
+			return {
+				seoTitleSuffix: 'Live-Musik für Business-Events',
+				seoDescription: 'dezente Live-Viola für Firmenevent, Empfang, Messe, Gala und Dinner',
+				eyebrow: 'Business Event',
+				heroLead: 'Dezente Live-Viola für Business-Events, die hochwertig wirken und Gespräche möglich lassen.',
+				badge: 'Business-tauglich planbar',
+				context: 'das Event',
+				audience: 'Gäste, Kund:innen und Team',
+			};
+		case 'geburtstage':
+			return {
+				seoTitleSuffix: 'Live-Musik für private Feiern',
+				seoDescription: 'Solo-Viola für Geburtstag, Familienfeier, Dinner, Empfang und private Feier',
+				eyebrow: 'Private Feier',
+				heroLead: 'Live-Viola für private Feiern, Geburtstage und persönliche Momente.',
+				badge: 'Lieblingslied möglich',
+				context: 'die private Feier',
+				audience: 'Gastgeber:innen und Gäste',
+			};
+		case 'taufen':
+			return {
+				seoTitleSuffix: 'Taufmusik mit Live-Viola',
+				seoDescription: 'sanfte Live-Viola für Taufe, Segnung, Kommunion, Konfirmation und Familienfeier',
+				eyebrow: 'Taufe & kirchliche Feier',
+				heroLead: 'Sanfte Live-Viola für Taufe, Segnung und familiäre Gottesdienste.',
+				badge: 'Kirche und Ablauf abgestimmt',
+				context: 'die kirchliche Feier',
+				audience: 'Familie und Gemeinde',
+			};
+		case 'konzerte':
+			return {
+				seoTitleSuffix: 'Viola Konzert & Kulturprogramm',
+				seoDescription: 'kuratierte Viola-Musik für Konzert, Vernissage, Lesung, Salon und Kulturabend',
+				eyebrow: 'Konzert & Kultur',
+				heroLead: 'Kuratierte Viola-Programme für Bühnen, Salons, Vernissagen und Kulturabende.',
+				badge: 'Programm nach Anlass',
+				context: 'das Kulturformat',
+				audience: 'Publikum und Veranstalter:innen',
+			};
+		case 'unterricht':
+			return {
+				seoTitleSuffix: 'Bratschen- und Violaunterricht',
+				seoDescription: 'Bratschenunterricht und Violaunterricht für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene',
+				eyebrow: 'Unterricht',
+				heroLead: 'Bratschen- und Violaunterricht mit Ruhe, Struktur und musikalischer Neugier.',
+				badge: 'Kostenlose Probestunde',
+				context: 'den Unterricht',
+				audience: 'Schüler:innen',
+			};
+	}
+}
+
+function generatedMetaDescription(seed: TopicSeed): string {
+	const descriptions: Record<LocalServiceSlug, string> = {
+		hochzeiten: 'Live-Viola für Trauung, Empfang oder Dinner. Wunschmusik und Timing persönlich abgestimmt.',
+		beerdigungen: 'Behutsame Live-Viola für Trauerfeier, Beerdigung und Abschied. Ruhig geplant und persönlich abgestimmt.',
+		firmenfeiern: 'Dezente Live-Viola für Empfang, Dinner, Messe oder Business-Event. Hochwertig und gesprächsfreundlich.',
+		geburtstage: 'Live-Viola für Geburtstag und private Feier. Dezent, persönlich und passend zu Empfang, Dinner oder Überraschung.',
+		taufen: 'Sanfte Live-Viola für Taufe, Segnung und Familienfeier. Mit Kirche und Ablauf passend abgestimmt.',
+		konzerte: 'Kuratierte Viola-Musik für Konzert, Vernissage, Lesung oder Kulturabend. Programm passend zum Anlass.',
+		unterricht: 'Bratschen- und Violaunterricht mit ruhigem Aufbau, Probestunde und persönlichem Lernplan.',
+	};
+
+	return `${seed.keyword}: ${descriptions[seed.serviceSlug]}`;
+}
+
+function generatedKindCopy(kind: TopicTemplateKind) {
+	switch (kind) {
+		case 'wedding-moment':
+			return {
+				defaultAngle: 'für einen klaren Moment im Ablauf der Trauung',
+				focusEyebrow: 'Zeremonie',
+				splitTitle: 'Ein einzelner Moment braucht eigenes Timing.',
+				splitLede: 'Bei Hochzeiten entscheidet oft der genaue Einsatz: ein erster Ton, ein ruhiger Übergang oder ein heller Abschluss.',
+			};
+		case 'wedding-format':
+			return {
+				defaultAngle: 'für eine Hochzeit mit stimmigem musikalischem Rahmen',
+				focusEyebrow: 'Format',
+				splitTitle: 'Der Rahmen bestimmt, wie Musik wirken soll.',
+				splitLede: 'Ob Trauung, Empfang oder Dinner: Die Musik muss zum Ort, zur Gästesituation und zum Ablauf passen.',
+			};
+		case 'wedding-style':
+			return {
+				defaultAngle: 'für eine klare musikalische Stilrichtung',
+				focusEyebrow: 'Stil',
+				splitTitle: 'Der Stil entscheidet über die Atmosphäre.',
+				splitLede: 'Klassisch, modern, romantisch oder dezent meint nicht nur Repertoire, sondern auch Lautstärke, Tempo und Präsenz.',
+			};
+		case 'funeral-format':
+			return {
+				defaultAngle: 'für einen würdevollen Abschied',
+				focusEyebrow: 'Abschied',
+				splitTitle: 'Trauermusik muss Halt geben, ohne sich vorzudrängen.',
+				splitLede: 'Bei einer Trauerfeier ist Musik ein Rahmen für Erinnerung, Stille und die letzten gemeinsamen Schritte.',
+			};
+		case 'funeral-repertoire':
+			return {
+				defaultAngle: 'für die passende Stückauswahl bei einer Trauerfeier',
+				focusEyebrow: 'Repertoire',
+				splitTitle: 'Die Stückauswahl trägt die Stimmung des Abschieds.',
+				splitLede: 'Klassische Stücke, moderne Lieder oder persönliche Musik können den Abschied sehr unterschiedlich färben.',
+			};
+		case 'business-format':
+			return {
+				defaultAngle: 'für ein hochwertiges, gesprächsfreundliches Event',
+				focusEyebrow: 'Business',
+				splitTitle: 'Business-Musik muss repräsentativ und kontrollierbar sein.',
+				splitLede: 'Bei Firmenfeiern und Events soll Musik Aufmerksamkeit schaffen, ohne Gespräche oder Ablauf zu stören.',
+			};
+		case 'private-format':
+			return {
+				defaultAngle: 'für eine persönliche private Feier',
+				focusEyebrow: 'Private Feier',
+				splitTitle: 'Private Feiern brauchen Nähe statt Show.',
+				splitLede: 'Musik darf den Anlass hervorheben, soll Gespräche aber nicht überdecken oder den Raum dominieren.',
+			};
+		case 'baptism-format':
+			return {
+				defaultAngle: 'für eine sanfte kirchliche oder familiäre Feier',
+				focusEyebrow: 'Kirchliche Feier',
+				splitTitle: 'Taufmusik soll wärmen, nicht überfordern.',
+				splitLede: 'Bei Taufe, Segnung, Kommunion oder Konfirmation ist Musik Teil eines ruhigen, familiären Rahmens.',
+			};
+		case 'concert-format':
+			return {
+				defaultAngle: 'für ein kuratiertes Kulturformat',
+				focusEyebrow: 'Programm',
+				splitTitle: 'Konzertmusik braucht Dramaturgie.',
+				splitLede: 'Für Vernissagen, Lesungen und Konzertformate wird Musik nicht nur begleitet, sondern bewusst programmiert.',
+			};
+		case 'lesson-format':
+			return {
+				defaultAngle: 'für individuellen Unterricht mit klarer Struktur',
+				focusEyebrow: 'Lernen',
+				splitTitle: 'Guter Unterricht macht Klang verständlich.',
+				splitLede: 'Bratsche und Viola brauchen Geduld, Körpergefühl und einen Aufbau, der zum Menschen passt.',
+			};
+	}
+}
+
+function generatedItems(seed: TopicSeed, service: ReturnType<typeof generatedServiceCopy>, kind: ReturnType<typeof generatedKindCopy>): TopicItem[] {
+	if (seed.kind === 'lesson-format') {
+		return [
+			{ kicker: 'Start', title: 'Standort klären', text: `${seed.label} beginnt mit einem Blick auf Erfahrung, Ziele und musikalische Wünsche.` },
+			{ kicker: 'Technik', title: 'Klang aufbauen', text: 'Haltung, Bogenführung, Intonation und Übestruktur werden Schritt für Schritt verständlich gemacht.' },
+			{ kicker: 'Repertoire', title: 'Passende Stücke', text: 'Die Stückauswahl richtet sich nach Niveau, Geschmack und dem nächsten sinnvollen Lernschritt.' },
+			{ kicker: 'Rhythmus', title: 'Dranbleiben', text: 'Regelmäßigkeit und kleine erreichbare Ziele helfen mehr als Druck oder starre Programme.' },
+		];
+	}
+
+	if (seed.kind === 'concert-format') {
+		return [
+			{ kicker: 'Programm', title: 'Musikalischer Bogen', text: `${seed.label} braucht Stücke, die zusammen eine klare Dramaturgie ergeben.` },
+			{ kicker: 'Raum', title: 'Akustik beachten', text: 'Solo-Viola funktioniert besonders gut, wenn Raumgröße und Atmosphäre mitgedacht werden.' },
+			{ kicker: 'Publikum', title: 'Nähe schaffen', text: 'Das Programm kann ruhig, moderiert, klassisch oder modern gestaltet werden.' },
+			{ kicker: 'Ablauf', title: 'Sicher einbetten', text: 'Ankunft, Umbau, Pausen und Übergänge werden vorab mit dem Veranstaltungsplan verbunden.' },
+		];
+	}
+
+	if (seed.kind === 'business-format') {
+		return [
+			{ kicker: 'Format', title: 'Eventziel verstehen', text: `${seed.label} kann Empfang, Dinner, Präsentation oder Networking gezielt unterstützen.` },
+			{ kicker: 'Lautstärke', title: 'Gespräche schützen', text: 'Die Viola bleibt präsent, aber kontrollierbar und angenehm für Business-Situationen.' },
+			{ kicker: 'Timing', title: 'Sets planen', text: 'Kurze Sets, Pausen und Einsatzpunkte werden an Programm, Reden und Gästefluss angepasst.' },
+			{ kicker: 'Organisation', title: 'Business-ready', text: 'Anfahrt, Kleidung, Rechnung und technische Fragen werden zuverlässig geklärt.' },
+		];
+	}
+
+	if (seed.kind === 'funeral-format' || seed.kind === 'funeral-repertoire') {
+		return [
+			{ kicker: 'Anlass', title: 'Würde bewahren', text: `${seed.label} soll tragen, ohne den Abschied musikalisch zu überzeichnen.` },
+			{ kicker: 'Stücke', title: 'Persönliche Auswahl', text: 'Klassische Werke, ruhige Instrumentalmusik oder ein Lieblingslied können behutsam eingerichtet werden.' },
+			{ kicker: 'Ablauf', title: 'Momente rahmen', text: 'Musik kann Beginn, Stille, Auszug oder den Gang zum Grab begleiten.' },
+			{ kicker: 'Abstimmung', title: 'Ruhig klären', text: 'Einsätze werden mit Familie, Bestattungshaus, Kirche oder Trauerredner:in abgestimmt.' },
+		];
+	}
+
+	if (seed.kind === 'baptism-format') {
+		return [
+			{ kicker: 'Gottesdienst', title: 'Ablauf respektieren', text: `${seed.label} wird so geplant, dass Musik den liturgischen Rahmen unterstützt.` },
+			{ kicker: 'Familie', title: 'Persönlichen Bezug schaffen', text: 'Ein Familienlied oder ein Stück mit Erinnerung kann den Tag persönlicher machen.' },
+			{ kicker: 'Klang', title: 'Sanft bleiben', text: 'Die Viola klingt warm und ruhig, ohne Kind, Raum oder Gemeinde zu überfordern.' },
+			{ kicker: 'Feier', title: 'Weiter begleiten', text: 'Auf Wunsch passt die Musik auch zur anschließenden Familienfeier.' },
+		];
+	}
+
+	if (seed.kind === 'private-format') {
+		return [
+			{ kicker: 'Anlass', title: 'Den Ton treffen', text: `${seed.label} kann festlich, dezent oder als persönlicher Moment geplant werden.` },
+			{ kicker: 'Lieblingslied', title: 'Persönlich werden', text: 'Ein Wunschlied lässt sich prüfen und für Solo-Viola vorbereiten.' },
+			{ kicker: 'Sets', title: 'Flexibel bleiben', text: 'Kurze Auftritte oder längere Begleitung für Empfang und Dinner sind möglich.' },
+			{ kicker: 'Raum', title: 'Atmosphäre halten', text: 'Lautstärke und Repertoire werden an Gäste, Gespräche und Location angepasst.' },
+		];
+	}
+
+	return [
+		{ kicker: 'Moment', title: 'Einsatzpunkt planen', text: `${seed.label} braucht einen klaren musikalischen Anfang und ein sinnvolles Ende.` },
+		{ kicker: 'Stimmung', title: 'Repertoire wählen', text: 'Klassische Stücke, moderne Songs oder ein Wunschlied werden passend zum Ablauf ausgewählt.' },
+		{ kicker: 'Klang', title: 'Viola als Stimme', text: 'Der warme Klang der Viola bleibt nah, emotional und trotzdem elegant.' },
+		{ kicker: 'Ablauf', title: 'Sicher abstimmen', text: `Timing, Dauer und Übergänge werden vorab mit ${service.audience} geklärt.` },
+	];
+}
+
+function generatedFaqs(seed: TopicSeed, service: ReturnType<typeof generatedServiceCopy>, kind: ReturnType<typeof generatedKindCopy>): TopicFaq[] {
+	return [
+		{
+			question: `Passt ${seed.label} zu ${service.context}?`,
+			answer: `Ja. ${seed.label} wird gezielt auf ${service.context}, den Raum und den Ablauf abgestimmt. ${kind.defaultAngle}.`,
+			open: true,
+		},
+		{
+			question: 'Kann ein Wunschlied gespielt werden?',
+			answer: seed.kind === 'lesson-format'
+				? 'Im Unterricht können Wunschstücke einbezogen werden, wenn sie zum aktuellen Lernstand passen oder sinnvoll vorbereitet werden.'
+				: 'Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor.',
+		},
+		{
+			question: 'Wie wird der Ablauf abgestimmt?',
+			answer: `Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit ${seed.keyword} am Tag selbst ruhig funktioniert.`,
+		},
+	];
+}
 
 export function getTopicSeoPages(): TopicSeoPage[] {
 	return TOPIC_SEO_PAGES;
