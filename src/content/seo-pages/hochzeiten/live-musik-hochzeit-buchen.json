@@ -1,0 +1,106 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "hochzeiten",
+  "pageSlug": "live-musik-hochzeit-buchen",
+  "route": "/hochzeiten/live-musik-hochzeit-buchen/",
+  "targetKeyword": "Live Musik Hochzeit buchen",
+  "intentCluster": "hochzeiten:topic",
+  "priority": "P2",
+  "status": "rewritten-batch-1-review-needed",
+  "enabled": true,
+  "seoTitle": "Live Musik Hochzeit buchen | Ablauf, Timing und Wunschmusik",
+  "seoDescription": "Live Musik Hochzeit buchen: Anfrage, Ablauf, Dauer, Wunschmusik und Timing für Trauung, Empfang oder Dinner persönlich klären.",
+  "hero": {
+    "eyebrow": "Hochzeit - Buchung",
+    "title": "Live Musik zur Hochzeit buchen, ohne dass der Ablauf wackelt.",
+    "lead": "Hier geht es konkret um Anfrage, Verfügbarkeit, Einsatzzeiten und Abstimmung. So wird aus einer Musikidee ein sicher geplanter Teil eures Hochzeitstags.",
+    "badge": "Planung und Anfrage"
+  },
+  "split": {
+    "eyebrow": "Buchungsintention",
+    "title": "Wer buchen will, braucht Klarheit statt nur Inspiration.",
+    "lede": "Bei Live Musik Hochzeit buchen steht nicht mehr die Frage im Vordergrund, ob Live-Musik passt. Entscheidend sind Datum, Ort, Dauer, Ablauf, Wunschmusik und die Koordination mit Standesamt, Kirche, Traurednerin oder Location.",
+    "paragraphs": [
+      "Nach eurer Anfrage klären wir zuerst, welche Momente musikalisch begleitet werden sollen. Daraus ergibt sich, ob ein kurzer Einsatz zur Trauung reicht oder ob Empfang und Dinner ebenfalls sinnvoll sind.",
+      "Ihr bekommt eine realistische Einschätzung, welche Stücke funktionieren, wie lang die Musik sein sollte und welche organisatorischen Details vor Ort wichtig sind. So ist am Hochzeitstag klar, wann die Musik beginnt und endet."
+    ]
+  },
+  "focus": {
+    "eyebrow": "Buchungsablauf",
+    "title": "So wird die Live-Musik planbar.",
+    "lead": "Die Buchung ist am einfachsten, wenn die wichtigsten Eckdaten früh zusammenkommen.",
+    "items": [
+      {
+        "kicker": "1",
+        "title": "Datum und Ort prüfen",
+        "text": "Zuerst klären wir Verfügbarkeit, Location und ungefaehren Zeitrahmen."
+      },
+      {
+        "kicker": "2",
+        "title": "Momente festlegen",
+        "text": "Einzug, Ringtausch, Auszug, Empfang oder Dinner werden als eigene Einsätze geplant."
+      },
+      {
+        "kicker": "3",
+        "title": "Repertoire abstimmen",
+        "text": "Wunschlieder und Stilrichtung werden auf Solo-Viola und Ablauf geprüft."
+      },
+      {
+        "kicker": "4",
+        "title": "Final koordinieren",
+        "text": "Kurz vor der Hochzeit werden Signale, Ansprechpartner und Timing sauber festgelegt."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "FAQ zur Buchung von Live-Musik zur Hochzeit",
+    "items": [
+      {
+        "question": "Welche Angaben brauchst du für eine Anfrage?",
+        "answer": "Hilfreich sind Datum, Ort, Art der Trauung, ungefaehre Uhrzeit und die Momente, für die ihr Musik wünscht.",
+        "open": true
+      },
+      {
+        "question": "Wie früh sollte man Live Musik zur Hochzeit buchen?",
+        "answer": "Für beliebte Samstage in der Saison möglichst früh. Kurzfristige Anfragen können trotzdem funktionieren, wenn der Termin frei ist."
+      },
+      {
+        "question": "Kann man erst anfragen und später Stücke festlegen?",
+        "answer": "Ja. Die Buchung kann auf Basis des Rahmens erfolgen. Die genaue Stückauswahl wird danach in Ruhe abgestimmt."
+      },
+      {
+        "question": "Was unterscheidet die Buchungsseite von Live Musik Hochzeit?",
+        "answer": "Diese Seite beantwortet konkrete Planungs- und Anfragefragen. Die allgemeine Live-Musik-Seite hilft eher bei Inspiration und Einsatzideen."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+      "alt": "Live-Musik zur Hochzeit buchen mit Solo-Viola 1"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Live-Musik zur Hochzeit buchen mit Solo-Viola 2"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": "Live-Musik zur Hochzeit buchen mit Solo-Viola 3"
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.",
+  "contact": {
+    "eyebrow": "Verfügbarkeit prüfen",
+    "title": "Möchtet ihr Live-Musik verbindlich planen?",
+    "lead": "Sende Datum, Ort und die geplanten Musikmomente. Ich prüfe, was sinnvoll ist und ob euer Termin frei ist.",
+    "checklist": [
+      "Datum",
+      "Ort",
+      "Musikmomente"
+    ],
+    "formEyebrow": "Buchung starten",
+    "formTitle": "Live Musik Hochzeit buchen",
+    "formSuccess": "Danke - ich prüfe eure Angaben und melde mich mit den nächsten Schritten zur Buchung."
+  }
+}

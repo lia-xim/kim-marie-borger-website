@@ -1,0 +1,66 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "konzerte",
+  "pageSlug": "musik-lesung",
+  "route": "/konzerte/musik-lesung/",
+  "targetKeyword": "Musik Lesung",
+  "intentCluster": "konzerte:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Musik Lesung | Viola Konzert & Kulturprogramm",
+  "seoDescription": "Musik Lesung: Kuratierte Viola-Musik für Konzert, Vernissage, Lesung oder Kulturabend. Programm passend zum Anlass.",
+  "hero": {
+    "title": "Musik Lesung, persönlich geplant und live begleitet.",
+    "lead": "Kuratierte Viola-Programme für Bühnen, Salons, Vernissagen und Kulturabende. Diese Seite bündelt den Suchintent \"Musik Lesung\" für Übergänge, Pausen und literarische Atmosphäre."
+  },
+  "split": {
+    "eyebrow": "Programm",
+    "title": "Konzertmusik braucht Dramaturgie.",
+    "lede": "Für Vernissagen, Lesungen und Konzertformate wird Musik nicht nur begleitet, sondern bewusst programmiert. Für musik lesung zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "paragraphs": [
+      "Musik Lesung wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für das Kulturformat.",
+      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Publikum und Veranstalter:innen für diesen Moment brauchen.",
+      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Musik Lesung.",
+    "items": [
+      {
+        "question": "Passt Musik Lesung zu das Kulturformat?",
+        "answer": "Ja. Musik Lesung wird gezielt auf das Kulturformat, den Raum und den Ablauf abgestimmt. für ein kuratiertes Kulturformat.",
+        "open": true
+      },
+      {
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+      },
+      {
+        "question": "Wie wird der Ablauf abgestimmt?",
+        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Lesung am Tag selbst ruhig funktioniert."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": "Kim Marie Borger mit Viola im Freien"
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik Lesung anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Lesung.",
+    "checklist": [
+      "Musik Lesung",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik Lesung zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

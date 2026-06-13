@@ -1,5 +1,6 @@
 import type { CmsPage } from './data';
 import type { LocalServiceSlug } from './local-seo';
+import { applySeoPageOverride, type SeoPageOverride } from './seo-overrides';
 import { canonicalUrl } from './url';
 
 type PageData = NonNullable<CmsPage>;
@@ -1199,18 +1200,18 @@ export function topicPagePath(page: TopicSeoPage): string {
 	return `/${page.serviceSlug}/${page.slug}/`;
 }
 
-export function buildTopicSeoPage(page: TopicSeoPage, basePage: PageData): PageData {
+export function buildTopicSeoPage(page: TopicSeoPage, basePage: PageData, override?: SeoPageOverride): PageData {
 	const clone = JSON.parse(JSON.stringify(basePage)) as PageData;
-	clone.seoTitle = page.seoTitle;
-	clone.seoDescription = page.seoDescription;
+	clone.seoTitle = override?.seoTitle ?? page.seoTitle;
+	clone.seoDescription = override?.seoDescription ?? page.seoDescription;
 	clone.bodyClass = [clone.bodyClass, 'page-topic-seo'].filter(Boolean).join(' ');
 	clone.blocks = (clone.blocks ?? [])
 		.filter(Boolean)
 		.map((block) => rewriteTopicBlock(block as AnyBlock, page) as any);
-	return clone;
+	return applySeoPageOverride(clone, override);
 }
 
-export function topicSeoJsonLd(site: URL, page: TopicSeoPage): object {
+export function topicSeoJsonLd(site: URL, page: TopicSeoPage, override?: SeoPageOverride): object {
 	const url = canonicalUrl(site, topicPagePath(page)).href;
 	const parentUrl = canonicalUrl(site, `/${page.baseSlug}/`).href;
 
@@ -1230,7 +1231,7 @@ export function topicSeoJsonLd(site: URL, page: TopicSeoPage): object {
 				'@type': 'Service',
 				'@id': `${url}#service`,
 				name: page.label,
-				description: page.seoDescription,
+				description: override?.seoDescription ?? page.seoDescription,
 				serviceType: page.keyword,
 				provider: { '@id': new URL('/#person', site).href },
 				url,

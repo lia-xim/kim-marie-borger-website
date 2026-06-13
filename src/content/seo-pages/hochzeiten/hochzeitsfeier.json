@@ -1,0 +1,100 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "hochzeiten",
+  "pageSlug": "hochzeitsfeier",
+  "route": "/hochzeiten/hochzeitsfeier/",
+  "targetKeyword": "Musik für Hochzeitsfeier",
+  "intentCluster": "hochzeiten:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Musik für Hochzeitsfeier | Dinner & Hintergrundmusik mit Viola",
+  "seoDescription": "Musik für Hochzeitsfeier, Dinner und Empfang: dezente Live-Viola als Hintergrundmusik für Gespräche, Essen und festliche Momente.",
+  "hero": {
+    "title": "Musik für Hochzeitsfeier, Dinner und Empfang.",
+    "lead": "Dezente Live-Viola für Sektempfang, Dinner, Hintergrundmusik und kleine Programmpunkte nach der Trauung."
+  },
+  "split": {
+    "eyebrow": "Feierablauf",
+    "title": "Die Feier darf klingen, ohne laut zu werden.",
+    "lede": "Nach der Trauung braucht Musik eine andere Aufgabe: Sie soll Räume füllen, Gespräche tragen und besondere Momente markieren.",
+    "paragraphs": [
+      "Ob Empfang, Dinner oder Übergang in den Abend: Solo-Viola wirkt hochwertig und persönlich, ohne die Feier zu dominieren.",
+      "Die Sets werden in Länge, Stil und Lautstärke an Location, Ablauf und Gäste angepasst."
+    ]
+  },
+  "focus": {
+    "eyebrow": "Feierablauf",
+    "title": "Wo Live-Musik auf der Feier wirkt.",
+    "lead": "Die Musik kann flexibel in den Tagesplan eingebunden werden.",
+    "items": [
+      {
+        "kicker": "Sektempfang",
+        "title": "Glückwünsche",
+        "text": "Musik füllt die Zeit, während Gäste gratulieren und ankommen."
+      },
+      {
+        "kicker": "Dinner",
+        "title": "Essen begleiten",
+        "text": "Dezente Stücke schaffen eine warme, festliche Atmosphäre."
+      },
+      {
+        "kicker": "Programmpunkt",
+        "title": "Kurzes Set",
+        "text": "Ein besonderes Stück kann Reden, Geschenke oder Überraschungen rahmen."
+      },
+      {
+        "kicker": "Übergang",
+        "title": "Vom Tag in den Abend",
+        "text": "Leichte Musik hilft, die Stimmung elegant weiterzuführen."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Musik für Hochzeitsfeier.",
+    "items": [
+      {
+        "question": "Kann Live-Viola auch Hintergrundmusik zur Hochzeitsfeier sein?",
+        "answer": "Ja. Solo-Viola eignet sich sehr gut für Empfang, Dinner und ruhige Übergänge, weil sie präsent, aber nicht zu laut ist.",
+        "open": true
+      },
+      {
+        "question": "Wie lange spielst du bei einer Hochzeitsfeier?",
+        "answer": "Das hängt vom Ablauf ab. Möglich sind kurze Sets oder längere Begleitung für Empfang und Dinner."
+      },
+      {
+        "question": "Kann die Musik nach der Trauung weitergehen?",
+        "answer": "Ja. Trauung, Sektempfang und Dinner können musikalisch aufeinander abgestimmt werden."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik für Hochzeitsfeier anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik für Hochzeitsfeier.",
+    "checklist": [
+      "Musik für Hochzeitsfeier",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik für Hochzeitsfeier zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

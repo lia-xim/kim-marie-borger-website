@@ -1,0 +1,100 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "hochzeiten",
+  "pageSlug": "sektempfang",
+  "route": "/hochzeiten/sektempfang/",
+  "targetKeyword": "Musik Sektempfang Hochzeit",
+  "intentCluster": "hochzeiten:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Musik Sektempfang Hochzeit | Live-Viola für Empfang & Gratulation",
+  "seoDescription": "Musik für den Sektempfang nach der Hochzeit: dezente Live-Viola für Gratulationen, Empfang und Gespräche.",
+  "hero": {
+    "title": "Musik für den Sektempfang nach der Hochzeit.",
+    "lead": "Dezente Live-Viola für Gratulationen, Ankommen, Empfang und die ersten Gespräche nach der Trauung."
+  },
+  "split": {
+    "eyebrow": "Empfang",
+    "title": "Nach der Trauung darf die Musik weitertragen.",
+    "lede": "Beim Sektempfang treffen Freude, Bewegung und Gespräche zusammen. Musik hält die Atmosphäre, ohne im Vordergrund zu stehen.",
+    "paragraphs": [
+      "Ich spiele leichte, festliche und gut erkennbare Stücke, die Glückwünsche und Empfang begleiten.",
+      "Die Musik kann direkt an den Auszug anschließen oder als eigener Empfangsblock geplant werden."
+    ]
+  },
+  "focus": {
+    "eyebrow": "Empfang",
+    "title": "Warum Live-Musik beim Sektempfang wirkt.",
+    "lead": "Gerade ungeplante Übergänge bekommen dadurch einen klaren, angenehmen Rahmen.",
+    "items": [
+      {
+        "kicker": "Gratulation",
+        "title": "Zeit füllen",
+        "text": "Musik begleitet die Phase, in der viele kurze Begegnungen stattfinden."
+      },
+      {
+        "kicker": "Atmosphäre",
+        "title": "Leicht bleiben",
+        "text": "Das Repertoire bleibt hell, freundlich und unaufdringlich."
+      },
+      {
+        "kicker": "Ablauf",
+        "title": "Flexibel",
+        "text": "Die Dauer kann an Fotos, Locationwechsel oder Empfang angepasst werden."
+      },
+      {
+        "kicker": "Dinner",
+        "title": "Weiterführen",
+        "text": "Auf Wunsch geht die Musik später in Dinnermusik über."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Musik für Sektempfang Hochzeit.",
+    "items": [
+      {
+        "question": "Ist Live-Musik beim Sektempfang sinnvoll?",
+        "answer": "Ja. Sie macht die Gratulations- und Empfangsphase angenehm und festlich, ohne Gespräche zu stören.",
+        "open": true
+      },
+      {
+        "question": "Kannst du nach dem Auszug weiterspielen?",
+        "answer": "Ja. Auszug und Sektempfang können musikalisch ineinander übergehen."
+      },
+      {
+        "question": "Wie lange dauert Musik beim Sektempfang?",
+        "answer": "Das hängt vom Ablauf ab. Kurze Sets oder längere Begleitung sind möglich."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik Sektempfang Hochzeit anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Sektempfang Hochzeit.",
+    "checklist": [
+      "Musik Sektempfang Hochzeit",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik Sektempfang Hochzeit zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "pageKind": "local",
+  "serviceSlug": "beerdigungen",
+  "pageSlug": "muelheim-an-der-ruhr",
+  "route": "/beerdigungen/muelheim-an-der-ruhr/",
+  "targetKeyword": "Trauermusik Mülheim an der Ruhr",
+  "intentCluster": "beerdigungen:local",
+  "priority": "P3",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Trauermusik Mülheim an der Ruhr | Viola für Beerdigung & Abschied",
+  "seoDescription": "Trauermusik in Mülheim an der Ruhr: würdevolle Viola-Begleitung für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Behutsam und zuverlässig.",
+  "hero": {
+    "title": "Trauermusik in Mülheim an der Ruhr für einen würdevollen Abschied.",
+    "lead": "Warme Viola-Klänge für Trauerfeier, Beerdigung, Bestattung oder Abschied in Mülheim an der Ruhr - behutsam, ruhig und zuverlässig."
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Trauermusik in Mülheim an der Ruhr.",
+    "items": [
+      {
+        "question": "Begleitest du Trauerfeiern in Mülheim an der Ruhr?",
+        "answer": "Ja. Ich spiele Trauermusik in Mülheim an der Ruhr in Trauerhallen, Kirchen, Kapellen, am Grab oder bei freien Abschiedsfeiern.",
+        "open": true
+      },
+      {
+        "question": "Kannst du dich mit dem Bestattungshaus abstimmen?",
+        "answer": "Ja. Ablauf, Einsätze, Ankunft und Stückauswahl kläre ich gern direkt mit Bestatter:in, Pfarrer:in oder Trauerredner:in."
+      },
+      {
+        "question": "Welche Stücke passen zur Beerdigung?",
+        "answer": "Häufig gewünscht sind Ave Maria, Air, Méditation, Amazing Grace oder ein persönliches Lieblingsstück, das behutsam für Viola arrangiert wird."
+      },
+      {
+        "question": "Sind kurzfristige Anfragen möglich?",
+        "answer": "Oft ja. Gerade bei Beerdigungen in Mülheim an der Ruhr melde ich mich schnell zurück, damit ihr Planungssicherheit bekommt."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
+      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Trauermusik Mülheim an der Ruhr anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Trauermusik Mülheim an der Ruhr.",
+    "checklist": [
+      "Trauermusik Mülheim an der Ruhr",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Trauermusik Mülheim an der Ruhr zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

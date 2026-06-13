@@ -1,0 +1,100 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "hochzeiten",
+  "pageSlug": "musik-standesamt",
+  "route": "/hochzeiten/musik-standesamt/",
+  "targetKeyword": "Musik Standesamt Hochzeit",
+  "intentCluster": "hochzeiten:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Musik Standesamt Hochzeit | Live-Viola zur standesamtlichen Trauung",
+  "seoDescription": "Musik für die standesamtliche Trauung: Live-Viola für Einzug, Ringtausch, Unterschrift und Auszug im Standesamt.",
+  "hero": {
+    "title": "Musik fürs Standesamt, schlicht und festlich.",
+    "lead": "Live-Viola für eine standesamtliche Trauung, die auch in kurzer Zeit persönlich, warm und feierlich klingt."
+  },
+  "split": {
+    "eyebrow": "Kurz & präzise",
+    "title": "Kleine Zeremonie, großer Moment.",
+    "lede": "Im Standesamt ist oft wenig Zeit. Genau deshalb wirkt live gespielte Musik stark: Sie gibt dem Raum sofort Feierlichkeit.",
+    "paragraphs": [
+      "Die Musik kann Einzug, Ringtausch, Unterschrift und Auszug begleiten. Auch ein einzelnes Lieblingslied reicht manchmal, um die Trauung unverwechselbar zu machen.",
+      "Ich stimme Länge, Lautstärke, Aufbau und Einsätze vorab mit euch und bei Bedarf mit dem Standesamt ab."
+    ]
+  },
+  "focus": {
+    "eyebrow": "Kurz & präzise",
+    "title": "So passt Musik in den Standesamt-Ablauf.",
+    "lead": "Die Stücke werden so gewählt, dass sie auch bei kurzen Zeitfenstern funktionieren.",
+    "items": [
+      {
+        "kicker": "Ankommen",
+        "title": "Vor Beginn",
+        "text": "Ruhige Musik kann die Gäste empfangen und den Raum öffnen."
+      },
+      {
+        "kicker": "Einzug",
+        "title": "Der erste Moment",
+        "text": "Ein festliches Stück macht den Eintritt bewusst und persönlich."
+      },
+      {
+        "kicker": "Unterschrift",
+        "title": "Formales begleiten",
+        "text": "Die Musik hält die Stimmung, während Dokumente unterschrieben werden."
+      },
+      {
+        "kicker": "Auszug",
+        "title": "Leicht und hell",
+        "text": "Zum Abschluss darf die Musik sichtbar feiern."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Musik für standesamtliche Trauung.",
+    "items": [
+      {
+        "question": "Ist Live-Musik im Standesamt möglich?",
+        "answer": "Meist ja. Wichtig ist, Dauer und Einsätze vorher mit dem Standesamt abzustimmen. Solo-Viola ist platzsparend und akustisch gut planbar.",
+        "open": true
+      },
+      {
+        "question": "Wie viele Stücke braucht man im Standesamt?",
+        "answer": "Oft reichen zwei bis vier kurze Stücke: Einzug, Unterschrift, Auszug und auf Wunsch ein persönliches Lied."
+      },
+      {
+        "question": "Kann ein moderner Song gespielt werden?",
+        "answer": "Ja, wenn er musikalisch passt und sich für Viola sinnvoll einrichten lässt."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik Standesamt Hochzeit anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Standesamt Hochzeit.",
+    "checklist": [
+      "Musik Standesamt Hochzeit",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik Standesamt Hochzeit zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

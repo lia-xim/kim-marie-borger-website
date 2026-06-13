@@ -1,0 +1,64 @@
+{
+  "pageKind": "local",
+  "serviceSlug": "beerdigungen",
+  "pageSlug": "muenster",
+  "route": "/beerdigungen/muenster/",
+  "targetKeyword": "Trauermusik Münster",
+  "intentCluster": "beerdigungen:local",
+  "priority": "P3",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Trauermusik Münster | Viola für Beerdigung & Abschied",
+  "seoDescription": "Trauermusik in Münster: würdevolle Viola-Begleitung für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Behutsam und zuverlässig.",
+  "hero": {
+    "title": "Trauermusik in Münster für einen würdevollen Abschied.",
+    "lead": "Warme Viola-Klänge für Trauerfeier, Beerdigung, Bestattung oder Abschied in Münster - behutsam, ruhig und zuverlässig."
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Trauermusik in Münster.",
+    "items": [
+      {
+        "question": "Begleitest du Trauerfeiern in Münster?",
+        "answer": "Ja. Ich spiele Trauermusik in Münster in Trauerhallen, Kirchen, Kapellen, am Grab oder bei freien Abschiedsfeiern.",
+        "open": true
+      },
+      {
+        "question": "Kannst du dich mit dem Bestattungshaus abstimmen?",
+        "answer": "Ja. Ablauf, Einsätze, Ankunft und Stückauswahl kläre ich gern direkt mit Bestatter:in, Pfarrer:in oder Trauerredner:in."
+      },
+      {
+        "question": "Welche Stücke passen zur Beerdigung?",
+        "answer": "Häufig gewünscht sind Ave Maria, Air, Méditation, Amazing Grace oder ein persönliches Lieblingsstück, das behutsam für Viola arrangiert wird."
+      },
+      {
+        "question": "Sind kurzfristige Anfragen möglich?",
+        "answer": "Oft ja. Gerade bei Beerdigungen in Münster melde ich mich schnell zurück, damit ihr Planungssicherheit bekommt."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
+      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Trauermusik Münster anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Trauermusik Münster.",
+    "checklist": [
+      "Trauermusik Münster",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Trauermusik Münster zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

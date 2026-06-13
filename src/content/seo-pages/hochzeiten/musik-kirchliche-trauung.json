@@ -1,0 +1,100 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "hochzeiten",
+  "pageSlug": "musik-kirchliche-trauung",
+  "route": "/hochzeiten/musik-kirchliche-trauung/",
+  "targetKeyword": "Musik kirchliche Trauung",
+  "intentCluster": "hochzeiten:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Musik kirchliche Trauung | Live-Viola für Kirche & Hochzeit",
+  "seoDescription": "Musik für die kirchliche Trauung: Live-Viola für Einzug, Gebet, Ringtausch, Segen und Auszug in Kirche oder Kapelle.",
+  "hero": {
+    "title": "Musik für die kirchliche Trauung.",
+    "lead": "Live-Viola für Kirche oder Kapelle - warm, festlich und passend zum liturgischen Ablauf."
+  },
+  "split": {
+    "eyebrow": "Kirche",
+    "title": "Kirchenräume brauchen Klang mit Respekt.",
+    "lede": "Die Viola fügt sich gut in kirchliche Räume ein: getragen genug für den Anlass, aber beweglich genug für kurze Einsätze.",
+    "paragraphs": [
+      "Möglich sind Musik zum Einzug, während der Trauung, zum Ringtausch, zum Segen, zur Kommunion oder zum Auszug.",
+      "Ich kläre die Auswahl gern mit euch und bei Bedarf mit Pfarrer:in, Organist:in oder Kantor:in."
+    ]
+  },
+  "focus": {
+    "eyebrow": "Kirche",
+    "title": "Musikpunkte im Gottesdienst.",
+    "lead": "Die Musik wird so geplant, dass sie zum Ablauf und zum Raum passt.",
+    "items": [
+      {
+        "kicker": "Einzug",
+        "title": "Festlich beginnen",
+        "text": "Ein getragenes Stück gibt dem Einzug Würde."
+      },
+      {
+        "kicker": "Ringe",
+        "title": "Trauhandlung",
+        "text": "Leise Musik kann den Ringtausch rahmen."
+      },
+      {
+        "kicker": "Segen",
+        "title": "Stiller Moment",
+        "text": "Ein ruhiges Stück lässt Raum für Gebet und Sammlung."
+      },
+      {
+        "kicker": "Auszug",
+        "title": "Feierlicher Abschluss",
+        "text": "Der Auszug darf klar, hell und freudig klingen."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Musik kirchliche Trauung.",
+    "items": [
+      {
+        "question": "Passt Viola zur kirchlichen Trauung?",
+        "answer": "Ja. Die Viola klingt warm und getragen und passt gut zu Kirche, Kapelle und liturgischen Momenten.",
+        "open": true
+      },
+      {
+        "question": "Muss die Musik mit der Kirche abgestimmt werden?",
+        "answer": "Meist ja. Ich kann die Einsätze und Stücke mit euch und den zuständigen Personen abstimmen."
+      },
+      {
+        "question": "Sind klassische und moderne Stücke möglich?",
+        "answer": "Ja, sofern sie zum Rahmen passen und für Solo-Viola sinnvoll eingerichtet werden können."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik kirchliche Trauung anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik kirchliche Trauung.",
+    "checklist": [
+      "Musik kirchliche Trauung",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik kirchliche Trauung zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "hochzeiten",
+  "pageSlug": "emotionale-hochzeitsmusik",
+  "route": "/hochzeiten/emotionale-hochzeitsmusik/",
+  "targetKeyword": "Emotionale Hochzeitsmusik",
+  "intentCluster": "hochzeiten:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Emotionale Hochzeitsmusik | Hochzeitsmusik mit Live-Viola",
+  "seoDescription": "emotionale Hochzeitsmusik: Live-Viola für Trauung, Empfang oder Dinner. Wunschmusik und Timing persönlich abgestimmt.",
+  "hero": {
+    "title": "Emotionale Hochzeitsmusik, persönlich geplant und live begleitet.",
+    "lead": "Live-Viola für Hochzeiten mit warmem, elegantem Streicherklang. Diese Seite bündelt den Suchintent \"emotionale Hochzeitsmusik\" für Musik, die nahegeht und trotzdem elegant bleibt."
+  },
+  "split": {
+    "eyebrow": "Stil",
+    "title": "Der Stil entscheidet über die Atmosphäre.",
+    "lede": "Klassisch, modern, romantisch oder dezent meint nicht nur Repertoire, sondern auch Lautstärke, Tempo und Präsenz. Für emotionale hochzeitsmusik zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "paragraphs": [
+      "Emotionale Hochzeitsmusik wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für eure Hochzeit.",
+      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was ihr für diesen Moment brauchen.",
+      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+    ]
+  },
+  "focus": {
+    "eyebrow": "Stil",
+    "title": "Emotionale Hochzeitsmusik: worauf es ankommt.",
+    "lead": "Die folgenden Punkte trennen diese Suchintention bewusst von allgemeineren Seiten und helfen bei der Planung.",
+    "items": [
+      {
+        "kicker": "Moment",
+        "title": "Einsatzpunkt planen",
+        "text": "Emotionale Hochzeitsmusik braucht einen klaren musikalischen Anfang und ein sinnvolles Ende."
+      },
+      {
+        "kicker": "Stimmung",
+        "title": "Repertoire wählen",
+        "text": "Klassische Stücke, moderne Songs oder ein Wunschlied werden passend zum Ablauf ausgewählt."
+      },
+      {
+        "kicker": "Klang",
+        "title": "Viola als Stimme",
+        "text": "Der warme Klang der Viola bleibt nah, emotional und trotzdem elegant."
+      },
+      {
+        "kicker": "Ablauf",
+        "title": "Sicher abstimmen",
+        "text": "Timing, Dauer und Übergänge werden vorab mit ihr geklärt."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu emotionale Hochzeitsmusik.",
+    "items": [
+      {
+        "question": "Passt Emotionale Hochzeitsmusik zu eure Hochzeit?",
+        "answer": "Ja. Emotionale Hochzeitsmusik wird gezielt auf eure Hochzeit, den Raum und den Ablauf abgestimmt. für eine klare musikalische Stilrichtung.",
+        "open": true
+      },
+      {
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+      },
+      {
+        "question": "Wie wird der Ablauf abgestimmt?",
+        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit emotionale Hochzeitsmusik am Tag selbst ruhig funktioniert."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Emotionale Hochzeitsmusik anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Emotionale Hochzeitsmusik.",
+    "checklist": [
+      "Emotionale Hochzeitsmusik",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Emotionale Hochzeitsmusik zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

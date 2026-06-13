@@ -1,0 +1,60 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "beerdigungen",
+  "pageSlug": "amazing-grace-beerdigung",
+  "route": "/beerdigungen/amazing-grace-beerdigung/",
+  "targetKeyword": "Amazing Grace Beerdigung",
+  "intentCluster": "beerdigungen:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Amazing Grace Beerdigung | Trauermusik mit Viola",
+  "seoDescription": "Amazing Grace Beerdigung: Behutsame Live-Viola für Trauerfeier, Beerdigung und Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "hero": {
+    "title": "Amazing Grace Beerdigung, persönlich geplant und live begleitet.",
+    "lead": "Behutsame Live-Viola für Abschiede, Trauerfeiern und stille Erinnerungsmomente. Diese Seite bündelt den Suchintent \"Amazing Grace Beerdigung\" für ein bekanntes Abschiedslied ohne Gesang."
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Amazing Grace Beerdigung.",
+    "items": [
+      {
+        "question": "Passt Amazing Grace Beerdigung zu den Abschied?",
+        "answer": "Ja. Amazing Grace Beerdigung wird gezielt auf den Abschied, den Raum und den Ablauf abgestimmt. für die passende Stückauswahl bei einer Trauerfeier.",
+        "open": true
+      },
+      {
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+      },
+      {
+        "question": "Wie wird der Ablauf abgestimmt?",
+        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Amazing Grace Beerdigung am Tag selbst ruhig funktioniert."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
+      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Amazing Grace Beerdigung anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Amazing Grace Beerdigung.",
+    "checklist": [
+      "Amazing Grace Beerdigung",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Amazing Grace Beerdigung zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

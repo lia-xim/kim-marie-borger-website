@@ -1,0 +1,76 @@
+{
+  "pageKind": "local",
+  "serviceSlug": "geburtstage",
+  "pageSlug": "moers",
+  "route": "/geburtstage/moers/",
+  "targetKeyword": "Live Musik Geburtstag Moers",
+  "intentCluster": "geburtstage:local",
+  "priority": "P3",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Live Musik Geburtstag Moers | Viola für private Feiern",
+  "seoDescription": "Live Musik zum Geburtstag in Moers: Viola für private Feiern, Gartenfeste, Sektempfang, Dinner und musikalische Überraschungen.",
+  "hero": {
+    "title": "Live Musik zum Geburtstag in Moers.",
+    "lead": "Solo-Viola für Geburtstage, Gartenfeste, private Feiern, Sektempfang, Dinner und musikalische Überraschungen in Moers."
+  },
+  "split": {
+    "eyebrow": "Worum es geht",
+    "title": "Ein Fest in Moers, das persönlich klingt.",
+    "paragraphs": [
+      "Ob zwischen Schlosspark, Altstadt, Niederrhein und kurzen Wegen nach Duisburg: Live-Musik macht einen Geburtstag sofort persönlicher. Die Viola kann festlich empfangen, ein Lieblingslied als Überraschung spielen oder ein Dinner warm begleiten.",
+      "Ich plane mit euch, ob die Musik offen angekündigt wird oder als musikalisches Geburtstagsgeschenk beginnt. Vom kurzen Ständchen bis zu mehreren Sets über den Abend ist alles möglich."
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Live Musik zum Geburtstag in Moers.",
+    "items": [
+      {
+        "question": "Spielst du auf Geburtstagen in Moers?",
+        "answer": "Ja. Ich begleite Geburtstage und private Feiern in Moers mit Solo-Viola - vom kurzen Ständchen bis zur längeren Empfangs- oder Dinnermusik.",
+        "open": true
+      },
+      {
+        "question": "Kann die Musik eine Überraschung sein?",
+        "answer": "Ja. Ankunft, Einsatz und erstes Stück stimme ich diskret mit einer Vertrauensperson ab."
+      },
+      {
+        "question": "Welche Musik passt zu einer privaten Feier?",
+        "answer": "Festliche Klassik, moderne Arrangements, Filmmusik oder das Lieblingslied des Geburtstagskinds - je nachdem, welcher Moment entstehen soll."
+      },
+      {
+        "question": "Spielst du auch draußen?",
+        "answer": "Bei trockenem Wetter sehr gern. Ein schattiger Platz, ein Stuhl und genug Ruhe für das Instrument reichen meistens aus."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+      "alt": "Porträt von Kim Marie Borger mit ihrer Viola"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Live Musik Geburtstag Moers anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Live Musik Geburtstag Moers.",
+    "checklist": [
+      "Live Musik Geburtstag Moers",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Live Musik Geburtstag Moers zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

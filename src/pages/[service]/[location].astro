@@ -5,6 +5,7 @@ import LocalLinks from '../../components/LocalLinks.astro';
 import TopicLinks from '../../components/TopicLinks.astro';
 import { getConfig, getPage } from '../../lib/data';
 import { firstBlockImage } from '../../lib/seo';
+import { getSeoPageOverride } from '../../lib/seo-overrides';
 import {
 	buildLocalSeoPage,
 	getLocalSeoPage,
@@ -58,13 +59,14 @@ const page = await getPage(baseSlug);
 const baseData = page.data?.page;
 if (!baseData) return new Response('Not Found', { status: 404 });
 
+const override = getSeoPageOverride(pageKind, serviceSlug, pageSlug);
 const data = localPage
-	? buildLocalSeoPage(localPage, baseData)
-	: buildTopicSeoPage(topicPage!, baseData);
+	? buildLocalSeoPage(localPage, baseData, override)
+	: buildTopicSeoPage(topicPage!, baseData, override);
 const config = (await getConfig()).data?.config ?? null;
 const jsonLd = localPage
-	? localSeoJsonLd(Astro.site ?? new URL(Astro.url.origin), localPage)
-	: topicSeoJsonLd(Astro.site ?? new URL(Astro.url.origin), topicPage!);
+	? localSeoJsonLd(Astro.site ?? new URL(Astro.url.origin), localPage, override)
+	: topicSeoJsonLd(Astro.site ?? new URL(Astro.url.origin), topicPage!, override);
 ---
 
 <Base

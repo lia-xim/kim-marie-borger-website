@@ -1,0 +1,60 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "beerdigungen",
+  "pageSlug": "musik-am-grab",
+  "route": "/beerdigungen/musik-am-grab/",
+  "targetKeyword": "Musik am Grab",
+  "intentCluster": "beerdigungen:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Musik am Grab | Trauermusik mit Viola",
+  "seoDescription": "Musik am Grab: Behutsame Live-Viola für Trauerfeier, Beerdigung und Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "hero": {
+    "title": "Musik am Grab, persönlich geplant und live begleitet.",
+    "lead": "Behutsame Live-Viola für Abschiede, Trauerfeiern und stille Erinnerungsmomente. Diese Seite bündelt den Suchintent \"Musik am Grab\" für den Gang zum Grab oder die stille Verabschiedung."
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Musik am Grab.",
+    "items": [
+      {
+        "question": "Passt Musik am Grab zu den Abschied?",
+        "answer": "Ja. Musik am Grab wird gezielt auf den Abschied, den Raum und den Ablauf abgestimmt. für einen würdevollen Abschied.",
+        "open": true
+      },
+      {
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+      },
+      {
+        "question": "Wie wird der Ablauf abgestimmt?",
+        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik am Grab am Tag selbst ruhig funktioniert."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
+      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik am Grab anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik am Grab.",
+    "checklist": [
+      "Musik am Grab",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik am Grab zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

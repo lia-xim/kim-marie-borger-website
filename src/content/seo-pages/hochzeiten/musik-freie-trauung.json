@@ -1,0 +1,100 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "hochzeiten",
+  "pageSlug": "musik-freie-trauung",
+  "route": "/hochzeiten/musik-freie-trauung/",
+  "targetKeyword": "Musik freie Trauung",
+  "intentCluster": "hochzeiten:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Musik freie Trauung | Live-Viola für persönliche Zeremonien",
+  "seoDescription": "Musik für freie Trauung: Live-Viola für Einzug, Ritual, Ringtausch, Ja-Wort und Auszug mit persönlichem Wunschlied.",
+  "hero": {
+    "title": "Musik für eure freie Trauung.",
+    "lead": "Live-Viola für eine persönliche Zeremonie mit Einzug, Ritual, Ringtausch, Ja-Wort und Auszug."
+  },
+  "split": {
+    "eyebrow": "Zeremonie",
+    "title": "Eine freie Trauung lebt von persönlichen Zeichen.",
+    "lede": "Musik kann diese Zeichen verbinden: ein Lied für den Einzug, ein ruhiger Moment während des Rituals, ein heller Auszug.",
+    "paragraphs": [
+      "Ich stimme mich mit euch und der Traurednerin oder dem Trauredner ab, damit die Musik an den richtigen Stellen beginnt und endet.",
+      "Klassik, moderne Songs oder euer Lieblingslied können für Solo-Viola eingerichtet werden."
+    ]
+  },
+  "focus": {
+    "eyebrow": "Zeremonie",
+    "title": "Musik für die persönlichen Momente.",
+    "lead": "Freie Trauungen bieten viel Raum für individuelle musikalische Entscheidungen.",
+    "items": [
+      {
+        "kicker": "Einzug",
+        "title": "Ankommen",
+        "text": "Musik gibt dem Beginn Ruhe und Aufmerksamkeit."
+      },
+      {
+        "kicker": "Ritual",
+        "title": "Symbolischer Moment",
+        "text": "Ein leises Stück kann ein Ritual oder persönliche Worte rahmen."
+      },
+      {
+        "kicker": "Ja-Wort",
+        "title": "Versprechen",
+        "text": "Musik kann einen Moment halten, ohne ihn zu erklären."
+      },
+      {
+        "kicker": "Auszug",
+        "title": "Feiern",
+        "text": "Zum Abschluss darf die Musik hell und gelöst werden."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Musik freie Trauung.",
+    "items": [
+      {
+        "question": "Spielst du bei freien Trauungen?",
+        "answer": "Ja. Freie Trauungen lassen sich sehr gut mit Solo-Viola begleiten, weil der Ablauf individuell geplant werden kann.",
+        "open": true
+      },
+      {
+        "question": "Stimmst du dich mit der Traurednerin ab?",
+        "answer": "Ja. Einsätze und Ablauf können direkt abgestimmt werden."
+      },
+      {
+        "question": "Kann unser Lieblingslied Teil der freien Trauung sein?",
+        "answer": "Sehr gern, wenn es musikalisch für Viola geeignet ist."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik freie Trauung anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik freie Trauung.",
+    "checklist": [
+      "Musik freie Trauung",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik freie Trauung zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

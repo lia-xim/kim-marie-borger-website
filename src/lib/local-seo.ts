@@ -1,4 +1,5 @@
 import type { CmsPage } from './data';
+import { applySeoPageOverride, type SeoPageOverride } from './seo-overrides';
 import { canonicalUrl } from './url';
 
 type PageData = NonNullable<CmsPage>;
@@ -499,7 +500,8 @@ export function keywordLabel(service: LocalSeoService, location: LocalSeoLocatio
 	}
 }
 
-export function localSeoTitle(page: LocalSeoPage): string {
+export function localSeoTitle(page: LocalSeoPage, override?: SeoPageOverride): string {
+	if (override?.seoTitle) return override.seoTitle;
 	const { service, location } = page;
 	switch (service.slug) {
 		case 'hochzeiten':
@@ -519,7 +521,8 @@ export function localSeoTitle(page: LocalSeoPage): string {
 	}
 }
 
-export function localSeoDescription(page: LocalSeoPage): string {
+export function localSeoDescription(page: LocalSeoPage, override?: SeoPageOverride): string {
+	if (override?.seoDescription) return override.seoDescription;
 	const { service, location } = page;
 	switch (service.slug) {
 		case 'hochzeiten':
@@ -539,18 +542,18 @@ export function localSeoDescription(page: LocalSeoPage): string {
 	}
 }
 
-export function buildLocalSeoPage(page: LocalSeoPage, basePage: PageData): PageData {
+export function buildLocalSeoPage(page: LocalSeoPage, basePage: PageData, override?: SeoPageOverride): PageData {
 	const clone = JSON.parse(JSON.stringify(basePage)) as PageData;
-	clone.seoTitle = localSeoTitle(page);
-	clone.seoDescription = localSeoDescription(page);
+	clone.seoTitle = localSeoTitle(page, override);
+	clone.seoDescription = localSeoDescription(page, override);
 	clone.bodyClass = [clone.bodyClass, 'page-local-seo'].filter(Boolean).join(' ');
 	clone.blocks = (clone.blocks ?? [])
 		.filter(Boolean)
 		.map((block) => rewriteBlock(block as AnyBlock, page) as any);
-	return clone;
+	return applySeoPageOverride(clone, override);
 }
 
-export function localSeoJsonLd(site: URL, page: LocalSeoPage): object {
+export function localSeoJsonLd(site: URL, page: LocalSeoPage, override?: SeoPageOverride): object {
 	const { service, location } = page;
 	const url = canonicalUrl(site, localPagePath(service, location)).href;
 	const parentUrl = canonicalUrl(site, `/${service.baseSlug}/`).href;
@@ -572,7 +575,7 @@ export function localSeoJsonLd(site: URL, page: LocalSeoPage): object {
 				'@type': 'Service',
 				'@id': `${url}#service`,
 				name: `${service.serviceType} ${location.locative}`,
-				description: localSeoDescription(page),
+				description: localSeoDescription(page, override),
 				serviceType: service.serviceType,
 				provider: { '@id': new URL('/#person', site).href },
 				areaServed: { '@type': areaType, name: location.name },

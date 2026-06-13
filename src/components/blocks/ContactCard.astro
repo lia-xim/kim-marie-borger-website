@@ -6,7 +6,14 @@ import { getConfig } from '../../lib/data';
 const { data } = Astro.props;
 const bgClass = data?.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
 const config = (await getConfig()).data?.config ?? null;
-const contact = config?.contact ?? null;
+const contactOverride = data?.contact ?? null;
+const contact = config?.contact
+	? {
+			...config.contact,
+			...contactOverride,
+			checklist: contactOverride?.checklist?.length ? contactOverride.checklist : config.contact.checklist,
+		}
+	: contactOverride;
 const checklist = (contact?.checklist ?? []).filter((c): c is string => typeof c === 'string' && c.trim() !== '');
 ---
 <section class={`section${bgClass}`} id={data?.anchorId || 'kontakt'}>

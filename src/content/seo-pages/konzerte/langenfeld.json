@@ -1,0 +1,68 @@
+{
+  "pageKind": "local",
+  "serviceSlug": "konzerte",
+  "pageSlug": "langenfeld",
+  "route": "/konzerte/langenfeld/",
+  "targetKeyword": "Viola Konzert Langenfeld",
+  "intentCluster": "konzerte:local",
+  "priority": "P3",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Viola Konzert Langenfeld | Musik für Event & Kulturabend",
+  "seoDescription": "Viola Konzert in Langenfeld: kuratierte Musik für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
+  "hero": {
+    "title": "Viola Konzert in Langenfeld für besondere Bühnen.",
+    "lead": "Kuratierte Viola-Programme für Vernissage, Lesung, Salonkonzert, Kulturabend, Empfang oder Event in Langenfeld."
+  },
+  "split": {
+    "eyebrow": "Worum es geht",
+    "title": "Ein Programm in Langenfeld, das zum Raum passt.",
+    "paragraphs": [
+      "Ob zwischen Düsseldorf, Köln, Monheim und Leichlingen: Ein Konzert- oder Kulturabend braucht Dramaturgie. Ich stelle Programme zusammen, die mit dem Raum, dem Publikum und dem Anlass arbeiten - von klassischer Tiefe bis zu modernen Arrangements.",
+      "Möglich sind kurze musikalische Rahmen von etwa 30 Minuten, ein Salonkonzert mit Pause oder ein konzentrierter Programmpunkt für Vernissage, Lesung, Empfang oder private Veranstaltung."
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Viola Konzerten in Langenfeld.",
+    "items": [
+      {
+        "question": "Spielst du Konzerte und Events in Langenfeld?",
+        "answer": "Ja. Ich gestalte Viola-Programme für Konzerte, Vernissagen, Lesungen, Kulturabende, private Events und Empfänge in Langenfeld.",
+        "open": true
+      },
+      {
+        "question": "Wie lang ist ein Programm?",
+        "answer": "Je nach Format sind kurze Rahmenprogramme, 30 bis 60 Minuten oder ein längerer Konzertabend mit Pause möglich."
+      },
+      {
+        "question": "Kannst du Stücke anmoderieren?",
+        "answer": "Ja. Kurze persönliche Anmoderationen können ein Programm zugänglicher und lebendiger machen."
+      },
+      {
+        "question": "Brauchst du Technik?",
+        "answer": "In vielen Räumen reicht akustisches Spiel. Für größere Säle oder Events bespreche ich dezente Verstärkung."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": "Kim Marie Borger mit Viola im Freien"
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Viola Konzert Langenfeld anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Viola Konzert Langenfeld.",
+    "checklist": [
+      "Viola Konzert Langenfeld",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Viola Konzert Langenfeld zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

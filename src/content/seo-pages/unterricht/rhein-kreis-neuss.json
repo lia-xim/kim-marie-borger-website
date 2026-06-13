@@ -1,0 +1,72 @@
+{
+  "pageKind": "local",
+  "serviceSlug": "unterricht",
+  "pageSlug": "rhein-kreis-neuss",
+  "route": "/unterricht/rhein-kreis-neuss/",
+  "targetKeyword": "Bratschenunterricht Rhein-Kreis Neuss",
+  "intentCluster": "unterricht:local",
+  "priority": "P3",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Bratschenunterricht Rhein-Kreis Neuss | Viola lernen",
+  "seoDescription": "Bratschenunterricht im Rhein-Kreis Neuss: individueller Viola- und Musikunterricht für Anfänger, Kinder, Erwachsene und Fortgeschrittene.",
+  "hero": {
+    "title": "Bratschenunterricht im Rhein-Kreis Neuss mit Ruhe & Struktur.",
+    "lead": "Viola lernen für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene im Rhein-Kreis Neuss - mit geduldigem Aufbau und kostenloser Probestunde."
+  },
+  "split": {
+    "eyebrow": "Worum es geht",
+    "title": "Viola lernen im Rhein-Kreis Neuss, ohne Druck.",
+    "paragraphs": [
+      "Ob rund um Neuss, Dormagen, Meerbusch, Kaarst, Grevenbroich und den Rhein: Bratschenunterricht funktioniert dann gut, wenn Haltung, Bogenführung, Klang und Üben von Anfang an verständlich aufgebaut werden. Genau darauf liegt der Fokus.",
+      "Der Unterricht richtet sich an Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene. Wir arbeiten in deinem Tempo, mit klaren Übungen und Stücken, die dich wirklich interessieren."
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Bratschenunterricht im Rhein-Kreis Neuss.",
+    "items": [
+      {
+        "question": "Bietest du Bratschenunterricht im Rhein-Kreis Neuss an?",
+        "answer": "Ja. Ich biete individuellen Bratschen- und Violaunterricht im Rhein-Kreis Neuss beziehungsweise nach Absprache im passenden Rahmen an.",
+        "open": true
+      },
+      {
+        "question": "Ist der Unterricht für Anfänger:innen geeignet?",
+        "answer": "Ja. Gerade der Anfang ist wichtig: Haltung, Bogenführung, Rhythmus und Ton werden ruhig und verständlich aufgebaut."
+      },
+      {
+        "question": "Unterrichtest du Kinder und Erwachsene?",
+        "answer": "Ja. Kinder, Jugendliche, Erwachsene, Wiedereinsteiger:innen und Fortgeschrittene können mit einem passenden Ziel arbeiten."
+      },
+      {
+        "question": "Gibt es eine Probestunde?",
+        "answer": "Ja. Die Probestunde ist kostenlos und unverbindlich, damit du in Ruhe schauen kannst, ob der Unterricht passt."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+      "alt": "Streichinstrument, Nahaufnahme"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Bratschenunterricht Rhein-Kreis Neuss anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Bratschenunterricht Rhein-Kreis Neuss.",
+    "checklist": [
+      "Bratschenunterricht Rhein-Kreis Neuss",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Bratschenunterricht Rhein-Kreis Neuss zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

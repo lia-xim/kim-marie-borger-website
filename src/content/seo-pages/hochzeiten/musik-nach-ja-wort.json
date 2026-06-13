@@ -1,0 +1,106 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "hochzeiten",
+  "pageSlug": "musik-nach-ja-wort",
+  "route": "/hochzeiten/musik-nach-ja-wort/",
+  "targetKeyword": "Musik nach dem Ja-Wort",
+  "intentCluster": "hochzeiten:topic",
+  "priority": "P2",
+  "status": "rewritten-batch-1-review-needed",
+  "enabled": true,
+  "seoTitle": "Musik nach dem Ja-Wort | Live-Viola nach dem Versprechen",
+  "seoDescription": "Musik nach dem Ja-Wort: Live-Viola für Applaus, erstes Aufatmen und den Übergang nach dem Versprechen.",
+  "hero": {
+    "eyebrow": "Hochzeit - nach dem Ja",
+    "title": "Musik nach dem Ja-Wort, wenn aus Spannung Freude wird.",
+    "lead": "Nach dem Ja-Wort veraendert sich die Energie im Raum. Die Musik darf diesen Wechsel hörbar machen: vom stillen Versprechen hin zu Applaus, Blickkontakt und erstem Aufatmen.",
+    "badge": "Für Applaus und Übergang"
+  },
+  "split": {
+    "eyebrow": "Suchintention",
+    "title": "Nach dem Ja-Wort braucht Musik mehr Öffnung als vorher.",
+    "lede": "Diese Seite ist nicht für den stillen Sekundenbruchteil des Versprechens gedacht, sondern für den Moment danach. Die Musik darf wärmer, heller und etwas bewegter werden, ohne schon wie Auszugsmusik zu wirken.",
+    "paragraphs": [
+      "Ein kurzes Stück nach dem Ja-Wort kann Applaus aufnehmen, Fotos und Blicke begleiten oder den Weg zum Ringtausch beziehungsweise zur Unterschrift verbinden. Entscheidend ist, dass es nicht zu früh in Jubel kippt.",
+      "Mit der Viola entsteht ein Klang, der Freude zeigt und trotzdem elegant bleibt. So kann die Zeremonie weiteratmen, bevor der festliche Auszug oder der nächste Programmpunkt beginnt."
+    ]
+  },
+  "focus": {
+    "eyebrow": "Ablauf",
+    "title": "Der Moment nach dem Ja-Wort hat eigene Aufgaben.",
+    "lead": "Die Musik nimmt die Emotion auf und führt sie in den nächsten Schritt der Zeremonie.",
+    "items": [
+      {
+        "kicker": "Aufatmen",
+        "title": "Stille lösen",
+        "text": "Direkt nach dem Ja darf die Musik Spannung in Wärme verwandeln."
+      },
+      {
+        "kicker": "Applaus",
+        "title": "Reaktion tragen",
+        "text": "Wenn Gäste klatschen, bleibt die Viola flexibel und passt sich der Dauer an."
+      },
+      {
+        "kicker": "Übergang",
+        "title": "Nächsten Schritt verbinden",
+        "text": "Ringtausch, Unterschrift oder Auszug können musikalisch vorbereitet werden."
+      },
+      {
+        "kicker": "Dynamik",
+        "title": "Nicht zu früh feiern",
+        "text": "Der Klang bleibt festlich, aber noch nicht so groß wie beim Auszug."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "FAQ zur Musik nach dem Ja-Wort",
+    "items": [
+      {
+        "question": "Wann beginnt Musik nach dem Ja-Wort?",
+        "answer": "Meist direkt nachdem beide geantwortet haben oder nachdem die Traurednerin den Moment freigibt. Das genaue Zeichen wird vorab abgestimmt.",
+        "open": true
+      },
+      {
+        "question": "Ist das schon die Auszugsmusik?",
+        "answer": "Nicht unbedingt. Musik nach dem Ja-Wort ist oft kürzer und emotionaler. Auszugsmusik ist meist größer, heller und klar als Abschluss gesetzt."
+      },
+      {
+        "question": "Kann die Musik Applaus überbruecken?",
+        "answer": "Ja. Ich kann flexibel länger oder kürzer spielen und das Stück so führen, dass es nicht gegen Applaus arbeitet."
+      },
+      {
+        "question": "Welches Stück passt nach dem Ja-Wort?",
+        "answer": "Gut passen warme, klare Melodien mit leichter Bewegung. Je nach Paar kann das klassisch, modern oder ein kurzer Ausschnitt aus einem Wunschlied sein."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+      "alt": "Live-Viola nach dem Ja-Wort bei einer Hochzeit 1"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Live-Viola nach dem Ja-Wort bei einer Hochzeit 2"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": "Live-Viola nach dem Ja-Wort bei einer Hochzeit 3"
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.",
+  "contact": {
+    "eyebrow": "Nach dem Ja-Wort",
+    "title": "Der erste Moment danach soll Musik bekommen?",
+    "lead": "Erzähl mir, was nach eurem Ja-Wort passiert. Daraus entwickeln wir einen musikalischen Übergang, der sich natürlich anfühlt.",
+    "checklist": [
+      "Applaus",
+      "Übergang",
+      "Wunschlied-Auszug"
+    ],
+    "formEyebrow": "Ablauf senden",
+    "formTitle": "Musik nach dem Ja-Wort anfragen",
+    "formSuccess": "Danke - ich melde mich mit einem Vorschlag für den Moment direkt nach eurem Ja-Wort."
+  }
+}

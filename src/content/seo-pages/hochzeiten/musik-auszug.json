@@ -1,0 +1,100 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "hochzeiten",
+  "pageSlug": "musik-auszug",
+  "route": "/hochzeiten/musik-auszug/",
+  "targetKeyword": "Auszug Hochzeit Musik",
+  "intentCluster": "hochzeiten:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Auszug Hochzeit Musik | Live-Viola für den feierlichen Auszug",
+  "seoDescription": "Musik zum Auszug bei der Hochzeit: festliche Live-Viola für den Abschluss von Standesamt, Kirche oder freier Trauung.",
+  "hero": {
+    "title": "Musik zum Auszug, wenn aus Ja ein Wir wird.",
+    "lead": "Festliche Live-Viola für den Moment, in dem die Zeremonie endet und die Feier beginnt."
+  },
+  "split": {
+    "eyebrow": "Stimmung",
+    "title": "Der Auszug braucht Energie.",
+    "lede": "Nach Ringtausch und Ja-Wort darf die Musik heller werden. Sie gibt dem Applaus, den Glückwünschen und dem ersten Schritt nach draußen Schwung.",
+    "paragraphs": [
+      "Die Musik zum Auszug kann klassisch, modern oder persönlich sein. Wichtig ist, dass sie Freude und Bewegung trägt.",
+      "Ich plane den Einsatz so, dass der erste Ton genau nach dem richtigen Moment beginnt."
+    ]
+  },
+  "focus": {
+    "eyebrow": "Stimmung",
+    "title": "Was zum Auszug gut funktioniert.",
+    "lead": "Der Auszug ist kurz, aber wirkungsvoll. Die Musik darf klar und sofort erkennbar sein.",
+    "items": [
+      {
+        "kicker": "Festlich",
+        "title": "Klassischer Auszug",
+        "text": "Helle klassische Stücke wirken feierlich und zeitlos."
+      },
+      {
+        "kicker": "Modern",
+        "title": "Moderner Song",
+        "text": "Ein bekannter Song kann als Viola-Version persönlich und frisch klingen."
+      },
+      {
+        "kicker": "Timing",
+        "title": "Punktgenauer Start",
+        "text": "Der Einsatz wird mit Ablauf und Moderation abgestimmt."
+      },
+      {
+        "kicker": "Weiter",
+        "title": "Übergang zum Empfang",
+        "text": "Auf Wunsch geht die Musik direkt in den Sektempfang über."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Auszug Hochzeit Musik.",
+    "items": [
+      {
+        "question": "Welche Musik passt zum Auszug bei der Hochzeit?",
+        "answer": "Zum Auszug passen helle, festliche und bewegte Stücke - klassisch oder modern, je nachdem, wie ihr den Moment feiern wollt.",
+        "open": true
+      },
+      {
+        "question": "Kann die Musik direkt nach dem Ja-Wort starten?",
+        "answer": "Ja. Der genaue Einsatz wird vorher mit euch und der Zeremonieleitung abgestimmt."
+      },
+      {
+        "question": "Kannst du danach beim Sektempfang weiterspielen?",
+        "answer": "Ja, der Auszug kann musikalisch in Empfang oder Gratulationen übergehen."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Auszug Hochzeit Musik anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Auszug Hochzeit Musik.",
+    "checklist": [
+      "Auszug Hochzeit Musik",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Auszug Hochzeit Musik zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

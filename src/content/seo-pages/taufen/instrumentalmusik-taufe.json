@@ -1,0 +1,74 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "taufen",
+  "pageSlug": "instrumentalmusik-taufe",
+  "route": "/taufen/instrumentalmusik-taufe/",
+  "targetKeyword": "Instrumentalmusik Taufe",
+  "intentCluster": "taufen:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Instrumentalmusik Taufe | Taufmusik mit Live-Viola",
+  "seoDescription": "Instrumentalmusik Taufe: Sanfte Live-Viola für Taufe, Segnung und Familienfeier. Mit Kirche und Ablauf passend abgestimmt.",
+  "hero": {
+    "title": "Instrumentalmusik Taufe, persönlich geplant und live begleitet.",
+    "lead": "Sanfte Live-Viola für Taufe, Segnung und familiäre Gottesdienste. Diese Seite bündelt den Suchintent \"Instrumentalmusik Taufe\" für Musik ohne Gesang im Taufgottesdienst."
+  },
+  "split": {
+    "eyebrow": "Kirchliche Feier",
+    "title": "Taufmusik soll wärmen, nicht überfordern.",
+    "lede": "Bei Taufe, Segnung, Kommunion oder Konfirmation ist Musik Teil eines ruhigen, familiären Rahmens. Für instrumentalmusik taufe zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "paragraphs": [
+      "Instrumentalmusik Taufe wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für die kirchliche Feier.",
+      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Familie und Gemeinde für diesen Moment brauchen.",
+      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Instrumentalmusik Taufe.",
+    "items": [
+      {
+        "question": "Passt Instrumentalmusik Taufe zu die kirchliche Feier?",
+        "answer": "Ja. Instrumentalmusik Taufe wird gezielt auf die kirchliche Feier, den Raum und den Ablauf abgestimmt. für eine sanfte kirchliche oder familiäre Feier.",
+        "open": true
+      },
+      {
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+      },
+      {
+        "question": "Wie wird der Ablauf abgestimmt?",
+        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Instrumentalmusik Taufe am Tag selbst ruhig funktioniert."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
+      "alt": "Streichinstrumente, zarte Detailaufnahme"
+    },
+    {
+      "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+      "alt": "Nahaufnahme eines Streichinstruments"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Instrumentalmusik Taufe anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Instrumentalmusik Taufe.",
+    "checklist": [
+      "Instrumentalmusik Taufe",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Instrumentalmusik Taufe zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

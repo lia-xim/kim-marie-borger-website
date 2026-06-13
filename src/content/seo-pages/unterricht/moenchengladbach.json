@@ -1,0 +1,72 @@
+{
+  "pageKind": "local",
+  "serviceSlug": "unterricht",
+  "pageSlug": "moenchengladbach",
+  "route": "/unterricht/moenchengladbach/",
+  "targetKeyword": "Bratschenunterricht Mönchengladbach",
+  "intentCluster": "unterricht:local",
+  "priority": "P3",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Bratschenunterricht Mönchengladbach | Viola lernen",
+  "seoDescription": "Bratschenunterricht in Mönchengladbach: individueller Viola- und Musikunterricht für Anfänger, Kinder, Erwachsene und Fortgeschrittene.",
+  "hero": {
+    "title": "Bratschenunterricht in Mönchengladbach mit Ruhe & Struktur.",
+    "lead": "Viola lernen für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene in Mönchengladbach - mit geduldigem Aufbau und kostenloser Probestunde."
+  },
+  "split": {
+    "eyebrow": "Worum es geht",
+    "title": "Viola lernen in Mönchengladbach, ohne Druck.",
+    "paragraphs": [
+      "Ob zwischen Schloss Rheydt, Kaiser-Friedrich-Halle, Wickrath und dem linken Niederrhein: Bratschenunterricht funktioniert dann gut, wenn Haltung, Bogenführung, Klang und Üben von Anfang an verständlich aufgebaut werden. Genau darauf liegt der Fokus.",
+      "Der Unterricht richtet sich an Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene. Wir arbeiten in deinem Tempo, mit klaren Übungen und Stücken, die dich wirklich interessieren."
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Bratschenunterricht in Mönchengladbach.",
+    "items": [
+      {
+        "question": "Bietest du Bratschenunterricht in Mönchengladbach an?",
+        "answer": "Ja. Ich biete individuellen Bratschen- und Violaunterricht in Mönchengladbach beziehungsweise nach Absprache im passenden Rahmen an.",
+        "open": true
+      },
+      {
+        "question": "Ist der Unterricht für Anfänger:innen geeignet?",
+        "answer": "Ja. Gerade der Anfang ist wichtig: Haltung, Bogenführung, Rhythmus und Ton werden ruhig und verständlich aufgebaut."
+      },
+      {
+        "question": "Unterrichtest du Kinder und Erwachsene?",
+        "answer": "Ja. Kinder, Jugendliche, Erwachsene, Wiedereinsteiger:innen und Fortgeschrittene können mit einem passenden Ziel arbeiten."
+      },
+      {
+        "question": "Gibt es eine Probestunde?",
+        "answer": "Ja. Die Probestunde ist kostenlos und unverbindlich, damit du in Ruhe schauen kannst, ob der Unterricht passt."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+      "alt": "Streichinstrument, Nahaufnahme"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Bratschenunterricht Mönchengladbach anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Bratschenunterricht Mönchengladbach.",
+    "checklist": [
+      "Bratschenunterricht Mönchengladbach",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Bratschenunterricht Mönchengladbach zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

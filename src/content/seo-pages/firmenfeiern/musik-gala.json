@@ -1,0 +1,69 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "firmenfeiern",
+  "pageSlug": "musik-gala",
+  "route": "/firmenfeiern/musik-gala/",
+  "targetKeyword": "Musik Gala",
+  "intentCluster": "firmenfeiern:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Musik Gala | Live-Viola für Gala, Empfang & Dinner",
+  "seoDescription": "Musik für Gala und festliche Business-Events: Live-Viola für Empfang, Dinner, Ehrung, Jubiläum oder Programmpunkt.",
+  "hero": {
+    "title": "Musik für Gala und festliche Business-Events.",
+    "lead": "Live-Viola für Empfang, Dinner, Ehrung oder Programmpunkt - elegant, dezent und hochwertig."
+  },
+  "split": {
+    "eyebrow": "Anlässe",
+    "title": "Eine Gala braucht Atmosphäre mit Haltung.",
+    "lede": "Die Musik soll repräsentativ wirken und trotzdem Raum für Gespräche, Reden und Begegnungen lassen.",
+    "paragraphs": [
+      "Ich plane Musik für Empfang, Dinner, Preisverleihung, Jubiläum oder einen kurzen musikalischen Programmpunkt.",
+      "Repertoire, Kleidung, Ablauf und Rechnung werden business-tauglich und verlässlich abgestimmt."
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Musik Gala.",
+    "items": [
+      {
+        "question": "Passt Solo-Viola zu einer Gala?",
+        "answer": "Ja. Viola wirkt elegant und hochwertig, ohne zu laut oder aufdringlich zu sein.",
+        "open": true
+      },
+      {
+        "question": "Kann die Musik beim Dinner im Hintergrund bleiben?",
+        "answer": "Ja. Lautstärke, Dauer und Repertoire werden auf Gespräche und Ablauf abgestimmt."
+      },
+      {
+        "question": "Ist ein kurzer Programmpunkt möglich?",
+        "answer": "Ja. Ein kurzes, kuratiertes Set kann einen offiziellen Moment besonders machen."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
+      "alt": "Viola auf Notenblättern"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik Gala anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Gala.",
+    "checklist": [
+      "Musik Gala",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik Gala zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "beerdigungen",
+  "pageSlug": "live-musik-trauerfeier",
+  "route": "/beerdigungen/live-musik-trauerfeier/",
+  "targetKeyword": "Live Musik Trauerfeier",
+  "intentCluster": "beerdigungen:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Live Musik Trauerfeier | Trauermusik mit Viola",
+  "seoDescription": "Live Musik Trauerfeier: Behutsame Live-Viola für Trauerfeier, Beerdigung und Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "hero": {
+    "title": "Live Musik Trauerfeier, persönlich geplant und live begleitet.",
+    "lead": "Behutsame Live-Viola für Abschiede, Trauerfeiern und stille Erinnerungsmomente. Diese Seite bündelt den Suchintent \"Live Musik Trauerfeier\" für einen unmittelbaren Klang ohne Playback."
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Live Musik Trauerfeier.",
+    "items": [
+      {
+        "question": "Passt Live Musik Trauerfeier zu den Abschied?",
+        "answer": "Ja. Live Musik Trauerfeier wird gezielt auf den Abschied, den Raum und den Ablauf abgestimmt. für einen würdevollen Abschied.",
+        "open": true
+      },
+      {
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+      },
+      {
+        "question": "Wie wird der Ablauf abgestimmt?",
+        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Live Musik Trauerfeier am Tag selbst ruhig funktioniert."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
+      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Live Musik Trauerfeier anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Live Musik Trauerfeier.",
+    "checklist": [
+      "Live Musik Trauerfeier",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Live Musik Trauerfeier zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

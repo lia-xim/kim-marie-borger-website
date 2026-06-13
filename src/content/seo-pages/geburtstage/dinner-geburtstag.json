@@ -1,0 +1,74 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "geburtstage",
+  "pageSlug": "dinner-geburtstag",
+  "route": "/geburtstage/dinner-geburtstag/",
+  "targetKeyword": "Musik Dinner Geburtstag",
+  "intentCluster": "geburtstage:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Musik Dinner Geburtstag | Live-Musik für private Feiern",
+  "seoDescription": "Musik Dinner Geburtstag: Live-Viola für Geburtstag und private Feier. Dezent, persönlich und passend zu Empfang, Dinner oder Überraschung.",
+  "hero": {
+    "title": "Musik Dinner Geburtstag, persönlich geplant und live begleitet.",
+    "lead": "Live-Viola für private Feiern, Geburtstage und persönliche Momente. Diese Seite bündelt den Suchintent \"Musik Dinner Geburtstag\" für Essen, Toasts und ruhige Übergänge."
+  },
+  "split": {
+    "eyebrow": "Private Feier",
+    "title": "Private Feiern brauchen Nähe statt Show.",
+    "lede": "Musik darf den Anlass hervorheben, soll Gespräche aber nicht überdecken oder den Raum dominieren. Für musik dinner geburtstag zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "paragraphs": [
+      "Musik Dinner Geburtstag wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für die private Feier.",
+      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Gastgeber:innen und Gäste für diesen Moment brauchen.",
+      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Musik Dinner Geburtstag.",
+    "items": [
+      {
+        "question": "Passt Musik Dinner Geburtstag zu die private Feier?",
+        "answer": "Ja. Musik Dinner Geburtstag wird gezielt auf die private Feier, den Raum und den Ablauf abgestimmt. für eine persönliche private Feier.",
+        "open": true
+      },
+      {
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+      },
+      {
+        "question": "Wie wird der Ablauf abgestimmt?",
+        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Dinner Geburtstag am Tag selbst ruhig funktioniert."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+      "alt": "Porträt von Kim Marie Borger mit ihrer Viola"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik Dinner Geburtstag anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Dinner Geburtstag.",
+    "checklist": [
+      "Musik Dinner Geburtstag",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik Dinner Geburtstag zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

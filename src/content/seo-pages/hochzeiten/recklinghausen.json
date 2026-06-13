@@ -1,0 +1,108 @@
+{
+  "pageKind": "local",
+  "serviceSlug": "hochzeiten",
+  "pageSlug": "recklinghausen",
+  "route": "/hochzeiten/recklinghausen/",
+  "targetKeyword": "Hochzeitsmusik Recklinghausen",
+  "intentCluster": "hochzeiten:local",
+  "priority": "P3",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Hochzeitsmusik Recklinghausen | Viola für Trauung & Empfang",
+  "seoDescription": "Hochzeitsmusik in Recklinghausen: Live-Viola für Einzug, Trauung, Ringtausch, Auszug, Sektempfang und Dinner. Persönlich abgestimmt mit Wunschlied.",
+  "hero": {
+    "title": "Hochzeitsmusik in Recklinghausen für Trauung & Empfang.",
+    "lead": "Live-Viola für Einzug, Ja-Wort, Ringtausch, Auszug, Sektempfang und Dinner - passend zu eurem Tag in Recklinghausen."
+  },
+  "split": {
+    "eyebrow": "Worum es geht",
+    "title": "Eure Trauung in Recklinghausen, als Musik erzählt.",
+    "lede": "Ob zwischen Altstadt, Vest, Ruhrgebiet und Münsterland-Übergang: Eine Hochzeit lebt von Momenten, die nicht wiederholbar sind. Live gespielte Viola macht genau diese Augenblicke größer, wärmer und persönlicher.",
+    "paragraphs": [
+      "Gemeinsam planen wir die Musik für euren Ablauf in Recklinghausen: Einzug der Braut, Ringtausch, Ja-Wort, Unterschrift, Auszug, Gratulationen oder Sektempfang. So entsteht kein Standardprogramm, sondern ein musikalischer roter Faden für euren Tag.",
+      "Klassische Stücke, moderne Songs oder euer Lieblingslied arrangiere ich so, dass es zur Location, zur Zeremonie und zu euch passt. Gerade als Solo-Viola bleibt die Musik elegant, nah und nie zu laut."
+    ]
+  },
+  "focus": {
+    "eyebrow": "Der musikalische Ablauf",
+    "title": "Von Einzug bis Sektempfang in Recklinghausen.",
+    "lead": "Für jede Phase eurer Hochzeit in Recklinghausen wähle ich mit euch Stücke, die den Moment tragen, ohne ihn zu überladen.",
+    "items": [
+      {
+        "kicker": "Der Anfang",
+        "title": "Einzug",
+        "text": "Getragen, festlich und mit genug Ruhe für den Moment, in dem alle aufstehen.",
+        "piece": "z. B. Canon in D · Pachelbel"
+      },
+      {
+        "kicker": "Das Versprechen",
+        "title": "Trauung & Ringe",
+        "text": "Leise Musik für Ringtausch, Ja-Wort oder Unterschrift - flexibel abgestimmt auf den Ablauf.",
+        "piece": "z. B. Méditation · Massenet"
+      },
+      {
+        "kicker": "Der Jubel",
+        "title": "Auszug",
+        "text": "Hell, leicht und festlich, wenn aus der Zeremonie der erste gemeinsame Schritt wird.",
+        "piece": "z. B. Salut d’Amour · Elgar"
+      },
+      {
+        "kicker": "Das Ankommen",
+        "title": "Sektempfang & Dinner",
+        "text": "Dezente Live-Musik für Glückwünsche, Gespräche und den Empfang in Recklinghausen.",
+        "piece": "moderne Arrangements nach Wunsch"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Hochzeitsmusik in Recklinghausen.",
+    "items": [
+      {
+        "question": "Spielst du Hochzeitsmusik in Recklinghausen?",
+        "answer": "Ja. Ich begleite Hochzeiten in Recklinghausen und stimme Ablauf, Stücke und Einsätze vorab mit euch, der Location, dem Standesamt, der Kirche oder der Traurednerin ab.",
+        "open": true
+      },
+      {
+        "question": "Passt Viola zu Standesamt, Kirche und freier Trauung?",
+        "answer": "Ja. Die Viola klingt warm, elegant und nah an der menschlichen Stimme. Sie passt besonders gut zu Einzug, Ringtausch, Ja-Wort, Unterschrift und Auszug."
+      },
+      {
+        "question": "Können wir unser Lieblingslied hören?",
+        "answer": "Sehr gern. Wenn das Stück musikalisch passt, arrangiere ich es für Solo-Viola und binde es an der Stelle ein, an der es für euch am meisten bedeutet."
+      },
+      {
+        "question": "Wie früh sollten wir anfragen?",
+        "answer": "Für Hochzeiten in Recklinghausen lohnt sich eine frühe Anfrage, besonders für Samstage in der Saison. Wenn euer Datum steht, könnt ihr unverbindlich schreiben."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Hochzeitsmusik Recklinghausen anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Hochzeitsmusik Recklinghausen.",
+    "checklist": [
+      "Hochzeitsmusik Recklinghausen",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Hochzeitsmusik Recklinghausen zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

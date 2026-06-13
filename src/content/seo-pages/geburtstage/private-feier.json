@@ -1,0 +1,73 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "geburtstage",
+  "pageSlug": "private-feier",
+  "route": "/geburtstage/private-feier/",
+  "targetKeyword": "Musik für private Feier",
+  "intentCluster": "geburtstage:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Musik für private Feier | Live-Viola für Geburtstag & Familienfeier",
+  "seoDescription": "Live Musik für private Feiern, Familienfeiern, Gartenfeste und Geburtstage: Solo-Viola für Empfang, Dinner und persönliche Momente.",
+  "hero": {
+    "title": "Musik für private Feiern, die persönlich klingt.",
+    "lead": "Live-Viola für Geburtstag, Familienfeier, Gartenfest, Empfang oder Dinner - dezent, warm und nah am Anlass."
+  },
+  "split": {
+    "eyebrow": "Formate",
+    "title": "Nicht lauter, sondern besonderer.",
+    "lede": "Bei privaten Feiern soll Musik Menschen zusammenbringen, ohne Gespräche zu überdecken. Solo-Viola schafft genau diesen Rahmen.",
+    "paragraphs": [
+      "Möglich sind kurze musikalische Momente, Empfangsmusik, dezente Begleitung zum Essen oder ein persönliches Lieblingslied als Überraschung.",
+      "Die Musik wird auf Raum, Gäste, Tageszeit und Stimmung abgestimmt - vom Gartenfest bis zur Familienfeier im Restaurant."
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Musik für private Feier.",
+    "items": [
+      {
+        "question": "Welche Musik passt zu einer privaten Feier?",
+        "answer": "Je nach Anlass passen klassische Stücke, moderne Arrangements, Filmmusik oder ein persönliches Lieblingslied.",
+        "open": true
+      },
+      {
+        "question": "Ist die Musik eher Hintergrundmusik oder Programmpunkt?",
+        "answer": "Beides ist möglich. Die Viola kann dezent im Hintergrund spielen oder als kurzer besonderer Moment auftreten."
+      },
+      {
+        "question": "Spielst du auch bei Gartenfesten?",
+        "answer": "Ja, wenn Wetter und Platz für das Instrument geeignet sind. Ein geschützter, schattiger Ort ist ideal."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+      "alt": "Porträt von Kim Marie Borger mit ihrer Viola"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik für private Feier anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik für private Feier.",
+    "checklist": [
+      "Musik für private Feier",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik für private Feier zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

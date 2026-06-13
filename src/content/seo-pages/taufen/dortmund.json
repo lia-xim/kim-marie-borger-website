@@ -1,0 +1,76 @@
+{
+  "pageKind": "local",
+  "serviceSlug": "taufen",
+  "pageSlug": "dortmund",
+  "route": "/taufen/dortmund/",
+  "targetKeyword": "Taufmusik Dortmund",
+  "intentCluster": "taufen:local",
+  "priority": "P3",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Taufmusik Dortmund | Musik zur Taufe mit Viola",
+  "seoDescription": "Taufmusik in Dortmund: sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier. Warm, ruhig und persönlich.",
+  "hero": {
+    "title": "Taufmusik in Dortmund für einen warmen Anfang.",
+    "lead": "Sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier in Dortmund."
+  },
+  "split": {
+    "eyebrow": "Worum es geht",
+    "title": "Ein kleiner Mensch, ein großer Tag in Dortmund.",
+    "paragraphs": [
+      "Ob zwischen Phoenix-See, Innenstadt, Westfalenhallen und festlichen Räumen im Ruhrgebiet: Eine Taufe braucht Musik, die nicht glänzen will, sondern wärmt. Die Viola klingt ruhig, weich und feierlich, ohne den Gottesdienst oder das Kind zu überfordern.",
+      "Ich stimme die Stücke mit euch und bei Bedarf mit Pfarrer:in oder freier Rednerin ab - für Einzug, Taufhandlung, Segen, Auszug oder einen anschließenden Empfang."
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Taufmusik in Dortmund.",
+    "items": [
+      {
+        "question": "Begleitest du Taufen in Dortmund?",
+        "answer": "Ja. Ich spiele bei Taufen, Segnungen, Willkommensfesten und Familienfeiern in Dortmund - in Kirche, Gemeindehaus, Garten oder privatem Rahmen.",
+        "open": true
+      },
+      {
+        "question": "Welche Stücke passen zur Taufe?",
+        "answer": "Sanfte Klassiker wie Ave Maria, Air, Wiegenlieder oder ein persönliches Familienlied passen besonders gut."
+      },
+      {
+        "question": "Stimmst du dich mit der Kirche ab?",
+        "answer": "Ja. Wenn gewünscht, kläre ich Einsätze und Ablauf direkt mit Pfarrer:in, Musiker:in oder freier Rednerin."
+      },
+      {
+        "question": "Kannst du nach der Taufe weiter spielen?",
+        "answer": "Ja. Auf Wunsch begleite ich auch Empfang, Kaffee oder Familienfeier im Anschluss."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
+      "alt": "Streichinstrumente, zarte Detailaufnahme"
+    },
+    {
+      "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+      "alt": "Nahaufnahme eines Streichinstruments"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Taufmusik Dortmund anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Taufmusik Dortmund.",
+    "checklist": [
+      "Taufmusik Dortmund",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Taufmusik Dortmund zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

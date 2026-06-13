@@ -1,0 +1,103 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "hochzeiten",
+  "pageSlug": "musik-zur-trauung",
+  "route": "/hochzeiten/musik-zur-trauung/",
+  "targetKeyword": "Musik zur Trauung",
+  "intentCluster": "hochzeiten:topic",
+  "priority": "P2",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Musik zur Trauung | Live Musik für Hochzeit & Ja-Wort",
+  "seoDescription": "Musik zur Trauung mit Live-Viola: Einzug, Ringtausch, Ja-Wort, Unterschrift und Auszug stimmungsvoll begleiten lassen.",
+  "hero": {
+    "title": "Musik zur Trauung, die eure Momente verbindet.",
+    "lead": "Live-Viola für Einzug, Ja-Wort, Ringtausch, Unterschrift und Auszug - als roter Faden für eure Zeremonie."
+  },
+  "split": {
+    "eyebrow": "Ablauf",
+    "title": "Die Trauung braucht musikalische Ruhepunkte.",
+    "lede": "Ob freie Trauung, Standesamt oder Kirche: Musik macht sichtbar, wann ein Moment beginnt, wann er gehalten wird und wann er sich lösen darf.",
+    "paragraphs": [
+      "Gemeinsam legen wir fest, welche Stellen musikalisch begleitet werden: Einzug der Braut, Ringtausch, Ja-Wort, Unterschrift, Auszug oder ein besonderer Moment mit eurem Lieblingslied.",
+      "Die Viola klingt warm, nah und elegant. Sie passt zu klassischen Stücken genauso wie zu modernen Songs, die für Solo-Viola eingerichtet werden."
+    ]
+  },
+  "focus": {
+    "eyebrow": "Ablauf",
+    "title": "Typische Momente für Musik.",
+    "lead": "Die Trauungsmusik wird so geplant, dass sie den Ablauf trägt und niemand vor Ort improvisieren muss.",
+    "items": [
+      {
+        "kicker": "Beginn",
+        "title": "Einzug",
+        "text": "Ein ruhiges oder festliches Stück sammelt die Aufmerksamkeit und gibt dem Einzug Zeit.",
+        "piece": "z. B. Canon in D"
+      },
+      {
+        "kicker": "Versprechen",
+        "title": "Ringtausch & Ja-Wort",
+        "text": "Leise Musik kann einen stillen Moment rahmen, ohne Worte oder Blicke zu überdecken.",
+        "piece": "z. B. Meditation"
+      },
+      {
+        "kicker": "Formales",
+        "title": "Unterschrift",
+        "text": "Ein kurzes Stück füllt die organisatorische Phase und hält die Atmosphäre."
+      },
+      {
+        "kicker": "Jubel",
+        "title": "Auszug",
+        "text": "Helle, festliche Musik begleitet den ersten gemeinsamen Schritt nach der Trauung.",
+        "piece": "z. B. Salut d’Amour"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Musik zur Trauung.",
+    "items": [
+      {
+        "question": "Welche Musik eignet sich zur Trauung?",
+        "answer": "Geeignet sind klassische Stücke, moderne Songs oder ein persönliches Lieblingslied. Wichtig ist, dass die Musik zum Ablauf und zur Stimmung der Zeremonie passt.",
+        "open": true
+      },
+      {
+        "question": "Kannst du Musik für Einzug, Ringtausch und Auszug spielen?",
+        "answer": "Ja. Diese Momente lassen sich sehr gut mit Solo-Viola begleiten und werden vorab exakt mit euch abgestimmt."
+      },
+      {
+        "question": "Passt Live-Viola auch zur freien Trauung?",
+        "answer": "Ja. Gerade freie Trauungen profitieren von Musik, die persönlich wirkt und trotzdem flexibel in den Ablauf passt."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik zur Trauung anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik zur Trauung.",
+    "checklist": [
+      "Musik zur Trauung",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik zur Trauung zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}

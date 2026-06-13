@@ -1,0 +1,72 @@
+{
+  "pageKind": "local",
+  "serviceSlug": "firmenfeiern",
+  "pageSlug": "duisburg",
+  "route": "/firmenfeiern/duisburg/",
+  "targetKeyword": "Firmenevent Duisburg",
+  "intentCluster": "firmenfeiern:local",
+  "priority": "P3",
+  "status": "seeded-needs-editorial-rewrite",
+  "enabled": true,
+  "seoTitle": "Firmenevent Duisburg | Live-Viola für Empfang & Dinner",
+  "seoDescription": "Live Musik für Firmenevents in Duisburg: dezente Viola für Empfang, Dinner, Jubiläum, Messe, Eröffnung und repräsentative Business-Anlässe.",
+  "hero": {
+    "title": "Live Musik für Firmenevents in Duisburg.",
+    "lead": "Stilvolle Viola für Empfang, Dinner, Firmenjubiläum, Messe, Eröffnung oder Kundenevent in Duisburg - dezent, hochwertig und planbar."
+  },
+  "split": {
+    "eyebrow": "Worum es geht",
+    "title": "Business-Events in Duisburg brauchen Atmosphäre.",
+    "paragraphs": [
+      "Ob zwischen Innenhafen, Rhein, Landschaftspark und Rhein-Ruhr-Atmosphäre: Ein Firmenevent braucht Musik, die den Raum öffnet, aber Gespräche möglich lässt. Solo-Viola wirkt hochwertig, persönlich und deutlich eleganter als laute Hintergrundbeschallung.",
+      "Ich stimme Dauer, Lautstärke, Repertoire und Einsätze vorab mit euch ab - vom Ankommen der Gäste über Dinner und Reden bis zu einem kurzen Programmpunkt. Eine reguläre Rechnung für die Buchhaltung ist selbstverständlich."
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen zu Live Musik für Firmenevents in Duisburg.",
+    "items": [
+      {
+        "question": "Spielst du auf Firmenfeiern in Duisburg?",
+        "answer": "Ja. Ich begleite Firmenfeiern, Empfänge, Dinners, Messen, Eröffnungen und Jubiläen in Duisburg mit Solo-Viola.",
+        "open": true
+      },
+      {
+        "question": "Ist die Musik eher Hintergrund oder Programmpunkt?",
+        "answer": "Beides ist möglich. Die Viola kann dezent Atmosphäre schaffen oder als kuratierter kurzer Auftritt einen offiziellen Moment rahmen."
+      },
+      {
+        "question": "Bekommen wir eine Rechnung?",
+        "answer": "Ja, selbstverständlich mit allen notwendigen Angaben für die Buchhaltung."
+      },
+      {
+        "question": "Wie wird die Lautstärke geplant?",
+        "answer": "Akustisch ist die Viola angenehm und gesprächsfreundlich. Für größere Räume oder Events bespreche ich bei Bedarf dezente Verstärkung."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
+      "alt": "Viola auf Notenblättern"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "alt": ""
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Firmenevent Duisburg anfragen",
+    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Firmenevent Duisburg.",
+    "checklist": [
+      "Firmenevent Duisburg",
+      "Wunschmusik",
+      "Termin & Ort"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Firmenevent Duisburg zu deinem Anlass?",
+    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+  }
+}
