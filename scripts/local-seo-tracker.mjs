@@ -276,6 +276,36 @@ function shingleSet(tokens, size = 5) {
 	return shingles;
 }
 
+function tokensForTemplateOverlap(normalizedText) {
+	return normalizedText
+		.split(' ')
+		.filter((token) => token.length >= 2);
+}
+
+function tokenCounts(tokens) {
+	const counts = new Map();
+	for (const token of tokens) counts.set(token, (counts.get(token) ?? 0) + 1);
+	return counts;
+}
+
+function tokenDice(a, b) {
+	if (!a.total && !b.total) return 1;
+	if (!a.total || !b.total) return 0;
+	let overlap = 0;
+	const [smaller, larger] = a.counts.size <= b.counts.size ? [a.counts, b.counts] : [b.counts, a.counts];
+	for (const [token, count] of smaller) {
+		overlap += Math.min(count, larger.get(token) ?? 0);
+	}
+	return (2 * overlap) / (a.total + b.total);
+}
+
+function tokenProfile(tokens) {
+	return {
+		counts: tokenCounts(tokens),
+		total: tokens.length,
+	};
+}
+
 function jaccard(a, b) {
 	if (!a.size && !b.size) return 1;
 	if (!a.size || !b.size) return 0;
@@ -285,6 +315,15 @@ function jaccard(a, b) {
 		if (larger.has(item)) overlap += 1;
 	}
 	return overlap / (a.size + b.size - overlap);
+}
+
+function maskAliases(normalizedText, aliases) {
+	let masked = ` ${normalizedText} `;
+	for (const alias of aliases) {
+		if (!alias) continue;
+		masked = masked.replace(new RegExp(`\\b${escapeRegExp(alias)}\\b`, 'g'), ' ort ');
+	}
+	return masked.replace(/\s+/g, ' ').trim();
 }
 
 function extractBodyForContent(html) {
@@ -409,9 +448,9 @@ function scoreContent(metric) {
 	else if (metric.baseSimilarity <= 0.82) score += 8;
 	else score += 2;
 
-	if (metric.nearestSameServiceSimilarity <= 0.5) score += 30;
-	else if (metric.nearestSameServiceSimilarity <= 0.56) score += 22;
-	else if (metric.nearestSameServiceSimilarity <= 0.62) score += 12;
+	if (metric.nearestSameServiceLocationMaskedTemplateSimilarity <= 0.78) score += 30;
+	else if (metric.nearestSameServiceLocationMaskedTemplateSimilarity <= 0.86) score += 20;
+	else if (metric.nearestSameServiceLocationMaskedTemplateSimilarity <= 0.92) score += 8;
 	else score += 2;
 
 	if (metric.uniqueWordCount >= 260) score += 10;
@@ -422,8 +461,10 @@ function scoreContent(metric) {
 }
 
 function riskFor(metric) {
-	if (metric.nearestSameServiceSimilarity >= 0.64) return 'high';
-	if (metric.nearestSameServiceSimilarity >= 0.55) return 'medium';
+	if (metric.nearestSameServiceLocationMaskedTemplateSimilarity >= 0.93) return 'high';
+	if (metric.nearestSameServiceTemplateSimilarity >= 0.88) return 'high';
+	if (metric.nearestSameServiceLocationMaskedTemplateSimilarity >= 0.86) return 'medium';
+	if (metric.nearestSameServiceTemplateSimilarity >= 0.8) return 'medium';
 	return 'low';
 }
 
@@ -559,10 +600,17 @@ const rows = [...htmlByRoute.entries()]
 			localLinks: localLinkCount,
 			incomingInternalLinks: incomingByRoute.get(route) ?? 0,
 			linkedFromParent: (linksByRoute.get(`/${serviceSlug}/`) ?? []).includes(route),
+			normalizedContent,
 			shingles: shingleSet(tokens),
+			templateProfile: tokenProfile(tokensForTemplateOverlap(normalizedContent)),
+			locationMaskedTemplateProfile: null,
 			baseSimilarity: jaccard(shingleSet(tokens), basePages.get(serviceSlug)?.shingles ?? new Set()),
 			nearestSameServiceRoute: '',
 			nearestSameServiceSimilarity: 0,
+			nearestSameServiceTemplateRoute: '',
+			nearestSameServiceTemplateSimilarity: 0,
+			nearestSameServiceLocationMaskedTemplateRoute: '',
+			nearestSameServiceLocationMaskedTemplateSimilarity: 0,
 			nearestSameLocationRoute: '',
 			nearestSameLocationSimilarity: 0,
 			seoScore: 0,
@@ -573,14 +621,32 @@ const rows = [...htmlByRoute.entries()]
 	})
 	.sort((a, b) => a.service.localeCompare(b.service) || a.locationSlug.localeCompare(b.locationSlug));
 
+const allLocationAliases = [...new Set(rows.flatMap((row) => locationAliases(row.location, row.locationSlug)))]
+	.sort((a, b) => b.length - a.length);
+
+for (const row of rows) {
+	const maskedContent = maskAliases(row.normalizedContent, allLocationAliases);
+	row.locationMaskedTemplateProfile = tokenProfile(tokensForTemplateOverlap(maskedContent));
+}
+
 for (const row of rows) {
 	let nearestService = { route: '', similarity: 0 };
+	let nearestServiceTemplate = { route: '', similarity: 0 };
+	let nearestServiceMaskedTemplate = { route: '', similarity: 0 };
 	let nearestLocation = { route: '', similarity: 0 };
 	for (const other of rows) {
 		if (other.route === row.route) continue;
 		const similarity = jaccard(row.shingles, other.shingles);
+		const templateSimilarity = tokenDice(row.templateProfile, other.templateProfile);
+		const maskedTemplateSimilarity = tokenDice(row.locationMaskedTemplateProfile, other.locationMaskedTemplateProfile);
 		if (other.service === row.service && similarity > nearestService.similarity) {
 			nearestService = { route: other.route, similarity };
+		}
+		if (other.service === row.service && templateSimilarity > nearestServiceTemplate.similarity) {
+			nearestServiceTemplate = { route: other.route, similarity: templateSimilarity };
+		}
+		if (other.service === row.service && maskedTemplateSimilarity > nearestServiceMaskedTemplate.similarity) {
+			nearestServiceMaskedTemplate = { route: other.route, similarity: maskedTemplateSimilarity };
 		}
 		if (other.locationSlug === row.locationSlug && similarity > nearestLocation.similarity) {
 			nearestLocation = { route: other.route, similarity };
@@ -588,6 +654,10 @@ for (const row of rows) {
 	}
 	row.nearestSameServiceRoute = nearestService.route;
 	row.nearestSameServiceSimilarity = nearestService.similarity;
+	row.nearestSameServiceTemplateRoute = nearestServiceTemplate.route;
+	row.nearestSameServiceTemplateSimilarity = nearestServiceTemplate.similarity;
+	row.nearestSameServiceLocationMaskedTemplateRoute = nearestServiceMaskedTemplate.route;
+	row.nearestSameServiceLocationMaskedTemplateSimilarity = nearestServiceMaskedTemplate.similarity;
 	row.nearestSameLocationRoute = nearestLocation.route;
 	row.nearestSameLocationSimilarity = nearestLocation.similarity;
 	row.seoScore = scoreBasics(row);
@@ -634,7 +704,11 @@ const csvColumns = [
 	'linked_from_parent',
 	'similarity_to_base_service',
 	'nearest_same_service_url',
-	'nearest_same_service_similarity',
+	'nearest_same_service_shingle_similarity',
+	'nearest_same_service_template_url',
+	'nearest_same_service_template_similarity',
+	'nearest_same_service_location_masked_template_url',
+	'nearest_same_service_location_masked_template_similarity',
 	'nearest_same_location_url',
 	'nearest_same_location_similarity',
 	'json_ld_types',
@@ -676,7 +750,11 @@ const csvRows = rows.map((row) => ({
 	linked_from_parent: row.linkedFromParent,
 	similarity_to_base_service: Number(row.baseSimilarity.toFixed(4)),
 	nearest_same_service_url: row.nearestSameServiceRoute ? `https://kim-marie-borger.com${row.nearestSameServiceRoute}` : '',
-	nearest_same_service_similarity: Number(row.nearestSameServiceSimilarity.toFixed(4)),
+	nearest_same_service_shingle_similarity: Number(row.nearestSameServiceSimilarity.toFixed(4)),
+	nearest_same_service_template_url: row.nearestSameServiceTemplateRoute ? `https://kim-marie-borger.com${row.nearestSameServiceTemplateRoute}` : '',
+	nearest_same_service_template_similarity: Number(row.nearestSameServiceTemplateSimilarity.toFixed(4)),
+	nearest_same_service_location_masked_template_url: row.nearestSameServiceLocationMaskedTemplateRoute ? `https://kim-marie-borger.com${row.nearestSameServiceLocationMaskedTemplateRoute}` : '',
+	nearest_same_service_location_masked_template_similarity: Number(row.nearestSameServiceLocationMaskedTemplateSimilarity.toFixed(4)),
 	nearest_same_location_url: row.nearestSameLocationRoute ? `https://kim-marie-borger.com${row.nearestSameLocationRoute}` : '',
 	nearest_same_location_similarity: Number(row.nearestSameLocationSimilarity.toFixed(4)),
 	json_ld_types: row.jsonLdTypes,
@@ -700,7 +778,7 @@ const priorityBacklog = [...rows]
 		return priorityOrder[a.priority] - priorityOrder[b.priority]
 			|| riskOrder[a.cannibalizationRisk] - riskOrder[b.cannibalizationRisk]
 			|| a.contentScore - b.contentScore
-			|| b.nearestSameServiceSimilarity - a.nearestSameServiceSimilarity;
+			|| b.nearestSameServiceLocationMaskedTemplateSimilarity - a.nearestSameServiceLocationMaskedTemplateSimilarity;
 	})
 	.slice(0, 50);
 
@@ -720,7 +798,9 @@ Dieser Tracker bewertet die lokalen Seiten aus dem gerenderten HTML in \`dist/cl
 
 | Metrik | Gut | Warnung | Kritisch |
 | --- | ---: | ---: | ---: |
-| \`nearest_same_service_similarity\` | <= 0.54 | 0.55-0.63 | >= 0.64 |
+| \`nearest_same_service_shingle_similarity\` | <= 0.54 | 0.55-0.63 | >= 0.64 |
+| \`nearest_same_service_template_similarity\` | <= 0.79 | 0.80-0.87 | >= 0.88 |
+| \`nearest_same_service_location_masked_template_similarity\` | <= 0.85 | 0.86-0.92 | >= 0.93 |
 | \`similarity_to_base_service\` | <= 0.55 | 0.56-0.82 | >= 0.83 |
 | \`content_score\` | >= 65 | 45-64 | < 45 |
 | \`seo_score\` | >= 85 | 75-84 | < 75 |
@@ -734,7 +814,9 @@ Dieser Tracker bewertet die lokalen Seiten aus dem gerenderten HTML in \`dist/cl
 | Medium-Risk Aehnlichkeit | ${mediumRiskRows.length} |
 | Durchschnitt SEO-Score | ${Math.round(average(rows.map((row) => row.seoScore)))} |
 | Durchschnitt Content-Score | ${Math.round(average(rows.map((row) => row.contentScore)))} |
-| Durchschnitt Similarity Same Service | ${formatPercent(average(rows.map((row) => row.nearestSameServiceSimilarity)))} |
+| Durchschnitt Shingle Similarity Same Service | ${formatPercent(average(rows.map((row) => row.nearestSameServiceSimilarity)))} |
+| Durchschnitt Template Similarity Same Service | ${formatPercent(average(rows.map((row) => row.nearestSameServiceTemplateSimilarity)))} |
+| Durchschnitt Location-Masked Template Similarity | ${formatPercent(average(rows.map((row) => row.nearestSameServiceLocationMaskedTemplateSimilarity)))} |
 | Durchschnitt Similarity Base Service | ${formatPercent(average(rows.map((row) => row.baseSimilarity)))} |
 
 ## Status-Verteilung
@@ -745,18 +827,18 @@ ${byStatus.map(([status, group]) => `| ${status} | ${group.length} |`).join('\n'
 
 ## Service-Cluster
 
-| Service | Seiten | Avg SEO | Avg Content | Avg Same-Service Similarity | High Risk |
-| --- | ---: | ---: | ---: | ---: | ---: |
+| Service | Seiten | Avg SEO | Avg Content | Avg Shingle | Avg Template | Avg Masked Template | High Risk |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 ${byService.map(([service, group]) => {
 	const high = group.filter((row) => row.cannibalizationRisk === 'high').length;
-	return `| ${service} | ${group.length} | ${Math.round(average(group.map((row) => row.seoScore)))} | ${Math.round(average(group.map((row) => row.contentScore)))} | ${formatPercent(average(group.map((row) => row.nearestSameServiceSimilarity)))} | ${high} |`;
+	return `| ${service} | ${group.length} | ${Math.round(average(group.map((row) => row.seoScore)))} | ${Math.round(average(group.map((row) => row.contentScore)))} | ${formatPercent(average(group.map((row) => row.nearestSameServiceSimilarity)))} | ${formatPercent(average(group.map((row) => row.nearestSameServiceTemplateSimilarity)))} | ${formatPercent(average(group.map((row) => row.nearestSameServiceLocationMaskedTemplateSimilarity)))} | ${high} |`;
 }).join('\n')}
 
 ## Priorisierter Rewrite-Backlog
 
-| Prio | Status | Risiko | Seite | Content | Same-Service Similarity | Naechste aehnliche Seite |
-| --- | --- | --- | --- | ---: | ---: | --- |
-${priorityBacklog.map((row) => `| ${row.priority} | ${row.status} | ${row.cannibalizationRisk} | [${row.targetKeyword}](${row.url}) | ${row.contentScore} | ${formatPercent(row.nearestSameServiceSimilarity)} | ${row.nearestSameServiceRoute || '-'} |`).join('\n')}
+| Prio | Status | Risiko | Seite | Content | Template | Masked Template | Naechste aehnliche Seite |
+| --- | --- | --- | --- | ---: | ---: | ---: | --- |
+${priorityBacklog.map((row) => `| ${row.priority} | ${row.status} | ${row.cannibalizationRisk} | [${row.targetKeyword}](${row.url}) | ${row.contentScore} | ${formatPercent(row.nearestSameServiceTemplateSimilarity)} | ${formatPercent(row.nearestSameServiceLocationMaskedTemplateSimilarity)} | ${row.nearestSameServiceLocationMaskedTemplateRoute || '-'} |`).join('\n')}
 
 ## Spalten in der CSV
 
@@ -767,7 +849,9 @@ ${priorityBacklog.map((row) => `| ${row.priority} | ${row.status} | ${row.cannib
 - \`seo_score\`: technische Onpage-Basics wie Title, H1, Meta Description, Canonical, Schema, Sitemap und interne Links.
 - \`content_score\`: Texttiefe, Ortsnennung, Abstand zur Basisleistung und Abstand zur aehnlichsten Seite im selben Cluster.
 - \`similarity_to_base_service\`: Textaehnlichkeit zur Hauptleistungsseite.
-- \`nearest_same_service_similarity\`: Textaehnlichkeit zur aehnlichsten lokalen Seite derselben Leistung.
+- \`nearest_same_service_shingle_similarity\`: 5-Wort-Shingle-Aehnlichkeit. Reagiert stark auf einzelne geaenderte Ortswoerter und unterschaetzt deshalb Template-Gleichheit.
+- \`nearest_same_service_template_similarity\`: Token-Overlap im selben Leistungscluster. Dieser Wert zeigt besser, wie viel Textvorlage wiederverwendet wird.
+- \`nearest_same_service_location_masked_template_similarity\`: Token-Overlap, nachdem bekannte Ortsnamen zu einem Platzhalter normalisiert wurden. Dieser Wert prueft am haertesten, ob Seiten nur durch Ortsbezug auseinanderfallen.
 - \`nearest_same_location_similarity\`: Textaehnlichkeit zu anderen Leistungen im selben Ort.
 
 ## Naechster Arbeitsschritt
@@ -784,3 +868,5 @@ console.log(`Pages: ${rows.length}`);
 console.log(`High risk: ${highRiskRows.length}`);
 console.log(`Average SEO score: ${Math.round(average(rows.map((row) => row.seoScore)))}`);
 console.log(`Average content score: ${Math.round(average(rows.map((row) => row.contentScore)))}`);
+console.log(`Average template similarity: ${formatPercent(average(rows.map((row) => row.nearestSameServiceTemplateSimilarity)))}`);
+console.log(`Average location-masked template similarity: ${formatPercent(average(rows.map((row) => row.nearestSameServiceLocationMaskedTemplateSimilarity)))}`);
