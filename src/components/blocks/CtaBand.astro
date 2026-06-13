@@ -1,5 +1,6 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
+import { normalizeHref } from '../../lib/url';
 
 const { data } = Astro.props;
 ---
@@ -9,7 +10,7 @@ const { data } = Astro.props;
 		{data.title && <h2 class="display-m reveal d1" style="margin:16px auto 0;max-width:20ch;" data-tina-field={tinaField(data, 'title')}>{data.title}</h2>}
 		{data.lead && <p class="lead reveal d1" style="margin:16px auto 0;text-align:center;" data-tina-field={tinaField(data, 'lead')}>{data.lead}</p>}
 		{data.ctaLabel && (
-			<div class="reveal d2" style="margin-top:30px;"><a href={data.ctaHref ?? '#'} class="btn btn-solid" data-tina-field={tinaField(data, 'ctaLabel')}>{data.ctaLabel} <span class="ar">→</span></a></div>
+			<div class="reveal d2" style="margin-top:30px;"><a href={normalizeHref(data.ctaHref)} class="btn btn-solid" data-tina-field={tinaField(data, 'ctaLabel')}>{data.ctaLabel} <span class="ar">→</span></a></div>
 		)}
 	</div>
 </section>

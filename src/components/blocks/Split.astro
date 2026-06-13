@@ -1,6 +1,7 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
 import Img from '../Img.astro';
+import { normalizeHref } from '../../lib/url';
 
 const { data } = Astro.props;
 const bgClass = data.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
@@ -40,9 +41,9 @@ const titleStyle = `margin:18px 0 22px;max-width:${data.titleWidth ?? '18ch'};`;
 			{ctas.length > 0 && (
 				<div style="margin-top:28px;display:flex;gap:24px;flex-wrap:wrap;align-items:center;">
 					{ctas.map((cta: any) => cta.style === 'link-line' ? (
-						<a href={cta.link ?? '#'} class="link-line" data-tina-field={tinaField(cta)}>{cta.label} <span class="ar">→</span></a>
+						<a href={normalizeHref(cta.link)} class="link-line" data-tina-field={tinaField(cta)}>{cta.label} <span class="ar">→</span></a>
 					) : (
-						<a href={cta.link ?? '#'} class={`btn ${cta.style ?? 'btn-ghost'}`} data-tina-field={tinaField(cta)}>{cta.label} <span class="ar">→</span></a>
+						<a href={normalizeHref(cta.link)} class={`btn ${cta.style ?? 'btn-ghost'}`} data-tina-field={tinaField(cta)}>{cta.label} <span class="ar">→</span></a>
 					))}
 				</div>
 			)}

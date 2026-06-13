@@ -1,6 +1,7 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
 import Img from '../Img.astro';
+import { normalizeHref } from '../../lib/url';
 
 const { data } = Astro.props;
 ---
@@ -20,8 +21,8 @@ const { data } = Astro.props;
 			<p class="hero-tag ho ho-2" data-tina-field={tinaField(data, 'taglineBefore')}>{data.taglineBefore}&nbsp;<em style="color:var(--brass-hi)">{data.taglineAccent}</em></p>
 			{data.sub && <p class="hero-sub ho ho-2" data-tina-field={tinaField(data, 'sub')}>{data.sub}</p>}
 			<div class="hero-actions ho ho-3">
-				{data.primaryCta?.label && <a href={data.primaryCta.link ?? '#'} class="btn btn-solid" data-tina-field={tinaField(data, 'primaryCta')}>{data.primaryCta.label} <span class="ar">→</span></a>}
-				{data.secondaryCta?.label && <a href={data.secondaryCta.link ?? '#'} class="btn-text" data-tina-field={tinaField(data, 'secondaryCta')}>{data.secondaryCta.label} <span class="ar">→</span></a>}
+				{data.primaryCta?.label && <a href={normalizeHref(data.primaryCta.link)} class="btn btn-solid" data-tina-field={tinaField(data, 'primaryCta')}>{data.primaryCta.label} <span class="ar">→</span></a>}
+				{data.secondaryCta?.label && <a href={normalizeHref(data.secondaryCta.link)} class="btn-text" data-tina-field={tinaField(data, 'secondaryCta')}>{data.secondaryCta.label} <span class="ar">→</span></a>}
 			</div>
 		</div>
 	</div>

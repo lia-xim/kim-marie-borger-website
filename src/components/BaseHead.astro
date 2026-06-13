@@ -3,20 +3,17 @@
 import '../styles/kmb.css';
 // Fonts werden self-hosted ausgeliefert (DSGVO) — Familiennamen identisch zur
 // Google-Fonts-Einbindung der Originalseite, kmb.css greift unverändert.
-import '@fontsource/cormorant-garamond/300.css';
-import '@fontsource/cormorant-garamond/400.css';
-import '@fontsource/cormorant-garamond/500.css';
-import '@fontsource/cormorant-garamond/600.css';
-import '@fontsource/cormorant-garamond/300-italic.css';
-import '@fontsource/cormorant-garamond/400-italic.css';
-import '@fontsource/cormorant-garamond/500-italic.css';
-import '@fontsource/cormorant-garamond/600-italic.css';
-import '@fontsource/manrope/300.css';
-import '@fontsource/manrope/400.css';
-import '@fontsource/manrope/500.css';
-import '@fontsource/manrope/600.css';
+import '@fontsource/cormorant-garamond/latin-300-italic.css';
+import '@fontsource/cormorant-garamond/latin-400.css';
+import '@fontsource/cormorant-garamond/latin-400-italic.css';
+import '@fontsource/cormorant-garamond/latin-500.css';
+import '@fontsource/cormorant-garamond/latin-500-italic.css';
+import '@fontsource/manrope/latin-400.css';
+import '@fontsource/manrope/latin-500.css';
+import '@fontsource/manrope/latin-600.css';
 
 import { buildSrcset, isOptimizable, normalizeSrc, onVercel } from '../lib/img';
+import { canonicalUrl } from '../lib/url';
 // Kritische Schriftschnitte des Hero vorladen (Cormorant 400 + 300-italic für
 // den Namen, Manrope 600 für die Überzeile) — verkürzt das LCP-Render-Delay.
 import cormorant400 from '@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-normal.woff2?url';
@@ -27,12 +24,14 @@ interface Props {
 	title: string;
 	description: string;
 	image?: string;
+	noindex?: boolean;
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const canonicalURL = canonicalUrl(Astro.site ?? new URL(Astro.url.origin), Astro.url.pathname);
 
-const { title, description, image: rawImage = '/og-default.png' } = Astro.props;
+const { title, description, image: rawImage = '/og-default.png', noindex = false } = Astro.props;
 const image = normalizeSrc(rawImage) ?? rawImage;
+const absoluteImage = new URL(image, canonicalURL);
 
 // LCP: das Hero-Bild der Seite vorladen — mit demselben srcset wie im Markup,
 // damit Preload und <img> exakt dieselbe Variante treffen.
@@ -45,7 +44,7 @@ const heroPreload = onVercel && isOptimizable(image) ? buildSrcset(image) : null
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="sitemap" href="/sitemap-index.xml" />
-<meta name="generator" content={Astro.generator} />
+<meta name="robots" content={noindex ? 'noindex,follow' : 'index,follow'} />
 
 <link rel="preload" as="font" type="font/woff2" href={cormorant400} crossorigin />
 <link rel="preload" as="font" type="font/woff2" href={cormorant300it} crossorigin />
@@ -55,7 +54,7 @@ const heroPreload = onVercel && isOptimizable(image) ? buildSrcset(image) : null
 	<link rel="preload" as="image" imagesrcset={heroPreload.srcset} imagesizes="100vw" fetchpriority="high" />
 )}
 
-<link rel="canonical" href={canonicalURL} />
+<link rel="canonical" href={canonicalURL.href} />
 
 <title>{title}</title>
 <meta name="title" content={title} />
@@ -64,13 +63,13 @@ const heroPreload = onVercel && isOptimizable(image) ? buildSrcset(image) : null
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="de_DE" />
 <meta property="og:site_name" content="Kim Marie Borger · Viola" />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:url" content={canonicalURL.href} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:image" content={absoluteImage.href} />
 
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
+<meta property="twitter:url" content={canonicalURL.href} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image, Astro.url)} />
+<meta property="twitter:image" content={absoluteImage.href} />

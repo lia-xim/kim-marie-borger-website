@@ -7,7 +7,7 @@ const { data } = Astro.props;
 const bgClass = data?.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
 const config = (await getConfig()).data?.config ?? null;
 const contact = config?.contact ?? null;
-const checklist = (contact?.checklist ?? []).filter((c: unknown) => c !== null);
+const checklist = (contact?.checklist ?? []).filter((c): c is string => typeof c === 'string' && c.trim() !== '');
 ---
 <section class={`section${bgClass}`} id={data?.anchorId || 'kontakt'}>
 	<div class="wrap">
@@ -19,7 +19,7 @@ const checklist = (contact?.checklist ?? []).filter((c: unknown) => c !== null);
 				{contact?.lead && <p class="lead" data-tina-field={contact ? tinaField(contact, 'lead') : undefined}>{contact.lead}</p>}
 				{checklist.length > 0 && (
 					<div class="checklist">
-						{checklist.map((c: string) => <span>{c}</span>)}
+						{checklist.map((c) => <span>{c}</span>)}
 					</div>
 				)}
 				<div class="c-rows">

@@ -10,6 +10,7 @@
     "build": "tinacms build --content=local && astro build",
     "build:local": "tinacms build --local --skip-cloud-checks -c \"astro build\"",
     "build:vercel": "node scripts/smart-build.mjs",
+    "audit:seo": "node scripts/seo-audit.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",
     "optimize:audio": "node scripts/optimize-audio.mjs",
     "build:search": "tinacms search-index",

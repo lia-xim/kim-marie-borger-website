@@ -1,6 +1,7 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
 import Img from '../Img.astro';
+import { normalizeHref } from '../../lib/url';
 
 const { data } = Astro.props;
 ---
@@ -20,7 +21,7 @@ const { data } = Astro.props;
 				{data.sideKicker && <p class="ksmall" data-tina-field={tinaField(data, 'sideKicker')}>{data.sideKicker}</p>}
 				{data.sideTitle && <h3 class="display-s" data-tina-field={tinaField(data, 'sideTitle')}>{data.sideTitle}</h3>}
 				{data.sideLead && <p class="lead" data-tina-field={tinaField(data, 'sideLead')}>{data.sideLead}</p>}
-				{data.linkLabel && <a href={data.linkHref ?? '#kontakt'} class="link-line" data-tina-field={tinaField(data, 'linkLabel')}>{data.linkLabel} <span class="ar">→</span></a>}
+				{data.linkLabel && <a href={normalizeHref(data.linkHref, '#kontakt')} class="link-line" data-tina-field={tinaField(data, 'linkLabel')}>{data.linkLabel} <span class="ar">→</span></a>}
 			</div>
 		</div>
 	</div>

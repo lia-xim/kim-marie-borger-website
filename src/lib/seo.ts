@@ -1,4 +1,5 @@
 import type { CmsPage } from './data';
+import { canonicalUrl } from './url';
 
 /** Anlass-Seiten mit eigenem Service-Schema (Slug → Dienstleistung). */
 const SERVICE_PAGES: Record<string, string> = {
@@ -15,13 +16,15 @@ const SERVICE_PAGES: Record<string, string> = {
  * Strukturierte Daten für Unterseiten: BreadcrumbList immer,
  * Service-Schema zusätzlich auf den Anlass-Seiten.
  */
-export function subpageJsonLd(site: URL, slug: string, pageTitle: string): object {
+export function subpageJsonLd(site: URL, slug: string, pageTitle: string, pageDescription?: string): object {
+	const pageUrl = canonicalUrl(site, `/${slug}/`).href;
 	const graph: object[] = [
 		{
 			'@type': 'BreadcrumbList',
+			'@id': `${pageUrl}#breadcrumb`,
 			itemListElement: [
 				{ '@type': 'ListItem', position: 1, name: 'Start', item: site.href },
-				{ '@type': 'ListItem', position: 2, name: pageTitle, item: new URL(`/${slug}/`, site).href },
+				{ '@type': 'ListItem', position: 2, name: pageTitle, item: pageUrl },
 			],
 		},
 	];
@@ -29,11 +32,14 @@ export function subpageJsonLd(site: URL, slug: string, pageTitle: string): objec
 	if (service) {
 		graph.push({
 			'@type': 'Service',
+			'@id': `${pageUrl}#service`,
 			name: service,
+			description: pageDescription,
 			serviceType: service,
 			provider: { '@id': new URL('/#person', site).href },
 			areaServed: { '@type': 'Country', name: 'Deutschland' },
-			url: new URL(`/${slug}/`, site).href,
+			url: pageUrl,
+			inLanguage: 'de',
 		});
 	}
 	return { '@context': 'https://schema.org', '@graph': graph };

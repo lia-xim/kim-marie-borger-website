@@ -399,7 +399,8 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
 
   function ensure(){
     if(ctx) return;
-    const AC=window.AudioContext||window.webkitAudioContext; if(!AC) return;
+    const audioWindow = /** @type {Window & { webkitAudioContext?: typeof AudioContext }} */ (window);
+    const AC=window.AudioContext||audioWindow.webkitAudioContext; if(!AC) return;
     ctx=new AC();
     analyser=ctx.createAnalyser(); analyser.fftSize=128; data=new Uint8Array(analyser.frequencyBinCount);
     synthGain=ctx.createGain(); synthGain.gain.value=0; synthGain.connect(analyser);

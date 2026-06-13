@@ -1,6 +1,25 @@
 {
 	"$schema": "https://openapi.vercel.sh/vercel.json",
 	"buildCommand": "npm run build:vercel",
+	"trailingSlash": true,
+	"redirects": [
+		{ "source": "/index.html", "destination": "/", "permanent": true },
+		{ "source": "/index-v2.html", "destination": "/", "permanent": true },
+		{ "source": "/kim-marie-borger-viola.html", "destination": "/", "permanent": true },
+		{ "source": "/trauungen.html", "destination": "/hochzeiten/", "permanent": true },
+		{ "source": "/kontakt.html", "destination": "/anfragen/", "permanent": true },
+		{ "source": "/anfragen.html", "destination": "/anfragen/", "permanent": true },
+		{ "source": "/beerdigungen.html", "destination": "/beerdigungen/", "permanent": true },
+		{ "source": "/firmenfeiern.html", "destination": "/firmenfeiern/", "permanent": true },
+		{ "source": "/geburtstage.html", "destination": "/geburtstage/", "permanent": true },
+		{ "source": "/hochzeiten.html", "destination": "/hochzeiten/", "permanent": true },
+		{ "source": "/konzerte.html", "destination": "/konzerte/", "permanent": true },
+		{ "source": "/leistungen.html", "destination": "/leistungen/", "permanent": true },
+		{ "source": "/portfolio.html", "destination": "/portfolio/", "permanent": true },
+		{ "source": "/taufen.html", "destination": "/taufen/", "permanent": true },
+		{ "source": "/ueber-mich.html", "destination": "/ueber-mich/", "permanent": true },
+		{ "source": "/unterricht.html", "destination": "/unterricht/", "permanent": true }
+	],
 	"headers": [
 		{
 			"source": "/(.*)",
@@ -8,6 +27,26 @@
 				{ "key": "X-Content-Type-Options", "value": "nosniff" },
 				{ "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
 				{ "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
+			]
+		},
+		{
+			"source": "/admin/(.*)",
+			"headers": [
+				{ "key": "X-Robots-Tag", "value": "noindex, nofollow" },
+				{ "key": "Cache-Control", "value": "no-store" }
+			]
+		},
+		{
+			"source": "/tina-island/(.*)",
+			"headers": [
+				{ "key": "X-Robots-Tag", "value": "noindex, nofollow" },
+				{ "key": "Cache-Control", "value": "no-store" }
+			]
+		},
+		{
+			"source": "/api/(.*)",
+			"headers": [
+				{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }
 			]
 		},
 		{

@@ -1,6 +1,7 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
 import Img from '../Img.astro';
+import { normalizeHref } from '../../lib/url';
 
 const { data } = Astro.props;
 const cards = (data.cards ?? []).filter((c: unknown) => c !== null);
@@ -34,7 +35,7 @@ const right = cards[1];
 							{(left.list ?? []).filter(Boolean).map((entry: string) => <li>{entry}</li>)}
 						</ul>
 					)}
-					{left.linkLabel && <a class="link-line" href={left.href ?? '#'}>{left.linkLabel} <span class="ar">→</span></a>}
+					{left.linkLabel && <a class="link-line" href={normalizeHref(left.href)}>{left.linkLabel} <span class="ar">→</span></a>}
 				</article>
 			)}
 
@@ -53,7 +54,7 @@ const right = cards[1];
 							{(right.list ?? []).filter(Boolean).map((entry: string) => <li>{entry}</li>)}
 						</ul>
 					)}
-					{right.linkLabel && <a class="link-line" href={right.href ?? '#'}>{right.linkLabel} <span class="ar">→</span></a>}
+					{right.linkLabel && <a class="link-line" href={normalizeHref(right.href)}>{right.linkLabel} <span class="ar">→</span></a>}
 				</article>
 			)}
 		</div>

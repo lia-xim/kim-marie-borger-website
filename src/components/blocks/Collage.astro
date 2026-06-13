@@ -1,6 +1,7 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
 import Img from '../Img.astro';
+import { normalizeHref } from '../../lib/url';
 
 const { data } = Astro.props;
 const items = (data.items ?? []).filter((i: unknown) => i !== null);
@@ -25,7 +26,7 @@ const items = (data.items ?? []).filter((i: unknown) => i !== null);
 			{data.ribbon && <div class="ribbon" data-tina-field={tinaField(data, 'ribbon')}>{data.ribbon}</div>}
 		</div>
 		{data.footerLabel && (
-			<div class="reveal" style="text-align:center;margin-top:clamp(28px,3.5vw,44px);"><a href={data.footerHref ?? '#'} class="link-line" data-tina-field={tinaField(data, 'footerLabel')}>{data.footerLabel} <span class="ar">→</span></a></div>
+			<div class="reveal" style="text-align:center;margin-top:clamp(28px,3.5vw,44px);"><a href={normalizeHref(data.footerHref)} class="link-line" data-tina-field={tinaField(data, 'footerLabel')}>{data.footerLabel} <span class="ar">→</span></a></div>
 		)}
 	</div>
 </section>

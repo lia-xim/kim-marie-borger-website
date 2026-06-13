@@ -14,7 +14,7 @@ const faqJsonLd = {
 	})),
 };
 ---
-{items.length > 0 && <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />}
+{items.length > 0 && <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />}
 <section class="section">
 	<div class="wrap">
 		{data.eyebrow && <p class="eyebrow c reveal" style="justify-content:center;display:flex;" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}

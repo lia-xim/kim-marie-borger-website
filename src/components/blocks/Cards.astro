@@ -1,6 +1,7 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
 import Img from '../Img.astro';
+import { normalizeHref } from '../../lib/url';
 
 const { data } = Astro.props;
 const items = (data.items ?? []).filter((i: unknown) => i !== null);
@@ -17,7 +18,7 @@ const titleLines: string[] = (data.title ?? '').split('\n');
 		</div>
 		<div class="gal cols-4 reveal d1">
 			{items.map((item: any) => item.image?.src ? (
-				<a class="gal-card" href={item.href ?? '#'} data-tina-field={tinaField(item)}>
+				<a class="gal-card" href={normalizeHref(item.href)} data-tina-field={tinaField(item)}>
 					<Img src={item.image.src} alt={item.image.alt ?? ''} sizes="(max-width: 1100px) 46vw, 23vw" loading="lazy" decoding="async" />
 					<span class="gc-body">
 						<span class="gc-title">{item.title}</span>
@@ -26,7 +27,7 @@ const titleLines: string[] = (data.title ?? '').split('\n');
 					</span>
 				</a>
 			) : (
-				<a class="gal-card gc-plain" href={item.href ?? '#'} data-tina-field={tinaField(item)}>
+				<a class="gal-card gc-plain" href={normalizeHref(item.href)} data-tina-field={tinaField(item)}>
 					<span class="gc-body">
 						<span class="gc-title">{item.title}</span>
 						<span class="gc-rule" aria-hidden="true"></span>
@@ -37,7 +38,7 @@ const titleLines: string[] = (data.title ?? '').split('\n');
 			))}
 		</div>
 		{data.footerLabel && (
-			<div class="reveal" style="text-align:center;margin-top:clamp(28px,3.5vw,44px);"><a href={data.footerHref ?? '#'} class="link-line" data-tina-field={tinaField(data, 'footerLabel')}>{data.footerLabel} <span class="ar">→</span></a></div>
+			<div class="reveal" style="text-align:center;margin-top:clamp(28px,3.5vw,44px);"><a href={normalizeHref(data.footerHref)} class="link-line" data-tina-field={tinaField(data, 'footerLabel')}>{data.footerLabel} <span class="ar">→</span></a></div>
 		)}
 	</div>
 </section>
