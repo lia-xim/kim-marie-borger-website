@@ -12,6 +12,7 @@
     "build:vercel": "node scripts/smart-build.mjs",
     "audit:seo": "node scripts/seo-audit.mjs",
     "tracker:local-seo": "node scripts/local-seo-tracker.mjs",
+    "keywords:map": "node scripts/build-keyword-opportunities.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",
     "optimize:audio": "node scripts/optimize-audio.mjs",
     "build:search": "tinacms search-index",
