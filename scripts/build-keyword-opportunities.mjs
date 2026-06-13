@@ -269,7 +269,62 @@ function decisionFor(keyword, topic, cluster, place) {
 	return 'optimize-existing-main-page';
 }
 
-function priorityFor(row, decision) {
+function intentFitFor(row, cluster, topic, decision) {
+	const k = norm(row.keyword);
+
+	if (/geburtstagsständchen|ständchen geburtstag/.test(k)) {
+		return {
+			intentFit: 'wrong-serp-media-song',
+			seoAction: 'exclude',
+			note: 'SERP sample shows YouTube videos, short videos, song ideas, Spotify/Pinterest and products rather than musician-booking intent.',
+		};
+	}
+
+	if (
+		cluster === 'geburtstage'
+		&& /geburtstagsmusik|musik geburtstag|musik für geburtstag/.test(k)
+		&& !/live|live-musik|hintergrundmusik|viola|private feier|familienfeier|gartenfest|geburtstagsfeier/.test(k)
+	) {
+		return {
+			intentFit: 'ambiguous-song-list-intent',
+			seoAction: 'support-only',
+			note: 'Likely song/list/idea intent. Mention naturally on birthday pages, but do not build a dedicated target page without SERP confirmation.',
+		};
+	}
+
+	if (decision === 'requires-offer-confirmation') {
+		return {
+			intentFit: 'service-fit-needs-offer-confirmation',
+			seoAction: 'confirm-offer',
+			note: 'Search intent can fit, but only if Geige/Violine is genuinely offered.',
+		};
+	}
+
+	if (['trauermusik-repertoire', 'musik-zur-trauung', 'musik-standesamt-hochzeit', 'musik-brauteinzug', 'musik-auszug-hochzeit'].includes(topic)) {
+		return {
+			intentFit: 'supporting-informational-fit',
+			seoAction: 'target-support-page',
+			note: 'Informational intent, but strongly relevant as supporting page that can lead to booking.',
+		};
+	}
+
+	return {
+		intentFit: 'service-fit',
+		seoAction: 'target',
+		note: 'Intent is close enough to a live musician/service booking page.',
+	};
+}
+
+function finalDecisionFor(decision, fit) {
+	if (fit.seoAction === 'exclude') return 'exclude-wrong-serp-intent';
+	if (fit.seoAction === 'support-only') return 'support-only-no-target-page';
+	return decision;
+}
+
+function priorityFor(row, decision, fit) {
+	if (fit.seoAction === 'exclude') return 'NO_TARGET';
+	if (fit.seoAction === 'support-only') return 'SUPPORT';
+
 	let score = 0;
 	if (row.volume >= 1000) score += 5;
 	else if (row.volume >= 250) score += 4;
@@ -280,13 +335,15 @@ function priorityFor(row, decision) {
 	if (row.cpc >= 2) score += 1;
 	if (/commercial|transactional/i.test(row.intent)) score += 1;
 	if (decision === 'requires-offer-confirmation') score += 1;
+	if (fit.seoAction === 'target-support-page') score -= 1;
 
 	if (score >= 5) return 'P1';
 	if (score >= 3) return 'P2';
 	return 'P3';
 }
 
-function noteFor(row, cluster, topic, decision, place) {
+function noteFor(row, cluster, topic, decision, place, fit) {
+	if (fit.seoAction === 'exclude' || fit.seoAction === 'support-only') return fit.note;
 	if (decision === 'requires-offer-confirmation') {
 		return 'Nur optimieren, wenn Geige/Violine wirklich angeboten wird; sonst Suchversprechen nicht sauber.';
 	}
@@ -315,6 +372,28 @@ function average(values) {
 	return values.reduce((sum, value) => sum + value, 0) / values.length;
 }
 
+function isTargetable(row) {
+	return ['target', 'target-support-page', 'confirm-offer'].includes(row.seo_action);
+}
+
+function groupPriority(rows) {
+	if (rows.every((row) => row.priority === 'NO_TARGET')) return 'NO_TARGET';
+	if (rows.every((row) => row.priority === 'SUPPORT')) return 'SUPPORT';
+	if (rows.some((row) => row.priority === 'P1')) return 'P1';
+	if (rows.some((row) => row.priority === 'P2')) return 'P2';
+	if (rows.some((row) => row.priority === 'P3')) return 'P3';
+	return 'REVIEW';
+}
+
+function groupAction(rows) {
+	if (rows.every((row) => row.seo_action === 'exclude')) return 'exclude';
+	if (rows.every((row) => row.seo_action === 'support-only')) return 'support-only';
+	if (rows.some((row) => !isTargetable(row)) && rows.some(isTargetable)) return 'mixed-target-support';
+	if (rows.some((row) => row.seo_action === 'confirm-offer')) return 'confirm-offer';
+	if (rows.some((row) => row.seo_action === 'target-support-page')) return 'target-support-page';
+	return 'target';
+}
+
 function euro(value) {
 	return value ? value.toFixed(2) : '';
 }
@@ -326,8 +405,10 @@ const opportunities = rawRows.map((row) => {
 	const place = detectPlace(row.keyword);
 	const canonicalIntent = topicFor(row.keyword, cluster, place);
 	const recommendedUrl = urlFor(canonicalIntent, cluster, place);
-	const decision = decisionFor(row.keyword, canonicalIntent, cluster, place);
-	const priority = priorityFor(row, decision);
+	const baseDecision = decisionFor(row.keyword, canonicalIntent, cluster, place);
+	const fit = intentFitFor(row, cluster, canonicalIntent, baseDecision);
+	const decision = finalDecisionFor(baseDecision, fit);
+	const priority = priorityFor(row, decision, fit);
 	return {
 		keyword: row.keyword,
 		language: row.language || 'unknown',
@@ -344,13 +425,16 @@ const opportunities = rawRows.map((row) => {
 		trend_12m_pct: row.trend_12m_pct,
 		cluster,
 		canonical_intent: canonicalIntent,
+		intent_fit: fit.intentFit,
+		seo_action: fit.seoAction,
 		recommended_url: recommendedUrl,
 		decision,
 		priority,
 		place: place?.name ?? '',
 		place_slug: place?.slug ?? '',
 		cannibalization_group: `${cluster}:${canonicalIntent}`,
-		reason: noteFor(row, cluster, canonicalIntent, decision, place),
+		serp_intent_note: fit.note,
+		reason: noteFor(row, cluster, canonicalIntent, decision, place, fit),
 	};
 });
 
@@ -370,12 +454,15 @@ const columns = [
 	'trend_12m_pct',
 	'cluster',
 	'canonical_intent',
+	'intent_fit',
+	'seo_action',
 	'recommended_url',
 	'decision',
 	'priority',
 	'place',
 	'place_slug',
 	'cannibalization_group',
+	'serp_intent_note',
 	'reason',
 ];
 
@@ -393,6 +480,7 @@ const byCluster = [...groupBy(opportunities, (row) => row.cluster).entries()]
 		rows,
 		count: rows.length,
 		volume: rows.reduce((sum, row) => sum + row.volume, 0),
+		targetableVolume: rows.filter(isTargetable).reduce((sum, row) => sum + row.volume, 0),
 		avgCpc: average(rows.filter((row) => row.cpc_eur).map((row) => Number(row.cpc_eur))),
 	}))
 	.sort((a, b) => b.volume - a.volume);
@@ -402,16 +490,19 @@ const byIntent = [...groupBy(opportunities, (row) => row.cannibalization_group).
 		group,
 		rows,
 		volume: rows.reduce((sum, row) => sum + row.volume, 0),
+		targetableVolume: rows.filter(isTargetable).reduce((sum, row) => sum + row.volume, 0),
 		url: rows[0].recommended_url,
-		priority: rows.some((row) => row.priority === 'P1') ? 'P1' : rows.some((row) => row.priority === 'P2') ? 'P2' : 'P3',
+		priority: groupPriority(rows),
+		action: groupAction(rows),
 		decision: rows[0].decision,
 	}))
-	.sort((a, b) => b.volume - a.volume);
+	.sort((a, b) => b.targetableVolume - a.targetableVolume || b.volume - a.volume);
 
 const topIntents = byIntent.slice(0, 30);
-const p1Intents = byIntent.filter((intent) => intent.priority === 'P1');
+const p1Intents = byIntent.filter((intent) => intent.priority === 'P1' && intent.targetableVolume > 0);
 const offerChecks = byIntent.filter((intent) => intent.rows.some((row) => row.decision === 'requires-offer-confirmation'));
-const plannedPages = byIntent.filter((intent) => intent.rows.some((row) => row.decision === 'planned-topic-page'));
+const plannedPages = byIntent.filter((intent) => intent.rows.some((row) => row.decision === 'planned-topic-page' && isTargetable(row)));
+const excludedIntents = byIntent.filter((intent) => intent.action === 'exclude' || intent.action === 'support-only');
 
 const report = `# Keyword Opportunity Mapping
 
@@ -423,26 +514,38 @@ Ziel: pro Suchintention genau eine Ziel-URL. Synonyme und nahe Varianten werden 
 
 ## Gesamtbild
 
-| Cluster | Keywords | Gesamtvolumen | Avg CPC |
-| --- | ---: | ---: | ---: |
-${byCluster.map((group) => `| ${SERVICE_LABELS[group.cluster] ?? group.cluster} | ${group.count} | ${group.volume} | ${group.avgCpc ? group.avgCpc.toFixed(2) : '-'} EUR |`).join('\n')}
+| Cluster | Keywords | Rohvolumen | Zielbares Volumen | Avg CPC |
+| --- | ---: | ---: | ---: | ---: |
+${byCluster.map((group) => `| ${SERVICE_LABELS[group.cluster] ?? group.cluster} | ${group.count} | ${group.volume} | ${group.targetableVolume} | ${group.avgCpc ? group.avgCpc.toFixed(2) : '-'} EUR |`).join('\n')}
+
+## SERP-/Intent-Fit
+
+Die Matrix wertet nicht mehr nur Volumen. Fuer jedes Keyword gibt es \`intent_fit\` und \`seo_action\`.
+
+- \`target\`: Suchintention passt zu einer Buchungs-/Leistungsseite.
+- \`target-support-page\`: Informational, aber relevant als unterstuetzende Seite mit Buchungsbruecke.
+- \`confirm-offer\`: passt nur, wenn das Angebot fachlich wirklich existiert.
+- \`support-only\`: nur natuerlich mitnehmen, keine eigene Zielseite.
+- \`exclude\`: nicht aktiv targeten.
+
+Beim SERP-Beispiel \`geburtstagsstaendchen\` dominieren YouTube, Kurzvideos, Liedideen, Spotify/Pinterest und Produkte. Das ist kein sauberer Intent fuer "Live-Musikerin fuer Geburtstag buchen" und wird deshalb ausgeschlossen.
 
 ## Wichtigste Intent-Gruppen
 
-| Prioritaet | Intent-Gruppe | Volumen | Ziel-URL | Entscheidung | Beispielkeywords |
-| --- | --- | ---: | --- | --- | --- |
+| Prioritaet | Aktion | Intent-Gruppe | Zielbares Volumen | Rohvolumen | Ziel-URL | Entscheidung | Beispielkeywords |
+| --- | --- | --- | ---: | ---: | --- | --- | --- |
 ${topIntents.map((intent) => {
 	const examples = intent.rows
 		.sort((a, b) => b.volume - a.volume)
 		.slice(0, 4)
 		.map((row) => `${row.keyword} (${row.volume})`)
 		.join('; ');
-	return `| ${intent.priority} | ${intent.group} | ${intent.volume} | ${intent.url} | ${intent.decision} | ${examples} |`;
+	return `| ${intent.priority} | ${intent.action} | ${intent.group} | ${intent.targetableVolume} | ${intent.volume} | ${intent.url} | ${intent.decision} | ${examples} |`;
 }).join('\n')}
 
 ## Was sich gegenueber der falschen Kopie aendert
 
-- Geburtstag ist ploetzlich ein grosser Cluster: \`geburtstagsstaendchen\` allein hat 3600 Suchvolumen und transactional Intent.
+- Geburtstag wirkt im Rohvolumen gross, aber \`geburtstagsstaendchen\` ist nach SERP-Pruefung ein falscher Medien-/Song-Intent und kein P1-Ziel.
 - Unterricht bleibt sehr stark, aber der sichtbare Markt sucht ueberwiegend nach \`Geigenunterricht\`, \`Geige Unterricht\`, \`Geige lernen\` und \`Violinunterricht\`.
 - Trauer ist ein grosser Hauptcluster: \`Trauermusik\`, \`Musik fuer Beerdigung\`, \`Musik fuer Trauerfeier\`.
 - Hochzeit ist nicht nur lokal wichtig, sondern vor allem als Head- und Moment-Cluster: \`Hochzeitsmusik\`, \`Musik Hochzeit\`, \`Live Musik Hochzeit\`, \`Musik zur Trauung\`, \`Standesamt\`.
@@ -458,6 +561,10 @@ ${offerChecks.length > 0 ? offerChecks.map((intent) => `- ${intent.group}: ${int
 
 Die Geigen-/Violin-Keywords duerfen nur aggressiv optimiert werden, wenn Kim Marie tatsaechlich Geigenunterricht beziehungsweise Violinunterricht anbietet. Falls nicht, sollte die Website eher auf Bratsche/Viola fokussieren und die Geigenbegriffe nur erklaerend aufnehmen.
 
+## Nicht aktiv targeten / nur supporten
+
+${excludedIntents.length > 0 ? excludedIntents.map((intent) => `- ${intent.group}: ${intent.action}, ${intent.volume} Rohvolumen, ${intent.targetableVolume} zielbar. Beispiele: ${intent.rows.slice(0, 4).map((row) => row.keyword).join(', ')}`).join('\n') : '- Keine.'}
+
 ## Empfohlene neue Themen-/Intent-Seiten
 
 ${plannedPages.map((intent) => `- ${intent.group}: ${intent.url} (${intent.volume} Volumen)`).join('\n')}
@@ -465,9 +572,10 @@ ${plannedPages.map((intent) => `- ${intent.group}: ${intent.url} (${intent.volum
 ## Naechste Umsetzung
 
 1. Fachlich klaeren: Geigenunterricht ja/nein.
-2. P1-Hauptcluster textlich umbauen: Geburtstagstaendchen, Trauermusik, Hochzeitsmusik, Geigenunterricht.
+2. P1-Hauptcluster textlich umbauen: Trauermusik, Hochzeitsmusik und - falls freigegeben - Geigenunterricht.
 3. Fuer P1-Intent-Seiten eigene Textprofile bauen, damit der Local-SEO-Tracker nicht mehr 95-99% Template-Gleichheit meldet.
-4. Lokale Seiten danach anhand der Stadtkeywords und der P1-Hauptintenttexte ausbauen.
+4. Geburtstag nicht ueber \`Geburtstagsstaendchen\` targeten, sondern nur ueber echte Live-Musik-/private-Feier-Intents.
+5. Lokale Seiten danach anhand der Stadtkeywords und der P1-Hauptintenttexte ausbauen.
 `;
 
 writeFileSync(REPORT_FILE, report);

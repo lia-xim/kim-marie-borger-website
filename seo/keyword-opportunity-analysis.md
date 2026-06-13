@@ -8,54 +8,66 @@ Ziel: pro Suchintention genau eine Ziel-URL. Synonyme und nahe Varianten werden 
 
 ## Gesamtbild
 
-| Cluster | Keywords | Gesamtvolumen | Avg CPC |
-| --- | ---: | ---: | ---: |
-| Unterricht | 57 | 6210 | 1.45 EUR |
-| Beerdigung / Trauerfeier | 17 | 5540 | 1.32 EUR |
-| Geburtstag / private Feier | 16 | 5130 | 1.64 EUR |
-| Hochzeit | 58 | 4340 | 1.82 EUR |
-| Firmenfeier / Business Event | 13 | 600 | 3.53 EUR |
-| Konzert / Kultur Event | 10 | 190 | 0.89 EUR |
-| Taufe | 8 | 130 | 0.53 EUR |
+| Cluster | Keywords | Rohvolumen | Zielbares Volumen | Avg CPC |
+| --- | ---: | ---: | ---: | ---: |
+| Unterricht | 57 | 6210 | 6210 | 1.45 EUR |
+| Beerdigung / Trauerfeier | 17 | 5540 | 5540 | 1.32 EUR |
+| Geburtstag / private Feier | 16 | 5130 | 260 | 1.64 EUR |
+| Hochzeit | 58 | 4340 | 4340 | 1.82 EUR |
+| Firmenfeier / Business Event | 13 | 600 | 600 | 3.53 EUR |
+| Konzert / Kultur Event | 10 | 190 | 190 | 0.89 EUR |
+| Taufe | 8 | 130 | 130 | 0.53 EUR |
+
+## SERP-/Intent-Fit
+
+Die Matrix wertet nicht mehr nur Volumen. Fuer jedes Keyword gibt es `intent_fit` und `seo_action`.
+
+- `target`: Suchintention passt zu einer Buchungs-/Leistungsseite.
+- `target-support-page`: Informational, aber relevant als unterstuetzende Seite mit Buchungsbruecke.
+- `confirm-offer`: passt nur, wenn das Angebot fachlich wirklich existiert.
+- `support-only`: nur natuerlich mitnehmen, keine eigene Zielseite.
+- `exclude`: nicht aktiv targeten.
+
+Beim SERP-Beispiel `geburtstagsstaendchen` dominieren YouTube, Kurzvideos, Liedideen, Spotify/Pinterest und Produkte. Das ist kein sauberer Intent fuer "Live-Musikerin fuer Geburtstag buchen" und wird deshalb ausgeschlossen.
 
 ## Wichtigste Intent-Gruppen
 
-| Prioritaet | Intent-Gruppe | Volumen | Ziel-URL | Entscheidung | Beispielkeywords |
-| --- | --- | ---: | --- | --- | --- |
-| P1 | unterricht:geigenunterricht | 5370 | https://kim-marie-borger.com/unterricht/geigenunterricht/ | requires-offer-confirmation | geige unterricht (1600); geigenunterricht (1600); geige lernen (720); geigenunterricht in der nähe (480) |
-| P1 | beerdigungen:trauermusik | 4970 | https://kim-marie-borger.com/beerdigungen/ | optimize-existing-main-page | trauermusik (1600); musik beerdigung (1000); musik für beerdigung (1000); musik für trauerfeier (880) |
-| P1 | geburtstage:geburtstagsstaendchen | 3770 | https://kim-marie-borger.com/geburtstage/geburtstagsstaendchen/ | planned-topic-page | geburtstagsständchen (3600); ständchen geburtstag (170) |
-| P1 | hochzeiten:hochzeitsmusik | 3140 | https://kim-marie-borger.com/hochzeiten/ | optimize-existing-main-page | hochzeitsmusik (1000); musik für hochzeit (590); musik hochzeit (590); live musik hochzeit (260) |
-| P2 | geburtstage:geburtstagsmusik | 1180 | https://kim-marie-borger.com/geburtstage/ | optimize-existing-main-page | geburtstagsmusik (880); musik geburtstag (170); musik für geburtstag (50); viola geburtstag (30) |
-| P2 | beerdigungen:trauermusik-repertoire | 570 | https://kim-marie-borger.com/beerdigungen/trauermusik-repertoire/ | planned-topic-page | klassische musik beerdigung (140); instrumentalmusik beerdigung (110); klassische musik trauerfeier (110); amazing grace beerdigung (70) |
-| P2 | firmenfeiern:musik-firmenfeier | 420 | https://kim-marie-borger.com/firmenfeiern/ | optimize-existing-main-page | musik firmenfeier (170); musik für firmenfeier (170); live musik firmenfeier (30); musik firmenevent (30) |
-| P2 | hochzeiten:musik-zur-trauung | 350 | https://kim-marie-borger.com/hochzeiten/musik-zur-trauung/ | planned-topic-page | musik für trauung (170); musik zur trauung (170); live musik trauung (10) |
-| P2 | hochzeiten:musik-standesamt-hochzeit | 260 | https://kim-marie-borger.com/hochzeiten/musik-standesamt/ | planned-topic-page | musik für standesamtliche trauung (140); musik standesamt hochzeit (110); instrumentalmusik standesamt (10) |
-| P1 | unterricht:unterricht-koeln | 180 | https://kim-marie-borger.com/unterricht/koeln/ | requires-offer-confirmation | geigenunterricht köln (90); violinunterricht köln (50); bratschenunterricht köln (10); geige lernen köln (10) |
-| P2 | geburtstage:private-feier | 170 | https://kim-marie-borger.com/geburtstage/private-feier/ | planned-topic-page | musik für private feier (140); musik familienfeier (10); musik für familienfeier (10); musik für gartenfest (10) |
-| P1 | unterricht:unterricht-duesseldorf | 170 | https://kim-marie-borger.com/unterricht/duesseldorf/ | requires-offer-confirmation | geige unterricht düsseldorf (70); geigenunterricht düsseldorf (70); bratschenunterricht düsseldorf (10); geige lernen düsseldorf (10) |
-| P2 | konzerte:viola-konzert | 140 | https://kim-marie-borger.com/konzerte/ | optimize-existing-main-page | viola konzert (90); bratschenkonzert (20); bratsche konzert (10); viola event (10) |
-| P2 | hochzeiten:musik-hochzeitsfeier | 120 | https://kim-marie-borger.com/hochzeiten/hochzeitsfeier/ | planned-topic-page | musik für hochzeitsfeier (70); hintergrundmusik hochzeit (40); dinnermusik hochzeit (10) |
-| P3 | unterricht:bratschenunterricht | 110 | https://kim-marie-borger.com/unterricht/ | optimize-existing-main-page | bratsche lernen (40); bratschenunterricht (30); bratsche lernen erwachsene (10); bratsche unterricht (10) |
-| P2 | firmenfeiern:musik-messe | 90 | https://kim-marie-borger.com/firmenfeiern/musik-messe/ | planned-topic-page | musik messe (90) |
-| P3 | taufen:taufmusik | 90 | https://kim-marie-borger.com/taufen/ | optimize-existing-main-page | musik für taufe (40); musik taufe (20); taufmusik (20); klassische musik taufe (10) |
-| P3 | hochzeiten:musik-freie-trauung | 80 | https://kim-marie-borger.com/hochzeiten/musik-freie-trauung/ | planned-topic-page | musik freie trauung (40); musik für freie trauung (40) |
-| P2 | hochzeiten:musik-kirchliche-trauung | 80 | https://kim-marie-borger.com/hochzeiten/musik-kirchliche-trauung/ | planned-topic-page | musik für kirchliche trauung (40); musik kirchliche trauung (40) |
-| P2 | unterricht:unterricht-dortmund | 50 | https://kim-marie-borger.com/unterricht/dortmund/ | requires-offer-confirmation | geigenunterricht dortmund (40); geigenunterricht in dortmund (10) |
-| P2 | unterricht:unterricht-essen | 50 | https://kim-marie-borger.com/unterricht/essen/ | requires-offer-confirmation | geigenunterricht essen (40); geigenunterricht in essen (10) |
-| P3 | hochzeiten:musik-auszug-hochzeit | 40 | https://kim-marie-borger.com/hochzeiten/musik-auszug/ | planned-topic-page | auszug hochzeit musik (40) |
-| P2 | unterricht:unterricht-aachen | 40 | https://kim-marie-borger.com/unterricht/aachen/ | requires-offer-confirmation | geigenunterricht aachen (40) |
-| P2 | unterricht:unterricht-ratingen | 40 | https://kim-marie-borger.com/unterricht/ratingen/ | requires-offer-confirmation | geigenunterricht ratingen (30); violinunterricht ratingen (10) |
-| P3 | firmenfeiern:musik-gala | 40 | https://kim-marie-borger.com/firmenfeiern/musik-gala/ | planned-topic-page | musik gala (30); musik für gala (10) |
-| P3 | hochzeiten:hochzeiten-essen | 40 | https://kim-marie-borger.com/hochzeiten/essen/ | map-to-existing-local-page | musik hochzeit essen (20); hochzeitsmusik essen (10); musik für hochzeit essen (10) |
-| P3 | hochzeiten:musik-brauteinzug | 40 | https://kim-marie-borger.com/hochzeiten/musik-brauteinzug/ | planned-topic-page | einzug braut musik (10); musik brauteinzug (10); musik einzug braut (10); musik zum einzug (10) |
-| P3 | hochzeiten:hochzeiten-nordrhein-westfalen | 40 | https://kim-marie-borger.com/hochzeiten/nordrhein-westfalen/ | map-to-region-page | hochzeitsmusik nrw (10); live musik hochzeit nrw (10); live-musik hochzeit nrw (10); musik hochzeit nrw (10) |
-| P3 | firmenfeiern:firmenfeiern-koeln | 30 | https://kim-marie-borger.com/firmenfeiern/koeln/ | map-to-existing-local-page | musik gala köln (20); musik messe köln (10) |
-| P3 | hochzeiten:hochzeiten-koeln | 30 | https://kim-marie-borger.com/hochzeiten/koeln/ | map-to-existing-local-page | hochzeitsmusik köln (10); musik für hochzeit köln (10); musik hochzeit köln (10) |
+| Prioritaet | Aktion | Intent-Gruppe | Zielbares Volumen | Rohvolumen | Ziel-URL | Entscheidung | Beispielkeywords |
+| --- | --- | --- | ---: | ---: | --- | --- | --- |
+| P1 | confirm-offer | unterricht:geigenunterricht | 5370 | 5370 | https://kim-marie-borger.com/unterricht/geigenunterricht/ | requires-offer-confirmation | geige unterricht (1600); geigenunterricht (1600); geige lernen (720); geigenunterricht in der nähe (480) |
+| P1 | target | beerdigungen:trauermusik | 4970 | 4970 | https://kim-marie-borger.com/beerdigungen/ | optimize-existing-main-page | trauermusik (1600); musik beerdigung (1000); musik für beerdigung (1000); musik für trauerfeier (880) |
+| P1 | target | hochzeiten:hochzeitsmusik | 3140 | 3140 | https://kim-marie-borger.com/hochzeiten/ | optimize-existing-main-page | hochzeitsmusik (1000); musik für hochzeit (590); musik hochzeit (590); live musik hochzeit (260) |
+| P3 | target-support-page | beerdigungen:trauermusik-repertoire | 570 | 570 | https://kim-marie-borger.com/beerdigungen/trauermusik-repertoire/ | planned-topic-page | klassische musik beerdigung (140); instrumentalmusik beerdigung (110); klassische musik trauerfeier (110); amazing grace beerdigung (70) |
+| P2 | target | firmenfeiern:musik-firmenfeier | 420 | 420 | https://kim-marie-borger.com/firmenfeiern/ | optimize-existing-main-page | musik firmenfeier (170); musik für firmenfeier (170); live musik firmenfeier (30); musik firmenevent (30) |
+| P3 | target-support-page | hochzeiten:musik-zur-trauung | 350 | 350 | https://kim-marie-borger.com/hochzeiten/musik-zur-trauung/ | planned-topic-page | musik für trauung (170); musik zur trauung (170); live musik trauung (10) |
+| P3 | target-support-page | hochzeiten:musik-standesamt-hochzeit | 260 | 260 | https://kim-marie-borger.com/hochzeiten/musik-standesamt/ | planned-topic-page | musik für standesamtliche trauung (140); musik standesamt hochzeit (110); instrumentalmusik standesamt (10) |
+| P1 | confirm-offer | unterricht:unterricht-koeln | 180 | 180 | https://kim-marie-borger.com/unterricht/koeln/ | requires-offer-confirmation | geigenunterricht köln (90); violinunterricht köln (50); bratschenunterricht köln (10); geige lernen köln (10) |
+| P2 | target | geburtstage:private-feier | 170 | 170 | https://kim-marie-borger.com/geburtstage/private-feier/ | planned-topic-page | musik für private feier (140); musik familienfeier (10); musik für familienfeier (10); musik für gartenfest (10) |
+| P1 | confirm-offer | unterricht:unterricht-duesseldorf | 170 | 170 | https://kim-marie-borger.com/unterricht/duesseldorf/ | requires-offer-confirmation | geige unterricht düsseldorf (70); geigenunterricht düsseldorf (70); bratschenunterricht düsseldorf (10); geige lernen düsseldorf (10) |
+| P2 | target | konzerte:viola-konzert | 140 | 140 | https://kim-marie-borger.com/konzerte/ | optimize-existing-main-page | viola konzert (90); bratschenkonzert (20); bratsche konzert (10); viola event (10) |
+| P2 | target | hochzeiten:musik-hochzeitsfeier | 120 | 120 | https://kim-marie-borger.com/hochzeiten/hochzeitsfeier/ | planned-topic-page | musik für hochzeitsfeier (70); hintergrundmusik hochzeit (40); dinnermusik hochzeit (10) |
+| P3 | target | unterricht:bratschenunterricht | 110 | 110 | https://kim-marie-borger.com/unterricht/ | optimize-existing-main-page | bratsche lernen (40); bratschenunterricht (30); bratsche lernen erwachsene (10); bratsche unterricht (10) |
+| P2 | target | firmenfeiern:musik-messe | 90 | 90 | https://kim-marie-borger.com/firmenfeiern/musik-messe/ | planned-topic-page | musik messe (90) |
+| P3 | target | taufen:taufmusik | 90 | 90 | https://kim-marie-borger.com/taufen/ | optimize-existing-main-page | musik für taufe (40); musik taufe (20); taufmusik (20); klassische musik taufe (10) |
+| P3 | mixed-target-support | geburtstage:geburtstagsmusik | 80 | 1180 | https://kim-marie-borger.com/geburtstage/ | support-only-no-target-page | geburtstagsmusik (880); musik geburtstag (170); musik für geburtstag (50); viola geburtstag (30) |
+| P3 | target | hochzeiten:musik-freie-trauung | 80 | 80 | https://kim-marie-borger.com/hochzeiten/musik-freie-trauung/ | planned-topic-page | musik freie trauung (40); musik für freie trauung (40) |
+| P2 | target | hochzeiten:musik-kirchliche-trauung | 80 | 80 | https://kim-marie-borger.com/hochzeiten/musik-kirchliche-trauung/ | planned-topic-page | musik für kirchliche trauung (40); musik kirchliche trauung (40) |
+| P2 | confirm-offer | unterricht:unterricht-dortmund | 50 | 50 | https://kim-marie-borger.com/unterricht/dortmund/ | requires-offer-confirmation | geigenunterricht dortmund (40); geigenunterricht in dortmund (10) |
+| P2 | confirm-offer | unterricht:unterricht-essen | 50 | 50 | https://kim-marie-borger.com/unterricht/essen/ | requires-offer-confirmation | geigenunterricht essen (40); geigenunterricht in essen (10) |
+| P3 | target-support-page | hochzeiten:musik-auszug-hochzeit | 40 | 40 | https://kim-marie-borger.com/hochzeiten/musik-auszug/ | planned-topic-page | auszug hochzeit musik (40) |
+| P2 | confirm-offer | unterricht:unterricht-aachen | 40 | 40 | https://kim-marie-borger.com/unterricht/aachen/ | requires-offer-confirmation | geigenunterricht aachen (40) |
+| P2 | confirm-offer | unterricht:unterricht-ratingen | 40 | 40 | https://kim-marie-borger.com/unterricht/ratingen/ | requires-offer-confirmation | geigenunterricht ratingen (30); violinunterricht ratingen (10) |
+| P3 | target | firmenfeiern:musik-gala | 40 | 40 | https://kim-marie-borger.com/firmenfeiern/musik-gala/ | planned-topic-page | musik gala (30); musik für gala (10) |
+| P3 | target | hochzeiten:hochzeiten-essen | 40 | 40 | https://kim-marie-borger.com/hochzeiten/essen/ | map-to-existing-local-page | musik hochzeit essen (20); hochzeitsmusik essen (10); musik für hochzeit essen (10) |
+| P3 | target-support-page | hochzeiten:musik-brauteinzug | 40 | 40 | https://kim-marie-borger.com/hochzeiten/musik-brauteinzug/ | planned-topic-page | einzug braut musik (10); musik brauteinzug (10); musik einzug braut (10); musik zum einzug (10) |
+| P3 | target | hochzeiten:hochzeiten-nordrhein-westfalen | 40 | 40 | https://kim-marie-borger.com/hochzeiten/nordrhein-westfalen/ | map-to-region-page | hochzeitsmusik nrw (10); live musik hochzeit nrw (10); live-musik hochzeit nrw (10); musik hochzeit nrw (10) |
+| P3 | target | firmenfeiern:firmenfeiern-koeln | 30 | 30 | https://kim-marie-borger.com/firmenfeiern/koeln/ | map-to-existing-local-page | musik gala köln (20); musik messe köln (10) |
+| P3 | target | hochzeiten:hochzeiten-koeln | 30 | 30 | https://kim-marie-borger.com/hochzeiten/koeln/ | map-to-existing-local-page | hochzeitsmusik köln (10); musik für hochzeit köln (10); musik hochzeit köln (10) |
+| P3 | target | konzerte:live-musik-konzert | 30 | 30 | https://kim-marie-borger.com/konzerte/ | optimize-existing-main-page | klassische musik event (10); live musik event (10); live musik konzert (10) |
 
 ## Was sich gegenueber der falschen Kopie aendert
 
-- Geburtstag ist ploetzlich ein grosser Cluster: `geburtstagsstaendchen` allein hat 3600 Suchvolumen und transactional Intent.
+- Geburtstag wirkt im Rohvolumen gross, aber `geburtstagsstaendchen` ist nach SERP-Pruefung ein falscher Medien-/Song-Intent und kein P1-Ziel.
 - Unterricht bleibt sehr stark, aber der sichtbare Markt sucht ueberwiegend nach `Geigenunterricht`, `Geige Unterricht`, `Geige lernen` und `Violinunterricht`.
 - Trauer ist ein grosser Hauptcluster: `Trauermusik`, `Musik fuer Beerdigung`, `Musik fuer Trauerfeier`.
 - Hochzeit ist nicht nur lokal wichtig, sondern vor allem als Head- und Moment-Cluster: `Hochzeitsmusik`, `Musik Hochzeit`, `Live Musik Hochzeit`, `Musik zur Trauung`, `Standesamt`.
@@ -65,7 +77,6 @@ Ziel: pro Suchintention genau eine Ziel-URL. Synonyme und nahe Varianten werden 
 
 - unterricht:geigenunterricht: https://kim-marie-borger.com/unterricht/geigenunterricht/ (5370 Volumen)
 - beerdigungen:trauermusik: https://kim-marie-borger.com/beerdigungen/ (4970 Volumen)
-- geburtstage:geburtstagsstaendchen: https://kim-marie-borger.com/geburtstage/geburtstagsstaendchen/ (3770 Volumen)
 - hochzeiten:hochzeitsmusik: https://kim-marie-borger.com/hochzeiten/ (3140 Volumen)
 - unterricht:unterricht-koeln: https://kim-marie-borger.com/unterricht/koeln/ (180 Volumen)
 - unterricht:unterricht-duesseldorf: https://kim-marie-borger.com/unterricht/duesseldorf/ (170 Volumen)
@@ -99,9 +110,12 @@ Ziel: pro Suchintention genau eine Ziel-URL. Synonyme und nahe Varianten werden 
 
 Die Geigen-/Violin-Keywords duerfen nur aggressiv optimiert werden, wenn Kim Marie tatsaechlich Geigenunterricht beziehungsweise Violinunterricht anbietet. Falls nicht, sollte die Website eher auf Bratsche/Viola fokussieren und die Geigenbegriffe nur erklaerend aufnehmen.
 
+## Nicht aktiv targeten / nur supporten
+
+- geburtstage:geburtstagsstaendchen: exclude, 3770 Rohvolumen, 0 zielbar. Beispiele: geburtstagsständchen, ständchen geburtstag
+
 ## Empfohlene neue Themen-/Intent-Seiten
 
-- geburtstage:geburtstagsstaendchen: https://kim-marie-borger.com/geburtstage/geburtstagsstaendchen/ (3770 Volumen)
 - beerdigungen:trauermusik-repertoire: https://kim-marie-borger.com/beerdigungen/trauermusik-repertoire/ (570 Volumen)
 - hochzeiten:musik-zur-trauung: https://kim-marie-borger.com/hochzeiten/musik-zur-trauung/ (350 Volumen)
 - hochzeiten:musik-standesamt-hochzeit: https://kim-marie-borger.com/hochzeiten/musik-standesamt/ (260 Volumen)
@@ -118,6 +132,7 @@ Die Geigen-/Violin-Keywords duerfen nur aggressiv optimiert werden, wenn Kim Mar
 ## Naechste Umsetzung
 
 1. Fachlich klaeren: Geigenunterricht ja/nein.
-2. P1-Hauptcluster textlich umbauen: Geburtstagstaendchen, Trauermusik, Hochzeitsmusik, Geigenunterricht.
+2. P1-Hauptcluster textlich umbauen: Trauermusik, Hochzeitsmusik und - falls freigegeben - Geigenunterricht.
 3. Fuer P1-Intent-Seiten eigene Textprofile bauen, damit der Local-SEO-Tracker nicht mehr 95-99% Template-Gleichheit meldet.
-4. Lokale Seiten danach anhand der Stadtkeywords und der P1-Hauptintenttexte ausbauen.
+4. Geburtstag nicht ueber `Geburtstagsstaendchen` targeten, sondern nur ueber echte Live-Musik-/private-Feier-Intents.
+5. Lokale Seiten danach anhand der Stadtkeywords und der P1-Hauptintenttexte ausbauen.
