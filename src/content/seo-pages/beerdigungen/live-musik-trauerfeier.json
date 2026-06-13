@@ -6,55 +6,112 @@
   "targetKeyword": "Live Musik Trauerfeier",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-2-review-needed",
   "enabled": true,
-  "seoTitle": "Live Musik Trauerfeier | Trauermusik mit Viola",
-  "seoDescription": "Live Musik Trauerfeier: Behutsame Live-Viola für Trauerfeier, Beerdigung und Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "seoTitle": "Live Musik Trauerfeier | Viola statt Aufnahme",
+  "seoDescription": "Live-Musik zur Trauerfeier mit Solo-Viola: flexibel, leise und direkt auf Worte, Pausen, Raum und Ablauf abgestimmt.",
   "hero": {
-    "title": "Live Musik Trauerfeier, persönlich geplant und live begleitet.",
-    "lead": "Behutsame Live-Viola für Abschiede, Trauerfeiern und stille Erinnerungsmomente. Diese Seite bündelt den Suchintent \"Live Musik Trauerfeier\" für einen unmittelbaren Klang ohne Playback."
+    "eyebrow": "Live-Musik",
+    "title": "Live-Musik zur Trauerfeier, die auf den Raum reagiert.",
+    "lead": "Eine Aufnahme läuft ab. Live-Musik hört zu: auf die Länge einer Rede, auf einen stillen Moment, auf Schritte im Raum. Genau darin liegt der Unterschied bei einer Trauerfeier.",
+    "badge": "Live gespielt, behutsam geführt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Live Musik Trauerfeier.",
+    "title": "FAQ zu Live-Musik bei der Trauerfeier",
     "items": [
       {
-        "question": "Passt Live Musik Trauerfeier zu den Abschied?",
-        "answer": "Ja. Live Musik Trauerfeier wird gezielt auf den Abschied, den Raum und den Ablauf abgestimmt. für einen würdevollen Abschied.",
+        "question": "Warum Live-Musik statt Musik vom Band?",
+        "answer": "Live-Musik kann auf Pausen, Wege und Emotionen reagieren. Sie endet nicht mechanisch, sondern passend zum Moment.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Braucht Solo-Viola Technik?",
+        "answer": "In vielen Trauerhallen, Kirchen und kleinen Räumen nicht. Bei größeren Räumen oder draußen klären wir vorher, ob Verstärkung sinnvoll ist."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Live Musik Trauerfeier am Tag selbst ruhig funktioniert."
+        "question": "Kannst du ein Stück verlängern oder kürzen?",
+        "answer": "Ja. Genau das ist ein Vorteil von Live-Musik: Ich kann musikalisch reagieren, ohne dass es abrupt wirkt."
+      },
+      {
+        "question": "Ist Live-Musik zu auffällig für eine Trauerfeier?",
+        "answer": "Nein, wenn sie passend geplant ist. Die Viola kann sehr zurückhaltend spielen und bleibt dadurch Teil der Feier, nicht Mittelpunkt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+      "alt": "Live gespielte Viola bei einer Trauerfeier 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live gespielte Viola bei einer Trauerfeier 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 2: Trauer-Topicseiten mit eigener Suchintention, eigenen Abschnitten, eigenen FAQs und eigener Kontaktcopy differenziert. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Live Musik Trauerfeier anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Live Musik Trauerfeier.",
+    "eyebrow": "Live-Musik planen",
+    "title": "Soll die Trauerfeier live begleitet werden?",
+    "lead": "Sende mir Ablauf, Ort und Wunschmomente. Ich prüfe, wie Live-Viola den Raum tragen kann, ohne zu viel zu werden.",
     "checklist": [
-      "Live Musik Trauerfeier",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Live-Viola",
+      "Trauerhalle",
+      "Wunschlied"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Live Musik Trauerfeier zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Live-Anfrage",
+    "formTitle": "Live Musik Trauerfeier anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für live gespielte Musik zur Trauerfeier."
+  },
+  "elegy": {
+    "quote": "Live-Musik kann warten, atmen und im richtigen Moment enden.",
+    "passages": [
+      {
+        "strong": "Warum live?",
+        "text": "Wer Live-Musik für eine Trauerfeier sucht, möchte meist keine anonyme Hintergrundmusik. Die Musik soll präsent sein, aber nicht auftreten: sie soll auf den Raum reagieren."
+      },
+      {
+        "strong": "Flexibilität",
+        "text": "Wenn eine Rede länger dauert, wenn Angehörige noch einen Moment brauchen oder wenn der Auszug langsamer beginnt, kann live gespielte Viola den Ablauf weich aufnehmen."
+      },
+      {
+        "strong": "Klangfarbe",
+        "text": "Die Viola liegt nah an der menschlichen Stimme. Dadurch wirkt sie live besonders direkt, warm und persönlich, ohne technische Anlage im Mittelpunkt."
+      }
+    ]
+  },
+  "solemn": {
+    "eyebrow": "Live-Wirkung",
+    "title": "Live-Musik verändert die Trauerfeier anders als eine Playlist.",
+    "lead": "Der Mehrwert liegt nicht in Lautstärke, sondern in Reaktion und Timing.",
+    "cards": [
+      {
+        "rom": "Timing",
+        "title": "Im richtigen Augenblick",
+        "poet": "Die Musik kann später beginnen, früher enden oder eine Pause halten, wenn der Moment es verlangt.",
+        "list": [
+          "nach Worten",
+          "vor dem Auszug",
+          "bei stiller Unruhe"
+        ]
+      },
+      {
+        "rom": "Nähe",
+        "title": "Ohne technische Distanz",
+        "poet": "Ein akustisches Instrument wirkt unmittelbar und braucht oft weniger Erklärung als eine Tonaufnahme.",
+        "list": [
+          "Solo-Viola",
+          "ruhiger Klang",
+          "direkte Präsenz"
+        ]
+      }
+    ],
+    "listLabel": "Live-Musik eignet sich besonders für",
+    "list": [
+      "Beginn der Feier",
+      "Übergänge nach Reden",
+      "Wunschlied als Solo-Version",
+      "Auszug aus der Trauerhalle"
+    ]
   }
 }

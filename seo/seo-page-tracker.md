@@ -1,6 +1,6 @@
 # SEO Page Tracker
 
-Generiert: 2026-06-13T22:58:04.523Z
+Generiert: 2026-06-13T23:10:38.945Z
 
 Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten zu finden, die technisch existieren, aber noch zu aehnlich, zu duenn, nicht sauber im CMS gepflegt oder bei Keywords zu nah an anderen Seiten sind.
 
@@ -13,24 +13,24 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | topic | 137 |
 | CMS-Dokumente vorhanden | 480 |
 | Durchschnitt Keyword-Nahe | 57.6% |
-| Durchschnitt Content-Aehnlichkeit | 56.2% |
-| Durchschnitt Template-Aehnlichkeit | 91.8% |
+| Durchschnitt Content-Aehnlichkeit | 55.6% |
+| Durchschnitt Template-Aehnlichkeit | 91.1% |
 
 ## Risk
 
 | Risiko | Seiten |
 | --- | ---: |
-| high | 306 |
+| high | 300 |
 | low | 9 |
-| medium | 165 |
+| medium | 171 |
 
 ## Actions
 
 | Aktion | Seiten |
 | --- | ---: |
 | expand-copy | 80 |
-| improve-image-alts | 94 |
-| rewrite-differentiate | 306 |
+| improve-image-alts | 100 |
+| rewrite-differentiate | 300 |
 
 ## Priorisierter Backlog
 
@@ -49,12 +49,6 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | high | rewrite-differentiate | topic | [Musik Kirche Taufe](https://kim-marie-borger.com/taufen/musik-kirche-taufe/) | 80% | 65.3% | 96.6% | /taufen/musik-taufe/ |
 | high | rewrite-differentiate | topic | [Instrumentalmusik Hochzeit](https://kim-marie-borger.com/hochzeiten/instrumentalmusik-hochzeit/) | 80% | 61.3% | 96% | /hochzeiten/live-instrumentalmusik-hochzeit/ |
 | high | rewrite-differentiate | topic | [Live Instrumentalmusik Hochzeit](https://kim-marie-borger.com/hochzeiten/live-instrumentalmusik-hochzeit/) | 80% | 61.3% | 96% | /hochzeiten/instrumentalmusik-hochzeit/ |
-| high | rewrite-differentiate | topic | [Live Musik Beerdigung](https://kim-marie-borger.com/beerdigungen/live-musik-beerdigung/) | 80% | 53.7% | 95.8% | /beerdigungen/musik-beerdigung/ |
-| high | rewrite-differentiate | topic | [Musik Beerdigung](https://kim-marie-borger.com/beerdigungen/musik-beerdigung/) | 80% | 53.7% | 95.8% | /beerdigungen/klassische-musik-beerdigung/ |
-| high | rewrite-differentiate | topic | [Live Musik Trauerfeier](https://kim-marie-borger.com/beerdigungen/live-musik-trauerfeier/) | 80% | 53.2% | 95.2% | /beerdigungen/musik-trauerfeier/ |
-| high | rewrite-differentiate | topic | [Musik Trauerfeier](https://kim-marie-borger.com/beerdigungen/musik-trauerfeier/) | 80% | 53.1% | 95.2% | /beerdigungen/live-musik-trauerfeier/ |
-| high | rewrite-differentiate | topic | [Musik Abschied](https://kim-marie-borger.com/beerdigungen/musik-abschied/) | 80% | 54% | 95% | /beerdigungen/musik-letzter-abschied/ |
-| high | rewrite-differentiate | topic | [Musik letzter Abschied](https://kim-marie-borger.com/beerdigungen/musik-letzter-abschied/) | 80% | 54% | 95% | /beerdigungen/musik-abschied/ |
 | high | rewrite-differentiate | topic | [Bratschenunterricht](https://kim-marie-borger.com/unterricht/bratschenunterricht/) | 66.7% | 61.1% | 96.3% | /unterricht/bratschenunterricht-anfaenger/ |
 | high | rewrite-differentiate | topic | [Bratschenunterricht Anfänger](https://kim-marie-borger.com/unterricht/bratschenunterricht-anfaenger/) | 66.7% | 61.1% | 96.3% | /unterricht/bratschenunterricht/ |
 | high | rewrite-differentiate | topic | [Bratschenunterricht Kinder](https://kim-marie-borger.com/unterricht/bratschenunterricht-kinder/) | 66.7% | 60.6% | 94.9% | /unterricht/bratschenunterricht/ |
@@ -116,6 +110,12 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | high | rewrite-differentiate | topic | [Geige Geburtstag](https://kim-marie-borger.com/geburtstage/geige-geburtstag/) | 50% | 59.3% | 93.3% | /geburtstage/bratsche-geburtstag/ |
 | high | rewrite-differentiate | topic | [Hintergrundmusik Geburtstag](https://kim-marie-borger.com/geburtstage/hintergrundmusik-geburtstag/) | 50% | 59.3% | 93.3% | /geburtstage/bratsche-geburtstag/ |
 | high | rewrite-differentiate | topic | [Musikerin Geburtstag](https://kim-marie-borger.com/geburtstage/musikerin-geburtstag/) | 50% | 59.3% | 93.3% | /geburtstage/bratsche-geburtstag/ |
+| high | rewrite-differentiate | topic | [Bratsche lernen](https://kim-marie-borger.com/unterricht/bratsche-lernen/) | 50% | 58.1% | 93.3% | /unterricht/bratsche-unterricht/ |
+| high | rewrite-differentiate | topic | [Bratsche Unterricht](https://kim-marie-borger.com/unterricht/bratsche-unterricht/) | 50% | 58.1% | 93.3% | /unterricht/bratsche-lernen/ |
+| high | rewrite-differentiate | topic | [Musikunterricht Bratsche](https://kim-marie-borger.com/unterricht/musikunterricht-bratsche/) | 50% | 58.1% | 93.3% | /unterricht/bratsche-lernen/ |
+| high | rewrite-differentiate | topic | [Viola lernen](https://kim-marie-borger.com/unterricht/viola-lernen/) | 50% | 58.3% | 93.3% | /unterricht/bratsche-lernen/ |
+| high | rewrite-differentiate | topic | [Musik Hochzeitszeremonie](https://kim-marie-borger.com/hochzeiten/musik-hochzeitszeremonie/) | 50% | 60.1% | 93.2% | /hochzeiten/musik-brauteinzug/ |
+| high | rewrite-differentiate | topic | [Musik zum Ringtausch](https://kim-marie-borger.com/hochzeiten/musik-ringtausch/) | 50% | 60.1% | 93.2% | /hochzeiten/musik-brauteinzug/ |
 
 ## Interpretation
 

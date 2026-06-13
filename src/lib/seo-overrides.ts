@@ -13,6 +13,20 @@ export interface SeoOverrideItem {
 	piece?: string;
 }
 
+export interface SeoOverrideElegyPassage {
+	strong?: string;
+	text?: string;
+}
+
+export interface SeoOverrideSolemnCard {
+	rom?: string;
+	title?: string;
+	poet?: string;
+	list?: string[];
+	linkLabel?: string;
+	href?: string;
+}
+
 export interface SeoOverrideFaq {
 	question?: string;
 	answer?: string;
@@ -55,6 +69,18 @@ export interface SeoPageOverride {
 		lead?: string;
 		items?: SeoOverrideItem[];
 		footnote?: string;
+	};
+	elegy?: {
+		quote?: string;
+		passages?: SeoOverrideElegyPassage[];
+	};
+	solemn?: {
+		eyebrow?: string;
+		title?: string;
+		lead?: string;
+		cards?: SeoOverrideSolemnCard[];
+		listLabel?: string;
+		list?: string[];
 	};
 	faq?: {
 		eyebrow?: string;
@@ -153,6 +179,13 @@ function applyObject<T extends AnyBlock>(block: T, patch?: Record<string, unknow
 }
 
 function applyElegyOverride(block: AnyBlock, override: SeoPageOverride): AnyBlock {
+	if (override.elegy) {
+		return {
+			...block,
+			quote: override.elegy.quote ?? block.quote,
+			passages: override.elegy.passages?.length ? override.elegy.passages : block.passages,
+		};
+	}
 	if (!override.focus) return block;
 	return {
 		...block,
@@ -167,6 +200,19 @@ function applyElegyOverride(block: AnyBlock, override: SeoPageOverride): AnyBloc
 }
 
 function applySolemnOverride(block: AnyBlock, override: SeoPageOverride): AnyBlock {
+	if (override.solemn) {
+		return {
+			...block,
+			...applyObject(block, {
+				eyebrow: override.solemn.eyebrow,
+				title: override.solemn.title,
+				lead: override.solemn.lead,
+				cards: override.solemn.cards,
+				listLabel: override.solemn.listLabel,
+				list: override.solemn.list,
+			}),
+		};
+	}
 	if (!override.focus) return block;
 	return {
 		...block,

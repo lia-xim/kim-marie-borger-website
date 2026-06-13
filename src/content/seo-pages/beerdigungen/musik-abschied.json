@@ -6,55 +6,112 @@
   "targetKeyword": "Musik Abschied",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-2-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Abschied | Trauermusik mit Viola",
-  "seoDescription": "Musik Abschied: Behutsame Live-Viola für Trauerfeier, Beerdigung und Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "seoTitle": "Musik Abschied | Persönliche Viola für stille Momente",
+  "seoDescription": "Musik für einen Abschied: Solo-Viola für persönliche Erinnerungen, freie Abschiedsfeiern, stille Rituale und kleine Trauermomente.",
   "hero": {
-    "title": "Musik Abschied, persönlich geplant und live begleitet.",
-    "lead": "Behutsame Live-Viola für Abschiede, Trauerfeiern und stille Erinnerungsmomente. Diese Seite bündelt den Suchintent \"Musik Abschied\" für persönliche Erinnerungen und stille Momente."
+    "eyebrow": "Abschied",
+    "title": "Musik für einen Abschied, der persönlich bleiben darf.",
+    "lead": "Nicht jeder Abschied folgt einer klassischen Beerdigung. Manchmal geht es um eine freie Feier, einen kleinen Kreis, ein Lieblingslied oder einen Moment, der sehr persönlich gehalten werden soll.",
+    "badge": "Für persönliche Erinnerungsmomente"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik Abschied.",
+    "title": "FAQ zu Musik für einen Abschied",
     "items": [
       {
-        "question": "Passt Musik Abschied zu den Abschied?",
-        "answer": "Ja. Musik Abschied wird gezielt auf den Abschied, den Raum und den Ablauf abgestimmt. für einen würdevollen Abschied.",
+        "question": "Ist diese Seite auch für freie Abschiedsfeiern gedacht?",
+        "answer": "Ja. Gerade wenn der Ablauf frei gestaltet ist, kann Musik helfen, Übergänge und stille Momente würdevoll zu halten.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Kann ein sehr persönliches Lied gespielt werden?",
+        "answer": "Oft ja. Ich prüfe, ob sich das Lied auf Solo-Viola übertragen lässt und welcher Ausschnitt für den Abschied passend ist."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Abschied am Tag selbst ruhig funktioniert."
+        "question": "Geht Abschiedsmusik auch in kleiner Runde?",
+        "answer": "Ja. Dann plane ich die Musik besonders reduziert, damit sie nicht zu groß für den Raum wirkt."
+      },
+      {
+        "question": "Worin unterscheidet sich Musik Abschied von Musik letzter Abschied?",
+        "answer": "Musik Abschied ist breiter und persönlicher gedacht. Musik letzter Abschied meint stärker den finalen Moment am Ende der Feier oder am Grab."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+      "alt": "Persönliche Abschiedsmusik mit Solo-Viola 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Persönliche Abschiedsmusik mit Solo-Viola 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 2: Trauer-Topicseiten mit eigener Suchintention, eigenen Abschnitten, eigenen FAQs und eigener Kontaktcopy differenziert. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Musik Abschied anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Abschied.",
+    "eyebrow": "Persönlichen Abschied planen",
+    "title": "Soll ein persönlicher Abschied Musik bekommen?",
+    "lead": "Erzähl mir kurz, welche Form des Abschieds geplant ist und ob es ein Lied oder eine Erinnerung gibt, die wichtig ist.",
     "checklist": [
-      "Musik Abschied",
-      "Wunschmusik",
-      "Termin & Ort"
+      "freie Feier",
+      "Lieblingslied",
+      "kleiner Kreis"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Abschied zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Rahmen schildern",
+    "formTitle": "Musik für den Abschied anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer behutsamen Idee für euren Abschied."
+  },
+  "elegy": {
+    "quote": "Abschiedsmusik darf leise sein und trotzdem einen Raum verändern.",
+    "passages": [
+      {
+        "strong": "Breiter Suchintent",
+        "text": "Musik Abschied ist bewusst offener als Musik Trauerfeier oder Musik Beerdigung. Die Suche kann eine freie Abschiedsfeier, ein Ritual, eine private Erinnerung oder einen stillen Moment meinen."
+      },
+      {
+        "strong": "Persönliche Ebene",
+        "text": "Hier zählt oft weniger die klassische Form als die Verbindung zu einem Menschen. Ein Lieblingslied, eine ruhige Melodie oder ein einzelner Klang kann eine Erinnerung klarer tragen als viele Worte."
+      },
+      {
+        "strong": "Flexible Form",
+        "text": "Die Musik kann in einer Trauerhalle, Kirche, einem kleinen Raum oder bei einer freien Feier stattfinden. Wichtig ist, dass der Rahmen behutsam und nicht schematisch geplant wird."
+      }
+    ]
+  },
+  "solemn": {
+    "eyebrow": "Formen",
+    "title": "Abschiedsmusik muss nicht immer einem festen Ablauf folgen.",
+    "lead": "Diese Seite ist für persönliche Abschiedsformen gedacht, die etwas freier geplant werden.",
+    "cards": [
+      {
+        "rom": "Frei",
+        "title": "Persönliche Feier",
+        "poet": "Wenn der Ablauf nicht kirchlich oder klassisch ist, kann Musik verbindend wirken, ohne eine feste Liturgie zu brauchen.",
+        "list": [
+          "freie Rede",
+          "Foto-Moment",
+          "Lieblingslied"
+        ]
+      },
+      {
+        "rom": "Still",
+        "title": "Kleiner Kreis",
+        "poet": "In kleinen Gruppen braucht Musik besonders viel Zurückhaltung. Die Viola kann nah klingen, ohne den Raum zu füllen.",
+        "list": [
+          "Familienkreis",
+          "private Erinnerung",
+          "leiser Abschluss"
+        ]
+      }
+    ],
+    "listLabel": "Mögliche Abschiedsmomente",
+    "list": [
+      "Lieblingslied als Viola-Fassung",
+      "Musik nach persönlichen Worten",
+      "Kerzen- oder Blumenritual",
+      "stiller Abschluss im kleinen Kreis"
+    ]
   }
 }

@@ -7,6 +7,20 @@ const itemFields = [
 	{ type: 'string' as const, name: 'piece', label: 'Stueck / Hinweis' },
 ];
 
+const elegyPassageFields = [
+	{ type: 'string' as const, name: 'strong', label: 'Fetter Einstieg' },
+	{ type: 'string' as const, name: 'text', label: 'Text', ui: { component: 'textarea' } },
+];
+
+const solemnCardFields = [
+	{ type: 'string' as const, name: 'rom', label: 'Kleine Kennung' },
+	{ type: 'string' as const, name: 'title', label: 'Titel' },
+	{ type: 'string' as const, name: 'poet', label: 'Text', ui: { component: 'textarea' } },
+	{ type: 'string' as const, name: 'list', label: 'Liste', list: true },
+	{ type: 'string' as const, name: 'linkLabel', label: 'Link-Beschriftung' },
+	{ type: 'string' as const, name: 'href', label: 'Link-Ziel' },
+];
+
 const faqFields = [
 	{ type: 'string' as const, name: 'question', label: 'Frage' },
 	{ type: 'string' as const, name: 'answer', label: 'Antwort', ui: { component: 'textarea' } },
@@ -84,6 +98,28 @@ export const SeoPageCollection: Collection = {
 				{ name: 'lead', label: 'Einleitung', type: 'string', ui: { component: 'textarea' } },
 				{ name: 'items', label: 'Punkte', type: 'object', list: true, ui: { itemProps: (item) => ({ label: item?.title ?? 'Punkt' }) }, fields: itemFields },
 				{ name: 'footnote', label: 'Fussnote', type: 'string', ui: { component: 'textarea' } },
+			],
+		},
+		{
+			name: 'elegy',
+			label: 'Trauer-Textblock',
+			type: 'object',
+			fields: [
+				{ name: 'quote', label: 'Leitsatz', type: 'string', ui: { component: 'textarea' } },
+				{ name: 'passages', label: 'Absatzgruppen', type: 'object', list: true, ui: { itemProps: (item) => ({ label: item?.strong ?? 'Absatz' }) }, fields: elegyPassageFields },
+			],
+		},
+		{
+			name: 'solemn',
+			label: 'Trauer-Ablauf/Repertoire',
+			type: 'object',
+			fields: [
+				{ name: 'eyebrow', label: 'Ueberzeile', type: 'string' },
+				{ name: 'title', label: 'Ueberschrift', type: 'string', ui: { component: 'textarea' } },
+				{ name: 'lead', label: 'Einleitung', type: 'string', ui: { component: 'textarea' } },
+				{ name: 'cards', label: 'Karten', type: 'object', list: true, ui: { itemProps: (item) => ({ label: item?.title ?? 'Karte' }) }, fields: solemnCardFields },
+				{ name: 'listLabel', label: 'Listen-Ueberschrift', type: 'string' },
+				{ name: 'list', label: 'Stuecke / Hinweise', type: 'string', list: true },
 			],
 		},
 		{

@@ -6,55 +6,112 @@
   "targetKeyword": "Musik Beerdigung",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-2-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Beerdigung | Trauermusik mit Viola",
-  "seoDescription": "Musik Beerdigung: Behutsame Live-Viola für Trauerfeier, Beerdigung und Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "seoTitle": "Musik Beerdigung | Viola für Trauerhalle, Kirche & Grab",
+  "seoDescription": "Musik zur Beerdigung mit Solo-Viola: Trauerhalle, Kirche, Auszug oder Gang zum Grab ruhig begleiten und mit dem Bestattungshaus abstimmen.",
   "hero": {
-    "title": "Musik Beerdigung, persönlich geplant und live begleitet.",
-    "lead": "Behutsame Live-Viola für Abschiede, Trauerfeiern und stille Erinnerungsmomente. Diese Seite bündelt den Suchintent \"Musik Beerdigung\" für einen würdevollen musikalischen Rahmen."
+    "eyebrow": "Beerdigung",
+    "title": "Musik zur Beerdigung, ruhig geplant vom ersten Lied bis zum Gang zum Grab.",
+    "lead": "Eine Beerdigung hat oft mehrere Stationen: Trauerhalle oder Kirche, Abschiedsworte, Auszug, manchmal der Weg zum Grab. Die Musik wird so geplant, dass sie den Tag trägt, ohne ihn zu überladen.",
+    "badge": "Für Zeremonie und Weg"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik Beerdigung.",
+    "title": "FAQ zur Musik bei einer Beerdigung",
     "items": [
       {
-        "question": "Passt Musik Beerdigung zu den Abschied?",
-        "answer": "Ja. Musik Beerdigung wird gezielt auf den Abschied, den Raum und den Ablauf abgestimmt. für einen würdevollen Abschied.",
+        "question": "Was ist der Unterschied zu Musik für eine Trauerfeier?",
+        "answer": "Die Trauerfeier meint meist die Zeremonie. Bei Musik zur Beerdigung denke ich zusätzlich an Auszug, Weg zum Grab und praktische Abläufe vor Ort.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Kannst du auch am Grab spielen?",
+        "answer": "Ja, wenn die Bedingungen es zulassen. Wir klären vorher Ort, Wetter, Dauer und ob ein sehr kurzer musikalischer Moment sinnvoll ist."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Beerdigung am Tag selbst ruhig funktioniert."
+        "question": "Stimmst du dich mit dem Bestattungshaus ab?",
+        "answer": "Ja. Ich kann direkt mit dem Bestattungshaus klären, wann ich da bin, wo ich spiele und welche Einsätze vorgesehen sind."
+      },
+      {
+        "question": "Wie kurzfristig ist Musik zur Beerdigung möglich?",
+        "answer": "Oft auch kurzfristig. Schreib mir Datum, Ort und ungefähre Uhrzeit, dann prüfe ich schnell, ob ich den Termin möglich machen kann."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+      "alt": "Solo-Viola für Musik bei einer Beerdigung 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Solo-Viola für Musik bei einer Beerdigung 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 2: Trauer-Topicseiten mit eigener Suchintention, eigenen Abschnitten, eigenen FAQs und eigener Kontaktcopy differenziert. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Musik Beerdigung anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Beerdigung.",
+    "eyebrow": "Beerdigung anfragen",
+    "title": "Soll die Beerdigung mit Viola begleitet werden?",
+    "lead": "Sende Datum, Ort und ob Musik nur in der Trauerhalle oder auch am Grab gewünscht ist. Ich antworte mit einer ruhigen, realistischen Einschätzung.",
     "checklist": [
-      "Musik Beerdigung",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Trauerhalle",
+      "Kirche",
+      "Grab"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Beerdigung zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Termin prüfen",
+    "formTitle": "Musik zur Beerdigung anfragen",
+    "formSuccess": "Danke - ich prüfe den Termin und melde mich mit einem Vorschlag für die Beerdigung."
+  },
+  "elegy": {
+    "quote": "Bei einer Beerdigung zählt nicht nur welches Lied, sondern wann es den Tag hält.",
+    "passages": [
+      {
+        "strong": "Der Rahmen",
+        "text": "Diese Seite richtet sich an Menschen, die Musik für eine konkrete Beerdigung suchen. Der Fokus liegt auf Ablauf, Ort, Würde und verlässlicher Abstimmung mit dem Bestattungshaus."
+      },
+      {
+        "strong": "Mehr als ein Raum",
+        "text": "Anders als bei einer reinen Trauerfeier kann die Beerdigung auch den Auszug, den Weg nach draußen oder einen Moment am Grab umfassen. Dafür muss die Musik praktisch und musikalisch anders geplant werden."
+      },
+      {
+        "strong": "Ruhige Organisation",
+        "text": "Ich kläre Ankunft, Platzierung, Einsätze und Wunschmusik vorab. Angehörige müssen am Tag selbst nicht erklären, wann etwas beginnen soll."
+      }
+    ]
+  },
+  "solemn": {
+    "eyebrow": "Stationen",
+    "title": "Musik zur Beerdigung folgt dem tatsächlichen Ablauf.",
+    "lead": "Ob Trauerhalle, Kirche oder Grab: Jede Station braucht eine andere musikalische Zurückhaltung.",
+    "cards": [
+      {
+        "rom": "Innen",
+        "title": "Trauerhalle oder Kirche",
+        "poet": "Hier kann Musik die Feier eröffnen, eine Ansprache nachklingen lassen oder den Auszug ruhig führen.",
+        "list": [
+          "Eröffnungsstück",
+          "nach der Rede",
+          "Auszug"
+        ]
+      },
+      {
+        "rom": "Draußen",
+        "title": "Weg oder Grab",
+        "poet": "Am Grab wirkt Musik oft kürzer, schlichter und unmittelbarer. Wetter, Weg und Akustik werden mitgedacht.",
+        "list": [
+          "Gang zum Grab",
+          "letzter Blumengruß",
+          "stiller Abschluss"
+        ]
+      }
+    ],
+    "listLabel": "Typische Momente einer Beerdigung",
+    "list": [
+      "Ankommen in der Trauerhalle",
+      "Musik nach der Ansprache",
+      "Auszug aus Kirche oder Halle",
+      "kurzer Moment am Grab"
+    ]
   }
 }
