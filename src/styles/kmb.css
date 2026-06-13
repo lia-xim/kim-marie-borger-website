@@ -1370,6 +1370,18 @@ a,button,summary{ touch-action:manipulation; }
 .hero-name .t{ transform:none !important; animation:none !important; letter-spacing:-.02em !important; }
 
 /* Local SEO link sections */
+.topic-seo-links{
+  background:var(--paper);
+  border-top:1px solid var(--line-soft);
+  border-bottom:1px solid var(--line-soft);
+}
+.topic-seo-links + .local-seo-links{
+  padding-top:clamp(44px,7vw,90px);
+}
+.topic-seo-links .local-link-cloud a{
+  background:var(--surface);
+  border-color:rgba(107,35,54,.22);
+}
 .local-seo-links .local-links-head{
   max-width:780px; margin-inline:auto; text-align:center;
 }

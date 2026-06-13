@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import PageBody from '../../components/islands/PageBody.astro';
 import LocalLinks from '../../components/LocalLinks.astro';
+import TopicLinks from '../../components/TopicLinks.astro';
 import { getConfig, getPage } from '../../lib/data';
 import { firstBlockImage } from '../../lib/seo';
 import {
@@ -10,31 +11,60 @@ import {
 	getLocalSeoPages,
 	localSeoJsonLd,
 } from '../../lib/local-seo';
+import {
+	buildTopicSeoPage,
+	getTopicSeoPage,
+	getTopicSeoPages,
+	topicSeoJsonLd,
+} from '../../lib/topic-seo';
 
 export async function getStaticPaths() {
-	return getLocalSeoPages().map((page) => ({
+	const localPaths = getLocalSeoPages().map((page) => ({
 		params: {
 			service: page.service.slug,
 			location: page.location.slug,
 		},
 		props: {
+			pageKind: 'local',
 			serviceSlug: page.service.slug,
-			locationSlug: page.location.slug,
+			pageSlug: page.location.slug,
 		},
 	}));
+
+	const topicPaths = getTopicSeoPages().map((page) => ({
+		params: {
+			service: page.serviceSlug,
+			location: page.slug,
+		},
+		props: {
+			pageKind: 'topic',
+			serviceSlug: page.serviceSlug,
+			pageSlug: page.slug,
+		},
+	}));
+
+	return [...localPaths, ...topicPaths];
 }
 
-const { serviceSlug, locationSlug } = Astro.props;
-const localPage = getLocalSeoPage(serviceSlug, locationSlug);
-if (!localPage) return new Response('Not Found', { status: 404 });
+const { pageKind, serviceSlug, pageSlug } = Astro.props;
+const localPage = pageKind === 'local' ? getLocalSeoPage(serviceSlug, pageSlug) : undefined;
+const topicPage = pageKind === 'topic' ? getTopicSeoPage(serviceSlug, pageSlug) : undefined;
+if (!localPage && !topicPage) return new Response('Not Found', { status: 404 });
 
-const page = await getPage(localPage.service.baseSlug);
+const baseSlug = localPage?.service.baseSlug ?? topicPage?.baseSlug;
+if (!baseSlug) return new Response('Not Found', { status: 404 });
+
+const page = await getPage(baseSlug);
 const baseData = page.data?.page;
 if (!baseData) return new Response('Not Found', { status: 404 });
 
-const data = buildLocalSeoPage(localPage, baseData);
+const data = localPage
+	? buildLocalSeoPage(localPage, baseData)
+	: buildTopicSeoPage(topicPage!, baseData);
 const config = (await getConfig()).data?.config ?? null;
-const jsonLd = localSeoJsonLd(Astro.site ?? new URL(Astro.url.origin), localPage);
+const jsonLd = localPage
+	? localSeoJsonLd(Astro.site ?? new URL(Astro.url.origin), localPage)
+	: topicSeoJsonLd(Astro.site ?? new URL(Astro.url.origin), topicPage!);
 ---
 
 <Base
@@ -45,5 +75,8 @@ const jsonLd = localSeoJsonLd(Astro.site ?? new URL(Astro.url.origin), localPage
 >
 	<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 	<PageBody data={data} />
-	<LocalLinks serviceSlug={localPage.service.slug} currentLocationSlug={localPage.location.slug} />
+	{localPage && <TopicLinks serviceSlug={localPage.service.slug} />}
+	{topicPage && <TopicLinks serviceSlug={topicPage.serviceSlug} currentTopicSlug={topicPage.slug} />}
+	{localPage && <LocalLinks serviceSlug={localPage.service.slug} currentLocationSlug={localPage.location.slug} />}
+	{topicPage && <LocalLinks serviceSlug={topicPage.serviceSlug} />}
 </Base>

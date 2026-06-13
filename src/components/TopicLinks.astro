@@ -1,0 +1,47 @@
+---
+import {
+	getTopicSeoPage,
+	getTopicSeoPagesForService,
+	topicPagePath,
+} from '../lib/topic-seo';
+import { getLocalService } from '../lib/local-seo';
+
+interface Props {
+	serviceSlug: string;
+	currentTopicSlug?: string;
+}
+
+const { serviceSlug, currentTopicSlug } = Astro.props;
+const service = getLocalService(serviceSlug);
+const pages = getTopicSeoPagesForService(serviceSlug);
+const currentTopic = currentTopicSlug ? getTopicSeoPage(serviceSlug, currentTopicSlug) : undefined;
+---
+
+{service && pages.length > 0 && (
+	<section class="section bg-paper2 local-seo-links topic-seo-links" aria-labelledby={`topic-links-${service.slug}`}>
+		<div class="wrap">
+			<div class="local-links-head reveal">
+				<p class="eyebrow c">{service.parentLabel} Themen</p>
+				<h2 id={`topic-links-${service.slug}`} class="display-m">
+					{currentTopic ? `Weitere Themen zu ${service.parentLabel}` : `${service.parentLabel}: wichtige Suchthemen`}
+				</h2>
+				<p class="lead">
+					{currentTopic
+						? `Diese Themenseiten bündeln die wichtigsten Suchintentionen und verlinken danach gezielt zu den passenden lokalen Seiten.`
+						: `Starten Sie mit dem passenden Thema. Die lokalen Seiten folgen darunter und ordnen sich diesen Hauptthemen unter.`}
+				</p>
+			</div>
+
+			<div class="local-link-cloud reveal d2">
+				{pages.map((page) => {
+					const active = currentTopicSlug === page.slug;
+					return (
+						<a href={topicPagePath(page)} aria-current={active ? 'page' : undefined}>
+							{page.linkLabel}
+						</a>
+					);
+				})}
+			</div>
+		</div>
+	</section>
+)}
