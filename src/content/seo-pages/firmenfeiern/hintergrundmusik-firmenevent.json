@@ -6,65 +6,111 @@
   "targetKeyword": "Hintergrundmusik Firmenevent",
   "intentCluster": "firmenfeiern:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-3-review-needed",
   "enabled": true,
-  "seoTitle": "Hintergrundmusik Firmenevent | Live-Musik für Business-Events",
-  "seoDescription": "Hintergrundmusik Firmenevent: Dezente Live-Viola für Empfang, Dinner, Messe oder Business-Event. Hochwertig und gesprächsfreundlich.",
+  "seoTitle": "Hintergrundmusik Firmenevent | Dezente Live-Viola für Gespräche",
+  "seoDescription": "Hintergrundmusik für Firmenevents: Live-Viola als dezenter Klangrahmen für Empfang, Dinner und Gespräche. Kontrollierte Lautstärke statt Dauerbeschallung.",
   "hero": {
-    "title": "Hintergrundmusik Firmenevent, persönlich geplant und live begleitet.",
-    "lead": "Dezente Live-Viola für Business-Events, die hochwertig wirken und Gespräche möglich lassen. Diese Seite bündelt den Suchintent \"Hintergrundmusik Firmenevent\" für Gespräche, Empfang und Dinner."
+    "eyebrow": "Hintergrundmusik",
+    "title": "Hintergrundmusik für Firmenevents, die präsenter ist als eine Playlist und leiser als ein Programmpunkt.",
+    "lead": "Gute Hintergrundmusik wird nicht ignoriert, aber sie drängt sich auch nicht vor. Die Viola schafft einen warmen Rahmen, in dem sich Gäste unterhalten, bewegen und konzentrieren können.",
+    "badge": "Für Gespräche und Atmosphäre"
   },
   "split": {
-    "eyebrow": "Business",
-    "title": "Business-Musik muss repräsentativ und kontrollierbar sein.",
-    "lede": "Bei Firmenfeiern und Events soll Musik Aufmerksamkeit schaffen, ohne Gespräche oder Ablauf zu stören. Für hintergrundmusik firmenevent zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Bei Hintergrundmusik ist Zurückhaltung die eigentliche Leistung.",
+    "lede": "Wer Hintergrundmusik für ein Firmenevent sucht, will meist keine Show, sondern eine kontrollierbare Atmosphäre: edel, ruhig, gut dosiert und verlässlich im Ablauf.",
     "paragraphs": [
-      "Hintergrundmusik Firmenevent wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für das Event.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Gäste, Kund:innen und Team für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Ich plane Hintergrundmusik nach Raum, Akustik und Gesprächssituation. In manchen Räumen reicht der akustische Klang, in anderen ist eine dezente Verstärkung sinnvoll.",
+      "Die Stücke werden so gewählt, dass sie Verbindung schaffen, aber nicht ständig Aufmerksamkeit fordern. Dadurch bleibt das Event hochwertig, ohne den Charakter eines Konzerts zu bekommen.",
+      "Gerade bei Business-Events ist die Frage nicht nur, was gespielt wird, sondern wann Pausen besser sind. Auch diese Pausen gehören zur musikalischen Planung.",
+      "Für Hintergrundmusik ist die räumliche Situation entscheidend. Ein hoher Raum, harte Flächen oder viele parallele Gespräche verändern, wie präsent ein Instrument wahrgenommen wird. Deshalb plane ich nicht nur Repertoire, sondern auch Position und Pausen.",
+      "Eine gute Hintergrundmusik muss auch aushalten, dass sie zeitweise nicht im Mittelpunkt steht. Genau darin liegt der Unterschied zu einem Konzert: Die Musik verbessert die Atmosphäre, ohne den Anlass in eine Bühnensituation zu verwandeln.",
+      "Wenn der Ablauf mehrere Phasen hat, kann die Hintergrundmusik kleine Farbwechsel bekommen: heller beim Empfang, ruhiger beim Dinner, reduzierter bei konzentrierten Gesprächen. So bleibt die Seite klar vom Networking- und Dinner-Intent getrennt.",
+      "Für Veranstalter:innen ist außerdem wichtig, dass Hintergrundmusik planbar bleibt. Deshalb bespreche ich im Vorfeld, wann Musik wirklich gebraucht wird, wann sie zurücktreten soll und welche Bereiche des Raums musikalisch sinnvoll erreichbar sind."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Hintergrundmusik Firmenevent.",
+    "title": "FAQ zu Hintergrundmusik beim Firmenevent",
     "items": [
       {
-        "question": "Passt Hintergrundmusik Firmenevent zu das Event?",
-        "answer": "Ja. Hintergrundmusik Firmenevent wird gezielt auf das Event, den Raum und den Ablauf abgestimmt. für ein hochwertiges, gesprächsfreundliches Event.",
+        "question": "Ist Live-Viola wirklich Hintergrundmusik?",
+        "answer": "Ja, wenn sie entsprechend geplant wird. Die Viola kann sehr dezent eingesetzt werden und bleibt trotzdem hochwertiger als eine zufällige Playlist.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Kann die Lautstärke angepasst werden?",
+        "answer": "Ja. Ich passe Spielweise, Position und bei Bedarf dezente Verstärkung an die Akustik des Raums an."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Hintergrundmusik Firmenevent am Tag selbst ruhig funktioniert."
+        "question": "Wie unterscheidet sich das von Dinnermusik?",
+        "answer": "Dinnermusik ist stärker am Menü und an Reden orientiert. Hintergrundmusik ist breiter gedacht: Empfang, Bewegung, Wartezonen und Gesprächsinseln."
+      },
+      {
+        "question": "Kann Hintergrundmusik auch modern sein?",
+        "answer": "Ja. Moderne Melodien funktionieren gut, solange sie nicht zu stark nach Aufmerksamkeit verlangen und zum Anlass passen."
+      },
+      {
+        "question": "Kann Hintergrundmusik komplett ohne Moderation laufen?",
+        "answer": "Ja. Wir legen vorher Set-Zeiten, Pausen und gewünschte Stimmung fest. Am Event selbst kann die Musik dann sehr selbstständig im Hintergrund funktionieren."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Dezente Live-Viola als Hintergrundmusik für ein Firmenevent 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Dezente Live-Viola als Hintergrundmusik für ein Firmenevent 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 3: Firmenfeier-Topicseiten mit eigenem Business-Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final pruefen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Hintergrundmusik Firmenevent anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Hintergrundmusik Firmenevent.",
+    "eyebrow": "Atmosphäre planen",
+    "title": "Soll euer Event einen dezenten Live-Klang bekommen?",
+    "lead": "Schick mir Raum, Gästezahl und Ablaufpunkte. Ich gebe dir eine realistische Einschätzung, wie Hintergrundmusik dort sinnvoll funktioniert.",
     "checklist": [
-      "Hintergrundmusik Firmenevent",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Raumakustik",
+      "Gespräche",
+      "dezente Sets"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Hintergrundmusik Firmenevent zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Rahmen klären",
+    "formTitle": "Hintergrundmusik für Firmenevent anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer passenden Idee für dezente Hintergrundmusik."
+  },
+  "focus": {
+    "eyebrow": "Akustik",
+    "title": "Hintergrundmusik wird am Raum gemessen.",
+    "lead": "Die wichtigsten Entscheidungen entstehen vor Ort oder in der Ablaufplanung: Abstand, Lautstärke, Set-Länge und Pausen.",
+    "items": [
+      {
+        "time": "Raum",
+        "kicker": "Akustik",
+        "title": "Klang ohne Hall-Druck",
+        "text": "Ich achte darauf, dass die Viola den Raum wärmt und nicht in halligen Flächen zu dominant wird."
+      },
+      {
+        "time": "Gespräche",
+        "kicker": "Abstand",
+        "title": "Unterhaltung bleibt möglich",
+        "text": "Die Positionierung wird so gewählt, dass Gäste sprechen können, ohne gegen Musik anzureden."
+      },
+      {
+        "time": "Sets",
+        "kicker": "Dauer",
+        "title": "Kurze Einheiten statt Dauerloop",
+        "text": "Mehrere Sets mit Pausen wirken oft hochwertiger und entlasten die Aufmerksamkeit der Gäste."
+      },
+      {
+        "time": "Pausen",
+        "kicker": "Ruhe",
+        "title": "Stille bewusst zulassen",
+        "text": "Zwischen Programmteilen kann eine Pause wertvoller sein als Musik. Das wird im Ablauf mitgedacht."
+      }
+    ],
+    "footnote": "Hintergrundmusik eignet sich besonders für Empfang, Dinner, Networking und dezente Wartezeiten."
   }
 }

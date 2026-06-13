@@ -1,6 +1,7 @@
 import type { Collection } from 'tinacms';
 
 const itemFields = [
+	{ type: 'string' as const, name: 'time', label: 'Zeit / Ablaufpunkt' },
 	{ type: 'string' as const, name: 'kicker', label: 'Kleine Kennung' },
 	{ type: 'string' as const, name: 'title', label: 'Titel' },
 	{ type: 'string' as const, name: 'text', label: 'Text', ui: { component: 'textarea' } },

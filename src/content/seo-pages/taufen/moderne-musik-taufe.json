@@ -6,69 +6,119 @@
   "targetKeyword": "Moderne Musik Taufe",
   "intentCluster": "taufen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-4-review-needed",
   "enabled": true,
-  "seoTitle": "Moderne Musik Taufe | Taufmusik mit Live-Viola",
-  "seoDescription": "moderne Musik Taufe: Sanfte Live-Viola für Taufe, Segnung und Familienfeier. Mit Kirche und Ablauf passend abgestimmt.",
+  "seoTitle": "Moderne Musik Taufe | Pop & Filmmusik auf Live-Viola",
+  "seoDescription": "Moderne Musik zur Taufe mit Live-Viola: persönliche Pop-, Film- oder Lieblingslieder als ruhige Instrumentalfassung für Segnung und Familie.",
   "hero": {
-    "title": "Moderne Musik Taufe, persönlich geplant und live begleitet.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung und familiäre Gottesdienste. Diese Seite bündelt den Suchintent \"moderne Musik Taufe\" für persönliche Lieder in einer sanften Fassung."
+    "eyebrow": "Moderne Taufmusik",
+    "title": "Moderne Musik zur Taufe, persönlich und trotzdem kirchentauglich.",
+    "lead": "Ein modernes Lied kann zur Taufe passen, wenn es nicht wie eine Playlist in den Raum gestellt wird. Auf der Viola wird daraus eine ruhige Instrumentalfassung, die Bedeutung behält und den Rahmen respektiert.",
+    "badge": "Für Pop, Film und persönliche Lieder"
   },
   "split": {
-    "eyebrow": "Kirchliche Feier",
-    "title": "Taufmusik soll wärmen, nicht überfordern.",
-    "lede": "Bei Taufe, Segnung, Kommunion oder Konfirmation ist Musik Teil eines ruhigen, familiären Rahmens. Für moderne musik taufe zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Arrangement",
+    "title": "Moderne Taufmusik braucht eine gute Übersetzung.",
+    "lede": "Wer moderne Musik zur Taufe sucht, hat oft ein Lied im Kopf, das emotional zur Familie gehört. Die Aufgabe ist, dieses Lied so zu spielen, dass es im Gottesdienst oder bei einer Segnung natürlich wirkt.",
     "paragraphs": [
-      "Moderne Musik Taufe wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für die kirchliche Feier.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Familie und Gemeinde für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Nicht jeder Popsong passt in voller Länge. Ich prüfe Melodie, Tonumfang, Textbezug und Stimmung und wähle dann einen Ausschnitt, der instrumental trägt.",
+      "Die Viola nimmt dem Lied oft den Showcharakter. Ohne Gesang und Beat bleibt die Melodie übrig, und genau dadurch kann ein modernes Stück sehr ruhig und passend werden.",
+      "Bei kirchlichen Taufen sollte ein modernes Lied vorher mit der Gemeinde abgestimmt werden. Eine Instrumentalfassung wird häufig leichter akzeptiert als das Original, weil sie weniger dominant wirkt.",
+      "Moderne Musik kann auch mit klassischeren Einsätzen kombiniert werden: zum Beispiel ein persönliches Lied nach der Segnung und ein zeitloseres Stück zum Auszug.",
+      "Bei modernen Liedern klären wir außerdem, ob die Bedeutung eher aus dem Text oder aus der Melodie kommt. Wenn vor allem der Text wichtig ist, muss die Instrumentalfassung besonders sorgfältig gewählt werden, damit die Emotion trotzdem verständlich bleibt.",
+      "Manchmal ist ein Refrain als kurzer Einsatz stärker als das komplette Lied. So bleibt der Wiedererkennungswert erhalten, ohne dass der Gottesdienst oder die Segnung musikalisch zu lang wird.",
+      "Für Familien mit sehr unterschiedlichen Musikgeschmäckern kann moderne Taufmusik eine gute Brücke sein: ein persönliches Lied für Eltern und Paten, kombiniert mit einem ruhigeren Stück für den kirchlichen Rahmen."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu moderne Musik Taufe.",
+    "title": "FAQ zu moderner Musik zur Taufe",
     "items": [
       {
-        "question": "Passt Moderne Musik Taufe zu die kirchliche Feier?",
-        "answer": "Ja. Moderne Musik Taufe wird gezielt auf die kirchliche Feier, den Raum und den Ablauf abgestimmt. für eine sanfte kirchliche oder familiäre Feier.",
+        "question": "Kann jeder Popsong zur Taufe gespielt werden?",
+        "answer": "Nicht jeder. Manche Songs verlieren instrumental zu viel oder passen textlich nicht zum Anlass. Ich prüfe das ehrlich vorab.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Wie wird aus einem modernen Lied eine Taufversion?",
+        "answer": "Ich reduziere es auf Melodie, passende Tonart und eine sinnvolle Länge. So bleibt es persönlich, aber ruhiger."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit moderne Musik Taufe am Tag selbst ruhig funktioniert."
+        "question": "Akzeptieren Kirchen moderne Musik?",
+        "answer": "Das ist unterschiedlich. Eine dezente Instrumentalfassung hat oft bessere Chancen, sollte aber mit der Gemeinde abgestimmt werden."
+      },
+      {
+        "question": "Kann moderne Musik mit klassischer Musik gemischt werden?",
+        "answer": "Ja. Genau diese Mischung ist häufig schön: klassisch für den Rahmen, modern für den persönlichen Moment."
+      },
+      {
+        "question": "Wann sollte ich den Liedwunsch schicken?",
+        "answer": "Am besten so früh wie möglich, damit Arrangement, Länge und eventuelle Freigabe in Ruhe geklärt werden können."
+      },
+      {
+        "question": "Was passiert, wenn ein gewünschter Song nicht gut auf Viola funktioniert?",
+        "answer": "Dann sage ich das offen und schlage eine Alternative oder einen kürzeren Ausschnitt vor, der dieselbe Stimmung besser trägt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Moderne Taufmusik als ruhige Live-Viola-Fassung 1"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Moderne Taufmusik als ruhige Live-Viola-Fassung 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Moderne Taufmusik als ruhige Live-Viola-Fassung 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 4: Tauf-Topicseiten mit getrenntem Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Moderne Musik Taufe anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Moderne Musik Taufe.",
+    "eyebrow": "Songidee senden",
+    "title": "Hast du ein modernes Lied für die Taufe im Kopf?",
+    "lead": "Schick mir den Songtitel und die geplante Stelle im Ablauf. Ich prüfe, ob und wie er als Viola-Fassung zur Taufe passt.",
     "checklist": [
-      "Moderne Musik Taufe",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Pop oder Film",
+      "Instrumentalfassung",
+      "Kirchenfreigabe"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Moderne Musik Taufe zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Lied prüfen",
+    "formTitle": "Moderne Musik zur Taufe anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Einschätzung zu eurem modernen Liedwunsch."
+  },
+  "focus": {
+    "eyebrow": "Moderne Einsatzpunkte",
+    "title": "Wo moderne Musik zur Taufe gut funktioniert.",
+    "lead": "Moderne Lieder wirken besonders stark, wenn sie gezielt und nicht zu häufig eingesetzt werden.",
+    "items": [
+      {
+        "time": "Vor Beginn",
+        "kicker": "Vertrautheit",
+        "title": "Lieblingslied als Ankommen",
+        "text": "Eine bekannte Melodie kann Familie und Gäste emotional abholen, bevor die Feier beginnt."
+      },
+      {
+        "time": "Nach der Segnung",
+        "kicker": "Persönlich",
+        "title": "Lied mit Bedeutung",
+        "text": "Direkt nach der Taufe kann ein moderner Song den Familienbezug spürbar machen."
+      },
+      {
+        "time": "Ritual",
+        "kicker": "Symbol",
+        "title": "Musik zur Kerze oder Segnung",
+        "text": "Ein reduzierter Ausschnitt begleitet eine Handlung, ohne sie zu überdecken."
+      },
+      {
+        "time": "Ausklang",
+        "kicker": "Leicht",
+        "title": "Heller Übergang zur Feier",
+        "text": "Zum Ende darf moderne Musik freundlicher wirken und den offiziellen Teil öffnen."
+      }
+    ],
+    "footnote": "Wenn ein Song nicht geeignet ist, schlage ich eine Alternative mit ähnlicher Stimmung vor."
   }
 }

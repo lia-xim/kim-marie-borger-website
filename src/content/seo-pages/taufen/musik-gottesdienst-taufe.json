@@ -6,69 +6,120 @@
   "targetKeyword": "Musik Gottesdienst Taufe",
   "intentCluster": "taufen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-4-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Gottesdienst Taufe | Taufmusik mit Live-Viola",
-  "seoDescription": "Musik Gottesdienst Taufe: Sanfte Live-Viola für Taufe, Segnung und Familienfeier. Mit Kirche und Ablauf passend abgestimmt.",
+  "seoTitle": "Musik Gottesdienst Taufe | Viola für Liturgie & Segnung",
+  "seoDescription": "Musik im Taufgottesdienst: Live-Viola für Einzug, Taufhandlung, Fürbitten und Auszug, abgestimmt mit Kirche und Ablauf.",
   "hero": {
-    "title": "Musik Gottesdienst Taufe, persönlich geplant und live begleitet.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung und familiäre Gottesdienste. Diese Seite bündelt den Suchintent \"Musik Gottesdienst Taufe\" für Einzug, Segnung und Auszug im Gottesdienst."
+    "eyebrow": "Taufgottesdienst",
+    "title": "Musik für den Taufgottesdienst, die liturgisch mitgeht.",
+    "lead": "Im Gottesdienst hat Musik eine Aufgabe: Sie rahmt Worte, Gebete, Segnung und Gemeinde. Die Viola kann diese Stationen klar begleiten, ohne den Ablauf zu stören oder sakrale Momente zu überdecken.",
+    "badge": "Für Kirche, Pfarrperson und Familie abgestimmt"
   },
   "split": {
-    "eyebrow": "Kirchliche Feier",
-    "title": "Taufmusik soll wärmen, nicht überfordern.",
-    "lede": "Bei Taufe, Segnung, Kommunion oder Konfirmation ist Musik Teil eines ruhigen, familiären Rahmens. Für musik gottesdienst taufe zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Liturgischer Ablauf",
+    "title": "Ein Taufgottesdienst braucht präzise musikalische Einsätze.",
+    "lede": "Diese Seite richtet sich an Familien, die Musik direkt im Gottesdienst planen. Entscheidend sind nicht möglichst viele Stücke, sondern passende Stellen innerhalb von Liturgie, Lesung, Taufhandlung und Auszug.",
     "paragraphs": [
-      "Musik Gottesdienst Taufe wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für die kirchliche Feier.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Familie und Gemeinde für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Ich stimme die Musik auf den Ablauf der Gemeinde ab. Manche Kirchen haben feste Lieder, andere erlauben freie Instrumentalmusik an bestimmten Punkten. Beides lässt sich gut einbinden, wenn die Reihenfolge früh klar ist.",
+      "Vor der Taufhandlung kann Musik den Raum sammeln. Nach der Segnung kann sie den Moment öffnen, während Eltern, Paten oder Gemeinde innerlich noch bei den Worten sind.",
+      "Auch Fürbitten, Kerzenritual oder ein Familienbeitrag können musikalisch verbunden werden. Die Viola bleibt dabei beweglich genug, um kurze Wege und kleine Verzögerungen im Gottesdienst aufzufangen.",
+      "Wenn bereits Orgel, Gemeindegesang oder Chor eingeplant sind, kann die Solo-Viola einzelne Lücken füllen, statt alles zu doppeln.",
+      "Besonders wichtig ist die Abstimmung mit den festen Elementen des Gottesdienstes. Wenn Gemeindelieder, Psalm, Predigt oder Fürbitten bereits stehen, suche ich die Stellen, an denen Instrumentalmusik wirklich ergänzt und nicht doppelt.",
+      "Für Familien ist diese Planung oft entlastend, weil sie nicht selbst entscheiden müssen, ob ein Stück liturgisch passt. Ich formuliere auf Wunsch auch kurz, wie die Musik in den Ablauf eingetragen werden kann.",
+      "Der Taufgottesdienst soll trotz Live-Musik klar bleiben. Deshalb arbeite ich mit eindeutigen Start- und Endpunkten, halte Blickkontakt und vermeide Einsätze, die in Gebete, Segen oder gesprochene Worte hineinlaufen könnten.",
+      "Wenn der Gottesdienst mehrere Familien oder Gemeindeteile umfasst, halte ich die musikalischen Beiträge besonders kompakt. So bleibt die Taufe als persönlicher Moment erkennbar, ohne den gesamten Ablauf zu schwer zu machen."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik Gottesdienst Taufe.",
+    "title": "FAQ zu Musik im Taufgottesdienst",
     "items": [
       {
-        "question": "Passt Musik Gottesdienst Taufe zu die kirchliche Feier?",
-        "answer": "Ja. Musik Gottesdienst Taufe wird gezielt auf die kirchliche Feier, den Raum und den Ablauf abgestimmt. für eine sanfte kirchliche oder familiäre Feier.",
+        "question": "Muss die Kirche Live-Musik genehmigen?",
+        "answer": "In der Regel ja. Meist reicht eine kurze Abstimmung mit Pfarrperson, Küsterdienst oder Kirchenmusik, damit Platz und Einsätze klar sind.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Spielst du während der Taufworte?",
+        "answer": "Normalerweise nicht. Die Worte sollen verständlich bleiben. Musik eignet sich eher vor oder nach der Taufhandlung."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Gottesdienst Taufe am Tag selbst ruhig funktioniert."
+        "question": "Kann die Viola mit Orgel kombiniert werden?",
+        "answer": "Je nach Stück und Kirche ist das möglich. Häufig ist Solo-Viola aber praktischer, wenn der Ablauf flexibel bleiben soll."
+      },
+      {
+        "question": "Wie früh sollte der Ablauf feststehen?",
+        "answer": "Ideal ist eine grobe Reihenfolge einige Wochen vorher. Kurzfristige Anpassungen sind meist trotzdem möglich."
+      },
+      {
+        "question": "Welche Musik passt in den Gottesdienst?",
+        "answer": "Klassische, geistliche oder sehr ruhige moderne Stücke funktionieren besonders gut, wenn sie nicht zu showhaft wirken."
+      },
+      {
+        "question": "Kann die Musik in den Ablaufplan der Kirche aufgenommen werden?",
+        "answer": "Ja. Sobald die Einsatzpunkte feststehen, können sie als kurze musikalische Beiträge im Gottesdienstablauf notiert werden."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Live-Viola im Taufgottesdienst als dezente Kirchenmusik 1"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Live-Viola im Taufgottesdienst als dezente Kirchenmusik 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola im Taufgottesdienst als dezente Kirchenmusik 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 4: Tauf-Topicseiten mit getrenntem Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Musik Gottesdienst Taufe anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Gottesdienst Taufe.",
+    "eyebrow": "Gottesdienst planen",
+    "title": "Suchst du Musik für einen Taufgottesdienst?",
+    "lead": "Schick mir Kirche, Uhrzeit, Ablaufentwurf und mögliche Vorgaben der Gemeinde. Ich bereite passende musikalische Einsatzpunkte vor.",
     "checklist": [
-      "Musik Gottesdienst Taufe",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Kirche",
+      "Ablaufentwurf",
+      "Abstimmung mit Gemeinde"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Gottesdienst Taufe zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Ablauf senden",
+    "formTitle": "Musik für den Taufgottesdienst anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer passenden Struktur für den Taufgottesdienst."
+  },
+  "focus": {
+    "eyebrow": "Stationen",
+    "title": "Typische Stellen für Musik im Taufgottesdienst.",
+    "lead": "Die genaue Platzierung hängt von Gemeinde und Pfarrperson ab. Diese Punkte sind häufig gut integrierbar.",
+    "items": [
+      {
+        "time": "Einzug",
+        "kicker": "Beginn",
+        "title": "Musik zum Ankommen",
+        "text": "Ein ruhiges Stück vor oder zum Beginn gibt dem Gottesdienst einen feierlichen, aber leichten Auftakt."
+      },
+      {
+        "time": "Taufhandlung",
+        "kicker": "Segnung",
+        "title": "Rahmen um den Kernmoment",
+        "text": "Direkt unter den Worten bleibt es still; davor oder danach kann Musik den Moment tragen."
+      },
+      {
+        "time": "Fürbitten",
+        "kicker": "Gebet",
+        "title": "Kurzer verbindender Klang",
+        "text": "Zwischen gesprochenen Beiträgen kann ein sehr reduzierter musikalischer Übergang sinnvoll sein."
+      },
+      {
+        "time": "Auszug",
+        "kicker": "Abschluss",
+        "title": "Heller Abschluss",
+        "text": "Zum Ende darf die Musik etwas offener werden und den Übergang zu Gratulationen begleiten."
+      }
+    ],
+    "footnote": "Ich spiele nur dort, wo es liturgisch und organisatorisch mit der Kirche abgestimmt ist."
   }
 }

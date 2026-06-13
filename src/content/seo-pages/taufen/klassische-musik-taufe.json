@@ -6,69 +6,120 @@
   "targetKeyword": "Klassische Musik Taufe",
   "intentCluster": "taufen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-4-review-needed",
   "enabled": true,
-  "seoTitle": "Klassische Musik Taufe | Taufmusik mit Live-Viola",
-  "seoDescription": "klassische Musik Taufe: Sanfte Live-Viola für Taufe, Segnung und Familienfeier. Mit Kirche und Ablauf passend abgestimmt.",
+  "seoTitle": "Klassische Musik Taufe | Viola für Kirche & Segnung",
+  "seoDescription": "Klassische Musik zur Taufe mit Live-Viola: feierliche Stücke für Kirche, Segnung, Einzug und Auszug, ruhig und passend arrangiert.",
   "hero": {
-    "title": "Klassische Musik Taufe, persönlich geplant und live begleitet.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung und familiäre Gottesdienste. Diese Seite bündelt den Suchintent \"klassische Musik Taufe\" für ruhige Klassiker und traditionelle Momente."
+    "eyebrow": "Klassische Taufmusik",
+    "title": "Klassische Musik zur Taufe, wenn der Rahmen zeitlos wirken soll.",
+    "lead": "Klassische Stücke geben einer Taufe Würde, ohne laut sein zu müssen. Auf der Viola können bekannte Melodien warm, schlicht und kirchentauglich klingen.",
+    "badge": "Zeitlos für Kirche und Segnung"
   },
   "split": {
-    "eyebrow": "Kirchliche Feier",
-    "title": "Taufmusik soll wärmen, nicht überfordern.",
-    "lede": "Bei Taufe, Segnung, Kommunion oder Konfirmation ist Musik Teil eines ruhigen, familiären Rahmens. Für klassische musik taufe zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Repertoire",
+    "title": "Klassische Taufmusik lebt von Ruhe, Melodie und Maß.",
+    "lede": "Wer klassische Musik zur Taufe sucht, wünscht sich meist einen feierlichen Rahmen, der auch in der Kirche selbstverständlich wirkt. Entscheidend ist, die Stücke so auszuwählen, dass sie zur Dauer und Stimmung der Taufe passen.",
     "paragraphs": [
-      "Klassische Musik Taufe wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für die kirchliche Feier.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Familie und Gemeinde für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Nicht jedes klassische Werk eignet sich komplett für eine Taufe. Häufig ist ein gut gewählter Ausschnitt stärker: ein ruhiger Beginn, eine klare Melodie, ein feierlicher Abschluss.",
+      "Die Viola kann Werke aus Barock, Klassik oder Romantik in einer kammermusikalischen Farbe spielen. Dadurch bleibt die Musik festlich, aber nicht überdimensioniert.",
+      "Für den Einzug oder das Ankommen eignen sich andere Stücke als für die Segnung selbst. Zum Auszug darf die Musik heller werden, während der Kernmoment meist schlichter bleibt.",
+      "Wenn die Kirche bestimmte musikalische Vorgaben hat, lassen sich klassische Stücke oft besonders gut abstimmen, weil sie vielen Gemeinden vertraut sind.",
+      "Klassische Musik eignet sich auch dann, wenn verschiedene Generationen zusammenkommen. Viele Gäste empfinden bekannte klassische Melodien als würdevoll und vertraut, ohne dass sie eine bestimmte persönliche Geschichte kennen müssen.",
+      "Für Solo-Viola wähle ich Fassungen, die melodisch klar bleiben. Wenn ein Werk ursprünglich für Orgel, Chor oder großes Ensemble gedacht ist, wird es so reduziert, dass der Charakter erhalten bleibt und die Besetzung glaubwürdig klingt.",
+      "Die Auswahl kann bewusst schlicht sein. Ein Taufgottesdienst braucht nicht die größten klassischen Highlights, sondern Stücke, die in den Raum passen und den Moment der Segnung mit Ruhe tragen.",
+      "Wenn ihr zwischen mehreren klassischen Stücken schwankt, ordne ich sie nach Wirkung: gesammelt für den Anfang, besonders warm für die Segnung und heller für den Auszug oder die Gratulationen."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu klassische Musik Taufe.",
+    "title": "FAQ zu klassischer Musik zur Taufe",
     "items": [
       {
-        "question": "Passt Klassische Musik Taufe zu die kirchliche Feier?",
-        "answer": "Ja. Klassische Musik Taufe wird gezielt auf die kirchliche Feier, den Raum und den Ablauf abgestimmt. für eine sanfte kirchliche oder familiäre Feier.",
+        "question": "Welche klassischen Stücke passen zur Taufe?",
+        "answer": "Geeignet sind ruhige, klare Melodien und festliche Ausschnitte. Ich empfehle Stücke je nach Kirche, Ablauf und gewünschter Stimmung.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Kann klassische Musik auf Solo-Viola vollständig wirken?",
+        "answer": "Ja, wenn die Auswahl zur Besetzung passt. Manche Werke werden arrangiert oder in sinnvollen Ausschnitten gespielt."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit klassische Musik Taufe am Tag selbst ruhig funktioniert."
+        "question": "Ist klassische Musik zu ernst für eine Taufe?",
+        "answer": "Nicht unbedingt. Es gibt viele helle, warme und schlichte klassische Stücke, die festlich wirken, ohne schwer zu sein."
+      },
+      {
+        "question": "Kann klassische Musik mit einem modernen Wunschlied kombiniert werden?",
+        "answer": "Ja. Ein klassischer Rahmen und ein persönliches modernes Lied können sehr gut zusammenpassen, wenn die Übergänge geplant sind."
+      },
+      {
+        "question": "Muss die Kirche die Stücke prüfen?",
+        "answer": "Das hängt von der Gemeinde ab. Bei klassischen Stücken ist die Abstimmung oft unkompliziert, sollte aber trotzdem erfolgen."
+      },
+      {
+        "question": "Kannst du konkrete klassische Vorschläge machen?",
+        "answer": "Ja. Nach Kirche, Dauer und gewünschter Stimmung stelle ich eine kurze Auswahl zusammen, aus der ihr entspannt wählen könnt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Klassische Viola-Musik zur Taufe in der Kirche 1"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Klassische Viola-Musik zur Taufe in der Kirche 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Klassische Viola-Musik zur Taufe in der Kirche 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 4: Tauf-Topicseiten mit getrenntem Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Klassische Musik Taufe anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Klassische Musik Taufe.",
+    "eyebrow": "Klassisch planen",
+    "title": "Wünschst du dir klassische Musik zur Taufe?",
+    "lead": "Schick mir Kirche, Ablauf und ob du bestimmte Stücke im Kopf hast. Ich stelle dir eine klassische Auswahl für die Taufe zusammen.",
     "checklist": [
-      "Klassische Musik Taufe",
-      "Wunschmusik",
-      "Termin & Ort"
+      "klassisches Repertoire",
+      "Kirchenraum",
+      "Einzug und Auszug"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Klassische Musik Taufe zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Repertoire anfragen",
+    "formTitle": "Klassische Musik zur Taufe anfragen",
+    "formSuccess": "Danke - ich melde mich mit passenden klassischen Vorschlägen für eure Taufe."
+  },
+  "focus": {
+    "eyebrow": "Klassische Momente",
+    "title": "So kann klassische Musik die Taufe strukturieren.",
+    "lead": "Klassische Musik funktioniert am besten, wenn jedes Stück eine eigene Aufgabe bekommt.",
+    "items": [
+      {
+        "time": "Einzug",
+        "kicker": "Feierlich",
+        "title": "Klarer Beginn",
+        "text": "Ein ruhiges klassisches Stück kann den Gottesdienst sammeln, ohne zu schwer zu werden."
+      },
+      {
+        "time": "Segnung",
+        "kicker": "Reduziert",
+        "title": "Schlichte Begleitung",
+        "text": "Nach der Taufhandlung wirkt oft ein kurzer, warmer Ausschnitt stärker als ein großes Werk."
+      },
+      {
+        "time": "Fürbitten",
+        "kicker": "Verbindung",
+        "title": "Instrumentaler Übergang",
+        "text": "Zwischen gesprochenen Teilen kann eine klassische Melodie den Ablauf ruhig verbinden."
+      },
+      {
+        "time": "Auszug",
+        "kicker": "Heller",
+        "title": "Freundlicher Abschluss",
+        "text": "Zum Ende darf die Musik offener klingen und die Familie in den nächsten Teil des Tages führen."
+      }
+    ],
+    "footnote": "Konkrete Stücke werden nach Raum, Länge, Kirchenvorgaben und musikalischer Wirkung ausgewählt."
   }
 }

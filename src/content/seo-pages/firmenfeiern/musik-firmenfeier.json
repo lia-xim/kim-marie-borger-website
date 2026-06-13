@@ -6,65 +6,111 @@
   "targetKeyword": "Musik Firmenfeier",
   "intentCluster": "firmenfeiern:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-3-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Firmenfeier | Live-Musik für Business-Events",
-  "seoDescription": "Musik Firmenfeier: Dezente Live-Viola für Empfang, Dinner, Messe oder Business-Event. Hochwertig und gesprächsfreundlich.",
+  "seoTitle": "Musik Firmenfeier | Live-Viola für Teamabend & Jubiläum",
+  "seoDescription": "Musik für Firmenfeiern: Live-Viola für Sommerfest, Weihnachtsfeier, Teamabend oder Jubiläum. Festlich, persönlich und gesprächsfreundlich.",
   "hero": {
-    "title": "Musik Firmenfeier, persönlich geplant und live begleitet.",
-    "lead": "Dezente Live-Viola für Business-Events, die hochwertig wirken und Gespräche möglich lassen. Diese Seite bündelt den Suchintent \"Musik Firmenfeier\" für einen hochwertigen, aber gesprächsfreundlichen Rahmen."
+    "eyebrow": "Firmenfeier",
+    "title": "Musik für Firmenfeiern, die Wert schätzt, ohne steif zu wirken.",
+    "lead": "Eine Firmenfeier ist näher am Team als am Konferenzprogramm. Die Musik darf festlich sein, aber menschlich bleiben: für Ankommen, Ehrungen, Dinner oder einen besonderen Moment im Abend.",
+    "badge": "Für Teamabend, Sommerfest und Jubiläum"
   },
   "split": {
-    "eyebrow": "Business",
-    "title": "Business-Musik muss repräsentativ und kontrollierbar sein.",
-    "lede": "Bei Firmenfeiern und Events soll Musik Aufmerksamkeit schaffen, ohne Gespräche oder Ablauf zu stören. Für musik firmenfeier zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Eine Firmenfeier braucht einen anderen Ton als ein Business-Event.",
+    "lede": "Hier geht es um Mitarbeitende, gemeinsame Jahre, Dank, Sommerfest, Weihnachtsfeier oder Jubiläum. Musik muss nicht nur repräsentieren, sondern eine angenehme gemeinsame Stimmung schaffen.",
     "paragraphs": [
-      "Musik Firmenfeier wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für das Event.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Gäste, Kund:innen und Team für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Live-Viola passt gut, wenn die Feier hochwertig wirken soll, aber keine laute Showbühne braucht. Sie kann den Start öffnen, ein Dinner begleiten oder Ehrungen einen feierlichen Rahmen geben.",
+      "Ich stimme Repertoire und Einsatz mit dem Charakter der Firma ab: klassisch, modern, warm, festlich oder bewusst locker. So entsteht kein austauschbarer Event-Sound.",
+      "Organisatorisch bleibt es einfach: klare Zeitfenster, kurze Abstimmung, passende Lautstärke und eine reguläre Rechnung für die Buchhaltung.",
+      "Bei einer Firmenfeier spielt die emotionale Ebene eine größere Rolle als bei vielen externen Business-Formaten. Menschen feiern gemeinsam, werden geehrt, stoßen an oder erleben einen Jahresabschluss. Die Musik darf deshalb persönlicher wirken.",
+      "Ich achte darauf, dass die Viola nicht zu distanziert klingt. Ein internes Fest braucht keinen kühlen Empfangston, sondern eine Mischung aus Wertschätzung, Leichtigkeit und einem Klang, der Kolleg:innen miteinander in Kontakt bringt.",
+      "Wenn es mehrere Programmpunkte gibt, kann die Musik als roter Faden dienen: beim Ankommen, vor einer Rede, nach einer Ehrung oder während des Dinners. Dadurch wirkt die Feier zusammenhängender, ohne zusätzliche Moderation zu brauchen.",
+      "Bei sehr gemischten Teams kann ein breites Repertoire sinnvoll sein: vertraute Melodien, moderne ruhige Stücke und ein paar festliche Klassiker. So fühlt sich die Musik nicht nach einer einzigen Zielgruppe an, sondern nach einem gemeinsamen Abend."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik Firmenfeier.",
+    "title": "FAQ zu Musik für Firmenfeiern",
     "items": [
       {
-        "question": "Passt Musik Firmenfeier zu das Event?",
-        "answer": "Ja. Musik Firmenfeier wird gezielt auf das Event, den Raum und den Ablauf abgestimmt. für ein hochwertiges, gesprächsfreundliches Event.",
+        "question": "Passt Live-Viola zu einer lockeren Firmenfeier?",
+        "answer": "Ja, wenn das Repertoire passend gewählt wird. Die Musik kann warm und modern wirken, ohne die Feier förmlich zu machen.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Kann Musik eine Ehrung begleiten?",
+        "answer": "Ja. Ein kurzes Stück vor oder nach einer Ehrung macht den Moment feierlicher, ohne die Worte zu verdecken."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Firmenfeier am Tag selbst ruhig funktioniert."
+        "question": "Ist das auch für Weihnachtsfeiern geeignet?",
+        "answer": "Ja. Neben klassischer Musik sind auch winterliche oder moderne Stücke möglich, je nachdem wie traditionell der Abend sein soll."
+      },
+      {
+        "question": "Wie viel Planung braucht eine Firmenfeier?",
+        "answer": "Meist reichen Datum, Ort, Gästezahl, Ablauf und gewünschte Stimmung. Danach kann ich passende Sets vorschlagen."
+      },
+      {
+        "question": "Kann die Musik auch auf die Unternehmenskultur abgestimmt werden?",
+        "answer": "Ja. Ein junges Team braucht oft einen anderen Ton als ein festliches Jubiläum. Ich stimme Stil, Länge und Dynamik auf Anlass und Unternehmenskultur ab."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Live-Viola als Musik für eine Firmenfeier 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola als Musik für eine Firmenfeier 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 3: Firmenfeier-Topicseiten mit eigenem Business-Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final pruefen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Musik Firmenfeier anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Firmenfeier.",
+    "eyebrow": "Firmenfeier planen",
+    "title": "Soll eure Firmenfeier einen besonderen Live-Moment bekommen?",
+    "lead": "Schreib mir, ob es um Teamabend, Weihnachtsfeier, Sommerfest oder Jubiläum geht. Ich schlage dir passende Einsatzpunkte vor.",
     "checklist": [
-      "Musik Firmenfeier",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Teamabend",
+      "Ehrung",
+      "Dinner"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Firmenfeier zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Feier anfragen",
+    "formTitle": "Musik für Firmenfeier anfragen",
+    "formSuccess": "Danke - ich melde mich mit einem passenden Vorschlag für eure Firmenfeier."
+  },
+  "focus": {
+    "eyebrow": "Feiermomente",
+    "title": "Musik für Firmenfeiern kann mehrere Aufgaben übernehmen.",
+    "lead": "Der passende Einsatz hängt davon ab, ob die Feier eher Dank, Begegnung, Jubiläum oder Jahresabschluss ist.",
+    "items": [
+      {
+        "time": "Beginn",
+        "kicker": "Ankommen",
+        "title": "Der Abend startet weicher",
+        "text": "Beim Eintreffen entsteht sofort Atmosphäre, ohne dass schon ein Programmpunkt beginnt."
+      },
+      {
+        "time": "Ehrung",
+        "kicker": "Dank",
+        "title": "Meilensteine feierlich rahmen",
+        "text": "Ein kurzes Stück kann Auszeichnungen, Jubiläen oder Dankesworte würdevoll verbinden."
+      },
+      {
+        "time": "Dinner",
+        "kicker": "Tisch",
+        "title": "Essen angenehm begleiten",
+        "text": "Dezente Musik gibt dem Dinner Wärme und bleibt leise genug für Kolleg:innen-Gespräche."
+      },
+      {
+        "time": "Übergang",
+        "kicker": "Abend",
+        "title": "In den lockeren Teil führen",
+        "text": "Zum Abschluss eines Sets kann die Musik den offiziellen Teil loslassen, ohne Party-Musik ersetzen zu wollen."
+      }
+    ],
+    "footnote": "Geeignet für Weihnachtsfeier, Sommerfest, Teamabend, Jubiläum und interne Empfänge."
   }
 }

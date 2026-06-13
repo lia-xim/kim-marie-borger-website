@@ -6,65 +6,111 @@
   "targetKeyword": "Musik Business Event",
   "intentCluster": "firmenfeiern:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-3-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Business Event | Live-Musik für Business-Events",
-  "seoDescription": "Musik Business Event: Dezente Live-Viola für Empfang, Dinner, Messe oder Business-Event. Hochwertig und gesprächsfreundlich.",
+  "seoTitle": "Musik Business Event | Live-Viola für Agenda & Übergänge",
+  "seoDescription": "Musik für Business Events: Live-Viola für Opening, Pausen, Speaker-Wechsel, Award oder Closing. Präzise geplant und gesprächsfreundlich.",
   "hero": {
-    "title": "Musik Business Event, persönlich geplant und live begleitet.",
-    "lead": "Dezente Live-Viola für Business-Events, die hochwertig wirken und Gespräche möglich lassen. Diese Seite bündelt den Suchintent \"Musik Business Event\" für Business-Events mit klarem Ablauf."
+    "eyebrow": "Business Event",
+    "title": "Musik für Business Events, die die Agenda verbindet statt sie zu unterbrechen.",
+    "lead": "Ein Business Event hat Timing: Opening, Panels, Pausen, Speaker-Wechsel, Award, Closing. Die Viola kann diese Übergänge präzise rahmen und dem Programm einen hochwertigen Live-Klang geben.",
+    "badge": "Für Agenda, Pausen und Closing"
   },
   "split": {
-    "eyebrow": "Business",
-    "title": "Business-Musik muss repräsentativ und kontrollierbar sein.",
-    "lede": "Bei Firmenfeiern und Events soll Musik Aufmerksamkeit schaffen, ohne Gespräche oder Ablauf zu stören. Für musik business event zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Beim Business Event zähllt der Ablauf mehr als der einzelne Song.",
+    "lede": "Wer Musik für ein Business Event sucht, braucht meist keine allgemeine Hintergrundmusik, sondern planbare musikalische Einsätze zwischen Programmpunkten.",
     "paragraphs": [
-      "Musik Business Event wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für das Event.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Gäste, Kund:innen und Team für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Ich denke Musik hier als Teil der Regie: ein kurzer Auftakt, ein Klang für den Raumwechsel, ein ruhiges Set in der Pause oder ein markierter Abschluss nach dem letzten Wort.",
+      "Der Vorteil der Solo-Viola liegt in der Flexibilität. Sie braucht wenig Platz, kann akustisch oder dezent verstärkt spielen und wirkt hochwertig, ohne wie Entertainment neben der Agenda zu stehen.",
+      "Vorab klären wir Ablaufplan, Raum, technische Situation und Zeichen. Dadurch bleibt am Veranstaltungstag wenig dem Zufall überlassen.",
+      "Business Events haben oft eine klare Dramaturgie, aber nicht immer genug Wärme zwischen den Programmpunkten. Musik kann diese Zwischenräume schließen: nicht als Ablenkung, sondern als Regieelement, das Aufmerksamkeit sammelt.",
+      "Ich frage deshalb nicht nur nach gewünschter Musik, sondern nach Ablaufplan, Moderation, Technik, Raumwechseln und möglichen Wartezeiten. Daraus entsteht ein Einsatzplan, der sich in die Veranstaltung einfügt.",
+      "Wenn es Awards, Panels oder Keynotes gibt, kann ein kurzer musikalischer Rahmen die Wertigkeit erhöhen. Gleichzeitig bleiben die Einsätze so kompakt, dass das Event nicht seinen sachlichen Charakter verliert.",
+      "Für Veranstaltungsleitungen ist besonders hilfreich, dass musikalische Einsätze vorher exakt benannt werden können. So lassen sich Technik, Moderation und Timing sauber koordinieren, ohne dass am Veranstaltungstag spontan entschieden werden muss."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik Business Event.",
+    "title": "FAQ zu Musik für Business Events",
     "items": [
       {
-        "question": "Passt Musik Business Event zu das Event?",
-        "answer": "Ja. Musik Business Event wird gezielt auf das Event, den Raum und den Ablauf abgestimmt. für ein hochwertiges, gesprächsfreundliches Event.",
+        "question": "Kann Musik in eine feste Agenda eingebunden werden?",
+        "answer": "Ja. Ich arbeite mit Ablaufplan, Zeiten und klaren Zeichen, damit Musik Übergänge verbindet und keine Programmpunkte stört.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Ist das eher Hintergrundmusik oder Programmmusik?",
+        "answer": "Beides ist möglich. Bei Business Events geht es oft um kurze, präzise Einsätze plus dezente Pausenmusik."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Business Event am Tag selbst ruhig funktioniert."
+        "question": "Braucht die Viola viel Technik?",
+        "answer": "Meist wenig. Je nach Raum spiele ich akustisch oder mit dezenter Verstärkung. Das klären wir vorab mit der Location oder Technik."
+      },
+      {
+        "question": "Kannst du mit Eventagentur oder Regie zusammenarbeiten?",
+        "answer": "Ja. Ich kann Ablauf, Aufbau und Einsätze direkt mit Agentur, Technik oder interner Projektleitung abstimmen."
+      },
+      {
+        "question": "Kann Musik bei einem Business Event sehr punktuell eingesetzt werden?",
+        "answer": "Ja. Gerade kurze Einsätze für Opening, Speaker-Wechsel oder Closing sind sinnvoll, wenn die Agenda im Vordergrund bleiben soll."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Live-Viola als Musik für ein Business Event 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola als Musik für ein Business Event 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 3: Firmenfeier-Topicseiten mit eigenem Business-Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final pruefen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Musik Business Event anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Business Event.",
+    "eyebrow": "Business Event planen",
+    "title": "Soll die Agenda musikalisch verbunden werden?",
+    "lead": "Schick mir Ablaufplan, Raum, Gästezahl und die gewünschten Einsatzpunkte. Ich entwickle daraus eine klare musikalische Struktur.",
     "checklist": [
-      "Musik Business Event",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Opening",
+      "Speaker-Wechsel",
+      "Closing"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Business Event zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Agenda senden",
+    "formTitle": "Musik für Business Event anfragen",
+    "formSuccess": "Danke - ich melde mich mit einem Vorschlag für euer Business Event."
+  },
+  "focus": {
+    "eyebrow": "Agenda",
+    "title": "Musik kann Business-Programme sauber verbinden.",
+    "lead": "Diese Seite unterscheidet sich bewusst von Networking-Musik: Im Mittelpunkt steht die Struktur des Programms.",
+    "items": [
+      {
+        "time": "Opening",
+        "kicker": "Start",
+        "title": "Das Programm konzentriert beginnen",
+        "text": "Ein kurzes musikalisches Signal sammelt den Raum, bevor Moderation oder Keynote starten."
+      },
+      {
+        "time": "Wechsel",
+        "kicker": "Regie",
+        "title": "Speaker-Wechsel überbrücken",
+        "text": "Kurze Einsätze verhindern harte Lücken und geben Technik oder Moderation Luft."
+      },
+      {
+        "time": "Pause",
+        "kicker": "Lounge",
+        "title": "Pausen hochwertig halten",
+        "text": "Zwischen Agenda-Teilen darf Musik lockern, ohne das Event in Empfangsatmosphäre aufzulösen."
+      },
+      {
+        "time": "Closing",
+        "kicker": "Ende",
+        "title": "Den Abschluss bewusst setzen",
+        "text": "Nach Award, Dank oder letztem Vortrag kann ein kurzer musikalischer Nachklang den Rahmen schliessen."
+      }
+    ],
+    "footnote": "Ideal für Konferenzen, Kundentage, interne Business-Formate, Awards und gesetzte Unternehmensveranstaltungen."
   }
 }

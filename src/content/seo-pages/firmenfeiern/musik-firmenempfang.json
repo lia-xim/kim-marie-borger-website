@@ -6,65 +6,111 @@
   "targetKeyword": "Musik Firmenempfang",
   "intentCluster": "firmenfeiern:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-3-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Firmenempfang | Live-Musik für Business-Events",
-  "seoDescription": "Musik Firmenempfang: Dezente Live-Viola für Empfang, Dinner, Messe oder Business-Event. Hochwertig und gesprächsfreundlich.",
+  "seoTitle": "Musik Firmenempfang | Live-Viola für offizielle Gäste",
+  "seoDescription": "Musik für Firmenempfänge: Live-Viola für offizielle Gäste, Foyer, Begrüßung und kurze Übergänge. Repräsentativ und dezent.",
   "hero": {
-    "title": "Musik Firmenempfang, persönlich geplant und live begleitet.",
-    "lead": "Dezente Live-Viola für Business-Events, die hochwertig wirken und Gespräche möglich lassen. Diese Seite bündelt den Suchintent \"Musik Firmenempfang\" für offizielle Gäste und einen wertigen ersten Eindruck."
+    "eyebrow": "Firmenempfang",
+    "title": "Musik für den Firmenempfang, wenn der erste Eindruck repräsentativ sein soll.",
+    "lead": "Ein Firmenempfang wirkt nach innen und nach aussen. Live-Viola gibt dem Raum sofort Haltung: für offizielle Gäste, Partner, Presse, Team oder geladene Kund:innen.",
+    "badge": "Für offizielle Empfänge"
   },
   "split": {
-    "eyebrow": "Business",
-    "title": "Business-Musik muss repräsentativ und kontrollierbar sein.",
-    "lede": "Bei Firmenfeiern und Events soll Musik Aufmerksamkeit schaffen, ohne Gespräche oder Ablauf zu stören. Für musik firmenempfang zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Der Firmenempfang ist offizieller als ein lockerer Empfang.",
+    "lede": "Bei Musik für einen Firmenempfang geht es nicht nur um Ankommen, sondern um Wirkung: wertig, ruhig, verlässlich und passend zum Unternehmen.",
     "paragraphs": [
-      "Musik Firmenempfang wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für das Event.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Gäste, Kund:innen und Team für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Ich plane die Musik so, dass sie das Eintreffen begleitet, Wartezeiten füllt und den Übergang zur Begrüßung sauber vorbereitet. Der Klang bleibt dezent, aber bewusst gesetzt.",
+      "Gerade bei offiziellen Gästen ist ein kontrollierter Live-Klang wirkungsvoller als Hintergrund-Playlist oder zufällige Beschallung. Die Viola kann repräsentativ klingen, ohne den Raum zu übernehmen.",
+      "Wenn es ein Grusswort, einen Fotomoment oder eine kurze Präsentation gibt, werden Anfang und Ende der Musik im Ablauf eindeutig festgelegt.",
+      "Beim Firmenempfang ist der Anlass häufig offizieller: Ein neuer Standort, ein Jubiläum, ein Empfang für Partner oder ein Termin mit geladenen Gästen. Die Musik muss deshalb nicht nur schön sein, sondern Haltung zeigen.",
+      "Ich plane Firmenempfänge mit Blick auf Protokoll und Aufmerksamkeit. Wenn wichtige Personen begrüßt werden, Fotos entstehen oder ein kurzer offizieller Teil folgt, darf Musik nicht zufällig enden, sondern braucht ein klares Zeichen.",
+      "Gleichzeitig soll der Empfang nicht zu streng wirken. Die Viola kann den repräsentativen Rahmen weicher machen und den Raum menschlicher klingen lassen, ohne den offiziellen Charakter zu verlieren.",
+      "Wenn mehrere Gästetypen zusammenkommen, etwa Geschäftsführung, Mitarbeitende, Partner und externe Gäste, kann die Musik den gemeinsamen Nenner bilden. Sie wirkt verbindend, ohne zu privat oder zu unterhaltend zu werden."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik Firmenempfang.",
+    "title": "FAQ zu Musik beim Firmenempfang",
     "items": [
       {
-        "question": "Passt Musik Firmenempfang zu das Event?",
-        "answer": "Ja. Musik Firmenempfang wird gezielt auf das Event, den Raum und den Ablauf abgestimmt. für ein hochwertiges, gesprächsfreundliches Event.",
+        "question": "Was unterscheidet Firmenempfang von Empfangsmusik allgemein?",
+        "answer": "Beim Firmenempfang ist die repräsentative Wirkung stärker. Die Musik wird deshalb formeller, kontrollierter und näher an Begrüßung oder Programm geplant.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Kannst du vor einem Grusswort spielen?",
+        "answer": "Ja. Ich kann den Empfang musikalisch sammeln und rechtzeitig enden, damit die Begrüßung klar beginnt."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Firmenempfang am Tag selbst ruhig funktioniert."
+        "question": "Eignet sich das für offizielle Gäste?",
+        "answer": "Ja. Solo-Viola wirkt hochwertig und persönlich, ohne die Situation künstlich aufzublasen."
+      },
+      {
+        "question": "Kann die Musik mit Corporate Eventagentur abgestimmt werden?",
+        "answer": "Ja. Ich stimme Zeiten, Aufbau, Position und Zeichen gern direkt mit der Eventagentur oder internen Organisation ab."
+      },
+      {
+        "question": "Passt Musik zum Firmenempfang auch vor Presse oder Partnern?",
+        "answer": "Ja. Live-Viola wirkt hochwertig und kontrolliert. Gerade bei offiziellen Gästen ist ein ruhiger Live-Klang oft passender als eine beliebige Hintergrund-Playlist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Live-Viola als Musik für einen offiziellen Firmenempfang 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola als Musik für einen offiziellen Firmenempfang 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 3: Firmenfeier-Topicseiten mit eigenem Business-Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final pruefen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Musik Firmenempfang anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Firmenempfang.",
+    "eyebrow": "Firmenempfang planen",
+    "title": "Soll euer Firmenempfang musikalisch repräsentativ wirken?",
+    "lead": "Schick mir Anlass, Gästeprofil, Ablauf und ob ein Grusswort geplant ist. Ich entwickle daraus eine passende musikalische Empfangsstruktur.",
     "checklist": [
-      "Musik Firmenempfang",
-      "Wunschmusik",
-      "Termin & Ort"
+      "offizielle Gäste",
+      "Grusswort",
+      "Foyer"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Firmenempfang zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Empfang prüfen",
+    "formTitle": "Musik für Firmenempfang anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für euren Firmenempfang."
+  },
+  "focus": {
+    "eyebrow": "Empfangsdramaturgie",
+    "title": "Ein Firmenempfang braucht klare musikalische Zeichen.",
+    "lead": "Die Musik orientiert sich an Gästeankunft, Begrüßung und offizieller Wirkung.",
+    "items": [
+      {
+        "time": "Ankunft",
+        "kicker": "Eintreffen",
+        "title": "Gäste in den Raum holen",
+        "text": "Ein ruhiges Set nimmt dem Beginn die Leere und macht den Empfang sofort wertiger."
+      },
+      {
+        "time": "Foyer",
+        "kicker": "Warten",
+        "title": "Wartezeit repräsentativ halten",
+        "text": "Wenn sich Gruppen sammeln oder Namen geprüft werden, bleibt die Atmosphäre gepflegt."
+      },
+      {
+        "time": "Grusswort",
+        "kicker": "Zeichen",
+        "title": "Begrüßung vorbereiten",
+        "text": "Die Musik kann kontrolliert enden oder den offiziellen Start mit einem kurzen Abschluss markieren."
+      },
+      {
+        "time": "Übergang",
+        "kicker": "Weiter",
+        "title": "Zum Dinner oder Programm führen",
+        "text": "Nach dem Empfang kann ein zweites Set den Weg in den nächsten Raum oder Programmpunkt begleiten."
+      }
+    ],
+    "footnote": "Der Firmenempfang kann einzeln stehen oder Teil einer Eröffnung, Gala oder Jubiläumsfeier sein."
   }
 }

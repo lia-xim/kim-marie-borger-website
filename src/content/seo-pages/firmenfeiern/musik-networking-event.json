@@ -6,65 +6,111 @@
   "targetKeyword": "Musik Networking Event",
   "intentCluster": "firmenfeiern:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-3-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Networking Event | Live-Musik für Business-Events",
-  "seoDescription": "Musik Networking Event: Dezente Live-Viola für Empfang, Dinner, Messe oder Business-Event. Hochwertig und gesprächsfreundlich.",
+  "seoTitle": "Musik Networking Event | Live-Viola für Gespräche & Pausen",
+  "seoDescription": "Musik für Networking Events: Live-Viola für Gesprächsinseln, Warm-up, Pausen und Ausklang. Dezent, beweglich und nicht konkurrierend.",
   "hero": {
-    "title": "Musik Networking Event, persönlich geplant und live begleitet.",
-    "lead": "Dezente Live-Viola für Business-Events, die hochwertig wirken und Gespräche möglich lassen. Diese Seite bündelt den Suchintent \"Musik Networking Event\" für Gespräche ohne akustische Konkurrenz."
+    "eyebrow": "Networking",
+    "title": "Musik für Networking Events, die Gespräche leichter macht.",
+    "lead": "Bei einem Networking Event ist nicht die Bühne der Mittelpunkt, sondern die Begegnung. Live-Viola schafft Atmosphäre, während Menschen ankommen, sich vorstellen, weiterziehen und ins Gespräch kommen.",
+    "badge": "Für Gespräche, Pausen und Ausklang"
   },
   "split": {
-    "eyebrow": "Business",
-    "title": "Business-Musik muss repräsentativ und kontrollierbar sein.",
-    "lede": "Bei Firmenfeiern und Events soll Musik Aufmerksamkeit schaffen, ohne Gespräche oder Ablauf zu stören. Für musik networking event zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Networking-Musik darf nie zur akustischen Konkurrenz werden.",
+    "lede": "Diese Seite unterscheidet sich bewusst von Musik für Business Events mit Agenda. Beim Networking zähllt, dass Musik Bewegung und Kontakt unterstützt, ohne Gespräche zu besetzen.",
     "paragraphs": [
-      "Musik Networking Event wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für das Event.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Gäste, Kund:innen und Team für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Ich spiele in Sets, die sich dem Raum anpassen: etwas präsenter beim Warm-up, ruhiger in Gesprächsphasen, klarer beim Ausklang. So bleibt die Musik lebendig, aber kontrolliert.",
+      "Die Viola eignet sich, weil sie warm und persönlich klingt, ohne den Druck einer Band oder einer lauten Anlage aufzubauen. Gerade für kleinere bis mittlere Networking-Formate kann das sehr passend sein.",
+      "Vorab klären wir, ob es kurze Impulse, Tischwechsel, Pausen oder offene Lounge-Situationen gibt. Daraus entsteht die musikalische Dramaturgie.",
+      "Networking lebt von kleinen Schwellen: jemanden ansprechen, eine Gruppe wechseln, ein Gespräch beenden, einen neuen Kontakt aufnehmen. Musik kann diese Schwellen weicher machen, wenn sie nicht zu viel Aufmerksamkeit fordert.",
+      "Ich plane Networking-Musik deshalb beweglicher als klassische Empfangsmusik. Je nachdem, ob Menschen stehen, sitzen, rotieren oder frei durch den Raum gehen, verändert sich auch die musikalische Dichte.",
+      "Besonders sinnvoll sind klare Pausen. Wenn ein Raum viele Stimmen trägt, kann Stille zwischen den Sets helfen, bevor die Musik wieder einen neuen Impuls setzt. So bleibt Networking-Musik unterstützend statt anstrengend.",
+      "Wenn das Networking Teil eines größeren Tagesprogramms ist, kann die Musik bewusst anders klingen als die Agenda-Phasen. Dadurch entsteht ein erkennbarer Wechsel: weniger Bühne, mehr Begegnung, aber weiterhin ein hochwertiger Rahmen."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik Networking Event.",
+    "title": "FAQ zu Musik für Networking Events",
     "items": [
       {
-        "question": "Passt Musik Networking Event zu das Event?",
-        "answer": "Ja. Musik Networking Event wird gezielt auf das Event, den Raum und den Ablauf abgestimmt. für ein hochwertiges, gesprächsfreundliches Event.",
+        "question": "Stört Live-Musik beim Netzwerken?",
+        "answer": "Nein, wenn sie bewusst für Gespräche geplant wird. Ich halte Dynamik, Position und Set-Länge so, dass Kontakte leichter statt schwerer werden.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Was unterscheidet Networking-Musik von Business-Event-Musik?",
+        "answer": "Business-Event-Musik folgt häufig einer Agenda. Networking-Musik folgt dem Raum: Ankommen, Gesprächsinseln, Bewegung und Ausklang."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Networking Event am Tag selbst ruhig funktioniert."
+        "question": "Kann die Musik auch nur in Pausen spielen?",
+        "answer": "Ja. Gerade bei Networking-Formaten sind gezielte Sets in Pausen oder Wechselmomenten oft wirkungsvoller als durchgehende Musik."
+      },
+      {
+        "question": "Passt Viola zu modernen Networking-Formaten?",
+        "answer": "Ja. Mit passendem Repertoire wirkt die Viola warm, modern und hochwertig, ohne nach klassischem Konzert zu klingen."
+      },
+      {
+        "question": "Kann die Musik auf wechselnde Gesprächsphasen reagieren?",
+        "answer": "Ja. Ich kann Sets kürzer, ruhiger oder präsenter gestalten, wenn sich die Gesprächsdichte im Raum verändert."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Live-Viola als Musik für ein Networking Event 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola als Musik für ein Networking Event 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 3: Firmenfeier-Topicseiten mit eigenem Business-Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final pruefen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Musik Networking Event anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Networking Event.",
+    "eyebrow": "Networking planen",
+    "title": "Soll euer Networking Event einen ruhigen Live-Rahmen bekommen?",
+    "lead": "Schick mir Format, Gästezahl, Raum und ob es feste Wechsel oder offene Gesprächsphasen gibt. Ich plane die Musik passend zum Austausch.",
     "checklist": [
-      "Musik Networking Event",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Warm-up",
+      "Gespräche",
+      "Ausklang"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Networking Event zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Format senden",
+    "formTitle": "Musik für Networking Event anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer passenden Idee für euer Networking Event."
+  },
+  "focus": {
+    "eyebrow": "Gesprächsfluss",
+    "title": "Musik beim Networking richtet sich nach Bewegung im Raum.",
+    "lead": "Der Erfolg liegt darin, Kontakte zu ermöglichen. Die Musik unterstützt Rhythmus, Pausen und Raumgefühl.",
+    "items": [
+      {
+        "time": "Warm-up",
+        "kicker": "Ankommen",
+        "title": "Erste Kontakte erleichtern",
+        "text": "Ein leichtes Set nimmt dem Beginn die Steifheit und gibt Gästen einen gemeinsamen Raum."
+      },
+      {
+        "time": "Gesprächsinseln",
+        "kicker": "Kontakt",
+        "title": "Unterhaltungen nicht verdecken",
+        "text": "Die Dynamik bleibt so niedrig, dass Namen, Branchen und erste Sätze gut verstanden werden."
+      },
+      {
+        "time": "Wechsel",
+        "kicker": "Bewegung",
+        "title": "Tisch- oder Gruppenwechsel begleiten",
+        "text": "Kurze musikalische Bögen helfen, neue Gespräche natürlich zu starten."
+      },
+      {
+        "time": "Ausklang",
+        "kicker": "Ende",
+        "title": "Offen auslaufen lassen",
+        "text": "Zum Abschluss kann die Musik wärmer werden und den Raum zusammenhalten, während Kontakte weiterlaufen."
+      }
+    ],
+    "footnote": "Geeignet für Netzwerkabende, Alumni-Events, Kunden-Lounges, Branchenabende und Partnerformate."
   }
 }

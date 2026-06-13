@@ -6,65 +6,111 @@
   "targetKeyword": "Musik Kundenempfang",
   "intentCluster": "firmenfeiern:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-3-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Kundenempfang | Live-Musik für Business-Events",
-  "seoDescription": "Musik Kundenempfang: Dezente Live-Viola für Empfang, Dinner, Messe oder Business-Event. Hochwertig und gesprächsfreundlich.",
+  "seoTitle": "Musik Kundenempfang | Live-Viola für Kund:innen & Partner",
+  "seoDescription": "Musik für Kundenempfang: Live-Viola für Kund:innen, Partner, Wartebereiche und Begrüßung. Vertrauensvoll, hochwertig und gesprächsfreundlich.",
   "hero": {
-    "title": "Musik Kundenempfang, persönlich geplant und live begleitet.",
-    "lead": "Dezente Live-Viola für Business-Events, die hochwertig wirken und Gespräche möglich lassen. Diese Seite bündelt den Suchintent \"Musik Kundenempfang\" für Wartezeiten, Begegnung und ruhige Atmosphäre."
+    "eyebrow": "Kundenempfang",
+    "title": "Musik für den Kundenempfang, die willkommen heisst statt Aufmerksamkeit zu erzwingen.",
+    "lead": "Beim Kundenempfang zähllt die Stimmung vor dem ersten Gespräch. Die Viola schafft einen gepflegten Rahmen für Kund:innen, Partner und Gäste, ohne Beratung oder Smalltalk zu stören.",
+    "badge": "Für Kund:innen, Partner und Gäste"
   },
   "split": {
-    "eyebrow": "Business",
-    "title": "Business-Musik muss repräsentativ und kontrollierbar sein.",
-    "lede": "Bei Firmenfeiern und Events soll Musik Aufmerksamkeit schaffen, ohne Gespräche oder Ablauf zu stören. Für musik kundenempfang zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Ein Kundenempfang braucht Vertrauen, nicht Lautstärke.",
+    "lede": "Diese Seite ist für Unternehmen gedacht, die Kund:innen oder Partner empfangen und dabei einen ruhigen, hochwertigen ersten Eindruck schaffen möchten.",
     "paragraphs": [
-      "Musik Kundenempfang wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für das Event.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Gäste, Kund:innen und Team für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Die Musik kann Wartezeiten weicher machen, den Raum aufwerten und den Start von Gesprächen erleichtern. Sie bleibt bewusst zurückhaltend, damit Beratungen, Begrüßungen oder Präsentationen funktionieren.",
+      "Je nach Marke und Anlass kann der Klang klassisch, modern oder sehr reduziert sein. Entscheidend ist, dass die Musik nicht nach Unterhaltung nebenbei klingt, sondern nach bewusstem Empfang.",
+      "Ich kläre vorab, ob es eher um Lounge, Foyer, Showroom, Kanzlei, Praxis, Messeabend oder einen Empfang im Unternehmen geht.",
+      "Ein Kundenempfang ist oft näher am Vertrauen als an der Show. Gäste sollen sich willkommen fühlen, aber gleichzeitig verstehen, dass der Termin professionell vorbereitet ist. Genau diese Balance kann Live-Musik sehr fein unterstützen.",
+      "Ich unterscheide dabei zwischen offenem Empfang und konkretem Kundentermin. Im offenen Rahmen darf die Musik etwas mehr Raum geben; bei Beratung, Produktgespräch oder Präsentation bleibt sie deutlich zurückhaltender oder pausiert bewusst.",
+      "Gerade in Showrooms, Praxen, Kanzleien oder hochwertigen Empfangsbereichen kann ein Solo-Instrument viel bewirken, weil es persönlich klingt und trotzdem wenig Fläche braucht. Der Raum wirkt vorbereitet, ohne technisch überladen zu sein.",
+      "Wenn Kund:innen warten, ist die gefühlte Zeit oft wichtiger als die tatsächliche Dauer. Ein ruhiger Live-Klang nimmt dem Warten den Druck und sorgt dafür, dass der erste Kontakt entspannter beginnt."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik Kundenempfang.",
+    "title": "FAQ zu Musik beim Kundenempfang",
     "items": [
       {
-        "question": "Passt Musik Kundenempfang zu das Event?",
-        "answer": "Ja. Musik Kundenempfang wird gezielt auf das Event, den Raum und den Ablauf abgestimmt. für ein hochwertiges, gesprächsfreundliches Event.",
+        "question": "Stört Live-Musik Beratungsgespräche?",
+        "answer": "Nein, wenn sie dezent geplant ist. Ich achte auf Position, Dynamik und Pausen, damit Gespräche klar verständlich bleiben.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Passt das auch für kleine Kundenempfänge?",
+        "answer": "Ja. Gerade in kleineren Räumen wirkt Solo-Viola persönlich und hochwertig, ohne viel Technik oder Bühne zu brauchen."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Kundenempfang am Tag selbst ruhig funktioniert."
+        "question": "Kann die Musik zur Marke passen?",
+        "answer": "Ja. Wir können den Charakter abstimmen: klassisch, modern, ruhig, offen oder besonders reduziert."
+      },
+      {
+        "question": "Wie kurzfristig lässt sich ein Kundenempfang planen?",
+        "answer": "Wenn Termin und Ablauf feststehen, ist die musikalische Planung oft schnell möglich. Wichtig sind Raum, Dauer und gewünschte Stimmung."
+      },
+      {
+        "question": "Kann Musik im Kundenempfang auch nur für ein kurzes Zeitfenster gebucht werden?",
+        "answer": "Ja. Für exklusive Kundentermine oder einen Empfang vor einer Präsentation reichen oft gezielte kurze Sets, die den wichtigsten Moment rahmen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Live-Viola als Musik für einen Kundenempfang 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola als Musik für einen Kundenempfang 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 3: Firmenfeier-Topicseiten mit eigenem Business-Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final pruefen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Musik Kundenempfang anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Kundenempfang.",
+    "eyebrow": "Kundenempfang planen",
+    "title": "Soll euer Kundenempfang persönlicher klingen?",
+    "lead": "Schick mir Anlass, Branche, Raum und Zeitfenster. Ich melde mich mit einer Idee, die zum Kundenkontakt passt.",
     "checklist": [
-      "Musik Kundenempfang",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Kund:innen",
+      "Wartezeit",
+      "Showroom/Foyer"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Kundenempfang zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Empfang anfragen",
+    "formTitle": "Musik für Kundenempfang anfragen",
+    "formSuccess": "Danke - ich melde mich mit einem passenden Vorschlag für euren Kundenempfang."
+  },
+  "focus": {
+    "eyebrow": "Kundenreise",
+    "title": "Die Musik begleitet den Weg vom Ankommen zum Gespräch.",
+    "lead": "Beim Kundenempfang steht nicht das Eventprogramm im Mittelpunkt, sondern das Gefühl von Sorgfalt und Willkommen.",
+    "items": [
+      {
+        "time": "Willkommen",
+        "kicker": "Erster Blick",
+        "title": "Der Raum wirkt vorbereitet",
+        "text": "Live-Musik zeigt unmittelbar, dass der Empfang bewusst gestaltet ist."
+      },
+      {
+        "time": "Wartezeit",
+        "kicker": "Ruhe",
+        "title": "Warten fühlt sich kürzer an",
+        "text": "Ein dezenter Klang entspannt die Minuten, bevor Gespräche, Beratung oder Präsentation beginnen."
+      },
+      {
+        "time": "Gespräch",
+        "kicker": "Kontakt",
+        "title": "Smalltalk bleibt leicht",
+        "text": "Die Musik bleibt so dosiert, dass Kund:innen nicht gegen den Raum sprechen müssen."
+      },
+      {
+        "time": "Abschluss",
+        "kicker": "Nachklang",
+        "title": "Der Empfang endet gepflegt",
+        "text": "Ein kurzes Set zum Ausklang lässt Begegnungen runder wirken, ohne einen großen Schlussakkord zu brauchen."
+      }
+    ],
+    "footnote": "Besonders passend für Showroom, Kanzlei, Praxis, Messeabend, Partnerempfang oder exklusive Kundentermine."
   }
 }

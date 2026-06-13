@@ -6,69 +6,119 @@
   "targetKeyword": "Live Musik Taufe",
   "intentCluster": "taufen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-4-review-needed",
   "enabled": true,
-  "seoTitle": "Live Musik Taufe | Taufmusik mit Live-Viola",
-  "seoDescription": "Live Musik Taufe: Sanfte Live-Viola für Taufe, Segnung und Familienfeier. Mit Kirche und Ablauf passend abgestimmt.",
+  "seoTitle": "Live Musik Taufe | Viola statt Playlist für die Segnung",
+  "seoDescription": "Live Musik zur Taufe mit Viola: flexibel im Ablauf, persönlich im Klang und abgestimmt auf Kirche, Segnung und Familie.",
   "hero": {
-    "title": "Live Musik Taufe, persönlich geplant und live begleitet.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung und familiäre Gottesdienste. Diese Seite bündelt den Suchintent \"Live Musik Taufe\" für eine warme, persönliche Taufbegleitung."
+    "eyebrow": "Live statt abgespielt",
+    "title": "Live Musik zur Taufe, die auf den Moment reagieren kann.",
+    "lead": "Bei einer Taufe läuft selten alles exakt nach Zeitplan. Live-Viola kann warten, atmen, einen Einsatz verlängern oder leiser werden, wenn ein Kind unruhig ist oder Worte mehr Raum brauchen.",
+    "badge": "Flexibel für Gottesdienst und Segnung"
   },
   "split": {
-    "eyebrow": "Kirchliche Feier",
-    "title": "Taufmusik soll wärmen, nicht überfordern.",
-    "lede": "Bei Taufe, Segnung, Kommunion oder Konfirmation ist Musik Teil eines ruhigen, familiären Rahmens. Für live musik taufe zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Live-Charakter",
+    "title": "Der Unterschied liegt nicht nur im Klang, sondern im Reagieren.",
+    "lede": "Wer nach Live Musik zur Taufe sucht, möchte meist mehr als schöne Hintergrundmusik. Es geht um einen musikalischen Rahmen, der mit dem echten Ablauf mitschwingt und nicht starr aus der Anlage kommt.",
     "paragraphs": [
-      "Live Musik Taufe wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für die kirchliche Feier.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Familie und Gemeinde für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Als Live-Musikerin kann ich Einsätze an Blickzeichen, Worte oder Bewegungen im Raum anpassen. Das ist besonders hilfreich, wenn die Taufhandlung etwas länger dauert oder ein Übergang spontaner entsteht als geplant.",
+      "Der Klang der Viola bleibt nah und menschlich. Er wirkt feierlich, ohne dass die Taufe wie ein Konzert inszeniert wird. Gerade für Babys, Kinder und ältere Gäste ist diese weiche Präsenz angenehm.",
+      "Vorab klären wir, ob die Musik rein akustisch funktioniert oder ob eine dezente Verstärkung sinnvoll ist. In vielen Kirchen und Kapellen reicht die natürliche Akustik aus.",
+      "Live Musik kann auch nach der Feier noch einen kurzen Moment begleiten: Gratulationen, Familienfoto oder den Übergang zum Empfang bekommen dadurch eine warme Linie.",
+      "Ein weiterer Vorteil von Live-Musik ist die natürliche Länge. Ein abgespielter Track endet, auch wenn der Moment noch nicht fertig ist. Live kann ein Schluss gehalten, ein Teil wiederholt oder ein Übergang unauffällig verkürzt werden.",
+      "Gerade bei Taufen mit Kindern ist diese Beweglichkeit wertvoll. Wenn ein Baby weint, ein Pate noch nach vorn kommt oder eine Kerze nicht sofort brennt, bleibt die Musik ruhig und unterstützt den Ablauf, statt zusätzlichen Druck zu machen.",
+      "Ich plane Live-Musik deshalb nicht als Show, sondern als verlässlichen Bestandteil der Feier. Die Familie bekommt vorher klare Vorschläge, und am Tag selbst bleibt genug Spielraum für das, was in einer echten Taufe eben passieren kann."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Live Musik Taufe.",
+    "title": "FAQ zu Live Musik zur Taufe",
     "items": [
       {
-        "question": "Passt Live Musik Taufe zu die kirchliche Feier?",
-        "answer": "Ja. Live Musik Taufe wird gezielt auf die kirchliche Feier, den Raum und den Ablauf abgestimmt. für eine sanfte kirchliche oder familiäre Feier.",
+        "question": "Warum Live-Musik statt Musik vom Band?",
+        "answer": "Live-Musik kann auf Tempo, Stimmung und kleine Verzögerungen reagieren. Das ist bei familiären Feiern oft der wichtigste Vorteil.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Ist Live-Viola für eine Kirche laut genug?",
+        "answer": "In vielen Kirchen ja. Wenn der Raum groß oder sehr voll ist, kann eine dezente Verstärkung eingeplant werden."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Live Musik Taufe am Tag selbst ruhig funktioniert."
+        "question": "Kannst du spontan länger spielen?",
+        "answer": "In einem vereinbarten Rahmen ja. Gerade vor Beginn oder beim Ausklang plane ich kleine Puffer mit ein."
+      },
+      {
+        "question": "Braucht Live-Musik viel Aufbauzeit?",
+        "answer": "Nein. Für Solo-Viola ist der Aufbau überschaubar. Ich komme rechtzeitig, stimme mich ein und kläre den Platz im Raum."
+      },
+      {
+        "question": "Funktioniert das auch bei einer Taufe im Garten oder Zuhause?",
+        "answer": "Ja, wenn ein geschützter Platz vorhanden ist und Wetter, Akustik und Ablauf vorher besprochen werden."
+      },
+      {
+        "question": "Kann Live-Musik einen Ablauf retten, wenn etwas länger dauert?",
+        "answer": "Sie kann Verzögerungen weich auffangen. Natürlich ersetzt Musik keine Organisation, aber sie verhindert oft, dass kleine Pausen unangenehm wirken."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Live-Musikerin mit Viola zur Taufmusik 1"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Live-Musikerin mit Viola zur Taufmusik 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Musikerin mit Viola zur Taufmusik 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 4: Tauf-Topicseiten mit getrenntem Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Live Musik Taufe anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Live Musik Taufe.",
+    "eyebrow": "Live-Musik anfragen",
+    "title": "Soll die Taufe live begleitet werden?",
+    "lead": "Schreib mir Ort, Ablauf und ob es Wunschlieder gibt. Ich sage dir, welche Live-Einsätze für eure Taufe sinnvoll sind.",
     "checklist": [
-      "Live Musik Taufe",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Live-Viola",
+      "Ablauf mit Puffer",
+      "Wunschlied prüfen"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Live Musik Taufe zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Termin klären",
+    "formTitle": "Live Musik zur Taufe anfragen",
+    "formSuccess": "Danke - ich melde mich mit einem Vorschlag für die Live-Begleitung eurer Taufe."
+  },
+  "focus": {
+    "eyebrow": "Live-Vorteile",
+    "title": "Warum Live-Musik bei Taufen praktisch ist.",
+    "lead": "Der Ablauf bleibt menschlich. Musik kann sich anpassen, statt die Feier in ein festes Raster zu drücken.",
+    "items": [
+      {
+        "time": "Vor dem Start",
+        "kicker": "Timing",
+        "title": "Warten ohne Leerlauf",
+        "text": "Wenn Gäste später kommen oder der Beginn sich verschiebt, kann die Musik ruhig weitertragen."
+      },
+      {
+        "time": "Während Ritualen",
+        "kicker": "Reaktion",
+        "title": "Dynamik passend zum Moment",
+        "text": "Lautstärke und Tempo lassen sich an Taufhandlung, Kerze oder Segnung anpassen."
+      },
+      {
+        "time": "Bei Wunschliedern",
+        "kicker": "Arrangement",
+        "title": "Persönliche Melodien live reduziert",
+        "text": "Ein Lied aus der Familie kann so gespielt werden, dass es in den kirchlichen Rahmen passt."
+      },
+      {
+        "time": "Nach der Feier",
+        "kicker": "Ausklang",
+        "title": "Musik für Gratulationen",
+        "text": "Ein kurzer Live-Ausklang schafft Wärme, während Familie und Paten zusammenkommen."
+      }
+    ],
+    "footnote": "Die Einsätze werden vorab geplant und am Tag selbst fein auf den Ablauf abgestimmt."
   }
 }

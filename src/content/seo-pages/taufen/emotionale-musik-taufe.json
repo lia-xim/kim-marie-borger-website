@@ -6,69 +6,119 @@
   "targetKeyword": "Emotionale Musik Taufe",
   "intentCluster": "taufen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-4-review-needed",
   "enabled": true,
-  "seoTitle": "Emotionale Musik Taufe | Taufmusik mit Live-Viola",
-  "seoDescription": "emotionale Musik Taufe: Sanfte Live-Viola für Taufe, Segnung und Familienfeier. Mit Kirche und Ablauf passend abgestimmt.",
+  "seoTitle": "Emotionale Musik Taufe | Persönliche Viola für Segnung",
+  "seoDescription": "Emotionale Musik zur Taufe mit Live-Viola: persönliche Wunschlieder, warme Momente und fein geplante Einsätze für Familie und Segnung.",
   "hero": {
-    "title": "Emotionale Musik Taufe, persönlich geplant und live begleitet.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung und familiäre Gottesdienste. Diese Seite bündelt den Suchintent \"emotionale Musik Taufe\" für Familienmomente ohne Pathos."
+    "eyebrow": "Persönlicher Moment",
+    "title": "Emotionale Musik zur Taufe, ohne den Tag zu überladen.",
+    "lead": "Eine Taufe ist oft leise emotional: Eltern sehen ihr Kind, Paten stehen nah dabei, Familie hört Worte, die bleiben. Musik darf diese Nähe spürbar machen, ohne den Moment zu inszenieren.",
+    "badge": "Für Wunschlieder und Familienbezug"
   },
   "split": {
-    "eyebrow": "Kirchliche Feier",
-    "title": "Taufmusik soll wärmen, nicht überfordern.",
-    "lede": "Bei Taufe, Segnung, Kommunion oder Konfirmation ist Musik Teil eines ruhigen, familiären Rahmens. Für emotionale musik taufe zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Emotion statt Pathos",
+    "title": "Emotionale Taufmusik braucht persönliche Bedeutung.",
+    "lede": "Bei emotionaler Musik zur Taufe geht es nicht darum, möglichst traurig oder dramatisch zu klingen. Stark wird Musik, wenn sie einen Bezug zur Familie, zur Geschichte des Kindes oder zu einem bestimmten Satz im Ablauf bekommt.",
     "paragraphs": [
-      "Emotionale Musik Taufe wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für die kirchliche Feier.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Familie und Gemeinde für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Ich frage deshalb nicht nur nach Lieblingsliedern, sondern auch nach der Stelle, an der sie wirken sollen. Ein Lied nach der Segnung fühlt sich anders an als ein Lied vor Beginn oder während eines Kerzenrituals.",
+      "Die Viola bringt eine menschliche Klangfarbe mit. Sie kann ein modernes Lied so reduzieren, dass der emotionale Kern bleibt, während alles Überladene verschwindet.",
+      "Manchmal ist ein kurzes Motiv aus einem Lied genug. Manchmal darf ein ganzes Stück stehen bleiben. Entscheidend ist, dass die Musik dem Moment dient und nicht die Aufmerksamkeit von Kind und Familie wegzieht.",
+      "Wenn mehrere Familienmitglieder Ideen haben, helfe ich, daraus eine klare Auswahl zu machen, die nicht zu voll wird.",
+      "Ich achte bei emotionaler Musik besonders auf die Grenze zwischen berührend und zu viel. Ein Tauftag darf nahegehen, soll aber nicht künstlich dramatisiert werden. Diese Balance entsteht durch Länge, Tonlage und Zeitpunkt.",
+      "Wenn ein Lied für Eltern oder Großeltern wichtig ist, lässt sich dieser Bezug oft leise erzählen: nicht durch eine lange Ansage, sondern durch einen gut gesetzten musikalischen Moment, den die Familie sofort erkennt.",
+      "Emotionale Musik kann auch dann funktionieren, wenn nicht alle Gäste die Bedeutung kennen. Die Melodie trägt den Moment für die Familie, während der restliche Raum einfach eine warme, stimmige Taufmusik erlebt."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu emotionale Musik Taufe.",
+    "title": "FAQ zu emotionaler Musik zur Taufe",
     "items": [
       {
-        "question": "Passt Emotionale Musik Taufe zu die kirchliche Feier?",
-        "answer": "Ja. Emotionale Musik Taufe wird gezielt auf die kirchliche Feier, den Raum und den Ablauf abgestimmt. für eine sanfte kirchliche oder familiäre Feier.",
+        "question": "Welche Lieder eignen sich für emotionale Taufmusik?",
+        "answer": "Lieder mit klarer Melodie und persönlichem Bezug funktionieren besonders gut. Das kann klassisch, modern, geistlich oder aus der Familie vertraut sein.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Wird emotionale Musik schnell zu kitschig?",
+        "answer": "Nicht, wenn sie reduziert gespielt und gut platziert wird. Die Viola kann Nähe schaffen, ohne übertrieben zu wirken."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit emotionale Musik Taufe am Tag selbst ruhig funktioniert."
+        "question": "Kann ein Lied für die Paten eingebunden werden?",
+        "answer": "Ja. Ein kurzer Einsatz rund um Patenversprechen, Fürbitten oder Segnung kann sehr stimmig sein."
+      },
+      {
+        "question": "Wie viele persönliche Lieder sind sinnvoll?",
+        "answer": "Lieber wenige starke Stücke als viele kleine Ideen. Zwei persönliche Einsätze wirken oft klarer als ein zu voller Ablauf."
+      },
+      {
+        "question": "Kannst du aus einem Popsong eine ruhige Fassung machen?",
+        "answer": "Wenn die Melodie für Viola geeignet ist, ja. Ich wähle eine Tonart und Länge, die in den Taufrahmen passen."
+      },
+      {
+        "question": "Kann ein Lied eine Überraschung für die Familie sein?",
+        "answer": "Ja, sofern Ablauf und Rechte zur Aufführung geklärt sind. Wichtig ist, dass die Überraschung organisatorisch nicht mit der Kirche kollidiert."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Emotionale Live-Viola zur Taufe mit persönlichem Wunschlied 1"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Emotionale Live-Viola zur Taufe mit persönlichem Wunschlied 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Emotionale Live-Viola zur Taufe mit persönlichem Wunschlied 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 4: Tauf-Topicseiten mit getrenntem Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Emotionale Musik Taufe anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Emotionale Musik Taufe.",
+    "eyebrow": "Persönlich anfragen",
+    "title": "Gibt es ein Lied, das zur Taufe gehören soll?",
+    "lead": "Schick mir euren Liedwunsch und die Bedeutung dahinter. Ich prüfe, wie daraus ein stimmiger Taufmoment werden kann.",
     "checklist": [
-      "Emotionale Musik Taufe",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Wunschlied",
+      "Familienbezug",
+      "Segnung oder Ritual"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Emotionale Musik Taufe zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Liedidee senden",
+    "formTitle": "Emotionale Musik zur Taufe anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer persönlichen Idee für eure Taufmusik."
+  },
+  "focus": {
+    "eyebrow": "Persönliche Stellen",
+    "title": "Wo emotionale Musik bei einer Taufe trägt.",
+    "lead": "Emotion entsteht häufig durch den richtigen Zeitpunkt. Deshalb wird jeder Einsatz bewusst mit der Geschichte der Familie verbunden.",
+    "items": [
+      {
+        "time": "Vor Beginn",
+        "kicker": "Erinnerung",
+        "title": "Ein Lied mit Vorgeschichte",
+        "text": "Ein vertrautes Motiv kann schon beim Ankommen zeigen, dass diese Taufe persönlich gedacht ist."
+      },
+      {
+        "time": "Nach der Segnung",
+        "kicker": "Nähe",
+        "title": "Worte ausklingen lassen",
+        "text": "Direkt nach der Taufhandlung kann Musik den Blick auf Kind, Eltern und Paten sammeln."
+      },
+      {
+        "time": "Kerze oder Ritual",
+        "kicker": "Symbol",
+        "title": "Musik für ein Zeichen",
+        "text": "Wenn eine Kerze entzündet oder ein Segen gesprochen wird, kann ein kurzer Einsatz die Handlung verbinden."
+      },
+      {
+        "time": "Familienfeier",
+        "kicker": "Fortsetzung",
+        "title": "Ein warmer Ausklang",
+        "text": "Nach dem offiziellen Teil kann ein Stück die Stimmung in Gratulationen und Begegnung weitertragen."
+      }
+    ],
+    "footnote": "Persönliche Wunschlieder prüfe ich vorher auf Tonumfang, Wirkung und passende Länge für Solo-Viola."
   }
 }

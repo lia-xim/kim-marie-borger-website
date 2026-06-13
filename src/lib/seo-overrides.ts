@@ -7,6 +7,7 @@ type AnyBlock = Record<string, any>;
 export type SeoPageKind = 'local' | 'topic';
 
 export interface SeoOverrideItem {
+	time?: string;
 	kicker?: string;
 	title?: string;
 	text?: string;

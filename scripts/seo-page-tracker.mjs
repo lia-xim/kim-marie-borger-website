@@ -161,6 +161,7 @@ function imageAltStats(html) {
 	const contentImages = images.filter((image) => image.src && image.src.includes('/uploads/') && !image.decorative);
 	return {
 		imageCount: contentImages.length,
+		uniqueImageSrcCount: new Set(contentImages.map((image) => image.src).filter(Boolean)).size,
 		emptyAltCount: contentImages.filter((image) => !image.alt).length,
 		uniqueAltCount: new Set(contentImages.map((image) => image.alt).filter(Boolean)).size,
 	};
@@ -243,6 +244,7 @@ const rows = [...htmlByRoute.entries()]
 			uniqueWordCount: new Set(sourceTokens).size,
 			faqCount: faqCount(html),
 			imageCount: imageStats.imageCount,
+			uniqueImageSrcCount: imageStats.uniqueImageSrcCount,
 			emptyAltCount: imageStats.emptyAltCount,
 			uniqueAltCount: imageStats.uniqueAltCount,
 			incomingInternalLinks: incomingByRoute.get(route) ?? 0,
@@ -289,7 +291,7 @@ for (const row of rows) {
 	if (!row.cmsOverride) row.action = 'create-cms-doc';
 	else if (row.risk === 'high') row.action = 'rewrite-differentiate';
 	else if (row.faqCount < 3) row.action = 'add-faq';
-	else if (row.emptyAltCount > 0 || row.uniqueAltCount < Math.min(2, row.imageCount)) row.action = 'improve-image-alts';
+	else if (row.emptyAltCount > 0 || row.uniqueAltCount < Math.min(2, row.uniqueImageSrcCount)) row.action = 'improve-image-alts';
 	else if (row.wordCount < 650) row.action = 'expand-copy';
 	else row.action = 'ok';
 }
@@ -300,7 +302,7 @@ const columns = [
 	'service', 'page_kind', 'priority', 'risk', 'action', 'editor_status', 'cms_override',
 	'cms_override_enabled', 'slug', 'target_keyword', 'url', 'word_count', 'unique_word_count',
 	'faq_count', 'image_count', 'empty_alt_count', 'unique_alt_count', 'incoming_internal_links',
-	'linked_from_parent', 'sitemap_included', 'title_chars', 'description_chars',
+	'unique_image_src_count', 'linked_from_parent', 'sitemap_included', 'title_chars', 'description_chars',
 	'nearest_keyword_url', 'nearest_keyword_similarity', 'nearest_content_url',
 	'nearest_content_similarity', 'nearest_template_url', 'nearest_template_similarity', 'title', 'h1',
 ];
@@ -323,6 +325,7 @@ writeFileSync(
 		unique_word_count: row.uniqueWordCount,
 		faq_count: row.faqCount,
 		image_count: row.imageCount,
+		unique_image_src_count: row.uniqueImageSrcCount,
 		empty_alt_count: row.emptyAltCount,
 		unique_alt_count: row.uniqueAltCount,
 		incoming_internal_links: row.incomingInternalLinks,
@@ -344,6 +347,19 @@ writeFileSync(
 const byKind = [...groupBy(rows, (row) => row.pageKind).entries()];
 const byAction = [...groupBy(rows, (row) => row.action).entries()].sort(([a], [b]) => a.localeCompare(b));
 const byRisk = [...groupBy(rows, (row) => row.risk).entries()].sort(([a], [b]) => a.localeCompare(b));
+const byServiceProgress = [...groupBy(rows, (row) => row.service).entries()]
+	.sort(([a], [b]) => a.localeCompare(b))
+	.map(([service, group]) => {
+		const rewritten = group.filter((row) => row.editorStatus?.startsWith('rewritten-')).length;
+		return {
+			service,
+			total: group.length,
+			rewritten,
+			high: group.filter((row) => row.risk === 'high').length,
+			medium: group.filter((row) => row.risk === 'medium').length,
+			low: group.filter((row) => row.risk === 'low').length,
+		};
+	});
 const backlog = rows
 	.filter((row) => row.action !== 'ok')
 	.sort((a, b) => {
@@ -372,6 +388,12 @@ ${byKind.map(([kind, group]) => `| ${kind} | ${group.length} |`).join('\n')}
 | Durchschnitt Keyword-Nahe | ${formatPercent(average(rows.map((row) => row.nearestKeywordSimilarity)))} |
 | Durchschnitt Content-Aehnlichkeit | ${formatPercent(average(rows.map((row) => row.nearestContentSimilarity)))} |
 | Durchschnitt Template-Aehnlichkeit | ${formatPercent(average(rows.map((row) => row.nearestTemplateSimilarity)))} |
+
+## Fortschritt nach Kategorie
+
+| Kategorie | Gesamt | Umgeschrieben | Fortschritt | High | Medium | Low |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+${byServiceProgress.map((row) => `| ${row.service} | ${row.total} | ${row.rewritten} | ${formatPercent(row.rewritten / row.total)} | ${row.high} | ${row.medium} | ${row.low} |`).join('\n')}
 
 ## Risk
 
