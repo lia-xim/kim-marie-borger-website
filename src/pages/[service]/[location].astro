@@ -1,0 +1,49 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageBody from '../../components/islands/PageBody.astro';
+import LocalLinks from '../../components/LocalLinks.astro';
+import { getConfig, getPage } from '../../lib/data';
+import { firstBlockImage } from '../../lib/seo';
+import {
+	buildLocalSeoPage,
+	getLocalSeoPage,
+	getLocalSeoPages,
+	localSeoJsonLd,
+} from '../../lib/local-seo';
+
+export async function getStaticPaths() {
+	return getLocalSeoPages().map((page) => ({
+		params: {
+			service: page.service.slug,
+			location: page.location.slug,
+		},
+		props: {
+			serviceSlug: page.service.slug,
+			locationSlug: page.location.slug,
+		},
+	}));
+}
+
+const { serviceSlug, locationSlug } = Astro.props;
+const localPage = getLocalSeoPage(serviceSlug, locationSlug);
+if (!localPage) return new Response('Not Found', { status: 404 });
+
+const page = await getPage(localPage.service.baseSlug);
+const baseData = page.data?.page;
+if (!baseData) return new Response('Not Found', { status: 404 });
+
+const data = buildLocalSeoPage(localPage, baseData);
+const config = (await getConfig()).data?.config ?? null;
+const jsonLd = localSeoJsonLd(Astro.site ?? new URL(Astro.url.origin), localPage);
+---
+
+<Base
+	title={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
+	description={data.seoDescription || config?.seo?.description || ''}
+	image={firstBlockImage(data)}
+	bodyClass={data.bodyClass ?? undefined}
+>
+	<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+	<PageBody data={data} />
+	<LocalLinks serviceSlug={localPage.service.slug} currentLocationSlug={localPage.location.slug} />
+</Base>

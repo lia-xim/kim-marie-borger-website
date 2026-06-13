@@ -2,9 +2,11 @@
 import Base from '../layouts/Base.astro';
 import TinaIsland from '@tinacms/astro/TinaIsland.astro';
 import PageBody from '../components/islands/PageBody.astro';
+import LocalLinks from '../components/LocalLinks.astro';
 import { getConfig, getPage, listPages } from '../lib/data';
 import { islands } from '../lib/islands';
 import { firstBlockImage, subpageJsonLd } from '../lib/seo';
+import { hasLocalService } from '../lib/local-seo';
 
 export async function getStaticPaths() {
 	const pages = await listPages();
@@ -33,4 +35,5 @@ const jsonLd = subpageJsonLd(Astro.site ?? new URL(Astro.url.origin), slug, brea
 	<TinaIsland name="page" wrapper={islands.page.wrapper} params={{ slug }} primary>
 		<PageBody data={data} />
 	</TinaIsland>
+	{hasLocalService(slug) && <LocalLinks serviceSlug={slug} />}
 </Base>
