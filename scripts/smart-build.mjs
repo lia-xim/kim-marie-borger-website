@@ -1,41 +1,39 @@
 /**
  * Vercel build entry. Picks the right Tina build mode automatically:
- *  - PUBLIC_TINA_CLIENT_ID + TINA_TOKEN set  → cloud build: /admin works in
+ *  - PUBLIC_TINA_CLIENT_ID + TINA_TOKEN set -> cloud build: /admin works in
  *    production, editors log in via Tina Cloud.
- *  - otherwise                               → local-content build: the site
+ *  - otherwise                             -> local-content build: the site
  *    deploys fully from the repo content; /admin is not functional yet.
- * So connecting the CMS later is just: set the two env vars and redeploy.
  */
 import { execSync } from 'node:child_process';
 
-// Bild-Manifest (Maße für width/height/srcset) vor dem Build aktualisieren,
-// damit auch frisch über das CMS hochgeladene Bilder erfasst sind.
+// Update the image manifest before the Astro build so freshly uploaded CMS
+// images have width/height/srcset metadata.
 execSync('node scripts/image-manifest.mjs', { stdio: 'inherit', shell: true });
 
 const hasCloud = Boolean(process.env.PUBLIC_TINA_CLIENT_ID && process.env.TINA_TOKEN);
 
 const localCmd = 'npx tinacms build --local --skip-cloud-checks -c "npx astro build"';
 const cloudCmd = 'npx tinacms build --content=local && npx astro build';
-const cloudFallbackCmd = 'npx tinacms build --content=local --skip-cloud-checks && npx astro build';
 const cmd = hasCloud ? cloudCmd : localCmd;
 
 console.log(`[smart-build] Tina mode: ${hasCloud ? 'CLOUD (admin enabled)' : 'LOCAL (set PUBLIC_TINA_CLIENT_ID + TINA_TOKEN to enable /admin)'}`);
 
-// Nach einem Schema-Push indexiert Tina Cloud den Commit asynchron — der
-// Cloud-Check kann das Rennen verlieren. Bis zu 3 Versuche mit Wartezeit.
-const ATTEMPTS = hasCloud ? 3 : 1;
+// Tina Cloud indexes schema commits asynchronously. Deploying /admin with
+// --skip-cloud-checks can publish a UI that talks to a different GraphQL schema
+// and then shows "GraphQL Schema Mismatch". In cloud mode, wait longer and fail
+// the deploy instead of publishing a broken CMS admin.
+const ATTEMPTS = hasCloud ? 6 : 1;
+
 for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
 	try {
 		execSync(cmd, { stdio: 'inherit', shell: true });
 		break;
 	} catch (err) {
 		if (attempt === ATTEMPTS) {
-			if (!hasCloud) throw err;
-			console.log(`[smart-build] Tina Cloud checks failed after ${ATTEMPTS} attempts; building from local repo content with --skip-cloud-checks so Vercel can publish the site.`);
-			execSync(cloudFallbackCmd, { stdio: 'inherit', shell: true });
-			break;
+			throw err;
 		}
-		console.log(`[smart-build] Versuch ${attempt} fehlgeschlagen — warte 45 s auf Tina-Cloud-Indexierung und versuche erneut …`);
-		execSync(process.platform === 'win32' ? 'timeout /t 45 /nobreak >nul' : 'sleep 45', { stdio: 'ignore', shell: true });
+		console.log(`[smart-build] Versuch ${attempt} fehlgeschlagen - warte 60 s auf Tina-Cloud-Indexierung und versuche erneut ...`);
+		execSync(process.platform === 'win32' ? 'timeout /t 60 /nobreak >nul' : 'sleep 60', { stdio: 'ignore', shell: true });
 	}
 }
