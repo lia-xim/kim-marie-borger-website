@@ -3,71 +3,123 @@
   "serviceSlug": "geburtstage",
   "pageSlug": "private-feier",
   "route": "/geburtstage/private-feier/",
-  "targetKeyword": "Musik für private Feier",
+  "targetKeyword": "Musik private Feier",
   "intentCluster": "geburtstage:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-5-review-needed",
   "enabled": true,
-  "seoTitle": "Musik für private Feier | Live-Viola für Geburtstag & Familienfeier",
-  "seoDescription": "Live Musik für private Feiern, Familienfeiern, Gartenfeste und Geburtstage: Solo-Viola für Empfang, Dinner und persönliche Momente.",
+  "seoTitle": "Musik Private Feier | Live-Viola Geburtstag",
+  "seoDescription": "Musik private Feier: Solo-Viola für private Geburtstage, Empfang, Dinner oder Überraschung. Persönlich und dezent geplant.",
   "hero": {
-    "title": "Musik für private Feiern, die persönlich klingt.",
-    "lead": "Live-Viola für Geburtstag, Familienfeier, Gartenfest, Empfang oder Dinner - dezent, warm und nah am Anlass."
+    "eyebrow": "Private Feier",
+    "title": "Musik für private Feiern, die Nähe schafft, ohne den Abend zu dominieren.",
+    "lead": "Für private Geburtstage, kleine Jubiläen und familiäre Treffen: Ich plane Solo-Viola so, dass sie in Wohnzimmer, Garten, Restaurant oder kleiner Saal funktioniert und Gespräche, Begrüßung und persönliche Momente musikalisch unterstützt.",
+    "badge": "Geburtstag persönlich begleiten"
   },
   "split": {
-    "eyebrow": "Formate",
-    "title": "Nicht lauter, sondern besonderer.",
-    "lede": "Bei privaten Feiern soll Musik Menschen zusammenbringen, ohne Gespräche zu überdecken. Solo-Viola schafft genau diesen Rahmen.",
+    "eyebrow": "Suchintention",
+    "title": "Musik Private Feier braucht eine andere Planung als allgemeine Partymusik.",
+    "lede": "Wer nach Musik private Feier sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
     "paragraphs": [
-      "Möglich sind kurze musikalische Momente, Empfangsmusik, dezente Begleitung zum Essen oder ein persönliches Lieblingslied als Überraschung.",
-      "Die Musik wird auf Raum, Gäste, Tageszeit und Stimmung abgestimmt - vom Gartenfest bis zur Familienfeier im Restaurant."
+      "Der wichtigste Unterschied liegt im Maß: Die Musik soll den Anlass nicht künstlich vergrößern. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
+      "Für private Geburtstage, kleine Jubiläen und familiäre Treffen eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
+      "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
+      "die Musik bekommt klare Einsätze statt Dauerbeschallung. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
+      "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif.",
+      "Diese Seite ist bewusst auf Musik private Feier zugeschnitten. Andere Geburtstagsseiten behandeln zum Beispiel Gartenfeier, Dinner, Sektempfang oder musikalisches Geschenk mit eigener Dramaturgie.",
+      "Praktisch bedeutet das: Für Musik private Feier bespreche ich nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei private Geburtstage, kleine Jubiläen und familiäre Treffen macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
+      "Auch die Länge wird passend zum Suchintent gewählt. In Wohnzimmer, Garten, Restaurant oder kleiner Saal reicht manchmal ein präziser musikalischer Impuls; bei Gespräche, Begrüßung und persönliche Momente sind mehrere kurze Einsätze sinnvoller, weil die Musik dann wieder Raum für Begegnung lässt."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik für private Feier.",
+    "title": "FAQ zu Musik private Feier",
     "items": [
       {
-        "question": "Welche Musik passt zu einer privaten Feier?",
-        "answer": "Je nach Anlass passen klassische Stücke, moderne Arrangements, Filmmusik oder ein persönliches Lieblingslied.",
+        "question": "Für welche Geburtstage passt Musik private Feier?",
+        "answer": "Musik private Feier passt besonders zu private Geburtstage, kleine Jubiläen und familiäre Treffen. Wichtig ist, dass der musikalische Moment zum Menschen und nicht nur zum Anlass passt.",
         "open": true
       },
       {
-        "question": "Ist die Musik eher Hintergrundmusik oder Programmpunkt?",
-        "answer": "Beides ist möglich. Die Viola kann dezent im Hintergrund spielen oder als kurzer besonderer Moment auftreten."
+        "question": "Kann ein Lieblingslied eingebunden werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage gegebenenfalls einen passenden Ausschnitt vor."
       },
       {
-        "question": "Spielst du auch bei Gartenfesten?",
-        "answer": "Ja, wenn Wetter und Platz für das Instrument geeignet sind. Ein geschützter, schattiger Ort ist ideal."
+        "question": "Wie lang sollte die Musik dauern?",
+        "answer": "Für ein Geschenk reichen oft wenige Stücke. Für Empfang, Dinner oder Hintergrundmusik sind mehrere kurze Sets sinnvoller als ein langer Block."
+      },
+      {
+        "question": "Ist die Musik auch im kleinen privaten Rahmen passend?",
+        "answer": "Ja. Gerade in Wohnzimmer, Garten, Restaurant oder kleiner Saal funktioniert Solo-Viola gut, weil der Klang nah bleibt und keine große Bühne braucht."
+      },
+      {
+        "question": "Wie wird der Ablauf abgestimmt?",
+        "answer": "Wir klären Startsignal, Platz im Raum, gewünschte Stimmung und mögliche Pausen. So bleibt Musik private Feier am Tag selbst entspannt."
+      },
+      {
+        "question": "Kann die Musik draußen gespielt werden?",
+        "answer": "Ja, wenn ein geschützter Platz vorhanden ist. Für Garten oder Terrasse besprechen wir Schatten, Wetteroption und Abstand zu Gesprächen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
-      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+      "alt": "Live-Viola für Musik private Feier 1"
     },
     {
       "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
-      "alt": "Porträt von Kim Marie Borger mit ihrer Viola"
+      "alt": "Live-Viola für Musik private Feier 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola für Musik private Feier 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 5: Geburtstagsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Musik für private Feier anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik für private Feier.",
+    "eyebrow": "Geburtstagsmusik planen",
+    "title": "Musik Private Feier anfragen",
+    "lead": "Schick mir Anlass, Ort, Gästezahl und den gewünschten musikalischen Moment. Ich melde mich mit einer passenden Idee für Musik private Feier.",
     "checklist": [
-      "Musik für private Feier",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Musik private Feier",
+      "Geburtstag",
+      "Ablauf & Wunschlied"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik für private Feier zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Musik Private Feier anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer passenden Idee für Musik private Feier."
+  },
+  "focus": {
+    "eyebrow": "Planung",
+    "title": "Typische Einsatzpunkte für Musik private Feier.",
+    "lead": "Nicht jeder Geburtstag braucht dieselbe musikalische Länge. Entscheidend ist, welche Aufgabe die Musik übernehmen soll.",
+    "items": [
+      {
+        "time": "Vor Beginn",
+        "kicker": "Ankommen",
+        "title": "Den Raum öffnen",
+        "text": "Ein erstes Set schafft Atmosphäre, während Gäste eintreffen und noch nicht alle Gespräche sortiert sind."
+      },
+      {
+        "time": "Hauptmoment",
+        "kicker": "Persönlich",
+        "title": "Ein Stück mit Bedeutung",
+        "text": "Ein Wunschlied oder eine vertraute Melodie macht Musik private Feier besonders, ohne viele Worte zu brauchen."
+      },
+      {
+        "time": "Während der Feier",
+        "kicker": "Begleitung",
+        "title": "Musik als ruhiger Rahmen",
+        "text": "Kurze Sets können Gratulationen, Essen oder lockere Begegnungen tragen, ohne die Feier anzuhalten."
+      },
+      {
+        "time": "Nach einer Rede",
+        "kicker": "Übergang",
+        "title": "Worte nachklingen lassen",
+        "text": "Nach Toast, Rede oder Geschenk kann Musik den Moment lösen und den nächsten Teil des Geburtstags öffnen."
+      }
+    ],
+    "footnote": "Die konkrete Länge richtet sich nach Raum, Gästezahl, Anlass und gewünschter Wirkung."
   }
 }

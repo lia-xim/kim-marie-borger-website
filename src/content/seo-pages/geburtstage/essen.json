@@ -6,71 +6,119 @@
   "targetKeyword": "Live Musik Geburtstag Essen",
   "intentCluster": "geburtstage:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-5-review-needed",
   "enabled": true,
-  "seoTitle": "Live Musik Geburtstag Essen | Viola für private Feiern",
-  "seoDescription": "Live Musik zum Geburtstag in Essen: Viola für private Feiern, Gartenfeste, Sektempfang, Dinner und musikalische Überraschungen.",
+  "seoTitle": "Live Musik Geburtstag Essen | Live-Viola",
+  "seoDescription": "Live Musik Geburtstag Essen: Solo-Viola für Geburtstag, Dinner, Empfang und Überraschung in Essen. Persönlich geplant.",
   "hero": {
-    "title": "Live Musik zum Geburtstag in Essen.",
-    "lead": "Solo-Viola für Geburtstage, Gartenfeste, private Feiern, Sektempfang, Dinner und musikalische Überraschungen in Essen."
+    "eyebrow": "Geburtstag in Essen",
+    "title": "Live Musik zum Geburtstag in Essen, die persönlich bleibt.",
+    "lead": "Ob als ruhige Begleitung beim Ankommen, beim Dinner oder als Geschenk: Ich begleite Geburtstage in Essen mit Solo-Viola, abgestimmt auf Raum, Gäste und den richtigen Moment.",
+    "badge": "Für private Feiern in Essen"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Ein Fest in Essen, das persönlich klingt.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Geburtstagsmusik in Essen muss zum Ort und zur Feier passen.",
+    "lede": "In Essen entstehen Geburtstage sehr unterschiedlich: Rüttenscheid, Baldeneysee und private Feiern im zentralen Ruhrgebiet. Deshalb plane ich Live-Musik nicht pauschal, sondern nach Anlass, Raumgröße und gewünschter Nähe.",
     "paragraphs": [
-      "Ob zwischen Baldeneysee, Villa Hügel, Rüttenscheid und urbanen Orten im Ruhrgebiet: Live-Musik macht einen Geburtstag sofort persönlicher. Die Viola kann festlich empfangen, ein Lieblingslied als Überraschung spielen oder ein Dinner warm begleiten.",
-      "Ich plane mit euch, ob die Musik offen angekündigt wird oder als musikalisches Geburtstagsgeschenk beginnt. Vom kurzen Ständchen bis zu mehreren Sets über den Abend ist alles möglich."
+      "Typische Orte sind Empfang, Dinnermusik oder Überraschungsmoment in Restaurant und Zuhause. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Ankommen, für ein Wunschlied, als Übergang zum Essen oder als kurzer emotionaler Mittelpunkt.",
+      "Vorab klären wir, ob die Musik angekündigt wird oder als Überraschung beginnt. Wenn der Geburtstag lebendig und gesprächig ist, bleibt die Musik eher leicht. Wenn ein besonderer Moment geplant ist, darf ein Stück kurz mehr Aufmerksamkeit bekommen.",
+      "Für Essen kläre ich vorab auch die praktischen Details: bei großen Stadtwegen genug Zeit für Ankunft, Stimmen und Soundcheck lassen. So bleibt am Tag selbst genug Ruhe für Stimmung, Aufbau und den ersten Ton.",
+      "Das Repertoire kann ruhige Lieblingsstücke, Filmmusik und festliche Instrumentalmusik verbinden. Entscheidend ist nicht, möglichst viele Stile abzudecken, sondern die Musik an die Person anzupassen, die gefeiert wird.",
+      "Gerade bei privaten Geburtstagen zählt der Moment mehr als Lautstärke. Deshalb arbeite ich mit klaren Zeichen, passenden Pausen und einer Lautstärke, die Glückwünsche und Gespräche respektiert.",
+      "Wenn mehrere Generationen dabei sind, hilft ein ausgewogener Bogen: etwas Vertrautes für die Familie, ein modernes Stück für die persönliche Note und ein ruhiger Ausklang, wenn der offizielle Moment vorbei ist.",
+      "Zusätzlich bespreche ich, wie sichtbar die Musik sein soll. Manche Feiern wünschen einen kleinen Mittelpunkt, andere nur einen besonderen Klang im Hintergrund. Beides funktioniert, wenn Einsatz, Position im Raum und Erwartung der Gäste vorher klar sind."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Live Musik zum Geburtstag in Essen.",
+    "title": "FAQ zu Live Musik zum Geburtstag in Essen",
     "items": [
       {
         "question": "Spielst du auf Geburtstagen in Essen?",
-        "answer": "Ja. Ich begleite Geburtstage und private Feiern in Essen mit Solo-Viola - vom kurzen Ständchen bis zur längeren Empfangs- oder Dinnermusik.",
+        "answer": "Ja. Ich begleite Geburtstage und private Feiern in Essen mit Solo-Viola, vom kurzen Wunschlied bis zur längeren Empfangs- oder Dinnermusik.",
         "open": true
       },
       {
         "question": "Kann die Musik eine Überraschung sein?",
-        "answer": "Ja. Ankunft, Einsatz und erstes Stück stimme ich diskret mit einer Vertrauensperson ab."
+        "answer": "Ja. Gerade in Essen plane ich dafür Ankunft, erstes Stück und Blickzeichen diskret mit einer Vertrauensperson, damit nichts vorab auffällt."
       },
       {
-        "question": "Welche Musik passt zu einer privaten Feier?",
-        "answer": "Festliche Klassik, moderne Arrangements, Filmmusik oder das Lieblingslied des Geburtstagskinds - je nachdem, welcher Moment entstehen soll."
+        "question": "Welche Musik passt zu einer Geburtstagsfeier?",
+        "answer": "Das hängt von Person und Moment ab. Möglich sind ruhige Lieblingsstücke, Filmmusik und festliche Instrumentalmusik; am Ende zählt, was zum Geburtstagskind und zur Runde passt."
       },
       {
-        "question": "Spielst du auch draußen?",
-        "answer": "Bei trockenem Wetter sehr gern. Ein schattiger Platz, ein Stuhl und genug Ruhe für das Instrument reichen meistens aus."
+        "question": "Ist Musik draußen möglich?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Bei Empfang, Dinnermusik oder Überraschungsmoment in Restaurant und Zuhause klären wir am besten auch eine Innenoption."
+      },
+      {
+        "question": "Wie lange sollte die Musik dauern?",
+        "answer": "Für eine Überraschung reichen oft ein bis drei Stücke. Für Empfang oder Dinner sind mehrere kurze Sets meist angenehmer als ein langer Block."
+      },
+      {
+        "question": "Was brauchst du vor Ort?",
+        "answer": "Einen sicheren Platz, Licht, etwas Ruhe zum Stimmen und die Info, wann der erste Einsatz geplant ist. Außerdem berücksichtige ich: bei großen Stadtwegen genug Zeit für Ankunft, Stimmen und Soundcheck lassen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
-      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+      "alt": "Live-Viola als Geburtstagsmusik in Essen 1"
     },
     {
       "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
-      "alt": "Porträt von Kim Marie Borger mit ihrer Viola"
+      "alt": "Live-Viola als Geburtstagsmusik in Essen 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola als Geburtstagsmusik in Essen 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 5: Geburtstagsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Live Musik Geburtstag Essen anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Live Musik Geburtstag Essen.",
+    "eyebrow": "Geburtstag anfragen",
+    "title": "Live Musik zum Geburtstag in Essen anfragen",
+    "lead": "Schick mir Datum, Ort in Essen, Gästezahl und ob es ein Wunschlied oder eine Überraschung geben soll. Ich melde mich mit einer passenden musikalischen Idee.",
     "checklist": [
-      "Live Musik Geburtstag Essen",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Essen",
+      "Geburtstag",
+      "Wunschlied oder Ablauf"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Live Musik Geburtstag Essen zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Details senden",
+    "formTitle": "Geburtstagsmusik in Essen anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für eure Geburtstagsmusik in Essen."
+  },
+  "focus": {
+    "eyebrow": "Ablaufideen",
+    "title": "So kann Live-Musik in Essen eingebunden werden.",
+    "lead": "Die genaue Dramaturgie richtet sich nach Gastgeber:in, Location und Gästekreis. Diese vier Varianten funktionieren bei Geburtstagen besonders häufig.",
+    "items": [
+      {
+        "time": "Ankommen",
+        "kicker": "Empfang",
+        "title": "Musik, wenn Gäste in Essen eintreffen",
+        "text": "Ein leichtes Set nimmt Unruhe aus dem Beginn und gibt dem Raum sofort eine besondere, aber nicht steife Stimmung."
+      },
+      {
+        "time": "Überraschung",
+        "kicker": "Wunschlied",
+        "title": "Ein persönliches Stück für das Geburtstagskind",
+        "text": "Der Einsatz wird diskret mit einer Kontaktperson abgesprochen, damit die Überraschung natürlich und nicht inszeniert wirkt."
+      },
+      {
+        "time": "Dinner",
+        "kicker": "Begleitung",
+        "title": "Dezente Musik zwischen Gesprächen",
+        "text": "Kurze Sets zwischen Gängen, Reden oder Toasts geben dem Essen einen feierlichen Rahmen, ohne Tischgespräche zu stören."
+      },
+      {
+        "time": "Ausklang",
+        "kicker": "Übergang",
+        "title": "Ein ruhiger Schluss für den offiziellen Teil",
+        "text": "Nach Gratulationen oder einer kleinen Rede kann ein Stück den Moment abrunden und die Feier offen weiterlaufen lassen."
+      }
+    ],
+    "footnote": "Für Feiern in Essen stimme ich Setlänge, Ort im Raum und Lautstärke vorher konkret ab."
   }
 }

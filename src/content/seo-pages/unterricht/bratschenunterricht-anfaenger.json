@@ -6,65 +6,118 @@
   "targetKeyword": "Bratschenunterricht Anfänger",
   "intentCluster": "unterricht:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-6-review-needed",
   "enabled": true,
-  "seoTitle": "Bratschenunterricht Anfänger | Bratschen- und Violaunterricht",
-  "seoDescription": "Bratschenunterricht Anfänger: Bratschen- und Violaunterricht mit ruhigem Aufbau, Probestunde und persönlichem Lernplan.",
+  "seoTitle": "Bratschenunterricht AnfäNger | Viola lernen",
+  "seoDescription": "Bratschenunterricht AnfäNger: Unterricht für Viola oder Bratsche mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
   "hero": {
-    "title": "Bratschenunterricht Anfänger, persönlich geplant und live begleitet.",
-    "lead": "Bratschen- und Violaunterricht mit Ruhe, Struktur und musikalischer Neugier. Diese Seite bündelt den Suchintent \"Bratschenunterricht Anfänger\" für Grundlagen ohne Druck."
+    "eyebrow": "Erster Ton",
+    "title": "Bratschenunterricht für Anfänger:innen, der ruhig beginnt und trotzdem trägt.",
+    "lead": "Bratschenunterricht AnfäNger richtet sich an Menschen ohne Vorerfahrung oder mit sehr lange zurückliegendem Musikunterricht. Der Unterricht verbindet geduldige Technik, musikalische Neugier und Aufgaben, die zwischen den Stunden wirklich funktionieren.",
+    "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Lernen",
-    "title": "Guter Unterricht macht Klang verständlich.",
-    "lede": "Bratsche und Viola brauchen Geduld, Körpergefühl und einen Aufbau, der zum Menschen passt. Für bratschenunterricht anfänger zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Unterricht mit klarem Fokus",
+    "title": "Bratschenunterricht AnfäNger heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
+    "lede": "Wer nach Bratschenunterricht Anfänger sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht einen Einstieg, der verständlich ist und keine musikalische Vorkenntnis voraussetzt. Diese Seite fokussiert den Anfang: Instrument halten, Bogen führen, Töne finden, Noten lesen und kleine Erfolgserlebnisse sammeln.",
     "paragraphs": [
-      "Bratschenunterricht Anfänger wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für den Unterricht.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Schüler:innen für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
-    ]
+      "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
+      "Am Anfang sind wenige saubere Schritte besser als viele Informationen auf einmal.",
+      "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
+      "Die ersten Stücke bleiben kurz, klingen aber musikalisch und zeigen direkt, wofür die Technik gebraucht wird.",
+      "Gerade Anfänger:innen brauchen einen Übeplan, der klein genug ist, um im Alltag wirklich stattzufinden.",
+      "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
+      "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
+      "Gerade bei Bratschenunterricht Anfänger ist wichtig, den Suchintent sauber zu treffen: Es geht um Lernen, nicht um einen Auftritt. Deshalb stehen Lernstand, Probestunde, Instrumentenwahl, Übungsrhythmus und Fortschritt im Vordergrund.",
+      "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt."
+    ],
+    "seal": "Erster Ton\nKlang & Technik\npersönlich"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Bratschenunterricht Anfänger.",
+    "title": "FAQ zu Bratschenunterricht AnfäNger",
     "items": [
       {
-        "question": "Passt Bratschenunterricht Anfänger zu den Unterricht?",
-        "answer": "Ja. Bratschenunterricht Anfänger wird gezielt auf den Unterricht, den Raum und den Ablauf abgestimmt. für individuellen Unterricht mit klarer Struktur.",
+        "question": "Für wen passt Bratschenunterricht Anfänger?",
+        "answer": "Bratschenunterricht AnfäNger passt für Menschen ohne Vorerfahrung oder mit sehr lange zurückliegendem Musikunterricht. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Im Unterricht können Wunschstücke einbezogen werden, wenn sie zum aktuellen Lernstand passen oder sinnvoll vorbereitet werden."
+        "question": "Gibt es eine kostenlose Probestunde?",
+        "answer": "Ja. In der Probestunde schauen wir gemeinsam auf Instrument, Vorerfahrung, Ziele und die Frage, welcher Unterrichtsrhythmus realistisch ist."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Bratschenunterricht Anfänger am Tag selbst ruhig funktioniert."
+        "question": "Muss ich schon Noten lesen können?",
+        "answer": "Nein. Notenlesen kann Teil des Unterrichts sein und wird direkt mit dem Spielen verbunden, damit Theorie nicht losgelöst vom Instrument bleibt."
+      },
+      {
+        "question": "Kann ich als Erwachsene:r noch anfangen?",
+        "answer": "Ja. Erwachsene lernen oft sehr bewusst. Wichtig ist ein Übeplan, der in den Alltag passt und nicht mit unrealistischen Erwartungen beginnt."
+      },
+      {
+        "question": "Ist Unterricht auch für Kinder möglich?",
+        "answer": "Ja, wenn Instrumentengröße, Konzentrationsspanne und Aufgaben gut gewählt sind. Bei Kindern beziehe ich die Eltern mit ein, ohne das Üben zu Hause zu kompliziert zu machen."
+      },
+      {
+        "question": "Welche Musik wird im Unterricht gespielt?",
+        "answer": "Das hängt von Lernstand und Ziel ab. Klassische Grundlagen, kleine Melodien, Etüden, Filmmusik oder persönliche Wünsche können sinnvoll kombiniert werden."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Streichinstrument, Nahaufnahme"
+      "alt": "Bratschenunterricht AnfäNger mit Viola und Bratsche 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Bratschenunterricht AnfäNger mit Viola und Bratsche 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Bratschenunterricht Anfänger anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Bratschenunterricht Anfänger.",
+    "eyebrow": "Unterricht anfragen",
+    "title": "Bratschenunterricht AnfäNger anfragen",
+    "lead": "Schreib mir kurz, ob du neu anfängst, wieder einsteigst oder für ein Kind suchst. Dann kann ich einschätzen, wie Bratschenunterricht Anfänger sinnvoll beginnen kann.",
     "checklist": [
       "Bratschenunterricht Anfänger",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Lernstand",
+      "Probestunde"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Bratschenunterricht Anfänger zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Bratschenunterricht Anfänger zu dir?",
+    "formSuccess": "Danke - ich melde mich persönlich mit einer Idee für Bratschenunterricht Anfänger."
+  },
+  "focus": {
+    "eyebrow": "Lernbereiche",
+    "title": "Was bei Bratschenunterricht AnfäNger konkret aufgebaut wird.",
+    "lead": "Die Gewichtung verändert sich je nach Person. Damit der Unterricht greifbar bleibt, arbeiten wir mit klaren Bausteinen.",
+    "items": [
+      {
+        "time": "Körper",
+        "kicker": "Haltung",
+        "title": "Entspannt spielen statt gegen das Instrument arbeiten",
+        "text": "Eine gute Haltung macht den Klang freier und verhindert, dass Üben unnötig anstrengend wird."
+      },
+      {
+        "time": "Bogen",
+        "kicker": "Ton",
+        "title": "Klang bewusst formen",
+        "text": "Bogenkontakt, Geschwindigkeit und Gewicht werden so erklärt, dass du den Unterschied hören und wiederholen kannst."
+      },
+      {
+        "time": "Musik",
+        "kicker": "Stücke",
+        "title": "Übungen in echte Musik übertragen",
+        "text": "Jede Technik bekommt eine musikalische Anwendung, damit Fortschritt nicht nur im Übeheft stattfindet."
+      },
+      {
+        "time": "Alltag",
+        "kicker": "Üben",
+        "title": "Kleine Aufgaben mit klarer Wirkung",
+        "text": "Zu Hause geht es um wenige Prioritäten, die du verstehst und regelmäßig umsetzen kannst."
+      }
+    ],
+    "footnote": "Bratschenunterricht AnfäNger wird je nach Alter, Vorerfahrung und Ziel individuell geplant."
   }
 }

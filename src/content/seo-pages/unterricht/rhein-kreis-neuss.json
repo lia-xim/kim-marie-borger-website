@@ -6,67 +6,120 @@
   "targetKeyword": "Bratschenunterricht Rhein-Kreis Neuss",
   "intentCluster": "unterricht:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-6-review-needed",
   "enabled": true,
   "seoTitle": "Bratschenunterricht Rhein-Kreis Neuss | Viola lernen",
-  "seoDescription": "Bratschenunterricht im Rhein-Kreis Neuss: individueller Viola- und Musikunterricht für Anfänger, Kinder, Erwachsene und Fortgeschrittene.",
+  "seoDescription": "Bratschenunterricht Rhein-Kreis Neuss: Viola- und Bratschenunterricht für Kinder, Erwachsene und Anfänger:innen mit Probestunde und klarem Übeplan.",
   "hero": {
-    "title": "Bratschenunterricht im Rhein-Kreis Neuss mit Ruhe & Struktur.",
-    "lead": "Viola lernen für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene im Rhein-Kreis Neuss - mit geduldigem Aufbau und kostenloser Probestunde."
+    "eyebrow": "Unterricht in Rhein-Kreis Neuss",
+    "title": "Bratschenunterricht in Rhein-Kreis Neuss, der ruhig aufbaut und wirklich in deinen Alltag passt.",
+    "lead": "Ob erster Ton, Wiedereinstieg oder neues Ziel: In Rhein-Kreis Neuss begleite ich dich mit Viola- und Bratschenunterricht, der Technik, Klang und Üben verständlich macht.",
+    "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Viola lernen im Rhein-Kreis Neuss, ohne Druck.",
+    "eyebrow": "Lernrahmen",
+    "title": "Viola lernen in Rhein-Kreis Neuss braucht Struktur, Geduld und einen realistischen Wochenrhythmus.",
+    "lede": "Bratschenunterricht in Rhein-Kreis Neuss ist für mich kein Schema, das auf jede Person gleich gelegt wird. Rhein-Kreis Neuss bedeutet hier: Neuss, Meerbusch, Dormagen, Grevenbroich und die Rheinorte dazwischen. Genau deshalb klären wir zuerst Lernstand, Ziel, Alltag und die Frage, wie Unterricht regelmäßig funktionieren kann.",
     "paragraphs": [
-      "Ob rund um Neuss, Dormagen, Meerbusch, Kaarst, Grevenbroich und den Rhein: Bratschenunterricht funktioniert dann gut, wenn Haltung, Bogenführung, Klang und Üben von Anfang an verständlich aufgebaut werden. Genau darauf liegt der Fokus.",
-      "Der Unterricht richtet sich an Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene. Wir arbeiten in deinem Tempo, mit klaren Übungen und Stücken, die dich wirklich interessieren."
-    ]
+      "Typisch sind Familien und Erwachsene aus mehreren Städten im Kreis. Manche möchten ein Instrument von Grund auf lernen, andere kommen nach Jahren zurück, wieder andere suchen für ein Kind einen Einstieg, der freundlich und trotzdem sorgfältig ist.",
+      "Im Zentrum stehen Haltung, Bogenführung, Ton, Intonation und ein musikalisches Verständnis, das Schritt für Schritt wächst. Ziel ist nicht, möglichst schnell viele Stücke anzuspielen, sondern von Anfang an entspannt mit Bogen und Instrument umgehen.",
+      "Wiedereinsteiger:innen müssen oft nicht bei null beginnen. Wir sortieren erst, was noch da ist, und bauen dann Sicherheit in Klang, Technik und Notenlesen auf.",
+      "Die Viola belohnt einen ruhigen Bogenarm und einen wachen Klanggeschmack. Deshalb korrigieren wir nicht nur einzelne Töne, sondern hören gemeinsam: Warum klingt etwas eng, frei, warm oder unsicher? Aus diesem Hören entsteht Technik, die nicht trocken bleibt.",
+      "Fortschritt entsteht, wenn Klangarbeit, Technik und kleine musikalische Ziele regelmäßig zusammenkommen. Ich gebe nach jeder Stunde klare Aufgaben mit: eine technische Übung, einen musikalischen Ausschnitt und einen kleinen Hör- oder Rhythmusfokus. So bleibt der nächste Schritt greifbar.",
+      "Für Rhein-Kreis Neuss berücksichtige ich außerdem die praktische Seite: der passende Unterrichtsort und die Fahrzeit früh geklärt werden. Ein Streichinstrument braucht Ruhe zum Stimmen, einen sinnvollen Unterrichtsbeginn und einen Ort, an dem man sich konzentrieren kann.",
+      "Die lokale Seite für Rhein-Kreis Neuss ist bewusst nicht nur ein ausgetauschter Ortsname. Neuss, Meerbusch, Dormagen, Grevenbroich und die Rheinorte dazwischen prägt, wie regelmäßig Unterricht planbar ist, wie viel Fahrzeit realistisch bleibt und ob eine kurze, konzentrierte Stunde besser passt als ein zu großes Lernpaket.",
+      "Bei Wiedereinsteiger:innen geht es oft darum, alte Bewegungen vorsichtig zu prüfen und neue Sicherheit aufzubauen, ohne alles wieder mühsam von vorn zu erklären. Genau dadurch unterscheidet sich Unterricht in Rhein-Kreis Neuss von einer allgemeinen Beschreibung: Wir schauen auf die Person, den Weg, den Wochenrhythmus und die musikalische Situation.",
+      "Gerade bei der Bratsche lohnt es sich, langsam zu arbeiten: Ein sauberer Ton am Anfang spart später viele Korrekturen. Das macht den Unterricht konkreter und hilft, Fortschritt nicht nur im Termin selbst, sondern zwischen zwei Stunden zu erleben.",
+      "Für Familien ist wichtig, dass Üben nicht zum täglichen Streitpunkt wird.",
+      "Wenn du aus Rhein-Kreis Neuss oder aus der Umgebung kommst, können wir in der Probestunde prüfen, welches Format passt: regelmäßiger Unterricht, ein vorbereitender Block für ein bestimmtes Ziel, Unterstützung beim Wiedereinstieg oder eine Phase, in der Technik neu sortiert wird."
+    ],
+    "seal": "Rhein-Kreis Neuss\nViola & Bratsche\nruhig lernen"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Bratschenunterricht im Rhein-Kreis Neuss.",
+    "title": "FAQ zu Bratschenunterricht in Rhein-Kreis Neuss",
     "items": [
       {
-        "question": "Bietest du Bratschenunterricht im Rhein-Kreis Neuss an?",
-        "answer": "Ja. Ich biete individuellen Bratschen- und Violaunterricht im Rhein-Kreis Neuss beziehungsweise nach Absprache im passenden Rahmen an.",
+        "question": "Bietest du Bratschenunterricht in Rhein-Kreis Neuss an?",
+        "answer": "Ja. Ich biete persönlichen Viola- und Bratschenunterricht für Rhein-Kreis Neuss beziehungsweise nach Absprache im passenden regionalen Rahmen an.",
         "open": true
       },
       {
         "question": "Ist der Unterricht für Anfänger:innen geeignet?",
-        "answer": "Ja. Gerade der Anfang ist wichtig: Haltung, Bogenführung, Rhythmus und Ton werden ruhig und verständlich aufgebaut."
+        "answer": "Ja. Gerade der Anfang wird in Rhein-Kreis Neuss ruhig aufgebaut: Haltung, Bogenführung, erste Töne, Notenlesen und kleine Stücke werden so verbunden, dass du den nächsten Schritt verstehst."
       },
       {
-        "question": "Unterrichtest du Kinder und Erwachsene?",
-        "answer": "Ja. Kinder, Jugendliche, Erwachsene, Wiedereinsteiger:innen und Fortgeschrittene können mit einem passenden Ziel arbeiten."
+        "question": "Unterrichtest du Kinder und Erwachsene unterschiedlich?",
+        "answer": "Ja. Kinder brauchen kürzere Aufgaben, Bilder und Wiederholung. Erwachsene profitieren oft von genaueren Erklärungen und einem Übeplan, der zum Alltag in Rhein-Kreis Neuss passt."
       },
       {
-        "question": "Gibt es eine Probestunde?",
-        "answer": "Ja. Die Probestunde ist kostenlos und unverbindlich, damit du in Ruhe schauen kannst, ob der Unterricht passt."
+        "question": "Brauche ich direkt ein eigenes Instrument?",
+        "answer": "Nicht unbedingt. Für den Start kann ein passendes Leihinstrument sinnvoll sein. Wichtig ist, dass Größe, Zustand und Klang zum Körper, zum Lernstand und zum Unterrichtsrhythmus in Rhein-Kreis Neuss passen."
+      },
+      {
+        "question": "Wie läuft eine Probestunde ab?",
+        "answer": "Wir sprechen über deinen Lernstand, probieren erste Töne oder ein vorhandenes Stück und schauen, ob Rhythmus, Unterrichtsort und Ziel für Rhein-Kreis Neuss realistisch zusammenpassen."
+      },
+      {
+        "question": "Wie oft sollte Unterricht stattfinden?",
+        "answer": "Für viele Lernende ist ein regelmäßiger Wochenrhythmus ideal. Je nach Ziel, Alter und Fahrweg rund um Rhein-Kreis Neuss kann auch ein anderer Abstand sinnvoll sein, wenn der Übeplan klar bleibt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Streichinstrument, Nahaufnahme"
+      "alt": "Bratschenunterricht und Viola lernen in Rhein-Kreis Neuss 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Bratschenunterricht und Viola lernen in Rhein-Kreis Neuss 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Bratschenunterricht Rhein-Kreis Neuss anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Bratschenunterricht Rhein-Kreis Neuss.",
+    "eyebrow": "Probestunde anfragen",
+    "title": "Bratschenunterricht in Rhein-Kreis Neuss anfragen",
+    "lead": "Schreib mir kurz, für wen der Unterricht ist, ob Vorerfahrung vorhanden ist und welches Ziel du im Kopf hast. Dann melde ich mich mit einer passenden Idee für Rhein-Kreis Neuss.",
     "checklist": [
-      "Bratschenunterricht Rhein-Kreis Neuss",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Rhein-Kreis Neuss",
+      "Lernstand",
+      "Probestunde"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Bratschenunterricht Rhein-Kreis Neuss zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Unterricht starten",
+    "formTitle": "Passt Viola- oder Bratschenunterricht in Rhein-Kreis Neuss zu dir?",
+    "formSuccess": "Danke - ich melde mich persönlich mit einem Vorschlag für den Unterricht in Rhein-Kreis Neuss."
+  },
+  "focus": {
+    "eyebrow": "Unterrichtsaufbau",
+    "title": "Woran wir im Bratschenunterricht in Rhein-Kreis Neuss arbeiten.",
+    "lead": "Der genaue Schwerpunkt hängt von Alter, Lernstand und Ziel ab. Diese vier Bereiche tauchen aber in fast jeder guten Unterrichtsphase auf.",
+    "items": [
+      {
+        "time": "Start",
+        "kicker": "Haltung",
+        "title": "Instrument und Körper in Balance bringen",
+        "text": "Schulter, linke Hand und Bogenarm sollen zusammenarbeiten, damit der Klang in jeder Unterrichtsstunde in Rhein-Kreis Neuss freier werden kann und Üben nicht verspannt."
+      },
+      {
+        "time": "Klang",
+        "kicker": "Bogen",
+        "title": "Einen warmen, tragenden Ton entwickeln",
+        "text": "Wir hören genau auf Kontaktstelle, Bogengeschwindigkeit und Gewicht, damit der Ton nicht zufällig entsteht."
+      },
+      {
+        "time": "Stücke",
+        "kicker": "Musik",
+        "title": "Technik sofort musikalisch anwenden",
+        "text": "Übungen bleiben nicht isoliert. Sie tauchen in kleinen Stücken, Melodien und später auch in Wunschrepertoire wieder auf."
+      },
+      {
+        "time": "Zu Hause",
+        "kicker": "Üben",
+        "title": "Mit einem klaren Wochenplan weiterkommen",
+        "text": "Nach der Stunde weißt du, was Priorität hat, was bis zum nächsten Termin in Rhein-Kreis Neuss realistisch ist und woran du erkennst, dass es besser wird."
+      }
+    ],
+    "footnote": "Für Rhein-Kreis Neuss stimme ich Unterrichtsrhythmus, Lernziel und Probestunde persönlich ab."
   }
 }

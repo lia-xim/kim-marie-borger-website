@@ -6,65 +6,118 @@
   "targetKeyword": "Bratschenunterricht Erwachsene",
   "intentCluster": "unterricht:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-6-review-needed",
   "enabled": true,
-  "seoTitle": "Bratschenunterricht Erwachsene | Bratschen- und Violaunterricht",
-  "seoDescription": "Bratschenunterricht für Erwachsene: Bratschen- und Violaunterricht mit ruhigem Aufbau, Probestunde und persönlichem Lernplan.",
+  "seoTitle": "Bratschenunterricht Erwachsene | Viola lernen",
+  "seoDescription": "Bratschenunterricht Erwachsene: Unterricht für Viola oder Bratsche mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
   "hero": {
-    "title": "Bratschenunterricht Erwachsene, persönlich geplant und live begleitet.",
-    "lead": "Bratschen- und Violaunterricht mit Ruhe, Struktur und musikalischer Neugier. Diese Seite bündelt den Suchintent \"Bratschenunterricht für Erwachsene\" für Erwachsene, die neu anfangen oder wieder einsteigen."
+    "eyebrow": "Erwachsene",
+    "title": "Bratschenunterricht für Erwachsene, passend zu Alltag, Anspruch und Geduld.",
+    "lead": "Bratschenunterricht Erwachsene richtet sich an Erwachsene, die neu anfangen, wieder einsteigen oder sich einen lang gehegten Wunsch erfüllen möchten. Der Unterricht verbindet geduldige Technik, musikalische Neugier und Aufgaben, die zwischen den Stunden wirklich funktionieren.",
+    "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Lernen",
-    "title": "Guter Unterricht macht Klang verständlich.",
-    "lede": "Bratsche und Viola brauchen Geduld, Körpergefühl und einen Aufbau, der zum Menschen passt. Für bratschenunterricht erwachsene zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Unterricht mit klarem Fokus",
+    "title": "Bratschenunterricht Erwachsene heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
+    "lede": "Wer nach Bratschenunterricht Erwachsene sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht Unterricht, der ernst nimmt, dass Erwachsene anders lernen als Kinder. Hier geht es um Körperbewusstsein, klare Erklärungen, flexible Ziele und einen Übeplan, der neben Beruf und Familie funktioniert.",
     "paragraphs": [
-      "Bratschenunterricht Erwachsene wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für den Unterricht.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Schüler:innen für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
-    ]
+      "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
+      "Erwachsene möchten oft verstehen, warum eine Bewegung hilft. Genau dieses Verstehen nutzen wir für schnellere Sicherheit.",
+      "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
+      "Neben Grundlagen können Stücke gewählt werden, die persönlich motivieren, ohne technisch zu früh zu viel zu verlangen.",
+      "Perfektionismus ist bei Erwachsenen oft größer als bei Kindern. Deshalb arbeiten wir mit konkreten Zwischenschritten statt mit Druck.",
+      "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
+      "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
+      "Gerade bei Bratschenunterricht Erwachsene ist wichtig, den Suchintent sauber zu treffen: Es geht um Lernen, nicht um einen Auftritt. Deshalb stehen Lernstand, Probestunde, Instrumentenwahl, Übungsrhythmus und Fortschritt im Vordergrund.",
+      "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt."
+    ],
+    "seal": "Erwachsene\nKlang & Technik\npersönlich"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Bratschenunterricht für Erwachsene.",
+    "title": "FAQ zu Bratschenunterricht Erwachsene",
     "items": [
       {
-        "question": "Passt Bratschenunterricht Erwachsene zu den Unterricht?",
-        "answer": "Ja. Bratschenunterricht Erwachsene wird gezielt auf den Unterricht, den Raum und den Ablauf abgestimmt. für individuellen Unterricht mit klarer Struktur.",
+        "question": "Für wen passt Bratschenunterricht Erwachsene?",
+        "answer": "Bratschenunterricht Erwachsene passt für Erwachsene, die neu anfangen, wieder einsteigen oder sich einen lang gehegten Wunsch erfüllen möchten. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Im Unterricht können Wunschstücke einbezogen werden, wenn sie zum aktuellen Lernstand passen oder sinnvoll vorbereitet werden."
+        "question": "Gibt es eine kostenlose Probestunde?",
+        "answer": "Ja. In der Probestunde schauen wir gemeinsam auf Instrument, Vorerfahrung, Ziele und die Frage, welcher Unterrichtsrhythmus realistisch ist."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Bratschenunterricht für Erwachsene am Tag selbst ruhig funktioniert."
+        "question": "Muss ich schon Noten lesen können?",
+        "answer": "Nein. Notenlesen kann Teil des Unterrichts sein und wird direkt mit dem Spielen verbunden, damit Theorie nicht losgelöst vom Instrument bleibt."
+      },
+      {
+        "question": "Kann ich als Erwachsene:r noch anfangen?",
+        "answer": "Ja. Erwachsene lernen oft sehr bewusst. Wichtig ist ein Übeplan, der in den Alltag passt und nicht mit unrealistischen Erwartungen beginnt."
+      },
+      {
+        "question": "Ist Unterricht auch für Kinder möglich?",
+        "answer": "Ja, wenn Instrumentengröße, Konzentrationsspanne und Aufgaben gut gewählt sind. Bei Kindern beziehe ich die Eltern mit ein, ohne das Üben zu Hause zu kompliziert zu machen."
+      },
+      {
+        "question": "Welche Musik wird im Unterricht gespielt?",
+        "answer": "Das hängt von Lernstand und Ziel ab. Klassische Grundlagen, kleine Melodien, Etüden, Filmmusik oder persönliche Wünsche können sinnvoll kombiniert werden."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Streichinstrument, Nahaufnahme"
+      "alt": "Bratschenunterricht Erwachsene mit Viola und Bratsche 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Bratschenunterricht Erwachsene mit Viola und Bratsche 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Unterricht anfragen",
     "title": "Bratschenunterricht Erwachsene anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Bratschenunterricht Erwachsene.",
+    "lead": "Schreib mir kurz, ob du neu anfängst, wieder einsteigst oder für ein Kind suchst. Dann kann ich einschätzen, wie Bratschenunterricht Erwachsene sinnvoll beginnen kann.",
     "checklist": [
       "Bratschenunterricht Erwachsene",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Lernstand",
+      "Probestunde"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Bratschenunterricht Erwachsene zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Bratschenunterricht Erwachsene zu dir?",
+    "formSuccess": "Danke - ich melde mich persönlich mit einer Idee für Bratschenunterricht Erwachsene."
+  },
+  "focus": {
+    "eyebrow": "Lernbereiche",
+    "title": "Was bei Bratschenunterricht Erwachsene konkret aufgebaut wird.",
+    "lead": "Die Gewichtung verändert sich je nach Person. Damit der Unterricht greifbar bleibt, arbeiten wir mit klaren Bausteinen.",
+    "items": [
+      {
+        "time": "Körper",
+        "kicker": "Haltung",
+        "title": "Entspannt spielen statt gegen das Instrument arbeiten",
+        "text": "Eine gute Haltung macht den Klang freier und verhindert, dass Üben unnötig anstrengend wird."
+      },
+      {
+        "time": "Bogen",
+        "kicker": "Ton",
+        "title": "Klang bewusst formen",
+        "text": "Bogenkontakt, Geschwindigkeit und Gewicht werden so erklärt, dass du den Unterschied hören und wiederholen kannst."
+      },
+      {
+        "time": "Musik",
+        "kicker": "Stücke",
+        "title": "Übungen in echte Musik übertragen",
+        "text": "Jede Technik bekommt eine musikalische Anwendung, damit Fortschritt nicht nur im Übeheft stattfindet."
+      },
+      {
+        "time": "Alltag",
+        "kicker": "Üben",
+        "title": "Kleine Aufgaben mit klarer Wirkung",
+        "text": "Zu Hause geht es um wenige Prioritäten, die du verstehst und regelmäßig umsetzen kannst."
+      }
+    ],
+    "footnote": "Bratschenunterricht Erwachsene wird je nach Alter, Vorerfahrung und Ziel individuell geplant."
   }
 }

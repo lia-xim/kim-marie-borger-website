@@ -6,67 +6,120 @@
   "targetKeyword": "Bratschenunterricht Ruhrgebiet",
   "intentCluster": "unterricht:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-6-review-needed",
   "enabled": true,
   "seoTitle": "Bratschenunterricht Ruhrgebiet | Viola lernen",
-  "seoDescription": "Bratschenunterricht im Ruhrgebiet: individueller Viola- und Musikunterricht für Anfänger, Kinder, Erwachsene und Fortgeschrittene.",
+  "seoDescription": "Bratschenunterricht Ruhrgebiet: Viola- und Bratschenunterricht für Kinder, Erwachsene und Anfänger:innen mit Probestunde und klarem Übeplan.",
   "hero": {
-    "title": "Bratschenunterricht im Ruhrgebiet mit Ruhe & Struktur.",
-    "lead": "Viola lernen für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene im Ruhrgebiet - mit geduldigem Aufbau und kostenloser Probestunde."
+    "eyebrow": "Unterricht in Ruhrgebiet",
+    "title": "Bratschenunterricht in Ruhrgebiet, der ruhig aufbaut und wirklich in deinen Alltag passt.",
+    "lead": "Ob erster Ton, Wiedereinstieg oder neues Ziel: In Ruhrgebiet begleite ich dich mit Viola- und Bratschenunterricht, der Technik, Klang und Üben verständlich macht.",
+    "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Viola lernen im Ruhrgebiet, ohne Druck.",
+    "eyebrow": "Lernrahmen",
+    "title": "Viola lernen in Ruhrgebiet braucht Struktur, Geduld und einen realistischen Wochenrhythmus.",
+    "lede": "Bratschenunterricht in Ruhrgebiet ist für mich kein Schema, das auf jede Person gleich gelegt wird. Ruhrgebiet bedeutet hier: viele nah beieinanderliegende Städte und sehr unterschiedliche Wochenrhythmen. Genau deshalb klären wir zuerst Lernstand, Ziel, Alltag und die Frage, wie Unterricht regelmäßig funktionieren kann.",
     "paragraphs": [
-      "Ob zwischen Essen, Dortmund, Bochum, Duisburg, Gelsenkirchen und den Städten an der Ruhr: Bratschenunterricht funktioniert dann gut, wenn Haltung, Bogenführung, Klang und Üben von Anfang an verständlich aufgebaut werden. Genau darauf liegt der Fokus.",
-      "Der Unterricht richtet sich an Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene. Wir arbeiten in deinem Tempo, mit klaren Übungen und Stücken, die dich wirklich interessieren."
-    ]
+      "Typisch sind Kinder, Jugendliche und Erwachsene, die praktische musikalische Begleitung suchen. Manche möchten ein Instrument von Grund auf lernen, andere kommen nach Jahren zurück, wieder andere suchen für ein Kind einen Einstieg, der freundlich und trotzdem sorgfältig ist.",
+      "Im Zentrum stehen Haltung, Bogenführung, Ton, Intonation und ein musikalisches Verständnis, das Schritt für Schritt wächst. Ziel ist nicht, möglichst schnell viele Stücke anzuspielen, sondern Noten, Rhythmus und Klang ohne Druck verbinden.",
+      "Wer bereits Geige, Klavier oder ein anderes Instrument kennt, bekommt andere Anknüpfungspunkte als jemand, der komplett neu beginnt.",
+      "Bratsche klingt besonders schön, wenn Gewicht, Kontaktstelle und linke Hand nicht gegeneinander arbeiten. Deshalb korrigieren wir nicht nur einzelne Töne, sondern hören gemeinsam: Warum klingt etwas eng, frei, warm oder unsicher? Aus diesem Hören entsteht Technik, die nicht trocken bleibt.",
+      "Lieber wenige Minuten bewusst üben als lange gegen Verspannung arbeiten. Ich gebe nach jeder Stunde klare Aufgaben mit: eine technische Übung, einen musikalischen Ausschnitt und einen kleinen Hör- oder Rhythmusfokus. So bleibt der nächste Schritt greifbar.",
+      "Für Ruhrgebiet berücksichtige ich außerdem die praktische Seite: der Unterricht klar genug ist, um auch in vollen Wochen weiterzugehen. Ein Streichinstrument braucht Ruhe zum Stimmen, einen sinnvollen Unterrichtsbeginn und einen Ort, an dem man sich konzentrieren kann.",
+      "Die lokale Seite für Ruhrgebiet ist bewusst nicht nur ein ausgetauschter Ortsname. viele nah beieinanderliegende Städte und sehr unterschiedliche Wochenrhythmen prägt, wie regelmäßig Unterricht planbar ist, wie viel Fahrzeit realistisch bleibt und ob eine kurze, konzentrierte Stunde besser passt als ein zu großes Lernpaket.",
+      "Bei Fortgeschrittenen kann der Unterricht stärker in Richtung Klangkultur, Lagenwechsel, Vibrato, Stilgefühl oder Vorbereitung eines bestimmten Stücks gehen. Genau dadurch unterscheidet sich Unterricht in Ruhrgebiet von einer allgemeinen Beschreibung: Wir schauen auf die Person, den Weg, den Wochenrhythmus und die musikalische Situation.",
+      "Ich notiere Aufgaben so, dass sie auch drei Tage später noch verständlich sind: worauf hören, welche Stelle wiederholen, welche Bewegung langsam prüfen. Das macht den Unterricht konkreter und hilft, Fortschritt nicht nur im Termin selbst, sondern zwischen zwei Stunden zu erleben.",
+      "Wenn Kinder lernen, braucht es kurze Rituale, ein passendes Instrument und erreichbare Aufgaben.",
+      "Wenn du aus Ruhrgebiet oder aus der Umgebung kommst, können wir in der Probestunde prüfen, welches Format passt: regelmäßiger Unterricht, ein vorbereitender Block für ein bestimmtes Ziel, Unterstützung beim Wiedereinstieg oder eine Phase, in der Technik neu sortiert wird."
+    ],
+    "seal": "Ruhrgebiet\nViola & Bratsche\nruhig lernen"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Bratschenunterricht im Ruhrgebiet.",
+    "title": "FAQ zu Bratschenunterricht in Ruhrgebiet",
     "items": [
       {
-        "question": "Bietest du Bratschenunterricht im Ruhrgebiet an?",
-        "answer": "Ja. Ich biete individuellen Bratschen- und Violaunterricht im Ruhrgebiet beziehungsweise nach Absprache im passenden Rahmen an.",
+        "question": "Bietest du Bratschenunterricht in Ruhrgebiet an?",
+        "answer": "Ja. Ich biete persönlichen Viola- und Bratschenunterricht für Ruhrgebiet beziehungsweise nach Absprache im passenden regionalen Rahmen an.",
         "open": true
       },
       {
         "question": "Ist der Unterricht für Anfänger:innen geeignet?",
-        "answer": "Ja. Gerade der Anfang ist wichtig: Haltung, Bogenführung, Rhythmus und Ton werden ruhig und verständlich aufgebaut."
+        "answer": "Ja. Gerade der Anfang wird in Ruhrgebiet ruhig aufgebaut: Haltung, Bogenführung, erste Töne, Notenlesen und kleine Stücke werden so verbunden, dass du den nächsten Schritt verstehst."
       },
       {
-        "question": "Unterrichtest du Kinder und Erwachsene?",
-        "answer": "Ja. Kinder, Jugendliche, Erwachsene, Wiedereinsteiger:innen und Fortgeschrittene können mit einem passenden Ziel arbeiten."
+        "question": "Unterrichtest du Kinder und Erwachsene unterschiedlich?",
+        "answer": "Ja. Kinder brauchen kürzere Aufgaben, Bilder und Wiederholung. Erwachsene profitieren oft von genaueren Erklärungen und einem Übeplan, der zum Alltag in Ruhrgebiet passt."
       },
       {
-        "question": "Gibt es eine Probestunde?",
-        "answer": "Ja. Die Probestunde ist kostenlos und unverbindlich, damit du in Ruhe schauen kannst, ob der Unterricht passt."
+        "question": "Brauche ich direkt ein eigenes Instrument?",
+        "answer": "Nicht unbedingt. Für den Start kann ein passendes Leihinstrument sinnvoll sein. Wichtig ist, dass Größe, Zustand und Klang zum Körper, zum Lernstand und zum Unterrichtsrhythmus in Ruhrgebiet passen."
+      },
+      {
+        "question": "Wie läuft eine Probestunde ab?",
+        "answer": "Wir sprechen über deinen Lernstand, probieren erste Töne oder ein vorhandenes Stück und schauen, ob Rhythmus, Unterrichtsort und Ziel für Ruhrgebiet realistisch zusammenpassen."
+      },
+      {
+        "question": "Wie oft sollte Unterricht stattfinden?",
+        "answer": "Für viele Lernende ist ein regelmäßiger Wochenrhythmus ideal. Je nach Ziel, Alter und Fahrweg rund um Ruhrgebiet kann auch ein anderer Abstand sinnvoll sein, wenn der Übeplan klar bleibt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Streichinstrument, Nahaufnahme"
+      "alt": "Bratschenunterricht und Viola lernen in Ruhrgebiet 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Bratschenunterricht und Viola lernen in Ruhrgebiet 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Bratschenunterricht Ruhrgebiet anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Bratschenunterricht Ruhrgebiet.",
+    "eyebrow": "Probestunde anfragen",
+    "title": "Bratschenunterricht in Ruhrgebiet anfragen",
+    "lead": "Schreib mir kurz, für wen der Unterricht ist, ob Vorerfahrung vorhanden ist und welches Ziel du im Kopf hast. Dann melde ich mich mit einer passenden Idee für Ruhrgebiet.",
     "checklist": [
-      "Bratschenunterricht Ruhrgebiet",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Ruhrgebiet",
+      "Lernstand",
+      "Probestunde"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Bratschenunterricht Ruhrgebiet zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Unterricht starten",
+    "formTitle": "Passt Viola- oder Bratschenunterricht in Ruhrgebiet zu dir?",
+    "formSuccess": "Danke - ich melde mich persönlich mit einem Vorschlag für den Unterricht in Ruhrgebiet."
+  },
+  "focus": {
+    "eyebrow": "Unterrichtsaufbau",
+    "title": "Woran wir im Bratschenunterricht in Ruhrgebiet arbeiten.",
+    "lead": "Der genaue Schwerpunkt hängt von Alter, Lernstand und Ziel ab. Diese vier Bereiche tauchen aber in fast jeder guten Unterrichtsphase auf.",
+    "items": [
+      {
+        "time": "Start",
+        "kicker": "Haltung",
+        "title": "Instrument und Körper in Balance bringen",
+        "text": "Schulter, linke Hand und Bogenarm sollen zusammenarbeiten, damit der Klang in jeder Unterrichtsstunde in Ruhrgebiet freier werden kann und Üben nicht verspannt."
+      },
+      {
+        "time": "Klang",
+        "kicker": "Bogen",
+        "title": "Einen warmen, tragenden Ton entwickeln",
+        "text": "Wir hören genau auf Kontaktstelle, Bogengeschwindigkeit und Gewicht, damit der Ton nicht zufällig entsteht."
+      },
+      {
+        "time": "Stücke",
+        "kicker": "Musik",
+        "title": "Technik sofort musikalisch anwenden",
+        "text": "Übungen bleiben nicht isoliert. Sie tauchen in kleinen Stücken, Melodien und später auch in Wunschrepertoire wieder auf."
+      },
+      {
+        "time": "Zu Hause",
+        "kicker": "Üben",
+        "title": "Mit einem klaren Wochenplan weiterkommen",
+        "text": "Nach der Stunde weißt du, was Priorität hat, was bis zum nächsten Termin in Ruhrgebiet realistisch ist und woran du erkennst, dass es besser wird."
+      }
+    ],
+    "footnote": "Für Ruhrgebiet stimme ich Unterrichtsrhythmus, Lernziel und Probestunde persönlich ab."
   }
 }

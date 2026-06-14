@@ -6,67 +6,120 @@
   "targetKeyword": "Bratschenunterricht Krefeld",
   "intentCluster": "unterricht:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-6-review-needed",
   "enabled": true,
   "seoTitle": "Bratschenunterricht Krefeld | Viola lernen",
-  "seoDescription": "Bratschenunterricht in Krefeld: individueller Viola- und Musikunterricht für Anfänger, Kinder, Erwachsene und Fortgeschrittene.",
+  "seoDescription": "Bratschenunterricht Krefeld: Viola- und Bratschenunterricht für Kinder, Erwachsene und Anfänger:innen mit Probestunde und klarem Übeplan.",
   "hero": {
-    "title": "Bratschenunterricht in Krefeld mit Ruhe & Struktur.",
-    "lead": "Viola lernen für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene in Krefeld - mit geduldigem Aufbau und kostenloser Probestunde."
+    "eyebrow": "Unterricht in Krefeld",
+    "title": "Bratschenunterricht in Krefeld, der ruhig aufbaut und wirklich in deinen Alltag passt.",
+    "lead": "Ob erster Ton, Wiedereinstieg oder neues Ziel: In Krefeld begleite ich dich mit Viola- und Bratschenunterricht, der Technik, Klang und Üben verständlich macht.",
+    "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Viola lernen in Krefeld, ohne Druck.",
+    "eyebrow": "Lernrahmen",
+    "title": "Viola lernen in Krefeld braucht Struktur, Geduld und einen realistischen Wochenrhythmus.",
+    "lede": "Bratschenunterricht in Krefeld ist für mich kein Schema, das auf jede Person gleich gelegt wird. Krefeld bedeutet hier: Bockum, Uerdingen, Stadtwald und den Niederrhein. Genau deshalb klären wir zuerst Lernstand, Ziel, Alltag und die Frage, wie Unterricht regelmäßig funktionieren kann.",
     "paragraphs": [
-      "Ob zwischen Linn, Stadtwald, Seidenweberhaus und dem Niederrhein: Bratschenunterricht funktioniert dann gut, wenn Haltung, Bogenführung, Klang und Üben von Anfang an verständlich aufgebaut werden. Genau darauf liegt der Fokus.",
-      "Der Unterricht richtet sich an Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene. Wir arbeiten in deinem Tempo, mit klaren Übungen und Stücken, die dich wirklich interessieren."
-    ]
+      "Typisch sind Schüler:innen, die warmen Streichklang und eine klare Technikbasis suchen. Manche möchten ein Instrument von Grund auf lernen, andere kommen nach Jahren zurück, wieder andere suchen für ein Kind einen Einstieg, der freundlich und trotzdem sorgfältig ist.",
+      "Im Zentrum stehen Haltung, Bogenführung, Ton, Intonation und ein musikalisches Verständnis, das Schritt für Schritt wächst. Ziel ist nicht, möglichst schnell viele Stücke anzuspielen, sondern Noten, Rhythmus und Klang ohne Druck verbinden.",
+      "Wer bereits Geige, Klavier oder ein anderes Instrument kennt, bekommt andere Anknüpfungspunkte als jemand, der komplett neu beginnt.",
+      "Bratsche klingt besonders schön, wenn Gewicht, Kontaktstelle und linke Hand nicht gegeneinander arbeiten. Deshalb korrigieren wir nicht nur einzelne Töne, sondern hören gemeinsam: Warum klingt etwas eng, frei, warm oder unsicher? Aus diesem Hören entsteht Technik, die nicht trocken bleibt.",
+      "Lieber wenige Minuten bewusst üben als lange gegen Verspannung arbeiten. Ich gebe nach jeder Stunde klare Aufgaben mit: eine technische Übung, einen musikalischen Ausschnitt und einen kleinen Hör- oder Rhythmusfokus. So bleibt der nächste Schritt greifbar.",
+      "Für Krefeld berücksichtige ich außerdem die praktische Seite: Üben, Unterricht und Alltag nicht zu abstrakt bleiben. Ein Streichinstrument braucht Ruhe zum Stimmen, einen sinnvollen Unterrichtsbeginn und einen Ort, an dem man sich konzentrieren kann.",
+      "Die lokale Seite für Krefeld ist bewusst nicht nur ein ausgetauschter Ortsname. Bockum, Uerdingen, Stadtwald und den Niederrhein prägt, wie regelmäßig Unterricht planbar ist, wie viel Fahrzeit realistisch bleibt und ob eine kurze, konzentrierte Stunde besser passt als ein zu großes Lernpaket.",
+      "Andere bringen bereits musikalische Erfahrung mit und möchten genauer verstehen, warum ein Bogenstrich trägt oder warum ein Ton nicht sauber einrastet. Genau dadurch unterscheidet sich Unterricht in Krefeld von einer allgemeinen Beschreibung: Wir schauen auf die Person, den Weg, den Wochenrhythmus und die musikalische Situation.",
+      "Wenn eine Woche voll ist, kann eine kleine Übeeinheit reichen. Wichtig ist, dass sie bewusst passiert und nicht nur aus mechanischem Durchspielen besteht. Das macht den Unterricht konkreter und hilft, Fortschritt nicht nur im Termin selbst, sondern zwischen zwei Stunden zu erleben.",
+      "Wenn Kinder lernen, braucht es kurze Rituale, ein passendes Instrument und erreichbare Aufgaben.",
+      "Wenn du aus Krefeld oder aus der Umgebung kommst, können wir in der Probestunde prüfen, welches Format passt: regelmäßiger Unterricht, ein vorbereitender Block für ein bestimmtes Ziel, Unterstützung beim Wiedereinstieg oder eine Phase, in der Technik neu sortiert wird."
+    ],
+    "seal": "Krefeld\nViola & Bratsche\nruhig lernen"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Bratschenunterricht in Krefeld.",
+    "title": "FAQ zu Bratschenunterricht in Krefeld",
     "items": [
       {
         "question": "Bietest du Bratschenunterricht in Krefeld an?",
-        "answer": "Ja. Ich biete individuellen Bratschen- und Violaunterricht in Krefeld beziehungsweise nach Absprache im passenden Rahmen an.",
+        "answer": "Ja. Ich biete persönlichen Viola- und Bratschenunterricht für Krefeld beziehungsweise nach Absprache im passenden regionalen Rahmen an.",
         "open": true
       },
       {
         "question": "Ist der Unterricht für Anfänger:innen geeignet?",
-        "answer": "Ja. Gerade der Anfang ist wichtig: Haltung, Bogenführung, Rhythmus und Ton werden ruhig und verständlich aufgebaut."
+        "answer": "Ja. Gerade der Anfang wird in Krefeld ruhig aufgebaut: Haltung, Bogenführung, erste Töne, Notenlesen und kleine Stücke werden so verbunden, dass du den nächsten Schritt verstehst."
       },
       {
-        "question": "Unterrichtest du Kinder und Erwachsene?",
-        "answer": "Ja. Kinder, Jugendliche, Erwachsene, Wiedereinsteiger:innen und Fortgeschrittene können mit einem passenden Ziel arbeiten."
+        "question": "Unterrichtest du Kinder und Erwachsene unterschiedlich?",
+        "answer": "Ja. Kinder brauchen kürzere Aufgaben, Bilder und Wiederholung. Erwachsene profitieren oft von genaueren Erklärungen und einem Übeplan, der zum Alltag in Krefeld passt."
       },
       {
-        "question": "Gibt es eine Probestunde?",
-        "answer": "Ja. Die Probestunde ist kostenlos und unverbindlich, damit du in Ruhe schauen kannst, ob der Unterricht passt."
+        "question": "Brauche ich direkt ein eigenes Instrument?",
+        "answer": "Nicht unbedingt. Für den Start kann ein passendes Leihinstrument sinnvoll sein. Wichtig ist, dass Größe, Zustand und Klang zum Körper, zum Lernstand und zum Unterrichtsrhythmus in Krefeld passen."
+      },
+      {
+        "question": "Wie läuft eine Probestunde ab?",
+        "answer": "Wir sprechen über deinen Lernstand, probieren erste Töne oder ein vorhandenes Stück und schauen, ob Rhythmus, Unterrichtsort und Ziel für Krefeld realistisch zusammenpassen."
+      },
+      {
+        "question": "Wie oft sollte Unterricht stattfinden?",
+        "answer": "Für viele Lernende ist ein regelmäßiger Wochenrhythmus ideal. Je nach Ziel, Alter und Fahrweg rund um Krefeld kann auch ein anderer Abstand sinnvoll sein, wenn der Übeplan klar bleibt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Streichinstrument, Nahaufnahme"
+      "alt": "Bratschenunterricht und Viola lernen in Krefeld 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Bratschenunterricht und Viola lernen in Krefeld 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Bratschenunterricht Krefeld anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Bratschenunterricht Krefeld.",
+    "eyebrow": "Probestunde anfragen",
+    "title": "Bratschenunterricht in Krefeld anfragen",
+    "lead": "Schreib mir kurz, für wen der Unterricht ist, ob Vorerfahrung vorhanden ist und welches Ziel du im Kopf hast. Dann melde ich mich mit einer passenden Idee für Krefeld.",
     "checklist": [
-      "Bratschenunterricht Krefeld",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Krefeld",
+      "Lernstand",
+      "Probestunde"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Bratschenunterricht Krefeld zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Unterricht starten",
+    "formTitle": "Passt Viola- oder Bratschenunterricht in Krefeld zu dir?",
+    "formSuccess": "Danke - ich melde mich persönlich mit einem Vorschlag für den Unterricht in Krefeld."
+  },
+  "focus": {
+    "eyebrow": "Unterrichtsaufbau",
+    "title": "Woran wir im Bratschenunterricht in Krefeld arbeiten.",
+    "lead": "Der genaue Schwerpunkt hängt von Alter, Lernstand und Ziel ab. Diese vier Bereiche tauchen aber in fast jeder guten Unterrichtsphase auf.",
+    "items": [
+      {
+        "time": "Start",
+        "kicker": "Haltung",
+        "title": "Instrument und Körper in Balance bringen",
+        "text": "Schulter, linke Hand und Bogenarm sollen zusammenarbeiten, damit der Klang in jeder Unterrichtsstunde in Krefeld freier werden kann und Üben nicht verspannt."
+      },
+      {
+        "time": "Klang",
+        "kicker": "Bogen",
+        "title": "Einen warmen, tragenden Ton entwickeln",
+        "text": "Wir hören genau auf Kontaktstelle, Bogengeschwindigkeit und Gewicht, damit der Ton nicht zufällig entsteht."
+      },
+      {
+        "time": "Stücke",
+        "kicker": "Musik",
+        "title": "Technik sofort musikalisch anwenden",
+        "text": "Übungen bleiben nicht isoliert. Sie tauchen in kleinen Stücken, Melodien und später auch in Wunschrepertoire wieder auf."
+      },
+      {
+        "time": "Zu Hause",
+        "kicker": "Üben",
+        "title": "Mit einem klaren Wochenplan weiterkommen",
+        "text": "Nach der Stunde weißt du, was Priorität hat, was bis zum nächsten Termin in Krefeld realistisch ist und woran du erkennst, dass es besser wird."
+      }
+    ],
+    "footnote": "Für Krefeld stimme ich Unterrichtsrhythmus, Lernziel und Probestunde persönlich ab."
   }
 }

@@ -18,6 +18,8 @@
     "seo:rewrite-batch-2": "node scripts/rewrite-seo-batch-2.mjs",
     "seo:rewrite-batch-3": "node scripts/rewrite-seo-batch-3.mjs",
     "seo:rewrite-batch-4": "node scripts/rewrite-seo-batch-4.mjs",
+    "seo:rewrite-batch-5": "node scripts/rewrite-seo-batch-5-geburtstage.mjs",
+    "seo:rewrite-batch-6": "node scripts/rewrite-seo-batch-6-unterricht.mjs",
     "keywords:map": "node scripts/build-keyword-opportunities.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",
     "optimize:audio": "node scripts/optimize-audio.mjs",

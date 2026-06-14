@@ -6,69 +6,120 @@
   "targetKeyword": "Streichmusik Geburtstag",
   "intentCluster": "geburtstage:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-5-review-needed",
   "enabled": true,
-  "seoTitle": "Streichmusik Geburtstag | Live-Musik für private Feiern",
-  "seoDescription": "Streichmusik Geburtstag: Live-Viola für Geburtstag und private Feier. Dezent, persönlich und passend zu Empfang, Dinner oder Überraschung.",
+  "seoTitle": "Streichmusik Geburtstag | Live-Viola Geburtstag",
+  "seoDescription": "Streichmusik Geburtstag: Solo-Viola für private Geburtstage, Empfang, Dinner oder Überraschung. Persönlich und dezent geplant.",
   "hero": {
-    "title": "Streichmusik Geburtstag, persönlich geplant und live begleitet.",
-    "lead": "Live-Viola für private Feiern, Geburtstage und persönliche Momente. Diese Seite bündelt den Suchintent \"Streichmusik Geburtstag\" für elegante Geburtstagsmusik ohne große Bühne."
+    "eyebrow": "Streichmusik",
+    "title": "Streichmusik zum Geburtstag, wenn der Anlass feierlich, aber nicht überladen wirken soll.",
+    "lead": "Für private Feiern mit klassischem oder modernem Rahmen: Ich plane Solo-Viola so, dass sie in Empfang, Dinner und kurze Ehrungsmomente funktioniert und Instrumentalmusik ohne Showdruck musikalisch unterstützt.",
+    "badge": "Geburtstag persönlich begleiten"
   },
   "split": {
-    "eyebrow": "Private Feier",
-    "title": "Private Feiern brauchen Nähe statt Show.",
-    "lede": "Musik darf den Anlass hervorheben, soll Gespräche aber nicht überdecken oder den Raum dominieren. Für streichmusik geburtstag zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Streichmusik Geburtstag braucht eine andere Planung als allgemeine Partymusik.",
+    "lede": "Wer nach Streichmusik Geburtstag sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
     "paragraphs": [
-      "Streichmusik Geburtstag wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für die private Feier.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Gastgeber:innen und Gäste für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
+      "Der wichtigste Unterschied liegt im Maß: Die Musik soll nah an der Person bleiben. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
+      "Für private Feiern mit klassischem oder modernem Rahmen eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
+      "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
+      "Wunschlieder werden auf Wirkung und Spielbarkeit geprüft. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
+      "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif.",
+      "Diese Seite ist bewusst auf Streichmusik Geburtstag zugeschnitten. Andere Geburtstagsseiten behandeln zum Beispiel Gartenfeier, Dinner, Sektempfang oder musikalisches Geschenk mit eigener Dramaturgie.",
+      "Praktisch bedeutet das: Für Streichmusik Geburtstag bespreche ich nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei private Feiern mit klassischem oder modernem Rahmen macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
+      "Auch die Länge wird passend zum Suchintent gewählt. In Empfang, Dinner und kurze Ehrungsmomente reicht manchmal ein präziser musikalischer Impuls; bei Instrumentalmusik ohne Showdruck sind mehrere kurze Einsätze sinnvoller, weil die Musik dann wieder Raum für Begegnung lässt."
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Streichmusik Geburtstag.",
+    "title": "FAQ zu Streichmusik Geburtstag",
     "items": [
       {
-        "question": "Passt Streichmusik Geburtstag zu die private Feier?",
-        "answer": "Ja. Streichmusik Geburtstag wird gezielt auf die private Feier, den Raum und den Ablauf abgestimmt. für eine persönliche private Feier.",
+        "question": "Für welche Geburtstage passt Streichmusik Geburtstag?",
+        "answer": "Streichmusik Geburtstag passt besonders zu private Feiern mit klassischem oder modernem Rahmen. Wichtig ist, dass der musikalische Moment zum Menschen und nicht nur zum Anlass passt.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Kann ein Lieblingslied eingebunden werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage gegebenenfalls einen passenden Ausschnitt vor."
+      },
+      {
+        "question": "Wie lang sollte die Musik dauern?",
+        "answer": "Für ein Geschenk reichen oft wenige Stücke. Für Empfang, Dinner oder Hintergrundmusik sind mehrere kurze Sets sinnvoller als ein langer Block."
+      },
+      {
+        "question": "Ist die Musik auch im kleinen privaten Rahmen passend?",
+        "answer": "Ja. Gerade in Empfang, Dinner und kurze Ehrungsmomente funktioniert Solo-Viola gut, weil der Klang nah bleibt und keine große Bühne braucht."
       },
       {
         "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Streichmusik Geburtstag am Tag selbst ruhig funktioniert."
+        "answer": "Wir klären Startsignal, Platz im Raum, gewünschte Stimmung und mögliche Pausen. So bleibt Streichmusik Geburtstag am Tag selbst entspannt."
+      },
+      {
+        "question": "Kann die Musik draußen gespielt werden?",
+        "answer": "Ja, wenn ein geschützter Platz vorhanden ist. Für Garten oder Terrasse besprechen wir Schatten, Wetteroption und Abstand zu Gesprächen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
-      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+      "alt": "Live-Viola für Streichmusik Geburtstag 1"
     },
     {
       "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
-      "alt": "Porträt von Kim Marie Borger mit ihrer Viola"
+      "alt": "Live-Viola für Streichmusik Geburtstag 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola für Streichmusik Geburtstag 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 5: Geburtstagsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Geburtstagsmusik planen",
     "title": "Streichmusik Geburtstag anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Streichmusik Geburtstag.",
+    "lead": "Schick mir Anlass, Ort, Gästezahl und den gewünschten musikalischen Moment. Ich melde mich mit einer passenden Idee für Streichmusik Geburtstag.",
     "checklist": [
       "Streichmusik Geburtstag",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Geburtstag",
+      "Ablauf & Wunschlied"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Streichmusik Geburtstag zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Streichmusik Geburtstag anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer passenden Idee für Streichmusik Geburtstag."
+  },
+  "focus": {
+    "eyebrow": "Planung",
+    "title": "Typische Einsatzpunkte für Streichmusik Geburtstag.",
+    "lead": "Nicht jeder Geburtstag braucht dieselbe musikalische Länge. Entscheidend ist, welche Aufgabe die Musik übernehmen soll.",
+    "items": [
+      {
+        "time": "Vor Beginn",
+        "kicker": "Ankommen",
+        "title": "Den Raum öffnen",
+        "text": "Ein erstes Set schafft Atmosphäre, während Gäste eintreffen und noch nicht alle Gespräche sortiert sind."
+      },
+      {
+        "time": "Hauptmoment",
+        "kicker": "Persönlich",
+        "title": "Ein Stück mit Bedeutung",
+        "text": "Ein Wunschlied oder eine vertraute Melodie macht Streichmusik Geburtstag besonders, ohne viele Worte zu brauchen."
+      },
+      {
+        "time": "Während der Feier",
+        "kicker": "Begleitung",
+        "title": "Musik als ruhiger Rahmen",
+        "text": "Kurze Sets können Gratulationen, Essen oder lockere Begegnungen tragen, ohne die Feier anzuhalten."
+      },
+      {
+        "time": "Nach einer Rede",
+        "kicker": "Übergang",
+        "title": "Worte nachklingen lassen",
+        "text": "Nach Toast, Rede oder Geschenk kann Musik den Moment lösen und den nächsten Teil des Geburtstags öffnen."
+      }
+    ],
+    "footnote": "Die konkrete Länge richtet sich nach Raum, Gästezahl, Anlass und gewünschter Wirkung."
   }
 }

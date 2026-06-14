@@ -6,65 +6,118 @@
   "targetKeyword": "Musikunterricht Viola",
   "intentCluster": "unterricht:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-6-review-needed",
   "enabled": true,
-  "seoTitle": "Musikunterricht Viola | Bratschen- und Violaunterricht",
-  "seoDescription": "Musikunterricht Viola: Bratschen- und Violaunterricht mit ruhigem Aufbau, Probestunde und persönlichem Lernplan.",
+  "seoTitle": "Musikunterricht Viola | Viola lernen",
+  "seoDescription": "Musikunterricht Viola: Unterricht für Viola oder Bratsche mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
   "hero": {
-    "title": "Musikunterricht Viola, persönlich geplant und live begleitet.",
-    "lead": "Bratschen- und Violaunterricht mit Ruhe, Struktur und musikalischer Neugier. Diese Seite bündelt den Suchintent \"Musikunterricht Viola\" für Viola-Unterricht mit persönlichem Lernplan."
+    "eyebrow": "Viola",
+    "title": "Musikunterricht für Viola mit warmem Ton und verständlicher Technik.",
+    "lead": "Musikunterricht Viola richtet sich an Menschen, die gezielt nach Viola suchen und den besonderen Klang des Instruments kennenlernen möchten. Der Unterricht verbindet geduldige Technik, musikalische Neugier und Aufgaben, die zwischen den Stunden wirklich funktionieren.",
+    "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Lernen",
-    "title": "Guter Unterricht macht Klang verständlich.",
-    "lede": "Bratsche und Viola brauchen Geduld, Körpergefühl und einen Aufbau, der zum Menschen passt. Für musikunterricht viola zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Unterricht mit klarem Fokus",
+    "title": "Musikunterricht Viola heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
+    "lede": "Wer nach Musikunterricht Viola sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht Unterricht, der den Unterschied zwischen Viola, Bratsche und Geige verständlich macht. Diese Seite spricht bewusst den Begriff Viola an und erklärt, wie Klang, Lage und Spielgefühl aufgebaut werden.",
     "paragraphs": [
-      "Musikunterricht Viola wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für den Unterricht.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Schüler:innen für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
-    ]
+      "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
+      "Wir arbeiten nah am Instrument: Tonansatz, Bogenkontakt, linke Hand und Hören werden immer zusammen gedacht.",
+      "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
+      "Je nach Ziel kann das Repertoire klassisch, modern oder sehr persönlich sein.",
+      "Die Viola klingt nur dann warm, wenn Technik nicht verkrampft. Deshalb ist entspannte Bewegung ein zentrales Thema.",
+      "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
+      "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
+      "Gerade bei Musikunterricht Viola ist wichtig, den Suchintent sauber zu treffen: Es geht um Lernen, nicht um einen Auftritt. Deshalb stehen Lernstand, Probestunde, Instrumentenwahl, Übungsrhythmus und Fortschritt im Vordergrund.",
+      "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt."
+    ],
+    "seal": "Viola\nKlang & Technik\npersönlich"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musikunterricht Viola.",
+    "title": "FAQ zu Musikunterricht Viola",
     "items": [
       {
-        "question": "Passt Musikunterricht Viola zu den Unterricht?",
-        "answer": "Ja. Musikunterricht Viola wird gezielt auf den Unterricht, den Raum und den Ablauf abgestimmt. für individuellen Unterricht mit klarer Struktur.",
+        "question": "Für wen passt Musikunterricht Viola?",
+        "answer": "Musikunterricht Viola passt für Menschen, die gezielt nach Viola suchen und den besonderen Klang des Instruments kennenlernen möchten. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Im Unterricht können Wunschstücke einbezogen werden, wenn sie zum aktuellen Lernstand passen oder sinnvoll vorbereitet werden."
+        "question": "Gibt es eine kostenlose Probestunde?",
+        "answer": "Ja. In der Probestunde schauen wir gemeinsam auf Instrument, Vorerfahrung, Ziele und die Frage, welcher Unterrichtsrhythmus realistisch ist."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musikunterricht Viola am Tag selbst ruhig funktioniert."
+        "question": "Muss ich schon Noten lesen können?",
+        "answer": "Nein. Notenlesen kann Teil des Unterrichts sein und wird direkt mit dem Spielen verbunden, damit Theorie nicht losgelöst vom Instrument bleibt."
+      },
+      {
+        "question": "Kann ich als Erwachsene:r noch anfangen?",
+        "answer": "Ja. Erwachsene lernen oft sehr bewusst. Wichtig ist ein Übeplan, der in den Alltag passt und nicht mit unrealistischen Erwartungen beginnt."
+      },
+      {
+        "question": "Ist Unterricht auch für Kinder möglich?",
+        "answer": "Ja, wenn Instrumentengröße, Konzentrationsspanne und Aufgaben gut gewählt sind. Bei Kindern beziehe ich die Eltern mit ein, ohne das Üben zu Hause zu kompliziert zu machen."
+      },
+      {
+        "question": "Welche Musik wird im Unterricht gespielt?",
+        "answer": "Das hängt von Lernstand und Ziel ab. Klassische Grundlagen, kleine Melodien, Etüden, Filmmusik oder persönliche Wünsche können sinnvoll kombiniert werden."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Streichinstrument, Nahaufnahme"
+      "alt": "Musikunterricht Viola mit Viola und Bratsche 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Musikunterricht Viola mit Viola und Bratsche 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Unterricht anfragen",
     "title": "Musikunterricht Viola anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musikunterricht Viola.",
+    "lead": "Schreib mir kurz, ob du neu anfängst, wieder einsteigst oder für ein Kind suchst. Dann kann ich einschätzen, wie Musikunterricht Viola sinnvoll beginnen kann.",
     "checklist": [
       "Musikunterricht Viola",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Lernstand",
+      "Probestunde"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musikunterricht Viola zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Musikunterricht Viola zu dir?",
+    "formSuccess": "Danke - ich melde mich persönlich mit einer Idee für Musikunterricht Viola."
+  },
+  "focus": {
+    "eyebrow": "Lernbereiche",
+    "title": "Was bei Musikunterricht Viola konkret aufgebaut wird.",
+    "lead": "Die Gewichtung verändert sich je nach Person. Damit der Unterricht greifbar bleibt, arbeiten wir mit klaren Bausteinen.",
+    "items": [
+      {
+        "time": "Körper",
+        "kicker": "Haltung",
+        "title": "Entspannt spielen statt gegen das Instrument arbeiten",
+        "text": "Eine gute Haltung macht den Klang freier und verhindert, dass Üben unnötig anstrengend wird."
+      },
+      {
+        "time": "Bogen",
+        "kicker": "Ton",
+        "title": "Klang bewusst formen",
+        "text": "Bogenkontakt, Geschwindigkeit und Gewicht werden so erklärt, dass du den Unterschied hören und wiederholen kannst."
+      },
+      {
+        "time": "Musik",
+        "kicker": "Stücke",
+        "title": "Übungen in echte Musik übertragen",
+        "text": "Jede Technik bekommt eine musikalische Anwendung, damit Fortschritt nicht nur im Übeheft stattfindet."
+      },
+      {
+        "time": "Alltag",
+        "kicker": "Üben",
+        "title": "Kleine Aufgaben mit klarer Wirkung",
+        "text": "Zu Hause geht es um wenige Prioritäten, die du verstehst und regelmäßig umsetzen kannst."
+      }
+    ],
+    "footnote": "Musikunterricht Viola wird je nach Alter, Vorerfahrung und Ziel individuell geplant."
   }
 }
