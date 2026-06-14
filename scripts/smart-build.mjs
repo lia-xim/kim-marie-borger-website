@@ -14,9 +14,10 @@ execSync('node scripts/image-manifest.mjs', { stdio: 'inherit', shell: true });
 
 const hasCloud = Boolean(process.env.PUBLIC_TINA_CLIENT_ID && process.env.TINA_TOKEN);
 
-const cmd = hasCloud
-	? 'npx tinacms build --content=local && npx astro build'
-	: 'npx tinacms build --local --skip-cloud-checks -c "npx astro build"';
+const localCmd = 'npx tinacms build --local --skip-cloud-checks -c "npx astro build"';
+const cloudCmd = 'npx tinacms build --content=local && npx astro build';
+const cloudFallbackCmd = 'npx tinacms build --content=local --skip-cloud-checks && npx astro build';
+const cmd = hasCloud ? cloudCmd : localCmd;
 
 console.log(`[smart-build] Tina mode: ${hasCloud ? 'CLOUD (admin enabled)' : 'LOCAL (set PUBLIC_TINA_CLIENT_ID + TINA_TOKEN to enable /admin)'}`);
 
@@ -28,7 +29,12 @@ for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
 		execSync(cmd, { stdio: 'inherit', shell: true });
 		break;
 	} catch (err) {
-		if (attempt === ATTEMPTS) throw err;
+		if (attempt === ATTEMPTS) {
+			if (!hasCloud) throw err;
+			console.log(`[smart-build] Tina Cloud checks failed after ${ATTEMPTS} attempts; building from local repo content with --skip-cloud-checks so Vercel can publish the site.`);
+			execSync(cloudFallbackCmd, { stdio: 'inherit', shell: true });
+			break;
+		}
 		console.log(`[smart-build] Versuch ${attempt} fehlgeschlagen — warte 45 s auf Tina-Cloud-Indexierung und versuche erneut …`);
 		execSync(process.platform === 'win32' ? 'timeout /t 45 /nobreak >nul' : 'sleep 45', { stdio: 'ignore', shell: true });
 	}
