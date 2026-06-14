@@ -26,7 +26,7 @@ export default defineConfig({
 			minimumCacheTTL: 2678400,
 		},
 	}),
-	integrations: [mdx(), sitemap(), tina()],
+	integrations: [mdx(), sitemap({ xslURL: '/sitemap.xsl' }), tina()],
 	build: {
 		// Das eine gemeinsame Stylesheet (~33 KB) blockierte das Rendering
 		// ~450 ms; inline spart den Roundtrip auf dem kritischen Pfad.
