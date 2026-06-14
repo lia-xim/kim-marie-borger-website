@@ -1,0 +1,493 @@
+fragment PageParts on Page {
+  __typename
+  seoTitle
+  seoDescription
+  bodyClass
+  blocks {
+    __typename
+    ... on PageBlocksHeroHome {
+      image {
+        __typename
+        src
+        alt
+      }
+      rail
+      eyebrow
+      nameLine1
+      nameLine2
+      taglineBefore
+      taglineAccent
+      sub
+      primaryCta {
+        __typename
+        label
+        link
+      }
+      secondaryCta {
+        __typename
+        label
+        link
+      }
+    }
+    ... on PageBlocksHeroPage {
+      image {
+        __typename
+        src
+        alt
+      }
+      eyebrow
+      title
+      lead
+      badge
+    }
+    ... on PageBlocksStatement {
+      bg
+      eyebrow
+      titleBefore
+      highlight
+      titleAfter
+      lead
+      showNotation
+      size
+      svgFirst
+    }
+    ... on PageBlocksCards {
+      anchorId
+      eyebrow
+      title
+      lead
+      items {
+        __typename
+        image {
+          __typename
+          src
+          alt
+        }
+        title
+        poet
+        linkLabel
+        href
+      }
+      footerLabel
+      footerHref
+    }
+    ... on PageBlocksSolemn {
+      eyebrow
+      title
+      lead
+      cards {
+        __typename
+        rom
+        title
+        poet
+        list
+        linkLabel
+        href
+      }
+      image {
+        __typename
+        src
+        alt
+      }
+      listLabel
+      list
+    }
+    ... on PageBlocksCollage {
+      anchorId
+      eyebrow
+      title
+      lead
+      items {
+        __typename
+        image {
+          __typename
+          src
+          alt
+        }
+        tag
+        label
+      }
+      ribbon
+      footerLabel
+      footerHref
+    }
+    ... on PageBlocksSplit {
+      anchorId
+      bg
+      eyebrow
+      title
+      lede
+      paragraphs
+      image {
+        __typename
+        src
+        alt
+      }
+      secondImage {
+        __typename
+        src
+        alt
+      }
+      seal
+      imageFirst
+      figureClass
+      aspect
+      titleWidth
+      ctas {
+        __typename
+        label
+        link
+        style
+      }
+    }
+    ... on PageBlocksQuote {
+      eyebrow
+      before
+      mark
+      after
+      attribution
+    }
+    ... on PageBlocksTimeline {
+      bg
+      eyebrow
+      title
+      lead
+      items {
+        __typename
+        kicker
+        title
+        text
+        piece
+      }
+    }
+    ... on PageBlocksSetlist {
+      eyebrow
+      title
+      lead
+      items {
+        __typename
+        title
+        by
+        you
+      }
+    }
+    ... on PageBlocksFaq {
+      eyebrow
+      title
+      items {
+        __typename
+        question
+        answer
+        open
+      }
+    }
+    ... on PageBlocksContactCard {
+      anchorId
+      bg
+      hinweis
+    }
+    ... on PageBlocksMarquee {
+      lines
+    }
+    ... on PageBlocksElegy {
+      quote
+      passages {
+        __typename
+        strong
+        text
+      }
+    }
+    ... on PageBlocksMoods {
+      eyebrow
+      title
+      moods {
+        __typename
+        title
+        items {
+          __typename
+          title
+          note
+        }
+      }
+    }
+    ... on PageBlocksTriptych {
+      eyebrow
+      title
+      items {
+        __typename
+        rom
+        title
+        text
+      }
+    }
+    ... on PageBlocksProgramme {
+      eyebrow
+      title
+      heading
+      subtitle
+      items {
+        __typename
+        pause
+        title
+        detail
+      }
+      footnote
+    }
+    ... on PageBlocksSched {
+      eyebrow
+      title
+      items {
+        __typename
+        time
+        title
+        text
+      }
+      footnote
+    }
+    ... on PageBlocksLedger {
+      eyebrow
+      title
+      items {
+        __typename
+        title
+        text
+      }
+    }
+    ... on PageBlocksLearnDeck {
+      eyebrow
+      title
+      items {
+        __typename
+        tone
+        title
+        text
+      }
+    }
+    ... on PageBlocksSteps {
+      eyebrow
+      title
+      items {
+        __typename
+        num
+        title
+        text
+      }
+    }
+    ... on PageBlocksInstagram {
+      eyebrow
+      title
+      lead
+      handle
+      url
+      tiles {
+        __typename
+        image {
+          __typename
+          src
+          alt
+        }
+      }
+      note
+    }
+    ... on PageBlocksWords {
+      eyebrow
+      items {
+        __typename
+        word
+        note
+      }
+    }
+    ... on PageBlocksAudioSketch {
+      eyebrow
+      title
+      lead
+      castLabel
+      castText
+      art {
+        __typename
+        src
+        alt
+      }
+      tracks {
+        __typename
+        title
+        composer
+        tag
+        dur
+        src
+      }
+      note
+    }
+    ... on PageBlocksVideoFeature {
+      anchorId
+      eyebrow
+      title
+      youtubeId
+      poster {
+        __typename
+        src
+        alt
+      }
+      capTitle
+      capText
+      sideKicker
+      sideTitle
+      sideLead
+      linkLabel
+      linkHref
+    }
+    ... on PageBlocksCtaBand {
+      eyebrow
+      title
+      lead
+      ctaLabel
+      ctaHref
+    }
+    ... on PageBlocksLegal {
+      title
+      intro
+      sections {
+        __typename
+        heading
+        text
+      }
+    }
+    ... on PageBlocksHtml {
+      html
+    }
+  }
+}
+
+fragment SeoPageParts on SeoPage {
+  __typename
+  pageKind
+  serviceSlug
+  pageSlug
+  route
+  targetKeyword
+  intentCluster
+  priority
+  status
+  enabled
+  seoTitle
+  seoDescription
+  hero {
+    __typename
+    eyebrow
+    title
+    lead
+    badge
+  }
+  split {
+    __typename
+    eyebrow
+    title
+    lede
+    paragraphs
+    seal
+  }
+  focus {
+    __typename
+    eyebrow
+    title
+    lead
+    items {
+      __typename
+      time
+      kicker
+      title
+      text
+      piece
+    }
+    footnote
+  }
+  elegy {
+    __typename
+    quote
+    passages {
+      __typename
+      strong
+      text
+    }
+  }
+  solemn {
+    __typename
+    eyebrow
+    title
+    lead
+    cards {
+      __typename
+      rom
+      title
+      poet
+      list
+      linkLabel
+      href
+    }
+    listLabel
+    list
+  }
+  faq {
+    __typename
+    eyebrow
+    title
+    items {
+      __typename
+      question
+      answer
+      open
+    }
+  }
+  contact {
+    __typename
+    eyebrow
+    title
+    lead
+    checklist
+    formEyebrow
+    formTitle
+    formSuccess
+  }
+  imageAlts {
+    __typename
+    src
+    alt
+  }
+  editorNotes
+}
+
+fragment ConfigParts on Config {
+  __typename
+  seo {
+    __typename
+    title
+    description
+  }
+  brand {
+    __typename
+    name
+    sub
+  }
+  contact {
+    __typename
+    email
+    area
+    eyebrow
+    title
+    lead
+    checklist
+    formEyebrow
+    formTitle
+    formSuccess
+    asideImage
+  }
+  footer {
+    __typename
+    text
+    sign
+    instagram
+    youtube
+    impressum
+    datenschutz
+  }
+}
