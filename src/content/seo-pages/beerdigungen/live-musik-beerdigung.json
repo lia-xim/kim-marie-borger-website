@@ -6,112 +6,185 @@
   "targetKeyword": "Live Musik Beerdigung",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "rewritten-batch-2-review-needed",
+  "status": "rewritten-batch-8-review-needed",
   "enabled": true,
-  "seoTitle": "Live Musik Beerdigung | Viola vor Ort für Abschied & Grab",
-  "seoDescription": "Live-Musik zur Beerdigung: Solo-Viola vor Ort für Trauerhalle, Kirche, Auszug oder Grab. Verlässlich abgestimmt und ruhig gespielt.",
+  "seoTitle": "Live Musik Beerdigung | Live-Viola für Abschied",
+  "seoDescription": "Live Musik Beerdigung: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
   "hero": {
-    "eyebrow": "Live-Musik zur Beerdigung",
-    "title": "Live-Musik zur Beerdigung, verlässlich vor Ort und behutsam gespielt.",
-    "lead": "Bei einer Beerdigung muss Live-Musik nicht nur schön klingen, sondern zuverlässig funktionieren: rechtzeitig vor Ort, passend platziert, klar abgestimmt und sensibel für den Ablauf.",
-    "badge": "Vor Ort gespielt"
+    "eyebrow": "Live vor Ort",
+    "title": "Live Musik zur Beerdigung, wenn der Ablauf atmen darf.",
+    "lead": "Live Musik Beerdigung richtet sich an Beerdigungen mit Trauerhalle, Kirche, Auszug oder Grabmoment. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf zum Abschied passen und Angehörige organisatorisch entlastet werden.",
+    "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Live-Musik bei einer Beerdigung",
+    "title": "FAQ zu Live Musik Beerdigung",
     "items": [
       {
-        "question": "Kann Live-Musik kurzfristig für eine Beerdigung angefragt werden?",
-        "answer": "Ja, oft ist das möglich. Sende mir Datum, Ort und Uhrzeit, dann prüfe ich die Verfügbarkeit schnell.",
+        "question": "Für welchen Abschied passt Live Musik Beerdigung?",
+        "answer": "Live Musik Beerdigung passt besonders für Beerdigungen mit Trauerhalle, Kirche, Auszug oder Grabmoment. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
-        "question": "Spielst du auch draußen am Grab?",
-        "answer": "Grundsätzlich ja. Wir klären vorher Wetter, Dauer, Akustik und ob ein kurzer Einsatz vor Ort sinnvoll ist."
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Wer stimmt die Einsätze am Tag selbst ab?",
-        "answer": "Das kann ich direkt mit Bestattungshaus, Pfarrerin, Redner oder Trauerleitung klären, damit Angehörige entlastet sind."
+        "question": "Passt das zu Trauerhalle, Kirche und Friedhof?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für Trauerhallen, Kirchen, Kapellen und kurze Außenmomente flexibel."
       },
       {
-        "question": "Was unterscheidet diese Seite von Live Musik Trauerfeier?",
-        "answer": "Live Musik Trauerfeier fokussiert die Zeremonie. Live Musik Beerdigung denkt zusätzlich Ort, Wege, Grab und die praktische Organisation des Beerdigungstags mit."
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Am Grab ist oft ein kurzer, schlichter Einsatz sinnvoller als ein langes Stück."
+      },
+      {
+        "question": "Wie viele Stücke sind für diesen Schwerpunkt sinnvoll?",
+        "answer": "Das hängt vom Ablauf ab. Für viele Trauerfeiern reichen wenige Einsätze, die klar begründet sind: Anfang, Erinnerung, Übergang oder Abschluss."
+      },
+      {
+        "question": "Was passiert, wenn noch kein Lied feststeht?",
+        "answer": "Dann ordnen wir zuerst den Moment ein. Danach kann ich Stücke vorschlagen, die zu Raum, Person und gewünschter Zurückhaltung passen."
+      },
+      {
+        "question": "Warum gibt es dazu eine eigene Seite?",
+        "answer": "Live Musik Beerdigung hat einen eigenen Suchintent. Diese Seite beantwortet deshalb nicht nur allgemein, welche Trauermusik möglich ist, sondern ordnet genau diesen Begriff nach Ablauf, Klang, Wunschmusik, Abgrenzung zu ähnlichen Seiten und konkreter Anfrage ein."
+      },
+      {
+        "question": "Welche Informationen helfen für die erste Einschätzung?",
+        "answer": "Für Live Musik Beerdigung helfen Datum, Ort, Uhrzeit, gewünschter Moment im Ablauf, vorhandene Wunschstücke und die Frage, ob die Musik in der Trauerfeier, draußen am Grab oder an beiden Stellen geplant ist."
+      },
+      {
+        "question": "Wie kurzfristig können wir anfragen?",
+        "answer": "Oft auch kurzfristig. Wichtig sind Datum, Ort, Uhrzeit, grober Ablauf und die gewünschte Musik, damit ich schnell prüfen kann, ob der Termin möglich ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Live-Musik mit Solo-Viola bei einer Beerdigung 1"
+      "alt": "Live-Viola für Live Musik Beerdigung 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Live-Musik mit Solo-Viola bei einer Beerdigung 2"
+      "alt": "Live-Viola für Live Musik Beerdigung 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 2: Trauer-Topicseiten mit eigener Suchintention, eigenen Abschnitten, eigenen FAQs und eigener Kontaktcopy differenziert. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 2: Trauer-Topicseiten mit eigener Suchintention, eigenen Abschnitten, eigenen FAQs und eigener Kontaktcopy differenziert. Fachlich im CMS final prüfen.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Termin prüfen",
-    "title": "Soll die Beerdigung live mit Viola begleitet werden?",
-    "lead": "Schreib mir Datum, Ort und ob Musik in der Halle, Kirche oder am Grab gewünscht ist. Ich melde mich mit einer klaren Einschätzung.",
+    "eyebrow": "Trauermusik planen",
+    "title": "Live Musik Beerdigung anfragen",
+    "lead": "Schickt mir Datum, Ort, Ablauf und den Moment, für den ihr Live Musik Beerdigung plant. Ich melde mich mit einer behutsamen musikalischen Idee.",
     "checklist": [
-      "Termin",
-      "Friedhof",
-      "Bestattungshaus"
+      "Live Musik Beerdigung",
+      "Trauerfeier oder Grab",
+      "Wunschstück"
     ],
-    "formEyebrow": "Verfügbarkeit",
+    "formEyebrow": "Anfrage senden",
     "formTitle": "Live Musik Beerdigung anfragen",
-    "formSuccess": "Danke - ich prüfe den Termin und melde mich zur Live-Musik für die Beerdigung."
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Live Musik Beerdigung."
   },
   "elegy": {
-    "quote": "Live-Musik zur Beerdigung braucht musikalische Ruhe und organisatorische Sicherheit.",
+    "quote": "Live Musik Beerdigung soll dem Abschied Raum geben, ohne Worte zu ersetzen.",
     "passages": [
       {
-        "strong": "Konkreter Anlass",
-        "text": "Diese Seite ist praktischer gedacht als Live Musik Trauerfeier. Es geht um den gesamten Beerdigungstermin mit Ort, Uhrzeit, Bestattungshaus, möglichen Wegen und manchmal Musik am Grab."
+        "strong": "Der Suchintent",
+        "text": "Live-Musik wird gesucht, wenn eine Aufnahme zu starr wirkt und der Ablauf flexibel bleiben muss."
       },
       {
-        "strong": "Vor Ort",
-        "text": "Ich bin rechtzeitig da, stimme mich mit den Verantwortlichen ab und spiele dort, wo der Klang würdevoll und der Ablauf sicher bleibt."
+        "strong": "Musikalische Aufgabe",
+        "text": "Die Viola kann auf Pausen, Wege, Applauslosigkeit und stille Verzögerungen reagieren."
       },
       {
-        "strong": "Flexibel und schlicht",
-        "text": "Live-Viola kann ein Stück kürzen, einen Auszug länger begleiten oder am Grab sehr reduziert bleiben. So passt die Musik zum tatsächlichen Geschehen."
+        "strong": "Abgrenzung",
+        "text": "Diese Seite betrachtet den ganzen Beerdigungsablauf, nicht nur die Trauerfeier im Raum."
+      },
+      {
+        "strong": "Ablauf",
+        "text": "Die Planung bleibt bewusst schlank. Ein Solo-Instrument kann schnell reagieren, aber die wichtigsten Punkte müssen trotzdem vorab feststehen: Ort, Zeitpunkt, Einsatz und gewünschte Stimmung. Bei Live Musik Beerdigung frage ich außerdem, wie nah der musikalische Moment an Worten, Gebet, Ritual oder Auszug liegt. Je näher Musik an Sprache steht, desto schlichter muss sie beginnen und enden."
+      },
+      {
+        "strong": "Raum und Klang",
+        "text": "In Innenraum, Friedhof, Weg zum Grab oder kurzer Schlussmoment geht es auch um Sichtbarkeit. Manchmal soll die Musikerin bewusst wahrnehmbar sein, manchmal ist eine seitliche, ruhige Platzierung stimmiger für die Familie. Der Klang trägt am besten, wenn vorab geklärt ist, ob die Musik Richtung Angehörige, Richtung Rednerpult oder Richtung Ausgang wirken soll."
+      },
+      {
+        "strong": "Wunschmusik",
+        "text": "Bei der Stückauswahl zählt Wiedererkennbarkeit mehr als Länge. Ein ruhiger Ausschnitt kann stärker sein als eine vollständige Version, wenn die Melodie sofort verstanden wird. Nach meiner Erfahrung entsteht die beste Wirkung, wenn die Musik nicht erklärt werden muss. Sie ist vorbereitet, beginnt im richtigen Moment und lässt danach wieder Raum für Stille."
+      },
+      {
+        "strong": "SEO-Abgrenzung",
+        "text": "Die interne Verlinkung kann von hier zu allgemeinen Trauerseiten führen, aber der Haupttext bleibt bei Live Musik Beerdigung. Dadurch wird klar, welche Seite für welchen Suchintent zuständig ist. Wenn ein anderes Keyword besser passt, etwa ein bestimmtes Lied oder eine lokale Stadtseite, sollte diese Seite nicht dagegen konkurrieren. Sie behält ihren eigenen Fokus im Cluster."
+      },
+      {
+        "strong": "Anfrage",
+        "text": "Bei Trauerfeiern mit engem Zeitfenster plane ich Live Musik Beerdigung lieber präzise als umfangreich. Ein passender Einsatz kann stärker wirken als mehrere musikalische Beiträge ohne klare Funktion."
       }
     ]
   },
   "solemn": {
-    "eyebrow": "Organisation",
-    "title": "Live-Musik zur Beerdigung wird praktisch mitgedacht.",
-    "lead": "Die musikalische Wirkung hängt stark davon ab, wo und wann gespielt wird.",
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Live Musik Beerdigung ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie, Raum und gewünschter Nähe. Diese Punkte sollten vor dem Abschied geklärt sein.",
     "cards": [
       {
-        "rom": "Absprache",
-        "title": "Mit dem Bestattungshaus",
-        "poet": "Ankunft, Platz, Einsätze und besondere Wege können direkt mit dem Bestattungshaus oder der Trauerleitung geklärt werden.",
+        "rom": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "poet": "Bei Live Musik Beerdigung klären wir zuerst, ob die Musik Anfang, Übergang, Erinnerung oder Schlussmoment sein soll.",
         "list": [
-          "Termin",
-          "Ort",
-          "Ablaufzeichen"
+          "Beginn",
+          "Zwischenmoment",
+          "Abschluss"
         ]
       },
       {
-        "rom": "Ort",
-        "title": "Halle, Kirche oder Grab",
-        "poet": "Live-Musik muss zur Akustik passen. Drinnen ist anderes möglich als draußen am Grab oder auf dem Weg.",
+        "rom": "Ablauf",
+        "title": "Start und Ende sicher abstimmen",
+        "poet": "Ein Blickzeichen, eine Kontaktperson oder ein Stichwort verhindert Unsicherheit während der Trauerfeier.",
         "list": [
-          "akustisch",
-          "gegebenenfalls verstärkt",
-          "wetterabhängig"
+          "Kontaktperson",
+          "Startsignal",
+          "flexibles Ende"
         ]
       }
     ],
-    "listLabel": "Wichtige Angaben für die Anfrage",
+    "listLabel": "Mögliche Fragen zu Live Musik Beerdigung",
     "list": [
-      "Datum und Uhrzeit",
-      "Trauerhalle, Kirche oder Friedhof",
-      "gewünschte Musikmomente",
-      "Kontakt zum Bestattungshaus"
+      "Welcher Moment soll getragen werden?",
+      "Ist ein Wunschstück vorgesehen?",
+      "Findet etwas draußen statt?",
+      "Wer gibt am Tag selbst das Signal?"
     ]
+  },
+  "split": {
+    "eyebrow": "Suchintention",
+    "title": "Live Musik Beerdigung braucht eine eigene musikalische Planung.",
+    "lede": "Live-Musik wird gesucht, wenn eine Aufnahme zu starr wirkt und der Ablauf flexibel bleiben muss. Gesucht wird keine austauschbare Hintergrundmusik, sondern eine Lösung für Innenraum, Friedhof, Weg zum Grab oder kurzer Schlussmoment.",
+    "paragraphs": [
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
+      "Die Viola kann auf Pausen, Wege, Applauslosigkeit und stille Verzögerungen reagieren.",
+      "Diese Seite betrachtet den ganzen Beerdigungsablauf, nicht nur die Trauerfeier im Raum.",
+      "Vorab klären wir Startsignal, gewünschte Länge, mögliche Pausen und den Punkt, an dem das Stück natürlich enden darf. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
+      "Ich bespreche bei Bedarf direkt mit Bestattungshaus, Rednerin oder Kirche, wie die Musik in den Ablauf eingebunden wird.",
+      "Je konkreter der musikalische Moment benannt wird, desto besser lässt sich das Stück auswählen: Beginn, Erinnerung, Ritual, Auszug oder letzter Gruß.",
+      "So bleibt die Seite klar von benachbarten Begriffen getrennt: Sie beantwortet nicht jede Frage zu Trauermusik, sondern genau die Frage hinter diesem Keyword.",
+      "Wenn noch kein Stück feststeht, kann ich Vorschläge machen, die zu Raum, Ablauf und gewünschter Stimmung passen.",
+      "Der Klang trägt am besten, wenn vorab geklärt ist, ob die Musik Richtung Angehörige, Richtung Rednerpult oder Richtung Ausgang wirken soll.",
+      "Die Planung bleibt bewusst schlank. Ein Solo-Instrument kann schnell reagieren, aber die wichtigsten Punkte müssen trotzdem vorab feststehen: Ort, Zeitpunkt, Einsatz und gewünschte Stimmung.",
+      "Bei der Stückauswahl zählt Wiedererkennbarkeit mehr als Länge. Ein ruhiger Ausschnitt kann stärker sein als eine vollständige Version, wenn die Melodie sofort verstanden wird.",
+      "Wenn Bestattungshaus, Pfarrer, Trauerrednerin oder mehrere Familienmitglieder beteiligt sind, hilft eine gemeinsame kurze Abstimmung. So bleibt die musikalische Entscheidung ruhig und nachvollziehbar.",
+      "Die interne Verlinkung kann von hier zu allgemeinen Trauerseiten führen, aber der Haupttext bleibt bei Live Musik Beerdigung. Dadurch wird klar, welche Seite für welchen Suchintent zuständig ist.",
+      "Bei Trauerfeiern mit engem Zeitfenster plane ich Live Musik Beerdigung lieber präzise als umfangreich. Ein passender Einsatz kann stärker wirken als mehrere musikalische Beiträge ohne klare Funktion.",
+      "Bei Live Musik Beerdigung frage ich außerdem, wie nah der musikalische Moment an Worten, Gebet, Ritual oder Auszug liegt. Je näher Musik an Sprache steht, desto schlichter muss sie beginnen und enden.",
+      "In Innenraum, Friedhof, Weg zum Grab oder kurzer Schlussmoment geht es auch um Sichtbarkeit. Manchmal soll die Musikerin bewusst wahrnehmbar sein, manchmal ist eine seitliche, ruhige Platzierung stimmiger für die Familie.",
+      "Wenn ein anderes Keyword besser passt, etwa ein bestimmtes Lied oder eine lokale Stadtseite, sollte diese Seite nicht dagegen konkurrieren. Sie behält ihren eigenen Fokus im Cluster.",
+      "Nach meiner Erfahrung entsteht die beste Wirkung, wenn die Musik nicht erklärt werden muss. Sie ist vorbereitet, beginnt im richtigen Moment und lässt danach wieder Raum für Stille.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Live Musik Beerdigung nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
+      "Der Text ist auf diesen konkreten Intent zugeschnitten und nicht nur eine Variation der lokalen Seiten. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Lieder; hier geht es genau um Live Musik Beerdigung."
+    ],
+    "seal": "Live vor Ort\nAbschied\nLive-Viola"
   }
 }

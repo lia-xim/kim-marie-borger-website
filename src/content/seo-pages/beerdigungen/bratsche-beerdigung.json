@@ -6,55 +6,185 @@
   "targetKeyword": "Bratsche Beerdigung",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-8-review-needed",
   "enabled": true,
-  "seoTitle": "Bratsche Beerdigung | Trauermusik mit Viola",
-  "seoDescription": "Bratsche Beerdigung: Behutsame Live-Viola für Trauerfeier, Beerdigung und Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "seoTitle": "Bratsche Beerdigung | Live-Viola für Abschied",
+  "seoDescription": "Bratsche Beerdigung: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
   "hero": {
-    "title": "Bratsche Beerdigung, persönlich geplant und live begleitet.",
-    "lead": "Behutsame Live-Viola für Abschiede, Trauerfeiern und stille Erinnerungsmomente. Diese Seite bündelt den Suchintent \"Bratsche Beerdigung\" für eine warme Alternative zur Geige."
+    "eyebrow": "Bratsche",
+    "title": "Bratsche zur Beerdigung, warm, dunkel und nah an der menschlichen Stimme.",
+    "lead": "Bratsche Beerdigung richtet sich an Suchende, die gezielt einen warmen Streichklang suchen. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf zum Abschied passen und Angehörige organisatorisch entlastet werden.",
+    "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Bratsche Beerdigung.",
+    "title": "FAQ zu Bratsche Beerdigung",
     "items": [
       {
-        "question": "Passt Bratsche Beerdigung zu den Abschied?",
-        "answer": "Ja. Bratsche Beerdigung wird gezielt auf den Abschied, den Raum und den Ablauf abgestimmt. für einen würdevollen Abschied.",
+        "question": "Für welchen Abschied passt Bratsche Beerdigung?",
+        "answer": "Bratsche Beerdigung passt besonders für Suchende, die gezielt einen warmen Streichklang suchen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
         "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Bratsche Beerdigung am Tag selbst ruhig funktioniert."
+        "question": "Passt das zu Trauerhalle, Kirche und Friedhof?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für Trauerhallen, Kirchen, Kapellen und kurze Außenmomente flexibel."
+      },
+      {
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Am Grab ist oft ein kurzer, schlichter Einsatz sinnvoller als ein langes Stück."
+      },
+      {
+        "question": "Wie viele Stücke sind für diesen Schwerpunkt sinnvoll?",
+        "answer": "Das hängt vom Ablauf ab. Für viele Trauerfeiern reichen wenige Einsätze, die klar begründet sind: Anfang, Erinnerung, Übergang oder Abschluss."
+      },
+      {
+        "question": "Was passiert, wenn noch kein Lied feststeht?",
+        "answer": "Dann ordnen wir zuerst den Moment ein. Danach kann ich Stücke vorschlagen, die zu Raum, Person und gewünschter Zurückhaltung passen."
+      },
+      {
+        "question": "Warum gibt es dazu eine eigene Seite?",
+        "answer": "Bratsche Beerdigung hat einen eigenen Suchintent. Diese Seite beantwortet deshalb nicht nur allgemein, welche Trauermusik möglich ist, sondern ordnet genau diesen Begriff nach Ablauf, Klang, Wunschmusik, Abgrenzung zu ähnlichen Seiten und konkreter Anfrage ein."
+      },
+      {
+        "question": "Welche Informationen helfen für die erste Einschätzung?",
+        "answer": "Für Bratsche Beerdigung helfen Datum, Ort, Uhrzeit, gewünschter Moment im Ablauf, vorhandene Wunschstücke und die Frage, ob die Musik in der Trauerfeier, draußen am Grab oder an beiden Stellen geplant ist."
+      },
+      {
+        "question": "Wie kurzfristig können wir anfragen?",
+        "answer": "Oft auch kurzfristig. Wichtig sind Datum, Ort, Uhrzeit, grober Ablauf und die gewünschte Musik, damit ich schnell prüfen kann, ob der Termin möglich ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+      "alt": "Live-Viola für Bratsche Beerdigung 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola für Bratsche Beerdigung 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Trauermusik planen",
     "title": "Bratsche Beerdigung anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Bratsche Beerdigung.",
+    "lead": "Schickt mir Datum, Ort, Ablauf und den Moment, für den ihr Bratsche Beerdigung plant. Ich melde mich mit einer behutsamen musikalischen Idee.",
     "checklist": [
       "Bratsche Beerdigung",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Trauerfeier oder Grab",
+      "Wunschstück"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Bratsche Beerdigung zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Bratsche Beerdigung anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Bratsche Beerdigung."
+  },
+  "split": {
+    "eyebrow": "Suchintention",
+    "title": "Bratsche Beerdigung braucht eine eigene musikalische Planung.",
+    "lede": "Der Intent ist instrumentennah: Die Bratsche soll nicht beliebige Hintergrundmusik sein, sondern eine bestimmte Klangfarbe geben. Gesucht wird keine austauschbare Hintergrundmusik, sondern eine Lösung für Trauerhalle, Kirche, Kapelle oder Grab.",
+    "paragraphs": [
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
+      "Tiefe Lagen, ruhige Bögen und klare Melodien wirken besonders stark, wenn Worte nicht ausreichen.",
+      "Diese Seite erklärt die Bratsche als eigenes Trauerinstrument und nicht als austauschbare Alternative.",
+      "Wenn ein Wunschlied geplant ist, prüfe ich Melodie, Tonart und Wirkung für Solo-Viola. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
+      "Organisatorisch wichtig sind Ankunft, Raumzugang, Kontaktperson, Einsatzpunkt und die Frage, ob draußen gespielt werden soll.",
+      "Besonders wichtig ist der Abstand zwischen Musik und Sprache. Ein Stück darf Worte nachklingen lassen, sollte sie aber nicht kommentieren oder ersetzen.",
+      "Andere Trauerseiten können breiter planen; diese Seite bleibt enger an Instrument, Lied, Ablauf oder Buchungsabsicht.",
+      "Bei einer freien Trauerfeier lässt sich Musik oft flexibler setzen, sollte aber trotzdem nicht jede Pause füllen.",
+      "Die Viola klingt tiefer und dunkler als eine Geige. Dadurch wirkt sie in Trauerräumen oft weniger hell und weniger exponiert, bleibt aber klar melodisch.",
+      "Der praktische Ablauf entscheidet viel: Ein Stück vor der ersten Rede braucht eine andere Ruhe als ein musikalischer Gruß am Grab oder ein kurzer Moment nach dem Kerzenritual.",
+      "Wenn ein Stück mit einer konkreten Erinnerung verbunden ist, behandle ich es anders als neutrale Hintergrundmusik. Dann ist die Platzierung im Ablauf besonders wichtig.",
+      "Wenn Unsicherheit bei der Liedwahl besteht, kann ich zwei bis drei Richtungen vorschlagen: klassisch, modern reduziert oder sehr schlicht. Daraus entsteht meist schnell ein passender Rahmen.",
+      "Diese Seite bleibt eng bei Bratsche Beerdigung. Lokale Seiten beantworten Ortsfragen, Repertoireseiten ordnen mehrere Stücke, und diese Seite behandelt den konkreten Suchbegriff mit eigener FAQ, eigener Kontaktfrage und eigener musikalischer Aufgabe.",
+      "Wenn der Termin kurzfristig ist, helfen klare Angaben mehr als lange Erklärungen. Ich prüfe Verfügbarkeit, musikalische Machbarkeit und die Abstimmung mit den beteiligten Personen so zügig wie möglich.",
+      "Für Bratsche Beerdigung ist ein gutes Ergebnis nicht möglichst viel Musik. Passender ist ein Moment, der den Abschied trägt, ohne ihn zu verlängern oder die Aufmerksamkeit von der verstorbenen Person wegzunehmen.",
+      "Für Trauerhalle, Kirche, Kapelle oder Grab ist die Frage nach Verstärkung meist zweitrangig. Wichtiger ist, ob die Viola nahe genug am Geschehen steht und ob das Ende des Stücks ohne Hektik ausklingen kann.",
+      "So unterscheidet sich Bratsche Beerdigung auch redaktionell von ähnlichen Seiten: Es geht nicht nur um Trauermusik im Allgemeinen, sondern um die konkrete Erwartung, die jemand mit genau diesem Suchbegriff verbindet.",
+      "Wenn ein Wunschlied emotional sehr aufgeladen ist, bespreche ich behutsam, ob es vollständig, gekürzt oder an einer anderen Stelle besser funktioniert. Manchmal schützt eine kurze Fassung den Moment.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Bratsche Beerdigung nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
+      "Der Fokus bleibt eng genug, damit Angehörige sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Lieder; hier geht es genau um Bratsche Beerdigung."
+    ],
+    "seal": "Bratsche\nAbschied\nLive-Viola"
+  },
+  "elegy": {
+    "quote": "Bratsche Beerdigung soll dem Abschied Raum geben, ohne Worte zu ersetzen.",
+    "passages": [
+      {
+        "strong": "Der Suchintent",
+        "text": "Der Intent ist instrumentennah: Die Bratsche soll nicht beliebige Hintergrundmusik sein, sondern eine bestimmte Klangfarbe geben."
+      },
+      {
+        "strong": "Musikalische Aufgabe",
+        "text": "Tiefe Lagen, ruhige Bögen und klare Melodien wirken besonders stark, wenn Worte nicht ausreichen."
+      },
+      {
+        "strong": "Abgrenzung",
+        "text": "Diese Seite erklärt die Bratsche als eigenes Trauerinstrument und nicht als austauschbare Alternative."
+      },
+      {
+        "strong": "Ablauf",
+        "text": "Der praktische Ablauf entscheidet viel: Ein Stück vor der ersten Rede braucht eine andere Ruhe als ein musikalischer Gruß am Grab oder ein kurzer Moment nach dem Kerzenritual. Für Bratsche Beerdigung ist ein gutes Ergebnis nicht möglichst viel Musik. Passender ist ein Moment, der den Abschied trägt, ohne ihn zu verlängern oder die Aufmerksamkeit von der verstorbenen Person wegzunehmen."
+      },
+      {
+        "strong": "Raum und Klang",
+        "text": "Für Trauerhalle, Kirche, Kapelle oder Grab ist die Frage nach Verstärkung meist zweitrangig. Wichtiger ist, ob die Viola nahe genug am Geschehen steht und ob das Ende des Stücks ohne Hektik ausklingen kann. Die Viola klingt tiefer und dunkler als eine Geige. Dadurch wirkt sie in Trauerräumen oft weniger hell und weniger exponiert, bleibt aber klar melodisch."
+      },
+      {
+        "strong": "Wunschmusik",
+        "text": "Wenn ein Stück mit einer konkreten Erinnerung verbunden ist, behandle ich es anders als neutrale Hintergrundmusik. Dann ist die Platzierung im Ablauf besonders wichtig. Wenn ein Wunschlied emotional sehr aufgeladen ist, bespreche ich behutsam, ob es vollständig, gekürzt oder an einer anderen Stelle besser funktioniert. Manchmal schützt eine kurze Fassung den Moment."
+      },
+      {
+        "strong": "SEO-Abgrenzung",
+        "text": "Diese Seite bleibt eng bei Bratsche Beerdigung. Lokale Seiten beantworten Ortsfragen, Repertoireseiten ordnen mehrere Stücke, und diese Seite behandelt den konkreten Suchbegriff mit eigener FAQ, eigener Kontaktfrage und eigener musikalischer Aufgabe. So unterscheidet sich Bratsche Beerdigung auch redaktionell von ähnlichen Seiten: Es geht nicht nur um Trauermusik im Allgemeinen, sondern um die konkrete Erwartung, die jemand mit genau diesem Suchbegriff verbindet."
+      },
+      {
+        "strong": "Anfrage",
+        "text": "Wenn der Termin kurzfristig ist, helfen klare Angaben mehr als lange Erklärungen. Ich prüfe Verfügbarkeit, musikalische Machbarkeit und die Abstimmung mit den beteiligten Personen so zügig wie möglich."
+      }
+    ]
+  },
+  "solemn": {
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Bratsche Beerdigung ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie, Raum und gewünschter Nähe. Diese Punkte sollten vor dem Abschied geklärt sein.",
+    "cards": [
+      {
+        "rom": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "poet": "Bei Bratsche Beerdigung klären wir zuerst, ob die Musik Anfang, Übergang, Erinnerung oder Schlussmoment sein soll.",
+        "list": [
+          "Beginn",
+          "Zwischenmoment",
+          "Abschluss"
+        ]
+      },
+      {
+        "rom": "Ablauf",
+        "title": "Start und Ende sicher abstimmen",
+        "poet": "Ein Blickzeichen, eine Kontaktperson oder ein Stichwort verhindert Unsicherheit während der Trauerfeier.",
+        "list": [
+          "Kontaktperson",
+          "Startsignal",
+          "flexibles Ende"
+        ]
+      }
+    ],
+    "listLabel": "Mögliche Fragen zu Bratsche Beerdigung",
+    "list": [
+      "Welcher Moment soll getragen werden?",
+      "Ist ein Wunschstück vorgesehen?",
+      "Findet etwas draußen statt?",
+      "Wer gibt am Tag selbst das Signal?"
+    ]
   }
 }

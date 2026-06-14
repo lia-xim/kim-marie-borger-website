@@ -6,59 +6,194 @@
   "targetKeyword": "Trauermusik Dormagen",
   "intentCluster": "beerdigungen:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-8-review-needed",
   "enabled": true,
-  "seoTitle": "Trauermusik Dormagen | Viola für Beerdigung & Abschied",
-  "seoDescription": "Trauermusik in Dormagen: würdevolle Viola-Begleitung für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Behutsam und zuverlässig.",
+  "seoTitle": "Trauermusik Dormagen | Live-Viola für Abschied",
+  "seoDescription": "Trauermusik Dormagen: Solo-Viola für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Ruhig geplant und persönlich abgestimmt.",
   "hero": {
-    "title": "Trauermusik in Dormagen für einen würdevollen Abschied.",
-    "lead": "Warme Viola-Klänge für Trauerfeier, Beerdigung, Bestattung oder Abschied in Dormagen - behutsam, ruhig und zuverlässig."
+    "eyebrow": "Abschied in Dormagen",
+    "title": "Trauermusik in Dormagen, die den Abschied ruhig trägt.",
+    "lead": "Ob Trauerfeier, Beerdigung, Bestattung oder letzter Abschied: Ich begleite Abschiede in Dormagen mit Solo-Viola, abgestimmt auf Ort, Ablauf und die Menschen, die Abschied nehmen.",
+    "badge": "Behutsam geplant & persönlich abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Trauermusik in Dormagen.",
+    "title": "FAQ zu Trauermusik in Dormagen",
     "items": [
       {
-        "question": "Begleitest du Trauerfeiern in Dormagen?",
-        "answer": "Ja. Ich spiele Trauermusik in Dormagen in Trauerhallen, Kirchen, Kapellen, am Grab oder bei freien Abschiedsfeiern.",
+        "question": "Spielst du Trauermusik in Dormagen?",
+        "answer": "Ja. Ich begleite Abschiede in Dormagen mit Solo-Viola, je nach Ablauf in Trauerhalle, Kirche, Kapelle, am Friedhof oder bei einer freien Abschiedsfeier.",
         "open": true
       },
       {
-        "question": "Kannst du dich mit dem Bestattungshaus abstimmen?",
-        "answer": "Ja. Ablauf, Einsätze, Ankunft und Stückauswahl kläre ich gern direkt mit Bestatter:in, Pfarrer:in oder Trauerredner:in."
+        "question": "Was ist bei Trauermusik in Dormagen besonders wichtig?",
+        "answer": "Für Dormagen achte ich besonders auf die Abstimmung zwischen Trauerort, Beisetzung und möglichem Wechsel zwischen Innenraum und Friedhof."
       },
       {
-        "question": "Welche Stücke passen zur Beerdigung?",
-        "answer": "Häufig gewünscht sind Ave Maria, Air, Méditation, Amazing Grace oder ein persönliches Lieblingsstück, das behutsam für Viola arrangiert wird."
+        "question": "Kannst du dich mit dem Bestattungshaus abstimmen?",
+        "answer": "Ja. Ablauf, Ankunft, Platzierung, Einsätze und Rückfragen kann ich direkt mit Bestattungshaus, Trauerrednerin, Pfarrer oder Kontaktperson klären."
+      },
+      {
+        "question": "Welche Stücke passen zur Trauerfeier?",
+        "answer": "Häufig passen klassische Trauermusik, moderne Melodien und sehr reduzierte Musik am Grab. Entscheidend ist, dass das Stück zur Person und zur konkreten Stelle im Ablauf passt."
+      },
+      {
+        "question": "Ist Musik draußen am Grab möglich?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Oft ist am Grab ein kurzer, sehr reduzierter Einsatz am passendsten."
+      },
+      {
+        "question": "Wie viele Musikstücke sind sinnvoll?",
+        "answer": "Häufig reichen zwei bis vier Einsätze. Ein Stück zum Beginn, ein ruhiger Moment nach Worten und Musik zum Auszug sind oft stimmiger als ein zu dichtes Programm."
+      },
+      {
+        "question": "Kann die Musik sehr dezent bleiben?",
+        "answer": "Ja. Die Viola kann leise und nah spielen. Gerade bei Trauerfeiern ist Zurückhaltung oft wichtiger als Lautstärke oder ein besonders langer musikalischer Beitrag."
+      },
+      {
+        "question": "Welche Angaben brauchst du für eine Anfrage?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort in Dormagen, der geplante Ablauf und ein Hinweis, ob Musik nur in der Trauerfeier oder auch am Grab gewünscht ist. Wenn es bereits ein Wunschstück gibt, prüfe ich direkt, ob es für Solo-Viola passt."
+      },
+      {
+        "question": "Warum gibt es eine eigene Seite für Dormagen?",
+        "answer": "Weil Trauermusik in Dormagen andere praktische Fragen hat als eine allgemeine Repertoireseite. Wege, Raumakustik, Friedhofsablauf, Wetter und lokale Abstimmung verändern, wie Musik am Abschiedstag wirklich funktioniert."
       },
       {
         "question": "Sind kurzfristige Anfragen möglich?",
-        "answer": "Oft ja. Gerade bei Beerdigungen in Dormagen melde ich mich schnell zurück, damit ihr Planungssicherheit bekommt."
+        "answer": "Oft ja. Für Abschiede in Dormagen melde ich mich schnell zurück, sobald Datum, Ort und ungefähre Uhrzeit feststehen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+      "alt": "Live-Viola als Trauermusik in Dormagen 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola als Trauermusik in Dormagen 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Trauermusik Dormagen anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Trauermusik Dormagen.",
+    "eyebrow": "Trauermusik anfragen",
+    "title": "Trauermusik in Dormagen anfragen",
+    "lead": "Schickt mir Datum, Trauerort in Dormagen, Ablauf und mögliche Wunschstücke. Ich melde mich ruhig und zeitnah mit einer realistischen musikalischen Einschätzung.",
     "checklist": [
-      "Trauermusik Dormagen",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Dormagen",
+      "Trauerfeier oder Grab",
+      "Wunschstück"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Trauermusik Dormagen zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Termin prüfen",
+    "formTitle": "Trauermusik in Dormagen anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer behutsamen Idee für Trauermusik in Dormagen."
+  },
+  "split": {
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Trauermusik in Dormagen braucht Ruhe, Timing und verlässliche Abstimmung.",
+    "lede": "Dormagen bedeutet für Abschiede oft: Rheinlage, Zons, Knechtsteden und Abschiede zwischen Düsseldorf und Köln. Deshalb plane ich Trauermusik nicht pauschal, sondern nach Trauerort, Raumklang, Weglänge und dem Punkt, an dem Musik wirklich helfen kann.",
+    "paragraphs": [
+      "Typische Rahmen sind Trauerhalle, Kirche, Friedhofskapelle oder freie Abschiedsfeier. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Beginn, nach Erinnerungsworten, während eines stillen Rituals, beim Auszug oder kurz am Grab.",
+      "Der Klang soll würdevoll, schlicht und nah sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleinen Kapellen, Trauerhallen oder draußen sehr direkt wirken.",
+      "Ich plane lieber wenige klare Einsätze als zu viel Musik am Stück. So entsteht kein Musikblock, sondern ein ruhiger Faden durch die Feier.",
+      "Für Dormagen kläre ich vorab auch die praktischen Details: die Lage zwischen zwei Städten für Anfahrt und Ablauf mitdenken. Das klingt nüchtern, entscheidet aber oft darüber, ob die Musik am Tag selbst still und sicher beginnen kann.",
+      "Eine Trauerhalle braucht andere Länge als ein Moment am Grab; eine Kirche braucht wegen der Akustik mehr Ruhe. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
+      "Das Repertoire kann klassische Trauermusik, moderne Melodien und sehr reduzierte Musik am Grab verbinden. Wichtig ist, dass die Musik zur Person, zum Raum und zur Familie passt.",
+      "Ortsbezug bedeutet hier praktische Entlastung: Wo beginnt die Musik, wie laut darf sie sein, und wo ist der beste Platz für die Viola?",
+      "Dormagen liegt zwischen Düsseldorf und Köln, und genau diese Lage prägt viele Abläufe. Angehörige kommen aus mehreren Richtungen, Rheinorte wirken ruhig, und Zons oder Knechtsteden brauchen eine feine musikalische Linie.",
+      "Für Dormagen achte ich besonders auf die Abstimmung zwischen Trauerort, Beisetzung und möglichem Wechsel zwischen Innenraum und Friedhof.",
+      "Manchmal ist die wichtigste Entscheidung, an welcher Stelle keine Musik erklingt. Stille kann ebenso tragend sein wie ein Stück, wenn sie bewusst gesetzt wird.",
+      "Wenn Bestattungshaus, Kirche oder Trauerrednerin beteiligt sind, stimme ich die musikalischen Einsätze gern direkt ab. Dadurch bleibt die Familie aus organisatorischen Rückfragen heraus.",
+      "Kirchenräume brauchen wegen Hall und Nachklang ruhigere Tempi. Am Grab dagegen wirkt ein kurzer, klarer musikalischer Satz häufig stärker als ein ganzes Stück.",
+      "Am Grab ist weniger oft mehr: ein kurzer Ausschnitt, ein ruhiger letzter Ton und dann wieder Stille.",
+      "Die lokale Planung beginnt bei der Frage, wie Rheinlage, Zons, Knechtsteden und Abschiede zwischen Düsseldorf und Köln den Abschied prägt. Daraus ergibt sich, ob ein getragenes Stück, ein kurzer Ausschnitt oder ein stiller Übergang besser passt.",
+      "Musik kann eine Erinnerung öffnen, ohne sie auszusprechen. Deshalb bespreche ich gern, ob ein Lied mit der verstorbenen Person verbunden ist oder ob ein klassisches Stück eher Halt geben soll.",
+      "Wenn der Abschied in Dormagen mehrere Stationen hat, plane ich lieber klare musikalische Inseln als durchgehende Begleitung. So bleibt jeder Moment erkennbar und der Ablauf übersichtlich.",
+      "Der lokale Inhalt ist deshalb nicht nur SEO-Text, sondern eine praktische Entscheidungshilfe für Angehörige, Rednerinnen oder Bestattungshäuser in der Region.",
+      "Wenn die Familie entlastet werden soll, kann die weitere Abstimmung über Bestattungshaus, Kirche oder Trauerrednerin laufen. Wichtig ist nur, dass am Ende ein eindeutiges Startsignal feststeht.",
+      "In Dormagen achte ich besonders darauf, ob der Abschied eher öffentlich, familiär oder sehr klein gehalten ist. Davon hängt ab, ob die Musik sichtbar vorne steht oder fast unauffällig aus dem Raum heraus trägt.",
+      "Ob ein Stück klassisch, modern oder persönlich ist, entscheidet weniger über die Qualität als seine Platzierung. Ein Lied am falschen Punkt kann zu viel werden; am richtigen Punkt kann es genau den Halt geben.",
+      "Ich halte die Abstimmung bewusst ruhig und übersichtlich. Gerade in Trauerzeiten sind kurze Rückfragen, klare Vorschläge und verlässliche Zusagen wichtiger als eine lange musikalische Beratung.",
+      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab."
+    ],
+    "seal": "Dormagen\nTrauerfeier & Abschied\nLive-Viola"
+  },
+  "elegy": {
+    "quote": "Trauermusik in Dormagen soll nicht erklären, sondern dem Abschied einen ruhigen Halt geben.",
+    "passages": [
+      {
+        "strong": "Der Ort",
+        "text": "Rheinlage, Zons, Knechtsteden und Abschiede zwischen Düsseldorf und Köln. Diese konkrete Umgebung beeinflusst, ob Musik eher im Raum, am Ausgang oder draußen am Grab sinnvoll ist."
+      },
+      {
+        "strong": "Der Klang",
+        "text": "Die Viola bleibt warm und zurückhaltend. Sie kann Trauer halten, ohne aus dem Abschied einen musikalischen Vortrag zu machen."
+      },
+      {
+        "strong": "Die Abstimmung",
+        "text": "Ich stimme mich bei Bedarf mit Bestattungshaus, Rednerin, Pfarrer oder Familie ab, damit Angehörige am Tag selbst nicht organisieren müssen."
+      },
+      {
+        "strong": "Lokaler Ablauf",
+        "text": "Die lokale Planung beginnt bei der Frage, wie Rheinlage, Zons, Knechtsteden und Abschiede zwischen Düsseldorf und Köln den Abschied prägt. Daraus ergibt sich, ob ein getragenes Stück, ein kurzer Ausschnitt oder ein stiller Übergang besser passt. Wenn der Abschied in Dormagen mehrere Stationen hat, plane ich lieber klare musikalische Inseln als durchgehende Begleitung. So bleibt jeder Moment erkennbar und der Ablauf übersichtlich."
+      },
+      {
+        "strong": "Dormagen konkret",
+        "text": "Dormagen liegt zwischen Düsseldorf und Köln, und genau diese Lage prägt viele Abläufe. Angehörige kommen aus mehreren Richtungen, Rheinorte wirken ruhig, und Zons oder Knechtsteden brauchen eine feine musikalische Linie."
+      },
+      {
+        "strong": "Praktische Details",
+        "text": "Für Dormagen achte ich besonders auf die Abstimmung zwischen Trauerort, Beisetzung und möglichem Wechsel zwischen Innenraum und Friedhof."
+      },
+      {
+        "strong": "Räume und Wege",
+        "text": "Für Dormagen bedeutet Trauerhalle, Kirche, Friedhofskapelle oder freie Abschiedsfeier: die Lage zwischen zwei Städten für Anfahrt und Ablauf mitdenken. Der Rahmen Rheinlage, Zons, Knechtsteden und Abschiede zwischen Düsseldorf und Köln verändert, ob die Musik nah bei den Angehörigen, am Ausgang, in einer Kapelle oder erst draußen sinnvoll wirkt."
+      },
+      {
+        "strong": "Wunschmusik",
+        "text": "Musik kann eine Erinnerung öffnen, ohne sie auszusprechen. Deshalb bespreche ich gern, ob ein Lied mit der verstorbenen Person verbunden ist oder ob ein klassisches Stück eher Halt geben soll. Ob ein Stück klassisch, modern oder persönlich ist, entscheidet weniger über die Qualität als seine Platzierung. Ein Lied am falschen Punkt kann zu viel werden; am richtigen Punkt kann es genau den Halt geben."
+      },
+      {
+        "strong": "Entlastung",
+        "text": "Ich halte die Abstimmung bewusst ruhig und übersichtlich. Gerade in Trauerzeiten sind kurze Rückfragen, klare Vorschläge und verlässliche Zusagen wichtiger als eine lange musikalische Beratung. Wenn die Familie entlastet werden soll, kann die weitere Abstimmung über Bestattungshaus, Kirche oder Trauerrednerin laufen. Wichtig ist nur, dass am Ende ein eindeutiges Startsignal feststeht."
+      },
+      {
+        "strong": "Abgrenzung",
+        "text": "Der lokale Inhalt ist deshalb nicht nur SEO-Text, sondern eine praktische Entscheidungshilfe für Angehörige, Rednerinnen oder Bestattungshäuser in der Region."
+      }
+    ]
+  },
+  "solemn": {
+    "eyebrow": "Ablauf",
+    "title": "Wo Trauermusik in Dormagen sinnvoll wirken kann.",
+    "lead": "Die genaue Dramaturgie richtet sich nach Trauerort, Zeremonieform und dem gewünschten Abschiedston.",
+    "cards": [
+      {
+        "rom": "Beginn",
+        "title": "Den Raum sammeln",
+        "poet": "Ein ruhiges erstes Stück hilft, bevor die ersten Worte gesprochen werden.",
+        "list": [
+          "Ankommen",
+          "Kerze oder Foto",
+          "erster stiller Moment"
+        ]
+      },
+      {
+        "rom": "Abschluss",
+        "title": "Den Auszug halten",
+        "poet": "Ein schlichtes Schlussstück kann den Übergang aus Trauerhalle, Kirche oder Kapelle würdevoll führen.",
+        "list": [
+          "Auszug",
+          "Gang zum Grab",
+          "letzter Gruß"
+        ]
+      }
+    ],
+    "listLabel": "Mögliche Einsatzpunkte in Dormagen",
+    "list": [
+      "Beginn der Trauerfeier",
+      "nach persönlichen Erinnerungen",
+      "Kerzen- oder Blumenmoment",
+      "Auszug oder kurzer Moment am Grab"
+    ]
   }
 }

@@ -6,55 +6,185 @@
   "targetKeyword": "Ave Maria Beerdigung",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-8-review-needed",
   "enabled": true,
-  "seoTitle": "Ave Maria Beerdigung | Trauermusik mit Viola",
-  "seoDescription": "Ave Maria Beerdigung: Behutsame Live-Viola für Trauerfeier, Beerdigung und Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "seoTitle": "Ave Maria Beerdigung | Live-Viola für Abschied",
+  "seoDescription": "Ave Maria Beerdigung: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
   "hero": {
-    "title": "Ave Maria Beerdigung, persönlich geplant und live begleitet.",
-    "lead": "Behutsame Live-Viola für Abschiede, Trauerfeiern und stille Erinnerungsmomente. Diese Seite bündelt den Suchintent \"Ave Maria Beerdigung\" für einen klassischen, stillen Abschiedsmoment."
+    "eyebrow": "Ave Maria",
+    "title": "Ave Maria zur Beerdigung, getragen, klassisch und behutsam eingesetzt.",
+    "lead": "Ave Maria Beerdigung richtet sich an Familien, die ein bekanntes klassisches Stück für den Abschied suchen. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf zum Abschied passen und Angehörige organisatorisch entlastet werden.",
+    "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Ave Maria Beerdigung.",
+    "title": "FAQ zu Ave Maria Beerdigung",
     "items": [
       {
-        "question": "Passt Ave Maria Beerdigung zu den Abschied?",
-        "answer": "Ja. Ave Maria Beerdigung wird gezielt auf den Abschied, den Raum und den Ablauf abgestimmt. für die passende Stückauswahl bei einer Trauerfeier.",
+        "question": "Für welchen Abschied passt Ave Maria Beerdigung?",
+        "answer": "Ave Maria Beerdigung passt besonders für Familien, die ein bekanntes klassisches Stück für den Abschied suchen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
         "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Ave Maria Beerdigung am Tag selbst ruhig funktioniert."
+        "question": "Passt das zu Trauerhalle, Kirche und Friedhof?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für Trauerhallen, Kirchen, Kapellen und kurze Außenmomente flexibel."
+      },
+      {
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Am Grab ist oft ein kurzer, schlichter Einsatz sinnvoller als ein langes Stück."
+      },
+      {
+        "question": "Wie viele Stücke sind für diesen Schwerpunkt sinnvoll?",
+        "answer": "Das hängt vom Ablauf ab. Für viele Trauerfeiern reichen wenige Einsätze, die klar begründet sind: Anfang, Erinnerung, Übergang oder Abschluss."
+      },
+      {
+        "question": "Was passiert, wenn noch kein Lied feststeht?",
+        "answer": "Dann ordnen wir zuerst den Moment ein. Danach kann ich Stücke vorschlagen, die zu Raum, Person und gewünschter Zurückhaltung passen."
+      },
+      {
+        "question": "Warum gibt es dazu eine eigene Seite?",
+        "answer": "Ave Maria Beerdigung hat einen eigenen Suchintent. Diese Seite beantwortet deshalb nicht nur allgemein, welche Trauermusik möglich ist, sondern ordnet genau diesen Begriff nach Ablauf, Klang, Wunschmusik, Abgrenzung zu ähnlichen Seiten und konkreter Anfrage ein."
+      },
+      {
+        "question": "Welche Informationen helfen für die erste Einschätzung?",
+        "answer": "Für Ave Maria Beerdigung helfen Datum, Ort, Uhrzeit, gewünschter Moment im Ablauf, vorhandene Wunschstücke und die Frage, ob die Musik in der Trauerfeier, draußen am Grab oder an beiden Stellen geplant ist."
+      },
+      {
+        "question": "Wie kurzfristig können wir anfragen?",
+        "answer": "Oft auch kurzfristig. Wichtig sind Datum, Ort, Uhrzeit, grober Ablauf und die gewünschte Musik, damit ich schnell prüfen kann, ob der Termin möglich ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+      "alt": "Live-Viola für Ave Maria Beerdigung 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola für Ave Maria Beerdigung 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Trauermusik planen",
     "title": "Ave Maria Beerdigung anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Ave Maria Beerdigung.",
+    "lead": "Schickt mir Datum, Ort, Ablauf und den Moment, für den ihr Ave Maria Beerdigung plant. Ich melde mich mit einer behutsamen musikalischen Idee.",
     "checklist": [
       "Ave Maria Beerdigung",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Trauerfeier oder Grab",
+      "Wunschstück"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Ave Maria Beerdigung zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Ave Maria Beerdigung anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Ave Maria Beerdigung."
+  },
+  "split": {
+    "eyebrow": "Suchintention",
+    "title": "Ave Maria Beerdigung braucht eine eigene musikalische Planung.",
+    "lede": "Der Suchintent ist sehr konkret: Es geht nicht um irgendeine Trauermusik, sondern um Ave Maria als Abschiedsstück. Gesucht wird keine austauschbare Hintergrundmusik, sondern eine Lösung für Kirche, Trauerhalle, Beginn, Meditation oder Auszug.",
+    "paragraphs": [
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
+      "Ich prüfe, welche Fassung und welcher Ausschnitt zur Solo-Viola, zur Raumakustik und zum Ablauf passt.",
+      "Ave Maria braucht Ruhe und darf nicht zu dekorativ wirken. Der Einsatzpunkt entscheidet, ob es trägt oder zu schwer wird.",
+      "Ich plane den Einsatz so, dass die Musik weder zu früh beginnt noch den Abschied unnötig verlängert. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
+      "Wenn der Termin kurzfristig ist, helfen Datum, Uhrzeit, Ort und gewünschte Stücke für eine schnelle Einschätzung.",
+      "Dabei bleibt die Musik bewusst schlicht. Sie soll nicht zeigen, was musikalisch möglich ist, sondern genau den Raum öffnen, den Angehörige in diesem Moment brauchen.",
+      "Für die interne Struktur ist diese Differenzierung wichtig, weil ähnliche Begriffe sonst denselben Text tragen würden. Hier bekommt der Suchintent eine eigene redaktionelle Aufgabe.",
+      "Bei einer kirchlichen Feier kann zusätzlich wichtig sein, ob es musikalische Vorgaben gibt oder ob ein bestimmter Programmpunkt liturgisch festgelegt ist.",
+      "Bei modernen Stücken achte ich darauf, dass die Melodie auch ohne Text verstanden wird. Nicht jedes Lied behält ohne Gesang dieselbe Bedeutung.",
+      "Für Ave Maria Beerdigung beginne ich nicht mit einer pauschalen Stückliste, sondern mit der Rolle im Ablauf. Erst wenn klar ist, ob die Musik sammeln, erinnern oder verabschieden soll, wird die Auswahl wirklich passend.",
+      "Klassische Musik, moderne Lieder und persönliche Wunschstücke brauchen unterschiedliche Bearbeitungen. Entscheidend ist, dass die Melodie auf der Viola trägt und der Moment nicht überladen wird.",
+      "Gerade bei emotionalen Terminen sollte Musik nicht noch eine zusätzliche Aufgabe für die Familie werden. Sie soll einen Moment halten und die Organisation im Hintergrund einfacher machen.",
+      "Für die SEO-Struktur ist diese Abgrenzung zentral: Ave Maria Beerdigung soll nicht dieselben Antworten liefern wie Musik Beerdigung, Musik Trauerfeier oder eine lokale Stadtseite.",
+      "Für eine Anfrage zu Ave Maria Beerdigung reichen zuerst Datum, Ort, Uhrzeit, geplanter Einsatzpunkt und mögliche Wunschmusik. Danach lässt sich klären, ob ein Stück, mehrere Einsätze oder ein sehr kurzer musikalischer Moment sinnvoll sind.",
+      "Der Begriff Ave Maria Beerdigung kann je nach Familie sehr Unterschiedliches meinen. Deshalb kläre ich, ob es um Inspiration, konkrete Buchung, ein bestimmtes Lied, ein Instrument oder eine einzelne Stelle im Ablauf geht.",
+      "Wenn Kirche, Trauerhalle, Beginn, Meditation oder Auszug mit einem anschließenden Gang zum Grab verbunden ist, plane ich die Musik eher als Übergang. Dann zählt weniger das einzelne Stück als die ruhige Führung durch den Moment.",
+      "Diese klare Grenze hilft auch bei der späteren redaktionellen Pflege im CMS: Titel, FAQ, Alt-Texte und Kontaktabschnitt folgen demselben Intent und wirken nicht wie kopierte Varianten.",
+      "Für die Familie soll der Prozess möglichst leicht bleiben. Ich kann mit einer kurzen Empfehlung starten, danach Stücke konkretisieren und die musikalischen Einsätze mit den beteiligten Personen abstimmen.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Ave Maria Beerdigung nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
+      "So entsteht eine eigene Seite für den Suchbegriff, ohne dass sie mit der allgemeinen Trauermusik-Seite dieselbe Aufgabe übernimmt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Lieder; hier geht es genau um Ave Maria Beerdigung."
+    ],
+    "seal": "Ave Maria\nAbschied\nLive-Viola"
+  },
+  "elegy": {
+    "quote": "Ave Maria Beerdigung soll dem Abschied Raum geben, ohne Worte zu ersetzen.",
+    "passages": [
+      {
+        "strong": "Der Suchintent",
+        "text": "Der Suchintent ist sehr konkret: Es geht nicht um irgendeine Trauermusik, sondern um Ave Maria als Abschiedsstück."
+      },
+      {
+        "strong": "Musikalische Aufgabe",
+        "text": "Ich prüfe, welche Fassung und welcher Ausschnitt zur Solo-Viola, zur Raumakustik und zum Ablauf passt."
+      },
+      {
+        "strong": "Abgrenzung",
+        "text": "Ave Maria braucht Ruhe und darf nicht zu dekorativ wirken. Der Einsatzpunkt entscheidet, ob es trägt oder zu schwer wird."
+      },
+      {
+        "strong": "Ablauf",
+        "text": "Für Ave Maria Beerdigung beginne ich nicht mit einer pauschalen Stückliste, sondern mit der Rolle im Ablauf. Erst wenn klar ist, ob die Musik sammeln, erinnern oder verabschieden soll, wird die Auswahl wirklich passend. Der Begriff Ave Maria Beerdigung kann je nach Familie sehr Unterschiedliches meinen. Deshalb kläre ich, ob es um Inspiration, konkrete Buchung, ein bestimmtes Lied, ein Instrument oder eine einzelne Stelle im Ablauf geht."
+      },
+      {
+        "strong": "Raum und Klang",
+        "text": "Wenn Kirche, Trauerhalle, Beginn, Meditation oder Auszug mit einem anschließenden Gang zum Grab verbunden ist, plane ich die Musik eher als Übergang. Dann zählt weniger das einzelne Stück als die ruhige Führung durch den Moment. Bei modernen Stücken achte ich darauf, dass die Melodie auch ohne Text verstanden wird. Nicht jedes Lied behält ohne Gesang dieselbe Bedeutung."
+      },
+      {
+        "strong": "Wunschmusik",
+        "text": "Klassische Musik, moderne Lieder und persönliche Wunschstücke brauchen unterschiedliche Bearbeitungen. Entscheidend ist, dass die Melodie auf der Viola trägt und der Moment nicht überladen wird. Für die Familie soll der Prozess möglichst leicht bleiben. Ich kann mit einer kurzen Empfehlung starten, danach Stücke konkretisieren und die musikalischen Einsätze mit den beteiligten Personen abstimmen."
+      },
+      {
+        "strong": "SEO-Abgrenzung",
+        "text": "Für die SEO-Struktur ist diese Abgrenzung zentral: Ave Maria Beerdigung soll nicht dieselben Antworten liefern wie Musik Beerdigung, Musik Trauerfeier oder eine lokale Stadtseite. Diese klare Grenze hilft auch bei der späteren redaktionellen Pflege im CMS: Titel, FAQ, Alt-Texte und Kontaktabschnitt folgen demselben Intent und wirken nicht wie kopierte Varianten."
+      },
+      {
+        "strong": "Anfrage",
+        "text": "Für eine Anfrage zu Ave Maria Beerdigung reichen zuerst Datum, Ort, Uhrzeit, geplanter Einsatzpunkt und mögliche Wunschmusik. Danach lässt sich klären, ob ein Stück, mehrere Einsätze oder ein sehr kurzer musikalischer Moment sinnvoll sind."
+      }
+    ]
+  },
+  "solemn": {
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Ave Maria Beerdigung ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie, Raum und gewünschter Nähe. Diese Punkte sollten vor dem Abschied geklärt sein.",
+    "cards": [
+      {
+        "rom": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "poet": "Bei Ave Maria Beerdigung klären wir zuerst, ob die Musik Anfang, Übergang, Erinnerung oder Schlussmoment sein soll.",
+        "list": [
+          "Beginn",
+          "Zwischenmoment",
+          "Abschluss"
+        ]
+      },
+      {
+        "rom": "Ablauf",
+        "title": "Start und Ende sicher abstimmen",
+        "poet": "Ein Blickzeichen, eine Kontaktperson oder ein Stichwort verhindert Unsicherheit während der Trauerfeier.",
+        "list": [
+          "Kontaktperson",
+          "Startsignal",
+          "flexibles Ende"
+        ]
+      }
+    ],
+    "listLabel": "Mögliche Fragen zu Ave Maria Beerdigung",
+    "list": [
+      "Welcher Moment soll getragen werden?",
+      "Ist ein Wunschstück vorgesehen?",
+      "Findet etwas draußen statt?",
+      "Wer gibt am Tag selbst das Signal?"
+    ]
   }
 }

@@ -6,59 +6,194 @@
   "targetKeyword": "Trauermusik Solingen",
   "intentCluster": "beerdigungen:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-8-review-needed",
   "enabled": true,
-  "seoTitle": "Trauermusik Solingen | Viola für Beerdigung & Abschied",
-  "seoDescription": "Trauermusik in Solingen: würdevolle Viola-Begleitung für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Behutsam und zuverlässig.",
+  "seoTitle": "Trauermusik Solingen | Live-Viola für Abschied",
+  "seoDescription": "Trauermusik Solingen: Solo-Viola für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Ruhig geplant und persönlich abgestimmt.",
   "hero": {
-    "title": "Trauermusik in Solingen für einen würdevollen Abschied.",
-    "lead": "Warme Viola-Klänge für Trauerfeier, Beerdigung, Bestattung oder Abschied in Solingen - behutsam, ruhig und zuverlässig."
+    "eyebrow": "Abschied in Solingen",
+    "title": "Trauermusik in Solingen, die den Abschied ruhig trägt.",
+    "lead": "Ob Trauerfeier, Beerdigung, Bestattung oder letzter Abschied: Ich begleite Abschiede in Solingen mit Solo-Viola, abgestimmt auf Ort, Ablauf und die Menschen, die Abschied nehmen.",
+    "badge": "Behutsam geplant & persönlich abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Trauermusik in Solingen.",
+    "title": "FAQ zu Trauermusik in Solingen",
     "items": [
       {
-        "question": "Begleitest du Trauerfeiern in Solingen?",
-        "answer": "Ja. Ich spiele Trauermusik in Solingen in Trauerhallen, Kirchen, Kapellen, am Grab oder bei freien Abschiedsfeiern.",
+        "question": "Spielst du Trauermusik in Solingen?",
+        "answer": "Ja. Ich begleite Abschiede in Solingen mit Solo-Viola, je nach Ablauf in Trauerhalle, Kirche, Kapelle, am Friedhof oder bei einer freien Abschiedsfeier.",
         "open": true
       },
       {
-        "question": "Kannst du dich mit dem Bestattungshaus abstimmen?",
-        "answer": "Ja. Ablauf, Einsätze, Ankunft und Stückauswahl kläre ich gern direkt mit Bestatter:in, Pfarrer:in oder Trauerredner:in."
+        "question": "Was ist bei Trauermusik in Solingen besonders wichtig?",
+        "answer": "Für Solingen sind Höhenlage, Zugang, Wetter und Raumgröße wichtig, bevor wir entscheiden, ob Musik draußen oder innen besser wirkt."
       },
       {
-        "question": "Welche Stücke passen zur Beerdigung?",
-        "answer": "Häufig gewünscht sind Ave Maria, Air, Méditation, Amazing Grace oder ein persönliches Lieblingsstück, das behutsam für Viola arrangiert wird."
+        "question": "Kannst du dich mit dem Bestattungshaus abstimmen?",
+        "answer": "Ja. Ablauf, Ankunft, Platzierung, Einsätze und Rückfragen kann ich direkt mit Bestattungshaus, Trauerrednerin, Pfarrer oder Kontaktperson klären."
+      },
+      {
+        "question": "Welche Stücke passen zur Trauerfeier?",
+        "answer": "Häufig passen ein klassisches Stück, ein moderner Song in ruhiger Fassung und ein kurzer Auszug. Entscheidend ist, dass das Stück zur Person und zur konkreten Stelle im Ablauf passt."
+      },
+      {
+        "question": "Ist Musik draußen am Grab möglich?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Oft ist am Grab ein kurzer, sehr reduzierter Einsatz am passendsten."
+      },
+      {
+        "question": "Wie viele Musikstücke sind sinnvoll?",
+        "answer": "Häufig reichen zwei bis vier Einsätze. Ein Stück zum Beginn, ein ruhiger Moment nach Worten und Musik zum Auszug sind oft stimmiger als ein zu dichtes Programm."
+      },
+      {
+        "question": "Kann die Musik sehr dezent bleiben?",
+        "answer": "Ja. Die Viola kann leise und nah spielen. Gerade bei Trauerfeiern ist Zurückhaltung oft wichtiger als Lautstärke oder ein besonders langer musikalischer Beitrag."
+      },
+      {
+        "question": "Welche Angaben brauchst du für eine Anfrage?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort in Solingen, der geplante Ablauf und ein Hinweis, ob Musik nur in der Trauerfeier oder auch am Grab gewünscht ist. Wenn es bereits ein Wunschstück gibt, prüfe ich direkt, ob es für Solo-Viola passt."
+      },
+      {
+        "question": "Warum gibt es eine eigene Seite für Solingen?",
+        "answer": "Weil Trauermusik in Solingen andere praktische Fragen hat als eine allgemeine Repertoireseite. Wege, Raumakustik, Friedhofsablauf, Wetter und lokale Abstimmung verändern, wie Musik am Abschiedstag wirklich funktioniert."
       },
       {
         "question": "Sind kurzfristige Anfragen möglich?",
-        "answer": "Oft ja. Gerade bei Beerdigungen in Solingen melde ich mich schnell zurück, damit ihr Planungssicherheit bekommt."
+        "answer": "Oft ja. Für Abschiede in Solingen melde ich mich schnell zurück, sobald Datum, Ort und ungefähre Uhrzeit feststehen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+      "alt": "Live-Viola als Trauermusik in Solingen 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola als Trauermusik in Solingen 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Trauermusik Solingen anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Trauermusik Solingen.",
+    "eyebrow": "Trauermusik anfragen",
+    "title": "Trauermusik in Solingen anfragen",
+    "lead": "Schickt mir Datum, Trauerort in Solingen, Ablauf und mögliche Wunschstücke. Ich melde mich ruhig und zeitnah mit einer realistischen musikalischen Einschätzung.",
     "checklist": [
-      "Trauermusik Solingen",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Solingen",
+      "Trauerfeier oder Grab",
+      "Wunschstück"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Trauermusik Solingen zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Termin prüfen",
+    "formTitle": "Trauermusik in Solingen anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer behutsamen Idee für Trauermusik in Solingen."
+  },
+  "split": {
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Trauermusik in Solingen braucht Ruhe, Timing und verlässliche Abstimmung.",
+    "lede": "Solingen bedeutet für Abschiede oft: Ohligs, Gräfrath, Wald und bergische Abschiedsorte. Deshalb plane ich Trauermusik nicht pauschal, sondern nach Trauerort, Raumklang, Weglänge und dem Punkt, an dem Musik wirklich helfen kann.",
+    "paragraphs": [
+      "Typische Rahmen sind Trauerhalle, Kirche, Friedhof oder persönliche Feier mit handgemachtem Charakter. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Beginn, nach Erinnerungsworten, während eines stillen Rituals, beim Auszug oder kurz am Grab.",
+      "Der Klang soll persönlich, ohne den Abschied zu überladen sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleinen Kapellen, Trauerhallen oder draußen sehr direkt wirken.",
+      "Vorab klären wir, wer das Startsignal gibt und wann ein Stück enden darf. So entsteht kein Musikblock, sondern ein ruhiger Faden durch die Feier.",
+      "Für Solingen kläre ich vorab auch die praktischen Details: bei Häusern, Höhenlagen und Friedhofswegen Zugang und Wetteroptionen früh besprechen. Das klingt nüchtern, entscheidet aber oft darüber, ob die Musik am Tag selbst still und sicher beginnen kann.",
+      "Ein Lieblingslied kann viel bedeuten, muss aber an der richtigen Stelle und in passender Länge erscheinen. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
+      "Das Repertoire kann ein klassisches Stück, ein moderner Song in ruhiger Fassung und ein kurzer Auszug verbinden. Wichtig ist, dass die Musik zur Person, zum Raum und zur Familie passt.",
+      "Die lokale Seite ist bewusst mehr als ein Ortsname: Wege, Akustik, Friedhofsablauf und Kontaktpersonen verändern die musikalische Planung.",
+      "Solingen wirkt mit Gräfrath, Ohligs, Wald und bergischen Lagen oft handgemacht und persönlich. Die Viola kann dort warm, nah und nicht zu repräsentativ klingen, was besonders zu kleineren Kapellen und Friedhöfen passt.",
+      "Für Solingen sind Höhenlage, Zugang, Wetter und Raumgröße wichtig, bevor wir entscheiden, ob Musik draußen oder innen besser wirkt.",
+      "Viele Familien wünschen sich einen würdevollen Klang, aber keinen sichtbaren Konzertmoment. Deshalb halte ich Aufbau, Auftreten und Abstimmung so schlicht wie möglich.",
+      "Bei kurzfristigen Terminen helfen mir Datum, Uhrzeit, genaue Adresse, gewünschte Stücke und der Hinweis, ob Musik auch draußen geplant ist.",
+      "Der beste Platz ist nicht automatisch vorne. Manchmal trägt die Musik besser von der Seite, damit Blickachsen und Wege frei bleiben.",
+      "Zum Schluss geht es nicht um Wirkung, sondern um Halt. Ein schlichtes Ende hilft, wenn Menschen aufstehen, Blumen niederlegen oder aus der Halle gehen.",
+      "Bei Abschieden in Solingen geht es nicht nur um die Liedauswahl. Entscheidend ist auch, ob die Musik vor der Ansprache, nach einem persönlichen Text, beim Auszug oder erst draußen ihren stärksten Platz hat.",
+      "Manchmal reicht ein einzelner musikalischer Gedanke. Gerade bei Beerdigungen kann ein kürzerer Ausschnitt stärker wirken als eine lange Fassung, wenn die Stimmung ohnehin sehr dicht ist.",
+      "Für Termine in Solingen ist mir wichtig, dass die Musik nicht an organisatorischen Details hängt. Adresse, Ansprechpartner und Reihenfolge der Programmpunkte sollten vorab klar sein.",
+      "Diese Ortsseite ersetzt keine allgemeine Repertoireseite. Sie beantwortet die lokale Frage: Wie lässt sich ein Abschied hier vor Ort musikalisch ruhig und zuverlässig begleiten?",
+      "Wenn noch kein Stück feststeht, genügt eine Beschreibung der Stimmung: klassisch, modern, sehr schlicht, hoffnungsvoll oder besonders persönlich. Daraus lässt sich eine passende musikalische Richtung entwickeln.",
+      "Wenn Trauerhalle, Kirche, Friedhof oder persönliche Feier mit handgemachtem Charakter zusammenkommen, braucht die Musik eine klare Dramaturgie. Ein Stück kann den Anfang ordnen, ein zweites kann Erinnerung öffnen, und ein Schlussstück kann den Weg nach draußen halten.",
+      "Gerade draußen verändert sich der Klang schnell. Wind, Abstand und Bewegung auf dem Friedhof machen kurze, klare musikalische Formen oft sinnvoller als lange Fassungen.",
+      "Für Angehörige bedeutet das: Sie müssen keine perfekte musikalische Sprache finden. Es reicht, wenn sie erzählen, was der Moment ausdrücken soll; daraus kann ich eine passende musikalische Form ableiten.",
+      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab."
+    ],
+    "seal": "Solingen\nTrauerfeier & Abschied\nLive-Viola"
+  },
+  "elegy": {
+    "quote": "Trauermusik in Solingen soll nicht erklären, sondern dem Abschied einen ruhigen Halt geben.",
+    "passages": [
+      {
+        "strong": "Der Ort",
+        "text": "Ohligs, Gräfrath, Wald und bergische Abschiedsorte. Diese konkrete Umgebung beeinflusst, ob Musik eher im Raum, am Ausgang oder draußen am Grab sinnvoll ist."
+      },
+      {
+        "strong": "Der Klang",
+        "text": "Die Viola bleibt warm und zurückhaltend. Sie kann Trauer halten, ohne aus dem Abschied einen musikalischen Vortrag zu machen."
+      },
+      {
+        "strong": "Die Abstimmung",
+        "text": "Ich stimme mich bei Bedarf mit Bestattungshaus, Rednerin, Pfarrer oder Familie ab, damit Angehörige am Tag selbst nicht organisieren müssen."
+      },
+      {
+        "strong": "Lokaler Ablauf",
+        "text": "Bei Abschieden in Solingen geht es nicht nur um die Liedauswahl. Entscheidend ist auch, ob die Musik vor der Ansprache, nach einem persönlichen Text, beim Auszug oder erst draußen ihren stärksten Platz hat. Für Termine in Solingen ist mir wichtig, dass die Musik nicht an organisatorischen Details hängt. Adresse, Ansprechpartner und Reihenfolge der Programmpunkte sollten vorab klar sein."
+      },
+      {
+        "strong": "Solingen konkret",
+        "text": "Solingen wirkt mit Gräfrath, Ohligs, Wald und bergischen Lagen oft handgemacht und persönlich. Die Viola kann dort warm, nah und nicht zu repräsentativ klingen, was besonders zu kleineren Kapellen und Friedhöfen passt."
+      },
+      {
+        "strong": "Praktische Details",
+        "text": "Für Solingen sind Höhenlage, Zugang, Wetter und Raumgröße wichtig, bevor wir entscheiden, ob Musik draußen oder innen besser wirkt."
+      },
+      {
+        "strong": "Räume und Wege",
+        "text": "Für Solingen bedeutet Trauerhalle, Kirche, Friedhof oder persönliche Feier mit handgemachtem Charakter: bei Häusern, Höhenlagen und Friedhofswegen Zugang und Wetteroptionen früh besprechen. Der Rahmen Ohligs, Gräfrath, Wald und bergische Abschiedsorte verändert, ob die Musik nah bei den Angehörigen, am Ausgang, in einer Kapelle oder erst draußen sinnvoll wirkt."
+      },
+      {
+        "strong": "Wunschmusik",
+        "text": "Manchmal reicht ein einzelner musikalischer Gedanke. Gerade bei Beerdigungen kann ein kürzerer Ausschnitt stärker wirken als eine lange Fassung, wenn die Stimmung ohnehin sehr dicht ist. Gerade draußen verändert sich der Klang schnell. Wind, Abstand und Bewegung auf dem Friedhof machen kurze, klare musikalische Formen oft sinnvoller als lange Fassungen."
+      },
+      {
+        "strong": "Entlastung",
+        "text": "Für Angehörige bedeutet das: Sie müssen keine perfekte musikalische Sprache finden. Es reicht, wenn sie erzählen, was der Moment ausdrücken soll; daraus kann ich eine passende musikalische Form ableiten. Wenn noch kein Stück feststeht, genügt eine Beschreibung der Stimmung: klassisch, modern, sehr schlicht, hoffnungsvoll oder besonders persönlich. Daraus lässt sich eine passende musikalische Richtung entwickeln."
+      },
+      {
+        "strong": "Abgrenzung",
+        "text": "Diese Ortsseite ersetzt keine allgemeine Repertoireseite. Sie beantwortet die lokale Frage: Wie lässt sich ein Abschied hier vor Ort musikalisch ruhig und zuverlässig begleiten?"
+      }
+    ]
+  },
+  "solemn": {
+    "eyebrow": "Ablauf",
+    "title": "Wo Trauermusik in Solingen sinnvoll wirken kann.",
+    "lead": "Die genaue Dramaturgie richtet sich nach Trauerort, Zeremonieform und dem gewünschten Abschiedston.",
+    "cards": [
+      {
+        "rom": "Beginn",
+        "title": "Den Raum sammeln",
+        "poet": "Ein ruhiges erstes Stück hilft, bevor die ersten Worte gesprochen werden.",
+        "list": [
+          "Ankommen",
+          "Kerze oder Foto",
+          "erster stiller Moment"
+        ]
+      },
+      {
+        "rom": "Abschluss",
+        "title": "Den Auszug halten",
+        "poet": "Ein schlichtes Schlussstück kann den Übergang aus Trauerhalle, Kirche oder Kapelle würdevoll führen.",
+        "list": [
+          "Auszug",
+          "Gang zum Grab",
+          "letzter Gruß"
+        ]
+      }
+    ],
+    "listLabel": "Mögliche Einsatzpunkte in Solingen",
+    "list": [
+      "Beginn der Trauerfeier",
+      "nach persönlichen Erinnerungen",
+      "Kerzen- oder Blumenmoment",
+      "Auszug oder kurzer Moment am Grab"
+    ]
   }
 }

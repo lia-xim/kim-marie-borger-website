@@ -6,112 +6,185 @@
   "targetKeyword": "Musik letzter Abschied",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "rewritten-batch-2-review-needed",
+  "status": "rewritten-batch-8-review-needed",
   "enabled": true,
-  "seoTitle": "Musik letzter Abschied | Viola für den stillen Abschluss",
-  "seoDescription": "Musik für den letzten Abschied: Solo-Viola für Auszug, Gang zum Grab, Blumengruß oder den stillen Abschluss einer Trauerfeier.",
+  "seoTitle": "Musik Letzter Abschied | Live-Viola für Abschied",
+  "seoDescription": "Musik letzter Abschied: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
   "hero": {
     "eyebrow": "Letzter Abschied",
-    "title": "Musik für den letzten Abschied, wenn der Moment nicht länger erklärbar ist.",
-    "lead": "Der letzte Abschied ist oft der kürzeste und schwerste Moment: der Auszug, der Gang zum Grab, der Blumengruß oder die letzte Stille. Musik darf hier nicht erklären, sondern halten.",
-    "badge": "Für den finalen Moment"
+    "title": "Musik für den letzten Abschied, wenn der Schlussmoment gehalten werden soll.",
+    "lead": "Musik Letzter Abschied richtet sich an Angehörige, die den finalen Moment musikalisch rahmen möchten. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf zum Abschied passen und Angehörige organisatorisch entlastet werden.",
+    "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zur Musik für den letzten Abschied",
+    "title": "FAQ zu Musik Letzter Abschied",
     "items": [
       {
-        "question": "Kann Musik direkt am Grab gespielt werden?",
-        "answer": "Ja, wenn Ort, Wetter und Ablauf es zulassen. Oft ist dort ein kurzer, sehr reduzierter Einsatz am passendsten.",
+        "question": "Für welchen Abschied passt Musik letzter Abschied?",
+        "answer": "Musik Letzter Abschied passt besonders für Angehörige, die den finalen Moment musikalisch rahmen möchten. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
-        "question": "Wie lang sollte Musik für den letzten Abschied sein?",
-        "answer": "Meist reichen wenige Minuten oder sogar ein kurzer Ausschnitt. Der Moment soll nicht verlängert, sondern gehalten werden."
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Was passt besser: klassisch oder modern?",
-        "answer": "Beides kann passen. Wichtig ist, dass die Melodie schlicht bleibt und nicht wie ein großer Konzertmoment wirkt."
+        "question": "Passt das zu Trauerhalle, Kirche und Friedhof?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für Trauerhallen, Kirchen, Kapellen und kurze Außenmomente flexibel."
       },
       {
-        "question": "Worin unterscheidet sich das von Musik Beerdigung?",
-        "answer": "Musik Beerdigung umfasst den ganzen Ablauf. Diese Seite konzentriert sich auf den finalen Abschied am Ende der Feier oder am Grab."
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Am Grab ist oft ein kurzer, schlichter Einsatz sinnvoller als ein langes Stück."
+      },
+      {
+        "question": "Wie viele Stücke sind für diesen Schwerpunkt sinnvoll?",
+        "answer": "Das hängt vom Ablauf ab. Für viele Trauerfeiern reichen wenige Einsätze, die klar begründet sind: Anfang, Erinnerung, Übergang oder Abschluss."
+      },
+      {
+        "question": "Was passiert, wenn noch kein Lied feststeht?",
+        "answer": "Dann ordnen wir zuerst den Moment ein. Danach kann ich Stücke vorschlagen, die zu Raum, Person und gewünschter Zurückhaltung passen."
+      },
+      {
+        "question": "Warum gibt es dazu eine eigene Seite?",
+        "answer": "Musik Letzter Abschied hat einen eigenen Suchintent. Diese Seite beantwortet deshalb nicht nur allgemein, welche Trauermusik möglich ist, sondern ordnet genau diesen Begriff nach Ablauf, Klang, Wunschmusik, Abgrenzung zu ähnlichen Seiten und konkreter Anfrage ein."
+      },
+      {
+        "question": "Welche Informationen helfen für die erste Einschätzung?",
+        "answer": "Für Musik letzter Abschied helfen Datum, Ort, Uhrzeit, gewünschter Moment im Ablauf, vorhandene Wunschstücke und die Frage, ob die Musik in der Trauerfeier, draußen am Grab oder an beiden Stellen geplant ist."
+      },
+      {
+        "question": "Wie kurzfristig können wir anfragen?",
+        "answer": "Oft auch kurzfristig. Wichtig sind Datum, Ort, Uhrzeit, grober Ablauf und die gewünschte Musik, damit ich schnell prüfen kann, ob der Termin möglich ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Solo-Viola für den letzten Abschied 1"
+      "alt": "Live-Viola für Musik letzter Abschied 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Solo-Viola für den letzten Abschied 2"
+      "alt": "Live-Viola für Musik letzter Abschied 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 2: Trauer-Topicseiten mit eigener Suchintention, eigenen Abschnitten, eigenen FAQs und eigener Kontaktcopy differenziert. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 2: Trauer-Topicseiten mit eigener Suchintention, eigenen Abschnitten, eigenen FAQs und eigener Kontaktcopy differenziert. Fachlich im CMS final prüfen.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Letzten Moment abstimmen",
-    "title": "Soll der letzte Abschied musikalisch getragen werden?",
-    "lead": "Schreib mir, ob es um Auszug, Gang zum Grab oder einen Blumengruß geht. Ich schlage dir eine kurze, passende musikalische Form vor.",
+    "eyebrow": "Trauermusik planen",
+    "title": "Musik Letzter Abschied anfragen",
+    "lead": "Schickt mir Datum, Ort, Ablauf und den Moment, für den ihr Musik letzter Abschied plant. Ich melde mich mit einer behutsamen musikalischen Idee.",
     "checklist": [
-      "Auszug",
-      "Grab",
-      "Blumengruß"
+      "Musik letzter Abschied",
+      "Trauerfeier oder Grab",
+      "Wunschstück"
     ],
-    "formEyebrow": "Moment beschreiben",
-    "formTitle": "Musik letzter Abschied anfragen",
-    "formSuccess": "Danke - ich melde mich mit einem Vorschlag für den letzten Abschied."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Musik Letzter Abschied anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik letzter Abschied."
   },
   "elegy": {
-    "quote": "Am Ende einer Abschiedsfeier muss Musik besonders schlicht bleiben.",
+    "quote": "Musik Letzter Abschied soll dem Abschied Raum geben, ohne Worte zu ersetzen.",
     "passages": [
       {
-        "strong": "Enger Moment",
-        "text": "Diese Seite ist enger gemeint als Musik Abschied. Es geht um den letzten Abschnitt: wenn die Feier endet, Menschen aufstehen, der Sarg hinausgetragen wird oder am Grab der letzte Gruß stattfindet."
+        "strong": "Der Suchintent",
+        "text": "Der Intent ist enger als Musik Abschied: Es geht um das Ende der Feier oder den letzten Gruß."
       },
       {
-        "strong": "Weniger ist mehr",
-        "text": "Für den letzten Abschied sind kurze, klare Melodien oft stärker als lange Stücke. Der Klang soll den Moment nicht vergrößern, sondern ihn würdevoll abschließen."
+        "strong": "Musikalische Aufgabe",
+        "text": "Kurze, schlichte Melodien wirken hier oft stärker als lange Stücke."
       },
       {
-        "strong": "Sichere Zeichen",
-        "text": "Gerade am Ende ist Timing wichtig. Ich stimme vorher ab, wann die Musik beginnt, wann sie enden soll und wie flexibel sie auf Wege, Stille oder Blumengruß reagieren muss."
+        "strong": "Abgrenzung",
+        "text": "Diese Seite behandelt den letzten Moment, nicht die gesamte Trauerfeier."
+      },
+      {
+        "strong": "Ablauf",
+        "text": "Für Musik letzter Abschied beginne ich nicht mit einer pauschalen Stückliste, sondern mit der Rolle im Ablauf. Erst wenn klar ist, ob die Musik sammeln, erinnern oder verabschieden soll, wird die Auswahl wirklich passend. Der Begriff Musik letzter Abschied kann je nach Familie sehr Unterschiedliches meinen. Deshalb kläre ich, ob es um Inspiration, konkrete Buchung, ein bestimmtes Lied, ein Instrument oder eine einzelne Stelle im Ablauf geht."
+      },
+      {
+        "strong": "Raum und Klang",
+        "text": "Wenn Auszug, Gang zum Grab, Blumengruß oder stille Schlussminute mit einem anschließenden Gang zum Grab verbunden ist, plane ich die Musik eher als Übergang. Dann zählt weniger das einzelne Stück als die ruhige Führung durch den Moment. Bei modernen Stücken achte ich darauf, dass die Melodie auch ohne Text verstanden wird. Nicht jedes Lied behält ohne Gesang dieselbe Bedeutung."
+      },
+      {
+        "strong": "Wunschmusik",
+        "text": "Klassische Musik, moderne Lieder und persönliche Wunschstücke brauchen unterschiedliche Bearbeitungen. Entscheidend ist, dass die Melodie auf der Viola trägt und der Moment nicht überladen wird. Für die Familie soll der Prozess möglichst leicht bleiben. Ich kann mit einer kurzen Empfehlung starten, danach Stücke konkretisieren und die musikalischen Einsätze mit den beteiligten Personen abstimmen."
+      },
+      {
+        "strong": "SEO-Abgrenzung",
+        "text": "Für die SEO-Struktur ist diese Abgrenzung zentral: Musik letzter Abschied soll nicht dieselben Antworten liefern wie Musik Beerdigung, Musik Trauerfeier oder eine lokale Stadtseite. Diese klare Grenze hilft auch bei der späteren redaktionellen Pflege im CMS: Titel, FAQ, Alt-Texte und Kontaktabschnitt folgen demselben Intent und wirken nicht wie kopierte Varianten."
+      },
+      {
+        "strong": "Anfrage",
+        "text": "Für eine Anfrage zu Musik letzter Abschied reichen zuerst Datum, Ort, Uhrzeit, geplanter Einsatzpunkt und mögliche Wunschmusik. Danach lässt sich klären, ob ein Stück, mehrere Einsätze oder ein sehr kurzer musikalischer Moment sinnvoll sind."
       }
     ]
   },
   "solemn": {
-    "eyebrow": "Abschluss",
-    "title": "Der letzte Abschied braucht klare, kurze Musikmomente.",
-    "lead": "Hier steht nicht die gesamte Feier im Mittelpunkt, sondern der Moment, in dem Menschen endgültig loslassen.",
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Musik Letzter Abschied ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie, Raum und gewünschter Nähe. Diese Punkte sollten vor dem Abschied geklärt sein.",
     "cards": [
       {
-        "rom": "Auszug",
-        "title": "Wenn der Raum sich bewegt",
-        "poet": "Beim Auszug kann Musik den Übergang halten, ohne die Schwere künstlich zu steigern.",
+        "rom": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "poet": "Bei Musik letzter Abschied klären wir zuerst, ob die Musik Anfang, Übergang, Erinnerung oder Schlussmoment sein soll.",
         "list": [
-          "Auszug aus der Halle",
-          "Gang aus der Kirche",
-          "stiller Weg"
+          "Beginn",
+          "Zwischenmoment",
+          "Abschluss"
         ]
       },
       {
-        "rom": "Grab",
-        "title": "Wenn alles still wird",
-        "poet": "Am Grab wirkt ein kurzer musikalischer Satz oft stärker als ein ganzes Stück.",
+        "rom": "Ablauf",
+        "title": "Start und Ende sicher abstimmen",
+        "poet": "Ein Blickzeichen, eine Kontaktperson oder ein Stichwort verhindert Unsicherheit während der Trauerfeier.",
         "list": [
-          "Blumengruß",
-          "letzte Geste",
-          "kurzer Abschluss"
+          "Kontaktperson",
+          "Startsignal",
+          "flexibles Ende"
         ]
       }
     ],
-    "listLabel": "Geeignete Schlussmomente",
+    "listLabel": "Mögliche Fragen zu Musik letzter Abschied",
     "list": [
-      "Auszug aus der Trauerhalle",
-      "Weg zum Grab",
-      "Blumengruß",
-      "letzte stille Minute"
+      "Welcher Moment soll getragen werden?",
+      "Ist ein Wunschstück vorgesehen?",
+      "Findet etwas draußen statt?",
+      "Wer gibt am Tag selbst das Signal?"
     ]
+  },
+  "split": {
+    "eyebrow": "Suchintention",
+    "title": "Musik Letzter Abschied braucht eine eigene musikalische Planung.",
+    "lede": "Der Intent ist enger als Musik Abschied: Es geht um das Ende der Feier oder den letzten Gruß. Gesucht wird keine austauschbare Hintergrundmusik, sondern eine Lösung für Auszug, Gang zum Grab, Blumengruß oder stille Schlussminute.",
+    "paragraphs": [
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
+      "Kurze, schlichte Melodien wirken hier oft stärker als lange Stücke.",
+      "Diese Seite behandelt den letzten Moment, nicht die gesamte Trauerfeier.",
+      "Ich plane den Einsatz so, dass die Musik weder zu früh beginnt noch den Abschied unnötig verlängert. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
+      "Wenn der Termin kurzfristig ist, helfen Datum, Uhrzeit, Ort und gewünschte Stücke für eine schnelle Einschätzung.",
+      "Dabei bleibt die Musik bewusst schlicht. Sie soll nicht zeigen, was musikalisch möglich ist, sondern genau den Raum öffnen, den Angehörige in diesem Moment brauchen.",
+      "Für die interne Struktur ist diese Differenzierung wichtig, weil ähnliche Begriffe sonst denselben Text tragen würden. Hier bekommt der Suchintent eine eigene redaktionelle Aufgabe.",
+      "Bei einer kirchlichen Feier kann zusätzlich wichtig sein, ob es musikalische Vorgaben gibt oder ob ein bestimmter Programmpunkt liturgisch festgelegt ist.",
+      "Bei modernen Stücken achte ich darauf, dass die Melodie auch ohne Text verstanden wird. Nicht jedes Lied behält ohne Gesang dieselbe Bedeutung.",
+      "Für Musik letzter Abschied beginne ich nicht mit einer pauschalen Stückliste, sondern mit der Rolle im Ablauf. Erst wenn klar ist, ob die Musik sammeln, erinnern oder verabschieden soll, wird die Auswahl wirklich passend.",
+      "Klassische Musik, moderne Lieder und persönliche Wunschstücke brauchen unterschiedliche Bearbeitungen. Entscheidend ist, dass die Melodie auf der Viola trägt und der Moment nicht überladen wird.",
+      "Gerade bei emotionalen Terminen sollte Musik nicht noch eine zusätzliche Aufgabe für die Familie werden. Sie soll einen Moment halten und die Organisation im Hintergrund einfacher machen.",
+      "Für die SEO-Struktur ist diese Abgrenzung zentral: Musik letzter Abschied soll nicht dieselben Antworten liefern wie Musik Beerdigung, Musik Trauerfeier oder eine lokale Stadtseite.",
+      "Für eine Anfrage zu Musik letzter Abschied reichen zuerst Datum, Ort, Uhrzeit, geplanter Einsatzpunkt und mögliche Wunschmusik. Danach lässt sich klären, ob ein Stück, mehrere Einsätze oder ein sehr kurzer musikalischer Moment sinnvoll sind.",
+      "Der Begriff Musik letzter Abschied kann je nach Familie sehr Unterschiedliches meinen. Deshalb kläre ich, ob es um Inspiration, konkrete Buchung, ein bestimmtes Lied, ein Instrument oder eine einzelne Stelle im Ablauf geht.",
+      "Wenn Auszug, Gang zum Grab, Blumengruß oder stille Schlussminute mit einem anschließenden Gang zum Grab verbunden ist, plane ich die Musik eher als Übergang. Dann zählt weniger das einzelne Stück als die ruhige Führung durch den Moment.",
+      "Diese klare Grenze hilft auch bei der späteren redaktionellen Pflege im CMS: Titel, FAQ, Alt-Texte und Kontaktabschnitt folgen demselben Intent und wirken nicht wie kopierte Varianten.",
+      "Für die Familie soll der Prozess möglichst leicht bleiben. Ich kann mit einer kurzen Empfehlung starten, danach Stücke konkretisieren und die musikalischen Einsätze mit den beteiligten Personen abstimmen.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Musik letzter Abschied nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
+      "So entsteht eine eigene Seite für den Suchbegriff, ohne dass sie mit der allgemeinen Trauermusik-Seite dieselbe Aufgabe übernimmt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Lieder; hier geht es genau um Musik letzter Abschied."
+    ],
+    "seal": "Letzter Abschied\nAbschied\nLive-Viola"
   }
 }

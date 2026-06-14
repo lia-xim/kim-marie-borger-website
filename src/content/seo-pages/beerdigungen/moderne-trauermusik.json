@@ -6,55 +6,185 @@
   "targetKeyword": "Moderne Trauermusik",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-8-review-needed",
   "enabled": true,
-  "seoTitle": "Moderne Trauermusik | Trauermusik mit Viola",
-  "seoDescription": "moderne Trauermusik: Behutsame Live-Viola für Trauerfeier, Beerdigung und Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "seoTitle": "Moderne Trauermusik | Live-Viola für Abschied",
+  "seoDescription": "Moderne Trauermusik: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
   "hero": {
-    "title": "Moderne Trauermusik, persönlich geplant und live begleitet.",
-    "lead": "Behutsame Live-Viola für Abschiede, Trauerfeiern und stille Erinnerungsmomente. Diese Seite bündelt den Suchintent \"moderne Trauermusik\" für persönliche Lieblingslieder in reduzierter Fassung."
+    "eyebrow": "Modern",
+    "title": "Moderne Trauermusik, wenn ein persönliches Lied wichtiger ist als Tradition.",
+    "lead": "Moderne Trauermusik richtet sich an Familien mit Pop-Song, Filmmusik oder persönlicher Erinnerung. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf zum Abschied passen und Angehörige organisatorisch entlastet werden.",
+    "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu moderne Trauermusik.",
+    "title": "FAQ zu Moderne Trauermusik",
     "items": [
       {
-        "question": "Passt Moderne Trauermusik zu den Abschied?",
-        "answer": "Ja. Moderne Trauermusik wird gezielt auf den Abschied, den Raum und den Ablauf abgestimmt. für die passende Stückauswahl bei einer Trauerfeier.",
+        "question": "Für welchen Abschied passt Moderne Trauermusik?",
+        "answer": "Moderne Trauermusik passt besonders für Familien mit Pop-Song, Filmmusik oder persönlicher Erinnerung. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
         "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit moderne Trauermusik am Tag selbst ruhig funktioniert."
+        "question": "Passt das zu Trauerhalle, Kirche und Friedhof?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für Trauerhallen, Kirchen, Kapellen und kurze Außenmomente flexibel."
+      },
+      {
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Am Grab ist oft ein kurzer, schlichter Einsatz sinnvoller als ein langes Stück."
+      },
+      {
+        "question": "Wie viele Stücke sind für diesen Schwerpunkt sinnvoll?",
+        "answer": "Das hängt vom Ablauf ab. Für viele Trauerfeiern reichen wenige Einsätze, die klar begründet sind: Anfang, Erinnerung, Übergang oder Abschluss."
+      },
+      {
+        "question": "Was passiert, wenn noch kein Lied feststeht?",
+        "answer": "Dann ordnen wir zuerst den Moment ein. Danach kann ich Stücke vorschlagen, die zu Raum, Person und gewünschter Zurückhaltung passen."
+      },
+      {
+        "question": "Warum gibt es dazu eine eigene Seite?",
+        "answer": "Moderne Trauermusik hat einen eigenen Suchintent. Diese Seite beantwortet deshalb nicht nur allgemein, welche Trauermusik möglich ist, sondern ordnet genau diesen Begriff nach Ablauf, Klang, Wunschmusik, Abgrenzung zu ähnlichen Seiten und konkreter Anfrage ein."
+      },
+      {
+        "question": "Welche Informationen helfen für die erste Einschätzung?",
+        "answer": "Für Moderne Trauermusik helfen Datum, Ort, Uhrzeit, gewünschter Moment im Ablauf, vorhandene Wunschstücke und die Frage, ob die Musik in der Trauerfeier, draußen am Grab oder an beiden Stellen geplant ist."
+      },
+      {
+        "question": "Wie kurzfristig können wir anfragen?",
+        "answer": "Oft auch kurzfristig. Wichtig sind Datum, Ort, Uhrzeit, grober Ablauf und die gewünschte Musik, damit ich schnell prüfen kann, ob der Termin möglich ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+      "alt": "Live-Viola für Moderne Trauermusik 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola für Moderne Trauermusik 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Trauermusik planen",
     "title": "Moderne Trauermusik anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Moderne Trauermusik.",
+    "lead": "Schickt mir Datum, Ort, Ablauf und den Moment, für den ihr Moderne Trauermusik plant. Ich melde mich mit einer behutsamen musikalischen Idee.",
     "checklist": [
       "Moderne Trauermusik",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Trauerfeier oder Grab",
+      "Wunschstück"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Moderne Trauermusik zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Moderne Trauermusik anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Moderne Trauermusik."
+  },
+  "split": {
+    "eyebrow": "Suchintention",
+    "title": "Moderne Trauermusik braucht eine eigene musikalische Planung.",
+    "lede": "Der Intent ist Repertoire mit persönlicher Sprache: moderne Musik soll würdevoll reduziert werden. Gesucht wird keine austauschbare Hintergrundmusik, sondern eine Lösung für freie Trauerfeier, Trauerhalle, Kirche oder kleiner Abschied.",
+    "paragraphs": [
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
+      "Nicht jedes Lied funktioniert auf Solo-Viola. Ich prüfe Melodie, Wiedererkennbarkeit und emotionales Gewicht.",
+      "Diese Seite grenzt moderne Stücke von klassischer Trauermusik ab, ohne sie gegeneinander auszuspielen.",
+      "Vorab klären wir Startsignal, gewünschte Länge, mögliche Pausen und den Punkt, an dem das Stück natürlich enden darf. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
+      "Ich bespreche bei Bedarf direkt mit Bestattungshaus, Rednerin oder Kirche, wie die Musik in den Ablauf eingebunden wird.",
+      "Je konkreter der musikalische Moment benannt wird, desto besser lässt sich das Stück auswählen: Beginn, Erinnerung, Ritual, Auszug oder letzter Gruß.",
+      "So bleibt die Seite klar von benachbarten Begriffen getrennt: Sie beantwortet nicht jede Frage zu Trauermusik, sondern genau die Frage hinter diesem Keyword.",
+      "Wenn noch kein Stück feststeht, kann ich Vorschläge machen, die zu Raum, Ablauf und gewünschter Stimmung passen.",
+      "Der Klang trägt am besten, wenn vorab geklärt ist, ob die Musik Richtung Angehörige, Richtung Rednerpult oder Richtung Ausgang wirken soll.",
+      "Die Planung bleibt bewusst schlank. Ein Solo-Instrument kann schnell reagieren, aber die wichtigsten Punkte müssen trotzdem vorab feststehen: Ort, Zeitpunkt, Einsatz und gewünschte Stimmung.",
+      "Bei der Stückauswahl zählt Wiedererkennbarkeit mehr als Länge. Ein ruhiger Ausschnitt kann stärker sein als eine vollständige Version, wenn die Melodie sofort verstanden wird.",
+      "Wenn Bestattungshaus, Pfarrer, Trauerrednerin oder mehrere Familienmitglieder beteiligt sind, hilft eine gemeinsame kurze Abstimmung. So bleibt die musikalische Entscheidung ruhig und nachvollziehbar.",
+      "Die interne Verlinkung kann von hier zu allgemeinen Trauerseiten führen, aber der Haupttext bleibt bei Moderne Trauermusik. Dadurch wird klar, welche Seite für welchen Suchintent zuständig ist.",
+      "Bei Trauerfeiern mit engem Zeitfenster plane ich Moderne Trauermusik lieber präzise als umfangreich. Ein passender Einsatz kann stärker wirken als mehrere musikalische Beiträge ohne klare Funktion.",
+      "Bei Moderne Trauermusik frage ich außerdem, wie nah der musikalische Moment an Worten, Gebet, Ritual oder Auszug liegt. Je näher Musik an Sprache steht, desto schlichter muss sie beginnen und enden.",
+      "In freie Trauerfeier, Trauerhalle, Kirche oder kleiner Abschied geht es auch um Sichtbarkeit. Manchmal soll die Musikerin bewusst wahrnehmbar sein, manchmal ist eine seitliche, ruhige Platzierung stimmiger für die Familie.",
+      "Wenn ein anderes Keyword besser passt, etwa ein bestimmtes Lied oder eine lokale Stadtseite, sollte diese Seite nicht dagegen konkurrieren. Sie behält ihren eigenen Fokus im Cluster.",
+      "Nach meiner Erfahrung entsteht die beste Wirkung, wenn die Musik nicht erklärt werden muss. Sie ist vorbereitet, beginnt im richtigen Moment und lässt danach wieder Raum für Stille.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Moderne Trauermusik nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
+      "Der Text ist auf diesen konkreten Intent zugeschnitten und nicht nur eine Variation der lokalen Seiten. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Lieder; hier geht es genau um Moderne Trauermusik."
+    ],
+    "seal": "Modern\nAbschied\nLive-Viola"
+  },
+  "elegy": {
+    "quote": "Moderne Trauermusik soll dem Abschied Raum geben, ohne Worte zu ersetzen.",
+    "passages": [
+      {
+        "strong": "Der Suchintent",
+        "text": "Der Intent ist Repertoire mit persönlicher Sprache: moderne Musik soll würdevoll reduziert werden."
+      },
+      {
+        "strong": "Musikalische Aufgabe",
+        "text": "Nicht jedes Lied funktioniert auf Solo-Viola. Ich prüfe Melodie, Wiedererkennbarkeit und emotionales Gewicht."
+      },
+      {
+        "strong": "Abgrenzung",
+        "text": "Diese Seite grenzt moderne Stücke von klassischer Trauermusik ab, ohne sie gegeneinander auszuspielen."
+      },
+      {
+        "strong": "Ablauf",
+        "text": "Die Planung bleibt bewusst schlank. Ein Solo-Instrument kann schnell reagieren, aber die wichtigsten Punkte müssen trotzdem vorab feststehen: Ort, Zeitpunkt, Einsatz und gewünschte Stimmung. Bei Moderne Trauermusik frage ich außerdem, wie nah der musikalische Moment an Worten, Gebet, Ritual oder Auszug liegt. Je näher Musik an Sprache steht, desto schlichter muss sie beginnen und enden."
+      },
+      {
+        "strong": "Raum und Klang",
+        "text": "In freie Trauerfeier, Trauerhalle, Kirche oder kleiner Abschied geht es auch um Sichtbarkeit. Manchmal soll die Musikerin bewusst wahrnehmbar sein, manchmal ist eine seitliche, ruhige Platzierung stimmiger für die Familie. Der Klang trägt am besten, wenn vorab geklärt ist, ob die Musik Richtung Angehörige, Richtung Rednerpult oder Richtung Ausgang wirken soll."
+      },
+      {
+        "strong": "Wunschmusik",
+        "text": "Bei der Stückauswahl zählt Wiedererkennbarkeit mehr als Länge. Ein ruhiger Ausschnitt kann stärker sein als eine vollständige Version, wenn die Melodie sofort verstanden wird. Nach meiner Erfahrung entsteht die beste Wirkung, wenn die Musik nicht erklärt werden muss. Sie ist vorbereitet, beginnt im richtigen Moment und lässt danach wieder Raum für Stille."
+      },
+      {
+        "strong": "SEO-Abgrenzung",
+        "text": "Die interne Verlinkung kann von hier zu allgemeinen Trauerseiten führen, aber der Haupttext bleibt bei Moderne Trauermusik. Dadurch wird klar, welche Seite für welchen Suchintent zuständig ist. Wenn ein anderes Keyword besser passt, etwa ein bestimmtes Lied oder eine lokale Stadtseite, sollte diese Seite nicht dagegen konkurrieren. Sie behält ihren eigenen Fokus im Cluster."
+      },
+      {
+        "strong": "Anfrage",
+        "text": "Bei Trauerfeiern mit engem Zeitfenster plane ich Moderne Trauermusik lieber präzise als umfangreich. Ein passender Einsatz kann stärker wirken als mehrere musikalische Beiträge ohne klare Funktion."
+      }
+    ]
+  },
+  "solemn": {
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Moderne Trauermusik ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie, Raum und gewünschter Nähe. Diese Punkte sollten vor dem Abschied geklärt sein.",
+    "cards": [
+      {
+        "rom": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "poet": "Bei Moderne Trauermusik klären wir zuerst, ob die Musik Anfang, Übergang, Erinnerung oder Schlussmoment sein soll.",
+        "list": [
+          "Beginn",
+          "Zwischenmoment",
+          "Abschluss"
+        ]
+      },
+      {
+        "rom": "Ablauf",
+        "title": "Start und Ende sicher abstimmen",
+        "poet": "Ein Blickzeichen, eine Kontaktperson oder ein Stichwort verhindert Unsicherheit während der Trauerfeier.",
+        "list": [
+          "Kontaktperson",
+          "Startsignal",
+          "flexibles Ende"
+        ]
+      }
+    ],
+    "listLabel": "Mögliche Fragen zu Moderne Trauermusik",
+    "list": [
+      "Welcher Moment soll getragen werden?",
+      "Ist ein Wunschstück vorgesehen?",
+      "Findet etwas draußen statt?",
+      "Wer gibt am Tag selbst das Signal?"
+    ]
   }
 }

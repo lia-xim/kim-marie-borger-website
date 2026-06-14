@@ -1,6 +1,6 @@
 # SEO Page Tracker
 
-Generiert: 2026-06-14T10:54:48.526Z
+Generiert: 2026-06-14T11:50:22.982Z
 
 Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten zu finden, die technisch existieren, aber noch zu aehnlich, zu duenn, nicht sauber im CMS gepflegt oder bei Keywords zu nah an anderen Seiten sind.
 
@@ -13,14 +13,14 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | topic | 137 |
 | CMS-Dokumente vorhanden | 480 |
 | Durchschnitt Keyword-Nahe | 57.6% |
-| Durchschnitt Content-Aehnlichkeit | 52.1% |
-| Durchschnitt Template-Aehnlichkeit | 88.4% |
+| Durchschnitt Content-Aehnlichkeit | 52.8% |
+| Durchschnitt Template-Aehnlichkeit | 88.2% |
 
 ## Fortschritt nach Kategorie
 
 | Kategorie | Gesamt | Umgeschrieben | Fortschritt | High | Medium | Low |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| beerdigungen | 69 | 6 | 8.7% | 43 | 25 | 1 |
+| beerdigungen | 69 | 69 | 100% | 0 | 58 | 11 |
 | firmenfeiern | 69 | 8 | 11.6% | 38 | 21 | 10 |
 | geburtstage | 65 | 65 | 100% | 0 | 62 | 3 |
 | hochzeiten | 91 | 91 | 100% | 0 | 84 | 7 |
@@ -32,17 +32,17 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 
 | Risiko | Seiten |
 | --- | ---: |
-| high | 109 |
-| low | 31 |
-| medium | 340 |
+| high | 66 |
+| low | 41 |
+| medium | 373 |
 
 ## Actions
 
 | Aktion | Seiten |
 | --- | ---: |
-| expand-copy | 143 |
-| ok | 228 |
-| rewrite-differentiate | 109 |
+| expand-copy | 117 |
+| ok | 297 |
+| rewrite-differentiate | 66 |
 
 ## Priorisierter Backlog
 
@@ -76,58 +76,58 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | high | rewrite-differentiate | topic | [Musik Vernissage](https://kim-marie-borger.com/konzerte/musik-vernissage/) | 50% | 58.1% | 93.1% | /konzerte/musik-kulturabend/ |
 | high | rewrite-differentiate | local | [Viola Konzert Kreis Mettmann](https://kim-marie-borger.com/konzerte/kreis-mettmann/) | 85.7% | 55.3% | 94.9% | /konzerte/mettmann/ |
 | high | rewrite-differentiate | local | [Viola Konzert Mettmann](https://kim-marie-borger.com/konzerte/mettmann/) | 85.7% | 55.3% | 94.9% | /konzerte/kreis-mettmann/ |
-| high | rewrite-differentiate | local | [Trauermusik Kreis Mettmann](https://kim-marie-borger.com/beerdigungen/kreis-mettmann/) | 80% | 60.1% | 97% | /beerdigungen/mettmann/ |
-| high | rewrite-differentiate | local | [Trauermusik Mettmann](https://kim-marie-borger.com/beerdigungen/mettmann/) | 80% | 60.1% | 97% | /beerdigungen/kreis-mettmann/ |
 | high | rewrite-differentiate | local | [Firmenevent Kreis Mettmann](https://kim-marie-borger.com/firmenfeiern/kreis-mettmann/) | 80% | 58% | 95.4% | /firmenfeiern/mettmann/ |
 | high | rewrite-differentiate | local | [Firmenevent Mettmann](https://kim-marie-borger.com/firmenfeiern/mettmann/) | 80% | 58% | 95.4% | /firmenfeiern/kreis-mettmann/ |
 | high | rewrite-differentiate | local | [Taufmusik Kreis Mettmann](https://kim-marie-borger.com/taufen/kreis-mettmann/) | 80% | 57.9% | 94.9% | /taufen/mettmann/ |
 | high | rewrite-differentiate | local | [Taufmusik Mettmann](https://kim-marie-borger.com/taufen/mettmann/) | 80% | 57.9% | 94.9% | /taufen/kreis-mettmann/ |
-| high | rewrite-differentiate | local | [Trauermusik Neuss](https://kim-marie-borger.com/beerdigungen/neuss/) | 66.7% | 57.8% | 94.3% | /beerdigungen/rhein-kreis-neuss/ |
-| high | rewrite-differentiate | local | [Trauermusik Rhein-Kreis Neuss](https://kim-marie-borger.com/beerdigungen/rhein-kreis-neuss/) | 66.7% | 57.8% | 94.3% | /beerdigungen/neuss/ |
 | high | rewrite-differentiate | local | [Viola Konzert Bottrop](https://kim-marie-borger.com/konzerte/bottrop/) | 66.7% | 54.4% | 93.4% | /konzerte/aachen/ |
 | high | rewrite-differentiate | local | [Viola Konzert Recklinghausen](https://kim-marie-borger.com/konzerte/recklinghausen/) | 66.7% | 54.2% | 93.4% | /konzerte/aachen/ |
 | high | rewrite-differentiate | local | [Viola Konzert Münster](https://kim-marie-borger.com/konzerte/muenster/) | 66.7% | 54.4% | 93.1% | /konzerte/aachen/ |
 | high | rewrite-differentiate | local | [Firmenevent Neuss](https://kim-marie-borger.com/firmenfeiern/neuss/) | 66.7% | 56.4% | 93.1% | /firmenfeiern/rhein-kreis-neuss/ |
-| high | rewrite-differentiate | local | [Trauermusik Aachen](https://kim-marie-borger.com/beerdigungen/aachen/) | 50% | 57% | 93.9% | /beerdigungen/bielefeld/ |
-| high | rewrite-differentiate | local | [Trauermusik Bielefeld](https://kim-marie-borger.com/beerdigungen/bielefeld/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Bochum](https://kim-marie-borger.com/beerdigungen/bochum/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Bonn](https://kim-marie-borger.com/beerdigungen/bonn/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Bottrop](https://kim-marie-borger.com/beerdigungen/bottrop/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Dormagen](https://kim-marie-borger.com/beerdigungen/dormagen/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Dortmund](https://kim-marie-borger.com/beerdigungen/dortmund/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Düsseldorf](https://kim-marie-borger.com/beerdigungen/duesseldorf/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Duisburg](https://kim-marie-borger.com/beerdigungen/duisburg/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Erkrath](https://kim-marie-borger.com/beerdigungen/erkrath/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Essen](https://kim-marie-borger.com/beerdigungen/essen/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Gelsenkirchen](https://kim-marie-borger.com/beerdigungen/gelsenkirchen/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Haan](https://kim-marie-borger.com/beerdigungen/haan/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Hagen](https://kim-marie-borger.com/beerdigungen/hagen/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Heiligenhaus](https://kim-marie-borger.com/beerdigungen/heiligenhaus/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Herne](https://kim-marie-borger.com/beerdigungen/herne/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Hilden](https://kim-marie-borger.com/beerdigungen/hilden/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Iserlohn](https://kim-marie-borger.com/beerdigungen/iserlohn/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Köln](https://kim-marie-borger.com/beerdigungen/koeln/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Krefeld](https://kim-marie-borger.com/beerdigungen/krefeld/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Langenfeld](https://kim-marie-borger.com/beerdigungen/langenfeld/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Leverkusen](https://kim-marie-borger.com/beerdigungen/leverkusen/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Meerbusch](https://kim-marie-borger.com/beerdigungen/meerbusch/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Mönchengladbach](https://kim-marie-borger.com/beerdigungen/moenchengladbach/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Moers](https://kim-marie-borger.com/beerdigungen/moers/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Münster](https://kim-marie-borger.com/beerdigungen/muenster/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Oberhausen](https://kim-marie-borger.com/beerdigungen/oberhausen/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Paderborn](https://kim-marie-borger.com/beerdigungen/paderborn/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Ratingen](https://kim-marie-borger.com/beerdigungen/ratingen/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Recklinghausen](https://kim-marie-borger.com/beerdigungen/recklinghausen/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Remscheid](https://kim-marie-borger.com/beerdigungen/remscheid/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Rheinland](https://kim-marie-borger.com/beerdigungen/rheinland/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Ruhrgebiet](https://kim-marie-borger.com/beerdigungen/ruhrgebiet/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Siegen](https://kim-marie-borger.com/beerdigungen/siegen/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Solingen](https://kim-marie-borger.com/beerdigungen/solingen/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Unna](https://kim-marie-borger.com/beerdigungen/unna/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Velbert](https://kim-marie-borger.com/beerdigungen/velbert/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Wülfrath](https://kim-marie-borger.com/beerdigungen/wuelfrath/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
-| high | rewrite-differentiate | local | [Trauermusik Wuppertal](https://kim-marie-borger.com/beerdigungen/wuppertal/) | 50% | 57% | 93.9% | /beerdigungen/aachen/ |
 | high | rewrite-differentiate | local | [Firmenevent Bottrop](https://kim-marie-borger.com/firmenfeiern/bottrop/) | 50% | 56.4% | 93.8% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Recklinghausen](https://kim-marie-borger.com/firmenfeiern/recklinghausen/) | 50% | 56.3% | 93.8% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Münster](https://kim-marie-borger.com/firmenfeiern/muenster/) | 50% | 56.4% | 93.6% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Erkrath](https://kim-marie-borger.com/firmenfeiern/erkrath/) | 50% | 56.4% | 93.4% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Hilden](https://kim-marie-borger.com/firmenfeiern/hilden/) | 50% | 55.7% | 93.4% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Moers](https://kim-marie-borger.com/firmenfeiern/moers/) | 50% | 55.8% | 93.4% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Langenfeld](https://kim-marie-borger.com/firmenfeiern/langenfeld/) | 50% | 56.3% | 93.4% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Rheinland](https://kim-marie-borger.com/firmenfeiern/rheinland/) | 50% | 56.3% | 93.4% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Taufmusik Bottrop](https://kim-marie-borger.com/taufen/bottrop/) | 50% | 56.7% | 93.4% | /taufen/aachen/ |
+| high | rewrite-differentiate | local | [Taufmusik Recklinghausen](https://kim-marie-borger.com/taufen/recklinghausen/) | 50% | 56.5% | 93.4% | /taufen/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Köln](https://kim-marie-borger.com/firmenfeiern/koeln/) | 50% | 55.7% | 93.3% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Leverkusen](https://kim-marie-borger.com/firmenfeiern/leverkusen/) | 50% | 55.9% | 93.3% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Remscheid](https://kim-marie-borger.com/firmenfeiern/remscheid/) | 50% | 56% | 93.2% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Solingen](https://kim-marie-borger.com/firmenfeiern/solingen/) | 50% | 55.8% | 93.2% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Unna](https://kim-marie-borger.com/firmenfeiern/unna/) | 50% | 55.8% | 93.2% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Bielefeld](https://kim-marie-borger.com/firmenfeiern/bielefeld/) | 50% | 56.3% | 93.2% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Taufmusik Münster](https://kim-marie-borger.com/taufen/muenster/) | 50% | 56.7% | 93.2% | /taufen/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Gelsenkirchen](https://kim-marie-borger.com/firmenfeiern/gelsenkirchen/) | 50% | 56.1% | 93.1% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Oberhausen](https://kim-marie-borger.com/firmenfeiern/oberhausen/) | 50% | 56.1% | 93.1% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Dormagen](https://kim-marie-borger.com/firmenfeiern/dormagen/) | 50% | 55.8% | 93.1% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Duisburg](https://kim-marie-borger.com/firmenfeiern/duisburg/) | 50% | 55.8% | 93.1% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Velbert](https://kim-marie-borger.com/firmenfeiern/velbert/) | 50% | 55.5% | 93.1% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Wülfrath](https://kim-marie-borger.com/firmenfeiern/wuelfrath/) | 50% | 56.1% | 93.1% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Aachen](https://kim-marie-borger.com/firmenfeiern/aachen/) | 50% | 55.8% | 93% | /firmenfeiern/bielefeld/ |
+| high | rewrite-differentiate | local | [Firmenevent Haan](https://kim-marie-borger.com/firmenfeiern/haan/) | 50% | 56.3% | 93% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Hagen](https://kim-marie-borger.com/firmenfeiern/hagen/) | 50% | 56% | 93% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Heiligenhaus](https://kim-marie-borger.com/firmenfeiern/heiligenhaus/) | 50% | 55.8% | 93% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Krefeld](https://kim-marie-borger.com/firmenfeiern/krefeld/) | 50% | 56.1% | 93% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Paderborn](https://kim-marie-borger.com/firmenfeiern/paderborn/) | 50% | 56.3% | 93% | /firmenfeiern/aachen/ |
+| high | rewrite-differentiate | local | [Firmenevent Ratingen](https://kim-marie-borger.com/firmenfeiern/ratingen/) | 50% | 55.8% | 93% | /firmenfeiern/aachen/ |
+| medium | expand-copy | topic | [Musik Familienfeier Taufe](https://kim-marie-borger.com/taufen/musik-familienfeier-taufe/) | 80% | 61.2% | 92.7% | /taufen/musik-taufe/ |
+| medium | expand-copy | topic | [Musik kirchliche Feier](https://kim-marie-borger.com/taufen/kirchliche-feier/) | 40% | 60.7% | 92.6% | /taufen/musik-kommunion/ |
+| medium | expand-copy | topic | [Live Musik Firmenevent](https://kim-marie-borger.com/firmenfeiern/live-musik-firmenevent/) | 40% | 57% | 92.1% | /firmenfeiern/dinnermusik-firmenevent/ |
+| medium | expand-copy | topic | [Eventmusikerin](https://kim-marie-borger.com/firmenfeiern/eventmusikerin/) | 0% | 56.9% | 91.4% | - |
+| medium | expand-copy | topic | [Bratschenkonzert](https://kim-marie-borger.com/konzerte/bratschenkonzert/) | 0% | 55.1% | 90.6% | - |
+| medium | expand-copy | local | [Viola Konzert Neuss](https://kim-marie-borger.com/konzerte/neuss/) | 75% | 54.3% | 92.5% | /konzerte/rhein-kreis-neuss/ |
+| medium | expand-copy | local | [Viola Konzert Rhein-Kreis Neuss](https://kim-marie-borger.com/konzerte/rhein-kreis-neuss/) | 75% | 53.8% | 91.9% | /konzerte/neuss/ |
+| medium | expand-copy | local | [Viola Konzert Mülheim an der Ruhr](https://kim-marie-borger.com/konzerte/muelheim-an-der-ruhr/) | 75% | 51.5% | 90.9% | /konzerte/rhein-ruhr/ |
+| medium | expand-copy | local | [Viola Konzert Rhein-Ruhr](https://kim-marie-borger.com/konzerte/rhein-ruhr/) | 75% | 50.9% | 90.9% | /konzerte/monheim-am-rhein/ |
+| medium | expand-copy | local | [Viola Konzert Monheim am Rhein](https://kim-marie-borger.com/konzerte/monheim-am-rhein/) | 75% | 51.7% | 90.8% | /konzerte/rhein-ruhr/ |
+| medium | expand-copy | local | [Viola Konzert Erkrath](https://kim-marie-borger.com/konzerte/erkrath/) | 66.7% | 54.3% | 93% | /konzerte/aachen/ |
+| medium | expand-copy | local | [Viola Konzert Hilden](https://kim-marie-borger.com/konzerte/hilden/) | 66.7% | 53.4% | 93% | /konzerte/aachen/ |
+| medium | expand-copy | local | [Viola Konzert Moers](https://kim-marie-borger.com/konzerte/moers/) | 66.7% | 53.6% | 93% | /konzerte/aachen/ |
+| medium | expand-copy | local | [Viola Konzert Langenfeld](https://kim-marie-borger.com/konzerte/langenfeld/) | 66.7% | 54.2% | 92.9% | /konzerte/aachen/ |
 
 ## Interpretation
 

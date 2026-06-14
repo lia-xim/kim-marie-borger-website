@@ -6,55 +6,185 @@
   "targetKeyword": "Trauermusik Repertoire",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-8-review-needed",
   "enabled": true,
-  "seoTitle": "Trauermusik Repertoire | Musik für Beerdigung & Trauerfeier",
-  "seoDescription": "Trauermusik-Repertoire für Beerdigung und Trauerfeier: klassische Musik, Instrumentalmusik, Ave Maria, Amazing Grace und persönliche Stücke mit Viola.",
+  "seoTitle": "Trauermusik Repertoire | Live-Viola für Abschied",
+  "seoDescription": "Trauermusik Repertoire: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
   "hero": {
-    "title": "Trauermusik-Repertoire für Beerdigung und Trauerfeier.",
-    "lead": "Klassische Musik, Instrumentalmusik und persönliche Wunschstücke für einen Abschied, der ruhig, würdevoll und nah bleibt."
+    "eyebrow": "Repertoire",
+    "title": "Trauermusik Repertoire, wenn Stücke ausgewählt und eingeordnet werden sollen.",
+    "lead": "Trauermusik Repertoire richtet sich an Angehörige, die Liedideen, klassische Stücke oder moderne Alternativen suchen. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf zum Abschied passen und Angehörige organisatorisch entlastet werden.",
+    "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu klassische Musik Beerdigung.",
+    "title": "FAQ zu Trauermusik Repertoire",
     "items": [
       {
-        "question": "Welche Trauermusik passt zu einer Beerdigung?",
-        "answer": "Häufig passen ruhige klassische Stücke, Ave Maria, Amazing Grace, Air, Meditation oder ein persönliches Lieblingslied in einer schlichten Viola-Fassung.",
+        "question": "Für welchen Abschied passt Trauermusik Repertoire?",
+        "answer": "Trauermusik Repertoire passt besonders für Angehörige, die Liedideen, klassische Stücke oder moderne Alternativen suchen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
-        "question": "Kann ein Lieblingslied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Viola geeignet ist. Ich prüfe es vorab und richte es behutsam für den Anlass ein."
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Stimmst du dich mit dem Bestattungshaus ab?",
-        "answer": "Ja. Einsätze, Ankunft, Ablauf und Stückauswahl können direkt mit Bestattungshaus, Kirche oder Trauerredner:in geklärt werden."
+        "question": "Passt das zu Trauerhalle, Kirche und Friedhof?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für Trauerhallen, Kirchen, Kapellen und kurze Außenmomente flexibel."
+      },
+      {
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Am Grab ist oft ein kurzer, schlichter Einsatz sinnvoller als ein langes Stück."
+      },
+      {
+        "question": "Wie viele Stücke sind für diesen Schwerpunkt sinnvoll?",
+        "answer": "Das hängt vom Ablauf ab. Für viele Trauerfeiern reichen wenige Einsätze, die klar begründet sind: Anfang, Erinnerung, Übergang oder Abschluss."
+      },
+      {
+        "question": "Was passiert, wenn noch kein Lied feststeht?",
+        "answer": "Dann ordnen wir zuerst den Moment ein. Danach kann ich Stücke vorschlagen, die zu Raum, Person und gewünschter Zurückhaltung passen."
+      },
+      {
+        "question": "Warum gibt es dazu eine eigene Seite?",
+        "answer": "Trauermusik Repertoire hat einen eigenen Suchintent. Diese Seite beantwortet deshalb nicht nur allgemein, welche Trauermusik möglich ist, sondern ordnet genau diesen Begriff nach Ablauf, Klang, Wunschmusik, Abgrenzung zu ähnlichen Seiten und konkreter Anfrage ein."
+      },
+      {
+        "question": "Welche Informationen helfen für die erste Einschätzung?",
+        "answer": "Für Trauermusik Repertoire helfen Datum, Ort, Uhrzeit, gewünschter Moment im Ablauf, vorhandene Wunschstücke und die Frage, ob die Musik in der Trauerfeier, draußen am Grab oder an beiden Stellen geplant ist."
+      },
+      {
+        "question": "Wie kurzfristig können wir anfragen?",
+        "answer": "Oft auch kurzfristig. Wichtig sind Datum, Ort, Uhrzeit, grober Ablauf und die gewünschte Musik, damit ich schnell prüfen kann, ob der Termin möglich ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+      "alt": "Live-Viola für Trauermusik Repertoire 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola für Trauermusik Repertoire 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Trauermusik planen",
     "title": "Trauermusik Repertoire anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Trauermusik Repertoire.",
+    "lead": "Schickt mir Datum, Ort, Ablauf und den Moment, für den ihr Trauermusik Repertoire plant. Ich melde mich mit einer behutsamen musikalischen Idee.",
     "checklist": [
       "Trauermusik Repertoire",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Trauerfeier oder Grab",
+      "Wunschstück"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Trauermusik Repertoire zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Trauermusik Repertoire anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Trauermusik Repertoire."
+  },
+  "split": {
+    "eyebrow": "Suchintention",
+    "title": "Trauermusik Repertoire braucht eine eigene musikalische Planung.",
+    "lede": "Der Intent ist orientierend: Es geht um Auswahl, Vergleich und passende Einsatzpunkte. Gesucht wird keine austauschbare Hintergrundmusik, sondern eine Lösung für Trauerfeier, Beerdigung, Abschied oder stiller Moment.",
+    "paragraphs": [
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
+      "Ich ordne klassische Werke, moderne Lieder und persönliche Wunschmusik nach Wirkung und Ablauf ein.",
+      "Diese Seite ist keine reine Liste, sondern hilft, Stücke sinnvoll im Abschied zu platzieren.",
+      "Die Musik bekommt eine klare Aufgabe im Ablauf, damit sie nicht wie eine zufällige Einlage wirkt. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
+      "Gerade bei Abschieden entlastet eine klare Vorabstimmung die Familie, weil am Tag selbst möglichst wenig erklärt werden muss.",
+      "Wenn ein Lied stark mit der verstorbenen Person verbunden ist, plane ich lieber einen passenden Ausschnitt als eine vollständige Version, die den Moment zu lang macht.",
+      "Das reduziert Kannibalisierung, weil sich Zielkeyword, Textschwerpunkt, FAQ und Kontaktfrage bewusst voneinander unterscheiden.",
+      "Für die Anfrage reichen zunächst wenige Informationen: Termin, Ort, gewünschter Moment und falls vorhanden ein Stückwunsch. Alles Weitere kann danach ruhig abgestimmt werden.",
+      "Weil die Viola ohne große Technik auskommt, kann sie sehr diskret platziert werden. Das hilft besonders bei kleinen Abschieden oder engen Zeitfenstern.",
+      "Ich trenne bei Trauermusik Repertoire zwischen musikalischer Wirkung und Organisation. Beides muss stimmen, damit Angehörige am Tag selbst nicht erklären, suchen oder entscheiden müssen.",
+      "Nicht jedes bekannte Lied passt automatisch. Manche Stücke wirken auf einem Solo-Instrument sehr klar, andere verlieren ohne Text oder Begleitung ihren eigentlichen Sinn.",
+      "Für Angehörige ist oft schon viel organisiert. Darum formuliere ich die musikalischen Optionen möglichst konkret: welcher Moment, welche Länge, welches Signal, welche Alternative, falls sich etwas verschiebt.",
+      "Damit die Seite nicht mit anderen Trauerseiten konkurriert, bekommt Trauermusik Repertoire einen eigenen Schwerpunkt: Zielperson, Einsatzpunkt, Klangentscheidung und Anfrage unterscheiden sich bewusst vom allgemeinen Trauermusik-Text.",
+      "Falls noch kein Wunschstück feststeht, ist das kein Problem. Dann geht es zuerst um die Stimmung: getragen, schlicht, hoffnungsvoll, klassisch, modern oder sehr persönlich.",
+      "Wenn Trauermusik Repertoire in einer freien Trauerfeier eingesetzt wird, kann die Musik flexibler atmen. In einer Kirche oder bei einer eng getakteten Beisetzung braucht sie dagegen klarere Einsatzpunkte.",
+      "Der Raum macht einen großen Unterschied: Trauerfeier, Beerdigung, Abschied oder stiller Moment kann warm, hallig, trocken, eng oder offen wirken. Darum entscheide ich Tempo, Länge und Dynamik nie unabhängig von der Akustik.",
+      "Die Seite soll deshalb nicht jeden verwandten Begriff übernehmen. Sie verweist innerlich auf Nachbarseiten, bleibt aber im Text bei der Frage, wie Trauermusik Repertoire praktisch und musikalisch gelöst wird.",
+      "Musik bei Abschieden braucht Verlässlichkeit. Deshalb gehören neben dem Klang auch Pünktlichkeit, Kleidung, diskrete Kommunikation und ein ruhiger Aufbau zur eigentlichen musikalischen Leistung.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Trauermusik Repertoire nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
+      "Diese Seite grenzt den Suchbegriff bewusst von allgemeineren Trauerseiten ab. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Lieder; hier geht es genau um Trauermusik Repertoire."
+    ],
+    "seal": "Repertoire\nAbschied\nLive-Viola"
+  },
+  "elegy": {
+    "quote": "Trauermusik Repertoire soll dem Abschied Raum geben, ohne Worte zu ersetzen.",
+    "passages": [
+      {
+        "strong": "Der Suchintent",
+        "text": "Der Intent ist orientierend: Es geht um Auswahl, Vergleich und passende Einsatzpunkte."
+      },
+      {
+        "strong": "Musikalische Aufgabe",
+        "text": "Ich ordne klassische Werke, moderne Lieder und persönliche Wunschmusik nach Wirkung und Ablauf ein."
+      },
+      {
+        "strong": "Abgrenzung",
+        "text": "Diese Seite ist keine reine Liste, sondern hilft, Stücke sinnvoll im Abschied zu platzieren."
+      },
+      {
+        "strong": "Ablauf",
+        "text": "Ich trenne bei Trauermusik Repertoire zwischen musikalischer Wirkung und Organisation. Beides muss stimmen, damit Angehörige am Tag selbst nicht erklären, suchen oder entscheiden müssen. Wenn Trauermusik Repertoire in einer freien Trauerfeier eingesetzt wird, kann die Musik flexibler atmen. In einer Kirche oder bei einer eng getakteten Beisetzung braucht sie dagegen klarere Einsatzpunkte."
+      },
+      {
+        "strong": "Raum und Klang",
+        "text": "Der Raum macht einen großen Unterschied: Trauerfeier, Beerdigung, Abschied oder stiller Moment kann warm, hallig, trocken, eng oder offen wirken. Darum entscheide ich Tempo, Länge und Dynamik nie unabhängig von der Akustik. Weil die Viola ohne große Technik auskommt, kann sie sehr diskret platziert werden. Das hilft besonders bei kleinen Abschieden oder engen Zeitfenstern."
+      },
+      {
+        "strong": "Wunschmusik",
+        "text": "Nicht jedes bekannte Lied passt automatisch. Manche Stücke wirken auf einem Solo-Instrument sehr klar, andere verlieren ohne Text oder Begleitung ihren eigentlichen Sinn. Musik bei Abschieden braucht Verlässlichkeit. Deshalb gehören neben dem Klang auch Pünktlichkeit, Kleidung, diskrete Kommunikation und ein ruhiger Aufbau zur eigentlichen musikalischen Leistung."
+      },
+      {
+        "strong": "SEO-Abgrenzung",
+        "text": "Damit die Seite nicht mit anderen Trauerseiten konkurriert, bekommt Trauermusik Repertoire einen eigenen Schwerpunkt: Zielperson, Einsatzpunkt, Klangentscheidung und Anfrage unterscheiden sich bewusst vom allgemeinen Trauermusik-Text. Die Seite soll deshalb nicht jeden verwandten Begriff übernehmen. Sie verweist innerlich auf Nachbarseiten, bleibt aber im Text bei der Frage, wie Trauermusik Repertoire praktisch und musikalisch gelöst wird."
+      },
+      {
+        "strong": "Anfrage",
+        "text": "Falls noch kein Wunschstück feststeht, ist das kein Problem. Dann geht es zuerst um die Stimmung: getragen, schlicht, hoffnungsvoll, klassisch, modern oder sehr persönlich."
+      }
+    ]
+  },
+  "solemn": {
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Trauermusik Repertoire ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie, Raum und gewünschter Nähe. Diese Punkte sollten vor dem Abschied geklärt sein.",
+    "cards": [
+      {
+        "rom": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "poet": "Bei Trauermusik Repertoire klären wir zuerst, ob die Musik Anfang, Übergang, Erinnerung oder Schlussmoment sein soll.",
+        "list": [
+          "Beginn",
+          "Zwischenmoment",
+          "Abschluss"
+        ]
+      },
+      {
+        "rom": "Ablauf",
+        "title": "Start und Ende sicher abstimmen",
+        "poet": "Ein Blickzeichen, eine Kontaktperson oder ein Stichwort verhindert Unsicherheit während der Trauerfeier.",
+        "list": [
+          "Kontaktperson",
+          "Startsignal",
+          "flexibles Ende"
+        ]
+      }
+    ],
+    "listLabel": "Mögliche Fragen zu Trauermusik Repertoire",
+    "list": [
+      "Welcher Moment soll getragen werden?",
+      "Ist ein Wunschstück vorgesehen?",
+      "Findet etwas draußen statt?",
+      "Wer gibt am Tag selbst das Signal?"
+    ]
   }
 }

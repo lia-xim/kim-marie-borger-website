@@ -6,59 +6,194 @@
   "targetKeyword": "Trauermusik Herne",
   "intentCluster": "beerdigungen:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-8-review-needed",
   "enabled": true,
-  "seoTitle": "Trauermusik Herne | Viola für Beerdigung & Abschied",
-  "seoDescription": "Trauermusik in Herne: würdevolle Viola-Begleitung für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Behutsam und zuverlässig.",
+  "seoTitle": "Trauermusik Herne | Live-Viola für Abschied",
+  "seoDescription": "Trauermusik Herne: Solo-Viola für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Ruhig geplant und persönlich abgestimmt.",
   "hero": {
-    "title": "Trauermusik in Herne für einen würdevollen Abschied.",
-    "lead": "Warme Viola-Klänge für Trauerfeier, Beerdigung, Bestattung oder Abschied in Herne - behutsam, ruhig und zuverlässig."
+    "eyebrow": "Abschied in Herne",
+    "title": "Trauermusik in Herne, die den Abschied ruhig trägt.",
+    "lead": "Ob Trauerfeier, Beerdigung, Bestattung oder letzter Abschied: Ich begleite Abschiede in Herne mit Solo-Viola, abgestimmt auf Ort, Ablauf und die Menschen, die Abschied nehmen.",
+    "badge": "Behutsam geplant & persönlich abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Trauermusik in Herne.",
+    "title": "FAQ zu Trauermusik in Herne",
     "items": [
       {
-        "question": "Begleitest du Trauerfeiern in Herne?",
-        "answer": "Ja. Ich spiele Trauermusik in Herne in Trauerhallen, Kirchen, Kapellen, am Grab oder bei freien Abschiedsfeiern.",
+        "question": "Spielst du Trauermusik in Herne?",
+        "answer": "Ja. Ich begleite Abschiede in Herne mit Solo-Viola, je nach Ablauf in Trauerhalle, Kirche, Kapelle, am Friedhof oder bei einer freien Abschiedsfeier.",
         "open": true
       },
       {
-        "question": "Kannst du dich mit dem Bestattungshaus abstimmen?",
-        "answer": "Ja. Ablauf, Einsätze, Ankunft und Stückauswahl kläre ich gern direkt mit Bestatter:in, Pfarrer:in oder Trauerredner:in."
+        "question": "Was ist bei Trauermusik in Herne besonders wichtig?",
+        "answer": "In Herne ist ein klares Zeitfenster wichtig, damit die Musik genau dort beginnt, wo die Feier still und aufmerksam ist."
       },
       {
-        "question": "Welche Stücke passen zur Beerdigung?",
-        "answer": "Häufig gewünscht sind Ave Maria, Air, Méditation, Amazing Grace oder ein persönliches Lieblingsstück, das behutsam für Viola arrangiert wird."
+        "question": "Kannst du dich mit dem Bestattungshaus abstimmen?",
+        "answer": "Ja. Ablauf, Ankunft, Platzierung, Einsätze und Rückfragen kann ich direkt mit Bestattungshaus, Trauerrednerin, Pfarrer oder Kontaktperson klären."
+      },
+      {
+        "question": "Welche Stücke passen zur Trauerfeier?",
+        "answer": "Häufig passen Ave Maria, Amazing Grace, Bach, Massenet oder ein persönliches Lieblingslied. Entscheidend ist, dass das Stück zur Person und zur konkreten Stelle im Ablauf passt."
+      },
+      {
+        "question": "Ist Musik draußen am Grab möglich?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Oft ist am Grab ein kurzer, sehr reduzierter Einsatz am passendsten."
+      },
+      {
+        "question": "Wie viele Musikstücke sind sinnvoll?",
+        "answer": "Häufig reichen zwei bis vier Einsätze. Ein Stück zum Beginn, ein ruhiger Moment nach Worten und Musik zum Auszug sind oft stimmiger als ein zu dichtes Programm."
+      },
+      {
+        "question": "Kann die Musik sehr dezent bleiben?",
+        "answer": "Ja. Die Viola kann leise und nah spielen. Gerade bei Trauerfeiern ist Zurückhaltung oft wichtiger als Lautstärke oder ein besonders langer musikalischer Beitrag."
+      },
+      {
+        "question": "Welche Angaben brauchst du für eine Anfrage?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort in Herne, der geplante Ablauf und ein Hinweis, ob Musik nur in der Trauerfeier oder auch am Grab gewünscht ist. Wenn es bereits ein Wunschstück gibt, prüfe ich direkt, ob es für Solo-Viola passt."
+      },
+      {
+        "question": "Warum gibt es eine eigene Seite für Herne?",
+        "answer": "Weil Trauermusik in Herne andere praktische Fragen hat als eine allgemeine Repertoireseite. Wege, Raumakustik, Friedhofsablauf, Wetter und lokale Abstimmung verändern, wie Musik am Abschiedstag wirklich funktioniert."
       },
       {
         "question": "Sind kurzfristige Anfragen möglich?",
-        "answer": "Oft ja. Gerade bei Beerdigungen in Herne melde ich mich schnell zurück, damit ihr Planungssicherheit bekommt."
+        "answer": "Oft ja. Für Abschiede in Herne melde ich mich schnell zurück, sobald Datum, Ort und ungefähre Uhrzeit feststehen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Viola, stille Detailaufnahme im warmen Licht"
+      "alt": "Live-Viola als Trauermusik in Herne 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola als Trauermusik in Herne 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Trauermusik Herne anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Trauermusik Herne.",
+    "eyebrow": "Trauermusik anfragen",
+    "title": "Trauermusik in Herne anfragen",
+    "lead": "Schickt mir Datum, Trauerort in Herne, Ablauf und mögliche Wunschstücke. Ich melde mich ruhig und zeitnah mit einer realistischen musikalischen Einschätzung.",
     "checklist": [
-      "Trauermusik Herne",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Herne",
+      "Trauerfeier oder Grab",
+      "Wunschstück"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Trauermusik Herne zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Termin prüfen",
+    "formTitle": "Trauermusik in Herne anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer behutsamen Idee für Trauermusik in Herne."
+  },
+  "split": {
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Trauermusik in Herne braucht Ruhe, Timing und verlässliche Abstimmung.",
+    "lede": "Herne bedeutet für Abschiede oft: Wanne, Eickel und Abschiede mitten im Ruhrgebiet. Deshalb plane ich Trauermusik nicht pauschal, sondern nach Trauerort, Raumklang, Weglänge und dem Punkt, an dem Musik wirklich helfen kann.",
+    "paragraphs": [
+      "Typische Rahmen sind Trauerhalle, Kirche, Friedhofskapelle oder kurzer Abschied im kleinen Kreis. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Beginn, nach Erinnerungsworten, während eines stillen Rituals, beim Auszug oder kurz am Grab.",
+      "Der Klang soll würdevoll, schlicht und nah sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleinen Kapellen, Trauerhallen oder draußen sehr direkt wirken.",
+      "Die Musik bekommt feste Momente, bleibt aber flexibel, falls sich der Ablauf verschiebt. So entsteht kein Musikblock, sondern ein ruhiger Faden durch die Feier.",
+      "Für Herne kläre ich vorab auch die praktischen Details: Timing genau setzen, damit der erste Ton zum geplanten Moment kommt. Das klingt nüchtern, entscheidet aber oft darüber, ob die Musik am Tag selbst still und sicher beginnen kann.",
+      "Wenn Angehörige aus mehreren Städten anreisen, hilft ein klarer musikalischer Anfang, damit der Abschied gesammelt beginnt. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
+      "Das Repertoire kann Ave Maria, Amazing Grace, Bach, Massenet oder ein persönliches Lieblingslied verbinden. Wichtig ist, dass die Musik zur Person, zum Raum und zur Familie passt.",
+      "Gerade lokale Trauermusik darf nicht wie eine kopierte Vorlage wirken. Der Ablauf wird auf Trauerort, Angehörige und Wunschmoment abgestimmt.",
+      "Herne liegt mitten im Ruhrgebiet und passt zu Abschieden, die direkt, familiär und unkompliziert geplant sind. Solo-Viola bringt Festlichkeit in Trauerhalle, Kirche oder Kapelle, ohne den Ablauf schwerer zu machen.",
+      "In Herne ist ein klares Zeitfenster wichtig, damit die Musik genau dort beginnt, wo die Feier still und aufmerksam ist.",
+      "Gerade für Angehörige ist es hilfreich, wenn die musikalischen Punkte vorher feststehen. Dann muss niemand während der Trauerfeier überlegen, ob ein Stück schon beginnen soll oder noch gewartet werden muss.",
+      "Vor Ort brauche ich nur einen sicheren Platz, ein kurzes Zeitfenster zum Stimmen und eine Person, die über Ablaufänderungen Bescheid weiß.",
+      "Wenn der Raum akustisch trocken ist, bleibt die Musik eher nah und direkt. Wenn viel Hall entsteht, müssen Einsatz und Ende besonders ruhig geführt werden.",
+      "Wenn nach der Feier eine Begegnung oder ein stilles Beisammensein folgt, kann die Musik den Übergang weicher machen, ohne diesen Teil zu begleiten.",
+      "Für Herne unterscheide ich zuerst zwischen Musik im Raum und Musik auf dem Friedhof. In Trauerhalle, Kirche, Friedhofskapelle oder kurzer Abschied im kleinen Kreis gelten andere Fragen als am Grab: Wie weit trägt der Klang, wer sieht die Musikerin, und wann darf der letzte Ton ausklingen?",
+      "Wenn mehrere Wunschlieder im Raum stehen, ordne ich sie nach Wirkung: eines zum Sammeln, eines für Erinnerung, eines für den Schluss. Nicht jedes Stück muss vollständig gespielt werden.",
+      "Bei einer Feier in Herne kann die Viola auch einen Übergang tragen: vom Ankommen in die Stille, von Worten zum Ritual oder vom letzten Gruß zurück in die Begegnung danach.",
+      "Für Google und für echte Anfragen ist diese Abgrenzung wichtig: Die Seite soll nicht nur Trauermusik erklären, sondern Trauermusik an diesem Ort planbar machen.",
+      "Für eine Anfrage reichen zunächst Datum, Uhrzeit, genauer Ort in Herne, gewünschter musikalischer Moment und falls vorhanden ein Wunschlied. Danach kann ich einschätzen, welche Besetzung und Länge sinnvoll ist.",
+      "Für Herne bespreche ich gern, ob Musik bereits beim Ankommen beginnen soll oder erst nach den ersten Worten. Diese Entscheidung verändert die gesamte Atmosphäre der Trauerfeier und sollte nicht zufällig entstehen.",
+      "Ich achte darauf, dass die Musik nicht gegen Raumgeräusche, Schritte oder organisatorische Ansagen arbeiten muss. Wenn der Ablauf ruhig geplant ist, kann auch ein einzelner Ton sehr wirksam sein.",
+      "Wenn eine Familie unsicher ist, ob Live-Musik zu viel sein könnte, plane ich besonders reduziert: wenige Einsätze, leise Dynamik, keine Anmoderation und ein Auftreten, das den Abschied nicht unterbricht.",
+      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab."
+    ],
+    "seal": "Herne\nTrauerfeier & Abschied\nLive-Viola"
+  },
+  "elegy": {
+    "quote": "Trauermusik in Herne soll nicht erklären, sondern dem Abschied einen ruhigen Halt geben.",
+    "passages": [
+      {
+        "strong": "Der Ort",
+        "text": "Wanne, Eickel und Abschiede mitten im Ruhrgebiet. Diese konkrete Umgebung beeinflusst, ob Musik eher im Raum, am Ausgang oder draußen am Grab sinnvoll ist."
+      },
+      {
+        "strong": "Der Klang",
+        "text": "Die Viola bleibt warm und zurückhaltend. Sie kann Trauer halten, ohne aus dem Abschied einen musikalischen Vortrag zu machen."
+      },
+      {
+        "strong": "Die Abstimmung",
+        "text": "Ich stimme mich bei Bedarf mit Bestattungshaus, Rednerin, Pfarrer oder Familie ab, damit Angehörige am Tag selbst nicht organisieren müssen."
+      },
+      {
+        "strong": "Lokaler Ablauf",
+        "text": "Für Herne unterscheide ich zuerst zwischen Musik im Raum und Musik auf dem Friedhof. In Trauerhalle, Kirche, Friedhofskapelle oder kurzer Abschied im kleinen Kreis gelten andere Fragen als am Grab: Wie weit trägt der Klang, wer sieht die Musikerin, und wann darf der letzte Ton ausklingen? Bei einer Feier in Herne kann die Viola auch einen Übergang tragen: vom Ankommen in die Stille, von Worten zum Ritual oder vom letzten Gruß zurück in die Begegnung danach."
+      },
+      {
+        "strong": "Herne konkret",
+        "text": "Herne liegt mitten im Ruhrgebiet und passt zu Abschieden, die direkt, familiär und unkompliziert geplant sind. Solo-Viola bringt Festlichkeit in Trauerhalle, Kirche oder Kapelle, ohne den Ablauf schwerer zu machen."
+      },
+      {
+        "strong": "Praktische Details",
+        "text": "In Herne ist ein klares Zeitfenster wichtig, damit die Musik genau dort beginnt, wo die Feier still und aufmerksam ist."
+      },
+      {
+        "strong": "Räume und Wege",
+        "text": "Für Herne bedeutet Trauerhalle, Kirche, Friedhofskapelle oder kurzer Abschied im kleinen Kreis: Timing genau setzen, damit der erste Ton zum geplanten Moment kommt. Der Rahmen Wanne, Eickel und Abschiede mitten im Ruhrgebiet verändert, ob die Musik nah bei den Angehörigen, am Ausgang, in einer Kapelle oder erst draußen sinnvoll wirkt."
+      },
+      {
+        "strong": "Wunschmusik",
+        "text": "Wenn mehrere Wunschlieder im Raum stehen, ordne ich sie nach Wirkung: eines zum Sammeln, eines für Erinnerung, eines für den Schluss. Nicht jedes Stück muss vollständig gespielt werden. Ich achte darauf, dass die Musik nicht gegen Raumgeräusche, Schritte oder organisatorische Ansagen arbeiten muss. Wenn der Ablauf ruhig geplant ist, kann auch ein einzelner Ton sehr wirksam sein."
+      },
+      {
+        "strong": "Entlastung",
+        "text": "Wenn eine Familie unsicher ist, ob Live-Musik zu viel sein könnte, plane ich besonders reduziert: wenige Einsätze, leise Dynamik, keine Anmoderation und ein Auftreten, das den Abschied nicht unterbricht. Für eine Anfrage reichen zunächst Datum, Uhrzeit, genauer Ort in Herne, gewünschter musikalischer Moment und falls vorhanden ein Wunschlied. Danach kann ich einschätzen, welche Besetzung und Länge sinnvoll ist."
+      },
+      {
+        "strong": "Abgrenzung",
+        "text": "Für Google und für echte Anfragen ist diese Abgrenzung wichtig: Die Seite soll nicht nur Trauermusik erklären, sondern Trauermusik an diesem Ort planbar machen."
+      }
+    ]
+  },
+  "solemn": {
+    "eyebrow": "Ablauf",
+    "title": "Wo Trauermusik in Herne sinnvoll wirken kann.",
+    "lead": "Die genaue Dramaturgie richtet sich nach Trauerort, Zeremonieform und dem gewünschten Abschiedston.",
+    "cards": [
+      {
+        "rom": "Beginn",
+        "title": "Den Raum sammeln",
+        "poet": "Ein ruhiges erstes Stück hilft, bevor die ersten Worte gesprochen werden.",
+        "list": [
+          "Ankommen",
+          "Kerze oder Foto",
+          "erster stiller Moment"
+        ]
+      },
+      {
+        "rom": "Abschluss",
+        "title": "Den Auszug halten",
+        "poet": "Ein schlichtes Schlussstück kann den Übergang aus Trauerhalle, Kirche oder Kapelle würdevoll führen.",
+        "list": [
+          "Auszug",
+          "Gang zum Grab",
+          "letzter Gruß"
+        ]
+      }
+    ],
+    "listLabel": "Mögliche Einsatzpunkte in Herne",
+    "list": [
+      "Beginn der Trauerfeier",
+      "nach persönlichen Erinnerungen",
+      "Kerzen- oder Blumenmoment",
+      "Auszug oder kurzer Moment am Grab"
+    ]
   }
 }
