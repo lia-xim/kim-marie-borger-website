@@ -6,63 +6,128 @@
   "targetKeyword": "Viola Konzert Hagen",
   "intentCluster": "konzerte:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-11-review-needed",
   "enabled": true,
-  "seoTitle": "Viola Konzert Hagen | Musik für Event & Kulturabend",
-  "seoDescription": "Viola Konzert in Hagen: kuratierte Musik für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
+  "seoTitle": "Viola Konzert Hagen | Kultur & Event",
+  "seoDescription": "Viola Konzert Hagen: Solo-Viola für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
   "hero": {
-    "title": "Viola Konzert in Hagen für besondere Bühnen.",
-    "lead": "Kuratierte Viola-Programme für Vernissage, Lesung, Salonkonzert, Kulturabend, Empfang oder Event in Hagen."
+    "eyebrow": "Konzert & Event",
+    "title": "Viola Konzert in Hagen für Kulturabende mit Dramaturgie.",
+    "lead": "Hagen verbindet Sauerlandnähe, Kulturorte, Volme und regionale Veranstaltungen mit weiterem Einzugsgebiet. Ich kuratiere Solo-Viola-Programme für Konzert, Vernissage, Lesung, Salon und besondere Bühnen.",
+    "badge": "Kammermusik, Salon & Kulturformat"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Ein Programm in Hagen, das zum Raum passt.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Ein Viola-Programm in Hagen muss zum Raum und Publikum passen.",
+    "lede": "Gäste hören häufig aufmerksam, wenn das Programm einen nachvollziehbaren Bogen hat. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
     "paragraphs": [
-      "Ob zwischen Hohenlimburg, Volmetal, Ruhrgebiet und dem Rand des Sauerlands: Ein Konzert- oder Kulturabend braucht Dramaturgie. Ich stelle Programme zusammen, die mit dem Raum, dem Publikum und dem Anlass arbeiten - von klassischer Tiefe bis zu modernen Arrangements.",
-      "Möglich sind kurze musikalische Rahmen von etwa 30 Minuten, ein Salonkonzert mit Pause oder ein konzentrierter Programmpunkt für Vernissage, Lesung, Empfang oder private Veranstaltung."
-    ]
+      "Hagen verbindet Sauerlandnähe, Kulturorte, Volme und regionale Veranstaltungen mit weiterem Einzugsgebiet.",
+      "Passend sind Kulturabend, Lesung, Kammerkonzert, Empfang, Vernissage oder ein privates Programm mit Blick ins Grüne.",
+      "Anreise, Wetteroptionen und ein klarer Aufbauplatz sind bei Randlagen besonders wichtig.",
+      "Gäste hören häufig aufmerksam, wenn das Programm einen nachvollziehbaren Bogen hat.",
+      "Ein Hagener Programm darf landschaftliche Ruhe und expressive Stücke verbinden.",
+      "Für Viola Konzert Hagen ist der Ton bewusst getragen, regional und offen. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
+      "Ich plane die Musik nicht als austauschbare Liste. Entscheidend ist, ob die Viola zuhören lässt, einen Text rahmt, Kunst begleitet oder einen Empfang kultivierter macht.",
+      "Die Länge entsteht aus Anlass und Aufmerksamkeit: dreißig Minuten können perfekt sein, wenn sie präzise gebaut sind; ein längerer Abend braucht Pausen und Kontraste.",
+      "Wenn Wunschstücke geplant sind, prüfe ich, ob sie solistisch tragen und wie sie dramaturgisch eingebettet werden können.",
+      "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
+      "Bei Vernissagen in Hagen darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
+      "Bei Lesungen in Hagen achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
+      "Für Salonkonzerte in Hagen plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
+      "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block.",
+      "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
+      "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
+      "Diese Seite fokussiert bewusst Viola Konzert Hagen. Andere Seiten im Cluster behandeln Vernissage, Lesung, Salonkonzert, Live-Musik-Event oder Instrumentenfragen; hier geht es um den konkreten lokalen Konzertintent.",
+      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt."
+    ],
+    "seal": "Hagen\nKonzert\nViola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Viola Konzerten in Hagen.",
+    "title": "FAQ zu Viola Konzert Hagen",
     "items": [
       {
-        "question": "Spielst du Konzerte und Events in Hagen?",
-        "answer": "Ja. Ich gestalte Viola-Programme für Konzerte, Vernissagen, Lesungen, Kulturabende, private Events und Empfänge in Hagen.",
+        "question": "Spielst du Viola-Konzerte in Hagen?",
+        "answer": "Ja. Ich gestalte Konzerte, Vernissagen, Lesungen, Salonabende, Kulturprogramme und besondere Eventformate in Hagen mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Wie lang ist ein Programm?",
-        "answer": "Je nach Format sind kurze Rahmenprogramme, 30 bis 60 Minuten oder ein längerer Konzertabend mit Pause möglich."
+        "question": "Welche Formate passen in Hagen?",
+        "answer": "Passend sind Kulturabend, Lesung, Kammerkonzert, Empfang, Vernissage oder ein privates Programm mit Blick ins Grüne. Die genaue Länge hängt davon ab, ob das Publikum zuhören, ankommen, Kunst betrachten oder zwischen Textblöcken wechseln soll."
+      },
+      {
+        "question": "Was ist organisatorisch in Hagen wichtig?",
+        "answer": "Anreise, Wetteroptionen und ein klarer Aufbauplatz sind bei Randlagen besonders wichtig."
       },
       {
         "question": "Kannst du Stücke anmoderieren?",
-        "answer": "Ja. Kurze persönliche Anmoderationen können ein Programm zugänglicher und lebendiger machen."
+        "answer": "Ja. Kurze Anmoderationen können ein Programm zugänglicher machen, ohne den musikalischen Fluss zu unterbrechen."
       },
       {
-        "question": "Brauchst du Technik?",
-        "answer": "In vielen Räumen reicht akustisches Spiel. Für größere Säle oder Events bespreche ich dezente Verstärkung."
+        "question": "Kann das Programm mit Lesung oder Kunst kombiniert werden?",
+        "answer": "Ja. Gerade Viola eignet sich gut für Übergänge zwischen Text, Bild, Gespräch und konzentriertem Zuhören."
+      },
+      {
+        "question": "Kann das Programm klassisch und modern sein?",
+        "answer": "Ja. Ich kombiniere klassische Stücke, romantische Miniaturen, moderne Linien oder persönliche Wünsche so, dass ein schlüssiger Bogen entsteht."
+      },
+      {
+        "question": "Warum passt Solo-Viola für Viola Konzert Hagen?",
+        "answer": "Die Viola klingt warm, nah und selten genug, um Aufmerksamkeit zu wecken. Gleichzeitig bleibt sie schlank genug für kleine Räume, Galerien und private Konzertformate."
+      },
+      {
+        "question": "Welche Angaben helfen für eine Anfrage in Hagen?",
+        "answer": "Hilfreich sind Datum, Ort, Anlass, gewünschte Länge, Raumgröße, Publikum, Ablauf, Lichtsituation und ob Moderation gewünscht ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Kim Marie Borger mit Viola im Freien"
+      "alt": "Viola Konzert in Hagen mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Konzert anfragen",
     "title": "Viola Konzert Hagen anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Viola Konzert Hagen.",
+    "lead": "Schick mir Datum, Ort, Format und gewünschte Programmlänge in Hagen. Ich melde mich mit einer passenden Idee für Solo-Viola.",
     "checklist": [
       "Viola Konzert Hagen",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Konzert, Vernissage oder Lesung",
+      "Raum, Publikum & Programmlänge"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Viola Konzert Hagen zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt ein Viola-Programm in Hagen?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für ein Viola Konzert in Hagen."
+  },
+  "focus": {
+    "eyebrow": "Programmidee",
+    "title": "Ein möglicher Bogen für Viola Konzert Hagen.",
+    "heading": "Programm",
+    "subtitle": "Viola-Abend Hagen",
+    "items": [
+      {
+        "title": "Auftakt: ein ruhiger Raumöffner",
+        "detail": "Bach, Telemann oder eine freie Prélude-Idee für getragen, regional und offen"
+      },
+      {
+        "title": "Erzählende Mitte",
+        "detail": "Romantische Miniatur oder modernes Stück für Gäste hören häufig aufmerksam, wenn das Programm einen nachvollziehbaren Bogen hat."
+      },
+      {
+        "title": "Kurzer Übergang",
+        "detail": "Moderation, Textbezug oder bewusste Stille"
+      },
+      {
+        "title": "Kontrast mit Bewegung",
+        "detail": "Piazzolla, Tanzform oder zeitgenössische Farbe"
+      },
+      {
+        "title": "Ausklang",
+        "detail": "Zugabe oder persönliches Wunschstück für in Hagen"
+      }
+    ],
+    "footnote": "Das konkrete Programm für Viola Konzert Hagen wird nach Raum, Anlass, Publikum und gewünschter Dauer zusammengestellt."
   }
 }

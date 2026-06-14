@@ -6,63 +6,128 @@
   "targetKeyword": "Viola Konzert Moers",
   "intentCluster": "konzerte:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-11-review-needed",
   "enabled": true,
-  "seoTitle": "Viola Konzert Moers | Musik für Event & Kulturabend",
-  "seoDescription": "Viola Konzert in Moers: kuratierte Musik für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
+  "seoTitle": "Viola Konzert Moers | Kultur & Event",
+  "seoDescription": "Viola Konzert Moers: Solo-Viola für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
   "hero": {
-    "title": "Viola Konzert in Moers für besondere Bühnen.",
-    "lead": "Kuratierte Viola-Programme für Vernissage, Lesung, Salonkonzert, Kulturabend, Empfang oder Event in Moers."
+    "eyebrow": "Konzert & Event",
+    "title": "Viola Konzert in Moers für Kulturabende mit Dramaturgie.",
+    "lead": "Moers steht für Niederrhein, Schlossnähe und Kulturformate zwischen Duisburg und Kamp-Lintfort. Ich kuratiere Solo-Viola-Programme für Konzert, Vernissage, Lesung, Salon und besondere Bühnen.",
+    "badge": "Kammermusik, Salon & Kulturformat"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Ein Programm in Moers, das zum Raum passt.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Ein Viola-Programm in Moers muss zum Raum und Publikum passen.",
+    "lede": "Gäste hören oft entspannt, aber sehr aufmerksam, wenn der Rahmen nicht zu groß gemacht wird. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
     "paragraphs": [
-      "Ob zwischen Schlosspark, Altstadt, Niederrhein und kurzen Wegen nach Duisburg: Ein Konzert- oder Kulturabend braucht Dramaturgie. Ich stelle Programme zusammen, die mit dem Raum, dem Publikum und dem Anlass arbeiten - von klassischer Tiefe bis zu modernen Arrangements.",
-      "Möglich sind kurze musikalische Rahmen von etwa 30 Minuten, ein Salonkonzert mit Pause oder ein konzentrierter Programmpunkt für Vernissage, Lesung, Empfang oder private Veranstaltung."
-    ]
+      "Moers steht für Niederrhein, Schlossnähe und Kulturformate zwischen Duisburg und Kamp-Lintfort.",
+      "Geeignet sind Kulturabend, Lesung, Vernissage, Hauskonzert, Empfang oder Matinee.",
+      "Bei Außenbereichen sollten Wetterschutz, Untergrund und Nähe zum Publikum geklärt werden.",
+      "Gäste hören oft entspannt, aber sehr aufmerksam, wenn der Rahmen nicht zu groß gemacht wird.",
+      "Für Moers plane ich Programme mit ruhigem Einstieg und einem klaren, warmen Schluss.",
+      "Für Viola Konzert Moers ist der Ton bewusst niederrheinisch, ruhig und freundlich. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
+      "Kurze Anmoderationen können helfen, besonders wenn das Publikum nicht aus einem klassischen Konzertkontext kommt.",
+      "Auch die Stille gehört zum Programm. Gerade bei Viola wirkt ein bewusst gesetzter Zwischenraum oft stärker als ein weiterer schneller Wechsel.",
+      "Ein Konzertprogramm braucht nicht viele Stücke, sondern eine innere Richtung: ein Anfang, der den Raum öffnet, eine Mitte mit Tiefe und ein Schluss, der das Publikum nicht abrupt entlässt.",
+      "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
+      "Bei Vernissagen in Moers darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
+      "Bei Lesungen in Moers achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
+      "Für Salonkonzerte in Moers plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
+      "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block.",
+      "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
+      "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
+      "Diese Seite fokussiert bewusst Viola Konzert Moers. Andere Seiten im Cluster behandeln Vernissage, Lesung, Salonkonzert, Live-Musik-Event oder Instrumentenfragen; hier geht es um den konkreten lokalen Konzertintent.",
+      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt."
+    ],
+    "seal": "Moers\nKonzert\nViola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Viola Konzerten in Moers.",
+    "title": "FAQ zu Viola Konzert Moers",
     "items": [
       {
-        "question": "Spielst du Konzerte und Events in Moers?",
-        "answer": "Ja. Ich gestalte Viola-Programme für Konzerte, Vernissagen, Lesungen, Kulturabende, private Events und Empfänge in Moers.",
+        "question": "Spielst du Viola-Konzerte in Moers?",
+        "answer": "Ja. Ich gestalte Konzerte, Vernissagen, Lesungen, Salonabende, Kulturprogramme und besondere Eventformate in Moers mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Wie lang ist ein Programm?",
-        "answer": "Je nach Format sind kurze Rahmenprogramme, 30 bis 60 Minuten oder ein längerer Konzertabend mit Pause möglich."
+        "question": "Welche Formate passen in Moers?",
+        "answer": "Geeignet sind Kulturabend, Lesung, Vernissage, Hauskonzert, Empfang oder Matinee. Die genaue Länge hängt davon ab, ob das Publikum zuhören, ankommen, Kunst betrachten oder zwischen Textblöcken wechseln soll."
       },
       {
-        "question": "Kannst du Stücke anmoderieren?",
-        "answer": "Ja. Kurze persönliche Anmoderationen können ein Programm zugänglicher und lebendiger machen."
+        "question": "Was ist organisatorisch in Moers wichtig?",
+        "answer": "Bei Außenbereichen sollten Wetterschutz, Untergrund und Nähe zum Publikum geklärt werden."
       },
       {
         "question": "Brauchst du Technik?",
-        "answer": "In vielen Räumen reicht akustisches Spiel. Für größere Säle oder Events bespreche ich dezente Verstärkung."
+        "answer": "In vielen Räumen reicht akustische Viola mit gutem Licht. Bei größeren Räumen oder offenen Flächen bespreche ich dezente Verstärkung."
+      },
+      {
+        "question": "Wie lang sollte ein Konzertprogramm sein?",
+        "answer": "Je nach Format sind 30 bis 45 Minuten, ein geteilter Abend mit Pause oder ein kurzer musikalischer Akzent sinnvoll. Entscheidend ist die Aufmerksamkeit des Publikums."
+      },
+      {
+        "question": "Kann das Programm klassisch und modern sein?",
+        "answer": "Ja. Ich kombiniere klassische Stücke, romantische Miniaturen, moderne Linien oder persönliche Wünsche so, dass ein schlüssiger Bogen entsteht."
+      },
+      {
+        "question": "Warum passt Solo-Viola für Viola Konzert Moers?",
+        "answer": "Die Viola klingt warm, nah und selten genug, um Aufmerksamkeit zu wecken. Gleichzeitig bleibt sie schlank genug für kleine Räume, Galerien und private Konzertformate."
+      },
+      {
+        "question": "Welche Angaben helfen für eine Anfrage in Moers?",
+        "answer": "Hilfreich sind Datum, Ort, Anlass, gewünschte Länge, Raumgröße, Publikum, Ablauf, Lichtsituation und ob Moderation gewünscht ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Kim Marie Borger mit Viola im Freien"
+      "alt": "Viola Konzert in Moers mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Konzert anfragen",
     "title": "Viola Konzert Moers anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Viola Konzert Moers.",
+    "lead": "Schick mir Datum, Ort, Format und gewünschte Programmlänge in Moers. Ich melde mich mit einer passenden Idee für Solo-Viola.",
     "checklist": [
       "Viola Konzert Moers",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Konzert, Vernissage oder Lesung",
+      "Raum, Publikum & Programmlänge"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Viola Konzert Moers zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt ein Viola-Programm in Moers?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für ein Viola Konzert in Moers."
+  },
+  "focus": {
+    "eyebrow": "Programmidee",
+    "title": "Ein möglicher Bogen für Viola Konzert Moers.",
+    "heading": "Programm",
+    "subtitle": "Viola-Abend Moers",
+    "items": [
+      {
+        "title": "Auftakt: ein ruhiger Raumöffner",
+        "detail": "Bach, Telemann oder eine freie Prélude-Idee für niederrheinisch, ruhig und freundlich"
+      },
+      {
+        "title": "Erzählende Mitte",
+        "detail": "Romantische Miniatur oder modernes Stück für Gäste hören oft entspannt, aber sehr aufmerksam, wenn der Rahmen nicht zu groß gemacht wird."
+      },
+      {
+        "title": "Kurzer Übergang",
+        "detail": "Moderation, Textbezug oder bewusste Stille"
+      },
+      {
+        "title": "Kontrast mit Bewegung",
+        "detail": "Piazzolla, Tanzform oder zeitgenössische Farbe"
+      },
+      {
+        "title": "Ausklang",
+        "detail": "Zugabe oder persönliches Wunschstück für in Moers"
+      }
+    ],
+    "footnote": "Das konkrete Programm für Viola Konzert Moers wird nach Raum, Anlass, Publikum und gewünschter Dauer zusammengestellt."
   }
 }

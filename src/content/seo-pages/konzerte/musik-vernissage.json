@@ -6,61 +6,127 @@
   "targetKeyword": "Musik Vernissage",
   "intentCluster": "konzerte:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-11-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Vernissage | Viola Konzert & Kulturprogramm",
-  "seoDescription": "Musik Vernissage: Kuratierte Viola-Musik für Konzert, Vernissage, Lesung oder Kulturabend. Programm passend zum Anlass.",
+  "seoTitle": "Musik Vernissage | Solo-Viola",
+  "seoDescription": "Musik Vernissage: kuratiertes Solo-Viola-Programm für Konzert, Kulturabend, Vernissage, Lesung oder Event.",
   "hero": {
-    "title": "Musik Vernissage, persönlich geplant und live begleitet.",
-    "lead": "Kuratierte Viola-Programme für Bühnen, Salons, Vernissagen und Kulturabende. Diese Seite bündelt den Suchintent \"Musik Vernissage\" für Ausstellungseröffnung und ruhige Begegnungen."
+    "eyebrow": "Konzert & Kultur",
+    "title": "Musik für Vernissagen mit Raum für Kunst und Gespräch.",
+    "lead": "Bei Vernissagen muss Musik Kunst, Raum und Gespräche respektieren. Ich plane Solo-Viola so, dass Programm, Raum, Publikum und Anlass zusammenpassen.",
+    "badge": "Kuratierte Programme mit Viola"
   },
   "split": {
-    "eyebrow": "Programm",
-    "title": "Konzertmusik braucht Dramaturgie.",
-    "lede": "Für Vernissagen, Lesungen und Konzertformate wird Musik nicht nur begleitet, sondern bewusst programmiert. Für musik vernissage zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Musik Vernissage braucht eine eigene dramaturgische Aufgabe.",
+    "lede": "Galerien, Künstler, Kuratoren und Gastgeber, die eine Ausstellung musikalisch öffnen möchten suchen Musik für Vernissage, Ausstellungseröffnung, Galerieabend, Kunstempfang oder kuratierter Rundgang. Deshalb bekommt dieser Begriff eine eigene Seite im Konzertcluster.",
     "paragraphs": [
-      "Musik Vernissage wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für das Kulturformat.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Publikum und Veranstalter:innen für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
-    ]
+      "Bei Vernissagen muss Musik Kunst, Raum und Gespräche respektieren.",
+      "Ich spiele kurze Sets oder gezielte Akzente, die Atmosphäre schaffen und den Blick auf die Arbeiten offen lassen.",
+      "Diese Seite grenzt sich von Salonkonzert ab, weil nicht Zuhören allein, sondern Kunstbetrachtung und Begegnung im Mittelpunkt stehen.",
+      "Wichtig sind Raumwege, Reden, Hängung, Gästezahl, Lautstärke und die Frage, ob Musik beim Einlass oder nach der Eröffnung wirkt.",
+      "Solo-Viola kann einer Vernissage Wärme geben, ohne die Ausstellung akustisch zu überdecken.",
+      "Ein Vernissage-Programm ist modular: Auftakt, Rede-Rahmung, leiser Fluss, kurzer Schlussakzent.",
+      "Bei Musik Vernissage geht es zuerst um die Hörsituation. Sitzt das Publikum konzentriert, bewegt es sich durch eine Ausstellung, hört es einer Lesung zu oder entsteht der musikalische Moment zwischen Gesprächen?",
+      "Wenn Wunschstücke geplant sind, prüfe ich, ob sie solistisch tragen und wie sie dramaturgisch eingebettet werden können.",
+      "Ich plane die Musik nicht als austauschbare Liste. Entscheidend ist, ob die Viola zuhören lässt, einen Text rahmt, Kunst begleitet oder einen Empfang kultivierter macht.",
+      "Die Länge entsteht aus Anlass und Aufmerksamkeit: dreißig Minuten können perfekt sein, wenn sie präzise gebaut sind; ein längerer Abend braucht Pausen und Kontraste.",
+      "Ich wähle Stücke danach aus, ob sie solistisch auf der Viola tragen und zum Format passen. Ein Werk, das im Konzertsaal stark ist, kann bei einer Vernissage zu groß wirken; eine Miniatur kann dagegen genau richtig sein.",
+      "Auch Moderation wird bewusst entschieden. Manchmal braucht das Publikum einen kurzen Einstieg in das Instrument oder den Komponisten, manchmal soll Musik ohne Erklärung zwischen zwei Texten stehen.",
+      "Die Dauer folgt nicht einer Standardliste. Ein konzentrierter Block von dreißig Minuten kann stärker sein als ein langer Abend, wenn das Format eigentlich auf Begegnung oder Kunstbetrachtung zielt.",
+      "Bei längeren Programmen plane ich Kontraste: warme Linie, rhythmischer Impuls, Stille, ein bekanntes Stück und ein überraschender Schluss.",
+      "Diese Seite bleibt bewusst bei Musik Vernissage. Ortsseiten beantworten lokale Fragen, andere Topic-Seiten behandeln Vernissage, Lesung, Salon, Live-Musik-Event oder Bratsche als Instrument.",
+      "Für eine Anfrage reichen Datum, Ort, Publikum, Anlass, gewünschte Länge und die Frage, ob Musik im Mittelpunkt steht oder einen anderen Inhalt rahmt.",
+      "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt."
+    ],
+    "seal": "Musik Vernissage\nKultur\nViola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik Vernissage.",
+    "title": "FAQ zu Musik Vernissage",
     "items": [
       {
-        "question": "Passt Musik Vernissage zu das Kulturformat?",
-        "answer": "Ja. Musik Vernissage wird gezielt auf das Kulturformat, den Raum und den Ablauf abgestimmt. für ein kuratiertes Kulturformat.",
+        "question": "Für wen passt Musik Vernissage?",
+        "answer": "Musik Vernissage passt für Galerien, Künstler, Kuratoren und Gastgeber, die eine Ausstellung musikalisch öffnen möchten. Entscheidend ist, ob Musik zuhören lässt, rahmt oder einen Übergang gestaltet.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Was unterscheidet diese Seite von allgemeiner Eventmusik?",
+        "answer": "Diese Seite grenzt sich von Salonkonzert ab, weil nicht Zuhören allein, sondern Kunstbetrachtung und Begegnung im Mittelpunkt stehen."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Vernissage am Tag selbst ruhig funktioniert."
+        "question": "Kann ein Wunschstück integriert werden?",
+        "answer": "Ja, wenn es auf Solo-Viola funktioniert und zum dramaturgischen Bogen passt. Ich prüfe Melodie, Tonart und Wirkung vorab."
+      },
+      {
+        "question": "Kannst du Stücke anmoderieren?",
+        "answer": "Ja. Kurze Anmoderationen können ein Programm zugänglicher machen, ohne den musikalischen Fluss zu unterbrechen."
+      },
+      {
+        "question": "Wie wird das Programm geplant?",
+        "answer": "Wichtig sind Raumwege, Reden, Hängung, Gästezahl, Lautstärke und die Frage, ob Musik beim Einlass oder nach der Eröffnung wirkt. Danach entsteht ein Programm mit Anfang, Kontrast, möglicher Pause und passendem Schluss."
+      },
+      {
+        "question": "Kannst du moderieren?",
+        "answer": "Ja. Kurze, persönliche Einordnungen zu Stücken oder zum Instrument machen ein Konzert oft nahbarer."
+      },
+      {
+        "question": "Ist Solo-Viola auch für kleine Räume geeignet?",
+        "answer": "Ja. Gerade in kleinen Räumen trägt die Viola sehr direkt und braucht meist keine große Technik."
+      },
+      {
+        "question": "Welche Angaben brauchst du für Musik Vernissage?",
+        "answer": "Datum, Ort, Raum, Publikum, gewünschte Dauer, Anlass, Ablauf und vorhandene Wunschstücke reichen für eine erste Einschätzung."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Kim Marie Borger mit Viola im Freien"
+      "alt": "Live-Viola für Musik Vernissage mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Programm anfragen",
     "title": "Musik Vernissage anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Vernissage.",
+    "lead": "Schick mir Datum, Ort, Publikum und gewünschte Länge für Musik Vernissage. Ich melde mich mit einer passenden Programmidee für Solo-Viola.",
     "checklist": [
       "Musik Vernissage",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Vernissage, Ausstellungseröffnung, Galerieabend, Kunstempfang oder kuratierter Rundgang",
+      "Dauer, Raum & Publikum"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Vernissage zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Musik Vernissage zu deinem Format?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Vernissage."
+  },
+  "focus": {
+    "eyebrow": "Programmidee",
+    "title": "Ein möglicher Aufbau für Musik Vernissage.",
+    "heading": "Programm",
+    "subtitle": "Musik Vernissage",
+    "items": [
+      {
+        "title": "Eröffnung",
+        "detail": "Ein Stück, das den Raum sammelt und die Klangfarbe der Viola vorstellt"
+      },
+      {
+        "title": "Kontext",
+        "detail": "Kurze Moderation oder thematische Brücke für Vernissage, Ausstellungseröffnung, Galerieabend, Kunstempfang oder kuratierter Rundgang"
+      },
+      {
+        "title": "Kernstück",
+        "detail": "Ein Vernissage-Programm ist modular: Auftakt, Rede-Rahmung, leiser Fluss, kurzer Schlussakzent."
+      },
+      {
+        "title": "Kontrast",
+        "detail": "Moderne Farbe, Tanzimpuls oder persönliche Bearbeitung"
+      },
+      {
+        "title": "Schluss",
+        "detail": "Ruhiger Ausklang oder Zugabe mit offenem Gesprächscharakter"
+      }
+    ],
+    "footnote": "Musik Vernissage wird je nach Anlass als Konzert, Rahmung oder kuratierter Programmpunkt geplant."
   }
 }

@@ -6,63 +6,128 @@
   "targetKeyword": "Viola Konzert Mönchengladbach",
   "intentCluster": "konzerte:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-11-review-needed",
   "enabled": true,
-  "seoTitle": "Viola Konzert Mönchengladbach | Musik für Event & Kulturabend",
-  "seoDescription": "Viola Konzert in Mönchengladbach: kuratierte Musik für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
+  "seoTitle": "Viola Konzert Mönchengladbach | Kultur & Event",
+  "seoDescription": "Viola Konzert Mönchengladbach: Solo-Viola für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
   "hero": {
-    "title": "Viola Konzert in Mönchengladbach für besondere Bühnen.",
-    "lead": "Kuratierte Viola-Programme für Vernissage, Lesung, Salonkonzert, Kulturabend, Empfang oder Event in Mönchengladbach."
+    "eyebrow": "Konzert & Event",
+    "title": "Viola Konzert in Mönchengladbach für Kulturabende mit Dramaturgie.",
+    "lead": "Mönchengladbach verbindet Rheydt, Wickrath, Niederrhein und Kulturformate mit großer regionaler Breite. Ich kuratiere Solo-Viola-Programme für Konzert, Vernissage, Lesung, Salon und besondere Bühnen.",
+    "badge": "Kammermusik, Salon & Kulturformat"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Ein Programm in Mönchengladbach, das zum Raum passt.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Ein Viola-Programm in Mönchengladbach muss zum Raum und Publikum passen.",
+    "lede": "Das Publikum ist oft generationsgemischt und offen für persönliche Programme. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
     "paragraphs": [
-      "Ob zwischen Schloss Rheydt, Kaiser-Friedrich-Halle, Wickrath und dem linken Niederrhein: Ein Konzert- oder Kulturabend braucht Dramaturgie. Ich stelle Programme zusammen, die mit dem Raum, dem Publikum und dem Anlass arbeiten - von klassischer Tiefe bis zu modernen Arrangements.",
-      "Möglich sind kurze musikalische Rahmen von etwa 30 Minuten, ein Salonkonzert mit Pause oder ein konzentrierter Programmpunkt für Vernissage, Lesung, Empfang oder private Veranstaltung."
-    ]
+      "Mönchengladbach verbindet Rheydt, Wickrath, Niederrhein und Kulturformate mit großer regionaler Breite.",
+      "Passend sind Vernissage, Salon, Lesung, Empfang, Kammerkonzert oder ein musikalischer Akzent bei Jubiläum und Feier.",
+      "Größere Wege im Stadtgebiet und der richtige Moment für den Einsatz sollten feststehen.",
+      "Das Publikum ist oft generationsgemischt und offen für persönliche Programme.",
+      "Ein Programm in Mönchengladbach kann traditionsbewusst beginnen und modern ausklingen.",
+      "Für Viola Konzert Mönchengladbach ist der Ton bewusst familiär, warm und niederrheinisch. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
+      "Wenn Wunschstücke geplant sind, prüfe ich, ob sie solistisch tragen und wie sie dramaturgisch eingebettet werden können.",
+      "Ich plane die Musik nicht als austauschbare Liste. Entscheidend ist, ob die Viola zuhören lässt, einen Text rahmt, Kunst begleitet oder einen Empfang kultivierter macht.",
+      "Die Länge entsteht aus Anlass und Aufmerksamkeit: dreißig Minuten können perfekt sein, wenn sie präzise gebaut sind; ein längerer Abend braucht Pausen und Kontraste.",
+      "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
+      "Bei Vernissagen in Mönchengladbach darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
+      "Bei Lesungen in Mönchengladbach achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
+      "Für Salonkonzerte in Mönchengladbach plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
+      "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block.",
+      "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
+      "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
+      "Diese Seite fokussiert bewusst Viola Konzert Mönchengladbach. Andere Seiten im Cluster behandeln Vernissage, Lesung, Salonkonzert, Live-Musik-Event oder Instrumentenfragen; hier geht es um den konkreten lokalen Konzertintent.",
+      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt."
+    ],
+    "seal": "Mönchengladbach\nKonzert\nViola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Viola Konzerten in Mönchengladbach.",
+    "title": "FAQ zu Viola Konzert Mönchengladbach",
     "items": [
       {
-        "question": "Spielst du Konzerte und Events in Mönchengladbach?",
-        "answer": "Ja. Ich gestalte Viola-Programme für Konzerte, Vernissagen, Lesungen, Kulturabende, private Events und Empfänge in Mönchengladbach.",
+        "question": "Spielst du Viola-Konzerte in Mönchengladbach?",
+        "answer": "Ja. Ich gestalte Konzerte, Vernissagen, Lesungen, Salonabende, Kulturprogramme und besondere Eventformate in Mönchengladbach mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Wie lang ist ein Programm?",
-        "answer": "Je nach Format sind kurze Rahmenprogramme, 30 bis 60 Minuten oder ein längerer Konzertabend mit Pause möglich."
+        "question": "Welche Formate passen in Mönchengladbach?",
+        "answer": "Passend sind Vernissage, Salon, Lesung, Empfang, Kammerkonzert oder ein musikalischer Akzent bei Jubiläum und Feier. Die genaue Länge hängt davon ab, ob das Publikum zuhören, ankommen, Kunst betrachten oder zwischen Textblöcken wechseln soll."
       },
       {
-        "question": "Kannst du Stücke anmoderieren?",
-        "answer": "Ja. Kurze persönliche Anmoderationen können ein Programm zugänglicher und lebendiger machen."
+        "question": "Was ist organisatorisch in Mönchengladbach wichtig?",
+        "answer": "Größere Wege im Stadtgebiet und der richtige Moment für den Einsatz sollten feststehen."
       },
       {
-        "question": "Brauchst du Technik?",
-        "answer": "In vielen Räumen reicht akustisches Spiel. Für größere Säle oder Events bespreche ich dezente Verstärkung."
+        "question": "Kann das Programm mit Lesung oder Kunst kombiniert werden?",
+        "answer": "Ja. Gerade Viola eignet sich gut für Übergänge zwischen Text, Bild, Gespräch und konzentriertem Zuhören."
+      },
+      {
+        "question": "Kann ein Wunschstück integriert werden?",
+        "answer": "Ja, wenn es auf Solo-Viola funktioniert und zum dramaturgischen Bogen passt. Ich prüfe Melodie, Tonart und Wirkung vorab."
+      },
+      {
+        "question": "Kann das Programm klassisch und modern sein?",
+        "answer": "Ja. Ich kombiniere klassische Stücke, romantische Miniaturen, moderne Linien oder persönliche Wünsche so, dass ein schlüssiger Bogen entsteht."
+      },
+      {
+        "question": "Warum passt Solo-Viola für Viola Konzert Mönchengladbach?",
+        "answer": "Die Viola klingt warm, nah und selten genug, um Aufmerksamkeit zu wecken. Gleichzeitig bleibt sie schlank genug für kleine Räume, Galerien und private Konzertformate."
+      },
+      {
+        "question": "Welche Angaben helfen für eine Anfrage in Mönchengladbach?",
+        "answer": "Hilfreich sind Datum, Ort, Anlass, gewünschte Länge, Raumgröße, Publikum, Ablauf, Lichtsituation und ob Moderation gewünscht ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Kim Marie Borger mit Viola im Freien"
+      "alt": "Viola Konzert in Mönchengladbach mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Konzert anfragen",
     "title": "Viola Konzert Mönchengladbach anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Viola Konzert Mönchengladbach.",
+    "lead": "Schick mir Datum, Ort, Format und gewünschte Programmlänge in Mönchengladbach. Ich melde mich mit einer passenden Idee für Solo-Viola.",
     "checklist": [
       "Viola Konzert Mönchengladbach",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Konzert, Vernissage oder Lesung",
+      "Raum, Publikum & Programmlänge"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Viola Konzert Mönchengladbach zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt ein Viola-Programm in Mönchengladbach?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für ein Viola Konzert in Mönchengladbach."
+  },
+  "focus": {
+    "eyebrow": "Programmidee",
+    "title": "Ein möglicher Bogen für Viola Konzert Mönchengladbach.",
+    "heading": "Programm",
+    "subtitle": "Viola-Abend Mönchengladbach",
+    "items": [
+      {
+        "title": "Auftakt: ein ruhiger Raumöffner",
+        "detail": "Bach, Telemann oder eine freie Prélude-Idee für familiär, warm und niederrheinisch"
+      },
+      {
+        "title": "Erzählende Mitte",
+        "detail": "Romantische Miniatur oder modernes Stück für Das Publikum ist oft generationsgemischt und offen für persönliche Programme."
+      },
+      {
+        "title": "Kurzer Übergang",
+        "detail": "Moderation, Textbezug oder bewusste Stille"
+      },
+      {
+        "title": "Kontrast mit Bewegung",
+        "detail": "Piazzolla, Tanzform oder zeitgenössische Farbe"
+      },
+      {
+        "title": "Ausklang",
+        "detail": "Zugabe oder persönliches Wunschstück für in Mönchengladbach"
+      }
+    ],
+    "footnote": "Das konkrete Programm für Viola Konzert Mönchengladbach wird nach Raum, Anlass, Publikum und gewünschter Dauer zusammengestellt."
   }
 }

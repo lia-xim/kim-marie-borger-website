@@ -6,63 +6,128 @@
   "targetKeyword": "Viola Konzert Münster",
   "intentCluster": "konzerte:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-11-review-needed",
   "enabled": true,
-  "seoTitle": "Viola Konzert Münster | Musik für Event & Kulturabend",
-  "seoDescription": "Viola Konzert in Münster: kuratierte Musik für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
+  "seoTitle": "Viola Konzert Münster | Kultur & Event",
+  "seoDescription": "Viola Konzert Münster: Solo-Viola für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
   "hero": {
-    "title": "Viola Konzert in Münster für besondere Bühnen.",
-    "lead": "Kuratierte Viola-Programme für Vernissage, Lesung, Salonkonzert, Kulturabend, Empfang oder Event in Münster."
+    "eyebrow": "Konzert & Event",
+    "title": "Viola Konzert in Münster für Kulturabende mit Dramaturgie.",
+    "lead": "Münster verbindet Universität, Altstadt, Aasee, Kirchenräume und eine helle, kultivierte Kulturatmosphäre. Ich kuratiere Solo-Viola-Programme für Konzert, Vernissage, Lesung, Salon und besondere Bühnen.",
+    "badge": "Kammermusik, Salon & Kulturformat"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Ein Programm in Münster, das zum Raum passt.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Ein Viola-Programm in Münster muss zum Raum und Publikum passen.",
+    "lede": "Das Publikum ist häufig aufmerksam und offen für gut erklärte Programme. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
     "paragraphs": [
-      "Ob zwischen Prinzipalmarkt, Aasee, Altstadt und dem Münsterland: Ein Konzert- oder Kulturabend braucht Dramaturgie. Ich stelle Programme zusammen, die mit dem Raum, dem Publikum und dem Anlass arbeiten - von klassischer Tiefe bis zu modernen Arrangements.",
-      "Möglich sind kurze musikalische Rahmen von etwa 30 Minuten, ein Salonkonzert mit Pause oder ein konzentrierter Programmpunkt für Vernissage, Lesung, Empfang oder private Veranstaltung."
-    ]
+      "Münster verbindet Universität, Altstadt, Aasee, Kirchenräume und eine helle, kultivierte Kulturatmosphäre.",
+      "Passend sind Kammerkonzert, Lesung, Salon, Vernissage, Tagungsabschluss oder Matinee.",
+      "Innenstadtlogistik, Fahrradverkehr und Einlasszeiten sollten mit ausreichend Puffer geplant werden.",
+      "Das Publikum ist häufig aufmerksam und offen für gut erklärte Programme.",
+      "Ein Programm in Münster darf fein, leicht und gedanklich klar gebaut sein.",
+      "Für Viola Konzert Münster ist der Ton bewusst hell, kultiviert und erzählerisch. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
+      "Die Länge entsteht aus Anlass und Aufmerksamkeit: dreißig Minuten können perfekt sein, wenn sie präzise gebaut sind; ein längerer Abend braucht Pausen und Kontraste.",
+      "Wenn Wunschstücke geplant sind, prüfe ich, ob sie solistisch tragen und wie sie dramaturgisch eingebettet werden können.",
+      "Ich plane die Musik nicht als austauschbare Liste. Entscheidend ist, ob die Viola zuhören lässt, einen Text rahmt, Kunst begleitet oder einen Empfang kultivierter macht.",
+      "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
+      "Bei Vernissagen in Münster darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
+      "Bei Lesungen in Münster achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
+      "Für Salonkonzerte in Münster plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
+      "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block.",
+      "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
+      "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
+      "Diese Seite fokussiert bewusst Viola Konzert Münster. Andere Seiten im Cluster behandeln Vernissage, Lesung, Salonkonzert, Live-Musik-Event oder Instrumentenfragen; hier geht es um den konkreten lokalen Konzertintent.",
+      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt."
+    ],
+    "seal": "Münster\nKonzert\nViola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Viola Konzerten in Münster.",
+    "title": "FAQ zu Viola Konzert Münster",
     "items": [
       {
-        "question": "Spielst du Konzerte und Events in Münster?",
-        "answer": "Ja. Ich gestalte Viola-Programme für Konzerte, Vernissagen, Lesungen, Kulturabende, private Events und Empfänge in Münster.",
+        "question": "Spielst du Viola-Konzerte in Münster?",
+        "answer": "Ja. Ich gestalte Konzerte, Vernissagen, Lesungen, Salonabende, Kulturprogramme und besondere Eventformate in Münster mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Wie lang ist ein Programm?",
-        "answer": "Je nach Format sind kurze Rahmenprogramme, 30 bis 60 Minuten oder ein längerer Konzertabend mit Pause möglich."
+        "question": "Welche Formate passen in Münster?",
+        "answer": "Passend sind Kammerkonzert, Lesung, Salon, Vernissage, Tagungsabschluss oder Matinee. Die genaue Länge hängt davon ab, ob das Publikum zuhören, ankommen, Kunst betrachten oder zwischen Textblöcken wechseln soll."
+      },
+      {
+        "question": "Was ist organisatorisch in Münster wichtig?",
+        "answer": "Innenstadtlogistik, Fahrradverkehr und Einlasszeiten sollten mit ausreichend Puffer geplant werden."
+      },
+      {
+        "question": "Kann ein Wunschstück integriert werden?",
+        "answer": "Ja, wenn es auf Solo-Viola funktioniert und zum dramaturgischen Bogen passt. Ich prüfe Melodie, Tonart und Wirkung vorab."
       },
       {
         "question": "Kannst du Stücke anmoderieren?",
-        "answer": "Ja. Kurze persönliche Anmoderationen können ein Programm zugänglicher und lebendiger machen."
+        "answer": "Ja. Kurze Anmoderationen können ein Programm zugänglicher machen, ohne den musikalischen Fluss zu unterbrechen."
       },
       {
-        "question": "Brauchst du Technik?",
-        "answer": "In vielen Räumen reicht akustisches Spiel. Für größere Säle oder Events bespreche ich dezente Verstärkung."
+        "question": "Kann das Programm klassisch und modern sein?",
+        "answer": "Ja. Ich kombiniere klassische Stücke, romantische Miniaturen, moderne Linien oder persönliche Wünsche so, dass ein schlüssiger Bogen entsteht."
+      },
+      {
+        "question": "Warum passt Solo-Viola für Viola Konzert Münster?",
+        "answer": "Die Viola klingt warm, nah und selten genug, um Aufmerksamkeit zu wecken. Gleichzeitig bleibt sie schlank genug für kleine Räume, Galerien und private Konzertformate."
+      },
+      {
+        "question": "Welche Angaben helfen für eine Anfrage in Münster?",
+        "answer": "Hilfreich sind Datum, Ort, Anlass, gewünschte Länge, Raumgröße, Publikum, Ablauf, Lichtsituation und ob Moderation gewünscht ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Kim Marie Borger mit Viola im Freien"
+      "alt": "Viola Konzert in Münster mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Konzert anfragen",
     "title": "Viola Konzert Münster anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Viola Konzert Münster.",
+    "lead": "Schick mir Datum, Ort, Format und gewünschte Programmlänge in Münster. Ich melde mich mit einer passenden Idee für Solo-Viola.",
     "checklist": [
       "Viola Konzert Münster",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Konzert, Vernissage oder Lesung",
+      "Raum, Publikum & Programmlänge"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Viola Konzert Münster zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt ein Viola-Programm in Münster?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für ein Viola Konzert in Münster."
+  },
+  "focus": {
+    "eyebrow": "Programmidee",
+    "title": "Ein möglicher Bogen für Viola Konzert Münster.",
+    "heading": "Programm",
+    "subtitle": "Viola-Abend Münster",
+    "items": [
+      {
+        "title": "Auftakt: ein ruhiger Raumöffner",
+        "detail": "Bach, Telemann oder eine freie Prélude-Idee für hell, kultiviert und erzählerisch"
+      },
+      {
+        "title": "Erzählende Mitte",
+        "detail": "Romantische Miniatur oder modernes Stück für Das Publikum ist häufig aufmerksam und offen für gut erklärte Programme."
+      },
+      {
+        "title": "Kurzer Übergang",
+        "detail": "Moderation, Textbezug oder bewusste Stille"
+      },
+      {
+        "title": "Kontrast mit Bewegung",
+        "detail": "Piazzolla, Tanzform oder zeitgenössische Farbe"
+      },
+      {
+        "title": "Ausklang",
+        "detail": "Zugabe oder persönliches Wunschstück für in Münster"
+      }
+    ],
+    "footnote": "Das konkrete Programm für Viola Konzert Münster wird nach Raum, Anlass, Publikum und gewünschter Dauer zusammengestellt."
   }
 }

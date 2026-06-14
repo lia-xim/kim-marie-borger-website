@@ -6,63 +6,128 @@
   "targetKeyword": "Viola Konzert Kreis Mettmann",
   "intentCluster": "konzerte:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-11-review-needed",
   "enabled": true,
-  "seoTitle": "Viola Konzert Kreis Mettmann | Musik für Event & Kulturabend",
-  "seoDescription": "Viola Konzert im Kreis Mettmann: kuratierte Musik für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
+  "seoTitle": "Viola Konzert Kreis Mettmann | Kultur & Event",
+  "seoDescription": "Viola Konzert Kreis Mettmann: Solo-Viola für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
   "hero": {
-    "title": "Viola Konzert im Kreis Mettmann für besondere Bühnen.",
-    "lead": "Kuratierte Viola-Programme für Vernissage, Lesung, Salonkonzert, Kulturabend, Empfang oder Event im Kreis Mettmann."
+    "eyebrow": "Konzert & Event",
+    "title": "Viola Konzert im Kreis Mettmann für Kulturabende mit Dramaturgie.",
+    "lead": "Der Kreis Mettmann verbindet Erkrath, Haan, Hilden, Ratingen, Velbert und viele kleinere Kulturorte. Ich kuratiere Solo-Viola-Programme für Konzert, Vernissage, Lesung, Salon und besondere Bühnen.",
+    "badge": "Kammermusik, Salon & Kulturformat"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Ein Programm im Kreis Mettmann, das zum Raum passt.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Ein Viola-Programm im Kreis Mettmann muss zum Raum und Publikum passen.",
+    "lede": "Das Publikum ist oft regional gemischt und nah am Anlass. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
     "paragraphs": [
-      "Ob rund um Erkrath, Ratingen, Mettmann, Hilden, Haan, Velbert und Wülfrath: Ein Konzert- oder Kulturabend braucht Dramaturgie. Ich stelle Programme zusammen, die mit dem Raum, dem Publikum und dem Anlass arbeiten - von klassischer Tiefe bis zu modernen Arrangements.",
-      "Möglich sind kurze musikalische Rahmen von etwa 30 Minuten, ein Salonkonzert mit Pause oder ein konzentrierter Programmpunkt für Vernissage, Lesung, Empfang oder private Veranstaltung."
-    ]
+      "Der Kreis Mettmann verbindet Erkrath, Haan, Hilden, Ratingen, Velbert und viele kleinere Kulturorte.",
+      "Möglich sind Hauskonzert, Salon, Vernissage, Lesung, Empfang, Kulturabend oder Matinee in mehreren Städten.",
+      "Stadtgrenzen, Anfahrt und genaue Adresse sollten sauber geplant werden.",
+      "Das Publikum ist oft regional gemischt und nah am Anlass.",
+      "Im Kreis Mettmann braucht das Programm eine lokale Klarheit, damit es nicht wie eine austauschbare Düsseldorf-Seite wirkt.",
+      "Für Viola Konzert Kreis Mettmann ist der Ton bewusst regional, verbindend und kammermusikalisch. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
+      "Wenn Wunschstücke geplant sind, prüfe ich, ob sie solistisch tragen und wie sie dramaturgisch eingebettet werden können.",
+      "Ich plane die Musik nicht als austauschbare Liste. Entscheidend ist, ob die Viola zuhören lässt, einen Text rahmt, Kunst begleitet oder einen Empfang kultivierter macht.",
+      "Die Länge entsteht aus Anlass und Aufmerksamkeit: dreißig Minuten können perfekt sein, wenn sie präzise gebaut sind; ein längerer Abend braucht Pausen und Kontraste.",
+      "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
+      "Bei Vernissagen im Kreis Mettmann darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
+      "Bei Lesungen im Kreis Mettmann achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
+      "Für Salonkonzerte im Kreis Mettmann plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
+      "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block.",
+      "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
+      "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
+      "Diese Seite fokussiert bewusst Viola Konzert Kreis Mettmann. Andere Seiten im Cluster behandeln Vernissage, Lesung, Salonkonzert, Live-Musik-Event oder Instrumentenfragen; hier geht es um den konkreten lokalen Konzertintent.",
+      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt."
+    ],
+    "seal": "Kreis Mettmann\nKonzert\nViola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Viola Konzerten im Kreis Mettmann.",
+    "title": "FAQ zu Viola Konzert Kreis Mettmann",
     "items": [
       {
-        "question": "Spielst du Konzerte und Events im Kreis Mettmann?",
-        "answer": "Ja. Ich gestalte Viola-Programme für Konzerte, Vernissagen, Lesungen, Kulturabende, private Events und Empfänge im Kreis Mettmann.",
+        "question": "Spielst du Viola-Konzerte im Kreis Mettmann?",
+        "answer": "Ja. Ich gestalte Konzerte, Vernissagen, Lesungen, Salonabende, Kulturprogramme und besondere Eventformate im Kreis Mettmann mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Wie lang ist ein Programm?",
-        "answer": "Je nach Format sind kurze Rahmenprogramme, 30 bis 60 Minuten oder ein längerer Konzertabend mit Pause möglich."
+        "question": "Welche Formate passen im Kreis Mettmann?",
+        "answer": "Möglich sind Hauskonzert, Salon, Vernissage, Lesung, Empfang, Kulturabend oder Matinee in mehreren Städten. Die genaue Länge hängt davon ab, ob das Publikum zuhören, ankommen, Kunst betrachten oder zwischen Textblöcken wechseln soll."
       },
       {
-        "question": "Kannst du Stücke anmoderieren?",
-        "answer": "Ja. Kurze persönliche Anmoderationen können ein Programm zugänglicher und lebendiger machen."
+        "question": "Was ist organisatorisch im Kreis Mettmann wichtig?",
+        "answer": "Stadtgrenzen, Anfahrt und genaue Adresse sollten sauber geplant werden."
       },
       {
-        "question": "Brauchst du Technik?",
-        "answer": "In vielen Räumen reicht akustisches Spiel. Für größere Säle oder Events bespreche ich dezente Verstärkung."
+        "question": "Kann das Programm mit Lesung oder Kunst kombiniert werden?",
+        "answer": "Ja. Gerade Viola eignet sich gut für Übergänge zwischen Text, Bild, Gespräch und konzentriertem Zuhören."
+      },
+      {
+        "question": "Kann ein Wunschstück integriert werden?",
+        "answer": "Ja, wenn es auf Solo-Viola funktioniert und zum dramaturgischen Bogen passt. Ich prüfe Melodie, Tonart und Wirkung vorab."
+      },
+      {
+        "question": "Kann das Programm klassisch und modern sein?",
+        "answer": "Ja. Ich kombiniere klassische Stücke, romantische Miniaturen, moderne Linien oder persönliche Wünsche so, dass ein schlüssiger Bogen entsteht."
+      },
+      {
+        "question": "Warum passt Solo-Viola für Viola Konzert Kreis Mettmann?",
+        "answer": "Die Viola klingt warm, nah und selten genug, um Aufmerksamkeit zu wecken. Gleichzeitig bleibt sie schlank genug für kleine Räume, Galerien und private Konzertformate."
+      },
+      {
+        "question": "Welche Angaben helfen für eine Anfrage im Kreis Mettmann?",
+        "answer": "Hilfreich sind Datum, Ort, Anlass, gewünschte Länge, Raumgröße, Publikum, Ablauf, Lichtsituation und ob Moderation gewünscht ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Kim Marie Borger mit Viola im Freien"
+      "alt": "Viola Konzert im Kreis Mettmann mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Konzert anfragen",
     "title": "Viola Konzert Kreis Mettmann anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Viola Konzert Kreis Mettmann.",
+    "lead": "Schick mir Datum, Ort, Format und gewünschte Programmlänge im Kreis Mettmann. Ich melde mich mit einer passenden Idee für Solo-Viola.",
     "checklist": [
       "Viola Konzert Kreis Mettmann",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Konzert, Vernissage oder Lesung",
+      "Raum, Publikum & Programmlänge"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Viola Konzert Kreis Mettmann zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt ein Viola-Programm im Kreis Mettmann?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für ein Viola Konzert im Kreis Mettmann."
+  },
+  "focus": {
+    "eyebrow": "Programmidee",
+    "title": "Ein möglicher Bogen für Viola Konzert Kreis Mettmann.",
+    "heading": "Programm",
+    "subtitle": "Viola-Abend Kreis Mettmann",
+    "items": [
+      {
+        "title": "Auftakt: ein ruhiger Raumöffner",
+        "detail": "Bach, Telemann oder eine freie Prélude-Idee für regional, verbindend und kammermusikalisch"
+      },
+      {
+        "title": "Erzählende Mitte",
+        "detail": "Romantische Miniatur oder modernes Stück für Das Publikum ist oft regional gemischt und nah am Anlass."
+      },
+      {
+        "title": "Kurzer Übergang",
+        "detail": "Moderation, Textbezug oder bewusste Stille"
+      },
+      {
+        "title": "Kontrast mit Bewegung",
+        "detail": "Piazzolla, Tanzform oder zeitgenössische Farbe"
+      },
+      {
+        "title": "Ausklang",
+        "detail": "Zugabe oder persönliches Wunschstück für im Kreis Mettmann"
+      }
+    ],
+    "footnote": "Das konkrete Programm für Viola Konzert Kreis Mettmann wird nach Raum, Anlass, Publikum und gewünschter Dauer zusammengestellt."
   }
 }

@@ -24,6 +24,7 @@
     "seo:rewrite-batch-8": "node scripts/rewrite-seo-batch-8-beerdigungen.mjs",
     "seo:rewrite-batch-9": "node scripts/rewrite-seo-batch-9-firmenfeiern.mjs",
     "seo:rewrite-batch-10": "node scripts/rewrite-seo-batch-10-taufen.mjs",
+    "seo:rewrite-batch-11": "node scripts/rewrite-seo-batch-11-konzerte.mjs",
     "keywords:map": "node scripts/build-keyword-opportunities.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",
     "optimize:audio": "node scripts/optimize-audio.mjs",
