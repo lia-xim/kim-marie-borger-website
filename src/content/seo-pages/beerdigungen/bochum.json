@@ -6,7 +6,7 @@
   "targetKeyword": "Trauermusik Bochum",
   "intentCluster": "beerdigungen:local",
   "priority": "P3",
-  "status": "rewritten-batch-8-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Trauermusik Bochum | Live-Viola für Abschied",
   "seoDescription": "Trauermusik Bochum: Solo-Viola für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Ruhig geplant und persönlich abgestimmt.",
@@ -54,12 +54,16 @@
         "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort in Bochum, der geplante Ablauf und ein Hinweis, ob Musik nur in der Trauerfeier oder auch am Grab gewünscht ist. Wenn es bereits ein Wunschstück gibt, prüfe ich direkt, ob es für Solo-Viola passt."
       },
       {
-        "question": "Warum gibt es eine eigene Seite für Bochum?",
-        "answer": "Weil Trauermusik in Bochum andere praktische Fragen hat als eine allgemeine Repertoireseite. Wege, Raumakustik, Friedhofsablauf, Wetter und lokale Abstimmung verändern, wie Musik am Abschiedstag wirklich funktioniert."
-      },
-      {
         "question": "Sind kurzfristige Anfragen möglich?",
         "answer": "Oft ja. Für Abschiede in Bochum melde ich mich schnell zurück, sobald Datum, Ort und ungefähre Uhrzeit feststehen."
+      },
+      {
+        "question": "Welche Details sind für Trauermusik Bochum besonders wichtig?",
+        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Bochum plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+      },
+      {
+        "question": "Wie wird die Musik in Bochum konkret geplant?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
       }
     ]
   },
@@ -73,7 +77,7 @@
       "alt": "Live-Viola als Trauermusik in Bochum 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik in Bochum anfragen",
@@ -98,7 +102,6 @@
       "Für Bochum kläre ich vorab auch die praktischen Details: Ladeweg, Parken und Startsignal vorab konkret festlegen. Das klingt nüchtern, entscheidet aber oft darüber, ob die Musik am Tag selbst still und sicher beginnen kann.",
       "Wenn Angehörige aus mehreren Städten anreisen, hilft ein klarer musikalischer Anfang, damit der Abschied gesammelt beginnt. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
       "Das Repertoire kann Ave Maria, Amazing Grace, Bach, Massenet oder ein persönliches Lieblingslied verbinden. Wichtig ist, dass die Musik zur Person, zum Raum und zur Familie passt.",
-      "Gerade lokale Trauermusik darf nicht wie eine kopierte Vorlage wirken. Der Ablauf wird auf Trauerort, Angehörige und Wunschmoment abgestimmt.",
       "Bochum-Abschiede wirken oft direkt, familiär und weniger formell. Die Viola darf deshalb nah klingen: nicht wie ein Auftritt, sondern wie ein ruhiger Ton für Worte, Erinnerung und Auszug.",
       "In Bochum klären wir Ladeweg, Parkmöglichkeit und Startsignal, weil urbane Trauerorte häufig mehrere Eingänge oder kurze Wege über Anlagen haben.",
       "Gerade für Angehörige ist es hilfreich, wenn die musikalischen Punkte vorher feststehen. Dann muss niemand während der Trauerfeier überlegen, ob ein Stück schon beginnen soll oder noch gewartet werden muss.",
@@ -113,7 +116,18 @@
       "Für Bochum bespreche ich gern, ob Musik bereits beim Ankommen beginnen soll oder erst nach den ersten Worten. Diese Entscheidung verändert die gesamte Atmosphäre der Trauerfeier und sollte nicht zufällig entstehen.",
       "Ich achte darauf, dass die Musik nicht gegen Raumgeräusche, Schritte oder organisatorische Ansagen arbeiten muss. Wenn der Ablauf ruhig geplant ist, kann auch ein einzelner Ton sehr wirksam sein.",
       "Wenn eine Familie unsicher ist, ob Live-Musik zu viel sein könnte, plane ich besonders reduziert: wenige Einsätze, leise Dynamik, keine Anmoderation und ein Auftreten, das den Abschied nicht unterbricht.",
-      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab."
+      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab.",
+      "In Bochum prüfe ich besonders mehrere Eingänge, Licht, Ladeweg und ein klares Startsignal. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+      "ein offenes Publikum, das persönliche Ansprache und warmen Klang mag. Deshalb geht es bei Trauermusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+      "Anders als bei einer allgemeinen Leistungsseite wird Trauermusik Bochum über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
+      "Wer in Bochum anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Bermuda3Eck, Theaternähe, Industriegeschichte, Stadtteile und direkte Ruhrgebietskultur bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
+      "Die wichtigste Vorbereitung in Bochum: mehrere Eingänge, Licht, Ladeweg und ein klares Startsignal. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+      "Typisch für Bochum sind ein offenes Publikum, das persönliche Ansprache und warmen Klang mag. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+      "Bei Abschieden geht es um Halt, Timing, Würde und darum, Angehoerige organisatorisch zu entlasten. In Bochum übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+      "Der Unterschied zu Gelsenkirchen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+      "Für die Anfrage sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Bochum passt und den Ablauf nicht künstlich aufbläht.",
+      "Wenn Trauermusik Bochum mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+      "Bei knappen Zeitfenstern in Bochum ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
     ],
     "seal": "Bochum\nTrauerfeier & Abschied\nLive-Viola"
   },

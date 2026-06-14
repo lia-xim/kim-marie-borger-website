@@ -6,7 +6,7 @@
   "targetKeyword": "Viola Beerdigung",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "rewritten-batch-8-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Viola Beerdigung | Live-Viola für Abschied",
   "seoDescription": "Viola Beerdigung: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
@@ -50,16 +50,20 @@
         "answer": "Dann ordnen wir zuerst den Moment ein. Danach kann ich Stücke vorschlagen, die zu Raum, Person und gewünschter Zurückhaltung passen."
       },
       {
-        "question": "Warum gibt es dazu eine eigene Seite?",
-        "answer": "Viola Beerdigung hat einen eigenen Suchintent. Diese Seite beantwortet deshalb nicht nur allgemein, welche Trauermusik möglich ist, sondern ordnet genau diesen Begriff nach Ablauf, Klang, Wunschmusik, Abgrenzung zu ähnlichen Seiten und konkreter Anfrage ein."
-      },
-      {
         "question": "Welche Informationen helfen für die erste Einschätzung?",
         "answer": "Für Viola Beerdigung helfen Datum, Ort, Uhrzeit, gewünschter Moment im Ablauf, vorhandene Wunschstücke und die Frage, ob die Musik in der Trauerfeier, draußen am Grab oder an beiden Stellen geplant ist."
       },
       {
         "question": "Wie kurzfristig können wir anfragen?",
         "answer": "Oft auch kurzfristig. Wichtig sind Datum, Ort, Uhrzeit, grober Ablauf und die gewünschte Musik, damit ich schnell prüfen kann, ob der Termin möglich ist."
+      },
+      {
+        "question": "Wann passt Viola Beerdigung besonders gut?",
+        "answer": "Viola Beerdigung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
       }
     ]
   },
@@ -73,7 +77,7 @@
       "alt": "Live-Viola für Viola Beerdigung 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Trauermusik planen",
     "title": "Viola Beerdigung anfragen",
@@ -88,31 +92,36 @@
     "formSuccess": "Danke - ich melde mich mit einer Idee für Viola Beerdigung."
   },
   "split": {
-    "eyebrow": "Suchintention",
+    "eyebrow": "Einordnung",
     "title": "Viola Beerdigung braucht eine eigene musikalische Planung.",
     "lede": "Der Intent erklärt die Viola als Instrument für Abschiede. Gesucht wird keine austauschbare Hintergrundmusik, sondern eine Lösung für Trauerfeier, Beerdigung, Kirche, Trauerhalle oder Grab.",
     "paragraphs": [
       "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
       "Ihr mittlerer, warmer Klang kann Trauer tragen, ohne hell oder virtuos zu wirken.",
-      "Diese Seite grenzt sich von Geige und Bratsche ab, indem sie die Viola klar als eigenes Instrument beschreibt.",
       "Ich plane den Einsatz so, dass die Musik weder zu früh beginnt noch den Abschied unnötig verlängert. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
       "Wenn der Termin kurzfristig ist, helfen Datum, Uhrzeit, Ort und gewünschte Stücke für eine schnelle Einschätzung.",
       "Dabei bleibt die Musik bewusst schlicht. Sie soll nicht zeigen, was musikalisch möglich ist, sondern genau den Raum öffnen, den Angehörige in diesem Moment brauchen.",
-      "Für die interne Struktur ist diese Differenzierung wichtig, weil ähnliche Begriffe sonst denselben Text tragen würden. Hier bekommt der Suchintent eine eigene redaktionelle Aufgabe.",
       "Bei einer kirchlichen Feier kann zusätzlich wichtig sein, ob es musikalische Vorgaben gibt oder ob ein bestimmter Programmpunkt liturgisch festgelegt ist.",
       "Bei modernen Stücken achte ich darauf, dass die Melodie auch ohne Text verstanden wird. Nicht jedes Lied behält ohne Gesang dieselbe Bedeutung.",
       "Für Viola Beerdigung beginne ich nicht mit einer pauschalen Stückliste, sondern mit der Rolle im Ablauf. Erst wenn klar ist, ob die Musik sammeln, erinnern oder verabschieden soll, wird die Auswahl wirklich passend.",
       "Klassische Musik, moderne Lieder und persönliche Wunschstücke brauchen unterschiedliche Bearbeitungen. Entscheidend ist, dass die Melodie auf der Viola trägt und der Moment nicht überladen wird.",
       "Gerade bei emotionalen Terminen sollte Musik nicht noch eine zusätzliche Aufgabe für die Familie werden. Sie soll einen Moment halten und die Organisation im Hintergrund einfacher machen.",
-      "Für die SEO-Struktur ist diese Abgrenzung zentral: Viola Beerdigung soll nicht dieselben Antworten liefern wie Musik Beerdigung, Musik Trauerfeier oder eine lokale Stadtseite.",
       "Für eine Anfrage zu Viola Beerdigung reichen zuerst Datum, Ort, Uhrzeit, geplanter Einsatzpunkt und mögliche Wunschmusik. Danach lässt sich klären, ob ein Stück, mehrere Einsätze oder ein sehr kurzer musikalischer Moment sinnvoll sind.",
       "Der Begriff Viola Beerdigung kann je nach Familie sehr Unterschiedliches meinen. Deshalb kläre ich, ob es um Inspiration, konkrete Buchung, ein bestimmtes Lied, ein Instrument oder eine einzelne Stelle im Ablauf geht.",
       "Wenn Trauerfeier, Beerdigung, Kirche, Trauerhalle oder Grab mit einem anschließenden Gang zum Grab verbunden ist, plane ich die Musik eher als Übergang. Dann zählt weniger das einzelne Stück als die ruhige Führung durch den Moment.",
-      "Diese klare Grenze hilft auch bei der späteren redaktionellen Pflege im CMS: Titel, FAQ, Alt-Texte und Kontaktabschnitt folgen demselben Intent und wirken nicht wie kopierte Varianten.",
       "Für die Familie soll der Prozess möglichst leicht bleiben. Ich kann mit einer kurzen Empfehlung starten, danach Stücke konkretisieren und die musikalischen Einsätze mit den beteiligten Personen abstimmen.",
       "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
       "Wichtig ist, dass Viola Beerdigung nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
-      "So entsteht eine eigene Seite für den Suchbegriff, ohne dass sie mit der allgemeinen Trauermusik-Seite dieselbe Aufgabe übernimmt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Lieder; hier geht es genau um Viola Beerdigung."
+      "Bei Viola Beerdigung steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Ave Maria Beerdigung.",
+      "Bei Abschieden muss Musik nicht groß werden, um tragend zu sein. Viola Beerdigung wird hier so gedacht, dass Stille, Rede, Erinnerung und ein möglicher Weg zum Grab genug Raum behalten.",
+      "Der Kern von Viola Beerdigung ist warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Bogen, Resonanz, Arrangement, Raumklang die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll.",
+      "Die klare Abgrenzung zu Ave Maria Beerdigung lautet: nicht wie Geige oder Cello beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "Trauerhalle, Kapelle, Auszug, Friedhofsweg, Würde verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf zwei bis vier Einsätze, klare Abstimmung, wetterfeste Planung. Das verhindert, dass Viola Beerdigung nur wie eine Variante der Hauptleistung klingt.",
+      "Auch Trauerhalle, Kapelle, Auszug, Friedhofsweg, Würde ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Viola, Beerdigung. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
     ],
     "seal": "Viola\nAbschied\nLive-Viola"
   },
@@ -120,16 +129,8 @@
     "quote": "Viola Beerdigung soll dem Abschied Raum geben, ohne Worte zu ersetzen.",
     "passages": [
       {
-        "strong": "Der Suchintent",
-        "text": "Der Intent erklärt die Viola als Instrument für Abschiede."
-      },
-      {
         "strong": "Musikalische Aufgabe",
         "text": "Ihr mittlerer, warmer Klang kann Trauer tragen, ohne hell oder virtuos zu wirken."
-      },
-      {
-        "strong": "Abgrenzung",
-        "text": "Diese Seite grenzt sich von Geige und Bratsche ab, indem sie die Viola klar als eigenes Instrument beschreibt."
       },
       {
         "strong": "Ablauf",
@@ -142,10 +143,6 @@
       {
         "strong": "Wunschmusik",
         "text": "Klassische Musik, moderne Lieder und persönliche Wunschstücke brauchen unterschiedliche Bearbeitungen. Entscheidend ist, dass die Melodie auf der Viola trägt und der Moment nicht überladen wird. Für die Familie soll der Prozess möglichst leicht bleiben. Ich kann mit einer kurzen Empfehlung starten, danach Stücke konkretisieren und die musikalischen Einsätze mit den beteiligten Personen abstimmen."
-      },
-      {
-        "strong": "SEO-Abgrenzung",
-        "text": "Für die SEO-Struktur ist diese Abgrenzung zentral: Viola Beerdigung soll nicht dieselben Antworten liefern wie Musik Beerdigung, Musik Trauerfeier oder eine lokale Stadtseite. Diese klare Grenze hilft auch bei der späteren redaktionellen Pflege im CMS: Titel, FAQ, Alt-Texte und Kontaktabschnitt folgen demselben Intent und wirken nicht wie kopierte Varianten."
       },
       {
         "strong": "Anfrage",

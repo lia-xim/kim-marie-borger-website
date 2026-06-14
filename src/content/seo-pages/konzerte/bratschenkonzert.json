@@ -6,7 +6,7 @@
   "targetKeyword": "Bratschenkonzert",
   "intentCluster": "konzerte:topic",
   "priority": "P2",
-  "status": "rewritten-batch-11-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Bratschenkonzert | Solo-Viola",
   "seoDescription": "Bratschenkonzert: kuratiertes Solo-Viola-Programm für Konzert, Kulturabend, Vernissage, Lesung oder Event.",
@@ -17,9 +17,9 @@
     "badge": "Kuratierte Programme mit Viola"
   },
   "split": {
-    "eyebrow": "Suchintention",
+    "eyebrow": "Einordnung",
     "title": "Bratschenkonzert braucht eine eigene dramaturgische Aufgabe.",
-    "lede": "Kulturveranstalter, private Gastgeber und kleine Bühnen mit Interesse am Solo-Repertoire der Bratsche suchen Musik für Kammermusik, Hauskonzert, Salon, Matinee oder Kulturreihe. Deshalb bekommt dieser Begriff eine eigene Seite im Konzertcluster.",
+    "lede": "Bratschenkonzert wird hier praktisch eingeordnet: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
     "paragraphs": [
       "Bratschenkonzert meint stärker ein eigenständiges Konzert als bloße Begleitmusik.",
       "Ich entwickle einen dramaturgischen Bogen, der das Instrument vorstellt und dem Publikum Zugang gibt.",
@@ -37,7 +37,17 @@
       "Bei längeren Programmen plane ich Kontraste: warme Linie, rhythmischer Impuls, Stille, ein bekanntes Stück und ein überraschender Schluss.",
       "Diese Seite bleibt bewusst bei Bratschenkonzert. Ortsseiten beantworten lokale Fragen, andere Topic-Seiten behandeln Vernissage, Lesung, Salon, Live-Musik-Event oder Bratsche als Instrument.",
       "Für eine Anfrage reichen Datum, Ort, Publikum, Anlass, gewünschte Länge und die Frage, ob Musik im Mittelpunkt steht oder einen anderen Inhalt rahmt.",
-      "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt."
+      "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt.",
+      "Bei Bratschenkonzert steht konkrete Anfrage, Klang, Ablauf und Erwartung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Viola Konzert.",
+      "Kulturabende, Lesungen und Salonformate leben von Pausen. Diese Seite betrachtet Bratschenkonzert als kuratierten Moment, nicht als dekorative Hintergrundspur.",
+      "Der Kern von Bratschenkonzert ist konkrete Anfrage, Klang, Ablauf und Erwartung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Dauer, Position, Raum, Timing die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, kammermusikalisch, moderiert, begleitend oder konzentriert wirken soll.",
+      "Die klare Abgrenzung zu Viola Konzert lautet: nicht als austauschbare Variante behandeln. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "konkrete Anfrage, Klang, Ablauf und Erwartung verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf Dauer, Position, Raum, Timing. Das verhindert, dass Bratschenkonzert nur wie eine Variante der Hauptleistung klingt.",
+      "Auch konkrete Anfrage, Klang, Ablauf und Erwartung ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Bratschenkonzert. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
     ],
     "seal": "Bratschenkonzert\nKultur\nViola"
   },
@@ -77,6 +87,14 @@
       {
         "question": "Welche Angaben brauchst du für Bratschenkonzert?",
         "answer": "Datum, Ort, Raum, Publikum, gewünschte Dauer, Anlass, Ablauf und vorhandene Wunschstücke reichen für eine erste Einschätzung."
+      },
+      {
+        "question": "Wann passt Bratschenkonzert besonders gut?",
+        "answer": "Bratschenkonzert passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
       }
     ]
   },
@@ -86,7 +104,7 @@
       "alt": "Live-Viola für Bratschenkonzert mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Programm anfragen",
     "title": "Bratschenkonzert anfragen",

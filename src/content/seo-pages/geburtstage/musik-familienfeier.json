@@ -6,7 +6,7 @@
   "targetKeyword": "Musik Familienfeier",
   "intentCluster": "geburtstage:topic",
   "priority": "P2",
-  "status": "rewritten-batch-5-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Musik Familienfeier | Live-Viola Geburtstag",
   "seoDescription": "Musik Familienfeier: Solo-Viola für private Geburtstage, Empfang, Dinner oder Überraschung. Persönlich und dezent geplant.",
@@ -17,7 +17,7 @@
     "badge": "Geburtstag persönlich begleiten"
   },
   "split": {
-    "eyebrow": "Suchintention",
+    "eyebrow": "Einordnung",
     "title": "Musik Familienfeier braucht eine andere Planung als allgemeine Partymusik.",
     "lede": "Wer nach Musik Familienfeier sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
     "paragraphs": [
@@ -26,9 +26,18 @@
       "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
       "Timing, Lautstärke und Länge werden vorher konkret geplant. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
       "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif.",
-      "Diese Seite ist bewusst auf Musik Familienfeier zugeschnitten. Andere Geburtstagsseiten behandeln zum Beispiel Gartenfeier, Dinner, Sektempfang oder musikalisches Geschenk mit eigener Dramaturgie.",
       "Praktisch bedeutet das: Für Musik Familienfeier bespreche ich nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei Geburtstage, Jubiläen und Treffen im Familienkreis macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
-      "Auch die Länge wird passend zum Suchintent gewählt. In Restaurant, Garten, Saal oder Wohnzimmer reicht manchmal ein präziser musikalischer Impuls; bei Ankommen, Gratulationen und gemeinsames Essen sind mehrere kurze Einsätze sinnvoller, weil die Musik dann wieder Raum für Begegnung lässt."
+      "Bei Musik Familienfeier steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Gartenfest.",
+      "Bei Geburtstagen steht die Person im Mittelpunkt, nicht die Musikerin. Musik Familienfeier wird deshalb nach Überraschung, Alter, Runde, Wunschlied und Zeitpunkt geplant.",
+      "Der Kern von Musik Familienfeier ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+      "Die klare Abgrenzung zu Musik Gartenfest lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "Generationentisch, persönliche Runde, warme Wiedererkennung verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf Wunschstücke, kurze Einsätze, Gesprächspausen. Das verhindert, dass Musik Familienfeier nur wie eine Variante der Hauptleistung klingt.",
+      "Auch Generationentisch, persönliche Runde, warme Wiedererkennung ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Musik, Familienfeier. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+      "Die klare Abgrenzung zu Musik Gartenfeier lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
     ]
   },
   "faq": {
@@ -59,6 +68,14 @@
       {
         "question": "Kann die Musik draußen gespielt werden?",
         "answer": "Ja, wenn ein geschützter Platz vorhanden ist. Für Garten oder Terrasse besprechen wir Schatten, Wetteroption und Abstand zu Gesprächen."
+      },
+      {
+        "question": "Wann passt Musik Familienfeier besonders gut?",
+        "answer": "Musik Familienfeier passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
       }
     ]
   },
@@ -76,7 +93,7 @@
       "alt": "Live-Viola für Musik Familienfeier 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 5: Geburtstagsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 5: Geburtstagsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Geburtstagsmusik planen",
     "title": "Musik Familienfeier anfragen",

@@ -6,7 +6,7 @@
   "targetKeyword": "Bratschenunterricht Düsseldorf",
   "intentCluster": "unterricht:local",
   "priority": "P3",
-  "status": "rewritten-batch-6-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Bratschenunterricht Düsseldorf | Viola lernen",
   "seoDescription": "Bratschenunterricht Düsseldorf: Viola- und Bratschenunterricht für Kinder, Erwachsene und Anfänger:innen mit Probestunde und klarem Übeplan.",
@@ -31,7 +31,18 @@
       "Bei Wiedereinsteiger:innen geht es oft darum, alte Bewegungen vorsichtig zu prüfen und neue Sicherheit aufzubauen, ohne alles wieder mühsam von vorn zu erklären. Genau dadurch unterscheidet sich Unterricht in Düsseldorf von einer allgemeinen Beschreibung: Wir schauen auf die Person, den Weg, den Wochenrhythmus und die musikalische Situation.",
       "Gerade bei der Bratsche lohnt es sich, langsam zu arbeiten: Ein sauberer Ton am Anfang spart später viele Korrekturen. Das macht den Unterricht konkreter und hilft, Fortschritt nicht nur im Termin selbst, sondern zwischen zwei Stunden zu erleben.",
       "Für Familien ist wichtig, dass Üben nicht zum täglichen Streitpunkt wird.",
-      "Wenn du aus Düsseldorf oder aus der Umgebung kommst, können wir in der Probestunde prüfen, welches Format passt: regelmäßiger Unterricht, ein vorbereitender Block für ein bestimmtes Ziel, Unterstützung beim Wiedereinstieg oder eine Phase, in der Technik neu sortiert wird."
+      "Wenn du aus Düsseldorf oder aus der Umgebung kommst, können wir in der Probestunde prüfen, welches Format passt: regelmäßiger Unterricht, ein vorbereitender Block für ein bestimmtes Ziel, Unterstützung beim Wiedereinstieg oder eine Phase, in der Technik neu sortiert wird.",
+      "In Düsseldorf prüfe ich besonders Innenstadtverkehr, Ladezone, Aufzug, Einlass und kurze Wege zwischen Programmpunkten. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+      "Gäste, die hochwertige Wirkung ohne Überinszenierung erwarten. Deshalb geht es bei Bratschenunterricht hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+      "Anders als bei einer allgemeinen Leistungsseite wird Bratschenunterricht Düsseldorf über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
+      "Wer in Düsseldorf anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Rhein, Benrath, Kaiserswerth, Flingern, Messe, Hotels und Galerien bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
+      "Die wichtigste Vorbereitung in Düsseldorf: Innenstadtverkehr, Ladezone, Aufzug, Einlass und kurze Wege zwischen Programmpunkten. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+      "Typisch für Düsseldorf sind Gäste, die hochwertige Wirkung ohne Überinszenierung erwarten. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+      "im Unterricht geht es um Lernrhythmus, Körpergefühl, Klang, Motivation und eine Form, die im Alltag wirklich tragfaehig ist. In Düsseldorf übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+      "Der Unterschied zu Langenfeld liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+      "Für die Anfrage sind Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Düsseldorf passt und den Ablauf nicht künstlich aufbläht.",
+      "Wenn Bratschenunterricht Düsseldorf mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+      "Bei knappen Zeitfenstern in Düsseldorf ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
     ],
     "seal": "Düsseldorf\nViola & Bratsche\nruhig lernen"
   },
@@ -63,6 +74,14 @@
       {
         "question": "Wie oft sollte Unterricht stattfinden?",
         "answer": "Für viele Lernende ist ein regelmäßiger Wochenrhythmus ideal. Je nach Ziel, Alter und Fahrweg rund um Düsseldorf kann auch ein anderer Abstand sinnvoll sein, wenn der Übeplan klar bleibt."
+      },
+      {
+        "question": "Welche Details sind für Bratschenunterricht Düsseldorf besonders wichtig?",
+        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Düsseldorf plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+      },
+      {
+        "question": "Wie wird die Musik in Düsseldorf konkret geplant?",
+        "answer": "Hilfreich sind Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
       }
     ]
   },
@@ -76,7 +95,7 @@
       "alt": "Bratschenunterricht und Viola lernen in Düsseldorf 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
     "title": "Bratschenunterricht in Düsseldorf anfragen",

@@ -6,22 +6,21 @@
   "targetKeyword": "Live Musik Firmenevent",
   "intentCluster": "firmenfeiern:topic",
   "priority": "P2",
-  "status": "rewritten-batch-9-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Live Musik Firmenevent | Live-Viola für Business",
   "seoDescription": "Live Musik Firmenevent: Solo-Viola für Business-Events. Dezent, hochwertig, gesprächsfreundlich und professionell planbar.",
   "hero": {
     "eyebrow": "Business-Musik",
     "title": "Live Musik für Firmenevents mit eleganter Viola.",
-    "lead": "Der Suchintent ist kommerziell: Es geht nicht um eine Playlist, sondern um eine buchbare Live-Lösung für ein Business-Event. Ich plane Solo-Viola so, dass Musik, Ablauf, Raum und geschäftlicher Anlass zusammenpassen.",
+    "lead": "Die Anfrage ist kommerziell: Es geht nicht um eine Playlist, sondern um eine buchbare Live-Lösung für ein Business-Event. Ich plane Solo-Viola so, dass Musik, Ablauf, Raum und geschäftlicher Anlass zusammenpassen.",
     "badge": "Live-Viola für Unternehmen"
   },
   "split": {
-    "eyebrow": "Suchintention",
+    "eyebrow": "Einordnung",
     "title": "Live Musik Firmenevent braucht einen eigenen musikalischen Fokus.",
     "lede": "Unternehmen, die ihren Anlass live, hochwertig und trotzdem planbar begleiten lassen möchten suchen keine beliebige Musik, sondern eine Lösung für Firmenfeier, Messeabend, Kundenempfang, Dinner, Eröffnung, Jubiläum oder Networking.",
     "paragraphs": [
-      "Der Suchintent ist kommerziell: Es geht nicht um eine Playlist, sondern um eine buchbare Live-Lösung für ein Business-Event.",
       "Ich plane Solo-Viola als musikalischen Rahmen, der sichtbar live ist und trotzdem wenig Technik, Fläche und Abstimmung braucht.",
       "Diese Seite ist breiter als Dinnermusik oder Messe-Musik und bündelt die allgemeine Buchungsfrage für Live-Musik.",
       "Wir klären Anlass, Ort, Gästezahl, gewünschte Rolle der Musik, Rechnungsdaten und mögliche Wechsel zwischen Hintergrund und Akzent.",
@@ -35,9 +34,18 @@
       "Gerade bei Business-Events ist Zurückhaltung eine Qualität. Der Klang darf spürbar sein, aber er muss jederzeit dem Zweck des Treffens dienen.",
       "Die organisatorische Seite bleibt bewusst klar: Termin, Ort, Kontaktperson, Rechnungsdaten, Dresscode, gewünschte Spielzeit und eventuelle Besonderheiten der Location.",
       "Wenn Agentur, Assistenz, Location und Unternehmen beteiligt sind, kann ich die musikalischen Eckpunkte kurz und verbindlich abstimmen, damit am Veranstaltungstag niemand lange erklären muss.",
-      "Diese Seite bleibt bei Live Musik Firmenevent. Verwandte Seiten behandeln einzelne Orte, Messe, Firmenfeier, Gala, Dinnermusik oder Instrumentenfragen; hier geht es um den konkreten Suchintent dieses Begriffs.",
       "Ein Solo-Instrument kann sehr hochwertig wirken und bleibt zugleich flexibel, wenn sich Reden verschieben oder Gäste länger im Empfang bleiben.",
-      "Für eine erste Einschätzung reichen wenige Angaben. Danach kann ich vorschlagen, ob ein durchgehender Rahmen, mehrere kurze Sets oder ein einzelner musikalischer Moment die sauberste Lösung ist."
+      "Für eine erste Einschätzung reichen wenige Angaben. Danach kann ich vorschlagen, ob ein durchgehender Rahmen, mehrere kurze Sets oder ein einzelner musikalischer Moment die sauberste Lösung ist.",
+      "Bei Live Musik Firmenevent steht im Raum entstehender Klang, Reaktion, Flexibilitaet, echte Präsenz im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikerin Firmenevent.",
+      "Bei Firmenformaten zählt nicht nur Schönheit, sondern Verlässlichkeit im Ablauf. Live Musik Firmenevent muss Reden, Networking, Markenwirkung und Gästefluss zusammenhalten, ohne zur Hauptsache zu werden.",
+      "Der Kern von Live Musik Firmenevent ist im Raum entstehender Klang, Reaktion, Flexibilitaet, echte Präsenz. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Startsignal, Dauer, Lautstärke, Anpassung die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola repräsentativ, dezent, elegant, verbindend oder als kurzer Akzent wirken soll.",
+      "Die klare Abgrenzung zu Musikerin Firmenevent lautet: nicht wie Playlist beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf Dauer, Position, Lautstärke, Wunschstücke, Übergänge. Das verhindert, dass Live Musik Firmenevent nur wie eine Variante der Hauptleistung klingt.",
+      "Auch Unternehmen, Empfang, Repräsentation, Gästeprofil, Ablaufdisziplin ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Eventformat, Location, Gästezahl, Zeitfenster, Reden, Dinnerablauf und die gewünschte Rolle der Musik. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Live, Musik, Firmenevent. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
     ],
     "seal": "Live Musik Firmenevent\nBusiness\nLive-Viola"
   },
@@ -77,6 +85,14 @@
       {
         "question": "Warum eignet sich Viola für Live Musik Firmenevent?",
         "answer": "Live-Musik schafft eine andere Aufmerksamkeit als Aufnahmen, weil sie den Raum und die Stimmung der Gäste direkt aufnimmt."
+      },
+      {
+        "question": "Wann passt Live Musik Firmenevent besonders gut?",
+        "answer": "Live Musik Firmenevent passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Eventformat, Location, Gästezahl, Zeitfenster, Reden, Dinnerablauf und die gewünschte Rolle der Musik. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
       }
     ]
   },
@@ -90,7 +106,7 @@
       "alt": "Kim Marie Borger spielt Live-Viola für Live Musik Firmenevent bei einem Business-Anlass"
     }
   ],
-  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Anfrage",
     "title": "Live Musik Firmenevent anfragen",
@@ -110,12 +126,6 @@
     "lead": "Der musikalische Rahmen wird so geplant, dass er zum Anlass passt und den geschäftlichen Zweck der Veranstaltung unterstützt.",
     "items": [
       {
-        "time": "01",
-        "kicker": "Intent",
-        "title": "Die Rolle der Musik festlegen",
-        "text": "Der Suchintent ist kommerziell: Es geht nicht um eine Playlist, sondern um eine buchbare Live-Lösung für ein Business-Event. Daraus ergibt sich, ob Musik eher dezent, sichtbar, festlich oder verbindend eingesetzt wird."
-      },
-      {
         "time": "02",
         "kicker": "Raum",
         "title": "Akustik und Bewegung beachten",
@@ -134,6 +144,6 @@
         "text": "Live-Musik schafft eine andere Aufmerksamkeit als Aufnahmen, weil sie den Raum und die Stimmung der Gäste direkt aufnimmt. Der Klang bleibt live, warm und zugleich kontrollierbar."
       }
     ],
-    "footnote": "Live Musik Firmenevent wird als eigene Seite geführt, weil der Suchintent andere Fragen stellt als eine allgemeine Firmenfeier-Seite."
+    "footnote": "Live Musik Firmenevent wird passend zu Anlass, Raum, Familie und Ablauf geplant."
   }
 }

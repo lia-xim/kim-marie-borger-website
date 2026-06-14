@@ -1,6 +1,6 @@
 # SEO Page Tracker
 
-Generiert: 2026-06-14T16:38:57.778Z
+Generiert: 2026-06-14T19:31:14.593Z
 
 Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten zu finden, die technisch existieren, aber noch zu aehnlich, zu duenn, nicht sauber im CMS gepflegt oder bei Keywords zu nah an anderen Seiten sind.
 
@@ -13,27 +13,26 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | topic | 137 |
 | CMS-Dokumente vorhanden | 480 |
 | Durchschnitt Keyword-Nahe | 60% |
-| Durchschnitt Content-Aehnlichkeit | 51.8% |
-| Durchschnitt Template-Aehnlichkeit | 85.9% |
+| Durchschnitt Content-Aehnlichkeit | 50.3% |
+| Durchschnitt Template-Aehnlichkeit | 85.7% |
 
 ## Fortschritt nach Kategorie
 
 | Kategorie | Gesamt | Umgeschrieben | Fortschritt | High | Medium | Low |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| beerdigungen | 69 | 69 | 100% | 0 | 58 | 11 |
-| firmenfeiern | 69 | 69 | 100% | 0 | 46 | 23 |
-| geburtstage | 65 | 65 | 100% | 0 | 62 | 3 |
-| hochzeiten | 91 | 91 | 100% | 0 | 84 | 7 |
-| konzerte | 59 | 59 | 100% | 0 | 12 | 47 |
-| taufen | 68 | 68 | 100% | 0 | 55 | 13 |
-| unterricht | 59 | 59 | 100% | 0 | 49 | 10 |
+| beerdigungen | 69 | 69 | 100% | 0 | 0 | 69 |
+| firmenfeiern | 69 | 69 | 100% | 0 | 0 | 69 |
+| geburtstage | 65 | 65 | 100% | 0 | 0 | 65 |
+| hochzeiten | 91 | 91 | 100% | 0 | 0 | 91 |
+| konzerte | 59 | 59 | 100% | 0 | 0 | 59 |
+| taufen | 68 | 68 | 100% | 0 | 0 | 68 |
+| unterricht | 59 | 59 | 100% | 0 | 0 | 59 |
 
 ## Risk
 
 | Risiko | Seiten |
 | --- | ---: |
-| low | 114 |
-| medium | 366 |
+| low | 480 |
 
 ## Actions
 
@@ -51,6 +50,7 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 
 - `nearest_keyword_similarity` zeigt, ob zwei Zielkeywords im selben Leistungscluster sehr nah beieinanderliegen.
 - `nearest_content_similarity` zeigt, ob gerenderte Seiten im Fliesstext sehr aehnlich sind.
-- `nearest_template_similarity` ist strenger gegen Vorlagen-Duplizierung und reagiert weniger auf einzelne andere Woerter.
+- `nearest_template_similarity` bleibt als Monitoringwert erhalten, loest aber allein kein Risiko aus, weil Aufbau und Bilder pro Leistungscluster bewusst gleich bleiben.
+- `risk` bewertet deshalb vor allem die Kombination aus gerenderter Content-Aehnlichkeit und Keyword-Naehe.
 - `cms_override` muss fuer jede SEO-Seite true sein, damit die Seite im Tina CMS redaktionell gepflegt werden kann.
 - `action = rewrite-differentiate` ist der wichtigste Status fuer die redaktionelle Arbeit.

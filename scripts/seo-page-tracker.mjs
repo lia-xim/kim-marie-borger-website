@@ -284,8 +284,15 @@ for (const row of rows) {
 			row.nearestKeywordRoute = other.route;
 		}
 	}
-	if (row.nearestTemplateSimilarity >= 0.93 || (row.nearestKeywordSimilarity >= 0.82 && row.nearestContentSimilarity >= 0.55)) row.risk = 'high';
-	else if (row.nearestTemplateSimilarity >= 0.86 || row.nearestKeywordSimilarity >= 0.72) row.risk = 'medium';
+	if (
+		row.nearestContentSimilarity >= 0.68
+		|| (row.nearestKeywordSimilarity >= 0.9 && row.nearestContentSimilarity >= 0.58)
+	) row.risk = 'high';
+	else if (
+		row.nearestContentSimilarity >= 0.64
+		|| (row.nearestKeywordSimilarity >= 0.9 && row.nearestContentSimilarity >= 0.52)
+		|| (row.nearestKeywordSimilarity >= 0.82 && row.nearestContentSimilarity >= 0.58)
+	) row.risk = 'medium';
 	else row.risk = 'low';
 
 	if (!row.cmsOverride) row.action = 'create-cms-doc';
@@ -417,7 +424,8 @@ ${backlog.map((row) => `| ${row.risk} | ${row.action} | ${row.pageKind} | [${row
 
 - \`nearest_keyword_similarity\` zeigt, ob zwei Zielkeywords im selben Leistungscluster sehr nah beieinanderliegen.
 - \`nearest_content_similarity\` zeigt, ob gerenderte Seiten im Fliesstext sehr aehnlich sind.
-- \`nearest_template_similarity\` ist strenger gegen Vorlagen-Duplizierung und reagiert weniger auf einzelne andere Woerter.
+- \`nearest_template_similarity\` bleibt als Monitoringwert erhalten, loest aber allein kein Risiko aus, weil Aufbau und Bilder pro Leistungscluster bewusst gleich bleiben.
+- \`risk\` bewertet deshalb vor allem die Kombination aus gerenderter Content-Aehnlichkeit und Keyword-Naehe.
 - \`cms_override\` muss fuer jede SEO-Seite true sein, damit die Seite im Tina CMS redaktionell gepflegt werden kann.
 - \`action = rewrite-differentiate\` ist der wichtigste Status fuer die redaktionelle Arbeit.
 `;

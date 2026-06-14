@@ -6,7 +6,7 @@
   "targetKeyword": "Trauermusik Oberhausen",
   "intentCluster": "beerdigungen:local",
   "priority": "P3",
-  "status": "rewritten-batch-8-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Trauermusik Oberhausen | Live-Viola für Abschied",
   "seoDescription": "Trauermusik Oberhausen: Solo-Viola für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Ruhig geplant und persönlich abgestimmt.",
@@ -54,12 +54,16 @@
         "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort in Oberhausen, der geplante Ablauf und ein Hinweis, ob Musik nur in der Trauerfeier oder auch am Grab gewünscht ist. Wenn es bereits ein Wunschstück gibt, prüfe ich direkt, ob es für Solo-Viola passt."
       },
       {
-        "question": "Warum gibt es eine eigene Seite für Oberhausen?",
-        "answer": "Weil Trauermusik in Oberhausen andere praktische Fragen hat als eine allgemeine Repertoireseite. Wege, Raumakustik, Friedhofsablauf, Wetter und lokale Abstimmung verändern, wie Musik am Abschiedstag wirklich funktioniert."
-      },
-      {
         "question": "Sind kurzfristige Anfragen möglich?",
         "answer": "Oft ja. Für Abschiede in Oberhausen melde ich mich schnell zurück, sobald Datum, Ort und ungefähre Uhrzeit feststehen."
+      },
+      {
+        "question": "Welche Details sind für Trauermusik Oberhausen besonders wichtig?",
+        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Oberhausen plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+      },
+      {
+        "question": "Wie wird die Musik in Oberhausen konkret geplant?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
       }
     ]
   },
@@ -73,7 +77,7 @@
       "alt": "Live-Viola als Trauermusik in Oberhausen 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik in Oberhausen anfragen",
@@ -113,7 +117,18 @@
       "Bei Trauermusik in Oberhausen ist Zurückhaltung oft die stärkste Form. Ich spiele lieber mit klarer Linie, ruhigem Bogen und genug Stille zwischen den Einsätzen, damit die Worte ihren Platz behalten.",
       "Die Viola ist dafür besonders geeignet, weil sie nicht so hell wie eine Geige wirkt und trotzdem melodisch klar bleibt. In Trauerhallen kann dieser mittlere Klang sehr menschlich und unaufdringlich tragen.",
       "Wenn mehrere Personen mitentscheiden, helfe ich dabei, die Optionen zu sortieren. Meist entsteht schnell Klarheit, wenn man jedem Stück eine konkrete Aufgabe im Ablauf gibt.",
-      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab."
+      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab.",
+      "In Oberhausen prüfe ich besonders Parken, Einlass, Raumgröße und Lautstärke in lebendigen Umgebungen. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+      "Gäste, die einen klaren, freundlichen Live-Akzent moegen. Deshalb geht es bei Trauermusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+      "Anders als bei einer allgemeinen Leistungsseite wird Trauermusik Oberhausen über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
+      "Für Oberhausen plane ich Trauermusik Oberhausen zuerst vom echten Ablauf her: Centro-Nähe, Ruhrgebiet, Gasometer, Restaurants und flexible Eventflaechen. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
+      "Die wichtigste Vorbereitung in Oberhausen: Parken, Einlass, Raumgröße und Lautstärke in lebendigen Umgebungen. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+      "Typisch für Oberhausen sind Gäste, die einen klaren, freundlichen Live-Akzent moegen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+      "Bei Abschieden geht es um Halt, Timing, Würde und darum, Angehoerige organisatorisch zu entlasten. In Oberhausen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+      "Der Unterschied zu Iserlohn liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+      "Für die Anfrage sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Oberhausen passt und den Ablauf nicht künstlich aufbläht.",
+      "Wenn Trauermusik Oberhausen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+      "Bei knappen Zeitfenstern in Oberhausen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
     ],
     "seal": "Oberhausen\nTrauerfeier & Abschied\nLive-Viola"
   },

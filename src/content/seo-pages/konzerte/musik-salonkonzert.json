@@ -6,7 +6,7 @@
   "targetKeyword": "Musik Salonkonzert",
   "intentCluster": "konzerte:topic",
   "priority": "P2",
-  "status": "rewritten-batch-11-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Musik Salonkonzert | Solo-Viola",
   "seoDescription": "Musik Salonkonzert: kuratiertes Solo-Viola-Programm für Konzert, Kulturabend, Vernissage, Lesung oder Event.",
@@ -17,9 +17,9 @@
     "badge": "Kuratierte Programme mit Viola"
   },
   "split": {
-    "eyebrow": "Suchintention",
+    "eyebrow": "Einordnung",
     "title": "Musik Salonkonzert braucht eine eigene dramaturgische Aufgabe.",
-    "lede": "Private Gastgeber, Kulturorte und kleine Reihen, die ein konzentriertes Konzert im nahen Raum planen suchen Musik für Salon, Wohnzimmer, Villa, Galerie, kleiner Saal oder privater Konzertabend. Deshalb bekommt dieser Begriff eine eigene Seite im Konzertcluster.",
+    "lede": "Musik Salonkonzert wird hier praktisch eingeordnet: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
     "paragraphs": [
       "Salonkonzert meint ein intimes Konzertformat, bei dem Publikum, Raum und Moderation nah beieinander sind.",
       "Ich kuratiere Programme mit persönlicher Ansprache, überschaubarer Länge und klarer Dramaturgie.",
@@ -37,7 +37,18 @@
       "Bei längeren Programmen plane ich Kontraste: warme Linie, rhythmischer Impuls, Stille, ein bekanntes Stück und ein überraschender Schluss.",
       "Diese Seite bleibt bewusst bei Musik Salonkonzert. Ortsseiten beantworten lokale Fragen, andere Topic-Seiten behandeln Vernissage, Lesung, Salon, Live-Musik-Event oder Bratsche als Instrument.",
       "Für eine Anfrage reichen Datum, Ort, Publikum, Anlass, gewünschte Länge und die Frage, ob Musik im Mittelpunkt steht oder einen anderen Inhalt rahmt.",
-      "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt."
+      "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt.",
+      "Bei Musik Salonkonzert steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Live Musik Konzert.",
+      "Bei Konzertformaten steht das Zuhören stärker im Mittelpunkt als bei Begleitmusik. Musik Salonkonzert braucht deshalb Programm, Bogen, Moderation und ein klares Verhältnis zum Raum.",
+      "Der Kern von Musik Salonkonzert ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, kammermusikalisch, moderiert, begleitend oder konzentriert wirken soll.",
+      "Die klare Abgrenzung zu Live Musik Konzert lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "kleiner Raum, Publikumnähe, Moderation, kammermusikalisches Gespräch verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf Dauer, Pause, Stückfolge, Sitzordnung. Das verhindert, dass Musik Salonkonzert nur wie eine Variante der Hauptleistung klingt.",
+      "Auch kleiner Raum, Publikumnähe, Moderation, kammermusikalisches Gespräch ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Musik, Salonkonzert. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+      "Die klare Abgrenzung zu Musik Lesung lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
     ],
     "seal": "Musik Salonkonzert\nKultur\nViola"
   },
@@ -77,6 +88,14 @@
       {
         "question": "Welche Angaben brauchst du für Musik Salonkonzert?",
         "answer": "Datum, Ort, Raum, Publikum, gewünschte Dauer, Anlass, Ablauf und vorhandene Wunschstücke reichen für eine erste Einschätzung."
+      },
+      {
+        "question": "Wann passt Musik Salonkonzert besonders gut?",
+        "answer": "Musik Salonkonzert passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
       }
     ]
   },
@@ -86,7 +105,7 @@
       "alt": "Live-Viola für Musik Salonkonzert mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Programm anfragen",
     "title": "Musik Salonkonzert anfragen",

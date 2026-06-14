@@ -6,22 +6,21 @@
   "targetKeyword": "Bratsche Konzert",
   "intentCluster": "konzerte:topic",
   "priority": "P2",
-  "status": "rewritten-batch-11-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Bratsche Konzert | Solo-Viola",
   "seoDescription": "Bratsche Konzert: kuratiertes Solo-Viola-Programm für Konzert, Kulturabend, Vernissage, Lesung oder Event.",
   "hero": {
     "eyebrow": "Konzert & Kultur",
     "title": "Bratsche im Konzert mit warmem Solo-Klang.",
-    "lead": "Der Suchbegriff fragt nach dem Instrument Bratsche und nach seiner Eignung für ein Konzertformat. Ich plane Solo-Viola so, dass Programm, Raum, Publikum und Anlass zusammenpassen.",
+    "lead": "Die Anfrage fragt nach dem Instrument Bratsche und nach seiner Eignung für ein Konzertformat. Ich plane Solo-Viola so, dass Programm, Raum, Publikum und Anlass zusammenpassen.",
     "badge": "Kuratierte Programme mit Viola"
   },
   "split": {
-    "eyebrow": "Suchintention",
+    "eyebrow": "Einordnung",
     "title": "Bratsche Konzert braucht eine eigene dramaturgische Aufgabe.",
-    "lede": "Veranstalterinnen, Gastgeber und Kulturorte, die gezielt den tieferen Streicherklang suchen suchen Musik für Bühne, Salon, Vernissage, Lesung oder kammermusikalischer Abend. Deshalb bekommt dieser Begriff eine eigene Seite im Konzertcluster.",
+    "lede": "Bratsche Konzert wird hier praktisch eingeordnet: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
     "paragraphs": [
-      "Der Suchbegriff fragt nach dem Instrument Bratsche und nach seiner Eignung für ein Konzertformat.",
       "Ich spiele Viola beziehungsweise Bratsche als Soloinstrument mit klassischer, moderner und erzählerischer Programmgestaltung.",
       "Diese Seite beantwortet die Instrumentenfrage und grenzt sich von allgemeinen Event- und Konzertseiten ab.",
       "Wichtig sind Raumgröße, Programmlänge, gewünschte Moderation und die Frage, ob das Instrument im Mittelpunkt steht.",
@@ -37,7 +36,17 @@
       "Bei längeren Programmen plane ich Kontraste: warme Linie, rhythmischer Impuls, Stille, ein bekanntes Stück und ein überraschender Schluss.",
       "Diese Seite bleibt bewusst bei Bratsche Konzert. Ortsseiten beantworten lokale Fragen, andere Topic-Seiten behandeln Vernissage, Lesung, Salon, Live-Musik-Event oder Bratsche als Instrument.",
       "Für eine Anfrage reichen Datum, Ort, Publikum, Anlass, gewünschte Länge und die Frage, ob Musik im Mittelpunkt steht oder einen anderen Inhalt rahmt.",
-      "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt."
+      "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt.",
+      "Bei Bratsche Konzert steht warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Live Musik Konzert.",
+      "Bei Konzertformaten steht das Zuhören stärker im Mittelpunkt als bei Begleitmusik. Bratsche Konzert braucht deshalb Programm, Bogen, Moderation und ein klares Verhältnis zum Raum.",
+      "Der Kern von Bratsche Konzert ist warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Tonbildung, Resonanz, ruhige Artikulation, tragende Melodielinie die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, kammermusikalisch, moderiert, begleitend oder konzentriert wirken soll.",
+      "Die klare Abgrenzung zu Live Musik Konzert lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "Zuhören, Bogen, Programm, Stille, Schlusswirkung verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf Dauer, Moderation, Sitzordnung, Raumakustik. Das verhindert, dass Bratsche Konzert nur wie eine Variante der Hauptleistung klingt.",
+      "Auch Zuhören, Bogen, Programm, Stille, Schlusswirkung ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Bratsche, Konzert. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
     ],
     "seal": "Bratsche Konzert\nKultur\nViola"
   },
@@ -77,6 +86,14 @@
       {
         "question": "Welche Angaben brauchst du für Bratsche Konzert?",
         "answer": "Datum, Ort, Raum, Publikum, gewünschte Dauer, Anlass, Ablauf und vorhandene Wunschstücke reichen für eine erste Einschätzung."
+      },
+      {
+        "question": "Wann passt Bratsche Konzert besonders gut?",
+        "answer": "Bratsche Konzert passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
       }
     ]
   },
@@ -86,7 +103,7 @@
       "alt": "Live-Viola für Bratsche Konzert mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Programm anfragen",
     "title": "Bratsche Konzert anfragen",

@@ -6,7 +6,7 @@
   "targetKeyword": "Bratsche Unterricht",
   "intentCluster": "unterricht:topic",
   "priority": "P2",
-  "status": "rewritten-batch-6-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Bratsche Unterricht | Viola lernen",
   "seoDescription": "Bratsche Unterricht: Unterricht für Viola oder Bratsche mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
@@ -19,7 +19,7 @@
   "split": {
     "eyebrow": "Unterricht mit klarem Fokus",
     "title": "Bratsche Unterricht heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
-    "lede": "Wer nach Bratsche Unterricht sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht eine persönliche Begleitung mit nachvollziehbaren Zielen. Diese Seite ist bewusst praktisch: Wie läuft eine Stunde ab, woran arbeiten wir, und wie wird daraus Fortschritt?",
+    "lede": "Bratsche Unterricht wird hier praktisch eingeordnet: Welche Rolle soll der Unterricht übernehmen, wie viel Raum braucht das Lernziel, und welche Vorbereitung macht den Einstieg leichter?",
     "paragraphs": [
       "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
       "Jede Stunde hat einen Schwerpunkt, eine musikalische Anwendung und eine kleine Aufgabe für die nächste Woche.",
@@ -28,8 +28,18 @@
       "Bratsche Unterricht funktioniert am besten, wenn Korrekturen direkt verständlich sind und zu Hause erinnerbar bleiben.",
       "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
       "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
-      "Gerade bei Bratsche Unterricht ist wichtig, den Suchintent sauber zu treffen: Es geht um Lernen, nicht um einen Auftritt. Deshalb stehen Lernstand, Probestunde, Instrumentenwahl, Übungsrhythmus und Fortschritt im Vordergrund.",
-      "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt."
+      "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
+      "Bei Bratsche Unterricht steht warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Viola Unterricht.",
+      "Lernseiten dürfen nicht alle gleich klingen: Bratsche, Unterricht hat andere Fragen als Kinderunterricht, Erwachseneneinstieg, Fortgeschrittene oder reine Probestunde.",
+      "Der Kern von Bratsche Unterricht ist warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Tonbildung, Resonanz, ruhige Artikulation, tragende Melodielinie die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll.",
+      "Die klare Abgrenzung zu Viola Unterricht lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "Lernbeziehung, Technik, Klang, Tempo, Vertrauen verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf Probestunde, Wochenrhythmus, Übeplan, Ziele. Das verhindert, dass Bratsche Unterricht nur wie eine Variante der Hauptleistung klingt.",
+      "Auch Lernbeziehung, Technik, Klang, Tempo, Vertrauen ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Bratsche, Unterricht. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+      "Die klare Abgrenzung zu Bratsche Lernen lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
     ],
     "seal": "Unterrichtsform\nKlang & Technik\npersönlich"
   },
@@ -61,6 +71,14 @@
       {
         "question": "Welche Musik wird im Unterricht gespielt?",
         "answer": "Das hängt von Lernstand und Ziel ab. Klassische Grundlagen, kleine Melodien, Etüden, Filmmusik oder persönliche Wünsche können sinnvoll kombiniert werden."
+      },
+      {
+        "question": "Wann passt Bratsche Unterricht besonders gut?",
+        "answer": "Bratsche Unterricht passt, wenn genau dieser Lernschwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich klären, ob ein Unterrichtseinstieg, ein Technikfokus, ein Wiedereinstieg oder eine regelmäßige Begleitung passend ist."
       }
     ]
   },
@@ -74,7 +92,7 @@
       "alt": "Bratsche Unterricht mit Viola und Bratsche 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Unterricht anfragen",
     "title": "Bratsche Unterricht anfragen",

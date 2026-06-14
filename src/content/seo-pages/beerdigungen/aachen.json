@@ -6,7 +6,7 @@
   "targetKeyword": "Trauermusik Aachen",
   "intentCluster": "beerdigungen:local",
   "priority": "P3",
-  "status": "rewritten-batch-8-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Trauermusik Aachen | Live-Viola für Abschied",
   "seoDescription": "Trauermusik Aachen: Solo-Viola für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Ruhig geplant und persönlich abgestimmt.",
@@ -54,12 +54,16 @@
         "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort in Aachen, der geplante Ablauf und ein Hinweis, ob Musik nur in der Trauerfeier oder auch am Grab gewünscht ist. Wenn es bereits ein Wunschstück gibt, prüfe ich direkt, ob es für Solo-Viola passt."
       },
       {
-        "question": "Warum gibt es eine eigene Seite für Aachen?",
-        "answer": "Weil Trauermusik in Aachen andere praktische Fragen hat als eine allgemeine Repertoireseite. Wege, Raumakustik, Friedhofsablauf, Wetter und lokale Abstimmung verändern, wie Musik am Abschiedstag wirklich funktioniert."
-      },
-      {
         "question": "Sind kurzfristige Anfragen möglich?",
         "answer": "Oft ja. Für Abschiede in Aachen melde ich mich schnell zurück, sobald Datum, Ort und ungefähre Uhrzeit feststehen."
+      },
+      {
+        "question": "Welche Details sind für Trauermusik Aachen besonders wichtig?",
+        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Aachen plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+      },
+      {
+        "question": "Wie wird die Musik in Aachen konkret geplant?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
       }
     ]
   },
@@ -73,7 +77,7 @@
       "alt": "Live-Viola als Trauermusik in Aachen 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik in Aachen anfragen",
@@ -113,7 +117,15 @@
       "Bei Trauermusik in Aachen ist Zurückhaltung oft die stärkste Form. Ich spiele lieber mit klarer Linie, ruhigem Bogen und genug Stille zwischen den Einsätzen, damit die Worte ihren Platz behalten.",
       "Die Viola ist dafür besonders geeignet, weil sie nicht so hell wie eine Geige wirkt und trotzdem melodisch klar bleibt. In Trauerhallen kann dieser mittlere Klang sehr menschlich und unaufdringlich tragen.",
       "Wenn mehrere Personen mitentscheiden, helfe ich dabei, die Optionen zu sortieren. Meist entsteht schnell Klarheit, wenn man jedem Stück eine konkrete Aufgabe im Ablauf gibt.",
-      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab."
+      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab.",
+      "Wer in Aachen anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Altstadt, Domnähe, Hochschule, Dreilaendereck und historische Säle bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
+      "Die wichtigste Vorbereitung in Aachen: weitere Anfahrt, Einlasszeit und Akustik in älteren Räumen. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+      "Typisch für Aachen sind ein Publikum aus Familie, Kulturinteresse, Wissenschaft und internationalen Gästen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+      "Bei Abschieden geht es um Halt, Timing, Würde und darum, Angehoerige organisatorisch zu entlasten. In Aachen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+      "Der Unterschied zu Remscheid liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+      "Für die Anfrage sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Aachen passt und den Ablauf nicht künstlich aufbläht.",
+      "Wenn Trauermusik Aachen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+      "Bei knappen Zeitfenstern in Aachen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
     ],
     "seal": "Aachen\nTrauerfeier & Abschied\nLive-Viola"
   },

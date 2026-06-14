@@ -6,7 +6,7 @@
   "targetKeyword": "Hochzeitsmusik Dormagen",
   "intentCluster": "hochzeiten:local",
   "priority": "P3",
-  "status": "rewritten-batch-7-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Hochzeitsmusik Dormagen | Live-Viola",
   "seoDescription": "Hochzeitsmusik Dormagen: Solo-Viola für Trauung, Einzug, Auszug, Empfang und Dinner. Persönlich geplant.",
@@ -29,7 +29,18 @@
       "Das Repertoire kann ruhige Trauungsmusik, ein heller Auszug und leichte Musik für den Sektempfang verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
       "Ortsbezug bedeutet hier nicht Dekoration, sondern praktische Planung: Wo beginnt der Einzug, wie laut darf Musik sein, und wo ist der beste Platz für die Viola?",
       "Dormagen liegt zwischen Düsseldorf und Köln, und genau diese Lage prägt viele Abläufe: Gäste kommen aus mehreren Richtungen, Rheinorte wirken ruhig, und Zons oder private Gärten verlangen oft nach einer feinen, nicht zu lauten musikalischen Linie.",
-      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner."
+      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
+      "In Dormagen prüfe ich besonders Treffpunkt, Anfahrt aus zwei Richtungen und Wechsel zwischen drinnen und draußen. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+      "regionale Runden, die historische Orte und persönliche Musik verbinden. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+      "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Dormagen über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
+      "Für Dormagen plane ich Hochzeitsmusik Dormagen zuerst vom echten Ablauf her: Zons, Knechtsteden, Rheinorte, Höfe und die Lage zwischen Köln und Düsseldorf. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
+      "Die wichtigste Vorbereitung in Dormagen: Treffpunkt, Anfahrt aus zwei Richtungen und Wechsel zwischen drinnen und draußen. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+      "Typisch für Dormagen sind regionale Runden, die historische Orte und persönliche Musik verbinden. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+      "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Dormagen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+      "Der Unterschied zu Rheinland liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+      "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Dormagen passt und den Ablauf nicht künstlich aufbläht.",
+      "Wenn Hochzeitsmusik Dormagen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+      "Bei knappen Zeitfenstern in Dormagen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
     ],
     "seal": "Dormagen\nTrauung & Empfang\nLive-Viola"
   },
@@ -100,6 +111,14 @@
       {
         "question": "Was brauchst du am Hochzeitstag vor Ort?",
         "answer": "Einen sicheren Platz, etwas Ruhe zum Stimmen, klare Startsignale und eine Kontaktperson, falls sich Ablauf oder Timing spontan verschieben."
+      },
+      {
+        "question": "Welche Details sind für Hochzeitsmusik Dormagen besonders wichtig?",
+        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Dormagen plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+      },
+      {
+        "question": "Wie wird die Musik in Dormagen konkret geplant?",
+        "answer": "Hilfreich sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
       }
     ]
   },
@@ -117,7 +136,7 @@
       "alt": "Live-Viola als Hochzeitsmusik in Dormagen 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Hochzeit anfragen",
     "title": "Hochzeitsmusik in Dormagen anfragen",

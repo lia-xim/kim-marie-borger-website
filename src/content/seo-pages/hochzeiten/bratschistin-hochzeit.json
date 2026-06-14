@@ -6,7 +6,7 @@
   "targetKeyword": "Bratschistin Hochzeit",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "rewritten-batch-7-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Bratschistin Hochzeit | Live-Viola Hochzeit",
   "seoDescription": "Bratschistin Hochzeit: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
@@ -17,7 +17,7 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Suchintention",
+    "eyebrow": "Einordnung",
     "title": "Bratschistin Hochzeit braucht eine eigene musikalische Planung.",
     "lede": "Hier steht die Person und das Live-Format im Vordergrund: klare Absprachen, direkter Kontakt und Solo-Viola. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Einzug, Zeremonie, Sektempfang oder kurzer Empfang.",
     "paragraphs": [
@@ -28,7 +28,17 @@
       "Für Bratschistin Hochzeit klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
       "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
       "Wichtig ist, dass Bratschistin Hochzeit nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
-      "Der Fokus bleibt eng genug, damit Paare sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Bratschistin Hochzeit."
+      "Der Fokus bleibt eng genug, damit Paare sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Bratschistin Hochzeit.",
+      "Bei Bratschistin Hochzeit steht Person, Instrument, Auftritt, Verlässlichkeit, solistische Verantwortung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikerin Hochzeit.",
+      "Gerade bei Hochzeiten hilft eine klare Begrenzung. Diese Seite schaut auf Bratschistin, Hochzeit, damit Empfang, Dinner oder Zeremonie nicht in denselben Ton fallen.",
+      "Der Kern von Bratschistin Hochzeit ist Person, Instrument, Auftritt, Verlässlichkeit, solistische Verantwortung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Position im Raum, Repertoire, Moderation, feine Kommunikation die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+      "Die klare Abgrenzung zu Geigerin Hochzeit lautet: nicht als austauschbare Musikerin beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "Zeremonie, Empfang, Familie, Emotion, festlicher Ablauf verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf Trauort, Wege, Wunschmusik, Gästezahl, Übergang zum Empfang. Das verhindert, dass Bratschistin Hochzeit nur wie eine Variante der Hauptleistung klingt.",
+      "Auch Zeremonie, Empfang, Familie, Emotion, festlicher Ablauf ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Bratschistin, Hochzeit. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
     ],
     "seal": "Bratschistin\nHochzeit\nLive-Viola"
   },
@@ -92,6 +102,14 @@
       {
         "question": "Wie früh sollten wir anfragen?",
         "answer": "Sobald Datum und Ort feststehen, ist eine Anfrage sinnvoll. Besonders Termine in der Hochzeitssaison sind oft früh vergeben."
+      },
+      {
+        "question": "Wann passt Bratschistin Hochzeit besonders gut?",
+        "answer": "Bratschistin Hochzeit passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
       }
     ]
   },
@@ -109,7 +127,7 @@
       "alt": "Live-Viola für Bratschistin Hochzeit 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Hochzeitsmusik planen",
     "title": "Bratschistin Hochzeit anfragen",

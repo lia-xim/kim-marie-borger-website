@@ -6,7 +6,7 @@
   "targetKeyword": "Bratschenunterricht Bochum",
   "intentCluster": "unterricht:local",
   "priority": "P3",
-  "status": "rewritten-batch-6-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Bratschenunterricht Bochum | Viola lernen",
   "seoDescription": "Bratschenunterricht Bochum: Viola- und Bratschenunterricht für Kinder, Erwachsene und Anfänger:innen mit Probestunde und klarem Übeplan.",
@@ -31,7 +31,18 @@
       "Bei Wiedereinsteiger:innen geht es oft darum, alte Bewegungen vorsichtig zu prüfen und neue Sicherheit aufzubauen, ohne alles wieder mühsam von vorn zu erklären. Genau dadurch unterscheidet sich Unterricht in Bochum von einer allgemeinen Beschreibung: Wir schauen auf die Person, den Weg, den Wochenrhythmus und die musikalische Situation.",
       "Gerade bei der Bratsche lohnt es sich, langsam zu arbeiten: Ein sauberer Ton am Anfang spart später viele Korrekturen. Das macht den Unterricht konkreter und hilft, Fortschritt nicht nur im Termin selbst, sondern zwischen zwei Stunden zu erleben.",
       "Eltern bekommen konkrete Hinweise, worauf sie achten können, ohne selbst zur zweiten Lehrkraft zu werden.",
-      "Wenn du aus Bochum oder aus der Umgebung kommst, können wir in der Probestunde prüfen, welches Format passt: regelmäßiger Unterricht, ein vorbereitender Block für ein bestimmtes Ziel, Unterstützung beim Wiedereinstieg oder eine Phase, in der Technik neu sortiert wird."
+      "Wenn du aus Bochum oder aus der Umgebung kommst, können wir in der Probestunde prüfen, welches Format passt: regelmäßiger Unterricht, ein vorbereitender Block für ein bestimmtes Ziel, Unterstützung beim Wiedereinstieg oder eine Phase, in der Technik neu sortiert wird.",
+      "In Bochum prüfe ich besonders mehrere Eingänge, Licht, Ladeweg und ein klares Startsignal. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+      "ein offenes Publikum, das persönliche Ansprache und warmen Klang mag. Deshalb geht es bei Bratschenunterricht hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+      "Anders als bei einer allgemeinen Leistungsseite wird Bratschenunterricht Bochum über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
+      "Wer in Bochum anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Bermuda3Eck, Theaternähe, Industriegeschichte, Stadtteile und direkte Ruhrgebietskultur bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
+      "Die wichtigste Vorbereitung in Bochum: mehrere Eingänge, Licht, Ladeweg und ein klares Startsignal. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+      "Typisch für Bochum sind ein offenes Publikum, das persönliche Ansprache und warmen Klang mag. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+      "im Unterricht geht es um Lernrhythmus, Körpergefühl, Klang, Motivation und eine Form, die im Alltag wirklich tragfaehig ist. In Bochum übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+      "Der Unterschied zu Unna liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+      "Für die Anfrage sind Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Bochum passt und den Ablauf nicht künstlich aufbläht.",
+      "Wenn Bratschenunterricht Bochum mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+      "Bei knappen Zeitfenstern in Bochum ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
     ],
     "seal": "Bochum\nViola & Bratsche\nruhig lernen"
   },
@@ -63,6 +74,14 @@
       {
         "question": "Wie oft sollte Unterricht stattfinden?",
         "answer": "Für viele Lernende ist ein regelmäßiger Wochenrhythmus ideal. Je nach Ziel, Alter und Fahrweg rund um Bochum kann auch ein anderer Abstand sinnvoll sein, wenn der Übeplan klar bleibt."
+      },
+      {
+        "question": "Welche Details sind für Bratschenunterricht Bochum besonders wichtig?",
+        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Bochum plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+      },
+      {
+        "question": "Wie wird die Musik in Bochum konkret geplant?",
+        "answer": "Hilfreich sind Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
       }
     ]
   },
@@ -76,7 +95,7 @@
       "alt": "Bratschenunterricht und Viola lernen in Bochum 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
     "title": "Bratschenunterricht in Bochum anfragen",

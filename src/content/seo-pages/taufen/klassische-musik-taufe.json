@@ -6,7 +6,7 @@
   "targetKeyword": "Klassische Musik Taufe",
   "intentCluster": "taufen:topic",
   "priority": "P2",
-  "status": "rewritten-batch-10-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Klassische Musik Taufe | Live-Viola",
   "seoDescription": "Klassische Musik Taufe: sanfte Solo-Viola für Taufe, Segnung, Gottesdienst und Familienfeier. Persönlich und ruhig geplant.",
@@ -17,9 +17,9 @@
     "badge": "Sanfte Viola für Familie & Kirche"
   },
   "split": {
-    "eyebrow": "Suchintention",
+    "eyebrow": "Einordnung",
     "title": "Klassische Musik Taufe braucht einen eigenen Schwerpunkt.",
-    "lede": "Familien, die einen zeitlosen und kirchentauglichen Klang suchen suchen Musik für Taufgottesdienst, Kapelle, Segnung oder feierlicher Auszug. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
+    "lede": "Familien, die einen zeitlosen und kirchentauglichen Klang suchen Musik für Taufgottesdienst, Kapelle, Segnung oder feierlicher Auszug. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
     "paragraphs": [
       "Klassische Musik zur Taufe meint meist Stücke, die würdevoll wirken und trotzdem sanft bleiben.",
       "Ich wähle klassische Melodien, die auf Solo-Viola tragen und zur Länge des Gottesdienstes passen.",
@@ -37,8 +37,17 @@
       "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken.",
       "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten.",
       "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
-      "Diese Seite bleibt bewusst bei Klassische Musik Taufe. Andere Seiten im Cluster übernehmen Orte, Instrumente, Gottesdienst, Kirche, Kommunion, Konfirmation oder Familienfeier. So wird klar, welcher Suchintent hier beantwortet wird.",
-      "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln."
+      "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln.",
+      "Bei Klassische Musik Taufe steht Bach, Massenet, klare Form, ruhiger Stil, zeitlose Wirkung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Kirche Taufe.",
+      "Bei Taufen ist die Musik Teil eines Familien- und Segensmoments. Klassische Musik Taufe braucht darum eine helle, behutsame Dramaturgie, die Gottesdienst, Kind und Familie respektiert.",
+      "Der Kern von Klassische Musik Taufe ist Bach, Massenet, klare Form, ruhiger Stil, zeitlose Wirkung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Auswahl, Tonart, Akustik, konzentrierte Aufmerksamkeit die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+      "Die klare Abgrenzung zu Musik Kirche Taufe lautet: nicht beliebige Eventmusik nennen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf Dauer, Position, Lautstärke, Wunschstücke, Übergänge. Das verhindert, dass Klassische Musik Taufe nur wie eine Variante der Hauptleistung klingt.",
+      "Auch Kind, Familie, Segen, heller Anfang, Kirchenraum ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Klassische, Musik, Taufe. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
     ],
     "seal": "Klassische Musik Taufe\nTaufe\nLive-Viola"
   },
@@ -68,16 +77,20 @@
         "answer": "Ja. Auf Wunsch begleite ich auch Gratulation, Empfang, Kaffee oder die Familienfeier im Anschluss mit ruhiger Musik."
       },
       {
-        "question": "Kannst du nach der Taufe weiter spielen?",
-        "answer": "Ja. Auf Wunsch begleite ich auch Gratulation, Empfang, Kaffee oder die Familienfeier im Anschluss mit ruhiger Musik."
-      },
-      {
         "question": "Ist die Viola für Kirche und kleine Räume geeignet?",
         "answer": "Ja. Sie klingt warm und trägt gut, bleibt aber auch in kleinen Räumen oder halligen Kirchen kontrollierbar."
       },
       {
         "question": "Welche Angaben brauchst du für Klassische Musik Taufe?",
         "answer": "Datum, Ort, Uhrzeit, Art der Feier, gewünschte Momente, vorhandene Liedideen und eine Kontaktperson für Rückfragen reichen für den Anfang."
+      },
+      {
+        "question": "Wann passt Klassische Musik Taufe besonders gut?",
+        "answer": "Klassische Musik Taufe passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
       }
     ]
   },
@@ -95,7 +108,7 @@
       "alt": "Kim Marie Borger spielt Live-Viola für Klassische Musik Taufe"
     }
   ],
-  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Taufe planen",
     "title": "Klassische Musik Taufe anfragen",
@@ -131,14 +144,8 @@
         "kicker": "Repertoire",
         "title": "Wunschlied oder klassischer Rahmen",
         "text": "Ich wähle klassische Melodien, die auf Solo-Viola tragen und zur Länge des Gottesdienstes passen. Die Auswahl bleibt kindgerecht, warm und nicht zu groß."
-      },
-      {
-        "time": "IV.",
-        "kicker": "Abgrenzung",
-        "title": "Eigener Platz im Taufcluster",
-        "text": "Diese Seite unterscheidet sich von moderner Musik, weil sie Repertoire, Würde und kirchliche Anschlussfähigkeit behandelt. Dadurch reduziert die Seite Kannibalisierung mit verwandten Taufseiten."
       }
     ],
-    "footnote": "Klassische Musik Taufe wird im CMS als eigene Seite geführt, weil der Suchbegriff andere Fragen stellt als allgemeine Taufmusik."
+    "footnote": "Klassische Musik Taufe wird passend zu Anlass, Raum, Familie und Ablauf geplant."
   }
 }

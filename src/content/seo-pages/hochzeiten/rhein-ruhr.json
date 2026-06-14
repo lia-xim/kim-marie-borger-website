@@ -6,7 +6,7 @@
   "targetKeyword": "Hochzeitsmusik Rhein-Ruhr",
   "intentCluster": "hochzeiten:local",
   "priority": "P3",
-  "status": "rewritten-batch-7-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Hochzeitsmusik Rhein-Ruhr | Live-Viola",
   "seoDescription": "Hochzeitsmusik Rhein-Ruhr: Solo-Viola für Trauung, Einzug, Auszug, Empfang und Dinner. Persönlich geplant.",
@@ -29,7 +29,18 @@
       "Das Repertoire kann ein Wunschlied, ein festlicher Auszug und dezente Empfangsmusik verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
       "Für Hochzeiten in dieser Region denke ich neben der Stückliste immer auch an Wege, Wetter und die Frage, wie nah die Musik an euch stehen soll.",
       "Rhein-Ruhr bedeutet dichte Wege, mehrere Städte und oft Gäste aus verschiedenen Richtungen. Für die Musik plane ich deshalb mit realistischen Puffern und einer klaren Dramaturgie, damit der Tag trotz Verkehr ruhig beginnt.",
-      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner."
+      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
+      "In Rhein-Ruhr prüfe ich besonders Entfernungen, Verkehrsfenster, Puffer und Abstimmung mit mehreren Beteiligten. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+      "gemischte Gäste aus Stadt, Unternehmen, Familie und Kultur. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+      "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Rhein-Ruhr über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
+      "Für Rhein-Ruhr plane ich Hochzeitsmusik Rhein-Ruhr zuerst vom echten Ablauf her: Rheinland, Ruhrgebiet, Messeorte, Hotels und sehr unterschiedliche Eventräume. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
+      "Die wichtigste Vorbereitung in Rhein-Ruhr: Entfernungen, Verkehrsfenster, Puffer und Abstimmung mit mehreren Beteiligten. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+      "Typisch für Rhein-Ruhr sind gemischte Gäste aus Stadt, Unternehmen, Familie und Kultur. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+      "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Rhein-Ruhr übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+      "Der Unterschied zu Mülheim An Der Ruhr liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+      "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Rhein-Ruhr passt und den Ablauf nicht künstlich aufbläht.",
+      "Wenn Hochzeitsmusik Rhein-Ruhr mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+      "Bei knappen Zeitfenstern in Rhein-Ruhr ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
     ],
     "seal": "Rhein-Ruhr\nTrauung & Empfang\nLive-Viola"
   },
@@ -100,6 +111,14 @@
       {
         "question": "Was brauchst du am Hochzeitstag vor Ort?",
         "answer": "Einen sicheren Platz, etwas Ruhe zum Stimmen, klare Startsignale und eine Kontaktperson, falls sich Ablauf oder Timing spontan verschieben."
+      },
+      {
+        "question": "Welche Details sind für Hochzeitsmusik Rhein-Ruhr besonders wichtig?",
+        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Rhein-Ruhr plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+      },
+      {
+        "question": "Wie wird die Musik in Rhein-Ruhr konkret geplant?",
+        "answer": "Hilfreich sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
       }
     ]
   },
@@ -117,7 +136,7 @@
       "alt": "Live-Viola als Hochzeitsmusik in der Rhein-Ruhr-Region 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Hochzeit anfragen",
     "title": "Hochzeitsmusik in der Rhein-Ruhr-Region anfragen",

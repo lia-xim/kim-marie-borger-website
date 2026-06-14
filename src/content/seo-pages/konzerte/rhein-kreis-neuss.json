@@ -6,7 +6,7 @@
   "targetKeyword": "Viola Konzert Rhein-Kreis Neuss",
   "intentCluster": "konzerte:local",
   "priority": "P3",
-  "status": "rewritten-batch-11-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Viola Konzert Rhein-Kreis Neuss | Kultur & Event",
   "seoDescription": "Viola Konzert Rhein-Kreis Neuss: Solo-Viola für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
@@ -37,8 +37,18 @@
       "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block.",
       "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
       "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
-      "Diese Seite fokussiert bewusst Viola Konzert Rhein-Kreis Neuss. Andere Seiten im Cluster behandeln Vernissage, Lesung, Salonkonzert, Live-Musik-Event oder Instrumentenfragen; hier geht es um den konkreten lokalen Konzertintent.",
-      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt."
+      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
+      "In Rhein-Kreis Neuss prüfe ich besonders mehrere Stadtgrenzen, Fahrzeit und exakte Adresse. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+      "regionale Gäste, die verbindende Musik zwischen Stadt und Rhein suchen. Deshalb geht es bei Viola-Konzert hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+      "Anders als bei einer allgemeinen Leistungsseite wird Viola Konzert Rhein-Kreis Neuss über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
+      "Wer in Rhein-Kreis Neuss anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Neuss, Dormagen, Meerbusch, Grevenbroich, Rheinorte und Düsseldorfer Nähe bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
+      "Die wichtigste Vorbereitung in Rhein-Kreis Neuss: mehrere Stadtgrenzen, Fahrzeit und exakte Adresse. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+      "Typisch für Rhein-Kreis Neuss sind regionale Gäste, die verbindende Musik zwischen Stadt und Rhein suchen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+      "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Rhein-Kreis Neuss übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+      "Der Unterschied zu Neuss liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+      "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Rhein-Kreis Neuss passt und den Ablauf nicht künstlich aufbläht.",
+      "Wenn Viola Konzert Rhein-Kreis Neuss mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+      "Bei knappen Zeitfenstern in Rhein-Kreis Neuss ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
     ],
     "seal": "Rhein-Kreis Neuss\nKonzert\nViola"
   },
@@ -78,6 +88,14 @@
       {
         "question": "Welche Angaben helfen für eine Anfrage im Rhein-Kreis Neuss?",
         "answer": "Hilfreich sind Datum, Ort, Anlass, gewünschte Länge, Raumgröße, Publikum, Ablauf, Lichtsituation und ob Moderation gewünscht ist."
+      },
+      {
+        "question": "Welche Details sind für Viola Konzert Rhein-Kreis Neuss besonders wichtig?",
+        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Rhein-Kreis Neuss plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+      },
+      {
+        "question": "Wie wird die Musik in Rhein-Kreis Neuss konkret geplant?",
+        "answer": "Hilfreich sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
       }
     ]
   },
@@ -87,7 +105,7 @@
       "alt": "Viola Konzert im Rhein-Kreis Neuss mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Konzert anfragen",
     "title": "Viola Konzert Rhein-Kreis Neuss anfragen",

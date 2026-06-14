@@ -6,7 +6,7 @@
   "targetKeyword": "Klassische Musik Event",
   "intentCluster": "konzerte:topic",
   "priority": "P2",
-  "status": "rewritten-batch-11-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Klassische Musik Event | Solo-Viola",
   "seoDescription": "Klassische Musik Event: kuratiertes Solo-Viola-Programm für Konzert, Kulturabend, Vernissage, Lesung oder Event.",
@@ -17,13 +17,12 @@
     "badge": "Kuratierte Programme mit Viola"
   },
   "split": {
-    "eyebrow": "Suchintention",
+    "eyebrow": "Einordnung",
     "title": "Klassische Musik Event braucht eine eigene dramaturgische Aufgabe.",
-    "lede": "Unternehmen, Kulturorte und private Gastgeber, die einen hochwertigen klassischen Akzent suchen suchen Musik für Empfang, Gala, Vernissage, Dinner, Kulturabend oder offizieller Programmpunkt. Deshalb bekommt dieser Begriff eine eigene Seite im Konzertcluster.",
+    "lede": "Klassische Musik Event wird hier praktisch eingeordnet: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
     "paragraphs": [
       "Der Intent liegt zwischen Event und Konzert: Klassik soll Atmosphäre und Wertigkeit geben, ohne den Anlass zu dominieren.",
       "Ich wähle klassische Stücke, die auch in kurzen Sets tragen und zum Raum passen.",
-      "Diese Seite grenzt sich von Live-Musik-Event ab, weil sie bewusst klassische Klangsprache und Repertoire behandelt.",
       "Wichtig sind Anlass, Gästeprofil, Gesprächsanteil, Setdauer und ob Musik Hintergrund oder Programmpunkt sein soll.",
       "Solo-Viola kann klassische Musik elegant und platzsparend in Events bringen.",
       "Ein klassisches Set kann Bach, Massenet, Elgar und eine ruhige Zugabe verbinden.",
@@ -37,7 +36,17 @@
       "Bei längeren Programmen plane ich Kontraste: warme Linie, rhythmischer Impuls, Stille, ein bekanntes Stück und ein überraschender Schluss.",
       "Diese Seite bleibt bewusst bei Klassische Musik Event. Ortsseiten beantworten lokale Fragen, andere Topic-Seiten behandeln Vernissage, Lesung, Salon, Live-Musik-Event oder Bratsche als Instrument.",
       "Für eine Anfrage reichen Datum, Ort, Publikum, Anlass, gewünschte Länge und die Frage, ob Musik im Mittelpunkt steht oder einen anderen Inhalt rahmt.",
-      "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt."
+      "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt.",
+      "Bei Klassische Musik Event steht Bach, Massenet, klare Form, ruhiger Stil, zeitlose Wirkung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Live Musik Event.",
+      "Kulturabende, Lesungen und Salonformate leben von Pausen. Diese Seite betrachtet Klassische, Musik, Event als kuratierten Moment, nicht als dekorative Hintergrundspur.",
+      "Der Kern von Klassische Musik Event ist Bach, Massenet, klare Form, ruhiger Stil, zeitlose Wirkung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Auswahl, Tonart, Akustik, konzentrierte Aufmerksamkeit die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, kammermusikalisch, moderiert, begleitend oder konzentriert wirken soll.",
+      "Die klare Abgrenzung zu Live Musik Event lautet: nicht beliebige Eventmusik nennen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf Dauer, Position, Lautstärke, Wunschstücke, Übergänge. Das verhindert, dass Klassische Musik Event nur wie eine Variante der Hauptleistung klingt.",
+      "Auch Ablauf, Gästefluss, Markenbild, Raumenergie, flexible Rollen ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Klassische, Musik, Event. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
     ],
     "seal": "Klassische Musik Event\nKultur\nViola"
   },
@@ -49,10 +58,6 @@
         "question": "Für wen passt Klassische Musik Event?",
         "answer": "Klassische Musik Event passt für Unternehmen, Kulturorte und private Gastgeber, die einen hochwertigen klassischen Akzent suchen. Entscheidend ist, ob Musik zuhören lässt, rahmt oder einen Übergang gestaltet.",
         "open": true
-      },
-      {
-        "question": "Was unterscheidet diese Seite von allgemeiner Eventmusik?",
-        "answer": "Diese Seite grenzt sich von Live-Musik-Event ab, weil sie bewusst klassische Klangsprache und Repertoire behandelt."
       },
       {
         "question": "Kannst du Stücke anmoderieren?",
@@ -77,6 +82,14 @@
       {
         "question": "Welche Angaben brauchst du für Klassische Musik Event?",
         "answer": "Datum, Ort, Raum, Publikum, gewünschte Dauer, Anlass, Ablauf und vorhandene Wunschstücke reichen für eine erste Einschätzung."
+      },
+      {
+        "question": "Wann passt Klassische Musik Event besonders gut?",
+        "answer": "Klassische Musik Event passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
       }
     ]
   },
@@ -86,7 +99,7 @@
       "alt": "Live-Viola für Klassische Musik Event mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Programm anfragen",
     "title": "Klassische Musik Event anfragen",

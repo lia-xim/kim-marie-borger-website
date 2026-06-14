@@ -6,22 +6,21 @@
   "targetKeyword": "Viola Konzert",
   "intentCluster": "konzerte:topic",
   "priority": "P2",
-  "status": "rewritten-batch-11-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Viola Konzert | Solo-Viola",
   "seoDescription": "Viola Konzert: kuratiertes Solo-Viola-Programm für Konzert, Kulturabend, Vernissage, Lesung oder Event.",
   "hero": {
     "eyebrow": "Konzert & Kultur",
     "title": "Viola Konzert mit persönlicher Dramaturgie.",
-    "lead": "Viola Konzert ist der zentrale Instrumentenbegriff im Konzertcluster. Ich plane Solo-Viola so, dass Programm, Raum, Publikum und Anlass zusammenpassen.",
+    "lead": "Viola Konzert ist der zentrale Instrumentenbegriff im Konzertbereich. Ich plane Solo-Viola so, dass Programm, Raum, Publikum und Anlass zusammenpassen.",
     "badge": "Kuratierte Programme mit Viola"
   },
   "split": {
-    "eyebrow": "Suchintention",
+    "eyebrow": "Einordnung",
     "title": "Viola Konzert braucht eine eigene dramaturgische Aufgabe.",
-    "lede": "Veranstalter, Kulturorte und Gastgeber, die die Viola bewusst als Soloinstrument erleben möchten suchen Musik für Kammerkonzert, Salon, Vernissage, Lesung, Kulturabend oder privater Konzertabend. Deshalb bekommt dieser Begriff eine eigene Seite im Konzertcluster.",
+    "lede": "Viola Konzert wird hier praktisch eingeordnet: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
     "paragraphs": [
-      "Viola Konzert ist der zentrale Instrumentenbegriff im Konzertcluster.",
       "Ich stelle Programme zusammen, die die warme Mittellage der Viola zeigen und dem Publikum Zugang geben.",
       "Diese Seite ist die Haupt-Topicseite für das Instrument und grenzt sich von Bratsche, Bratschenkonzert und Eventmusik ab.",
       "Wichtig sind Programmlänge, Raum, Publikum, Moderation und die Balance zwischen bekannten Stücken und Entdeckungen.",
@@ -37,7 +36,17 @@
       "Bei längeren Programmen plane ich Kontraste: warme Linie, rhythmischer Impuls, Stille, ein bekanntes Stück und ein überraschender Schluss.",
       "Diese Seite bleibt bewusst bei Viola Konzert. Ortsseiten beantworten lokale Fragen, andere Topic-Seiten behandeln Vernissage, Lesung, Salon, Live-Musik-Event oder Bratsche als Instrument.",
       "Für eine Anfrage reichen Datum, Ort, Publikum, Anlass, gewünschte Länge und die Frage, ob Musik im Mittelpunkt steht oder einen anderen Inhalt rahmt.",
-      "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt."
+      "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt.",
+      "Bei Viola Konzert steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Bratschenkonzert.",
+      "Kulturabende, Lesungen und Salonformate leben von Pausen. Diese Seite betrachtet Viola, Konzert als kuratierten Moment, nicht als dekorative Hintergrundspur.",
+      "Der Kern von Viola Konzert ist warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Bogen, Resonanz, Arrangement, Raumklang die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, kammermusikalisch, moderiert, begleitend oder konzentriert wirken soll.",
+      "Die klare Abgrenzung zu Bratschenkonzert lautet: nicht wie Geige oder Cello beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "Zuhören, Bogen, Programm, Stille, Schlusswirkung verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf Dauer, Moderation, Sitzordnung, Raumakustik. Das verhindert, dass Viola Konzert nur wie eine Variante der Hauptleistung klingt.",
+      "Auch Zuhören, Bogen, Programm, Stille, Schlusswirkung ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Viola, Konzert. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
     ],
     "seal": "Viola Konzert\nKultur\nViola"
   },
@@ -77,6 +86,14 @@
       {
         "question": "Welche Angaben brauchst du für Viola Konzert?",
         "answer": "Datum, Ort, Raum, Publikum, gewünschte Dauer, Anlass, Ablauf und vorhandene Wunschstücke reichen für eine erste Einschätzung."
+      },
+      {
+        "question": "Wann passt Viola Konzert besonders gut?",
+        "answer": "Viola Konzert passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
       }
     ]
   },
@@ -86,7 +103,7 @@
       "alt": "Live-Viola für Viola Konzert mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Programm anfragen",
     "title": "Viola Konzert anfragen",

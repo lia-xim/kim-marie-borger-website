@@ -6,7 +6,7 @@
   "targetKeyword": "Viola Konzert Rhein-Ruhr",
   "intentCluster": "konzerte:local",
   "priority": "P3",
-  "status": "rewritten-batch-11-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Viola Konzert Rhein-Ruhr | Kultur & Event",
   "seoDescription": "Viola Konzert Rhein-Ruhr: Solo-Viola für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
@@ -37,8 +37,18 @@
       "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block.",
       "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
       "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
-      "Diese Seite fokussiert bewusst Viola Konzert Rhein-Ruhr. Andere Seiten im Cluster behandeln Vernissage, Lesung, Salonkonzert, Live-Musik-Event oder Instrumentenfragen; hier geht es um den konkreten lokalen Konzertintent.",
-      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt."
+      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
+      "In Rhein-Ruhr prüfe ich besonders Entfernungen, Verkehrsfenster, Puffer und Abstimmung mit mehreren Beteiligten. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+      "gemischte Gäste aus Stadt, Unternehmen, Familie und Kultur. Deshalb geht es bei Viola-Konzert hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+      "Anders als bei einer allgemeinen Leistungsseite wird Viola Konzert Rhein-Ruhr über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
+      "Für Rhein-Ruhr plane ich Viola Konzert Rhein-Ruhr zuerst vom echten Ablauf her: Rheinland, Ruhrgebiet, Messeorte, Hotels und sehr unterschiedliche Eventräume. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
+      "Die wichtigste Vorbereitung in Rhein-Ruhr: Entfernungen, Verkehrsfenster, Puffer und Abstimmung mit mehreren Beteiligten. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+      "Typisch für Rhein-Ruhr sind gemischte Gäste aus Stadt, Unternehmen, Familie und Kultur. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+      "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Rhein-Ruhr übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+      "Der Unterschied zu Mülheim An Der Ruhr liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+      "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Rhein-Ruhr passt und den Ablauf nicht künstlich aufbläht.",
+      "Wenn Viola Konzert Rhein-Ruhr mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+      "Bei knappen Zeitfenstern in Rhein-Ruhr ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
     ],
     "seal": "Rhein-Ruhr\nKonzert\nViola"
   },
@@ -78,6 +88,14 @@
       {
         "question": "Welche Angaben helfen für eine Anfrage in der Rhein-Ruhr-Region?",
         "answer": "Hilfreich sind Datum, Ort, Anlass, gewünschte Länge, Raumgröße, Publikum, Ablauf, Lichtsituation und ob Moderation gewünscht ist."
+      },
+      {
+        "question": "Welche Details sind für Viola Konzert Rhein-Ruhr besonders wichtig?",
+        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Rhein-Ruhr plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+      },
+      {
+        "question": "Wie wird die Musik in Rhein-Ruhr konkret geplant?",
+        "answer": "Hilfreich sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
       }
     ]
   },
@@ -87,7 +105,7 @@
       "alt": "Viola Konzert in der Rhein-Ruhr-Region mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Konzert anfragen",
     "title": "Viola Konzert Rhein-Ruhr anfragen",

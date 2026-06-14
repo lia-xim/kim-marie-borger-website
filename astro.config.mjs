@@ -10,10 +10,10 @@ import vercel from '@astrojs/vercel';
 export default defineConfig({
 	// SITE_URL gewinnt; sonst die Produktions-Domain des Vercel-Projekts (passt
 	// sich automatisch an, wenn eine eigene Domain verbunden wird), dann die
-	// Deployment-URL (Previews), dann localhost (lokale Builds).
+	// Deployment-URL (Previews), dann die echte Domain fuer lokale SEO-Audits.
 	site: process.env.SITE_URL
 		|| (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : '')
-		|| (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:4321'),
+		|| (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://kim-marie-borger.com'),
 	trailingSlash: 'always',
 	output: 'static',
 	adapter: vercel({

@@ -6,7 +6,7 @@
   "targetKeyword": "Musik am Grab",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "rewritten-batch-8-review-needed",
+  "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
   "seoTitle": "Musik am Grab | Live-Viola für Abschied",
   "seoDescription": "Musik am Grab: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
@@ -50,16 +50,20 @@
         "answer": "Dann ordnen wir zuerst den Moment ein. Danach kann ich Stücke vorschlagen, die zu Raum, Person und gewünschter Zurückhaltung passen."
       },
       {
-        "question": "Warum gibt es dazu eine eigene Seite?",
-        "answer": "Musik am Grab hat einen eigenen Suchintent. Diese Seite beantwortet deshalb nicht nur allgemein, welche Trauermusik möglich ist, sondern ordnet genau diesen Begriff nach Ablauf, Klang, Wunschmusik, Abgrenzung zu ähnlichen Seiten und konkreter Anfrage ein."
-      },
-      {
         "question": "Welche Informationen helfen für die erste Einschätzung?",
         "answer": "Für Musik am Grab helfen Datum, Ort, Uhrzeit, gewünschter Moment im Ablauf, vorhandene Wunschstücke und die Frage, ob die Musik in der Trauerfeier, draußen am Grab oder an beiden Stellen geplant ist."
       },
       {
         "question": "Wie kurzfristig können wir anfragen?",
         "answer": "Oft auch kurzfristig. Wichtig sind Datum, Ort, Uhrzeit, grober Ablauf und die gewünschte Musik, damit ich schnell prüfen kann, ob der Termin möglich ist."
+      },
+      {
+        "question": "Wann passt Musik am Grab besonders gut?",
+        "answer": "Musik am Grab passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
       }
     ]
   },
@@ -73,7 +77,7 @@
       "alt": "Live-Viola für Musik am Grab 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
   "contact": {
     "eyebrow": "Trauermusik planen",
     "title": "Musik am Grab anfragen",
@@ -88,31 +92,37 @@
     "formSuccess": "Danke - ich melde mich mit einer Idee für Musik am Grab."
   },
   "split": {
-    "eyebrow": "Suchintention",
+    "eyebrow": "Einordnung",
     "title": "Musik am Grab braucht eine eigene musikalische Planung.",
-    "lede": "Der Suchintent ist sehr praktisch: Draußen am Grab gelten andere Bedingungen als in einer Trauerhalle. Gesucht wird keine austauschbare Hintergrundmusik, sondern eine Lösung für Friedhof, Grabstelle, Urnengrab oder kurzer Weg im Freien.",
+    "lede": "Musik am Grab wird hier praktisch eingeordnet: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
     "paragraphs": [
       "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
       "Ein kurzes Stück, ein einzelner Vers oder ein ruhiger Abschluss kann stärker wirken als ein langer Vortrag.",
-      "Diese Seite grenzt sich von Musik Beerdigung ab, weil nur der Außenmoment am Grab im Mittelpunkt steht.",
       "Wenn ein Wunschlied geplant ist, prüfe ich Melodie, Tonart und Wirkung für Solo-Viola. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
       "Organisatorisch wichtig sind Ankunft, Raumzugang, Kontaktperson, Einsatzpunkt und die Frage, ob draußen gespielt werden soll.",
       "Besonders wichtig ist der Abstand zwischen Musik und Sprache. Ein Stück darf Worte nachklingen lassen, sollte sie aber nicht kommentieren oder ersetzen.",
-      "Andere Trauerseiten können breiter planen; diese Seite bleibt enger an Instrument, Lied, Ablauf oder Buchungsabsicht.",
       "Bei einer freien Trauerfeier lässt sich Musik oft flexibler setzen, sollte aber trotzdem nicht jede Pause füllen.",
       "Die Viola klingt tiefer und dunkler als eine Geige. Dadurch wirkt sie in Trauerräumen oft weniger hell und weniger exponiert, bleibt aber klar melodisch.",
       "Der praktische Ablauf entscheidet viel: Ein Stück vor der ersten Rede braucht eine andere Ruhe als ein musikalischer Gruß am Grab oder ein kurzer Moment nach dem Kerzenritual.",
       "Wenn ein Stück mit einer konkreten Erinnerung verbunden ist, behandle ich es anders als neutrale Hintergrundmusik. Dann ist die Platzierung im Ablauf besonders wichtig.",
       "Wenn Unsicherheit bei der Liedwahl besteht, kann ich zwei bis drei Richtungen vorschlagen: klassisch, modern reduziert oder sehr schlicht. Daraus entsteht meist schnell ein passender Rahmen.",
-      "Diese Seite bleibt eng bei Musik am Grab. Lokale Seiten beantworten Ortsfragen, Repertoireseiten ordnen mehrere Stücke, und diese Seite behandelt den konkreten Suchbegriff mit eigener FAQ, eigener Kontaktfrage und eigener musikalischer Aufgabe.",
       "Wenn der Termin kurzfristig ist, helfen klare Angaben mehr als lange Erklärungen. Ich prüfe Verfügbarkeit, musikalische Machbarkeit und die Abstimmung mit den beteiligten Personen so zügig wie möglich.",
       "Für Musik am Grab ist ein gutes Ergebnis nicht möglichst viel Musik. Passender ist ein Moment, der den Abschied trägt, ohne ihn zu verlängern oder die Aufmerksamkeit von der verstorbenen Person wegzunehmen.",
       "Für Friedhof, Grabstelle, Urnengrab oder kurzer Weg im Freien ist die Frage nach Verstärkung meist zweitrangig. Wichtiger ist, ob die Viola nahe genug am Geschehen steht und ob das Ende des Stücks ohne Hektik ausklingen kann.",
-      "So unterscheidet sich Musik am Grab auch redaktionell von ähnlichen Seiten: Es geht nicht nur um Trauermusik im Allgemeinen, sondern um die konkrete Erwartung, die jemand mit genau diesem Suchbegriff verbindet.",
       "Wenn ein Wunschlied emotional sehr aufgeladen ist, bespreche ich behutsam, ob es vollständig, gekürzt oder an einer anderen Stelle besser funktioniert. Manchmal schützt eine kurze Fassung den Moment.",
       "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
       "Wichtig ist, dass Musik am Grab nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
-      "Der Fokus bleibt eng genug, damit Angehörige sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Lieder; hier geht es genau um Musik am Grab."
+      "Der Fokus bleibt eng genug, damit Angehörige sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Lieder; hier geht es genau um Musik am Grab.",
+      "Bei Musik am Grab steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Abschied.",
+      "Der Kern von Musik am Grab ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+      "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll.",
+      "Die klare Abgrenzung zu Musik Abschied lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+      "musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+      "Bei der Abstimmung schaue ich besonders auf Dauer, Position, Lautstärke, Wunschstücke, Übergänge. Das verhindert, dass Musik am Grab nur wie eine Variante der Hauptleistung klingt.",
+      "Auch musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+      "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+      "Redaktionell bleibt diese Seite eng bei Musik, Am, Grab. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+      "Trauermusik braucht eine andere Sprache als Eventmusik. Diese Seite behandelt Musik, Am, Grab mit Blick auf Würde, Tempo, Ansprechpersonen und die Belastung der Angehoerigen."
     ],
     "seal": "Grab\nAbschied\nLive-Viola"
   },
@@ -120,16 +130,8 @@
     "quote": "Musik am Grab soll dem Abschied Raum geben, ohne Worte zu ersetzen.",
     "passages": [
       {
-        "strong": "Der Suchintent",
-        "text": "Der Suchintent ist sehr praktisch: Draußen am Grab gelten andere Bedingungen als in einer Trauerhalle."
-      },
-      {
         "strong": "Musikalische Aufgabe",
         "text": "Ein kurzes Stück, ein einzelner Vers oder ein ruhiger Abschluss kann stärker wirken als ein langer Vortrag."
-      },
-      {
-        "strong": "Abgrenzung",
-        "text": "Diese Seite grenzt sich von Musik Beerdigung ab, weil nur der Außenmoment am Grab im Mittelpunkt steht."
       },
       {
         "strong": "Ablauf",
@@ -142,10 +144,6 @@
       {
         "strong": "Wunschmusik",
         "text": "Wenn ein Stück mit einer konkreten Erinnerung verbunden ist, behandle ich es anders als neutrale Hintergrundmusik. Dann ist die Platzierung im Ablauf besonders wichtig. Wenn ein Wunschlied emotional sehr aufgeladen ist, bespreche ich behutsam, ob es vollständig, gekürzt oder an einer anderen Stelle besser funktioniert. Manchmal schützt eine kurze Fassung den Moment."
-      },
-      {
-        "strong": "SEO-Abgrenzung",
-        "text": "Diese Seite bleibt eng bei Musik am Grab. Lokale Seiten beantworten Ortsfragen, Repertoireseiten ordnen mehrere Stücke, und diese Seite behandelt den konkreten Suchbegriff mit eigener FAQ, eigener Kontaktfrage und eigener musikalischer Aufgabe. So unterscheidet sich Musik am Grab auch redaktionell von ähnlichen Seiten: Es geht nicht nur um Trauermusik im Allgemeinen, sondern um die konkrete Erwartung, die jemand mit genau diesem Suchbegriff verbindet."
       },
       {
         "strong": "Anfrage",
