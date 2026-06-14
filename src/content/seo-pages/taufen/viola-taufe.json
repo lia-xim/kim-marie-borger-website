@@ -6,69 +6,139 @@
   "targetKeyword": "Viola Taufe",
   "intentCluster": "taufen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-10-review-needed",
   "enabled": true,
-  "seoTitle": "Viola Taufe | Taufmusik mit Live-Viola",
-  "seoDescription": "Viola Taufe: Sanfte Live-Viola für Taufe, Segnung und Familienfeier. Mit Kirche und Ablauf passend abgestimmt.",
+  "seoTitle": "Viola Taufe | Live-Viola",
+  "seoDescription": "Viola Taufe: sanfte Solo-Viola für Taufe, Segnung, Gottesdienst und Familienfeier. Persönlich und ruhig geplant.",
   "hero": {
-    "title": "Viola Taufe, persönlich geplant und live begleitet.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung und familiäre Gottesdienste. Diese Seite bündelt den Suchintent \"Viola Taufe\" für sanften Solo-Klang zur Taufe."
+    "eyebrow": "Taufmusik",
+    "title": "Viola zur Taufe mit warmem, ruhigem Klang.",
+    "lead": "Viola Taufe ist ein klarer Instrumentenintent und soll zeigen, warum dieses Instrument passt. Ich plane Solo-Viola so, dass Musik, Worte, Raum und Familie zusammenpassen.",
+    "badge": "Sanfte Viola für Familie & Kirche"
   },
   "split": {
-    "eyebrow": "Kirchliche Feier",
-    "title": "Taufmusik soll wärmen, nicht überfordern.",
-    "lede": "Bei Taufe, Segnung, Kommunion oder Konfirmation ist Musik Teil eines ruhigen, familiären Rahmens. Für viola taufe zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Viola Taufe braucht einen eigenen Schwerpunkt.",
+    "lede": "Familien, die bewusst die Viola für Taufe oder Segnung suchen suchen Musik für Kirche, Kapelle, Gemeindesaal, Garten oder private Familienfeier. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
     "paragraphs": [
-      "Viola Taufe wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für die kirchliche Feier.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Familie und Gemeinde für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
-    ]
+      "Viola Taufe ist ein klarer Instrumentenintent und soll zeigen, warum dieses Instrument passt.",
+      "Ich nutze die warme Mittellage der Viola für Einzug, Segnung, Wunschlied oder Auszug.",
+      "Diese Seite unterscheidet sich von Geige Taufe und Bratsche Taufe durch die klare Bezeichnung des Instruments.",
+      "Wir klären Raum, Ablauf, Wunschstücke und ob die Musik solistisch oder ergänzend wirken soll.",
+      "Die Viola klingt weich und trägt emotional, ohne sehr hell oder dominant zu werden.",
+      "Bei Viola Taufe geht es zuerst um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
+      "Ein persönliches Familienlied kann anstelle einer langen Stückliste den ganzen Tag zusammenhalten.",
+      "Wenn mehrere Kinder getauft werden, plane ich die Musik so, dass der Gottesdienst nicht unnötig länger wird.",
+      "Danach geht es um die konkreten Einsatzpunkte, damit Musik nicht zufällig beginnt, sondern dem Ablauf wirklich Halt gibt.",
+      "Die Auswahl der Stücke entsteht aus Raum, Familiengefühl und gewünschter Stimmung, nicht aus einer pauschalen Taufmusik-Liste.",
+      "Wenn eine Pfarrperson, Rednerin oder Kirchenmusikerin beteiligt ist, können die musikalischen Stellen vorab ruhig abgestimmt werden.",
+      "Ich wähle Stücke danach aus, ob sie auf der Viola wirklich funktionieren. Nicht jedes bekannte Lied behält ohne Text dieselbe Wirkung, und nicht jeder Klassiker passt automatisch zu Kind, Raum und Familie.",
+      "Die Länge ist ebenfalls wichtig. Ein kurzer musikalischer Ausschnitt kann stärker sein als eine vollständige Version, wenn er genau an der richtigen Stelle steht.",
+      "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken.",
+      "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten.",
+      "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
+      "Diese Seite bleibt bewusst bei Viola Taufe. Andere Seiten im Cluster übernehmen Orte, Instrumente, Gottesdienst, Kirche, Kommunion, Konfirmation oder Familienfeier. So wird klar, welcher Suchintent hier beantwortet wird.",
+      "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln."
+    ],
+    "seal": "Viola Taufe\nTaufe\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Viola Taufe.",
+    "title": "FAQ zu Viola Taufe",
     "items": [
       {
-        "question": "Passt Viola Taufe zu die kirchliche Feier?",
-        "answer": "Ja. Viola Taufe wird gezielt auf die kirchliche Feier, den Raum und den Ablauf abgestimmt. für eine sanfte kirchliche oder familiäre Feier.",
+        "question": "Für wen passt Viola Taufe?",
+        "answer": "Viola Taufe passt für Familien, die bewusst die Viola für Taufe oder Segnung suchen. Entscheidend ist, dass die Musik zum Raum, zur Familie und zum Ablauf passt.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Was unterscheidet diese Seite von allgemeiner Taufmusik?",
+        "answer": "Diese Seite unterscheidet sich von Geige Taufe und Bratsche Taufe durch die klare Bezeichnung des Instruments."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Viola Taufe am Tag selbst ruhig funktioniert."
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist und zum Rahmen passt. Ich prüfe Tonart, Länge und Wirkung vorab."
+      },
+      {
+        "question": "Wie wird die Musik im Ablauf platziert?",
+        "answer": "Wir klären Raum, Ablauf, Wunschstücke und ob die Musik solistisch oder ergänzend wirken soll. Meist sind wenige klare Einsätze stärker als durchgehende Musik."
+      },
+      {
+        "question": "Wie viele Stücke sind sinnvoll?",
+        "answer": "Meist reichen zwei bis vier musikalische Momente. Dadurch bleibt die Taufe leicht und jeder Einsatz hat eine klare Aufgabe."
+      },
+      {
+        "question": "Wie viele Stücke sind sinnvoll?",
+        "answer": "Meist reichen zwei bis vier musikalische Momente. Dadurch bleibt die Taufe leicht und jeder Einsatz hat eine klare Aufgabe."
+      },
+      {
+        "question": "Ist die Viola für Kirche und kleine Räume geeignet?",
+        "answer": "Ja. Sie klingt warm und trägt gut, bleibt aber auch in kleinen Räumen oder halligen Kirchen kontrollierbar."
+      },
+      {
+        "question": "Welche Angaben brauchst du für Viola Taufe?",
+        "answer": "Datum, Ort, Uhrzeit, Art der Feier, gewünschte Momente, vorhandene Liedideen und eine Kontaktperson für Rückfragen reichen für den Anfang."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Live-Viola für Viola Taufe mit sanfter Live-Viola"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Live-Viola für Viola Taufe im ruhigen Tauf- und Familienrahmen"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Live-Viola für Viola Taufe"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Taufe planen",
     "title": "Viola Taufe anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Viola Taufe.",
+    "lead": "Schick mir Datum, Ort, Art der Feier und eure ersten Liedideen für Viola Taufe. Ich melde mich mit einem ruhigen musikalischen Vorschlag.",
     "checklist": [
       "Viola Taufe",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Kirche, Kapelle, Gemeindesaal, Garten oder private Familienfeier",
+      "Wunschlieder & Ablauf"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Viola Taufe zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Viola Taufe zu eurer Feier?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Viola Taufe."
+  },
+  "focus": {
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Viola Taufe ankommt.",
+    "lead": "Die Musik wird nicht als Programmpunkt gedacht, sondern als ruhiger Faden durch Taufe, Segnung oder Familienmoment.",
+    "items": [
+      {
+        "time": "I.",
+        "kicker": "Intent",
+        "title": "Die Aufgabe der Musik klären",
+        "text": "Viola Taufe ist ein klarer Instrumentenintent und soll zeigen, warum dieses Instrument passt. Daraus ergibt sich, ob ein einzelnes Stück, mehrere Einsätze oder ein kurzer Rahmen sinnvoll ist."
+      },
+      {
+        "time": "II.",
+        "kicker": "Raum",
+        "title": "Kirche, Garten oder Familienraum",
+        "text": "Kirche, Kapelle, Gemeindesaal, Garten oder private Familienfeier verändert Lautstärke, Tempo und Länge der Musik deutlich."
+      },
+      {
+        "time": "III.",
+        "kicker": "Repertoire",
+        "title": "Wunschlied oder klassischer Rahmen",
+        "text": "Ich nutze die warme Mittellage der Viola für Einzug, Segnung, Wunschlied oder Auszug. Die Auswahl bleibt kindgerecht, warm und nicht zu groß."
+      },
+      {
+        "time": "IV.",
+        "kicker": "Abgrenzung",
+        "title": "Eigener Platz im Taufcluster",
+        "text": "Diese Seite unterscheidet sich von Geige Taufe und Bratsche Taufe durch die klare Bezeichnung des Instruments. Dadurch reduziert die Seite Kannibalisierung mit verwandten Taufseiten."
+      }
+    ],
+    "footnote": "Viola Taufe wird im CMS als eigene Seite geführt, weil der Suchbegriff andere Fragen stellt als allgemeine Taufmusik."
   }
 }

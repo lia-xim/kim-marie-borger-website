@@ -6,120 +6,139 @@
   "targetKeyword": "Sanfte Musik Taufe",
   "intentCluster": "taufen:topic",
   "priority": "P2",
-  "status": "rewritten-batch-4-review-needed",
+  "status": "rewritten-batch-10-review-needed",
   "enabled": true,
-  "seoTitle": "Sanfte Musik Taufe | Leise Live-Viola für Kind & Familie",
-  "seoDescription": "Sanfte Musik zur Taufe: leise, warme Live-Viola für Segnung, Baby, Familie und ruhige Gottesdienstmomente.",
+  "seoTitle": "Sanfte Musik Taufe | Live-Viola",
+  "seoDescription": "Sanfte Musik Taufe: sanfte Solo-Viola für Taufe, Segnung, Gottesdienst und Familienfeier. Persönlich und ruhig geplant.",
   "hero": {
-    "eyebrow": "Sanfte Taufmusik",
-    "title": "Sanfte Musik zur Taufe, wenn der Moment zart bleiben soll.",
-    "lead": "Manche Taufen brauchen keine große Geste. Ein ruhiger Klang, ein weiches Tempo und genug Stille können stärker sein als ein bekanntes Lied mit viel Pathos.",
-    "badge": "Leise, warm und kindgerecht"
+    "eyebrow": "Taufmusik",
+    "title": "Sanfte Musik zur Taufe mit weicher Viola.",
+    "lead": "Sanft ist ein eigener Intent: Die Musik soll beruhigen, wärmen und nicht glänzen. Ich plane Solo-Viola so, dass Musik, Worte, Raum und Familie zusammenpassen.",
+    "badge": "Sanfte Viola für Familie & Kirche"
   },
   "split": {
-    "eyebrow": "Ruhiger Klang",
-    "title": "Sanfte Taufmusik schützt die Stimmung des Tages.",
-    "lede": "Bei sanfter Musik zur Taufe geht es vor allem um Zurückhaltung. Der Klang soll Babys, Kinder und Gäste nicht erschrecken, sondern eine Atmosphäre schaffen, in der Segnung und Familie im Mittelpunkt bleiben.",
+    "eyebrow": "Suchintention",
+    "title": "Sanfte Musik Taufe braucht einen eigenen Schwerpunkt.",
+    "lede": "Familien, die einen leisen, kindgerechten und nicht zu großen Klang suchen suchen Musik für Taufbecken, Segen, Einzug, freie Segnung oder ruhige Familienfeier. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
     "paragraphs": [
-      "Die Viola kann sehr weich gespielt werden. Tiefe und mittlere Lagen wirken warm, ohne aufdringlich zu sein. Dadurch passt sie gut in kleine Kirchen, Kapellen, Wohnzimmer oder Feiern mit sehr persönlichem Charakter.",
-      "Sanft bedeutet nicht beliebig. Ich wähle Stücke mit klarer Melodie, ruhigem Puls und wenig dramatischen Sprüngen. So entsteht eine Linie, die den Ablauf hält, aber nie auf Effekt zielt.",
-      "Gerade rund um die Taufhandlung ist weniger oft besser: ein kurzer Beginn, ein Atemzug, ein leiser Abschluss. Die Musik darf helfen, dass alle kurz still werden.",
-      "Wenn Familien unsicher sind, ob ein Wunschlied zu intensiv ist, kann ich eine reduzierte Variante vorschlagen oder einen weicheren Ausschnitt wählen.",
-      "Sanfte Musik ist außerdem eine gute Wahl, wenn die Familie bewusst keinen großen Auftritt möchte. Die Viola kann den Tag veredeln, ohne Aufmerksamkeit von Kind, Eltern oder Paten wegzunehmen.",
-      "Ich vermeide in diesem Setting abrupte Wechsel, sehr hohe Lagen und zu starke Lautstärkeunterschiede. Die Musik bleibt dadurch auch dann angenehm, wenn Kinder im Raum sind oder Gäste sehr nah am Instrument sitzen.",
-      "Der Ablauf kann trotzdem festlich sein. Ein stiller Beginn, ein weicher Einsatz nach der Segnung und ein heller Ausklang geben der Taufe Struktur, ohne dass der Tag schwer oder überinszeniert wirkt.",
-      "Auch bei sehr schlichten Feiern lohnt sich eine kurze musikalische Planung. Wenn klar ist, welche Stelle Musik bekommt, bleibt der Moment ruhig und niemand muss während der Taufe spontan entscheiden."
-    ]
+      "Sanft ist ein eigener Intent: Die Musik soll beruhigen, wärmen und nicht glänzen.",
+      "Ich wähle langsame, klare Melodien und spiele mit zurückgenommener Dynamik.",
+      "Diese Seite grenzt sich von emotionaler Musik ab, weil weniger Berührung und mehr Zartheit im Mittelpunkt steht.",
+      "Wir klären, ob das Kind sehr klein ist, ob der Raum hallt und welche Momente besonders ruhig bleiben sollen.",
+      "Viola ist durch ihre warme Mittellage besonders geeignet für sanfte Taufmusik.",
+      "Bei Sanfte Musik Taufe geht es zuerst um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
+      "Wenn mehrere Kinder getauft werden, plane ich die Musik so, dass der Gottesdienst nicht unnötig länger wird.",
+      "Nach der Taufhandlung kann ein kurzer musikalischer Moment stärker wirken als ein langes Zusatzprogramm.",
+      "Die Auswahl der Stücke entsteht aus Raum, Familiengefühl und gewünschter Stimmung, nicht aus einer pauschalen Taufmusik-Liste.",
+      "Organisatorisch reichen zuerst Datum, Ort, Uhrzeit, Art der Feier und zwei bis drei musikalische Wünsche.",
+      "Für Wunschlieder prüfe ich, ob die Melodie solo auf der Viola trägt und ob ein kurzer Ausschnitt stärker ist als die ganze Version.",
+      "Ich wähle Stücke danach aus, ob sie auf der Viola wirklich funktionieren. Nicht jedes bekannte Lied behält ohne Text dieselbe Wirkung, und nicht jeder Klassiker passt automatisch zu Kind, Raum und Familie.",
+      "Die Länge ist ebenfalls wichtig. Ein kurzer musikalischer Ausschnitt kann stärker sein als eine vollständige Version, wenn er genau an der richtigen Stelle steht.",
+      "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken.",
+      "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten.",
+      "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
+      "Diese Seite bleibt bewusst bei Sanfte Musik Taufe. Andere Seiten im Cluster übernehmen Orte, Instrumente, Gottesdienst, Kirche, Kommunion, Konfirmation oder Familienfeier. So wird klar, welcher Suchintent hier beantwortet wird.",
+      "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln."
+    ],
+    "seal": "Sanfte Musik Taufe\nTaufe\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu sanfter Musik zur Taufe",
+    "title": "FAQ zu Sanfte Musik Taufe",
     "items": [
       {
-        "question": "Ist sanfte Musik eher klassisch oder modern?",
-        "answer": "Beides ist möglich. Entscheidend sind Tempo, Tonlage und Arrangement, nicht nur der Ursprung des Liedes.",
+        "question": "Für wen passt Sanfte Musik Taufe?",
+        "answer": "Sanfte Musik Taufe passt für Familien, die einen leisen, kindgerechten und nicht zu großen Klang suchen. Entscheidend ist, dass die Musik zum Raum, zur Familie und zum Ablauf passt.",
         "open": true
       },
       {
-        "question": "Kann sanfte Musik trotzdem emotional sein?",
-        "answer": "Ja. Oft wirkt sie gerade deshalb emotional, weil sie nicht drängt und den Moment offen lässt."
+        "question": "Was unterscheidet diese Seite von allgemeiner Taufmusik?",
+        "answer": "Diese Seite grenzt sich von emotionaler Musik ab, weil weniger Berührung und mehr Zartheit im Mittelpunkt steht."
       },
       {
-        "question": "Passt das zu einer Taufe mit vielen Kindern?",
-        "answer": "Ja, wenn die Einsätze kurz und klar geplant sind. Sanfte Musik muss nicht absolute Stille verlangen."
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist und zum Rahmen passt. Ich prüfe Tonart, Länge und Wirkung vorab."
       },
       {
-        "question": "Welche Stellen eignen sich besonders?",
-        "answer": "Vor Beginn, nach der Segnung, bei einem Kerzenritual oder als Ausklang nach dem Gottesdienst."
+        "question": "Wie wird die Musik im Ablauf platziert?",
+        "answer": "Wir klären, ob das Kind sehr klein ist, ob der Raum hallt und welche Momente besonders ruhig bleiben sollen. Meist sind wenige klare Einsätze stärker als durchgehende Musik."
       },
       {
-        "question": "Kann ein sehr bekanntes Lied sanft gespielt werden?",
-        "answer": "Oft ja. Ich reduziere es auf Melodie und Klang, damit es zur Taufe passt und nicht zu groß wirkt."
+        "question": "Muss die Musik kirchlich sein?",
+        "answer": "Nicht zwingend. Klassische, geistliche, moderne oder sehr persönliche Stücke sind möglich, wenn sie zum Rahmen passen und vor Ort erlaubt sind."
       },
       {
-        "question": "Ist sanfte Musik auch für eine größere Kirche geeignet?",
-        "answer": "Ja, wenn sie akustisch richtig platziert wird. In großen Räumen kann sanfte Musik besonders schön wirken, weil der Nachhall den Klang weich verlängert."
+        "question": "Muss die Musik kirchlich sein?",
+        "answer": "Nicht zwingend. Klassische, geistliche, moderne oder sehr persönliche Stücke sind möglich, wenn sie zum Rahmen passen und vor Ort erlaubt sind."
+      },
+      {
+        "question": "Ist die Viola für Kirche und kleine Räume geeignet?",
+        "answer": "Ja. Sie klingt warm und trägt gut, bleibt aber auch in kleinen Räumen oder halligen Kirchen kontrollierbar."
+      },
+      {
+        "question": "Welche Angaben brauchst du für Sanfte Musik Taufe?",
+        "answer": "Datum, Ort, Uhrzeit, Art der Feier, gewünschte Momente, vorhandene Liedideen und eine Kontaktperson für Rückfragen reichen für den Anfang."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Sanfte Viola-Musik zur Taufe für Baby und Familie 1"
+      "alt": "Live-Viola für Sanfte Musik Taufe mit sanfter Live-Viola"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Sanfte Viola-Musik zur Taufe für Baby und Familie 2"
+      "alt": "Live-Viola für Sanfte Musik Taufe im ruhigen Tauf- und Familienrahmen"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Sanfte Viola-Musik zur Taufe für Baby und Familie 3"
+      "alt": "Kim Marie Borger spielt Live-Viola für Sanfte Musik Taufe"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 4: Tauf-Topicseiten mit getrenntem Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final prüfen.",
+  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Sanft planen",
-    "title": "Soll die Taufmusik besonders ruhig bleiben?",
-    "lead": "Schreib mir, welche Stimmung du dir wünschst und ob es ein Lied mit Familienbezug gibt. Ich suche eine sanfte Form dafür.",
+    "eyebrow": "Taufe planen",
+    "title": "Sanfte Musik Taufe anfragen",
+    "lead": "Schick mir Datum, Ort, Art der Feier und eure ersten Liedideen für Sanfte Musik Taufe. Ich melde mich mit einem ruhigen musikalischen Vorschlag.",
     "checklist": [
-      "ruhige Stimmung",
-      "kurze Einsätze",
-      "sanfte Wunschlieder"
+      "Sanfte Musik Taufe",
+      "Taufbecken, Segen, Einzug, freie Segnung oder ruhige Familienfeier",
+      "Wunschlieder & Ablauf"
     ],
-    "formEyebrow": "Stimmung senden",
-    "formTitle": "Sanfte Musik zur Taufe anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer ruhigen Idee für eure Taufmusik."
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Sanfte Musik Taufe zu eurer Feier?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Sanfte Musik Taufe."
   },
   "focus": {
-    "eyebrow": "Feinplanung",
-    "title": "So bleibt Musik zur Taufe wirklich sanft.",
-    "lead": "Sanfte Musik entsteht durch Repertoire, Lautstärke, Tempo und Pausen. Alle vier Punkte werden bewusst gesetzt.",
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Sanfte Musik Taufe ankommt.",
+    "lead": "Die Musik wird nicht als Programmpunkt gedacht, sondern als ruhiger Faden durch Taufe, Segnung oder Familienmoment.",
     "items": [
       {
-        "time": "Repertoire",
-        "kicker": "Auswahl",
-        "title": "Melodien ohne Druck",
-        "text": "Ich bevorzuge Stücke, die tragen, ohne Spannung künstlich aufzubauen."
+        "time": "I.",
+        "kicker": "Intent",
+        "title": "Die Aufgabe der Musik klären",
+        "text": "Sanft ist ein eigener Intent: Die Musik soll beruhigen, wärmen und nicht glänzen. Daraus ergibt sich, ob ein einzelnes Stück, mehrere Einsätze oder ein kurzer Rahmen sinnvoll ist."
       },
       {
-        "time": "Lautstärke",
-        "kicker": "Balance",
-        "title": "Nah statt laut",
-        "text": "Die Viola wird so eingesetzt, dass sie präsent bleibt und Gespräche, Gebete oder Kindergeräusche nicht überdeckt."
+        "time": "II.",
+        "kicker": "Raum",
+        "title": "Kirche, Garten oder Familienraum",
+        "text": "Taufbecken, Segen, Einzug, freie Segnung oder ruhige Familienfeier verändert Lautstärke, Tempo und Länge der Musik deutlich."
       },
       {
-        "time": "Tempo",
-        "kicker": "Ruhe",
-        "title": "Genug Zeit für den Moment",
-        "text": "Langsame Tempi geben der Segnung Raum und vermeiden ein gehetztes Gefühl."
+        "time": "III.",
+        "kicker": "Repertoire",
+        "title": "Wunschlied oder klassischer Rahmen",
+        "text": "Ich wähle langsame, klare Melodien und spiele mit zurückgenommener Dynamik. Die Auswahl bleibt kindgerecht, warm und nicht zu groß."
       },
       {
-        "time": "Pausen",
-        "kicker": "Stille",
-        "title": "Nicht jede Lücke füllen",
-        "text": "Manchmal wirkt ein Stück stärker, wenn danach bewusst Stille bleibt."
+        "time": "IV.",
+        "kicker": "Abgrenzung",
+        "title": "Eigener Platz im Taufcluster",
+        "text": "Diese Seite grenzt sich von emotionaler Musik ab, weil weniger Berührung und mehr Zartheit im Mittelpunkt steht. Dadurch reduziert die Seite Kannibalisierung mit verwandten Taufseiten."
       }
     ],
-    "footnote": "Sanfte Musik eignet sich besonders für kleine Taufen, frühe Uhrzeiten und sehr familiäre Feiern."
+    "footnote": "Sanfte Musik Taufe wird im CMS als eigene Seite geführt, weil der Suchbegriff andere Fragen stellt als allgemeine Taufmusik."
   }
 }

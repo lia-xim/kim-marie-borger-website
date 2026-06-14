@@ -6,119 +6,139 @@
   "targetKeyword": "Musik Kirche Taufe",
   "intentCluster": "taufen:topic",
   "priority": "P2",
-  "status": "rewritten-batch-4-review-needed",
+  "status": "rewritten-batch-10-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Kirche Taufe | Live-Viola für Kirchenraum & Taufe",
-  "seoDescription": "Musik in der Kirche zur Taufe: Live-Viola abgestimmt auf Akustik, Liturgie, Wunschlieder und den ruhigen Rahmen der Feier.",
+  "seoTitle": "Musik Kirche Taufe | Live-Viola",
+  "seoDescription": "Musik Kirche Taufe: sanfte Solo-Viola für Taufe, Segnung, Gottesdienst und Familienfeier. Persönlich und ruhig geplant.",
   "hero": {
-    "eyebrow": "Kirchenraum",
-    "title": "Musik in der Kirche zur Taufe, die Raum und Akustik respektiert.",
-    "lead": "Eine Kirche verändert Musik. Nachhall, Wege, Sitzordnung und liturgische Vorgaben bestimmen, wie ein Stück wirkt. Deshalb plane ich Taufmusik in der Kirche anders als Musik bei einer freien Familienfeier.",
-    "badge": "Für Kirche, Kapelle und Gemeindehaus"
+    "eyebrow": "Taufmusik",
+    "title": "Musik in der Kirche zur Taufe mit Viola.",
+    "lead": "Der Fokus liegt auf Raum und Akustik: Kirche braucht andere Musik als Garten oder Restaurant. Ich plane Solo-Viola so, dass Musik, Worte, Raum und Familie zusammenpassen.",
+    "badge": "Sanfte Viola für Familie & Kirche"
   },
   "split": {
-    "eyebrow": "Akustik und Ablauf",
-    "title": "Kirchenmusik zur Taufe braucht weniger Lautstärke und mehr Ruhe.",
-    "lede": "Wer nach Musik in der Kirche zur Taufe sucht, fragt oft nach dem passenden Rahmen: Darf eine Musikerin spielen, wo steht sie, welche Stücke passen in den Raum und wie bleibt der Gottesdienst würdevoll?",
+    "eyebrow": "Suchintention",
+    "title": "Musik Kirche Taufe braucht einen eigenen Schwerpunkt.",
+    "lede": "Familien, die eine Taufe in Kirche oder Kapelle musikalisch rahmen möchten suchen Musik für Kirchenraum, Kapelle, Altarbereich, Taufbecken oder Gemeindesaal. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
     "paragraphs": [
-      "Die Viola trägt in vielen Kirchen sehr schön, weil ihr Klang warm bleibt und vom Nachhall nicht hart vergrößert wird. Gleichzeitig braucht sie genug Abstand zu sprechenden Personen, damit Worte klar bleiben.",
-      "Ich achte darauf, dass Musik nicht mit Gemeindegesang, Orgel oder liturgischen Teilen konkurriert. Wenn es feste Kirchenlieder gibt, ergänze ich eher die Übergänge oder besondere Momente.",
-      "Für Kapellen oder kleinere Kirchen eignet sich ein besonders reduziertes Repertoire. Große Kirchen vertragen dagegen manchmal etwas längere Bögen, wenn der Nachhall genug Zeit zum Ausklingen bekommt.",
-      "Vorab klären wir die praktischen Punkte: Platz, Ankunftszeit, Notenständer, eventuelle Verstärkung und die Freigabe der geplanten Stücke.",
-      "In manchen Kirchen ist weniger tatsächlich mehr. Ein einzelnes Instrument kann im Nachhall sehr weit tragen, weshalb ich lieber mit klaren Linien und Pausen arbeite als mit durchgehendem Spiel.",
-      "Wenn der Kirchenraum sehr groß ist, prüfe ich, ob eine kleine Verstärkung sinnvoll wäre. Sie soll nicht konzertant wirken, sondern nur dafür sorgen, dass auch die hinteren Reihen den Klang weich und deutlich wahrnehmen.",
-      "Auch der Weg durch den Raum spielt eine Rolle. Wenn Eltern, Paten oder Pfarrperson sich während der Taufhandlung bewegen, wird die Musik so gesetzt, dass niemand sich beeilen muss und keine Wege verdeckt werden."
-    ]
+      "Der Fokus liegt auf Raum und Akustik: Kirche braucht andere Musik als Garten oder Restaurant.",
+      "Ich passe Tempo, Dynamik und Länge an Hall, Taufbecken, Laufwege und liturgische Stellen an.",
+      "Diese Seite unterscheidet sich von Gottesdienst Taufe, weil sie stärker die Kirchenakustik und den Raum behandelt.",
+      "Wir klären Aufbauplatz, Absprache mit der Gemeinde, gewünschte Stücke und ob es Gemeindelieder gibt.",
+      "Die Viola klingt in Kirchen warm und bleibt auch bei Hall verständlich, wenn Stücke passend gewählt werden.",
+      "Bei Musik Kirche Taufe geht es zuerst um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
+      "Beim Auszug darf die Musik freundlicher werden und den Wechsel in Gratulationen und Familienfeier öffnen.",
+      "Bei sehr kleinen Kindern ist weniger Musik oft besser, wenn sie dafür an den richtigen Stellen steht.",
+      "Ich bespreche mit euch zuerst die Feierform: klassischer Gottesdienst, freie Segnung, Willkommensfest oder eine Kombination mit Familienfeier.",
+      "Wenn eine Pfarrperson, Rednerin oder Kirchenmusikerin beteiligt ist, können die musikalischen Stellen vorab ruhig abgestimmt werden.",
+      "Organisatorisch reichen zuerst Datum, Ort, Uhrzeit, Art der Feier und zwei bis drei musikalische Wünsche.",
+      "Ich wähle Stücke danach aus, ob sie auf der Viola wirklich funktionieren. Nicht jedes bekannte Lied behält ohne Text dieselbe Wirkung, und nicht jeder Klassiker passt automatisch zu Kind, Raum und Familie.",
+      "Die Länge ist ebenfalls wichtig. Ein kurzer musikalischer Ausschnitt kann stärker sein als eine vollständige Version, wenn er genau an der richtigen Stelle steht.",
+      "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken.",
+      "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten.",
+      "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
+      "Diese Seite bleibt bewusst bei Musik Kirche Taufe. Andere Seiten im Cluster übernehmen Orte, Instrumente, Gottesdienst, Kirche, Kommunion, Konfirmation oder Familienfeier. So wird klar, welcher Suchintent hier beantwortet wird.",
+      "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln."
+    ],
+    "seal": "Musik Kirche Taufe\nTaufe\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Musik in der Kirche zur Taufe",
+    "title": "FAQ zu Musik Kirche Taufe",
     "items": [
       {
-        "question": "Darf man eigene Musik in der Kirche spielen lassen?",
-        "answer": "Das entscheidet die jeweilige Gemeinde. Häufig ist Instrumentalmusik möglich, wenn Stücke und Einsatzpunkte vorher abgesprochen werden.",
+        "question": "Für wen passt Musik Kirche Taufe?",
+        "answer": "Musik Kirche Taufe passt für Familien, die eine Taufe in Kirche oder Kapelle musikalisch rahmen möchten. Entscheidend ist, dass die Musik zum Raum, zur Familie und zum Ablauf passt.",
         "open": true
       },
       {
-        "question": "Ist eine Viola in der Kirche zu leise?",
-        "answer": "Meistens nicht. Kirchenakustik trägt den Klang oft gut. In sehr großen Räumen kann eine dezente Verstärkung sinnvoll sein."
+        "question": "Was unterscheidet diese Seite von allgemeiner Taufmusik?",
+        "answer": "Diese Seite unterscheidet sich von Gottesdienst Taufe, weil sie stärker die Kirchenakustik und den Raum behandelt."
       },
       {
-        "question": "Wo steht die Musikerin während der Taufe?",
-        "answer": "Das hängt vom Raum ab. Wichtig ist ein Platz mit gutem Klang, Sichtkontakt und genug Abstand zu Wegen und liturgischen Handlungen."
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist und zum Rahmen passt. Ich prüfe Tonart, Länge und Wirkung vorab."
       },
       {
-        "question": "Kann moderne Musik in der Kirche gespielt werden?",
-        "answer": "Ja, wenn sie zur Feier passt und die Gemeinde zustimmt. Eine ruhige Instrumentalfassung wirkt oft kirchentauglicher als das Original."
+        "question": "Wie wird die Musik im Ablauf platziert?",
+        "answer": "Wir klären Aufbauplatz, Absprache mit der Gemeinde, gewünschte Stücke und ob es Gemeindelieder gibt. Meist sind wenige klare Einsätze stärker als durchgehende Musik."
       },
       {
-        "question": "Was passiert, wenn die Kirche feste Lieder vorgibt?",
-        "answer": "Dann kann die Viola ergänzend eingesetzt werden, zum Beispiel vor Beginn, nach der Segnung oder zum Auszug."
+        "question": "Kannst du auch ein Familienlied spielen?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf eine ruhige Fassung vor."
       },
       {
-        "question": "Kannst du auch in einer sehr kleinen Kapelle spielen?",
-        "answer": "Ja. Gerade kleine Kapellen eignen sich gut, wenn die Stücke kurz, weich und akustisch passend gewählt werden."
+        "question": "Kannst du auch ein Familienlied spielen?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf eine ruhige Fassung vor."
+      },
+      {
+        "question": "Ist die Viola für Kirche und kleine Räume geeignet?",
+        "answer": "Ja. Sie klingt warm und trägt gut, bleibt aber auch in kleinen Räumen oder halligen Kirchen kontrollierbar."
+      },
+      {
+        "question": "Welche Angaben brauchst du für Musik Kirche Taufe?",
+        "answer": "Datum, Ort, Uhrzeit, Art der Feier, gewünschte Momente, vorhandene Liedideen und eine Kontaktperson für Rückfragen reichen für den Anfang."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Viola-Musik in der Kirche zur Taufe mit warmem Raumklang 1"
+      "alt": "Live-Viola für Musik Kirche Taufe mit sanfter Live-Viola"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Viola-Musik in der Kirche zur Taufe mit warmem Raumklang 2"
+      "alt": "Live-Viola für Musik Kirche Taufe im ruhigen Tauf- und Familienrahmen"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Viola-Musik in der Kirche zur Taufe mit warmem Raumklang 3"
+      "alt": "Kim Marie Borger spielt Live-Viola für Musik Kirche Taufe"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 4: Tauf-Topicseiten mit getrenntem Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final prüfen.",
+  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Kirchentaufe anfragen",
-    "title": "Planst du eine Taufe in der Kirche?",
-    "lead": "Nenne mir Kirche, Stadt, Uhrzeit und ob es Vorgaben zur Musik gibt. Ich schlage dir passende Einsätze für den Kirchenraum vor.",
+    "eyebrow": "Taufe planen",
+    "title": "Musik Kirche Taufe anfragen",
+    "lead": "Schick mir Datum, Ort, Art der Feier und eure ersten Liedideen für Musik Kirche Taufe. Ich melde mich mit einem ruhigen musikalischen Vorschlag.",
     "checklist": [
-      "Kirchenraum",
-      "Gemeindevorgaben",
-      "Akustik"
+      "Musik Kirche Taufe",
+      "Kirchenraum, Kapelle, Altarbereich, Taufbecken oder Gemeindesaal",
+      "Wunschlieder & Ablauf"
     ],
-    "formEyebrow": "Details senden",
-    "formTitle": "Musik in der Kirche zur Taufe anfragen",
-    "formSuccess": "Danke - ich melde mich mit einem Vorschlag für eure Musik in der Kirche."
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Musik Kirche Taufe zu eurer Feier?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Kirche Taufe."
   },
   "focus": {
-    "eyebrow": "Kirchenpraxis",
-    "title": "Was in der Kirche vor der Taufe geklärt wird.",
-    "lead": "Gute Kirchenmusik beginnt mit einfachen organisatorischen Fragen. Sind sie geklärt, kann der Tag sehr entspannt laufen.",
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Musik Kirche Taufe ankommt.",
+    "lead": "Die Musik wird nicht als Programmpunkt gedacht, sondern als ruhiger Faden durch Taufe, Segnung oder Familienmoment.",
     "items": [
       {
-        "time": "Vorab",
-        "kicker": "Freigabe",
-        "title": "Stücke mit der Kirche abstimmen",
-        "text": "Nicht jede Gemeinde hat dieselben Vorgaben. Ich helfe, eine passende Auswahl zu formulieren."
+        "time": "I.",
+        "kicker": "Intent",
+        "title": "Die Aufgabe der Musik klären",
+        "text": "Der Fokus liegt auf Raum und Akustik: Kirche braucht andere Musik als Garten oder Restaurant. Daraus ergibt sich, ob ein einzelnes Stück, mehrere Einsätze oder ein kurzer Rahmen sinnvoll ist."
       },
       {
-        "time": "Ankunft",
-        "kicker": "Aufbau",
-        "title": "Unauffälliger Platz im Raum",
-        "text": "Die Position soll akustisch sinnvoll sein und gleichzeitig den Ablauf der Taufe nicht blockieren."
+        "time": "II.",
+        "kicker": "Raum",
+        "title": "Kirche, Garten oder Familienraum",
+        "text": "Kirchenraum, Kapelle, Altarbereich, Taufbecken oder Gemeindesaal verändert Lautstärke, Tempo und Länge der Musik deutlich."
       },
       {
-        "time": "Gottesdienst",
-        "kicker": "Balance",
-        "title": "Musik neben Sprache und Orgel",
-        "text": "Die Viola ergänzt vorhandene Elemente und lässt Predigt, Gebet und Taufworte frei."
+        "time": "III.",
+        "kicker": "Repertoire",
+        "title": "Wunschlied oder klassischer Rahmen",
+        "text": "Ich passe Tempo, Dynamik und Länge an Hall, Taufbecken, Laufwege und liturgische Stellen an. Die Auswahl bleibt kindgerecht, warm und nicht zu groß."
       },
       {
-        "time": "Nachhall",
-        "kicker": "Akustik",
-        "title": "Genug Zeit zum Ausklingen",
-        "text": "Gerade in Kirchen ist Stille nach einem Stück Teil der Wirkung und sollte mitgedacht werden."
+        "time": "IV.",
+        "kicker": "Abgrenzung",
+        "title": "Eigener Platz im Taufcluster",
+        "text": "Diese Seite unterscheidet sich von Gottesdienst Taufe, weil sie stärker die Kirchenakustik und den Raum behandelt. Dadurch reduziert die Seite Kannibalisierung mit verwandten Taufseiten."
       }
     ],
-    "footnote": "Bei Unsicherheit kann ich eine kurze Formulierung für die Abstimmung mit der Gemeinde vorbereiten."
+    "footnote": "Musik Kirche Taufe wird im CMS als eigene Seite geführt, weil der Suchbegriff andere Fragen stellt als allgemeine Taufmusik."
   }
 }

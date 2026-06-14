@@ -6,71 +6,139 @@
   "targetKeyword": "Taufmusik Wuppertal",
   "intentCluster": "taufen:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-10-review-needed",
   "enabled": true,
-  "seoTitle": "Taufmusik Wuppertal | Musik zur Taufe mit Viola",
-  "seoDescription": "Taufmusik in Wuppertal: sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier. Warm, ruhig und persönlich.",
+  "seoTitle": "Taufmusik Wuppertal | Live-Viola zur Taufe",
+  "seoDescription": "Taufmusik Wuppertal: Live-Viola für Taufe, Segnung, Gottesdienst, Willkommensfest und Familienfeier. Ruhig und persönlich geplant.",
   "hero": {
+    "eyebrow": "Taufmusik",
     "title": "Taufmusik in Wuppertal für einen warmen Anfang.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier in Wuppertal."
+    "lead": "Elberfeld, Barmen, Höhenlagen und Taufen entlang der Wupper. Ich begleite Taufe, Segnung, Gottesdienst und Familienfeier mit sanfter Solo-Viola.",
+    "badge": "Sanfte Viola für Taufe & Segnung"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Ein kleiner Mensch, ein großer Tag in Wuppertal.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Musik zur Taufe in Wuppertal braucht Ruhe und klare Momente.",
+    "lede": "die Musik muss mit besonderen Räumen und Wegen umgehen können. Genau darauf stimme ich Stücke, Einsatzpunkte und den Klang der Viola ab.",
     "paragraphs": [
-      "Ob zwischen Elberfeld, Barmen, grünen Höhen und der Weite des Bergischen Landes: Eine Taufe braucht Musik, die nicht glänzen will, sondern wärmt. Die Viola klingt ruhig, weich und feierlich, ohne den Gottesdienst oder das Kind zu überfordern.",
-      "Ich stimme die Stücke mit euch und bei Bedarf mit Pfarrer:in oder freier Rednerin ab - für Einzug, Taufhandlung, Segen, Auszug oder einen anschließenden Empfang."
-    ]
+      "Elberfeld, Barmen, Höhenlagen und Taufen entlang der Wupper. Dadurch verändert sich auch die musikalische Planung: Manche Feiern brauchen einen sehr stillen Anfang, andere einen hellen Auszug oder ein persönliches Familienlied.",
+      "Kirchen am Hang, Gemeindesäle, Altbauräume, Gärten und Familienrestaurants. Die Viola lässt sich dort schlank einbinden, weil sie wenig Aufbau braucht und auch ohne große Technik warm trägt.",
+      "die Musik muss mit besonderen Räumen und Wegen umgehen können. Deshalb plane ich Taufmusik nicht als kleines Konzert, sondern als Teil des Tages: sie soll die Familie sammeln, die Segnung tragen und danach wieder Raum für Worte lassen.",
+      "Treppen, Wege, Parken und Wetter sollten konkret eingeplant werden. Wenn diese Punkte vorab klar sind, kann der erste Ton ruhig entstehen und niemand muss am Tag selbst suchen oder improvisieren.",
+      "Für Taufmusik Wuppertal ist der Klang bewusst atmosphärisch, weich und beweglich. Die Musik darf feierlich sein, aber sie soll ein Kind, Eltern und Paten nicht überfordern.",
+      "Bei sehr kleinen Kindern ist weniger Musik oft besser, wenn sie dafür an den richtigen Stellen steht.",
+      "Ein ruhiges Stück vor Beginn hilft, wenn Familie, Paten und Gäste erst im Raum ankommen müssen.",
+      "Wenn eine Pfarrperson, Rednerin oder Kirchenmusikerin beteiligt ist, können die musikalischen Stellen vorab ruhig abgestimmt werden.",
+      "Für Wunschlieder prüfe ich, ob die Melodie solo auf der Viola trägt und ob ein kurzer Ausschnitt stärker ist als die ganze Version.",
+      "Ich bespreche mit euch zuerst die Feierform: klassischer Gottesdienst, freie Segnung, Willkommensfest oder eine Kombination mit Familienfeier.",
+      "Ich achte besonders darauf, wie nah Musik an Worten, Gebet, Taufhandlung oder Segen steht. Je näher sie an einem liturgischen Moment liegt, desto schlichter muss sie beginnen und enden.",
+      "Wenn ein Wunschlied geplant ist, ordne ich es nicht nur musikalisch ein. Entscheidend ist, ob es als Einzug, Moment nach der Taufe, Segen, Auszug oder später bei der Familienfeier am besten wirkt.",
+      "Bei freien Segnungen in Wuppertal kann die Musik flexibler atmen. Dann lassen sich Rituale, Kerzen, Patenbeiträge oder ein kurzer Willkommensmoment sehr persönlich verbinden.",
+      "Bei kirchlichen Taufen in Wuppertal ist die Abstimmung mit Pfarrperson oder Kirchenmusik wichtig. Ich kann die musikalischen Stellen so formulieren, dass sie für die Gemeinde klar und unkompliziert bleiben.",
+      "Auch die Familienfeier danach kann musikalisch begleitet werden. Dann verändert sich die Aufgabe: weg vom liturgischen Rahmen, hin zu Gratulationen, Kaffee, Gesprächen und einem weichen Übergang in den gemeinsamen Nachmittag.",
+      "Diese Seite fokussiert bewusst Taufmusik Wuppertal. Andere Seiten im Cluster behandeln Geige, Viola, Gottesdienst, Familienfeier, Kommunion oder moderne Taufmusik; hier geht es um den konkreten Ort und seine Planung.",
+      "Für die erste Anfrage reichen Datum, Ort, Uhrzeit, Art der Feier, gewünschte Einsatzpunkte und erste Liedideen. Danach kann ich einschätzen, ob zwei, drei oder vier musikalische Momente sinnvoll sind.",
+      "So bleibt Taufmusik in Wuppertal persönlich und zugleich leicht: vorbereitet genug für Kirche oder freie Rede, aber nicht so groß, dass der eigentliche Anlass in den Hintergrund rückt."
+    ],
+    "seal": "Wuppertal\nTaufe\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Taufmusik in Wuppertal.",
+    "title": "FAQ zu Taufmusik Wuppertal",
     "items": [
       {
-        "question": "Begleitest du Taufen in Wuppertal?",
-        "answer": "Ja. Ich spiele bei Taufen, Segnungen, Willkommensfesten und Familienfeiern in Wuppertal - in Kirche, Gemeindehaus, Garten oder privatem Rahmen.",
+        "question": "Spielst du Taufmusik in Wuppertal?",
+        "answer": "Ja. Ich begleite Taufen, Segnungen, Willkommensfeste und Familienfeiern in Wuppertal mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Welche Stücke passen zur Taufe?",
-        "answer": "Sanfte Klassiker wie Ave Maria, Air, Wiegenlieder oder ein persönliches Familienlied passen besonders gut."
+        "question": "Welche Orte passen für Taufmusik in Wuppertal?",
+        "answer": "Kirchen am Hang, Gemeindesäle, Altbauräume, Gärten und Familienrestaurants Wichtig ist, dass die Musik dort ruhig platziert werden kann und der Ablauf vorher klar ist."
       },
       {
-        "question": "Stimmst du dich mit der Kirche ab?",
-        "answer": "Ja. Wenn gewünscht, kläre ich Einsätze und Ablauf direkt mit Pfarrer:in, Musiker:in oder freier Rednerin."
+        "question": "Was ist bei einer Taufe in Wuppertal besonders zu beachten?",
+        "answer": "Treppen, Wege, Parken und Wetter sollten konkret eingeplant werden So entsteht ein sicherer Rahmen, auch wenn Familie und Gäste aus verschiedenen Richtungen anreisen."
+      },
+      {
+        "question": "Stimmst du dich mit Kirche oder Rednerin ab?",
+        "answer": "Ja. Wenn gewünscht, kläre ich Einsatzpunkte, Aufbau und musikalische Übergänge direkt mit Pfarrperson, Kirchenmusik oder freier Rednerin."
       },
       {
         "question": "Kannst du nach der Taufe weiter spielen?",
-        "answer": "Ja. Auf Wunsch begleite ich auch Empfang, Kaffee oder Familienfeier im Anschluss."
+        "answer": "Ja. Auf Wunsch begleite ich auch Gratulation, Empfang, Kaffee oder die Familienfeier im Anschluss mit ruhiger Musik."
+      },
+      {
+        "question": "Ist Musik auch bei einer freien Segnung möglich?",
+        "answer": "Ja. Freie Segnungen lassen sich oft besonders flexibel mit Musik verbinden, weil Rituale und Worte individuell geplant werden."
+      },
+      {
+        "question": "Warum passt Viola für Taufmusik Wuppertal?",
+        "answer": "Die Viola klingt warm, weich und weniger hell als eine Geige. Dadurch passt sie gut zu Taufe, Segnung und Familienmomenten, ohne den Raum zu überfordern."
+      },
+      {
+        "question": "Welche Informationen helfen für eine Anfrage in Wuppertal?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Wunschlieder."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Taufmusik in Wuppertal mit sanfter Live-Viola"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Taufmusik in Wuppertal im ruhigen Tauf- und Familienrahmen"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Taufmusik in Wuppertal"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Taufe anfragen",
     "title": "Taufmusik Wuppertal anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Taufmusik Wuppertal.",
+    "lead": "Schick mir Datum, Ort, Uhrzeit und eure ersten Liedideen für die Taufe in Wuppertal. Ich melde mich mit einem ruhigen Vorschlag für Ablauf und Musik.",
     "checklist": [
       "Taufmusik Wuppertal",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Taufe, Segnung oder Willkommensfest",
+      "Kirche, Feierort & Wunschlieder"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Taufmusik Wuppertal zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Live-Viola zur Taufe in Wuppertal?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Taufmusik in Wuppertal."
+  },
+  "focus": {
+    "eyebrow": "Ablauf",
+    "title": "Mögliche Einsatzpunkte für Taufmusik in Wuppertal.",
+    "lead": "Die meisten Taufen brauchen keine durchgehende Musik. Stärker sind wenige Stellen, die dem Tag Halt geben.",
+    "items": [
+      {
+        "time": "I.",
+        "kicker": "Ankommen",
+        "title": "Ruhig in den Raum finden",
+        "text": "Vor Beginn kann die Viola Gäste und Familie sammeln. Treppen, Wege, Parken und Wetter sollten konkret eingeplant werden"
+      },
+      {
+        "time": "II.",
+        "kicker": "Taufmoment",
+        "title": "Musik rund um Segen und Wasser",
+        "text": "Ein kurzer Einsatz vor oder nach der Taufhandlung hält den Kernmoment, ohne Worte oder Gebet zu überdecken. die Musik muss mit besonderen Räumen und Wegen umgehen können"
+      },
+      {
+        "time": "III.",
+        "kicker": "Wunschlied",
+        "title": "Ein Lied mit Familienbezug",
+        "text": "Wenn ein Lied durch die Familie geht, kann es für Solo-Viola reduziert werden und in Wuppertal zum roten Faden des Tages werden."
+      },
+      {
+        "time": "IV.",
+        "kicker": "Feier",
+        "title": "Übergang zur Familienzeit",
+        "text": "Nach Gottesdienst oder Segnung kann Musik Gratulationen, Empfang oder Kaffee sanft öffnen. Kirchen am Hang, Gemeindesäle, Altbauräume, Gärten und Familienrestaurants"
+      }
+    ],
+    "footnote": "Für Taufmusik Wuppertal plane ich die Musik nach Raum, Ablauf, Familie und gewünschter Nähe."
   }
 }

@@ -6,71 +6,139 @@
   "targetKeyword": "Taufmusik Nordrhein-Westfalen",
   "intentCluster": "taufen:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-10-review-needed",
   "enabled": true,
-  "seoTitle": "Taufmusik Nordrhein-Westfalen | Musik zur Taufe mit Viola",
-  "seoDescription": "Taufmusik in Nordrhein-Westfalen: sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier. Warm, ruhig und persönlich.",
+  "seoTitle": "Taufmusik Nordrhein-Westfalen | Live-Viola zur Taufe",
+  "seoDescription": "Taufmusik Nordrhein-Westfalen: Live-Viola für Taufe, Segnung, Gottesdienst, Willkommensfest und Familienfeier. Ruhig und persönlich geplant.",
   "hero": {
+    "eyebrow": "Taufmusik",
     "title": "Taufmusik in Nordrhein-Westfalen für einen warmen Anfang.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier in Nordrhein-Westfalen."
+    "lead": "Rheinland, Ruhrgebiet, Bergisches Land, Westfalen und sehr unterschiedliche Tauftraditionen. Ich begleite Taufe, Segnung, Gottesdienst und Familienfeier mit sanfter Solo-Viola.",
+    "badge": "Sanfte Viola für Taufe & Segnung"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Ein kleiner Mensch, ein großer Tag in Nordrhein-Westfalen.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Musik zur Taufe in Nordrhein-Westfalen braucht Ruhe und klare Momente.",
+    "lede": "jede Familie bringt andere kirchliche, freie oder persönliche Vorstellungen mit. Genau darauf stimme ich Stücke, Einsatzpunkte und den Klang der Viola ab.",
     "paragraphs": [
-      "Ob von Rheinland und Ruhrgebiet bis Bergisches Land, Münsterland, Ostwestfalen und Sauerland: Eine Taufe braucht Musik, die nicht glänzen will, sondern wärmt. Die Viola klingt ruhig, weich und feierlich, ohne den Gottesdienst oder das Kind zu überfordern.",
-      "Ich stimme die Stücke mit euch und bei Bedarf mit Pfarrer:in oder freier Rednerin ab - für Einzug, Taufhandlung, Segen, Auszug oder einen anschließenden Empfang."
-    ]
+      "Rheinland, Ruhrgebiet, Bergisches Land, Westfalen und sehr unterschiedliche Tauftraditionen. Dadurch verändert sich auch die musikalische Planung: Manche Feiern brauchen einen sehr stillen Anfang, andere einen hellen Auszug oder ein persönliches Familienlied.",
+      "Kirchen, freie Segnungen, Kapellen, Gärten und Familienfeiern in NRW. Die Viola lässt sich dort schlank einbinden, weil sie wenig Aufbau braucht und auch ohne große Technik warm trägt.",
+      "jede Familie bringt andere kirchliche, freie oder persönliche Vorstellungen mit. Deshalb plane ich Taufmusik nicht als kleines Konzert, sondern als Teil des Tages: sie soll die Familie sammeln, die Segnung tragen und danach wieder Raum für Worte lassen.",
+      "Region, Fahrzeit, Setlänge und Abstimmung mit Kirche oder Rednerin werden individuell geprüft. Wenn diese Punkte vorab klar sind, kann der erste Ton ruhig entstehen und niemand muss am Tag selbst suchen oder improvisieren.",
+      "Für Taufmusik Nordrhein-Westfalen ist der Klang bewusst vielseitig, behutsam und professionell. Die Musik darf feierlich sein, aber sie soll ein Kind, Eltern und Paten nicht überfordern.",
+      "Wenn mehrere Kinder getauft werden, plane ich die Musik so, dass der Gottesdienst nicht unnötig länger wird.",
+      "Nach der Taufhandlung kann ein kurzer musikalischer Moment stärker wirken als ein langes Zusatzprogramm.",
+      "Die Auswahl der Stücke entsteht aus Raum, Familiengefühl und gewünschter Stimmung, nicht aus einer pauschalen Taufmusik-Liste.",
+      "Organisatorisch reichen zuerst Datum, Ort, Uhrzeit, Art der Feier und zwei bis drei musikalische Wünsche.",
+      "Danach geht es um die konkreten Einsatzpunkte, damit Musik nicht zufällig beginnt, sondern dem Ablauf wirklich Halt gibt.",
+      "Ich achte besonders darauf, wie nah Musik an Worten, Gebet, Taufhandlung oder Segen steht. Je näher sie an einem liturgischen Moment liegt, desto schlichter muss sie beginnen und enden.",
+      "Wenn ein Wunschlied geplant ist, ordne ich es nicht nur musikalisch ein. Entscheidend ist, ob es als Einzug, Moment nach der Taufe, Segen, Auszug oder später bei der Familienfeier am besten wirkt.",
+      "Bei freien Segnungen in Nordrhein-Westfalen kann die Musik flexibler atmen. Dann lassen sich Rituale, Kerzen, Patenbeiträge oder ein kurzer Willkommensmoment sehr persönlich verbinden.",
+      "Bei kirchlichen Taufen in Nordrhein-Westfalen ist die Abstimmung mit Pfarrperson oder Kirchenmusik wichtig. Ich kann die musikalischen Stellen so formulieren, dass sie für die Gemeinde klar und unkompliziert bleiben.",
+      "Auch die Familienfeier danach kann musikalisch begleitet werden. Dann verändert sich die Aufgabe: weg vom liturgischen Rahmen, hin zu Gratulationen, Kaffee, Gesprächen und einem weichen Übergang in den gemeinsamen Nachmittag.",
+      "Diese Seite fokussiert bewusst Taufmusik Nordrhein-Westfalen. Andere Seiten im Cluster behandeln Geige, Viola, Gottesdienst, Familienfeier, Kommunion oder moderne Taufmusik; hier geht es um den konkreten Ort und seine Planung.",
+      "Für die erste Anfrage reichen Datum, Ort, Uhrzeit, Art der Feier, gewünschte Einsatzpunkte und erste Liedideen. Danach kann ich einschätzen, ob zwei, drei oder vier musikalische Momente sinnvoll sind.",
+      "So bleibt Taufmusik in Nordrhein-Westfalen persönlich und zugleich leicht: vorbereitet genug für Kirche oder freie Rede, aber nicht so groß, dass der eigentliche Anlass in den Hintergrund rückt."
+    ],
+    "seal": "Nordrhein-Westfalen\nTaufe\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Taufmusik in Nordrhein-Westfalen.",
+    "title": "FAQ zu Taufmusik Nordrhein-Westfalen",
     "items": [
       {
-        "question": "Begleitest du Taufen in Nordrhein-Westfalen?",
-        "answer": "Ja. Ich spiele bei Taufen, Segnungen, Willkommensfesten und Familienfeiern in Nordrhein-Westfalen - in Kirche, Gemeindehaus, Garten oder privatem Rahmen.",
+        "question": "Spielst du Taufmusik in Nordrhein-Westfalen?",
+        "answer": "Ja. Ich begleite Taufen, Segnungen, Willkommensfeste und Familienfeiern in Nordrhein-Westfalen mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Welche Stücke passen zur Taufe?",
-        "answer": "Sanfte Klassiker wie Ave Maria, Air, Wiegenlieder oder ein persönliches Familienlied passen besonders gut."
+        "question": "Welche Orte passen für Taufmusik in Nordrhein-Westfalen?",
+        "answer": "Kirchen, freie Segnungen, Kapellen, Gärten und Familienfeiern in NRW Wichtig ist, dass die Musik dort ruhig platziert werden kann und der Ablauf vorher klar ist."
       },
       {
-        "question": "Stimmst du dich mit der Kirche ab?",
-        "answer": "Ja. Wenn gewünscht, kläre ich Einsätze und Ablauf direkt mit Pfarrer:in, Musiker:in oder freier Rednerin."
+        "question": "Was ist bei einer Taufe in Nordrhein-Westfalen besonders zu beachten?",
+        "answer": "Region, Fahrzeit, Setlänge und Abstimmung mit Kirche oder Rednerin werden individuell geprüft So entsteht ein sicherer Rahmen, auch wenn Familie und Gäste aus verschiedenen Richtungen anreisen."
       },
       {
-        "question": "Kannst du nach der Taufe weiter spielen?",
-        "answer": "Ja. Auf Wunsch begleite ich auch Empfang, Kaffee oder Familienfeier im Anschluss."
+        "question": "Stimmst du dich mit Kirche oder Rednerin ab?",
+        "answer": "Ja. Wenn gewünscht, kläre ich Einsatzpunkte, Aufbau und musikalische Übergänge direkt mit Pfarrperson, Kirchenmusik oder freier Rednerin."
+      },
+      {
+        "question": "Wie kurzfristig können wir anfragen?",
+        "answer": "Manchmal auch kurzfristig. Für Wunschlieder und Abstimmung mit Kirche oder Rednerin ist etwas Vorlauf aber deutlich entspannter."
+      },
+      {
+        "question": "Muss die Musik kirchlich sein?",
+        "answer": "Nicht zwingend. Klassische, geistliche, moderne oder sehr persönliche Stücke sind möglich, wenn sie zum Rahmen passen und vor Ort erlaubt sind."
+      },
+      {
+        "question": "Warum passt Viola für Taufmusik Nordrhein-Westfalen?",
+        "answer": "Die Viola klingt warm, weich und weniger hell als eine Geige. Dadurch passt sie gut zu Taufe, Segnung und Familienmomenten, ohne den Raum zu überfordern."
+      },
+      {
+        "question": "Welche Informationen helfen für eine Anfrage in Nordrhein-Westfalen?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Wunschlieder."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Taufmusik in Nordrhein-Westfalen mit sanfter Live-Viola"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Taufmusik in Nordrhein-Westfalen im ruhigen Tauf- und Familienrahmen"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Taufmusik in Nordrhein-Westfalen"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Taufe anfragen",
     "title": "Taufmusik Nordrhein-Westfalen anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Taufmusik Nordrhein-Westfalen.",
+    "lead": "Schick mir Datum, Ort, Uhrzeit und eure ersten Liedideen für die Taufe in Nordrhein-Westfalen. Ich melde mich mit einem ruhigen Vorschlag für Ablauf und Musik.",
     "checklist": [
       "Taufmusik Nordrhein-Westfalen",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Taufe, Segnung oder Willkommensfest",
+      "Kirche, Feierort & Wunschlieder"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Taufmusik Nordrhein-Westfalen zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Live-Viola zur Taufe in Nordrhein-Westfalen?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Taufmusik in Nordrhein-Westfalen."
+  },
+  "focus": {
+    "eyebrow": "Ablauf",
+    "title": "Mögliche Einsatzpunkte für Taufmusik in Nordrhein-Westfalen.",
+    "lead": "Die meisten Taufen brauchen keine durchgehende Musik. Stärker sind wenige Stellen, die dem Tag Halt geben.",
+    "items": [
+      {
+        "time": "I.",
+        "kicker": "Ankommen",
+        "title": "Ruhig in den Raum finden",
+        "text": "Vor Beginn kann die Viola Gäste und Familie sammeln. Region, Fahrzeit, Setlänge und Abstimmung mit Kirche oder Rednerin werden individuell geprüft"
+      },
+      {
+        "time": "II.",
+        "kicker": "Taufmoment",
+        "title": "Musik rund um Segen und Wasser",
+        "text": "Ein kurzer Einsatz vor oder nach der Taufhandlung hält den Kernmoment, ohne Worte oder Gebet zu überdecken. jede Familie bringt andere kirchliche, freie oder persönliche Vorstellungen mit"
+      },
+      {
+        "time": "III.",
+        "kicker": "Wunschlied",
+        "title": "Ein Lied mit Familienbezug",
+        "text": "Wenn ein Lied durch die Familie geht, kann es für Solo-Viola reduziert werden und in Nordrhein-Westfalen zum roten Faden des Tages werden."
+      },
+      {
+        "time": "IV.",
+        "kicker": "Feier",
+        "title": "Übergang zur Familienzeit",
+        "text": "Nach Gottesdienst oder Segnung kann Musik Gratulationen, Empfang oder Kaffee sanft öffnen. Kirchen, freie Segnungen, Kapellen, Gärten und Familienfeiern in NRW"
+      }
+    ],
+    "footnote": "Für Taufmusik Nordrhein-Westfalen plane ich die Musik nach Raum, Ablauf, Familie und gewünschter Nähe."
   }
 }

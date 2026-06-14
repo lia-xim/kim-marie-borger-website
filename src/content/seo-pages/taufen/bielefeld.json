@@ -6,71 +6,139 @@
   "targetKeyword": "Taufmusik Bielefeld",
   "intentCluster": "taufen:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-10-review-needed",
   "enabled": true,
-  "seoTitle": "Taufmusik Bielefeld | Musik zur Taufe mit Viola",
-  "seoDescription": "Taufmusik in Bielefeld: sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier. Warm, ruhig und persönlich.",
+  "seoTitle": "Taufmusik Bielefeld | Live-Viola zur Taufe",
+  "seoDescription": "Taufmusik Bielefeld: Live-Viola für Taufe, Segnung, Gottesdienst, Willkommensfest und Familienfeier. Ruhig und persönlich geplant.",
   "hero": {
+    "eyebrow": "Taufmusik",
     "title": "Taufmusik in Bielefeld für einen warmen Anfang.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier in Bielefeld."
+    "lead": "Altstadt, Sparrenburg-Nähe, Teutoburger Wald und Familienfeiern in Ostwestfalen. Ich begleite Taufe, Segnung, Gottesdienst und Familienfeier mit sanfter Solo-Viola.",
+    "badge": "Sanfte Viola für Taufe & Segnung"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Ein kleiner Mensch, ein großer Tag in Bielefeld.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Musik zur Taufe in Bielefeld braucht Ruhe und klare Momente.",
+    "lede": "Taufen werden hier oft klar strukturiert und nicht überladen geplant. Genau darauf stimme ich Stücke, Einsatzpunkte und den Klang der Viola ab.",
     "paragraphs": [
-      "Ob zwischen Sparrenburg, Altstadt, Teutoburger Wald und Ostwestfalen: Eine Taufe braucht Musik, die nicht glänzen will, sondern wärmt. Die Viola klingt ruhig, weich und feierlich, ohne den Gottesdienst oder das Kind zu überfordern.",
-      "Ich stimme die Stücke mit euch und bei Bedarf mit Pfarrer:in oder freier Rednerin ab - für Einzug, Taufhandlung, Segen, Auszug oder einen anschließenden Empfang."
-    ]
+      "Altstadt, Sparrenburg-Nähe, Teutoburger Wald und Familienfeiern in Ostwestfalen. Dadurch verändert sich auch die musikalische Planung: Manche Feiern brauchen einen sehr stillen Anfang, andere einen hellen Auszug oder ein persönliches Familienlied.",
+      "Kirchen, Gemeindesäle, Restaurants und private Räume mit ruhigem Tagesablauf. Die Viola lässt sich dort schlank einbinden, weil sie wenig Aufbau braucht und auch ohne große Technik warm trägt.",
+      "Taufen werden hier oft klar strukturiert und nicht überladen geplant. Deshalb plane ich Taufmusik nicht als kleines Konzert, sondern als Teil des Tages: sie soll die Familie sammeln, die Segnung tragen und danach wieder Raum für Worte lassen.",
+      "längere Anfahrt, Stimmen und ein präzises Startsignal sind besonders hilfreich. Wenn diese Punkte vorab klar sind, kann der erste Ton ruhig entstehen und niemand muss am Tag selbst suchen oder improvisieren.",
+      "Für Taufmusik Bielefeld ist der Klang bewusst klar, sanft und gesammelt. Die Musik darf feierlich sein, aber sie soll ein Kind, Eltern und Paten nicht überfordern.",
+      "Beim Auszug darf die Musik freundlicher werden und den Wechsel in Gratulationen und Familienfeier öffnen.",
+      "Bei sehr kleinen Kindern ist weniger Musik oft besser, wenn sie dafür an den richtigen Stellen steht.",
+      "Ich bespreche mit euch zuerst die Feierform: klassischer Gottesdienst, freie Segnung, Willkommensfest oder eine Kombination mit Familienfeier.",
+      "Wenn eine Pfarrperson, Rednerin oder Kirchenmusikerin beteiligt ist, können die musikalischen Stellen vorab ruhig abgestimmt werden.",
+      "Für Wunschlieder prüfe ich, ob die Melodie solo auf der Viola trägt und ob ein kurzer Ausschnitt stärker ist als die ganze Version.",
+      "Ich achte besonders darauf, wie nah Musik an Worten, Gebet, Taufhandlung oder Segen steht. Je näher sie an einem liturgischen Moment liegt, desto schlichter muss sie beginnen und enden.",
+      "Wenn ein Wunschlied geplant ist, ordne ich es nicht nur musikalisch ein. Entscheidend ist, ob es als Einzug, Moment nach der Taufe, Segen, Auszug oder später bei der Familienfeier am besten wirkt.",
+      "Bei freien Segnungen in Bielefeld kann die Musik flexibler atmen. Dann lassen sich Rituale, Kerzen, Patenbeiträge oder ein kurzer Willkommensmoment sehr persönlich verbinden.",
+      "Bei kirchlichen Taufen in Bielefeld ist die Abstimmung mit Pfarrperson oder Kirchenmusik wichtig. Ich kann die musikalischen Stellen so formulieren, dass sie für die Gemeinde klar und unkompliziert bleiben.",
+      "Auch die Familienfeier danach kann musikalisch begleitet werden. Dann verändert sich die Aufgabe: weg vom liturgischen Rahmen, hin zu Gratulationen, Kaffee, Gesprächen und einem weichen Übergang in den gemeinsamen Nachmittag.",
+      "Diese Seite fokussiert bewusst Taufmusik Bielefeld. Andere Seiten im Cluster behandeln Geige, Viola, Gottesdienst, Familienfeier, Kommunion oder moderne Taufmusik; hier geht es um den konkreten Ort und seine Planung.",
+      "Für die erste Anfrage reichen Datum, Ort, Uhrzeit, Art der Feier, gewünschte Einsatzpunkte und erste Liedideen. Danach kann ich einschätzen, ob zwei, drei oder vier musikalische Momente sinnvoll sind.",
+      "So bleibt Taufmusik in Bielefeld persönlich und zugleich leicht: vorbereitet genug für Kirche oder freie Rede, aber nicht so groß, dass der eigentliche Anlass in den Hintergrund rückt."
+    ],
+    "seal": "Bielefeld\nTaufe\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Taufmusik in Bielefeld.",
+    "title": "FAQ zu Taufmusik Bielefeld",
     "items": [
       {
-        "question": "Begleitest du Taufen in Bielefeld?",
-        "answer": "Ja. Ich spiele bei Taufen, Segnungen, Willkommensfesten und Familienfeiern in Bielefeld - in Kirche, Gemeindehaus, Garten oder privatem Rahmen.",
+        "question": "Spielst du Taufmusik in Bielefeld?",
+        "answer": "Ja. Ich begleite Taufen, Segnungen, Willkommensfeste und Familienfeiern in Bielefeld mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Welche Stücke passen zur Taufe?",
-        "answer": "Sanfte Klassiker wie Ave Maria, Air, Wiegenlieder oder ein persönliches Familienlied passen besonders gut."
+        "question": "Welche Orte passen für Taufmusik in Bielefeld?",
+        "answer": "Kirchen, Gemeindesäle, Restaurants und private Räume mit ruhigem Tagesablauf Wichtig ist, dass die Musik dort ruhig platziert werden kann und der Ablauf vorher klar ist."
       },
       {
-        "question": "Stimmst du dich mit der Kirche ab?",
-        "answer": "Ja. Wenn gewünscht, kläre ich Einsätze und Ablauf direkt mit Pfarrer:in, Musiker:in oder freier Rednerin."
+        "question": "Was ist bei einer Taufe in Bielefeld besonders zu beachten?",
+        "answer": "längere Anfahrt, Stimmen und ein präzises Startsignal sind besonders hilfreich So entsteht ein sicherer Rahmen, auch wenn Familie und Gäste aus verschiedenen Richtungen anreisen."
       },
       {
-        "question": "Kannst du nach der Taufe weiter spielen?",
-        "answer": "Ja. Auf Wunsch begleite ich auch Empfang, Kaffee oder Familienfeier im Anschluss."
+        "question": "Stimmst du dich mit Kirche oder Rednerin ab?",
+        "answer": "Ja. Wenn gewünscht, kläre ich Einsatzpunkte, Aufbau und musikalische Übergänge direkt mit Pfarrperson, Kirchenmusik oder freier Rednerin."
+      },
+      {
+        "question": "Ist Musik auch bei einer freien Segnung möglich?",
+        "answer": "Ja. Freie Segnungen lassen sich oft besonders flexibel mit Musik verbinden, weil Rituale und Worte individuell geplant werden."
+      },
+      {
+        "question": "Kannst du auch ein Familienlied spielen?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf eine ruhige Fassung vor."
+      },
+      {
+        "question": "Warum passt Viola für Taufmusik Bielefeld?",
+        "answer": "Die Viola klingt warm, weich und weniger hell als eine Geige. Dadurch passt sie gut zu Taufe, Segnung und Familienmomenten, ohne den Raum zu überfordern."
+      },
+      {
+        "question": "Welche Informationen helfen für eine Anfrage in Bielefeld?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Wunschlieder."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Taufmusik in Bielefeld mit sanfter Live-Viola"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Taufmusik in Bielefeld im ruhigen Tauf- und Familienrahmen"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Taufmusik in Bielefeld"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Taufe anfragen",
     "title": "Taufmusik Bielefeld anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Taufmusik Bielefeld.",
+    "lead": "Schick mir Datum, Ort, Uhrzeit und eure ersten Liedideen für die Taufe in Bielefeld. Ich melde mich mit einem ruhigen Vorschlag für Ablauf und Musik.",
     "checklist": [
       "Taufmusik Bielefeld",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Taufe, Segnung oder Willkommensfest",
+      "Kirche, Feierort & Wunschlieder"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Taufmusik Bielefeld zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Live-Viola zur Taufe in Bielefeld?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Taufmusik in Bielefeld."
+  },
+  "focus": {
+    "eyebrow": "Ablauf",
+    "title": "Mögliche Einsatzpunkte für Taufmusik in Bielefeld.",
+    "lead": "Die meisten Taufen brauchen keine durchgehende Musik. Stärker sind wenige Stellen, die dem Tag Halt geben.",
+    "items": [
+      {
+        "time": "I.",
+        "kicker": "Ankommen",
+        "title": "Ruhig in den Raum finden",
+        "text": "Vor Beginn kann die Viola Gäste und Familie sammeln. längere Anfahrt, Stimmen und ein präzises Startsignal sind besonders hilfreich"
+      },
+      {
+        "time": "II.",
+        "kicker": "Taufmoment",
+        "title": "Musik rund um Segen und Wasser",
+        "text": "Ein kurzer Einsatz vor oder nach der Taufhandlung hält den Kernmoment, ohne Worte oder Gebet zu überdecken. Taufen werden hier oft klar strukturiert und nicht überladen geplant"
+      },
+      {
+        "time": "III.",
+        "kicker": "Wunschlied",
+        "title": "Ein Lied mit Familienbezug",
+        "text": "Wenn ein Lied durch die Familie geht, kann es für Solo-Viola reduziert werden und in Bielefeld zum roten Faden des Tages werden."
+      },
+      {
+        "time": "IV.",
+        "kicker": "Feier",
+        "title": "Übergang zur Familienzeit",
+        "text": "Nach Gottesdienst oder Segnung kann Musik Gratulationen, Empfang oder Kaffee sanft öffnen. Kirchen, Gemeindesäle, Restaurants und private Räume mit ruhigem Tagesablauf"
+      }
+    ],
+    "footnote": "Für Taufmusik Bielefeld plane ich die Musik nach Raum, Ablauf, Familie und gewünschter Nähe."
   }
 }

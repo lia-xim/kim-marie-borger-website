@@ -1,6 +1,6 @@
 # SEO Page Tracker
 
-Generiert: 2026-06-14T16:03:16.190Z
+Generiert: 2026-06-14T16:19:35.544Z
 
 Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten zu finden, die technisch existieren, aber noch zu aehnlich, zu duenn, nicht sauber im CMS gepflegt oder bei Keywords zu nah an anderen Seiten sind.
 
@@ -13,8 +13,8 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | topic | 137 |
 | CMS-Dokumente vorhanden | 480 |
 | Durchschnitt Keyword-Nahe | 60% |
-| Durchschnitt Content-Aehnlichkeit | 52.5% |
-| Durchschnitt Template-Aehnlichkeit | 87.2% |
+| Durchschnitt Content-Aehnlichkeit | 52.6% |
+| Durchschnitt Template-Aehnlichkeit | 87% |
 
 ## Fortschritt nach Kategorie
 
@@ -25,24 +25,24 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | geburtstage | 65 | 65 | 100% | 0 | 62 | 3 |
 | hochzeiten | 91 | 91 | 100% | 0 | 84 | 7 |
 | konzerte | 59 | 0 | 0% | 14 | 45 | 0 |
-| taufen | 68 | 8 | 11.8% | 14 | 54 | 0 |
+| taufen | 68 | 68 | 100% | 0 | 55 | 13 |
 | unterricht | 59 | 59 | 100% | 0 | 49 | 10 |
 
 ## Risk
 
 | Risiko | Seiten |
 | --- | ---: |
-| high | 28 |
-| low | 54 |
-| medium | 398 |
+| high | 14 |
+| low | 67 |
+| medium | 399 |
 
 ## Actions
 
 | Aktion | Seiten |
 | --- | ---: |
-| expand-copy | 91 |
-| ok | 361 |
-| rewrite-differentiate | 28 |
+| expand-copy | 45 |
+| ok | 421 |
+| rewrite-differentiate | 14 |
 
 ## Priorisierter Backlog
 
@@ -51,15 +51,6 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | high | rewrite-differentiate | topic | [Klassische Musik Event](https://kim-marie-borger.com/konzerte/klassische-musik-event/) | 66.7% | 57.1% | 94.1% | /konzerte/live-musik-event/ |
 | high | rewrite-differentiate | topic | [Live Musik Event](https://kim-marie-borger.com/konzerte/live-musik-event/) | 66.7% | 58.1% | 94.1% | /konzerte/klassische-musik-event/ |
 | high | rewrite-differentiate | topic | [Live Musik Konzert](https://kim-marie-borger.com/konzerte/live-musik-konzert/) | 66.7% | 58.1% | 93.3% | /konzerte/live-musik-event/ |
-| high | rewrite-differentiate | topic | [Geige Taufe](https://kim-marie-borger.com/taufen/geige-taufe/) | 50% | 62.6% | 94.4% | /taufen/bratsche-taufe/ |
-| high | rewrite-differentiate | topic | [Instrumentalmusik Taufe](https://kim-marie-borger.com/taufen/instrumentalmusik-taufe/) | 50% | 62.6% | 94.4% | /taufen/bratsche-taufe/ |
-| high | rewrite-differentiate | topic | [Streichmusik Taufe](https://kim-marie-borger.com/taufen/streichmusik-taufe/) | 50% | 62.6% | 94.4% | /taufen/bratsche-taufe/ |
-| high | rewrite-differentiate | topic | [Bratsche Taufe](https://kim-marie-borger.com/taufen/bratsche-taufe/) | 50% | 62.3% | 94.2% | /taufen/geige-taufe/ |
-| high | rewrite-differentiate | topic | [Musikerin Taufe](https://kim-marie-borger.com/taufen/musikerin-taufe/) | 50% | 62.5% | 94.2% | /taufen/bratsche-taufe/ |
-| high | rewrite-differentiate | topic | [Viola Taufe](https://kim-marie-borger.com/taufen/viola-taufe/) | 50% | 62.5% | 94.2% | /taufen/bratsche-taufe/ |
-| high | rewrite-differentiate | topic | [Musik Kommunion](https://kim-marie-borger.com/taufen/musik-kommunion/) | 50% | 62.6% | 94.2% | /taufen/musik-konfirmation/ |
-| high | rewrite-differentiate | topic | [Musik Konfirmation](https://kim-marie-borger.com/taufen/musik-konfirmation/) | 50% | 62.6% | 94.2% | /taufen/musik-kommunion/ |
-| high | rewrite-differentiate | topic | [Musik zur Segnung](https://kim-marie-borger.com/taufen/musik-segnung/) | 50% | 62.6% | 94.2% | /taufen/musik-kommunion/ |
 | high | rewrite-differentiate | topic | [Bratsche Konzert](https://kim-marie-borger.com/konzerte/bratsche-konzert/) | 50% | 57.1% | 93.1% | /konzerte/viola-konzert/ |
 | high | rewrite-differentiate | topic | [Musik Kulturabend](https://kim-marie-borger.com/konzerte/musik-kulturabend/) | 50% | 58.1% | 93.1% | /konzerte/musik-lesung/ |
 | high | rewrite-differentiate | topic | [Musik Salonkonzert](https://kim-marie-borger.com/konzerte/musik-salonkonzert/) | 50% | 57.9% | 93.1% | /konzerte/musik-kulturabend/ |
@@ -68,16 +59,9 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | high | rewrite-differentiate | topic | [Musik Vernissage](https://kim-marie-borger.com/konzerte/musik-vernissage/) | 50% | 58.1% | 93.1% | /konzerte/musik-kulturabend/ |
 | high | rewrite-differentiate | local | [Viola Konzert Kreis Mettmann](https://kim-marie-borger.com/konzerte/kreis-mettmann/) | 85.7% | 55.3% | 94.9% | /konzerte/mettmann/ |
 | high | rewrite-differentiate | local | [Viola Konzert Mettmann](https://kim-marie-borger.com/konzerte/mettmann/) | 85.7% | 55.3% | 94.9% | /konzerte/kreis-mettmann/ |
-| high | rewrite-differentiate | local | [Taufmusik Kreis Mettmann](https://kim-marie-borger.com/taufen/kreis-mettmann/) | 80% | 57.9% | 94.9% | /taufen/mettmann/ |
-| high | rewrite-differentiate | local | [Taufmusik Mettmann](https://kim-marie-borger.com/taufen/mettmann/) | 80% | 57.9% | 94.9% | /taufen/kreis-mettmann/ |
 | high | rewrite-differentiate | local | [Viola Konzert Bottrop](https://kim-marie-borger.com/konzerte/bottrop/) | 66.7% | 54.4% | 93.4% | /konzerte/aachen/ |
 | high | rewrite-differentiate | local | [Viola Konzert Recklinghausen](https://kim-marie-borger.com/konzerte/recklinghausen/) | 66.7% | 54.2% | 93.4% | /konzerte/aachen/ |
 | high | rewrite-differentiate | local | [Viola Konzert Münster](https://kim-marie-borger.com/konzerte/muenster/) | 66.7% | 54.4% | 93.1% | /konzerte/aachen/ |
-| high | rewrite-differentiate | local | [Taufmusik Bottrop](https://kim-marie-borger.com/taufen/bottrop/) | 50% | 56.7% | 93.4% | /taufen/aachen/ |
-| high | rewrite-differentiate | local | [Taufmusik Recklinghausen](https://kim-marie-borger.com/taufen/recklinghausen/) | 50% | 56.5% | 93.4% | /taufen/aachen/ |
-| high | rewrite-differentiate | local | [Taufmusik Münster](https://kim-marie-borger.com/taufen/muenster/) | 50% | 56.7% | 93.2% | /taufen/aachen/ |
-| medium | expand-copy | topic | [Musik Familienfeier Taufe](https://kim-marie-borger.com/taufen/musik-familienfeier-taufe/) | 80% | 61.2% | 92.7% | /taufen/musik-taufe/ |
-| medium | expand-copy | topic | [Musik kirchliche Feier](https://kim-marie-borger.com/taufen/kirchliche-feier/) | 40% | 60.7% | 92.6% | /taufen/musik-kommunion/ |
 | medium | expand-copy | topic | [Bratschenkonzert](https://kim-marie-borger.com/konzerte/bratschenkonzert/) | 0% | 55.1% | 90.6% | - |
 | medium | expand-copy | local | [Viola Konzert Neuss](https://kim-marie-borger.com/konzerte/neuss/) | 75% | 54.3% | 92.5% | /konzerte/rhein-kreis-neuss/ |
 | medium | expand-copy | local | [Viola Konzert Rhein-Kreis Neuss](https://kim-marie-borger.com/konzerte/rhein-kreis-neuss/) | 75% | 53.8% | 91.9% | /konzerte/neuss/ |
@@ -95,7 +79,6 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | medium | expand-copy | local | [Viola Konzert Solingen](https://kim-marie-borger.com/konzerte/solingen/) | 66.7% | 53.6% | 92.7% | /konzerte/aachen/ |
 | medium | expand-copy | local | [Viola Konzert Unna](https://kim-marie-borger.com/konzerte/unna/) | 66.7% | 53.6% | 92.7% | /konzerte/aachen/ |
 | medium | expand-copy | local | [Viola Konzert Bielefeld](https://kim-marie-borger.com/konzerte/bielefeld/) | 66.7% | 54.2% | 92.7% | /konzerte/aachen/ |
-| medium | expand-copy | local | [Taufmusik Neuss](https://kim-marie-borger.com/taufen/neuss/) | 66.7% | 56.6% | 92.6% | /taufen/rhein-kreis-neuss/ |
 | medium | expand-copy | local | [Viola Konzert Gelsenkirchen](https://kim-marie-borger.com/konzerte/gelsenkirchen/) | 66.7% | 54% | 92.5% | /konzerte/aachen/ |
 | medium | expand-copy | local | [Viola Konzert Oberhausen](https://kim-marie-borger.com/konzerte/oberhausen/) | 66.7% | 54% | 92.5% | /konzerte/aachen/ |
 | medium | expand-copy | local | [Viola Konzert Dormagen](https://kim-marie-borger.com/konzerte/dormagen/) | 66.7% | 53.6% | 92.5% | /konzerte/aachen/ |
@@ -121,10 +104,6 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | medium | expand-copy | local | [Viola Konzert Essen](https://kim-marie-borger.com/konzerte/essen/) | 66.7% | 54% | 92.1% | /konzerte/aachen/ |
 | medium | expand-copy | local | [Viola Konzert Mönchengladbach](https://kim-marie-borger.com/konzerte/moenchengladbach/) | 66.7% | 53.8% | 92.1% | /konzerte/aachen/ |
 | medium | expand-copy | local | [Viola Konzert Siegen](https://kim-marie-borger.com/konzerte/siegen/) | 66.7% | 53.4% | 92.1% | /konzerte/aachen/ |
-| medium | expand-copy | local | [Taufmusik Rhein-Kreis Neuss](https://kim-marie-borger.com/taufen/rhein-kreis-neuss/) | 66.7% | 55.8% | 91.9% | /taufen/neuss/ |
-| medium | expand-copy | local | [Taufmusik Mülheim an der Ruhr](https://kim-marie-borger.com/taufen/muelheim-an-der-ruhr/) | 66.7% | 53.5% | 90.9% | /taufen/rhein-ruhr/ |
-| medium | expand-copy | local | [Taufmusik Rhein-Ruhr](https://kim-marie-borger.com/taufen/rhein-ruhr/) | 66.7% | 53.3% | 90.9% | /taufen/monheim-am-rhein/ |
-| medium | expand-copy | local | [Taufmusik Monheim am Rhein](https://kim-marie-borger.com/taufen/monheim-am-rhein/) | 66.7% | 53.7% | 90.9% | /taufen/rhein-ruhr/ |
 | medium | expand-copy | local | [Viola Konzert Bergisches Land](https://kim-marie-borger.com/konzerte/bergisches-land/) | 57.1% | 51.2% | 90.4% | /konzerte/aachen/ |
 | medium | expand-copy | local | [Viola Konzert Nordrhein-Westfalen](https://kim-marie-borger.com/konzerte/nordrhein-westfalen/) | 57.1% | 51.7% | 89.7% | /konzerte/aachen/ |
 | medium | expand-copy | local | [Viola Konzert Bergisch Gladbach](https://kim-marie-borger.com/konzerte/bergisch-gladbach/) | 57.1% | 51.7% | 89.5% | /konzerte/aachen/ |

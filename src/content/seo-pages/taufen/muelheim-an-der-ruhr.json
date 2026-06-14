@@ -6,71 +6,139 @@
   "targetKeyword": "Taufmusik Mülheim an der Ruhr",
   "intentCluster": "taufen:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-10-review-needed",
   "enabled": true,
-  "seoTitle": "Taufmusik Mülheim an der Ruhr | Musik zur Taufe mit Viola",
-  "seoDescription": "Taufmusik in Mülheim an der Ruhr: sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier. Warm, ruhig und persönlich.",
+  "seoTitle": "Taufmusik Mülheim an der Ruhr | Live-Viola zur Taufe",
+  "seoDescription": "Taufmusik Mülheim an der Ruhr: Live-Viola für Taufe, Segnung, Gottesdienst, Willkommensfest und Familienfeier. Ruhig und persönlich geplant.",
   "hero": {
+    "eyebrow": "Taufmusik",
     "title": "Taufmusik in Mülheim an der Ruhr für einen warmen Anfang.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier in Mülheim an der Ruhr."
+    "lead": "Ruhrtal, Broich, Saarn und Taufen mit grüner Stadtnähe. Ich begleite Taufe, Segnung, Gottesdienst und Familienfeier mit sanfter Solo-Viola.",
+    "badge": "Sanfte Viola für Taufe & Segnung"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Ein kleiner Mensch, ein großer Tag in Mülheim an der Ruhr.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Musik zur Taufe in Mülheim an der Ruhr braucht Ruhe und klare Momente.",
+    "lede": "Taufen wirken hier oft ruhig, hell und nah an der Natur. Genau darauf stimme ich Stücke, Einsatzpunkte und den Klang der Viola ab.",
     "paragraphs": [
-      "Ob zwischen Ruhrtal, Schloss Broich, Altstadt und kurzen Wegen nach Essen und Duisburg: Eine Taufe braucht Musik, die nicht glänzen will, sondern wärmt. Die Viola klingt ruhig, weich und feierlich, ohne den Gottesdienst oder das Kind zu überfordern.",
-      "Ich stimme die Stücke mit euch und bei Bedarf mit Pfarrer:in oder freier Rednerin ab - für Einzug, Taufhandlung, Segen, Auszug oder einen anschließenden Empfang."
-    ]
+      "Ruhrtal, Broich, Saarn und Taufen mit grüner Stadtnähe. Dadurch verändert sich auch die musikalische Planung: Manche Feiern brauchen einen sehr stillen Anfang, andere einen hellen Auszug oder ein persönliches Familienlied.",
+      "Kirchen, Kapellen, Restaurants am Wasser, Gärten und Familienräume. Die Viola lässt sich dort schlank einbinden, weil sie wenig Aufbau braucht und auch ohne große Technik warm trägt.",
+      "Taufen wirken hier oft ruhig, hell und nah an der Natur. Deshalb plane ich Taufmusik nicht als kleines Konzert, sondern als Teil des Tages: sie soll die Familie sammeln, die Segnung tragen und danach wieder Raum für Worte lassen.",
+      "Wege am Wasser, Parken und trockener Aufbauplatz sollten vorab geklärt sein. Wenn diese Punkte vorab klar sind, kann der erste Ton ruhig entstehen und niemand muss am Tag selbst suchen oder improvisieren.",
+      "Für Taufmusik Mülheim an der Ruhr ist der Klang bewusst sanft, grün und getragen. Die Musik darf feierlich sein, aber sie soll ein Kind, Eltern und Paten nicht überfordern.",
+      "Ein ruhiges Stück vor Beginn hilft, wenn Familie, Paten und Gäste erst im Raum ankommen müssen.",
+      "Beim Auszug darf die Musik freundlicher werden und den Wechsel in Gratulationen und Familienfeier öffnen.",
+      "Für Wunschlieder prüfe ich, ob die Melodie solo auf der Viola trägt und ob ein kurzer Ausschnitt stärker ist als die ganze Version.",
+      "Ich bespreche mit euch zuerst die Feierform: klassischer Gottesdienst, freie Segnung, Willkommensfest oder eine Kombination mit Familienfeier.",
+      "Wenn eine Pfarrperson, Rednerin oder Kirchenmusikerin beteiligt ist, können die musikalischen Stellen vorab ruhig abgestimmt werden.",
+      "Ich achte besonders darauf, wie nah Musik an Worten, Gebet, Taufhandlung oder Segen steht. Je näher sie an einem liturgischen Moment liegt, desto schlichter muss sie beginnen und enden.",
+      "Wenn ein Wunschlied geplant ist, ordne ich es nicht nur musikalisch ein. Entscheidend ist, ob es als Einzug, Moment nach der Taufe, Segen, Auszug oder später bei der Familienfeier am besten wirkt.",
+      "Bei freien Segnungen in Mülheim an der Ruhr kann die Musik flexibler atmen. Dann lassen sich Rituale, Kerzen, Patenbeiträge oder ein kurzer Willkommensmoment sehr persönlich verbinden.",
+      "Bei kirchlichen Taufen in Mülheim an der Ruhr ist die Abstimmung mit Pfarrperson oder Kirchenmusik wichtig. Ich kann die musikalischen Stellen so formulieren, dass sie für die Gemeinde klar und unkompliziert bleiben.",
+      "Auch die Familienfeier danach kann musikalisch begleitet werden. Dann verändert sich die Aufgabe: weg vom liturgischen Rahmen, hin zu Gratulationen, Kaffee, Gesprächen und einem weichen Übergang in den gemeinsamen Nachmittag.",
+      "Diese Seite fokussiert bewusst Taufmusik Mülheim an der Ruhr. Andere Seiten im Cluster behandeln Geige, Viola, Gottesdienst, Familienfeier, Kommunion oder moderne Taufmusik; hier geht es um den konkreten Ort und seine Planung.",
+      "Für die erste Anfrage reichen Datum, Ort, Uhrzeit, Art der Feier, gewünschte Einsatzpunkte und erste Liedideen. Danach kann ich einschätzen, ob zwei, drei oder vier musikalische Momente sinnvoll sind.",
+      "So bleibt Taufmusik in Mülheim an der Ruhr persönlich und zugleich leicht: vorbereitet genug für Kirche oder freie Rede, aber nicht so groß, dass der eigentliche Anlass in den Hintergrund rückt."
+    ],
+    "seal": "Mülheim an der Ruhr\nTaufe\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Taufmusik in Mülheim an der Ruhr.",
+    "title": "FAQ zu Taufmusik Mülheim an der Ruhr",
     "items": [
       {
-        "question": "Begleitest du Taufen in Mülheim an der Ruhr?",
-        "answer": "Ja. Ich spiele bei Taufen, Segnungen, Willkommensfesten und Familienfeiern in Mülheim an der Ruhr - in Kirche, Gemeindehaus, Garten oder privatem Rahmen.",
+        "question": "Spielst du Taufmusik in Mülheim an der Ruhr?",
+        "answer": "Ja. Ich begleite Taufen, Segnungen, Willkommensfeste und Familienfeiern in Mülheim an der Ruhr mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Welche Stücke passen zur Taufe?",
-        "answer": "Sanfte Klassiker wie Ave Maria, Air, Wiegenlieder oder ein persönliches Familienlied passen besonders gut."
+        "question": "Welche Orte passen für Taufmusik in Mülheim an der Ruhr?",
+        "answer": "Kirchen, Kapellen, Restaurants am Wasser, Gärten und Familienräume Wichtig ist, dass die Musik dort ruhig platziert werden kann und der Ablauf vorher klar ist."
       },
       {
-        "question": "Stimmst du dich mit der Kirche ab?",
-        "answer": "Ja. Wenn gewünscht, kläre ich Einsätze und Ablauf direkt mit Pfarrer:in, Musiker:in oder freier Rednerin."
+        "question": "Was ist bei einer Taufe in Mülheim an der Ruhr besonders zu beachten?",
+        "answer": "Wege am Wasser, Parken und trockener Aufbauplatz sollten vorab geklärt sein So entsteht ein sicherer Rahmen, auch wenn Familie und Gäste aus verschiedenen Richtungen anreisen."
+      },
+      {
+        "question": "Stimmst du dich mit Kirche oder Rednerin ab?",
+        "answer": "Ja. Wenn gewünscht, kläre ich Einsatzpunkte, Aufbau und musikalische Übergänge direkt mit Pfarrperson, Kirchenmusik oder freier Rednerin."
+      },
+      {
+        "question": "Kannst du auch ein Familienlied spielen?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf eine ruhige Fassung vor."
       },
       {
         "question": "Kannst du nach der Taufe weiter spielen?",
-        "answer": "Ja. Auf Wunsch begleite ich auch Empfang, Kaffee oder Familienfeier im Anschluss."
+        "answer": "Ja. Auf Wunsch begleite ich auch Gratulation, Empfang, Kaffee oder die Familienfeier im Anschluss mit ruhiger Musik."
+      },
+      {
+        "question": "Warum passt Viola für Taufmusik Mülheim an der Ruhr?",
+        "answer": "Die Viola klingt warm, weich und weniger hell als eine Geige. Dadurch passt sie gut zu Taufe, Segnung und Familienmomenten, ohne den Raum zu überfordern."
+      },
+      {
+        "question": "Welche Informationen helfen für eine Anfrage in Mülheim an der Ruhr?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Wunschlieder."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Taufmusik in Mülheim an der Ruhr mit sanfter Live-Viola"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Taufmusik in Mülheim an der Ruhr im ruhigen Tauf- und Familienrahmen"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Taufmusik in Mülheim an der Ruhr"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Taufe anfragen",
     "title": "Taufmusik Mülheim an der Ruhr anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Taufmusik Mülheim an der Ruhr.",
+    "lead": "Schick mir Datum, Ort, Uhrzeit und eure ersten Liedideen für die Taufe in Mülheim an der Ruhr. Ich melde mich mit einem ruhigen Vorschlag für Ablauf und Musik.",
     "checklist": [
       "Taufmusik Mülheim an der Ruhr",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Taufe, Segnung oder Willkommensfest",
+      "Kirche, Feierort & Wunschlieder"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Taufmusik Mülheim an der Ruhr zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Live-Viola zur Taufe in Mülheim an der Ruhr?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Taufmusik in Mülheim an der Ruhr."
+  },
+  "focus": {
+    "eyebrow": "Ablauf",
+    "title": "Mögliche Einsatzpunkte für Taufmusik in Mülheim an der Ruhr.",
+    "lead": "Die meisten Taufen brauchen keine durchgehende Musik. Stärker sind wenige Stellen, die dem Tag Halt geben.",
+    "items": [
+      {
+        "time": "I.",
+        "kicker": "Ankommen",
+        "title": "Ruhig in den Raum finden",
+        "text": "Vor Beginn kann die Viola Gäste und Familie sammeln. Wege am Wasser, Parken und trockener Aufbauplatz sollten vorab geklärt sein"
+      },
+      {
+        "time": "II.",
+        "kicker": "Taufmoment",
+        "title": "Musik rund um Segen und Wasser",
+        "text": "Ein kurzer Einsatz vor oder nach der Taufhandlung hält den Kernmoment, ohne Worte oder Gebet zu überdecken. Taufen wirken hier oft ruhig, hell und nah an der Natur"
+      },
+      {
+        "time": "III.",
+        "kicker": "Wunschlied",
+        "title": "Ein Lied mit Familienbezug",
+        "text": "Wenn ein Lied durch die Familie geht, kann es für Solo-Viola reduziert werden und in Mülheim an der Ruhr zum roten Faden des Tages werden."
+      },
+      {
+        "time": "IV.",
+        "kicker": "Feier",
+        "title": "Übergang zur Familienzeit",
+        "text": "Nach Gottesdienst oder Segnung kann Musik Gratulationen, Empfang oder Kaffee sanft öffnen. Kirchen, Kapellen, Restaurants am Wasser, Gärten und Familienräume"
+      }
+    ],
+    "footnote": "Für Taufmusik Mülheim an der Ruhr plane ich die Musik nach Raum, Ablauf, Familie und gewünschter Nähe."
   }
 }

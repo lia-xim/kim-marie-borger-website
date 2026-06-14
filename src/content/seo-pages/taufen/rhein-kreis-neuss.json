@@ -6,71 +6,139 @@
   "targetKeyword": "Taufmusik Rhein-Kreis Neuss",
   "intentCluster": "taufen:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-10-review-needed",
   "enabled": true,
-  "seoTitle": "Taufmusik Rhein-Kreis Neuss | Musik zur Taufe mit Viola",
-  "seoDescription": "Taufmusik im Rhein-Kreis Neuss: sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier. Warm, ruhig und persönlich.",
+  "seoTitle": "Taufmusik Rhein-Kreis Neuss | Live-Viola zur Taufe",
+  "seoDescription": "Taufmusik Rhein-Kreis Neuss: Live-Viola für Taufe, Segnung, Gottesdienst, Willkommensfest und Familienfeier. Ruhig und persönlich geplant.",
   "hero": {
+    "eyebrow": "Taufmusik",
     "title": "Taufmusik im Rhein-Kreis Neuss für einen warmen Anfang.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung, Willkommensfest, Gottesdienst und Familienfeier im Rhein-Kreis Neuss."
+    "lead": "Neuss, Meerbusch, Dormagen, Grevenbroich und Rheinorte zwischen Düsseldorf, Köln und Niederrhein. Ich begleite Taufe, Segnung, Gottesdienst und Familienfeier mit sanfter Solo-Viola.",
+    "badge": "Sanfte Viola für Taufe & Segnung"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Ein kleiner Mensch, ein großer Tag im Rhein-Kreis Neuss.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Musik zur Taufe im Rhein-Kreis Neuss braucht Ruhe und klare Momente.",
+    "lede": "Familien kommen häufig aus unterschiedlichen Orten zusammen. Genau darauf stimme ich Stücke, Einsatzpunkte und den Klang der Viola ab.",
     "paragraphs": [
-      "Ob rund um Neuss, Dormagen, Meerbusch, Kaarst, Grevenbroich und den Rhein: Eine Taufe braucht Musik, die nicht glänzen will, sondern wärmt. Die Viola klingt ruhig, weich und feierlich, ohne den Gottesdienst oder das Kind zu überfordern.",
-      "Ich stimme die Stücke mit euch und bei Bedarf mit Pfarrer:in oder freier Rednerin ab - für Einzug, Taufhandlung, Segen, Auszug oder einen anschließenden Empfang."
-    ]
+      "Neuss, Meerbusch, Dormagen, Grevenbroich und Rheinorte zwischen Düsseldorf, Köln und Niederrhein. Dadurch verändert sich auch die musikalische Planung: Manche Feiern brauchen einen sehr stillen Anfang, andere einen hellen Auszug oder ein persönliches Familienlied.",
+      "Kirchen, Rheinorte, Gemeindesäle, Gärten und Restaurants in mehreren Städten. Die Viola lässt sich dort schlank einbinden, weil sie wenig Aufbau braucht und auch ohne große Technik warm trägt.",
+      "Familien kommen häufig aus unterschiedlichen Orten zusammen. Deshalb plane ich Taufmusik nicht als kleines Konzert, sondern als Teil des Tages: sie soll die Familie sammeln, die Segnung tragen und danach wieder Raum für Worte lassen.",
+      "Stadtgrenzen, Fahrzeit und genaue Location sollten flexibel, aber verbindlich geplant werden. Wenn diese Punkte vorab klar sind, kann der erste Ton ruhig entstehen und niemand muss am Tag selbst suchen oder improvisieren.",
+      "Für Taufmusik Rhein-Kreis Neuss ist der Klang bewusst regional, rheinisch und verbindend. Die Musik darf feierlich sein, aber sie soll ein Kind, Eltern und Paten nicht überfordern.",
+      "Ein ruhiges Stück vor Beginn hilft, wenn Familie, Paten und Gäste erst im Raum ankommen müssen.",
+      "Beim Auszug darf die Musik freundlicher werden und den Wechsel in Gratulationen und Familienfeier öffnen.",
+      "Für Wunschlieder prüfe ich, ob die Melodie solo auf der Viola trägt und ob ein kurzer Ausschnitt stärker ist als die ganze Version.",
+      "Ich bespreche mit euch zuerst die Feierform: klassischer Gottesdienst, freie Segnung, Willkommensfest oder eine Kombination mit Familienfeier.",
+      "Wenn eine Pfarrperson, Rednerin oder Kirchenmusikerin beteiligt ist, können die musikalischen Stellen vorab ruhig abgestimmt werden.",
+      "Ich achte besonders darauf, wie nah Musik an Worten, Gebet, Taufhandlung oder Segen steht. Je näher sie an einem liturgischen Moment liegt, desto schlichter muss sie beginnen und enden.",
+      "Wenn ein Wunschlied geplant ist, ordne ich es nicht nur musikalisch ein. Entscheidend ist, ob es als Einzug, Moment nach der Taufe, Segen, Auszug oder später bei der Familienfeier am besten wirkt.",
+      "Bei freien Segnungen im Rhein-Kreis Neuss kann die Musik flexibler atmen. Dann lassen sich Rituale, Kerzen, Patenbeiträge oder ein kurzer Willkommensmoment sehr persönlich verbinden.",
+      "Bei kirchlichen Taufen im Rhein-Kreis Neuss ist die Abstimmung mit Pfarrperson oder Kirchenmusik wichtig. Ich kann die musikalischen Stellen so formulieren, dass sie für die Gemeinde klar und unkompliziert bleiben.",
+      "Auch die Familienfeier danach kann musikalisch begleitet werden. Dann verändert sich die Aufgabe: weg vom liturgischen Rahmen, hin zu Gratulationen, Kaffee, Gesprächen und einem weichen Übergang in den gemeinsamen Nachmittag.",
+      "Diese Seite fokussiert bewusst Taufmusik Rhein-Kreis Neuss. Andere Seiten im Cluster behandeln Geige, Viola, Gottesdienst, Familienfeier, Kommunion oder moderne Taufmusik; hier geht es um den konkreten Ort und seine Planung.",
+      "Für die erste Anfrage reichen Datum, Ort, Uhrzeit, Art der Feier, gewünschte Einsatzpunkte und erste Liedideen. Danach kann ich einschätzen, ob zwei, drei oder vier musikalische Momente sinnvoll sind.",
+      "So bleibt Taufmusik im Rhein-Kreis Neuss persönlich und zugleich leicht: vorbereitet genug für Kirche oder freie Rede, aber nicht so groß, dass der eigentliche Anlass in den Hintergrund rückt."
+    ],
+    "seal": "Rhein-Kreis Neuss\nTaufe\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Taufmusik im Rhein-Kreis Neuss.",
+    "title": "FAQ zu Taufmusik Rhein-Kreis Neuss",
     "items": [
       {
-        "question": "Begleitest du Taufen im Rhein-Kreis Neuss?",
-        "answer": "Ja. Ich spiele bei Taufen, Segnungen, Willkommensfesten und Familienfeiern im Rhein-Kreis Neuss - in Kirche, Gemeindehaus, Garten oder privatem Rahmen.",
+        "question": "Spielst du Taufmusik im Rhein-Kreis Neuss?",
+        "answer": "Ja. Ich begleite Taufen, Segnungen, Willkommensfeste und Familienfeiern im Rhein-Kreis Neuss mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Welche Stücke passen zur Taufe?",
-        "answer": "Sanfte Klassiker wie Ave Maria, Air, Wiegenlieder oder ein persönliches Familienlied passen besonders gut."
+        "question": "Welche Orte passen für Taufmusik im Rhein-Kreis Neuss?",
+        "answer": "Kirchen, Rheinorte, Gemeindesäle, Gärten und Restaurants in mehreren Städten Wichtig ist, dass die Musik dort ruhig platziert werden kann und der Ablauf vorher klar ist."
       },
       {
-        "question": "Stimmst du dich mit der Kirche ab?",
-        "answer": "Ja. Wenn gewünscht, kläre ich Einsätze und Ablauf direkt mit Pfarrer:in, Musiker:in oder freier Rednerin."
+        "question": "Was ist bei einer Taufe im Rhein-Kreis Neuss besonders zu beachten?",
+        "answer": "Stadtgrenzen, Fahrzeit und genaue Location sollten flexibel, aber verbindlich geplant werden So entsteht ein sicherer Rahmen, auch wenn Familie und Gäste aus verschiedenen Richtungen anreisen."
+      },
+      {
+        "question": "Stimmst du dich mit Kirche oder Rednerin ab?",
+        "answer": "Ja. Wenn gewünscht, kläre ich Einsatzpunkte, Aufbau und musikalische Übergänge direkt mit Pfarrperson, Kirchenmusik oder freier Rednerin."
+      },
+      {
+        "question": "Kannst du auch ein Familienlied spielen?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf eine ruhige Fassung vor."
       },
       {
         "question": "Kannst du nach der Taufe weiter spielen?",
-        "answer": "Ja. Auf Wunsch begleite ich auch Empfang, Kaffee oder Familienfeier im Anschluss."
+        "answer": "Ja. Auf Wunsch begleite ich auch Gratulation, Empfang, Kaffee oder die Familienfeier im Anschluss mit ruhiger Musik."
+      },
+      {
+        "question": "Warum passt Viola für Taufmusik Rhein-Kreis Neuss?",
+        "answer": "Die Viola klingt warm, weich und weniger hell als eine Geige. Dadurch passt sie gut zu Taufe, Segnung und Familienmomenten, ohne den Raum zu überfordern."
+      },
+      {
+        "question": "Welche Informationen helfen für eine Anfrage im Rhein-Kreis Neuss?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Wunschlieder."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Taufmusik im Rhein-Kreis Neuss mit sanfter Live-Viola"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Taufmusik im Rhein-Kreis Neuss im ruhigen Tauf- und Familienrahmen"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Taufmusik im Rhein-Kreis Neuss"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Taufe anfragen",
     "title": "Taufmusik Rhein-Kreis Neuss anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Taufmusik Rhein-Kreis Neuss.",
+    "lead": "Schick mir Datum, Ort, Uhrzeit und eure ersten Liedideen für die Taufe im Rhein-Kreis Neuss. Ich melde mich mit einem ruhigen Vorschlag für Ablauf und Musik.",
     "checklist": [
       "Taufmusik Rhein-Kreis Neuss",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Taufe, Segnung oder Willkommensfest",
+      "Kirche, Feierort & Wunschlieder"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Taufmusik Rhein-Kreis Neuss zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Live-Viola zur Taufe im Rhein-Kreis Neuss?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Taufmusik im Rhein-Kreis Neuss."
+  },
+  "focus": {
+    "eyebrow": "Ablauf",
+    "title": "Mögliche Einsatzpunkte für Taufmusik im Rhein-Kreis Neuss.",
+    "lead": "Die meisten Taufen brauchen keine durchgehende Musik. Stärker sind wenige Stellen, die dem Tag Halt geben.",
+    "items": [
+      {
+        "time": "I.",
+        "kicker": "Ankommen",
+        "title": "Ruhig in den Raum finden",
+        "text": "Vor Beginn kann die Viola Gäste und Familie sammeln. Stadtgrenzen, Fahrzeit und genaue Location sollten flexibel, aber verbindlich geplant werden"
+      },
+      {
+        "time": "II.",
+        "kicker": "Taufmoment",
+        "title": "Musik rund um Segen und Wasser",
+        "text": "Ein kurzer Einsatz vor oder nach der Taufhandlung hält den Kernmoment, ohne Worte oder Gebet zu überdecken. Familien kommen häufig aus unterschiedlichen Orten zusammen"
+      },
+      {
+        "time": "III.",
+        "kicker": "Wunschlied",
+        "title": "Ein Lied mit Familienbezug",
+        "text": "Wenn ein Lied durch die Familie geht, kann es für Solo-Viola reduziert werden und im Rhein-Kreis Neuss zum roten Faden des Tages werden."
+      },
+      {
+        "time": "IV.",
+        "kicker": "Feier",
+        "title": "Übergang zur Familienzeit",
+        "text": "Nach Gottesdienst oder Segnung kann Musik Gratulationen, Empfang oder Kaffee sanft öffnen. Kirchen, Rheinorte, Gemeindesäle, Gärten und Restaurants in mehreren Städten"
+      }
+    ],
+    "footnote": "Für Taufmusik Rhein-Kreis Neuss plane ich die Musik nach Raum, Ablauf, Familie und gewünschter Nähe."
   }
 }

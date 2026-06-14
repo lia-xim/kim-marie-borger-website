@@ -6,69 +6,139 @@
   "targetKeyword": "Musik Kommunion",
   "intentCluster": "taufen:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-10-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Kommunion | Taufmusik mit Live-Viola",
-  "seoDescription": "Musik Kommunion: Sanfte Live-Viola für Taufe, Segnung und Familienfeier. Mit Kirche und Ablauf passend abgestimmt.",
+  "seoTitle": "Musik Kommunion | Live-Viola",
+  "seoDescription": "Musik Kommunion: sanfte Solo-Viola für Taufe, Segnung, Gottesdienst und Familienfeier. Persönlich und ruhig geplant.",
   "hero": {
-    "title": "Musik Kommunion, persönlich geplant und live begleitet.",
-    "lead": "Sanfte Live-Viola für Taufe, Segnung und familiäre Gottesdienste. Diese Seite bündelt den Suchintent \"Musik Kommunion\" für Kommunion, Familiengottesdienst und anschließende Feier."
+    "eyebrow": "Taufmusik",
+    "title": "Musik zur Kommunion und zur Familienfeier.",
+    "lead": "Kommunion ist nicht Taufe, gehört aber in denselben kirchlichen Familiencluster. Ich plane Solo-Viola so, dass Musik, Worte, Raum und Familie zusammenpassen.",
+    "badge": "Sanfte Viola für Familie & Kirche"
   },
   "split": {
-    "eyebrow": "Kirchliche Feier",
-    "title": "Taufmusik soll wärmen, nicht überfordern.",
-    "lede": "Bei Taufe, Segnung, Kommunion oder Konfirmation ist Musik Teil eines ruhigen, familiären Rahmens. Für musik kommunion zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Musik Kommunion braucht einen eigenen Schwerpunkt.",
+    "lede": "Familien, die Erstkommunion oder Kommunionfeier musikalisch begleiten möchten suchen Musik für Kirche, Empfang, Restaurant, Zuhause oder Familienfeier nach der Messe. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
     "paragraphs": [
-      "Musik Kommunion wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für die kirchliche Feier.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Familie und Gemeinde für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
-    ]
+      "Kommunion ist nicht Taufe, gehört aber in denselben kirchlichen Familiencluster.",
+      "Ich begleite ruhige Momente im Gottesdienst oder dezente Musik bei der anschließenden Familienfeier.",
+      "Diese Seite muss klar von Taufseiten getrennt bleiben, weil Kind, Anlass und liturgische Bedeutung anders sind.",
+      "Wichtig sind Gottesdienstform, Gemeindevorgaben, Feierort und ob Musik religiös oder familiär wirken soll.",
+      "Solo-Viola kann den Tag würdigen, ohne den Ablauf einer Kommunionfeier zu überladen.",
+      "Bei Musik Kommunion geht es zuerst um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
+      "Wenn mehrere Kinder getauft werden, plane ich die Musik so, dass der Gottesdienst nicht unnötig länger wird.",
+      "Nach der Taufhandlung kann ein kurzer musikalischer Moment stärker wirken als ein langes Zusatzprogramm.",
+      "Die Auswahl der Stücke entsteht aus Raum, Familiengefühl und gewünschter Stimmung, nicht aus einer pauschalen Taufmusik-Liste.",
+      "Organisatorisch reichen zuerst Datum, Ort, Uhrzeit, Art der Feier und zwei bis drei musikalische Wünsche.",
+      "Ich bespreche mit euch zuerst die Feierform: klassischer Gottesdienst, freie Segnung, Willkommensfest oder eine Kombination mit Familienfeier.",
+      "Ich wähle Stücke danach aus, ob sie auf der Viola wirklich funktionieren. Nicht jedes bekannte Lied behält ohne Text dieselbe Wirkung, und nicht jeder Klassiker passt automatisch zu Kind, Raum und Familie.",
+      "Die Länge ist ebenfalls wichtig. Ein kurzer musikalischer Ausschnitt kann stärker sein als eine vollständige Version, wenn er genau an der richtigen Stelle steht.",
+      "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken.",
+      "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten.",
+      "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
+      "Diese Seite bleibt bewusst bei Musik Kommunion. Andere Seiten im Cluster übernehmen Orte, Instrumente, Gottesdienst, Kirche, Kommunion, Konfirmation oder Familienfeier. So wird klar, welcher Suchintent hier beantwortet wird.",
+      "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln."
+    ],
+    "seal": "Musik Kommunion\nTaufe\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik Kommunion.",
+    "title": "FAQ zu Musik Kommunion",
     "items": [
       {
-        "question": "Passt Musik Kommunion zu die kirchliche Feier?",
-        "answer": "Ja. Musik Kommunion wird gezielt auf die kirchliche Feier, den Raum und den Ablauf abgestimmt. für eine sanfte kirchliche oder familiäre Feier.",
+        "question": "Für wen passt Musik Kommunion?",
+        "answer": "Musik Kommunion passt für Familien, die Erstkommunion oder Kommunionfeier musikalisch begleiten möchten. Entscheidend ist, dass die Musik zum Raum, zur Familie und zum Ablauf passt.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Was unterscheidet diese Seite von allgemeiner Taufmusik?",
+        "answer": "Diese Seite muss klar von Taufseiten getrennt bleiben, weil Kind, Anlass und liturgische Bedeutung anders sind."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik Kommunion am Tag selbst ruhig funktioniert."
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist und zum Rahmen passt. Ich prüfe Tonart, Länge und Wirkung vorab."
+      },
+      {
+        "question": "Wie wird die Musik im Ablauf platziert?",
+        "answer": "Wichtig sind Gottesdienstform, Gemeindevorgaben, Feierort und ob Musik religiös oder familiär wirken soll. Meist sind wenige klare Einsätze stärker als durchgehende Musik."
+      },
+      {
+        "question": "Muss die Musik kirchlich sein?",
+        "answer": "Nicht zwingend. Klassische, geistliche, moderne oder sehr persönliche Stücke sind möglich, wenn sie zum Rahmen passen und vor Ort erlaubt sind."
+      },
+      {
+        "question": "Muss die Musik kirchlich sein?",
+        "answer": "Nicht zwingend. Klassische, geistliche, moderne oder sehr persönliche Stücke sind möglich, wenn sie zum Rahmen passen und vor Ort erlaubt sind."
+      },
+      {
+        "question": "Ist die Viola für Kirche und kleine Räume geeignet?",
+        "answer": "Ja. Sie klingt warm und trägt gut, bleibt aber auch in kleinen Räumen oder halligen Kirchen kontrollierbar."
+      },
+      {
+        "question": "Welche Angaben brauchst du für Musik Kommunion?",
+        "answer": "Datum, Ort, Uhrzeit, Art der Feier, gewünschte Momente, vorhandene Liedideen und eine Kontaktperson für Rückfragen reichen für den Anfang."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
-      "alt": "Streichinstrumente, zarte Detailaufnahme"
+      "alt": "Live-Viola für Musik Kommunion mit sanfter Live-Viola"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Nahaufnahme eines Streichinstruments"
+      "alt": "Live-Viola für Musik Kommunion im ruhigen Tauf- und Familienrahmen"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Live-Viola für Musik Kommunion"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Taufe planen",
     "title": "Musik Kommunion anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Kommunion.",
+    "lead": "Schick mir Datum, Ort, Art der Feier und eure ersten Liedideen für Musik Kommunion. Ich melde mich mit einem ruhigen musikalischen Vorschlag.",
     "checklist": [
       "Musik Kommunion",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Kirche, Empfang, Restaurant, Zuhause oder Familienfeier nach der Messe",
+      "Wunschlieder & Ablauf"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Kommunion zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Musik Kommunion zu eurer Feier?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Kommunion."
+  },
+  "focus": {
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Musik Kommunion ankommt.",
+    "lead": "Die Musik wird nicht als Programmpunkt gedacht, sondern als ruhiger Faden durch Taufe, Segnung oder Familienmoment.",
+    "items": [
+      {
+        "time": "I.",
+        "kicker": "Intent",
+        "title": "Die Aufgabe der Musik klären",
+        "text": "Kommunion ist nicht Taufe, gehört aber in denselben kirchlichen Familiencluster. Daraus ergibt sich, ob ein einzelnes Stück, mehrere Einsätze oder ein kurzer Rahmen sinnvoll ist."
+      },
+      {
+        "time": "II.",
+        "kicker": "Raum",
+        "title": "Kirche, Garten oder Familienraum",
+        "text": "Kirche, Empfang, Restaurant, Zuhause oder Familienfeier nach der Messe verändert Lautstärke, Tempo und Länge der Musik deutlich."
+      },
+      {
+        "time": "III.",
+        "kicker": "Repertoire",
+        "title": "Wunschlied oder klassischer Rahmen",
+        "text": "Ich begleite ruhige Momente im Gottesdienst oder dezente Musik bei der anschließenden Familienfeier. Die Auswahl bleibt kindgerecht, warm und nicht zu groß."
+      },
+      {
+        "time": "IV.",
+        "kicker": "Abgrenzung",
+        "title": "Eigener Platz im Taufcluster",
+        "text": "Diese Seite muss klar von Taufseiten getrennt bleiben, weil Kind, Anlass und liturgische Bedeutung anders sind. Dadurch reduziert die Seite Kannibalisierung mit verwandten Taufseiten."
+      }
+    ],
+    "footnote": "Musik Kommunion wird im CMS als eigene Seite geführt, weil der Suchbegriff andere Fragen stellt als allgemeine Taufmusik."
   }
 }
