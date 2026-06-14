@@ -3,104 +3,124 @@
   "serviceSlug": "hochzeiten",
   "pageSlug": "musik-ja-wort",
   "route": "/hochzeiten/musik-ja-wort/",
-  "targetKeyword": "Musik zum Ja-Wort",
+  "targetKeyword": "Musik Ja-Wort",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "rewritten-batch-1-review-needed",
+  "status": "rewritten-batch-7-review-needed",
   "enabled": true,
-  "seoTitle": "Musik zum Ja-Wort | Live-Viola für den stillen Moment",
-  "seoDescription": "Musik zum Ja-Wort: Live-Viola für den Moment direkt am Versprechen. Ruhig, nah und exakt auf Ablauf, Worte und Stille abgestimmt.",
+  "seoTitle": "Musik Ja-Wort | Live-Viola Hochzeit",
+  "seoDescription": "Musik Ja-Wort: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
   "hero": {
-    "eyebrow": "Hochzeit - Ja-Wort",
-    "title": "Musik zum Ja-Wort, wenn der Raum für einen Augenblick stillsteht.",
-    "lead": "Beim Ja-Wort braucht Musik keinen großen Auftritt. Sie darf Spannung halten, Worte ausklingen lassen und den Moment zwischen Frage, Antwort und erstem Lächeln behutsam tragen.",
-    "badge": "Für den Moment des Versprechens"
+    "eyebrow": "Ja-Wort",
+    "title": "Musik zum Ja-Wort, leise genug für Worte und stark genug für den Moment danach.",
+    "lead": "Musik Ja-Wort richtet sich an Paare, die den zentralen Moment musikalisch rahmen möchten. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf wirklich zu eurem Hochzeitstag passen.",
+    "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Suchintention",
-    "title": "Nicht Auszug, nicht Empfang: das Ja-Wort ist ein eigener musikalischer Moment.",
-    "lede": "Wer nach Musik zum Ja-Wort sucht, meint meistens keinen kompletten Hochzeitsablauf, sondern diesen kurzen, empfindlichen Augenblick. Dafür muss die Musik anders geplant werden: weniger Länge, mehr Atem, klare Einsätze.",
+    "eyebrow": "Kernmoment",
+    "title": "Musik zum Ja-Wort braucht Zurückhaltung vor dem entscheidenden Satz.",
+    "lede": "Beim Ja-Wort steht nicht das Instrument im Mittelpunkt, sondern die Stimme des Paares. Die Musik wird deshalb so geplant, dass sie vor dem Versprechen sammelt, danach trägt und während der Worte keine Aufmerksamkeit abzieht.",
     "paragraphs": [
-      "Die Viola eignet sich hier besonders, weil ihr Klang warm und menschlich wirkt. Ein kurzes Motiv, ein ruhiger Einsatz nach dem Ja oder eine leise Fortführung während eines Rituals kann den Moment stärken, ohne ihn zu überdecken.",
-      "Gemeinsam klären wir, ob die Musik direkt vor dem Ja-Wort, unmittelbar danach oder während eines anschließenden Rituals erklingen soll. So bleibt der Ablauf sicher und die Musik fühlt sich nicht zufällig platziert an."
-    ]
+      "Diese Seite behandelt den Moment rund um den gesprochenen Satz: Wann entsteht Stille, wann darf ein Ton beginnen, und wie bleibt der Raum aufmerksam, ohne dass Musik die Worte kommentiert?",
+      "Bei einer freien Trauung kann ein kurzes musikalisches Motiv vor dem Versprechen helfen, den Raum zu beruhigen. Im Standesamt ist oft eher der Augenblick nach der Antwort geeignet. In der Kirche hängt es stärker von Liturgie, Segen und Akustik ab.",
+      "Ich plane kein dauerhaftes Unterlegen der Stimmen. Gerade beim Ja-Wort ist Stille oft die stärkere Entscheidung, weil alle hören sollen, was ihr einander versprecht.",
+      "Wenn Musik eingesetzt wird, braucht sie ein klares Signal: ein Blick der Traurednerin, eine kurze Pause nach der Frage oder ein festgelegter Satz im Ablauf. So entsteht kein unsicherer Einsatz mitten im wichtigsten Moment.",
+      "Das Repertoire bleibt bewusst konzentriert. Geeignet sind ruhige Linien, klare Melodien und Stücke, die schnell Atmosphäre schaffen, ohne sich nach großer Szene anzufühlen.",
+      "Die Viola kann diesen Moment warm rahmen, weil ihr Klang nah an der menschlichen Stimme bleibt. Sie nimmt dem Raum die Leere, ohne die Aufmerksamkeit vom Brautpaar wegzuziehen.",
+      "Abgegrenzt wird diese Seite von Musik nach dem Ja-Wort: Dort geht es um den gelösten Augenblick danach. Hier geht es um die Frage, wie Musik den gesprochenen Kern des Versprechens schützt.",
+      "Für die Planung frage ich deshalb sehr konkret nach Ablauf, Wortlaut, Position im Raum und dem gewünschten Gefühl: still, getragen, sehr privat oder sichtbar feierlich."
+    ],
+    "seal": "Ja-Wort\nHochzeit\nLive-Viola"
   },
   "focus": {
-    "eyebrow": "Planung",
-    "title": "Drei Fragen entscheiden über die Musik zum Ja-Wort.",
-    "lead": "Für diesen Suchintent zaehlt vor allem Timing: Die Musik muss den Moment berühren und trotzdem der Zeremonie Raum lassen.",
+    "eyebrow": "Feinabstimmung",
+    "title": "Die richtige Stelle für Musik rund um das Ja-Wort.",
+    "lead": "Der musikalische Einsatz wird enger geplant als bei Einzug oder Auszug, weil wenige Sekunden über die Wirkung entscheiden.",
     "items": [
       {
-        "kicker": "Vorher",
-        "title": "Spannung halten",
-        "text": "Ein sehr ruhiges Motiv kann die Sekunden vor dem Versprechen sammeln, ohne dramatisch zu werden."
+        "time": "Davor",
+        "kicker": "Sammlung",
+        "title": "Ein kurzer Klang vor dem Versprechen",
+        "text": "Ein ruhiger Einstieg kann helfen, bevor die entscheidende Frage gestellt wird. Danach braucht der Raum oft bewusste Stille."
       },
       {
-        "kicker": "Danach",
-        "title": "Antwort ausklingen lassen",
-        "text": "Nach dem Ja-Wort darf die Musik kurz öffnen, bevor Applaus oder nächste Worte einsetzen."
+        "time": "Während",
+        "kicker": "Stille",
+        "title": "Die Worte nicht überdecken",
+        "text": "Während des Ja-Worts selbst bleibt Musik meist aus oder extrem reduziert, damit jede Antwort hörbar und unverstellt bleibt."
       },
       {
-        "kicker": "Ritual",
-        "title": "Ring oder Kerze begleiten",
-        "text": "Wenn ein Ritual folgt, kann die Viola den Übergang weich verbinden."
+        "time": "Signal",
+        "kicker": "Ablauf",
+        "title": "Einen eindeutigen Einsatzpunkt festlegen",
+        "text": "Ein Blickzeichen oder ein Satz im Ablauf verhindert, dass die Musik zu früh in den Moment hineingeht."
       },
       {
-        "kicker": "Abstimmung",
-        "title": "Zeichen vereinbaren",
-        "text": "Ich stimme Einsatz und Ende mit Traurednerin, Standesamt oder Kirche ab, damit nichts in die Worte fällt."
+        "time": "Danach",
+        "kicker": "Übergang",
+        "title": "Nicht automatisch alles füllen",
+        "text": "Nach dem Ja-Wort kann Musik einsetzen, muss es aber nicht. Manchmal wirkt ein kurzer stiller Blick stärker."
       }
-    ]
+    ],
+    "footnote": "Musik zum Ja-Wort wird so geplant, dass der gesprochene Moment im Zentrum bleibt."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zur Musik beim Ja-Wort",
+    "title": "FAQ zu Musik zum Ja-Wort",
     "items": [
       {
-        "question": "Spielt Musik direkt während des Ja-Worts?",
-        "answer": "Meistens nicht unter den Worten selbst. Sinnvoller ist ein kurzer Einsatz direkt davor, direkt danach oder während eines Rituals wie Ringtausch oder Kerzenmoment.",
+        "question": "Soll während des Ja-Worts überhaupt Musik spielen?",
+        "answer": "Meistens nicht durchgehend. Häufig ist es schöner, die Worte frei stehen zu lassen und Musik davor oder direkt danach einzusetzen.",
         "open": true
       },
       {
-        "question": "Wie lang sollte Musik zum Ja-Wort sein?",
-        "answer": "Oft reichen 30 bis 90 Sekunden. Der Moment ist stark, weil er kurz ist. Die Musik sollte ihn nicht verlängern, sondern bewusst rahmen."
+        "question": "Wie lang sollte das Stück sein?",
+        "answer": "Für diesen Moment reichen oft wenige ruhige Takte. Wichtig ist ein flexibles Ende, weil Emotionen und Pausen nicht exakt planbar sind."
       },
       {
-        "question": "Kann unser Lied an dieser Stelle gespielt werden?",
-        "answer": "Ja, wenn es musikalisch reduzierbar ist. Gerade bei persönlichen Liedern prüfe ich, welcher Ausschnitt für Solo-Viola am besten wirkt."
+        "question": "Wer gibt das Startsignal?",
+        "answer": "Das kann die Traurednerin, eine Standesbeamtin, die Planungsperson oder ein vereinbartes Blickzeichen sein. Hauptsache, es ist eindeutig."
       },
       {
-        "question": "Worin unterscheidet sich diese Seite von Musik nach dem Ja-Wort?",
-        "answer": "Hier geht es um den Moment am Versprechen selbst. Musik nach dem Ja-Wort ist heller, offener und oft näher am Applaus oder Übergang zum Auszug."
+        "question": "Kann ein persönliches Lied verwendet werden?",
+        "answer": "Ja, wenn es in Tempo und Ausdruck nicht zu groß für diesen intimen Moment wirkt. Ich prüfe gern einen passenden Ausschnitt."
+      },
+      {
+        "question": "Unterscheidet sich das von Musik zum Ringtausch?",
+        "answer": "Ja. Beim Ringtausch begleitet Musik oft eine Handlung. Beim Ja-Wort schützt sie eher den Raum um die gesprochenen Worte."
+      },
+      {
+        "question": "Passt das auch im Standesamt?",
+        "answer": "Ja, aber dort sind Zeitfenster kürzer. Deshalb planen wir den Einsatz besonders präzise und stimmen ihn mit dem erlaubten Ablauf ab."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
-      "alt": "Live-Viola zur Hochzeit für den Moment des Ja-Worts 1"
+      "alt": "Live-Viola für Musik Ja-Wort 1"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
-      "alt": "Live-Viola zur Hochzeit für den Moment des Ja-Worts 2"
+      "alt": "Live-Viola für Musik Ja-Wort 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Live-Viola zur Hochzeit für den Moment des Ja-Worts 3"
+      "alt": "Live-Viola für Musik Ja-Wort 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
     "eyebrow": "Ja-Wort planen",
-    "title": "Soll das Ja-Wort musikalisch gehalten werden?",
-    "lead": "Schreib mir kurz, wie eure Zeremonie ablaeuft. Ich schlage dir einen ruhigen Einsatz für den Moment des Versprechens vor.",
+    "title": "Musik zum Ja-Wort anfragen",
+    "lead": "Schickt mir Datum, Trauort, Zeremonieform und die Stelle, an der das Ja-Wort im Ablauf steht. Ich schlage euch einen musikalisch passenden Rahmen vor.",
     "checklist": [
-      "Ja-Wort",
-      "Ringritual",
-      "kurzer Einsatz"
+      "Ja-Wort im Ablauf",
+      "Startsignal",
+      "Wunschlied oder Stil"
     ],
-    "formEyebrow": "Timing klären",
-    "formTitle": "Musik für das Ja-Wort anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für den passenden Einsatz rund um euer Ja-Wort."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Musik zum Ja-Wort anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für den Moment rund um euer Ja-Wort."
   }
 }

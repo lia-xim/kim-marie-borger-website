@@ -6,103 +6,129 @@
   "targetKeyword": "Hochzeitsmusik Meerbusch",
   "intentCluster": "hochzeiten:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-7-review-needed",
   "enabled": true,
-  "seoTitle": "Hochzeitsmusik Meerbusch | Viola für Trauung & Empfang",
-  "seoDescription": "Hochzeitsmusik in Meerbusch: Live-Viola für Einzug, Trauung, Ringtausch, Auszug, Sektempfang und Dinner. Persönlich abgestimmt mit Wunschlied.",
+  "seoTitle": "Hochzeitsmusik Meerbusch | Live-Viola",
+  "seoDescription": "Hochzeitsmusik Meerbusch: Solo-Viola für Trauung, Einzug, Auszug, Empfang und Dinner. Persönlich geplant.",
   "hero": {
-    "title": "Hochzeitsmusik in Meerbusch für Trauung & Empfang.",
-    "lead": "Live-Viola für Einzug, Ja-Wort, Ringtausch, Auszug, Sektempfang und Dinner - passend zu eurem Tag in Meerbusch."
+    "eyebrow": "Hochzeit in Meerbusch",
+    "title": "Hochzeitsmusik in Meerbusch, die eure Trauung persönlich trägt.",
+    "lead": "Ob Standesamt, freie Trauung, Kirche oder Empfang: Ich begleite Hochzeiten in Meerbusch mit Solo-Viola, abgestimmt auf Ort, Ablauf und eure wichtigsten Momente.",
+    "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Eure Trauung in Meerbusch, als Musik erzählt.",
-    "lede": "Ob zwischen Büderich, Lank, Rheinwiesen und stilvollen Orten am linken Niederrhein: Eine Hochzeit lebt von Momenten, die nicht wiederholbar sind. Live gespielte Viola macht genau diese Augenblicke größer, wärmer und persönlicher.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Live-Musik zur Hochzeit in Meerbusch braucht mehr als eine schöne Stückliste.",
+    "lede": "Meerbusch bedeutet für Hochzeiten oft: Büderich, Osterath, Rheinlage und elegante private Hochzeiten. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
     "paragraphs": [
-      "Gemeinsam planen wir die Musik für euren Ablauf in Meerbusch: Einzug der Braut, Ringtausch, Ja-Wort, Unterschrift, Auszug, Gratulationen oder Sektempfang. So entsteht kein Standardprogramm, sondern ein musikalischer roter Faden für euren Tag.",
-      "Klassische Stücke, moderne Songs oder euer Lieblingslied arrangiere ich so, dass es zur Location, zur Zeremonie und zu euch passt. Gerade als Solo-Viola bleibt die Musik elegant, nah und nie zu laut."
-    ]
+      "Typische Rahmen sind Garten, Hauskonzert, freie Trauung oder Dinner mit ruhigem Ton. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
+      "Der Klang soll emotional mit genug Raum für Worte und Blicke sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
+      "Die Musik bekommt feste Momente, bleibt aber flexibel, falls sich der Ablauf verschiebt. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
+      "Für Meerbusch kläre ich vorab auch die praktischen Details: dezente Musik und klares Timing oft besser planen als einen großen Auftritt. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
+      "Wenn Gäste aus mehreren Städten anreisen, hilft ein klarer musikalischer Beginn, damit der Tag sofort gesammelt wirkt. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
+      "Das Repertoire kann klassische Stücke, moderne Songs und ein persönliches Wunschlied verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
+      "Gerade lokale Hochzeitsmusik soll nicht wie eine kopierte Vorlage wirken. Der Ablauf wird auf euren Trauort, eure Gäste und eure Wunschmomente abgestimmt.",
+      "Meerbusch steht oft für elegante private Hochzeiten, Gärten, Rheinlage und ein Publikum, das dezente Qualität schätzt. Die Viola darf dort fein und nah bleiben, mit Musik, die Atmosphäre schafft, ohne den Raum zu besetzen.",
+      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner."
+    ],
+    "seal": "Meerbusch\nTrauung & Empfang\nLive-Viola"
   },
   "focus": {
-    "eyebrow": "Der musikalische Ablauf",
-    "title": "Von Einzug bis Sektempfang in Meerbusch.",
-    "lead": "Für jede Phase eurer Hochzeit in Meerbusch wähle ich mit euch Stücke, die den Moment tragen, ohne ihn zu überladen.",
+    "eyebrow": "Ablauf",
+    "title": "So kann Hochzeitsmusik in Meerbusch eingebunden werden.",
+    "lead": "Die genaue Dramaturgie richtet sich nach Trauort, Zeremonieform und Gästen. Diese vier Einsatzpunkte funktionieren bei vielen Hochzeiten besonders gut.",
     "items": [
       {
-        "kicker": "Der Anfang",
-        "title": "Einzug",
-        "text": "Getragen, festlich und mit genug Ruhe für den Moment, in dem alle aufstehen.",
-        "piece": "z. B. Canon in D · Pachelbel"
+        "time": "Beginn",
+        "kicker": "Einzug",
+        "title": "Einzug in Meerbusch mit ruhigem musikalischem Start",
+        "text": "Das Stück gibt dem Weg Zeit und sammelt den Raum, bevor die ersten Worte der Trauung beginnen.",
+        "piece": "z. B. Canon in D oder Wunschlied"
       },
       {
-        "kicker": "Das Versprechen",
-        "title": "Trauung & Ringe",
-        "text": "Leise Musik für Ringtausch, Ja-Wort oder Unterschrift - flexibel abgestimmt auf den Ablauf.",
-        "piece": "z. B. Méditation · Massenet"
+        "time": "Mitte",
+        "kicker": "Versprechen",
+        "title": "Musik für Ringtausch, Ja-Wort oder Unterschrift",
+        "text": "Leise, flexible Musik hält die Atmosphäre, ohne Worte, Blicke oder Bewegungen zu überdecken.",
+        "piece": "z. B. Meditation oder ruhige Ballade"
       },
       {
-        "kicker": "Der Jubel",
-        "title": "Auszug",
-        "text": "Hell, leicht und festlich, wenn aus der Zeremonie der erste gemeinsame Schritt wird.",
-        "piece": "z. B. Salut d’Amour · Elgar"
+        "time": "Jubel",
+        "kicker": "Auszug",
+        "title": "Ein heller Auszug nach der Trauung",
+        "text": "Der Auszug darf freier und leichter klingen, weil aus der Zeremonie der erste gemeinsame Schritt wird.",
+        "piece": "z. B. Salut d’Amour oder modernes Arrangement"
       },
       {
-        "kicker": "Das Ankommen",
-        "title": "Sektempfang & Dinner",
-        "text": "Dezente Live-Musik für Glückwünsche, Gespräche und den Empfang in Meerbusch.",
-        "piece": "moderne Arrangements nach Wunsch"
+        "time": "Danach",
+        "kicker": "Empfang",
+        "title": "Dezente Musik für Gratulationen und Sektempfang",
+        "text": "Kurze Sets schaffen Atmosphäre, während Gäste ankommen, gratulieren, fotografieren und ins Gespräch gehen."
       }
-    ]
+    ],
+    "footnote": "Für Hochzeiten in Meerbusch stimme ich Stücke, Startsignale und Setlängen persönlich mit euch ab."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Hochzeitsmusik in Meerbusch.",
+    "title": "FAQ zu Hochzeitsmusik in Meerbusch",
     "items": [
       {
         "question": "Spielst du Hochzeitsmusik in Meerbusch?",
-        "answer": "Ja. Ich begleite Hochzeiten in Meerbusch und stimme Ablauf, Stücke und Einsätze vorab mit euch, der Location, dem Standesamt, der Kirche oder der Traurednerin ab.",
+        "answer": "Ja. Ich begleite Hochzeiten in Meerbusch mit Solo-Viola, je nach Ablauf für Trauung, Einzug, Ringtausch, Auszug, Sektempfang oder Dinner.",
         "open": true
       },
       {
         "question": "Passt Viola zu Standesamt, Kirche und freier Trauung?",
-        "answer": "Ja. Die Viola klingt warm, elegant und nah an der menschlichen Stimme. Sie passt besonders gut zu Einzug, Ringtausch, Ja-Wort, Unterschrift und Auszug."
+        "answer": "Ja. Die Viola klingt warm, elegant und nah. Sie funktioniert in kleinen Trausälen ebenso wie in Kirchen, Gärten und festlichen Räumen."
       },
       {
-        "question": "Können wir unser Lieblingslied hören?",
-        "answer": "Sehr gern. Wenn das Stück musikalisch passt, arrangiere ich es für Solo-Viola und binde es an der Stelle ein, an der es für euch am meisten bedeutet."
+        "question": "Was ist bei Hochzeitsmusik in Meerbusch besonders wichtig?",
+        "answer": "Für Meerbusch ist die Balance aus Zurückhaltung und Festlichkeit zentral: Wo steht die Musik, wie lange spielt sie, und wann bleibt besser Stille?"
+      },
+      {
+        "question": "Können wir unser Wunschlied einbinden?",
+        "answer": "Sehr gern. Ich prüfe Tonart, Länge und Wirkung und richte das Stück so ein, dass es für Solo-Viola und euren Ablauf in Meerbusch passt."
+      },
+      {
+        "question": "Ist Musik draußen möglich?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Eine Innenoption oder ein überdachter Platz gibt Sicherheit."
       },
       {
         "question": "Wie früh sollten wir anfragen?",
-        "answer": "Für Hochzeiten in Meerbusch lohnt sich eine frühe Anfrage, besonders für Samstage in der Saison. Wenn euer Datum steht, könnt ihr unverbindlich schreiben."
+        "answer": "Für Hochzeiten in Meerbusch lohnt sich eine frühe Anfrage, besonders für Samstage in der Saison. Wenn Datum und Ort feststehen, könnt ihr unverbindlich schreiben."
+      },
+      {
+        "question": "Was brauchst du am Hochzeitstag vor Ort?",
+        "answer": "Einen sicheren Platz, etwas Ruhe zum Stimmen, klare Startsignale und eine Kontaktperson, falls sich Ablauf oder Timing spontan verschieben."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
-      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+      "alt": "Live-Viola als Hochzeitsmusik in Meerbusch 1"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
-      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+      "alt": "Live-Viola als Hochzeitsmusik in Meerbusch 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola als Hochzeitsmusik in Meerbusch 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Hochzeitsmusik Meerbusch anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Hochzeitsmusik Meerbusch.",
+    "eyebrow": "Hochzeit anfragen",
+    "title": "Hochzeitsmusik in Meerbusch anfragen",
+    "lead": "Schickt mir Datum, Trauort in Meerbusch, Zeremonieform und eure Wunschmomente. Ich melde mich mit einer passenden musikalischen Idee für euren Tag und prüfe dabei auch die lokalen Details vor Ort.",
     "checklist": [
-      "Hochzeitsmusik Meerbusch",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Meerbusch",
+      "Trauung oder Empfang",
+      "Wunschlied"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Hochzeitsmusik Meerbusch zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Details senden",
+    "formTitle": "Hochzeitsmusik in Meerbusch anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik in Meerbusch."
   }
 }

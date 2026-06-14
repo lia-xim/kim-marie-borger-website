@@ -6,101 +6,121 @@
   "targetKeyword": "Live Musik Hochzeit buchen",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "rewritten-batch-1-review-needed",
+  "status": "rewritten-batch-7-review-needed",
   "enabled": true,
-  "seoTitle": "Live Musik Hochzeit buchen | Ablauf, Timing und Wunschmusik",
-  "seoDescription": "Live Musik Hochzeit buchen: Anfrage, Ablauf, Dauer, Wunschmusik und Timing für Trauung, Empfang oder Dinner persönlich klären.",
+  "seoTitle": "Live Musik Hochzeit Buchen | Live-Viola Hochzeit",
+  "seoDescription": "Live Musik Hochzeit buchen: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
   "hero": {
-    "eyebrow": "Hochzeit - Buchung",
-    "title": "Live Musik zur Hochzeit buchen, ohne dass der Ablauf wackelt.",
-    "lead": "Hier geht es konkret um Anfrage, Verfügbarkeit, Einsatzzeiten und Abstimmung. So wird aus einer Musikidee ein sicher geplanter Teil eures Hochzeitstags.",
-    "badge": "Planung und Anfrage"
+    "eyebrow": "Live buchen",
+    "title": "Live-Musik zur Hochzeit buchen, mit klarer Planung statt Bauchgefühl allein.",
+    "lead": "Live Musik Hochzeit Buchen richtet sich an Paare kurz vor Anfrage oder Entscheidung. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf wirklich zu eurem Hochzeitstag passen.",
+    "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Buchungsintention",
-    "title": "Wer buchen will, braucht Klarheit statt nur Inspiration.",
-    "lede": "Bei Live Musik Hochzeit buchen steht nicht mehr die Frage im Vordergrund, ob Live-Musik passt. Entscheidend sind Datum, Ort, Dauer, Ablauf, Wunschmusik und die Koordination mit Standesamt, Kirche, Traurednerin oder Location.",
+    "eyebrow": "Suchintention",
+    "title": "Live Musik Hochzeit Buchen braucht eine eigene musikalische Planung.",
+    "lede": "Diese Seite verbindet Buchungsintention mit Live-Musik: Was braucht es, damit die Anfrage sinnvoll beantwortet werden kann? Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Trauung, Empfang, Dinner oder Kombination mehrerer Teile.",
     "paragraphs": [
-      "Nach eurer Anfrage klären wir zuerst, welche Momente musikalisch begleitet werden sollen. Daraus ergibt sich, ob ein kurzer Einsatz zur Trauung reicht oder ob Empfang und Dinner ebenfalls sinnvoll sind.",
-      "Ihr bekommt eine realistische Einschätzung, welche Stücke funktionieren, wie lang die Musik sein sollte und welche organisatorischen Details vor Ort wichtig sind. So ist am Hochzeitstag klar, wann die Musik beginnt und endet."
-    ]
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
+      "Ich prüfe Datum, Ort, Dauer, Wunschlied und die gewünschte Rolle der Musik.",
+      "Live buchen heißt auch: rechtzeitig klären, ob Außenmusik, Technik oder Absprachen mit Kirche und Location nötig sind.",
+      "Vorab klären wir Startsignal, gewünschte Länge, mögliche Pausen und den Punkt, an dem das Stück natürlich enden darf. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
+      "Für Live Musik Hochzeit buchen klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Live Musik Hochzeit buchen nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+      "Der Text ist auf diesen konkreten Intent zugeschnitten und nicht nur eine Variation der lokalen Seiten. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Live Musik Hochzeit buchen."
+    ],
+    "seal": "Live buchen\nHochzeit\nLive-Viola"
   },
   "focus": {
-    "eyebrow": "Buchungsablauf",
-    "title": "So wird die Live-Musik planbar.",
-    "lead": "Die Buchung ist am einfachsten, wenn die wichtigsten Eckdaten früh zusammenkommen.",
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Live Musik Hochzeit Buchen ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie und Location. Diese Punkte sollten vor der Hochzeit sauber geklärt sein.",
     "items": [
       {
-        "kicker": "1",
-        "title": "Datum und Ort prüfen",
-        "text": "Zuerst klären wir Verfügbarkeit, Location und ungefaehren Zeitrahmen."
+        "time": "Vorab",
+        "kicker": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "text": "Bei Live Musik Hochzeit buchen klären wir zuerst, ob die Musik Mittelpunkt, Übergang, Hintergrund oder persönliches Zeichen sein soll."
       },
       {
-        "kicker": "2",
-        "title": "Momente festlegen",
-        "text": "Einzug, Ringtausch, Auszug, Empfang oder Dinner werden als eigene Einsätze geplant."
+        "time": "Stück",
+        "kicker": "Repertoire",
+        "title": "Klassisch, modern oder Wunschlied auswählen",
+        "text": "Die Auswahl folgt nicht nur Geschmack, sondern auch Weglänge, Raumakustik und emotionaler Dichte."
       },
       {
-        "kicker": "3",
-        "title": "Repertoire abstimmen",
-        "text": "Wunschlieder und Stilrichtung werden auf Solo-Viola und Ablauf geprüft."
+        "time": "Ablauf",
+        "kicker": "Timing",
+        "title": "Start und Ende sicher abstimmen",
+        "text": "Ein Blickzeichen, eine Kontaktperson oder ein klares Stichwort verhindert Unsicherheit am Hochzeitstag."
       },
       {
-        "kicker": "4",
-        "title": "Final koordinieren",
-        "text": "Kurz vor der Hochzeit werden Signale, Ansprechpartner und Timing sauber festgelegt."
+        "time": "Ort",
+        "kicker": "Klang",
+        "title": "Den Platz im Raum sinnvoll wählen",
+        "text": "Die Viola soll hörbar und sichtbar sein, ohne Laufwege, Reden oder Gäste zu stören."
       }
-    ]
+    ],
+    "footnote": "Live Musik Hochzeit Buchen wird mit euch passend zu Zeremonie, Location und Gästen geplant."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zur Buchung von Live-Musik zur Hochzeit",
+    "title": "FAQ zu Live Musik Hochzeit Buchen",
     "items": [
       {
-        "question": "Welche Angaben brauchst du für eine Anfrage?",
-        "answer": "Hilfreich sind Datum, Ort, Art der Trauung, ungefaehre Uhrzeit und die Momente, für die ihr Musik wünscht.",
+        "question": "Für welche Hochzeit passt Live Musik Hochzeit buchen?",
+        "answer": "Live Musik Hochzeit Buchen passt besonders für Paare kurz vor Anfrage oder Entscheidung. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
-        "question": "Wie früh sollte man Live Musik zur Hochzeit buchen?",
-        "answer": "Für beliebte Samstage in der Saison möglichst früh. Kurzfristige Anfragen können trotzdem funktionieren, wenn der Termin frei ist."
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Kann man erst anfragen und später Stücke festlegen?",
-        "answer": "Ja. Die Buchung kann auf Basis des Rahmens erfolgen. Die genaue Stückauswahl wird danach in Ruhe abgestimmt."
+        "question": "Passt das auch zu Standesamt, Kirche und freier Trauung?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für kleine Trausäle, Kirchen, freie Trauungen und Empfänge sehr flexibel."
       },
       {
-        "question": "Was unterscheidet die Buchungsseite von Live Musik Hochzeit?",
-        "answer": "Diese Seite beantwortet konkrete Planungs- und Anfragefragen. Die allgemeine Live-Musik-Seite hilft eher bei Inspiration und Einsatzideen."
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Trauredner:in, Kirche, Standesamt oder Location."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Schatten, Untergrund und Schutz für das Instrument stimmen. Ein Plan B ist bei Hochzeiten im Freien immer sinnvoll."
+      },
+      {
+        "question": "Wie früh sollten wir anfragen?",
+        "answer": "Sobald Datum und Ort feststehen, ist eine Anfrage sinnvoll. Besonders Termine in der Hochzeitssaison sind oft früh vergeben."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
-      "alt": "Live-Musik zur Hochzeit buchen mit Solo-Viola 1"
+      "alt": "Live-Viola für Live Musik Hochzeit buchen 1"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
-      "alt": "Live-Musik zur Hochzeit buchen mit Solo-Viola 2"
+      "alt": "Live-Viola für Live Musik Hochzeit buchen 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Live-Musik zur Hochzeit buchen mit Solo-Viola 3"
+      "alt": "Live-Viola für Live Musik Hochzeit buchen 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Verfügbarkeit prüfen",
-    "title": "Möchtet ihr Live-Musik verbindlich planen?",
-    "lead": "Sende Datum, Ort und die geplanten Musikmomente. Ich prüfe, was sinnvoll ist und ob euer Termin frei ist.",
+    "eyebrow": "Hochzeitsmusik planen",
+    "title": "Live Musik Hochzeit Buchen anfragen",
+    "lead": "Schickt mir Datum, Ort, Zeremonieform und den Moment, für den ihr Live Musik Hochzeit buchen plant. Ich melde mich mit einer passenden musikalischen Idee.",
     "checklist": [
-      "Datum",
-      "Ort",
-      "Musikmomente"
+      "Live Musik Hochzeit buchen",
+      "Trauung oder Empfang",
+      "Wunschlied"
     ],
-    "formEyebrow": "Buchung starten",
-    "formTitle": "Live Musik Hochzeit buchen",
-    "formSuccess": "Danke - ich prüfe eure Angaben und melde mich mit den nächsten Schritten zur Buchung."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Live Musik Hochzeit Buchen anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Live Musik Hochzeit buchen."
   }
 }

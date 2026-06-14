@@ -6,95 +6,121 @@
   "targetKeyword": "Musik Sektempfang Hochzeit",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-7-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Sektempfang Hochzeit | Live-Viola für Empfang & Gratulation",
-  "seoDescription": "Musik für den Sektempfang nach der Hochzeit: dezente Live-Viola für Gratulationen, Empfang und Gespräche.",
+  "seoTitle": "Musik Sektempfang Hochzeit | Live-Viola Hochzeit",
+  "seoDescription": "Musik Sektempfang Hochzeit: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
   "hero": {
-    "title": "Musik für den Sektempfang nach der Hochzeit.",
-    "lead": "Dezente Live-Viola für Gratulationen, Ankommen, Empfang und die ersten Gespräche nach der Trauung."
+    "eyebrow": "Sektempfang",
+    "title": "Musik zum Sektempfang, wenn Gratulationen, Fotos und erste Gespräche zusammenkommen.",
+    "lead": "Musik Sektempfang Hochzeit richtet sich an Empfang direkt nach Trauung oder vor dem Dinner. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf wirklich zu eurem Hochzeitstag passen.",
+    "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Empfang",
-    "title": "Nach der Trauung darf die Musik weitertragen.",
-    "lede": "Beim Sektempfang treffen Freude, Bewegung und Gespräche zusammen. Musik hält die Atmosphäre, ohne im Vordergrund zu stehen.",
+    "eyebrow": "Suchintention",
+    "title": "Musik Sektempfang Hochzeit braucht eine eigene musikalische Planung.",
+    "lede": "Der Sektempfang ist lebendig und oft etwas unübersichtlich. Musik schafft einen feierlichen Rahmen. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Foyer, Garten, Terrasse, Innenhof oder Schlosspark.",
     "paragraphs": [
-      "Ich spiele leichte, festliche und gut erkennbare Stücke, die Glückwünsche und Empfang begleiten.",
-      "Die Musik kann direkt an den Auszug anschließen oder als eigener Empfangsblock geplant werden."
-    ]
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
+      "Solo-Viola kann zwischen Gratulationen, Fotos und Gesprächen flexibel in Sets spielen.",
+      "Wichtig ist, dass die Musik hörbar bleibt, ohne aus dem Empfang ein Konzert zu machen.",
+      "Wenn ein Wunschlied geplant ist, prüfe ich Melodie, Tonart und Wirkung für Solo-Viola. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
+      "Für Musik Sektempfang Hochzeit klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Musik Sektempfang Hochzeit nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+      "Der Fokus bleibt eng genug, damit Paare sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Musik Sektempfang Hochzeit."
+    ],
+    "seal": "Sektempfang\nHochzeit\nLive-Viola"
   },
   "focus": {
-    "eyebrow": "Empfang",
-    "title": "Warum Live-Musik beim Sektempfang wirkt.",
-    "lead": "Gerade ungeplante Übergänge bekommen dadurch einen klaren, angenehmen Rahmen.",
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Musik Sektempfang Hochzeit ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie und Location. Diese Punkte sollten vor der Hochzeit sauber geklärt sein.",
     "items": [
       {
-        "kicker": "Gratulation",
-        "title": "Zeit füllen",
-        "text": "Musik begleitet die Phase, in der viele kurze Begegnungen stattfinden."
+        "time": "Vorab",
+        "kicker": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "text": "Bei Musik Sektempfang Hochzeit klären wir zuerst, ob die Musik Mittelpunkt, Übergang, Hintergrund oder persönliches Zeichen sein soll."
       },
       {
-        "kicker": "Atmosphäre",
-        "title": "Leicht bleiben",
-        "text": "Das Repertoire bleibt hell, freundlich und unaufdringlich."
+        "time": "Stück",
+        "kicker": "Repertoire",
+        "title": "Klassisch, modern oder Wunschlied auswählen",
+        "text": "Die Auswahl folgt nicht nur Geschmack, sondern auch Weglänge, Raumakustik und emotionaler Dichte."
       },
       {
-        "kicker": "Ablauf",
-        "title": "Flexibel",
-        "text": "Die Dauer kann an Fotos, Locationwechsel oder Empfang angepasst werden."
+        "time": "Ablauf",
+        "kicker": "Timing",
+        "title": "Start und Ende sicher abstimmen",
+        "text": "Ein Blickzeichen, eine Kontaktperson oder ein klares Stichwort verhindert Unsicherheit am Hochzeitstag."
       },
       {
-        "kicker": "Dinner",
-        "title": "Weiterführen",
-        "text": "Auf Wunsch geht die Musik später in Dinnermusik über."
+        "time": "Ort",
+        "kicker": "Klang",
+        "title": "Den Platz im Raum sinnvoll wählen",
+        "text": "Die Viola soll hörbar und sichtbar sein, ohne Laufwege, Reden oder Gäste zu stören."
       }
-    ]
+    ],
+    "footnote": "Musik Sektempfang Hochzeit wird mit euch passend zu Zeremonie, Location und Gästen geplant."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik für Sektempfang Hochzeit.",
+    "title": "FAQ zu Musik Sektempfang Hochzeit",
     "items": [
       {
-        "question": "Ist Live-Musik beim Sektempfang sinnvoll?",
-        "answer": "Ja. Sie macht die Gratulations- und Empfangsphase angenehm und festlich, ohne Gespräche zu stören.",
+        "question": "Für welche Hochzeit passt Musik Sektempfang Hochzeit?",
+        "answer": "Musik Sektempfang Hochzeit passt besonders für Empfang direkt nach Trauung oder vor dem Dinner. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
-        "question": "Kannst du nach dem Auszug weiterspielen?",
-        "answer": "Ja. Auszug und Sektempfang können musikalisch ineinander übergehen."
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Wie lange dauert Musik beim Sektempfang?",
-        "answer": "Das hängt vom Ablauf ab. Kurze Sets oder längere Begleitung sind möglich."
+        "question": "Passt das auch zu Standesamt, Kirche und freier Trauung?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für kleine Trausäle, Kirchen, freie Trauungen und Empfänge sehr flexibel."
+      },
+      {
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Trauredner:in, Kirche, Standesamt oder Location."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Schatten, Untergrund und Schutz für das Instrument stimmen. Ein Plan B ist bei Hochzeiten im Freien immer sinnvoll."
+      },
+      {
+        "question": "Wie früh sollten wir anfragen?",
+        "answer": "Sobald Datum und Ort feststehen, ist eine Anfrage sinnvoll. Besonders Termine in der Hochzeitssaison sind oft früh vergeben."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
-      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+      "alt": "Live-Viola für Musik Sektempfang Hochzeit 1"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
-      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+      "alt": "Live-Viola für Musik Sektempfang Hochzeit 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola für Musik Sektempfang Hochzeit 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Hochzeitsmusik planen",
     "title": "Musik Sektempfang Hochzeit anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Sektempfang Hochzeit.",
+    "lead": "Schickt mir Datum, Ort, Zeremonieform und den Moment, für den ihr Musik Sektempfang Hochzeit plant. Ich melde mich mit einer passenden musikalischen Idee.",
     "checklist": [
       "Musik Sektempfang Hochzeit",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Trauung oder Empfang",
+      "Wunschlied"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Sektempfang Hochzeit zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Musik Sektempfang Hochzeit anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Sektempfang Hochzeit."
   }
 }

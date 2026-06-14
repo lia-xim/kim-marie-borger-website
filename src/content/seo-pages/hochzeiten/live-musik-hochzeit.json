@@ -6,101 +6,121 @@
   "targetKeyword": "Live Musik Hochzeit",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "rewritten-batch-1-review-needed",
+  "status": "rewritten-batch-7-review-needed",
   "enabled": true,
-  "seoTitle": "Live Musik Hochzeit | Viola für Trauung, Empfang und Dinner",
-  "seoDescription": "Live Musik Hochzeit: warme Solo-Viola für Trauung, Empfang und Dinner. Inspiration für Paare, die echte Musik statt Playlist suchen.",
+  "seoTitle": "Live Musik Hochzeit | Live-Viola Hochzeit",
+  "seoDescription": "Live Musik Hochzeit: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
   "hero": {
-    "eyebrow": "Hochzeit - Live-Musik",
-    "title": "Live Musik zur Hochzeit, die nicht nach Programm klingt.",
-    "lead": "Diese Seite ist für Paare, die erst spüren wollen, welche Rolle Live-Musik an ihrem Tag spielen kann: emotional in der Trauung, leicht beim Empfang, ruhig beim Dinner.",
-    "badge": "Inspiration für euren Hochzeitstag"
+    "eyebrow": "Live-Musik",
+    "title": "Live-Musik zur Hochzeit, die den Ablauf begleitet und nicht nur eine Playlist ersetzt.",
+    "lead": "Live Musik Hochzeit richtet sich an Paare, die echte musikalische Präsenz für ihren Tag suchen. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf wirklich zu eurem Hochzeitstag passen.",
+    "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Live-Musik ist mehr als ein gebuchter Slot.",
-    "lede": "Bei einer Hochzeit veraendert Live-Musik den Raum. Sie reagiert auf Wege, Blicke, Applaus und Pausen. Genau darin unterscheidet sie sich von einer Playlist oder einem festen Playback.",
+    "eyebrow": "Suchintention",
+    "title": "Live Musik Hochzeit braucht eine eigene musikalische Planung.",
+    "lede": "Der Suchintent ist breit, aber klar: Live-Musik soll die Hochzeit spürbar persönlicher machen. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Zeremonie, Empfang, Dinner und persönliche Übergänge.",
     "paragraphs": [
-      "Die Viola kann sehr nah und leise klingen, aber auch festlich genug, um einen Einzug oder Auszug zu tragen. Dadurch eignet sie sich für Paare, die keinen Showmoment suchen, sondern eine musikalische Atmosphäre mit Haltung.",
-      "Wenn ihr noch nicht wisst, ob Musik nur zur Trauung oder auch zum Empfang passen könnte, ist diese Seite der richtige Startpunkt. Für konkrete Buchung, Zeiten und Anfrage gibt es die Seite Live Musik Hochzeit buchen."
-    ]
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
+      "Solo-Viola ist flexibel genug für kleine Trausäle und präsent genug für festliche Räume.",
+      "Entscheidend ist die Dramaturgie: Wann beginnt Musik, wann trägt sie, wann macht sie wieder Platz?",
+      "Wenn ein Wunschlied geplant ist, prüfe ich Melodie, Tonart und Wirkung für Solo-Viola. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
+      "Für Live Musik Hochzeit klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Live Musik Hochzeit nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+      "Der Fokus bleibt eng genug, damit Paare sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Live Musik Hochzeit."
+    ],
+    "seal": "Live-Musik\nHochzeit\nLive-Viola"
   },
   "focus": {
-    "eyebrow": "Möglichkeiten",
-    "title": "Wo Live-Musik bei einer Hochzeit wirken kann.",
-    "lead": "Jeder Abschnitt braucht einen anderen musikalischen Ton.",
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Live Musik Hochzeit ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie und Location. Diese Punkte sollten vor der Hochzeit sauber geklärt sein.",
     "items": [
       {
-        "kicker": "Trauung",
-        "title": "Emotion sichtbar machen",
-        "text": "Einzug, Ringtausch und Auszug bekommen einen eigenen Klang, ohne die Worte zu verdecken."
+        "time": "Vorab",
+        "kicker": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "text": "Bei Live Musik Hochzeit klären wir zuerst, ob die Musik Mittelpunkt, Übergang, Hintergrund oder persönliches Zeichen sein soll."
       },
       {
-        "kicker": "Empfang",
-        "title": "Ankommen erleichtern",
-        "text": "Dezente Musik schafft Atmosphäre, während Gäste gratulieren und ins Gespräch kommen."
+        "time": "Stück",
+        "kicker": "Repertoire",
+        "title": "Klassisch, modern oder Wunschlied auswählen",
+        "text": "Die Auswahl folgt nicht nur Geschmack, sondern auch Weglänge, Raumakustik und emotionaler Dichte."
       },
       {
-        "kicker": "Dinner",
-        "title": "Ruhig begleiten",
-        "text": "Beim Essen bleibt die Musik zurückhaltend und gibt dem Raum trotzdem Festlichkeit."
+        "time": "Ablauf",
+        "kicker": "Timing",
+        "title": "Start und Ende sicher abstimmen",
+        "text": "Ein Blickzeichen, eine Kontaktperson oder ein klares Stichwort verhindert Unsicherheit am Hochzeitstag."
       },
       {
-        "kicker": "Wunschlied",
-        "title": "Persönlichkeit einbauen",
-        "text": "Ein Lieblingslied kann als Viola-Fassung an einer Stelle erscheinen, die wirklich Bedeutung hat."
+        "time": "Ort",
+        "kicker": "Klang",
+        "title": "Den Platz im Raum sinnvoll wählen",
+        "text": "Die Viola soll hörbar und sichtbar sein, ohne Laufwege, Reden oder Gäste zu stören."
       }
-    ]
+    ],
+    "footnote": "Live Musik Hochzeit wird mit euch passend zu Zeremonie, Location und Gästen geplant."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Live Musik bei der Hochzeit",
+    "title": "FAQ zu Live Musik Hochzeit",
     "items": [
       {
-        "question": "Wann lohnt sich Live Musik bei einer Hochzeit besonders?",
-        "answer": "Besonders stark wirkt sie bei Momenten, in denen Gäste aufmerksam sind: Einzug, Ringtausch, Auszug, Sektempfang oder ein ruhiger Dinnerbeginn.",
+        "question": "Für welche Hochzeit passt Live Musik Hochzeit?",
+        "answer": "Live Musik Hochzeit passt besonders für Paare, die echte musikalische Präsenz für ihren Tag suchen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
-        "question": "Ist Solo-Viola laut genug?",
-        "answer": "Für Trauung, Standesamt, Kirche und kleinere bis mittlere Empfaenge passt Solo-Viola sehr gut. Bei größeren Situationen wird die konkrete Akustik vorab besprochen."
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Unterscheidet sich diese Seite von Live Musik Hochzeit buchen?",
-        "answer": "Ja. Hier geht es um Inspiration und Einsatzmöglichkeiten. Die Buchungsseite erklärt Ablauf, Anfrage, Timing und Planung konkreter."
+        "question": "Passt das auch zu Standesamt, Kirche und freier Trauung?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für kleine Trausäle, Kirchen, freie Trauungen und Empfänge sehr flexibel."
       },
       {
-        "question": "Kann Live-Musik modern sein?",
-        "answer": "Ja. Viele moderne Songs lassen sich als ruhige Viola-Version spielen, wenn Melodie und Charakter zum Instrument passen."
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Trauredner:in, Kirche, Standesamt oder Location."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Schatten, Untergrund und Schutz für das Instrument stimmen. Ein Plan B ist bei Hochzeiten im Freien immer sinnvoll."
+      },
+      {
+        "question": "Wie früh sollten wir anfragen?",
+        "answer": "Sobald Datum und Ort feststehen, ist eine Anfrage sinnvoll. Besonders Termine in der Hochzeitssaison sind oft früh vergeben."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
-      "alt": "Live-Musik mit Viola für eine Hochzeit 1"
+      "alt": "Live-Viola für Live Musik Hochzeit 1"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
-      "alt": "Live-Musik mit Viola für eine Hochzeit 2"
+      "alt": "Live-Viola für Live Musik Hochzeit 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Live-Musik mit Viola für eine Hochzeit 3"
+      "alt": "Live-Viola für Live Musik Hochzeit 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Idee finden",
-    "title": "Welche Rolle soll Live-Musik bei eurer Hochzeit haben?",
-    "lead": "Schreib mir, ob ihr Musik für Trauung, Empfang oder Dinner sucht. Ich helfe euch, die passende Form zu finden.",
+    "eyebrow": "Hochzeitsmusik planen",
+    "title": "Live Musik Hochzeit anfragen",
+    "lead": "Schickt mir Datum, Ort, Zeremonieform und den Moment, für den ihr Live Musik Hochzeit plant. Ich melde mich mit einer passenden musikalischen Idee.",
     "checklist": [
-      "Trauung",
-      "Empfang",
-      "Dinner"
+      "Live Musik Hochzeit",
+      "Trauung oder Empfang",
+      "Wunschlied"
     ],
-    "formEyebrow": "Anlass beschreiben",
-    "formTitle": "Live Musik zur Hochzeit anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer ersten Idee für Live-Musik an eurem Hochzeitstag."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Live Musik Hochzeit anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Live Musik Hochzeit."
   }
 }

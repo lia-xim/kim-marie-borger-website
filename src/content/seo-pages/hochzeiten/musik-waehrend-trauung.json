@@ -3,99 +3,124 @@
   "serviceSlug": "hochzeiten",
   "pageSlug": "musik-waehrend-trauung",
   "route": "/hochzeiten/musik-waehrend-trauung/",
-  "targetKeyword": "Musik während der Trauung",
+  "targetKeyword": "Musik während Trauung",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-7-review-needed",
   "enabled": true,
-  "seoTitle": "Musik während der Trauung | Hochzeitsmusik mit Live-Viola",
-  "seoDescription": "Musik während Trauung: Live-Viola für Trauung, Empfang oder Dinner. Wunschmusik und Timing persönlich abgestimmt.",
+  "seoTitle": "Musik WÄHrend Trauung | Live-Viola Hochzeit",
+  "seoDescription": "Musik während Trauung: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
   "hero": {
-    "title": "Musik während der Trauung, persönlich geplant und live begleitet.",
-    "lead": "Live-Viola für Hochzeiten mit warmem, elegantem Streicherklang. Diese Seite bündelt den Suchintent \"Musik während Trauung\" für Rituale, Lesungen und stille Zwischenmomente."
+    "eyebrow": "Während der Trauung",
+    "title": "Musik während der Trauung, punktgenau zwischen Worten, Ritualen und Stille.",
+    "lead": "Musik WÄHrend Trauung richtet sich an Trauungen mit mehreren kurzen musikalischen Einsätzen. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf wirklich zu eurem Hochzeitstag passen.",
+    "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Zeremonie",
-    "title": "Ein einzelner Moment braucht eigenes Timing.",
-    "lede": "Bei Hochzeiten entscheidet oft der genaue Einsatz: ein erster Ton, ein ruhiger Übergang oder ein heller Abschluss. Für musik während der trauung zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Musik WÄHrend Trauung braucht eine eigene musikalische Planung.",
+    "lede": "Hier geht es um Zwischenmomente: Ritual, Lesung, Kerze, Ringsegnung oder kurze Pause. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für freie Trauung, Kirche oder Standesamt.",
     "paragraphs": [
-      "Musik während der Trauung wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für eure Hochzeit.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was ihr für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
-    ]
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
+      "Musik darf nicht überall sein. Sie braucht eine klare dramaturgische Aufgabe.",
+      "Ich helfe euch zu entscheiden, welche Stellen Musik wirklich brauchen und welche besser still bleiben.",
+      "Vorab klären wir Startsignal, gewünschte Länge, mögliche Pausen und den Punkt, an dem das Stück natürlich enden darf. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
+      "Für Musik während Trauung klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Musik während Trauung nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+      "Der Text ist auf diesen konkreten Intent zugeschnitten und nicht nur eine Variation der lokalen Seiten. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Musik während Trauung."
+    ],
+    "seal": "Während der Trauung\nHochzeit\nLive-Viola"
   },
   "focus": {
-    "eyebrow": "Zeremonie",
-    "title": "Musik während der Trauung: worauf es ankommt.",
-    "lead": "Die folgenden Punkte trennen diese Suchintention bewusst von allgemeineren Seiten und helfen bei der Planung.",
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Musik WÄHrend Trauung ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie und Location. Diese Punkte sollten vor der Hochzeit sauber geklärt sein.",
     "items": [
       {
-        "kicker": "Moment",
-        "title": "Einsatzpunkt planen",
-        "text": "Musik während der Trauung braucht einen klaren musikalischen Anfang und ein sinnvolles Ende."
+        "time": "Vorab",
+        "kicker": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "text": "Bei Musik während Trauung klären wir zuerst, ob die Musik Mittelpunkt, Übergang, Hintergrund oder persönliches Zeichen sein soll."
       },
       {
-        "kicker": "Stimmung",
-        "title": "Repertoire wählen",
-        "text": "Klassische Stücke, moderne Songs oder ein Wunschlied werden passend zum Ablauf ausgewählt."
+        "time": "Stück",
+        "kicker": "Repertoire",
+        "title": "Klassisch, modern oder Wunschlied auswählen",
+        "text": "Die Auswahl folgt nicht nur Geschmack, sondern auch Weglänge, Raumakustik und emotionaler Dichte."
       },
       {
+        "time": "Ablauf",
+        "kicker": "Timing",
+        "title": "Start und Ende sicher abstimmen",
+        "text": "Ein Blickzeichen, eine Kontaktperson oder ein klares Stichwort verhindert Unsicherheit am Hochzeitstag."
+      },
+      {
+        "time": "Ort",
         "kicker": "Klang",
-        "title": "Viola als Stimme",
-        "text": "Der warme Klang der Viola bleibt nah, emotional und trotzdem elegant."
-      },
-      {
-        "kicker": "Ablauf",
-        "title": "Sicher abstimmen",
-        "text": "Timing, Dauer und Übergänge werden vorab mit ihr geklärt."
+        "title": "Den Platz im Raum sinnvoll wählen",
+        "text": "Die Viola soll hörbar und sichtbar sein, ohne Laufwege, Reden oder Gäste zu stören."
       }
-    ]
+    ],
+    "footnote": "Musik WÄHrend Trauung wird mit euch passend zu Zeremonie, Location und Gästen geplant."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik während Trauung.",
+    "title": "FAQ zu Musik WÄHrend Trauung",
     "items": [
       {
-        "question": "Passt Musik während der Trauung zu eure Hochzeit?",
-        "answer": "Ja. Musik während der Trauung wird gezielt auf eure Hochzeit, den Raum und den Ablauf abgestimmt. für einen klaren Moment im Ablauf der Trauung.",
+        "question": "Für welche Hochzeit passt Musik während Trauung?",
+        "answer": "Musik WÄHrend Trauung passt besonders für Trauungen mit mehreren kurzen musikalischen Einsätzen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
         "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Musik während Trauung am Tag selbst ruhig funktioniert."
+        "question": "Passt das auch zu Standesamt, Kirche und freier Trauung?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für kleine Trausäle, Kirchen, freie Trauungen und Empfänge sehr flexibel."
+      },
+      {
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Trauredner:in, Kirche, Standesamt oder Location."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Schatten, Untergrund und Schutz für das Instrument stimmen. Ein Plan B ist bei Hochzeiten im Freien immer sinnvoll."
+      },
+      {
+        "question": "Wie früh sollten wir anfragen?",
+        "answer": "Sobald Datum und Ort feststehen, ist eine Anfrage sinnvoll. Besonders Termine in der Hochzeitssaison sind oft früh vergeben."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
-      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+      "alt": "Live-Viola für Musik während Trauung 1"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
-      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+      "alt": "Live-Viola für Musik während Trauung 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola für Musik während Trauung 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
-    "title": "Musik während der Trauung anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik während der Trauung.",
+    "eyebrow": "Hochzeitsmusik planen",
+    "title": "Musik WÄHrend Trauung anfragen",
+    "lead": "Schickt mir Datum, Ort, Zeremonieform und den Moment, für den ihr Musik während Trauung plant. Ich melde mich mit einer passenden musikalischen Idee.",
     "checklist": [
-      "Musik während der Trauung",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Musik während Trauung",
+      "Trauung oder Empfang",
+      "Wunschlied"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik während der Trauung zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Musik WÄHrend Trauung anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik während Trauung."
   }
 }

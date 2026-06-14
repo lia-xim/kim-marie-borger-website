@@ -6,95 +6,121 @@
   "targetKeyword": "Musik Brauteinzug",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-7-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Brauteinzug | Live-Viola für den Einzug der Braut",
-  "seoDescription": "Musik zum Brauteinzug: Live-Viola für den Einzug bei Standesamt, Kirche oder freier Trauung - klassisch, modern oder als Wunschlied.",
+  "seoTitle": "Musik Brauteinzug | Live-Viola Hochzeit",
+  "seoDescription": "Musik Brauteinzug: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
   "hero": {
-    "title": "Musik zum Brauteinzug, die den Raum still werden lässt.",
-    "lead": "Live-Viola für den Einzug der Braut oder des Brautpaares - ruhig, festlich und persönlich abgestimmt."
+    "eyebrow": "Brauteinzug",
+    "title": "Musik zum Brauteinzug, die dem Raum Zeit zum Stillwerden gibt.",
+    "lead": "Musik Brauteinzug richtet sich an Einzug der Braut, des Bräutigams oder des Brautpaares. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf wirklich zu eurem Hochzeitstag passen.",
+    "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Einzug",
-    "title": "Der erste Ton setzt den ganzen Moment.",
-    "lede": "Beim Einzug schauen alle in dieselbe Richtung. Die Musik gibt diesem Moment Zeit und macht ihn bewusst.",
+    "eyebrow": "Suchintention",
+    "title": "Musik Brauteinzug braucht eine eigene musikalische Planung.",
+    "lede": "Beim Brauteinzug schauen alle in dieselbe Richtung. Die Musik muss tragen, aber nicht ziehen. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Kirche, Standesamt, freie Trauung oder Außenzeremonie.",
     "paragraphs": [
-      "Möglich sind klassische Stücke, moderne Songs oder euer persönliches Wunschlied als Solo-Viola-Fassung.",
-      "Ich stimme Länge und Tempo so ab, dass der Einzug nicht gehetzt wirkt und trotzdem sicher im Ablauf bleibt."
-    ]
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
+      "Tempo und Länge werden nach Weg, Türen, Treppe und geplantem Startsignal gewählt.",
+      "Ein Wunschlied kann sehr stark wirken, wenn es als Solo-Viola-Fassung genug Ruhe für den Weg lässt.",
+      "Die Musik bekommt eine klare Aufgabe im Ablauf, damit sie nicht wie eine zufällige Einlage wirkt. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
+      "Für Musik Brauteinzug klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Musik Brauteinzug nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+      "Diese Seite grenzt den Suchbegriff bewusst von allgemeineren Hochzeitsseiten ab. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Musik Brauteinzug."
+    ],
+    "seal": "Brauteinzug\nHochzeit\nLive-Viola"
   },
   "focus": {
-    "eyebrow": "Einzug",
-    "title": "Was für den Brauteinzug wichtig ist.",
-    "lead": "Die Musik soll tragen, nicht ziehen. Deshalb sind Tempo und Einsatz entscheidend.",
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Musik Brauteinzug ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie und Location. Diese Punkte sollten vor der Hochzeit sauber geklärt sein.",
     "items": [
       {
-        "kicker": "Tempo",
-        "title": "Genug Zeit",
-        "text": "Das Stück wird so gewählt, dass der Weg ruhig gegangen werden kann."
+        "time": "Vorab",
+        "kicker": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "text": "Bei Musik Brauteinzug klären wir zuerst, ob die Musik Mittelpunkt, Übergang, Hintergrund oder persönliches Zeichen sein soll."
       },
       {
-        "kicker": "Stimmung",
-        "title": "Klassisch oder modern",
-        "text": "Beides ist möglich - wichtig ist die emotionale Passung."
+        "time": "Stück",
+        "kicker": "Repertoire",
+        "title": "Klassisch, modern oder Wunschlied auswählen",
+        "text": "Die Auswahl folgt nicht nur Geschmack, sondern auch Weglänge, Raumakustik und emotionaler Dichte."
       },
       {
-        "kicker": "Wunschlied",
-        "title": "Persönlicher Bezug",
-        "text": "Ein Lieblingslied kann für Viola arrangiert werden."
+        "time": "Ablauf",
+        "kicker": "Timing",
+        "title": "Start und Ende sicher abstimmen",
+        "text": "Ein Blickzeichen, eine Kontaktperson oder ein klares Stichwort verhindert Unsicherheit am Hochzeitstag."
       },
       {
-        "kicker": "Ablauf",
-        "title": "Sicherer Einsatz",
-        "text": "Der Start wird mit Trauort, Redner:in oder Kirche abgestimmt."
+        "time": "Ort",
+        "kicker": "Klang",
+        "title": "Den Platz im Raum sinnvoll wählen",
+        "text": "Die Viola soll hörbar und sichtbar sein, ohne Laufwege, Reden oder Gäste zu stören."
       }
-    ]
+    ],
+    "footnote": "Musik Brauteinzug wird mit euch passend zu Zeremonie, Location und Gästen geplant."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Einzug Braut Musik.",
+    "title": "FAQ zu Musik Brauteinzug",
     "items": [
       {
-        "question": "Welche Musik eignet sich für den Brauteinzug?",
-        "answer": "Geeignet sind ruhige, festliche Stücke oder ein persönliches Lieblingslied, das genug Zeit und Spannung für den Einzug gibt.",
+        "question": "Für welche Hochzeit passt Musik Brauteinzug?",
+        "answer": "Musik Brauteinzug passt besonders für Einzug der Braut, des Bräutigams oder des Brautpaares. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
-        "question": "Kann ein moderner Song zum Einzug gespielt werden?",
-        "answer": "Ja, wenn er sich musikalisch für Solo-Viola arrangieren lässt."
+        "question": "Kann ein Wunschlied gespielt werden?",
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Wie wird die Länge des Einzugs geplant?",
-        "answer": "Ich stimme Tempo, Startpunkt und mögliches Ende vorher mit euch und dem Ablauf der Trauung ab."
+        "question": "Passt das auch zu Standesamt, Kirche und freier Trauung?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für kleine Trausäle, Kirchen, freie Trauungen und Empfänge sehr flexibel."
+      },
+      {
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Trauredner:in, Kirche, Standesamt oder Location."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Schatten, Untergrund und Schutz für das Instrument stimmen. Ein Plan B ist bei Hochzeiten im Freien immer sinnvoll."
+      },
+      {
+        "question": "Wie früh sollten wir anfragen?",
+        "answer": "Sobald Datum und Ort feststehen, ist eine Anfrage sinnvoll. Besonders Termine in der Hochzeitssaison sind oft früh vergeben."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
-      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+      "alt": "Live-Viola für Musik Brauteinzug 1"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
-      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+      "alt": "Live-Viola für Musik Brauteinzug 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola für Musik Brauteinzug 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Hochzeitsmusik planen",
     "title": "Musik Brauteinzug anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Brauteinzug.",
+    "lead": "Schickt mir Datum, Ort, Zeremonieform und den Moment, für den ihr Musik Brauteinzug plant. Ich melde mich mit einer passenden musikalischen Idee.",
     "checklist": [
       "Musik Brauteinzug",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Trauung oder Empfang",
+      "Wunschlied"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Brauteinzug zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Musik Brauteinzug anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Brauteinzug."
   }
 }

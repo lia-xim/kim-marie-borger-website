@@ -6,96 +6,121 @@
   "targetKeyword": "Instrumentalmusik Hochzeit",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-7-review-needed",
   "enabled": true,
-  "seoTitle": "Instrumentalmusik Hochzeit | Hochzeitsmusik mit Live-Viola",
-  "seoDescription": "Instrumentalmusik Hochzeit: Live-Viola für Trauung, Empfang oder Dinner. Wunschmusik und Timing persönlich abgestimmt.",
+  "seoTitle": "Instrumentalmusik Hochzeit | Live-Viola Hochzeit",
+  "seoDescription": "Instrumentalmusik Hochzeit: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
   "hero": {
-    "title": "Instrumentalmusik Hochzeit, persönlich geplant und live begleitet.",
-    "lead": "Live-Viola für Hochzeiten mit warmem, elegantem Streicherklang. Diese Seite bündelt den Suchintent \"Instrumentalmusik Hochzeit\" für Musik ohne Gesang, die Raum für Worte lässt."
+    "eyebrow": "Instrumental",
+    "title": "Instrumentalmusik zur Hochzeit, wenn Melodien wirken sollen, ohne Worte zu brauchen.",
+    "lead": "Instrumentalmusik Hochzeit richtet sich an Trauungen, Empfänge und Dinner mit ruhiger musikalischer Linie. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf wirklich zu eurem Hochzeitstag passen.",
+    "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Stil",
-    "title": "Der Stil entscheidet über die Atmosphäre.",
-    "lede": "Klassisch, modern, romantisch oder dezent meint nicht nur Repertoire, sondern auch Lautstärke, Tempo und Präsenz. Für instrumentalmusik hochzeit zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Instrumentalmusik Hochzeit braucht eine eigene musikalische Planung.",
+    "lede": "Instrumentalmusik passt, wenn Texte nicht ablenken sollen oder ein Song ohne Gesang persönlicher wirkt. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Zeremonie, Standesamt, Kirche, Garten oder Restaurant.",
     "paragraphs": [
-      "Instrumentalmusik Hochzeit wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für eure Hochzeit.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was ihr für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
-    ]
+      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
+      "Solo-Viola kann bekannte Melodien so spielen, dass der emotionale Kern erhalten bleibt.",
+      "Der Vorteil liegt in der Flexibilität: Ein Stück kann verlängert, gekürzt oder im richtigen Moment gelöst werden.",
+      "Die Musik bekommt eine klare Aufgabe im Ablauf, damit sie nicht wie eine zufällige Einlage wirkt. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
+      "Für Instrumentalmusik Hochzeit klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
+      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+      "Wichtig ist, dass Instrumentalmusik Hochzeit nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+      "Diese Seite grenzt den Suchbegriff bewusst von allgemeineren Hochzeitsseiten ab. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Instrumentalmusik Hochzeit."
+    ],
+    "seal": "Instrumental\nHochzeit\nLive-Viola"
   },
   "focus": {
-    "eyebrow": "Stil",
-    "title": "Instrumentalmusik Hochzeit: worauf es ankommt.",
-    "lead": "Die folgenden Punkte trennen diese Suchintention bewusst von allgemeineren Seiten und helfen bei der Planung.",
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Instrumentalmusik Hochzeit ankommt.",
+    "lead": "Die Details unterscheiden sich je nach Zeremonie und Location. Diese Punkte sollten vor der Hochzeit sauber geklärt sein.",
     "items": [
       {
-        "kicker": "Moment",
-        "title": "Einsatzpunkt planen",
-        "text": "Instrumentalmusik Hochzeit braucht einen klaren musikalischen Anfang und ein sinnvolles Ende."
+        "time": "Vorab",
+        "kicker": "Rolle",
+        "title": "Die Aufgabe der Musik festlegen",
+        "text": "Bei Instrumentalmusik Hochzeit klären wir zuerst, ob die Musik Mittelpunkt, Übergang, Hintergrund oder persönliches Zeichen sein soll."
       },
       {
-        "kicker": "Stimmung",
-        "title": "Repertoire wählen",
-        "text": "Klassische Stücke, moderne Songs oder ein Wunschlied werden passend zum Ablauf ausgewählt."
+        "time": "Stück",
+        "kicker": "Repertoire",
+        "title": "Klassisch, modern oder Wunschlied auswählen",
+        "text": "Die Auswahl folgt nicht nur Geschmack, sondern auch Weglänge, Raumakustik und emotionaler Dichte."
       },
       {
+        "time": "Ablauf",
+        "kicker": "Timing",
+        "title": "Start und Ende sicher abstimmen",
+        "text": "Ein Blickzeichen, eine Kontaktperson oder ein klares Stichwort verhindert Unsicherheit am Hochzeitstag."
+      },
+      {
+        "time": "Ort",
         "kicker": "Klang",
-        "title": "Viola als Stimme",
-        "text": "Der warme Klang der Viola bleibt nah, emotional und trotzdem elegant."
-      },
-      {
-        "kicker": "Ablauf",
-        "title": "Sicher abstimmen",
-        "text": "Timing, Dauer und Übergänge werden vorab mit ihr geklärt."
+        "title": "Den Platz im Raum sinnvoll wählen",
+        "text": "Die Viola soll hörbar und sichtbar sein, ohne Laufwege, Reden oder Gäste zu stören."
       }
-    ]
+    ],
+    "footnote": "Instrumentalmusik Hochzeit wird mit euch passend zu Zeremonie, Location und Gästen geplant."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Instrumentalmusik Hochzeit.",
+    "title": "FAQ zu Instrumentalmusik Hochzeit",
     "items": [
       {
-        "question": "Passt Instrumentalmusik Hochzeit zu eure Hochzeit?",
-        "answer": "Ja. Instrumentalmusik Hochzeit wird gezielt auf eure Hochzeit, den Raum und den Ablauf abgestimmt. für eine klare musikalische Stilrichtung.",
+        "question": "Für welche Hochzeit passt Instrumentalmusik Hochzeit?",
+        "answer": "Instrumentalmusik Hochzeit passt besonders für Trauungen, Empfänge und Dinner mit ruhiger musikalischer Linie. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
         "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
       },
       {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Instrumentalmusik Hochzeit am Tag selbst ruhig funktioniert."
+        "question": "Passt das auch zu Standesamt, Kirche und freier Trauung?",
+        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für kleine Trausäle, Kirchen, freie Trauungen und Empfänge sehr flexibel."
+      },
+      {
+        "question": "Wie wird der Einsatz abgestimmt?",
+        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Trauredner:in, Kirche, Standesamt oder Location."
+      },
+      {
+        "question": "Ist draußen spielen möglich?",
+        "answer": "Ja, wenn Wetter, Schatten, Untergrund und Schutz für das Instrument stimmen. Ein Plan B ist bei Hochzeiten im Freien immer sinnvoll."
+      },
+      {
+        "question": "Wie früh sollten wir anfragen?",
+        "answer": "Sobald Datum und Ort feststehen, ist eine Anfrage sinnvoll. Besonders Termine in der Hochzeitssaison sind oft früh vergeben."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
-      "alt": "Kim Marie Borger spielt Viola vor festlicher Kulisse"
+      "alt": "Live-Viola für Instrumentalmusik Hochzeit 1"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
-      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+      "alt": "Live-Viola für Instrumentalmusik Hochzeit 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Live-Viola für Instrumentalmusik Hochzeit 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Anfrage",
+    "eyebrow": "Hochzeitsmusik planen",
     "title": "Instrumentalmusik Hochzeit anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Instrumentalmusik Hochzeit.",
+    "lead": "Schickt mir Datum, Ort, Zeremonieform und den Moment, für den ihr Instrumentalmusik Hochzeit plant. Ich melde mich mit einer passenden musikalischen Idee.",
     "checklist": [
       "Instrumentalmusik Hochzeit",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Trauung oder Empfang",
+      "Wunschlied"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Instrumentalmusik Hochzeit zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formEyebrow": "Anfrage senden",
+    "formTitle": "Instrumentalmusik Hochzeit anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Instrumentalmusik Hochzeit."
   }
 }
