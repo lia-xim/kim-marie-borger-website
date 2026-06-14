@@ -3,70 +3,138 @@
   "serviceSlug": "firmenfeiern",
   "pageSlug": "krefeld",
   "route": "/firmenfeiern/krefeld/",
-  "targetKeyword": "Firmenevent Krefeld",
+  "targetKeyword": "Live Musik Firmenevent Krefeld",
   "intentCluster": "firmenfeiern:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-9-review-needed",
   "enabled": true,
-  "seoTitle": "Firmenevent Krefeld | Live-Viola für Empfang & Dinner",
-  "seoDescription": "Live Musik für Firmenevents in Krefeld: dezente Viola für Empfang, Dinner, Jubiläum, Messe, Eröffnung und repräsentative Business-Anlässe.",
+  "seoTitle": "Firmenevent Krefeld | Live-Viola",
+  "seoDescription": "Live Musik Firmenevent Krefeld: dezente Solo-Viola für Empfang, Dinner, Firmenjubiläum, Messe, Eröffnung und Kundenveranstaltung.",
   "hero": {
+    "eyebrow": "Business-Events",
     "title": "Live Musik für Firmenevents in Krefeld.",
-    "lead": "Stilvolle Viola für Empfang, Dinner, Firmenjubiläum, Messe, Eröffnung oder Kundenevent in Krefeld - dezent, hochwertig und planbar."
+    "lead": "Krefeld verbindet Niederrhein, Textiltradition, Stadtwald, Uerdingen und Business-Events mit entspanntem Charakter. Ich begleite Empfang, Dinner und offizielle Momente mit warmer Solo-Viola, klarer Abstimmung und professionellem Ablauf.",
+    "badge": "Solo-Viola für Empfang, Dinner & Jubiläum"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Business-Events in Krefeld brauchen Atmosphäre.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Firmenevents in Krefeld brauchen Musik mit Fingerspitzengefühl.",
+    "lede": "Für Unternehmen am Niederrhein ist ein ruhiger, verbindlicher Ton oft stärker als laute Inszenierung. Genau darauf stimme ich Klang, Repertoire, Setlänge und Position im Raum ab.",
     "paragraphs": [
-      "Ob zwischen Linn, Stadtwald, Seidenweberhaus und dem Niederrhein: Ein Firmenevent braucht Musik, die den Raum öffnet, aber Gespräche möglich lässt. Solo-Viola wirkt hochwertig, persönlich und deutlich eleganter als laute Hintergrundbeschallung.",
-      "Ich stimme Dauer, Lautstärke, Repertoire und Einsätze vorab mit euch ab - vom Ankommen der Gäste über Dinner und Reden bis zu einem kurzen Programmpunkt. Eine reguläre Rechnung für die Buchhaltung ist selbstverständlich."
-    ]
+      "Krefeld verbindet Niederrhein, Textiltradition, Stadtwald, Uerdingen und Business-Events mit entspanntem Charakter.",
+      "Geeignet sind Empfang, Kundenabend, Firmenjubiläum, Dinner, Eröffnung oder ein kleiner musikalischer Moment im Unternehmensumfeld.",
+      "Raumgröße und Lautstärke sollten vorab geklärt werden, damit die Viola präsent bleibt und Gespräche nicht überdeckt.",
+      "In Krefeld wirkt Musik besonders gut, wenn sie gepflegt, aber nicht zu formal eingesetzt wird.",
+      "Ich plane Sets dort gern mit genügend Pausen, damit die Veranstaltung nicht nach Konzert, sondern nach wertigem Empfang klingt.",
+      "Für Unternehmen am Niederrhein ist ein ruhiger, verbindlicher Ton oft stärker als laute Inszenierung.",
+      "Bei einem Dinner plane ich die Musik eher in Blöcken, damit Service, Gespräche und Reden sauber voneinander getrennt bleiben.",
+      "Für Unternehmen ist Planbarkeit genauso wichtig wie Atmosphäre. Deshalb gehören Ablauf, Rechnung, Kontaktperson und Timing zur musikalischen Vorbereitung.",
+      "Für Live Musik Firmenevent Krefeld ist wichtig, dass Musik nicht wie eine private Einlage wirkt. Sie soll professionell eingebunden sein, zur Marke passen und Gästen den Einstieg in Gespräche erleichtern.",
+      "Ich bespreche vorab, ob die Viola beim Einlass sichtbar sein soll, ob sie den offiziellen Teil vorbereitet oder ob sie später als ruhige Dinnermusik zurücktritt.",
+      "Auch die Lautstärke wird bewusst geplant. In einem Foyer braucht Musik eine andere Präsenz als in einem Restaurant, auf einer Terrasse oder in einem Konferenzraum.",
+      "Der Vorteil von Solo-Viola liegt in der schlanken Umsetzung: wenig Aufbau, kein großes Bühnenbild, aber ein Klang, der deutlich mehr Persönlichkeit hat als eine Playlist.",
+      "Der rote Faden ist immer derselbe: Musik soll den Anlass veredeln, ohne Gespräche, Service oder offizielle Programmpunkte zu verdrängen.",
+      "Für Unternehmen in Krefeld ist außerdem die organisatorische Seite wichtig. Ich kläre Kontaktperson, Uhrzeit, Rechnungsdaten, mögliche Pausen und den Punkt, an dem Musik enden oder in den nächsten Programmpunkt übergehen soll.",
+      "Wenn Reden, Ehrungen oder Produktmomente geplant sind, setze ich die Musik so, dass sie diese Szenen rahmt und nicht kommentiert. Ein kurzer Live-Akzent kann stärker wirken als ein langes Set ohne klare Aufgabe.",
+      "Die Seite fokussiert bewusst Live Musik Firmenevent Krefeld. Andere Firmenfeier-Seiten behandeln Messe, Gala, Dinnermusik oder allgemeine Eventmusik; hier geht es um den konkreten Rahmen in Krefeld.",
+      "Gerade bei Business-Events ist Zurückhaltung eine Qualität. Der Klang darf spürbar sein, aber er muss jederzeit dem Zweck des Treffens dienen.",
+      "Für die erste Anfrage reichen Datum, Location, ungefähre Gästezahl, Anlass und der gewünschte musikalische Zeitraum. Danach lässt sich schnell einschätzen, ob ein Empfangsset, Dinnermusik oder ein einzelner offizieller Moment am besten passt."
+    ],
+    "seal": "Krefeld\nBusiness\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Live Musik für Firmenevents in Krefeld.",
+    "title": "FAQ zu Live Musik Firmenevent Krefeld",
     "items": [
       {
-        "question": "Spielst du auf Firmenfeiern in Krefeld?",
-        "answer": "Ja. Ich begleite Firmenfeiern, Empfänge, Dinners, Messen, Eröffnungen und Jubiläen in Krefeld mit Solo-Viola.",
+        "question": "Spielst du auf Firmenevents in Krefeld?",
+        "answer": "Ja. Ich begleite Empfänge, Dinner, Firmenjubiläen, Eröffnungen, Kundenabende und ähnliche Business-Anlässe in Krefeld mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Ist die Musik eher Hintergrund oder Programmpunkt?",
-        "answer": "Beides ist möglich. Die Viola kann dezent Atmosphäre schaffen oder als kuratierter kurzer Auftritt einen offiziellen Moment rahmen."
+        "question": "Welche Firmenfeier-Formate passen in Krefeld?",
+        "answer": "Geeignet sind Empfang, Kundenabend, Firmenjubiläum, Dinner, Eröffnung oder ein kleiner musikalischer Moment im Unternehmensumfeld. Besonders sinnvoll ist Live-Musik, wenn Gäste ankommen, ein offizieller Moment gerahmt wird oder das Dinner nicht still wirken soll."
       },
       {
-        "question": "Bekommen wir eine Rechnung?",
-        "answer": "Ja, selbstverständlich mit allen notwendigen Angaben für die Buchhaltung."
+        "question": "Was ist bei der Planung in Krefeld besonders wichtig?",
+        "answer": "Raumgröße und Lautstärke sollten vorab geklärt werden, damit die Viola präsent bleibt und Gespräche nicht überdeckt."
       },
       {
-        "question": "Wie wird die Lautstärke geplant?",
-        "answer": "Akustisch ist die Viola angenehm und gesprächsfreundlich. Für größere Räume oder Events bespreche ich bei Bedarf dezente Verstärkung."
+        "question": "Bleibt die Musik dezent genug für Gespräche?",
+        "answer": "Ja. Ich plane Lautstärke, Repertoire, Position und Pausen so, dass Gespräche, Service und Reden weiterhin gut funktionieren."
+      },
+      {
+        "question": "Bekommen wir eine Rechnung für das Unternehmen?",
+        "answer": "Ja. Eine ordentliche Rechnung mit den nötigen Angaben für Buchhaltung, Agentur oder Eventabteilung ist selbstverständlich."
+      },
+      {
+        "question": "Kannst du auch nur einen kurzen offiziellen Moment spielen?",
+        "answer": "Ja. Ein kurzes Set zur Begrüßung, ein musikalischer Akzent vor einer Rede oder ein ruhiger Übergang ist oft sinnvoller als lange durchgehende Musik."
+      },
+      {
+        "question": "Warum passt Solo-Viola für Live Musik Firmenevent Krefeld?",
+        "answer": "Die Viola klingt warm, elegant und weniger hell als eine Geige. Dadurch eignet sie sich besonders für Business-Räume, in denen Musik hochwertig wirken soll, aber nicht zu dominant sein darf."
+      },
+      {
+        "question": "Welche Angaben helfen für ein Angebot in Krefeld?",
+        "answer": "Sinnvoll sind Datum, Location, Gästezahl, Anlass, gewünschter Zeitraum, grober Ablauf und die Information, ob Musik beim Empfang, Dinner, offiziellen Teil oder als kurzer Akzent geplant ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Live-Musik für Firmenevents in Krefeld mit Solo-Viola und Noten"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Live-Musik für Firmenevents in Krefeld bei einem Business-Anlass"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
     "eyebrow": "Anfrage",
-    "title": "Firmenevent Krefeld anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Firmenevent Krefeld.",
+    "title": "Live Musik Firmenevent Krefeld anfragen",
+    "lead": "Schick mir Datum, Location, Gästezahl und den geplanten Anlass in Krefeld. Ich melde mich mit einer passenden Idee für Empfang, Dinner oder offiziellen Moment.",
     "checklist": [
-      "Firmenevent Krefeld",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Live Musik Firmenevent Krefeld",
+      "Empfang, Dinner oder offizieller Akzent",
+      "Termin, Ort & Rechnungsdaten"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Firmenevent Krefeld zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Live-Viola zu eurem Firmenevent in Krefeld?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Live-Musik in Krefeld."
+  },
+  "focus": {
+    "eyebrow": "Ablauf",
+    "title": "So kann Live-Musik in Krefeld eingebunden werden.",
+    "lead": "Je nach Anlass kann die Viola beim Empfang, während des Dinners, vor einer Rede oder als kurzer musikalischer Akzent eingesetzt werden.",
+    "items": [
+      {
+        "time": "01",
+        "kicker": "Empfang",
+        "title": "Ankommen in Krefeld",
+        "text": "Die Musik öffnet den Raum, während Gäste eintreffen, Getränke nehmen und erste Gespräche entstehen. In Krefeld wirkt Musik besonders gut, wenn sie gepflegt, aber nicht zu formal eingesetzt wird."
+      },
+      {
+        "time": "02",
+        "kicker": "Dinner",
+        "title": "Dinnermusik mit Pausen",
+        "text": "Für Essen und Service plane ich Sets so, dass Gespräche möglich bleiben und Reden nicht unterbrochen werden. Geeignet sind Empfang, Kundenabend, Firmenjubiläum, Dinner, Eröffnung oder ein kleiner musikalischer Moment im Unternehmensumfeld."
+      },
+      {
+        "time": "03",
+        "kicker": "Akzent",
+        "title": "Offizielle Momente rahmen",
+        "text": "Bei Begrüßung, Ehrung, Produktmoment oder Eröffnung kann ein kurzes Stück mehr Wirkung haben als lange Hintergrundmusik. Für Unternehmen am Niederrhein ist ein ruhiger, verbindlicher Ton oft stärker als laute Inszenierung."
+      },
+      {
+        "time": "04",
+        "kicker": "Planung",
+        "title": "Logistik ruhig vorbereiten",
+        "text": "Raumgröße und Lautstärke sollten vorab geklärt werden, damit die Viola präsent bleibt und Gespräche nicht überdeckt. Außerdem klären wir Rechnung, Kontaktperson, Dresscode und den gewünschten musikalischen Charakter."
+      }
+    ],
+    "footnote": "Für Live Musik Firmenevent Krefeld plane ich Musik als Teil des Business-Ablaufs, nicht als zufälligen Programmpunkt."
   }
 }

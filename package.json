@@ -22,6 +22,7 @@
     "seo:rewrite-batch-6": "node scripts/rewrite-seo-batch-6-unterricht.mjs",
     "seo:rewrite-batch-7": "node scripts/rewrite-seo-batch-7-hochzeiten.mjs",
     "seo:rewrite-batch-8": "node scripts/rewrite-seo-batch-8-beerdigungen.mjs",
+    "seo:rewrite-batch-9": "node scripts/rewrite-seo-batch-9-firmenfeiern.mjs",
     "keywords:map": "node scripts/build-keyword-opportunities.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",
     "optimize:audio": "node scripts/optimize-audio.mjs",

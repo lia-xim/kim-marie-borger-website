@@ -3,70 +3,138 @@
   "serviceSlug": "firmenfeiern",
   "pageSlug": "bottrop",
   "route": "/firmenfeiern/bottrop/",
-  "targetKeyword": "Firmenevent Bottrop",
+  "targetKeyword": "Live Musik Firmenevent Bottrop",
   "intentCluster": "firmenfeiern:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-9-review-needed",
   "enabled": true,
-  "seoTitle": "Firmenevent Bottrop | Live-Viola für Empfang & Dinner",
-  "seoDescription": "Live Musik für Firmenevents in Bottrop: dezente Viola für Empfang, Dinner, Jubiläum, Messe, Eröffnung und repräsentative Business-Anlässe.",
+  "seoTitle": "Firmenevent Bottrop | Live-Viola",
+  "seoDescription": "Live Musik Firmenevent Bottrop: dezente Solo-Viola für Empfang, Dinner, Firmenjubiläum, Messe, Eröffnung und Kundenveranstaltung.",
   "hero": {
+    "eyebrow": "Business-Events",
     "title": "Live Musik für Firmenevents in Bottrop.",
-    "lead": "Stilvolle Viola für Empfang, Dinner, Firmenjubiläum, Messe, Eröffnung oder Kundenevent in Bottrop - dezent, hochwertig und planbar."
+    "lead": "Bottrop eignet sich für Firmenfeiern, Teamabende und Jubiläen mit direkter, unkomplizierter Ruhrgebietsatmosphäre. Ich begleite Empfang, Dinner und offizielle Momente mit warmer Solo-Viola, klarer Abstimmung und professionellem Ablauf.",
+    "badge": "Solo-Viola für Empfang, Dinner & Jubiläum"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Business-Events in Bottrop brauchen Atmosphäre.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Firmenevents in Bottrop brauchen Musik mit Fingerspitzengefühl.",
+    "lede": "Für lokale Teams ist wichtig, dass die Musik nicht zwischen Gespräche und Essen gerät, sondern beide Phasen unterstützt. Genau darauf stimme ich Klang, Repertoire, Setlänge und Position im Raum ab.",
     "paragraphs": [
-      "Ob zwischen Stadtgarten, Kirchhellen, Ruhrgebiet und dem Übergang zum Münsterland: Ein Firmenevent braucht Musik, die den Raum öffnet, aber Gespräche möglich lässt. Solo-Viola wirkt hochwertig, persönlich und deutlich eleganter als laute Hintergrundbeschallung.",
-      "Ich stimme Dauer, Lautstärke, Repertoire und Einsätze vorab mit euch ab - vom Ankommen der Gäste über Dinner und Reden bis zu einem kurzen Programmpunkt. Eine reguläre Rechnung für die Buchhaltung ist selbstverständlich."
-    ]
+      "Bottrop eignet sich für Firmenfeiern, Teamabende und Jubiläen mit direkter, unkomplizierter Ruhrgebietsatmosphäre.",
+      "Musik passt zu Restaurant, Saal, Unternehmenshof, Eröffnung oder einem Kundentermin mit überschaubarer Gästezahl.",
+      "Der Aufbau bleibt am besten schlank; eine feste Kontaktperson und ein klares Startzeichen reichen meist aus.",
+      "In Bottrop plane ich Musik weniger als Show und mehr als wertigen Rahmen, der den Abend spürbar besonderer macht.",
+      "Die Viola kann dort ein guter Mittelweg sein: festlich genug für ein Unternehmen, aber klein genug für persönliche Begegnungen.",
+      "Für lokale Teams ist wichtig, dass die Musik nicht zwischen Gespräche und Essen gerät, sondern beide Phasen unterstützt.",
+      "Für einen Messeabend ist Timing besonders wichtig, weil Gäste aus Terminen kommen und die Musik eher ein Ankommen als ein Konzert sein soll.",
+      "Ich plane deshalb nicht einfach eine Stückliste, sondern die Rolle der Musik im Ablauf: Ankommen, Begrüßung, Essen, Rede, Pause oder Ausklang.",
+      "Für Live Musik Firmenevent Bottrop ist wichtig, dass Musik nicht wie eine private Einlage wirkt. Sie soll professionell eingebunden sein, zur Marke passen und Gästen den Einstieg in Gespräche erleichtern.",
+      "Ich bespreche vorab, ob die Viola beim Einlass sichtbar sein soll, ob sie den offiziellen Teil vorbereitet oder ob sie später als ruhige Dinnermusik zurücktritt.",
+      "Auch die Lautstärke wird bewusst geplant. In einem Foyer braucht Musik eine andere Präsenz als in einem Restaurant, auf einer Terrasse oder in einem Konferenzraum.",
+      "Der Vorteil von Solo-Viola liegt in der schlanken Umsetzung: wenig Aufbau, kein großes Bühnenbild, aber ein Klang, der deutlich mehr Persönlichkeit hat als eine Playlist.",
+      "Für Unternehmen ist Planbarkeit genauso wichtig wie Atmosphäre. Deshalb gehören Ablauf, Rechnung, Kontaktperson und Timing zur musikalischen Vorbereitung.",
+      "Für Unternehmen in Bottrop ist außerdem die organisatorische Seite wichtig. Ich kläre Kontaktperson, Uhrzeit, Rechnungsdaten, mögliche Pausen und den Punkt, an dem Musik enden oder in den nächsten Programmpunkt übergehen soll.",
+      "Wenn Reden, Ehrungen oder Produktmomente geplant sind, setze ich die Musik so, dass sie diese Szenen rahmt und nicht kommentiert. Ein kurzer Live-Akzent kann stärker wirken als ein langes Set ohne klare Aufgabe.",
+      "Die Seite fokussiert bewusst Live Musik Firmenevent Bottrop. Andere Firmenfeier-Seiten behandeln Messe, Gala, Dinnermusik oder allgemeine Eventmusik; hier geht es um den konkreten Rahmen in Bottrop.",
+      "Der rote Faden ist immer derselbe: Musik soll den Anlass veredeln, ohne Gespräche, Service oder offizielle Programmpunkte zu verdrängen.",
+      "Für die erste Anfrage reichen Datum, Location, ungefähre Gästezahl, Anlass und der gewünschte musikalische Zeitraum. Danach lässt sich schnell einschätzen, ob ein Empfangsset, Dinnermusik oder ein einzelner offizieller Moment am besten passt."
+    ],
+    "seal": "Bottrop\nBusiness\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Live Musik für Firmenevents in Bottrop.",
+    "title": "FAQ zu Live Musik Firmenevent Bottrop",
     "items": [
       {
-        "question": "Spielst du auf Firmenfeiern in Bottrop?",
-        "answer": "Ja. Ich begleite Firmenfeiern, Empfänge, Dinners, Messen, Eröffnungen und Jubiläen in Bottrop mit Solo-Viola.",
+        "question": "Spielst du auf Firmenevents in Bottrop?",
+        "answer": "Ja. Ich begleite Empfänge, Dinner, Firmenjubiläen, Eröffnungen, Kundenabende und ähnliche Business-Anlässe in Bottrop mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Ist die Musik eher Hintergrund oder Programmpunkt?",
-        "answer": "Beides ist möglich. Die Viola kann dezent Atmosphäre schaffen oder als kuratierter kurzer Auftritt einen offiziellen Moment rahmen."
+        "question": "Welche Firmenfeier-Formate passen in Bottrop?",
+        "answer": "Musik passt zu Restaurant, Saal, Unternehmenshof, Eröffnung oder einem Kundentermin mit überschaubarer Gästezahl. Besonders sinnvoll ist Live-Musik, wenn Gäste ankommen, ein offizieller Moment gerahmt wird oder das Dinner nicht still wirken soll."
       },
       {
-        "question": "Bekommen wir eine Rechnung?",
-        "answer": "Ja, selbstverständlich mit allen notwendigen Angaben für die Buchhaltung."
+        "question": "Was ist bei der Planung in Bottrop besonders wichtig?",
+        "answer": "Der Aufbau bleibt am besten schlank; eine feste Kontaktperson und ein klares Startzeichen reichen meist aus."
       },
       {
-        "question": "Wie wird die Lautstärke geplant?",
-        "answer": "Akustisch ist die Viola angenehm und gesprächsfreundlich. Für größere Räume oder Events bespreche ich bei Bedarf dezente Verstärkung."
+        "question": "Bleibt die Musik dezent genug für Gespräche?",
+        "answer": "Ja. Ich plane Lautstärke, Repertoire, Position und Pausen so, dass Gespräche, Service und Reden weiterhin gut funktionieren."
+      },
+      {
+        "question": "Bekommen wir eine Rechnung für das Unternehmen?",
+        "answer": "Ja. Eine ordentliche Rechnung mit den nötigen Angaben für Buchhaltung, Agentur oder Eventabteilung ist selbstverständlich."
+      },
+      {
+        "question": "Kann die Musik draußen stattfinden?",
+        "answer": "Grundsätzlich ja, wenn Wetter, Untergrund, Licht und Schutz für das Instrument stimmen. Für Außenbereiche plane ich immer eine realistische Alternative mit."
+      },
+      {
+        "question": "Warum passt Solo-Viola für Live Musik Firmenevent Bottrop?",
+        "answer": "Die Viola klingt warm, elegant und weniger hell als eine Geige. Dadurch eignet sie sich besonders für Business-Räume, in denen Musik hochwertig wirken soll, aber nicht zu dominant sein darf."
+      },
+      {
+        "question": "Welche Angaben helfen für ein Angebot in Bottrop?",
+        "answer": "Sinnvoll sind Datum, Location, Gästezahl, Anlass, gewünschter Zeitraum, grober Ablauf und die Information, ob Musik beim Empfang, Dinner, offiziellen Teil oder als kurzer Akzent geplant ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Live-Musik für Firmenevents in Bottrop mit Solo-Viola und Noten"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Live-Musik für Firmenevents in Bottrop bei einem Business-Anlass"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
     "eyebrow": "Anfrage",
-    "title": "Firmenevent Bottrop anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Firmenevent Bottrop.",
+    "title": "Live Musik Firmenevent Bottrop anfragen",
+    "lead": "Schick mir Datum, Location, Gästezahl und den geplanten Anlass in Bottrop. Ich melde mich mit einer passenden Idee für Empfang, Dinner oder offiziellen Moment.",
     "checklist": [
-      "Firmenevent Bottrop",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Live Musik Firmenevent Bottrop",
+      "Empfang, Dinner oder offizieller Akzent",
+      "Termin, Ort & Rechnungsdaten"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Firmenevent Bottrop zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Live-Viola zu eurem Firmenevent in Bottrop?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Live-Musik in Bottrop."
+  },
+  "focus": {
+    "eyebrow": "Ablauf",
+    "title": "So kann Live-Musik in Bottrop eingebunden werden.",
+    "lead": "Je nach Anlass kann die Viola beim Empfang, während des Dinners, vor einer Rede oder als kurzer musikalischer Akzent eingesetzt werden.",
+    "items": [
+      {
+        "time": "01",
+        "kicker": "Empfang",
+        "title": "Ankommen in Bottrop",
+        "text": "Die Musik öffnet den Raum, während Gäste eintreffen, Getränke nehmen und erste Gespräche entstehen. In Bottrop plane ich Musik weniger als Show und mehr als wertigen Rahmen, der den Abend spürbar besonderer macht."
+      },
+      {
+        "time": "02",
+        "kicker": "Dinner",
+        "title": "Dinnermusik mit Pausen",
+        "text": "Für Essen und Service plane ich Sets so, dass Gespräche möglich bleiben und Reden nicht unterbrochen werden. Musik passt zu Restaurant, Saal, Unternehmenshof, Eröffnung oder einem Kundentermin mit überschaubarer Gästezahl."
+      },
+      {
+        "time": "03",
+        "kicker": "Akzent",
+        "title": "Offizielle Momente rahmen",
+        "text": "Bei Begrüßung, Ehrung, Produktmoment oder Eröffnung kann ein kurzes Stück mehr Wirkung haben als lange Hintergrundmusik. Für lokale Teams ist wichtig, dass die Musik nicht zwischen Gespräche und Essen gerät, sondern beide Phasen unterstützt."
+      },
+      {
+        "time": "04",
+        "kicker": "Planung",
+        "title": "Logistik ruhig vorbereiten",
+        "text": "Der Aufbau bleibt am besten schlank; eine feste Kontaktperson und ein klares Startzeichen reichen meist aus. Außerdem klären wir Rechnung, Kontaktperson, Dresscode und den gewünschten musikalischen Charakter."
+      }
+    ],
+    "footnote": "Für Live Musik Firmenevent Bottrop plane ich Musik als Teil des Business-Ablaufs, nicht als zufälligen Programmpunkt."
   }
 }

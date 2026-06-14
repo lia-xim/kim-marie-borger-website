@@ -6,64 +6,134 @@
   "targetKeyword": "Musik Messe",
   "intentCluster": "firmenfeiern:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-9-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Messe | Live-Musik für Messestand, Empfang & Kundenkontakt",
-  "seoDescription": "Musik für Messe, Messestand und Kundenempfang: dezente Live-Viola für hochwertige Atmosphäre bei Business-Events.",
+  "seoTitle": "Musik Messe | Live-Viola für Business",
+  "seoDescription": "Musik Messe: Solo-Viola für Business-Events. Dezent, hochwertig, gesprächsfreundlich und professionell planbar.",
   "hero": {
-    "title": "Musik für Messe und Business-Empfang.",
-    "lead": "Dezente Live-Viola für Messestand, Kundenempfang, Produktpräsentation oder Networking-Situation."
+    "eyebrow": "Business-Musik",
+    "title": "Musik für Messe, Messestand und Kundenkontakt.",
+    "lead": "Messe-Musik muss Aufmerksamkeit schaffen und trotzdem Beratungsgespräche, Leads und Laufwege respektieren. Ich plane Solo-Viola so, dass Musik, Ablauf, Raum und geschäftlicher Anlass zusammenpassen.",
+    "badge": "Live-Viola für Unternehmen"
   },
   "split": {
-    "eyebrow": "Business-Formate",
-    "title": "Business-Musik muss präzise funktionieren.",
-    "lede": "Auf einer Messe darf Musik Aufmerksamkeit schaffen, aber Gespräche nicht stören. Solo-Viola wirkt hochwertig und bleibt akustisch kontrollierbar.",
+    "eyebrow": "Suchintention",
+    "title": "Musik Messe braucht einen eigenen musikalischen Fokus.",
+    "lede": "Aussteller, Agenturen und Unternehmen, die am Messestand oder Messeabend hochwertig auffallen möchten suchen keine beliebige Musik, sondern eine Lösung für Messestand, Lounge, Side Event, Messeparty, Kundenempfang oder Produktbereich.",
     "paragraphs": [
-      "Ich stimme Einsatzzeiten, Lautstärke, Repertoire und Pausen so ab, dass die Musik zum Messetag und zum Kundenkontakt passt.",
-      "Möglich sind Empfangszeiten, kurze musikalische Akzente oder dezente Begleitung für Stand, Lounge oder Abendveranstaltung."
-    ]
+      "Messe-Musik muss Aufmerksamkeit schaffen und trotzdem Beratungsgespräche, Leads und Laufwege respektieren.",
+      "Ich plane kürzere Slots, klare Pausen, dezente Lautstärke und Repertoire, das auch im offenen Raum funktioniert.",
+      "Diese Seite unterscheidet sich deutlich von Geburtstagsständchen oder allgemeiner Eventmusik: Der Fokus liegt auf Business-Kontakt und Messelogistik.",
+      "Wichtig sind Hallenregeln, Standfläche, Strom- oder Technikvorgaben, Laufpublikum, Kundenzeiten und der Wechsel zwischen Stand und Abendformat.",
+      "Eine Solo-Viola kann einen Messestand hochwertiger und menschlicher machen, ohne Gespräche akustisch zu blockieren.",
+      "Bei Musik Messe beginne ich mit der Frage, welche Aufgabe die Musik im Business-Ablauf übernimmt: einladend, verbindend, festlich, dezent oder als klarer Akzent.",
+      "Die Setlänge hängt nicht nur von der gebuchten Zeit ab. Wichtig ist, wann Gäste wirklich hören, wann sie sprechen, wann Service läuft und wann ein offizieller Programmpunkt Aufmerksamkeit braucht.",
+      "Für Unternehmen ist Planbarkeit genauso wichtig wie Atmosphäre. Deshalb gehören Ablauf, Rechnung, Kontaktperson und Timing zur musikalischen Vorbereitung.",
+      "Ich wähle Repertoire so aus, dass es auf der Viola verständlich bleibt. Manche bekannten Stücke wirken ohne Gesang wunderbar, andere verlieren ohne Text ihren Sinn und werden besser ersetzt.",
+      "Auch die Platzierung im Raum gehört zur Planung. Zu nah am Buffet ist Musik oft im Weg, zu weit entfernt verliert sie Wirkung. Die beste Position unterstützt Bewegung und Blickrichtung der Gäste.",
+      "Für Musik Messe kann klassische Musik passend sein, aber auch moderne Melodien, ruhige Pop-Bearbeitungen oder reduzierte instrumentale Linien. Entscheidend ist der Anlass, nicht eine starre Stil-Schublade.",
+      "Der rote Faden ist immer derselbe: Musik soll den Anlass veredeln, ohne Gespräche, Service oder offizielle Programmpunkte zu verdrängen.",
+      "Die organisatorische Seite bleibt bewusst klar: Termin, Ort, Kontaktperson, Rechnungsdaten, Dresscode, gewünschte Spielzeit und eventuelle Besonderheiten der Location.",
+      "Wenn Agentur, Assistenz, Location und Unternehmen beteiligt sind, kann ich die musikalischen Eckpunkte kurz und verbindlich abstimmen, damit am Veranstaltungstag niemand lange erklären muss.",
+      "Diese Seite bleibt bei Musik Messe. Verwandte Seiten behandeln einzelne Orte, Messe, Firmenfeier, Gala, Dinnermusik oder Instrumentenfragen; hier geht es um den konkreten Suchintent dieses Begriffs.",
+      "Gerade bei Business-Events ist Zurückhaltung eine Qualität. Der Klang darf spürbar sein, aber er muss jederzeit dem Zweck des Treffens dienen.",
+      "Für eine erste Einschätzung reichen wenige Angaben. Danach kann ich vorschlagen, ob ein durchgehender Rahmen, mehrere kurze Sets oder ein einzelner musikalischer Moment die sauberste Lösung ist."
+    ],
+    "seal": "Musik Messe\nBusiness\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Musik Messe.",
+    "title": "FAQ zu Musik Messe",
     "items": [
       {
-        "question": "Eignet sich Live-Musik für einen Messestand?",
-        "answer": "Ja, wenn sie dezent geplant ist. Solo-Viola kann hochwertig wirken, ohne Kundengespräche zu überdecken.",
+        "question": "Für wen passt Musik Messe?",
+        "answer": "Musik Messe passt für Aussteller, Agenturen und Unternehmen, die am Messestand oder Messeabend hochwertig auffallen möchten. Entscheidend ist, dass die Musik im Ablauf eine klare Aufgabe bekommt.",
         "open": true
       },
       {
-        "question": "Kann die Musik zeitlich in Slots geplant werden?",
-        "answer": "Ja. Kurze Sets mit Pausen sind für Messen oft sinnvoller als durchgehende Musik."
+        "question": "Was unterscheidet Musik Messe von allgemeiner Eventmusik?",
+        "answer": "Diese Seite unterscheidet sich deutlich von Geburtstagsständchen oder allgemeiner Eventmusik: Der Fokus liegt auf Business-Kontakt und Messelogistik."
       },
       {
-        "question": "Bekommen wir eine Rechnung für das Unternehmen?",
-        "answer": "Ja, natürlich mit den notwendigen Angaben für die Buchhaltung."
+        "question": "Kann die Musik wirklich im Hintergrund bleiben?",
+        "answer": "Ja. Ich plane Dynamik, Setlänge und Position so, dass die Musik Atmosphäre schafft, aber Gespräche und offizielle Programmpunkte nicht stört."
+      },
+      {
+        "question": "Welche Musikstile sind möglich?",
+        "answer": "Möglich sind klassische Stücke, moderne Melodien, ruhige Pop-Bearbeitungen und reduzierte instrumentale Linien. Entscheidend ist, dass die Melodie solo auf der Viola trägt."
+      },
+      {
+        "question": "Spielst du mit Verstärkung?",
+        "answer": "Bei kleineren und mittleren Räumen ist akustische Viola oft ausreichend. Für größere Räume oder offene Flächen kann dezente Verstärkung sinnvoll sein."
+      },
+      {
+        "question": "Wie wird der Ablauf abgestimmt?",
+        "answer": "Wichtig sind Hallenregeln, Standfläche, Strom- oder Technikvorgaben, Laufpublikum, Kundenzeiten und der Wechsel zwischen Stand und Abendformat. Danach entsteht ein klares Set-Konzept mit Startzeit, Pausen und möglichem Ende."
+      },
+      {
+        "question": "Ist eine Buchung über Agentur oder Firma möglich?",
+        "answer": "Ja. Ich kann die Anfrage direkt mit Unternehmen, Assistenz, Eventagentur, Location oder Projektleitung abstimmen und eine reguläre Rechnung stellen."
+      },
+      {
+        "question": "Warum eignet sich Viola für Musik Messe?",
+        "answer": "Eine Solo-Viola kann einen Messestand hochwertiger und menschlicher machen, ohne Gespräche akustisch zu blockieren."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Live-Viola für Musik Messe mit Solo-Viola und Noten"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Live-Viola für Musik Messe bei einem Business-Anlass"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
     "eyebrow": "Anfrage",
     "title": "Musik Messe anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Musik Messe.",
+    "lead": "Schick mir Datum, Ort, Gästezahl und den geplanten Ablauf für Musik Messe. Ich melde mich mit einer passenden Idee für Solo-Viola im Business-Kontext.",
     "checklist": [
       "Musik Messe",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Messestand, Lounge, Side Event, Messeparty, Kundenempfang oder Produktbereich",
+      "Termin, Ablauf & Rechnung"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Messe zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Musik Messe zu eurem Event?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Messe."
+  },
+  "focus": {
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Musik Messe ankommt.",
+    "lead": "Der musikalische Rahmen wird so geplant, dass er zum Anlass passt und den geschäftlichen Zweck der Veranstaltung unterstützt.",
+    "items": [
+      {
+        "time": "01",
+        "kicker": "Intent",
+        "title": "Die Rolle der Musik festlegen",
+        "text": "Messe-Musik muss Aufmerksamkeit schaffen und trotzdem Beratungsgespräche, Leads und Laufwege respektieren. Daraus ergibt sich, ob Musik eher dezent, sichtbar, festlich oder verbindend eingesetzt wird."
+      },
+      {
+        "time": "02",
+        "kicker": "Raum",
+        "title": "Akustik und Bewegung beachten",
+        "text": "Messestand, Lounge, Side Event, Messeparty, Kundenempfang oder Produktbereich hat eigene Anforderungen an Lautstärke, Position und Länge der Sets."
+      },
+      {
+        "time": "03",
+        "kicker": "Ablauf",
+        "title": "Übergänge statt Dauerbeschallung",
+        "text": "Wichtig sind Hallenregeln, Standfläche, Strom- oder Technikvorgaben, Laufpublikum, Kundenzeiten und der Wechsel zwischen Stand und Abendformat. So bleibt Musik Teil des Ablaufes und nicht nur akustische Fläche."
+      },
+      {
+        "time": "04",
+        "kicker": "Klang",
+        "title": "Viola passend einsetzen",
+        "text": "Eine Solo-Viola kann einen Messestand hochwertiger und menschlicher machen, ohne Gespräche akustisch zu blockieren. Der Klang bleibt live, warm und zugleich kontrollierbar."
+      }
+    ],
+    "footnote": "Musik Messe wird als eigene Seite geführt, weil der Suchintent andere Fragen stellt als eine allgemeine Firmenfeier-Seite."
   }
 }

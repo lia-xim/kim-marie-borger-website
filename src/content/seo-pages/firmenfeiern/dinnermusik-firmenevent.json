@@ -6,110 +6,134 @@
   "targetKeyword": "Dinnermusik Firmenevent",
   "intentCluster": "firmenfeiern:topic",
   "priority": "P2",
-  "status": "rewritten-batch-3-review-needed",
+  "status": "rewritten-batch-9-review-needed",
   "enabled": true,
-  "seoTitle": "Dinnermusik Firmenevent | Live-Viola für Gala & Kundenessen",
-  "seoDescription": "Dinnermusik für Firmenevents: dezente Live-Viola für Gala, Kundenessen und Business-Dinner. Ruhig dosiert zwischen Gängen, Reden und Gesprächen.",
+  "seoTitle": "Dinnermusik Firmenevent | Live-Viola für Business",
+  "seoDescription": "Dinnermusik Firmenevent: Solo-Viola für Business-Events. Dezent, hochwertig, gesprächsfreundlich und professionell planbar.",
   "hero": {
-    "eyebrow": "Business Dinner",
-    "title": "Dinnermusik für Firmenevents, die den Abend führt, ohne ihn zu beschallen.",
-    "lead": "Beim Business-Dinner sollen Gäste essen, zuhören und miteinander sprechen können. Die Viola setzt warme musikalische Bögen zwischen Aperitif, Gängen und Reden, ohne den Tisch zu dominieren.",
-    "badge": "Für Gala, Kundenessen und Dinner"
+    "eyebrow": "Business-Musik",
+    "title": "Dinnermusik für Firmenevents mit Live-Viola.",
+    "lead": "Der Suchintent ist klar auf Essen und Gespräch gerichtet: Musik soll den Raum veredeln, aber den Tisch nicht stören. Ich plane Solo-Viola so, dass Musik, Ablauf, Raum und geschäftlicher Anlass zusammenpassen.",
+    "badge": "Live-Viola für Unternehmen"
   },
   "split": {
     "eyebrow": "Suchintention",
-    "title": "Dinnermusik ist kein Empfang und kein Showblock.",
-    "lede": "Wer nach Dinnermusik für ein Firmenevent sucht, plant meist einen sitzenden Abend: Menü, Toasts, kurze Reden und viele leise Gespräche. Die Musik muss genau diese Dramaturgie respektieren.",
+    "title": "Dinnermusik Firmenevent braucht einen eigenen musikalischen Fokus.",
+    "lede": "Unternehmen, die ein Essen nicht nur füllen, sondern angenehm rahmen möchten suchen keine beliebige Musik, sondern eine Lösung für Dinner, gesetztes Menü, Flying Buffet, Vorstandstisch oder Kundenabend.",
     "paragraphs": [
-      "Ich plane die Sets so, dass sie zwischen den Gängen tragen und während wichtiger Worte zurücktreten. Dadurch entsteht ein hochwertiger Rahmen, der den Abend ruhiger und feierlicher wirken lässt.",
-      "Stilistisch ist ein Bogen von klassisch bis modern möglich. Entscheidend ist nicht die größte Aufmerksamkeit, sondern ein Klang, der zum Raum, zur Tischordnung und zum Anlass passt.",
-      "Auf Wunsch stimme ich mich mit Location, Eventagentur oder interner Organisation ab, damit Aufbau, Pausen, Lautstärke und Rechnung klar geregelt sind.",
-      "Für die Planung ist besonders wichtig, ob die Musik im selben Raum wie der Service stattfindet oder ob Aperitif, Dinner und Ausklang räumlich getrennt sind. Daraus ergeben sich Position, Set-Länge und die Frage, ob ein sehr dezenter technischer Aufbau sinnvoll ist.",
-      "Ich vermeide beim Dinner bewusst Stücke, die zu viel Aufmerksamkeit auf sich ziehen. Stattdessen entsteht ein Repertoire, das Gespräche trägt, Pausen zwischen Gängen füllt und den Abend hochwertig wirken lässt, ohne den Ablauf schwerer zu machen.",
-      "Wenn das Dinner Teil einer größeren Gala ist, kann die Musik außerdem den Unterschied zwischen offiziellem Programm und persönlicher Tischatmosphäre markieren. Gerade dieser Wechsel macht Dinnermusik für Firmenevents eigenständig."
-    ]
+      "Der Suchintent ist klar auf Essen und Gespräch gerichtet: Musik soll den Raum veredeln, aber den Tisch nicht stören.",
+      "Ich spiele in Sets, mit Pausen zwischen Gängen, reduzierter Dynamik und Repertoire, das auch bei leisem Pegel erkennbar bleibt.",
+      "Diese Seite unterscheidet sich von allgemeiner Firmenfeier-Musik, weil der Fokus auf Tischlautstärke, Pausen, Serviceablauf und Gesprächsfluss liegt.",
+      "Wichtig sind Menüzeiten, Reden, Raumgröße, Platzierung im Saal und die Frage, ob einzelne Stücke angekündigt oder bewusst unauffällig bleiben.",
+      "Eine Solo-Viola braucht wenig Platz und kann sich an Service, Toasts und Gespräche anpassen.",
+      "Bei Dinnermusik Firmenevent beginne ich mit der Frage, welche Aufgabe die Musik im Business-Ablauf übernimmt: einladend, verbindend, festlich, dezent oder als klarer Akzent.",
+      "Die Setlänge hängt nicht nur von der gebuchten Zeit ab. Wichtig ist, wann Gäste wirklich hören, wann sie sprechen, wann Service läuft und wann ein offizieller Programmpunkt Aufmerksamkeit braucht.",
+      "Der rote Faden ist immer derselbe: Musik soll den Anlass veredeln, ohne Gespräche, Service oder offizielle Programmpunkte zu verdrängen.",
+      "Ich wähle Repertoire so aus, dass es auf der Viola verständlich bleibt. Manche bekannten Stücke wirken ohne Gesang wunderbar, andere verlieren ohne Text ihren Sinn und werden besser ersetzt.",
+      "Auch die Platzierung im Raum gehört zur Planung. Zu nah am Buffet ist Musik oft im Weg, zu weit entfernt verliert sie Wirkung. Die beste Position unterstützt Bewegung und Blickrichtung der Gäste.",
+      "Für Dinnermusik Firmenevent kann klassische Musik passend sein, aber auch moderne Melodien, ruhige Pop-Bearbeitungen oder reduzierte instrumentale Linien. Entscheidend ist der Anlass, nicht eine starre Stil-Schublade.",
+      "Gerade bei Business-Events ist Zurückhaltung eine Qualität. Der Klang darf spürbar sein, aber er muss jederzeit dem Zweck des Treffens dienen.",
+      "Die organisatorische Seite bleibt bewusst klar: Termin, Ort, Kontaktperson, Rechnungsdaten, Dresscode, gewünschte Spielzeit und eventuelle Besonderheiten der Location.",
+      "Wenn Agentur, Assistenz, Location und Unternehmen beteiligt sind, kann ich die musikalischen Eckpunkte kurz und verbindlich abstimmen, damit am Veranstaltungstag niemand lange erklären muss.",
+      "Diese Seite bleibt bei Dinnermusik Firmenevent. Verwandte Seiten behandeln einzelne Orte, Messe, Firmenfeier, Gala, Dinnermusik oder Instrumentenfragen; hier geht es um den konkreten Suchintent dieses Begriffs.",
+      "Ein Solo-Instrument kann sehr hochwertig wirken und bleibt zugleich flexibel, wenn sich Reden verschieben oder Gäste länger im Empfang bleiben.",
+      "Für eine erste Einschätzung reichen wenige Angaben. Danach kann ich vorschlagen, ob ein durchgehender Rahmen, mehrere kurze Sets oder ein einzelner musikalischer Moment die sauberste Lösung ist."
+    ],
+    "seal": "Dinnermusik Firmenevent\nBusiness\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Dinnermusik beim Firmenevent",
+    "title": "FAQ zu Dinnermusik Firmenevent",
     "items": [
       {
-        "question": "Spielst du während der Reden?",
-        "answer": "In der Regel nicht. Dinnermusik wirkt am besten vor oder nach Redebeiträgen, damit Sprache und Musik nicht konkurrieren.",
+        "question": "Für wen passt Dinnermusik Firmenevent?",
+        "answer": "Dinnermusik Firmenevent passt für Unternehmen, die ein Essen nicht nur füllen, sondern angenehm rahmen möchten. Entscheidend ist, dass die Musik im Ablauf eine klare Aufgabe bekommt.",
         "open": true
       },
       {
-        "question": "Wie lange sollte Dinnermusik dauern?",
-        "answer": "Häufig sind mehrere kurze Sets sinnvoller als ein langer Block. So bleibt die Musik nah am Service und wirkt nicht wie Dauerbeschallung."
+        "question": "Was unterscheidet Dinnermusik Firmenevent von allgemeiner Eventmusik?",
+        "answer": "Diese Seite unterscheidet sich von allgemeiner Firmenfeier-Musik, weil der Fokus auf Tischlautstärke, Pausen, Serviceablauf und Gesprächsfluss liegt."
       },
       {
-        "question": "Ist die Viola laut genug für einen Dinnerraum?",
-        "answer": "Ja, für viele Dinnerräume akustisch oder mit dezenter Verstärkung. Die Lautstärke wird so gewählt, dass Tischgespräche möglich bleiben."
+        "question": "Kann die Musik wirklich im Hintergrund bleiben?",
+        "answer": "Ja. Ich plane Dynamik, Setlänge und Position so, dass die Musik Atmosphäre schafft, aber Gespräche und offizielle Programmpunkte nicht stört."
       },
       {
-        "question": "Kann das Repertoire zum Unternehmen passen?",
-        "answer": "Ja. Ich kann den Charakter des Abends aufnehmen: klassisch-repräsentativ, modern, warm, festlich oder sehr zurückhaltend."
+        "question": "Welche Musikstile sind möglich?",
+        "answer": "Möglich sind klassische Stücke, moderne Melodien, ruhige Pop-Bearbeitungen und reduzierte instrumentale Linien. Entscheidend ist, dass die Melodie solo auf der Viola trägt."
       },
       {
-        "question": "Kann Dinnermusik mit einem Gala-Programm kombiniert werden?",
-        "answer": "Ja. Die Musik kann vor dem Programm, zwischen Gängen oder nach einzelnen Redebeiträgen liegen. Wichtig ist, dass Gala-Moderation und Musik klare eigene Zeitfenster bekommen."
+        "question": "Spielst du mit Verstärkung?",
+        "answer": "Bei kleineren und mittleren Räumen ist akustische Viola oft ausreichend. Für größere Räume oder offene Flächen kann dezente Verstärkung sinnvoll sein."
+      },
+      {
+        "question": "Wie wird der Ablauf abgestimmt?",
+        "answer": "Wichtig sind Menüzeiten, Reden, Raumgröße, Platzierung im Saal und die Frage, ob einzelne Stücke angekündigt oder bewusst unauffällig bleiben. Danach entsteht ein klares Set-Konzept mit Startzeit, Pausen und möglichem Ende."
+      },
+      {
+        "question": "Ist eine Buchung über Agentur oder Firma möglich?",
+        "answer": "Ja. Ich kann die Anfrage direkt mit Unternehmen, Assistenz, Eventagentur, Location oder Projektleitung abstimmen und eine reguläre Rechnung stellen."
+      },
+      {
+        "question": "Warum eignet sich Viola für Dinnermusik Firmenevent?",
+        "answer": "Eine Solo-Viola braucht wenig Platz und kann sich an Service, Toasts und Gespräche anpassen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Live-Viola als Dinnermusik für ein Firmenevent 1"
+      "alt": "Live-Viola für Dinnermusik Firmenevent mit Solo-Viola und Noten"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Live-Viola als Dinnermusik für ein Firmenevent 2"
+      "alt": "Kim Marie Borger spielt Live-Viola für Dinnermusik Firmenevent bei einem Business-Anlass"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 3: Firmenfeier-Topicseiten mit eigenem Business-Intent, eigenen Ablaufpunkten, FAQs, Kontaktcopy und Bildbeschreibungen differenziert. Fachlich im CMS final pruefen.",
+  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
-    "eyebrow": "Dinner planen",
-    "title": "Soll euer Business-Dinner musikalisch begleitet werden?",
-    "lead": "Schick mir Ablauf, Raumgröße, geplante Reden und den zeitlichen Rahmen. Ich schlage dir eine passende Struktur für die Dinnermusik vor.",
+    "eyebrow": "Anfrage",
+    "title": "Dinnermusik Firmenevent anfragen",
+    "lead": "Schick mir Datum, Ort, Gästezahl und den geplanten Ablauf für Dinnermusik Firmenevent. Ich melde mich mit einer passenden Idee für Solo-Viola im Business-Kontext.",
     "checklist": [
-      "Dinner",
-      "Reden",
-      "Gala/Kundenessen"
+      "Dinnermusik Firmenevent",
+      "Dinner, gesetztes Menü, Flying Buffet, Vorstandstisch oder Kundenabend",
+      "Termin, Ablauf & Rechnung"
     ],
-    "formEyebrow": "Ablauf senden",
-    "formTitle": "Dinnermusik für Firmenevent anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer passenden Idee für eure Dinnermusik."
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Dinnermusik Firmenevent zu eurem Event?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Dinnermusik Firmenevent."
   },
   "focus": {
-    "eyebrow": "Dinner-Ablauf",
-    "title": "So wird Dinnermusik in den Abend eingebunden.",
-    "lead": "Die Musik folgt dem Service und den Redebeiträgen. Dadurch klingt der Abend bewusst geplant statt zufällig unterlegt.",
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Dinnermusik Firmenevent ankommt.",
+    "lead": "Der musikalische Rahmen wird so geplant, dass er zum Anlass passt und den geschäftlichen Zweck der Veranstaltung unterstützt.",
     "items": [
       {
-        "time": "Aperitif",
-        "kicker": "Ankommen",
-        "title": "Ruhiger Einstieg vor dem Dinner",
-        "text": "Ein leichtes erstes Set nimmt Unruhe aus dem Raum, während Gäste ihren Platz finden oder noch im Foyer sind."
+        "time": "01",
+        "kicker": "Intent",
+        "title": "Die Rolle der Musik festlegen",
+        "text": "Der Suchintent ist klar auf Essen und Gespräch gerichtet: Musik soll den Raum veredeln, aber den Tisch nicht stören. Daraus ergibt sich, ob Musik eher dezent, sichtbar, festlich oder verbindend eingesetzt wird."
       },
       {
-        "time": "Zwischen Gängen",
-        "kicker": "Service",
-        "title": "Musik in den Pausen",
-        "text": "Kurze Sets zwischen den Gängen füllen Wartezeiten, ohne Gespräche am Tisch zu überlagern."
+        "time": "02",
+        "kicker": "Raum",
+        "title": "Akustik und Bewegung beachten",
+        "text": "Dinner, gesetztes Menü, Flying Buffet, Vorstandstisch oder Kundenabend hat eigene Anforderungen an Lautstärke, Position und Länge der Sets."
       },
       {
-        "time": "Nach Reden",
-        "kicker": "Worte",
-        "title": "Reden nachklingen lassen",
-        "text": "Nach einem Toast oder einer Ehrung kann ein Stück Spannung lösen und den nächsten Teil des Abends öffnen."
+        "time": "03",
+        "kicker": "Ablauf",
+        "title": "Übergänge statt Dauerbeschallung",
+        "text": "Wichtig sind Menüzeiten, Reden, Raumgröße, Platzierung im Saal und die Frage, ob einzelne Stücke angekündigt oder bewusst unauffällig bleiben. So bleibt Musik Teil des Ablaufes und nicht nur akustische Fläche."
       },
       {
-        "time": "Ausklang",
-        "kicker": "Ende",
-        "title": "Eleganter Abschluss",
-        "text": "Zum Ende des Dinners bleibt die Musik wärmer und reduzierter als ein Party-Start, damit der Übergang stimmig bleibt."
+        "time": "04",
+        "kicker": "Klang",
+        "title": "Viola passend einsetzen",
+        "text": "Eine Solo-Viola braucht wenig Platz und kann sich an Service, Toasts und Gespräche anpassen. Der Klang bleibt live, warm und zugleich kontrollierbar."
       }
     ],
-    "footnote": "Zeitpunkte sind beispielhaft. Der genaue Ablauf richtet sich nach Menü, Reden und Raum."
+    "footnote": "Dinnermusik Firmenevent wird als eigene Seite geführt, weil der Suchintent andere Fragen stellt als eine allgemeine Firmenfeier-Seite."
   }
 }

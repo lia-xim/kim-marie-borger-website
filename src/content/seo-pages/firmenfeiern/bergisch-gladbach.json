@@ -3,70 +3,138 @@
   "serviceSlug": "firmenfeiern",
   "pageSlug": "bergisch-gladbach",
   "route": "/firmenfeiern/bergisch-gladbach/",
-  "targetKeyword": "Firmenevent Bergisch Gladbach",
+  "targetKeyword": "Live Musik Firmenevent Bergisch Gladbach",
   "intentCluster": "firmenfeiern:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-9-review-needed",
   "enabled": true,
-  "seoTitle": "Firmenevent Bergisch Gladbach | Live-Viola für Empfang & Dinner",
-  "seoDescription": "Live Musik für Firmenevents in Bergisch Gladbach: dezente Viola für Empfang, Dinner, Jubiläum, Messe, Eröffnung und repräsentative Business-Anlässe.",
+  "seoTitle": "Firmenevent Bergisch Gladbach | Live-Viola",
+  "seoDescription": "Live Musik Firmenevent Bergisch Gladbach: dezente Solo-Viola für Empfang, Dinner, Firmenjubiläum, Messe, Eröffnung und Kundenveranstaltung.",
   "hero": {
+    "eyebrow": "Business-Events",
     "title": "Live Musik für Firmenevents in Bergisch Gladbach.",
-    "lead": "Stilvolle Viola für Empfang, Dinner, Firmenjubiläum, Messe, Eröffnung oder Kundenevent in Bergisch Gladbach - dezent, hochwertig und planbar."
+    "lead": "Bensberg, Refrath, Kölner Nähe und bergische Ruhe machen Business-Events in Bergisch Gladbach sehr unterschiedlich. Ich begleite Empfang, Dinner und offizielle Momente mit warmer Solo-Viola, klarer Abstimmung und professionellem Ablauf.",
+    "badge": "Solo-Viola für Empfang, Dinner & Jubiläum"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Business-Events in Bergisch Gladbach brauchen Atmosphäre.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Firmenevents in Bergisch Gladbach brauchen Musik mit Fingerspitzengefühl.",
+    "lede": "Für Unternehmen am Rand von Köln ist die Abgrenzung wichtig: Es soll hochwertig klingen, aber nicht nach großem Showprogramm aussehen. Genau darauf stimme ich Klang, Repertoire, Setlänge und Position im Raum ab.",
     "paragraphs": [
-      "Ob zwischen Bensberg, Refrath, Köln-Nähe und dem Eingang ins Bergische Land: Ein Firmenevent braucht Musik, die den Raum öffnet, aber Gespräche möglich lässt. Solo-Viola wirkt hochwertig, persönlich und deutlich eleganter als laute Hintergrundbeschallung.",
-      "Ich stimme Dauer, Lautstärke, Repertoire und Einsätze vorab mit euch ab - vom Ankommen der Gäste über Dinner und Reden bis zu einem kurzen Programmpunkt. Eine reguläre Rechnung für die Buchhaltung ist selbstverständlich."
-    ]
+      "Bensberg, Refrath, Kölner Nähe und bergische Ruhe machen Business-Events in Bergisch Gladbach sehr unterschiedlich.",
+      "Die Viola eignet sich für Villa, Hotel, Restaurant, Kundentermin, Sommerempfang oder ein ruhiges Dinner nach einem Workshop.",
+      "Parken, Zufahrt und die Position der Musik sollten wegen kurzer Wechsel zwischen Empfang, Essen und Rede früh feststehen.",
+      "In Bergisch Gladbach ist häufig eine elegante, aber nicht laute Atmosphäre gefragt, weil viele Veranstaltungen zwischen Privatheit und Repräsentation liegen.",
+      "Ich setze die Musik dort gern so, dass sie Räume öffnet, bevor Gespräche beginnen, und später wieder zurückgenommen werden kann.",
+      "Für Unternehmen am Rand von Köln ist die Abgrenzung wichtig: Es soll hochwertig klingen, aber nicht nach großem Showprogramm aussehen.",
+      "Bei einem Firmenjubiläum zählt Wertschätzung. Ein ruhiger Live-Moment kann eine Rede oder Ehrung verbinden, ohne den Abend zu verlängern.",
+      "Der rote Faden ist immer derselbe: Musik soll den Anlass veredeln, ohne Gespräche, Service oder offizielle Programmpunkte zu verdrängen.",
+      "Für Live Musik Firmenevent Bergisch Gladbach ist wichtig, dass Musik nicht wie eine private Einlage wirkt. Sie soll professionell eingebunden sein, zur Marke passen und Gästen den Einstieg in Gespräche erleichtern.",
+      "Ich bespreche vorab, ob die Viola beim Einlass sichtbar sein soll, ob sie den offiziellen Teil vorbereitet oder ob sie später als ruhige Dinnermusik zurücktritt.",
+      "Auch die Lautstärke wird bewusst geplant. In einem Foyer braucht Musik eine andere Präsenz als in einem Restaurant, auf einer Terrasse oder in einem Konferenzraum.",
+      "Der Vorteil von Solo-Viola liegt in der schlanken Umsetzung: wenig Aufbau, kein großes Bühnenbild, aber ein Klang, der deutlich mehr Persönlichkeit hat als eine Playlist.",
+      "Gerade bei Business-Events ist Zurückhaltung eine Qualität. Der Klang darf spürbar sein, aber er muss jederzeit dem Zweck des Treffens dienen.",
+      "Für Unternehmen in Bergisch Gladbach ist außerdem die organisatorische Seite wichtig. Ich kläre Kontaktperson, Uhrzeit, Rechnungsdaten, mögliche Pausen und den Punkt, an dem Musik enden oder in den nächsten Programmpunkt übergehen soll.",
+      "Wenn Reden, Ehrungen oder Produktmomente geplant sind, setze ich die Musik so, dass sie diese Szenen rahmt und nicht kommentiert. Ein kurzer Live-Akzent kann stärker wirken als ein langes Set ohne klare Aufgabe.",
+      "Die Seite fokussiert bewusst Live Musik Firmenevent Bergisch Gladbach. Andere Firmenfeier-Seiten behandeln Messe, Gala, Dinnermusik oder allgemeine Eventmusik; hier geht es um den konkreten Rahmen in Bergisch Gladbach.",
+      "Ein Solo-Instrument kann sehr hochwertig wirken und bleibt zugleich flexibel, wenn sich Reden verschieben oder Gäste länger im Empfang bleiben.",
+      "Für die erste Anfrage reichen Datum, Location, ungefähre Gästezahl, Anlass und der gewünschte musikalische Zeitraum. Danach lässt sich schnell einschätzen, ob ein Empfangsset, Dinnermusik oder ein einzelner offizieller Moment am besten passt."
+    ],
+    "seal": "Bergisch Gladbach\nBusiness\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Live Musik für Firmenevents in Bergisch Gladbach.",
+    "title": "FAQ zu Live Musik Firmenevent Bergisch Gladbach",
     "items": [
       {
-        "question": "Spielst du auf Firmenfeiern in Bergisch Gladbach?",
-        "answer": "Ja. Ich begleite Firmenfeiern, Empfänge, Dinners, Messen, Eröffnungen und Jubiläen in Bergisch Gladbach mit Solo-Viola.",
+        "question": "Spielst du auf Firmenevents in Bergisch Gladbach?",
+        "answer": "Ja. Ich begleite Empfänge, Dinner, Firmenjubiläen, Eröffnungen, Kundenabende und ähnliche Business-Anlässe in Bergisch Gladbach mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Ist die Musik eher Hintergrund oder Programmpunkt?",
-        "answer": "Beides ist möglich. Die Viola kann dezent Atmosphäre schaffen oder als kuratierter kurzer Auftritt einen offiziellen Moment rahmen."
+        "question": "Welche Firmenfeier-Formate passen in Bergisch Gladbach?",
+        "answer": "Die Viola eignet sich für Villa, Hotel, Restaurant, Kundentermin, Sommerempfang oder ein ruhiges Dinner nach einem Workshop. Besonders sinnvoll ist Live-Musik, wenn Gäste ankommen, ein offizieller Moment gerahmt wird oder das Dinner nicht still wirken soll."
       },
       {
-        "question": "Bekommen wir eine Rechnung?",
-        "answer": "Ja, selbstverständlich mit allen notwendigen Angaben für die Buchhaltung."
+        "question": "Was ist bei der Planung in Bergisch Gladbach besonders wichtig?",
+        "answer": "Parken, Zufahrt und die Position der Musik sollten wegen kurzer Wechsel zwischen Empfang, Essen und Rede früh feststehen."
       },
       {
-        "question": "Wie wird die Lautstärke geplant?",
-        "answer": "Akustisch ist die Viola angenehm und gesprächsfreundlich. Für größere Räume oder Events bespreche ich bei Bedarf dezente Verstärkung."
+        "question": "Bleibt die Musik dezent genug für Gespräche?",
+        "answer": "Ja. Ich plane Lautstärke, Repertoire, Position und Pausen so, dass Gespräche, Service und Reden weiterhin gut funktionieren."
+      },
+      {
+        "question": "Bekommen wir eine Rechnung für das Unternehmen?",
+        "answer": "Ja. Eine ordentliche Rechnung mit den nötigen Angaben für Buchhaltung, Agentur oder Eventabteilung ist selbstverständlich."
+      },
+      {
+        "question": "Kann die Musik draußen stattfinden?",
+        "answer": "Grundsätzlich ja, wenn Wetter, Untergrund, Licht und Schutz für das Instrument stimmen. Für Außenbereiche plane ich immer eine realistische Alternative mit."
+      },
+      {
+        "question": "Warum passt Solo-Viola für Live Musik Firmenevent Bergisch Gladbach?",
+        "answer": "Die Viola klingt warm, elegant und weniger hell als eine Geige. Dadurch eignet sie sich besonders für Business-Räume, in denen Musik hochwertig wirken soll, aber nicht zu dominant sein darf."
+      },
+      {
+        "question": "Welche Angaben helfen für ein Angebot in Bergisch Gladbach?",
+        "answer": "Sinnvoll sind Datum, Location, Gästezahl, Anlass, gewünschter Zeitraum, grober Ablauf und die Information, ob Musik beim Empfang, Dinner, offiziellen Teil oder als kurzer Akzent geplant ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Live-Musik für Firmenevents in Bergisch Gladbach mit Solo-Viola und Noten"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Live-Musik für Firmenevents in Bergisch Gladbach bei einem Business-Anlass"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
     "eyebrow": "Anfrage",
-    "title": "Firmenevent Bergisch Gladbach anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Firmenevent Bergisch Gladbach.",
+    "title": "Live Musik Firmenevent Bergisch Gladbach anfragen",
+    "lead": "Schick mir Datum, Location, Gästezahl und den geplanten Anlass in Bergisch Gladbach. Ich melde mich mit einer passenden Idee für Empfang, Dinner oder offiziellen Moment.",
     "checklist": [
-      "Firmenevent Bergisch Gladbach",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Live Musik Firmenevent Bergisch Gladbach",
+      "Empfang, Dinner oder offizieller Akzent",
+      "Termin, Ort & Rechnungsdaten"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Firmenevent Bergisch Gladbach zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Live-Viola zu eurem Firmenevent in Bergisch Gladbach?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Live-Musik in Bergisch Gladbach."
+  },
+  "focus": {
+    "eyebrow": "Ablauf",
+    "title": "So kann Live-Musik in Bergisch Gladbach eingebunden werden.",
+    "lead": "Je nach Anlass kann die Viola beim Empfang, während des Dinners, vor einer Rede oder als kurzer musikalischer Akzent eingesetzt werden.",
+    "items": [
+      {
+        "time": "01",
+        "kicker": "Empfang",
+        "title": "Ankommen in Bergisch Gladbach",
+        "text": "Die Musik öffnet den Raum, während Gäste eintreffen, Getränke nehmen und erste Gespräche entstehen. In Bergisch Gladbach ist häufig eine elegante, aber nicht laute Atmosphäre gefragt, weil viele Veranstaltungen zwischen Privatheit und Repräsentation liegen."
+      },
+      {
+        "time": "02",
+        "kicker": "Dinner",
+        "title": "Dinnermusik mit Pausen",
+        "text": "Für Essen und Service plane ich Sets so, dass Gespräche möglich bleiben und Reden nicht unterbrochen werden. Die Viola eignet sich für Villa, Hotel, Restaurant, Kundentermin, Sommerempfang oder ein ruhiges Dinner nach einem Workshop."
+      },
+      {
+        "time": "03",
+        "kicker": "Akzent",
+        "title": "Offizielle Momente rahmen",
+        "text": "Bei Begrüßung, Ehrung, Produktmoment oder Eröffnung kann ein kurzes Stück mehr Wirkung haben als lange Hintergrundmusik. Für Unternehmen am Rand von Köln ist die Abgrenzung wichtig: Es soll hochwertig klingen, aber nicht nach großem Showprogramm aussehen."
+      },
+      {
+        "time": "04",
+        "kicker": "Planung",
+        "title": "Logistik ruhig vorbereiten",
+        "text": "Parken, Zufahrt und die Position der Musik sollten wegen kurzer Wechsel zwischen Empfang, Essen und Rede früh feststehen. Außerdem klären wir Rechnung, Kontaktperson, Dresscode und den gewünschten musikalischen Charakter."
+      }
+    ],
+    "footnote": "Für Live Musik Firmenevent Bergisch Gladbach plane ich Musik als Teil des Business-Ablaufs, nicht als zufälligen Programmpunkt."
   }
 }

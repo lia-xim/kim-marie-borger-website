@@ -6,65 +6,134 @@
   "targetKeyword": "Viola Firmenevent",
   "intentCluster": "firmenfeiern:topic",
   "priority": "P2",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-9-review-needed",
   "enabled": true,
-  "seoTitle": "Viola Firmenevent | Live-Musik für Business-Events",
-  "seoDescription": "Viola Firmenevent: Dezente Live-Viola für Empfang, Dinner, Messe oder Business-Event. Hochwertig und gesprächsfreundlich.",
+  "seoTitle": "Viola Firmenevent | Live-Viola für Business",
+  "seoDescription": "Viola Firmenevent: Solo-Viola für Business-Events. Dezent, hochwertig, gesprächsfreundlich und professionell planbar.",
   "hero": {
-    "title": "Viola Firmenevent, persönlich geplant und live begleitet.",
-    "lead": "Dezente Live-Viola für Business-Events, die hochwertig wirken und Gespräche möglich lassen. Diese Seite bündelt den Suchintent \"Viola Firmenevent\" für einen warmen, eleganten Business-Klang."
+    "eyebrow": "Business-Musik",
+    "title": "Viola für Firmenevents mit warmem Live-Klang.",
+    "lead": "Der Suchintent dreht sich um das Instrument selbst und die Frage, ob Viola für ein Business-Event geeignet ist. Ich plane Solo-Viola so, dass Musik, Ablauf, Raum und geschäftlicher Anlass zusammenpassen.",
+    "badge": "Live-Viola für Unternehmen"
   },
   "split": {
-    "eyebrow": "Business",
-    "title": "Business-Musik muss repräsentativ und kontrollierbar sein.",
-    "lede": "Bei Firmenfeiern und Events soll Musik Aufmerksamkeit schaffen, ohne Gespräche oder Ablauf zu stören. Für viola firmenevent zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.",
+    "eyebrow": "Suchintention",
+    "title": "Viola Firmenevent braucht einen eigenen musikalischen Fokus.",
+    "lede": "Unternehmen, die bewusst nach dem tieferen, weicheren Klang der Viola suchen suchen keine beliebige Musik, sondern eine Lösung für Empfang, Dinner, Kundenevent, Jubiläum, Eröffnung, Messe oder ein kleiner Gala-Moment.",
     "paragraphs": [
-      "Viola Firmenevent wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für das Event.",
-      "Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was Gäste, Kund:innen und Team für diesen Moment brauchen.",
-      "Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist."
-    ]
+      "Der Suchintent dreht sich um das Instrument selbst und die Frage, ob Viola für ein Business-Event geeignet ist.",
+      "Ich nutze den warmen, mittleren Klang der Viola für dezente Atmosphäre, feierliche Akzente und gesprächsfreundliche Begleitung.",
+      "Diese Seite grenzt sich von Geige ab, weil die Viola weniger hell und oft angenehmer im Gesprächsumfeld wirkt.",
+      "Wichtig sind Raumakustik, Gästezahl, gewünschte Stilrichtung und die Frage, ob der Klang solo oder verstärkt geplant wird.",
+      "Viola eignet sich besonders für Unternehmen, die einen kultivierten Live-Klang suchen, der nicht grell oder dominant wird.",
+      "Bei Viola Firmenevent beginne ich mit der Frage, welche Aufgabe die Musik im Business-Ablauf übernimmt: einladend, verbindend, festlich, dezent oder als klarer Akzent.",
+      "Die Setlänge hängt nicht nur von der gebuchten Zeit ab. Wichtig ist, wann Gäste wirklich hören, wann sie sprechen, wann Service läuft und wann ein offizieller Programmpunkt Aufmerksamkeit braucht.",
+      "Der rote Faden ist immer derselbe: Musik soll den Anlass veredeln, ohne Gespräche, Service oder offizielle Programmpunkte zu verdrängen.",
+      "Ich wähle Repertoire so aus, dass es auf der Viola verständlich bleibt. Manche bekannten Stücke wirken ohne Gesang wunderbar, andere verlieren ohne Text ihren Sinn und werden besser ersetzt.",
+      "Auch die Platzierung im Raum gehört zur Planung. Zu nah am Buffet ist Musik oft im Weg, zu weit entfernt verliert sie Wirkung. Die beste Position unterstützt Bewegung und Blickrichtung der Gäste.",
+      "Für Viola Firmenevent kann klassische Musik passend sein, aber auch moderne Melodien, ruhige Pop-Bearbeitungen oder reduzierte instrumentale Linien. Entscheidend ist der Anlass, nicht eine starre Stil-Schublade.",
+      "Gerade bei Business-Events ist Zurückhaltung eine Qualität. Der Klang darf spürbar sein, aber er muss jederzeit dem Zweck des Treffens dienen.",
+      "Die organisatorische Seite bleibt bewusst klar: Termin, Ort, Kontaktperson, Rechnungsdaten, Dresscode, gewünschte Spielzeit und eventuelle Besonderheiten der Location.",
+      "Wenn Agentur, Assistenz, Location und Unternehmen beteiligt sind, kann ich die musikalischen Eckpunkte kurz und verbindlich abstimmen, damit am Veranstaltungstag niemand lange erklären muss.",
+      "Diese Seite bleibt bei Viola Firmenevent. Verwandte Seiten behandeln einzelne Orte, Messe, Firmenfeier, Gala, Dinnermusik oder Instrumentenfragen; hier geht es um den konkreten Suchintent dieses Begriffs.",
+      "Ein Solo-Instrument kann sehr hochwertig wirken und bleibt zugleich flexibel, wenn sich Reden verschieben oder Gäste länger im Empfang bleiben.",
+      "Für eine erste Einschätzung reichen wenige Angaben. Danach kann ich vorschlagen, ob ein durchgehender Rahmen, mehrere kurze Sets oder ein einzelner musikalischer Moment die sauberste Lösung ist."
+    ],
+    "seal": "Viola Firmenevent\nBusiness\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Viola Firmenevent.",
+    "title": "FAQ zu Viola Firmenevent",
     "items": [
       {
-        "question": "Passt Viola Firmenevent zu das Event?",
-        "answer": "Ja. Viola Firmenevent wird gezielt auf das Event, den Raum und den Ablauf abgestimmt. für ein hochwertiges, gesprächsfreundliches Event.",
+        "question": "Für wen passt Viola Firmenevent?",
+        "answer": "Viola Firmenevent passt für Unternehmen, die bewusst nach dem tieferen, weicheren Klang der Viola suchen. Entscheidend ist, dass die Musik im Ablauf eine klare Aufgabe bekommt.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn das Stück musikalisch für Solo-Viola geeignet ist. Ich prüfe es vorab und bereite eine passende Fassung vor."
+        "question": "Was unterscheidet Viola Firmenevent von allgemeiner Eventmusik?",
+        "answer": "Diese Seite grenzt sich von Geige ab, weil die Viola weniger hell und oft angenehmer im Gesprächsumfeld wirkt."
+      },
+      {
+        "question": "Kann die Musik wirklich im Hintergrund bleiben?",
+        "answer": "Ja. Ich plane Dynamik, Setlänge und Position so, dass die Musik Atmosphäre schafft, aber Gespräche und offizielle Programmpunkte nicht stört."
+      },
+      {
+        "question": "Welche Musikstile sind möglich?",
+        "answer": "Möglich sind klassische Stücke, moderne Melodien, ruhige Pop-Bearbeitungen und reduzierte instrumentale Linien. Entscheidend ist, dass die Melodie solo auf der Viola trägt."
+      },
+      {
+        "question": "Spielst du mit Verstärkung?",
+        "answer": "Bei kleineren und mittleren Räumen ist akustische Viola oft ausreichend. Für größere Räume oder offene Flächen kann dezente Verstärkung sinnvoll sein."
       },
       {
         "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären vorab Einsatzpunkte, Dauer, gewünschte Stimmung und organisatorische Details, damit Viola Firmenevent am Tag selbst ruhig funktioniert."
+        "answer": "Wichtig sind Raumakustik, Gästezahl, gewünschte Stilrichtung und die Frage, ob der Klang solo oder verstärkt geplant wird. Danach entsteht ein klares Set-Konzept mit Startzeit, Pausen und möglichem Ende."
+      },
+      {
+        "question": "Ist eine Buchung über Agentur oder Firma möglich?",
+        "answer": "Ja. Ich kann die Anfrage direkt mit Unternehmen, Assistenz, Eventagentur, Location oder Projektleitung abstimmen und eine reguläre Rechnung stellen."
+      },
+      {
+        "question": "Warum eignet sich Viola für Viola Firmenevent?",
+        "answer": "Viola eignet sich besonders für Unternehmen, die einen kultivierten Live-Klang suchen, der nicht grell oder dominant wird."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Live-Viola für Viola Firmenevent mit Solo-Viola und Noten"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Live-Viola für Viola Firmenevent bei einem Business-Anlass"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
     "eyebrow": "Anfrage",
     "title": "Viola Firmenevent anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Viola Firmenevent.",
+    "lead": "Schick mir Datum, Ort, Gästezahl und den geplanten Ablauf für Viola Firmenevent. Ich melde mich mit einer passenden Idee für Solo-Viola im Business-Kontext.",
     "checklist": [
       "Viola Firmenevent",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Empfang, Dinner, Kundenevent, Jubiläum, Eröffnung, Messe oder ein kleiner Gala-Moment",
+      "Termin, Ablauf & Rechnung"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Viola Firmenevent zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Viola Firmenevent zu eurem Event?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Viola Firmenevent."
+  },
+  "focus": {
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Viola Firmenevent ankommt.",
+    "lead": "Der musikalische Rahmen wird so geplant, dass er zum Anlass passt und den geschäftlichen Zweck der Veranstaltung unterstützt.",
+    "items": [
+      {
+        "time": "01",
+        "kicker": "Intent",
+        "title": "Die Rolle der Musik festlegen",
+        "text": "Der Suchintent dreht sich um das Instrument selbst und die Frage, ob Viola für ein Business-Event geeignet ist. Daraus ergibt sich, ob Musik eher dezent, sichtbar, festlich oder verbindend eingesetzt wird."
+      },
+      {
+        "time": "02",
+        "kicker": "Raum",
+        "title": "Akustik und Bewegung beachten",
+        "text": "Empfang, Dinner, Kundenevent, Jubiläum, Eröffnung, Messe oder ein kleiner Gala-Moment hat eigene Anforderungen an Lautstärke, Position und Länge der Sets."
+      },
+      {
+        "time": "03",
+        "kicker": "Ablauf",
+        "title": "Übergänge statt Dauerbeschallung",
+        "text": "Wichtig sind Raumakustik, Gästezahl, gewünschte Stilrichtung und die Frage, ob der Klang solo oder verstärkt geplant wird. So bleibt Musik Teil des Ablaufes und nicht nur akustische Fläche."
+      },
+      {
+        "time": "04",
+        "kicker": "Klang",
+        "title": "Viola passend einsetzen",
+        "text": "Viola eignet sich besonders für Unternehmen, die einen kultivierten Live-Klang suchen, der nicht grell oder dominant wird. Der Klang bleibt live, warm und zugleich kontrollierbar."
+      }
+    ],
+    "footnote": "Viola Firmenevent wird als eigene Seite geführt, weil der Suchintent andere Fragen stellt als eine allgemeine Firmenfeier-Seite."
   }
 }

@@ -3,70 +3,138 @@
   "serviceSlug": "firmenfeiern",
   "pageSlug": "moenchengladbach",
   "route": "/firmenfeiern/moenchengladbach/",
-  "targetKeyword": "Firmenevent Mönchengladbach",
+  "targetKeyword": "Live Musik Firmenevent Mönchengladbach",
   "intentCluster": "firmenfeiern:local",
   "priority": "P3",
-  "status": "seeded-needs-editorial-rewrite",
+  "status": "rewritten-batch-9-review-needed",
   "enabled": true,
-  "seoTitle": "Firmenevent Mönchengladbach | Live-Viola für Empfang & Dinner",
-  "seoDescription": "Live Musik für Firmenevents in Mönchengladbach: dezente Viola für Empfang, Dinner, Jubiläum, Messe, Eröffnung und repräsentative Business-Anlässe.",
+  "seoTitle": "Firmenevent Mönchengladbach | Live-Viola",
+  "seoDescription": "Live Musik Firmenevent Mönchengladbach: dezente Solo-Viola für Empfang, Dinner, Firmenjubiläum, Messe, Eröffnung und Kundenveranstaltung.",
   "hero": {
+    "eyebrow": "Business-Events",
     "title": "Live Musik für Firmenevents in Mönchengladbach.",
-    "lead": "Stilvolle Viola für Empfang, Dinner, Firmenjubiläum, Messe, Eröffnung oder Kundenevent in Mönchengladbach - dezent, hochwertig und planbar."
+    "lead": "Mönchengladbach bringt Rheydt, Wickrath, Niederrhein und Business-Events mit mehreren Generationen im Unternehmen zusammen. Ich begleite Empfang, Dinner und offizielle Momente mit warmer Solo-Viola, klarer Abstimmung und professionellem Ablauf.",
+    "badge": "Solo-Viola für Empfang, Dinner & Jubiläum"
   },
   "split": {
-    "eyebrow": "Worum es geht",
-    "title": "Business-Events in Mönchengladbach brauchen Atmosphäre.",
+    "eyebrow": "Lokaler Rahmen",
+    "title": "Firmenevents in Mönchengladbach brauchen Musik mit Fingerspitzengefühl.",
+    "lede": "Für Familienunternehmen und regionale Betriebe ist dieser persönliche Klang oft passender als eine laute Bandlösung. Genau darauf stimme ich Klang, Repertoire, Setlänge und Position im Raum ab.",
     "paragraphs": [
-      "Ob zwischen Schloss Rheydt, Kaiser-Friedrich-Halle, Wickrath und dem linken Niederrhein: Ein Firmenevent braucht Musik, die den Raum öffnet, aber Gespräche möglich lässt. Solo-Viola wirkt hochwertig, persönlich und deutlich eleganter als laute Hintergrundbeschallung.",
-      "Ich stimme Dauer, Lautstärke, Repertoire und Einsätze vorab mit euch ab - vom Ankommen der Gäste über Dinner und Reden bis zu einem kurzen Programmpunkt. Eine reguläre Rechnung für die Buchhaltung ist selbstverständlich."
-    ]
+      "Mönchengladbach bringt Rheydt, Wickrath, Niederrhein und Business-Events mit mehreren Generationen im Unternehmen zusammen.",
+      "Geeignet sind Firmenjubiläum, Kundenempfang, Dinner, Eröffnung, Teamfeier oder ein offizieller Programmpunkt.",
+      "Größere Wege im Stadtgebiet und ein klares Startsignal sollten früh geklärt werden.",
+      "In Mönchengladbach setze ich Musik gern so, dass sie den offiziellen Teil würdigt und danach Gespräche leichter macht.",
+      "Die Viola kann einen traditionsbewussten Anlass modern rahmen, ohne dass es nach Standard-Eventmusik klingt.",
+      "Für Familienunternehmen und regionale Betriebe ist dieser persönliche Klang oft passender als eine laute Bandlösung.",
+      "Für einen Empfang eignet sich ein erstes Set von etwa zwanzig bis dreißig Minuten, danach können Pausen oder kurze Wiederaufnahmen folgen.",
+      "Gerade bei Business-Events ist Zurückhaltung eine Qualität. Der Klang darf spürbar sein, aber er muss jederzeit dem Zweck des Treffens dienen.",
+      "Für Live Musik Firmenevent Mönchengladbach ist wichtig, dass Musik nicht wie eine private Einlage wirkt. Sie soll professionell eingebunden sein, zur Marke passen und Gästen den Einstieg in Gespräche erleichtern.",
+      "Ich bespreche vorab, ob die Viola beim Einlass sichtbar sein soll, ob sie den offiziellen Teil vorbereitet oder ob sie später als ruhige Dinnermusik zurücktritt.",
+      "Auch die Lautstärke wird bewusst geplant. In einem Foyer braucht Musik eine andere Präsenz als in einem Restaurant, auf einer Terrasse oder in einem Konferenzraum.",
+      "Der Vorteil von Solo-Viola liegt in der schlanken Umsetzung: wenig Aufbau, kein großes Bühnenbild, aber ein Klang, der deutlich mehr Persönlichkeit hat als eine Playlist.",
+      "Ein Solo-Instrument kann sehr hochwertig wirken und bleibt zugleich flexibel, wenn sich Reden verschieben oder Gäste länger im Empfang bleiben.",
+      "Für Unternehmen in Mönchengladbach ist außerdem die organisatorische Seite wichtig. Ich kläre Kontaktperson, Uhrzeit, Rechnungsdaten, mögliche Pausen und den Punkt, an dem Musik enden oder in den nächsten Programmpunkt übergehen soll.",
+      "Wenn Reden, Ehrungen oder Produktmomente geplant sind, setze ich die Musik so, dass sie diese Szenen rahmt und nicht kommentiert. Ein kurzer Live-Akzent kann stärker wirken als ein langes Set ohne klare Aufgabe.",
+      "Die Seite fokussiert bewusst Live Musik Firmenevent Mönchengladbach. Andere Firmenfeier-Seiten behandeln Messe, Gala, Dinnermusik oder allgemeine Eventmusik; hier geht es um den konkreten Rahmen in Mönchengladbach.",
+      "Ich plane deshalb nicht einfach eine Stückliste, sondern die Rolle der Musik im Ablauf: Ankommen, Begrüßung, Essen, Rede, Pause oder Ausklang.",
+      "Für die erste Anfrage reichen Datum, Location, ungefähre Gästezahl, Anlass und der gewünschte musikalische Zeitraum. Danach lässt sich schnell einschätzen, ob ein Empfangsset, Dinnermusik oder ein einzelner offizieller Moment am besten passt."
+    ],
+    "seal": "Mönchengladbach\nBusiness\nLive-Viola"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "Häufige Fragen zu Live Musik für Firmenevents in Mönchengladbach.",
+    "title": "FAQ zu Live Musik Firmenevent Mönchengladbach",
     "items": [
       {
-        "question": "Spielst du auf Firmenfeiern in Mönchengladbach?",
-        "answer": "Ja. Ich begleite Firmenfeiern, Empfänge, Dinners, Messen, Eröffnungen und Jubiläen in Mönchengladbach mit Solo-Viola.",
+        "question": "Spielst du auf Firmenevents in Mönchengladbach?",
+        "answer": "Ja. Ich begleite Empfänge, Dinner, Firmenjubiläen, Eröffnungen, Kundenabende und ähnliche Business-Anlässe in Mönchengladbach mit Solo-Viola.",
         "open": true
       },
       {
-        "question": "Ist die Musik eher Hintergrund oder Programmpunkt?",
-        "answer": "Beides ist möglich. Die Viola kann dezent Atmosphäre schaffen oder als kuratierter kurzer Auftritt einen offiziellen Moment rahmen."
+        "question": "Welche Firmenfeier-Formate passen in Mönchengladbach?",
+        "answer": "Geeignet sind Firmenjubiläum, Kundenempfang, Dinner, Eröffnung, Teamfeier oder ein offizieller Programmpunkt. Besonders sinnvoll ist Live-Musik, wenn Gäste ankommen, ein offizieller Moment gerahmt wird oder das Dinner nicht still wirken soll."
       },
       {
-        "question": "Bekommen wir eine Rechnung?",
-        "answer": "Ja, selbstverständlich mit allen notwendigen Angaben für die Buchhaltung."
+        "question": "Was ist bei der Planung in Mönchengladbach besonders wichtig?",
+        "answer": "Größere Wege im Stadtgebiet und ein klares Startsignal sollten früh geklärt werden."
       },
       {
-        "question": "Wie wird die Lautstärke geplant?",
-        "answer": "Akustisch ist die Viola angenehm und gesprächsfreundlich. Für größere Räume oder Events bespreche ich bei Bedarf dezente Verstärkung."
+        "question": "Bleibt die Musik dezent genug für Gespräche?",
+        "answer": "Ja. Ich plane Lautstärke, Repertoire, Position und Pausen so, dass Gespräche, Service und Reden weiterhin gut funktionieren."
+      },
+      {
+        "question": "Bekommen wir eine Rechnung für das Unternehmen?",
+        "answer": "Ja. Eine ordentliche Rechnung mit den nötigen Angaben für Buchhaltung, Agentur oder Eventabteilung ist selbstverständlich."
+      },
+      {
+        "question": "Spielst du mit Verstärkung?",
+        "answer": "Bei kleineren und mittleren Räumen ist akustische Viola oft ausreichend. Für größere Räume oder offene Flächen kann dezente Verstärkung sinnvoll sein."
+      },
+      {
+        "question": "Warum passt Solo-Viola für Live Musik Firmenevent Mönchengladbach?",
+        "answer": "Die Viola klingt warm, elegant und weniger hell als eine Geige. Dadurch eignet sie sich besonders für Business-Räume, in denen Musik hochwertig wirken soll, aber nicht zu dominant sein darf."
+      },
+      {
+        "question": "Welche Angaben helfen für ein Angebot in Mönchengladbach?",
+        "answer": "Sinnvoll sind Datum, Location, Gästezahl, Anlass, gewünschter Zeitraum, grober Ablauf und die Information, ob Musik beim Empfang, Dinner, offiziellen Teil oder als kurzer Akzent geplant ist."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
-      "alt": "Viola auf Notenblättern"
+      "alt": "Live-Musik für Firmenevents in Mönchengladbach mit Solo-Viola und Noten"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": ""
+      "alt": "Kim Marie Borger spielt Live-Musik für Firmenevents in Mönchengladbach bei einem Business-Anlass"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.",
+  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.",
   "contact": {
     "eyebrow": "Anfrage",
-    "title": "Firmenevent Mönchengladbach anfragen",
-    "lead": "Schreib mir kurz, was du planst. Ich melde mich persoenlich mit einer passenden Idee fuer Firmenevent Mönchengladbach.",
+    "title": "Live Musik Firmenevent Mönchengladbach anfragen",
+    "lead": "Schick mir Datum, Location, Gästezahl und den geplanten Anlass in Mönchengladbach. Ich melde mich mit einer passenden Idee für Empfang, Dinner oder offiziellen Moment.",
     "checklist": [
-      "Firmenevent Mönchengladbach",
-      "Wunschmusik",
-      "Termin & Ort"
+      "Live Musik Firmenevent Mönchengladbach",
+      "Empfang, Dinner oder offizieller Akzent",
+      "Termin, Ort & Rechnungsdaten"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Firmenevent Mönchengladbach zu deinem Anlass?",
-    "formSuccess": "Vielen Dank - deine Anfrage ist angekommen. Ich melde mich persoenlich bei dir."
+    "formTitle": "Passt Live-Viola zu eurem Firmenevent in Mönchengladbach?",
+    "formSuccess": "Danke - ich melde mich mit einer Idee für Live-Musik in Mönchengladbach."
+  },
+  "focus": {
+    "eyebrow": "Ablauf",
+    "title": "So kann Live-Musik in Mönchengladbach eingebunden werden.",
+    "lead": "Je nach Anlass kann die Viola beim Empfang, während des Dinners, vor einer Rede oder als kurzer musikalischer Akzent eingesetzt werden.",
+    "items": [
+      {
+        "time": "01",
+        "kicker": "Empfang",
+        "title": "Ankommen in Mönchengladbach",
+        "text": "Die Musik öffnet den Raum, während Gäste eintreffen, Getränke nehmen und erste Gespräche entstehen. In Mönchengladbach setze ich Musik gern so, dass sie den offiziellen Teil würdigt und danach Gespräche leichter macht."
+      },
+      {
+        "time": "02",
+        "kicker": "Dinner",
+        "title": "Dinnermusik mit Pausen",
+        "text": "Für Essen und Service plane ich Sets so, dass Gespräche möglich bleiben und Reden nicht unterbrochen werden. Geeignet sind Firmenjubiläum, Kundenempfang, Dinner, Eröffnung, Teamfeier oder ein offizieller Programmpunkt."
+      },
+      {
+        "time": "03",
+        "kicker": "Akzent",
+        "title": "Offizielle Momente rahmen",
+        "text": "Bei Begrüßung, Ehrung, Produktmoment oder Eröffnung kann ein kurzes Stück mehr Wirkung haben als lange Hintergrundmusik. Für Familienunternehmen und regionale Betriebe ist dieser persönliche Klang oft passender als eine laute Bandlösung."
+      },
+      {
+        "time": "04",
+        "kicker": "Planung",
+        "title": "Logistik ruhig vorbereiten",
+        "text": "Größere Wege im Stadtgebiet und ein klares Startsignal sollten früh geklärt werden. Außerdem klären wir Rechnung, Kontaktperson, Dresscode und den gewünschten musikalischen Charakter."
+      }
+    ],
+    "footnote": "Für Live Musik Firmenevent Mönchengladbach plane ich Musik als Teil des Business-Ablaufs, nicht als zufälligen Programmpunkt."
   }
 }
