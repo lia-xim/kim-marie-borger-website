@@ -139,5 +139,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Emotionale Hochzeitsmusik anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Emotionale Hochzeitsmusik."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

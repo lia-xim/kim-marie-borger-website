@@ -140,5 +140,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musik Auszug Hochzeit anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Auszug Hochzeit."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

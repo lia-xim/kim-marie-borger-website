@@ -138,5 +138,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Streichmusik Hochzeit anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Streichmusik Hochzeit."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

@@ -139,5 +139,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musik Ringtausch anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Ringtausch."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

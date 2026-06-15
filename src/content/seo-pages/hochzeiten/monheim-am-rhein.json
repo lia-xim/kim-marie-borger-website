@@ -149,5 +149,12 @@
     "formEyebrow": "Details senden",
     "formTitle": "Hochzeitsmusik in Monheim am Rhein anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik in Monheim am Rhein."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

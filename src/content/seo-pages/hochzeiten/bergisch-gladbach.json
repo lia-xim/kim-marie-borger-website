@@ -149,5 +149,12 @@
     "formEyebrow": "Details senden",
     "formTitle": "Hochzeitsmusik in Bergisch Gladbach anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik in Bergisch Gladbach."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

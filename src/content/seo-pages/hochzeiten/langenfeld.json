@@ -150,5 +150,12 @@
     "formEyebrow": "Details senden",
     "formTitle": "Hochzeitsmusik in Langenfeld anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik in Langenfeld."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

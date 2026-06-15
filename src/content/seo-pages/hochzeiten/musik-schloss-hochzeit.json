@@ -141,5 +141,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musik Schloss Hochzeit anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Schloss Hochzeit."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

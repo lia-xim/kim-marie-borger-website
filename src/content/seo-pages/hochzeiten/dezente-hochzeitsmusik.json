@@ -140,5 +140,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Dezente Hochzeitsmusik anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Dezente Hochzeitsmusik."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

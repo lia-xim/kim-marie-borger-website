@@ -140,5 +140,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Geigerin Hochzeit anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Geigerin Hochzeit."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

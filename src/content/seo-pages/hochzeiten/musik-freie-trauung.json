@@ -139,5 +139,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musik Freie Trauung anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Musik freie Trauung."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

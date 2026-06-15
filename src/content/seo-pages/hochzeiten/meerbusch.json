@@ -149,5 +149,12 @@
     "formEyebrow": "Details senden",
     "formTitle": "Hochzeitsmusik in Meerbusch anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik in Meerbusch."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

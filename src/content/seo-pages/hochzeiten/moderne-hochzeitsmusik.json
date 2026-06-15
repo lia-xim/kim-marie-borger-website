@@ -142,5 +142,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Moderne Hochzeitsmusik anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Moderne Hochzeitsmusik."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

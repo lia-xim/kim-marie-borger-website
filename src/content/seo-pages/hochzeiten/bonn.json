@@ -149,5 +149,12 @@
     "formEyebrow": "Details senden",
     "formTitle": "Hochzeitsmusik in Bonn anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik in Bonn."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

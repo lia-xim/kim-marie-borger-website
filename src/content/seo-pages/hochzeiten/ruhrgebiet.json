@@ -149,5 +149,12 @@
     "formEyebrow": "Details senden",
     "formTitle": "Hochzeitsmusik im Ruhrgebiet anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik im Ruhrgebiet."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

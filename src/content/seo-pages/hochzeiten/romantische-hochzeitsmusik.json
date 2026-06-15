@@ -139,5 +139,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Romantische Hochzeitsmusik anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Romantische Hochzeitsmusik."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

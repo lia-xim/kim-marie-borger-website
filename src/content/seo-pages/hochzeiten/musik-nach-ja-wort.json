@@ -140,5 +140,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musik nach dem Ja-Wort anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für den Moment direkt nach eurem Ja-Wort."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

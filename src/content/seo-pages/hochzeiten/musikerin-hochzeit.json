@@ -139,5 +139,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musikerin Hochzeit anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Musikerin Hochzeit."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

@@ -146,5 +146,12 @@
     "formEyebrow": "Details senden",
     "formTitle": "Hochzeitsmusik im Rhein-Kreis Neuss anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik im Rhein-Kreis Neuss."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

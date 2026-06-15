@@ -141,5 +141,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musik Hochzeitsempfang anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Hochzeitsempfang."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

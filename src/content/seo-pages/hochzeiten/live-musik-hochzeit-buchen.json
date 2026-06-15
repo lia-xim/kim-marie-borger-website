@@ -120,5 +120,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Live Musik Hochzeit Buchen anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Live Musik Hochzeit buchen."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

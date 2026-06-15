@@ -148,5 +148,12 @@
     "formEyebrow": "Details senden",
     "formTitle": "Hochzeitsmusik in Neuss anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik in Neuss."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

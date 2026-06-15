@@ -140,5 +140,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Viola Hochzeit anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Viola Hochzeit."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

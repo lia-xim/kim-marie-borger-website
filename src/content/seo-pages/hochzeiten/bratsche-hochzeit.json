@@ -141,5 +141,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Bratsche Hochzeit anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Bratsche Hochzeit."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

@@ -139,5 +139,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Streicherin Hochzeit anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Streicherin Hochzeit."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

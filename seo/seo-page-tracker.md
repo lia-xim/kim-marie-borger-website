@@ -1,6 +1,6 @@
 # SEO Page Tracker
 
-Generiert: 2026-06-14T19:31:14.593Z
+Generiert: 2026-06-15T13:04:28.029Z
 
 Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten zu finden, die technisch existieren, aber noch zu aehnlich, zu duenn, nicht sauber im CMS gepflegt oder bei Keywords zu nah an anderen Seiten sind.
 

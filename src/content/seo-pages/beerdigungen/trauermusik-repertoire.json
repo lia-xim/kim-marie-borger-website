@@ -190,5 +190,8 @@
       "Findet etwas draußen statt?",
       "Wer gibt am Tag selbst das Signal?"
     ]
+  },
+  "focus": {
+    "items": []
   }
 }

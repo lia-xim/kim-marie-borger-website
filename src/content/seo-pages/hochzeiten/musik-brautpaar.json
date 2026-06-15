@@ -139,5 +139,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musik FÜR Brautpaar anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Musik für Brautpaar."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

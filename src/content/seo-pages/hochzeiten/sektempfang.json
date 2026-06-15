@@ -140,5 +140,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musik Sektempfang Hochzeit anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Sektempfang Hochzeit."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

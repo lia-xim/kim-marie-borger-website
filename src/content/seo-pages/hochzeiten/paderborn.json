@@ -150,5 +150,12 @@
     "formEyebrow": "Details senden",
     "formTitle": "Hochzeitsmusik in Paderborn anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik in Paderborn."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

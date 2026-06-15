@@ -140,5 +140,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Bratschistin Hochzeit anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Bratschistin Hochzeit."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

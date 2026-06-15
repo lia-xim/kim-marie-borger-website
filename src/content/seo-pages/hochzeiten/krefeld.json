@@ -150,5 +150,12 @@
     "formEyebrow": "Details senden",
     "formTitle": "Hochzeitsmusik in Krefeld anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik in Krefeld."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

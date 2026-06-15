@@ -139,5 +139,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Elegante Hochzeitsmusik anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Elegante Hochzeitsmusik."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

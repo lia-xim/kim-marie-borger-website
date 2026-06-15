@@ -139,5 +139,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musik Kirchliche Trauung anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Musik kirchliche Trauung."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

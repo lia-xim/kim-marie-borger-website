@@ -139,5 +139,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Hochzeitsmusik Buchen anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Hochzeitsmusik buchen."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

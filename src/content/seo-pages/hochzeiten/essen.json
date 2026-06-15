@@ -148,5 +148,12 @@
     "formEyebrow": "Details senden",
     "formTitle": "Hochzeitsmusik in Essen anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für eure Hochzeitsmusik in Essen."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

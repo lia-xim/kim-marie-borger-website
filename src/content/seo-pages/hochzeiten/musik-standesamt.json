@@ -139,5 +139,12 @@
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musik Standesamt Hochzeit anfragen",
     "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Standesamt Hochzeit."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }

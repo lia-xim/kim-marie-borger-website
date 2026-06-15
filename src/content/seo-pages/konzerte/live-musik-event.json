@@ -146,5 +146,12 @@
       }
     ],
     "footnote": "Live Musik Event wird je nach Anlass als Konzert, Rahmung oder kuratierter Programmpunkt geplant."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
   }
 }
