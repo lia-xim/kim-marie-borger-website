@@ -1,0 +1,27 @@
+name: Content update
+description: Suggest a copy, media, or SEO content correction.
+title: "[Content]: "
+labels:
+  - content
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Affected URL or file
+      placeholder: /hochzeiten, src/content/page/home.mdx, ...
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Requested change
+      description: Describe what should change and why.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source or approval
+      description: Note who approved the wording/media, or link the source.
+    validations:
+      required: true

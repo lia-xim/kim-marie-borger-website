@@ -1,126 +1,191 @@
-# Kim Marie Borger · Viola — Website
+# Kim Marie Borger · Viola Website
 
-Astro 6 + TinaCMS (visuelles Editing) + Vercel. Migriert aus dem statischen
-HTML-Design-Export (`../`-Verzeichnis), pixelgenau auf Basis von `kmb.css`.
+[![CI](https://github.com/lia-xim/kim-marie-borger-website/actions/workflows/ci.yml/badge.svg)](https://github.com/lia-xim/kim-marie-borger-website/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Content License](https://img.shields.io/badge/content-restricted-lightgrey.svg)](CONTENT-LICENSE.md)
 
-## Open Source
+Public source repository for the website of violist Kim Marie Borger. The site
+is built with Astro, TinaCMS, and Vercel, with self-hosted fonts, structured
+content, SEO landing pages, and an optional Resend-backed contact endpoint.
 
-Der Quellcode ist öffentlich und unter MIT lizenziert. Inhalte, Fotos,
-generierte Bilder, Audio, Branding und SEO-Recherche sind davon ausgenommen und
-bleiben bei Kim Marie Borger bzw. den jeweiligen Rechteinhabern. Details:
-`LICENSE` und `CONTENT-LICENSE.md`.
+**Live site:** [kim-marie-borger.vercel.app](https://kim-marie-borger.vercel.app)
 
-## Befehle
+![Website social preview](public/og-default.png)
 
-| Befehl | Zweck |
+## Repository Scope
+
+This repository is public for transparency and maintainability. It is not a
+starter template.
+
+- Source code is MIT licensed.
+- Website copy, images, generated media, audio, branding, and SEO research are
+  not open licensed.
+- Forks should replace all project-specific content and media before publishing.
+- GitHub Pages is not used for production because the site depends on the
+  Vercel adapter and an API route for the contact form.
+
+See [LICENSE](LICENSE) and [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
+
+## Tech Stack
+
+- Astro 6
+- TinaCMS for visual editing and content schemas
+- Vercel adapter for deployment and serverless contact endpoint
+- MDX and JSON content collections
+- Self-hosted Cormorant Garamond and Manrope fonts via `@fontsource`
+- Sharp-based image tooling and ffmpeg-based audio preparation
+
+## Quick Start
+
+Requirements:
+
+- Node.js `22.22.0` or newer
+- npm
+
+```sh
+npm ci
+cp .env.example .env.local
+npm run dev
+```
+
+Local URLs:
+
+- Site: <http://localhost:4321>
+- Tina editor: <http://localhost:4321/admin/index.html>
+
+The site can build without Tina Cloud credentials by using the local content
+mode:
+
+```sh
+npm run build:local
+```
+
+## Commands
+
+| Command | Purpose |
 | --- | --- |
-| `npm run dev` | Dev-Server + Tina-Editor: http://localhost:4321 · Editor: http://localhost:4321/admin/index.html |
-| `npm run build` | Produktions-Build mit Tina Cloud (braucht Env-Variablen) |
-| `npm run build:local` | Produktions-Build ohne Cloud (Inhalte aus dem Repo, /admin aus) |
-| `npm run build:vercel` | Wird von Vercel genutzt — wählt automatisch Cloud/Local je nach Env |
-| `npm run audit:prod` | Security-Audit der produktiven Dependency-Kette |
-| `npm run optimize:images` | Neue Bilder in `public/uploads` webtauglich verkleinern |
+| `npm run dev` | Start Astro with TinaCMS editing enabled |
+| `npm run build` | Production build with Tina Cloud credentials |
+| `npm run build:local` | Production build from repository content, with `/admin` disabled |
+| `npm run build:vercel` | Vercel build entrypoint; chooses cloud or local mode automatically |
+| `npm run audit:prod` | Audit the production dependency surface |
+| `npm run audit:seo` | Generate SEO/content diagnostics |
+| `npm run qa:seo-pages` | Run SEO page island QA |
+| `npm run optimize:images` | Prepare uploaded images for the web |
+| `npm run optimize:audio` | Normalize master audio and export browser-ready MP3 files |
 
-## Architektur
+## Project Structure
 
-- **Inhalte**: `src/content/page/*.mdx` (eine Datei pro Seite, YAML-Blöcke) und
-  `src/content/config/config.json` (global: Marke, Kontakt-Box, Footer, SEO).
-  Inhalte leben im Repo — Tina committet Änderungen nach Git.
-- **Blöcke**: `src/components/blocks/` — pro Block ein Tina-Schema
-  (`*.template.ts`) + eine Astro-Komponente. Registriert in
-  `tina/collections/page.ts` und `Blocks.astro`.
-- **Visuelles Editing**: `@tinacms/astro` (React-frei). Islands in
-  `src/lib/islands.ts`, Route `src/pages/tina-island/[name].ts`.
-  Klick-Ziele via `data-tina-field`. Scroll-Animationen werden im Edit-Modus
-  automatisch deaktiviert (`TINA_EDIT` in `src/scripts/kmb.js`).
-- **Design**: `src/styles/kmb.css` ist die 1:1 übernommene Design-Quelle —
-  nicht umschreiben. Fonts self-hosted via @fontsource (DSGVO).
-- **Kontaktformular**: POST `/api/contact` (Vercel Function) → Resend.
+```text
+src/
+  components/         Astro components and content blocks
+  content/page/       Main editable pages as MDX
+  content/seo-pages/  Local and topic SEO landing pages as JSON
+  content/config/     Global site settings
+  layouts/            Base page layout
+  lib/                SEO, routing, image, and content helpers
+  pages/              Routes and API endpoints
+  scripts/            Browser scripts loaded by the site
+public/
+  uploads/            Published media assets
+scripts/              Build, SEO, image, and audio tooling
+tina/                 TinaCMS schema and collection config
+seo/                  SEO research and tracking artifacts
+```
 
-## Tina Cloud verbinden (einmalig, ~10 Minuten)
+## Content Model
 
-1. Repo auf GitHub pushen (falls noch nicht geschehen).
-2. Auf https://app.tina.io kostenloses Konto anlegen → **New Project** →
-   GitHub-Repo auswählen (Branch `main`).
-3. Im Tina-Dashboard kopieren: **Client ID** und einen **Content Token (Read Only)**.
-4. In Vercel → Project → Settings → Environment Variables eintragen:
-   - `PUBLIC_TINA_CLIENT_ID` = Client ID
-   - `TINA_TOKEN` = Token
-   - `SITE_URL` = finale Domain (z. B. `https://www.kim-marie-borger.de`)
-5. Neu deployen. Ab dann: **`<domain>/admin`** öffnen, mit Tina Cloud einloggen,
-   visuell editieren. Jede Speicherung = Git-Commit = automatisches Deployment
-   (~1–2 Min bis live).
-6. Editorin einladen: app.tina.io → Project → Collaborators (Free-Plan: 2 User).
+Primary pages live in `src/content/page/*.mdx`. The visible page body is built
+from ordered block data in frontmatter. Each editable block usually has two
+files:
 
-## Echte Hörproben einbinden (Audio)
+- `src/components/blocks/<Block>.astro`
+- `src/components/blocks/<block>.template.ts`
 
-1. Master-Aufnahmen (WAV/AIFF/FLAC — beste verfügbare Qualität) in den Ordner
-   `audio-src/` legen (liegt im Repo-Root, wird nicht committet).
-2. `npm run optimize:audio` — normalisiert die Lautheit nach Streaming-Standard
-   (EBU R128, −14 LUFS, True Peak −1 dB) und erzeugt MP3 320 kbps in
-   `public/uploads/audio/`. 320 kbps ist für Musik praktisch transparent und
-   läuft in jedem Browser; eine 4-Minuten-Aufnahme ≈ 9–10 MB.
-3. Im CMS (Portfolio → Hörproben-Block) beim jeweiligen Stück den Pfad
-   eintragen: `/uploads/audio/<name>.mp3`. Tracks ohne Pfad spielen weiterhin
-   die synthetische Klangskizze.
-4. Committen/deployen — die Dauer wird automatisch aus der Datei gelesen,
-   wenn das Feld leer bleibt. Audio wird mit den `/uploads`-Cache-Headern
-   ausgeliefert und per `preload="metadata"` erst bei Klick geladen.
+The templates are registered in `tina/collections/page.ts`; the renderer is
+wired through `src/components/blocks/Blocks.astro`.
 
-## Kontaktformular scharf schalten
+SEO landing pages live in `src/content/seo-pages/<service>/<slug>.json` and
+share route rendering through `src/pages/[service]/[location].astro`.
 
-1. Konto auf https://resend.com (Free: 100 Mails/Tag), Domain verifizieren.
-2. Vercel-Env-Variablen: `RESEND_API_KEY`, `CONTACT_TO_EMAIL`,
-   `CONTACT_FROM_EMAIL` (z. B. `Website <anfrage@kim-marie-borger.de>`).
-3. Ohne Konfiguration zeigt das Formular automatisch einen Hinweis auf die
-   direkte E-Mail-Adresse — es bricht nie hart.
+## Environment Variables
 
-## SEO
+Use `.env.example` as the reference. Local secret files are ignored by Git.
 
-Automatisch: Sitemap (`/sitemap-index.xml`), `robots.txt`, Canonical-URLs,
-OG/Twitter-Meta (Bild = Hero der Seite), JSON-LD (Person + WebSite global,
-FAQPage auf Seiten mit FAQ-Block), `og:locale de_DE`. Pro Seite pflegbar:
-`seoTitle` + `seoDescription` in Tina („Seiten“-Collection).
+| Variable | Required | Purpose |
+| --- | --- | --- |
+| `SITE_URL` | Recommended | Canonicals, sitemap, and social metadata |
+| `PUBLIC_TINA_CLIENT_ID` | For Tina Cloud | Enables cloud-backed visual editing |
+| `TINA_TOKEN` | For Tina Cloud | Read token for Tina content APIs |
+| `RESEND_API_KEY` | For contact form email delivery | Sends `/api/contact` mail |
+| `CONTACT_TO_EMAIL` | For contact form email delivery | Recipient address |
+| `CONTACT_FROM_EMAIL` | Recommended for email delivery | Verified sender address |
+
+Without Resend configuration, the contact form falls back to direct email
+instructions rather than failing hard.
+
+## Editorial Workflows
+
+### Connect Tina Cloud
+
+1. Create a Tina Cloud project at <https://app.tina.io>.
+2. Connect this GitHub repository on branch `main`.
+3. Add `PUBLIC_TINA_CLIENT_ID`, `TINA_TOKEN`, and `SITE_URL` in Vercel.
+4. Redeploy.
+5. Open `<domain>/admin` and sign in through Tina Cloud.
+
+Every Tina save creates a Git commit and triggers a deployment.
+
+### Add Real Audio Samples
+
+1. Put local master audio files in `audio-src/`.
+2. Run `npm run optimize:audio`.
+3. Add the generated `/uploads/audio/<file>.mp3` path in the portfolio audio
+   block.
+4. Commit and deploy.
+
+`audio-src/` is ignored because it may contain large master files.
+
+## Quality Gates
+
+Run these before publishing meaningful changes:
+
+```sh
+npm run audit:prod
+npm run build:local
+```
+
+GitHub Actions runs the same production audit and local build on pushes and
+pull requests to `main`.
+
+Note: full `npm audit` may still report dev-tooling advisories inside TinaCMS,
+Astro language tooling, or local editor dependencies. The production dependency
+surface is intentionally checked with `npm run audit:prod`.
+
+## Deployment
+
+Production is intended to run on Vercel, not GitHub Pages. The Vercel build uses:
+
+```sh
+npm run build:vercel
+```
+
+`scripts/smart-build.mjs` enables Tina Cloud when the required environment
+variables are present and falls back to local content builds otherwise.
+
+## Known Launch Checks
+
+- Impressum and Datenschutz pages are implemented, but final legal details
+  should be reviewed before a custom-domain launch.
+- Guest quote copy on the home/about pages is still marked as placeholder
+  content.
+- Portfolio audio currently uses synthetic sketches unless real audio files and
+  optional video IDs are added.
 
 ## Security
 
-- Keine echten Secrets committen. `.env.example` dokumentiert die nötigen
-  Variablen; lokale Vercel- und dotenv-Dateien sind per `.gitignore`
-  ausgeschlossen.
-- Vor Veröffentlichungen `npm run build:local` und `npm run audit:prod`
-  ausführen.
-- Dependabot ist für npm-Abhängigkeiten aktiv. Der volle `npm audit` kann
-  zusätzlich dev-only Meldungen aus lokalen CMS-/Language-Server-Tools zeigen;
-  produktive Abhängigkeiten sollen mit `npm run audit:prod` sauber bleiben.
-- Falls `npm run audit:prod` eine `esbuild`-Meldung über Astro/Vite/Tina zeigt:
-  zuerst auf neue Astro/Vite/Tina-Versionen aktualisieren und den Build prüfen.
-  Ein pauschales Override auf `esbuild@0.28.x` bricht aktuell den Tina-Build.
+Please report suspected vulnerabilities privately. See [SECURITY.md](SECURITY.md).
 
-## Troubleshooting: Build-Fehler „local GraphQL schema doesn't match remote“
-
-Nach einer Schema-Änderung (Felder in `*.template.ts` / `tina/collections/*`)
-muss `tina/tina-lock.json` mit committet werden — und das Lock wird **nur von
-`npm run dev` regeneriert**, nicht von `tinacms build`. Workflow also: Schema
-ändern → einmal `npm run dev` starten (3 Sekunden reichen) → Lock-Änderung mit
-committen. Der Vercel-Build retried zusätzlich automatisch (smart-build),
-falls Tina Cloud den neuen Commit noch nicht fertig indexiert hat.
-
-## Troubleshooting: Deployment „BLOCKED“ (COMMIT_AUTHOR_REQUIRED)
-
-Vercel (Pro/Team) blockiert Deployments, deren Git-Commit-Autor keinem
-GitHub-User mit Projektzugriff zugeordnet werden kann — das Deployment hängt
-dann scheinbar ewig in der Queue (CLI zeigt „UNKNOWN“; die API verrät
-`readyState: BLOCKED`). Deshalb ist der Commit-Autor in diesem Repo lokal auf
-die GitHub-noreply-Adresse des Accounts gesetzt (`git config user.email`).
-Falls später Tina-Cloud-Commits blockiert werden: im Vercel-Dashboard das
-blockierte Deployment öffnen (zeigt den Grund) und die Autor-E-Mail dem Team
-hinzufügen bzw. in Tina Cloud die Commit-E-Mail auf eine zugeordnete Adresse
-stellen.
-
-## Offene Punkte (bewusst)
-
-- **Impressum & Datenschutz** sind technisch hinterlegt, müssen vor Live-Gang
-  aber final rechtlich geprüft und ggf. um vollständige Angaben ergänzt werden.
-- Gästezitat auf Start/Über-mich ist als Platzhalter markiert.
-- Portfolio: Audio-Player spielt synthetische Klangskizzen (wie im Original);
-  echte Aufnahmen + YouTube-ID können später ergänzt werden.
+Secrets must stay in local `.env*` files or hosting-provider environment
+variables. Never commit Tina tokens, Resend keys, Vercel tokens, or master audio
+source files.

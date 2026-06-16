@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/lia-xim/kim-marie-borger-website/issues"
   },
-  "homepage": "https://www.kim-marie-borger.de",
+  "homepage": "https://kim-marie-borger.vercel.app",
   "engines": {
     "node": ">=22.22.0"
   },
