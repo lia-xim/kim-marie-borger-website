@@ -1,6 +1,6 @@
 # Local SEO Seiten-Tracker
 
-Generiert: 2026-06-13T12:57:16.065Z
+Generiert: 2026-06-16T19:11:23.802Z
 
 Dieser Tracker bewertet die lokalen Seiten aus dem gerenderten HTML in `dist/client`. Die komplette Matrix liegt in `seo/local-page-tracker.csv`; diese Datei ist die Arbeitsgrundlage fuer Filter, Priorisierung und SEO-Software.
 
@@ -25,90 +25,90 @@ Dieser Tracker bewertet die lokalen Seiten aus dem gerenderten HTML in `dist/cli
 
 | Kennzahl | Wert |
 | --- | ---: |
-| Lokale Seiten | 343 |
-| High-Risk Aehnlichkeit | 343 |
-| Medium-Risk Aehnlichkeit | 0 |
-| Durchschnitt SEO-Score | 90 |
-| Durchschnitt Content-Score | 50 |
-| Durchschnitt Shingle Similarity Same Service | 58% |
-| Durchschnitt Template Similarity Same Service | 95% |
-| Durchschnitt Location-Masked Template Similarity | 98.8% |
-| Durchschnitt Similarity Base Service | 11.3% |
+| Lokale Seiten | 480 |
+| High-Risk Aehnlichkeit | 298 |
+| Medium-Risk Aehnlichkeit | 172 |
+| Durchschnitt SEO-Score | 100 |
+| Durchschnitt Content-Score | 76 |
+| Durchschnitt Shingle Similarity Same Service | 50.1% |
+| Durchschnitt Template Similarity Same Service | 88.1% |
+| Durchschnitt Location-Masked Template Similarity | 90.7% |
+| Durchschnitt Similarity Base Service | 1.1% |
 
 ## Status-Verteilung
 
 | Status | Seiten |
 | --- | ---: |
-| improve-copy | 100 |
-| priority-rewrite | 213 |
-| rewrite-needed | 30 |
+| improve-copy | 172 |
+| priority-rewrite | 209 |
+| ready | 99 |
 
 ## Service-Cluster
 
 | Service | Seiten | Avg SEO | Avg Content | Avg Shingle | Avg Template | Avg Masked Template | High Risk |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| beerdigungen | 49 | 90 | 50 | 57.3% | 95.5% | 99.9% | 49 |
-| firmenfeiern | 49 | 90 | 50 | 55.3% | 94.6% | 98.7% | 49 |
-| geburtstage | 49 | 90 | 50 | 58.4% | 94.8% | 98.6% | 49 |
-| hochzeiten | 49 | 90 | 57 | 62.1% | 95.7% | 99.1% | 49 |
-| konzerte | 49 | 90 | 43 | 53.4% | 94% | 98.3% | 49 |
-| taufen | 49 | 90 | 50 | 55.7% | 94.6% | 98.5% | 49 |
-| unterricht | 49 | 90 | 50 | 63.9% | 95.5% | 98.7% | 49 |
+| beerdigungen | 69 | 100 | 71 | 57% | 89.9% | 92.6% | 64 |
+| firmenfeiern | 69 | 100 | 86 | 45.5% | 82.5% | 84.9% | 0 |
+| geburtstage | 65 | 100 | 73 | 51.4% | 90.7% | 93.4% | 63 |
+| hochzeiten | 91 | 100 | 75 | 49.2% | 88.2% | 90.7% | 70 |
+| konzerte | 59 | 100 | 79 | 46.6% | 86.5% | 89.5% | 5 |
+| taufen | 68 | 99 | 77 | 49.3% | 88.3% | 90.4% | 43 |
+| unterricht | 59 | 100 | 73 | 51.9% | 90.9% | 93.9% | 53 |
 
 ## Priorisierter Rewrite-Backlog
 
 | Prio | Status | Risiko | Seite | Content | Template | Masked Template | Naechste aehnliche Seite |
 | --- | --- | --- | --- | ---: | ---: | ---: | --- |
-| P1 | priority-rewrite | high | [Trauermusik Dortmund](https://kim-marie-borger.com/beerdigungen/dortmund/) | 50 | 95.9% | 100% | /beerdigungen/aachen/ |
-| P1 | priority-rewrite | high | [Trauermusik Düsseldorf](https://kim-marie-borger.com/beerdigungen/duesseldorf/) | 50 | 95.9% | 100% | /beerdigungen/aachen/ |
-| P1 | priority-rewrite | high | [Trauermusik Erkrath](https://kim-marie-borger.com/beerdigungen/erkrath/) | 50 | 95.9% | 100% | /beerdigungen/aachen/ |
-| P1 | priority-rewrite | high | [Trauermusik Essen](https://kim-marie-borger.com/beerdigungen/essen/) | 50 | 95.9% | 100% | /beerdigungen/aachen/ |
-| P1 | priority-rewrite | high | [Trauermusik Hilden](https://kim-marie-borger.com/beerdigungen/hilden/) | 50 | 95.9% | 100% | /beerdigungen/aachen/ |
-| P1 | priority-rewrite | high | [Trauermusik Köln](https://kim-marie-borger.com/beerdigungen/koeln/) | 50 | 95.9% | 100% | /beerdigungen/aachen/ |
-| P1 | priority-rewrite | high | [Trauermusik Kreis Mettmann](https://kim-marie-borger.com/beerdigungen/kreis-mettmann/) | 50 | 94.2% | 100% | /beerdigungen/bergisches-land/ |
-| P1 | priority-rewrite | high | [Trauermusik Mettmann](https://kim-marie-borger.com/beerdigungen/mettmann/) | 50 | 95.9% | 100% | /beerdigungen/aachen/ |
-| P1 | priority-rewrite | high | [Trauermusik Neuss](https://kim-marie-borger.com/beerdigungen/neuss/) | 50 | 95.9% | 100% | /beerdigungen/aachen/ |
-| P1 | priority-rewrite | high | [Trauermusik Ratingen](https://kim-marie-borger.com/beerdigungen/ratingen/) | 50 | 95.9% | 100% | /beerdigungen/aachen/ |
-| P1 | priority-rewrite | high | [Trauermusik Rhein-Kreis Neuss](https://kim-marie-borger.com/beerdigungen/rhein-kreis-neuss/) | 50 | 94.2% | 100% | /beerdigungen/bergisches-land/ |
-| P1 | priority-rewrite | high | [Trauermusik Rheinland](https://kim-marie-borger.com/beerdigungen/rheinland/) | 50 | 95.9% | 100% | /beerdigungen/bergisches-land/ |
-| P1 | priority-rewrite | high | [Trauermusik Ruhrgebiet](https://kim-marie-borger.com/beerdigungen/ruhrgebiet/) | 50 | 95.9% | 100% | /beerdigungen/bergisches-land/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Rheinland](https://kim-marie-borger.com/unterricht/rheinland/) | 50 | 95.1% | 99.5% | /unterricht/bergisches-land/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Mettmann](https://kim-marie-borger.com/unterricht/mettmann/) | 50 | 95.9% | 99% | /unterricht/moers/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Neuss](https://kim-marie-borger.com/unterricht/neuss/) | 50 | 96.1% | 98.9% | /unterricht/leverkusen/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Ruhrgebiet](https://kim-marie-borger.com/unterricht/ruhrgebiet/) | 50 | 95.1% | 98.8% | /unterricht/rheinland/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Kreis Mettmann](https://kim-marie-borger.com/unterricht/kreis-mettmann/) | 50 | 94.2% | 98.8% | /unterricht/rheinland/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Hilden](https://kim-marie-borger.com/unterricht/hilden/) | 50 | 96.2% | 98.7% | /unterricht/leverkusen/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Erkrath](https://kim-marie-borger.com/unterricht/erkrath/) | 50 | 96.2% | 98.7% | /unterricht/neuss/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Rhein-Kreis Neuss](https://kim-marie-borger.com/unterricht/rhein-kreis-neuss/) | 50 | 94% | 98.7% | /unterricht/kreis-mettmann/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Ratingen](https://kim-marie-borger.com/unterricht/ratingen/) | 50 | 96% | 98.7% | /unterricht/muenster/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Köln](https://kim-marie-borger.com/unterricht/koeln/) | 50 | 95.9% | 98.5% | /unterricht/aachen/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Essen](https://kim-marie-borger.com/unterricht/essen/) | 50 | 95.7% | 98.4% | /unterricht/gelsenkirchen/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Dortmund](https://kim-marie-borger.com/unterricht/dortmund/) | 50 | 95.7% | 98.3% | /unterricht/langenfeld/ |
-| P1 | priority-rewrite | high | [Bratschenunterricht Düsseldorf](https://kim-marie-borger.com/unterricht/duesseldorf/) | 50 | 95.9% | 98.3% | /unterricht/bielefeld/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Mettmann](https://kim-marie-borger.com/hochzeiten/mettmann/) | 55 | 96.1% | 99.3% | /hochzeiten/moers/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Erkrath](https://kim-marie-borger.com/hochzeiten/erkrath/) | 55 | 96.3% | 99.1% | /hochzeiten/neuss/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Rheinland](https://kim-marie-borger.com/hochzeiten/rheinland/) | 58 | 95.5% | 99.7% | /hochzeiten/bergisches-land/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Neuss](https://kim-marie-borger.com/hochzeiten/neuss/) | 58 | 96.2% | 99.2% | /hochzeiten/leverkusen/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Ruhrgebiet](https://kim-marie-borger.com/hochzeiten/ruhrgebiet/) | 58 | 95.5% | 99.2% | /hochzeiten/rheinland/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Kreis Mettmann](https://kim-marie-borger.com/hochzeiten/kreis-mettmann/) | 58 | 94.4% | 99.2% | /hochzeiten/rheinland/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Hilden](https://kim-marie-borger.com/hochzeiten/hilden/) | 58 | 96.3% | 99.1% | /hochzeiten/leverkusen/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Rhein-Kreis Neuss](https://kim-marie-borger.com/hochzeiten/rhein-kreis-neuss/) | 58 | 94.3% | 99.1% | /hochzeiten/kreis-mettmann/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Ratingen](https://kim-marie-borger.com/hochzeiten/ratingen/) | 58 | 96.2% | 99.1% | /hochzeiten/muenster/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Köln](https://kim-marie-borger.com/hochzeiten/koeln/) | 58 | 96.1% | 99% | /hochzeiten/aachen/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Essen](https://kim-marie-borger.com/hochzeiten/essen/) | 58 | 96% | 98.9% | /hochzeiten/gelsenkirchen/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Dortmund](https://kim-marie-borger.com/hochzeiten/dortmund/) | 58 | 96% | 98.9% | /hochzeiten/langenfeld/ |
-| P1 | priority-rewrite | high | [Hochzeitsmusik Düsseldorf](https://kim-marie-borger.com/hochzeiten/duesseldorf/) | 58 | 96.1% | 98.9% | /hochzeiten/bielefeld/ |
-| P2 | priority-rewrite | high | [Viola Konzert Rheinland](https://kim-marie-borger.com/konzerte/rheinland/) | 42 | 93.4% | 99.4% | /konzerte/bergisches-land/ |
-| P2 | priority-rewrite | high | [Viola Konzert Mettmann](https://kim-marie-borger.com/konzerte/mettmann/) | 42 | 94.4% | 98.8% | /konzerte/moers/ |
-| P2 | priority-rewrite | high | [Viola Konzert Neuss](https://kim-marie-borger.com/konzerte/neuss/) | 42 | 94.6% | 98.6% | /konzerte/leverkusen/ |
-| P2 | priority-rewrite | high | [Viola Konzert Ruhrgebiet](https://kim-marie-borger.com/konzerte/ruhrgebiet/) | 42 | 93.4% | 98.6% | /konzerte/rheinland/ |
-| P2 | priority-rewrite | high | [Viola Konzert Hilden](https://kim-marie-borger.com/konzerte/hilden/) | 42 | 94.8% | 98.4% | /konzerte/leverkusen/ |
-| P2 | priority-rewrite | high | [Viola Konzert Erkrath](https://kim-marie-borger.com/konzerte/erkrath/) | 42 | 94.8% | 98.3% | /konzerte/neuss/ |
-| P2 | priority-rewrite | high | [Viola Konzert Ratingen](https://kim-marie-borger.com/konzerte/ratingen/) | 42 | 94.6% | 98.3% | /konzerte/muenster/ |
-| P2 | priority-rewrite | high | [Viola Konzert Köln](https://kim-marie-borger.com/konzerte/koeln/) | 42 | 94.4% | 98.1% | /konzerte/aachen/ |
-| P2 | priority-rewrite | high | [Viola Konzert Essen](https://kim-marie-borger.com/konzerte/essen/) | 42 | 94.2% | 97.9% | /konzerte/gelsenkirchen/ |
-| P2 | priority-rewrite | high | [Viola Konzert Dortmund](https://kim-marie-borger.com/konzerte/dortmund/) | 42 | 94.2% | 97.9% | /konzerte/langenfeld/ |
-| P2 | priority-rewrite | high | [Viola Konzert Düsseldorf](https://kim-marie-borger.com/konzerte/duesseldorf/) | 42 | 94.4% | 97.9% | /konzerte/bielefeld/ |
+| P1 | priority-rewrite | high | [Trauermusik Mettmann](https://kim-marie-borger.com/beerdigungen/mettmann/) | 68 | 90% | 92.7% | /beerdigungen/remscheid/ |
+| P1 | priority-rewrite | high | [Trauermusik Ratingen](https://kim-marie-borger.com/beerdigungen/ratingen/) | 68 | 89.8% | 92.5% | /beerdigungen/langenfeld/ |
+| P1 | priority-rewrite | high | [Trauermusik Hilden](https://kim-marie-borger.com/beerdigungen/hilden/) | 68 | 90% | 92.5% | /beerdigungen/langenfeld/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Rhein-Kreis Neuss](https://kim-marie-borger.com/unterricht/rhein-kreis-neuss/) | 72 | 90.3% | 95.8% | /unterricht/langenfeld/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Kreis Mettmann](https://kim-marie-borger.com/unterricht/kreis-mettmann/) | 72 | 89.4% | 95.6% | /unterricht/nordrhein-westfalen/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Neuss](https://kim-marie-borger.com/unterricht/neuss/) | 72 | 92.4% | 95.5% | /unterricht/wuelfrath/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Düsseldorf](https://kim-marie-borger.com/unterricht/duesseldorf/) | 72 | 92.8% | 95.5% | /unterricht/rhein-kreis-neuss/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Erkrath](https://kim-marie-borger.com/unterricht/erkrath/) | 72 | 92.4% | 95.2% | /unterricht/koeln/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Köln](https://kim-marie-borger.com/unterricht/koeln/) | 72 | 92.4% | 95.2% | /unterricht/erkrath/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Essen](https://kim-marie-borger.com/unterricht/essen/) | 72 | 92.4% | 95.1% | /unterricht/unna/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Ratingen](https://kim-marie-borger.com/unterricht/ratingen/) | 72 | 92.3% | 95% | /unterricht/iserlohn/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Mettmann](https://kim-marie-borger.com/unterricht/mettmann/) | 72 | 91.3% | 94.3% | /unterricht/ratingen/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Dortmund](https://kim-marie-borger.com/unterricht/dortmund/) | 72 | 91.4% | 94.3% | /unterricht/krefeld/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Ruhrgebiet](https://kim-marie-borger.com/unterricht/ruhrgebiet/) | 72 | 91.2% | 94.1% | /unterricht/duisburg/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Hilden](https://kim-marie-borger.com/unterricht/hilden/) | 72 | 90.3% | 94% | /unterricht/muelheim-an-der-ruhr/ |
+| P1 | priority-rewrite | high | [Bratschenunterricht Rheinland](https://kim-marie-borger.com/unterricht/rheinland/) | 72 | 90.3% | 93.3% | /unterricht/dortmund/ |
+| P1 | priority-rewrite | high | [Hochzeitsmusik Hilden](https://kim-marie-borger.com/hochzeiten/hilden/) | 72 | 90.4% | 93.3% | /hochzeiten/oberhausen/ |
+| P1 | priority-rewrite | high | [Hochzeitsmusik Neuss](https://kim-marie-borger.com/hochzeiten/neuss/) | 72 | 90.5% | 93.2% | /hochzeiten/wuelfrath/ |
+| P1 | priority-rewrite | high | [Hochzeitsmusik Erkrath](https://kim-marie-borger.com/hochzeiten/erkrath/) | 72 | 90.5% | 93.1% | /hochzeiten/krefeld/ |
+| P1 | priority-rewrite | high | [Hochzeitsmusik Ratingen](https://kim-marie-borger.com/hochzeiten/ratingen/) | 72 | 90.2% | 92.9% | /hochzeiten/haan/ |
+| P1 | priority-rewrite | high | [Hochzeitsmusik Dortmund](https://kim-marie-borger.com/hochzeiten/dortmund/) | 72 | 90.2% | 92.8% | /hochzeiten/koeln/ |
+| P1 | priority-rewrite | high | [Hochzeitsmusik Köln](https://kim-marie-borger.com/hochzeiten/koeln/) | 72 | 90.2% | 92.8% | /hochzeiten/dortmund/ |
+| P1 | priority-rewrite | high | [Hochzeitsmusik Mettmann](https://kim-marie-borger.com/hochzeiten/mettmann/) | 72 | 90% | 92.8% | /hochzeiten/hilden/ |
+| P1 | priority-rewrite | high | [Hochzeitsmusik Düsseldorf](https://kim-marie-borger.com/hochzeiten/duesseldorf/) | 72 | 90.4% | 92.7% | /hochzeiten/mettmann/ |
+| P1 | priority-rewrite | high | [Hochzeitsmusik Essen](https://kim-marie-borger.com/hochzeiten/essen/) | 72 | 90% | 92.7% | /hochzeiten/unna/ |
+| P1 | priority-rewrite | high | [Trauermusik Neuss](https://kim-marie-borger.com/beerdigungen/neuss/) | 72 | 89.4% | 92.3% | /beerdigungen/unna/ |
+| P1 | priority-rewrite | high | [Trauermusik Essen](https://kim-marie-borger.com/beerdigungen/essen/) | 74 | 89.4% | 91.9% | /beerdigungen/wuelfrath/ |
+| P1 | priority-rewrite | high | [Trauermusik Köln](https://kim-marie-borger.com/beerdigungen/koeln/) | 74 | 89.3% | 91.7% | /beerdigungen/bonn/ |
+| P1 | priority-rewrite | high | [Trauermusik Düsseldorf](https://kim-marie-borger.com/beerdigungen/duesseldorf/) | 74 | 89.1% | 91.5% | /beerdigungen/leverkusen/ |
+| P1 | priority-rewrite | high | [Trauermusik Erkrath](https://kim-marie-borger.com/beerdigungen/erkrath/) | 74 | 89.1% | 91.5% | /beerdigungen/krefeld/ |
+| P1 | priority-rewrite | high | [Trauermusik Rheinland](https://kim-marie-borger.com/beerdigungen/rheinland/) | 74 | 88.6% | 90.7% | /beerdigungen/ruhrgebiet/ |
+| P1 | priority-rewrite | high | [Trauermusik Ruhrgebiet](https://kim-marie-borger.com/beerdigungen/ruhrgebiet/) | 74 | 88.6% | 90.7% | /beerdigungen/rheinland/ |
+| P1 | priority-rewrite | high | [Trauermusik Dortmund](https://kim-marie-borger.com/beerdigungen/dortmund/) | 74 | 88.2% | 90.5% | /beerdigungen/duisburg/ |
+| P1 | priority-rewrite | high | [Hochzeitsmusik Rheinland](https://kim-marie-borger.com/hochzeiten/rheinland/) | 78 | 89.3% | 92% | /hochzeiten/paderborn/ |
+| P1 | improve-copy | medium | [Trauermusik Kreis Mettmann](https://kim-marie-borger.com/beerdigungen/kreis-mettmann/) | 74 | 86.5% | 90.7% | /beerdigungen/bergisches-land/ |
+| P1 | improve-copy | medium | [Trauermusik Rhein-Kreis Neuss](https://kim-marie-borger.com/beerdigungen/rhein-kreis-neuss/) | 78 | 85.7% | 91.1% | /beerdigungen/langenfeld/ |
+| P1 | improve-copy | medium | [Hochzeitsmusik Kreis Mettmann](https://kim-marie-borger.com/hochzeiten/kreis-mettmann/) | 78 | 86.8% | 90.8% | /hochzeiten/nordrhein-westfalen/ |
+| P1 | improve-copy | medium | [Hochzeitsmusik Ruhrgebiet](https://kim-marie-borger.com/hochzeiten/ruhrgebiet/) | 78 | 87.7% | 90.2% | /hochzeiten/rheinland/ |
+| P1 | improve-copy | medium | [Hochzeitsmusik Rhein-Kreis Neuss](https://kim-marie-borger.com/hochzeiten/rhein-kreis-neuss/) | 78 | 84.3% | 89.2% | /hochzeiten/velbert/ |
+| P2 | priority-rewrite | high | [Trauermusik Musik Trauerfeier](https://kim-marie-borger.com/beerdigungen/musik-trauerfeier/) | 68 | 91.8% | 95.1% | /beerdigungen/viola-beerdigung/ |
+| P2 | priority-rewrite | high | [Trauermusik Viola Beerdigung](https://kim-marie-borger.com/beerdigungen/viola-beerdigung/) | 68 | 91.5% | 95.1% | /beerdigungen/musik-trauerfeier/ |
+| P2 | priority-rewrite | high | [Trauermusik Musik Letzter Abschied](https://kim-marie-borger.com/beerdigungen/musik-letzter-abschied/) | 68 | 91.8% | 94.9% | /beerdigungen/viola-beerdigung/ |
+| P2 | priority-rewrite | high | [Trauermusik amazing Grace Beerdigung](https://kim-marie-borger.com/beerdigungen/amazing-grace-beerdigung/) | 68 | 91.1% | 94.6% | /beerdigungen/moderne-trauermusik/ |
+| P2 | priority-rewrite | high | [Trauermusik Moderne Trauermusik](https://kim-marie-borger.com/beerdigungen/moderne-trauermusik/) | 68 | 90.9% | 94.6% | /beerdigungen/amazing-grace-beerdigung/ |
+| P2 | priority-rewrite | high | [Trauermusik Musik Bestattung](https://kim-marie-borger.com/beerdigungen/musik-bestattung/) | 68 | 91.8% | 94.5% | /beerdigungen/moderne-trauermusik/ |
+| P2 | priority-rewrite | high | [Trauermusik Live Musik Beerdigung](https://kim-marie-borger.com/beerdigungen/live-musik-beerdigung/) | 68 | 91.8% | 94.5% | /beerdigungen/moderne-trauermusik/ |
+| P2 | priority-rewrite | high | [Trauermusik Buchen](https://kim-marie-borger.com/beerdigungen/trauermusik-buchen/) | 68 | 92.5% | 94.5% | /beerdigungen/trauermusik-repertoire/ |
+| P2 | priority-rewrite | high | [Trauermusik Repertoire](https://kim-marie-borger.com/beerdigungen/trauermusik-repertoire/) | 68 | 92.5% | 94.5% | /beerdigungen/trauermusik-buchen/ |
+| P2 | priority-rewrite | high | [Trauermusik Musikerin Trauerfeier](https://kim-marie-borger.com/beerdigungen/musikerin-trauerfeier/) | 68 | 92.2% | 94.3% | /beerdigungen/trauermusik-buchen/ |
+| P2 | priority-rewrite | high | [Trauermusik Live Musik Trauerfeier](https://kim-marie-borger.com/beerdigungen/live-musik-trauerfeier/) | 68 | 91.8% | 94.2% | /beerdigungen/musik-abschied/ |
 
 ## Spalten in der CSV
 

@@ -1,6 +1,6 @@
 # SEO Page Tracker
 
-Generiert: 2026-06-15T13:04:28.029Z
+Generiert: 2026-06-16T19:11:09.489Z
 
 Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten zu finden, die technisch existieren, aber noch zu aehnlich, zu duenn, nicht sauber im CMS gepflegt oder bei Keywords zu nah an anderen Seiten sind.
 
@@ -13,8 +13,8 @@ Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten
 | topic | 137 |
 | CMS-Dokumente vorhanden | 480 |
 | Durchschnitt Keyword-Nahe | 60% |
-| Durchschnitt Content-Aehnlichkeit | 50.3% |
-| Durchschnitt Template-Aehnlichkeit | 85.7% |
+| Durchschnitt Content-Aehnlichkeit | 50.4% |
+| Durchschnitt Template-Aehnlichkeit | 85.8% |
 
 ## Fortschritt nach Kategorie
 
