@@ -3,6 +3,13 @@
 Astro 6 + TinaCMS (visuelles Editing) + Vercel. Migriert aus dem statischen
 HTML-Design-Export (`../`-Verzeichnis), pixelgenau auf Basis von `kmb.css`.
 
+## Open Source
+
+Der Quellcode ist öffentlich und unter MIT lizenziert. Inhalte, Fotos,
+generierte Bilder, Audio, Branding und SEO-Recherche sind davon ausgenommen und
+bleiben bei Kim Marie Borger bzw. den jeweiligen Rechteinhabern. Details:
+`LICENSE` und `CONTENT-LICENSE.md`.
+
 ## Befehle
 
 | Befehl | Zweck |
@@ -11,6 +18,7 @@ HTML-Design-Export (`../`-Verzeichnis), pixelgenau auf Basis von `kmb.css`.
 | `npm run build` | Produktions-Build mit Tina Cloud (braucht Env-Variablen) |
 | `npm run build:local` | Produktions-Build ohne Cloud (Inhalte aus dem Repo, /admin aus) |
 | `npm run build:vercel` | Wird von Vercel genutzt — wählt automatisch Cloud/Local je nach Env |
+| `npm run audit:prod` | Security-Audit der produktiven Dependency-Kette |
 | `npm run optimize:images` | Neue Bilder in `public/uploads` webtauglich verkleinern |
 
 ## Architektur
@@ -74,6 +82,20 @@ OG/Twitter-Meta (Bild = Hero der Seite), JSON-LD (Person + WebSite global,
 FAQPage auf Seiten mit FAQ-Block), `og:locale de_DE`. Pro Seite pflegbar:
 `seoTitle` + `seoDescription` in Tina („Seiten“-Collection).
 
+## Security
+
+- Keine echten Secrets committen. `.env.example` dokumentiert die nötigen
+  Variablen; lokale Vercel- und dotenv-Dateien sind per `.gitignore`
+  ausgeschlossen.
+- Vor Veröffentlichungen `npm run build:local` und `npm run audit:prod`
+  ausführen.
+- Dependabot ist für npm-Abhängigkeiten aktiv. Der volle `npm audit` kann
+  zusätzlich dev-only Meldungen aus lokalen CMS-/Language-Server-Tools zeigen;
+  produktive Abhängigkeiten sollen mit `npm run audit:prod` sauber bleiben.
+- Falls `npm run audit:prod` eine `esbuild`-Meldung über Astro/Vite/Tina zeigt:
+  zuerst auf neue Astro/Vite/Tina-Versionen aktualisieren und den Build prüfen.
+  Ein pauschales Override auf `esbuild@0.28.x` bricht aktuell den Tina-Build.
+
 ## Troubleshooting: Build-Fehler „local GraphQL schema doesn't match remote“
 
 Nach einer Schema-Änderung (Felder in `*.template.ts` / `tina/collections/*`)
@@ -97,8 +119,8 @@ stellen.
 
 ## Offene Punkte (bewusst)
 
-- **Impressum & Datenschutz** fehlen inhaltlich (Pflicht vor Live-Gang!) —
-  Links im Footer sind über Globale Einstellungen setzbar.
+- **Impressum & Datenschutz** sind technisch hinterlegt, müssen vor Live-Gang
+  aber final rechtlich geprüft und ggf. um vollständige Angaben ergänzt werden.
 - Gästezitat auf Start/Über-mich ist als Platzhalter markiert.
 - Portfolio: Audio-Player spielt synthetische Klangskizzen (wie im Original);
   echte Aufnahmen + YouTube-ID können später ergänzt werden.
