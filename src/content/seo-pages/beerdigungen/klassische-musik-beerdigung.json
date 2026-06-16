@@ -6,20 +6,37 @@
   "targetKeyword": "Klassische Musik Beerdigung",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "status": "risk-pass-2026-06-16-review-needed",
   "enabled": true,
   "seoTitle": "Klassische Musik Beerdigung | Live-Viola für Abschied",
   "seoDescription": "Klassische Musik Beerdigung: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
   "hero": {
     "eyebrow": "Klassisch",
-    "title": "Klassische Musik zur Beerdigung, würdevoll, ruhig und nicht schwerer als nötig.",
-    "lead": "Klassische Musik Beerdigung richtet sich an Angehörige, die vertraute klassische Stücke für eine Beerdigung suchen. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf zum Abschied passen und Angehörige organisatorisch entlastet werden.",
+    "title": "Klassische Musik Beerdigung, ruhig als Solo-Viola geplant.",
+    "lead": "Klassische Musik Beerdigung braucht eine eigene Entscheidung: Bach, Schubert, Massenet oder ruhige Bearbeitungen. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
     "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
     "title": "FAQ zu Klassische Musik Beerdigung",
     "items": [
+      {
+        "question": "Wann passt Klassische Musik Beerdigung?",
+        "answer": "Klassische Musik Beerdigung passt, wenn Bach, Schubert, Massenet oder ruhige Bearbeitungen im Mittelpunkt steht und nicht nur allgemein Musik für den Abschied gesucht wird.",
+        "open": true
+      },
+      {
+        "question": "Kannst du das Stück oder den Schwerpunkt anpassen?",
+        "answer": "Ja. Ich prüfe, ob eine vollständige Fassung, ein Ausschnitt oder eine reduzierte Viola-Version besser zur Situation passt."
+      },
+      {
+        "question": "Was unterscheidet diese Seite von anderen Trauerseiten?",
+        "answer": "Hier geht es gezielt um Repertoire. Andere Seiten behandeln Ortsbezug, Buchung, Repertoire oder einen anderen Moment im Ablauf."
+      },
+      {
+        "question": "Welche Informationen helfen für die Anfrage?",
+        "answer": "Datum, Ort, Ablaufpunkt, Wunschstück und die Frage, ob Musik innen, draußen oder an beiden Stellen gewünscht ist."
+      },
       {
         "question": "Für welchen Abschied passt Klassische Musik Beerdigung?",
         "answer": "Klassische Musik Beerdigung passt besonders für Angehörige, die vertraute klassische Stücke für eine Beerdigung suchen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
@@ -38,54 +55,30 @@
         "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
       },
       {
-        "question": "Ist draußen spielen möglich?",
-        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Am Grab ist oft ein kurzer, schlichter Einsatz sinnvoller als ein langes Stück."
-      },
-      {
-        "question": "Wie viele Stücke sind für diesen Schwerpunkt sinnvoll?",
-        "answer": "Das hängt vom Ablauf ab. Für viele Trauerfeiern reichen wenige Einsätze, die klar begründet sind: Anfang, Erinnerung, Übergang oder Abschluss."
-      },
-      {
-        "question": "Was passiert, wenn noch kein Lied feststeht?",
-        "answer": "Dann ordnen wir zuerst den Moment ein. Danach kann ich Stücke vorschlagen, die zu Raum, Person und gewünschter Zurückhaltung passen."
-      },
-      {
-        "question": "Welche Informationen helfen für die erste Einschätzung?",
-        "answer": "Für Klassische Musik Beerdigung helfen Datum, Ort, Uhrzeit, gewünschter Moment im Ablauf, vorhandene Wunschstücke und die Frage, ob die Musik in der Trauerfeier, draußen am Grab oder an beiden Stellen geplant ist."
-      },
-      {
-        "question": "Wie kurzfristig können wir anfragen?",
-        "answer": "Oft auch kurzfristig. Wichtig sind Datum, Ort, Uhrzeit, grober Ablauf und die gewünschte Musik, damit ich schnell prüfen kann, ob der Termin möglich ist."
-      },
-      {
-        "question": "Wann passt Klassische Musik Beerdigung besonders gut?",
-        "answer": "Klassische Musik Beerdigung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
+        "question": "Wie wird Klassische Musik Beerdigung konkret vorbereitet?",
+        "answer": "Ich klaere Anlass, Raum, Zeitpunkt und gewuenschte Wirkung. Danach entscheide ich, ob Klassische Musik Beerdigung als einzelner Moment, als Uebergang oder als Teil einer kleinen Abfolge auf Solo-Viola am staerksten wirkt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Live-Viola für Klassische Musik Beerdigung 1"
+      "alt": "Live-Viola für Trauermusik: Klassische Musik Beerdigung - Bild 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Live-Viola für Klassische Musik Beerdigung 2"
+      "alt": "Live-Viola für Trauermusik: Klassische Musik Beerdigung - Bild 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsaetzen und zusaetzlichen FAQ weiter ausgebaut.",
   "contact": {
     "eyebrow": "Trauermusik planen",
     "title": "Klassische Musik Beerdigung anfragen",
-    "lead": "Schickt mir Datum, Ort, Ablauf und den Moment, für den ihr Klassische Musik Beerdigung plant. Ich melde mich mit einer behutsamen musikalischen Idee.",
+    "lead": "Schickt mir Datum, Ort und den konkreten Moment, für den ihr Klassische Musik Beerdigung plant. Ich melde mich mit einer ruhigen Einschätzung zu Stück, Länge und Ablauf.",
     "checklist": [
       "Klassische Musik Beerdigung",
-      "Trauerfeier oder Grab",
-      "Wunschstück"
+      "Beginn, Meditation oder Auszug",
+      "Wunschstück oder Schwerpunkt"
     ],
     "formEyebrow": "Anfrage senden",
     "formTitle": "Klassische Musik Beerdigung anfragen",
@@ -123,71 +116,69 @@
       "Auch Trauerhalle, Kapelle, Auszug, Friedhofsweg, Würde ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
       "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
       "Redaktionell bleibt diese Seite eng bei Klassische, Musik, Beerdigung. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
-      "Trauermusik braucht eine andere Sprache als Eventmusik. Diese Seite behandelt Klassische, Musik, Beerdigung mit Blick auf Würde, Tempo, Ansprechpersonen und die Belastung der Angehoerigen."
+      "Trauermusik braucht eine andere Sprache als Eventmusik. Diese Seite behandelt Klassische, Musik, Beerdigung mit Blick auf Würde, Tempo, Ansprechpersonen und die Belastung der Angehoerigen.",
+      "Bei Klassische Musik Beerdigung pruefe ich zusaetzlich die passende Laenge des Stuecks. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle wirklich Raum laesst und nicht gegen Worte oder Stille arbeitet.",
+      "So unterscheidet sich diese Seite von benachbarten Trauermusik-Themen: Klassische Musik Beerdigung wird als leiser Abschluss gedacht. Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt wuerdevoller ist als eine vollstaendige Fassung."
     ],
     "seal": "Klassisch\nAbschied\nLive-Viola"
   },
   "elegy": {
-    "quote": "Klassische Musik Beerdigung soll dem Abschied Raum geben, ohne Worte zu ersetzen.",
+    "quote": "Klassische Musik Beerdigung wirkt am stärksten, wenn die musikalische Aufgabe vorher klar ist.",
     "passages": [
       {
-        "strong": "Musikalische Aufgabe",
-        "text": "Bach, Schubert, Massenet oder ruhige Bearbeitungen können passend sein, wenn Länge und Raum stimmen."
+        "strong": "Suchintention",
+        "text": "Wer Klassische Musik Beerdigung sucht, meint nicht einfach irgendeine Trauermusik. Im Mittelpunkt stehen Repertoire, die passende Stelle im Ablauf und die Frage, ob Solo-Viola den Moment wirklich tragen kann."
       },
       {
         "strong": "Abgrenzung",
-        "text": "Diese Seite unterscheidet sich von Ave Maria und Amazing Grace, weil sie mehrere klassische Optionen einordnet."
+        "text": "Diese Seite grenzt sich bewusst von unspezifische Beerdigungsmusik ab. Der Fokus liegt auf Klassik als Halt, nicht als Konzert, damit Angehörige schneller entscheiden können, ob genau dieser musikalische Schwerpunkt passt."
       },
       {
-        "strong": "Ablauf",
-        "text": "Der praktische Ablauf entscheidet viel: Ein Stück vor der ersten Rede braucht eine andere Ruhe als ein musikalischer Gruß am Grab oder ein kurzer Moment nach dem Kerzenritual. Für Klassische Musik Beerdigung ist ein gutes Ergebnis nicht möglichst viel Musik. Passender ist ein Moment, der den Abschied trägt, ohne ihn zu verlängern oder die Aufmerksamkeit von der verstorbenen Person wegzunehmen."
+        "strong": "Einsatzpunkt",
+        "text": "Geeignet ist Beginn, Meditation oder Auszug. Dort entscheidet die Länge: ein zu langer Einsatz kann belasten, ein zu kurzer kann beliebig wirken. Ich plane deshalb mit klaren Start- und Endpunkten."
       },
       {
-        "strong": "Raum und Klang",
-        "text": "Für Kirche, Trauerhalle, Auszug oder stiller Moment ist die Frage nach Verstärkung meist zweitrangig. Wichtiger ist, ob die Viola nahe genug am Geschehen steht und ob das Ende des Stücks ohne Hektik ausklingen kann. Die Viola klingt tiefer und dunkler als eine Geige. Dadurch wirkt sie in Trauerräumen oft weniger hell und weniger exponiert, bleibt aber klar melodisch."
-      },
-      {
-        "strong": "Wunschmusik",
-        "text": "Wenn ein Stück mit einer konkreten Erinnerung verbunden ist, behandle ich es anders als neutrale Hintergrundmusik. Dann ist die Platzierung im Ablauf besonders wichtig. Wenn ein Wunschlied emotional sehr aufgeladen ist, bespreche ich behutsam, ob es vollständig, gekürzt oder an einer anderen Stelle besser funktioniert. Manchmal schützt eine kurze Fassung den Moment."
+        "strong": "Klang und Fassung",
+        "text": "Auf Solo-Viola wird die Melodie reduziert und wärmer. Ich prüfe Tonart, Register und Tempo, damit der Klang ruhig bleibt und dennoch erkennbar genug ist."
       },
       {
         "strong": "Anfrage",
-        "text": "Wenn der Termin kurzfristig ist, helfen klare Angaben mehr als lange Erklärungen. Ich prüfe Verfügbarkeit, musikalische Machbarkeit und die Abstimmung mit den beteiligten Personen so zügig wie möglich."
+        "text": "Für eine Einschätzung reichen Datum, Ort, Ablaufstelle und vorhandene Liedidee. Danach kann ich sagen, ob eine vollständige Fassung, ein Ausschnitt oder ein anderes Stück sinnvoller ist."
       }
     ]
   },
   "solemn": {
-    "eyebrow": "Planung",
-    "title": "Worauf es bei Klassische Musik Beerdigung ankommt.",
-    "lead": "Die Details unterscheiden sich je nach Zeremonie, Raum und gewünschter Nähe. Diese Punkte sollten vor dem Abschied geklärt sein.",
+    "eyebrow": "Einordnung",
+    "title": "Worauf es bei Klassische Musik Beerdigung konkret ankommt.",
+    "lead": "Der Schwerpunkt entscheidet über Tempo, Länge und Wirkung. Deshalb wird diese Seite anders formuliert als allgemeine Trauermusik-Seiten.",
     "cards": [
       {
         "rom": "Rolle",
-        "title": "Die Aufgabe der Musik festlegen",
-        "poet": "Bei Klassische Musik Beerdigung klären wir zuerst, ob die Musik Anfang, Übergang, Erinnerung oder Schlussmoment sein soll.",
+        "title": "Repertoire musikalisch ernst nehmen",
+        "poet": "Bach, Schubert, Massenet oder ruhige Bearbeitungen verlangt eine andere Vorbereitung als eine neutrale Hintergrundmusik. Ich plane erst die Aufgabe, dann das Stück.",
         "list": [
-          "Beginn",
-          "Zwischenmoment",
-          "Abschluss"
+          "musikalische Aufgabe",
+          "passende Länge",
+          "ruhiger Schluss"
         ]
       },
       {
         "rom": "Ablauf",
-        "title": "Start und Ende sicher abstimmen",
-        "poet": "Ein Blickzeichen, eine Kontaktperson oder ein Stichwort verhindert Unsicherheit während der Trauerfeier.",
+        "title": "Den Moment nicht überladen",
+        "poet": "Bei Klassische Musik Beerdigung bleibt die Viola nah am Abschied: sie beginnt klar, lässt Stille zu und endet so, dass Worte, Wege oder der Grabmoment weitertragen können.",
         "list": [
-          "Kontaktperson",
           "Startsignal",
-          "flexibles Ende"
+          "Raumklang",
+          "Kontaktperson"
         ]
       }
     ],
-    "listLabel": "Mögliche Fragen zu Klassische Musik Beerdigung",
+    "listLabel": "Planung für Klassische Musik Beerdigung",
     "list": [
-      "Welcher Moment soll getragen werden?",
-      "Ist ein Wunschstück vorgesehen?",
-      "Findet etwas draußen statt?",
-      "Wer gibt am Tag selbst das Signal?"
+      "Repertoire",
+      "Bach, Schubert, Massenet oder ruhige Bearbeitungen",
+      "Beginn, Meditation oder Auszug",
+      "Klassik als Halt, nicht als Konzert"
     ]
   },
   "focus": {

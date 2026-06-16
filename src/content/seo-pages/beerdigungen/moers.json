@@ -6,20 +6,37 @@
   "targetKeyword": "Trauermusik Moers",
   "intentCluster": "beerdigungen:local",
   "priority": "P3",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "status": "risk-pass-2026-06-16-review-needed",
   "enabled": true,
   "seoTitle": "Trauermusik Moers | Live-Viola für Abschied",
   "seoDescription": "Trauermusik Moers: Solo-Viola für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Ruhig geplant und persönlich abgestimmt.",
   "hero": {
     "eyebrow": "Abschied in Moers",
     "title": "Trauermusik in Moers, die den Abschied ruhig trägt.",
-    "lead": "Ob Trauerfeier, Beerdigung, Bestattung oder letzter Abschied: Ich begleite Abschiede in Moers mit Solo-Viola, abgestimmt auf Ort, Ablauf und die Menschen, die Abschied nehmen.",
+    "lead": "Trauermusik in Moers plane ich nach Trauerort, Ablauf und den Menschen, die Abschied nehmen. Die Solo-Viola bleibt warm und zurückhaltend, kann aber genau den Moment tragen, der sonst leer bliebe.",
     "badge": "Behutsam geplant & persönlich abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
     "title": "FAQ zu Trauermusik in Moers",
     "items": [
+      {
+        "question": "Kannst du Trauermusik in Moers übernehmen?",
+        "answer": "Ja, wenn der Termin passt. Ich spiele Solo-Viola für Trauerfeiern, Beerdigungen, stille Abschiede und kurze Momente am Grab in Moers.",
+        "open": true
+      },
+      {
+        "question": "Welche Angaben brauchst du für Moers?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort, gewünschte Musikmomente, vorhandene Wunschstücke und eine Kontaktperson vor Ort."
+      },
+      {
+        "question": "Kann auch draußen am Grab gespielt werden?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Gerade in Moers klären wir dafür vorher Platz, Dauer und ein mögliches Zeichen für den Beginn."
+      },
+      {
+        "question": "Wie wird ein Wunschlied geprüft?",
+        "answer": "Ich schaue, ob Melodie, Tonart und Länge auf Solo-Viola funktionieren. Manchmal ist ein kurzer Ausschnitt würdevoller als die vollständige Fassung."
+      },
       {
         "question": "Spielst du Trauermusik in Moers?",
         "answer": "Ja. Ich begleite Abschiede in Moers mit Solo-Viola, je nach Ablauf in Trauerhalle, Kirche, Kapelle, am Friedhof oder bei einer freien Abschiedsfeier.",
@@ -38,58 +55,34 @@
         "answer": "Häufig passen Ave Maria, Amazing Grace, Bach, Massenet oder ein persönliches Lieblingslied. Entscheidend ist, dass das Stück zur Person und zur konkreten Stelle im Ablauf passt."
       },
       {
-        "question": "Ist Musik draußen am Grab möglich?",
-        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Oft ist am Grab ein kurzer, sehr reduzierter Einsatz am passendsten."
-      },
-      {
-        "question": "Wie viele Musikstücke sind sinnvoll?",
-        "answer": "Häufig reichen zwei bis vier Einsätze. Ein Stück zum Beginn, ein ruhiger Moment nach Worten und Musik zum Auszug sind oft stimmiger als ein zu dichtes Programm."
-      },
-      {
-        "question": "Kann die Musik sehr dezent bleiben?",
-        "answer": "Ja. Die Viola kann leise und nah spielen. Gerade bei Trauerfeiern ist Zurückhaltung oft wichtiger als Lautstärke oder ein besonders langer musikalischer Beitrag."
-      },
-      {
-        "question": "Welche Angaben brauchst du für eine Anfrage?",
-        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort in Moers, der geplante Ablauf und ein Hinweis, ob Musik nur in der Trauerfeier oder auch am Grab gewünscht ist. Wenn es bereits ein Wunschstück gibt, prüfe ich direkt, ob es für Solo-Viola passt."
-      },
-      {
-        "question": "Sind kurzfristige Anfragen möglich?",
-        "answer": "Oft ja. Für Abschiede in Moers melde ich mich schnell zurück, sobald Datum, Ort und ungefähre Uhrzeit feststehen."
-      },
-      {
-        "question": "Welche Details sind für Trauermusik Moers besonders wichtig?",
-        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Moers plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
-      },
-      {
-        "question": "Wie wird die Musik in Moers konkret geplant?",
-        "answer": "Hilfreich sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
+        "question": "Was macht Trauermusik in Moers besonders planbar?",
+        "answer": "Hilfreich ist eine klare Zuordnung: Welche Musik beginnt, welche Musik traegt eine stille Minute, welche Musik fuehrt hinaus? So bleibt der Ablauf in Moers ruhig genug fuer Worte und dennoch hoerbar und die Familie muss am Tag selbst weniger entscheiden."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Live-Viola als Trauermusik in Moers 1"
+      "alt": "Live-Viola für Trauermusik: Moers - Bild 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Live-Viola als Trauermusik in Moers 2"
+      "alt": "Live-Viola für Trauermusik: Moers - Bild 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsaetzen und zusaetzlichen FAQ weiter ausgebaut.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik in Moers anfragen",
-    "lead": "Schickt mir Datum, Trauerort in Moers, Ablauf und mögliche Wunschstücke. Ich melde mich ruhig und zeitnah mit einer realistischen musikalischen Einschätzung.",
+    "lead": "Schickt mir Datum, Uhrzeit, Trauerort in Moers, gewünschte Einsatzpunkte und mögliche Wunschstücke. Ich prüfe ruhig, ob der Termin passt und wie die Musik den Abschied tragen kann.",
     "checklist": [
       "Moers",
-      "Trauerfeier oder Grab",
-      "Wunschstück"
+      "Trauerort",
+      "Wunschstück oder Ablauf"
     ],
     "formEyebrow": "Termin prüfen",
     "formTitle": "Trauermusik in Moers anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer behutsamen Idee für Trauermusik in Moers."
+    "formSuccess": "Danke - ich melde mich mit einer behutsamen Einschätzung für Trauermusik in Moers."
   },
   "split": {
     "eyebrow": "Lokaler Rahmen",
@@ -127,87 +120,70 @@
       "Der Unterschied zu Heiligenhaus liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
       "Für die Anfrage sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Moers passt und den Ablauf nicht künstlich aufbläht.",
       "Wenn Trauermusik Moers mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Moers ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
+      "Bei knappen Zeitfenstern in Moers ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
+      "Als zusaetzlichen Planungspunkt notiere ich bei Trauermusik in Moers immer Wetteroption, Sitzordnung und die Frage, ob Musik auch draussen sinnvoll ist. Dadurch wird die Musik nicht nur nach Stuecken ausgesucht, sondern nach ihrer Aufgabe im Ablauf: sammeln, halten, ueberleiten oder einen letzten Weg leise begleiten.",
+      "Fuer Moers bespreche ich ausserdem, wie viel Naehe der Klang haben darf. Manche Familien wuenschen die Viola sehr nah am Sitzbereich, andere brauchen mehr Abstand. Diese Entscheidung veraendert Lautstaerke, Bogenfuehrung und die Auswahl der Stuecke deutlicher als man vorher denkt."
     ],
     "seal": "Moers\nTrauerfeier & Abschied\nLive-Viola"
   },
   "elegy": {
-    "quote": "Trauermusik in Moers soll nicht erklären, sondern dem Abschied einen ruhigen Halt geben.",
+    "quote": "Trauermusik in Moers soll nicht auffallen, sondern den Abschied halten.",
     "passages": [
       {
-        "strong": "Der Ort",
-        "text": "Niederrhein, Schlossnähe, Friedhöfe und Abschiede zwischen Duisburg und Kamp-Lintfort. Diese konkrete Umgebung beeinflusst, ob Musik eher im Raum, am Ausgang oder draußen am Grab sinnvoll ist."
+        "strong": "Lokaler Rahmen",
+        "text": "In Moers achte ich besonders auf Niederrhein, Schlossnähe, Außenmomente. Daraus ergibt sich, ob ein einzelnes Stück reicht oder ob Beginn, Erinnerung und Auszug jeweils einen eigenen Klang brauchen."
       },
       {
-        "strong": "Der Klang",
-        "text": "Die Viola bleibt warm und zurückhaltend. Sie kann Trauer halten, ohne aus dem Abschied einen musikalischen Vortrag zu machen."
+        "strong": "Ablauf statt Liste",
+        "text": "Vor der Stückauswahl klären wir, welche Aufgabe Musik übernimmt: sammeln, nach einer Rede Raum lassen, einen Weg begleiten oder den letzten Moment am Grab ruhig schließen."
       },
       {
-        "strong": "Die Abstimmung",
-        "text": "Ich stimme mich bei Bedarf mit Bestattungshaus, Rednerin, Pfarrer oder Familie ab, damit Angehörige am Tag selbst nicht organisieren müssen."
+        "strong": "Klang der Viola",
+        "text": "Der dunklere Streichklang passt gut zu Trauerhallen, Kirchen und kleinen Kapellen. Er wirkt persönlicher als eine Aufnahme und bleibt beweglich, wenn sich Wege oder Reden verschieben."
       },
       {
-        "strong": "Lokaler Ablauf",
-        "text": "Für Moers unterscheide ich zuerst zwischen Musik im Raum und Musik auf dem Friedhof. In Trauerhalle, Kirche, Friedhof oder ruhiger Abschied im kleinen Kreis gelten andere Fragen als am Grab: Wie weit trägt der Klang, wer sieht die Musikerin, und wann darf der letzte Ton ausklingen? Bei einer Feier in Moers kann die Viola auch einen Übergang tragen: vom Ankommen in die Stille, von Worten zum Ritual oder vom letzten Gruß zurück in die Begegnung danach."
+        "strong": "Praktische Abstimmung",
+        "text": "Für Moers notiere ich Wetteroptionen, Friedhofswege und den Moment des Auszugs. Eine Kontaktperson vor Ort, ein Startsignal und ein geschützter Platz machen den Ablauf für Angehörige spürbar leichter."
       },
       {
-        "strong": "Moers konkret",
-        "text": "Moers passt gut zu Abschieden mit Niederrhein-Ruhe, Schlossnähe oder kleinen Kapellen. Die Viola kann dort klar und warm wirken, besonders wenn der Übergang von Trauerfeier zu Beisetzung nicht hektisch werden soll."
-      },
-      {
-        "strong": "Praktische Details",
-        "text": "Für Moers sind Wetterschutz und ein stabiler Platz bei Außenmusik wichtig, weil ein warmer Klang nur trägt, wenn das Instrument sicher stehen kann."
-      },
-      {
-        "strong": "Räume und Wege",
-        "text": "Für Moers bedeutet Trauerhalle, Kirche, Friedhof oder ruhiger Abschied im kleinen Kreis: bei Außenmusik Wetterschutz und einen stabilen Platz für das Instrument sichern. Der Rahmen Niederrhein, Schlossnähe, Friedhöfe und Abschiede zwischen Duisburg und Kamp-Lintfort verändert, ob die Musik nah bei den Angehörigen, am Ausgang, in einer Kapelle oder erst draußen sinnvoll wirkt."
-      },
-      {
-        "strong": "Wunschmusik",
-        "text": "Wenn mehrere Wunschlieder im Raum stehen, ordne ich sie nach Wirkung: eines zum Sammeln, eines für Erinnerung, eines für den Schluss. Nicht jedes Stück muss vollständig gespielt werden. Ich achte darauf, dass die Musik nicht gegen Raumgeräusche, Schritte oder organisatorische Ansagen arbeiten muss. Wenn der Ablauf ruhig geplant ist, kann auch ein einzelner Ton sehr wirksam sein."
-      },
-      {
-        "strong": "Entlastung",
-        "text": "Wenn eine Familie unsicher ist, ob Live-Musik zu viel sein könnte, plane ich besonders reduziert: wenige Einsätze, leise Dynamik, keine Anmoderation und ein Auftreten, das den Abschied nicht unterbricht. Für eine Anfrage reichen zunächst Datum, Uhrzeit, genauer Ort in Moers, gewünschter musikalischer Moment und falls vorhanden ein Wunschlied. Danach kann ich einschätzen, welche Besetzung und Länge sinnvoll ist."
-      },
-      {
-        "strong": "Abgrenzung",
-        "text": "Für Google und für echte Anfragen ist diese Abgrenzung wichtig: Die Seite soll nicht nur Trauermusik erklären, sondern Trauermusik an diesem Ort planbar machen."
+        "strong": "Repertoire",
+        "text": "Möglich sind Ave Maria, Amazing Grace, Air oder ein persönliches Lieblingslied. Entscheidend ist nicht die längste Liste, sondern ein Stück, das zur Person, zum Raum und zur seelischen Belastung des Tages passt."
       }
     ]
   },
   "solemn": {
-    "eyebrow": "Ablauf",
-    "title": "Wo Trauermusik in Moers sinnvoll wirken kann.",
-    "lead": "Die genaue Dramaturgie richtet sich nach Trauerort, Zeremonieform und dem gewünschten Abschiedston.",
+    "eyebrow": "Trauerfeier in Moers",
+    "title": "Was ich für Trauermusik in Moers vorab kläre.",
+    "lead": "Je genauer Raum, Weg und Einsatzpunkt beschrieben sind, desto ruhiger kann Musik am Tag selbst wirken.",
     "cards": [
       {
-        "rom": "Beginn",
-        "title": "Den Raum sammeln",
-        "poet": "Ein ruhiges erstes Stück hilft, bevor die ersten Worte gesprochen werden.",
+        "rom": "Vorab",
+        "title": "Ablauf und Kontaktperson sortieren",
+        "poet": "Ich kläre mit euch oder dem Bestattungshaus, wo die Viola steht, wann der erste Ton beginnt und wie der Übergang zu Niederrhein ruhig bleibt.",
         "list": [
-          "Ankommen",
-          "Kerze oder Foto",
-          "erster stiller Moment"
+          "Datum und Uhrzeit",
+          "Trauerort",
+          "Startsignal"
         ]
       },
       {
-        "rom": "Abschluss",
-        "title": "Den Auszug halten",
-        "poet": "Ein schlichtes Schlussstück kann den Übergang aus Trauerhalle, Kirche oder Kapelle würdevoll führen.",
+        "rom": "Am Tag",
+        "title": "Wenig Aufbau, klare Präsenz",
+        "poet": "Die Musik bleibt bewusst schlank: stimmen, ankommen, warten können und erst dann spielen, wenn der Moment in Moers wirklich bereit ist.",
         "list": [
-          "Auszug",
-          "Gang zum Grab",
-          "letzter Gruß"
+          "ruhiger Platz",
+          "Wunschstück",
+          "Auszug oder Grab"
         ]
       }
     ],
-    "listLabel": "Mögliche Einsatzpunkte in Moers",
+    "listLabel": "Typische Punkte für Moers",
     "list": [
-      "Beginn der Trauerfeier",
-      "nach persönlichen Erinnerungen",
-      "Kerzen- oder Blumenmoment",
-      "Auszug oder kurzer Moment am Grab"
+      "Niederrhein",
+      "Schlossnähe",
+      "Außenmomente",
+      "Wunschlied",
+      "Kontaktperson"
     ]
   },
   "focus": {

@@ -6,20 +6,37 @@
   "targetKeyword": "Trauermusik Rheinland",
   "intentCluster": "beerdigungen:local",
   "priority": "P3",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "status": "risk-pass-2026-06-16-review-needed",
   "enabled": true,
   "seoTitle": "Trauermusik Rheinland | Live-Viola für Abschied",
   "seoDescription": "Trauermusik Rheinland: Solo-Viola für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Ruhig geplant und persönlich abgestimmt.",
   "hero": {
     "eyebrow": "Abschied im Rheinland",
     "title": "Trauermusik im Rheinland, die den Abschied ruhig trägt.",
-    "lead": "Ob Trauerfeier, Beerdigung, Bestattung oder letzter Abschied: Ich begleite Abschiede im Rheinland mit Solo-Viola, abgestimmt auf Ort, Ablauf und die Menschen, die Abschied nehmen.",
+    "lead": "Trauermusik in Rheinland plane ich nach Trauerort, Ablauf und den Menschen, die Abschied nehmen. Die Solo-Viola bleibt warm und zurückhaltend, kann aber genau den Moment tragen, der sonst leer bliebe.",
     "badge": "Behutsam geplant & persönlich abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Trauermusik im Rheinland",
+    "title": "FAQ zu Trauermusik in Rheinland",
     "items": [
+      {
+        "question": "Kannst du Trauermusik in Rheinland übernehmen?",
+        "answer": "Ja, wenn der Termin passt. Ich spiele Solo-Viola für Trauerfeiern, Beerdigungen, stille Abschiede und kurze Momente am Grab in Rheinland.",
+        "open": true
+      },
+      {
+        "question": "Welche Angaben brauchst du für Rheinland?",
+        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort, gewünschte Musikmomente, vorhandene Wunschstücke und eine Kontaktperson vor Ort."
+      },
+      {
+        "question": "Kann auch draußen am Grab gespielt werden?",
+        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Gerade in Rheinland klären wir dafür vorher Platz, Dauer und ein mögliches Zeichen für den Beginn."
+      },
+      {
+        "question": "Wie wird ein Wunschlied geprüft?",
+        "answer": "Ich schaue, ob Melodie, Tonart und Länge auf Solo-Viola funktionieren. Manchmal ist ein kurzer Ausschnitt würdevoller als die vollständige Fassung."
+      },
       {
         "question": "Spielst du Trauermusik im Rheinland?",
         "answer": "Ja. Ich begleite Abschiede im Rheinland mit Solo-Viola, je nach Ablauf in Trauerhalle, Kirche, Kapelle, am Friedhof oder bei einer freien Abschiedsfeier.",
@@ -38,58 +55,34 @@
         "answer": "Häufig passen klassische Trauermusik, moderne Melodien und sehr reduzierte Musik am Grab. Entscheidend ist, dass das Stück zur Person und zur konkreten Stelle im Ablauf passt."
       },
       {
-        "question": "Ist Musik draußen am Grab möglich?",
-        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Oft ist am Grab ein kurzer, sehr reduzierter Einsatz am passendsten."
-      },
-      {
-        "question": "Wie viele Musikstücke sind sinnvoll?",
-        "answer": "Häufig reichen zwei bis vier Einsätze. Ein Stück zum Beginn, ein ruhiger Moment nach Worten und Musik zum Auszug sind oft stimmiger als ein zu dichtes Programm."
-      },
-      {
-        "question": "Kann die Musik sehr dezent bleiben?",
-        "answer": "Ja. Die Viola kann leise und nah spielen. Gerade bei Trauerfeiern ist Zurückhaltung oft wichtiger als Lautstärke oder ein besonders langer musikalischer Beitrag."
-      },
-      {
-        "question": "Welche Angaben brauchst du für eine Anfrage?",
-        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort im Rheinland, der geplante Ablauf und ein Hinweis, ob Musik nur in der Trauerfeier oder auch am Grab gewünscht ist. Wenn es bereits ein Wunschstück gibt, prüfe ich direkt, ob es für Solo-Viola passt."
-      },
-      {
-        "question": "Sind kurzfristige Anfragen möglich?",
-        "answer": "Oft ja. Für Abschiede im Rheinland melde ich mich schnell zurück, sobald Datum, Ort und ungefähre Uhrzeit feststehen."
-      },
-      {
-        "question": "Welche Details sind für Trauermusik Rheinland besonders wichtig?",
-        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Rheinland plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
-      },
-      {
-        "question": "Wie wird die Musik in Rheinland konkret geplant?",
-        "answer": "Hilfreich sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
+        "question": "Was macht Trauermusik in Rheinland besonders planbar?",
+        "answer": "Hilfreich ist eine klare Zuordnung: Welche Musik beginnt, welche Musik traegt eine stille Minute, welche Musik fuehrt hinaus? So bleibt der Ablauf in Rheinland persoenlich und bewusst zurueckgenommen und die Familie muss am Tag selbst weniger entscheiden."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Live-Viola als Trauermusik im Rheinland 1"
+      "alt": "Live-Viola für Trauermusik: Rheinland - Bild 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Live-Viola als Trauermusik im Rheinland 2"
+      "alt": "Live-Viola für Trauermusik: Rheinland - Bild 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsaetzen und zusaetzlichen FAQ weiter ausgebaut.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik im Rheinland anfragen",
-    "lead": "Schickt mir Datum, Trauerort im Rheinland, Ablauf und mögliche Wunschstücke. Ich melde mich ruhig und zeitnah mit einer realistischen musikalischen Einschätzung.",
+    "lead": "Schickt mir Datum, Uhrzeit, Trauerort in Rheinland, gewünschte Einsatzpunkte und mögliche Wunschstücke. Ich prüfe ruhig, ob der Termin passt und wie die Musik den Abschied tragen kann.",
     "checklist": [
       "Rheinland",
-      "Trauerfeier oder Grab",
-      "Wunschstück"
+      "Trauerort",
+      "Wunschstück oder Ablauf"
     ],
     "formEyebrow": "Termin prüfen",
-    "formTitle": "Trauermusik im Rheinland anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer behutsamen Idee für Trauermusik im Rheinland."
+    "formTitle": "Trauermusik in Rheinland anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer behutsamen Einschätzung für Trauermusik in Rheinland."
   },
   "split": {
     "eyebrow": "Lokaler Rahmen",
@@ -128,87 +121,70 @@
       "Der Unterschied zu Erkrath liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
       "Für die Anfrage sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Rheinland passt und den Ablauf nicht künstlich aufbläht.",
       "Wenn Trauermusik Rheinland mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Rheinland ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
+      "Bei knappen Zeitfenstern in Rheinland ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
+      "Als zusaetzlichen Planungspunkt notiere ich bei Trauermusik in Rheinland immer Kontaktperson, Treffpunkt und ein unauffaelliger Aufbau. Dadurch wird die Musik nicht nur nach Stuecken ausgesucht, sondern nach ihrer Aufgabe im Ablauf: sammeln, halten, ueberleiten oder einen letzten Weg leise begleiten.",
+      "Fuer Rheinland bespreche ich ausserdem, wie viel Naehe der Klang haben darf. Manche Familien wuenschen die Viola sehr nah am Sitzbereich, andere brauchen mehr Abstand. Diese Entscheidung veraendert Lautstaerke, Bogenfuehrung und die Auswahl der Stuecke deutlicher als man vorher denkt."
     ],
     "seal": "Rheinland\nTrauerfeier & Abschied\nLive-Viola"
   },
   "elegy": {
-    "quote": "Trauermusik im Rheinland soll nicht erklären, sondern dem Abschied einen ruhigen Halt geben.",
+    "quote": "Trauermusik in Rheinland soll nicht auffallen, sondern den Abschied halten.",
     "passages": [
       {
-        "strong": "Der Ort",
-        "text": "Rheinstädte, kleinere Orte und Abschiede mit offenem, persönlichem Rahmen. Diese konkrete Umgebung beeinflusst, ob Musik eher im Raum, am Ausgang oder draußen am Grab sinnvoll ist."
+        "strong": "Lokaler Rahmen",
+        "text": "In Rheinland achte ich besonders auf Rheinstädte, offene Abschiedsformen, persönlicher Nachklang. Daraus ergibt sich, ob ein einzelnes Stück reicht oder ob Beginn, Erinnerung und Auszug jeweils einen eigenen Klang brauchen."
       },
       {
-        "strong": "Der Klang",
-        "text": "Die Viola bleibt warm und zurückhaltend. Sie kann Trauer halten, ohne aus dem Abschied einen musikalischen Vortrag zu machen."
+        "strong": "Ablauf statt Liste",
+        "text": "Vor der Stückauswahl klären wir, welche Aufgabe Musik übernimmt: sammeln, nach einer Rede Raum lassen, einen Weg begleiten oder den letzten Moment am Grab ruhig schließen."
       },
       {
-        "strong": "Die Abstimmung",
-        "text": "Ich stimme mich bei Bedarf mit Bestattungshaus, Rednerin, Pfarrer oder Familie ab, damit Angehörige am Tag selbst nicht organisieren müssen."
+        "strong": "Klang der Viola",
+        "text": "Der dunklere Streichklang passt gut zu Trauerhallen, Kirchen und kleinen Kapellen. Er wirkt persönlicher als eine Aufnahme und bleibt beweglich, wenn sich Wege oder Reden verschieben."
       },
       {
-        "strong": "Lokaler Ablauf",
-        "text": "Die lokale Planung beginnt bei der Frage, wie Rheinstädte, kleinere Orte und Abschiede mit offenem, persönlichem Rahmen den Abschied prägt. Daraus ergibt sich, ob ein getragenes Stück, ein kurzer Ausschnitt oder ein stiller Übergang besser passt. Wenn der Abschied im Rheinland mehrere Stationen hat, plane ich lieber klare musikalische Inseln als durchgehende Begleitung. So bleibt jeder Moment erkennbar und der Ablauf übersichtlich."
+        "strong": "Praktische Abstimmung",
+        "text": "Für Rheinland notiere ich den Wechsel zwischen Trauerhalle, Kirche und Grab. Eine Kontaktperson vor Ort, ein Startsignal und ein geschützter Platz machen den Ablauf für Angehörige spürbar leichter."
       },
       {
-        "strong": "Rheinland konkret",
-        "text": "Im Rheinland sind Abschiede oft offen, persönlich und stark vom Miteinander nach der Feier geprägt. Die Musik muss hier nicht nur die Zeremonie tragen, sondern auch den Übergang zu Auszug, Grab oder Begegnung weich machen."
-      },
-      {
-        "strong": "Praktische Details",
-        "text": "Für Rheinland-Abschiede klären wir Region, Fahrzeit und Einsatzdauer individuell, weil Köln, Düsseldorf, Bonn oder kleinere Orte ganz unterschiedliche Abläufe haben."
-      },
-      {
-        "strong": "Räume und Wege",
-        "text": "Für Rheinland bedeutet Trauerhalle, Kirche, Friedhof, Kapelle oder freie Feier: Region, Fahrzeit und gewünschte Einsatzpunkte individuell abstimmen. Der Rahmen Rheinstädte, kleinere Orte und Abschiede mit offenem, persönlichem Rahmen verändert, ob die Musik nah bei den Angehörigen, am Ausgang, in einer Kapelle oder erst draußen sinnvoll wirkt."
-      },
-      {
-        "strong": "Wunschmusik",
-        "text": "Musik kann eine Erinnerung öffnen, ohne sie auszusprechen. Deshalb bespreche ich gern, ob ein Lied mit der verstorbenen Person verbunden ist oder ob ein klassisches Stück eher Halt geben soll. Ob ein Stück klassisch, modern oder persönlich ist, entscheidet weniger über die Qualität als seine Platzierung. Ein Lied am falschen Punkt kann zu viel werden; am richtigen Punkt kann es genau den Halt geben."
-      },
-      {
-        "strong": "Entlastung",
-        "text": "Ich halte die Abstimmung bewusst ruhig und übersichtlich. Gerade in Trauerzeiten sind kurze Rückfragen, klare Vorschläge und verlässliche Zusagen wichtiger als eine lange musikalische Beratung. Wenn die Familie entlastet werden soll, kann die weitere Abstimmung über Bestattungshaus, Kirche oder Trauerrednerin laufen. Wichtig ist nur, dass am Ende ein eindeutiges Startsignal feststeht."
-      },
-      {
-        "strong": "Abgrenzung",
-        "text": "Der lokale Inhalt ist deshalb nicht nur SEO-Text, sondern eine praktische Entscheidungshilfe für Angehörige, Rednerinnen oder Bestattungshäuser in der Region."
+        "strong": "Repertoire",
+        "text": "Möglich sind Instrumentalmusik ohne Text, damit Worte und Stille nicht konkurrieren. Entscheidend ist nicht die längste Liste, sondern ein Stück, das zur Person, zum Raum und zur seelischen Belastung des Tages passt."
       }
     ]
   },
   "solemn": {
-    "eyebrow": "Ablauf",
-    "title": "Wo Trauermusik im Rheinland sinnvoll wirken kann.",
-    "lead": "Die genaue Dramaturgie richtet sich nach Trauerort, Zeremonieform und dem gewünschten Abschiedston.",
+    "eyebrow": "Trauerfeier in Rheinland",
+    "title": "Was ich für Trauermusik in Rheinland vorab kläre.",
+    "lead": "Je genauer Raum, Weg und Einsatzpunkt beschrieben sind, desto ruhiger kann Musik am Tag selbst wirken.",
     "cards": [
       {
-        "rom": "Beginn",
-        "title": "Den Raum sammeln",
-        "poet": "Ein ruhiges erstes Stück hilft, bevor die ersten Worte gesprochen werden.",
+        "rom": "Vorab",
+        "title": "Ablauf und Kontaktperson sortieren",
+        "poet": "Ich kläre mit euch oder dem Bestattungshaus, wo die Viola steht, wann der erste Ton beginnt und wie der Übergang zu Rheinstädte ruhig bleibt.",
         "list": [
-          "Ankommen",
-          "Kerze oder Foto",
-          "erster stiller Moment"
+          "Datum und Uhrzeit",
+          "Trauerort",
+          "Startsignal"
         ]
       },
       {
-        "rom": "Abschluss",
-        "title": "Den Auszug halten",
-        "poet": "Ein schlichtes Schlussstück kann den Übergang aus Trauerhalle, Kirche oder Kapelle würdevoll führen.",
+        "rom": "Am Tag",
+        "title": "Wenig Aufbau, klare Präsenz",
+        "poet": "Die Musik bleibt bewusst schlank: stimmen, ankommen, warten können und erst dann spielen, wenn der Moment in Rheinland wirklich bereit ist.",
         "list": [
-          "Auszug",
-          "Gang zum Grab",
-          "letzter Gruß"
+          "ruhiger Platz",
+          "Wunschstück",
+          "Auszug oder Grab"
         ]
       }
     ],
-    "listLabel": "Mögliche Einsatzpunkte im Rheinland",
+    "listLabel": "Typische Punkte für Rheinland",
     "list": [
-      "Beginn der Trauerfeier",
-      "nach persönlichen Erinnerungen",
-      "Kerzen- oder Blumenmoment",
-      "Auszug oder kurzer Moment am Grab"
+      "Rheinstädte",
+      "offene Abschiedsformen",
+      "persönlicher Nachklang",
+      "Wunschlied",
+      "Kontaktperson"
     ]
   },
   "focus": {

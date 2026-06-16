@@ -194,6 +194,11 @@ function groupBy(values, keyFn) {
 	return groups;
 }
 
+function isRewrittenStatus(status) {
+	const value = String(status ?? '').toLowerCase();
+	return value === 'ready' || value.startsWith('rewritten-') || value.startsWith('risk-pass-');
+}
+
 const htmlFiles = walk(DIST).filter((file) => file.endsWith('index.html') && !file.includes(`${path.sep}admin${path.sep}`));
 const htmlByRoute = new Map(htmlFiles.map((file) => [routeFromFile(file), readFileSync(file, 'utf8')]));
 const sitemapXml = walk(DIST).filter((file) => /sitemap-\d+\.xml$/.test(file)).map((file) => readFileSync(file, 'utf8')).join('\n');
@@ -357,7 +362,7 @@ const byRisk = [...groupBy(rows, (row) => row.risk).entries()].sort(([a], [b]) =
 const byServiceProgress = [...groupBy(rows, (row) => row.service).entries()]
 	.sort(([a], [b]) => a.localeCompare(b))
 	.map(([service, group]) => {
-		const rewritten = group.filter((row) => row.editorStatus?.startsWith('rewritten-')).length;
+		const rewritten = group.filter((row) => isRewrittenStatus(row.editorStatus)).length;
 		return {
 			service,
 			total: group.length,

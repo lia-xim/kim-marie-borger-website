@@ -39,6 +39,8 @@
     "seo:rewrite-batch-10": "node scripts/rewrite-seo-batch-10-taufen.mjs",
     "seo:rewrite-batch-11": "node scripts/rewrite-seo-batch-11-konzerte.mjs",
     "seo:stretch-medium": "node scripts/stretch-medium-seo-pages.mjs",
+    "seo:rewrite-risk": "node scripts/rewrite-risk-seo-pages.mjs",
+    "seo:expand-low-copy": "node scripts/expand-low-copy-pages.mjs",
     "keywords:map": "node scripts/build-keyword-opportunities.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",
     "optimize:audio": "node scripts/optimize-audio.mjs",

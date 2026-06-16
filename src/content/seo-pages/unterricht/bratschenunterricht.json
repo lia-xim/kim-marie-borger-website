@@ -6,39 +6,31 @@
   "targetKeyword": "Bratschenunterricht",
   "intentCluster": "unterricht:topic",
   "priority": "P2",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "status": "risk-pass-2026-06-16-review-needed",
   "enabled": true,
   "seoTitle": "Bratschenunterricht | Viola lernen",
   "seoDescription": "Bratschenunterricht: Unterricht für Viola oder Bratsche mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
   "hero": {
     "eyebrow": "Bratsche lernen",
     "title": "Bratschenunterricht mit warmem Klang, klarer Technik und realistischem Übeplan.",
-    "lead": "Bratschenunterricht richtet sich an Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene, die die Bratsche bewusst lernen möchten. Der Unterricht verbindet geduldige Technik, musikalische Neugier und Aufgaben, die zwischen den Stunden wirklich funktionieren.",
+    "lead": "Bratschenunterricht beginnt mit einem tragfähigen Fundament: Haltung, Bogen, erster Klang, Notenlesen und Üben werden so aufgebaut, dass Fortschritt verständlich bleibt.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
     "eyebrow": "Unterricht mit klarem Fokus",
-    "title": "Bratschenunterricht heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
-    "lede": "Wer nach Bratschenunterricht sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht ein Fundament aus Haltung, Bogenführung, Intonation und musikalischem Verständnis. Hier steht nicht ein bestimmtes Alter im Mittelpunkt, sondern der persönliche Lernweg vom ersten Ton bis zu sichereren Stücken.",
+    "title": "Bratschenunterricht: ein solides Fundament für Klang und Technik.",
+    "lede": "Diese Seite konzentriert sich auf Grundlagen und Aufbau. So unterscheidet sie sich von lokalen Unterrichtsseiten: Im Mittelpunkt steht die Lernfrage, nicht der Ort.",
     "paragraphs": [
-      "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
-      "Wir verbinden technische Übungen immer mit Musik, damit sich der Unterricht nicht trocken anfühlt.",
-      "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
-      "Klassische Etüden, einfache Melodien, Filmmusik oder Lieblingsstücke können je nach Niveau sinnvoll eingebunden werden.",
-      "Viele unterschätzen, wie körperlich ein Streichinstrument ist. Deshalb achten wir früh auf entspannte Schultern, klare linke Hand und einen Bogenarm, der tragen kann.",
-      "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
-      "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
-      "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
-      "Bei Bratschenunterricht steht konkrete Anfrage, Klang, Ablauf und Erwartung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Bratschenunterricht Kinder.",
-      "Im Unterricht ist das Ziel nicht ein schneller Effekt, sondern ein tragfaehiger nächster Schritt. Bratschenunterricht wird deshalb nach Lernstand, Körpergefühl, Klangvorstellung und Uebealltag geplant.",
-      "Der Kern von Bratschenunterricht ist konkrete Anfrage, Klang, Ablauf und Erwartung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Dauer, Position, Raum, Timing die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll.",
-      "Die klare Abgrenzung zu Bratschenunterricht Erwachsene lautet: nicht als austauschbare Variante behandeln. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "konkrete Anfrage, Klang, Ablauf und Erwartung verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Dauer, Position, Raum, Timing. Das verhindert, dass Bratschenunterricht nur wie eine Variante der Hauptleistung klingt.",
-      "Auch konkrete Anfrage, Klang, Ablauf und Erwartung ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Bratschenunterricht. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+      "Im allgemeinen Bratschenunterricht steht das Fundament im Vordergrund: Instrument halten, Bogen führen, Ton hören, Noten verstehen und regelmäßig sinnvoll üben.",
+      "Der Unterricht ist offen für Kinder, Jugendliche, Erwachsene und Wiedereinsteiger:innen. Die Inhalte ändern sich je nach Alter, aber die Grundidee bleibt: ein entspannter Körper und ein tragender Klang.",
+      "Wir verbinden Technik sofort mit Musik. Eine Bogenübung bleibt nicht abstrakt, sondern taucht in kleinen Melodien, Etüden oder Wunschstücken wieder auf.",
+      "Ein gutes Fundament spart später viele Korrekturen. Deshalb werden Haltung, Intonation und Rhythmus langsam genug aufgebaut, damit sie wirklich verstanden werden.",
+      "Diese Seite grenzt sich von der Erwachsenen-Seite ab: Hier geht es um den vollständigen Unterrichtsrahmen für verschiedene Altersgruppen und Lernstände.",
+      "Für die Anfrage helfen Alter, Lernstand, vorhandenes Instrument, musikalisches Ziel und die Frage, ob zuerst eine Probestunde gewünscht ist.",
+      "Allgemeiner Bratschenunterricht braucht ein Fundament, das fuer verschiedene Altersgruppen funktioniert. Haltung, Bogen, linke Hand, Rhythmus und Notenlesen werden deshalb nicht isoliert behandelt, sondern immer wieder mit kleinen musikalischen Aufgaben verbunden.",
+      "Wenn Kinder, Jugendliche oder Erwachsene starten, veraendert sich die Sprache des Unterrichts, aber nicht das Ziel: ein entspannter Koerper, ein tragender Ton und ein Uebeweg, der zu Hause wirklich machbar bleibt.",
+      "Nach den ersten Grundlagen wird der Unterricht feiner: Wir achten darauf, ob ein Ton nur irgendwie entsteht oder ob Bogenrichtung, Kontaktstelle und linke Hand zusammenarbeiten. Diese Unterscheidung hilft, spaeter musikalischer und sicherer zu spielen.",
+      "Zum Unterricht gehoert auch, wie zu Hause geuebt wird. Kurze Aufgaben mit klarem Ziel sind wertvoller als langes Durchspielen ohne Aufmerksamkeit. Deshalb endet jede Stunde mit einer konkreten Idee fuer die naechsten Tage."
     ],
     "seal": "Bratsche lernen\nKlang & Technik\npersönlich"
   },
@@ -48,94 +40,86 @@
     "items": [
       {
         "question": "Für wen passt Bratschenunterricht?",
-        "answer": "Bratschenunterricht passt für Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene, die die Bratsche bewusst lernen möchten. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
+        "answer": "Für Kinder, Jugendliche, Erwachsene, Anfänger:innen und Wiedereinsteiger:innen, die Klang, Technik und Üben strukturiert aufbauen möchten.",
         "open": true
       },
       {
-        "question": "Gibt es eine kostenlose Probestunde?",
-        "answer": "Ja. In der Probestunde schauen wir gemeinsam auf Instrument, Vorerfahrung, Ziele und die Frage, welcher Unterrichtsrhythmus realistisch ist."
+        "question": "Brauche ich sofort ein eigenes Instrument?",
+        "answer": "Nicht unbedingt. Für den Start kann ein passendes Leihinstrument sinnvoll sein; Größe und Zustand sollten zur Person passen."
       },
       {
-        "question": "Muss ich schon Noten lesen können?",
-        "answer": "Nein. Notenlesen kann Teil des Unterrichts sein und wird direkt mit dem Spielen verbunden, damit Theorie nicht losgelöst vom Instrument bleibt."
+        "question": "Wie läuft eine Probestunde ab?",
+        "answer": "Wir sprechen über Ziele, probieren Klang und Haltung aus und klären, welcher Unterrichtsrhythmus realistisch ist."
       },
       {
-        "question": "Kann ich als Erwachsene:r noch anfangen?",
-        "answer": "Ja. Erwachsene lernen oft sehr bewusst. Wichtig ist ein Übeplan, der in den Alltag passt und nicht mit unrealistischen Erwartungen beginnt."
+        "question": "Was sollte ich vorab schreiben?",
+        "answer": "Alter, Vorerfahrung, vorhandenes Instrument, Ziel und mögliche Unterrichtszeiten reichen für eine erste Einschätzung."
       },
       {
-        "question": "Ist Unterricht auch für Kinder möglich?",
-        "answer": "Ja, wenn Instrumentengröße, Konzentrationsspanne und Aufgaben gut gewählt sind. Bei Kindern beziehe ich die Eltern mit ein, ohne das Üben zu Hause zu kompliziert zu machen."
+        "question": "Wie wird der Unterricht an unterschiedliche Altersgruppen angepasst?",
+        "answer": "Kinder brauchen andere Bilder und kuerzere Aufgaben als Erwachsene. Die technischen Ziele bleiben aehnlich, aber Tempo, Material und Uebeplan werden persoenlich angepasst."
       },
       {
-        "question": "Welche Musik wird im Unterricht gespielt?",
-        "answer": "Das hängt von Lernstand und Ziel ab. Klassische Grundlagen, kleine Melodien, Etüden, Filmmusik oder persönliche Wünsche können sinnvoll kombiniert werden."
+        "question": "Was ist am Anfang wichtiger: Noten oder Klang?",
+        "answer": "Beides gehoert zusammen. Klang motiviert, Noten geben Orientierung. Im Unterricht werden beide Bereiche so verbunden, dass Musik nicht nur Theorie bleibt."
       },
       {
-        "question": "Wann passt Bratschenunterricht besonders gut?",
-        "answer": "Bratschenunterricht passt, wenn genau dieser Lernschwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich klären, ob ein Unterrichtseinstieg, ein Technikfokus, ein Wiedereinstieg oder eine regelmäßige Begleitung passend ist."
+        "question": "Wie wird aus Technik Musik?",
+        "answer": "Technik wird sofort in kleine Melodien, Rhythmen oder Stuecke eingebunden. So bleibt sie kein Selbstzweck, sondern ein Werkzeug fuer besseren Klang und mehr Sicherheit."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
-      "alt": "Bratschenunterricht mit Viola und Bratsche 1"
+      "alt": "Viola- und Bratschenunterricht: Bratschenunterricht - Bild 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Bratschenunterricht mit Viola und Bratsche 2"
+      "alt": "Viola- und Bratschenunterricht: Bratschenunterricht - Bild 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsaetzen und zusaetzlichen FAQ weiter ausgebaut.\n\nLow Copy Follow-up 2026-06-16: verbliebene expand-copy-Seiten mit weiterem Fachkontext ergaenzt.",
   "contact": {
     "eyebrow": "Unterricht anfragen",
     "title": "Bratschenunterricht anfragen",
-    "lead": "Schreib mir kurz, ob du neu anfängst, wieder einsteigst oder für ein Kind suchst. Dann kann ich einschätzen, wie Bratschenunterricht sinnvoll beginnen kann.",
+    "lead": "Schreib mir kurz, für wen Bratschenunterricht gedacht ist, welche Erfahrung vorhanden ist und welches Ziel im Raum steht. Danach schlage ich eine passende Probestunde oder einen Lernrhythmus vor.",
     "checklist": [
       "Bratschenunterricht",
       "Lernstand",
       "Probestunde"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Bratschenunterricht zu dir?",
-    "formSuccess": "Danke - ich melde mich persönlich mit einer Idee für Bratschenunterricht."
+    "formTitle": "Bratschenunterricht anfragen",
+    "formSuccess": "Danke - ich melde mich mit einem Vorschlag für Bratschenunterricht."
   },
   "focus": {
-    "eyebrow": "Lernbereiche",
-    "title": "Was bei Bratschenunterricht konkret aufgebaut wird.",
-    "lead": "Die Gewichtung verändert sich je nach Person. Damit der Unterricht greifbar bleibt, arbeiten wir mit klaren Bausteinen.",
+    "eyebrow": "Unterrichtsaufbau",
+    "title": "Schwerpunkte im allgemeinen Bratschenunterricht.",
+    "lead": "Die Unterrichtsarbeit bleibt konkret: hören, ausprobieren, verstehen und machbar weiterführen.",
     "items": [
       {
-        "time": "Körper",
-        "kicker": "Haltung",
-        "title": "Entspannt spielen statt gegen das Instrument arbeiten",
-        "text": "Eine gute Haltung macht den Klang freier und verhindert, dass Üben unnötig anstrengend wird."
+        "kicker": "Start",
+        "title": "Instrument sicher halten",
+        "text": "Haltung, Schulterstütze, linke Hand und Bogen werden von Anfang an sinnvoll eingerichtet."
       },
       {
-        "time": "Bogen",
-        "kicker": "Ton",
-        "title": "Klang bewusst formen",
-        "text": "Bogenkontakt, Geschwindigkeit und Gewicht werden so erklärt, dass du den Unterschied hören und wiederholen kannst."
+        "kicker": "Klang",
+        "title": "Den Ton bewusst hören",
+        "text": "Kontaktstelle, Bogengeschwindigkeit und Gewicht werden direkt mit dem Klang verbunden."
       },
       {
-        "time": "Musik",
-        "kicker": "Stücke",
-        "title": "Übungen in echte Musik übertragen",
-        "text": "Jede Technik bekommt eine musikalische Anwendung, damit Fortschritt nicht nur im Übeheft stattfindet."
+        "kicker": "Noten",
+        "title": "Lesen und spielen verbinden",
+        "text": "Rhythmus, Tonhöhe und Griffbrett werden so geübt, dass Musik nicht nur Theorie bleibt."
       },
       {
-        "time": "Alltag",
         "kicker": "Üben",
-        "title": "Kleine Aufgaben mit klarer Wirkung",
-        "text": "Zu Hause geht es um wenige Prioritäten, die du verstehst und regelmäßig umsetzen kannst."
+        "title": "Kleine Schritte planen",
+        "text": "Nach jeder Stunde ist klar, was zu Hause Priorität hat und woran Fortschritt hörbar wird."
       }
     ],
-    "footnote": "Bratschenunterricht wird je nach Alter, Vorerfahrung und Ziel individuell geplant."
+    "footnote": "Bratschenunterricht wird nach Lernziel, Alter und Alltag geplant."
   },
   "elegy": {
     "passages": []

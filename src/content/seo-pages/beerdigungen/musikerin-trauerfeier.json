@@ -6,20 +6,37 @@
   "targetKeyword": "Musikerin Trauerfeier",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "status": "risk-pass-2026-06-16-review-needed",
   "enabled": true,
   "seoTitle": "Musikerin Trauerfeier | Live-Viola für Abschied",
   "seoDescription": "Musikerin Trauerfeier: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
   "hero": {
     "eyebrow": "Musikerin",
-    "title": "Eine Musikerin zur Trauerfeier, wenn direkter Kontakt und ruhige Abstimmung wichtig sind.",
-    "lead": "Musikerin Trauerfeier richtet sich an Angehörige, Rednerinnen oder Bestattungshäuser mit Bedarf an einer einzelnen Musikerin. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf zum Abschied passen und Angehörige organisatorisch entlastet werden.",
+    "title": "Musikerin Trauerfeier, ruhig als Solo-Viola geplant.",
+    "lead": "Musikerin Trauerfeier braucht eine eigene Entscheidung: direkter Kontakt und ruhige Vorbereitung. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
     "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
     "title": "FAQ zu Musikerin Trauerfeier",
     "items": [
+      {
+        "question": "Wann passt Musikerin Trauerfeier?",
+        "answer": "Musikerin Trauerfeier passt, wenn direkter Kontakt und ruhige Vorbereitung im Mittelpunkt steht und nicht nur allgemein Musik für den Abschied gesucht wird.",
+        "open": true
+      },
+      {
+        "question": "Kannst du das Stück oder den Schwerpunkt anpassen?",
+        "answer": "Ja. Ich prüfe, ob eine vollständige Fassung, ein Ausschnitt oder eine reduzierte Viola-Version besser zur Situation passt."
+      },
+      {
+        "question": "Was unterscheidet diese Seite von anderen Trauerseiten?",
+        "answer": "Hier geht es gezielt um Person und Abstimmung. Andere Seiten behandeln Ortsbezug, Buchung, Repertoire oder einen anderen Moment im Ablauf."
+      },
+      {
+        "question": "Welche Informationen helfen für die Anfrage?",
+        "answer": "Datum, Ort, Ablaufpunkt, Wunschstück und die Frage, ob Musik innen, draußen oder an beiden Stellen gewünscht ist."
+      },
       {
         "question": "Für welchen Abschied passt Musikerin Trauerfeier?",
         "answer": "Musikerin Trauerfeier passt besonders für Angehörige, Rednerinnen oder Bestattungshäuser mit Bedarf an einer einzelnen Musikerin. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
@@ -38,54 +55,30 @@
         "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
       },
       {
-        "question": "Ist draußen spielen möglich?",
-        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Am Grab ist oft ein kurzer, schlichter Einsatz sinnvoller als ein langes Stück."
-      },
-      {
-        "question": "Wie viele Stücke sind für diesen Schwerpunkt sinnvoll?",
-        "answer": "Das hängt vom Ablauf ab. Für viele Trauerfeiern reichen wenige Einsätze, die klar begründet sind: Anfang, Erinnerung, Übergang oder Abschluss."
-      },
-      {
-        "question": "Was passiert, wenn noch kein Lied feststeht?",
-        "answer": "Dann ordnen wir zuerst den Moment ein. Danach kann ich Stücke vorschlagen, die zu Raum, Person und gewünschter Zurückhaltung passen."
-      },
-      {
-        "question": "Welche Informationen helfen für die erste Einschätzung?",
-        "answer": "Für Musikerin Trauerfeier helfen Datum, Ort, Uhrzeit, gewünschter Moment im Ablauf, vorhandene Wunschstücke und die Frage, ob die Musik in der Trauerfeier, draußen am Grab oder an beiden Stellen geplant ist."
-      },
-      {
-        "question": "Wie kurzfristig können wir anfragen?",
-        "answer": "Oft auch kurzfristig. Wichtig sind Datum, Ort, Uhrzeit, grober Ablauf und die gewünschte Musik, damit ich schnell prüfen kann, ob der Termin möglich ist."
-      },
-      {
-        "question": "Wann passt Musikerin Trauerfeier besonders gut?",
-        "answer": "Musikerin Trauerfeier passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
+        "question": "Wie wird Musikerin Trauerfeier konkret vorbereitet?",
+        "answer": "Ich klaere Anlass, Raum, Zeitpunkt und gewuenschte Wirkung. Danach entscheide ich, ob Musikerin Trauerfeier als einzelner Moment, als Uebergang oder als Teil einer kleinen Abfolge auf Solo-Viola am staerksten wirkt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.jpg",
-      "alt": "Live-Viola für Musikerin Trauerfeier 1"
+      "alt": "Live-Viola für Trauermusik: Musikerin Trauerfeier - Bild 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
-      "alt": "Live-Viola für Musikerin Trauerfeier 2"
+      "alt": "Live-Viola für Trauermusik: Musikerin Trauerfeier - Bild 2"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsaetzen und zusaetzlichen FAQ weiter ausgebaut.",
   "contact": {
     "eyebrow": "Trauermusik planen",
     "title": "Musikerin Trauerfeier anfragen",
-    "lead": "Schickt mir Datum, Ort, Ablauf und den Moment, für den ihr Musikerin Trauerfeier plant. Ich melde mich mit einer behutsamen musikalischen Idee.",
+    "lead": "Schickt mir Datum, Ort und den konkreten Moment, für den ihr Musikerin Trauerfeier plant. Ich melde mich mit einer ruhigen Einschätzung zu Stück, Länge und Ablauf.",
     "checklist": [
       "Musikerin Trauerfeier",
-      "Trauerfeier oder Grab",
-      "Wunschstück"
+      "Trauerhalle, Kirche oder freie Feier",
+      "Wunschstück oder Schwerpunkt"
     ],
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musikerin Trauerfeier anfragen",
@@ -123,67 +116,69 @@
       "Bei der Abstimmung schaue ich besonders auf Abstimmung mit Bestattungshaus, Pfarramt, Rednerin, Timing. Das verhindert, dass Musikerin Trauerfeier nur wie eine Variante der Hauptleistung klingt.",
       "Auch Rede, Stille, Erinnerung, Auszug, Familie ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
       "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Musikerin, Trauerfeier. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+      "Redaktionell bleibt diese Seite eng bei Musikerin, Trauerfeier. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+      "Bei Musikerin Trauerfeier pruefe ich zusaetzlich den Unterschied zwischen bekanntem Lied und ruhiger Bearbeitung. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle wirklich Raum laesst und nicht gegen Worte oder Stille arbeitet.",
+      "So unterscheidet sich diese Seite von benachbarten Trauermusik-Themen: Musikerin Trauerfeier wird als persoenlicher Wunschmoment gedacht. Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt wuerdevoller ist als eine vollstaendige Fassung."
     ],
     "seal": "Musikerin\nAbschied\nLive-Viola"
   },
   "elegy": {
-    "quote": "Musikerin Trauerfeier soll dem Abschied Raum geben, ohne Worte zu ersetzen.",
+    "quote": "Musikerin Trauerfeier wirkt am stärksten, wenn die musikalische Aufgabe vorher klar ist.",
     "passages": [
       {
-        "strong": "Musikalische Aufgabe",
-        "text": "Ich stimme Wunschlieder, Kleidung, Ankunft, Einsätze und Rückfragen direkt ab."
+        "strong": "Suchintention",
+        "text": "Wer Musikerin Trauerfeier sucht, meint nicht einfach irgendeine Trauermusik. Im Mittelpunkt stehen Person und Abstimmung, die passende Stelle im Ablauf und die Frage, ob Solo-Viola den Moment wirklich tragen kann."
       },
       {
-        "strong": "Ablauf",
-        "text": "Ich trenne bei Musikerin Trauerfeier zwischen musikalischer Wirkung und Organisation. Beides muss stimmen, damit Angehörige am Tag selbst nicht erklären, suchen oder entscheiden müssen. Wenn Musikerin Trauerfeier in einer freien Trauerfeier eingesetzt wird, kann die Musik flexibler atmen. In einer Kirche oder bei einer eng getakteten Beisetzung braucht sie dagegen klarere Einsatzpunkte."
+        "strong": "Abgrenzung",
+        "text": "Diese Seite grenzt sich bewusst von verwandte Trauerseiten ab. Der Fokus liegt auf eine Musikerin vor Ort statt anonymer Vermittlung, damit Angehörige schneller entscheiden können, ob genau dieser musikalische Schwerpunkt passt."
       },
       {
-        "strong": "Raum und Klang",
-        "text": "Der Raum macht einen großen Unterschied: Trauerhalle, Kirche, Kapelle oder freie Feier kann warm, hallig, trocken, eng oder offen wirken. Darum entscheide ich Tempo, Länge und Dynamik nie unabhängig von der Akustik. Weil die Viola ohne große Technik auskommt, kann sie sehr diskret platziert werden. Das hilft besonders bei kleinen Abschieden oder engen Zeitfenstern."
+        "strong": "Einsatzpunkt",
+        "text": "Geeignet ist Trauerhalle, Kirche oder freie Feier. Dort entscheidet die Länge: ein zu langer Einsatz kann belasten, ein zu kurzer kann beliebig wirken. Ich plane deshalb mit klaren Start- und Endpunkten."
       },
       {
-        "strong": "Wunschmusik",
-        "text": "Nicht jedes bekannte Lied passt automatisch. Manche Stücke wirken auf einem Solo-Instrument sehr klar, andere verlieren ohne Text oder Begleitung ihren eigentlichen Sinn. Musik bei Abschieden braucht Verlässlichkeit. Deshalb gehören neben dem Klang auch Pünktlichkeit, Kleidung, diskrete Kommunikation und ein ruhiger Aufbau zur eigentlichen musikalischen Leistung."
+        "strong": "Klang und Fassung",
+        "text": "Auf Solo-Viola wird die Melodie reduziert und wärmer. Ich prüfe Tonart, Register und Tempo, damit der Klang ruhig bleibt und dennoch erkennbar genug ist."
       },
       {
         "strong": "Anfrage",
-        "text": "Falls noch kein Wunschstück feststeht, ist das kein Problem. Dann geht es zuerst um die Stimmung: getragen, schlicht, hoffnungsvoll, klassisch, modern oder sehr persönlich."
+        "text": "Für eine Einschätzung reichen Datum, Ort, Ablaufstelle und vorhandene Liedidee. Danach kann ich sagen, ob eine vollständige Fassung, ein Ausschnitt oder ein anderes Stück sinnvoller ist."
       }
     ]
   },
   "solemn": {
-    "eyebrow": "Planung",
-    "title": "Worauf es bei Musikerin Trauerfeier ankommt.",
-    "lead": "Die Details unterscheiden sich je nach Zeremonie, Raum und gewünschter Nähe. Diese Punkte sollten vor dem Abschied geklärt sein.",
+    "eyebrow": "Einordnung",
+    "title": "Worauf es bei Musikerin Trauerfeier konkret ankommt.",
+    "lead": "Der Schwerpunkt entscheidet über Tempo, Länge und Wirkung. Deshalb wird diese Seite anders formuliert als allgemeine Trauermusik-Seiten.",
     "cards": [
       {
         "rom": "Rolle",
-        "title": "Die Aufgabe der Musik festlegen",
-        "poet": "Bei Musikerin Trauerfeier klären wir zuerst, ob die Musik Anfang, Übergang, Erinnerung oder Schlussmoment sein soll.",
+        "title": "Person und Abstimmung musikalisch ernst nehmen",
+        "poet": "direkter Kontakt und ruhige Vorbereitung verlangt eine andere Vorbereitung als eine neutrale Hintergrundmusik. Ich plane erst die Aufgabe, dann das Stück.",
         "list": [
-          "Beginn",
-          "Zwischenmoment",
-          "Abschluss"
+          "musikalische Aufgabe",
+          "passende Länge",
+          "ruhiger Schluss"
         ]
       },
       {
         "rom": "Ablauf",
-        "title": "Start und Ende sicher abstimmen",
-        "poet": "Ein Blickzeichen, eine Kontaktperson oder ein Stichwort verhindert Unsicherheit während der Trauerfeier.",
+        "title": "Den Moment nicht überladen",
+        "poet": "Bei Musikerin Trauerfeier bleibt die Viola nah am Abschied: sie beginnt klar, lässt Stille zu und endet so, dass Worte, Wege oder der Grabmoment weitertragen können.",
         "list": [
-          "Kontaktperson",
           "Startsignal",
-          "flexibles Ende"
+          "Raumklang",
+          "Kontaktperson"
         ]
       }
     ],
-    "listLabel": "Mögliche Fragen zu Musikerin Trauerfeier",
+    "listLabel": "Planung für Musikerin Trauerfeier",
     "list": [
-      "Welcher Moment soll getragen werden?",
-      "Ist ein Wunschstück vorgesehen?",
-      "Findet etwas draußen statt?",
-      "Wer gibt am Tag selbst das Signal?"
+      "Person und Abstimmung",
+      "direkter Kontakt und ruhige Vorbereitung",
+      "Trauerhalle, Kirche oder freie Feier",
+      "eine Musikerin vor Ort statt anonymer Vermittlung"
     ]
   },
   "focus": {
