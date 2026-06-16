@@ -171,7 +171,8 @@ function applyBlockOverride(block: AnyBlock, override: SeoPageOverride): AnyBloc
 function applyObject<T extends AnyBlock>(block: T, patch?: Record<string, unknown>): T {
 	if (!patch) return block;
 	const cleanPatch = Object.fromEntries(
-		Object.entries(patch).filter(([, value]) => {
+		Object.entries(patch).filter(([key, value]) => {
+			if (key === '__typename') return false;
 			if (Array.isArray(value)) return value.length > 0;
 			return value !== undefined && value !== null && value !== '';
 		}),

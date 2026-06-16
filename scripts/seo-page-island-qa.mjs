@@ -83,6 +83,47 @@ function endpointFor(doc) {
 	return `${baseUrl}/tina-island/seoPage/?${params.toString()}`;
 }
 
+function decodeHtml(value) {
+	return value
+		.replace(/&amp;/g, '&')
+		.replace(/&quot;/g, '"')
+		.replace(/&#39;/g, "'")
+		.replace(/&lt;/g, '<')
+		.replace(/&gt;/g, '>');
+}
+
+function visibleText(html) {
+	return decodeHtml(html)
+		.replace(/<script[\s\S]*?<\/script>/gi, ' ')
+		.replace(/<style[\s\S]*?<\/style>/gi, ' ')
+		.replace(/<[^>]+>/g, ' ')
+		.replace(/\s+/g, ' ')
+		.trim();
+}
+
+function normalizeText(value) {
+	return visibleText(String(value ?? '')).toLowerCase();
+}
+
+function countMatches(value, pattern) {
+	return [...value.matchAll(pattern)].length;
+}
+
+function expectedHeroText(doc) {
+	return normalizeText(doc.hero?.title ?? doc.targetKeyword ?? doc.seoTitle ?? '');
+}
+
+function containsExpectedHero(html, doc) {
+	const expected = expectedHeroText(doc);
+	if (!expected) return false;
+	return normalizeText(html).includes(expected);
+}
+
+function seoPageIslandMarkers(html) {
+	return [...html.matchAll(/data-tina-island="([^"]*\/tina-island\/seoPage\/[^"]*)"/g)]
+		.map((match) => decodeHtml(match[1]));
+}
+
 async function fetchText(url, options = {}) {
 	const response = await fetch(url, {
 		...options,
@@ -123,13 +164,15 @@ for (const { file, doc } of docs) {
 
 	if (existsSync(expectedFile)) {
 		const html = readFileSync(expectedFile, 'utf8');
-		const marker = `data-tina-island="/tina-island/seoPage/`;
-		const pageMarkerOk = html.includes(marker)
+		const markers = seoPageIslandMarkers(html);
+		const expectedEndpoint = endpointFor(doc).replace(baseUrl, '');
+		const pageMarkerOk = markers.includes(expectedEndpoint)
 			&& html.includes('data-tina-island-primary')
-			&& html.includes('<main');
+			&& html.includes('<main')
+			&& containsExpectedHero(html, doc);
 		summary.routeHtml += 1;
 		if (pageMarkerOk) summary.seoPageMarker += 1;
-		else failures.push({ type: 'static-route', route, file, message: 'route exists but missing primary seoPage Tina island marker' });
+		else failures.push({ type: 'static-route', route, file, message: 'route exists but missing primary seoPage Tina island marker or expected hero text' });
 	} else {
 		failures.push({ type: 'static-route', route, file, message: 'route HTML not found in dist/client' });
 	}
@@ -141,9 +184,10 @@ for (const { file, doc } of docs) {
 		const { response, text } = await fetchText(publicUrl);
 		const ok = response.status === 200
 			&& text.includes('<main')
-			&& text.includes('data-tina-island="/tina-island/seoPage/');
+			&& seoPageIslandMarkers(text).includes(endpointFor(doc).replace(baseUrl, ''))
+			&& containsExpectedHero(text, doc);
 		if (ok) summary.httpRoute += 1;
-		else failures.push({ type: 'http-route', route, file, status: response.status, message: 'public route did not render expected seoPage island marker' });
+		else failures.push({ type: 'http-route', route, file, status: response.status, message: 'public route did not render expected seoPage island marker and hero text' });
 	} catch (error) {
 		failures.push({ type: 'http-route', route, file, message: error.message });
 	}
@@ -157,9 +201,16 @@ for (const { file, doc } of docs) {
 			},
 			body: '{}',
 		});
+		const sectionCount = countMatches(text, /<section\b/gi);
+		const emptySeoOverrideBlocks = /data-tina-field="[^"]*seoPage\.(hero|split|focus|faq)"[^>]*><\/div>/i.test(text);
 		const endpointOk = response.status === 200
 			&& text.includes('data-tina-form')
-			&& text.includes('seoPage');
+			&& text.includes('seoPage')
+			&& text.includes('<main')
+			&& text.includes('<h1')
+			&& sectionCount >= 3
+			&& !emptySeoOverrideBlocks
+			&& containsExpectedHero(text, doc);
 		const primaryOk = text.includes('data-tina-primary');
 		if (endpointOk) summary.httpEndpoint += 1;
 		if (primaryOk) summary.httpPrimary += 1;
@@ -169,7 +220,7 @@ for (const { file, doc } of docs) {
 				route,
 				file,
 				status: response.status,
-				message: `endpointOk=${endpointOk}; primaryOk=${primaryOk}`,
+				message: `endpointOk=${endpointOk}; primaryOk=${primaryOk}; sections=${sectionCount}; emptySeoOverrideBlocks=${emptySeoOverrideBlocks}`,
 			});
 		}
 	} catch (error) {
