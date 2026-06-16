@@ -1,8 +1,19 @@
 import type { CmsPage } from './data';
 import type { LocalServiceSlug } from './local-seo';
+import { SEO_FIELD_SOURCES } from './tina-fields';
 
 type PageData = NonNullable<CmsPage>;
 type AnyBlock = Record<string, any>;
+
+const SYSTEM_PATCH_KEYS = new Set([
+	'__typename',
+	'_sys',
+	'_internalSys',
+	'_values',
+	'_internalValues',
+	'_content_source',
+	'_tina_metadata',
+]);
 
 export type SeoPageKind = 'local' | 'topic';
 
@@ -11,6 +22,7 @@ export interface SeoOverrideItem {
 	kicker?: string;
 	title?: string;
 	text?: string;
+	detail?: string;
 	piece?: string;
 }
 
@@ -68,6 +80,8 @@ export interface SeoPageOverride {
 		eyebrow?: string;
 		title?: string;
 		lead?: string;
+		heading?: string;
+		subtitle?: string;
 		items?: SeoOverrideItem[];
 		footnote?: string;
 	};
@@ -111,9 +125,19 @@ export function getSeoPageOverride(
 	serviceSlug: string,
 	pageSlug: string,
 ): SeoPageOverride | undefined {
-	const override = overrideModules[`../content/seo-pages/${serviceSlug}/${pageSlug}.json`];
+	const override = getSeoPageOverrideByPath(serviceSlug, pageSlug);
 	if (!override || override.enabled === false) return undefined;
 	if (override.pageKind !== pageKind) return undefined;
+	if (override.serviceSlug !== serviceSlug || override.pageSlug !== pageSlug) return undefined;
+	return override;
+}
+
+export function getSeoPageOverrideByPath(
+	serviceSlug: string,
+	pageSlug: string,
+): SeoPageOverride | undefined {
+	const override = overrideModules[`../content/seo-pages/${serviceSlug}/${pageSlug}.json`];
+	if (!override || override.enabled === false) return undefined;
 	if (override.serviceSlug !== serviceSlug || override.pageSlug !== pageSlug) return undefined;
 	return override;
 }
@@ -172,21 +196,38 @@ function applyObject<T extends AnyBlock>(block: T, patch?: Record<string, unknow
 	if (!patch) return block;
 	const cleanPatch = Object.fromEntries(
 		Object.entries(patch).filter(([key, value]) => {
-			if (key === '__typename') return false;
+			if (SYSTEM_PATCH_KEYS.has(key)) return false;
 			if (Array.isArray(value)) return value.length > 0;
 			return value !== undefined && value !== null && value !== '';
 		}),
 	);
-	return Object.keys(cleanPatch).length ? { ...block, ...cleanPatch } : block;
+	if (!Object.keys(cleanPatch).length) return block;
+	return withSeoFieldSources({ ...block, ...cleanPatch }, patch, Object.keys(cleanPatch));
+}
+
+function withSeoFieldSources<T extends AnyBlock>(
+	block: T,
+	source: Record<string, unknown> | undefined,
+	fields: string[],
+): T {
+	if (!source || !('_content_source' in source)) return block;
+	return {
+		...block,
+		[SEO_FIELD_SOURCES]: {
+			...(block[SEO_FIELD_SOURCES] ?? {}),
+			...Object.fromEntries(fields.map((field) => [field, source])),
+		},
+	};
 }
 
 function applyElegyOverride(block: AnyBlock, override: SeoPageOverride): AnyBlock {
 	if (override.elegy) {
-		return {
+		const next = {
 			...block,
 			quote: override.elegy.quote ?? block.quote,
 			passages: override.elegy.passages?.length ? override.elegy.passages : block.passages,
 		};
+		return withSeoFieldSources(next, override.elegy as unknown as Record<string, unknown>, ['quote', 'passages']);
 	}
 	if (!override.focus) return block;
 	return {
@@ -203,17 +244,7 @@ function applyElegyOverride(block: AnyBlock, override: SeoPageOverride): AnyBloc
 
 function applySolemnOverride(block: AnyBlock, override: SeoPageOverride): AnyBlock {
 	if (override.solemn) {
-		return {
-			...block,
-			...applyObject(block, {
-				eyebrow: override.solemn.eyebrow,
-				title: override.solemn.title,
-				lead: override.solemn.lead,
-				cards: override.solemn.cards,
-				listLabel: override.solemn.listLabel,
-				list: override.solemn.list,
-			}),
-		};
+		return applyObject(block, override.solemn as unknown as Record<string, unknown>);
 	}
 	if (!override.focus) return block;
 	return {

@@ -1,5 +1,5 @@
 ---
-import { tinaField } from '@tinacms/astro/tina-field';
+import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 const passages = (data.passages ?? []).filter((p: unknown) => p !== null);
@@ -12,11 +12,11 @@ const passages = (data.passages ?? []).filter((p: unknown) => p !== null);
 					<path d="M2 26 C7 6, 37 6, 42 26" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
 					<circle cx="22" cy="22" r="3" fill="currentColor"/>
 				</svg>
-				{data.quote && <p class="e-quote" data-tina-field={tinaField(data, 'quote')}>{data.quote}</p>}
+				{data.quote && <p class="e-quote" data-tina-field={tinaFieldFrom(data, 'quote')}>{data.quote}</p>}
 			</div>
 			<div class="e-right reveal d1">
 				{passages.map((item: any) => (
-					<p data-tina-field={tinaField(item)}><b data-tina-field={tinaField(item, 'strong')}>{item.strong}</b>{item.text}</p>
+					<p data-tina-field={tinaFieldFrom(item)}><b data-tina-field={tinaFieldFrom(item, 'strong')}>{item.strong}</b><span data-tina-field={tinaFieldFrom(item, 'text')}>{item.text}</span></p>
 				))}
 			</div>
 		</div>

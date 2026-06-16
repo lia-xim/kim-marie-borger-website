@@ -1,5 +1,5 @@
 ---
-import { tinaField } from '@tinacms/astro/tina-field';
+import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 const bgClass = data.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
@@ -8,11 +8,11 @@ const beforeLines: string[] = (data.titleBefore ?? '').split('\n');
 ---
 <section class={`section statement${bgClass}`}>
 	<div class="wrap">
-		{data.eyebrow && <p class="eyebrow c reveal" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
-		<h2 class={small ? 'display-m reveal d1' : 'display-l reveal d1'} style={small ? 'max-width:22ch;margin:22px auto 0;' : undefined} data-tina-field={tinaField(data, 'titleBefore')}>
+		{data.eyebrow && <p class="eyebrow c reveal" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
+		<h2 class={small ? 'display-m reveal d1' : 'display-l reveal d1'} style={small ? 'max-width:22ch;margin:22px auto 0;' : undefined} data-tina-field={tinaFieldFrom(data, 'titleBefore')}>
 			{beforeLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}{data.highlight && <em class="ink">{data.highlight}</em>}{data.titleAfter}
 		</h2>
-		{data.lead && !data.svgFirst && <p class="lead reveal d1" style="margin:18px auto 0;text-align:center;" data-tina-field={tinaField(data, 'lead')}>{data.lead}</p>}
+		{data.lead && !data.svgFirst && <p class="lead reveal d1" style="margin:18px auto 0;text-align:center;" data-tina-field={tinaFieldFrom(data, 'lead')}>{data.lead}</p>}
 		{data.showNotation !== false && (
 			<svg class="notation reveal d2" viewBox="0 0 900 90" preserveAspectRatio="none" aria-hidden="true">
 				<path class="stave" d="M0 20 H900 M0 35 H900 M0 50 H900 M0 65 H900 M0 80 H900"/>
@@ -21,6 +21,6 @@ const beforeLines: string[] = (data.titleBefore ?? '').split('\n');
 				<circle class="note" cx="760" cy="46" r="5.5"/><circle class="note" cx="900" cy="40" r="5.5"/>
 			</svg>
 		)}
-		{data.lead && data.svgFirst && <p class="lead reveal d2" style="margin:clamp(24px,3vw,40px) auto 0;text-align:center;" data-tina-field={tinaField(data, 'lead')}>{data.lead}</p>}
+		{data.lead && data.svgFirst && <p class="lead reveal d2" style="margin:clamp(24px,3vw,40px) auto 0;text-align:center;" data-tina-field={tinaFieldFrom(data, 'lead')}>{data.lead}</p>}
 	</div>
 </section>

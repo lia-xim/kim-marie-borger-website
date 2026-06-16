@@ -1,5 +1,5 @@
 ---
-import { tinaField } from '@tinacms/astro/tina-field';
+import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 const items = (data.items ?? []).filter((i: unknown) => i !== null);
@@ -7,13 +7,13 @@ const titleLines: string[] = (data.title ?? '').split('\n');
 ---
 <section class="section bg-bordeaux">
 	<div class="wrap">
-		{data.eyebrow && <p class="eyebrow reveal" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
-		{data.title && <h2 class="display-m reveal" style="margin-top:14px;max-width:22ch;" data-tina-field={tinaField(data, 'title')}>
+		{data.eyebrow && <p class="eyebrow reveal" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
+		{data.title && <h2 class="display-m reveal" style="margin-top:14px;max-width:22ch;" data-tina-field={tinaFieldFrom(data, 'title')}>
 			{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
 		</h2>}
 		<div class="ledger reveal d1">
 			{items.map((item: any) => (
-				<div class="ledger-row" data-tina-field={tinaField(item)}><b>{item.title}</b><span>{item.text}</span></div>
+				<div class="ledger-row" data-tina-field={tinaFieldFrom(item)}><b data-tina-field={tinaFieldFrom(item, 'title')}>{item.title}</b><span data-tina-field={tinaFieldFrom(item, 'text')}>{item.text}</span></div>
 			))}
 		</div>
 	</div>

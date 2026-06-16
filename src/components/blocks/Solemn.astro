@@ -1,7 +1,7 @@
 ---
-import { tinaField } from '@tinacms/astro/tina-field';
 import Img from '../Img.astro';
 import { normalizeHref } from '../../lib/url';
+import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 const cards = (data.cards ?? []).filter((c: unknown) => c !== null);
@@ -16,53 +16,53 @@ const right = cards[1];
 				<path d="M2 26 C7 6, 37 6, 42 26" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
 				<circle cx="22" cy="22" r="3" fill="currentColor"/>
 			</svg>
-			{data.eyebrow && <p class="eyebrow c light" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
-			{data.title && <h2 class="display-m" data-tina-field={tinaField(data, 'title')}>
+			{data.eyebrow && <p class="eyebrow c light" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
+			{data.title && <h2 class="display-m" data-tina-field={tinaFieldFrom(data, 'title')}>
 				{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
 			</h2>}
-			{data.lead && <p class="lead" data-tina-field={tinaField(data, 'lead')}>{data.lead}</p>}
+			{data.lead && <p class="lead" data-tina-field={tinaFieldFrom(data, 'lead')}>{data.lead}</p>}
 		</div>
 
 		<div class="solemn-grid">
 			{left && (
-				<article class="solemn-card s-left reveal" data-tina-field={tinaField(left)}>
-					{left.rom && <span class="rom">{left.rom}</span>}
-					<h3>{left.title}</h3>
+				<article class="solemn-card s-left reveal" data-tina-field={tinaFieldFrom(left)}>
+					{left.rom && <span class="rom" data-tina-field={tinaFieldFrom(left, 'rom')}>{left.rom}</span>}
+					<h3 data-tina-field={tinaFieldFrom(left, 'title')}>{left.title}</h3>
 					<span class="rule" aria-hidden="true"></span>
-					{left.poet && <p class="poet">{left.poet}</p>}
+					{left.poet && <p class="poet" data-tina-field={tinaFieldFrom(left, 'poet')}>{left.poet}</p>}
 					{(left.list ?? []).filter(Boolean).length > 0 && (
 						<ul class="rep-list">
-							{(left.list ?? []).filter(Boolean).map((entry: string) => <li>{entry}</li>)}
+							{(left.list ?? []).filter(Boolean).map((entry: string, i: number) => <li data-tina-field={tinaFieldFrom(left, 'list', i)}>{entry}</li>)}
 						</ul>
 					)}
-					{left.linkLabel && <a class="link-line" href={normalizeHref(left.href)}>{left.linkLabel} <span class="ar">→</span></a>}
+					{left.linkLabel && <a class="link-line" href={normalizeHref(left.href)} data-tina-field={tinaFieldFrom(left, 'linkLabel')}>{left.linkLabel} <span class="ar">→</span></a>}
 				</article>
 			)}
 
 			<div class="solemn-arch reveal d1">
-				<div class="arch-in"><Img src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 92vw, 38vw" loading="lazy" decoding="async" data-tina-field={tinaField(data, 'image')} /></div>
+				<div class="arch-in"><Img src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 92vw, 38vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'image')} /></div>
 			</div>
 
 			{right && (
-				<article class="solemn-card reveal d2" data-tina-field={tinaField(right)}>
-					{right.rom && <span class="rom">{right.rom}</span>}
-					<h3>{right.title}</h3>
+				<article class="solemn-card reveal d2" data-tina-field={tinaFieldFrom(right)}>
+					{right.rom && <span class="rom" data-tina-field={tinaFieldFrom(right, 'rom')}>{right.rom}</span>}
+					<h3 data-tina-field={tinaFieldFrom(right, 'title')}>{right.title}</h3>
 					<span class="rule" aria-hidden="true"></span>
-					{right.poet && <p class="poet">{right.poet}</p>}
+					{right.poet && <p class="poet" data-tina-field={tinaFieldFrom(right, 'poet')}>{right.poet}</p>}
 					{(right.list ?? []).filter(Boolean).length > 0 && (
 						<ul class="rep-list">
-							{(right.list ?? []).filter(Boolean).map((entry: string) => <li>{entry}</li>)}
+							{(right.list ?? []).filter(Boolean).map((entry: string, i: number) => <li data-tina-field={tinaFieldFrom(right, 'list', i)}>{entry}</li>)}
 						</ul>
 					)}
-					{right.linkLabel && <a class="link-line" href={normalizeHref(right.href)}>{right.linkLabel} <span class="ar">→</span></a>}
+					{right.linkLabel && <a class="link-line" href={normalizeHref(right.href)} data-tina-field={tinaFieldFrom(right, 'linkLabel')}>{right.linkLabel} <span class="ar">→</span></a>}
 				</article>
 			)}
 		</div>
 		{(data.list ?? []).filter(Boolean).length > 0 && (
 			<div class="reveal" style="margin-top:clamp(34px,5vw,56px);text-align:center;">
-				{data.listLabel && <p class="ksmall" style="color:var(--muted-dk);" data-tina-field={tinaField(data, 'listLabel')}>{data.listLabel}</p>}
-				<div class="rep-list reveal d1" style="justify-content:center;" data-tina-field={tinaField(data, 'list')}>
-					{(data.list ?? []).filter(Boolean).map((entry: string) => <span>{entry}</span>)}
+				{data.listLabel && <p class="ksmall" style="color:var(--muted-dk);" data-tina-field={tinaFieldFrom(data, 'listLabel')}>{data.listLabel}</p>}
+				<div class="rep-list reveal d1" style="justify-content:center;">
+					{(data.list ?? []).filter(Boolean).map((entry: string, i: number) => <span data-tina-field={tinaFieldFrom(data, 'list', i)}>{entry}</span>)}
 				</div>
 			</div>
 		)}

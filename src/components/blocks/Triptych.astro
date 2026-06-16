@@ -1,5 +1,5 @@
 ---
-import { tinaField } from '@tinacms/astro/tina-field';
+import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 const items = (data.items ?? []).filter((i: unknown) => i !== null);
@@ -8,16 +8,16 @@ const titleLines: string[] = (data.title ?? '').split('\n');
 ---
 <section class="section">
 	<div class="wrap">
-		{data.eyebrow && <p class="eyebrow c reveal" style="justify-content:center;display:flex;" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
-		{data.title && <h2 class="display-m reveal" style="text-align:center;margin:14px auto 0;" data-tina-field={tinaField(data, 'title')}>
+		{data.eyebrow && <p class="eyebrow c reveal" style="justify-content:center;display:flex;" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
+		{data.title && <h2 class="display-m reveal" style="text-align:center;margin:14px auto 0;" data-tina-field={tinaFieldFrom(data, 'title')}>
 			{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
 		</h2>}
 		<div class="triptych">
 			{items.map((item: any, i: number) => (
-				<div class={`tri reveal${delay[i % 3]}`} data-tina-field={tinaField(item)}>
-					<span class="rom">{item.rom}</span>
-					<h3>{item.title}</h3>
-					<p>{item.text}</p>
+				<div class={`tri reveal${delay[i % 3]}`} data-tina-field={tinaFieldFrom(item)}>
+					<span class="rom" data-tina-field={tinaFieldFrom(item, 'rom')}>{item.rom}</span>
+					<h3 data-tina-field={tinaFieldFrom(item, 'title')}>{item.title}</h3>
+					<p data-tina-field={tinaFieldFrom(item, 'text')}>{item.text}</p>
 				</div>
 			))}
 		</div>

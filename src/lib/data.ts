@@ -6,7 +6,10 @@
  * renders inside the admin iframe and `tinaField()` has its metadata.
  */
 import { requestWithMetadata } from '@tinacms/astro/data';
+import type { QueryResult } from '@tinacms/astro/data';
 import client from '../../tina/__generated__/client';
+import { SeoPageDocument, type SeoPageQuery } from '../../tina/__generated__/types';
+import { getSeoPageOverrideByPath } from './seo-overrides';
 
 export const getConfig = () =>
 	requestWithMetadata(client.queries.config({ relativePath: 'config.json' }));
@@ -17,15 +20,28 @@ export const getPage = (
 ) =>
 	requestWithMetadata(client.queries.page({ relativePath: `${slug}.mdx` }), options);
 
-export const getSeoPage = (
+export const getSeoPage = async (
 	serviceSlug: string,
 	pageSlug: string,
 	options?: { priority?: 'primary' },
-) =>
-	requestWithMetadata(
-		client.queries.seoPage({ relativePath: `${serviceSlug}/${pageSlug}.json` }),
-		options,
-	);
+): Promise<QueryResult<SeoPageQuery>> => {
+	const relativePath = `${serviceSlug}/${pageSlug}.json`;
+	try {
+		const result = await client.queries.seoPage({ relativePath });
+		return await requestWithMetadata(result, options) as QueryResult<SeoPageQuery>;
+	} catch {
+		const fallback = getSeoPageOverrideByPath(serviceSlug, pageSlug);
+		if (!fallback) return await requestWithMetadata(null, options) as QueryResult<SeoPageQuery>;
+		return await requestWithMetadata(
+			{
+				data: { seoPage: fallback },
+				query: SeoPageDocument,
+				variables: { relativePath },
+			},
+			options,
+		) as QueryResult<SeoPageQuery>;
+	}
+};
 
 export async function listPages() {
 	const result = await client.queries.pageConnection();

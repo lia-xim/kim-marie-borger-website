@@ -3,7 +3,6 @@ import path from 'node:path';
 
 const DIST = path.resolve('dist/client');
 const CONTENT_DIR = path.resolve('src/content/seo-pages');
-const DEFAULT_ORIGIN = 'https://kim-marie-borger.com';
 const PREVIEW_CONTENT_TYPE = 'application/x-tina-preview+json';
 
 const args = new Map(
@@ -68,10 +67,14 @@ function routeFile(route) {
 
 function sitemapPaths() {
 	const xml = walk(DIST)
-		.filter((file) => /^sitemap-\d+\.xml$/.test(path.basename(file)))
+		.filter((file) => /sitemap.*\.xml$/i.test(path.basename(file)))
 		.map((file) => readFileSync(file, 'utf8'))
 		.join('\n');
-	return new Set([...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => normalizeRoute(match[1])));
+	return new Set(
+		[...xml.matchAll(/<loc>(.*?)<\/loc>/g)]
+			.map((match) => normalizeRoute(match[1]))
+			.filter((route) => route && !/\/sitemap(?:-\d+|-index)?\.xml\/?$/i.test(route)),
+	);
 }
 
 function endpointFor(doc) {
@@ -119,6 +122,95 @@ function containsExpectedHero(html, doc) {
 	return normalizeText(html).includes(expected);
 }
 
+function addVisibleFieldRequirement(requirements, htmlText, path, value) {
+	const text = normalizeText(value ?? '');
+	if (text.length < 8) return;
+	if (/\.(kicker|time|rom)$/.test(path)) return;
+	if (htmlText.includes(text)) requirements.add(path);
+}
+
+function expectedSeoFieldPaths(doc, html) {
+	const htmlText = normalizeText(html);
+	const requirements = new Set();
+	const usesSplit = doc.serviceSlug !== 'beerdigungen';
+	const usesFocus = doc.serviceSlug !== 'beerdigungen';
+	const usesElegy = doc.serviceSlug === 'beerdigungen';
+	const usesSolemn = doc.serviceSlug === 'beerdigungen';
+
+	for (const field of ['eyebrow', 'title', 'lead', 'badge']) {
+		addVisibleFieldRequirement(requirements, htmlText, `seoPage.hero.${field}`, doc.hero?.[field]);
+	}
+
+	if (usesSplit) {
+		for (const field of ['eyebrow', 'title', 'lede', 'seal']) {
+			addVisibleFieldRequirement(requirements, htmlText, `seoPage.split.${field}`, doc.split?.[field]);
+		}
+		for (const [index, value] of (doc.split?.paragraphs ?? []).entries()) {
+			addVisibleFieldRequirement(requirements, htmlText, `seoPage.split.paragraphs.${index}`, value);
+		}
+	}
+
+	if (usesFocus) {
+		for (const field of ['eyebrow', 'title', 'lead', 'heading', 'subtitle', 'footnote']) {
+			addVisibleFieldRequirement(requirements, htmlText, `seoPage.focus.${field}`, doc.focus?.[field]);
+		}
+		for (const [index, item] of (doc.focus?.items ?? []).entries()) {
+			for (const field of ['time', 'kicker', 'title', 'text', 'detail', 'piece']) {
+				addVisibleFieldRequirement(requirements, htmlText, `seoPage.focus.items.${index}.${field}`, item?.[field]);
+			}
+		}
+	}
+
+	if (usesElegy) {
+		addVisibleFieldRequirement(requirements, htmlText, 'seoPage.elegy.quote', doc.elegy?.quote);
+		for (const [index, item] of (doc.elegy?.passages ?? []).entries()) {
+			for (const field of ['strong', 'text']) {
+				addVisibleFieldRequirement(requirements, htmlText, `seoPage.elegy.passages.${index}.${field}`, item?.[field]);
+			}
+		}
+	}
+
+	if (usesSolemn) {
+		for (const field of ['eyebrow', 'title', 'lead', 'listLabel']) {
+			addVisibleFieldRequirement(requirements, htmlText, `seoPage.solemn.${field}`, doc.solemn?.[field]);
+		}
+		for (const [index, value] of (doc.solemn?.list ?? []).entries()) {
+			addVisibleFieldRequirement(requirements, htmlText, `seoPage.solemn.list.${index}`, value);
+		}
+		for (const [cardIndex, card] of (doc.solemn?.cards ?? []).entries()) {
+			for (const field of ['rom', 'title', 'poet', 'linkLabel']) {
+				addVisibleFieldRequirement(requirements, htmlText, `seoPage.solemn.cards.${cardIndex}.${field}`, card?.[field]);
+			}
+			for (const [listIndex, value] of (card?.list ?? []).entries()) {
+				addVisibleFieldRequirement(requirements, htmlText, `seoPage.solemn.cards.${cardIndex}.list.${listIndex}`, value);
+			}
+		}
+	}
+
+	for (const field of ['eyebrow', 'title']) {
+		addVisibleFieldRequirement(requirements, htmlText, `seoPage.faq.${field}`, doc.faq?.[field]);
+	}
+	for (const [index, item] of (doc.faq?.items ?? []).entries()) {
+		for (const field of ['question', 'answer']) {
+			addVisibleFieldRequirement(requirements, htmlText, `seoPage.faq.items.${index}.${field}`, item?.[field]);
+		}
+	}
+
+	for (const field of ['eyebrow', 'title', 'lead', 'formEyebrow', 'formTitle', 'formSuccess']) {
+		addVisibleFieldRequirement(requirements, htmlText, `seoPage.contact.${field}`, doc.contact?.[field]);
+	}
+	for (const [index, value] of (doc.contact?.checklist ?? []).entries()) {
+		addVisibleFieldRequirement(requirements, htmlText, `seoPage.contact.checklist.${index}`, value);
+	}
+
+	return [...requirements];
+}
+
+function missingSeoFieldPaths(doc, html) {
+	const required = expectedSeoFieldPaths(doc, html);
+	return required.filter((fieldPath) => !html.includes(`---${fieldPath}`));
+}
+
 function seoPageIslandMarkers(html) {
 	return [...html.matchAll(/data-tina-island="([^"]*\/tina-island\/seoPage\/[^"]*)"/g)]
 		.map((match) => decodeHtml(match[1]));
@@ -146,6 +238,8 @@ const summary = {
 	routeHtml: 0,
 	sitemap: 0,
 	seoPageMarker: 0,
+	seoFieldCoverage: 0,
+	longSplitChunking: 0,
 	httpRoute: 0,
 	httpEndpoint: 0,
 	httpPrimary: 0,
@@ -173,6 +267,15 @@ for (const { file, doc } of docs) {
 		summary.routeHtml += 1;
 		if (pageMarkerOk) summary.seoPageMarker += 1;
 		else failures.push({ type: 'static-route', route, file, message: 'route exists but missing primary seoPage Tina island marker or expected hero text' });
+
+		const missingFields = missingSeoFieldPaths(doc, html);
+		if (missingFields.length === 0) summary.seoFieldCoverage += 1;
+		else failures.push({ type: 'static-tina-fields', route, file, message: `visible SEO text missing Tina field paths: ${missingFields.slice(0, 8).join(', ')}` });
+
+		const splitCount = doc.split?.paragraphs?.length ?? 0;
+		const splitChunked = splitCount <= 5 || html.includes('split-more');
+		if (splitChunked) summary.longSplitChunking += 1;
+		else failures.push({ type: 'static-split-layout', route, file, message: `long split text has ${splitCount} paragraphs but no continuation section` });
 	} else {
 		failures.push({ type: 'static-route', route, file, message: 'route HTML not found in dist/client' });
 	}
@@ -236,6 +339,8 @@ console.log(`- CMS docs enabled/complete: ${summary.cmsDocs}/${summary.docs}`);
 console.log(`- static route HTML: ${summary.routeHtml}/${summary.docs}`);
 console.log(`- sitemap coverage: ${summary.sitemap}/${summary.docs}`);
 console.log(`- static seoPage island markers: ${summary.seoPageMarker}/${summary.docs}`);
+console.log(`- static visible SEO fields editable: ${summary.seoFieldCoverage}/${summary.docs}`);
+console.log(`- static long split text chunking: ${summary.longSplitChunking}/${summary.docs}`);
 if (baseUrl) {
 	console.log(`- HTTP public routes: ${summary.httpRoute}/${summary.docs}`);
 	console.log(`- HTTP Tina island endpoints: ${summary.httpEndpoint}/${summary.docs}`);

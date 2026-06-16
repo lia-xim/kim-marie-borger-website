@@ -5,6 +5,7 @@ const itemFields = [
 	{ type: 'string' as const, name: 'kicker', label: 'Kleine Kennung' },
 	{ type: 'string' as const, name: 'title', label: 'Titel' },
 	{ type: 'string' as const, name: 'text', label: 'Text', ui: { component: 'textarea' } },
+	{ type: 'string' as const, name: 'detail', label: 'Detail / Programmtext', ui: { component: 'textarea' } },
 	{ type: 'string' as const, name: 'piece', label: 'Stueck / Hinweis' },
 ];
 
@@ -97,6 +98,8 @@ export const SeoPageCollection: Collection = {
 				{ name: 'eyebrow', label: 'Ueberzeile', type: 'string' },
 				{ name: 'title', label: 'Ueberschrift', type: 'string', ui: { component: 'textarea' } },
 				{ name: 'lead', label: 'Einleitung', type: 'string', ui: { component: 'textarea' } },
+				{ name: 'heading', label: 'Programm-Ueberschrift', type: 'string' },
+				{ name: 'subtitle', label: 'Programm-Untertitel', type: 'string' },
 				{ name: 'items', label: 'Punkte', type: 'object', list: true, ui: { itemProps: (item) => ({ label: item?.title ?? 'Punkt' }) }, fields: itemFields },
 				{ name: 'footnote', label: 'Fussnote', type: 'string', ui: { component: 'textarea' } },
 			],

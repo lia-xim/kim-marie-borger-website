@@ -391,12 +391,15 @@ fragment SeoPageParts on SeoPage {
     eyebrow
     title
     lead
+    heading
+    subtitle
     items {
       __typename
       time
       kicker
       title
       text
+      detail
       piece
     }
     footnote

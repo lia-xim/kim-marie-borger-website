@@ -1,5 +1,5 @@
 ---
-import { tinaField } from '@tinacms/astro/tina-field';
+import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 const items = (data.items ?? []).filter((i: unknown) => i !== null);
@@ -7,21 +7,21 @@ const titleLines: string[] = (data.title ?? '').split('\n');
 ---
 <section class="section stage">
 	<div class="wrap">
-		{data.eyebrow && <p class="eyebrow c reveal" style="justify-content:center;display:flex;" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
-		{data.title && <h2 class="display-m reveal" style="text-align:center;margin:14px auto 0;" data-tina-field={tinaField(data, 'title')}>
+		{data.eyebrow && <p class="eyebrow c reveal" style="justify-content:center;display:flex;" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
+		{data.title && <h2 class="display-m reveal" style="text-align:center;margin:14px auto 0;" data-tina-field={tinaFieldFrom(data, 'title')}>
 			{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
 		</h2>}
 		<div class="programme reveal d1">
-			{data.heading && <p class="ph" data-tina-field={tinaField(data, 'heading')}>{data.heading}</p>}
-			{data.subtitle && <p class="pt2" data-tina-field={tinaField(data, 'subtitle')}>{data.subtitle}</p>}
+			{data.heading && <p class="ph" data-tina-field={tinaFieldFrom(data, 'heading')}>{data.heading}</p>}
+			{data.subtitle && <p class="pt2" data-tina-field={tinaFieldFrom(data, 'subtitle')}>{data.subtitle}</p>}
 			<div style="margin-top:clamp(18px,2vw,28px);">
 				{items.map((item: any) => item.pause ? (
-					<div class="pause" data-tina-field={tinaField(item)}>{item.title}</div>
+					<div class="pause" data-tina-field={tinaFieldFrom(item, 'title')}>{item.title}</div>
 				) : (
-					<div class="pi" data-tina-field={tinaField(item)}><b>{item.title}</b>{item.detail && <span>{item.detail}</span>}</div>
+					<div class="pi" data-tina-field={tinaFieldFrom(item)}><b data-tina-field={tinaFieldFrom(item, 'title')}>{item.title}</b>{item.detail && <span data-tina-field={tinaFieldFrom(item, 'detail')}>{item.detail}</span>}</div>
 				))}
 			</div>
 		</div>
-		{data.footnote && <p class="reveal d2" style="text-align:center;margin-top:26px;color:var(--muted-dk);font-size:14px;" data-tina-field={tinaField(data, 'footnote')}>{data.footnote}</p>}
+		{data.footnote && <p class="reveal d2" style="text-align:center;margin-top:26px;color:var(--muted-dk);font-size:14px;" data-tina-field={tinaFieldFrom(data, 'footnote')}>{data.footnote}</p>}
 	</div>
 </section>

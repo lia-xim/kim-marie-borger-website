@@ -4,10 +4,10 @@ import TinaIsland from '@tinacms/astro/TinaIsland.astro';
 import PageBody from '../../components/islands/PageBody.astro';
 import LocalLinks from '../../components/LocalLinks.astro';
 import TopicLinks from '../../components/TopicLinks.astro';
-import { getConfig, getPage } from '../../lib/data';
+import { getConfig, getPage, getSeoPage } from '../../lib/data';
 import { islands } from '../../lib/islands';
 import { firstBlockImage } from '../../lib/seo';
-import { getSeoPageOverride } from '../../lib/seo-overrides';
+import { getSeoPageOverride, type SeoPageKind, type SeoPageOverride } from '../../lib/seo-overrides';
 import {
 	buildLocalSeoPage,
 	getLocalSeoPage,
@@ -49,7 +49,9 @@ export async function getStaticPaths() {
 	return [...localPaths, ...topicPaths];
 }
 
-const { pageKind, serviceSlug, pageSlug } = Astro.props;
+const pageKind = Astro.props.pageKind as SeoPageKind;
+const serviceSlug = Astro.props.serviceSlug as string;
+const pageSlug = Astro.props.pageSlug as string;
 const localPage = pageKind === 'local' ? getLocalSeoPage(serviceSlug, pageSlug) : undefined;
 const topicPage = pageKind === 'topic' ? getTopicSeoPage(serviceSlug, pageSlug) : undefined;
 if (!localPage && !topicPage) return new Response('Not Found', { status: 404 });
@@ -61,7 +63,9 @@ const page = await getPage(baseSlug);
 const baseData = page.data?.page;
 if (!baseData) return new Response('Not Found', { status: 404 });
 
-const override = getSeoPageOverride(pageKind, serviceSlug, pageSlug);
+const seoPage = await getSeoPage(serviceSlug, pageSlug, { priority: 'primary' });
+const override = (seoPage.data?.seoPage as unknown as SeoPageOverride | undefined)
+	?? getSeoPageOverride(pageKind, serviceSlug, pageSlug);
 const data = localPage
 	? buildLocalSeoPage(localPage, baseData, override)
 	: buildTopicSeoPage(topicPage!, baseData, override);

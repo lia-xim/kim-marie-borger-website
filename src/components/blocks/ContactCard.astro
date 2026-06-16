@@ -1,32 +1,34 @@
 ---
-import { tinaField } from '@tinacms/astro/tina-field';
 import Img from '../Img.astro';
 import { getConfig } from '../../lib/data';
+import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
+type ContactData = Record<string, any> & { checklist?: unknown[] };
 const bgClass = data?.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
 const config = (await getConfig()).data?.config ?? null;
-const contactOverride = data?.contact ?? null;
-const contact = config?.contact
+const contactOverride = (data?.contact ?? null) as ContactData | null;
+const baseContact = (config?.contact ?? null) as ContactData | null;
+const contact: ContactData | null = baseContact
 	? {
-			...config.contact,
+			...baseContact,
 			...contactOverride,
-			checklist: contactOverride?.checklist?.length ? contactOverride.checklist : config.contact.checklist,
+			checklist: contactOverride?.checklist?.length ? contactOverride.checklist : baseContact.checklist,
 		}
 	: contactOverride;
-const checklist = (contact?.checklist ?? []).filter((c): c is string => typeof c === 'string' && c.trim() !== '');
+const checklist = (contact?.checklist ?? []).filter((c: unknown): c is string => typeof c === 'string' && c.trim() !== '');
 ---
 <section class={`section${bgClass}`} id={data?.anchorId || 'kontakt'}>
 	<div class="wrap">
 		<div class="contact-card form-first">
 			<aside class="contact-aside reveal">
 				{contact?.asideImage && <Img class="c-bg" src={contact.asideImage} alt="" sizes="(max-width: 900px) 94vw, 42vw" aria-hidden="true" loading="lazy" />}
-				{contact?.eyebrow && <p class="eyebrow" data-tina-field={contact ? tinaField(contact, 'eyebrow') : undefined}>{contact.eyebrow}</p>}
-				{contact?.title && <h2 class="display-s" style="margin:16px 0 14px;" data-tina-field={contact ? tinaField(contact, 'title') : undefined}>{contact.title}</h2>}
-				{contact?.lead && <p class="lead" data-tina-field={contact ? tinaField(contact, 'lead') : undefined}>{contact.lead}</p>}
+				{contact?.eyebrow && <p class="eyebrow" data-tina-field={contact ? tinaFieldFrom(contact, 'eyebrow') : undefined}>{contact.eyebrow}</p>}
+				{contact?.title && <h2 class="display-s" style="margin:16px 0 14px;" data-tina-field={contact ? tinaFieldFrom(contact, 'title') : undefined}>{contact.title}</h2>}
+				{contact?.lead && <p class="lead" data-tina-field={contact ? tinaFieldFrom(contact, 'lead') : undefined}>{contact.lead}</p>}
 				{checklist.length > 0 && (
 					<div class="checklist">
-						{checklist.map((c) => <span>{c}</span>)}
+						{checklist.map((c: string, i: number) => <span data-tina-field={contact ? tinaFieldFrom(contact, 'checklist', i) : undefined}>{c}</span>)}
 					</div>
 				)}
 				<div class="c-rows">
@@ -36,8 +38,8 @@ const checklist = (contact?.checklist ?? []).filter((c): c is string => typeof c
 			</aside>
 			<div class="form-panel">
 				<div class="fp-head reveal">
-					{contact?.formEyebrow && <p class="eyebrow" data-tina-field={contact ? tinaField(contact, 'formEyebrow') : undefined}>{contact.formEyebrow}</p>}
-					{contact?.formTitle && <h3 class="display-s" style="margin-top:10px;" data-tina-field={contact ? tinaField(contact, 'formTitle') : undefined}>{contact.formTitle}</h3>}
+					{contact?.formEyebrow && <p class="eyebrow" data-tina-field={contact ? tinaFieldFrom(contact, 'formEyebrow') : undefined}>{contact.formEyebrow}</p>}
+					{contact?.formTitle && <h3 class="display-s" style="margin-top:10px;" data-tina-field={contact ? tinaFieldFrom(contact, 'formTitle') : undefined}>{contact.formTitle}</h3>}
 				</div>
 				<form class="reveal d1" id="anfrageForm" novalidate>
 					<input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;height:0;width:0;opacity:0;" />
@@ -47,7 +49,7 @@ const checklist = (contact?.checklist ?? []).filter((c): c is string => typeof c
 					</div>
 					<div class="field"><label for="f-msg">Nachricht <span class="opt">(optional)</span></label><textarea id="f-msg" name="nachricht" placeholder="Erzähl mir von deinem Anlass — gern mit Datum, Ort und Wünschen …"></textarea></div>
 					<button type="submit" class="btn btn-solid" style="width:100%;justify-content:center;">Anfrage senden <span class="ar">→</span></button>
-					<div class="form-ok" id="formOk">{contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'}</div>
+					<div class="form-ok" id="formOk" data-tina-field={contact ? tinaFieldFrom(contact, 'formSuccess') : undefined}>{contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'}</div>
 				</form>
 			</div>
 		</div>

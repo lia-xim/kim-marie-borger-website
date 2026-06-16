@@ -1013,6 +1013,7 @@ type SeoPageFocusItems {
   kicker: String
   title: String
   text: String
+  detail: String
   piece: String
 }
 
@@ -1020,6 +1021,8 @@ type SeoPageFocus {
   eyebrow: String
   title: String
   lead: String
+  heading: String
+  subtitle: String
   items: [SeoPageFocusItems]
   footnote: String
 }
@@ -1125,6 +1128,7 @@ input SeoPageFocusItemsFilter {
   kicker: StringFilter
   title: StringFilter
   text: StringFilter
+  detail: StringFilter
   piece: StringFilter
 }
 
@@ -1132,6 +1136,8 @@ input SeoPageFocusFilter {
   eyebrow: StringFilter
   title: StringFilter
   lead: StringFilter
+  heading: StringFilter
+  subtitle: StringFilter
   items: SeoPageFocusItemsFilter
   footnote: StringFilter
 }
@@ -1812,6 +1818,7 @@ input SeoPageFocusItemsMutation {
   kicker: String
   title: String
   text: String
+  detail: String
   piece: String
 }
 
@@ -1819,6 +1826,8 @@ input SeoPageFocusMutation {
   eyebrow: String
   title: String
   lead: String
+  heading: String
+  subtitle: String
   items: [SeoPageFocusItemsMutation]
   footnote: String
 }

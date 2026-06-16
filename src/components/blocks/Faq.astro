@@ -1,5 +1,5 @@
 ---
-import { tinaField } from '@tinacms/astro/tina-field';
+import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 const items = (data.items ?? []).filter((i: unknown) => i !== null);
@@ -17,13 +17,13 @@ const faqJsonLd = {
 {items.length > 0 && <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />}
 <section class="section">
 	<div class="wrap">
-		{data.eyebrow && <p class="eyebrow c reveal" style="justify-content:center;display:flex;" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
-		{data.title && <h2 class="display-m reveal" style="text-align:center;margin:14px auto 0;" data-tina-field={tinaField(data, 'title')}>{data.title}</h2>}
+		{data.eyebrow && <p class="eyebrow c reveal" style="justify-content:center;display:flex;" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
+		{data.title && <h2 class="display-m reveal" style="text-align:center;margin:14px auto 0;" data-tina-field={tinaFieldFrom(data, 'title')}>{data.title}</h2>}
 		<div class="faq reveal d1" style="margin-top:clamp(28px,3.5vw,44px);">
 			{items.map((item: any) => (
-				<details open={item.open || undefined} data-tina-field={tinaField(item)}>
-					<summary>{item.question}<span class="fx" aria-hidden="true">+</span></summary>
-					<p>{item.answer}</p>
+				<details open={item.open || undefined} data-tina-field={tinaFieldFrom(item)}>
+					<summary data-tina-field={tinaFieldFrom(item, 'question')}>{item.question}<span class="fx" aria-hidden="true">+</span></summary>
+					<p data-tina-field={tinaFieldFrom(item, 'answer')}>{item.answer}</p>
 				</details>
 			))}
 		</div>

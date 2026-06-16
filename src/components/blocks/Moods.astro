@@ -1,5 +1,5 @@
 ---
-import { tinaField } from '@tinacms/astro/tina-field';
+import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 const moods = (data.moods ?? []).filter((m: unknown) => m !== null);
@@ -8,17 +8,17 @@ const titleLines: string[] = (data.title ?? '').split('\n');
 ---
 <section class="section bg-rose">
 	<div class="wrap">
-		{data.eyebrow && <p class="eyebrow reveal" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
-		{data.title && <h2 class="display-m reveal" style="margin-top:14px;max-width:22ch;" data-tina-field={tinaField(data, 'title')}>
+		{data.eyebrow && <p class="eyebrow reveal" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
+		{data.title && <h2 class="display-m reveal" style="margin-top:14px;max-width:22ch;" data-tina-field={tinaFieldFrom(data, 'title')}>
 			{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
 		</h2>}
 		<div class="moods">
 			{moods.map((mood: any, i: number) => (
-				<div class={`mood reveal${delay[i % 3]}`} data-tina-field={tinaField(mood)}>
-					<h3>{mood.title}</h3>
+				<div class={`mood reveal${delay[i % 3]}`} data-tina-field={tinaFieldFrom(mood)}>
+					<h3 data-tina-field={tinaFieldFrom(mood, 'title')}>{mood.title}</h3>
 					<ul>
 						{(mood.items ?? []).filter((it: unknown) => it !== null).map((item: any) => (
-							<li data-tina-field={tinaField(item)}>{item.title}{item.note && <small>{item.note}</small>}</li>
+							<li data-tina-field={tinaFieldFrom(item)}><span data-tina-field={tinaFieldFrom(item, 'title')}>{item.title}</span>{item.note && <small data-tina-field={tinaFieldFrom(item, 'note')}>{item.note}</small>}</li>
 						))}
 					</ul>
 				</div>
