@@ -448,9 +448,13 @@ function scoreContent(metric) {
 	else if (metric.baseSimilarity <= 0.82) score += 8;
 	else score += 2;
 
-	if (metric.nearestSameServiceLocationMaskedTemplateSimilarity <= 0.78) score += 30;
-	else if (metric.nearestSameServiceLocationMaskedTemplateSimilarity <= 0.86) score += 20;
-	else if (metric.nearestSameServiceLocationMaskedTemplateSimilarity <= 0.92) score += 8;
+	if (metric.nearestSameServiceSimilarity <= 0.48) score += 30;
+	else if (metric.nearestSameServiceSimilarity <= 0.56) score += 22;
+	else if (metric.nearestSameServiceSimilarity <= 0.64) score += 12;
+	else score += 3;
+
+	if (metric.nearestSameServiceLocationMaskedTemplateSimilarity <= 0.86) score += 10;
+	else if (metric.nearestSameServiceLocationMaskedTemplateSimilarity <= 0.92) score += 6;
 	else score += 2;
 
 	if (metric.uniqueWordCount >= 260) score += 10;
@@ -461,10 +465,18 @@ function scoreContent(metric) {
 }
 
 function riskFor(metric) {
-	if (metric.nearestSameServiceLocationMaskedTemplateSimilarity >= 0.93) return 'high';
-	if (metric.nearestSameServiceTemplateSimilarity >= 0.88) return 'high';
-	if (metric.nearestSameServiceLocationMaskedTemplateSimilarity >= 0.86) return 'medium';
-	if (metric.nearestSameServiceTemplateSimilarity >= 0.8) return 'medium';
+	if (
+		metric.nearestSameServiceSimilarity >= 0.68
+		|| (metric.nearestSameServiceSimilarity >= 0.62 && metric.nearestSameServiceLocationMaskedTemplateSimilarity >= 0.94)
+	) {
+		return 'high';
+	}
+	if (
+		metric.nearestSameServiceSimilarity >= 0.58
+		|| (metric.nearestSameServiceSimilarity >= 0.54 && metric.nearestSameServiceLocationMaskedTemplateSimilarity >= 0.9)
+	) {
+		return 'medium';
+	}
 	return 'low';
 }
 
@@ -771,6 +783,9 @@ const byStatus = [...groupBy(rows, (row) => row.status).entries()]
 	.sort(([a], [b]) => a.localeCompare(b));
 const highRiskRows = rows.filter((row) => row.cannibalizationRisk === 'high');
 const mediumRiskRows = rows.filter((row) => row.cannibalizationRisk === 'medium');
+const highRiskPairs = [...highRiskRows]
+	.sort((a, b) => b.nearestSameServiceSimilarity - a.nearestSameServiceSimilarity)
+	.slice(0, 20);
 const priorityBacklog = [...rows]
 	.sort((a, b) => {
 		const priorityOrder = { P1: 0, P2: 1, P3: 2 };
@@ -798,9 +813,9 @@ Dieser Tracker bewertet die lokalen Seiten aus dem gerenderten HTML in \`dist/cl
 
 | Metrik | Gut | Warnung | Kritisch |
 | --- | ---: | ---: | ---: |
-| \`nearest_same_service_shingle_similarity\` | <= 0.54 | 0.55-0.63 | >= 0.64 |
-| \`nearest_same_service_template_similarity\` | <= 0.79 | 0.80-0.87 | >= 0.88 |
-| \`nearest_same_service_location_masked_template_similarity\` | <= 0.85 | 0.86-0.92 | >= 0.93 |
+| \`nearest_same_service_shingle_similarity\` | <= 0.54 | 0.55-0.67 | >= 0.68 |
+| \`nearest_same_service_template_similarity\` | Monitoring | kein direkter Risiko-Ausloeser | gemeinsamer Aufbau erwartet |
+| \`nearest_same_service_location_masked_template_similarity\` | Monitoring | verstaerkt Risiko bei hoher Content-Naehe | kein direkter Risiko-Ausloeser |
 | \`similarity_to_base_service\` | <= 0.55 | 0.56-0.82 | >= 0.83 |
 | \`content_score\` | >= 65 | 45-64 | < 45 |
 | \`seo_score\` | >= 85 | 75-84 | < 75 |
@@ -810,8 +825,8 @@ Dieser Tracker bewertet die lokalen Seiten aus dem gerenderten HTML in \`dist/cl
 | Kennzahl | Wert |
 | --- | ---: |
 | Lokale Seiten | ${rows.length} |
-| High-Risk Aehnlichkeit | ${highRiskRows.length} |
-| Medium-Risk Aehnlichkeit | ${mediumRiskRows.length} |
+| High-Risk Content-Aehnlichkeit | ${highRiskRows.length} |
+| Medium-Risk Content-Aehnlichkeit | ${mediumRiskRows.length} |
 | Durchschnitt SEO-Score | ${Math.round(average(rows.map((row) => row.seoScore)))} |
 | Durchschnitt Content-Score | ${Math.round(average(rows.map((row) => row.contentScore)))} |
 | Durchschnitt Shingle Similarity Same Service | ${formatPercent(average(rows.map((row) => row.nearestSameServiceSimilarity)))} |
@@ -834,11 +849,17 @@ ${byService.map(([service, group]) => {
 	return `| ${service} | ${group.length} | ${Math.round(average(group.map((row) => row.seoScore)))} | ${Math.round(average(group.map((row) => row.contentScore)))} | ${formatPercent(average(group.map((row) => row.nearestSameServiceSimilarity)))} | ${formatPercent(average(group.map((row) => row.nearestSameServiceTemplateSimilarity)))} | ${formatPercent(average(group.map((row) => row.nearestSameServiceLocationMaskedTemplateSimilarity)))} | ${high} |`;
 }).join('\n')}
 
+## High-Risk Content-Paare
+
+${highRiskPairs.length ? `| Seite | Shingle | Template | Masked Template | Naechste aehnliche Seite |
+| --- | ---: | ---: | ---: | --- |
+${highRiskPairs.map((row) => `| [${row.targetKeyword}](${row.url}) | ${formatPercent(row.nearestSameServiceSimilarity)} | ${formatPercent(row.nearestSameServiceTemplateSimilarity)} | ${formatPercent(row.nearestSameServiceLocationMaskedTemplateSimilarity)} | ${row.nearestSameServiceRoute || '-'} |`).join('\n')}` : 'Keine High-Risk Content-Paare gefunden.'}
+
 ## Priorisierter Rewrite-Backlog
 
-| Prio | Status | Risiko | Seite | Content | Template | Masked Template | Naechste aehnliche Seite |
-| --- | --- | --- | --- | ---: | ---: | ---: | --- |
-${priorityBacklog.map((row) => `| ${row.priority} | ${row.status} | ${row.cannibalizationRisk} | [${row.targetKeyword}](${row.url}) | ${row.contentScore} | ${formatPercent(row.nearestSameServiceTemplateSimilarity)} | ${formatPercent(row.nearestSameServiceLocationMaskedTemplateSimilarity)} | ${row.nearestSameServiceLocationMaskedTemplateRoute || '-'} |`).join('\n')}
+| Prio | Status | Risiko | Seite | Content | Shingle | Template | Masked Template | Naechste aehnliche Seite |
+| --- | --- | --- | --- | ---: | ---: | ---: | ---: | --- |
+${priorityBacklog.map((row) => `| ${row.priority} | ${row.status} | ${row.cannibalizationRisk} | [${row.targetKeyword}](${row.url}) | ${row.contentScore} | ${formatPercent(row.nearestSameServiceSimilarity)} | ${formatPercent(row.nearestSameServiceTemplateSimilarity)} | ${formatPercent(row.nearestSameServiceLocationMaskedTemplateSimilarity)} | ${row.nearestSameServiceLocationMaskedTemplateRoute || '-'} |`).join('\n')}
 
 ## Spalten in der CSV
 
@@ -849,14 +870,14 @@ ${priorityBacklog.map((row) => `| ${row.priority} | ${row.status} | ${row.cannib
 - \`seo_score\`: technische Onpage-Basics wie Title, H1, Meta Description, Canonical, Schema, Sitemap und interne Links.
 - \`content_score\`: Texttiefe, Ortsnennung, Abstand zur Basisleistung und Abstand zur aehnlichsten Seite im selben Cluster.
 - \`similarity_to_base_service\`: Textaehnlichkeit zur Hauptleistungsseite.
-- \`nearest_same_service_shingle_similarity\`: 5-Wort-Shingle-Aehnlichkeit. Reagiert stark auf einzelne geaenderte Ortswoerter und unterschaetzt deshalb Template-Gleichheit.
-- \`nearest_same_service_template_similarity\`: Token-Overlap im selben Leistungscluster. Dieser Wert zeigt besser, wie viel Textvorlage wiederverwendet wird.
-- \`nearest_same_service_location_masked_template_similarity\`: Token-Overlap, nachdem bekannte Ortsnamen zu einem Platzhalter normalisiert wurden. Dieser Wert prueft am haertesten, ob Seiten nur durch Ortsbezug auseinanderfallen.
+- \`nearest_same_service_shingle_similarity\`: 5-Wort-Shingle-Aehnlichkeit. Dieser Wert ist der primaere Ausloeser fuer Content-Kannibalisierung, weil er echte Satz- und Absatznaehe misst.
+- \`nearest_same_service_template_similarity\`: Token-Overlap im selben Leistungscluster. Dieser Wert bleibt sichtbar, loest aber kein Risiko allein aus, weil Layout, Bilder und Grundstruktur bewusst von der Hauptleistungsseite geerbt werden.
+- \`nearest_same_service_location_masked_template_similarity\`: Token-Overlap, nachdem bekannte Ortsnamen zu einem Platzhalter normalisiert wurden. Dieser Wert verstaerkt ein Risiko nur, wenn auch die Content-Aehnlichkeit hoch ist.
 - \`nearest_same_location_similarity\`: Textaehnlichkeit zu anderen Leistungen im selben Ort.
 
 ## Naechster Arbeitsschritt
 
-Die High-Risk/P1-Seiten sollten zuerst eigene Textmodule bekommen: staerkerer lokaler Einstieg, andere Zwischenueberschriften, orts- und leistungsbezogene FAQ, konkrete Anlass-Momente und mehr semantische Keyword-Varianten. Bilder und Layout koennen weiter von der Hauptleistungsseite geerbt werden.
+Die High-/Medium-Risk-Seiten und P1-Seiten mit \`improve-copy\` sollten zuerst eigene Textmodule bekommen: staerkerer lokaler Einstieg, andere Zwischenueberschriften, orts- und leistungsbezogene FAQ, konkrete Anlass-Momente und mehr semantische Keyword-Varianten. Bilder und Layout koennen weiter von der Hauptleistungsseite geerbt werden.
 `;
 
 writeFileSync(REPORT_FILE, report);
@@ -866,6 +887,7 @@ console.log(`- ${path.relative(process.cwd(), CSV_FILE).replace(/\\/g, '/')}`);
 console.log(`- ${path.relative(process.cwd(), REPORT_FILE).replace(/\\/g, '/')}`);
 console.log(`Pages: ${rows.length}`);
 console.log(`High risk: ${highRiskRows.length}`);
+console.log(`Medium risk: ${mediumRiskRows.length}`);
 console.log(`Average SEO score: ${Math.round(average(rows.map((row) => row.seoScore)))}`);
 console.log(`Average content score: ${Math.round(average(rows.map((row) => row.contentScore)))}`);
 console.log(`Average template similarity: ${formatPercent(average(rows.map((row) => row.nearestSameServiceTemplateSimilarity)))}`);

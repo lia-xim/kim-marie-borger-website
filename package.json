@@ -22,6 +22,8 @@
     "build:local": "tinacms build --local --skip-cloud-checks -c \"astro build\"",
     "build:vercel": "node scripts/smart-build.mjs",
     "audit:seo": "node scripts/seo-audit.mjs",
+    "qa:seo-pages": "node scripts/seo-page-island-qa.mjs",
+    "qa:seo-pages:http": "node scripts/seo-page-island-qa.mjs --base-url=http://127.0.0.1:4323 --require-http",
     "tracker:local-seo": "node scripts/local-seo-tracker.mjs",
     "tracker:seo-pages": "node scripts/seo-page-tracker.mjs",
     "seo:sync-overrides": "node scripts/sync-seo-page-overrides.mjs",
