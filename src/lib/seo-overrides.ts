@@ -120,7 +120,7 @@ export function getSeoPageOverride(
 
 export function applySeoPageOverride(data: PageData, override?: SeoPageOverride): PageData {
 	if (!override) return data;
-	const clone = data;
+	const clone = { ...data };
 	if (override.seoTitle) clone.seoTitle = override.seoTitle;
 	if (override.seoDescription) clone.seoDescription = override.seoDescription;
 	clone.blocks = (clone.blocks ?? [])

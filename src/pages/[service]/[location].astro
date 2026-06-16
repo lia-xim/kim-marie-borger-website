@@ -1,9 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
+import TinaIsland from '@tinacms/astro/TinaIsland.astro';
 import PageBody from '../../components/islands/PageBody.astro';
 import LocalLinks from '../../components/LocalLinks.astro';
 import TopicLinks from '../../components/TopicLinks.astro';
 import { getConfig, getPage } from '../../lib/data';
+import { islands } from '../../lib/islands';
 import { firstBlockImage } from '../../lib/seo';
 import { getSeoPageOverride } from '../../lib/seo-overrides';
 import {
@@ -76,7 +78,14 @@ const jsonLd = localPage
 	bodyClass={data.bodyClass ?? undefined}
 >
 	<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-	<PageBody data={data} />
+	<TinaIsland
+		name="seoPage/"
+		wrapper={islands.seoPage.wrapper}
+		params={{ pageKind, serviceSlug, pageSlug }}
+		primary
+	>
+		<PageBody data={data} />
+	</TinaIsland>
 	{localPage && <TopicLinks serviceSlug={localPage.service.slug} />}
 	{topicPage && <TopicLinks serviceSlug={topicPage.serviceSlug} currentTopicSlug={topicPage.slug} />}
 	{localPage && <LocalLinks serviceSlug={localPage.service.slug} currentLocationSlug={localPage.location.slug} />}

@@ -6,6 +6,22 @@ import { normalizeHref } from '../../lib/url';
 const { data } = Astro.props;
 const bgClass = data.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
 const paragraphs = (data.paragraphs ?? []).filter((p: unknown) => p !== null);
+const primaryParagraphLimit = 5;
+const continuationParagraphLimit = 5;
+const shouldSplitLongText = paragraphs.length > primaryParagraphLimit + 2;
+const primaryParagraphs = shouldSplitLongText ? paragraphs.slice(0, primaryParagraphLimit) : paragraphs;
+const continuationSections = shouldSplitLongText
+	? Array.from(
+			{ length: Math.ceil((paragraphs.length - primaryParagraphLimit) / continuationParagraphLimit) },
+			(_, index) => {
+				const offset = primaryParagraphLimit + index * continuationParagraphLimit;
+				return {
+					offset,
+					paragraphs: paragraphs.slice(offset, offset + continuationParagraphLimit),
+				};
+			},
+		)
+	: [];
 const ctas = (data.ctas ?? []).filter((c: unknown) => c !== null);
 const twin = data.figureClass === 'twin';
 const figureClass = data.figureClass && !twin ? ` ${data.figureClass}` : '';
@@ -35,7 +51,7 @@ const titleStyle = `margin:18px 0 22px;max-width:${data.titleWidth ?? '18ch'};`;
 				{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
 			</h2>}
 			{data.lede && <p class="lede" data-tina-field={tinaField(data, 'lede')}>{data.lede}</p>}
-			{paragraphs.map((p: string, i: number) => (
+			{primaryParagraphs.map((p: string, i: number) => (
 				<p class="lead" style={i > 0 || data.lede ? 'margin-top:16px;' : undefined} data-tina-field={tinaField(data, 'paragraphs', i)}>{p}</p>
 			))}
 			{ctas.length > 0 && (
@@ -71,3 +87,15 @@ const titleStyle = `margin:18px 0 22px;max-width:${data.titleWidth ?? '18ch'};`;
 		)}
 	</div>
 </section>
+{continuationSections.map((section) => (
+	<section class={`section split-more${bgClass}`}>
+		<div class="wrap split-more-wrap">
+			<div class="split-more-rule" aria-hidden="true"></div>
+			<div class="split-more-copy">
+				{section.paragraphs.map((p: string, i: number) => (
+					<p class="lead" data-tina-field={tinaField(data, 'paragraphs', section.offset + i)}>{p}</p>
+				))}
+			</div>
+		</div>
+	</section>
+))}

@@ -61,11 +61,11 @@ const jsonLd = {
 		<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 	</head>
 	<body class={bodyClass || undefined}>
-		<TinaIsland name="global" wrapper={islands.global.wrapper}>
+		<TinaIsland name="global/" wrapper={islands.global.wrapper}>
 			<Header config={config} />
 		</TinaIsland>
 		<slot />
-		<TinaIsland name="global-footer" wrapper={islands['global-footer'].wrapper}>
+		<TinaIsland name="global-footer/" wrapper={islands['global-footer'].wrapper}>
 			<Footer config={config} />
 		</TinaIsland>
 		<script src={kmbScriptUrl}></script>
