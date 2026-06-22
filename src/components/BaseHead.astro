@@ -24,12 +24,19 @@ interface Props {
 	title: string;
 	description: string;
 	image?: string;
+	imageAlt?: string;
 	noindex?: boolean;
 }
 
 const canonicalURL = canonicalUrl(Astro.site ?? new URL(Astro.url.origin), Astro.url.pathname);
 
-const { title, description, image: rawImage = '/og-default.png', noindex = false } = Astro.props;
+const {
+	title,
+	description,
+	image: rawImage = '/og-default.png',
+	imageAlt = `${title} - Kim Marie Borger`,
+	noindex = false,
+} = Astro.props;
 const image = normalizeSrc(rawImage) ?? rawImage;
 const absoluteImage = new URL(image, canonicalURL);
 
@@ -59,6 +66,8 @@ const heroPreload = onVercel && isOptimizable(image) ? buildSrcset(image) : null
 )}
 
 <link rel="canonical" href={canonicalURL.href} />
+<link rel="alternate" hreflang="de" href={canonicalURL.href} />
+<link rel="alternate" hreflang="x-default" href={canonicalURL.href} />
 
 <title>{title}</title>
 <meta name="title" content={title} />
@@ -71,9 +80,11 @@ const heroPreload = onVercel && isOptimizable(image) ? buildSrcset(image) : null
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={absoluteImage.href} />
+<meta property="og:image:alt" content={imageAlt} />
 
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={canonicalURL.href} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={absoluteImage.href} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={canonicalURL.href} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={absoluteImage.href} />
+<meta name="twitter:image:alt" content={imageAlt} />

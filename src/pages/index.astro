@@ -16,6 +16,7 @@ const config = (await getConfig()).data?.config ?? null;
 	title={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
 	description={data.seoDescription || config?.seo?.description || ''}
 	image="/og-default.png"
+	imageAlt="Kim Marie Borger mit Viola"
 	bodyClass={data.bodyClass ?? undefined}
 >
 	<TinaIsland name="page/" wrapper={islands.page.wrapper} params={{ slug }} primary>

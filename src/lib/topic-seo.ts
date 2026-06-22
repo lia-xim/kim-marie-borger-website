@@ -1,5 +1,5 @@
 import type { CmsPage } from './data';
-import type { LocalServiceSlug } from './local-seo';
+import { getLocalService, type LocalServiceSlug } from './local-seo';
 import { applySeoPageOverride, type SeoPageOverride } from './seo-overrides';
 import { canonicalUrl } from './url';
 
@@ -1214,6 +1214,7 @@ export function buildTopicSeoPage(page: TopicSeoPage, basePage: PageData, overri
 export function topicSeoJsonLd(site: URL, page: TopicSeoPage, override?: SeoPageOverride): object {
 	const url = canonicalUrl(site, topicPagePath(page)).href;
 	const parentUrl = canonicalUrl(site, `/${page.baseSlug}/`).href;
+	const parentName = getLocalService(page.serviceSlug)?.parentLabel ?? page.serviceSlug;
 
 	return {
 		'@context': 'https://schema.org',
@@ -1223,7 +1224,7 @@ export function topicSeoJsonLd(site: URL, page: TopicSeoPage, override?: SeoPage
 				'@id': `${url}#breadcrumb`,
 				itemListElement: [
 					{ '@type': 'ListItem', position: 1, name: 'Start', item: site.href },
-					{ '@type': 'ListItem', position: 2, name: page.serviceSlug, item: parentUrl },
+					{ '@type': 'ListItem', position: 2, name: parentName, item: parentUrl },
 					{ '@type': 'ListItem', position: 3, name: page.label, item: url },
 				],
 			},
@@ -1234,6 +1235,7 @@ export function topicSeoJsonLd(site: URL, page: TopicSeoPage, override?: SeoPage
 				description: override?.seoDescription ?? page.seoDescription,
 				serviceType: page.keyword,
 				provider: { '@id': new URL('/#person', site).href },
+				areaServed: { '@type': 'Country', name: 'Deutschland' },
 				url,
 				inLanguage: 'de',
 			},

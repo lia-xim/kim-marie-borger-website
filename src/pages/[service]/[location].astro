@@ -79,6 +79,7 @@ const jsonLd = localPage
 	title={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
 	description={data.seoDescription || config?.seo?.description || ''}
 	image={firstBlockImage(data)}
+	imageAlt={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
 	bodyClass={data.bodyClass ?? undefined}
 >
 	<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

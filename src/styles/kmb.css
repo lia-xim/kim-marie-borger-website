@@ -1308,7 +1308,7 @@ a,button,summary{ touch-action:manipulation; }
 
 /* "Alle Leistungen" ist ein Desktop-Pfad — auf Mobile führt das Menü direkt zu den Anlässen */
 @media (max-width:620px){
-  a.link-line[href="leistungen.html"]{ display:none; }
+  a.link-line[href="/leistungen/"]{ display:none; }
 }
 
 /* =================================================================

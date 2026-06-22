@@ -11,13 +11,15 @@ interface Props {
 	title: string;
 	description: string;
 	image?: string;
+	imageAlt?: string;
 	bodyClass?: string;
 	noindex?: boolean;
 }
 
-const { title, description, image, bodyClass, noindex } = Astro.props;
+const { title, description, image, imageAlt, bodyClass, noindex } = Astro.props;
 const config = (await getConfig()).data?.config ?? null;
 const site = Astro.site ?? new URL(Astro.url.origin);
+const personId = new URL('/#person', site).href;
 
 // Structured data: musician + website, fed from the editable global config.
 const sameAs = [config?.footer?.instagram, config?.footer?.youtube].filter(Boolean);
@@ -26,17 +28,23 @@ const jsonLd = {
 	'@graph': [
 		{
 			'@type': 'Person',
-			'@id': new URL('/#person', site).href,
+			'@id': personId,
 			name: config?.brand?.name ?? 'Kim Marie Borger',
 			jobTitle: 'Bratschistin',
+			hasOccupation: {
+				'@type': 'Occupation',
+				name: 'Bratschistin',
+			},
 			description: config?.seo?.description,
 			email: config?.contact?.email ? `mailto:${config.contact.email}` : undefined,
 			url: site.href,
 			image: new URL(image ?? '/og-default.png', site).href,
+			knowsLanguage: ['de'],
 			contactPoint: config?.contact?.email ? {
 				'@type': 'ContactPoint',
 				email: config.contact.email,
 				contactType: 'booking request',
+				areaServed: 'DE',
 				availableLanguage: ['de'],
 			} : undefined,
 			...(sameAs.length ? { sameAs } : {}),
@@ -48,7 +56,7 @@ const jsonLd = {
 			name: config?.seo?.title ?? 'Kim Marie Borger · Viola',
 			url: site.href,
 			inLanguage: 'de',
-			publisher: { '@id': new URL('/#person', site).href },
+			publisher: { '@id': personId },
 		},
 	],
 };
@@ -57,7 +65,7 @@ const jsonLd = {
 <!doctype html>
 <html lang="de">
 	<head>
-		<BaseHead title={title} description={description} image={image} noindex={noindex} />
+		<BaseHead title={title} description={description} image={image} imageAlt={imageAlt} noindex={noindex} />
 		<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 	</head>
 	<body class={bodyClass || undefined}>
@@ -68,7 +76,7 @@ const jsonLd = {
 		<TinaIsland name="global-footer/" wrapper={islands['global-footer'].wrapper}>
 			<Footer config={config} />
 		</TinaIsland>
-		<script src={kmbScriptUrl}></script>
+		<script is:inline src={kmbScriptUrl}></script>
 		<script is:inline>
 			// Umami-Analytics (selbst gehostet, cookielos) — nur für echte
 			// Besuche: nicht im Tina-Editor-iframe, nicht in lokaler Entwicklung.
