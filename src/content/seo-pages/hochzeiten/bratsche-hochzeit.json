@@ -17,31 +17,70 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Bratsche Hochzeit braucht eine eigene musikalische Planung.",
-    "lede": "Bratsche Hochzeit wird hier praktisch eingeordnet: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
-    "paragraphs": [
-      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
-      "Tiefe Lagen, ruhige Bögen und klare Melodien wirken besonders gut, wenn der Moment intim bleiben soll.",
-      "Die Bratsche braucht keine große Bühne. Sie trägt den Raum über Klangfarbe, nicht über Lautstärke.",
-      "Vorab klären wir Startsignal, gewünschte Länge, mögliche Pausen und den Punkt, an dem das Stück natürlich enden darf. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
-      "Für Bratsche Hochzeit klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
-      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
-      "Wichtig ist, dass Bratsche Hochzeit nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
-      "Bei Bratsche Hochzeit steht warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Streicherin Hochzeit.",
-      "Bei Bratsche Hochzeit steht warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikerin Hochzeit.",
-      "Gerade bei Hochzeiten hilft eine klare Begrenzung. Diese Seite schaut auf Bratsche, Hochzeit, damit Empfang, Dinner oder Zeremonie nicht in denselben Ton fallen.",
-      "Der Kern von Bratsche Hochzeit ist warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Tonbildung, Resonanz, ruhige Artikulation, tragende Melodielinie die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Musikerin Hochzeit lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Zeremonie, Empfang, Familie, Emotion, festlicher Ablauf verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Trauort, Wege, Wunschmusik, Gästezahl, Übergang zum Empfang. Das verhindert, dass Bratsche Hochzeit nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Zeremonie, Empfang, Familie, Emotion, festlicher Ablauf ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Bratsche, Hochzeit. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
-      "Die klare Abgrenzung zu Streicherin Hochzeit lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
-    ],
-    "seal": "Bratsche\nHochzeit\nLive-Viola"
+    "seal": "Bratsche\nHochzeit\nLive-Viola",
+    "sections": [
+      {
+        "title": "Bratsche Hochzeit braucht eine eigene musikalische Planung.",
+        "lede": "Bratsche Hochzeit wird hier praktisch eingeordnet: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
+        "paragraphs": [
+          "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
+          "Tiefe Lagen, ruhige Bögen und klare Melodien wirken besonders gut, wenn der Moment intim bleiben soll.",
+          "Die Bratsche braucht keine große Bühne. Sie trägt den Raum über Klangfarbe, nicht über Lautstärke.",
+          "Vorab klären wir Startsignal, gewünschte Länge, mögliche Pausen und den Punkt, an dem das Stück natürlich enden darf. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
+          "Für Bratsche Hochzeit klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Bratsche Hochzeit 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Bratsche Hochzeit im Ablauf sinnvoll einsetzen.",
+        "lede": "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+        "paragraphs": [
+          "Wichtig ist, dass Bratsche Hochzeit nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+          "Bei Bratsche Hochzeit steht warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Streicherin Hochzeit.",
+          "Bei Bratsche Hochzeit steht warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikerin Hochzeit.",
+          "Gerade bei Hochzeiten hilft eine klare Begrenzung. Diese Seite schaut auf Bratsche, Hochzeit, damit Empfang, Dinner oder Zeremonie nicht in denselben Ton fallen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Bratsche Hochzeit 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Der Kern von Bratsche Hochzeit ist warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+        "paragraphs": [
+          "Für die Planung sind Tonbildung, Resonanz, ruhige Artikulation, tragende Melodielinie die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+          "Die klare Abgrenzung zu Musikerin Hochzeit lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "Zeremonie, Empfang, Familie, Emotion, festlicher Ablauf verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Trauort, Wege, Wunschmusik, Gästezahl, Übergang zum Empfang. Das verhindert, dass Bratsche Hochzeit nur wie eine Variante der Hauptleistung klingt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola für Bratsche Hochzeit 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Auch Zeremonie, Empfang, Familie, Emotion, festlicher Ablauf ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+        "paragraphs": [
+          "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Bratsche, Hochzeit. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+          "Die klare Abgrenzung zu Streicherin Hochzeit lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Bratsche Hochzeit 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Planung",

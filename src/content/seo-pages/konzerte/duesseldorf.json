@@ -17,37 +17,76 @@
     "badge": "Kammermusik, Salon & Kulturformat"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Ein Viola-Programm in Düsseldorf muss zum Raum und Publikum passen.",
-    "lede": "Das Publikum erwartet häufig einen hochwertigen, aber nicht überinszenierten musikalischen Rahmen. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
-    "paragraphs": [
-      "Düsseldorf verbindet Galerien, Rheinlage, Messe, Hotels, Agenturen und repräsentative Kultur- und Eventräume.",
-      "Geeignet sind Vernissage, Salonkonzert, Lesung, Empfang, Produktabend, Kulturprogramm oder private Matinee in Galerie, Hotel, Showroom oder Haus.",
-      "Innenstadtverkehr, Ladezone, Aufzug, Licht und Einlass müssen präzise abgestimmt werden.",
-      "Das Publikum erwartet häufig einen hochwertigen, aber nicht überinszenierten musikalischen Rahmen.",
-      "Ein Düsseldorfer Programm darf elegant und kuratiert sein, mit klarer Form und wenigen starken Übergängen.",
-      "Für Viola Konzert Düsseldorf ist der Ton bewusst elegant, urban und konzentriert. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
-      "Auch die Stille gehört zum Programm. Gerade bei Viola wirkt ein bewusst gesetzter Zwischenraum oft stärker als ein weiterer schneller Wechsel.",
-      "Ein Konzertprogramm braucht nicht viele Stücke, sondern eine innere Richtung: ein Anfang, der den Raum öffnet, eine Mitte mit Tiefe und ein Schluss, der das Publikum nicht abrupt entlässt.",
-      "Kurze Anmoderationen können helfen, besonders wenn das Publikum nicht aus einem klassischen Konzertkontext kommt.",
-      "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
-      "Bei Vernissagen in Düsseldorf darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
-      "Bei Lesungen in Düsseldorf achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
-      "Für Salonkonzerte in Düsseldorf plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
-      "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block.",
-      "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
-      "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
-      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
-      "Wer in Düsseldorf anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Rhein, Benrath, Kaiserswerth, Flingern, Messe, Hotels und Galerien bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
-      "Die wichtigste Vorbereitung in Düsseldorf: Innenstadtverkehr, Ladezone, Aufzug, Einlass und kurze Wege zwischen Programmpunkten. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Düsseldorf sind Gäste, die hochwertige Wirkung ohne Überinszenierung erwarten. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Düsseldorf übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Ratingen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Düsseldorf passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Viola Konzert Düsseldorf mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Düsseldorf ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
-    ],
-    "seal": "Düsseldorf\nKonzert\nViola"
+    "seal": "Düsseldorf\nKonzert\nViola",
+    "sections": [
+      {
+        "title": "Ein Viola-Programm in Düsseldorf muss zum Raum und Publikum passen.",
+        "lede": "Das Publikum erwartet häufig einen hochwertigen, aber nicht überinszenierten musikalischen Rahmen. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
+        "paragraphs": [
+          "Düsseldorf verbindet Galerien, Rheinlage, Messe, Hotels, Agenturen und repräsentative Kultur- und Eventräume.",
+          "Geeignet sind Vernissage, Salonkonzert, Lesung, Empfang, Produktabend, Kulturprogramm oder private Matinee in Galerie, Hotel, Showroom oder Haus.",
+          "Innenstadtverkehr, Ladezone, Aufzug, Licht und Einlass müssen präzise abgestimmt werden.",
+          "Das Publikum erwartet häufig einen hochwertigen, aber nicht überinszenierten musikalischen Rahmen.",
+          "Ein Düsseldorfer Programm darf elegant und kuratiert sein, mit klarer Form und wenigen starken Übergängen.",
+          "Für Viola Konzert Düsseldorf ist der Ton bewusst elegant, urban und konzentriert. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
+          "Auch die Stille gehört zum Programm. Gerade bei Viola wirkt ein bewusst gesetzter Zwischenraum oft stärker als ein weiterer schneller Wechsel."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Düsseldorf mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Viola Konzert Düsseldorf im Ablauf sinnvoll einsetzen.",
+        "lede": "Ein Konzertprogramm braucht nicht viele Stücke, sondern eine innere Richtung: ein Anfang, der den Raum öffnet, eine Mitte mit Tiefe und ein Schluss, der das Publikum nicht abrupt entlässt.",
+        "paragraphs": [
+          "Kurze Anmoderationen können helfen, besonders wenn das Publikum nicht aus einem klassischen Konzertkontext kommt.",
+          "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
+          "Bei Vernissagen in Düsseldorf darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
+          "Bei Lesungen in Düsseldorf achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
+          "Für Salonkonzerte in Düsseldorf plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
+          "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Düsseldorf mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
+        "paragraphs": [
+          "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
+          "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
+          "Wer in Düsseldorf anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Rhein, Benrath, Kaiserswerth, Flingern, Messe, Hotels und Galerien bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
+          "Die wichtigste Vorbereitung in Düsseldorf: Innenstadtverkehr, Ladezone, Aufzug, Einlass und kurze Wege zwischen Programmpunkten. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+          "Typisch für Düsseldorf sind Gäste, die hochwertige Wirkung ohne Überinszenierung erwarten. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+          "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Düsseldorf übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Düsseldorf mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Der Unterschied zu Ratingen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+        "paragraphs": [
+          "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Düsseldorf passt und den Ablauf nicht künstlich aufbläht.",
+          "Wenn Viola Konzert Düsseldorf mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+          "Bei knappen Zeitfenstern in Düsseldorf ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Düsseldorf mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

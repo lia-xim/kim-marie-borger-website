@@ -17,32 +17,71 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Live-Musik zur Hochzeit in Bielefeld braucht mehr als eine schöne Stückliste.",
-    "lede": "Bielefeld bedeutet für Hochzeiten oft: Altstadt, Sparrenburg-Nähe und Feiern rund um den Teutoburger Wald. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
-    "paragraphs": [
-      "Typische Rahmen sind kirchliche Trauung, freie Zeremonie, Hausfeier oder festliches Dinner. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
-      "Der Klang soll ruhig und sehr persönlich sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
-      "Die Sets werden so gesetzt, dass Reden, Ringe und Gratulationen nicht überdeckt werden. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
-      "Für Bielefeld kläre ich vorab auch die praktischen Details: längere Anfahrt und genügend Zeit zum Stimmen einplanen. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
-      "Beim Einzug zählt Tempo, beim Ringtausch die Zurückhaltung, beim Auszug die Leichtigkeit. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
-      "Das Repertoire kann ein Wunschlied, ein festlicher Auszug und dezente Empfangsmusik verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
-      "Für Hochzeiten in dieser Region denke ich neben der Stückliste immer auch an Wege, Wetter und die Frage, wie nah die Musik an euch stehen soll.",
-      "Für Bielefeld plane ich Hochzeitsmusik mit Blick auf längere Anreise, klare Zeitfenster und Locations zwischen Stadt, Sparrenburgnähe und Teutoburger-Wald-Atmosphäre. Der Klang darf hier festlich sein, ohne dass der Ablauf durch zu viele Einsätze schwer wird.",
-      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
-      "In Bielefeld prüfe ich besonders längere Fahrzeit, klare Zeitfenster und ein ruhiger Aufbau. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
-      "aufmerksame Gäste, die gut erklärte und nicht überladene Programme moegen. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
-      "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Bielefeld über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
-      "Die wichtigste Vorbereitung in Bielefeld: längere Fahrzeit, klare Zeitfenster und ein ruhiger Aufbau. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Bielefeld sind aufmerksame Gäste, die gut erklärte und nicht überladene Programme moegen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Bielefeld übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Leverkusen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Bielefeld passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Hochzeitsmusik Bielefeld mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Bielefeld ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
-      "Hochzeitsmusik Bielefeld in Bielefeld ist keine reine Ortsvariante der Hauptseite. Entscheidend sind Sparrenburg, Altstadt, Hochschulumfeld, ostwestfaelische Säle und private Kulturorte, weil diese Umgebung beeinflusst, wie nah, sichtbar und flexibel die Musik eingesetzt werden kann."
-    ],
-    "seal": "Bielefeld\nTrauung & Empfang\nLive-Viola"
+    "seal": "Bielefeld\nTrauung & Empfang\nLive-Viola",
+    "sections": [
+      {
+        "title": "Live-Musik zur Hochzeit in Bielefeld braucht mehr als eine schöne Stückliste.",
+        "lede": "Bielefeld bedeutet für Hochzeiten oft: Altstadt, Sparrenburg-Nähe und Feiern rund um den Teutoburger Wald. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
+        "paragraphs": [
+          "Typische Rahmen sind kirchliche Trauung, freie Zeremonie, Hausfeier oder festliches Dinner. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
+          "Der Klang soll ruhig und sehr persönlich sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
+          "Die Sets werden so gesetzt, dass Reden, Ringe und Gratulationen nicht überdeckt werden. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
+          "Für Bielefeld kläre ich vorab auch die praktischen Details: längere Anfahrt und genügend Zeit zum Stimmen einplanen. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
+          "Beim Einzug zählt Tempo, beim Ringtausch die Zurückhaltung, beim Auszug die Leichtigkeit. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Bielefeld 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Hochzeitsmusik Bielefeld im Ablauf sinnvoll einsetzen.",
+        "lede": "Das Repertoire kann ein Wunschlied, ein festlicher Auszug und dezente Empfangsmusik verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
+        "paragraphs": [
+          "Für Hochzeiten in dieser Region denke ich neben der Stückliste immer auch an Wege, Wetter und die Frage, wie nah die Musik an euch stehen soll.",
+          "Für Bielefeld plane ich Hochzeitsmusik mit Blick auf längere Anreise, klare Zeitfenster und Locations zwischen Stadt, Sparrenburgnähe und Teutoburger-Wald-Atmosphäre. Der Klang darf hier festlich sein, ohne dass der Ablauf durch zu viele Einsätze schwer wird.",
+          "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
+          "In Bielefeld prüfe ich besonders längere Fahrzeit, klare Zeitfenster und ein ruhiger Aufbau. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Bielefeld 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "aufmerksame Gäste, die gut erklärte und nicht überladene Programme moegen. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+        "paragraphs": [
+          "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Bielefeld über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
+          "Die wichtigste Vorbereitung in Bielefeld: längere Fahrzeit, klare Zeitfenster und ein ruhiger Aufbau. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+          "Typisch für Bielefeld sind aufmerksame Gäste, die gut erklärte und nicht überladene Programme moegen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+          "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Bielefeld übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Bielefeld 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Der Unterschied zu Leverkusen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+        "paragraphs": [
+          "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Bielefeld passt und den Ablauf nicht künstlich aufbläht.",
+          "Wenn Hochzeitsmusik Bielefeld mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+          "Bei knappen Zeitfenstern in Bielefeld ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
+          "Hochzeitsmusik Bielefeld in Bielefeld ist keine reine Ortsvariante der Hauptseite. Entscheidend sind Sparrenburg, Altstadt, Hochschulumfeld, ostwestfaelische Säle und private Kulturorte, weil diese Umgebung beeinflusst, wie nah, sichtbar und flexibel die Musik eingesetzt werden kann."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Bielefeld 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Ablauf",

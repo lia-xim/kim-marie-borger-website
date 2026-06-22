@@ -31,14 +31,33 @@ const onScroll = () => { if(!navSolid) nav.classList.toggle('scrolled', window.s
 onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
 
 const burger = document.getElementById('burger');
-burger.addEventListener('click', () => {
-  const open = nav.classList.toggle('open');
+const mobileMenu = document.getElementById('mobileMenu');
+const mmGroup = document.getElementById('mmGroup');
+const mmToggle = mmGroup ? mmGroup.querySelector('.mm-toggle') : null;
+const mmSub = document.getElementById('mmSub');
+const setMobileSubmenu = (open) => {
+  if(!mmGroup || !mmToggle || !mmSub) return;
+  mmGroup.classList.toggle('open', open);
+  mmToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  mmSub.setAttribute('aria-hidden', open ? 'false' : 'true');
+  if(open) mmSub.removeAttribute('inert');
+  else mmSub.setAttribute('inert', '');
+};
+const setMobileMenu = (open) => {
+  nav.classList.toggle('open', open);
   burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  burger.setAttribute('aria-label', open ? 'Menü schließen' : 'Menü öffnen');
+  if(mobileMenu){
+    mobileMenu.setAttribute('aria-hidden', open ? 'false' : 'true');
+    if(open) mobileMenu.removeAttribute('inert');
+    else mobileMenu.setAttribute('inert', '');
+  }
+  if(!open) setMobileSubmenu(false);
   document.body.style.overflow = open ? 'hidden' : '';
-});
-document.querySelectorAll('#mobileMenu a').forEach(a => a.addEventListener('click', () => {
-  nav.classList.remove('open'); burger.setAttribute('aria-expanded','false'); document.body.style.overflow='';
-}));
+};
+setMobileMenu(false);
+burger.addEventListener('click', () => setMobileMenu(!nav.classList.contains('open')));
+document.querySelectorAll('#mobileMenu a').forEach(a => a.addEventListener('click', () => setMobileMenu(false)));
 
 /* ---------- active nav link by route (MPA) ---------- */
 (function(){
@@ -60,13 +79,8 @@ document.querySelectorAll('#mobileMenu a').forEach(a => a.addEventListener('clic
 })();
 
 /* ---------- mobile menu: Leistungen accordion ---------- */
-const mmGroup = document.getElementById('mmGroup');
-if(mmGroup){
-  const tgl = mmGroup.querySelector('.mm-toggle');
-  tgl.addEventListener('click', () => {
-    const open = mmGroup.classList.toggle('open');
-    tgl.setAttribute('aria-expanded', open ? 'true' : 'false');
-  });
+if(mmToggle){
+  mmToggle.addEventListener('click', () => setMobileSubmenu(!mmGroup.classList.contains('open')));
 }
 
 /* ---------- horizontal strips (collage, stations): drag-to-scroll for mouse/pen ---------- */

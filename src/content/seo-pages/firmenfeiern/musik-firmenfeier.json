@@ -17,39 +17,78 @@
     "badge": "Live-Viola für Unternehmen"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Musik Firmenfeier braucht einen eigenen musikalischen Fokus.",
-    "lede": "Teams, Geschäftsführungen und Eventplaner, die eine Firmenfeier musikalisch aufwerten möchten suchen keine beliebige Musik, sondern eine Lösung für Sommerfest, Weihnachtsfeier, Jubiläum, Teamabend, Dinner oder offizieller Empfang.",
-    "paragraphs": [
-      "Bei Firmenfeiern geht es meistens um Wertschätzung, Atmosphäre und einen guten Übergang vom Arbeitsalltag in den Abend.",
-      "Ich begleite Empfang, Dinner, kurze Ehrung oder einen ruhigen Programmpunkt mit Solo-Viola.",
-      "Diese Seite bleibt allgemein für Firmenfeiern; Spezialseiten wie Dinnermusik, Messe oder Eröffnung behandeln engere Situationen.",
-      "Wichtig sind Gästezahl, Ablauf, Reden, Essen, Lautstärke, gewünschte Stimmung und Rechnungsdaten.",
-      "Die Viola ist eine gute Lösung, wenn die Feier hochwertiger wirken soll, aber Gespräche weiterhin möglich bleiben müssen.",
-      "Bei Musik Firmenfeier beginne ich mit der Frage, welche Aufgabe die Musik im Business-Ablauf übernimmt: einladend, verbindend, festlich, dezent oder als klarer Akzent.",
-      "Die Setlänge hängt nicht nur von der gebuchten Zeit ab. Wichtig ist, wann Gäste wirklich hören, wann sie sprechen, wann Service läuft und wann ein offizieller Programmpunkt Aufmerksamkeit braucht.",
-      "Ein Solo-Instrument kann sehr hochwertig wirken und bleibt zugleich flexibel, wenn sich Reden verschieben oder Gäste länger im Empfang bleiben.",
-      "Ich wähle Repertoire so aus, dass es auf der Viola verständlich bleibt. Manche bekannten Stücke wirken ohne Gesang wunderbar, andere verlieren ohne Text ihren Sinn und werden besser ersetzt.",
-      "Auch die Platzierung im Raum gehört zur Planung. Zu nah am Buffet ist Musik oft im Weg, zu weit entfernt verliert sie Wirkung. Die beste Position unterstützt Bewegung und Blickrichtung der Gäste.",
-      "Für Musik Firmenfeier kann klassische Musik passend sein, aber auch moderne Melodien, ruhige Pop-Bearbeitungen oder reduzierte instrumentale Linien. Entscheidend ist der Anlass, nicht eine starre Stil-Schublade.",
-      "Ich plane deshalb nicht einfach eine Stückliste, sondern die Rolle der Musik im Ablauf: Ankommen, Begrüßung, Essen, Rede, Pause oder Ausklang.",
-      "Die organisatorische Seite bleibt bewusst klar: Termin, Ort, Kontaktperson, Rechnungsdaten, Dresscode, gewünschte Spielzeit und eventuelle Besonderheiten der Location.",
-      "Wenn Agentur, Assistenz, Location und Unternehmen beteiligt sind, kann ich die musikalischen Eckpunkte kurz und verbindlich abstimmen, damit am Veranstaltungstag niemand lange erklären muss.",
-      "Für Unternehmen ist Planbarkeit genauso wichtig wie Atmosphäre. Deshalb gehören Ablauf, Rechnung, Kontaktperson und Timing zur musikalischen Vorbereitung.",
-      "Für eine erste Einschätzung reichen wenige Angaben. Danach kann ich vorschlagen, ob ein durchgehender Rahmen, mehrere kurze Sets oder ein einzelner musikalischer Moment die sauberste Lösung ist.",
-      "Bei Musik Firmenfeier steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Eventmusikerin.",
-      "Bei Musik Firmenfeier steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Jubiläum.",
-      "Bei Firmenformaten zählt nicht nur Schönheit, sondern Verlässlichkeit im Ablauf. Musik Firmenfeier muss Reden, Networking, Markenwirkung und Gästefluss zusammenhalten, ohne zur Hauptsache zu werden.",
-      "Der Kern von Musik Firmenfeier ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola repräsentativ, dezent, elegant, verbindend oder als kurzer Akzent wirken soll.",
-      "Die klare Abgrenzung zu Musik Jubiläum lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Team, Jahresabschluss, Jubiläum, Dank, gemeinsamer Abend verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Dinner, Rede, Empfang, Ausklang, Lautstärke. Das verhindert, dass Musik Firmenfeier nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Team, Jahresabschluss, Jubiläum, Dank, gemeinsamer Abend ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Eventformat, Location, Gästezahl, Zeitfenster, Reden, Dinnerablauf und die gewünschte Rolle der Musik. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Musik, Firmenfeier. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
-    ],
-    "seal": "Musik Firmenfeier\nBusiness\nLive-Viola"
+    "seal": "Musik Firmenfeier\nBusiness\nLive-Viola",
+    "sections": [
+      {
+        "title": "Musik Firmenfeier braucht einen eigenen musikalischen Fokus.",
+        "lede": "Teams, Geschäftsführungen und Eventplaner, die eine Firmenfeier musikalisch aufwerten möchten suchen keine beliebige Musik, sondern eine Lösung für Sommerfest, Weihnachtsfeier, Jubiläum, Teamabend, Dinner oder offizieller Empfang.",
+        "paragraphs": [
+          "Bei Firmenfeiern geht es meistens um Wertschätzung, Atmosphäre und einen guten Übergang vom Arbeitsalltag in den Abend.",
+          "Ich begleite Empfang, Dinner, kurze Ehrung oder einen ruhigen Programmpunkt mit Solo-Viola.",
+          "Diese Seite bleibt allgemein für Firmenfeiern; Spezialseiten wie Dinnermusik, Messe oder Eröffnung behandeln engere Situationen.",
+          "Wichtig sind Gästezahl, Ablauf, Reden, Essen, Lautstärke, gewünschte Stimmung und Rechnungsdaten.",
+          "Die Viola ist eine gute Lösung, wenn die Feier hochwertiger wirken soll, aber Gespräche weiterhin möglich bleiben müssen.",
+          "Bei Musik Firmenfeier beginne ich mit der Frage, welche Aufgabe die Musik im Business-Ablauf übernimmt: einladend, verbindend, festlich, dezent oder als klarer Akzent.",
+          "Die Setlänge hängt nicht nur von der gebuchten Zeit ab. Wichtig ist, wann Gäste wirklich hören, wann sie sprechen, wann Service läuft und wann ein offizieller Programmpunkt Aufmerksamkeit braucht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Kim Marie Borger spielt Live-Viola für Musik Firmenfeier bei einem Business-Anlass"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Musik Firmenfeier im Ablauf sinnvoll einsetzen.",
+        "lede": "Ein Solo-Instrument kann sehr hochwertig wirken und bleibt zugleich flexibel, wenn sich Reden verschieben oder Gäste länger im Empfang bleiben.",
+        "paragraphs": [
+          "Ich wähle Repertoire so aus, dass es auf der Viola verständlich bleibt. Manche bekannten Stücke wirken ohne Gesang wunderbar, andere verlieren ohne Text ihren Sinn und werden besser ersetzt.",
+          "Auch die Platzierung im Raum gehört zur Planung. Zu nah am Buffet ist Musik oft im Weg, zu weit entfernt verliert sie Wirkung. Die beste Position unterstützt Bewegung und Blickrichtung der Gäste.",
+          "Für Musik Firmenfeier kann klassische Musik passend sein, aber auch moderne Melodien, ruhige Pop-Bearbeitungen oder reduzierte instrumentale Linien. Entscheidend ist der Anlass, nicht eine starre Stil-Schublade.",
+          "Ich plane deshalb nicht einfach eine Stückliste, sondern die Rolle der Musik im Ablauf: Ankommen, Begrüßung, Essen, Rede, Pause oder Ausklang.",
+          "Die organisatorische Seite bleibt bewusst klar: Termin, Ort, Kontaktperson, Rechnungsdaten, Dresscode, gewünschte Spielzeit und eventuelle Besonderheiten der Location.",
+          "Wenn Agentur, Assistenz, Location und Unternehmen beteiligt sind, kann ich die musikalischen Eckpunkte kurz und verbindlich abstimmen, damit am Veranstaltungstag niemand lange erklären muss."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
+          "alt": "Live-Viola für Musik Firmenfeier mit Solo-Viola und Noten"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Für Unternehmen ist Planbarkeit genauso wichtig wie Atmosphäre. Deshalb gehören Ablauf, Rechnung, Kontaktperson und Timing zur musikalischen Vorbereitung.",
+        "paragraphs": [
+          "Für eine erste Einschätzung reichen wenige Angaben. Danach kann ich vorschlagen, ob ein durchgehender Rahmen, mehrere kurze Sets oder ein einzelner musikalischer Moment die sauberste Lösung ist.",
+          "Bei Musik Firmenfeier steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Eventmusikerin.",
+          "Bei Musik Firmenfeier steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Jubiläum.",
+          "Bei Firmenformaten zählt nicht nur Schönheit, sondern Verlässlichkeit im Ablauf. Musik Firmenfeier muss Reden, Networking, Markenwirkung und Gästefluss zusammenhalten, ohne zur Hauptsache zu werden.",
+          "Der Kern von Musik Firmenfeier ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+          "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola repräsentativ, dezent, elegant, verbindend oder als kurzer Akzent wirken soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Kim Marie Borger spielt Live-Viola für Musik Firmenfeier bei einem Business-Anlass"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Die klare Abgrenzung zu Musik Jubiläum lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+        "paragraphs": [
+          "Team, Jahresabschluss, Jubiläum, Dank, gemeinsamer Abend verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Dinner, Rede, Empfang, Ausklang, Lautstärke. Das verhindert, dass Musik Firmenfeier nur wie eine Variante der Hauptleistung klingt.",
+          "Auch Team, Jahresabschluss, Jubiläum, Dank, gemeinsamer Abend ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+          "Eine gute Anfrage nennt Eventformat, Location, Gästezahl, Zeitfenster, Reden, Dinnerablauf und die gewünschte Rolle der Musik. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Musik, Firmenfeier. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
+          "alt": "Live-Viola für Musik Firmenfeier mit Solo-Viola und Noten"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

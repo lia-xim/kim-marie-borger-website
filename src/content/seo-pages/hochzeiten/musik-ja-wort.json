@@ -17,29 +17,68 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Kernmoment",
-    "title": "Musik zum Ja-Wort braucht Zurückhaltung vor dem entscheidenden Satz.",
-    "lede": "Beim Ja-Wort steht nicht das Instrument im Mittelpunkt, sondern die Stimme des Paares. Die Musik wird deshalb so geplant, dass sie vor dem Versprechen sammelt, danach trägt und während der Worte keine Aufmerksamkeit abzieht.",
-    "paragraphs": [
-      "Bei einer freien Trauung kann ein kurzes musikalisches Motiv vor dem Versprechen helfen, den Raum zu beruhigen. Im Standesamt ist oft eher der Augenblick nach der Antwort geeignet. In der Kirche hängt es stärker von Liturgie, Segen und Akustik ab.",
-      "Ich plane kein dauerhaftes Unterlegen der Stimmen. Gerade beim Ja-Wort ist Stille oft die stärkere Entscheidung, weil alle hören sollen, was ihr einander versprecht.",
-      "Wenn Musik eingesetzt wird, braucht sie ein klares Signal: ein Blick der Traurednerin, eine kurze Pause nach der Frage oder ein festgelegter Satz im Ablauf. So entsteht kein unsicherer Einsatz mitten im wichtigsten Moment.",
-      "Das Repertoire bleibt bewusst konzentriert. Geeignet sind ruhige Linien, klare Melodien und Stücke, die schnell Atmosphäre schaffen, ohne sich nach großer Szene anzufühlen.",
-      "Die Viola kann diesen Moment warm rahmen, weil ihr Klang nah an der menschlichen Stimme bleibt. Sie nimmt dem Raum die Leere, ohne die Aufmerksamkeit vom Brautpaar wegzuziehen.",
-      "Abgegrenzt wird diese Seite von Musik nach dem Ja-Wort: Dort geht es um den gelösten Augenblick danach. Hier geht es um die Frage, wie Musik den gesprochenen Kern des Versprechens schützt.",
-      "Für die Planung frage ich deshalb sehr konkret nach Ablauf, Wortlaut, Position im Raum und dem gewünschten Gefühl: still, getragen, sehr privat oder sichtbar feierlich.",
-      "Bei Musik Ja-Wort steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Nach Ja Wort.",
-      "Bei Hochzeiten entscheidet die Reihenfolge der Momente: Einzug, Worte, Ringmoment und Auszug dürfen musikalisch nicht gleich klingen. Musik Ja-Wort bekommt deshalb einen eigenen Bogen statt nur ein weiteres Wunschlied.",
-      "Der Kern von Musik Ja-Wort ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Musik Nach Ja Wort lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Versprechen, Blick, kurzer Atem, konzentrierte Stille verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf sehr leiser Einsatz, Timing, Pause vor Worten. Das verhindert, dass Musik Ja-Wort nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Versprechen, Sprache, Stille, kurzer Nachklang ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Musik, Ja, Wort. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
-    ],
-    "seal": "Ja-Wort\nHochzeit\nLive-Viola"
+    "seal": "Ja-Wort\nHochzeit\nLive-Viola",
+    "sections": [
+      {
+        "title": "Musik zum Ja-Wort braucht Zurückhaltung vor dem entscheidenden Satz.",
+        "lede": "Beim Ja-Wort steht nicht das Instrument im Mittelpunkt, sondern die Stimme des Paares. Die Musik wird deshalb so geplant, dass sie vor dem Versprechen sammelt, danach trägt und während der Worte keine Aufmerksamkeit abzieht.",
+        "paragraphs": [
+          "Bei einer freien Trauung kann ein kurzes musikalisches Motiv vor dem Versprechen helfen, den Raum zu beruhigen. Im Standesamt ist oft eher der Augenblick nach der Antwort geeignet. In der Kirche hängt es stärker von Liturgie, Segen und Akustik ab.",
+          "Ich plane kein dauerhaftes Unterlegen der Stimmen. Gerade beim Ja-Wort ist Stille oft die stärkere Entscheidung, weil alle hören sollen, was ihr einander versprecht.",
+          "Wenn Musik eingesetzt wird, braucht sie ein klares Signal: ein Blick der Traurednerin, eine kurze Pause nach der Frage oder ein festgelegter Satz im Ablauf. So entsteht kein unsicherer Einsatz mitten im wichtigsten Moment.",
+          "Das Repertoire bleibt bewusst konzentriert. Geeignet sind ruhige Linien, klare Melodien und Stücke, die schnell Atmosphäre schaffen, ohne sich nach großer Szene anzufühlen.",
+          "Die Viola kann diesen Moment warm rahmen, weil ihr Klang nah an der menschlichen Stimme bleibt. Sie nimmt dem Raum die Leere, ohne die Aufmerksamkeit vom Brautpaar wegzuziehen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Musik Ja-Wort 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Kernmoment"
+      },
+      {
+        "title": "Musik Ja-Wort im Ablauf sinnvoll einsetzen.",
+        "lede": "Abgegrenzt wird diese Seite von Musik nach dem Ja-Wort: Dort geht es um den gelösten Augenblick danach. Hier geht es um die Frage, wie Musik den gesprochenen Kern des Versprechens schützt.",
+        "paragraphs": [
+          "Für die Planung frage ich deshalb sehr konkret nach Ablauf, Wortlaut, Position im Raum und dem gewünschten Gefühl: still, getragen, sehr privat oder sichtbar feierlich.",
+          "Bei Musik Ja-Wort steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Nach Ja Wort.",
+          "Bei Hochzeiten entscheidet die Reihenfolge der Momente: Einzug, Worte, Ringmoment und Auszug dürfen musikalisch nicht gleich klingen. Musik Ja-Wort bekommt deshalb einen eigenen Bogen statt nur ein weiteres Wunschlied.",
+          "Der Kern von Musik Ja-Wort ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Musik Ja-Wort 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+        "paragraphs": [
+          "Die klare Abgrenzung zu Musik Nach Ja Wort lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "Versprechen, Blick, kurzer Atem, konzentrierte Stille verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf sehr leiser Einsatz, Timing, Pause vor Worten. Das verhindert, dass Musik Ja-Wort nur wie eine Variante der Hauptleistung klingt.",
+          "Auch Versprechen, Sprache, Stille, kurzer Nachklang ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola für Musik Ja-Wort 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+        "paragraphs": [
+          "Redaktionell bleibt diese Seite eng bei Musik, Ja, Wort. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Musik Ja-Wort 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Feinabstimmung",

@@ -17,27 +17,66 @@
     "badge": "Geburtstag persönlich begleiten"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Viola Geburtstag braucht eine andere Planung als allgemeine Partymusik.",
-    "lede": "Wer nach Viola Geburtstag sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
-    "paragraphs": [
-      "Der wichtigste Unterschied liegt im Maß: Die Musik soll nicht wie ein Programmpunkt wirken. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
-      "Für Geburtstage mit ruhiger, besonderer Klangfarbe eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
-      "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
-      "Wunschlieder werden auf Wirkung und Spielbarkeit geprüft. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
-      "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif.",
-      "Praktisch bedeutet das: Für Viola Geburtstag bespreche ich nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei Geburtstage mit ruhiger, besonderer Klangfarbe macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
-      "Bei Viola Geburtstag steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Instrumentalmusik Geburtstag.",
-      "Bei Viola Geburtstag steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Streichmusik Geburtstag.",
-      "Bei Geburtstagen steht die Person im Mittelpunkt, nicht die Musikerin. Viola Geburtstag wird deshalb nach Überraschung, Alter, Runde, Wunschlied und Zeitpunkt geplant.",
-      "Der Kern von Viola Geburtstag ist warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Bogen, Resonanz, Arrangement, Raumklang die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Streichmusik Geburtstag lautet: nicht wie Geige oder Cello beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "gefeierte Person, Überraschung, Gratulation, vertraute Runde verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Timing, Wunschlied, Setlänge, geheimer Einsatz. Das verhindert, dass Viola Geburtstag nur wie eine Variante der Hauptleistung klingt.",
-      "Auch gefeierte Person, Überraschung, Gratulation, vertraute Runde ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Viola, Geburtstag. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+    "sections": [
+      {
+        "title": "Viola Geburtstag braucht eine andere Planung als allgemeine Partymusik.",
+        "lede": "Wer nach Viola Geburtstag sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
+        "paragraphs": [
+          "Der wichtigste Unterschied liegt im Maß: Die Musik soll nicht wie ein Programmpunkt wirken. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
+          "Für Geburtstage mit ruhiger, besonderer Klangfarbe eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
+          "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
+          "Wunschlieder werden auf Wirkung und Spielbarkeit geprüft. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
+          "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola für Viola Geburtstag 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Viola Geburtstag im Ablauf sinnvoll einsetzen.",
+        "lede": "Praktisch bedeutet das: Für Viola Geburtstag bespreche ich nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei Geburtstage mit ruhiger, besonderer Klangfarbe macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
+        "paragraphs": [
+          "Bei Viola Geburtstag steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Instrumentalmusik Geburtstag.",
+          "Bei Viola Geburtstag steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Streichmusik Geburtstag.",
+          "Bei Geburtstagen steht die Person im Mittelpunkt, nicht die Musikerin. Viola Geburtstag wird deshalb nach Überraschung, Alter, Runde, Wunschlied und Zeitpunkt geplant.",
+          "Der Kern von Viola Geburtstag ist warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Viola Geburtstag 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Für die Planung sind Bogen, Resonanz, Arrangement, Raumklang die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+        "paragraphs": [
+          "Die klare Abgrenzung zu Streichmusik Geburtstag lautet: nicht wie Geige oder Cello beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "gefeierte Person, Überraschung, Gratulation, vertraute Runde verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Timing, Wunschlied, Setlänge, geheimer Einsatz. Das verhindert, dass Viola Geburtstag nur wie eine Variante der Hauptleistung klingt.",
+          "Auch gefeierte Person, Überraschung, Gratulation, vertraute Runde ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Viola Geburtstag 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Eine gute Anfrage nennt Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+        "paragraphs": [
+          "Redaktionell bleibt diese Seite eng bei Viola, Geburtstag. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola für Viola Geburtstag 2"
+        },
+        "imageFirst": true
+      }
     ]
   },
   "faq": {

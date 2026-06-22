@@ -17,22 +17,51 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Live Musik Hochzeit Buchen braucht eine eigene musikalische Planung.",
-    "lede": "Hier steht die Buchungsentscheidung im Mittelpunkt: Verfügbarkeit, Angebot, Zeitfenster, Ablaufdaten, Wunschlied und die nächsten Schritte bis zur verbindlichen Zusage.",
-    "paragraphs": [
-      "Wer Live Musik zur Hochzeit buchen moechte, braucht zuerst Planungssicherheit. Deshalb kläre ich Datum, Uhrzeit, Ort, gewünschte Dauer und die Rolle der Musik, bevor ich ein konkretes Angebot formuliere.",
-      "Die Anfrage wird schneller belastbar, wenn der Ablauf schon grob steht: Trauung, Gratulation, Empfang, Dinner oder eine Kombination mehrerer Teile. Auch ungefaehre Gästezahl und Raumtyp helfen bei der Einschätzung.",
-      "Bei einer Buchung geht es nicht nur um ein freies Datum. Wichtig sind auch Anfahrt, Aufbauzeit, Wetterschutz, Kontaktperson vor Ort und die Frage, ob Absprachen mit Standesamt, Kirche, Traurednerin oder Location noetig sind.",
-      "Ich prüfe Wunschlieder frueh, damit klar ist, ob sie auf Solo-Viola funktionieren. Falls ein Titel nicht ideal passt, schlage ich eine musikalisch sichere Alternative oder einen geeigneten Ausschnitt vor.",
-      "Nach der ersten Abstimmung kann ich den passenden Rahmen empfehlen: ein einzelner Einsatz zur Trauung, mehrere kurze Momente, ein Set zum Sektempfang oder eine Kombination aus Zeremonie und Empfang.",
-      "Für Paare ist diese Buchungsseite richtig, wenn sie nicht mehr nur Inspiration suchen, sondern eine konkrete Entscheidung vorbereiten. Der Fokus liegt auf Verbindlichkeit, Ablauf und nächstem Schritt.",
-      "Damit am Hochzeitstag nichts improvisiert werden muss, halte ich Startsignale, Position, Dauer und mögliche Pausen fest. So bleibt die Musik flexibel, aber die Organisation ist klar.",
-      "Auch kurzfristige Anfragen koennen funktionieren, wenn Datum, Ort und Zeitfenster sofort vorliegen. In der Hochzeitssaison ist fruehes Anfragen trotzdem deutlich entspannter.",
-      "Die Buchung bleibt persönlich: Ihr bekommt keine Standardliste, sondern eine Einsch?tzung, welche musikalische Loesung zu eurem Ort, Ablauf und Wunschmoment passt.",
-      "Der Unterschied zur allgemeinen Live-Musik-Seite ist bewusst: Dort geht es um Wirkung und Einsatzideen, hier um die konkrete Anfrage, Prüfung und Reservierung."
-    ],
-    "seal": "Live buchen\nHochzeit\nLive-Viola"
+    "seal": "Live buchen\nHochzeit\nLive-Viola",
+    "sections": [
+      {
+        "title": "Live Musik Hochzeit Buchen braucht eine eigene musikalische Planung.",
+        "lede": "Hier steht die Buchungsentscheidung im Mittelpunkt: Verfügbarkeit, Angebot, Zeitfenster, Ablaufdaten, Wunschlied und die nächsten Schritte bis zur verbindlichen Zusage.",
+        "paragraphs": [
+          "Wer Live Musik zur Hochzeit buchen moechte, braucht zuerst Planungssicherheit. Deshalb kläre ich Datum, Uhrzeit, Ort, gewünschte Dauer und die Rolle der Musik, bevor ich ein konkretes Angebot formuliere.",
+          "Die Anfrage wird schneller belastbar, wenn der Ablauf schon grob steht: Trauung, Gratulation, Empfang, Dinner oder eine Kombination mehrerer Teile. Auch ungefaehre Gästezahl und Raumtyp helfen bei der Einschätzung.",
+          "Bei einer Buchung geht es nicht nur um ein freies Datum. Wichtig sind auch Anfahrt, Aufbauzeit, Wetterschutz, Kontaktperson vor Ort und die Frage, ob Absprachen mit Standesamt, Kirche, Traurednerin oder Location noetig sind.",
+          "Ich prüfe Wunschlieder frueh, damit klar ist, ob sie auf Solo-Viola funktionieren. Falls ein Titel nicht ideal passt, schlage ich eine musikalisch sichere Alternative oder einen geeigneten Ausschnitt vor."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Live Musik Hochzeit buchen 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Live Musik Hochzeit buchen im Ablauf sinnvoll einsetzen.",
+        "lede": "Nach der ersten Abstimmung kann ich den passenden Rahmen empfehlen: ein einzelner Einsatz zur Trauung, mehrere kurze Momente, ein Set zum Sektempfang oder eine Kombination aus Zeremonie und Empfang.",
+        "paragraphs": [
+          "Für Paare ist diese Buchungsseite richtig, wenn sie nicht mehr nur Inspiration suchen, sondern eine konkrete Entscheidung vorbereiten. Der Fokus liegt auf Verbindlichkeit, Ablauf und nächstem Schritt.",
+          "Damit am Hochzeitstag nichts improvisiert werden muss, halte ich Startsignale, Position, Dauer und mögliche Pausen fest. So bleibt die Musik flexibel, aber die Organisation ist klar.",
+          "Auch kurzfristige Anfragen koennen funktionieren, wenn Datum, Ort und Zeitfenster sofort vorliegen. In der Hochzeitssaison ist fruehes Anfragen trotzdem deutlich entspannter."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Live Musik Hochzeit buchen 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Die Buchung bleibt persönlich: Ihr bekommt keine Standardliste, sondern eine Einsch?tzung, welche musikalische Loesung zu eurem Ort, Ablauf und Wunschmoment passt.",
+        "paragraphs": [
+          "Der Unterschied zur allgemeinen Live-Musik-Seite ist bewusst: Dort geht es um Wirkung und Einsatzideen, hier um die konkrete Anfrage, Prüfung und Reservierung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola für Live Musik Hochzeit buchen 1"
+        },
+        "imageFirst": false
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Planung",

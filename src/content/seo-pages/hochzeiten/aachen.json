@@ -17,33 +17,72 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Live-Musik zur Hochzeit in Aachen braucht mehr als eine schöne Stückliste.",
-    "lede": "Aachen bedeutet für Hochzeiten oft: Altstadt, Standesamt, historische Säle und Feiern im Dreiländereck. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
-    "paragraphs": [
-      "Typische Rahmen sind Kirche, freie Trauung, Restaurant oder Feierort im Aachener Umland. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
-      "Der Klang soll emotional mit genug Raum für Worte und Blicke sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
-      "Die Sets werden so gesetzt, dass Reden, Ringe und Gratulationen nicht überdeckt werden. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
-      "Für Aachen kläre ich vorab auch die praktischen Details: Anreise, Aufbauzeit und den ersten Einsatz mit genug Puffer planen. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
-      "Beim Einzug zählt Tempo, beim Ringtausch die Zurückhaltung, beim Auszug die Leichtigkeit. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
-      "Das Repertoire kann ein Wunschlied, ein festlicher Auszug und dezente Empfangsmusik verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
-      "Für Hochzeiten in dieser Region denke ich neben der Stückliste immer auch an Wege, Wetter und die Frage, wie nah die Musik an euch stehen soll.",
-      "In Aachen denke ich besonders an kurze Wege in der Altstadt, ältere Gebäude mit Hall und Feiern, bei denen Gäste oft aus Belgien, den Niederlanden und dem Rheinland zusammenkommen. Dadurch wird der musikalische Beginn gern bewusst ruhig gesetzt, damit der Tag trotz Anreise gesammelt startet.",
-      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
-      "In Aachen prüfe ich besonders weitere Anfahrt, Einlasszeit und Akustik in älteren Räumen. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
-      "ein Publikum aus Familie, Kulturinteresse, Wissenschaft und internationalen Gästen. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
-      "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Aachen über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
-      "Wer in Aachen anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Altstadt, Domnähe, Hochschule, Dreilaendereck und historische Säle bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
-      "Die wichtigste Vorbereitung in Aachen: weitere Anfahrt, Einlasszeit und Akustik in älteren Räumen. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Aachen sind ein Publikum aus Familie, Kulturinteresse, Wissenschaft und internationalen Gästen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Aachen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Iserlohn liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Aachen passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Hochzeitsmusik Aachen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Aachen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
-      "Der Unterschied zu Mettmann liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
-    ],
-    "seal": "Aachen\nTrauung & Empfang\nLive-Viola"
+    "seal": "Aachen\nTrauung & Empfang\nLive-Viola",
+    "sections": [
+      {
+        "title": "Live-Musik zur Hochzeit in Aachen braucht mehr als eine schöne Stückliste.",
+        "lede": "Aachen bedeutet für Hochzeiten oft: Altstadt, Standesamt, historische Säle und Feiern im Dreiländereck. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
+        "paragraphs": [
+          "Typische Rahmen sind Kirche, freie Trauung, Restaurant oder Feierort im Aachener Umland. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
+          "Der Klang soll emotional mit genug Raum für Worte und Blicke sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
+          "Die Sets werden so gesetzt, dass Reden, Ringe und Gratulationen nicht überdeckt werden. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
+          "Für Aachen kläre ich vorab auch die praktischen Details: Anreise, Aufbauzeit und den ersten Einsatz mit genug Puffer planen. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
+          "Beim Einzug zählt Tempo, beim Ringtausch die Zurückhaltung, beim Auszug die Leichtigkeit. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
+          "Das Repertoire kann ein Wunschlied, ein festlicher Auszug und dezente Empfangsmusik verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Aachen 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Hochzeitsmusik Aachen im Ablauf sinnvoll einsetzen.",
+        "lede": "Für Hochzeiten in dieser Region denke ich neben der Stückliste immer auch an Wege, Wetter und die Frage, wie nah die Musik an euch stehen soll.",
+        "paragraphs": [
+          "In Aachen denke ich besonders an kurze Wege in der Altstadt, ältere Gebäude mit Hall und Feiern, bei denen Gäste oft aus Belgien, den Niederlanden und dem Rheinland zusammenkommen. Dadurch wird der musikalische Beginn gern bewusst ruhig gesetzt, damit der Tag trotz Anreise gesammelt startet.",
+          "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
+          "In Aachen prüfe ich besonders weitere Anfahrt, Einlasszeit und Akustik in älteren Räumen. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+          "ein Publikum aus Familie, Kulturinteresse, Wissenschaft und internationalen Gästen. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+          "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Aachen über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?"
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Aachen 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Wer in Aachen anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Altstadt, Domnähe, Hochschule, Dreilaendereck und historische Säle bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
+        "paragraphs": [
+          "Die wichtigste Vorbereitung in Aachen: weitere Anfahrt, Einlasszeit und Akustik in älteren Räumen. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+          "Typisch für Aachen sind ein Publikum aus Familie, Kulturinteresse, Wissenschaft und internationalen Gästen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+          "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Aachen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+          "Der Unterschied zu Iserlohn liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+          "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Aachen passt und den Ablauf nicht künstlich aufbläht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Aachen 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Wenn Hochzeitsmusik Aachen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+        "paragraphs": [
+          "Bei knappen Zeitfenstern in Aachen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
+          "Der Unterschied zu Mettmann liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Aachen 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Ablauf",

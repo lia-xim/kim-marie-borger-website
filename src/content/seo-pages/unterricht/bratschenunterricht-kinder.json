@@ -17,30 +17,69 @@
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Unterricht mit klarem Fokus",
-    "title": "Bratschenunterricht Kinder heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
-    "lede": "Wer nach Bratschenunterricht Kinder sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht einen Unterricht, der Konzentration, Bewegung und Neugier in kindgerechte Schritte übersetzt. Diese Seite achtet besonders auf altersgerechte Instrumentengröße, kurze Aufgaben und Erfolgserlebnisse.",
-    "paragraphs": [
-      "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
-      "Kinder lernen über Klang, Bilder, Wiederholung und kleine Rituale, nicht über lange technische Vorträge.",
-      "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
-      "Einfache Lieder, Rhythmusspiele und kleine Stücke helfen, Technik mit Freude zu verbinden.",
-      "Für Eltern ist wichtig zu wissen, wie zu Hause geübt werden kann, ohne dass Musik zum Streitpunkt wird.",
-      "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
-      "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
-      "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
-      "Bei Bratschenunterricht Kinder steht spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Bratschenunterricht.",
-      "Im Unterricht ist das Ziel nicht ein schneller Effekt, sondern ein tragfaehiger nächster Schritt. Bratschenunterricht Kinder wird deshalb nach Lernstand, Körpergefühl, Klangvorstellung und Uebealltag geplant.",
-      "Der Kern von Bratschenunterricht Kinder ist spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Bilder, Wiederholung, Elternkommunikation, passende Instrumentengroesse die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll.",
-      "Die klare Abgrenzung zu Bratschenunterricht lautet: nicht erwachsene Übeziele übertragen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Bilder, Wiederholung, Elternkommunikation, passende Instrumentengroesse. Das verhindert, dass Bratschenunterricht Kinder nur wie eine Variante der Hauptleistung klingt.",
-      "Auch spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Bratschenunterricht, Kinder. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
-    ],
-    "seal": "Kinder\nKlang & Technik\npersönlich"
+    "seal": "Kinder\nKlang & Technik\npersönlich",
+    "sections": [
+      {
+        "title": "Bratschenunterricht Kinder heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
+        "lede": "Wer nach Bratschenunterricht Kinder sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht einen Unterricht, der Konzentration, Bewegung und Neugier in kindgerechte Schritte übersetzt. Diese Seite achtet besonders auf altersgerechte Instrumentengröße, kurze Aufgaben und Erfolgserlebnisse.",
+        "paragraphs": [
+          "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
+          "Kinder lernen über Klang, Bilder, Wiederholung und kleine Rituale, nicht über lange technische Vorträge.",
+          "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
+          "Einfache Lieder, Rhythmusspiele und kleine Stücke helfen, Technik mit Freude zu verbinden.",
+          "Für Eltern ist wichtig zu wissen, wie zu Hause geübt werden kann, ohne dass Musik zum Streitpunkt wird."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Bratschenunterricht Kinder mit Viola und Bratsche 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Unterricht mit klarem Fokus"
+      },
+      {
+        "title": "Bratschenunterricht Kinder im Ablauf sinnvoll einsetzen.",
+        "lede": "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
+        "paragraphs": [
+          "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
+          "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
+          "Bei Bratschenunterricht Kinder steht spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Bratschenunterricht.",
+          "Im Unterricht ist das Ziel nicht ein schneller Effekt, sondern ein tragfaehiger nächster Schritt. Bratschenunterricht Kinder wird deshalb nach Lernstand, Körpergefühl, Klangvorstellung und Uebealltag geplant."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Bratschenunterricht Kinder mit Viola und Bratsche 1"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Der Kern von Bratschenunterricht Kinder ist spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+        "paragraphs": [
+          "Für die Planung sind Bilder, Wiederholung, Elternkommunikation, passende Instrumentengroesse die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll.",
+          "Die klare Abgrenzung zu Bratschenunterricht lautet: nicht erwachsene Übeziele übertragen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Bilder, Wiederholung, Elternkommunikation, passende Instrumentengroesse. Das verhindert, dass Bratschenunterricht Kinder nur wie eine Variante der Hauptleistung klingt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Bratschenunterricht Kinder mit Viola und Bratsche 2"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Auch spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+        "paragraphs": [
+          "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Bratschenunterricht, Kinder. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Bratschenunterricht Kinder mit Viola und Bratsche 1"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

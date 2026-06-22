@@ -17,31 +17,70 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Musik Hochzeitszeremonie braucht eine eigene musikalische Planung.",
-    "lede": "Diese Seite bündelt die gesamte Zeremonie: Einzug, Ringe, Ja-Wort, Unterschrift, Auszug. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Standesamt, Kirche, freie Trauung oder Outdoor-Zeremonie.",
-    "paragraphs": [
-      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
-      "Ich plane nicht nur einzelne Stücke, sondern die Übergänge zwischen ihnen.",
-      "Eine Zeremonie wirkt ruhiger, wenn Musik an wenigen klaren Stellen sitzt, statt überall etwas zu füllen.",
-      "Wenn ein Wunschlied geplant ist, prüfe ich Melodie, Tonart und Wirkung für Solo-Viola. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
-      "Für Musik Hochzeitszeremonie klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
-      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
-      "Wichtig ist, dass Musik Hochzeitszeremonie nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
-      "Der Fokus bleibt eng genug, damit Paare sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Musik Hochzeitszeremonie.",
-      "Bei Musik Hochzeitszeremonie steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Hochzeitsempfang.",
-      "Bei Musik Hochzeitszeremonie steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Zur Trauung.",
-      "Gerade bei Hochzeiten hilft eine klare Begrenzung. Diese Seite schaut auf Musik, Hochzeitszeremonie, damit Empfang, Dinner oder Zeremonie nicht in denselben Ton fallen.",
-      "Der Kern von Musik Hochzeitszeremonie ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Musik Hochzeitsempfang lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Trauversprechen, Rituale, Einzug, Ringmoment, konzentrierte Aufmerksamkeit verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Startsignal, Ablaufpunkte, Wunschlied, Raum, Zeremonieform. Das verhindert, dass Musik Hochzeitszeremonie nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Trauversprechen, Rituale, Einzug, Ringmoment, konzentrierte Aufmerksamkeit ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Musik, Hochzeitszeremonie. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
-    ],
-    "seal": "Zeremonie\nHochzeit\nLive-Viola"
+    "seal": "Zeremonie\nHochzeit\nLive-Viola",
+    "sections": [
+      {
+        "title": "Musik Hochzeitszeremonie braucht eine eigene musikalische Planung.",
+        "lede": "Diese Seite bündelt die gesamte Zeremonie: Einzug, Ringe, Ja-Wort, Unterschrift, Auszug. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Standesamt, Kirche, freie Trauung oder Outdoor-Zeremonie.",
+        "paragraphs": [
+          "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
+          "Ich plane nicht nur einzelne Stücke, sondern die Übergänge zwischen ihnen.",
+          "Eine Zeremonie wirkt ruhiger, wenn Musik an wenigen klaren Stellen sitzt, statt überall etwas zu füllen.",
+          "Wenn ein Wunschlied geplant ist, prüfe ich Melodie, Tonart und Wirkung für Solo-Viola. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
+          "Für Musik Hochzeitszeremonie klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Musik Hochzeitszeremonie 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Musik Hochzeitszeremonie im Ablauf sinnvoll einsetzen.",
+        "lede": "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+        "paragraphs": [
+          "Wichtig ist, dass Musik Hochzeitszeremonie nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+          "Der Fokus bleibt eng genug, damit Paare sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Musik Hochzeitszeremonie.",
+          "Bei Musik Hochzeitszeremonie steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Hochzeitsempfang.",
+          "Bei Musik Hochzeitszeremonie steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Zur Trauung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Musik Hochzeitszeremonie 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Gerade bei Hochzeiten hilft eine klare Begrenzung. Diese Seite schaut auf Musik, Hochzeitszeremonie, damit Empfang, Dinner oder Zeremonie nicht in denselben Ton fallen.",
+        "paragraphs": [
+          "Der Kern von Musik Hochzeitszeremonie ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+          "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+          "Die klare Abgrenzung zu Musik Hochzeitsempfang lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "Trauversprechen, Rituale, Einzug, Ringmoment, konzentrierte Aufmerksamkeit verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola für Musik Hochzeitszeremonie 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Bei der Abstimmung schaue ich besonders auf Startsignal, Ablaufpunkte, Wunschlied, Raum, Zeremonieform. Das verhindert, dass Musik Hochzeitszeremonie nur wie eine Variante der Hauptleistung klingt.",
+        "paragraphs": [
+          "Auch Trauversprechen, Rituale, Einzug, Ringmoment, konzentrierte Aufmerksamkeit ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+          "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Musik, Hochzeitszeremonie. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Musik Hochzeitszeremonie 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Planung",

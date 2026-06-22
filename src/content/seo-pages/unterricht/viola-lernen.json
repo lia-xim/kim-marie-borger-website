@@ -17,31 +17,70 @@
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Unterricht mit klarem Fokus",
-    "title": "Viola Lernen heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
-    "lede": "Wer nach Viola lernen sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht einen Einstieg in Ton, Haltung und musikalische Sicherheit. Diese Seite ist für Menschen gedacht, die nicht allgemein Streichunterricht suchen, sondern die Viola als eigenes Instrument wahrnehmen.",
-    "paragraphs": [
-      "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
-      "Wir starten mit tragfähigem Klang und überschaubaren Bewegungen, bevor die Stücke komplexer werden.",
-      "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
-      "Einfache Melodien, klassische Grundlagen und später moderne Stücke können sich gut ergänzen.",
-      "Beim Viola lernen ist Hören besonders wichtig, weil der warme Klang aus Kontakt, Gewicht und Ruhe entsteht.",
-      "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
-      "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
-      "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
-      "Bei Viola lernen steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikunterricht Viola.",
-      "Im Unterricht ist das Ziel nicht ein schneller Effekt, sondern ein tragfaehiger nächster Schritt. Viola lernen wird deshalb nach Lernstand, Körpergefühl, Klangvorstellung und Uebealltag geplant.",
-      "Der Kern von Viola lernen ist warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Bogen, Resonanz, Arrangement, Raumklang die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll.",
-      "Die klare Abgrenzung zu Musikunterricht Viola lautet: nicht wie Geige oder Cello beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Aufbau, Wiederholung, Körpergefühl, kleine Fortschritte verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Übeplan, Technik, Klang, Geduld, nächstes Ziel. Das verhindert, dass Viola lernen nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Aufbau, Wiederholung, Körpergefühl, kleine Fortschritte ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Viola, Lernen. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
-      "Die klare Abgrenzung zu Viola Unterricht lautet: nicht wie Geige oder Cello beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
-    ],
-    "seal": "Viola lernen\nKlang & Technik\npersönlich"
+    "seal": "Viola lernen\nKlang & Technik\npersönlich",
+    "sections": [
+      {
+        "title": "Viola Lernen heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
+        "lede": "Wer nach Viola lernen sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht einen Einstieg in Ton, Haltung und musikalische Sicherheit. Diese Seite ist für Menschen gedacht, die nicht allgemein Streichunterricht suchen, sondern die Viola als eigenes Instrument wahrnehmen.",
+        "paragraphs": [
+          "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
+          "Wir starten mit tragfähigem Klang und überschaubaren Bewegungen, bevor die Stücke komplexer werden.",
+          "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
+          "Einfache Melodien, klassische Grundlagen und später moderne Stücke können sich gut ergänzen.",
+          "Beim Viola lernen ist Hören besonders wichtig, weil der warme Klang aus Kontakt, Gewicht und Ruhe entsteht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Lernen mit Viola und Bratsche 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Unterricht mit klarem Fokus"
+      },
+      {
+        "title": "Viola lernen im Ablauf sinnvoll einsetzen.",
+        "lede": "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
+        "paragraphs": [
+          "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
+          "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
+          "Bei Viola lernen steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikunterricht Viola.",
+          "Im Unterricht ist das Ziel nicht ein schneller Effekt, sondern ein tragfaehiger nächster Schritt. Viola lernen wird deshalb nach Lernstand, Körpergefühl, Klangvorstellung und Uebealltag geplant."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Viola Lernen mit Viola und Bratsche 1"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Der Kern von Viola lernen ist warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+        "paragraphs": [
+          "Für die Planung sind Bogen, Resonanz, Arrangement, Raumklang die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll.",
+          "Die klare Abgrenzung zu Musikunterricht Viola lautet: nicht wie Geige oder Cello beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "Aufbau, Wiederholung, Körpergefühl, kleine Fortschritte verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Übeplan, Technik, Klang, Geduld, nächstes Ziel. Das verhindert, dass Viola lernen nur wie eine Variante der Hauptleistung klingt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Lernen mit Viola und Bratsche 2"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Auch Aufbau, Wiederholung, Körpergefühl, kleine Fortschritte ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+        "paragraphs": [
+          "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Viola, Lernen. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+          "Die klare Abgrenzung zu Viola Unterricht lautet: nicht wie Geige oder Cello beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Viola Lernen mit Viola und Bratsche 1"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

@@ -17,38 +17,77 @@
     "badge": "Kammermusik, Salon & Kulturformat"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Ein Viola-Programm in Hagen muss zum Raum und Publikum passen.",
-    "lede": "Gäste hören häufig aufmerksam, wenn das Programm einen nachvollziehbaren Bogen hat. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
-    "paragraphs": [
-      "Hagen verbindet Sauerlandnähe, Kulturorte, Volme und regionale Veranstaltungen mit weiterem Einzugsgebiet.",
-      "Passend sind Kulturabend, Lesung, Kammerkonzert, Empfang, Vernissage oder ein privates Programm mit Blick ins Grüne.",
-      "Anreise, Wetteroptionen und ein klarer Aufbauplatz sind bei Randlagen besonders wichtig.",
-      "Gäste hören häufig aufmerksam, wenn das Programm einen nachvollziehbaren Bogen hat.",
-      "Ein Hagener Programm darf landschaftliche Ruhe und expressive Stücke verbinden.",
-      "Für Viola Konzert Hagen ist der Ton bewusst getragen, regional und offen. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
-      "Ich plane die Musik nicht als austauschbare Liste. Entscheidend ist, ob die Viola zuhören lässt, einen Text rahmt, Kunst begleitet oder einen Empfang kultivierter macht.",
-      "Die Länge entsteht aus Anlass und Aufmerksamkeit: dreißig Minuten können perfekt sein, wenn sie präzise gebaut sind; ein längerer Abend braucht Pausen und Kontraste.",
-      "Wenn Wunschstücke geplant sind, prüfe ich, ob sie solistisch tragen und wie sie dramaturgisch eingebettet werden können.",
-      "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
-      "Bei Vernissagen in Hagen darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
-      "Bei Lesungen in Hagen achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
-      "Für Salonkonzerte in Hagen plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
-      "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block.",
-      "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
-      "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
-      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
-      "Wer in Hagen anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Volme, Sauerlandnähe, Kulturorte, grünere Randlagen und regionales Publikum bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
-      "Die wichtigste Vorbereitung in Hagen: Wetteroptionen, Anreise und ein genauer Aufbauplatz. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Hagen sind Gäste, die ruhige Boegen und natürliche Moderation moegen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Hagen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Duisburg liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Hagen passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Viola Konzert Hagen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Hagen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
-      "Der Unterschied zu Siegen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
-    ],
-    "seal": "Hagen\nKonzert\nViola"
+    "seal": "Hagen\nKonzert\nViola",
+    "sections": [
+      {
+        "title": "Ein Viola-Programm in Hagen muss zum Raum und Publikum passen.",
+        "lede": "Gäste hören häufig aufmerksam, wenn das Programm einen nachvollziehbaren Bogen hat. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
+        "paragraphs": [
+          "Hagen verbindet Sauerlandnähe, Kulturorte, Volme und regionale Veranstaltungen mit weiterem Einzugsgebiet.",
+          "Passend sind Kulturabend, Lesung, Kammerkonzert, Empfang, Vernissage oder ein privates Programm mit Blick ins Grüne.",
+          "Anreise, Wetteroptionen und ein klarer Aufbauplatz sind bei Randlagen besonders wichtig.",
+          "Gäste hören häufig aufmerksam, wenn das Programm einen nachvollziehbaren Bogen hat.",
+          "Ein Hagener Programm darf landschaftliche Ruhe und expressive Stücke verbinden.",
+          "Für Viola Konzert Hagen ist der Ton bewusst getragen, regional und offen. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
+          "Ich plane die Musik nicht als austauschbare Liste. Entscheidend ist, ob die Viola zuhören lässt, einen Text rahmt, Kunst begleitet oder einen Empfang kultivierter macht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Hagen mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Viola Konzert Hagen im Ablauf sinnvoll einsetzen.",
+        "lede": "Die Länge entsteht aus Anlass und Aufmerksamkeit: dreißig Minuten können perfekt sein, wenn sie präzise gebaut sind; ein längerer Abend braucht Pausen und Kontraste.",
+        "paragraphs": [
+          "Wenn Wunschstücke geplant sind, prüfe ich, ob sie solistisch tragen und wie sie dramaturgisch eingebettet werden können.",
+          "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
+          "Bei Vernissagen in Hagen darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
+          "Bei Lesungen in Hagen achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
+          "Für Salonkonzerte in Hagen plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
+          "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Hagen mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
+        "paragraphs": [
+          "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
+          "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
+          "Wer in Hagen anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Volme, Sauerlandnähe, Kulturorte, grünere Randlagen und regionales Publikum bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
+          "Die wichtigste Vorbereitung in Hagen: Wetteroptionen, Anreise und ein genauer Aufbauplatz. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+          "Typisch für Hagen sind Gäste, die ruhige Boegen und natürliche Moderation moegen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+          "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Hagen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Hagen mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Der Unterschied zu Duisburg liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+        "paragraphs": [
+          "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Hagen passt und den Ablauf nicht künstlich aufbläht.",
+          "Wenn Viola Konzert Hagen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+          "Bei knappen Zeitfenstern in Hagen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
+          "Der Unterschied zu Siegen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Hagen mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

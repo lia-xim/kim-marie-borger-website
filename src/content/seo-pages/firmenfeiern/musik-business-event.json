@@ -17,38 +17,77 @@
     "badge": "Live-Viola für Unternehmen"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Musik Business Event braucht einen eigenen musikalischen Fokus.",
-    "lede": "Unternehmen, Agenturen und Organisationen mit repräsentativem Anlass suchen keine beliebige Musik, sondern eine Lösung für Konferenzabend, Kundenveranstaltung, Empfang, Panel-Ausklang, Dinner oder Netzwerkformat.",
-    "paragraphs": [
-      "Business Event ist ein breiter Begriff; gesucht wird meist Musik, die professionell wirkt und den Ablauf nicht stört.",
-      "Ich setze die Viola als eleganten Rahmen ein, der Gespräch, Marke und offiziellen Teil unterstützt.",
-      "Diese Seite unterscheidet sich von Firmenfeier, weil der Fokus stärker auf Repräsentation, Außenwirkung und Geschäftsbeziehungen liegt.",
-      "Wichtig sind Corporate-Kontext, Gästeprofil, Branding, Timing, Lautstärke und die Frage, ob Musik sichtbar oder subtil bleiben soll.",
-      "Ein Solo-Instrument kann sehr hochwertig wirken, ohne die Veranstaltung in Richtung Showformat zu verschieben.",
-      "Bei Musik Business Event beginne ich mit der Frage, welche Aufgabe die Musik im Business-Ablauf übernimmt: einladend, verbindend, festlich, dezent oder als klarer Akzent.",
-      "Die Setlänge hängt nicht nur von der gebuchten Zeit ab. Wichtig ist, wann Gäste wirklich hören, wann sie sprechen, wann Service läuft und wann ein offizieller Programmpunkt Aufmerksamkeit braucht.",
-      "Ich plane deshalb nicht einfach eine Stückliste, sondern die Rolle der Musik im Ablauf: Ankommen, Begrüßung, Essen, Rede, Pause oder Ausklang.",
-      "Ich wähle Repertoire so aus, dass es auf der Viola verständlich bleibt. Manche bekannten Stücke wirken ohne Gesang wunderbar, andere verlieren ohne Text ihren Sinn und werden besser ersetzt.",
-      "Auch die Platzierung im Raum gehört zur Planung. Zu nah am Buffet ist Musik oft im Weg, zu weit entfernt verliert sie Wirkung. Die beste Position unterstützt Bewegung und Blickrichtung der Gäste.",
-      "Für Musik Business Event kann klassische Musik passend sein, aber auch moderne Melodien, ruhige Pop-Bearbeitungen oder reduzierte instrumentale Linien. Entscheidend ist der Anlass, nicht eine starre Stil-Schublade.",
-      "Für Unternehmen ist Planbarkeit genauso wichtig wie Atmosphäre. Deshalb gehören Ablauf, Rechnung, Kontaktperson und Timing zur musikalischen Vorbereitung.",
-      "Die organisatorische Seite bleibt bewusst klar: Termin, Ort, Kontaktperson, Rechnungsdaten, Dresscode, gewünschte Spielzeit und eventuelle Besonderheiten der Location.",
-      "Wenn Agentur, Assistenz, Location und Unternehmen beteiligt sind, kann ich die musikalischen Eckpunkte kurz und verbindlich abstimmen, damit am Veranstaltungstag niemand lange erklären muss.",
-      "Der rote Faden ist immer derselbe: Musik soll den Anlass veredeln, ohne Gespräche, Service oder offizielle Programmpunkte zu verdrängen.",
-      "Für eine erste Einschätzung reichen wenige Angaben. Danach kann ich vorschlagen, ob ein durchgehender Rahmen, mehrere kurze Sets oder ein einzelner musikalischer Moment die sauberste Lösung ist.",
-      "Bei Musik Business Event steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Jubiläum.",
-      "Business-Musik darf hochwertig wirken und trotzdem diskret bleiben. Diese Seite trennt Musik, Business, Event bewusst von Gala, Messe, Dinner oder allgemeiner Hintergrundmusik.",
-      "Der Kern von Musik Business Event ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola repräsentativ, dezent, elegant, verbindend oder als kurzer Akzent wirken soll.",
-      "Die klare Abgrenzung zu Musik Jubiläum lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Empfang, Networking, Marke, Professionalitaet, dezente Wertigkeit verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Lautstärke, Reden, Zeitfenster, Gästefluss, Raumakustik. Das verhindert, dass Musik Business Event nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Ablauf, Gästefluss, Markenbild, Raumenergie, flexible Rollen ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Eventformat, Location, Gästezahl, Zeitfenster, Reden, Dinnerablauf und die gewünschte Rolle der Musik. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Musik, Business, Event. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
-    ],
-    "seal": "Musik Business Event\nBusiness\nLive-Viola"
+    "seal": "Musik Business Event\nBusiness\nLive-Viola",
+    "sections": [
+      {
+        "title": "Musik Business Event braucht einen eigenen musikalischen Fokus.",
+        "lede": "Unternehmen, Agenturen und Organisationen mit repräsentativem Anlass suchen keine beliebige Musik, sondern eine Lösung für Konferenzabend, Kundenveranstaltung, Empfang, Panel-Ausklang, Dinner oder Netzwerkformat.",
+        "paragraphs": [
+          "Business Event ist ein breiter Begriff; gesucht wird meist Musik, die professionell wirkt und den Ablauf nicht stört.",
+          "Ich setze die Viola als eleganten Rahmen ein, der Gespräch, Marke und offiziellen Teil unterstützt.",
+          "Diese Seite unterscheidet sich von Firmenfeier, weil der Fokus stärker auf Repräsentation, Außenwirkung und Geschäftsbeziehungen liegt.",
+          "Wichtig sind Corporate-Kontext, Gästeprofil, Branding, Timing, Lautstärke und die Frage, ob Musik sichtbar oder subtil bleiben soll.",
+          "Ein Solo-Instrument kann sehr hochwertig wirken, ohne die Veranstaltung in Richtung Showformat zu verschieben.",
+          "Bei Musik Business Event beginne ich mit der Frage, welche Aufgabe die Musik im Business-Ablauf übernimmt: einladend, verbindend, festlich, dezent oder als klarer Akzent.",
+          "Die Setlänge hängt nicht nur von der gebuchten Zeit ab. Wichtig ist, wann Gäste wirklich hören, wann sie sprechen, wann Service läuft und wann ein offizieller Programmpunkt Aufmerksamkeit braucht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Kim Marie Borger spielt Live-Viola für Musik Business Event bei einem Business-Anlass"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Musik Business Event im Ablauf sinnvoll einsetzen.",
+        "lede": "Ich plane deshalb nicht einfach eine Stückliste, sondern die Rolle der Musik im Ablauf: Ankommen, Begrüßung, Essen, Rede, Pause oder Ausklang.",
+        "paragraphs": [
+          "Ich wähle Repertoire so aus, dass es auf der Viola verständlich bleibt. Manche bekannten Stücke wirken ohne Gesang wunderbar, andere verlieren ohne Text ihren Sinn und werden besser ersetzt.",
+          "Auch die Platzierung im Raum gehört zur Planung. Zu nah am Buffet ist Musik oft im Weg, zu weit entfernt verliert sie Wirkung. Die beste Position unterstützt Bewegung und Blickrichtung der Gäste.",
+          "Für Musik Business Event kann klassische Musik passend sein, aber auch moderne Melodien, ruhige Pop-Bearbeitungen oder reduzierte instrumentale Linien. Entscheidend ist der Anlass, nicht eine starre Stil-Schublade.",
+          "Für Unternehmen ist Planbarkeit genauso wichtig wie Atmosphäre. Deshalb gehören Ablauf, Rechnung, Kontaktperson und Timing zur musikalischen Vorbereitung.",
+          "Die organisatorische Seite bleibt bewusst klar: Termin, Ort, Kontaktperson, Rechnungsdaten, Dresscode, gewünschte Spielzeit und eventuelle Besonderheiten der Location.",
+          "Wenn Agentur, Assistenz, Location und Unternehmen beteiligt sind, kann ich die musikalischen Eckpunkte kurz und verbindlich abstimmen, damit am Veranstaltungstag niemand lange erklären muss."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
+          "alt": "Live-Viola für Musik Business Event mit Solo-Viola und Noten"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Der rote Faden ist immer derselbe: Musik soll den Anlass veredeln, ohne Gespräche, Service oder offizielle Programmpunkte zu verdrängen.",
+        "paragraphs": [
+          "Für eine erste Einschätzung reichen wenige Angaben. Danach kann ich vorschlagen, ob ein durchgehender Rahmen, mehrere kurze Sets oder ein einzelner musikalischer Moment die sauberste Lösung ist.",
+          "Bei Musik Business Event steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Jubiläum.",
+          "Business-Musik darf hochwertig wirken und trotzdem diskret bleiben. Diese Seite trennt Musik, Business, Event bewusst von Gala, Messe, Dinner oder allgemeiner Hintergrundmusik.",
+          "Der Kern von Musik Business Event ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+          "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola repräsentativ, dezent, elegant, verbindend oder als kurzer Akzent wirken soll.",
+          "Die klare Abgrenzung zu Musik Jubiläum lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Kim Marie Borger spielt Live-Viola für Musik Business Event bei einem Business-Anlass"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Empfang, Networking, Marke, Professionalitaet, dezente Wertigkeit verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+        "paragraphs": [
+          "Bei der Abstimmung schaue ich besonders auf Lautstärke, Reden, Zeitfenster, Gästefluss, Raumakustik. Das verhindert, dass Musik Business Event nur wie eine Variante der Hauptleistung klingt.",
+          "Auch Ablauf, Gästefluss, Markenbild, Raumenergie, flexible Rollen ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+          "Eine gute Anfrage nennt Eventformat, Location, Gästezahl, Zeitfenster, Reden, Dinnerablauf und die gewünschte Rolle der Musik. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Musik, Business, Event. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz92c-viola-1566624_1280.jpg",
+          "alt": "Live-Viola für Musik Business Event mit Solo-Viola und Noten"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

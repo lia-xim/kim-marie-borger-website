@@ -10,6 +10,9 @@ import { execSync } from 'node:child_process';
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const branch = process.env.GITHUB_BRANCH || process.env.VERCEL_GIT_COMMIT_REF || process.env.HEAD || 'main';
 
+// Prepare freshly uploaded CMS images before Tina/Astro read the content.
+execSync('node scripts/optimize-images.mjs', { stdio: 'inherit', shell: true });
+
 // Update the image manifest before the Astro build so freshly uploaded CMS
 // images have width/height/srcset metadata.
 execSync('node scripts/image-manifest.mjs', { stdio: 'inherit', shell: true });

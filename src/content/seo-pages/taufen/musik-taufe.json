@@ -17,38 +17,77 @@
     "badge": "Sanfte Viola für Familie & Kirche"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Musik Taufe braucht einen eigenen Schwerpunkt.",
-    "lede": "Familien, die noch am Anfang der musikalischen Planung stehen suchen Musik für Taufe, Segnung, Gottesdienst, Einzug, Taufhandlung, Auszug oder Empfang. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
-    "paragraphs": [
-      "Musik Taufe ist der zentrale Überblicksbegriff und muss Ablauf, Repertoire und Buchung verständlich bündeln.",
-      "Ich plane wenige, klare Einsätze, die der Taufe Halt geben und nicht neben ihr stehen.",
-      "Wir klären zuerst den Rahmen, dann Einsatzpunkte, Wunschlieder und mögliche Abstimmungen mit Kirche oder Rednerin.",
-      "Viola ist für Taufen besonders geeignet, weil sie warm klingt und auch kleine Räume nicht überfordert.",
-      "Bei Musik Taufe geht es zuerst um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
-      "Ein persönliches Familienlied kann anstelle einer langen Stückliste den ganzen Tag zusammenhalten.",
-      "Wenn mehrere Kinder getauft werden, plane ich die Musik so, dass der Gottesdienst nicht unnötig länger wird.",
-      "Danach geht es um die konkreten Einsatzpunkte, damit Musik nicht zufällig beginnt, sondern dem Ablauf wirklich Halt gibt.",
-      "Die Auswahl der Stücke entsteht aus Raum, Familiengefühl und gewünschter Stimmung, nicht aus einer pauschalen Taufmusik-Liste.",
-      "Wenn eine Pfarrperson, Rednerin oder Kirchenmusikerin beteiligt ist, können die musikalischen Stellen vorab ruhig abgestimmt werden.",
-      "Ich wähle Stücke danach aus, ob sie auf der Viola wirklich funktionieren. Nicht jedes bekannte Lied behält ohne Text dieselbe Wirkung, und nicht jeder Klassiker passt automatisch zu Kind, Raum und Familie.",
-      "Die Länge ist ebenfalls wichtig. Ein kurzer musikalischer Ausschnitt kann stärker sein als eine vollständige Version, wenn er genau an der richtigen Stelle steht.",
-      "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken.",
-      "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten.",
-      "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
-      "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln.",
-      "Bei Musik Taufe steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Gottesdienst Taufe.",
-      "Kirchliche Feiern wirken schnell überladen, wenn jeder Moment Musik bekommt. Diese Seite ordnet Musik, Taufe nach Ritual, Lesung, Segen, Auszug und anschließender Familienfeier.",
-      "Der Kern von Musik Taufe ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Musik Gottesdienst Taufe lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Kind, Familie, Segen, heller Anfang, Kirchenraum verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Taufhandlung, Lesung, Auszug, Familienfeier. Das verhindert, dass Musik Taufe nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Kind, Familie, Segen, heller Anfang, Kirchenraum ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Musik, Taufe. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
-    ],
-    "seal": "Musik Taufe\nTaufe\nLive-Viola"
+    "seal": "Musik Taufe\nTaufe\nLive-Viola",
+    "sections": [
+      {
+        "title": "Musik Taufe braucht einen eigenen Schwerpunkt.",
+        "lede": "Familien, die noch am Anfang der musikalischen Planung stehen suchen Musik für Taufe, Segnung, Gottesdienst, Einzug, Taufhandlung, Auszug oder Empfang. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
+        "paragraphs": [
+          "Musik Taufe ist der zentrale Überblicksbegriff und muss Ablauf, Repertoire und Buchung verständlich bündeln.",
+          "Ich plane wenige, klare Einsätze, die der Taufe Halt geben und nicht neben ihr stehen.",
+          "Wir klären zuerst den Rahmen, dann Einsatzpunkte, Wunschlieder und mögliche Abstimmungen mit Kirche oder Rednerin.",
+          "Viola ist für Taufen besonders geeignet, weil sie warm klingt und auch kleine Räume nicht überfordert.",
+          "Bei Musik Taufe geht es zuerst um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
+          "Ein persönliches Familienlied kann anstelle einer langen Stückliste den ganzen Tag zusammenhalten.",
+          "Wenn mehrere Kinder getauft werden, plane ich die Musik so, dass der Gottesdienst nicht unnötig länger wird."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Live-Viola für Musik Taufe im ruhigen Tauf- und Familienrahmen"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Musik Taufe im Ablauf sinnvoll einsetzen.",
+        "lede": "Danach geht es um die konkreten Einsatzpunkte, damit Musik nicht zufällig beginnt, sondern dem Ablauf wirklich Halt gibt.",
+        "paragraphs": [
+          "Die Auswahl der Stücke entsteht aus Raum, Familiengefühl und gewünschter Stimmung, nicht aus einer pauschalen Taufmusik-Liste.",
+          "Wenn eine Pfarrperson, Rednerin oder Kirchenmusikerin beteiligt ist, können die musikalischen Stellen vorab ruhig abgestimmt werden.",
+          "Ich wähle Stücke danach aus, ob sie auf der Viola wirklich funktionieren. Nicht jedes bekannte Lied behält ohne Text dieselbe Wirkung, und nicht jeder Klassiker passt automatisch zu Kind, Raum und Familie.",
+          "Die Länge ist ebenfalls wichtig. Ein kurzer musikalischer Ausschnitt kann stärker sein als eine vollständige Version, wenn er genau an der richtigen Stelle steht.",
+          "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken.",
+          "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Kim Marie Borger spielt Live-Viola für Musik Taufe"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
+        "paragraphs": [
+          "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln.",
+          "Bei Musik Taufe steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Gottesdienst Taufe.",
+          "Kirchliche Feiern wirken schnell überladen, wenn jeder Moment Musik bekommt. Diese Seite ordnet Musik, Taufe nach Ritual, Lesung, Segen, Auszug und anschließender Familienfeier.",
+          "Der Kern von Musik Taufe ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+          "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+          "Die klare Abgrenzung zu Musik Gottesdienst Taufe lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
+          "alt": "Live-Viola für Musik Taufe mit sanfter Live-Viola"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Kind, Familie, Segen, heller Anfang, Kirchenraum verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+        "paragraphs": [
+          "Bei der Abstimmung schaue ich besonders auf Taufhandlung, Lesung, Auszug, Familienfeier. Das verhindert, dass Musik Taufe nur wie eine Variante der Hauptleistung klingt.",
+          "Auch Kind, Familie, Segen, heller Anfang, Kirchenraum ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+          "Eine gute Anfrage nennt Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Musik, Taufe. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Live-Viola für Musik Taufe im ruhigen Tauf- und Familienrahmen"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

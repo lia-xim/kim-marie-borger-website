@@ -40,15 +40,15 @@ const leistungen = [
 		<a href={normalizeHref('/ueber-mich')}>Über mich</a>
 		<a href={normalizeHref('/anfragen')}>Anfragen</a>
 	</nav>
-	<button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
+	<button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
 </header>
-<nav class="mobile-menu" id="mobileMenu">
+<nav class="mobile-menu" id="mobileMenu" aria-hidden="true" inert>
 	<a href="/">Start</a>
 	<div class="mm-group" id="mmGroup">
 		<button class="mm-toggle" type="button" aria-expanded="false" aria-controls="mmSub">Leistungen
 			<svg class="mm-caret" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
 		</button>
-		<div class="mm-sub" id="mmSub">
+		<div class="mm-sub" id="mmSub" aria-hidden="true" inert>
 			<div class="mm-sub-in">
 	{leistungen.filter((l) => l.href !== normalizeHref('/anfragen')).map((l) => <a href={l.href}>{l.label}</a>)}
 			</div>

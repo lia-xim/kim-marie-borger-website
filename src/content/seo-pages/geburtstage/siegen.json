@@ -17,18 +17,37 @@
     "badge": "Für private Feiern in Siegen"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Geburtstagsmusik in Siegen: bewusst geplant statt spontan dazugestellt.",
-    "lede": "Im Siegerland sind Feiern oft familiär, räumlich etwas weiter verteilt und zeitlich klarer getaktet. Deshalb plane ich die Musik für Siegen als verlässliches Set mit genug Puffer vor dem ersten Ton.",
-    "paragraphs": [
-      "Für Siegen steht am Anfang die Frage, welche Aufgabe die Musik übernehmen soll: ein stiller Gruß, ein festlicher Empfang, ein persönliches Wunschlied oder ein kurzer Programmpunkt zwischen Kaffee, Rede und Abendessen.",
-      "Weil Anfahrt und Aufbau bei weiter entfernten Feiern sorgfältig sitzen müssen, bespreche ich den Ablauf besonders konkret: Adresse, Raum, Parkmöglichkeit, Ansprechpartner:in und Zeitpunkt des ersten Einsatzes.",
-      "Musikalisch funktioniert ein konzentriertes Set sehr gut. Die Viola kann ein bekanntes Stück tragen, danach eine kleine Folge warmer Melodien spielen und den Moment wieder freigeben, bevor die Feier in Gespräche übergeht.",
-      "Bei Familienfeiern im Siegerland ist oft wichtig, dass die Musik mehrere Generationen erreicht, ohne zu laut oder zu feierlich zu werden. Ich wähle deshalb Stücke mit Wiedererkennung, aber ohne Show-Charakter.",
-      "Wenn draußen gefeiert wird, klären wir Wind, Schatten und einen geschützten Platz. Wenn drinnen gefeiert wird, geht es eher um Abstand, Blickrichtung und darum, wie nah die Musik an der Hauptperson sein darf.",
-      "Für die Anfrage in Siegen helfen Datum, genaue Location, geplanter Ablauf, Wunschlied und eine kurze Beschreibung der Person, für die die Musik gedacht ist.",
-      "Fuer Live Musik Geburtstag Siegen plane ich zuerst die Rolle der Musik: ein dezenter Rahmen fuer Essen und Gespräche. Danach entsteht die Stueckauswahl. So bleibt die Viola nicht austauschbare Unterhaltung, sondern ein Moment, der zur gefeierten Person und zur Situation passt.",
-      "Wichtig sind dabei Startsignal, Blickrichtung und Laenge. Gerade bei Geburtstagen veraendert ein kleines Detail den ganzen Eindruck: ob die Musik sichtbar beginnt, ob sie nach wenigen Minuten wieder zuruecktritt oder ob sie den Uebergang zum Dinner ruhig mitnimmt."
+    "sections": [
+      {
+        "title": "Geburtstagsmusik in Siegen: bewusst geplant statt spontan dazugestellt.",
+        "lede": "Im Siegerland sind Feiern oft familiär, räumlich etwas weiter verteilt und zeitlich klarer getaktet. Deshalb plane ich die Musik für Siegen als verlässliches Set mit genug Puffer vor dem ersten Ton.",
+        "paragraphs": [
+          "Für Siegen steht am Anfang die Frage, welche Aufgabe die Musik übernehmen soll: ein stiller Gruß, ein festlicher Empfang, ein persönliches Wunschlied oder ein kurzer Programmpunkt zwischen Kaffee, Rede und Abendessen.",
+          "Weil Anfahrt und Aufbau bei weiter entfernten Feiern sorgfältig sitzen müssen, bespreche ich den Ablauf besonders konkret: Adresse, Raum, Parkmöglichkeit, Ansprechpartner:in und Zeitpunkt des ersten Einsatzes.",
+          "Musikalisch funktioniert ein konzentriertes Set sehr gut. Die Viola kann ein bekanntes Stück tragen, danach eine kleine Folge warmer Melodien spielen und den Moment wieder freigeben, bevor die Feier in Gespräche übergeht.",
+          "Bei Familienfeiern im Siegerland ist oft wichtig, dass die Musik mehrere Generationen erreicht, ohne zu laut oder zu feierlich zu werden. Ich wähle deshalb Stücke mit Wiedererkennung, aber ohne Show-Charakter."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola für Geburtstagsmusik: Siegen - Bild 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Live Musik Geburtstag Siegen im Ablauf sinnvoll einsetzen.",
+        "lede": "Wenn draußen gefeiert wird, klären wir Wind, Schatten und einen geschützten Platz. Wenn drinnen gefeiert wird, geht es eher um Abstand, Blickrichtung und darum, wie nah die Musik an der Hauptperson sein darf.",
+        "paragraphs": [
+          "Für die Anfrage in Siegen helfen Datum, genaue Location, geplanter Ablauf, Wunschlied und eine kurze Beschreibung der Person, für die die Musik gedacht ist.",
+          "Fuer Live Musik Geburtstag Siegen plane ich zuerst die Rolle der Musik: ein dezenter Rahmen fuer Essen und Gespräche. Danach entsteht die Stueckauswahl. So bleibt die Viola nicht austauschbare Unterhaltung, sondern ein Moment, der zur gefeierten Person und zur Situation passt.",
+          "Wichtig sind dabei Startsignal, Blickrichtung und Laenge. Gerade bei Geburtstagen veraendert ein kleines Detail den ganzen Eindruck: ob die Musik sichtbar beginnt, ob sie nach wenigen Minuten wieder zuruecktritt oder ob sie den Uebergang zum Dinner ruhig mitnimmt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Geburtstagsmusik: Siegen - Bild 3"
+        },
+        "imageFirst": true
+      }
     ]
   },
   "faq": {

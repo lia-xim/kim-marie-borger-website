@@ -29,7 +29,7 @@ export function imageDims(src: string | undefined | null): Dims | undefined {
 }
 
 export function isOptimizable(src: string | undefined | null): src is string {
-	return typeof src === 'string' && src.startsWith('/uploads/') && /\.(jpe?g|png)$/i.test(src);
+	return typeof src === 'string' && src.startsWith('/uploads/') && /\.(jpe?g|png|webp)$/i.test(src);
 }
 
 export function vercelImg(src: string, width: number, quality = 75): string {

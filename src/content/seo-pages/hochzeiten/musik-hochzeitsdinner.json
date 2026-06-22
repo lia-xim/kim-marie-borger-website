@@ -17,30 +17,69 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Musik Hochzeitsdinner braucht eine eigene musikalische Planung.",
-    "lede": "Beim Dinner darf Musik nie gegen Gespräche oder Service arbeiten. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Restaurant, Saal, Schloss, Terrasse oder privater Raum.",
-    "paragraphs": [
-      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
-      "Mehrere kurze Sets zwischen Gängen, Toasts oder Reden sind meist eleganter als Dauerbegleitung.",
-      "Die Viola kann den Raum wärmen und trotzdem leise genug bleiben, damit Tische miteinander sprechen.",
-      "Vorab klären wir Startsignal, gewünschte Länge, mögliche Pausen und den Punkt, an dem das Stück natürlich enden darf. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
-      "Für Musik Hochzeitsdinner klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
-      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
-      "Wichtig ist, dass Musik Hochzeitsdinner nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
-      "Bei Musik Hochzeitsdinner steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Dinnermusik Hochzeit.",
-      "Bei Musik Hochzeitsdinner steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Während Trauung.",
-      "Gerade bei Hochzeiten hilft eine klare Begrenzung. Diese Seite schaut auf Musik, Hochzeitsdinner, damit Empfang, Dinner oder Zeremonie nicht in denselben Ton fallen.",
-      "Der Kern von Musik Hochzeitsdinner ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Musik Während Trauung lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Dinner, Tischgespräche, Reden, warme Begleitung, festlicher Abend verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Gange, Servicewege, Toasts, Lautstärke, Setpausen. Das verhindert, dass Musik Hochzeitsdinner nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Dinner, Tischgespräche, Reden, warme Begleitung, festlicher Abend ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Musik, Hochzeitsdinner. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
-    ],
-    "seal": "Hochzeitsdinner\nHochzeit\nLive-Viola"
+    "seal": "Hochzeitsdinner\nHochzeit\nLive-Viola",
+    "sections": [
+      {
+        "title": "Musik Hochzeitsdinner braucht eine eigene musikalische Planung.",
+        "lede": "Beim Dinner darf Musik nie gegen Gespräche oder Service arbeiten. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Restaurant, Saal, Schloss, Terrasse oder privater Raum.",
+        "paragraphs": [
+          "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
+          "Mehrere kurze Sets zwischen Gängen, Toasts oder Reden sind meist eleganter als Dauerbegleitung.",
+          "Die Viola kann den Raum wärmen und trotzdem leise genug bleiben, damit Tische miteinander sprechen.",
+          "Vorab klären wir Startsignal, gewünschte Länge, mögliche Pausen und den Punkt, an dem das Stück natürlich enden darf. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
+          "Für Musik Hochzeitsdinner klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Musik Hochzeitsdinner 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Musik Hochzeitsdinner im Ablauf sinnvoll einsetzen.",
+        "lede": "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+        "paragraphs": [
+          "Wichtig ist, dass Musik Hochzeitsdinner nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+          "Bei Musik Hochzeitsdinner steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Dinnermusik Hochzeit.",
+          "Bei Musik Hochzeitsdinner steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Während Trauung.",
+          "Gerade bei Hochzeiten hilft eine klare Begrenzung. Diese Seite schaut auf Musik, Hochzeitsdinner, damit Empfang, Dinner oder Zeremonie nicht in denselben Ton fallen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Musik Hochzeitsdinner 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Der Kern von Musik Hochzeitsdinner ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+        "paragraphs": [
+          "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+          "Die klare Abgrenzung zu Musik Während Trauung lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "Dinner, Tischgespräche, Reden, warme Begleitung, festlicher Abend verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Gange, Servicewege, Toasts, Lautstärke, Setpausen. Das verhindert, dass Musik Hochzeitsdinner nur wie eine Variante der Hauptleistung klingt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola für Musik Hochzeitsdinner 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Auch Dinner, Tischgespräche, Reden, warme Begleitung, festlicher Abend ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+        "paragraphs": [
+          "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Musik, Hochzeitsdinner. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Musik Hochzeitsdinner 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Planung",

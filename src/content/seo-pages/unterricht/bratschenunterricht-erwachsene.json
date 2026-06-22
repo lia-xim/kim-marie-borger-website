@@ -17,22 +17,51 @@
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Unterricht mit klarem Fokus",
-    "title": "Bratschenunterricht für Erwachsene darf anders anfangen.",
-    "lede": "Erwachsene bringen Fragen mit, die im normalen Anfängertext oft fehlen: wenig Zeit, hohe Ansprüche, alte Bewegungsmuster oder der Wunsch, endlich ein Streichinstrument zu verstehen.",
-    "paragraphs": [
-      "Bei Erwachsenen schaue ich zuerst auf Alltag und Ziel: Wie viel Übezeit ist realistisch, was soll musikalisch möglich werden, und welche körperlichen Gewohnheiten helfen oder stören?",
-      "Ein später Einstieg ist kein Nachteil, wenn der Unterricht klar strukturiert ist. Erwachsene verstehen Zusammenhänge oft schnell; die Kunst liegt darin, Technik nicht zu verkopfen.",
-      "Wir arbeiten mit kleinen, überprüfbaren Aufgaben: Bogenkontakt, entspannte linke Hand, saubere Wechsel, sicherer Rhythmus und Stücke, die motivieren, ohne zu überfordern.",
-      "Wiedereinsteiger:innen brauchen eine andere Route als komplette Anfänger:innen. Alte Fähigkeiten werden geprüft, aber nicht romantisiert; was noch trägt, bleibt, was Spannung erzeugt, wird neu sortiert.",
-      "Diese Seite grenzt sich vom allgemeinen Bratschenunterricht ab: Hier geht es um erwachsene Lernrealität, nicht um einen Einstieg für alle Altersgruppen.",
-      "Für die Anfrage helfen Vorerfahrung, Wunschrepertoire, vorhandenes Instrument, Zeitfenster, Übemöglichkeit und die Frage, ob du eher neu anfängst oder zurückkehrst.",
-      "Fuer erwachsene Lernende ist die erste Frage selten nur technisch. Wichtig sind Zeitfenster, Koerpergefuehl, Vorerfahrung und die Frage, welche Musik wirklich motiviert. Daraus entsteht ein Uebeplan, der auch neben Beruf, Familie oder unregelmaessigen Wochen funktioniert.",
-      "Ich arbeite im Erwachsenenunterricht mit kleinen, nachvollziehbaren Schritten: Klang hoeren, Bewegung spueren, Ursache verstehen und erst dann die naechste Aufgabe ergaenzen. So bleibt Bratsche lernen konkret und wird nicht zu einer Sammlung abstrakter Korrekturen.",
-      "Im naechsten Schritt geht es bei Erwachsenen oft um Selbstkorrektur: Wie erkenne ich, ob der Bogen wirklich ruhig laeuft, ob die linke Hand greift statt drueckt und ob eine Uebung gerade hilft oder nur Wiederholung erzeugt? Diese Fragen werden im Unterricht bewusst mitgeuebt.",
-      "Gerade fuer Erwachsene ist auch der Umgang mit Frust wichtig. Kleine Tonleitern, kurze Stuecke und gezielte Wiederholungen werden so dosiert, dass Fortschritt hoerbar wird, ohne dass jede Stunde wie eine Pruefung wirkt."
-    ],
-    "seal": "Erwachsene\nKlang & Technik\npersönlich"
+    "seal": "Erwachsene\nKlang & Technik\npersönlich",
+    "sections": [
+      {
+        "title": "Bratschenunterricht für Erwachsene darf anders anfangen.",
+        "lede": "Erwachsene bringen Fragen mit, die im normalen Anfängertext oft fehlen: wenig Zeit, hohe Ansprüche, alte Bewegungsmuster oder der Wunsch, endlich ein Streichinstrument zu verstehen.",
+        "paragraphs": [
+          "Bei Erwachsenen schaue ich zuerst auf Alltag und Ziel: Wie viel Übezeit ist realistisch, was soll musikalisch möglich werden, und welche körperlichen Gewohnheiten helfen oder stören?",
+          "Ein später Einstieg ist kein Nachteil, wenn der Unterricht klar strukturiert ist. Erwachsene verstehen Zusammenhänge oft schnell; die Kunst liegt darin, Technik nicht zu verkopfen.",
+          "Wir arbeiten mit kleinen, überprüfbaren Aufgaben: Bogenkontakt, entspannte linke Hand, saubere Wechsel, sicherer Rhythmus und Stücke, die motivieren, ohne zu überfordern.",
+          "Wiedereinsteiger:innen brauchen eine andere Route als komplette Anfänger:innen. Alte Fähigkeiten werden geprüft, aber nicht romantisiert; was noch trägt, bleibt, was Spannung erzeugt, wird neu sortiert."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola- und Bratschenunterricht: Bratschenunterricht Erwachsene - Bild 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Unterricht mit klarem Fokus"
+      },
+      {
+        "title": "Bratschenunterricht Erwachsene im Ablauf sinnvoll einsetzen.",
+        "lede": "Diese Seite grenzt sich vom allgemeinen Bratschenunterricht ab: Hier geht es um erwachsene Lernrealität, nicht um einen Einstieg für alle Altersgruppen.",
+        "paragraphs": [
+          "Für die Anfrage helfen Vorerfahrung, Wunschrepertoire, vorhandenes Instrument, Zeitfenster, Übemöglichkeit und die Frage, ob du eher neu anfängst oder zurückkehrst.",
+          "Fuer erwachsene Lernende ist die erste Frage selten nur technisch. Wichtig sind Zeitfenster, Koerpergefuehl, Vorerfahrung und die Frage, welche Musik wirklich motiviert. Daraus entsteht ein Uebeplan, der auch neben Beruf, Familie oder unregelmaessigen Wochen funktioniert.",
+          "Ich arbeite im Erwachsenenunterricht mit kleinen, nachvollziehbaren Schritten: Klang hoeren, Bewegung spueren, Ursache verstehen und erst dann die naechste Aufgabe ergaenzen. So bleibt Bratsche lernen konkret und wird nicht zu einer Sammlung abstrakter Korrekturen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Viola- und Bratschenunterricht: Bratschenunterricht Erwachsene - Bild 1"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Im naechsten Schritt geht es bei Erwachsenen oft um Selbstkorrektur: Wie erkenne ich, ob der Bogen wirklich ruhig laeuft, ob die linke Hand greift statt drueckt und ob eine Uebung gerade hilft oder nur Wiederholung erzeugt? Diese Fragen werden im Unterricht bewusst mitgeuebt.",
+        "paragraphs": [
+          "Gerade fuer Erwachsene ist auch der Umgang mit Frust wichtig. Kleine Tonleitern, kurze Stuecke und gezielte Wiederholungen werden so dosiert, dass Fortschritt hoerbar wird, ohne dass jede Stunde wie eine Pruefung wirkt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola- und Bratschenunterricht: Bratschenunterricht Erwachsene - Bild 2"
+        },
+        "imageFirst": false
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

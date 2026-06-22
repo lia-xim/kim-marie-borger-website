@@ -383,6 +383,22 @@ fragment SeoPageParts on SeoPage {
     eyebrow
     title
     lede
+    sections {
+      __typename
+      eyebrow
+      title
+      lede
+      paragraphs
+      image {
+        __typename
+        src
+        alt
+      }
+      imageFirst
+      figureClass
+      aspect
+      titleWidth
+    }
     paragraphs
     seal
   }

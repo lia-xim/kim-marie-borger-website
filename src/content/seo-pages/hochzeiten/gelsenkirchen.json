@@ -17,32 +17,71 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Live-Musik zur Hochzeit in Gelsenkirchen braucht mehr als eine schöne Stückliste.",
-    "lede": "Gelsenkirchen bedeutet für Hochzeiten oft: Buer, Schalke, Ückendorf und herzliche Hochzeiten im Ruhrgebiet. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
-    "paragraphs": [
-      "Typische Rahmen sind Kirche, Standesamt, Vereinsraum, Restaurant oder freier Trauort. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
-      "Der Klang soll emotional mit genug Raum für Worte und Blicke sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
-      "Die Musik bekommt feste Momente, bleibt aber flexibel, falls sich der Ablauf verschiebt. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
-      "Für Gelsenkirchen kläre ich vorab auch die praktischen Details: Ankunft und erster Einsatz so planen, dass keine Unruhe entsteht. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
-      "Wenn Gäste aus mehreren Städten anreisen, hilft ein klarer musikalischer Beginn, damit der Tag sofort gesammelt wirkt. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
-      "Das Repertoire kann klassische Stücke, moderne Songs und ein persönliches Wunschlied verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
-      "In Gelsenkirchen darf Hochzeitsmusik oft bodenständig und emotional zugleich sein. Buer, Ückendorf oder kleinere Feierräume verlangen weniger Show und mehr verlässliches Timing, damit Einzug, Ringtausch und Gratulationen natürlich ineinander greifen.",
-      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
-      "In Gelsenkirchen prüfe ich besonders Parken, Raumzugang und eindeutiger erster Einsatz. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
-      "Gäste, die einen ehrlichen Live-Moment statt großer Geste suchen. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
-      "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Gelsenkirchen über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
-      "Für Gelsenkirchen plane ich Hochzeitsmusik Gelsenkirchen zuerst vom echten Ablauf her: lokale Säle, Ruhrgebietskultur, persönliche Feiern und offizielle Empfangsformate. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
-      "Die wichtigste Vorbereitung in Gelsenkirchen: Parken, Raumzugang und eindeutiger erster Einsatz. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Gelsenkirchen sind Gäste, die einen ehrlichen Live-Moment statt großer Geste suchen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Gelsenkirchen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Wülfrath liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Gelsenkirchen passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Hochzeitsmusik Gelsenkirchen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Gelsenkirchen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
-      "Der Unterschied zu Bottrop liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
-    ],
-    "seal": "Gelsenkirchen\nTrauung & Empfang\nLive-Viola"
+    "seal": "Gelsenkirchen\nTrauung & Empfang\nLive-Viola",
+    "sections": [
+      {
+        "title": "Live-Musik zur Hochzeit in Gelsenkirchen braucht mehr als eine schöne Stückliste.",
+        "lede": "Gelsenkirchen bedeutet für Hochzeiten oft: Buer, Schalke, Ückendorf und herzliche Hochzeiten im Ruhrgebiet. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
+        "paragraphs": [
+          "Typische Rahmen sind Kirche, Standesamt, Vereinsraum, Restaurant oder freier Trauort. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
+          "Der Klang soll emotional mit genug Raum für Worte und Blicke sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
+          "Die Musik bekommt feste Momente, bleibt aber flexibel, falls sich der Ablauf verschiebt. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
+          "Für Gelsenkirchen kläre ich vorab auch die praktischen Details: Ankunft und erster Einsatz so planen, dass keine Unruhe entsteht. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
+          "Wenn Gäste aus mehreren Städten anreisen, hilft ein klarer musikalischer Beginn, damit der Tag sofort gesammelt wirkt. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Gelsenkirchen 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Hochzeitsmusik Gelsenkirchen im Ablauf sinnvoll einsetzen.",
+        "lede": "Das Repertoire kann klassische Stücke, moderne Songs und ein persönliches Wunschlied verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
+        "paragraphs": [
+          "In Gelsenkirchen darf Hochzeitsmusik oft bodenständig und emotional zugleich sein. Buer, Ückendorf oder kleinere Feierräume verlangen weniger Show und mehr verlässliches Timing, damit Einzug, Ringtausch und Gratulationen natürlich ineinander greifen.",
+          "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
+          "In Gelsenkirchen prüfe ich besonders Parken, Raumzugang und eindeutiger erster Einsatz. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+          "Gäste, die einen ehrlichen Live-Moment statt großer Geste suchen. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Gelsenkirchen 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Gelsenkirchen über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
+        "paragraphs": [
+          "Für Gelsenkirchen plane ich Hochzeitsmusik Gelsenkirchen zuerst vom echten Ablauf her: lokale Säle, Ruhrgebietskultur, persönliche Feiern und offizielle Empfangsformate. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
+          "Die wichtigste Vorbereitung in Gelsenkirchen: Parken, Raumzugang und eindeutiger erster Einsatz. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+          "Typisch für Gelsenkirchen sind Gäste, die einen ehrlichen Live-Moment statt großer Geste suchen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+          "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Gelsenkirchen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Gelsenkirchen 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Der Unterschied zu Wülfrath liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+        "paragraphs": [
+          "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Gelsenkirchen passt und den Ablauf nicht künstlich aufbläht.",
+          "Wenn Hochzeitsmusik Gelsenkirchen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+          "Bei knappen Zeitfenstern in Gelsenkirchen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
+          "Der Unterschied zu Bottrop liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Gelsenkirchen 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Ablauf",

@@ -17,39 +17,78 @@
     "badge": "Sanfte Viola für Familie & Kirche"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Musikerin Taufe braucht einen eigenen Schwerpunkt.",
-    "lede": "Eltern und Paten, die eine konkrete Musikerin für den Tauftag buchen möchten suchen Musik für Kirche, freie Segnung, Willkommensfest, Empfang oder Familienfeier. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
-    "paragraphs": [
-      "Ich begleite mit Solo-Viola, klarer Absprache und einem ruhigen Ablauf, der Eltern entlastet.",
-      "Diese Seite unterscheidet sich von Live Musik Taufe durch die konkrete Frage nach einer Musikerin.",
-      "Wichtig sind Termin, Ort, gewünschte Stücke, Ansprechperson und ob ich Kirche oder Rednerin einbinden soll.",
-      "Eine Solo-Musikerin ist ideal, wenn der Rahmen persönlich bleiben und trotzdem professionell vorbereitet sein soll.",
-      "Bei Musikerin Taufe geht es zuerst um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
-      "Nach der Taufhandlung kann ein kurzer musikalischer Moment stärker wirken als ein langes Zusatzprogramm.",
-      "Ein persönliches Familienlied kann anstelle einer langen Stückliste den ganzen Tag zusammenhalten.",
-      "Organisatorisch reichen zuerst Datum, Ort, Uhrzeit, Art der Feier und zwei bis drei musikalische Wünsche.",
-      "Danach geht es um die konkreten Einsatzpunkte, damit Musik nicht zufällig beginnt, sondern dem Ablauf wirklich Halt gibt.",
-      "Für Wunschlieder prüfe ich, ob die Melodie solo auf der Viola trägt und ob ein kurzer Ausschnitt stärker ist als die ganze Version.",
-      "Ich wähle Stücke danach aus, ob sie auf der Viola wirklich funktionieren. Nicht jedes bekannte Lied behält ohne Text dieselbe Wirkung, und nicht jeder Klassiker passt automatisch zu Kind, Raum und Familie.",
-      "Die Länge ist ebenfalls wichtig. Ein kurzer musikalischer Ausschnitt kann stärker sein als eine vollständige Version, wenn er genau an der richtigen Stelle steht.",
-      "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken.",
-      "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten.",
-      "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
-      "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln.",
-      "Bei Musikerin Taufe steht Ansprechperson, Planung, Auftritt, musikalische Verantwortung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Konfirmation.",
-      "Kirchliche Feiern wirken schnell überladen, wenn jeder Moment Musik bekommt. Diese Seite ordnet Musikerin, Taufe nach Ritual, Lesung, Segen, Auszug und anschließender Familienfeier.",
-      "Der Kern von Musikerin Taufe ist Ansprechperson, Planung, Auftritt, musikalische Verantwortung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Kommunikation, Repertoire, Platzierung, Timing die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Live Musik Taufe lautet: nicht nur Instrument nennen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Kind, Familie, Segen, heller Anfang, Kirchenraum verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Taufhandlung, Lesung, Auszug, Familienfeier. Das verhindert, dass Musikerin Taufe nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Kind, Familie, Segen, heller Anfang, Kirchenraum ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Musikerin, Taufe. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
-      "Die klare Abgrenzung zu Instrumentalmusik Taufe lautet: nicht nur Instrument nennen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
-    ],
-    "seal": "Musikerin Taufe\nTaufe\nLive-Viola"
+    "seal": "Musikerin Taufe\nTaufe\nLive-Viola",
+    "sections": [
+      {
+        "title": "Musikerin Taufe braucht einen eigenen Schwerpunkt.",
+        "lede": "Eltern und Paten, die eine konkrete Musikerin für den Tauftag buchen möchten suchen Musik für Kirche, freie Segnung, Willkommensfest, Empfang oder Familienfeier. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
+        "paragraphs": [
+          "Ich begleite mit Solo-Viola, klarer Absprache und einem ruhigen Ablauf, der Eltern entlastet.",
+          "Diese Seite unterscheidet sich von Live Musik Taufe durch die konkrete Frage nach einer Musikerin.",
+          "Wichtig sind Termin, Ort, gewünschte Stücke, Ansprechperson und ob ich Kirche oder Rednerin einbinden soll.",
+          "Eine Solo-Musikerin ist ideal, wenn der Rahmen persönlich bleiben und trotzdem professionell vorbereitet sein soll.",
+          "Bei Musikerin Taufe geht es zuerst um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
+          "Nach der Taufhandlung kann ein kurzer musikalischer Moment stärker wirken als ein langes Zusatzprogramm.",
+          "Ein persönliches Familienlied kann anstelle einer langen Stückliste den ganzen Tag zusammenhalten."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Live-Viola für Musikerin Taufe im ruhigen Tauf- und Familienrahmen"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Musikerin Taufe im Ablauf sinnvoll einsetzen.",
+        "lede": "Organisatorisch reichen zuerst Datum, Ort, Uhrzeit, Art der Feier und zwei bis drei musikalische Wünsche.",
+        "paragraphs": [
+          "Danach geht es um die konkreten Einsatzpunkte, damit Musik nicht zufällig beginnt, sondern dem Ablauf wirklich Halt gibt.",
+          "Für Wunschlieder prüfe ich, ob die Melodie solo auf der Viola trägt und ob ein kurzer Ausschnitt stärker ist als die ganze Version.",
+          "Ich wähle Stücke danach aus, ob sie auf der Viola wirklich funktionieren. Nicht jedes bekannte Lied behält ohne Text dieselbe Wirkung, und nicht jeder Klassiker passt automatisch zu Kind, Raum und Familie.",
+          "Die Länge ist ebenfalls wichtig. Ein kurzer musikalischer Ausschnitt kann stärker sein als eine vollständige Version, wenn er genau an der richtigen Stelle steht.",
+          "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken.",
+          "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Kim Marie Borger spielt Live-Viola für Musikerin Taufe"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
+        "paragraphs": [
+          "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln.",
+          "Bei Musikerin Taufe steht Ansprechperson, Planung, Auftritt, musikalische Verantwortung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Konfirmation.",
+          "Kirchliche Feiern wirken schnell überladen, wenn jeder Moment Musik bekommt. Diese Seite ordnet Musikerin, Taufe nach Ritual, Lesung, Segen, Auszug und anschließender Familienfeier.",
+          "Der Kern von Musikerin Taufe ist Ansprechperson, Planung, Auftritt, musikalische Verantwortung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+          "Für die Planung sind Kommunikation, Repertoire, Platzierung, Timing die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+          "Die klare Abgrenzung zu Live Musik Taufe lautet: nicht nur Instrument nennen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
+          "alt": "Live-Viola für Musikerin Taufe mit sanfter Live-Viola"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Kind, Familie, Segen, heller Anfang, Kirchenraum verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+        "paragraphs": [
+          "Bei der Abstimmung schaue ich besonders auf Taufhandlung, Lesung, Auszug, Familienfeier. Das verhindert, dass Musikerin Taufe nur wie eine Variante der Hauptleistung klingt.",
+          "Auch Kind, Familie, Segen, heller Anfang, Kirchenraum ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+          "Eine gute Anfrage nennt Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Musikerin, Taufe. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+          "Die klare Abgrenzung zu Instrumentalmusik Taufe lautet: nicht nur Instrument nennen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Live-Viola für Musikerin Taufe im ruhigen Tauf- und Familienrahmen"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

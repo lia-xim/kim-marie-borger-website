@@ -17,18 +17,37 @@
     "badge": "Für private Feiern in Hagen"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Geburtstagsmusik in Hagen braucht ein klares Startsignal.",
-    "lede": "Zwischen Volme, Hohenlimburg, privaten Gärten und Räumen am Sauerlandrand ist entscheidend, wann die Musik wirklich beginnen soll. Ich plane deshalb zuerst das Zeichen, dann erst die Stückfolge.",
-    "paragraphs": [
-      "In Hagen passt Live-Musik besonders gut, wenn sie nicht als langes Programm gedacht ist. Ein einzelner musikalischer Moment kann die gefeierte Person abholen, ohne Gespräche, Essen oder Gratulationen zu verdrängen.",
-      "Wenn die Musik als Überraschung geplant ist, klären wir vorher diskret den Weg in den Raum, die richtige Position und die Person, die mir das Startsignal gibt. Dadurch bleibt der Moment leicht und wirkt trotzdem vorbereitet.",
-      "Für Feiern in Hohenlimburg, in einem Restaurant oder draußen am Rand der Stadt spielt auch die Akustik mit. Ein kleiner Innenraum braucht einen anderen Ton als eine Terrasse, auf der Gäste stehen und sich bewegen.",
-      "Ich empfehle für Hagen oft eine kurze Dramaturgie: erst ein persönliches Wunschstück, danach zwei bis drei ruhige Melodien als Nachklang. So bleibt die Musik ein Geschenk und wird nicht zum Hintergrundteppich.",
-      "Wichtig ist die Person, für die gespielt wird: Lieblingslied, Alter, Humor, Familie und Anlass entscheiden mehr als eine allgemeine Geburtstags-Playlist.",
-      "Für deine Anfrage reichen Datum, Stadtteil oder Location in Hagen, Gästezahl, gewünschter Überraschungsgrad und ein Hinweis, ob die Musik vor einer Rede, beim Empfang oder am Tisch passieren soll.",
-      "Fuer Live Musik Geburtstag Hagen plane ich zuerst die Rolle der Musik: ein dezenter Rahmen fuer Essen und Gespräche. Danach entsteht die Stueckauswahl. So bleibt die Viola nicht austauschbare Unterhaltung, sondern ein Moment, der zur gefeierten Person und zur Situation passt.",
-      "Wichtig sind dabei Startsignal, Blickrichtung und Laenge. Gerade bei Geburtstagen veraendert ein kleines Detail den ganzen Eindruck: ob die Musik sichtbar beginnt, ob sie nach wenigen Minuten wieder zuruecktritt oder ob sie den Uebergang zum Dinner ruhig mitnimmt."
+    "sections": [
+      {
+        "title": "Geburtstagsmusik in Hagen braucht ein klares Startsignal.",
+        "lede": "Zwischen Volme, Hohenlimburg, privaten Gärten und Räumen am Sauerlandrand ist entscheidend, wann die Musik wirklich beginnen soll. Ich plane deshalb zuerst das Zeichen, dann erst die Stückfolge.",
+        "paragraphs": [
+          "In Hagen passt Live-Musik besonders gut, wenn sie nicht als langes Programm gedacht ist. Ein einzelner musikalischer Moment kann die gefeierte Person abholen, ohne Gespräche, Essen oder Gratulationen zu verdrängen.",
+          "Wenn die Musik als Überraschung geplant ist, klären wir vorher diskret den Weg in den Raum, die richtige Position und die Person, die mir das Startsignal gibt. Dadurch bleibt der Moment leicht und wirkt trotzdem vorbereitet.",
+          "Für Feiern in Hohenlimburg, in einem Restaurant oder draußen am Rand der Stadt spielt auch die Akustik mit. Ein kleiner Innenraum braucht einen anderen Ton als eine Terrasse, auf der Gäste stehen und sich bewegen.",
+          "Ich empfehle für Hagen oft eine kurze Dramaturgie: erst ein persönliches Wunschstück, danach zwei bis drei ruhige Melodien als Nachklang. So bleibt die Musik ein Geschenk und wird nicht zum Hintergrundteppich."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola für Geburtstagsmusik: Hagen - Bild 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Live Musik Geburtstag Hagen im Ablauf sinnvoll einsetzen.",
+        "lede": "Wichtig ist die Person, für die gespielt wird: Lieblingslied, Alter, Humor, Familie und Anlass entscheiden mehr als eine allgemeine Geburtstags-Playlist.",
+        "paragraphs": [
+          "Für deine Anfrage reichen Datum, Stadtteil oder Location in Hagen, Gästezahl, gewünschter Überraschungsgrad und ein Hinweis, ob die Musik vor einer Rede, beim Empfang oder am Tisch passieren soll.",
+          "Fuer Live Musik Geburtstag Hagen plane ich zuerst die Rolle der Musik: ein dezenter Rahmen fuer Essen und Gespräche. Danach entsteht die Stueckauswahl. So bleibt die Viola nicht austauschbare Unterhaltung, sondern ein Moment, der zur gefeierten Person und zur Situation passt.",
+          "Wichtig sind dabei Startsignal, Blickrichtung und Laenge. Gerade bei Geburtstagen veraendert ein kleines Detail den ganzen Eindruck: ob die Musik sichtbar beginnt, ob sie nach wenigen Minuten wieder zuruecktritt oder ob sie den Uebergang zum Dinner ruhig mitnimmt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Geburtstagsmusik: Hagen - Bild 3"
+        },
+        "imageFirst": true
+      }
     ]
   },
   "faq": {

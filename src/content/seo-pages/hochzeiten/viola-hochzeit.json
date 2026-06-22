@@ -17,30 +17,69 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Viola Hochzeit braucht eine eigene musikalische Planung.",
-    "lede": "Diese Seite erklärt die Viola als eigenes Instrument, nicht als Ersatzbegriff. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Trauung, Ringtausch, Ja-Wort, Auszug, Empfang oder Dinner.",
-    "paragraphs": [
-      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
-      "Der warme, mittlere Klang passt gut zu Stimmen, kleinen Räumen und emotionalen Momenten.",
-      "Viola zur Hochzeit ist besonders stark, wenn Musik nah und elegant statt hell und virtuos wirken soll.",
-      "Die Musik bekommt eine klare Aufgabe im Ablauf, damit sie nicht wie eine zufällige Einlage wirkt. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
-      "Für Viola Hochzeit klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
-      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
-      "Wichtig ist, dass Viola Hochzeit nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
-      "Bei Viola Hochzeit steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikerin Hochzeit.",
-      "Bei Viola Hochzeit steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Streichmusik Hochzeit.",
-      "Bei Hochzeiten entscheidet die Reihenfolge der Momente: Einzug, Worte, Ringmoment und Auszug dürfen musikalisch nicht gleich klingen. Viola Hochzeit bekommt deshalb einen eigenen Bogen statt nur ein weiteres Wunschlied.",
-      "Der Kern von Viola Hochzeit ist warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Bogen, Resonanz, Arrangement, Raumklang die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Streichmusik Hochzeit lautet: nicht wie Geige oder Cello beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Zeremonie, Empfang, Familie, Emotion, festlicher Ablauf verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Trauort, Wege, Wunschmusik, Gästezahl, Übergang zum Empfang. Das verhindert, dass Viola Hochzeit nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Zeremonie, Empfang, Familie, Emotion, festlicher Ablauf ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Viola, Hochzeit. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
-    ],
-    "seal": "Viola\nHochzeit\nLive-Viola"
+    "seal": "Viola\nHochzeit\nLive-Viola",
+    "sections": [
+      {
+        "title": "Viola Hochzeit braucht eine eigene musikalische Planung.",
+        "lede": "Diese Seite erklärt die Viola als eigenes Instrument, nicht als Ersatzbegriff. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Trauung, Ringtausch, Ja-Wort, Auszug, Empfang oder Dinner.",
+        "paragraphs": [
+          "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
+          "Der warme, mittlere Klang passt gut zu Stimmen, kleinen Räumen und emotionalen Momenten.",
+          "Viola zur Hochzeit ist besonders stark, wenn Musik nah und elegant statt hell und virtuos wirken soll.",
+          "Die Musik bekommt eine klare Aufgabe im Ablauf, damit sie nicht wie eine zufällige Einlage wirkt. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
+          "Für Viola Hochzeit klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Viola Hochzeit 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Viola Hochzeit im Ablauf sinnvoll einsetzen.",
+        "lede": "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+        "paragraphs": [
+          "Wichtig ist, dass Viola Hochzeit nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+          "Bei Viola Hochzeit steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikerin Hochzeit.",
+          "Bei Viola Hochzeit steht warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Streichmusik Hochzeit.",
+          "Bei Hochzeiten entscheidet die Reihenfolge der Momente: Einzug, Worte, Ringmoment und Auszug dürfen musikalisch nicht gleich klingen. Viola Hochzeit bekommt deshalb einen eigenen Bogen statt nur ein weiteres Wunschlied."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Viola Hochzeit 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Der Kern von Viola Hochzeit ist warmer Mittelklang, menschliche Farbe, seltene Nähe, dunklere Linie. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+        "paragraphs": [
+          "Für die Planung sind Bogen, Resonanz, Arrangement, Raumklang die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+          "Die klare Abgrenzung zu Streichmusik Hochzeit lautet: nicht wie Geige oder Cello beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "Zeremonie, Empfang, Familie, Emotion, festlicher Ablauf verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Trauort, Wege, Wunschmusik, Gästezahl, Übergang zum Empfang. Das verhindert, dass Viola Hochzeit nur wie eine Variante der Hauptleistung klingt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola für Viola Hochzeit 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Auch Zeremonie, Empfang, Familie, Emotion, festlicher Ablauf ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+        "paragraphs": [
+          "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Viola, Hochzeit. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Viola Hochzeit 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Planung",

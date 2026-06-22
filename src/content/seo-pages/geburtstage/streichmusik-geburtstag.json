@@ -17,17 +17,36 @@
     "badge": "Geburtstag persönlich begleiten"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Streichmusik zum Geburtstag lebt vom direkten Klang.",
-    "lede": "Der Schwerpunkt liegt auf der Klangfarbe: Bogen, warme Melodie und ein einzelnes Instrument schaffen Nähe, ohne eine Band- oder Quartett-Situation zu bauen.",
-    "paragraphs": [
-      "Streichmusik meint den besonderen Ton eines gestrichenen Instruments. Auf Solo-Viola klingt dieser Ton wärmer und näher als eine helle Geige, bleibt aber klar melodisch.",
-      "Bei Geburtstagen kann Streichmusik ein Wunschlied tragen, einen Empfang festlich öffnen oder als kurze musikalische Überraschung wirken. Die Musik muss dafür nicht pausenlos laufen.",
-      "Ich wähle Stücke nach Wiedererkennung, Länge und Raum. Ein einzelner Refrain oder ein ruhiger Ausschnitt kann stärker sein als eine komplette Fassung.",
-      "Diese Seite grenzt sich von Hintergrundmusik ab: Hier steht die bewusste Klangfarbe im Vordergrund, nicht nur eine leise Begleitung des Raums.",
-      "Für die Anfrage helfen Anlass, Wunschstück, Raum, Gästezahl und die Frage, ob der Streicherklang sichtbar als Programmpunkt oder dezent eingebunden werden soll.",
-      "Fuer Streichmusik Geburtstag plane ich zuerst die Rolle der Musik: ein persoenliches Wunschlied. Danach entsteht die Stueckauswahl. So bleibt die Viola nicht austauschbare Unterhaltung, sondern ein Moment, der zur gefeierten Person und zur Situation passt.",
-      "Wichtig sind dabei Raumgroesse, Gaestezahl und Pausen. Gerade bei Geburtstagen veraendert ein kleines Detail den ganzen Eindruck: ob die Musik sichtbar beginnt, ob sie nach wenigen Minuten wieder zuruecktritt oder ob sie den Uebergang zum Dinner ruhig mitnimmt."
+    "sections": [
+      {
+        "title": "Streichmusik zum Geburtstag lebt vom direkten Klang.",
+        "lede": "Der Schwerpunkt liegt auf der Klangfarbe: Bogen, warme Melodie und ein einzelnes Instrument schaffen Nähe, ohne eine Band- oder Quartett-Situation zu bauen.",
+        "paragraphs": [
+          "Streichmusik meint den besonderen Ton eines gestrichenen Instruments. Auf Solo-Viola klingt dieser Ton wärmer und näher als eine helle Geige, bleibt aber klar melodisch.",
+          "Bei Geburtstagen kann Streichmusik ein Wunschlied tragen, einen Empfang festlich öffnen oder als kurze musikalische Überraschung wirken. Die Musik muss dafür nicht pausenlos laufen.",
+          "Ich wähle Stücke nach Wiedererkennung, Länge und Raum. Ein einzelner Refrain oder ein ruhiger Ausschnitt kann stärker sein als eine komplette Fassung.",
+          "Diese Seite grenzt sich von Hintergrundmusik ab: Hier steht die bewusste Klangfarbe im Vordergrund, nicht nur eine leise Begleitung des Raums."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola für Geburtstagsmusik: Streichmusik Geburtstag - Bild 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Streichmusik Geburtstag im Ablauf sinnvoll einsetzen.",
+        "lede": "Für die Anfrage helfen Anlass, Wunschstück, Raum, Gästezahl und die Frage, ob der Streicherklang sichtbar als Programmpunkt oder dezent eingebunden werden soll.",
+        "paragraphs": [
+          "Fuer Streichmusik Geburtstag plane ich zuerst die Rolle der Musik: ein persoenliches Wunschlied. Danach entsteht die Stueckauswahl. So bleibt die Viola nicht austauschbare Unterhaltung, sondern ein Moment, der zur gefeierten Person und zur Situation passt.",
+          "Wichtig sind dabei Raumgroesse, Gaestezahl und Pausen. Gerade bei Geburtstagen veraendert ein kleines Detail den ganzen Eindruck: ob die Musik sichtbar beginnt, ob sie nach wenigen Minuten wieder zuruecktritt oder ob sie den Uebergang zum Dinner ruhig mitnimmt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Geburtstagsmusik: Streichmusik Geburtstag - Bild 3"
+        },
+        "imageFirst": true
+      }
     ]
   },
   "faq": {

@@ -17,17 +17,36 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Musik zur Trauung: der Schwerpunkt entscheidet über Klang und Timing.",
-    "lede": "Diese Seite behandelt gezielt ganzer Zeremoniebogen. Dadurch unterscheidet sie sich von allgemeinen Hochzeitsmusik-Seiten: Nicht die Menge der Stücke ist entscheidend, sondern die Funktion im Ablauf.",
-    "paragraphs": [
-      "Bei Musik zur Trauung steht Einzug, Ringe, Ja-Wort und Auszug verbinden im Mittelpunkt. Ich kläre zuerst, ob Musik sammeln, begleiten, einen Übergang öffnen oder bewusst im Hintergrund bleiben soll.",
-      "Für Standesamt, Kirche oder freie Trauung sind Startsignal, Weglänge, Raumakustik und Lautstärke wichtiger als eine lange Wunschliste. Ein Solo-Instrument kann sehr flexibel reagieren, wenn der Ablauf emotional oder organisatorisch anders läuft als geplant.",
-      "Die Viola wirkt warm und elegant, ohne eine große Bühne aufzubauen. Sie kann ein Wunschlied tragen, klassische Musik öffnen oder moderne Melodien so reduzieren, dass sie persönlich bleiben.",
-      "Die Abgrenzung liegt bei roter Faden statt Einzellieder. Deshalb formuliere ich Stückauswahl, FAQ und Kontaktfragen hier anders als auf Ortsseiten oder allgemeinen Momentseiten.",
-      "Für die Anfrage helfen Datum, Ort, Zeremonieform, gewünschter Einsatzpunkt, Lieblingslied und die Frage, ob nach der Trauung noch Empfangs- oder Dinnermusik geplant ist."
-    ],
-    "seal": "Trauung\nHochzeit\nLive-Viola"
+    "seal": "Trauung\nHochzeit\nLive-Viola",
+    "sections": [
+      {
+        "title": "Musik zur Trauung: der Schwerpunkt entscheidet über Klang und Timing.",
+        "lede": "Diese Seite behandelt gezielt ganzer Zeremoniebogen. Dadurch unterscheidet sie sich von allgemeinen Hochzeitsmusik-Seiten: Nicht die Menge der Stücke ist entscheidend, sondern die Funktion im Ablauf.",
+        "paragraphs": [
+          "Bei Musik zur Trauung steht Einzug, Ringe, Ja-Wort und Auszug verbinden im Mittelpunkt. Ich kläre zuerst, ob Musik sammeln, begleiten, einen Übergang öffnen oder bewusst im Hintergrund bleiben soll.",
+          "Für Standesamt, Kirche oder freie Trauung sind Startsignal, Weglänge, Raumakustik und Lautstärke wichtiger als eine lange Wunschliste. Ein Solo-Instrument kann sehr flexibel reagieren, wenn der Ablauf emotional oder organisatorisch anders läuft als geplant.",
+          "Die Viola wirkt warm und elegant, ohne eine große Bühne aufzubauen. Sie kann ein Wunschlied tragen, klassische Musik öffnen oder moderne Melodien so reduzieren, dass sie persönlich bleiben."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Hochzeitsmusik: Musik zur Trauung - Bild 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Musik zur Trauung im Ablauf sinnvoll einsetzen.",
+        "lede": "Die Abgrenzung liegt bei roter Faden statt Einzellieder. Deshalb formuliere ich Stückauswahl, FAQ und Kontaktfragen hier anders als auf Ortsseiten oder allgemeinen Momentseiten.",
+        "paragraphs": [
+          "Für die Anfrage helfen Datum, Ort, Zeremonieform, gewünschter Einsatzpunkt, Lieblingslied und die Frage, ob nach der Trauung noch Empfangs- oder Dinnermusik geplant ist."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Hochzeitsmusik: Musik zur Trauung - Bild 3"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Ablaufentscheidung",

@@ -17,32 +17,71 @@
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Unterricht mit klarem Fokus",
-    "title": "Bratsche Lernen heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
-    "lede": "Wer nach Bratsche lernen sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht Orientierung vor und während des Einstiegs. Diese Seite beantwortet nicht nur Unterrichtsfragen, sondern auch die Grundfrage: Wie fühlt sich Bratsche lernen eigentlich an?",
-    "paragraphs": [
-      "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
-      "Wir beginnen mit Klang, Haltung und einfachen Bewegungen, damit das Instrument nicht fremd bleibt.",
-      "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
-      "Schon früh können kleine Melodien, Kanons oder bekannte Motive auftauchen, solange sie technisch sinnvoll bleiben.",
-      "Wer Bratsche lernen möchte, braucht am Anfang vor allem ein passendes Instrument und eine klare Vorstellung davon, wie Üben funktioniert.",
-      "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
-      "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
-      "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
-      "Bei Bratsche lernen steht warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Bratsche Unterricht.",
-      "Bei Bratsche lernen steht warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Viola Lernen.",
-      "Lernseiten dürfen nicht alle gleich klingen: Bratsche, Lernen hat andere Fragen als Kinderunterricht, Erwachseneneinstieg, Fortgeschrittene oder reine Probestunde.",
-      "Der Kern von Bratsche lernen ist warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Tonbildung, Resonanz, ruhige Artikulation, tragende Melodielinie die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll.",
-      "Die klare Abgrenzung zu Viola Lernen lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Aufbau, Wiederholung, Körpergefühl, kleine Fortschritte verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Übeplan, Technik, Klang, Geduld, nächstes Ziel. Das verhindert, dass Bratsche lernen nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Aufbau, Wiederholung, Körpergefühl, kleine Fortschritte ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Bratsche, Lernen. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
-      "Die klare Abgrenzung zu Bratsche Unterricht lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
-    ],
-    "seal": "Lernweg\nKlang & Technik\npersönlich"
+    "seal": "Lernweg\nKlang & Technik\npersönlich",
+    "sections": [
+      {
+        "title": "Bratsche Lernen heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
+        "lede": "Wer nach Bratsche lernen sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht Orientierung vor und während des Einstiegs. Diese Seite beantwortet nicht nur Unterrichtsfragen, sondern auch die Grundfrage: Wie fühlt sich Bratsche lernen eigentlich an?",
+        "paragraphs": [
+          "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
+          "Wir beginnen mit Klang, Haltung und einfachen Bewegungen, damit das Instrument nicht fremd bleibt.",
+          "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
+          "Schon früh können kleine Melodien, Kanons oder bekannte Motive auftauchen, solange sie technisch sinnvoll bleiben.",
+          "Wer Bratsche lernen möchte, braucht am Anfang vor allem ein passendes Instrument und eine klare Vorstellung davon, wie Üben funktioniert."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Bratsche Lernen mit Viola und Bratsche 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Unterricht mit klarem Fokus"
+      },
+      {
+        "title": "Bratsche lernen im Ablauf sinnvoll einsetzen.",
+        "lede": "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
+        "paragraphs": [
+          "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
+          "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
+          "Bei Bratsche lernen steht warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Bratsche Unterricht.",
+          "Bei Bratsche lernen steht warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Viola Lernen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Bratsche Lernen mit Viola und Bratsche 1"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Lernseiten dürfen nicht alle gleich klingen: Bratsche, Lernen hat andere Fragen als Kinderunterricht, Erwachseneneinstieg, Fortgeschrittene oder reine Probestunde.",
+        "paragraphs": [
+          "Der Kern von Bratsche lernen ist warme Mittellage, satter Bogen, dunklere Farbe, Nähe zur Stimme. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+          "Für die Planung sind Tonbildung, Resonanz, ruhige Artikulation, tragende Melodielinie die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll.",
+          "Die klare Abgrenzung zu Viola Lernen lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "Aufbau, Wiederholung, Körpergefühl, kleine Fortschritte verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Bratsche Lernen mit Viola und Bratsche 2"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Bei der Abstimmung schaue ich besonders auf Übeplan, Technik, Klang, Geduld, nächstes Ziel. Das verhindert, dass Bratsche lernen nur wie eine Variante der Hauptleistung klingt.",
+        "paragraphs": [
+          "Auch Aufbau, Wiederholung, Körpergefühl, kleine Fortschritte ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+          "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Bratsche, Lernen. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+          "Die klare Abgrenzung zu Bratsche Unterricht lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Bratsche Lernen mit Viola und Bratsche 1"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

@@ -17,28 +17,67 @@
     "badge": "Für private Feiern in Münster"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Geburtstagsmusik in Münster muss zum Ort und zur Feier passen.",
-    "lede": "In Münster entstehen Geburtstage sehr unterschiedlich: Altstadt, Aasee und Geburtstage mit heller, kultivierter Atmosphäre. Deshalb plane ich Live-Musik nicht pauschal, sondern nach Anlass, Raumgröße und gewünschter Nähe.",
-    "paragraphs": [
-      "Typische Orte sind Empfang, Hauskonzert oder Dinner in privatem Rahmen. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Ankommen, für ein Wunschlied, als Übergang zum Essen oder als kurzer emotionaler Mittelpunkt.",
-      "Die Sets werden so gesetzt, dass Gratulationen und Gespräche nicht überdeckt werden. Wenn der Geburtstag lebendig und gesprächig ist, bleibt die Musik eher leicht. Wenn ein besonderer Moment geplant ist, darf ein Stück kurz mehr Aufmerksamkeit bekommen.",
-      "Für Münster kläre ich vorab auch die praktischen Details: Anreise und Fahrrad-/Innenstadtlogistik mit genügend Zeitpuffer planen. So bleibt am Tag selbst genug Ruhe für Stimmung, Aufbau und den ersten Ton.",
-      "Das Repertoire kann dezente Klassiker, Pop-Melodien und warme Viola-Klänge verbinden. Entscheidend ist nicht, möglichst viele Stile abzudecken, sondern die Musik an die Person anzupassen, die gefeiert wird.",
-      "Der Klang der Viola bringt Ruhe in den Raum und wirkt persönlicher als eine Playlist. Deshalb arbeite ich mit klaren Zeichen, passenden Pausen und einer Lautstärke, die Glückwünsche und Gespräche respektiert.",
-      "Wenn mehrere Generationen dabei sind, hilft ein ausgewogener Bogen: etwas Vertrautes für die Familie, ein modernes Stück für die persönliche Note und ein ruhiger Ausklang, wenn der offizielle Moment vorbei ist.",
-      "Zusätzlich bespreche ich, wie sichtbar die Musik sein soll. Manche Feiern wünschen einen kleinen Mittelpunkt, andere nur einen besonderen Klang im Hintergrund. Beides funktioniert, wenn Einsatz, Position im Raum und Erwartung der Gäste vorher klar sind.",
-      "In Münster prüfe ich besonders Anfahrt, Einlasszeit und ein gut strukturierter Aufbau. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
-      "aufmerksame Gäste, die klare Form und gute Erklaerung moegen. Deshalb geht es bei Live-Musik zum Geburtstag hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
-      "Anders als bei einer allgemeinen Leistungsseite wird Live Musik Geburtstag Münster über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
-      "Für Münster plane ich Live Musik Geburtstag Münster zuerst vom echten Ablauf her: Prinzipalmarkt, Aasee, Hochschulstadt, Kulturorte und westfaelische Klarheit. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
-      "Die wichtigste Vorbereitung in Münster: Anfahrt, Einlasszeit und ein gut strukturierter Aufbau. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Münster sind aufmerksame Gäste, die klare Form und gute Erklaerung moegen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Geburtstagen steht die gefeierte Person im Mittelpunkt, nicht ein Konzertprogramm ohne Bezug zur Runde. In Münster übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Recklinghausen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Münster passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Live Musik Geburtstag Münster mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Münster ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
+    "sections": [
+      {
+        "title": "Geburtstagsmusik in Münster muss zum Ort und zur Feier passen.",
+        "lede": "In Münster entstehen Geburtstage sehr unterschiedlich: Altstadt, Aasee und Geburtstage mit heller, kultivierter Atmosphäre. Deshalb plane ich Live-Musik nicht pauschal, sondern nach Anlass, Raumgröße und gewünschter Nähe.",
+        "paragraphs": [
+          "Typische Orte sind Empfang, Hauskonzert oder Dinner in privatem Rahmen. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Ankommen, für ein Wunschlied, als Übergang zum Essen oder als kurzer emotionaler Mittelpunkt.",
+          "Die Sets werden so gesetzt, dass Gratulationen und Gespräche nicht überdeckt werden. Wenn der Geburtstag lebendig und gesprächig ist, bleibt die Musik eher leicht. Wenn ein besonderer Moment geplant ist, darf ein Stück kurz mehr Aufmerksamkeit bekommen.",
+          "Für Münster kläre ich vorab auch die praktischen Details: Anreise und Fahrrad-/Innenstadtlogistik mit genügend Zeitpuffer planen. So bleibt am Tag selbst genug Ruhe für Stimmung, Aufbau und den ersten Ton.",
+          "Das Repertoire kann dezente Klassiker, Pop-Melodien und warme Viola-Klänge verbinden. Entscheidend ist nicht, möglichst viele Stile abzudecken, sondern die Musik an die Person anzupassen, die gefeiert wird.",
+          "Der Klang der Viola bringt Ruhe in den Raum und wirkt persönlicher als eine Playlist. Deshalb arbeite ich mit klaren Zeichen, passenden Pausen und einer Lautstärke, die Glückwünsche und Gespräche respektiert."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Münster 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Live Musik Geburtstag Münster im Ablauf sinnvoll einsetzen.",
+        "lede": "Wenn mehrere Generationen dabei sind, hilft ein ausgewogener Bogen: etwas Vertrautes für die Familie, ein modernes Stück für die persönliche Note und ein ruhiger Ausklang, wenn der offizielle Moment vorbei ist.",
+        "paragraphs": [
+          "Zusätzlich bespreche ich, wie sichtbar die Musik sein soll. Manche Feiern wünschen einen kleinen Mittelpunkt, andere nur einen besonderen Klang im Hintergrund. Beides funktioniert, wenn Einsatz, Position im Raum und Erwartung der Gäste vorher klar sind.",
+          "In Münster prüfe ich besonders Anfahrt, Einlasszeit und ein gut strukturierter Aufbau. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+          "aufmerksame Gäste, die klare Form und gute Erklaerung moegen. Deshalb geht es bei Live-Musik zum Geburtstag hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+          "Anders als bei einer allgemeinen Leistungsseite wird Live Musik Geburtstag Münster über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?"
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Münster 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Für Münster plane ich Live Musik Geburtstag Münster zuerst vom echten Ablauf her: Prinzipalmarkt, Aasee, Hochschulstadt, Kulturorte und westfaelische Klarheit. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
+        "paragraphs": [
+          "Die wichtigste Vorbereitung in Münster: Anfahrt, Einlasszeit und ein gut strukturierter Aufbau. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+          "Typisch für Münster sind aufmerksame Gäste, die klare Form und gute Erklaerung moegen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+          "Bei Geburtstagen steht die gefeierte Person im Mittelpunkt, nicht ein Konzertprogramm ohne Bezug zur Runde. In Münster übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+          "Der Unterschied zu Recklinghausen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Münster 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Für die Anfrage sind Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Münster passt und den Ablauf nicht künstlich aufbläht.",
+        "paragraphs": [
+          "Wenn Live Musik Geburtstag Münster mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+          "Bei knappen Zeitfenstern in Münster ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Münster 2"
+        },
+        "imageFirst": true
+      }
     ]
   },
   "faq": {

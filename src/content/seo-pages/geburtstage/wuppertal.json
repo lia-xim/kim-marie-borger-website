@@ -17,28 +17,67 @@
     "badge": "Für private Feiern in Wuppertal"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Geburtstagsmusik in Wuppertal muss zum Ort und zur Feier passen.",
-    "lede": "In Wuppertal entstehen Geburtstage sehr unterschiedlich: Elberfeld, Barmen, Höhenlagen und Feiern entlang der Wupper. Deshalb plane ich Live-Musik nicht pauschal, sondern nach Anlass, Raumgröße und gewünschter Nähe.",
-    "paragraphs": [
-      "Typische Orte sind Altbauwohnung, Garten am Hang oder Restaurant mit lebendigem Publikum. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Ankommen, für ein Wunschlied, als Übergang zum Essen oder als kurzer emotionaler Mittelpunkt.",
-      "Ich plane lieber wenige klare Einsätze als zu viel Musik am Stück. Wenn der Geburtstag lebendig und gesprächig ist, bleibt die Musik eher leicht. Wenn ein besonderer Moment geplant ist, darf ein Stück kurz mehr Aufmerksamkeit bekommen.",
-      "Für Wuppertal kläre ich vorab auch die praktischen Details: Wege, Treppen und Wetter bei Außenmusik vorab mitdenken. So bleibt am Tag selbst genug Ruhe für Stimmung, Aufbau und den ersten Ton.",
-      "Das Repertoire kann ein Wunschlied, feierliche Stücke und leichte Musik für Gespräche verbinden. Entscheidend ist nicht, möglichst viele Stile abzudecken, sondern die Musik an die Person anzupassen, die gefeiert wird.",
-      "Solo-Viola braucht wenig Aufbau und kann auch in kleinen Räumen sehr präsent wirken. Deshalb arbeite ich mit klaren Zeichen, passenden Pausen und einer Lautstärke, die Glückwünsche und Gespräche respektiert.",
-      "Wenn mehrere Generationen dabei sind, hilft ein ausgewogener Bogen: etwas Vertrautes für die Familie, ein modernes Stück für die persönliche Note und ein ruhiger Ausklang, wenn der offizielle Moment vorbei ist.",
-      "Zusätzlich bespreche ich, wie sichtbar die Musik sein soll. Manche Feiern wünschen einen kleinen Mittelpunkt, andere nur einen besonderen Klang im Hintergrund. Beides funktioniert, wenn Einsatz, Position im Raum und Erwartung der Gäste vorher klar sind.",
-      "In Wuppertal prüfe ich besonders Treppen, Parken, Wege, Wetter und ein beweglicher Aufbau. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
-      "kulturinteressierte Gäste mit Sinn für atmosphärische Programme. Deshalb geht es bei Live-Musik zum Geburtstag hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
-      "Anders als bei einer allgemeinen Leistungsseite wird Live Musik Geburtstag Wuppertal über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
-      "Für Wuppertal plane ich Live Musik Geburtstag Wuppertal zuerst vom echten Ablauf her: Elberfeld, Barmen, Höhenlagen, Altbauorte und Räume entlang der Wupper. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
-      "Die wichtigste Vorbereitung in Wuppertal: Treppen, Parken, Wege, Wetter und ein beweglicher Aufbau. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Wuppertal sind kulturinteressierte Gäste mit Sinn für atmosphärische Programme. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Geburtstagen steht die gefeierte Person im Mittelpunkt, nicht ein Konzertprogramm ohne Bezug zur Runde. In Wuppertal übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Oberhausen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Wuppertal passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Live Musik Geburtstag Wuppertal mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Wuppertal ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
+    "sections": [
+      {
+        "title": "Geburtstagsmusik in Wuppertal muss zum Ort und zur Feier passen.",
+        "lede": "In Wuppertal entstehen Geburtstage sehr unterschiedlich: Elberfeld, Barmen, Höhenlagen und Feiern entlang der Wupper. Deshalb plane ich Live-Musik nicht pauschal, sondern nach Anlass, Raumgröße und gewünschter Nähe.",
+        "paragraphs": [
+          "Typische Orte sind Altbauwohnung, Garten am Hang oder Restaurant mit lebendigem Publikum. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Ankommen, für ein Wunschlied, als Übergang zum Essen oder als kurzer emotionaler Mittelpunkt.",
+          "Ich plane lieber wenige klare Einsätze als zu viel Musik am Stück. Wenn der Geburtstag lebendig und gesprächig ist, bleibt die Musik eher leicht. Wenn ein besonderer Moment geplant ist, darf ein Stück kurz mehr Aufmerksamkeit bekommen.",
+          "Für Wuppertal kläre ich vorab auch die praktischen Details: Wege, Treppen und Wetter bei Außenmusik vorab mitdenken. So bleibt am Tag selbst genug Ruhe für Stimmung, Aufbau und den ersten Ton.",
+          "Das Repertoire kann ein Wunschlied, feierliche Stücke und leichte Musik für Gespräche verbinden. Entscheidend ist nicht, möglichst viele Stile abzudecken, sondern die Musik an die Person anzupassen, die gefeiert wird.",
+          "Solo-Viola braucht wenig Aufbau und kann auch in kleinen Räumen sehr präsent wirken. Deshalb arbeite ich mit klaren Zeichen, passenden Pausen und einer Lautstärke, die Glückwünsche und Gespräche respektiert."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Wuppertal 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Live Musik Geburtstag Wuppertal im Ablauf sinnvoll einsetzen.",
+        "lede": "Wenn mehrere Generationen dabei sind, hilft ein ausgewogener Bogen: etwas Vertrautes für die Familie, ein modernes Stück für die persönliche Note und ein ruhiger Ausklang, wenn der offizielle Moment vorbei ist.",
+        "paragraphs": [
+          "Zusätzlich bespreche ich, wie sichtbar die Musik sein soll. Manche Feiern wünschen einen kleinen Mittelpunkt, andere nur einen besonderen Klang im Hintergrund. Beides funktioniert, wenn Einsatz, Position im Raum und Erwartung der Gäste vorher klar sind.",
+          "In Wuppertal prüfe ich besonders Treppen, Parken, Wege, Wetter und ein beweglicher Aufbau. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+          "kulturinteressierte Gäste mit Sinn für atmosphärische Programme. Deshalb geht es bei Live-Musik zum Geburtstag hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+          "Anders als bei einer allgemeinen Leistungsseite wird Live Musik Geburtstag Wuppertal über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?"
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Wuppertal 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Für Wuppertal plane ich Live Musik Geburtstag Wuppertal zuerst vom echten Ablauf her: Elberfeld, Barmen, Höhenlagen, Altbauorte und Räume entlang der Wupper. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
+        "paragraphs": [
+          "Die wichtigste Vorbereitung in Wuppertal: Treppen, Parken, Wege, Wetter und ein beweglicher Aufbau. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+          "Typisch für Wuppertal sind kulturinteressierte Gäste mit Sinn für atmosphärische Programme. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+          "Bei Geburtstagen steht die gefeierte Person im Mittelpunkt, nicht ein Konzertprogramm ohne Bezug zur Runde. In Wuppertal übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+          "Der Unterschied zu Oberhausen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Wuppertal 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Für die Anfrage sind Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Wuppertal passt und den Ablauf nicht künstlich aufbläht.",
+        "paragraphs": [
+          "Wenn Live Musik Geburtstag Wuppertal mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+          "Bei knappen Zeitfenstern in Wuppertal ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Wuppertal 2"
+        },
+        "imageFirst": true
+      }
     ]
   },
   "faq": {

@@ -17,27 +17,66 @@
     "badge": "Geburtstag persönlich begleiten"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Musik Dinner Geburtstag braucht eine andere Planung als allgemeine Partymusik.",
-    "lede": "Wer nach Musik Dinner Geburtstag sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
-    "paragraphs": [
-      "Der wichtigste Unterschied liegt im Maß: Die Musik soll Gespräche nicht zudecken. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
-      "Für sitzende Geburtstagsessen und festliche Menüs eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
-      "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
-      "der Ablauf bleibt flexibel, aber nicht zufällig. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
-      "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif.",
-      "Praktisch bedeutet das: Für Musik Dinner Geburtstag bespreche ich nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei sitzende Geburtstagsessen und festliche Menüs macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
-      "Bei Musik Dinner Geburtstag steht Tischgespräche, Gänge, Toasts, warme Atmosphäre im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Sektempfang Geburtstag.",
-      "Eine Geburtstagsseite muss klären, ob es um Staendchen, Dinner, Gartenfeier oder Geschenkidee geht. Dinner, Geburtstag bekommt hier einen eigenen Rahmen und keine austauschbare Partymusik.",
-      "Der Kern von Musik Dinner Geburtstag ist Tischgespräche, Gänge, Toasts, warme Atmosphäre. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Sets zwischen Gängen, Blickkontakt zum Service, moderate Lautstärke die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Sektempfang Geburtstag lautet: nicht dauerhaft durchspielen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "gefeierte Person, Überraschung, Gratulation, vertraute Runde verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Timing, Wunschlied, Setlänge, geheimer Einsatz. Das verhindert, dass Musik Dinner Geburtstag nur wie eine Variante der Hauptleistung klingt.",
-      "Auch gefeierte Person, Überraschung, Gratulation, vertraute Runde ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Dinner, Geburtstag. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
-      "Die klare Abgrenzung zu Live Musik Geburtstag lautet: nicht dauerhaft durchspielen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+    "sections": [
+      {
+        "title": "Musik Dinner Geburtstag braucht eine andere Planung als allgemeine Partymusik.",
+        "lede": "Wer nach Musik Dinner Geburtstag sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
+        "paragraphs": [
+          "Der wichtigste Unterschied liegt im Maß: Die Musik soll Gespräche nicht zudecken. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
+          "Für sitzende Geburtstagsessen und festliche Menüs eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
+          "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
+          "der Ablauf bleibt flexibel, aber nicht zufällig. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
+          "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola für Musik Dinner Geburtstag 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Musik Dinner Geburtstag im Ablauf sinnvoll einsetzen.",
+        "lede": "Praktisch bedeutet das: Für Musik Dinner Geburtstag bespreche ich nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei sitzende Geburtstagsessen und festliche Menüs macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
+        "paragraphs": [
+          "Bei Musik Dinner Geburtstag steht Tischgespräche, Gänge, Toasts, warme Atmosphäre im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Sektempfang Geburtstag.",
+          "Eine Geburtstagsseite muss klären, ob es um Staendchen, Dinner, Gartenfeier oder Geschenkidee geht. Dinner, Geburtstag bekommt hier einen eigenen Rahmen und keine austauschbare Partymusik.",
+          "Der Kern von Musik Dinner Geburtstag ist Tischgespräche, Gänge, Toasts, warme Atmosphäre. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+          "Für die Planung sind Sets zwischen Gängen, Blickkontakt zum Service, moderate Lautstärke die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Musik Dinner Geburtstag 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Die klare Abgrenzung zu Sektempfang Geburtstag lautet: nicht dauerhaft durchspielen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+        "paragraphs": [
+          "gefeierte Person, Überraschung, Gratulation, vertraute Runde verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Timing, Wunschlied, Setlänge, geheimer Einsatz. Das verhindert, dass Musik Dinner Geburtstag nur wie eine Variante der Hauptleistung klingt.",
+          "Auch gefeierte Person, Überraschung, Gratulation, vertraute Runde ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+          "Eine gute Anfrage nennt Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Musik Dinner Geburtstag 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Redaktionell bleibt diese Seite eng bei Dinner, Geburtstag. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+        "paragraphs": [
+          "Die klare Abgrenzung zu Live Musik Geburtstag lautet: nicht dauerhaft durchspielen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola für Musik Dinner Geburtstag 2"
+        },
+        "imageFirst": true
+      }
     ]
   },
   "faq": {

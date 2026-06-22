@@ -17,32 +17,71 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Moderne Hochzeitsmusik braucht eine eigene musikalische Planung.",
-    "lede": "Moderne Musik lebt von Wiedererkennung. Auf Viola muss sie so arrangiert werden, dass Melodie und Gefühl bleiben. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Einzug, Auszug, Ringtausch, Empfang oder Dinner.",
-    "paragraphs": [
-      "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
-      "Ich prüfe Tonart, Länge und ob ein Refrain, Intro oder Ausschnitt am besten funktioniert.",
-      "Nicht jeder Song braucht die volle Länge. Oft wirkt ein präziser Ausschnitt stärker als eine komplette Fassung.",
-      "Wenn ein Wunschlied geplant ist, prüfe ich Melodie, Tonart und Wirkung für Solo-Viola. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
-      "Für Moderne Hochzeitsmusik klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll.",
-      "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
-      "Wichtig ist, dass Moderne Hochzeitsmusik nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
-      "Der Fokus bleibt eng genug, damit Paare sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Moderne Hochzeitsmusik.",
-      "Bei Moderne Hochzeitsmusik steht aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Dezente Hochzeitsmusik.",
-      "Bei Moderne Hochzeitsmusik steht aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Hochzeitsmusik Buchen.",
-      "Gerade bei Hochzeiten hilft eine klare Begrenzung. Diese Seite schaut auf Moderne, Hochzeitsmusik, damit Empfang, Dinner oder Zeremonie nicht in denselben Ton fallen.",
-      "Der Kern von Moderne Hochzeitsmusik ist aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Arrangement, Tonart, Wiedererkennbarkeit, Stilbruch vermeiden die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Hochzeitsmusik Buchen lautet: nicht beliebig poppig werden. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Arrangement, Tonart, Wiedererkennbarkeit, Stilbruch vermeiden. Das verhindert, dass Moderne Hochzeitsmusik nur wie eine Variante der Hauptleistung klingt.",
-      "Auch aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Moderne, Hochzeitsmusik. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
-      "Die klare Abgrenzung zu Bratschistin Hochzeit lautet: nicht beliebig poppig werden. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
-    ],
-    "seal": "Modern\nHochzeit\nLive-Viola"
+    "seal": "Modern\nHochzeit\nLive-Viola",
+    "sections": [
+      {
+        "title": "Moderne Hochzeitsmusik braucht eine eigene musikalische Planung.",
+        "lede": "Moderne Musik lebt von Wiedererkennung. Auf Viola muss sie so arrangiert werden, dass Melodie und Gefühl bleiben. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Einzug, Auszug, Ringtausch, Empfang oder Dinner.",
+        "paragraphs": [
+          "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
+          "Ich prüfe Tonart, Länge und ob ein Refrain, Intro oder Ausschnitt am besten funktioniert.",
+          "Nicht jeder Song braucht die volle Länge. Oft wirkt ein präziser Ausschnitt stärker als eine komplette Fassung.",
+          "Wenn ein Wunschlied geplant ist, prüfe ich Melodie, Tonart und Wirkung für Solo-Viola. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
+          "Für Moderne Hochzeitsmusik klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Moderne Hochzeitsmusik 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Moderne Hochzeitsmusik im Ablauf sinnvoll einsetzen.",
+        "lede": "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+        "paragraphs": [
+          "Wichtig ist, dass Moderne Hochzeitsmusik nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+          "Der Fokus bleibt eng genug, damit Paare sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Zeremonieformen; hier geht es genau um Moderne Hochzeitsmusik.",
+          "Bei Moderne Hochzeitsmusik steht aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Dezente Hochzeitsmusik.",
+          "Bei Moderne Hochzeitsmusik steht aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Hochzeitsmusik Buchen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Moderne Hochzeitsmusik 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Gerade bei Hochzeiten hilft eine klare Begrenzung. Diese Seite schaut auf Moderne, Hochzeitsmusik, damit Empfang, Dinner oder Zeremonie nicht in denselben Ton fallen.",
+        "paragraphs": [
+          "Der Kern von Moderne Hochzeitsmusik ist aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+          "Für die Planung sind Arrangement, Tonart, Wiedererkennbarkeit, Stilbruch vermeiden die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+          "Die klare Abgrenzung zu Hochzeitsmusik Buchen lautet: nicht beliebig poppig werden. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola für Moderne Hochzeitsmusik 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Bei der Abstimmung schaue ich besonders auf Arrangement, Tonart, Wiedererkennbarkeit, Stilbruch vermeiden. Das verhindert, dass Moderne Hochzeitsmusik nur wie eine Variante der Hauptleistung klingt.",
+        "paragraphs": [
+          "Auch aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+          "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Moderne, Hochzeitsmusik. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+          "Die klare Abgrenzung zu Bratschistin Hochzeit lautet: nicht beliebig poppig werden. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Moderne Hochzeitsmusik 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Planung",

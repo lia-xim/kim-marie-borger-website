@@ -17,33 +17,72 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Live-Musik zur Hochzeit in Paderborn braucht mehr als eine schöne Stückliste.",
-    "lede": "Paderborn bedeutet für Hochzeiten oft: Innenstadt, Schloss Neuhaus und Hochzeiten in Ostwestfalen. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
-    "paragraphs": [
-      "Typische Rahmen sind Kirche, Hausfeier, Restaurant oder Familienfeier mit ruhiger Planung. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
-      "Der Klang soll elegant, ohne den Ablauf zu überladen sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
-      "Ich plane lieber wenige klare Einsätze als zu viel Musik am Stück. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
-      "Für Paderborn kläre ich vorab auch die praktischen Details: Anreise und Setlänge früh abstimmen, damit sich die weitere Strecke lohnt. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
-      "Ein Standesamt braucht kürzere Stücke als eine freie Trauung im Garten; eine Kirche braucht wegen der Akustik mehr Ruhe. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
-      "Das Repertoire kann ruhige Trauungsmusik, ein heller Auszug und leichte Musik für den Sektempfang verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
-      "Ortsbezug bedeutet hier nicht Dekoration, sondern praktische Planung: Wo beginnt der Einzug, wie laut darf Musik sein, und wo ist der beste Platz für die Viola?",
-      "Paderborn liegt weiter im Osten des NRW-Radius, daher muss eine Anfrage musikalisch und organisatorisch sinnvoll geplant sein. Wenn der Rahmen passt, kann die Viola Kirche, Hausfeier oder Restaurant sehr persönlich öffnen.",
-      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
-      "In Paderborn prüfe ich besonders Zeitpuffer, klare Kontaktperson und genauer Aufbauplatz. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
-      "Gäste, die konzentrierte, gut vorbereitete Musik schätzen. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
-      "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Paderborn über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
-      "Für Paderborn plane ich Hochzeitsmusik Paderborn zuerst vom echten Ablauf her: Innenstadt, Domnähe, Hochschulumfeld, ostwestfaelische Orte und weitere Anfahrt. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
-      "Die wichtigste Vorbereitung in Paderborn: Zeitpuffer, klare Kontaktperson und genauer Aufbauplatz. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Paderborn sind Gäste, die konzentrierte, gut vorbereitete Musik schätzen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Paderborn übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Duisburg liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Paderborn passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Hochzeitsmusik Paderborn mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Paderborn ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
-      "Der Unterschied zu Rheinland liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
-    ],
-    "seal": "Paderborn\nTrauung & Empfang\nLive-Viola"
+    "seal": "Paderborn\nTrauung & Empfang\nLive-Viola",
+    "sections": [
+      {
+        "title": "Live-Musik zur Hochzeit in Paderborn braucht mehr als eine schöne Stückliste.",
+        "lede": "Paderborn bedeutet für Hochzeiten oft: Innenstadt, Schloss Neuhaus und Hochzeiten in Ostwestfalen. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
+        "paragraphs": [
+          "Typische Rahmen sind Kirche, Hausfeier, Restaurant oder Familienfeier mit ruhiger Planung. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
+          "Der Klang soll elegant, ohne den Ablauf zu überladen sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
+          "Ich plane lieber wenige klare Einsätze als zu viel Musik am Stück. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
+          "Für Paderborn kläre ich vorab auch die praktischen Details: Anreise und Setlänge früh abstimmen, damit sich die weitere Strecke lohnt. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
+          "Ein Standesamt braucht kürzere Stücke als eine freie Trauung im Garten; eine Kirche braucht wegen der Akustik mehr Ruhe. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
+          "Das Repertoire kann ruhige Trauungsmusik, ein heller Auszug und leichte Musik für den Sektempfang verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Paderborn 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Hochzeitsmusik Paderborn im Ablauf sinnvoll einsetzen.",
+        "lede": "Ortsbezug bedeutet hier nicht Dekoration, sondern praktische Planung: Wo beginnt der Einzug, wie laut darf Musik sein, und wo ist der beste Platz für die Viola?",
+        "paragraphs": [
+          "Paderborn liegt weiter im Osten des NRW-Radius, daher muss eine Anfrage musikalisch und organisatorisch sinnvoll geplant sein. Wenn der Rahmen passt, kann die Viola Kirche, Hausfeier oder Restaurant sehr persönlich öffnen.",
+          "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
+          "In Paderborn prüfe ich besonders Zeitpuffer, klare Kontaktperson und genauer Aufbauplatz. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+          "Gäste, die konzentrierte, gut vorbereitete Musik schätzen. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+          "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Paderborn über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?"
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Paderborn 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Für Paderborn plane ich Hochzeitsmusik Paderborn zuerst vom echten Ablauf her: Innenstadt, Domnähe, Hochschulumfeld, ostwestfaelische Orte und weitere Anfahrt. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
+        "paragraphs": [
+          "Die wichtigste Vorbereitung in Paderborn: Zeitpuffer, klare Kontaktperson und genauer Aufbauplatz. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+          "Typisch für Paderborn sind Gäste, die konzentrierte, gut vorbereitete Musik schätzen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+          "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Paderborn übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+          "Der Unterschied zu Duisburg liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+          "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Paderborn passt und den Ablauf nicht künstlich aufbläht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Paderborn 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Wenn Hochzeitsmusik Paderborn mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+        "paragraphs": [
+          "Bei knappen Zeitfenstern in Paderborn ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
+          "Der Unterschied zu Rheinland liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in Paderborn 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Ablauf",

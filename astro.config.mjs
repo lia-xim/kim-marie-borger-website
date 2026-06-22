@@ -1,10 +1,21 @@
 // @ts-check
+import { copyFile } from 'node:fs/promises';
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import tina from '@tinacms/astro/integration';
 import { tinaAdminDevRedirect } from '@tinacms/astro/vite';
 import vercel from '@astrojs/vercel';
+
+const sitemapXmlAlias = () => ({
+	name: 'sitemap-xml-alias',
+	hooks: {
+		'astro:build:done': async ({ dir, logger }) => {
+			await copyFile(new URL('sitemap-index.xml', dir), new URL('sitemap.xml', dir));
+			logger.info('Created /sitemap.xml from /sitemap-index.xml for search engines');
+		},
+	},
+});
 
 // https://astro.build/config
 export default defineConfig({
@@ -26,7 +37,7 @@ export default defineConfig({
 			minimumCacheTTL: 2678400,
 		},
 	}),
-	integrations: [mdx(), sitemap({ xslURL: '/sitemap.xsl' }), tina()],
+	integrations: [mdx(), sitemap({ xslURL: '/sitemap.xsl' }), sitemapXmlAlias(), tina()],
 	build: {
 		// Das eine gemeinsame Stylesheet (~33 KB) blockierte das Rendering
 		// ~450 ms; inline spart den Roundtrip auf dem kritischen Pfad.

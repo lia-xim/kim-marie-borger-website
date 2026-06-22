@@ -17,27 +17,66 @@
     "badge": "Geburtstag persönlich begleiten"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Musikalisches Geschenk Geburtstag braucht eine andere Planung als allgemeine Partymusik.",
-    "lede": "Wer nach Musikalisches Geschenk Geburtstag sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
-    "paragraphs": [
-      "Der wichtigste Unterschied liegt im Maß: Die Musik soll nah an der Person bleiben. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
-      "Für Menschen, die ein besonderes Geburtstagsgeschenk suchen eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
-      "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
-      "die Musik bekommt klare Einsätze statt Dauerbeschallung. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
-      "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif.",
-      "Praktisch bedeutet das: Für Musikalisches Geschenk Geburtstag bespreche ich nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei Menschen, die ein besonderes Geburtstagsgeschenk suchen macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
-      "Bei Musikalisches Geschenk Geburtstag steht Überraschung, persönliche Geste, kurzer Mittelpunkt, Erinnerung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikalische Überraschung Geburtstag.",
-      "Bei Musikalisches Geschenk Geburtstag steht Überraschung, persönliche Geste, kurzer Mittelpunkt, Erinnerung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikerin Geburtstag.",
-      "Eine Geburtstagsseite muss klären, ob es um Staendchen, Dinner, Gartenfeier oder Geschenkidee geht. Musikalisches, Geschenk, Geburtstag bekommt hier einen eigenen Rahmen und keine austauschbare Partymusik.",
-      "Der Kern von Musikalisches Geschenk Geburtstag ist Überraschung, persönliche Geste, kurzer Mittelpunkt, Erinnerung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind geheimer Ablauf, Vertrauensperson, Wunschlied, Timing die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Musikerin Geburtstag lautet: nicht zu lang ausdehnen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "gefeierte Person, Überraschung, Gratulation, vertraute Runde verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Timing, Wunschlied, Setlänge, geheimer Einsatz. Das verhindert, dass Musikalisches Geschenk Geburtstag nur wie eine Variante der Hauptleistung klingt.",
-      "Auch gefeierte Person, Überraschung, Gratulation, vertraute Runde ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Musikalisches, Geschenk, Geburtstag. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+    "sections": [
+      {
+        "title": "Musikalisches Geschenk Geburtstag braucht eine andere Planung als allgemeine Partymusik.",
+        "lede": "Wer nach Musikalisches Geschenk Geburtstag sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
+        "paragraphs": [
+          "Der wichtigste Unterschied liegt im Maß: Die Musik soll nah an der Person bleiben. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
+          "Für Menschen, die ein besonderes Geburtstagsgeschenk suchen eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
+          "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
+          "die Musik bekommt klare Einsätze statt Dauerbeschallung. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
+          "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola für Musikalisches Geschenk Geburtstag 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Musikalisches Geschenk Geburtstag im Ablauf sinnvoll einsetzen.",
+        "lede": "Praktisch bedeutet das: Für Musikalisches Geschenk Geburtstag bespreche ich nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei Menschen, die ein besonderes Geburtstagsgeschenk suchen macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
+        "paragraphs": [
+          "Bei Musikalisches Geschenk Geburtstag steht Überraschung, persönliche Geste, kurzer Mittelpunkt, Erinnerung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikalische Überraschung Geburtstag.",
+          "Bei Musikalisches Geschenk Geburtstag steht Überraschung, persönliche Geste, kurzer Mittelpunkt, Erinnerung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikerin Geburtstag.",
+          "Eine Geburtstagsseite muss klären, ob es um Staendchen, Dinner, Gartenfeier oder Geschenkidee geht. Musikalisches, Geschenk, Geburtstag bekommt hier einen eigenen Rahmen und keine austauschbare Partymusik.",
+          "Der Kern von Musikalisches Geschenk Geburtstag ist Überraschung, persönliche Geste, kurzer Mittelpunkt, Erinnerung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Musikalisches Geschenk Geburtstag 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Für die Planung sind geheimer Ablauf, Vertrauensperson, Wunschlied, Timing die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+        "paragraphs": [
+          "Die klare Abgrenzung zu Musikerin Geburtstag lautet: nicht zu lang ausdehnen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "gefeierte Person, Überraschung, Gratulation, vertraute Runde verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Timing, Wunschlied, Setlänge, geheimer Einsatz. Das verhindert, dass Musikalisches Geschenk Geburtstag nur wie eine Variante der Hauptleistung klingt.",
+          "Auch gefeierte Person, Überraschung, Gratulation, vertraute Runde ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Musikalisches Geschenk Geburtstag 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Eine gute Anfrage nennt Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+        "paragraphs": [
+          "Redaktionell bleibt diese Seite eng bei Musikalisches, Geschenk, Geburtstag. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola für Musikalisches Geschenk Geburtstag 2"
+        },
+        "imageFirst": true
+      }
     ]
   },
   "faq": {

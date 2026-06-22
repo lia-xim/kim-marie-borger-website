@@ -17,22 +17,51 @@
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Unterricht mit klarem Fokus",
-    "title": "Bratschenunterricht: ein solides Fundament für Klang und Technik.",
-    "lede": "Diese Seite konzentriert sich auf Grundlagen und Aufbau. So unterscheidet sie sich von lokalen Unterrichtsseiten: Im Mittelpunkt steht die Lernfrage, nicht der Ort.",
-    "paragraphs": [
-      "Im allgemeinen Bratschenunterricht steht das Fundament im Vordergrund: Instrument halten, Bogen führen, Ton hören, Noten verstehen und regelmäßig sinnvoll üben.",
-      "Der Unterricht ist offen für Kinder, Jugendliche, Erwachsene und Wiedereinsteiger:innen. Die Inhalte ändern sich je nach Alter, aber die Grundidee bleibt: ein entspannter Körper und ein tragender Klang.",
-      "Wir verbinden Technik sofort mit Musik. Eine Bogenübung bleibt nicht abstrakt, sondern taucht in kleinen Melodien, Etüden oder Wunschstücken wieder auf.",
-      "Ein gutes Fundament spart später viele Korrekturen. Deshalb werden Haltung, Intonation und Rhythmus langsam genug aufgebaut, damit sie wirklich verstanden werden.",
-      "Diese Seite grenzt sich von der Erwachsenen-Seite ab: Hier geht es um den vollständigen Unterrichtsrahmen für verschiedene Altersgruppen und Lernstände.",
-      "Für die Anfrage helfen Alter, Lernstand, vorhandenes Instrument, musikalisches Ziel und die Frage, ob zuerst eine Probestunde gewünscht ist.",
-      "Allgemeiner Bratschenunterricht braucht ein Fundament, das fuer verschiedene Altersgruppen funktioniert. Haltung, Bogen, linke Hand, Rhythmus und Notenlesen werden deshalb nicht isoliert behandelt, sondern immer wieder mit kleinen musikalischen Aufgaben verbunden.",
-      "Wenn Kinder, Jugendliche oder Erwachsene starten, veraendert sich die Sprache des Unterrichts, aber nicht das Ziel: ein entspannter Koerper, ein tragender Ton und ein Uebeweg, der zu Hause wirklich machbar bleibt.",
-      "Nach den ersten Grundlagen wird der Unterricht feiner: Wir achten darauf, ob ein Ton nur irgendwie entsteht oder ob Bogenrichtung, Kontaktstelle und linke Hand zusammenarbeiten. Diese Unterscheidung hilft, spaeter musikalischer und sicherer zu spielen.",
-      "Zum Unterricht gehoert auch, wie zu Hause geuebt wird. Kurze Aufgaben mit klarem Ziel sind wertvoller als langes Durchspielen ohne Aufmerksamkeit. Deshalb endet jede Stunde mit einer konkreten Idee fuer die naechsten Tage."
-    ],
-    "seal": "Bratsche lernen\nKlang & Technik\npersönlich"
+    "seal": "Bratsche lernen\nKlang & Technik\npersönlich",
+    "sections": [
+      {
+        "title": "Bratschenunterricht: ein solides Fundament für Klang und Technik.",
+        "lede": "Diese Seite konzentriert sich auf Grundlagen und Aufbau. So unterscheidet sie sich von lokalen Unterrichtsseiten: Im Mittelpunkt steht die Lernfrage, nicht der Ort.",
+        "paragraphs": [
+          "Im allgemeinen Bratschenunterricht steht das Fundament im Vordergrund: Instrument halten, Bogen führen, Ton hören, Noten verstehen und regelmäßig sinnvoll üben.",
+          "Der Unterricht ist offen für Kinder, Jugendliche, Erwachsene und Wiedereinsteiger:innen. Die Inhalte ändern sich je nach Alter, aber die Grundidee bleibt: ein entspannter Körper und ein tragender Klang.",
+          "Wir verbinden Technik sofort mit Musik. Eine Bogenübung bleibt nicht abstrakt, sondern taucht in kleinen Melodien, Etüden oder Wunschstücken wieder auf.",
+          "Ein gutes Fundament spart später viele Korrekturen. Deshalb werden Haltung, Intonation und Rhythmus langsam genug aufgebaut, damit sie wirklich verstanden werden."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola- und Bratschenunterricht: Bratschenunterricht - Bild 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Unterricht mit klarem Fokus"
+      },
+      {
+        "title": "Bratschenunterricht im Ablauf sinnvoll einsetzen.",
+        "lede": "Diese Seite grenzt sich von der Erwachsenen-Seite ab: Hier geht es um den vollständigen Unterrichtsrahmen für verschiedene Altersgruppen und Lernstände.",
+        "paragraphs": [
+          "Für die Anfrage helfen Alter, Lernstand, vorhandenes Instrument, musikalisches Ziel und die Frage, ob zuerst eine Probestunde gewünscht ist.",
+          "Allgemeiner Bratschenunterricht braucht ein Fundament, das fuer verschiedene Altersgruppen funktioniert. Haltung, Bogen, linke Hand, Rhythmus und Notenlesen werden deshalb nicht isoliert behandelt, sondern immer wieder mit kleinen musikalischen Aufgaben verbunden.",
+          "Wenn Kinder, Jugendliche oder Erwachsene starten, veraendert sich die Sprache des Unterrichts, aber nicht das Ziel: ein entspannter Koerper, ein tragender Ton und ein Uebeweg, der zu Hause wirklich machbar bleibt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Viola- und Bratschenunterricht: Bratschenunterricht - Bild 1"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Nach den ersten Grundlagen wird der Unterricht feiner: Wir achten darauf, ob ein Ton nur irgendwie entsteht oder ob Bogenrichtung, Kontaktstelle und linke Hand zusammenarbeiten. Diese Unterscheidung hilft, spaeter musikalischer und sicherer zu spielen.",
+        "paragraphs": [
+          "Zum Unterricht gehoert auch, wie zu Hause geuebt wird. Kurze Aufgaben mit klarem Ziel sind wertvoller als langes Durchspielen ohne Aufmerksamkeit. Deshalb endet jede Stunde mit einer konkreten Idee fuer die naechsten Tage."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola- und Bratschenunterricht: Bratschenunterricht - Bild 2"
+        },
+        "imageFirst": false
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

@@ -17,37 +17,76 @@
     "badge": "Kammermusik, Salon & Kulturformat"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Ein Viola-Programm in Leverkusen muss zum Raum und Publikum passen.",
-    "lede": "Das Publikum kann geschäftlich, privat oder kulturorientiert gemischt sein. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
-    "paragraphs": [
-      "Leverkusen verbindet Industrie, Rheinlage, Opladen, Schlebusch und Kulturorte zwischen Köln und Bergischem Land.",
-      "Passend sind Kulturabend, Empfang, Lesung, Vernissage, Firmenkulturformat oder privates Kammerkonzert.",
-      "Anfahrt zwischen Stadtteilen, Einlass und mögliche Sicherheitsabläufe sollten vorher klar sein.",
-      "Das Publikum kann geschäftlich, privat oder kulturorientiert gemischt sein.",
-      "Ein Leverkusener Programm darf repräsentativ wirken, sollte aber durch Moderation und Stückwahl persönlich bleiben.",
-      "Für Viola Konzert Leverkusen ist der Ton bewusst klar, beweglich und verbindend. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
-      "Ein Konzertprogramm braucht nicht viele Stücke, sondern eine innere Richtung: ein Anfang, der den Raum öffnet, eine Mitte mit Tiefe und ein Schluss, der das Publikum nicht abrupt entlässt.",
-      "Kurze Anmoderationen können helfen, besonders wenn das Publikum nicht aus einem klassischen Konzertkontext kommt.",
-      "Auch die Stille gehört zum Programm. Gerade bei Viola wirkt ein bewusst gesetzter Zwischenraum oft stärker als ein weiterer schneller Wechsel.",
-      "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
-      "Bei Vernissagen in Leverkusen darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
-      "Bei Lesungen in Leverkusen achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
-      "Für Salonkonzerte in Leverkusen plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
-      "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block.",
-      "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
-      "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
-      "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
-      "Die wichtigste Vorbereitung in Leverkusen: Stadtteilwege, Einlass und mögliche Sicherheitsabstimmungen. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Leverkusen sind gemischte private, geschaeftliche und kulturorientierte Runden. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Leverkusen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Haan liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Leverkusen passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Viola Konzert Leverkusen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Leverkusen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
-      "Viola Konzert Leverkusen in Leverkusen ist keine reine Ortsvariante der Hauptseite. Entscheidend sind Opladen, Schlebusch, Rheinlage, Industrieumfeld und Verbindung nach Köln und ins Bergische, weil diese Umgebung beeinflusst, wie nah, sichtbar und flexibel die Musik eingesetzt werden kann."
-    ],
-    "seal": "Leverkusen\nKonzert\nViola"
+    "seal": "Leverkusen\nKonzert\nViola",
+    "sections": [
+      {
+        "title": "Ein Viola-Programm in Leverkusen muss zum Raum und Publikum passen.",
+        "lede": "Das Publikum kann geschäftlich, privat oder kulturorientiert gemischt sein. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
+        "paragraphs": [
+          "Leverkusen verbindet Industrie, Rheinlage, Opladen, Schlebusch und Kulturorte zwischen Köln und Bergischem Land.",
+          "Passend sind Kulturabend, Empfang, Lesung, Vernissage, Firmenkulturformat oder privates Kammerkonzert.",
+          "Anfahrt zwischen Stadtteilen, Einlass und mögliche Sicherheitsabläufe sollten vorher klar sein.",
+          "Das Publikum kann geschäftlich, privat oder kulturorientiert gemischt sein.",
+          "Ein Leverkusener Programm darf repräsentativ wirken, sollte aber durch Moderation und Stückwahl persönlich bleiben.",
+          "Für Viola Konzert Leverkusen ist der Ton bewusst klar, beweglich und verbindend. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
+          "Ein Konzertprogramm braucht nicht viele Stücke, sondern eine innere Richtung: ein Anfang, der den Raum öffnet, eine Mitte mit Tiefe und ein Schluss, der das Publikum nicht abrupt entlässt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Leverkusen mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Viola Konzert Leverkusen im Ablauf sinnvoll einsetzen.",
+        "lede": "Kurze Anmoderationen können helfen, besonders wenn das Publikum nicht aus einem klassischen Konzertkontext kommt.",
+        "paragraphs": [
+          "Auch die Stille gehört zum Programm. Gerade bei Viola wirkt ein bewusst gesetzter Zwischenraum oft stärker als ein weiterer schneller Wechsel.",
+          "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
+          "Bei Vernissagen in Leverkusen darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
+          "Bei Lesungen in Leverkusen achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
+          "Für Salonkonzerte in Leverkusen plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
+          "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Leverkusen mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
+        "paragraphs": [
+          "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
+          "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
+          "Die wichtigste Vorbereitung in Leverkusen: Stadtteilwege, Einlass und mögliche Sicherheitsabstimmungen. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+          "Typisch für Leverkusen sind gemischte private, geschaeftliche und kulturorientierte Runden. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+          "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Leverkusen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+          "Der Unterschied zu Haan liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Leverkusen mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Leverkusen passt und den Ablauf nicht künstlich aufbläht.",
+        "paragraphs": [
+          "Wenn Viola Konzert Leverkusen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+          "Bei knappen Zeitfenstern in Leverkusen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
+          "Viola Konzert Leverkusen in Leverkusen ist keine reine Ortsvariante der Hauptseite. Entscheidend sind Opladen, Schlebusch, Rheinlage, Industrieumfeld und Verbindung nach Köln und ins Bergische, weil diese Umgebung beeinflusst, wie nah, sichtbar und flexibel die Musik eingesetzt werden kann."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Viola Konzert in Leverkusen mit Kim Marie Borger und Viola"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

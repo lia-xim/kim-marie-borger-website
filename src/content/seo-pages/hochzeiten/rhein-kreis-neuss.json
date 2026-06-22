@@ -17,29 +17,68 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Live-Musik zur Hochzeit im Rhein-Kreis Neuss braucht mehr als eine schöne Stückliste.",
-    "lede": "Rhein-Kreis Neuss bedeutet für Hochzeiten oft: Neuss, Meerbusch, Dormagen, Grevenbroich und Rheinorte dazwischen. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
-    "paragraphs": [
-      "Typische Rahmen sind Gartenfest, Standesamt, Restaurant oder familiärer Empfang. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
-      "Der Klang soll ruhig und sehr persönlich sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
-      "Die Sets werden so gesetzt, dass Reden, Ringe und Gratulationen nicht überdeckt werden. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
-      "Für Rhein-Kreis Neuss kläre ich vorab auch die praktischen Details: Anfahrt und Stadtgrenzen flexibel planen, damit der Ablauf ruhig bleibt. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
-      "Beim Einzug zählt Tempo, beim Ringtausch die Zurückhaltung, beim Auszug die Leichtigkeit. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
-      "Das Repertoire kann ein Wunschlied, ein festlicher Auszug und dezente Empfangsmusik verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
-      "Für Hochzeiten in dieser Region denke ich neben der Stückliste immer auch an Wege, Wetter und die Frage, wie nah die Musik an euch stehen soll.",
-      "Der Rhein-Kreis Neuss ist keine einzelne Stimmung, sondern ein Netz aus Neuss, Meerbusch, Dormagen, Grevenbroich und kleineren Rheinorten. Die Musik wird deshalb nach Trauort und Gästeweg geplant, nicht nur nach Kreisname.",
-      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
-      "Wer in Rhein-Kreis Neuss anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Neuss, Dormagen, Meerbusch, Grevenbroich, Rheinorte und Düsseldorfer Nähe bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
-      "Die wichtigste Vorbereitung in Rhein-Kreis Neuss: mehrere Stadtgrenzen, Fahrzeit und exakte Adresse. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Rhein-Kreis Neuss sind regionale Gäste, die verbindende Musik zwischen Stadt und Rhein suchen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Rhein-Kreis Neuss übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Neuss liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Rhein-Kreis Neuss passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Hochzeitsmusik Rhein-Kreis Neuss mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Rhein-Kreis Neuss ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
-    ],
-    "seal": "Rhein-Kreis Neuss\nTrauung & Empfang\nLive-Viola"
+    "seal": "Rhein-Kreis Neuss\nTrauung & Empfang\nLive-Viola",
+    "sections": [
+      {
+        "title": "Live-Musik zur Hochzeit im Rhein-Kreis Neuss braucht mehr als eine schöne Stückliste.",
+        "lede": "Rhein-Kreis Neuss bedeutet für Hochzeiten oft: Neuss, Meerbusch, Dormagen, Grevenbroich und Rheinorte dazwischen. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
+        "paragraphs": [
+          "Typische Rahmen sind Gartenfest, Standesamt, Restaurant oder familiärer Empfang. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
+          "Der Klang soll ruhig und sehr persönlich sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
+          "Die Sets werden so gesetzt, dass Reden, Ringe und Gratulationen nicht überdeckt werden. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
+          "Für Rhein-Kreis Neuss kläre ich vorab auch die praktischen Details: Anfahrt und Stadtgrenzen flexibel planen, damit der Ablauf ruhig bleibt. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
+          "Beim Einzug zählt Tempo, beim Ringtausch die Zurückhaltung, beim Auszug die Leichtigkeit. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik im Rhein-Kreis Neuss 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Hochzeitsmusik Rhein-Kreis Neuss im Ablauf sinnvoll einsetzen.",
+        "lede": "Das Repertoire kann ein Wunschlied, ein festlicher Auszug und dezente Empfangsmusik verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
+        "paragraphs": [
+          "Für Hochzeiten in dieser Region denke ich neben der Stückliste immer auch an Wege, Wetter und die Frage, wie nah die Musik an euch stehen soll.",
+          "Der Rhein-Kreis Neuss ist keine einzelne Stimmung, sondern ein Netz aus Neuss, Meerbusch, Dormagen, Grevenbroich und kleineren Rheinorten. Die Musik wird deshalb nach Trauort und Gästeweg geplant, nicht nur nach Kreisname.",
+          "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
+          "Wer in Rhein-Kreis Neuss anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Neuss, Dormagen, Meerbusch, Grevenbroich, Rheinorte und Düsseldorfer Nähe bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik im Rhein-Kreis Neuss 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Die wichtigste Vorbereitung in Rhein-Kreis Neuss: mehrere Stadtgrenzen, Fahrzeit und exakte Adresse. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+        "paragraphs": [
+          "Typisch für Rhein-Kreis Neuss sind regionale Gäste, die verbindende Musik zwischen Stadt und Rhein suchen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+          "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Rhein-Kreis Neuss übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+          "Der Unterschied zu Neuss liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+          "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Rhein-Kreis Neuss passt und den Ablauf nicht künstlich aufbläht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik im Rhein-Kreis Neuss 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Wenn Hochzeitsmusik Rhein-Kreis Neuss mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+        "paragraphs": [
+          "Bei knappen Zeitfenstern in Rhein-Kreis Neuss ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik im Rhein-Kreis Neuss 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Ablauf",

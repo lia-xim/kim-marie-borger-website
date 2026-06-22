@@ -2,6 +2,7 @@ import { defineConfig } from "tinacms";
 import { GlobalConfigCollection } from "./collections/global-config";
 import { PageCollection } from "./collections/page";
 import { SeoPageCollection } from "./collections/seo-page";
+import { installOptimizedMediaUpload } from "./media/optimized-upload";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -13,6 +14,7 @@ const branch =
 export default defineConfig({
   telemetry: 'disabled',
   branch,
+  cmsCallback: (cms) => installOptimizedMediaUpload(cms),
 
   // Get this from tina.io
   clientId: process.env.PUBLIC_TINA_CLIENT_ID,

@@ -17,27 +17,66 @@
     "badge": "Geburtstag persönlich begleiten"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Musikalische ÜBerraschung Geburtstag braucht eine andere Planung als allgemeine Partymusik.",
-    "lede": "Wer nach Musikalische Überraschung Geburtstag sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
-    "paragraphs": [
-      "Der wichtigste Unterschied liegt im Maß: Die Musik soll nah an der Person bleiben. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
-      "Für Überraschungen von Partner:innen, Kindern, Freunden oder Kolleg:innen eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
-      "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
-      "Timing, Lautstärke und Länge werden vorher konkret geplant. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
-      "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif.",
-      "Praktisch bedeutet das: Für Musikalische Überraschung Geburtstag bespreche ich nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei Überraschungen von Partner:innen, Kindern, Freunden oder Kolleg:innen macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
-      "Bei Musikalische Überraschung Geburtstag steht geheimer Moment, Blickkontakt, Emotion, kurze Wirkung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikalisches Geschenk Geburtstag.",
-      "Bei Geburtstagen steht die Person im Mittelpunkt, nicht die Musikerin. Musikalische Überraschung Geburtstag wird deshalb nach Überraschung, Alter, Runde, Wunschlied und Zeitpunkt geplant.",
-      "Der Kern von Musikalische Überraschung Geburtstag ist geheimer Moment, Blickkontakt, Emotion, kurze Wirkung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Kontaktperson, Timing, erstes Stück, Position die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Hintergrundmusik Geburtstag lautet: nicht zu auffaellig vorbereiten. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "gefeierte Person, Überraschung, Gratulation, vertraute Runde verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Timing, Wunschlied, Setlänge, geheimer Einsatz. Das verhindert, dass Musikalische Überraschung Geburtstag nur wie eine Variante der Hauptleistung klingt.",
-      "Auch gefeierte Person, Überraschung, Gratulation, vertraute Runde ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Musikalische, Überraschung, Geburtstag. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
-      "Die klare Abgrenzung zu Musikerin Geburtstag lautet: nicht zu auffaellig vorbereiten. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+    "sections": [
+      {
+        "title": "Musikalische ÜBerraschung Geburtstag braucht eine andere Planung als allgemeine Partymusik.",
+        "lede": "Wer nach Musikalische Überraschung Geburtstag sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
+        "paragraphs": [
+          "Der wichtigste Unterschied liegt im Maß: Die Musik soll nah an der Person bleiben. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
+          "Für Überraschungen von Partner:innen, Kindern, Freunden oder Kolleg:innen eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
+          "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
+          "Timing, Lautstärke und Länge werden vorher konkret geplant. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
+          "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola für Musikalische Überraschung Geburtstag 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Musikalische Überraschung Geburtstag im Ablauf sinnvoll einsetzen.",
+        "lede": "Praktisch bedeutet das: Für Musikalische Überraschung Geburtstag bespreche ich nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei Überraschungen von Partner:innen, Kindern, Freunden oder Kolleg:innen macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
+        "paragraphs": [
+          "Bei Musikalische Überraschung Geburtstag steht geheimer Moment, Blickkontakt, Emotion, kurze Wirkung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musikalisches Geschenk Geburtstag.",
+          "Bei Geburtstagen steht die Person im Mittelpunkt, nicht die Musikerin. Musikalische Überraschung Geburtstag wird deshalb nach Überraschung, Alter, Runde, Wunschlied und Zeitpunkt geplant.",
+          "Der Kern von Musikalische Überraschung Geburtstag ist geheimer Moment, Blickkontakt, Emotion, kurze Wirkung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+          "Für die Planung sind Kontaktperson, Timing, erstes Stück, Position die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola für Musikalische Überraschung Geburtstag 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Die klare Abgrenzung zu Hintergrundmusik Geburtstag lautet: nicht zu auffaellig vorbereiten. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+        "paragraphs": [
+          "gefeierte Person, Überraschung, Gratulation, vertraute Runde verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Timing, Wunschlied, Setlänge, geheimer Einsatz. Das verhindert, dass Musikalische Überraschung Geburtstag nur wie eine Variante der Hauptleistung klingt.",
+          "Auch gefeierte Person, Überraschung, Gratulation, vertraute Runde ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+          "Eine gute Anfrage nennt Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola für Musikalische Überraschung Geburtstag 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Redaktionell bleibt diese Seite eng bei Musikalische, Überraschung, Geburtstag. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+        "paragraphs": [
+          "Die klare Abgrenzung zu Musikerin Geburtstag lautet: nicht zu auffaellig vorbereiten. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola für Musikalische Überraschung Geburtstag 2"
+        },
+        "imageFirst": true
+      }
     ]
   },
   "faq": {

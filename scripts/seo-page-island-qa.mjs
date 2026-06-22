@@ -142,11 +142,24 @@ function expectedSeoFieldPaths(doc, html) {
 	}
 
 	if (usesSplit) {
-		for (const field of ['eyebrow', 'title', 'lede', 'seal']) {
-			addVisibleFieldRequirement(requirements, htmlText, `seoPage.split.${field}`, doc.split?.[field]);
-		}
-		for (const [index, value] of (doc.split?.paragraphs ?? []).entries()) {
-			addVisibleFieldRequirement(requirements, htmlText, `seoPage.split.paragraphs.${index}`, value);
+		const splitSections = (doc.split?.sections ?? []).filter(Boolean);
+		if (splitSections.length > 0) {
+			for (const [sectionIndex, section] of splitSections.entries()) {
+				for (const field of ['eyebrow', 'title', 'lede']) {
+					addVisibleFieldRequirement(requirements, htmlText, `seoPage.split.sections.${sectionIndex}.${field}`, section?.[field]);
+				}
+				for (const [paragraphIndex, value] of (section?.paragraphs ?? []).entries()) {
+					addVisibleFieldRequirement(requirements, htmlText, `seoPage.split.sections.${sectionIndex}.paragraphs.${paragraphIndex}`, value);
+				}
+			}
+			addVisibleFieldRequirement(requirements, htmlText, 'seoPage.split.seal', doc.split?.seal);
+		} else {
+			for (const field of ['eyebrow', 'title', 'lede', 'seal']) {
+				addVisibleFieldRequirement(requirements, htmlText, `seoPage.split.${field}`, doc.split?.[field]);
+			}
+			for (const [index, value] of (doc.split?.paragraphs ?? []).entries()) {
+				addVisibleFieldRequirement(requirements, htmlText, `seoPage.split.paragraphs.${index}`, value);
+			}
 		}
 	}
 
@@ -273,9 +286,12 @@ for (const { file, doc } of docs) {
 		else failures.push({ type: 'static-tina-fields', route, file, message: `visible SEO text missing Tina field paths: ${missingFields.slice(0, 8).join(', ')}` });
 
 		const splitCount = doc.split?.paragraphs?.length ?? 0;
-		const splitChunked = splitCount <= 5 || html.includes('split-more');
+		const splitSectionCount = doc.split?.sections?.length ?? 0;
+		const splitChunked = splitSectionCount > 0
+			? splitSectionCount <= 4 && html.includes('split-section')
+			: splitCount <= 5 || html.includes('split-more');
 		if (splitChunked) summary.longSplitChunking += 1;
-		else failures.push({ type: 'static-split-layout', route, file, message: `long split text has ${splitCount} paragraphs but no continuation section` });
+		else failures.push({ type: 'static-split-layout', route, file, message: `split has ${splitSectionCount || splitCount} text units but no supported continuation layout` });
 	} else {
 		failures.push({ type: 'static-route', route, file, message: 'route HTML not found in dist/client' });
 	}

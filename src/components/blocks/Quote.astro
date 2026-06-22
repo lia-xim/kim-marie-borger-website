@@ -1,12 +1,12 @@
 ---
-import { tinaField } from '@tinacms/astro/tina-field';
+import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 ---
 <section class="section bg-bordeaux" style="text-align:center;">
 	<div class="wrap">
-		{data.eyebrow && <p class="eyebrow c reveal" style="margin-bottom:30px;" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
-		<blockquote class="bigquote reveal d1" data-tina-field={tinaField(data, 'before')}>{data.before}{data.mark && <span class="mk">{data.mark}</span>}{data.after}</blockquote>
-		{data.attribution && <p class="quote-by reveal d2" data-tina-field={tinaField(data, 'attribution')}>{data.attribution}</p>}
+		{data.eyebrow && <p class="eyebrow c reveal" style="margin-bottom:30px;" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
+		<blockquote class="bigquote reveal d1" data-tina-field={tinaFieldFrom(data)}>{data.before && <span data-tina-field={tinaFieldFrom(data, 'before')}>{data.before}</span>}{data.mark && <span class="mk" data-tina-field={tinaFieldFrom(data, 'mark')}>{data.mark}</span>}{data.after && <span data-tina-field={tinaFieldFrom(data, 'after')}>{data.after}</span>}</blockquote>
+		{data.attribution && <p class="quote-by reveal d2" data-tina-field={tinaFieldFrom(data, 'attribution')}>{data.attribution}</p>}
 	</div>
 </section>

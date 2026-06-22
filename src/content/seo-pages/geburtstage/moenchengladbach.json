@@ -17,28 +17,67 @@
     "badge": "Für private Feiern in Mönchengladbach"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Geburtstagsmusik in Mönchengladbach muss zum Ort und zur Feier passen.",
-    "lede": "In Mönchengladbach entstehen Geburtstage sehr unterschiedlich: Rheydt, Wickrath und Geburtstage am linken Niederrhein. Deshalb plane ich Live-Musik nicht pauschal, sondern nach Anlass, Raumgröße und gewünschter Nähe.",
-    "paragraphs": [
-      "Typische Orte sind Familienfest, Restaurant oder Gartenfeier mit mehreren Generationen. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Ankommen, für ein Wunschlied, als Übergang zum Essen oder als kurzer emotionaler Mittelpunkt.",
-      "Die Sets werden so gesetzt, dass Gratulationen und Gespräche nicht überdeckt werden. Wenn der Geburtstag lebendig und gesprächig ist, bleibt die Musik eher leicht. Wenn ein besonderer Moment geplant ist, darf ein Stück kurz mehr Aufmerksamkeit bekommen.",
-      "Für Mönchengladbach kläre ich vorab auch die praktischen Details: größere Wege im Stadtgebiet und den richtigen Moment für den Einsatz planen. So bleibt am Tag selbst genug Ruhe für Stimmung, Aufbau und den ersten Ton.",
-      "Das Repertoire kann dezente Klassiker, Pop-Melodien und warme Viola-Klänge verbinden. Entscheidend ist nicht, möglichst viele Stile abzudecken, sondern die Musik an die Person anzupassen, die gefeiert wird.",
-      "Der Klang der Viola bringt Ruhe in den Raum und wirkt persönlicher als eine Playlist. Deshalb arbeite ich mit klaren Zeichen, passenden Pausen und einer Lautstärke, die Glückwünsche und Gespräche respektiert.",
-      "Wenn mehrere Generationen dabei sind, hilft ein ausgewogener Bogen: etwas Vertrautes für die Familie, ein modernes Stück für die persönliche Note und ein ruhiger Ausklang, wenn der offizielle Moment vorbei ist.",
-      "Zusätzlich bespreche ich, wie sichtbar die Musik sein soll. Manche Feiern wünschen einen kleinen Mittelpunkt, andere nur einen besonderen Klang im Hintergrund. Beides funktioniert, wenn Einsatz, Position im Raum und Erwartung der Gäste vorher klar sind.",
-      "In Mönchengladbach prüfe ich besonders größere Stadtteilwege und ein klarer Moment für den Einsatz. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
-      "generationsgemischte Runden mit Offenheit für persönliche Musik. Deshalb geht es bei Live-Musik zum Geburtstag hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
-      "Anders als bei einer allgemeinen Leistungsseite wird Live Musik Geburtstag Mönchengladbach über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
-      "Wer in Mönchengladbach anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Rheydt, Wickrath, Niederrhein, Parks und breite regionale Einzugsgebiete bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
-      "Die wichtigste Vorbereitung in Mönchengladbach: größere Stadtteilwege und ein klarer Moment für den Einsatz. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Mönchengladbach sind generationsgemischte Runden mit Offenheit für persönliche Musik. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Geburtstagen steht die gefeierte Person im Mittelpunkt, nicht ein Konzertprogramm ohne Bezug zur Runde. In Mönchengladbach übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Siegen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Mönchengladbach passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Live Musik Geburtstag Mönchengladbach mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Mönchengladbach ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
+    "sections": [
+      {
+        "title": "Geburtstagsmusik in Mönchengladbach muss zum Ort und zur Feier passen.",
+        "lede": "In Mönchengladbach entstehen Geburtstage sehr unterschiedlich: Rheydt, Wickrath und Geburtstage am linken Niederrhein. Deshalb plane ich Live-Musik nicht pauschal, sondern nach Anlass, Raumgröße und gewünschter Nähe.",
+        "paragraphs": [
+          "Typische Orte sind Familienfest, Restaurant oder Gartenfeier mit mehreren Generationen. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Ankommen, für ein Wunschlied, als Übergang zum Essen oder als kurzer emotionaler Mittelpunkt.",
+          "Die Sets werden so gesetzt, dass Gratulationen und Gespräche nicht überdeckt werden. Wenn der Geburtstag lebendig und gesprächig ist, bleibt die Musik eher leicht. Wenn ein besonderer Moment geplant ist, darf ein Stück kurz mehr Aufmerksamkeit bekommen.",
+          "Für Mönchengladbach kläre ich vorab auch die praktischen Details: größere Wege im Stadtgebiet und den richtigen Moment für den Einsatz planen. So bleibt am Tag selbst genug Ruhe für Stimmung, Aufbau und den ersten Ton.",
+          "Das Repertoire kann dezente Klassiker, Pop-Melodien und warme Viola-Klänge verbinden. Entscheidend ist nicht, möglichst viele Stile abzudecken, sondern die Musik an die Person anzupassen, die gefeiert wird.",
+          "Der Klang der Viola bringt Ruhe in den Raum und wirkt persönlicher als eine Playlist. Deshalb arbeite ich mit klaren Zeichen, passenden Pausen und einer Lautstärke, die Glückwünsche und Gespräche respektiert."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Mönchengladbach 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Live Musik Geburtstag Mönchengladbach im Ablauf sinnvoll einsetzen.",
+        "lede": "Wenn mehrere Generationen dabei sind, hilft ein ausgewogener Bogen: etwas Vertrautes für die Familie, ein modernes Stück für die persönliche Note und ein ruhiger Ausklang, wenn der offizielle Moment vorbei ist.",
+        "paragraphs": [
+          "Zusätzlich bespreche ich, wie sichtbar die Musik sein soll. Manche Feiern wünschen einen kleinen Mittelpunkt, andere nur einen besonderen Klang im Hintergrund. Beides funktioniert, wenn Einsatz, Position im Raum und Erwartung der Gäste vorher klar sind.",
+          "In Mönchengladbach prüfe ich besonders größere Stadtteilwege und ein klarer Moment für den Einsatz. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
+          "generationsgemischte Runden mit Offenheit für persönliche Musik. Deshalb geht es bei Live-Musik zum Geburtstag hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+          "Anders als bei einer allgemeinen Leistungsseite wird Live Musik Geburtstag Mönchengladbach über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?"
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Mönchengladbach 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Wer in Mönchengladbach anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Rheydt, Wickrath, Niederrhein, Parks und breite regionale Einzugsgebiete bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
+        "paragraphs": [
+          "Die wichtigste Vorbereitung in Mönchengladbach: größere Stadtteilwege und ein klarer Moment für den Einsatz. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+          "Typisch für Mönchengladbach sind generationsgemischte Runden mit Offenheit für persönliche Musik. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
+          "Bei Geburtstagen steht die gefeierte Person im Mittelpunkt, nicht ein Konzertprogramm ohne Bezug zur Runde. In Mönchengladbach übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+          "Der Unterschied zu Siegen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Mönchengladbach 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Für die Anfrage sind Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Mönchengladbach passt und den Ablauf nicht künstlich aufbläht.",
+        "paragraphs": [
+          "Wenn Live Musik Geburtstag Mönchengladbach mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+          "Bei knappen Zeitfenstern in Mönchengladbach ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "alt": "Live-Viola als Geburtstagsmusik in Mönchengladbach 2"
+        },
+        "imageFirst": true
+      }
     ]
   },
   "faq": {

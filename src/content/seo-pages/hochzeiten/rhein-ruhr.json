@@ -17,32 +17,71 @@
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
-    "eyebrow": "Lokaler Rahmen",
-    "title": "Live-Musik zur Hochzeit in der Rhein-Ruhr-Region braucht mehr als eine schöne Stückliste.",
-    "lede": "Rhein-Ruhr bedeutet für Hochzeiten oft: dichte Wege zwischen Düsseldorf, Köln, Essen, Dortmund und Duisburg. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
-    "paragraphs": [
-      "Typische Rahmen sind Hochzeiten mit Gästen aus mehreren Städten. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
-      "Der Klang soll emotional mit genug Raum für Worte und Blicke sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
-      "Die Sets werden so gesetzt, dass Reden, Ringe und Gratulationen nicht überdeckt werden. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
-      "Für Rhein-Ruhr kläre ich vorab auch die praktischen Details: Verkehr, Timing und Aufbau mit realistischen Puffern planen. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
-      "Beim Einzug zählt Tempo, beim Ringtausch die Zurückhaltung, beim Auszug die Leichtigkeit. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
-      "Das Repertoire kann ein Wunschlied, ein festlicher Auszug und dezente Empfangsmusik verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
-      "Für Hochzeiten in dieser Region denke ich neben der Stückliste immer auch an Wege, Wetter und die Frage, wie nah die Musik an euch stehen soll.",
-      "Rhein-Ruhr bedeutet dichte Wege, mehrere Städte und oft Gäste aus verschiedenen Richtungen. Für die Musik plane ich deshalb mit realistischen Puffern und einer klaren Dramaturgie, damit der Tag trotz Verkehr ruhig beginnt.",
-      "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
-      "In Rhein-Ruhr prüfe ich besonders Entfernungen, Verkehrsfenster, Puffer und Abstimmung mit mehreren Beteiligten. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
-      "gemischte Gäste aus Stadt, Unternehmen, Familie und Kultur. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
-      "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Rhein-Ruhr über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
-      "Für Rhein-Ruhr plane ich Hochzeitsmusik Rhein-Ruhr zuerst vom echten Ablauf her: Rheinland, Ruhrgebiet, Messeorte, Hotels und sehr unterschiedliche Eventräume. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
-      "Die wichtigste Vorbereitung in Rhein-Ruhr: Entfernungen, Verkehrsfenster, Puffer und Abstimmung mit mehreren Beteiligten. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-      "Typisch für Rhein-Ruhr sind gemischte Gäste aus Stadt, Unternehmen, Familie und Kultur. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-      "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Rhein-Ruhr übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-      "Der Unterschied zu Mülheim An Der Ruhr liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-      "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Rhein-Ruhr passt und den Ablauf nicht künstlich aufbläht.",
-      "Wenn Hochzeitsmusik Rhein-Ruhr mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-      "Bei knappen Zeitfenstern in Rhein-Ruhr ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
-    ],
-    "seal": "Rhein-Ruhr\nTrauung & Empfang\nLive-Viola"
+    "seal": "Rhein-Ruhr\nTrauung & Empfang\nLive-Viola",
+    "sections": [
+      {
+        "title": "Live-Musik zur Hochzeit in der Rhein-Ruhr-Region braucht mehr als eine schöne Stückliste.",
+        "lede": "Rhein-Ruhr bedeutet für Hochzeiten oft: dichte Wege zwischen Düsseldorf, Köln, Essen, Dortmund und Duisburg. Deshalb plane ich Hochzeitsmusik nicht pauschal, sondern nach Trauort, Weglänge, Raumklang und der Frage, welche Momente wirklich Musik brauchen.",
+        "paragraphs": [
+          "Typische Rahmen sind Hochzeiten mit Gästen aus mehreren Städten. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Einzug, während der Zeremonie, beim Ringtausch, zur Unterschrift, zum Auszug oder beim Sektempfang.",
+          "Der Klang soll emotional mit genug Raum für Worte und Blicke sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleineren Trausälen oder draußen sehr präsent wirken.",
+          "Die Sets werden so gesetzt, dass Reden, Ringe und Gratulationen nicht überdeckt werden. So entsteht kein beliebiger Musikblock, sondern ein roter Faden vom ersten Blick bis zum Moment, in dem Gratulationen und Empfang beginnen.",
+          "Für Rhein-Ruhr kläre ich vorab auch die praktischen Details: Verkehr, Timing und Aufbau mit realistischen Puffern planen. Das klingt nüchtern, entscheidet aber oft darüber, ob Musik am Hochzeitstag ruhig beginnt oder unter Zeitdruck steht.",
+          "Beim Einzug zählt Tempo, beim Ringtausch die Zurückhaltung, beim Auszug die Leichtigkeit. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in der Rhein-Ruhr-Region 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Lokaler Rahmen"
+      },
+      {
+        "title": "Hochzeitsmusik Rhein-Ruhr im Ablauf sinnvoll einsetzen.",
+        "lede": "Das Repertoire kann ein Wunschlied, ein festlicher Auszug und dezente Empfangsmusik verbinden. Wichtig ist, dass die Musik zu euch passt und nicht nur zu einer allgemeinen Vorstellung von Hochzeit.",
+        "paragraphs": [
+          "Für Hochzeiten in dieser Region denke ich neben der Stückliste immer auch an Wege, Wetter und die Frage, wie nah die Musik an euch stehen soll.",
+          "Rhein-Ruhr bedeutet dichte Wege, mehrere Städte und oft Gäste aus verschiedenen Richtungen. Für die Musik plane ich deshalb mit realistischen Puffern und einer klaren Dramaturgie, damit der Tag trotz Verkehr ruhig beginnt.",
+          "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein ruhiger Einzug, ein stillerer Moment für Ringe oder Ja-Wort, ein heller Auszug und danach leichtere Musik für Empfang oder Dinner.",
+          "In Rhein-Ruhr prüfe ich besonders Entfernungen, Verkehrsfenster, Puffer und Abstimmung mit mehreren Beteiligten. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in der Rhein-Ruhr-Region 3"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "gemischte Gäste aus Stadt, Unternehmen, Familie und Kultur. Deshalb geht es bei Hochzeitsmusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
+        "paragraphs": [
+          "Anders als bei einer allgemeinen Leistungsseite wird Hochzeitsmusik Rhein-Ruhr über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
+          "Für Rhein-Ruhr plane ich Hochzeitsmusik Rhein-Ruhr zuerst vom echten Ablauf her: Rheinland, Ruhrgebiet, Messeorte, Hotels und sehr unterschiedliche Eventräume. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
+          "Die wichtigste Vorbereitung in Rhein-Ruhr: Entfernungen, Verkehrsfenster, Puffer und Abstimmung mit mehreren Beteiligten. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
+          "Typisch für Rhein-Ruhr sind gemischte Gäste aus Stadt, Unternehmen, Familie und Kultur. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in der Rhein-Ruhr-Region 1"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Bei Hochzeiten geht es um Dramaturgie, Wege, Emotion und die Frage, wann Musik den Moment groesser macht und wann sie sich zurücknimmt. In Rhein-Ruhr übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
+        "paragraphs": [
+          "Der Unterschied zu Mülheim An Der Ruhr liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+          "Für die Anfrage sind Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Rhein-Ruhr passt und den Ablauf nicht künstlich aufbläht.",
+          "Wenn Hochzeitsmusik Rhein-Ruhr mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
+          "Bei knappen Zeitfenstern in Rhein-Ruhr ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "alt": "Live-Viola als Hochzeitsmusik in der Rhein-Ruhr-Region 2"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "focus": {
     "eyebrow": "Ablauf",

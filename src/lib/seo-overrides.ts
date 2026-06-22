@@ -26,6 +26,21 @@ export interface SeoOverrideItem {
 	piece?: string;
 }
 
+export interface SeoOverrideSplitSection {
+	eyebrow?: string;
+	title?: string;
+	lede?: string;
+	paragraphs?: string[];
+	image?: {
+		src?: string;
+		alt?: string;
+	};
+	imageFirst?: boolean;
+	figureClass?: string;
+	aspect?: string;
+	titleWidth?: string;
+}
+
 export interface SeoOverrideElegyPassage {
 	strong?: string;
 	text?: string;
@@ -74,6 +89,7 @@ export interface SeoPageOverride {
 		title?: string;
 		lede?: string;
 		paragraphs?: string[];
+		sections?: SeoOverrideSplitSection[];
 		seal?: string;
 	};
 	focus?: {

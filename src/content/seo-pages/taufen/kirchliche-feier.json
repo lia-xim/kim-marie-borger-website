@@ -17,39 +17,78 @@
     "badge": "Sanfte Viola für Familie & Kirche"
   },
   "split": {
-    "eyebrow": "Einordnung",
-    "title": "Musik Kirchliche Feier braucht einen eigenen Schwerpunkt.",
-    "lede": "Familien, die Taufe, Kommunion, Konfirmation oder Segnung musikalisch rahmen möchten suchen Musik für Kirche, Kapelle, Gemeindegottesdienst oder festliche Familienliturgie. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
-    "paragraphs": [
-      "Kirchliche Feier ist breiter als Taufe und fragt nach einem passenden musikalischen Rahmen im Gottesdienst.",
-      "Ich stimme Stücke und Einsätze mit Familie, Pfarrperson oder Kirchenmusik ab.",
-      "Diese Seite sammelt kirchliche Familienmomente und verweist gedanklich auf speziellere Seiten wie Taufe oder Kommunion.",
-      "Wichtig sind liturgische Stellen, Vorgaben der Gemeinde und die Frage, ob Musik solistisch oder ergänzend eingesetzt wird.",
-      "Solo-Viola kann kirchliche Feiern feierlich machen, ohne den Gottesdienst musikalisch zu überfrachten.",
-      "Bei Musik kirchliche Feier geht es zuerst um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
-      "Ein ruhiges Stück vor Beginn hilft, wenn Familie, Paten und Gäste erst im Raum ankommen müssen.",
-      "Beim Auszug darf die Musik freundlicher werden und den Wechsel in Gratulationen und Familienfeier öffnen.",
-      "Für Wunschlieder prüfe ich, ob die Melodie solo auf der Viola trägt und ob ein kurzer Ausschnitt stärker ist als die ganze Version.",
-      "Ich bespreche mit euch zuerst die Feierform: klassischer Gottesdienst, freie Segnung, Willkommensfest oder eine Kombination mit Familienfeier.",
-      "Danach geht es um die konkreten Einsatzpunkte, damit Musik nicht zufällig beginnt, sondern dem Ablauf wirklich Halt gibt.",
-      "Ich wähle Stücke danach aus, ob sie auf der Viola wirklich funktionieren. Nicht jedes bekannte Lied behält ohne Text dieselbe Wirkung, und nicht jeder Klassiker passt automatisch zu Kind, Raum und Familie.",
-      "Die Länge ist ebenfalls wichtig. Ein kurzer musikalischer Ausschnitt kann stärker sein als eine vollständige Version, wenn er genau an der richtigen Stelle steht.",
-      "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken.",
-      "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten.",
-      "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
-      "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln.",
-      "Bei Musik kirchliche Feier steht Kirchenraum, Liturgie, Segen, Orgelbezug, feierlicher Nachhall im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Bratsche Taufe.",
-      "Bei Taufen ist die Musik Teil eines Familien- und Segensmoments. Musik kirchliche Feier braucht darum eine helle, behutsame Dramaturgie, die Gottesdienst, Kind und Familie respektiert.",
-      "Der Kern von Musik kirchliche Feier ist Kirchenraum, Liturgie, Segen, Orgelbezug, feierlicher Nachhall. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-      "Für die Planung sind Absprache mit Pfarramt, Akustik, Einzug, Auszug die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-      "Die klare Abgrenzung zu Musik Gottesdienst Taufe lautet: nicht freie Zeremonie kopieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-      "Kirchenraum, Liturgie, Segen, Orgelbezug, feierlicher Nachhall verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-      "Bei der Abstimmung schaue ich besonders auf Absprache mit Pfarramt, Akustik, Einzug, Auszug. Das verhindert, dass Musik kirchliche Feier nur wie eine Variante der Hauptleistung klingt.",
-      "Auch Kirchenraum, Liturgie, Segen, Orgelbezug, feierlicher Nachhall ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-      "Eine gute Anfrage nennt Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-      "Redaktionell bleibt diese Seite eng bei Kirchliche, Feier. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
-    ],
-    "seal": "Musik Kirchliche Feier\nTaufe\nLive-Viola"
+    "seal": "Musik Kirchliche Feier\nTaufe\nLive-Viola",
+    "sections": [
+      {
+        "title": "Musik Kirchliche Feier braucht einen eigenen Schwerpunkt.",
+        "lede": "Familien, die Taufe, Kommunion, Konfirmation oder Segnung musikalisch rahmen möchten suchen Musik für Kirche, Kapelle, Gemeindegottesdienst oder festliche Familienliturgie. Dafür reicht eine allgemeine Taufmusik-Seite nicht immer aus.",
+        "paragraphs": [
+          "Kirchliche Feier ist breiter als Taufe und fragt nach einem passenden musikalischen Rahmen im Gottesdienst.",
+          "Ich stimme Stücke und Einsätze mit Familie, Pfarrperson oder Kirchenmusik ab.",
+          "Diese Seite sammelt kirchliche Familienmomente und verweist gedanklich auf speziellere Seiten wie Taufe oder Kommunion.",
+          "Wichtig sind liturgische Stellen, Vorgaben der Gemeinde und die Frage, ob Musik solistisch oder ergänzend eingesetzt wird.",
+          "Solo-Viola kann kirchliche Feiern feierlich machen, ohne den Gottesdienst musikalisch zu überfrachten.",
+          "Bei Musik kirchliche Feier geht es zuerst um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
+          "Ein ruhiges Stück vor Beginn hilft, wenn Familie, Paten und Gäste erst im Raum ankommen müssen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Live-Viola für Musik kirchliche Feier im ruhigen Tauf- und Familienrahmen"
+        },
+        "imageFirst": false,
+        "eyebrow": "Einordnung"
+      },
+      {
+        "title": "Musik kirchliche Feier im Ablauf sinnvoll einsetzen.",
+        "lede": "Beim Auszug darf die Musik freundlicher werden und den Wechsel in Gratulationen und Familienfeier öffnen.",
+        "paragraphs": [
+          "Für Wunschlieder prüfe ich, ob die Melodie solo auf der Viola trägt und ob ein kurzer Ausschnitt stärker ist als die ganze Version.",
+          "Ich bespreche mit euch zuerst die Feierform: klassischer Gottesdienst, freie Segnung, Willkommensfest oder eine Kombination mit Familienfeier.",
+          "Danach geht es um die konkreten Einsatzpunkte, damit Musik nicht zufällig beginnt, sondern dem Ablauf wirklich Halt gibt.",
+          "Ich wähle Stücke danach aus, ob sie auf der Viola wirklich funktionieren. Nicht jedes bekannte Lied behält ohne Text dieselbe Wirkung, und nicht jeder Klassiker passt automatisch zu Kind, Raum und Familie.",
+          "Die Länge ist ebenfalls wichtig. Ein kurzer musikalischer Ausschnitt kann stärker sein als eine vollständige Version, wenn er genau an der richtigen Stelle steht.",
+          "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "alt": "Kim Marie Borger spielt Live-Viola für Musik kirchliche Feier"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten.",
+        "paragraphs": [
+          "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
+          "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln.",
+          "Bei Musik kirchliche Feier steht Kirchenraum, Liturgie, Segen, Orgelbezug, feierlicher Nachhall im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Bratsche Taufe.",
+          "Bei Taufen ist die Musik Teil eines Familien- und Segensmoments. Musik kirchliche Feier braucht darum eine helle, behutsame Dramaturgie, die Gottesdienst, Kind und Familie respektiert.",
+          "Der Kern von Musik kirchliche Feier ist Kirchenraum, Liturgie, Segen, Orgelbezug, feierlicher Nachhall. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+          "Für die Planung sind Absprache mit Pfarramt, Akustik, Einzug, Auszug die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz926-violins-1868064_1280.jpg",
+          "alt": "Live-Viola für Musik kirchliche Feier mit sanfter Live-Viola"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Die klare Abgrenzung zu Musik Gottesdienst Taufe lautet: nicht freie Zeremonie kopieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+        "paragraphs": [
+          "Kirchenraum, Liturgie, Segen, Orgelbezug, feierlicher Nachhall verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Absprache mit Pfarramt, Akustik, Einzug, Auszug. Das verhindert, dass Musik kirchliche Feier nur wie eine Variante der Hauptleistung klingt.",
+          "Auch Kirchenraum, Liturgie, Segen, Orgelbezug, feierlicher Nachhall ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+          "Eine gute Anfrage nennt Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Kirchliche, Feier. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.jpg",
+          "alt": "Live-Viola für Musik kirchliche Feier im ruhigen Tauf- und Familienrahmen"
+        },
+        "imageFirst": true
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",

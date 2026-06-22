@@ -29,6 +29,26 @@ const faqFields = [
 	{ type: 'boolean' as const, name: 'open', label: 'Standardmaessig geoeffnet' },
 ];
 
+const splitSectionFields = [
+	{ type: 'string' as const, name: 'eyebrow', label: 'Ueberzeile' },
+	{ type: 'string' as const, name: 'title', label: 'Ueberschrift', ui: { component: 'textarea' } },
+	{ type: 'string' as const, name: 'lede', label: 'Hervorgehobener Absatz', ui: { component: 'textarea' } },
+	{ type: 'string' as const, name: 'paragraphs', label: 'Absatztexte', list: true, ui: { component: 'textarea' } },
+	{
+		type: 'object' as const,
+		name: 'image',
+		label: 'Bild',
+		fields: [
+			{ type: 'image' as const, name: 'src', label: 'Bild' },
+			{ type: 'string' as const, name: 'alt', label: 'Alt-Text' },
+		],
+	},
+	{ type: 'boolean' as const, name: 'imageFirst', label: 'Bild links anzeigen' },
+	{ type: 'string' as const, name: 'figureClass', label: 'Bild-Rahmenform' },
+	{ type: 'string' as const, name: 'aspect', label: 'Bild-Seitenverhaeltnis' },
+	{ type: 'string' as const, name: 'titleWidth', label: 'Max. Titelbreite' },
+];
+
 export const SeoPageCollection: Collection = {
 	name: 'seoPage',
 	label: 'SEO-Landingpages',
@@ -86,7 +106,16 @@ export const SeoPageCollection: Collection = {
 				{ name: 'eyebrow', label: 'Ueberzeile', type: 'string' },
 				{ name: 'title', label: 'Ueberschrift', type: 'string', ui: { component: 'textarea' } },
 				{ name: 'lede', label: 'Hervorgehobener Absatz', type: 'string', ui: { component: 'textarea' } },
-				{ name: 'paragraphs', label: 'Absatztexte', type: 'string', list: true, ui: { component: 'textarea' } },
+				{
+					name: 'sections',
+					label: 'Bild/Text-Sektionen',
+					description: 'Maximal vier Abschnitte. Jeder Abschnitt hat Ueberschrift, hervorgehobenen Absatz, Absatztexte und ein Bild.',
+					type: 'object',
+					list: true,
+					ui: { itemProps: (item) => ({ label: item?.title ?? 'Abschnitt' }) },
+					fields: splitSectionFields,
+				},
+				{ name: 'paragraphs', label: 'Fallback-Absatztexte fuer alte Seiten', type: 'string', list: true, ui: { component: 'textarea' } },
 				{ name: 'seal', label: 'Siegel-Text', type: 'string', ui: { component: 'textarea' } },
 			],
 		},

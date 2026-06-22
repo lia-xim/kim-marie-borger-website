@@ -1000,10 +1000,28 @@ type SeoPageHero {
   badge: String
 }
 
+type SeoPageSplitSectionsImage {
+  src: String
+  alt: String
+}
+
+type SeoPageSplitSections {
+  eyebrow: String
+  title: String
+  lede: String
+  paragraphs: [String]
+  image: SeoPageSplitSectionsImage
+  imageFirst: Boolean
+  figureClass: String
+  aspect: String
+  titleWidth: String
+}
+
 type SeoPageSplit {
   eyebrow: String
   title: String
   lede: String
+  sections: [SeoPageSplitSections]
   paragraphs: [String]
   seal: String
 }
@@ -1115,10 +1133,28 @@ input SeoPageHeroFilter {
   badge: StringFilter
 }
 
+input SeoPageSplitSectionsImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input SeoPageSplitSectionsFilter {
+  eyebrow: StringFilter
+  title: StringFilter
+  lede: StringFilter
+  paragraphs: StringFilter
+  image: SeoPageSplitSectionsImageFilter
+  imageFirst: BooleanFilter
+  figureClass: StringFilter
+  aspect: StringFilter
+  titleWidth: StringFilter
+}
+
 input SeoPageSplitFilter {
   eyebrow: StringFilter
   title: StringFilter
   lede: StringFilter
+  sections: SeoPageSplitSectionsFilter
   paragraphs: StringFilter
   seal: StringFilter
 }
@@ -1805,10 +1841,28 @@ input SeoPageHeroMutation {
   badge: String
 }
 
+input SeoPageSplitSectionsImageMutation {
+  src: String
+  alt: String
+}
+
+input SeoPageSplitSectionsMutation {
+  eyebrow: String
+  title: String
+  lede: String
+  paragraphs: [String]
+  image: SeoPageSplitSectionsImageMutation
+  imageFirst: Boolean
+  figureClass: String
+  aspect: String
+  titleWidth: String
+}
+
 input SeoPageSplitMutation {
   eyebrow: String
   title: String
   lede: String
+  sections: [SeoPageSplitSectionsMutation]
   paragraphs: [String]
   seal: String
 }

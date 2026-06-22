@@ -136,6 +136,23 @@ instructions rather than failing hard.
 
 Every Tina save creates a Git commit and triggers a deployment.
 
+### Upload Large Photos
+
+Tina uploads are wrapped by a client-side optimizer in `tina/media/optimized-upload.ts`.
+JPEG, PNG, WebP, and AVIF files are resized to a maximum 2000 px long edge and
+uploaded as WebP before they reach Tina/Git. The Media Manager shows a summary
+toast after local optimization; Tina itself only exposes a coarse upload spinner,
+not reliable per-file network progress.
+
+`npm run optimize:images` remains the backstop for older or manually copied
+files in `public/uploads`. It converts web-sized sources to WebP, rewrites
+`/uploads/...` references in `src/`, and refreshes the image manifest. The
+Vercel build runs this automatically before Tina/Astro read the content.
+
+The media library still shows each uploaded photo once. Different display sizes
+are generated at request time through Vercel Image Optimization from the single
+source file and the `sizes` values in the Astro components.
+
 ### Add Real Audio Samples
 
 1. Put local master audio files in `audio-src/`.

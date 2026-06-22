@@ -6,6 +6,19 @@ import { tinaFieldFrom } from '../../lib/tina-fields';
 const { data } = Astro.props;
 const bgClass = data.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
 const paragraphs = (data.paragraphs ?? []).filter((p: unknown) => p !== null);
+const structuredSections = (Array.isArray(data.sections) ? data.sections : [])
+	.filter((section: any) =>
+		section
+		&& (
+			section.eyebrow
+			|| section.title
+			|| section.lede
+			|| section.image?.src
+			|| (section.paragraphs ?? []).some((p: unknown) => p !== null && p !== '')
+		),
+	)
+	.slice(0, 4);
+const fallbackSectionImages = [data.image, data.secondImage].filter((image: any) => image?.src);
 const primaryParagraphLimit = 3;
 const continuationParagraphLimit = 4;
 const shouldSplitLongText = paragraphs.length > primaryParagraphLimit + 2;
@@ -30,72 +43,134 @@ const sealLines: string[] = (data.seal ?? '').split('\n');
 const titleLines: string[] = (data.title ?? '').split('\n');
 const titleStyle = `margin:18px 0 22px;max-width:${data.titleWidth ?? '18ch'};`;
 ---
-<section class={`section${bgClass}`} id={data.anchorId || undefined}>
-	<div class="wrap split">
-		{data.imageFirst && (
-			<div class={`figure${figureClass} reveal`} style="order:0;">
-				<div class="frame" style={frameStyle}>
-					<Img data-parallax="0.05" src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'image')} />
+{structuredSections.length > 0 ? (
+	structuredSections.map((section: any, sectionIndex: number) => {
+		const sectionParagraphs = (section.paragraphs ?? []).filter((p: unknown) => p !== null && p !== '');
+		const sectionImage = section.image?.src
+			? section.image
+			: fallbackSectionImages[sectionIndex % Math.max(fallbackSectionImages.length, 1)];
+		const sectionImageSource = section.image?.src ? section : data;
+		const imageFirst = typeof section.imageFirst === 'boolean' ? section.imageFirst : sectionIndex % 2 === 1;
+		const rawFigureClass = section.figureClass ?? (data.figureClass === 'twin' ? '' : data.figureClass);
+		const sectionFigureClass = rawFigureClass ? ` ${rawFigureClass}` : '';
+		const sectionFrameStyle = section.aspect || data.aspect ? `aspect-ratio:${section.aspect ?? data.aspect};` : undefined;
+		const sectionTitleLines: string[] = (section.title ?? '').split('\n');
+		const sectionTitleStyle = `margin:18px 0 22px;max-width:${section.titleWidth ?? data.titleWidth ?? '18ch'};`;
+		const sectionSeal = sectionIndex === 0 ? data.seal : undefined;
+		const sectionSealLines: string[] = (sectionSeal ?? '').split('\n');
+		const sectionCtas = Array.isArray(section.ctas) && section.ctas.length ? section.ctas : sectionIndex === 0 ? ctas : [];
+		const eyebrow = section.eyebrow ?? (sectionIndex === 0 ? data.eyebrow : '');
+		const eyebrowSource = section.eyebrow ? section : data;
+
+		const figure = (
+			<div class={`figure${sectionFigureClass} reveal${imageFirst ? '' : ' d2'}`} style={imageFirst ? 'order:0;' : undefined}>
+				<div class="frame" style={sectionFrameStyle}>
+					<Img data-parallax={imageFirst ? '0.05' : '0.06'} src={sectionImage?.src} alt={sectionImage?.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(sectionImageSource, 'image')} />
 				</div>
-				{data.secondImage?.src && (
-					<div class="frame" style={frameStyle}>
-						<Img data-parallax="0.05" src={data.secondImage.src} alt={data.secondImage.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'secondImage')} />
-					</div>
-				)}
-				{data.seal && <span class="seal" data-tina-field={tinaFieldFrom(data, 'seal')}>{sealLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}</span>}
+				{sectionSeal && <span class="seal" data-tina-field={tinaFieldFrom(data, 'seal')}>{sectionSealLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}</span>}
 			</div>
-		)}
-		<div class={`copy reveal${data.imageFirst ? ' d1' : ''}`}>
-			{data.eyebrow && <p class="eyebrow" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
-			{data.title && <h2 class="display-m" style={titleStyle} data-tina-field={tinaFieldFrom(data, 'title')}>
-				{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
-			</h2>}
-			{data.lede && <p class="lede" data-tina-field={tinaFieldFrom(data, 'lede')}>{data.lede}</p>}
-			{primaryParagraphs.map((p: string, i: number) => (
-				<p class="lead" style={i > 0 || data.lede ? 'margin-top:16px;' : undefined} data-tina-field={tinaFieldFrom(data, 'paragraphs', i)}>{p}</p>
-			))}
-			{ctas.length > 0 && (
-				<div style="margin-top:28px;display:flex;gap:24px;flex-wrap:wrap;align-items:center;">
-					{ctas.map((cta: any) => cta.style === 'link-line' ? (
-						<a href={normalizeHref(cta.link)} class="link-line" data-tina-field={tinaFieldFrom(cta)}>{cta.label} <span class="ar">→</span></a>
-					) : (
-						<a href={normalizeHref(cta.link)} class={`btn ${cta.style ?? 'btn-ghost'}`} data-tina-field={tinaFieldFrom(cta)}>{cta.label} <span class="ar">→</span></a>
-					))}
-				</div>
-			)}
-		</div>
-		{!data.imageFirst && twin && (
-			<div class="twin reveal d2">
-				<div class="tframe float-soft"><Img src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 46vw, 22vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'image')} /></div>
-				{data.secondImage?.src && (
-					<div class="tframe"><Img src={data.secondImage.src} alt={data.secondImage.alt ?? ''} sizes="(max-width: 900px) 46vw, 22vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'secondImage')} /></div>
-				)}
-			</div>
-		)}
-		{!data.imageFirst && !twin && (
-			<div class={`figure${figureClass} reveal d2`}>
-				<div class="frame" style={frameStyle}>
-					<Img data-parallax="0.06" src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'image')} />
-				</div>
-				{data.secondImage?.src && (
-					<div class="frame" style={frameStyle}>
-						<Img data-parallax="0.06" src={data.secondImage.src} alt={data.secondImage.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'secondImage')} />
-					</div>
-				)}
-				{data.seal && <span class="seal" data-tina-field={tinaFieldFrom(data, 'seal')}>{sealLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}</span>}
-			</div>
-		)}
-	</div>
-</section>
-{continuationSections.map((section) => (
-	<section class={`section split-more${bgClass}`}>
-		<div class="wrap split-more-wrap">
-			<div class="split-more-rule" aria-hidden="true"></div>
-			<div class="split-more-copy">
-				{section.paragraphs.map((p: string, i: number) => (
-					<p class="lead" data-tina-field={tinaFieldFrom(data, 'paragraphs', section.offset + i)}>{p}</p>
+		);
+
+		const copy = (
+			<div class={`copy reveal${imageFirst ? ' d1' : ''}`}>
+				{eyebrow && <p class="eyebrow" data-tina-field={tinaFieldFrom(eyebrowSource, 'eyebrow')}>{eyebrow}</p>}
+				{section.title && <h2 class="display-m" style={sectionTitleStyle} data-tina-field={tinaFieldFrom(section, 'title')}>
+					{sectionTitleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
+				</h2>}
+				{section.lede && <p class="lede" data-tina-field={tinaFieldFrom(section, 'lede')}>{section.lede}</p>}
+				{sectionParagraphs.map((p: string, i: number) => (
+					<p class="lead" style={i > 0 || section.lede ? 'margin-top:16px;' : undefined} data-tina-field={tinaFieldFrom(section, 'paragraphs', i)}>{p}</p>
 				))}
+				{sectionCtas.length > 0 && (
+					<div style="margin-top:28px;display:flex;gap:24px;flex-wrap:wrap;align-items:center;">
+						{sectionCtas.map((cta: any) => cta.style === 'link-line' ? (
+							<a href={normalizeHref(cta.link)} class="link-line" data-tina-field={tinaFieldFrom(cta)}>{cta.label} <span class="ar">→</span></a>
+						) : (
+							<a href={normalizeHref(cta.link)} class={`btn ${cta.style ?? 'btn-ghost'}`} data-tina-field={tinaFieldFrom(cta)}>{cta.label} <span class="ar">→</span></a>
+						))}
+					</div>
+				)}
 			</div>
-		</div>
-	</section>
-))}
+		);
+
+		return (
+			<section class={`section split-section${sectionIndex > 0 ? ' split-section-continuation' : ''}${bgClass}`} id={sectionIndex === 0 ? data.anchorId || undefined : undefined}>
+				<div class="wrap split">
+					{imageFirst ? <Fragment>{figure}{copy}</Fragment> : <Fragment>{copy}{figure}</Fragment>}
+				</div>
+			</section>
+		);
+	})
+) : (
+	<Fragment>
+		<section class={`section${bgClass}`} id={data.anchorId || undefined}>
+			<div class="wrap split">
+				{data.imageFirst && (
+					<div class={`figure${figureClass} reveal`} style="order:0;">
+						<div class="frame" style={frameStyle}>
+							<Img data-parallax="0.05" src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'image')} />
+						</div>
+						{data.secondImage?.src && (
+							<div class="frame" style={frameStyle}>
+								<Img data-parallax="0.05" src={data.secondImage.src} alt={data.secondImage.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'secondImage')} />
+							</div>
+						)}
+						{data.seal && <span class="seal" data-tina-field={tinaFieldFrom(data, 'seal')}>{sealLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}</span>}
+					</div>
+				)}
+				<div class={`copy reveal${data.imageFirst ? ' d1' : ''}`}>
+					{data.eyebrow && <p class="eyebrow" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
+					{data.title && <h2 class="display-m" style={titleStyle} data-tina-field={tinaFieldFrom(data, 'title')}>
+						{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
+					</h2>}
+					{data.lede && <p class="lede" data-tina-field={tinaFieldFrom(data, 'lede')}>{data.lede}</p>}
+					{primaryParagraphs.map((p: string, i: number) => (
+						<p class="lead" style={i > 0 || data.lede ? 'margin-top:16px;' : undefined} data-tina-field={tinaFieldFrom(data, 'paragraphs', i)}>{p}</p>
+					))}
+					{ctas.length > 0 && (
+						<div style="margin-top:28px;display:flex;gap:24px;flex-wrap:wrap;align-items:center;">
+							{ctas.map((cta: any) => cta.style === 'link-line' ? (
+								<a href={normalizeHref(cta.link)} class="link-line" data-tina-field={tinaFieldFrom(cta)}>{cta.label} <span class="ar">→</span></a>
+							) : (
+								<a href={normalizeHref(cta.link)} class={`btn ${cta.style ?? 'btn-ghost'}`} data-tina-field={tinaFieldFrom(cta)}>{cta.label} <span class="ar">→</span></a>
+							))}
+						</div>
+					)}
+				</div>
+				{!data.imageFirst && twin && (
+					<div class="twin reveal d2">
+						<div class="tframe float-soft"><Img src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 46vw, 22vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'image')} /></div>
+						{data.secondImage?.src && (
+							<div class="tframe"><Img src={data.secondImage.src} alt={data.secondImage.alt ?? ''} sizes="(max-width: 900px) 46vw, 22vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'secondImage')} /></div>
+						)}
+					</div>
+				)}
+				{!data.imageFirst && !twin && (
+					<div class={`figure${figureClass} reveal d2`}>
+						<div class="frame" style={frameStyle}>
+							<Img data-parallax="0.06" src={data.image?.src} alt={data.image?.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'image')} />
+						</div>
+						{data.secondImage?.src && (
+							<div class="frame" style={frameStyle}>
+								<Img data-parallax="0.06" src={data.secondImage.src} alt={data.secondImage.alt ?? ''} sizes="(max-width: 900px) 92vw, 44vw" loading="lazy" decoding="async" data-tina-field={tinaFieldFrom(data, 'secondImage')} />
+							</div>
+						)}
+						{data.seal && <span class="seal" data-tina-field={tinaFieldFrom(data, 'seal')}>{sealLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}</span>}
+					</div>
+				)}
+			</div>
+		</section>
+		{continuationSections.map((section) => (
+			<section class={`section split-more${bgClass}`}>
+				<div class="wrap split-more-wrap">
+					<div class="split-more-rule" aria-hidden="true"></div>
+					<div class="split-more-copy">
+						{section.paragraphs.map((p: string, i: number) => (
+							<p class="lead" data-tina-field={tinaFieldFrom(data, 'paragraphs', section.offset + i)}>{p}</p>
+						))}
+					</div>
+				</div>
+			</section>
+		))}
+	</Fragment>
+)}
