@@ -27,7 +27,7 @@
       },
       {
         "question": "Welche Angaben helfen für eine Anfrage im Rhein-Kreis Neuss?",
-        "answer": "Am hilfreichsten sind Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
+        "answer": "Am hilfreichsten sind Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Für ein seriöses Angebot reicht der Kreisname allein nicht: Stadt, Adresse und mögliche Ortswechsel entscheiden, ob Anfahrt, Aufbau und Zeitpuffer realistisch sind. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
       },
       {
         "question": "Ist die Kontaktaufnahme kostenlos?",
@@ -73,7 +73,7 @@
       "alt": "Viola für Trauermusik im Rhein-Kreis Neuss - Bild 4"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik im Rhein-Kreis Neuss anfragen",
@@ -83,6 +83,13 @@
       "Datum & Ort",
       "Wunschmusik",
       "Preis nach Rahmen"
+    ],
+    "defaultOccasion": "Trauerfeier",
+    "sourceLabel": "Trauermusik Rhein-Kreis Neuss",
+    "notes": [
+      "Kontaktaufnahme kostenlos und unverbindlich",
+      "Kein kostenloses Vorspielen vor Ort",
+      "Vorhandenes Repertoire ohne Aufpreis; neue Notation nach Aufwand, ca. 30 Euro pro Song"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen im Rhein-Kreis Neuss klären",
@@ -101,7 +108,7 @@
       },
       {
         "strong": "Absprache",
-        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Im Rhein-Kreis Neuss können zwei Orte nah klingen und praktisch trotzdem unterschiedliche Fahrzeiten, Parkmöglichkeiten und Zeitpuffer brauchen. Wenn gewünscht, kläre ich Ablauf und Einsätze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt."
+        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Im Rhein-Kreis Neuss können zwei Orte nah klingen und praktisch trotzdem unterschiedliche Fahrzeiten, Parkmöglichkeiten und Zeitpuffer brauchen. Für ein seriöses Angebot reicht der Kreisname allein nicht: Stadt, Adresse und mögliche Ortswechsel entscheiden, ob Anfahrt, Aufbau und Zeitpuffer realistisch sind. Wenn gewünscht, kläre ich Ablauf und Einsätze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt."
       },
       {
         "strong": "Wunschstück",
@@ -117,7 +124,7 @@
       {
         "rom": "Vorab",
         "title": "Ein Kontakt reicht",
-        "poet": "Datum, Uhrzeit, Trauerort, Ablauf und Wunschstücke genügen für den ersten Schritt. Die Anfrage ist kostenlos; der Preis wird nach Rahmen und Aufwand vereinbart."
+        "poet": "Datum, Uhrzeit, Trauerort, Ablauf und Wunschstücke genügen für den ersten Schritt. Die Anfrage ist kostenlos; der Preis wird nach Rahmen und Aufwand vereinbart. Wenn Anfrage und Feier nur mit Rhein-Kreis Neuss beschrieben sind, frage ich nach Stadt und Adresse, bevor ich Umfang oder Preis nenne; ein Termin in Neuss ist praktisch anders als einer Richtung Dormagen."
       },
       {
         "rom": "Vor Ort",

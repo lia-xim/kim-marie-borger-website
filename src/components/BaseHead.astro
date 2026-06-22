@@ -21,6 +21,7 @@ interface Props {
 	description: string;
 	image?: string;
 	imageAlt?: string;
+	preloadImage?: string;
 	noindex?: boolean;
 }
 
@@ -31,10 +32,12 @@ const {
 	description,
 	image: rawImage = '/og-default.png',
 	imageAlt = `${title} - Kim Marie Borger`,
+	preloadImage: rawPreloadImage,
 	noindex = false,
 } = Astro.props;
 const image = normalizeSrc(rawImage) ?? rawImage;
 const absoluteImage = new URL(image, canonicalURL);
+const preloadImage = normalizeSrc(rawPreloadImage);
 
 const fontFaceCss = [
 	`@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:300;font-display:optional;src:url("${cormorant300it}") format("woff2");}`,
@@ -47,10 +50,10 @@ const fontFaceCss = [
 	`@font-face{font-family:"Manrope";font-style:normal;font-weight:600;font-display:optional;src:url("${manrope600}") format("woff2");}`,
 ].join('');
 
-// LCP: das Hero-Bild der Seite vorladen — mit demselben srcset wie im Markup,
-// damit Preload und <img> exakt dieselbe Variante treffen.
-const heroPreloadSrcset = onVercel && isOptimizable(image) ? buildSrcset(image).srcset : undefined;
-const heroPreloadHref = !onVercel && isOptimizable(image) ? image : undefined;
+// LCP: nur das tatsaechlich sichtbare Hero-Bild vorladen. Social-/OG-Fallbacks
+// duerfen keinen unsichtbaren Request im kritischen Pfad erzeugen.
+const heroPreloadSrcset = onVercel && isOptimizable(preloadImage) ? buildSrcset(preloadImage).srcset : undefined;
+const heroPreloadHref = !onVercel && isOptimizable(preloadImage) ? preloadImage : undefined;
 ---
 
 <meta charset="utf-8" />

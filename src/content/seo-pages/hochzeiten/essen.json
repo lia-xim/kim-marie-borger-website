@@ -54,7 +54,7 @@
         "title": "Was ich für eine gute Anfrage in Essen brauche.",
         "lede": "Die Kontaktaufnahme ist kostenlos und unverbindlich. Ein Preis entsteht erst, wenn Dauer, Ort, Aufwand, Wunschmusik, Anfahrt und Rahmen klar genug sind, damit ich ehrlich einschätzen kann, was sinnvoll ist.",
         "paragraphs": [
-          "Hilfreich sind: Datum, Trauort, Zeremonieform, ungefähre Uhrzeit, Gästezahl, Wunschmomente und erste Liedideen. Damit kann ich Verfügbarkeit, passenden Umfang und einen realistischen Preisrahmen einschätzen.",
+          "Hilfreich sind: Datum, Trauort, Zeremonieform, ungefähre Uhrzeit, Gästezahl, Wunschmomente und erste Liedideen. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Baldeneysee und Villa Hügel, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Damit kann ich Verfügbarkeit, passenden Umfang und einen realistischen Preisrahmen einschätzen.",
           "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
           "Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klären wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin in Essen mit Anfahrt, Aufbau und Ablauf machbar ist."
         ],
@@ -70,7 +70,7 @@
         "lede": "Eine Trauung in Essen rund um Baldeneysee und Villa Hügel kann mit einem ruhigen Einzug beginnen, beim Ringtausch sehr reduziert werden und nach dem Auszug in leichte Empfangsmusik wechseln.",
         "paragraphs": [
           "Wenn die Location zwischen Baldeneysee und Villa Hügel mehrere Wege zwischen Trauung, Fotos und Empfang hat, plane ich lieber kürzere, sichere Einsätze als einen zu langen Musikblock.",
-          "Für die Buchung klären wir danach ehrlich, ob vorhandenes Repertoire reicht oder ob ein Wunschlied neu herausgehört beziehungsweise notiert werden muss. So bleibt die Seite für Essen praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
+          "Wenn Zeremonie, Fotos und Empfang an zwei Orten zwischen Baldeneysee und Villa Hügel liegen, plane ich nicht automatisch beides ein; erst die Wege und Zeiten zeigen, ob ein Ortswechsel musikalisch sinnvoll ist. Für die Buchung klären wir danach ehrlich, ob vorhandenes Repertoire reicht oder ob ein Wunschlied neu herausgehört beziehungsweise notiert werden muss. So bleibt die Seite für Essen praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
@@ -123,7 +123,7 @@
       },
       {
         "question": "Welche Angaben helfen für eine Anfrage in Essen?",
-        "answer": "Am hilfreichsten sind Datum, Trauort, Zeremonieform, ungefähre Uhrzeit, Gästezahl, Wunschmomente und erste Liedideen. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
+        "answer": "Am hilfreichsten sind Datum, Trauort, Zeremonieform, ungefähre Uhrzeit, Gästezahl, Wunschmomente und erste Liedideen. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Baldeneysee und Villa Hügel, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
       },
       {
         "question": "Ist die Kontaktaufnahme kostenlos?",
@@ -169,7 +169,7 @@
       "alt": "Live-Viola als Hochzeitsmusik in Essen - Bild 4"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
   "contact": {
     "eyebrow": "Hochzeitsmusik anfragen",
     "title": "Hochzeitsmusik in Essen anfragen",
@@ -179,6 +179,13 @@
       "Datum & Ort",
       "Wunschmusik",
       "Preis nach Rahmen"
+    ],
+    "defaultOccasion": "Hochzeit",
+    "sourceLabel": "Hochzeitsmusik Essen",
+    "notes": [
+      "Kontaktaufnahme kostenlos und unverbindlich",
+      "Kein kostenloses Vorspielen vor Ort",
+      "Vorhandenes Repertoire ohne Aufpreis; neue Notation nach Aufwand, ca. 30 Euro pro Song"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Essen klären",

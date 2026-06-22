@@ -25,12 +25,14 @@ if (!data) return new Response('Not Found', { status: 404 });
 const config = (await getConfig()).data?.config ?? null;
 const breadcrumbName = (data.seoTitle || slug).split('—')[0].trim();
 const jsonLd = subpageJsonLd(Astro.site ?? new URL(Astro.url.origin), slug, breadcrumbName, data.seoDescription ?? undefined);
+const heroImage = firstBlockImage(data);
 ---
 
 <Base
 	title={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
 	description={data.seoDescription || config?.seo?.description || ''}
-	image={firstBlockImage(data)}
+	image={heroImage}
+	preloadImage={heroImage}
 	imageAlt={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
 	bodyClass={data.bodyClass ?? undefined}
 >

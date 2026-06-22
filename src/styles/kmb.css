@@ -455,6 +455,9 @@ em.ink{ font-style:italic; color:var(--bordeaux); }
 .contact-aside .lead{ color:var(--muted-dk); margin-bottom:auto; }
 .checklist{ margin-top:clamp(22px,2.6vw,32px); display:flex; flex-wrap:wrap; gap:9px; }
 .checklist span{ font-size:11px; letter-spacing:.06em; color:var(--on-dark); border:1px solid rgba(216,181,116,.4); padding:7px 13px; border-radius:999px; }
+.contact-notes{ margin-top:18px; display:grid; gap:8px; list-style:none; color:var(--on-dark); font-size:13px; line-height:1.55; opacity:.88; }
+.contact-notes li{ position:relative; padding-left:18px; }
+.contact-notes li::before{ content:""; position:absolute; left:0; top:.72em; width:6px; height:6px; border-radius:50%; background:var(--gold); box-shadow:0 0 0 4px rgba(216,181,116,.12); }
 .c-rows{ margin-top:clamp(22px,2.6vw,32px); display:flex; flex-direction:column; }
 .c-row{ display:flex; align-items:center; gap:15px; padding:14px 0; border-top:1px solid rgba(216,181,116,.18); }
 .c-row:first-child{ border-top:0; }

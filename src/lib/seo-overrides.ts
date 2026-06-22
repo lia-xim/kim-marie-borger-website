@@ -123,6 +123,9 @@ export interface SeoPageOverride {
 		title?: string;
 		lead?: string;
 		checklist?: string[];
+		notes?: string[];
+		defaultOccasion?: string;
+		sourceLabel?: string;
 		formEyebrow?: string;
 		formTitle?: string;
 		formSuccess?: string;
@@ -164,12 +167,60 @@ export function mergeSeoPageOverrides(
 ): SeoPageOverride | undefined {
 	if (!fallback) return primary;
 	if (!primary) return fallback;
-	return {
+	const merged: SeoPageOverride = {
 		...fallback,
 		...primary,
 		seoTitle: primary.seoTitle ?? fallback.seoTitle,
 		seoDescription: primary.seoDescription ?? fallback.seoDescription,
 	};
+	const hero = mergeObject(fallback.hero, primary.hero);
+	const split = mergeObject(fallback.split, primary.split);
+	const focus = mergeObject(fallback.focus, primary.focus);
+	const elegy = mergeObject(fallback.elegy, primary.elegy);
+	const solemn = mergeObject(fallback.solemn, primary.solemn);
+	const faq = mergeObject(fallback.faq, primary.faq);
+	const contact = mergeContact(fallback.contact, primary.contact);
+
+	if (hero) merged.hero = hero;
+	if (split) merged.split = split;
+	if (focus) merged.focus = focus;
+	if (elegy) merged.elegy = elegy;
+	if (solemn) merged.solemn = solemn;
+	if (faq) merged.faq = faq;
+	if (contact) merged.contact = contact;
+	merged.imageAlts = primary.imageAlts?.length ? primary.imageAlts : fallback.imageAlts;
+	merged.editorNotes = primary.editorNotes ?? fallback.editorNotes;
+	return merged;
+}
+
+function mergeObject<T extends object>(fallback?: T, primary?: T): T | undefined {
+	if (!fallback) return primary;
+	if (!primary) return fallback;
+	return { ...fallback, ...primary };
+}
+
+function mergeContact(
+	fallback?: SeoPageOverride['contact'],
+	primary?: SeoPageOverride['contact'],
+): SeoPageOverride['contact'] | undefined {
+	const contact = mergeObject(fallback, primary);
+	if (!contact) return contact;
+	const notes = mergeStringList(fallback?.notes, primary?.notes);
+	if (notes?.length) contact.notes = notes;
+	return contact;
+}
+
+function mergeStringList(fallback?: string[], primary?: string[]): string[] | undefined {
+	const values = [...(fallback ?? []), ...(primary ?? [])]
+		.filter((value): value is string => typeof value === 'string' && value.trim() !== '');
+	const seen = new Set<string>();
+	const merged = values.filter((value) => {
+		const key = value.trim().toLowerCase();
+		if (seen.has(key)) return false;
+		seen.add(key);
+		return true;
+	});
+	return merged.length ? merged : primary?.length ? primary : fallback;
 }
 
 export function applySeoPageOverride(data: PageData, override?: SeoPageOverride): PageData {

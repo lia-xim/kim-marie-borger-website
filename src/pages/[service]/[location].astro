@@ -75,12 +75,14 @@ const config = (await getConfig()).data?.config ?? null;
 const jsonLd = localPage
 	? localSeoJsonLd(Astro.site ?? new URL(Astro.url.origin), localPage, override)
 	: topicSeoJsonLd(Astro.site ?? new URL(Astro.url.origin), topicPage!, override);
+const heroImage = firstBlockImage(data);
 ---
 
 <Base
 	title={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
 	description={data.seoDescription || config?.seo?.description || ''}
-	image={firstBlockImage(data)}
+	image={heroImage}
+	preloadImage={heroImage}
 	imageAlt={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
 	bodyClass={data.bodyClass ?? undefined}
 >

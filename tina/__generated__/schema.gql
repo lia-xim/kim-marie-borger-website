@@ -1090,6 +1090,9 @@ type SeoPageContact {
   title: String
   lead: String
   checklist: [String]
+  notes: [String]
+  defaultOccasion: String
+  sourceLabel: String
   formEyebrow: String
   formTitle: String
   formSuccess: String
@@ -1223,6 +1226,9 @@ input SeoPageContactFilter {
   title: StringFilter
   lead: StringFilter
   checklist: StringFilter
+  notes: StringFilter
+  defaultOccasion: StringFilter
+  sourceLabel: StringFilter
   formEyebrow: StringFilter
   formTitle: StringFilter
   formSuccess: StringFilter
@@ -1931,6 +1937,9 @@ input SeoPageContactMutation {
   title: String
   lead: String
   checklist: [String]
+  notes: [String]
+  defaultOccasion: String
+  sourceLabel: String
   formEyebrow: String
   formTitle: String
   formSuccess: String

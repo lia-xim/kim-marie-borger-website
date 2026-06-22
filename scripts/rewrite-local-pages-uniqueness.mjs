@@ -4,7 +4,7 @@ import path from 'node:path';
 const ROOT = process.cwd();
 const CONTENT_DIR = path.join(ROOT, 'src/content/seo-pages');
 const LOCAL_SEO_FILE = path.join(ROOT, 'src/lib/local-seo.ts');
-const BATCH_NOTE = 'Local Signal Pass 2026-06-22: lokale Seiten mit staerkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.';
+const BATCH_NOTE = 'Local Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.';
 
 const SERVICE_ORDER = [
 	'hochzeiten',
@@ -221,7 +221,7 @@ function rewriteDoc(doc, service, location) {
 	const next = {
 		...doc,
 		targetKeyword: keyword,
-		seoTitle: `${keyword} | ${service.titleSuffix}`,
+		seoTitle: seoTitle(doc.serviceSlug, keyword, service, location),
 		seoDescription: seoDescription(doc.serviceSlug, keyword, service, location),
 		hero: {
 			eyebrow: `${service.heroEyebrow} ${location.locative}`,
@@ -264,6 +264,13 @@ function targetKeyword(doc, service, location) {
 		unterricht: 'Bratschenunterricht',
 	}[doc.serviceSlug] ?? service.label;
 	return `${label} ${location.name}`;
+}
+
+function seoTitle(serviceSlug, keyword, service, location) {
+	const title = `${keyword} | ${service.titleSuffix}`;
+	if (title.length <= 60) return title;
+	if (serviceSlug === 'firmenfeiern') return `Eventmusik ${location.name} | Solo-Viola`;
+	return title;
 }
 
 function seoDescription(serviceSlug, keyword, service, location) {
@@ -315,7 +322,7 @@ function buildSplit(doc, service, location, images) {
 				exampleLede(doc.serviceSlug, location),
 				[
 					exampleParagraph(doc.serviceSlug, location),
-					bookingDecisionParagraph(doc.serviceSlug, location),
+					`${localDecisionParagraph(doc.serviceSlug, location)} ${bookingDecisionParagraph(doc.serviceSlug, location)}`,
 				],
 				imageAt(images, 3),
 				true,
@@ -376,14 +383,14 @@ function flowParagraphs(serviceSlug, service, location) {
 function requestParagraphs(serviceSlug, inquiry, location) {
 	if (serviceSlug === 'unterricht') {
 		return [
-			`Hilfreich sind: ${inquiry}. Damit kann ich einschaetzen, ob eine Probestunde, ein regelmaessiger Rhythmus oder zuerst eine kurze Orientierungsphase sinnvoll ist.`,
+			`Hilfreich sind: ${inquiry}. ${localPriceReadinessParagraph(serviceSlug, location)} Damit kann ich einschaetzen, ob eine Probestunde, ein regelmaessiger Rhythmus oder zuerst eine kurze Orientierungsphase sinnvoll ist.`,
 			eventPiecePolicy(serviceSlug),
 			`Die Probestunde ist kostenlos und unverbindlich. Regelmaessiger Unterricht startet erst, wenn Ziel, Format, Rhythmus, Weg ${location.locative} und Preisrahmen transparent geklaert sind.`,
 		];
 	}
 
 	return [
-		`Hilfreich sind: ${inquiry}. Damit kann ich Verfuegbarkeit, passenden Umfang und einen realistischen Preisrahmen einschaetzen.`,
+		`Hilfreich sind: ${inquiry}. ${localPriceReadinessParagraph(serviceSlug, location)} Damit kann ich Verfuegbarkeit, passenden Umfang und einen realistischen Preisrahmen einschaetzen.`,
 		eventPiecePolicy(serviceSlug),
 		`Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klaeren wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin ${location.locative} mit Anfahrt, Aufbau und Ablauf machbar ist.`,
 	];
@@ -399,7 +406,7 @@ function buildElegy(service, location) {
 			},
 			{
 				strong: 'Absprache',
-				text: `Eine gute Anfrage nennt ${service.need}. ${localArrivalSentence(location, false)} Wenn gewuenscht, klaere ich Ablauf und Einsaetze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt.`,
+				text: `Eine gute Anfrage nennt ${service.need}. ${localArrivalSentence(location, false)} ${localPriceReadinessParagraph('beerdigungen', location)} Wenn gewuenscht, klaere ich Ablauf und Einsaetze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt.`,
 			},
 			{
 				strong: 'Wunschstueck',
@@ -418,7 +425,7 @@ function buildSolemn(service, location) {
 			{
 				rom: 'Vorab',
 				title: 'Ein Kontakt reicht',
-				poet: `Datum, Uhrzeit, Trauerort, Ablauf und Wunschstuecke genuegen fuer den ersten Schritt. Die Anfrage ist kostenlos; der Preis wird nach Rahmen und Aufwand vereinbart.`,
+				poet: `Datum, Uhrzeit, Trauerort, Ablauf und Wunschstuecke genuegen fuer den ersten Schritt. Die Anfrage ist kostenlos; der Preis wird nach Rahmen und Aufwand vereinbart. ${localDecisionParagraph('beerdigungen', location)}`,
 			},
 			{
 				rom: 'Vor Ort',
@@ -511,7 +518,7 @@ function buildFaq(service, location) {
 			{ question: service.serviceQuestion(location), answer: service.serviceAnswer(location), open: true },
 			{
 				question: `Welche Angaben helfen fuer eine Anfrage ${location.locative}?`,
-				answer: `Am hilfreichsten sind ${service.need}. Je konkreter diese Punkte sind, desto genauer kann ich Verfuegbarkeit, Umfang und Preisrahmen einschaetzen.`,
+				answer: `Am hilfreichsten sind ${service.need}. ${quoteReadinessSentence(docServiceFromLabel(service.label), location)}`,
 			},
 			{
 				question: isTeaching ? 'Ist die Probestunde wirklich kostenlos?' : 'Ist die Kontaktaufnahme kostenlos?',
@@ -550,6 +557,9 @@ function buildContact(service, location) {
 		checklist: isTeaching
 			? [location.name, 'Lernstand', 'Probestunde', 'Weg & Rhythmus']
 			: [location.name, 'Datum & Ort', 'Wunschmusik', 'Preis nach Rahmen'],
+		defaultOccasion: defaultOccasion(docServiceFromLabel(service.label)),
+		sourceLabel: `${service.label} ${location.name}`,
+		notes: contactNotes(docServiceFromLabel(service.label), location),
 		formEyebrow: 'Details senden',
 		formTitle: `Verfuegbarkeit und Preisrahmen ${location.locative} klaeren`,
 		formSuccess: `Danke - ich pruefe deine Anfrage ${location.locative} und melde mich persoenlich mit den naechsten Schritten.`,
@@ -602,9 +612,18 @@ function imageAt(images, index) {
 }
 
 function appendNote(notes = '') {
-	const text = String(notes ?? '').trim();
-	if (text.includes(BATCH_NOTE)) return text;
-	return text ? `${text}\n\n${BATCH_NOTE}` : BATCH_NOTE;
+	const parts = String(notes ?? '')
+		.split(/\n{2,}/)
+		.map((part) => part.trim())
+		.filter(Boolean);
+	const seen = new Set();
+	const deduped = parts.filter((part) => {
+		if (seen.has(part)) return false;
+		seen.add(part);
+		return true;
+	});
+	if (!seen.has(BATCH_NOTE)) deduped.push(BATCH_NOTE);
+	return deduped.join('\n\n');
 }
 
 function localIntro(location) {
@@ -771,6 +790,52 @@ function localRouteFaq(service, location, isTeaching) {
 	return { question, answer };
 }
 
+function quoteReadinessSentence(serviceSlug, location) {
+	const localPart = localPriceReadinessParagraph(serviceSlug, location);
+	if (serviceSlug === 'unterricht') {
+		return `${localPart} Je konkreter Ziel, Weg und Rhythmus sind, desto ehrlicher laesst sich sagen, ob Unterricht regelmaessig Sinn ergibt.`;
+	}
+	return `${localPart} Je konkreter diese Punkte sind, desto genauer kann ich Verfuegbarkeit, Umfang und Preisrahmen einschaetzen.`;
+}
+
+function localPriceReadinessParagraph(serviceSlug, location) {
+	const markers = markersText(location, 2);
+	if (serviceSlug === 'unterricht') {
+		if (location.kind === 'city') return `Fuer ${location.name} zaehlt vor allem, ob Weg und Wochenrhythmus rund um ${markers} dauerhaft realistisch bleiben.`;
+		return `Fuer ${location.name} zaehlt vor allem, ob ein konkreter Treffpunkt oder ein klares Format genannt wird; nur der Regionsname reicht fuer regelmaessigen Unterricht nicht.`;
+	}
+	if (location.kind === 'city') {
+		return `Fuer ein serioeses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um ${markers}, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben.`;
+	}
+	if (location.kind === 'county') {
+		return `Fuer ein serioeses Angebot reicht der Kreisname allein nicht: Stadt, Adresse und moegliche Ortswechsel entscheiden, ob Anfahrt, Aufbau und Zeitpuffer realistisch sind.`;
+	}
+	if (location.kind === 'region') {
+		return `Fuer ein serioeses Angebot muss aus der Region schnell ein konkreter Ort werden; sonst waeren Fahrtstrecke, Aufbauzeit und Preisrahmen nur geraten.`;
+	}
+	return `Fuer ein serioeses Angebot muss aus Nordrhein-Westfalen zuerst eine konkrete Stadt und Adresse werden; sonst waeren Fahrtstrecke, Aufbauzeit und Preisrahmen nur geraten.`;
+}
+
+function localDecisionParagraph(serviceSlug, location) {
+	const first = markerA(location);
+	const second = markerB(location);
+	if (serviceSlug === 'unterricht') {
+		return location.kind === 'city'
+			? `Wenn Unterrichtsweg und Alltag rund um ${first} anders aussehen als Richtung ${second}, plane ich lieber zuerst eine einzelne Probestunde statt sofort einen festen Rhythmus.`
+			: `Wenn ${location.name} nur als grober Suchraum gemeint ist, klaeren wir zuerst den echten Treffpunkt; ohne diesen Punkt laesst sich Unterricht nicht serioes planen.`;
+	}
+	if (location.kind === 'city') {
+		return `Wenn Zeremonie, Fotos und Empfang an zwei Orten zwischen ${first} und ${second} liegen, plane ich nicht automatisch beides ein; erst die Wege und Zeiten zeigen, ob ein Ortswechsel musikalisch sinnvoll ist.`;
+	}
+	if (location.kind === 'county') {
+		return `Wenn Anfrage und Feier nur mit ${location.name} beschrieben sind, frage ich nach Stadt und Adresse, bevor ich Umfang oder Preis nenne; ein Termin in ${first} ist praktisch anders als einer Richtung ${second}.`;
+	}
+	if (location.kind === 'region') {
+		return `Wenn nur ${location.name} genannt wird, ist die erste Entscheidung immer der konkrete Ort. Erst danach kann ich sagen, ob ein kurzer Einsatz, ein laengeres Set oder mehrere Momente realistisch sind.`;
+	}
+	return `Wenn nur Nordrhein-Westfalen genannt wird, ist der naechste Schritt immer die konkrete Stadt. Erst danach lassen sich Anfahrt, Dauer und musikalischer Umfang fair planen.`;
+}
+
 function bookingDecisionParagraph(serviceSlug, location) {
 	const common = `So bleibt die Seite fuer ${location.name} praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und naechstem Schritt.`;
 	if (serviceSlug === 'unterricht') {
@@ -784,6 +849,35 @@ function pickByKey(key, options) {
 	let hash = 0;
 	for (const char of key) hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
 	return options[hash % options.length];
+}
+
+function defaultOccasion(serviceSlug) {
+	const map = {
+		hochzeiten: 'Hochzeit',
+		beerdigungen: 'Trauerfeier',
+		firmenfeiern: 'Firmenevent',
+		geburtstage: 'Geburtstag',
+		taufen: 'Taufe',
+		konzerte: 'Konzert / Kultur',
+		unterricht: 'Unterricht',
+	};
+	return map[serviceSlug] ?? '';
+}
+
+function contactNotes(serviceSlug, location) {
+	if (serviceSlug === 'unterricht') {
+		return [
+			'Probestunde kostenlos und unverbindlich',
+			`Regelmaessiger Unterricht erst nach Ziel-, Weg- und Rhythmus-Check ${location.locative}`,
+			'Preis nach Dauer, Format und Unterrichtsrahmen',
+			'Neue Notation fuer Wunschstuecke nach Aufwand, ca. 30 Euro pro Song',
+		];
+	}
+	return [
+		'Kontaktaufnahme kostenlos und unverbindlich',
+		'Kein kostenloses Vorspielen vor Ort',
+		'Vorhandenes Repertoire ohne Aufpreis; neue Notation nach Aufwand, ca. 30 Euro pro Song',
+	];
 }
 
 function accessChecklist(location) {
@@ -949,6 +1043,7 @@ const COPY_REPLACEMENTS = [
 	['Pruefung', 'Prüfung'],
 	['Traeuer', 'Trauer'],
 	['laengere', 'längere'],
+	['laengeres', 'längeres'],
 	['kuerzere', 'kürzere'],
 	['Kuerzere', 'Kürzere'],
 	['Einsaetze', 'Einsätze'],
@@ -977,6 +1072,7 @@ const COPY_REPLACEMENTS = [
 	['Laenge', 'Länge'],
 	['laenge', 'länge'],
 	['haeufig', 'häufig'],
+	['waeren', 'wären'],
 	['ausserhalb', 'außerhalb'],
 	['Gruenen', 'Grünen'],
 	['gruenen', 'grünen'],

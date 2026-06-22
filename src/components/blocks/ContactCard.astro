@@ -17,6 +17,11 @@ const contact: ContactData | null = baseContact
 		}
 	: contactOverride;
 const checklist = (contact?.checklist ?? []).filter((c: unknown): c is string => typeof c === 'string' && c.trim() !== '');
+const notes = (contact?.notes ?? []).filter((c: unknown): c is string => typeof c === 'string' && c.trim() !== '');
+const defaultOccasion = typeof contact?.defaultOccasion === 'string' ? contact.defaultOccasion : '';
+const sourceLabel = typeof contact?.sourceLabel === 'string' ? contact.sourceLabel : '';
+const sourcePath = Astro.url.pathname;
+const occasionOptions = ['Hochzeit', 'Trauerfeier', 'Taufe', 'Geburtstag', 'Firmenevent', 'Konzert / Kultur', 'Unterricht', 'Anderer Anlass'];
 ---
 <section class={`section${bgClass}`} id={data?.anchorId || 'kontakt'}>
 	<div class="wrap">
@@ -31,6 +36,11 @@ const checklist = (contact?.checklist ?? []).filter((c: unknown): c is string =>
 						{checklist.map((c: string, i: number) => <span data-tina-field={contact ? tinaFieldFrom(contact, 'checklist', i) : undefined}>{c}</span>)}
 					</div>
 				)}
+				{notes.length > 0 && (
+					<ul class="contact-notes">
+						{notes.map((note: string, i: number) => <li data-tina-field={contact ? tinaFieldFrom(contact, 'notes', i) : undefined}>{note}</li>)}
+					</ul>
+				)}
 				<div class="c-rows">
 					<div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><div><div class="ck">E-Mail</div><a class="cv" href={`mailto:${contact?.email ?? ''}`}>{contact?.email}</a></div></div>
 					<div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><div class="ck">Einsatzgebiet</div><span class="cv">{contact?.area}</span></div></div>
@@ -43,6 +53,8 @@ const checklist = (contact?.checklist ?? []).filter((c: unknown): c is string =>
 				</div>
 				<form class="reveal d1" id="anfrageForm" novalidate>
 					<input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;height:0;width:0;opacity:0;" />
+					<input type="hidden" name="seite" value={sourcePath} />
+					{sourceLabel && <input type="hidden" name="seitenkontext" value={sourceLabel} />}
 					<div class="row-2">
 						<div class="field"><label for="f-name">Name</label><input id="f-name" type="text" name="name" placeholder="Dein Name" required></div>
 						<div class="field"><label for="f-mail">E-Mail</label><input id="f-mail" type="email" name="email" placeholder="dein@email.de" required></div>
@@ -51,15 +63,8 @@ const checklist = (contact?.checklist ?? []).filter((c: unknown): c is string =>
 						<div class="field">
 							<label for="f-anlass">Anlass <span class="opt">(optional)</span></label>
 							<select id="f-anlass" name="anlass">
-								<option value="">Bitte wählen</option>
-								<option>Hochzeit</option>
-								<option>Trauerfeier</option>
-								<option>Taufe</option>
-								<option>Geburtstag</option>
-								<option>Firmenevent</option>
-								<option>Konzert / Kultur</option>
-								<option>Unterricht</option>
-								<option>Anderer Anlass</option>
+								<option value="" selected={!defaultOccasion}>Bitte wählen</option>
+								{occasionOptions.map((option) => <option selected={option === defaultOccasion}>{option}</option>)}
 							</select>
 						</div>
 						<div class="field"><label for="f-date">Datum / Zeitraum <span class="opt">(optional)</span></label><input id="f-date" type="text" name="datum" placeholder="z. B. 14.09.2026"></div>

@@ -8,7 +8,7 @@
   "priority": "P3",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Live Musik Firmenevent Recklinghausen | Live-Viola fürs Event",
+  "seoTitle": "Eventmusik Recklinghausen | Solo-Viola",
   "seoDescription": "Live Musik Firmenevent Recklinghausen: Solo-Viola für Empfang, Dinner, Jubiläum und Messe in Recklinghausen. Anfrage kostenlos.",
   "hero": {
     "eyebrow": "Firmenevent in Recklinghausen",
@@ -54,7 +54,7 @@
         "title": "Was ich für eine gute Anfrage in Recklinghausen brauche.",
         "lede": "Die Kontaktaufnahme ist kostenlos und unverbindlich. Ein Preis entsteht erst, wenn Dauer, Ort, Aufwand, Wunschmusik, Anfahrt und Rahmen klar genug sind, damit ich ehrlich einschätzen kann, was sinnvoll ist.",
         "paragraphs": [
-          "Hilfreich sind: Datum, Ort, Anlass, Gästezahl, Zeitfenster, gewünschte Wirkung und Rechnungsdaten. Damit kann ich Verfügbarkeit, passenden Umfang und einen realistischen Preisrahmen einschätzen.",
+          "Hilfreich sind: Datum, Ort, Anlass, Gästezahl, Zeitfenster, gewünschte Wirkung und Rechnungsdaten. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Altstadt und Vest, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Damit kann ich Verfügbarkeit, passenden Umfang und einen realistischen Preisrahmen einschätzen.",
           "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
           "Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klären wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin in Recklinghausen mit Anfahrt, Aufbau und Ablauf machbar ist."
         ],
@@ -70,7 +70,7 @@
         "lede": "Ein Empfang in Recklinghausen rund um Altstadt und Vest kann mit dezenter Musik starten, während Gäste ankommen, und später mit einem kurzen musikalischen Akzent in Reden oder Dinner übergehen.",
         "paragraphs": [
           "Wenn Reden, Begruessung und Dinner rund um Altstadt eng getaktet sind, bleibt die Viola bewusst flexibel: wenige starke Einsätze statt dauerhafter Beschallung.",
-          "Für die Buchung klären wir danach ehrlich, ob vorhandenes Repertoire reicht oder ob ein Wunschlied neu herausgehört beziehungsweise notiert werden muss. So bleibt die Seite für Recklinghausen praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
+          "Wenn Zeremonie, Fotos und Empfang an zwei Orten zwischen Altstadt und Vest liegen, plane ich nicht automatisch beides ein; erst die Wege und Zeiten zeigen, ob ein Ortswechsel musikalisch sinnvoll ist. Für die Buchung klären wir danach ehrlich, ob vorhandenes Repertoire reicht oder ob ein Wunschlied neu herausgehört beziehungsweise notiert werden muss. So bleibt die Seite für Recklinghausen praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
         ],
         "image": {
           "src": "/uploads/mq0uz92c-viola-1566624_1280.webp",
@@ -91,7 +91,7 @@
       },
       {
         "question": "Welche Angaben helfen für eine Anfrage in Recklinghausen?",
-        "answer": "Am hilfreichsten sind Datum, Ort, Anlass, Gästezahl, Zeitfenster, gewünschte Wirkung und Rechnungsdaten. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
+        "answer": "Am hilfreichsten sind Datum, Ort, Anlass, Gästezahl, Zeitfenster, gewünschte Wirkung und Rechnungsdaten. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Altstadt und Vest, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
       },
       {
         "question": "Ist die Kontaktaufnahme kostenlos?",
@@ -137,7 +137,7 @@
       "alt": "Live-Viola für ein Firmenevent in Recklinghausen - Bild 4"
     }
   ],
-  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.",
+  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
   "contact": {
     "eyebrow": "Firmenevent anfragen",
     "title": "Live Musik für ein Firmenevent in Recklinghausen anfragen",
@@ -147,6 +147,13 @@
       "Datum & Ort",
       "Wunschmusik",
       "Preis nach Rahmen"
+    ],
+    "defaultOccasion": "Firmenevent",
+    "sourceLabel": "Live Musik Firmenevent Recklinghausen",
+    "notes": [
+      "Kontaktaufnahme kostenlos und unverbindlich",
+      "Kein kostenloses Vorspielen vor Ort",
+      "Vorhandenes Repertoire ohne Aufpreis; neue Notation nach Aufwand, ca. 30 Euro pro Song"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Recklinghausen klären",
