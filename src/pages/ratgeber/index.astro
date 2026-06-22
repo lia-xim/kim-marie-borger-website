@@ -1,0 +1,92 @@
+---
+import Base from '../../layouts/Base.astro';
+import Img from '../../components/Img.astro';
+import {
+	getRatgeberPages,
+	ratgeberOverviewJsonLd,
+	ratgeberPath,
+} from '../../lib/ratgeber';
+
+export const prerender = true;
+
+const pages = getRatgeberPages();
+const site = Astro.site ?? new URL(Astro.url.origin);
+const jsonLd = ratgeberOverviewJsonLd(site);
+const featuredImage = '/uploads/mq0uvv7v-20250327-DSC01550.webp';
+---
+
+<Base
+	title="Ratgeber Musikplanung | Kim Marie Borger"
+	description="Ruhige Wissensseiten zur musikalischen Planung von Hochzeit, Trauerfeier und Bratschenunterricht mit Live-Viola."
+	image={featuredImage}
+	preloadImage={featuredImage}
+	imageAlt="Kim Marie Borger spielt Viola im Abendlicht"
+	bodyClass="page-ratgeber"
+>
+	<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+	<main>
+		<section class="guide-hero guide-hero-overview" aria-labelledby="ratgeber-title">
+			<div class="guide-hero-media" aria-hidden="true">
+				<Img src={featuredImage} alt="" sizes="100vw" loading="eager" fetchpriority="high" decoding="async" />
+			</div>
+			<div class="guide-hero-scrim"></div>
+			<div class="wrap guide-hero-content">
+				<p class="eyebrow light">Ratgeber</p>
+				<h1 id="ratgeber-title" class="guide-title">Musik bewusst planen.</h1>
+				<p class="guide-lead">
+					Kein lauter Blog, sondern ausgewählte Orientierung für Menschen, die Musik für
+					Trauung, Abschied oder Unterricht konkret vorbereiten.
+				</p>
+			</div>
+		</section>
+
+		<section class="section guide-intro" aria-labelledby="ratgeber-auswahl">
+			<div class="wrap">
+				<div class="guide-intro-grid">
+					<div>
+						<p class="eyebrow">Wissen mit Richtung</p>
+						<h2 id="ratgeber-auswahl" class="display-m">Hilfreiche Seiten, die in eine Buchungsentscheidung führen.</h2>
+					</div>
+					<p class="lead">
+						Die Themen sind bewusst eng an die Leistungen gebunden. Jede Seite beantwortet
+						einen echten Planungsbedarf und führt weiter zu passenden Leistungsseiten,
+						Repertoire- und Ortsseiten.
+					</p>
+				</div>
+
+				<div class="guide-card-grid">
+					{pages.map((page) => (
+						<article class="guide-card">
+							<p class="ksmall">{page.cluster}</p>
+							<h3>{page.shortTitle}</h3>
+							<p>{page.summary}</p>
+							<a class="link-line" href={ratgeberPath(page)}>
+								Ratgeber lesen <span class="ar" aria-hidden="true">→</span>
+							</a>
+						</article>
+					))}
+				</div>
+			</div>
+		</section>
+
+		<section class="section bg-paper2 guide-topic-map" aria-labelledby="ratgeber-verbindungen">
+			<div class="wrap">
+				<div class="local-links-head reveal">
+					<p class="eyebrow c">Interne Verbindung</p>
+					<h2 id="ratgeber-verbindungen" class="display-m">Von der Orientierung zur passenden Leistung.</h2>
+					<p class="lead">
+						Der Ratgeber ist als leiser Einstieg gedacht. Wer konkreter planen möchte,
+						kommt direkt in den jeweiligen Leistungsbereich.
+					</p>
+				</div>
+				<div class="guide-service-links">
+					<a href="/hochzeiten/">Hochzeitsmusik</a>
+					<a href="/beerdigungen/">Beerdigung & Trauerfeier</a>
+					<a href="/unterricht/">Bratschenunterricht</a>
+					<a href="/anfragen/">Anfragen</a>
+				</div>
+			</div>
+		</section>
+	</main>
+</Base>
