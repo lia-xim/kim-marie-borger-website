@@ -29,7 +29,7 @@
           "Gerade bei privaten Geburtstagen zählt der Moment mehr als Lautstärke. Deshalb arbeite ich mit klaren Zeichen, passenden Pausen und einer Lautstärke, die Glückwünsche und Gespräche respektiert."
         ],
         "image": {
-          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.webp",
           "alt": "Live-Viola als Geburtstagsmusik in Bochum 2"
         },
         "imageFirst": false,
@@ -45,7 +45,7 @@
           "Anders als bei einer allgemeinen Leistungsseite wird Live Musik Geburtstag Bochum über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?"
         ],
         "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Live-Viola als Geburtstagsmusik in Bochum 3"
         },
         "imageFirst": true
@@ -60,7 +60,7 @@
           "Der Unterschied zu Neuss liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
         ],
         "image": {
-          "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
           "alt": "Live-Viola als Geburtstagsmusik in Bochum 1"
         },
         "imageFirst": false
@@ -74,7 +74,7 @@
           "Der Unterschied zu Meerbusch liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
         ],
         "image": {
-          "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+          "src": "/uploads/mq0uvvd3-20250327-DSC01769.webp",
           "alt": "Live-Viola als Geburtstagsmusik in Bochum 2"
         },
         "imageFirst": true
@@ -122,15 +122,15 @@
   },
   "imageAlts": [
     {
-      "src": "/uploads/mq0uvv7v-20250327-DSC01550.jpg",
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
       "alt": "Live-Viola als Geburtstagsmusik in Bochum 1"
     },
     {
-      "src": "/uploads/mq0uvvd3-20250327-DSC01769.jpg",
+      "src": "/uploads/mq0uvvd3-20250327-DSC01769.webp",
       "alt": "Live-Viola als Geburtstagsmusik in Bochum 2"
     },
     {
-      "src": "/uploads/mq0uvva2-20250327-DSC01714.jpg",
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
       "alt": "Live-Viola als Geburtstagsmusik in Bochum 3"
     }
   ],
