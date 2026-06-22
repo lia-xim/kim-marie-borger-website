@@ -22,8 +22,9 @@ const featuredImage = '/uploads/mq0uvv7v-20250327-DSC01550.webp';
 	preloadImage={featuredImage}
 	imageAlt="Kim Marie Borger spielt Viola im Abendlicht"
 	bodyClass="page-ratgeber"
-	structuredData={jsonLd}
 >
+	<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
 	<main>
 		<section class="guide-hero guide-hero-overview" aria-labelledby="ratgeber-title">
 			<div class="guide-hero-media" aria-hidden="true">

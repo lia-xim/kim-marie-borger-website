@@ -11,6 +11,7 @@ import {
 	webPageId,
 	webPageNode,
 } from './schema';
+import { canonicalUrl } from './url';
 
 export interface RatgeberLink {
 	label: string;
@@ -493,77 +494,91 @@ export function ratgeberPath(pageOrSlug: RatgeberPage | string): string {
 }
 
 export function ratgeberOverviewJsonLd(site: URL): object {
-	const itemListId = schemaId(site, RATGEBER_BASE_PATH, 'item-list');
-	const description = 'Ruhige Wissensseiten zur musikalischen Planung von Hochzeit, Trauerfeier und Bratschenunterricht.';
-
-	return graphJsonLd([
-		breadcrumbListNode(site, RATGEBER_BASE_PATH, [
-			{ name: 'Start', item: pageUrl(site, '/') },
-			{ name: 'Ratgeber', item: pageUrl(site, RATGEBER_BASE_PATH) },
-		]),
-		webPageNode(site, RATGEBER_BASE_PATH, {
-			type: 'CollectionPage',
-			name: 'Ratgeber Musikplanung',
-			description,
-			mainEntityId: itemListId,
-			aboutIds: [personId(site)],
-		}),
-		{
-			'@type': 'ItemList',
-			'@id': itemListId,
-			itemListElement: RATGEBER_PAGES.map((page, index) => ({
-				'@type': 'ListItem',
-				position: index + 1,
-				name: page.shortTitle,
-				url: pageUrl(site, ratgeberPath(page)),
-			})),
-		},
-	]);
+	const url = canonicalUrl(site, RATGEBER_BASE_PATH).href;
+	return {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				'@id': `${url}#breadcrumb`,
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'Start', item: site.href },
+					{ '@type': 'ListItem', position: 2, name: 'Ratgeber', item: url },
+				],
+			},
+			{
+				'@type': 'CollectionPage',
+				'@id': `${url}#collection`,
+				name: 'Ratgeber Musikplanung',
+				description:
+					'Ruhige Wissensseiten zur musikalischen Planung von Hochzeit, Trauerfeier und Bratschenunterricht.',
+				url,
+				inLanguage: 'de',
+				mainEntity: {
+					'@type': 'ItemList',
+					itemListElement: RATGEBER_PAGES.map((page, index) => ({
+						'@type': 'ListItem',
+						position: index + 1,
+						name: page.shortTitle,
+						url: canonicalUrl(site, ratgeberPath(page)).href,
+					})),
+				},
+			},
+		],
+	};
 }
 
 export function ratgeberPageJsonLd(site: URL, page: RatgeberPage): object {
-	const pathname = ratgeberPath(page);
-	const articleId = schemaId(site, pathname, 'article');
+	const url = canonicalUrl(site, ratgeberPath(page)).href;
+	const overviewUrl = canonicalUrl(site, RATGEBER_BASE_PATH).href;
+	const serviceUrl = canonicalUrl(site, `/${page.serviceSlug}/`).href;
 
-	return graphJsonLd([
-		breadcrumbListNode(site, pathname, [
-			{ name: 'Start', item: pageUrl(site, '/') },
-			{ name: 'Ratgeber', item: pageUrl(site, RATGEBER_BASE_PATH) },
-			{ name: page.shortTitle, item: pageUrl(site, pathname) },
-		]),
-		webPageNode(site, pathname, {
-			name: page.title,
-			description: page.seoDescription,
-			mainEntityId: articleId,
-			aboutIds: [personId(site), coreServiceId(site, page.serviceSlug)],
-		}),
-		{
-			'@type': 'Article',
-			'@id': articleId,
-			headline: page.title,
-			description: page.seoDescription,
-			image: new URL(page.heroImage, site).href,
-			mainEntityOfPage: nodeRef(webPageId(site, pathname)),
-			author: nodeRef(personId(site)),
-			publisher: nodeRef(personId(site)),
-			about: nodeRef(coreServiceId(site, page.serviceSlug)),
-			inLanguage: 'de',
-			isPartOf: nodeRef(webPageId(site, RATGEBER_BASE_PATH)),
-			url: pageUrl(site, pathname),
-		},
-		coreServiceNode(site, page.serviceSlug),
-		{
-			'@type': 'FAQPage',
-			'@id': faqPageId(site, pathname),
-			isPartOf: nodeRef(webPageId(site, pathname)),
-			mainEntity: page.faqs.map((faq) => ({
-				'@type': 'Question',
-				name: faq.question,
-				acceptedAnswer: {
-					'@type': 'Answer',
-					text: faq.answer,
-				},
-			})),
-		},
-	]);
+	return {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				'@id': `${url}#breadcrumb`,
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'Start', item: site.href },
+					{ '@type': 'ListItem', position: 2, name: 'Ratgeber', item: overviewUrl },
+					{ '@type': 'ListItem', position: 3, name: page.shortTitle, item: url },
+				],
+			},
+			{
+				'@type': 'Article',
+				'@id': `${url}#article`,
+				headline: page.title,
+				description: page.seoDescription,
+				image: new URL(page.heroImage, site).href,
+				mainEntityOfPage: url,
+				author: { '@id': new URL('/#person', site).href },
+				publisher: { '@id': new URL('/#website', site).href },
+				about: page.intent,
+				inLanguage: 'de',
+				isPartOf: { '@id': `${overviewUrl}#collection` },
+				url,
+			},
+			{
+				'@type': 'Service',
+				'@id': `${serviceUrl}#service`,
+				name: page.cluster,
+				url: serviceUrl,
+				provider: { '@id': new URL('/#person', site).href },
+				inLanguage: 'de',
+			},
+			{
+				'@type': 'FAQPage',
+				'@id': `${url}#faq`,
+				mainEntity: page.faqs.map((faq) => ({
+					'@type': 'Question',
+					name: faq.question,
+					acceptedAnswer: {
+						'@type': 'Answer',
+						text: faq.answer,
+					},
+				})),
+			},
+		],
+	};
 }

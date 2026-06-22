@@ -31,8 +31,9 @@ const jsonLd = ratgeberPageJsonLd(site, page);
 	preloadImage={page.heroImage}
 	imageAlt={page.heroImageAlt}
 	bodyClass="page-ratgeber page-ratgeber-detail"
-	structuredData={jsonLd}
 >
+	<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
 	<main>
 		<article>
 			<header class="guide-hero" aria-labelledby="guide-title">
