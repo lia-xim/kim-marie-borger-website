@@ -65,6 +65,10 @@ const checklist = (contact?.checklist ?? []).filter((c: unknown): c is string =>
 						<div class="field"><label for="f-date">Datum / Zeitraum <span class="opt">(optional)</span></label><input id="f-date" type="text" name="datum" placeholder="z. B. 14.09.2026"></div>
 						<div class="field"><label for="f-place">Ort / Location <span class="opt">(optional)</span></label><input id="f-place" type="text" name="ort" placeholder="Stadt, Location oder Raum"></div>
 					</div>
+					<div class="row-2">
+						<div class="field"><label for="f-music">Wunschmusik / Stücke <span class="opt">(optional)</span></label><input id="f-music" type="text" name="wunschmusik" placeholder="z. B. Ave Maria, Lieblingslied, noch offen"></div>
+						<div class="field"><label for="f-scope">Umfang / Dauer <span class="opt">(optional)</span></label><input id="f-scope" type="text" name="umfang" placeholder="z. B. Trauung, 30 Min. Empfang, Probestunde"></div>
+					</div>
 					<div class="field"><label for="f-msg">Nachricht <span class="opt">(optional)</span></label><textarea id="f-msg" name="nachricht" placeholder="Erzähl mir von deinem Anlass — gern mit Datum, Ort und Wünschen …"></textarea></div>
 					<button type="submit" class="btn btn-solid" style="width:100%;justify-content:center;">Anfrage senden <span class="ar">→</span></button>
 					<div class="form-ok" id="formOk" data-tina-field={contact ? tinaFieldFrom(contact, 'formSuccess') : undefined}>{contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'}</div>

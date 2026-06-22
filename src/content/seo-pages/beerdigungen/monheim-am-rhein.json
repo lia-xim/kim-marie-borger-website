@@ -13,7 +13,7 @@
   "hero": {
     "eyebrow": "Beerdigung & Trauerfeier in Monheim am Rhein",
     "title": "Trauermusik in Monheim am Rhein für einen würdevollen Abschied.",
-    "lead": "Warme Viola-Klaenge für Trauerhalle, Kirche, Kapelle, Friedhof oder freie Abschiedsfeier in Monheim am Rhein - ruhig, behutsam und zuverlässig abgestimmt.",
+    "lead": "Warme Viola-Klänge für Trauerhalle, Kirche, Kapelle, Friedhof oder freie Abschiedsfeier in Monheim am Rhein - ruhig, behutsam und zuverlässig abgestimmt.",
     "badge": "Schnelle Rückmeldung zur Verfügbarkeit"
   },
   "faq": {
@@ -43,11 +43,15 @@
       },
       {
         "question": "Was ist in Monheim am Rhein organisatorisch wichtig?",
-        "answer": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Monheim am Rhein steht hier für konkrete Orte und Wege zwischen Rheinpromenade, Altstadt, Baumberg und der Achse Düsseldorf-Köln. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
+        "answer": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Monheim am Rhein steht hier für konkrete Orte und Wege zwischen Rheinpromenade, Altstadt, Baumberg und der Achse Düsseldorf-Köln. Bei Terminen rund um Rheinpromenade, Altstadt und Baumberg plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
       },
       {
-        "question": "Kann die Abstimmung über das Bestattungshaus laufen?",
-        "answer": "Ja. Ablauf, Ankunft, Einsätze und Stückauswahl kläre ich gern direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie entlastet ist."
+        "question": "Welche Orte passen für Trauermusik in Monheim am Rhein?",
+        "answer": "Das kann eine Trauerhalle, Kirche, Kapelle, ein Friedhof oder ein freier Abschiedsraum im Umfeld von Rheinpromenade, Altstadt und Baumberg sein. Wichtig ist weniger ein spektakulärer Ortsname als ein Raum, in dem Lautstärke, Startsignal und Ablauf funktionieren. Ja. Ablauf, Ankunft, Einsätze und Stückauswahl kläre ich gern direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie entlastet ist."
+      },
+      {
+        "question": "Warum ist die genaue Location in Monheim am Rhein so wichtig?",
+        "answer": "Ein Termin nahe Rheinpromenade braucht oft andere Zeitpuffer als ein Termin Richtung Altstadt; das beeinflusst Anfahrt, Aufbau und die Frage, wie knapp der Ablauf sein darf. Deshalb frage ich nach Adresse, Aufbauplatz, Kontaktperson vor Ort und möglichen Ortswechseln."
       }
     ]
   },
@@ -69,15 +73,15 @@
       "alt": "Viola für Trauermusik in Monheim am Rhein - Bild 4"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik in Monheim am Rhein anfragen",
-    "lead": "Schreib mir kurz Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
+    "lead": "Schreib mir kurz Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Hilfreich ist auch, ob der Ort eher bei Rheinpromenade und Altstadt oder eher außerhalb liegt. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
     "checklist": [
       "Monheim am Rhein",
       "Datum & Ort",
-      "Trauermusik",
+      "Wunschmusik",
       "Preis nach Rahmen"
     ],
     "formEyebrow": "Details senden",
@@ -93,11 +97,11 @@
     "passages": [
       {
         "strong": "Lokaler Rahmen",
-        "text": "Monheim am Rhein steht hier für konkrete Orte und Wege zwischen Rheinpromenade, Altstadt, Baumberg und der Achse Düsseldorf-Köln. Für Trauerfeiern zählt vor Ort vor allem, ob der Abschied in Trauerhalle, Kirche, Kapelle, am Grab oder in einem freien Raum stattfindet. Danach richten sich Ankunft, Stücklänge, Position und Lautstärke."
+        "text": "Monheim am Rhein steht hier für konkrete Orte und Wege zwischen Rheinpromenade, Altstadt, Baumberg und der Achse Düsseldorf-Köln. Das kann eine Trauerhalle, Kirche, Kapelle, ein Friedhof oder ein freier Abschiedsraum im Umfeld von Rheinpromenade, Altstadt und Baumberg sein. Für Trauerfeiern zählt vor Ort vor allem, ob der Abschied in Trauerhalle, Kirche, Kapelle, am Grab oder in einem freien Raum stattfindet. Danach richten sich Ankunft, Stücklänge, Position und Lautstärke."
       },
       {
         "strong": "Absprache",
-        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Wenn gewünscht, kläre ich Ablauf und Einsätze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt."
+        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Bei Terminen rund um Rheinpromenade, Altstadt und Baumberg plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein. Wenn gewünscht, kläre ich Ablauf und Einsätze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt."
       },
       {
         "strong": "Wunschstück",
@@ -118,7 +122,7 @@
       {
         "rom": "Vor Ort",
         "title": "Pünktlich, still, vorbereitet",
-        "poet": "Ich plane genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort, damit die Musik in Monheim am Rhein nicht unter Zeitdruck beginnt und der Abschied ruhig bleibt."
+        "poet": "Ich plane genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort, damit die Musik in Monheim am Rhein nicht unter Zeitdruck beginnt und der Abschied ruhig bleibt. Ein Termin nahe Rheinpromenade braucht oft andere Zeitpuffer als ein Termin Richtung Altstadt; das beeinflusst Anfahrt, Aufbau und die Frage, wie knapp der Ablauf sein darf."
       }
     ],
     "listLabel": "Mögliche musikalische Momente in Monheim am Rhein",

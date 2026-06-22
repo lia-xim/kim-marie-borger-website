@@ -30,6 +30,8 @@ export const POST: APIRoute = async ({ request }) => {
 	const occasion = str(body.anlass, 200);
 	const date = str(body.datum, 200);
 	const place = str(body.ort, 300);
+	const requestedMusic = str(body.wunschmusik, 500);
+	const scope = str(body.umfang, 300);
 	const message = str(body.nachricht, 5000);
 
 	if (!name || !email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -59,6 +61,8 @@ export const POST: APIRoute = async ({ request }) => {
 				`Anlass: ${occasion || '(nicht angegeben)'}`,
 				`Datum / Zeitraum: ${date || '(nicht angegeben)'}`,
 				`Ort / Location: ${place || '(nicht angegeben)'}`,
+				`Wunschmusik / Stücke: ${requestedMusic || '(nicht angegeben)'}`,
+				`Umfang / Dauer: ${scope || '(nicht angegeben)'}`,
 				'',
 				'Nachricht:',
 				message || '(keine Nachricht)',

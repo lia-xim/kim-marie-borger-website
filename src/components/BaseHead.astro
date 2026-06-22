@@ -46,6 +46,7 @@ const fontFaceCss = [
 	`@font-face{font-family:"Manrope";font-style:normal;font-weight:500;font-display:optional;src:url("${manrope500}") format("woff2");}`,
 	`@font-face{font-family:"Manrope";font-style:normal;font-weight:600;font-display:optional;src:url("${manrope600}") format("woff2");}`,
 ].join('');
+const fontPreloadMedia = '(min-width: 701px)';
 
 // LCP: das Hero-Bild der Seite vorladen — mit demselben srcset wie im Markup,
 // damit Preload und <img> exakt dieselbe Variante treffen.
@@ -66,9 +67,9 @@ const heroPreloadHref = !onVercel && isOptimizable(image) ? image : undefined;
 <meta name="robots" content={noindex ? 'noindex,follow' : 'index,follow'} />
 
 <style is:inline set:html={fontFaceCss}></style>
-<link rel="preload" as="font" type="font/woff2" href={cormorant400} crossorigin />
-<link rel="preload" as="font" type="font/woff2" href={cormorant500} crossorigin />
-<link rel="preload" as="font" type="font/woff2" href={manrope400} crossorigin />
+<link rel="preload" as="font" type="font/woff2" href={cormorant400} crossorigin media={fontPreloadMedia} />
+<link rel="preload" as="font" type="font/woff2" href={cormorant300it} crossorigin media={fontPreloadMedia} />
+<link rel="preload" as="font" type="font/woff2" href={cormorant400it} crossorigin media={fontPreloadMedia} />
 
 {heroPreloadSrcset && (
 	<link rel="preload" as="image" imagesrcset={heroPreloadSrcset} imagesizes="100vw" fetchpriority="high" />

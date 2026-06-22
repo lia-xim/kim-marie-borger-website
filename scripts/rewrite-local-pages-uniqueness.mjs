@@ -4,7 +4,7 @@ import path from 'node:path';
 const ROOT = process.cwd();
 const CONTENT_DIR = path.join(ROOT, 'src/content/seo-pages');
 const LOCAL_SEO_FILE = path.join(ROOT, 'src/lib/local-seo.ts');
-const BATCH_NOTE = 'Local Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.';
+const BATCH_NOTE = 'Local Signal Pass 2026-06-22: lokale Seiten mit staerkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.';
 
 const SERVICE_ORDER = [
 	'hochzeiten',
@@ -288,7 +288,7 @@ function buildSplit(doc, service, location, images) {
 			section(
 				'Lokaler Rahmen',
 				`${service.label} ${locLabel(location)}: worauf es vor Ort ankommt.`,
-				`${localIntro(location)} Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: ${planningFactors(doc.serviceSlug)}.`,
+				`${localIntro(location)} ${settingLede(doc.serviceSlug, service, location)} Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: ${planningFactors(doc.serviceSlug)}.`,
 				firstSectionParagraphs(doc.serviceSlug, service, location),
 				imageAt(images, 0),
 				false,
@@ -311,11 +311,11 @@ function buildSplit(doc, service, location, images) {
 			),
 			section(
 				'Beispiel',
-				`Ein realistischer Ablauf ${location.locative}.`,
+				`Ein realistischer Ablauf ${localExampleAnchor(location)}.`,
 				exampleLede(doc.serviceSlug, location),
 				[
 					exampleParagraph(doc.serviceSlug, location),
-					`So bleibt die Seite fuer ${location.name} praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson und naechstem Schritt.`,
+					bookingDecisionParagraph(doc.serviceSlug, location),
 				],
 				imageAt(images, 3),
 				true,
@@ -332,16 +332,16 @@ function planningFactors(serviceSlug) {
 function firstSectionParagraphs(serviceSlug, service, location) {
 	if (serviceSlug === 'unterricht') {
 		return [
-			`Typische Rahmen sind ${service.contexts}. Entscheidend ist nicht nur der Ortsname, sondern ob Unterrichtsweg, Konzentration, Instrument und Uebezeit im Alltag wirklich zusammenpassen.`,
-			`Ich klaere vorab praktische Punkte: moeglicher Unterrichtsort oder Treffpunkt, Instrument, Alter, Lernstand, Wochenrhythmus und Zeit zum Ueben. Diese Details machen Unterricht realistischer als ein grosses Versprechen.`,
-			`Gerade ${location.locative} hilft ein klarer Aufbau: wenig Druck, genaue Klangarbeit und Aufgaben, die zwischen zwei Stunden wirklich wiederholt werden koennen.`,
+			`Typische Rahmen sind ${service.contexts}. ${localVenueSentence(serviceSlug, service, location)} Entscheidend ist nicht nur der Ortsname, sondern ob Unterrichtsweg, Konzentration, Instrument und Uebezeit im Alltag wirklich zusammenpassen.`,
+			`Ich klaere vorab praktische Punkte: moeglicher Unterrichtsort oder Treffpunkt, Instrument, Alter, Lernstand, Wochenrhythmus und Zeit zum Ueben. ${localArrivalSentence(location, true)}`,
+			`Gerade ${location.locative} hilft ein klarer Aufbau: wenig Druck, genaue Klangarbeit und Aufgaben, die zwischen zwei Stunden wirklich wiederholt werden koennen. ${regionalFitSentence(location)}`,
 		];
 	}
 
 	return [
-		`Typische Rahmen sind ${service.contexts}. Je nach Ort ist entscheidend, ob Musik sammelt, einen einzelnen Moment traegt oder ueber mehrere kurze Sets Atmosphaere schafft.`,
-		`Ich klaere vorab nicht nur Stuecke, sondern auch praktische Punkte: ${accessChecklist(location)}. Diese Details entscheiden oft, ob der erste Ton ruhig beginnt oder unter Zeitdruck steht.`,
-		`Gerade ${location.locative} wirkt Solo-Viola stark, weil sie wenig Aufbau braucht, nah klingt und sich flexibel an kleinere Raeume, groessere Feiern oder kurze Uebergaenge anpassen laesst.`,
+		`Typische Rahmen sind ${service.contexts}. ${localVenueSentence(serviceSlug, service, location)} Je nach Ort ist entscheidend, ob Musik sammelt, einen einzelnen Moment traegt oder ueber mehrere kurze Sets Atmosphaere schafft.`,
+		`Ich klaere vorab nicht nur Stuecke, sondern auch praktische Punkte: ${accessChecklist(location)}. ${localArrivalSentence(location, false)}`,
+		`Gerade ${location.locative} wirkt Solo-Viola stark, weil sie wenig Aufbau braucht, nah klingt und sich flexibel an kleinere Raeume, groessere Feiern oder kurze Uebergaenge anpassen laesst. ${regionalFitSentence(location)}`,
 	];
 }
 
@@ -361,14 +361,14 @@ function flowParagraphs(serviceSlug, service, location) {
 	if (serviceSlug === 'unterricht') {
 		return [
 			`Moegliche Schritte sind ${joinList(service.moments)}. Daraus entsteht kein starres Programm, sondern ein Unterrichtsplan, der zu Lernstand, Alltag und Motivation passt.`,
-			`Fuer ${location.name} ist die konkrete Alltagssituation wichtig, weil ${location.cue} je nach Adresse andere Wege, Zeitfenster und Routinen bedeuten kann.`,
+			`${localRouteSentence(serviceSlug, location)} Genau deshalb frage ich nicht nur nach dem Ort, sondern auch nach Weg, Wochenrhythmus und realistischer Uebezeit.`,
 			'Wenn die Zeit knapp ist, wird der Unterricht nicht groesser, sondern praeziser: wenige Uebeaufgaben, deutliche Prioritaeten und ein Klangziel, das in der naechsten Stunde wieder aufgegriffen wird.',
 		];
 	}
 
 	return [
 		`Moegliche Einsatzpunkte sind ${joinList(service.moments)}. Daraus entsteht ein Plan, der zum Anlass passt und Pausen, Worte, Wege und Gaeste nicht ueberdeckt.`,
-		`Fuer ${location.name} ist die genaue Adresse wichtig, weil ${location.cue} je nach Location andere Wege, Raumgroessen und Zeitfenster bedeuten kann.`,
+		`${localRouteSentence(serviceSlug, location)} Deshalb frage ich frueh nach genauer Adresse, Raumtyp, Aufbauplatz und Kontaktperson.`,
 		'Wenn mehrere Programmpunkte begleitet werden, plane ich kurze Spannungswechsel: ein ruhiger Beginn, ein tragender Kern und danach entweder ein heller Abschluss oder eine dezente Ruecknahme.',
 	];
 }
@@ -378,14 +378,14 @@ function requestParagraphs(serviceSlug, inquiry, location) {
 		return [
 			`Hilfreich sind: ${inquiry}. Damit kann ich einschaetzen, ob eine Probestunde, ein regelmaessiger Rhythmus oder zuerst eine kurze Orientierungsphase sinnvoll ist.`,
 			eventPiecePolicy(serviceSlug),
-			'Die Probestunde ist kostenlos und unverbindlich. Regelmaessiger Unterricht startet erst, wenn Ziel, Format, Rhythmus und Preisrahmen transparent geklaert sind.',
+			`Die Probestunde ist kostenlos und unverbindlich. Regelmaessiger Unterricht startet erst, wenn Ziel, Format, Rhythmus, Weg ${location.locative} und Preisrahmen transparent geklaert sind.`,
 		];
 	}
 
 	return [
 		`Hilfreich sind: ${inquiry}. Damit kann ich Verfuegbarkeit, passenden Umfang und einen realistischen Preisrahmen einschaetzen.`,
 		eventPiecePolicy(serviceSlug),
-		`Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klaeren wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin ${location.locative} machbar ist.`,
+		`Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klaeren wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin ${location.locative} mit Anfahrt, Aufbau und Ablauf machbar ist.`,
 	];
 }
 
@@ -395,11 +395,11 @@ function buildElegy(service, location) {
 		passages: [
 			{
 				strong: 'Lokaler Rahmen',
-				text: `${localIntro(location)} Fuer Trauerfeiern zaehlt vor Ort vor allem, ob der Abschied in Trauerhalle, Kirche, Kapelle, am Grab oder in einem freien Raum stattfindet. Danach richten sich Ankunft, Stuecklaenge, Position und Lautstaerke.`,
+				text: `${localIntro(location)} ${localVenueSentence('beerdigungen', service, location)} Fuer Trauerfeiern zaehlt vor Ort vor allem, ob der Abschied in Trauerhalle, Kirche, Kapelle, am Grab oder in einem freien Raum stattfindet. Danach richten sich Ankunft, Stuecklaenge, Position und Lautstaerke.`,
 			},
 			{
 				strong: 'Absprache',
-				text: `Eine gute Anfrage nennt ${service.need}. Wenn gewuenscht, klaere ich Ablauf und Einsaetze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt.`,
+				text: `Eine gute Anfrage nennt ${service.need}. ${localArrivalSentence(location, false)} Wenn gewuenscht, klaere ich Ablauf und Einsaetze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt.`,
 			},
 			{
 				strong: 'Wunschstueck',
@@ -423,7 +423,7 @@ function buildSolemn(service, location) {
 			{
 				rom: 'Vor Ort',
 				title: 'Puenktlich, still, vorbereitet',
-				poet: `Ich plane ${accessChecklist(location)}, damit die Musik ${location.locative} nicht unter Zeitdruck beginnt und der Abschied ruhig bleibt.`,
+				poet: `Ich plane ${accessChecklist(location)}, damit die Musik ${location.locative} nicht unter Zeitdruck beginnt und der Abschied ruhig bleibt. ${localRouteSentence('beerdigungen', location)}`,
 			},
 		],
 		listLabel: `Moegliche musikalische Momente ${location.locative}`,
@@ -442,7 +442,7 @@ function buildFocus(service, location) {
 				time: '1',
 				kicker: 'Ort',
 				title: `Adresse und Raum ${location.locative} klaeren`,
-				text: `Wichtig sind ${accessChecklist(location)}. So weiss ich, wie viel Zeit fuer Ankunft, Stimmen und Aufbau realistisch ist.`,
+				text: `Wichtig sind ${accessChecklist(location)}. So weiss ich, wie viel Zeit fuer Ankunft, Stimmen und Aufbau realistisch ist. ${localArrivalSentence(location, false)}`,
 			},
 			{
 				time: '2',
@@ -463,7 +463,7 @@ function buildFocus(service, location) {
 				text: `Die Anfrage ist kostenlos. Der Preis richtet sich nach Dauer, Ort, Vorbereitung, Wunschmusik, Anfahrt und Aufwand - nicht nach einem pauschalen Versprechen.`,
 			},
 		],
-		footnote: `Fuer ${location.name} sind besonders ${accessChecklist(location)} hilfreich.`,
+		footnote: `Fuer ${location.name} sind besonders ${accessChecklist(location)} hilfreich. ${regionalFitSentence(location)}`,
 	};
 }
 
@@ -483,7 +483,7 @@ function buildTeachingFocus(location) {
 				time: '2',
 				kicker: 'Probestunde',
 				title: 'Kostenlos ausprobieren',
-				text: `Die Probestunde ${location.locative} ist kostenlos und unverbindlich. Danach entscheiden wir, ob Unterrichtsart, Weg und Rhythmus passen.`,
+				text: `Die Probestunde ${location.locative} ist kostenlos und unverbindlich. Danach entscheiden wir, ob Unterrichtsart, Weg und Rhythmus passen. ${localArrivalSentence(location, true)}`,
 			},
 			{
 				time: '3',
@@ -498,7 +498,7 @@ function buildTeachingFocus(location) {
 				text: 'Der Preis richtet sich nach Dauer, Rhythmus und Rahmen des Unterrichts. Das klaeren wir offen, bevor regelmaessiger Unterricht beginnt.',
 			},
 		],
-		footnote: `Fuer ${location.name} sind Lernstand, moeglicher Unterrichtsort oder Treffpunkt, Instrument und Wochenrhythmus besonders hilfreich.`,
+		footnote: `Fuer ${location.name} sind Lernstand, moeglicher Unterrichtsort oder Treffpunkt, Instrument und Wochenrhythmus besonders hilfreich. ${regionalFitSentence(location)}`,
 	};
 }
 
@@ -533,9 +533,10 @@ function buildFaq(service, location) {
 			},
 			{
 				question: `Was ist ${location.locative} organisatorisch wichtig?`,
-				answer: `Wichtig sind ${accessChecklist(location)}. ${localIntro(location)} Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist.`,
+				answer: `Wichtig sind ${accessChecklist(location)}. ${localIntro(location)} ${localArrivalSentence(location, isTeaching)} Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist.`,
 			},
-			service.specificFaq,
+			localVenueFaq(service, location, isTeaching),
+			localRouteFaq(service, location, isTeaching),
 		],
 	};
 }
@@ -545,10 +546,10 @@ function buildContact(service, location) {
 	return {
 		eyebrow: service.cta,
 		title: service.contactTitle(location),
-		lead: `Schreib mir kurz ${service.need}. Die Anfrage ist kostenlos und unverbindlich; danach klaeren wir Verfuegbarkeit, passenden Umfang und Preisrahmen persoenlich.`,
+		lead: `Schreib mir kurz ${service.need}. Hilfreich ist auch, ob der Ort eher ${localContactHint(location)} liegt. Die Anfrage ist kostenlos und unverbindlich; danach klaeren wir Verfuegbarkeit, passenden Umfang und Preisrahmen persoenlich.`,
 		checklist: isTeaching
-			? [location.name, 'Lernstand', 'Probestunde', 'Preis nach Format']
-			: [location.name, 'Datum & Ort', service.label, 'Preis nach Rahmen'],
+			? [location.name, 'Lernstand', 'Probestunde', 'Weg & Rhythmus']
+			: [location.name, 'Datum & Ort', 'Wunschmusik', 'Preis nach Rahmen'],
 		formEyebrow: 'Details senden',
 		formTitle: `Verfuegbarkeit und Preisrahmen ${location.locative} klaeren`,
 		formSuccess: `Danke - ich pruefe deine Anfrage ${location.locative} und melde mich persoenlich mit den naechsten Schritten.`,
@@ -620,6 +621,171 @@ function cuePhrase(location) {
 	return `rund um ${location.cue}`;
 }
 
+function cueCore(location) {
+	return location.cue
+		.replace(/^zwischen\s+/i, '')
+		.replace(/^rund um\s+/i, '')
+		.replace(/^von\s+/i, '')
+		.replace(/^der\s+/i, '')
+		.trim();
+}
+
+function localMarkers(location) {
+	const parts = cueCore(location)
+		.replace(/\s+und\s+/g, ', ')
+		.split(',')
+		.map((part) => part.trim())
+		.filter(Boolean)
+		.map((part) => part.replace(/^den\s+/i, '').replace(/^der\s+/i, '').replace(/^die\s+/i, '').replace(/^das\s+/i, ''));
+	return parts.length ? parts : [location.name];
+}
+
+function markersText(location, count = 3) {
+	return joinList(localMarkers(location).slice(0, count));
+}
+
+function markerA(location) {
+	return localMarkers(location)[0] ?? location.name;
+}
+
+function markerB(location) {
+	const markers = localMarkers(location);
+	return markers[1] ?? markers[0] ?? location.name;
+}
+
+function localExampleAnchor(location) {
+	if (location.kind === 'city') return `${location.locative} rund um ${markersText(location, 2)}`;
+	if (location.kind === 'county') return `${location.locative} zwischen ${markersText(location, 3)}`;
+	if (location.kind === 'region') return `${location.locative} zwischen ${markersText(location, 3)}`;
+	return `${location.locative} mit konkretem Ort in NRW`;
+}
+
+function settingLede(serviceSlug, service, location) {
+	if (serviceSlug === 'unterricht') {
+		return `Der Alltag ${location.locative} kann je nach Weg zwischen ${markersText(location, 3)} sehr unterschiedlich aussehen.`;
+	}
+	if (serviceSlug === 'beerdigungen') {
+		return `Typische Abschiedsorte liegen nicht abstrakt im Ort, sondern zum Beispiel im Umfeld von ${markersText(location, 3)}.`;
+	}
+	return `Typische Orte und Routen liegen zum Beispiel im Umfeld von ${markersText(location, 3)}; fuer ${service.label} veraendert das Timing, Aufbau und Akustik.`;
+}
+
+function localVenueSentence(serviceSlug, service, location) {
+	const markers = markersText(location, 3);
+	const variants = {
+		hochzeiten: [
+			`Vor Ort kann das eine Trauung im Standesamt oder in der Kirche, eine freie Trauung im Gruenen oder ein Empfang im Umfeld von ${markers} sein.`,
+			`Gerade Hochzeiten wechseln haeufig zwischen Zeremonie, Fotos und Empfang; rund um ${markers} sollte deshalb klar sein, wo die Musik wirklich gebraucht wird.`,
+			`Ob kleiner Raum, Schloss-/Hotelrahmen oder freie Trauung: im Umfeld von ${markers} zaehlen Wege, Wetteroption und Startsignal.`,
+		],
+		beerdigungen: [
+			`Das kann eine Trauerhalle, Kirche, Kapelle, ein Friedhof oder ein freier Abschiedsraum im Umfeld von ${markers} sein.`,
+			`Bei Abschieden rund um ${markers} ist wichtig, ob Musik im Raum, am Grab oder als stiller Uebergang gebraucht wird.`,
+			`Trauermusik braucht hier weniger Show als Verlaesslichkeit: Ort, Einsatz und Laenge muessen im Umfeld von ${markers} ruhig abgestimmt sein.`,
+		],
+		firmenfeiern: [
+			`Das kann ein Empfang im Foyer, ein Dinnerraum, eine Kanzlei, ein Showroom oder ein Messe-/Kundenevent im Umfeld von ${markers} sein.`,
+			`Bei Business-Terminen rund um ${markers} ist entscheidend, ob die Musik Gespraeche begleitet oder einen offiziellen Moment markiert.`,
+			`Firmenveranstaltungen brauchen oft einen puenktlichen, unauffaelligen Aufbau; das gilt besonders bei engen Zeitfenstern im Umfeld von ${markers}.`,
+		],
+		geburtstage: [
+			`Das kann ein Restaurant, Garten, Wohnzimmer, Vereinsraum oder eine kleine Feierlocation im Umfeld von ${markers} sein.`,
+			`Private Feiern rund um ${markers} funktionieren musikalisch am besten, wenn Ueberraschung, Empfang und Dinner nicht miteinander konkurrieren.`,
+			`Bei Geburtstagen ist der Raum oft persoenlicher als bei groesseren Events; im Umfeld von ${markers} plane ich deshalb eher nah und flexibel.`,
+		],
+		taufen: [
+			`Das kann eine Kirche, Kapelle, ein Gemeindehaus, ein Garten oder eine Familienfeier im Umfeld von ${markers} sein.`,
+			`Bei Taufen rund um ${markers} ist wichtig, ob die Musik im Gottesdienst, bei der Segnung oder erst bei der anschliessenden Feier gebraucht wird.`,
+			`Familienfeiern zur Taufe brauchen eine ruhige Abstimmung, besonders wenn Kirche und Feierort im Umfeld von ${markers} getrennt sind.`,
+		],
+		konzerte: [
+			`Das kann eine Galerie, ein Salon, eine Lesung, eine Vernissage, ein Kulturraum oder ein privater Konzertabend im Umfeld von ${markers} sein.`,
+			`Kulturformate rund um ${markers} brauchen ein Programm, das zu Raum, Publikum und Dramaturgie passt, nicht einfach eine lange Liste schoener Stuecke.`,
+			`Bei Konzerten und Vernissagen im Umfeld von ${markers} klaere ich vorab, ob die Viola im Fokus steht oder den Abend rahmt.`,
+		],
+		unterricht: [
+			`Unterricht kann als regelmaessiger Rhythmus, Wiedereinstieg oder Technikphase funktionieren, wenn Weg und Alltag rund um ${markers} realistisch bleiben.`,
+			`Fuer Schueler:innen rund um ${markers} ist nicht nur die Stunde wichtig, sondern ob Ueben, Fahrweg und Motivation zwischen den Terminen zusammenpassen.`,
+			`Je nach Alltag im Umfeld von ${markers} kann eine klare Probestunde mehr helfen als ein vorschnell vereinbarter Unterrichtsplan.`,
+		],
+	};
+	return pickByKey(`${serviceSlug}:${location.slug}:venue`, variants[serviceSlug] ?? [`${service.label} wird im Umfeld von ${markers} nach Ort, Ablauf und Wirkung geplant.`]);
+}
+
+function localArrivalSentence(location, isTeaching) {
+	const markers = markersText(location, 3);
+	if (isTeaching) {
+		if (location.kind === 'city') return `Bei Wegen rund um ${markers} ist wichtig, ob die Unterrichtszeit auch mit Schule, Arbeit, Familie und Uebezeit zusammenpasst.`;
+		return `Bei einem groesseren Gebiet wie ${location.name} klaeren wir zuerst, welcher Treffpunkt oder welches Format den regelmaessigen Rhythmus realistisch macht.`;
+	}
+	if (location.kind === 'city') return `Bei Terminen rund um ${markers} plane ich lieber etwas Puffer fuer Halten, Parken, Stimmen und den Weg zum Raum ein.`;
+	if (location.kind === 'county') return `Im ${location.name} koennen zwei Orte nah klingen und praktisch trotzdem unterschiedliche Fahrzeiten, Parkmoeglichkeiten und Zeitpuffer brauchen.`;
+	if (location.kind === 'region') return `In einer Region wie ${location.name} muss der konkrete Ort frueh feststehen, weil Fahrtstrecke, Aufbauzeit und Zeitpuffer sonst nicht serioes planbar sind.`;
+	return 'In NRW ist der konkrete Ort wichtig, weil Fahrstrecke, Aufbauzeit und Ablauf sonst nicht serioes einschaetzbar sind.';
+}
+
+function regionalFitSentence(location) {
+	if (location.kind === 'city') return `Die lokalen Marker ${markersText(location, 3)} helfen, den Termin nicht nur nach Stadtname, sondern nach echter Situation zu planen.`;
+	if (location.kind === 'county') return `${location.name} sollte deshalb immer mit konkreter Stadt oder Adresse angefragt werden, nicht nur mit dem Kreisnamen.`;
+	if (location.kind === 'region') return `${location.name} ist fuer SEO und Planung nur sinnvoll, wenn danach Stadt, Raum und Ablauf konkret werden.`;
+	return 'Bei landesweiten Anfragen ist die genaue Stadt der erste wichtige Schritt.';
+}
+
+function localRouteSentence(serviceSlug, location) {
+	const first = markerA(location);
+	const second = markerB(location);
+	if (serviceSlug === 'unterricht') {
+		return `Ein Unterrichtsweg nahe ${first} kann sich anders anfuehlen als ein Termin Richtung ${second}; fuer regelmaessigen Unterricht ist das wichtiger als fuer einen einmaligen Auftritt.`;
+	}
+	if (location.kind === 'city') {
+		return `Ein Termin nahe ${first} braucht oft andere Zeitpuffer als ein Termin Richtung ${second}; das beeinflusst Anfahrt, Aufbau und die Frage, wie knapp der Ablauf sein darf.`;
+	}
+	return `Ein Termin in ${first} ist organisatorisch nicht dasselbe wie ein Termin Richtung ${second}; deshalb zaehlt die konkrete Adresse mehr als die grobe Region.`;
+}
+
+function localContactHint(location) {
+	if (location.kind === 'city') return `bei ${markersText(location, 2)} oder eher ausserhalb`;
+	if (location.kind === 'county') return `in ${markerA(location)}, ${markerB(location)} oder einem anderen Ort im Kreis`;
+	if (location.kind === 'region') return `in ${markerA(location)}, ${markerB(location)} oder einem anderen Teil der Region`;
+	return 'in welcher Stadt beziehungsweise an welcher Adresse';
+}
+
+function localVenueFaq(service, location, isTeaching) {
+	const question = isTeaching
+		? `Welche Unterrichtssituation passt ${location.locative}?`
+		: `Welche Orte passen fuer ${service.label} ${location.locative}?`;
+	const specificNote = service.specificFaq?.answer ? ` ${service.specificFaq.answer}` : '';
+	const answer = isTeaching
+		? `Sinnvoll ist ein Rahmen, der regelmaessig machbar bleibt: Lernstand, Instrument, Weg, Uebezeit und Alltag rund um ${markersText(location, 3)} muessen zusammenpassen. Die kostenlose Probestunde klaert genau das.${specificNote}`
+		: `${localVenueSentence(docServiceFromLabel(service.label), service, location)} Wichtig ist weniger ein spektakulaerer Ortsname als ein Raum, in dem Lautstaerke, Startsignal und Ablauf funktionieren.${specificNote}`;
+	return { question, answer };
+}
+
+function localRouteFaq(service, location, isTeaching) {
+	const question = isTeaching
+		? `Warum fragst du nach dem genauen Ort ${location.locative}?`
+		: `Warum ist die genaue Location ${location.locative} so wichtig?`;
+	const answer = isTeaching
+		? `${localRouteSentence('unterricht', location)} Deshalb klaeren wir vorab Treffpunkt, Rhythmus und realistische Uebezeit.`
+		: `${localRouteSentence(docServiceFromLabel(service.label), location)} Deshalb frage ich nach Adresse, Aufbauplatz, Kontaktperson vor Ort und moeglichen Ortswechseln.`;
+	return { question, answer };
+}
+
+function bookingDecisionParagraph(serviceSlug, location) {
+	const common = `So bleibt die Seite fuer ${location.name} praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und naechstem Schritt.`;
+	if (serviceSlug === 'unterricht') {
+		return `Fuer die Buchung klaeren wir nach der kostenlosen Probestunde, ob Ziel, Weg, Rhythmus und Preisrahmen wirklich passen. ${common}`;
+	}
+	return `Fuer die Buchung klaeren wir danach ehrlich, ob vorhandenes Repertoire reicht oder ob ein Wunschlied neu herausgehoert beziehungsweise notiert werden muss. ${common}`;
+}
+
+function pickByKey(key, options) {
+	if (!options.length) return '';
+	let hash = 0;
+	for (const char of key) hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
+	return options[hash % options.length];
+}
+
 function accessChecklist(location) {
 	if (location.kind === 'city') return 'genaue Adresse, Park- oder Haltemoeglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort';
 	if (location.kind === 'county') return 'exakte Stadt, genaue Adresse, Fahrzeit, Treffpunkt, moeglicher Ortswechsel und eine Kontaktperson vor Ort';
@@ -655,25 +821,28 @@ function docServiceFromLabel(label) {
 }
 
 function exampleLede(serviceSlug, location) {
+	const anchor = localExampleAnchor(location);
 	const map = {
-		hochzeiten: `Eine Trauung ${location.locative} kann mit einem ruhigen Einzug beginnen, beim Ringtausch sehr reduziert werden und nach dem Auszug in leichte Empfangsmusik wechseln.`,
-		firmenfeiern: `Ein Empfang ${location.locative} kann mit dezenter Musik starten, waehrend Gaeste ankommen, und spaeter mit einem kurzen musikalischen Akzent in Reden oder Dinner uebergehen.`,
-		geburtstage: `Eine private Feier ${location.locative} kann mit einem Ueberraschungsstueck beginnen und danach in kurze Sets wechseln, die Gespraeche nicht ueberdecken.`,
-		taufen: `Eine Taufe ${location.locative} kann mit einem sanften Einzug beginnen, die Taufhandlung ruhig rahmen und den Auszug oder Empfang warm oeffnen.`,
-		konzerte: `Ein Kulturabend ${location.locative} kann aus einem kurzen kuratierten Block, einer persoenlichen Anmoderation und einem offenen Ausklang bestehen.`,
-		unterricht: `Bratschenunterricht ${location.locative} kann mit einer Probestunde beginnen, danach einen Wochenrhythmus bekommen und mit klaren Uebeaufgaben wachsen.`,
+		hochzeiten: `Eine Trauung ${anchor} kann mit einem ruhigen Einzug beginnen, beim Ringtausch sehr reduziert werden und nach dem Auszug in leichte Empfangsmusik wechseln.`,
+		firmenfeiern: `Ein Empfang ${anchor} kann mit dezenter Musik starten, waehrend Gaeste ankommen, und spaeter mit einem kurzen musikalischen Akzent in Reden oder Dinner uebergehen.`,
+		geburtstage: `Eine private Feier ${anchor} kann mit einem Ueberraschungsstueck beginnen und danach in kurze Sets wechseln, die Gespraeche nicht ueberdecken.`,
+		taufen: `Eine Taufe ${anchor} kann mit einem sanften Einzug beginnen, die Taufhandlung ruhig rahmen und den Auszug oder Empfang warm oeffnen.`,
+		konzerte: `Ein Kulturabend ${anchor} kann aus einem kurzen kuratierten Block, einer persoenlichen Anmoderation und einem offenen Ausklang bestehen.`,
+		unterricht: `Bratschenunterricht ${anchor} kann mit einer Probestunde beginnen, danach einen Wochenrhythmus bekommen und mit klaren Uebeaufgaben wachsen.`,
 	};
 	return map[serviceSlug] ?? `Ein Termin ${location.locative} wird vom konkreten Anlass her geplant.`;
 }
 
 function exampleParagraph(serviceSlug, location) {
+	const first = markerA(location);
+	const second = markerB(location);
 	const map = {
-		hochzeiten: `Wenn die Location ${location.locative} mehrere Wege zwischen Trauung, Fotos und Empfang hat, plane ich lieber kuerzere, sichere Einsaetze als einen zu langen Musikblock.`,
-		firmenfeiern: `Wenn Reden, Begruessung und Dinner eng getaktet sind, bleibt die Viola bewusst flexibel: wenige starke Einsaetze statt dauerhafter Beschallung.`,
-		geburtstage: `Wenn das erste Stueck eine Ueberraschung ist, braucht es ein klares Signal von einer Kontaktperson, damit der Einsatz nicht zu frueh oder zu spaet kommt.`,
-		taufen: `Wenn Kirche und Familienfeier an verschiedenen Orten stattfinden, klaeren wir vorher, ob ein einzelner musikalischer Schwerpunkt reicht oder ob ein zweites kurzes Set sinnvoll ist.`,
-		konzerte: `Wenn Raum und Publikum eher klein sind, funktioniert ein konzentriertes Programm oft staerker als ein zu langer Abend mit zu vielen Stilen.`,
-		unterricht: `Wenn Alltag, Fahrweg und Uebezeit knapp sind, ist ein realistischer Plan wichtiger als ein grosses Versprechen: lieber wenige klare Aufgaben, die wirklich wiederholt werden.`,
+		hochzeiten: `Wenn die Location zwischen ${first} und ${second} mehrere Wege zwischen Trauung, Fotos und Empfang hat, plane ich lieber kuerzere, sichere Einsaetze als einen zu langen Musikblock.`,
+		firmenfeiern: `Wenn Reden, Begruessung und Dinner rund um ${first} eng getaktet sind, bleibt die Viola bewusst flexibel: wenige starke Einsaetze statt dauerhafter Beschallung.`,
+		geburtstage: `Wenn das erste Stueck im Umfeld von ${first} eine Ueberraschung ist, braucht es ein klares Signal von einer Kontaktperson, damit der Einsatz nicht zu frueh oder zu spaet kommt.`,
+		taufen: `Wenn Kirche und Familienfeier zwischen ${first} und ${second} an verschiedenen Orten stattfinden, klaeren wir vorher, ob ein einzelner musikalischer Schwerpunkt reicht oder ob ein zweites kurzes Set sinnvoll ist.`,
+		konzerte: `Wenn Raum und Publikum im Umfeld von ${first} eher klein sind, funktioniert ein konzentriertes Programm oft staerker als ein zu langer Abend mit zu vielen Stilen.`,
+		unterricht: `Wenn Alltag, Fahrweg und Uebezeit rund um ${first} knapp sind, ist ein realistischer Plan wichtiger als ein grosses Versprechen: lieber wenige klare Aufgaben, die wirklich wiederholt werden.`,
 	};
 	return map[serviceSlug] ?? `Der Ablauf wird so geplant, dass Musik, Ort und Timing zusammenpassen.`;
 }
@@ -800,6 +969,26 @@ const COPY_REPLACEMENTS = [
 	['hoeren', 'hören'],
 	['ueben', 'üben'],
 	['oefter', 'öfter'],
+	['veraendert', 'verändert'],
+	['veraendern', 'verändern'],
+	['frueh', 'früh'],
+	['Frueh', 'Früh'],
+	['staerkeren', 'stärkeren'],
+	['Laenge', 'Länge'],
+	['laenge', 'länge'],
+	['haeufig', 'häufig'],
+	['ausserhalb', 'außerhalb'],
+	['Gruenen', 'Grünen'],
+	['gruenen', 'grünen'],
+	['anschliessenden', 'anschließenden'],
+	['puenktlichen', 'pünktlichen'],
+	['unauffaelligen', 'unauffälligen'],
+	['Schueler:innen', 'Schüler:innen'],
+	['schoener', 'schöner'],
+	['spektakulaerer', 'spektakulärer'],
+	['serioes', 'seriös'],
+	['Verlaesslichkeit', 'Verlässlichkeit'],
+	['einschaetzbar', 'einschätzbar'],
 ];
 
 main();
