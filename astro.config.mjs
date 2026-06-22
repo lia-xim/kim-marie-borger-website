@@ -7,6 +7,7 @@ import tina from '@tinacms/astro/integration';
 import { tinaAdminDevRedirect } from '@tinacms/astro/vite';
 import vercel from '@astrojs/vercel';
 
+/** @returns {import('astro').AstroIntegration} */
 const sitemapXmlAlias = () => ({
 	name: 'sitemap-xml-alias',
 	hooks: {

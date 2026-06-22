@@ -122,16 +122,12 @@ async function rewriteSourceReferences(map) {
 }
 
 async function writeAppleTouchIcon() {
-	const svg = Buffer.from(
-		`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
-			<rect width="180" height="180" fill="#F4EEE2"/>
-			<g transform="translate(34,52)">
-				<path d="M5 62 C17 14, 95 14, 107 62" stroke="#B28A4A" stroke-width="9" fill="none" stroke-linecap="round"/>
-				<circle cx="56" cy="54" r="12" fill="#B28A4A"/>
-			</g>
-		</svg>`,
-	);
-	await writeFile(path.resolve('public/apple-touch-icon.png'), await sharp(svg).resize(180, 180).png().toBuffer());
+	const svg = await readFile(path.resolve('public/favicon.svg'));
+	const png = await sharp(svg, { density: 384 })
+		.resize(180, 180, { fit: 'contain' })
+		.png({ compressionLevel: 9, adaptiveFiltering: true })
+		.toBuffer();
+	await writeFile(path.resolve('public/apple-touch-icon.png'), png);
 	console.log('apple-touch-icon.png written');
 }
 
