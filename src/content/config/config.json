@@ -5,7 +5,7 @@
   },
   "brand": {
     "name": "Kim Marie Borger",
-    "sub": "Viola · Live"
+    "sub": "Musik · Live"
   },
   "contact": {
     "email": "kim-marie.borger@t-online.de",
@@ -13,7 +13,15 @@
     "eyebrow": "Persönlich & unverbindlich",
     "title": "Erzähl mir von deinem Anlass.",
     "lead": "Schreib mir ein paar Worte — ich antworte innerhalb von 24 Stunden mit einem persönlichen Vorschlag. Die Beratung kostet dich nichts.",
-    "checklist": ["Hochzeit", "Taufe", "Geburtstag", "Abschied", "Konzert", "Firmenfeier", "Unterricht"],
+    "checklist": [
+      "Hochzeit",
+      "Taufe",
+      "Geburtstag",
+      "Abschied",
+      "Konzert",
+      "Firmenfeier",
+      "Unterricht"
+    ],
     "formEyebrow": "Direkt anfragen",
     "formTitle": "In einer Minute ausgefüllt.",
     "formSuccess": "Vielen Dank — deine Anfrage ist eingegangen. Ich melde mich innerhalb von 24 Stunden.",
