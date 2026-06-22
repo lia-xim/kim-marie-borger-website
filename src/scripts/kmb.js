@@ -1,3 +1,34 @@
+/* ---------- deferred images: keep non-critical media off the initial path ---------- */
+const loadDeferredImage = (img) => {
+  if(!img || img.dataset.deferLoaded === 'true') return;
+  const src = img.dataset.src;
+  if(!src) return;
+  img.dataset.deferLoaded = 'true';
+  const markLoaded = () => img.classList.add('is-loaded');
+  img.addEventListener('load', markLoaded, { once:true });
+  if(img.dataset.sizes) img.setAttribute('sizes', img.dataset.sizes);
+  if(img.dataset.srcset) img.setAttribute('srcset', img.dataset.srcset);
+  img.src = src;
+  if(img.complete && img.naturalWidth > 1) markLoaded();
+};
+
+const initDeferredImages = (root, eager=false) => {
+  if(!root.querySelectorAll) return;
+  const imgs = [...root.querySelectorAll('img[data-src]')].filter(img => img.dataset.deferLoaded !== 'true');
+  if(!imgs.length) return;
+  if(eager || !('IntersectionObserver' in window)){
+    imgs.forEach(loadDeferredImage);
+    return;
+  }
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if(e.isIntersecting){
+      loadDeferredImage(e.target);
+      io.unobserve(e.target);
+    }
+  }), { rootMargin:'240px 0px', threshold:0.01 });
+  imgs.forEach(img => io.observe(img));
+};
+
 /* ---------- Tina edit mode: page renders inside the admin iframe and islands
    re-render on every keystroke. Scroll-driven entrance effects would leave
    re-rendered content invisible (no .in class) — so in edit mode everything is
@@ -13,12 +44,14 @@ if (TINA_EDIT) {
       tl.querySelectorAll('li').forEach(li => li.classList.add('passed'));
     });
     root.querySelectorAll('.notation').forEach(svg => svg.classList.add('drawn'));
+    initDeferredImages(root, true);
   };
   force(document);
   new MutationObserver(ms => ms.forEach(m => m.addedNodes.forEach(n => {
     if (n.nodeType === 1) { if (n.matches && n.matches('.reveal')) n.classList.add('in'); force(n); }
   }))).observe(document.body, { childList: true, subtree: true });
 }
+if(!TINA_EDIT) initDeferredImages(document);
 
 /* ---------- year ---------- */
 const yearEl = document.getElementById('year');
@@ -189,8 +222,14 @@ if(!TINA_EDIT){
     img.classList.add('ir');
   });
   const show = img => {
-    if(img.complete && img.naturalWidth) img.classList.add('ir-in');
-    else img.addEventListener('load', () => img.classList.add('ir-in'), { once:true });
+    const reveal = () => img.classList.add('ir-in');
+    if(img.dataset.src && img.dataset.deferLoaded !== 'true'){
+      img.addEventListener('load', reveal, { once:true });
+      loadDeferredImage(img);
+      return;
+    }
+    if(img.complete && img.naturalWidth) reveal();
+    else img.addEventListener('load', reveal, { once:true });
   };
   const io = new IntersectionObserver(es => es.forEach(e => {
     if(e.isIntersecting){ show(e.target); io.unobserve(e.target); }
@@ -284,11 +323,14 @@ if(!TINA_EDIT){
     + '<figure><img alt=""><figcaption></figcaption></figure>';
   document.body.appendChild(lb);
   const img = lb.querySelector('img'), cap = lb.querySelector('figcaption');
-  const items = pols.map(p => ({
-    src: p.querySelector('img').getAttribute('src'),
-    alt: p.querySelector('img').alt || '',
-    cap: [p.querySelector('.pl-tag')?.textContent, p.querySelector('.pl-label')?.textContent].filter(Boolean).join(' — ')
-  }));
+  const items = pols.map(p => {
+    const image = p.querySelector('img');
+    return {
+      src: image.dataset.src || image.currentSrc || image.getAttribute('src'),
+      alt: image.alt || '',
+      cap: [p.querySelector('.pl-tag')?.textContent, p.querySelector('.pl-label')?.textContent].filter(Boolean).join(' — ')
+    };
+  });
   let cur = 0, lastFocus = null;
   const showAt = i => {
     cur = (i + items.length) % items.length;
