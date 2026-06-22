@@ -8,243 +8,125 @@
   "priority": "P3",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Trauermusik Rhein-Ruhr | Live-Viola für Abschied",
-  "seoDescription": "Trauermusik Rhein-Ruhr: Solo-Viola für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "seoTitle": "Trauermusik Rhein-Ruhr | Viola für Abschied",
+  "seoDescription": "Trauermusik Rhein-Ruhr: würdevolle Viola für Trauerfeier, Beerdigung und Abschied in der Region Rhein-Ruhr. Schnelle Rückmeldung.",
   "hero": {
-    "eyebrow": "Abschied in der Rhein-Ruhr-Region",
-    "title": "Trauermusik in der Rhein-Ruhr-Region, die den Abschied ruhig trägt.",
-    "lead": "Ob Trauerfeier, Beerdigung, Bestattung oder letzter Abschied: Ich begleite Abschiede in der Rhein-Ruhr-Region mit Solo-Viola, abgestimmt auf Ort, Ablauf und die Menschen, die Abschied nehmen.",
-    "badge": "Behutsam geplant & persönlich abgestimmt"
+    "eyebrow": "Beerdigung & Trauerfeier in der Region Rhein-Ruhr",
+    "title": "Trauermusik in der Region Rhein-Ruhr für einen würdevollen Abschied.",
+    "lead": "Warme Viola-Klaenge für Trauerhalle, Kirche, Kapelle, Friedhof oder freie Abschiedsfeier in der Region Rhein-Ruhr - ruhig, behutsam und zuverlässig abgestimmt.",
+    "badge": "Schnelle Rückmeldung zur Verfügbarkeit"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Trauermusik in der Rhein-Ruhr-Region",
+    "title": "FAQ zu Trauermusik in der Region Rhein-Ruhr",
     "items": [
       {
-        "question": "Spielst du Trauermusik in der Rhein-Ruhr-Region?",
-        "answer": "Ja. Ich begleite Abschiede in der Rhein-Ruhr-Region mit Solo-Viola, je nach Ablauf in Trauerhalle, Kirche, Kapelle, am Friedhof oder bei einer freien Abschiedsfeier.",
+        "question": "Begleitest du Trauerfeiern in der Region Rhein-Ruhr?",
+        "answer": "Ja. Ich spiele Trauermusik in der Region Rhein-Ruhr in Trauerhallen, Kirchen, Kapellen, am Grab oder bei freien Abschiedsfeiern.",
         "open": true
       },
       {
-        "question": "Was ist bei Trauermusik in der Rhein-Ruhr-Region besonders wichtig?",
-        "answer": "In Rhein-Ruhr ist die Logistik fast so wichtig wie das Repertoire: Startsignal, Parken und Aufbauort müssen vorab eindeutig sein."
+        "question": "Welche Angaben helfen für eine Anfrage in der Region Rhein-Ruhr?",
+        "answer": "Am hilfreichsten sind Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
       },
       {
-        "question": "Kannst du dich mit dem Bestattungshaus abstimmen?",
-        "answer": "Ja. Ablauf, Ankunft, Platzierung, Einsätze und Rückfragen kann ich direkt mit Bestattungshaus, Trauerrednerin, Pfarrer oder Kontaktperson klären."
+        "question": "Ist die Kontaktaufnahme kostenlos?",
+        "answer": "Ja. Die Anfrage und erste Klärung sind kostenlos und unverbindlich. Kostenloses Vorspielen vor Ort ist damit nicht gemeint."
       },
       {
-        "question": "Welche Stücke passen zur Trauerfeier?",
-        "answer": "Häufig passen ein Lieblingslied, ein stiller Zwischenmoment und eine schlichte Musik zum Schluss. Entscheidend ist, dass das Stück zur Person und zur konkreten Stelle im Ablauf passt."
+        "question": "Wie entsteht der Preis?",
+        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Vorbereitung, Wunschmusik und Aufwand. Ich nenne keinen pauschalen Fantasiepreis, sondern kläre den Rahmen persönlich."
       },
       {
-        "question": "Ist Musik draußen am Grab möglich?",
-        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Oft ist am Grab ein kurzer, sehr reduzierter Einsatz am passendsten."
+        "question": "Sind Wunschstücke möglich?",
+        "answer": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
       },
       {
-        "question": "Wie viele Musikstücke sind sinnvoll?",
-        "answer": "Häufig reichen zwei bis vier Einsätze. Ein Stück zum Beginn, ein ruhiger Moment nach Worten und Musik zum Auszug sind oft stimmiger als ein zu dichtes Programm."
+        "question": "Was ist in der Region Rhein-Ruhr organisatorisch wichtig?",
+        "answer": "Wichtig sind konkrete Stadt, Fahrtstrecke, Zeitpuffer, Treffpunkt, Raumtyp und eine Kontaktperson vor Ort. Rhein-Ruhr ist eine größere Region zwischen Rheinland und Ruhrgebiet, mit kurzen Wegen nach Düsseldorf, Köln, Essen und Dortmund. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
       },
       {
-        "question": "Kann die Musik sehr dezent bleiben?",
-        "answer": "Ja. Die Viola kann leise und nah spielen. Gerade bei Trauerfeiern ist Zurückhaltung oft wichtiger als Lautstärke oder ein besonders langer musikalischer Beitrag."
-      },
-      {
-        "question": "Welche Angaben brauchst du für eine Anfrage?",
-        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort in der Rhein-Ruhr-Region, der geplante Ablauf und ein Hinweis, ob Musik nur in der Trauerfeier oder auch am Grab gewünscht ist. Wenn es bereits ein Wunschstück gibt, prüfe ich direkt, ob es für Solo-Viola passt."
-      },
-      {
-        "question": "Sind kurzfristige Anfragen möglich?",
-        "answer": "Oft ja. Für Abschiede in der Rhein-Ruhr-Region melde ich mich schnell zurück, sobald Datum, Ort und ungefähre Uhrzeit feststehen."
-      },
-      {
-        "question": "Welche Details sind für Trauermusik Rhein-Ruhr besonders wichtig?",
-        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Rhein-Ruhr plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
-      },
-      {
-        "question": "Wie wird die Musik in Rhein-Ruhr konkret geplant?",
-        "answer": "Hilfreich sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
+        "question": "Kann die Abstimmung über das Bestattungshaus laufen?",
+        "answer": "Ja. Ablauf, Ankunft, Einsätze und Stückauswahl kläre ich gern direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie entlastet ist."
       }
     ]
   },
   "imageAlts": [
     {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Trauermusik in der Region Rhein-Ruhr - Bild 1"
+    },
+    {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
-      "alt": "Live-Viola als Trauermusik in der Rhein-Ruhr-Region 1"
+      "alt": "Viola für Trauermusik in der Region Rhein-Ruhr - Bild 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola als Trauermusik in der Rhein-Ruhr-Region 2"
+      "alt": "Viola für Trauermusik in der Region Rhein-Ruhr - Bild 3"
+    },
+    {
+      "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
+      "alt": "Viola für Trauermusik in der Region Rhein-Ruhr - Bild 4"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
-    "title": "Trauermusik in der Rhein-Ruhr-Region anfragen",
-    "lead": "Schickt mir Datum, Trauerort in der Rhein-Ruhr-Region, Ablauf und mögliche Wunschstücke. Ich melde mich ruhig und zeitnah mit einer realistischen musikalischen Einschätzung.",
+    "title": "Trauermusik in der Region Rhein-Ruhr anfragen",
+    "lead": "Schreib mir kurz Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
     "checklist": [
       "Rhein-Ruhr",
-      "Trauerfeier oder Grab",
-      "Wunschstück"
+      "Datum & Ort",
+      "Trauermusik",
+      "Preis nach Rahmen"
     ],
-    "formEyebrow": "Termin prüfen",
-    "formTitle": "Trauermusik in der Rhein-Ruhr-Region anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer behutsamen Idee für Trauermusik in der Rhein-Ruhr-Region."
+    "formEyebrow": "Details senden",
+    "formTitle": "Verfügbarkeit und Preisrahmen in der Region Rhein-Ruhr klären",
+    "formSuccess": "Danke - ich prüfe deine Anfrage in der Region Rhein-Ruhr und melde mich persönlich mit den nächsten Schritten."
   },
   "split": {
     "seal": "Rhein-Ruhr\nTrauerfeier & Abschied\nLive-Viola",
-    "sections": [
-      {
-        "title": "Trauermusik in der Rhein-Ruhr-Region braucht Ruhe, Timing und verlässliche Abstimmung.",
-        "lede": "Rhein-Ruhr bedeutet für Abschiede oft: dichte Wege zwischen Düsseldorf, Köln, Essen, Dortmund und Duisburg. Deshalb plane ich Trauermusik nicht pauschal, sondern nach Trauerort, Raumklang, Weglänge und dem Punkt, an dem Musik wirklich helfen kann.",
-        "paragraphs": [
-          "Typische Rahmen sind Abschiede mit Angehörigen aus mehreren Städten. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Beginn, nach Erinnerungsworten, während eines stillen Rituals, beim Auszug oder kurz am Grab.",
-          "Der Klang soll persönlich, ohne den Abschied zu überladen sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleinen Kapellen, Trauerhallen oder draußen sehr direkt wirken.",
-          "Die Einsätze werden so gesetzt, dass Reden, Gebete und stille Wege nicht überdeckt werden. So entsteht kein Musikblock, sondern ein ruhiger Faden durch die Feier.",
-          "Für Rhein-Ruhr kläre ich vorab auch die praktischen Details: Verkehr, Timing und Aufbau mit realistischen Puffern planen. Das klingt nüchtern, entscheidet aber oft darüber, ob die Musik am Tag selbst still und sicher beginnen kann.",
-          "Beim Beginn zählt Sammlung, nach einer Rede der Atemraum, beim Auszug die sichere Führung. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
-          "Das Repertoire kann ein Lieblingslied, ein stiller Zwischenmoment und eine schlichte Musik zum Schluss verbinden. Wichtig ist, dass die Musik zur Person, zum Raum und zur Familie passt.",
-          "Für Abschiede in dieser Region denke ich neben der Stückliste immer auch an Wege, Wetter und die Frage, wie nah die Musik an den Angehörigen stehen soll.",
-          "Rhein-Ruhr bedeutet dichte Wege, mehrere Städte und oft Angehörige aus verschiedenen Richtungen. Für die Musik plane ich deshalb mit realistischen Puffern und einer klaren Dramaturgie, damit der Termin trotz Verkehr ruhig beginnt."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola als Trauermusik in der Rhein-Ruhr-Region 2"
-        },
-        "imageFirst": false,
-        "eyebrow": "Lokaler Rahmen"
-      },
-      {
-        "title": "Trauermusik Rhein-Ruhr im Ablauf sinnvoll einsetzen.",
-        "lede": "In Rhein-Ruhr ist die Logistik fast so wichtig wie das Repertoire: Startsignal, Parken und Aufbauort müssen vorab eindeutig sein.",
-        "paragraphs": [
-          "Wenn mehrere Generationen anwesend sind, kann ein bekanntes Stück Orientierung geben. Ein persönliches Lied kann dagegen genau den Menschen in den Mittelpunkt stellen, um den es geht.",
-          "Wenn ein Stück als Überraschung oder sehr persönlicher Wunsch gedacht ist, kann die Abstimmung diskret über eine Kontaktperson laufen.",
-          "In kleinen Räumen wirkt die Viola oft ohne Verstärkung unmittelbar. In größeren Hallen oder draußen prüfen wir, ob der Platz näher an der Familie oder näher am Ausgang sinnvoller ist.",
-          "Für den Auszug wähle ich Musik, die tragen kann, ohne zu dramatisieren. Der Abschied soll nicht größer gemacht werden, sondern sicher gehalten werden.",
-          "Ich plane Trauermusik in der Rhein-Ruhr-Region so, dass der Ablauf auch dann ruhig bleibt, wenn Reden länger dauern, Wege über den Friedhof langsamer sind oder Angehörige nach einem Ritual noch einen Moment brauchen.",
-          "Bei der Auswahl achte ich darauf, ob die Melodie auch ohne Gesang verstanden wird. Viele moderne Lieder brauchen eine ruhige Bearbeitung, damit sie würdevoll und nicht sentimental wirken.",
-          "Für Rhein-Ruhr frage ich außerdem, ob Trauerfeier und Beisetzung am selben Ort stattfinden. Wenn ein Ortswechsel dazugehört, verändert das die sinnvollste Länge der Musik deutlich."
-        ],
-        "image": {
-          "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
-          "alt": "Live-Viola als Trauermusik in der Rhein-Ruhr-Region 1"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "So bleibt die Seite bewusst anders als eine reine Liedliste. Der Schwerpunkt liegt auf Ablauf, Raum, Nähe zur Familie und der konkreten Organisation am Trauerort.",
-        "paragraphs": [
-          "Bei kurzfristigen Abschieden hilft eine knappe, klare Anfrage. Ich prüfe dann Verfügbarkeit, Fahrzeit, mögliche Stücke und ob Musik im Raum, draußen oder an beiden Punkten realistisch ist.",
-          "Bei Trauermusik in der Rhein-Ruhr-Region ist Zurückhaltung oft die stärkste Form. Ich spiele lieber mit klarer Linie, ruhigem Bogen und genug Stille zwischen den Einsätzen, damit die Worte ihren Platz behalten.",
-          "Die Viola ist dafür besonders geeignet, weil sie nicht so hell wie eine Geige wirkt und trotzdem melodisch klar bleibt. In Trauerhallen kann dieser mittlere Klang sehr menschlich und unaufdringlich tragen.",
-          "Wenn mehrere Personen mitentscheiden, helfe ich dabei, die Optionen zu sortieren. Meist entsteht schnell Klarheit, wenn man jedem Stück eine konkrete Aufgabe im Ablauf gibt.",
-          "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab.",
-          "Für Rhein-Ruhr plane ich Trauermusik Rhein-Ruhr zuerst vom echten Ablauf her: Rheinland, Ruhrgebiet, Messeorte, Hotels und sehr unterschiedliche Eventräume. Daraus ergibt sich, ob die Viola eher sammelt, begleitet, Akzente setzt oder einen einzelnen Moment bewusst trägt.",
-          "Die wichtigste Vorbereitung in Rhein-Ruhr: Entfernungen, Verkehrsfenster, Puffer und Abstimmung mit mehreren Beteiligten. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola als Trauermusik in der Rhein-Ruhr-Region 2"
-        },
-        "imageFirst": false
-      },
-      {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Typisch für Rhein-Ruhr sind gemischte Gäste aus Stadt, Unternehmen, Familie und Kultur. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-        "paragraphs": [
-          "Bei Abschieden geht es um Halt, Timing, Würde und darum, Angehoerige organisatorisch zu entlasten. In Rhein-Ruhr übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-          "Der Unterschied zu Mülheim An Der Ruhr liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-          "Für die Anfrage sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Rhein-Ruhr passt und den Ablauf nicht künstlich aufbläht.",
-          "Wenn Trauermusik Rhein-Ruhr mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-          "Bei knappen Zeitfenstern in Rhein-Ruhr ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
-        ],
-        "image": {
-          "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
-          "alt": "Live-Viola als Trauermusik in der Rhein-Ruhr-Region 1"
-        },
-        "imageFirst": true
-      }
-    ]
+    "sections": []
   },
   "elegy": {
-    "quote": "Trauermusik in der Rhein-Ruhr-Region soll nicht erklären, sondern dem Abschied einen ruhigen Halt geben.",
+    "quote": "Trauermusik in der Region Rhein-Ruhr soll nicht größer sein als der Abschied - sie soll ihn halten.",
     "passages": [
       {
-        "strong": "Der Ort",
-        "text": "dichte Wege zwischen Düsseldorf, Köln, Essen, Dortmund und Duisburg. Diese konkrete Umgebung beeinflusst, ob Musik eher im Raum, am Ausgang oder draußen am Grab sinnvoll ist."
+        "strong": "Lokaler Rahmen",
+        "text": "Rhein-Ruhr ist eine größere Region zwischen Rheinland und Ruhrgebiet, mit kurzen Wegen nach Düsseldorf, Köln, Essen und Dortmund. Für Trauerfeiern zählt vor Ort vor allem, ob der Abschied in Trauerhalle, Kirche, Kapelle, am Grab oder in einem freien Raum stattfindet. Danach richten sich Ankunft, Stücklänge, Position und Lautstärke."
       },
       {
-        "strong": "Der Klang",
-        "text": "Die Viola bleibt warm und zurückhaltend. Sie kann Trauer halten, ohne aus dem Abschied einen musikalischen Vortrag zu machen."
+        "strong": "Absprache",
+        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Wenn gewünscht, kläre ich Ablauf und Einsätze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt."
       },
       {
-        "strong": "Die Abstimmung",
-        "text": "Ich stimme mich bei Bedarf mit Bestattungshaus, Rednerin, Pfarrer oder Familie ab, damit Angehörige am Tag selbst nicht organisieren müssen."
-      },
-      {
-        "strong": "Lokaler Ablauf",
-        "text": "Ich plane Trauermusik in der Rhein-Ruhr-Region so, dass der Ablauf auch dann ruhig bleibt, wenn Reden länger dauern, Wege über den Friedhof langsamer sind oder Angehörige nach einem Ritual noch einen Moment brauchen. Für Rhein-Ruhr frage ich außerdem, ob Trauerfeier und Beisetzung am selben Ort stattfinden. Wenn ein Ortswechsel dazugehört, verändert das die sinnvollste Länge der Musik deutlich."
-      },
-      {
-        "strong": "Rhein-Ruhr konkret",
-        "text": "Rhein-Ruhr bedeutet dichte Wege, mehrere Städte und oft Angehörige aus verschiedenen Richtungen. Für die Musik plane ich deshalb mit realistischen Puffern und einer klaren Dramaturgie, damit der Termin trotz Verkehr ruhig beginnt."
-      },
-      {
-        "strong": "Praktische Details",
-        "text": "In Rhein-Ruhr ist die Logistik fast so wichtig wie das Repertoire: Startsignal, Parken und Aufbauort müssen vorab eindeutig sein."
-      },
-      {
-        "strong": "Räume und Wege",
-        "text": "Für Rhein-Ruhr bedeutet Abschiede mit Angehörigen aus mehreren Städten: Verkehr, Timing und Aufbau mit realistischen Puffern planen. Der Rahmen dichte Wege zwischen Düsseldorf, Köln, Essen, Dortmund und Duisburg verändert, ob die Musik nah bei den Angehörigen, am Ausgang, in einer Kapelle oder erst draußen sinnvoll wirkt."
-      },
-      {
-        "strong": "Wunschmusik",
-        "text": "Bei der Auswahl achte ich darauf, ob die Melodie auch ohne Gesang verstanden wird. Viele moderne Lieder brauchen eine ruhige Bearbeitung, damit sie würdevoll und nicht sentimental wirken. Die Viola ist dafür besonders geeignet, weil sie nicht so hell wie eine Geige wirkt und trotzdem melodisch klar bleibt. In Trauerhallen kann dieser mittlere Klang sehr menschlich und unaufdringlich tragen."
-      },
-      {
-        "strong": "Entlastung",
-        "text": "Wenn mehrere Personen mitentscheiden, helfe ich dabei, die Optionen zu sortieren. Meist entsteht schnell Klarheit, wenn man jedem Stück eine konkrete Aufgabe im Ablauf gibt. Bei kurzfristigen Abschieden hilft eine knappe, klare Anfrage. Ich prüfe dann Verfügbarkeit, Fahrzeit, mögliche Stücke und ob Musik im Raum, draußen oder an beiden Punkten realistisch ist."
-      },
-      {
-        "strong": "Abgrenzung",
-        "text": "So bleibt die Seite bewusst anders als eine reine Liedliste. Der Schwerpunkt liegt auf Ablauf, Raum, Nähe zur Familie und der konkreten Organisation am Trauerort."
+        "strong": "Wunschstück",
+        "text": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen. Gerade bei Abschieden bespreche ich vorher sehr klar, was musikalisch würdevoll machbar ist und welcher Aufwand entsteht."
       }
     ]
   },
   "solemn": {
-    "eyebrow": "Ablauf",
-    "title": "Wo Trauermusik in der Rhein-Ruhr-Region sinnvoll wirken kann.",
-    "lead": "Die genaue Dramaturgie richtet sich nach Trauerort, Zeremonieform und dem gewünschten Abschiedston.",
+    "eyebrow": "Ablauf in der Region Rhein-Ruhr",
+    "title": "Trauermusik in der Region Rhein-Ruhr ruhig planen.",
+    "lead": "Der musikalische Rahmen richtet sich nach Ort, Abschiedsform und dem, was für die Familie wirklich hilfreich ist.",
     "cards": [
       {
-        "rom": "Beginn",
-        "title": "Den Raum sammeln",
-        "poet": "Ein ruhiges erstes Stück hilft, bevor die ersten Worte gesprochen werden.",
-        "list": [
-          "Ankommen",
-          "Kerze oder Foto",
-          "erster stiller Moment"
-        ]
+        "rom": "Vorab",
+        "title": "Ein Kontakt reicht",
+        "poet": "Datum, Uhrzeit, Trauerort, Ablauf und Wunschstücke genügen für den ersten Schritt. Die Anfrage ist kostenlos; der Preis wird nach Rahmen und Aufwand vereinbart."
       },
       {
-        "rom": "Abschluss",
-        "title": "Den Auszug halten",
-        "poet": "Ein schlichtes Schlussstück kann den Übergang aus Trauerhalle, Kirche oder Kapelle würdevoll führen.",
-        "list": [
-          "Auszug",
-          "Gang zum Grab",
-          "letzter Gruß"
-        ]
+        "rom": "Vor Ort",
+        "title": "Pünktlich, still, vorbereitet",
+        "poet": "Ich plane konkrete Stadt, Fahrtstrecke, Zeitpuffer, Treffpunkt, Raumtyp und eine Kontaktperson vor Ort, damit die Musik in der Region Rhein-Ruhr nicht unter Zeitdruck beginnt und der Abschied ruhig bleibt."
       }
     ],
-    "listLabel": "Mögliche Einsatzpunkte in der Rhein-Ruhr-Region",
+    "listLabel": "Mögliche musikalische Momente in der Region Rhein-Ruhr",
     "list": [
-      "Beginn der Trauerfeier",
-      "nach persönlichen Erinnerungen",
-      "Kerzen- oder Blumenmoment",
-      "Auszug oder kurzer Moment am Grab"
+      "Einzug oder Beginn",
+      "Moment der Erinnerung",
+      "Abschied am Sarg oder an der Urne",
+      "Gang zum Grab oder stiller Ausklang"
     ]
   },
   "focus": {

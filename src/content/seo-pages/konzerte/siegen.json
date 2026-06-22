@@ -8,82 +8,73 @@
   "priority": "P3",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Viola Konzert Siegen | Kultur & Event",
-  "seoDescription": "Viola Konzert Siegen: Solo-Viola für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
+  "seoTitle": "Viola Konzert Siegen | Viola für Events",
+  "seoDescription": "Viola Konzert Siegen: kuratiertes Viola-Programm für Vernissage, Lesung und Kulturabend in Siegen. Anfrage kostenlos.",
   "hero": {
-    "eyebrow": "Konzert & Event",
-    "title": "Viola Konzert in Siegen für Kulturabende mit Dramaturgie.",
-    "lead": "Siegen verbindet Siegerland, Oberstadt, Hochschulnähe und Kulturformate mit weiterem regionalem Einzugsgebiet. Ich kuratiere Solo-Viola-Programme für Konzert, Vernissage, Lesung, Salon und besondere Bühnen.",
-    "badge": "Kammermusik, Salon & Kulturformat"
+    "eyebrow": "Konzert & Event in Siegen",
+    "title": "Viola Konzert in Siegen für einen Raum, der wirklich zuhoert.",
+    "lead": "Kuratierte Viola-Programme für Vernissage, Lesung, Salonkonzert, Matinee, Empfang oder Kulturabend in Siegen - passend zu Publikum, Raum und Dramaturgie.",
+    "badge": "Programm nach Anlass"
   },
   "split": {
-    "seal": "Siegen\nKonzert\nViola",
+    "seal": "Siegen\nViola Konzert\nlokal geplant",
     "sections": [
       {
-        "title": "Ein Viola-Programm in Siegen muss zum Raum und Publikum passen.",
-        "lede": "Gäste hören oft konzentriert, wenn der Abend eine klare innere Linie hat. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
+        "eyebrow": "Lokaler Rahmen",
+        "title": "Viola Konzert in Siegen: worauf es vor Ort ankommt.",
+        "lede": "Siegen steht hier für konkrete Orte und Wege zwischen Oberem Schloss, Unterem Schloss, Siegerland und waldigen Höhen. Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: Raum, Wege, Startsignal, Lautstärke, Wetteroption, Wunschmusik und die Rolle der Musik.",
         "paragraphs": [
-          "Siegen verbindet Siegerland, Oberstadt, Hochschulnähe und Kulturformate mit weiterem regionalem Einzugsgebiet.",
-          "Passend sind Kammerkonzert, Lesung, Salon, Empfang, Vernissage oder ein Kulturabend im Grünen oder privaten Raum.",
-          "Längere Anfahrt, Zeitfenster und Setdauer sollten zusammen geplant werden.",
-          "Gäste hören oft konzentriert, wenn der Abend eine klare innere Linie hat.",
-          "Für Siegen plane ich Programme mit ruhigem Grundton und einem nicht zu schweren Abschluss.",
-          "Für Viola Konzert Siegen ist der Ton bewusst still, regional und konzentriert. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
-          "Wenn Wunschstücke geplant sind, prüfe ich, ob sie solistisch tragen und wie sie dramaturgisch eingebettet werden können."
+          "Typische Rahmen sind Galerie, Salon, Kulturraum, Lesung, Vernissage, privater Konzertabend oder Empfang. Je nach Ort ist entscheidend, ob Musik sammelt, einen einzelnen Moment trägt oder über mehrere kurze Sets Atmosphäre schafft.",
+          "Ich kläre vorab nicht nur Stücke, sondern auch praktische Punkte: genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Diese Details entscheiden oft, ob der erste Ton ruhig beginnt oder unter Zeitdruck steht.",
+          "Gerade in Siegen wirkt Solo-Viola stark, weil sie wenig Aufbau braucht, nah klingt und sich flexibel an kleinere Räume, größere Feiern oder kurze Übergänge anpassen lässt."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Siegen mit Kim Marie Borger und Viola"
-        },
-        "imageFirst": false,
-        "eyebrow": "Lokaler Rahmen"
-      },
-      {
-        "title": "Viola Konzert Siegen im Ablauf sinnvoll einsetzen.",
-        "lede": "Ich plane die Musik nicht als austauschbare Liste. Entscheidend ist, ob die Viola zuhören lässt, einen Text rahmt, Kunst begleitet oder einen Empfang kultivierter macht.",
-        "paragraphs": [
-          "Die Länge entsteht aus Anlass und Aufmerksamkeit: dreißig Minuten können perfekt sein, wenn sie präzise gebaut sind; ein längerer Abend braucht Pausen und Kontraste.",
-          "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
-          "Bei Vernissagen in Siegen darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
-          "Bei Lesungen in Siegen achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
-          "Für Salonkonzerte in Siegen plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
-          "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Siegen mit Kim Marie Borger und Viola"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
-        "paragraphs": [
-          "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
-          "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
-          "Wer in Siegen anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Huegellage, Oberstadt, Siegerland, weitere Anfahrt und regionale Kulturorte bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
-          "Die wichtigste Vorbereitung in Siegen: Wetter, Fahrzeit, Wege und ein ruhiger Aufbau. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-          "Typisch für Siegen sind Gäste, die persönliche Programme mit landschaftlicher Ruhe moegen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-          "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Siegen übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Siegen mit Kim Marie Borger und Viola"
+          "alt": "Viola für Konzert und Kulturabend in Siegen - Bild 1"
         },
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Der Unterschied zu Paderborn liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+        "eyebrow": "Ablauf",
+        "title": "So wird Viola Konzert in Siegen sinnvoll eingesetzt.",
+        "lede": "Ein guter lokaler Ablauf entsteht aus wenigen klaren Entscheidungen. Statt einfach eine lange Stückliste zu spielen, legen wir fest, welche musikalischen Momente wirklich Aufgabe und Bedeutung haben.",
         "paragraphs": [
-          "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Siegen passt und den Ablauf nicht künstlich aufbläht.",
-          "Wenn Viola Konzert Siegen mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-          "Bei knappen Zeitfenstern in Siegen ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
-          "Der Unterschied zu Mönchengladbach liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
+          "Mögliche Einsatzpunkte sind Ankommen, kuratierter Konzertblock, moderierter Übergang und Ausklang oder Empfang. Daraus entsteht ein Plan, der zum Anlass passt und Pausen, Worte, Wege und Gäste nicht überdeckt.",
+          "Für Siegen ist die genaue Adresse wichtig, weil zwischen Oberem Schloss, Unterem Schloss, Siegerland und waldigen Höhen je nach Location andere Wege, Raumgrößen und Zeitfenster bedeuten kann.",
+          "Wenn mehrere Programmpunkte begleitet werden, plane ich kurze Spannungswechsel: ein ruhiger Beginn, ein tragender Kern und danach entweder ein heller Abschluss oder eine dezente Rücknahme."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Siegen mit Kim Marie Borger und Viola"
+          "alt": "Viola für Konzert und Kulturabend in Siegen - Bild 2"
+        },
+        "imageFirst": true
+      },
+      {
+        "eyebrow": "Anfrage & Preisrahmen",
+        "title": "Was ich für eine gute Anfrage in Siegen brauche.",
+        "lede": "Die Kontaktaufnahme ist kostenlos und unverbindlich. Ein Preis entsteht erst, wenn Dauer, Ort, Aufwand, Wunschmusik, Anfahrt und Rahmen klar genug sind, damit ich ehrlich einschätzen kann, was sinnvoll ist.",
+        "paragraphs": [
+          "Hilfreich sind: Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Damit kann ich Verfügbarkeit, passenden Umfang und einen realistischen Preisrahmen einschätzen.",
+          "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
+          "Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klären wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin in Siegen machbar ist."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Viola für Konzert und Kulturabend in Siegen - Bild 3"
+        },
+        "imageFirst": false
+      },
+      {
+        "eyebrow": "Beispiel",
+        "title": "Ein realistischer Ablauf in Siegen.",
+        "lede": "Ein Kulturabend in Siegen kann aus einem kurzen kuratierten Block, einer persönlichen Anmoderation und einem offenen Ausklang bestehen.",
+        "paragraphs": [
+          "Wenn Raum und Publikum eher klein sind, funktioniert ein konzentriertes Programm oft stärker als ein zu langer Abend mit zu vielen Stilen.",
+          "So bleibt die Seite für Siegen praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson und nächstem Schritt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Viola für Konzert und Kulturabend in Siegen - Bild 4"
         },
         "imageFirst": true
       }
@@ -91,99 +82,103 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Viola Konzert Siegen",
+    "title": "FAQ zu Viola Konzert in Siegen",
     "items": [
       {
-        "question": "Spielst du Viola-Konzerte in Siegen?",
-        "answer": "Ja. Ich gestalte Konzerte, Vernissagen, Lesungen, Salonabende, Kulturprogramme und besondere Eventformate in Siegen mit Solo-Viola.",
+        "question": "Spielst du Konzerte und Kulturformate in Siegen?",
+        "answer": "Ja. Ich gestalte Viola-Programme für Konzerte, Vernissagen, Lesungen, Kulturabende, private Events und Empfänge in Siegen.",
         "open": true
       },
       {
-        "question": "Welche Formate passen in Siegen?",
-        "answer": "Passend sind Kammerkonzert, Lesung, Salon, Empfang, Vernissage oder ein Kulturabend im Grünen oder privaten Raum. Die genaue Länge hängt davon ab, ob das Publikum zuhören, ankommen, Kunst betrachten oder zwischen Textblöcken wechseln soll."
-      },
-      {
-        "question": "Was ist organisatorisch in Siegen wichtig?",
-        "answer": "Längere Anfahrt, Zeitfenster und Setdauer sollten zusammen geplant werden."
-      },
-      {
-        "question": "Kann das Programm mit Lesung oder Kunst kombiniert werden?",
-        "answer": "Ja. Gerade Viola eignet sich gut für Übergänge zwischen Text, Bild, Gespräch und konzentriertem Zuhören."
-      },
-      {
-        "question": "Kann ein Wunschstück integriert werden?",
-        "answer": "Ja, wenn es auf Solo-Viola funktioniert und zum dramaturgischen Bogen passt. Ich prüfe Melodie, Tonart und Wirkung vorab."
-      },
-      {
-        "question": "Kann das Programm klassisch und modern sein?",
-        "answer": "Ja. Ich kombiniere klassische Stücke, romantische Miniaturen, moderne Linien oder persönliche Wünsche so, dass ein schlüssiger Bogen entsteht."
-      },
-      {
-        "question": "Warum passt Solo-Viola für Viola Konzert Siegen?",
-        "answer": "Die Viola klingt warm, nah und selten genug, um Aufmerksamkeit zu wecken. Gleichzeitig bleibt sie schlank genug für kleine Räume, Galerien und private Konzertformate."
-      },
-      {
         "question": "Welche Angaben helfen für eine Anfrage in Siegen?",
-        "answer": "Hilfreich sind Datum, Ort, Anlass, gewünschte Länge, Raumgröße, Publikum, Ablauf, Lichtsituation und ob Moderation gewünscht ist."
+        "answer": "Am hilfreichsten sind Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
       },
       {
-        "question": "Welche Details sind für Viola Konzert Siegen besonders wichtig?",
-        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Siegen plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+        "question": "Ist die Kontaktaufnahme kostenlos?",
+        "answer": "Ja. Die Anfrage und erste Klärung sind kostenlos und unverbindlich. Kostenloses Vorspielen vor Ort ist damit nicht gemeint."
       },
       {
-        "question": "Wie wird die Musik in Siegen konkret geplant?",
-        "answer": "Hilfreich sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
+        "question": "Wie entsteht der Preis?",
+        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Vorbereitung, Wunschmusik und Aufwand. Ich nenne keinen pauschalen Fantasiepreis, sondern kläre den Rahmen persönlich."
+      },
+      {
+        "question": "Sind Wunschstücke möglich?",
+        "answer": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+      },
+      {
+        "question": "Was ist in Siegen organisatorisch wichtig?",
+        "answer": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Siegen steht hier für konkrete Orte und Wege zwischen Oberem Schloss, Unterem Schloss, Siegerland und waldigen Höhen. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
+      },
+      {
+        "question": "Kannst du ein Programm anmoderieren?",
+        "answer": "Ja. Kurze persönliche Anmoderationen können ein Programm zugänglicher machen, ohne den musikalischen Fokus zu verlieren."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola Konzert in Siegen mit Kim Marie Borger und Viola"
+      "alt": "Viola für Konzert und Kulturabend in Siegen - Bild 1"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Siegen - Bild 2"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Siegen - Bild 3"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Siegen - Bild 4"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.",
   "contact": {
-    "eyebrow": "Konzert anfragen",
-    "title": "Viola Konzert Siegen anfragen",
-    "lead": "Schick mir Datum, Ort, Format und gewünschte Programmlänge in Siegen. Ich melde mich mit einer passenden Idee für Solo-Viola.",
+    "eyebrow": "Viola-Programm anfragen",
+    "title": "Viola Konzert in Siegen anfragen",
+    "lead": "Schreib mir kurz Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
     "checklist": [
-      "Viola Konzert Siegen",
-      "Konzert, Vernissage oder Lesung",
-      "Raum, Publikum & Programmlänge"
+      "Siegen",
+      "Datum & Ort",
+      "Viola Konzert",
+      "Preis nach Rahmen"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt ein Viola-Programm in Siegen?",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für ein Viola Konzert in Siegen."
+    "formEyebrow": "Details senden",
+    "formTitle": "Verfügbarkeit und Preisrahmen in Siegen klären",
+    "formSuccess": "Danke - ich prüfe deine Anfrage in Siegen und melde mich persönlich mit den nächsten Schritten."
   },
   "focus": {
-    "eyebrow": "Programmidee",
-    "title": "Ein möglicher Bogen für Viola Konzert Siegen.",
-    "heading": "Programm",
-    "subtitle": "Viola-Abend Siegen",
+    "eyebrow": "Planung in Siegen",
+    "title": "Vier Punkte, die Viola Konzert in Siegen konkret machen.",
+    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
     "items": [
       {
-        "title": "Auftakt: ein ruhiger Raumöffner",
-        "detail": "Bach, Telemann oder eine freie Prélude-Idee für still, regional und konzentriert"
+        "time": "1",
+        "kicker": "Ort",
+        "title": "Adresse und Raum in Siegen klären",
+        "text": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. So weiß ich, wie viel Zeit für Ankunft, Stimmen und Aufbau realistisch ist."
       },
       {
-        "title": "Erzählende Mitte",
-        "detail": "Romantische Miniatur oder modernes Stück für Gäste hören oft konzentriert, wenn der Abend eine klare innere Linie hat."
+        "time": "2",
+        "kicker": "Moment",
+        "title": "Musikalische Aufgabe festlegen",
+        "text": "Wir entscheiden, ob die Musik sammelt, einen Höhepunkt trägt, Gespräche begleitet oder als eigener Programmpunkt wirken soll."
       },
       {
-        "title": "Kurzer Übergang",
-        "detail": "Moderation, Textbezug oder bewusste Stille"
+        "time": "3",
+        "kicker": "Stücke",
+        "title": "Repertoire und Wunschmusik prüfen",
+        "text": "Viele passende Stücke sind ohne Aufpreis möglich. Bei einem Lied ohne verwendbare Noten bespreche ich vorher, ob ein neues Arrangement sinnvoll ist und welcher Zusatzaufwand entsteht."
       },
       {
-        "title": "Kontrast mit Bewegung",
-        "detail": "Piazzolla, Tanzform oder zeitgenössische Farbe"
-      },
-      {
-        "title": "Ausklang",
-        "detail": "Zugabe oder persönliches Wunschstück für in Siegen"
+        "time": "4",
+        "kicker": "Rahmen",
+        "title": "Preis und Buchung ehrlich abstimmen",
+        "text": "Die Anfrage ist kostenlos. Der Preis richtet sich nach Dauer, Ort, Vorbereitung, Wunschmusik, Anfahrt und Aufwand - nicht nach einem pauschalen Versprechen."
       }
     ],
-    "footnote": "Das konkrete Programm für Viola Konzert Siegen wird nach Raum, Anlass, Publikum und gewünschter Dauer zusammengestellt."
+    "footnote": "Für Siegen sind besonders genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort hilfreich."
   },
   "elegy": {
     "passages": []

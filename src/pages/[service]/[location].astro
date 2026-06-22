@@ -7,7 +7,7 @@ import TopicLinks from '../../components/TopicLinks.astro';
 import { getConfig, getPage, getSeoPage } from '../../lib/data';
 import { islands } from '../../lib/islands';
 import { firstBlockImage } from '../../lib/seo';
-import { getSeoPageOverride, type SeoPageKind, type SeoPageOverride } from '../../lib/seo-overrides';
+import { getSeoPageOverride, mergeSeoPageOverrides, type SeoPageKind, type SeoPageOverride } from '../../lib/seo-overrides';
 import {
 	buildLocalSeoPage,
 	getLocalSeoPage,
@@ -64,8 +64,10 @@ const baseData = page.data?.page;
 if (!baseData) return new Response('Not Found', { status: 404 });
 
 const seoPage = await getSeoPage(serviceSlug, pageSlug, { priority: 'primary' });
-const override = (seoPage.data?.seoPage as unknown as SeoPageOverride | undefined)
-	?? getSeoPageOverride(pageKind, serviceSlug, pageSlug);
+const override = mergeSeoPageOverrides(
+	getSeoPageOverride(pageKind, serviceSlug, pageSlug),
+	seoPage.data?.seoPage as unknown as SeoPageOverride | undefined,
+);
 const data = localPage
 	? buildLocalSeoPage(localPage, baseData, override)
 	: buildTopicSeoPage(topicPage!, baseData, override);

@@ -8,82 +8,73 @@
   "priority": "P3",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Viola Konzert Haan | Kultur & Event",
-  "seoDescription": "Viola Konzert Haan: Solo-Viola für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
+  "seoTitle": "Viola Konzert Haan | Viola für Events",
+  "seoDescription": "Viola Konzert Haan: kuratiertes Viola-Programm für Vernissage, Lesung und Kulturabend in Haan. Anfrage kostenlos.",
   "hero": {
-    "eyebrow": "Konzert & Event",
-    "title": "Viola Konzert in Haan für Kulturabende mit Dramaturgie.",
-    "lead": "Haan hat kurze Wege, Gartenstadt-Charakter und Kulturformate zwischen Düsseldorf und Wuppertal. Ich kuratiere Solo-Viola-Programme für Konzert, Vernissage, Lesung, Salon und besondere Bühnen.",
-    "badge": "Kammermusik, Salon & Kulturformat"
+    "eyebrow": "Konzert & Event in Haan",
+    "title": "Viola Konzert in Haan für einen Raum, der wirklich zuhoert.",
+    "lead": "Kuratierte Viola-Programme für Vernissage, Lesung, Salonkonzert, Matinee, Empfang oder Kulturabend in Haan - passend zu Publikum, Raum und Dramaturgie.",
+    "badge": "Programm nach Anlass"
   },
   "split": {
-    "seal": "Haan\nKonzert\nViola",
+    "seal": "Haan\nViola Konzert\nlokal geplant",
     "sections": [
       {
-        "title": "Ein Viola-Programm in Haan muss zum Raum und Publikum passen.",
-        "lede": "Das Publikum ist oft überschaubar und sehr nah am musikalischen Geschehen. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
+        "eyebrow": "Lokaler Rahmen",
+        "title": "Viola Konzert in Haan: worauf es vor Ort ankommt.",
+        "lede": "Haan steht hier für konkrete Orte und Wege zwischen Gartenstadt, Gruiten, Hilden und dem Bergischen Übergang. Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: Raum, Wege, Startsignal, Lautstärke, Wetteroption, Wunschmusik und die Rolle der Musik.",
         "paragraphs": [
-          "Haan hat kurze Wege, Gartenstadt-Charakter und Kulturformate zwischen Düsseldorf und Wuppertal.",
-          "Geeignet sind Hauskonzert, Salonabend, Lesung, Vernissage, Empfang oder privates Kulturprogramm.",
-          "Der Aufbau sollte kompakt bleiben und der erste Einsatz mit Gastgeberperson oder Leitung abgestimmt sein.",
-          "Das Publikum ist oft überschaubar und sehr nah am musikalischen Geschehen.",
-          "Für Haan plane ich Programme, die leise Räume ernst nehmen und trotzdem genug festliche Kontur haben.",
-          "Für Viola Konzert Haan ist der Ton bewusst leicht, persönlich und kammermusikalisch. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
-          "Ein Konzertprogramm braucht nicht viele Stücke, sondern eine innere Richtung: ein Anfang, der den Raum öffnet, eine Mitte mit Tiefe und ein Schluss, der das Publikum nicht abrupt entlässt."
+          "Typische Rahmen sind Galerie, Salon, Kulturraum, Lesung, Vernissage, privater Konzertabend oder Empfang. Je nach Ort ist entscheidend, ob Musik sammelt, einen einzelnen Moment trägt oder über mehrere kurze Sets Atmosphäre schafft.",
+          "Ich kläre vorab nicht nur Stücke, sondern auch praktische Punkte: genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Diese Details entscheiden oft, ob der erste Ton ruhig beginnt oder unter Zeitdruck steht.",
+          "Gerade in Haan wirkt Solo-Viola stark, weil sie wenig Aufbau braucht, nah klingt und sich flexibel an kleinere Räume, größere Feiern oder kurze Übergänge anpassen lässt."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Haan mit Kim Marie Borger und Viola"
-        },
-        "imageFirst": false,
-        "eyebrow": "Lokaler Rahmen"
-      },
-      {
-        "title": "Viola Konzert Haan im Ablauf sinnvoll einsetzen.",
-        "lede": "Kurze Anmoderationen können helfen, besonders wenn das Publikum nicht aus einem klassischen Konzertkontext kommt.",
-        "paragraphs": [
-          "Auch die Stille gehört zum Programm. Gerade bei Viola wirkt ein bewusst gesetzter Zwischenraum oft stärker als ein weiterer schneller Wechsel.",
-          "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
-          "Bei Vernissagen in Haan darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
-          "Bei Lesungen in Haan achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
-          "Für Salonkonzerte in Haan plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
-          "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Haan mit Kim Marie Borger und Viola"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
-        "paragraphs": [
-          "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
-          "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
-          "Die wichtigste Vorbereitung in Haan: kompakter Aufbau, Licht und ein abgestimmtes Zeichen der Gastgeberperson. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-          "Typisch für Haan sind überschaubare Runden mit großer Nähe zur Musik. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-          "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Haan übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-          "Der Unterschied zu Langenfeld liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Haan mit Kim Marie Borger und Viola"
+          "alt": "Viola für Konzert und Kulturabend in Haan - Bild 1"
         },
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Haan passt und den Ablauf nicht künstlich aufbläht.",
+        "eyebrow": "Ablauf",
+        "title": "So wird Viola Konzert in Haan sinnvoll eingesetzt.",
+        "lede": "Ein guter lokaler Ablauf entsteht aus wenigen klaren Entscheidungen. Statt einfach eine lange Stückliste zu spielen, legen wir fest, welche musikalischen Momente wirklich Aufgabe und Bedeutung haben.",
         "paragraphs": [
-          "Wenn Viola Konzert Haan mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-          "Bei knappen Zeitfenstern in Haan ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
-          "Der Unterschied zu Wülfrath liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-          "Viola Konzert Haan in Haan ist keine reine Ortsvariante der Hauptseite. Entscheidend sind Gartenstadt-Charakter, kurze Wege, private Häuser und Lage zwischen Düsseldorf und Wuppertal, weil diese Umgebung beeinflusst, wie nah, sichtbar und flexibel die Musik eingesetzt werden kann."
+          "Mögliche Einsatzpunkte sind Ankommen, kuratierter Konzertblock, moderierter Übergang und Ausklang oder Empfang. Daraus entsteht ein Plan, der zum Anlass passt und Pausen, Worte, Wege und Gäste nicht überdeckt.",
+          "Für Haan ist die genaue Adresse wichtig, weil zwischen Gartenstadt, Gruiten, Hilden und dem Bergischen Übergang je nach Location andere Wege, Raumgrößen und Zeitfenster bedeuten kann.",
+          "Wenn mehrere Programmpunkte begleitet werden, plane ich kurze Spannungswechsel: ein ruhiger Beginn, ein tragender Kern und danach entweder ein heller Abschluss oder eine dezente Rücknahme."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Haan mit Kim Marie Borger und Viola"
+          "alt": "Viola für Konzert und Kulturabend in Haan - Bild 2"
+        },
+        "imageFirst": true
+      },
+      {
+        "eyebrow": "Anfrage & Preisrahmen",
+        "title": "Was ich für eine gute Anfrage in Haan brauche.",
+        "lede": "Die Kontaktaufnahme ist kostenlos und unverbindlich. Ein Preis entsteht erst, wenn Dauer, Ort, Aufwand, Wunschmusik, Anfahrt und Rahmen klar genug sind, damit ich ehrlich einschätzen kann, was sinnvoll ist.",
+        "paragraphs": [
+          "Hilfreich sind: Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Damit kann ich Verfügbarkeit, passenden Umfang und einen realistischen Preisrahmen einschätzen.",
+          "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
+          "Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klären wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin in Haan machbar ist."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Viola für Konzert und Kulturabend in Haan - Bild 3"
+        },
+        "imageFirst": false
+      },
+      {
+        "eyebrow": "Beispiel",
+        "title": "Ein realistischer Ablauf in Haan.",
+        "lede": "Ein Kulturabend in Haan kann aus einem kurzen kuratierten Block, einer persönlichen Anmoderation und einem offenen Ausklang bestehen.",
+        "paragraphs": [
+          "Wenn Raum und Publikum eher klein sind, funktioniert ein konzentriertes Programm oft stärker als ein zu langer Abend mit zu vielen Stilen.",
+          "So bleibt die Seite für Haan praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson und nächstem Schritt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Viola für Konzert und Kulturabend in Haan - Bild 4"
         },
         "imageFirst": true
       }
@@ -91,99 +82,103 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Viola Konzert Haan",
+    "title": "FAQ zu Viola Konzert in Haan",
     "items": [
       {
-        "question": "Spielst du Viola-Konzerte in Haan?",
-        "answer": "Ja. Ich gestalte Konzerte, Vernissagen, Lesungen, Salonabende, Kulturprogramme und besondere Eventformate in Haan mit Solo-Viola.",
+        "question": "Spielst du Konzerte und Kulturformate in Haan?",
+        "answer": "Ja. Ich gestalte Viola-Programme für Konzerte, Vernissagen, Lesungen, Kulturabende, private Events und Empfänge in Haan.",
         "open": true
       },
       {
-        "question": "Welche Formate passen in Haan?",
-        "answer": "Geeignet sind Hauskonzert, Salonabend, Lesung, Vernissage, Empfang oder privates Kulturprogramm. Die genaue Länge hängt davon ab, ob das Publikum zuhören, ankommen, Kunst betrachten oder zwischen Textblöcken wechseln soll."
-      },
-      {
-        "question": "Was ist organisatorisch in Haan wichtig?",
-        "answer": "Der Aufbau sollte kompakt bleiben und der erste Einsatz mit Gastgeberperson oder Leitung abgestimmt sein."
-      },
-      {
-        "question": "Wie lang sollte ein Konzertprogramm sein?",
-        "answer": "Je nach Format sind 30 bis 45 Minuten, ein geteilter Abend mit Pause oder ein kurzer musikalischer Akzent sinnvoll. Entscheidend ist die Aufmerksamkeit des Publikums."
-      },
-      {
-        "question": "Ist das eher Konzert oder Begleitung?",
-        "answer": "Beides ist möglich. Der Unterschied liegt im Fokus: Beim Konzert hört das Publikum bewusst zu, bei Begleitung rahmt die Musik andere Inhalte."
-      },
-      {
-        "question": "Kann das Programm klassisch und modern sein?",
-        "answer": "Ja. Ich kombiniere klassische Stücke, romantische Miniaturen, moderne Linien oder persönliche Wünsche so, dass ein schlüssiger Bogen entsteht."
-      },
-      {
-        "question": "Warum passt Solo-Viola für Viola Konzert Haan?",
-        "answer": "Die Viola klingt warm, nah und selten genug, um Aufmerksamkeit zu wecken. Gleichzeitig bleibt sie schlank genug für kleine Räume, Galerien und private Konzertformate."
-      },
-      {
         "question": "Welche Angaben helfen für eine Anfrage in Haan?",
-        "answer": "Hilfreich sind Datum, Ort, Anlass, gewünschte Länge, Raumgröße, Publikum, Ablauf, Lichtsituation und ob Moderation gewünscht ist."
+        "answer": "Am hilfreichsten sind Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
       },
       {
-        "question": "Welche Details sind für Viola Konzert Haan besonders wichtig?",
-        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Haan plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+        "question": "Ist die Kontaktaufnahme kostenlos?",
+        "answer": "Ja. Die Anfrage und erste Klärung sind kostenlos und unverbindlich. Kostenloses Vorspielen vor Ort ist damit nicht gemeint."
       },
       {
-        "question": "Wie wird die Musik in Haan konkret geplant?",
-        "answer": "Hilfreich sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
+        "question": "Wie entsteht der Preis?",
+        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Vorbereitung, Wunschmusik und Aufwand. Ich nenne keinen pauschalen Fantasiepreis, sondern kläre den Rahmen persönlich."
+      },
+      {
+        "question": "Sind Wunschstücke möglich?",
+        "answer": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+      },
+      {
+        "question": "Was ist in Haan organisatorisch wichtig?",
+        "answer": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Haan steht hier für konkrete Orte und Wege zwischen Gartenstadt, Gruiten, Hilden und dem Bergischen Übergang. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
+      },
+      {
+        "question": "Kannst du ein Programm anmoderieren?",
+        "answer": "Ja. Kurze persönliche Anmoderationen können ein Programm zugänglicher machen, ohne den musikalischen Fokus zu verlieren."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola Konzert in Haan mit Kim Marie Borger und Viola"
+      "alt": "Viola für Konzert und Kulturabend in Haan - Bild 1"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Haan - Bild 2"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Haan - Bild 3"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Haan - Bild 4"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.",
   "contact": {
-    "eyebrow": "Konzert anfragen",
-    "title": "Viola Konzert Haan anfragen",
-    "lead": "Schick mir Datum, Ort, Format und gewünschte Programmlänge in Haan. Ich melde mich mit einer passenden Idee für Solo-Viola.",
+    "eyebrow": "Viola-Programm anfragen",
+    "title": "Viola Konzert in Haan anfragen",
+    "lead": "Schreib mir kurz Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
     "checklist": [
-      "Viola Konzert Haan",
-      "Konzert, Vernissage oder Lesung",
-      "Raum, Publikum & Programmlänge"
+      "Haan",
+      "Datum & Ort",
+      "Viola Konzert",
+      "Preis nach Rahmen"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt ein Viola-Programm in Haan?",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für ein Viola Konzert in Haan."
+    "formEyebrow": "Details senden",
+    "formTitle": "Verfügbarkeit und Preisrahmen in Haan klären",
+    "formSuccess": "Danke - ich prüfe deine Anfrage in Haan und melde mich persönlich mit den nächsten Schritten."
   },
   "focus": {
-    "eyebrow": "Programmidee",
-    "title": "Ein möglicher Bogen für Viola Konzert Haan.",
-    "heading": "Programm",
-    "subtitle": "Viola-Abend Haan",
+    "eyebrow": "Planung in Haan",
+    "title": "Vier Punkte, die Viola Konzert in Haan konkret machen.",
+    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
     "items": [
       {
-        "title": "Auftakt: ein ruhiger Raumöffner",
-        "detail": "Bach, Telemann oder eine freie Prélude-Idee für leicht, persönlich und kammermusikalisch"
+        "time": "1",
+        "kicker": "Ort",
+        "title": "Adresse und Raum in Haan klären",
+        "text": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. So weiß ich, wie viel Zeit für Ankunft, Stimmen und Aufbau realistisch ist."
       },
       {
-        "title": "Erzählende Mitte",
-        "detail": "Romantische Miniatur oder modernes Stück für Das Publikum ist oft überschaubar und sehr nah am musikalischen Geschehen."
+        "time": "2",
+        "kicker": "Moment",
+        "title": "Musikalische Aufgabe festlegen",
+        "text": "Wir entscheiden, ob die Musik sammelt, einen Höhepunkt trägt, Gespräche begleitet oder als eigener Programmpunkt wirken soll."
       },
       {
-        "title": "Kurzer Übergang",
-        "detail": "Moderation, Textbezug oder bewusste Stille"
+        "time": "3",
+        "kicker": "Stücke",
+        "title": "Repertoire und Wunschmusik prüfen",
+        "text": "Viele passende Stücke sind ohne Aufpreis möglich. Bei einem Lied ohne verwendbare Noten bespreche ich vorher, ob ein neues Arrangement sinnvoll ist und welcher Zusatzaufwand entsteht."
       },
       {
-        "title": "Kontrast mit Bewegung",
-        "detail": "Piazzolla, Tanzform oder zeitgenössische Farbe"
-      },
-      {
-        "title": "Ausklang",
-        "detail": "Zugabe oder persönliches Wunschstück für in Haan"
+        "time": "4",
+        "kicker": "Rahmen",
+        "title": "Preis und Buchung ehrlich abstimmen",
+        "text": "Die Anfrage ist kostenlos. Der Preis richtet sich nach Dauer, Ort, Vorbereitung, Wunschmusik, Anfahrt und Aufwand - nicht nach einem pauschalen Versprechen."
       }
     ],
-    "footnote": "Das konkrete Programm für Viola Konzert Haan wird nach Raum, Anlass, Publikum und gewünschter Dauer zusammengestellt."
+    "footnote": "Für Haan sind besonders genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort hilfreich."
   },
   "elegy": {
     "passages": []

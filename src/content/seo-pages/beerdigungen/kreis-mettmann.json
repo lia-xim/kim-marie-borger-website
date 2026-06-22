@@ -8,216 +8,125 @@
   "priority": "P3",
   "status": "risk-pass-2026-06-16-review-needed",
   "enabled": true,
-  "seoTitle": "Trauermusik Kreis Mettmann | Live-Viola für Abschied",
-  "seoDescription": "Trauermusik Kreis Mettmann: Solo-Viola für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "seoTitle": "Trauermusik Kreis Mettmann | Viola für Abschied",
+  "seoDescription": "Trauermusik Kreis Mettmann: würdevolle Viola für Trauerfeier, Beerdigung und Abschied im Kreis Mettmann. Schnelle Rückmeldung.",
   "hero": {
-    "eyebrow": "Abschied im Kreis Mettmann",
-    "title": "Trauermusik im Kreis Mettmann, die den Abschied ruhig trägt.",
-    "lead": "Trauermusik in Kreis Mettmann plane ich nach Trauerort, Ablauf und den Menschen, die Abschied nehmen. Die Solo-Viola bleibt warm und zurückhaltend, kann aber genau den Moment tragen, der sonst leer bliebe.",
-    "badge": "Behutsam geplant & persönlich abgestimmt"
+    "eyebrow": "Beerdigung & Trauerfeier im Kreis Mettmann",
+    "title": "Trauermusik im Kreis Mettmann für einen würdevollen Abschied.",
+    "lead": "Warme Viola-Klaenge für Trauerhalle, Kirche, Kapelle, Friedhof oder freie Abschiedsfeier im Kreis Mettmann - ruhig, behutsam und zuverlässig abgestimmt.",
+    "badge": "Schnelle Rückmeldung zur Verfügbarkeit"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Trauermusik in Kreis Mettmann",
+    "title": "FAQ zu Trauermusik im Kreis Mettmann",
     "items": [
       {
-        "question": "Kannst du Trauermusik in Kreis Mettmann übernehmen?",
-        "answer": "Ja, wenn der Termin passt. Ich spiele Solo-Viola für Trauerfeiern, Beerdigungen, stille Abschiede und kurze Momente am Grab in Kreis Mettmann.",
+        "question": "Begleitest du Trauerfeiern im Kreis Mettmann?",
+        "answer": "Ja. Ich spiele Trauermusik im Kreis Mettmann in Trauerhallen, Kirchen, Kapellen, am Grab oder bei freien Abschiedsfeiern.",
         "open": true
       },
       {
-        "question": "Welche Angaben brauchst du für Kreis Mettmann?",
-        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort, gewünschte Musikmomente, vorhandene Wunschstücke und eine Kontaktperson vor Ort."
+        "question": "Welche Angaben helfen für eine Anfrage im Kreis Mettmann?",
+        "answer": "Am hilfreichsten sind Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
       },
       {
-        "question": "Kann auch draußen am Grab gespielt werden?",
-        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Gerade in Kreis Mettmann klären wir dafür vorher Platz, Dauer und ein mögliches Zeichen für den Beginn."
+        "question": "Ist die Kontaktaufnahme kostenlos?",
+        "answer": "Ja. Die Anfrage und erste Klärung sind kostenlos und unverbindlich. Kostenloses Vorspielen vor Ort ist damit nicht gemeint."
       },
       {
-        "question": "Wie wird ein Wunschlied geprüft?",
-        "answer": "Ich schaue, ob Melodie, Tonart und Länge auf Solo-Viola funktionieren. Manchmal ist ein kurzer Ausschnitt würdevoller als die vollständige Fassung."
+        "question": "Wie entsteht der Preis?",
+        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Vorbereitung, Wunschmusik und Aufwand. Ich nenne keinen pauschalen Fantasiepreis, sondern kläre den Rahmen persönlich."
       },
       {
-        "question": "Spielst du Trauermusik im Kreis Mettmann?",
-        "answer": "Ja. Ich begleite Abschiede im Kreis Mettmann mit Solo-Viola, je nach Ablauf in Trauerhalle, Kirche, Kapelle, am Friedhof oder bei einer freien Abschiedsfeier.",
-        "open": true
+        "question": "Sind Wunschstücke möglich?",
+        "answer": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
       },
       {
-        "question": "Was ist bei Trauermusik im Kreis Mettmann besonders wichtig?",
-        "answer": "Bei Abschieden im Kreis Mettmann planen wir Stadtgrenzen pragmatisch mit und legen Treffpunkt, Fahrzeit und Aufbauplatz eindeutig fest."
+        "question": "Was ist im Kreis Mettmann organisatorisch wichtig?",
+        "answer": "Wichtig sind exakte Stadt, genaue Adresse, Fahrzeit, Treffpunkt, möglicher Ortswechsel und eine Kontaktperson vor Ort. Kreis Mettmann umfasst mehrere Orte rund um Erkrath, Ratingen, Mettmann, Hilden, Haan, Velbert und Wülfrath. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
       },
       {
-        "question": "Kannst du dich mit dem Bestattungshaus abstimmen?",
-        "answer": "Ja. Ablauf, Ankunft, Platzierung, Einsätze und Rückfragen kann ich direkt mit Bestattungshaus, Trauerrednerin, Pfarrer oder Kontaktperson klären."
-      },
-      {
-        "question": "Welche Stücke passen zur Trauerfeier?",
-        "answer": "Häufig passen ein klassisches Stück, ein moderner Song in ruhiger Fassung und ein kurzer Auszug. Entscheidend ist, dass das Stück zur Person und zur konkreten Stelle im Ablauf passt."
+        "question": "Kann die Abstimmung über das Bestattungshaus laufen?",
+        "answer": "Ja. Ablauf, Ankunft, Einsätze und Stückauswahl kläre ich gern direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie entlastet ist."
       }
     ]
   },
   "imageAlts": [
     {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Trauermusik im Kreis Mettmann - Bild 1"
+    },
+    {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
-      "alt": "Live-Viola für Trauermusik: Kreis Mettmann - Bild 1"
+      "alt": "Viola für Trauermusik im Kreis Mettmann - Bild 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola für Trauermusik: Kreis Mettmann - Bild 2"
+      "alt": "Viola für Trauermusik im Kreis Mettmann - Bild 3"
+    },
+    {
+      "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
+      "alt": "Viola für Trauermusik im Kreis Mettmann - Bild 4"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik im Kreis Mettmann anfragen",
-    "lead": "Schickt mir Datum, Uhrzeit, Trauerort in Kreis Mettmann, gewünschte Einsatzpunkte und mögliche Wunschstücke. Ich prüfe ruhig, ob der Termin passt und wie die Musik den Abschied tragen kann.",
+    "lead": "Schreib mir kurz Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
     "checklist": [
       "Kreis Mettmann",
-      "Trauerort",
-      "Wunschstück oder Ablauf"
+      "Datum & Ort",
+      "Trauermusik",
+      "Preis nach Rahmen"
     ],
-    "formEyebrow": "Termin prüfen",
-    "formTitle": "Trauermusik in Kreis Mettmann anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer behutsamen Einschätzung für Trauermusik in Kreis Mettmann."
+    "formEyebrow": "Details senden",
+    "formTitle": "Verfügbarkeit und Preisrahmen im Kreis Mettmann klären",
+    "formSuccess": "Danke - ich prüfe deine Anfrage im Kreis Mettmann und melde mich persönlich mit den nächsten Schritten."
   },
   "split": {
     "seal": "Kreis Mettmann\nTrauerfeier & Abschied\nLive-Viola",
-    "sections": [
-      {
-        "title": "Trauermusik im Kreis Mettmann braucht Ruhe, Timing und verlässliche Abstimmung.",
-        "lede": "Kreis Mettmann bedeutet für Abschiede oft: Erkrath, Haan, Hilden, Ratingen, Velbert und kleinere Trauerorte dazwischen. Deshalb plane ich Trauermusik nicht pauschal, sondern nach Trauerort, Raumklang, Weglänge und dem Punkt, an dem Musik wirklich helfen kann.",
-        "paragraphs": [
-          "Typische Rahmen sind Trauerhalle, Kirche, Friedhof, Kapelle oder Abschied mit regionalem Angehörigenkreis. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Beginn, nach Erinnerungsworten, während eines stillen Rituals, beim Auszug oder kurz am Grab.",
-          "Der Klang soll würdevoll, schlicht und nah sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleinen Kapellen, Trauerhallen oder draußen sehr direkt wirken.",
-          "Vorab klären wir, wer das Startsignal gibt und wann ein Stück enden darf. So entsteht kein Musikblock, sondern ein ruhiger Faden durch die Feier.",
-          "Für Kreis Mettmann kläre ich vorab auch die praktischen Details: mehrere mögliche Anfahrtswege und Stadtgrenzen entspannt einplanen. Das klingt nüchtern, entscheidet aber oft darüber, ob die Musik am Tag selbst still und sicher beginnen kann.",
-          "Ein Lieblingslied kann viel bedeuten, muss aber an der richtigen Stelle und in passender Länge erscheinen. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
-          "Das Repertoire kann ein klassisches Stück, ein moderner Song in ruhiger Fassung und ein kurzer Auszug verbinden. Wichtig ist, dass die Musik zur Person, zum Raum und zur Familie passt.",
-          "Die lokale Seite ist bewusst mehr als ein Ortsname: Wege, Akustik, Friedhofsablauf und Kontaktpersonen verändern die musikalische Planung.",
-          "Im Kreis Mettmann wechseln Erkrath, Ratingen, Haan, Hilden, Velbert und kleinere Orte schnell ineinander. Für die Musik ist entscheidend, welcher Trauerort den Ton setzt: grün, urban, bergisch, familiär oder sehr schlicht.",
-          "Bei Abschieden im Kreis Mettmann planen wir Stadtgrenzen pragmatisch mit und legen Treffpunkt, Fahrzeit und Aufbauplatz eindeutig fest."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Trauermusik: Kreis Mettmann - Bild 2"
-        },
-        "imageFirst": false,
-        "eyebrow": "Lokaler Rahmen"
-      },
-      {
-        "title": "Trauermusik Kreis Mettmann im Ablauf sinnvoll einsetzen.",
-        "lede": "Viele Familien wünschen sich einen würdevollen Klang, aber keinen sichtbaren Konzertmoment. Deshalb halte ich Aufbau, Auftreten und Abstimmung so schlicht wie möglich.",
-        "paragraphs": [
-          "Bei kurzfristigen Terminen helfen mir Datum, Uhrzeit, genaue Adresse, gewünschte Stücke und der Hinweis, ob Musik auch draußen geplant ist.",
-          "Der beste Platz ist nicht automatisch vorne. Manchmal trägt die Musik besser von der Seite, damit Blickachsen und Wege frei bleiben.",
-          "Zum Schluss geht es nicht um Wirkung, sondern um Halt. Ein schlichtes Ende hilft, wenn Menschen aufstehen, Blumen niederlegen oder aus der Halle gehen.",
-          "Bei Abschieden im Kreis Mettmann geht es nicht nur um die Liedauswahl. Entscheidend ist auch, ob die Musik vor der Ansprache, nach einem persönlichen Text, beim Auszug oder erst draußen ihren stärksten Platz hat.",
-          "Manchmal reicht ein einzelner musikalischer Gedanke. Gerade bei Beerdigungen kann ein kürzerer Ausschnitt stärker wirken als eine lange Fassung, wenn die Stimmung ohnehin sehr dicht ist.",
-          "Für Termine im Kreis Mettmann ist mir wichtig, dass die Musik nicht an organisatorischen Details hängt. Adresse, Ansprechpartner und Reihenfolge der Programmpunkte sollten vorab klar sein.",
-          "Diese Ortsseite ersetzt keine allgemeine Repertoireseite. Sie beantwortet die lokale Frage: Wie lässt sich ein Abschied hier vor Ort musikalisch ruhig und zuverlässig begleiten?",
-          "Wenn noch kein Stück feststeht, genügt eine Beschreibung der Stimmung: klassisch, modern, sehr schlicht, hoffnungsvoll oder besonders persönlich. Daraus lässt sich eine passende musikalische Richtung entwickeln."
-        ],
-        "image": {
-          "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
-          "alt": "Live-Viola für Trauermusik: Kreis Mettmann - Bild 1"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Wenn Trauerhalle, Kirche, Friedhof, Kapelle oder Abschied mit regionalem Angehörigenkreis zusammenkommen, braucht die Musik eine klare Dramaturgie. Ein Stück kann den Anfang ordnen, ein zweites kann Erinnerung öffnen, und ein Schlussstück kann den Weg nach draußen halten.",
-        "paragraphs": [
-          "Gerade draußen verändert sich der Klang schnell. Wind, Abstand und Bewegung auf dem Friedhof machen kurze, klare musikalische Formen oft sinnvoller als lange Fassungen.",
-          "Für Angehörige bedeutet das: Sie müssen keine perfekte musikalische Sprache finden. Es reicht, wenn sie erzählen, was der Moment ausdrücken soll; daraus kann ich eine passende musikalische Form ableiten.",
-          "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab.",
-          "In Kreis Mettmann prüfe ich besonders Stadtgrenzen, genaue Adresse, Fahrzeit und realistische Übergänge. Diese praktischen Punkte verändern, ob ein kurzer musikalischer Akzent reicht, ob mehrere Sets sinnvoll sind oder ob ein ruhiger Aufbau vor Beginn eingeplant werden sollte.",
-          "regional gemischte Gäste, die lokale Klarheit statt Grossstadt-Schablone brauchen. Deshalb geht es bei Trauermusik hier nicht um eine standardisierte Stückliste, sondern um die Frage, welche Aufgabe die Musik im Ablauf übernimmt.",
-          "Anders als bei einer allgemeinen Leistungsseite wird Trauermusik Kreis Mettmann über konkrete Entscheidungen geplant: Wo steht die Viola, wann ist der erste Einsatz, wie viel Aufmerksamkeit hat das Publikum und wann darf Musik bewusst im Hintergrund bleiben?",
-          "Die wichtigste Vorbereitung in Kreis Mettmann: Stadtgrenzen, genaue Adresse, Fahrzeit und realistische Übergänge. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-          "Typisch für Kreis Mettmann sind regional gemischte Gäste, die lokale Klarheit statt Grossstadt-Schablone brauchen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Trauermusik: Kreis Mettmann - Bild 2"
-        },
-        "imageFirst": false
-      },
-      {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Bei Abschieden geht es um Halt, Timing, Würde und darum, Angehoerige organisatorisch zu entlasten. In Kreis Mettmann übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-        "paragraphs": [
-          "Der Unterschied zu Mönchengladbach liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-          "Für die Anfrage sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Kreis Mettmann passt und den Ablauf nicht künstlich aufbläht.",
-          "Wenn Trauermusik Kreis Mettmann mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-          "Bei knappen Zeitfenstern in Kreis Mettmann ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
-          "Trauermusik Kreis Mettmann in Kreis Mettmann ist keine reine Ortsvariante der Hauptseite. Entscheidend sind Erkrath, Haan, Hilden, Ratingen, Velbert, Wülfrath und mehrere kleinere Kulturorte, weil diese Umgebung beeinflusst, wie nah, sichtbar und flexibel die Musik eingesetzt werden kann."
-        ],
-        "image": {
-          "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
-          "alt": "Live-Viola für Trauermusik: Kreis Mettmann - Bild 1"
-        },
-        "imageFirst": true
-      }
-    ]
+    "sections": []
   },
   "elegy": {
-    "quote": "Trauermusik in Kreis Mettmann soll nicht auffallen, sondern den Abschied halten.",
+    "quote": "Trauermusik im Kreis Mettmann soll nicht größer sein als der Abschied - sie soll ihn halten.",
     "passages": [
       {
         "strong": "Lokaler Rahmen",
-        "text": "In Kreis Mettmann achte ich besonders auf mehrere Städte, Erkrath, Hilden, Ratingen und Velbert, regionale Anfahrt. Daraus ergibt sich, ob ein einzelnes Stück reicht oder ob Beginn, Erinnerung und Auszug jeweils einen eigenen Klang brauchen."
+        "text": "Kreis Mettmann umfasst mehrere Orte rund um Erkrath, Ratingen, Mettmann, Hilden, Haan, Velbert und Wülfrath. Für Trauerfeiern zählt vor Ort vor allem, ob der Abschied in Trauerhalle, Kirche, Kapelle, am Grab oder in einem freien Raum stattfindet. Danach richten sich Ankunft, Stücklänge, Position und Lautstärke."
       },
       {
-        "strong": "Ablauf statt Liste",
-        "text": "Vor der Stückauswahl klären wir, welche Aufgabe Musik übernimmt: sammeln, nach einer Rede Raum lassen, einen Weg begleiten oder den letzten Moment am Grab ruhig schließen."
+        "strong": "Absprache",
+        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Wenn gewünscht, kläre ich Ablauf und Einsätze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt."
       },
       {
-        "strong": "Klang der Viola",
-        "text": "Der dunklere Streichklang passt gut zu Trauerhallen, Kirchen und kleinen Kapellen. Er wirkt persönlicher als eine Aufnahme und bleibt beweglich, wenn sich Wege oder Reden verschieben."
-      },
-      {
-        "strong": "Praktische Abstimmung",
-        "text": "Für Kreis Mettmann notiere ich kurze Wege und klare Startzeichen. Eine Kontaktperson vor Ort, ein Startsignal und ein geschützter Platz machen den Ablauf für Angehörige spürbar leichter."
-      },
-      {
-        "strong": "Repertoire",
-        "text": "Möglich sind ein klassisches Stück, ein moderner Wunsch und ein schlichter Auszug. Entscheidend ist nicht die längste Liste, sondern ein Stück, das zur Person, zum Raum und zur seelischen Belastung des Tages passt."
+        "strong": "Wunschstück",
+        "text": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen. Gerade bei Abschieden bespreche ich vorher sehr klar, was musikalisch würdevoll machbar ist und welcher Aufwand entsteht."
       }
     ]
   },
   "solemn": {
-    "eyebrow": "Trauerfeier in Kreis Mettmann",
-    "title": "Was ich für Trauermusik in Kreis Mettmann vorab kläre.",
-    "lead": "Je genauer Raum, Weg und Einsatzpunkt beschrieben sind, desto ruhiger kann Musik am Tag selbst wirken.",
+    "eyebrow": "Ablauf im Kreis Mettmann",
+    "title": "Trauermusik im Kreis Mettmann ruhig planen.",
+    "lead": "Der musikalische Rahmen richtet sich nach Ort, Abschiedsform und dem, was für die Familie wirklich hilfreich ist.",
     "cards": [
       {
         "rom": "Vorab",
-        "title": "Ablauf und Kontaktperson sortieren",
-        "poet": "Ich kläre mit euch oder dem Bestattungshaus, wo die Viola steht, wann der erste Ton beginnt und wie der Übergang zu mehrere Städte ruhig bleibt.",
-        "list": [
-          "Datum und Uhrzeit",
-          "Trauerort",
-          "Startsignal"
-        ]
+        "title": "Ein Kontakt reicht",
+        "poet": "Datum, Uhrzeit, Trauerort, Ablauf und Wunschstücke genügen für den ersten Schritt. Die Anfrage ist kostenlos; der Preis wird nach Rahmen und Aufwand vereinbart."
       },
       {
-        "rom": "Am Tag",
-        "title": "Wenig Aufbau, klare Präsenz",
-        "poet": "Die Musik bleibt bewusst schlank: stimmen, ankommen, warten können und erst dann spielen, wenn der Moment in Kreis Mettmann wirklich bereit ist.",
-        "list": [
-          "ruhiger Platz",
-          "Wunschstück",
-          "Auszug oder Grab"
-        ]
+        "rom": "Vor Ort",
+        "title": "Pünktlich, still, vorbereitet",
+        "poet": "Ich plane exakte Stadt, genaue Adresse, Fahrzeit, Treffpunkt, möglicher Ortswechsel und eine Kontaktperson vor Ort, damit die Musik im Kreis Mettmann nicht unter Zeitdruck beginnt und der Abschied ruhig bleibt."
       }
     ],
-    "listLabel": "Typische Punkte für Kreis Mettmann",
+    "listLabel": "Mögliche musikalische Momente im Kreis Mettmann",
     "list": [
-      "mehrere Städte",
-      "Erkrath, Hilden, Ratingen und Velbert",
-      "regionale Anfahrt",
-      "Wunschlied",
-      "Kontaktperson"
+      "Einzug oder Beginn",
+      "Moment der Erinnerung",
+      "Abschied am Sarg oder an der Urne",
+      "Gang zum Grab oder stiller Ausklang"
     ]
   },
   "focus": {

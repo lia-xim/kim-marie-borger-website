@@ -500,9 +500,53 @@ export function keywordLabel(service: LocalSeoService, location: LocalSeoLocatio
 	}
 }
 
+function compactLocalSeoTitle(serviceSlug: LocalServiceSlug, locationName: string): string | undefined {
+	switch (serviceSlug) {
+		case 'hochzeiten':
+			return `Hochzeitsmusik ${locationName} | Viola für Trauung`;
+		case 'beerdigungen':
+			return `Trauermusik ${locationName} | Viola für Abschied`;
+		case 'firmenfeiern':
+			return `Live Musik Firmenevent ${locationName} | Live-Viola fürs Event`;
+		case 'geburtstage':
+			return `Live Musik Geburtstag ${locationName} | Viola für Feiern`;
+		case 'taufen':
+			return `Taufmusik ${locationName} | Viola zur Taufe`;
+		case 'konzerte':
+			return `Viola Konzert ${locationName} | Viola für Events`;
+		case 'unterricht':
+			return `Bratschenunterricht ${locationName} | Viola lernen`;
+	}
+}
+
+function compactLocalSeoDescription(
+	serviceSlug: LocalServiceSlug,
+	keyword: string,
+	locative: string,
+): string | undefined {
+	switch (serviceSlug) {
+		case 'hochzeiten':
+			return `${keyword}: Solo-Viola für Trauung, Empfang und Dinner ${locative}. Anfrage kostenlos, Preis nach Rahmen.`;
+		case 'beerdigungen':
+			return `${keyword}: würdevolle Viola für Trauerfeier, Beerdigung und Abschied ${locative}. Schnelle Rückmeldung.`;
+		case 'firmenfeiern':
+			return `${keyword}: Solo-Viola für Empfang, Dinner, Jubiläum und Messe ${locative}. Anfrage kostenlos.`;
+		case 'geburtstage':
+			return `${keyword}: Solo-Viola für Geburtstag, Dinner, Empfang und Überraschung ${locative}. Anfrage kostenlos.`;
+		case 'taufen':
+			return `${keyword}: sanfte Viola für Taufe, Segnung und Familienfeier ${locative}. Anfrage kostenlos.`;
+		case 'konzerte':
+			return `${keyword}: kuratiertes Viola-Programm für Vernissage, Lesung und Kulturabend ${locative}. Anfrage kostenlos.`;
+		case 'unterricht':
+			return `${keyword}: Viola- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg ${locative}. Probestunde kostenlos.`;
+	}
+}
+
 export function localSeoTitle(page: LocalSeoPage, override?: SeoPageOverride): string {
-	if (override?.seoTitle) return override.seoTitle;
+	if (override?.seoTitle && override.seoTitle.length <= 68) return override.seoTitle;
 	const { service, location } = page;
+	const compactTitle = compactLocalSeoTitle(service.slug, location.name);
+	if (compactTitle) return compactTitle;
 	switch (service.slug) {
 		case 'hochzeiten':
 			return `Hochzeitsmusik ${location.name} | Viola für Trauung & Empfang`;
@@ -522,8 +566,10 @@ export function localSeoTitle(page: LocalSeoPage, override?: SeoPageOverride): s
 }
 
 export function localSeoDescription(page: LocalSeoPage, override?: SeoPageOverride): string {
-	if (override?.seoDescription) return override.seoDescription;
+	if (override?.seoDescription && override.seoDescription.length <= 170) return override.seoDescription;
 	const { service, location } = page;
+	const compactDescription = compactLocalSeoDescription(service.slug, keywordLabel(service, location), location.locative);
+	if (compactDescription) return compactDescription;
 	switch (service.slug) {
 		case 'hochzeiten':
 			return `Hochzeitsmusik ${location.locative}: Live-Viola für Einzug, Trauung, Ringtausch, Auszug, Sektempfang und Dinner. Persönlich abgestimmt mit Wunschlied.`;
@@ -544,13 +590,14 @@ export function localSeoDescription(page: LocalSeoPage, override?: SeoPageOverri
 
 export function buildLocalSeoPage(page: LocalSeoPage, basePage: PageData, override?: SeoPageOverride): PageData {
 	const clone = JSON.parse(JSON.stringify(basePage)) as PageData;
-	clone.seoTitle = localSeoTitle(page, override);
-	clone.seoDescription = localSeoDescription(page, override);
 	clone.bodyClass = [clone.bodyClass, 'page-local-seo'].filter(Boolean).join(' ');
 	clone.blocks = (clone.blocks ?? [])
 		.filter(Boolean)
 		.map((block) => rewriteBlock(block as AnyBlock, page) as any);
-	return applySeoPageOverride(clone, override);
+	const merged = applySeoPageOverride(clone, override);
+	merged.seoTitle = localSeoTitle(page, override);
+	merged.seoDescription = localSeoDescription(page, override);
+	return merged;
 }
 
 export function localSeoJsonLd(site: URL, page: LocalSeoPage, override?: SeoPageOverride): object {

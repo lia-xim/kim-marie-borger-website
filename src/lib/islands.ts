@@ -14,7 +14,7 @@ import Footer from '../components/Footer.astro';
 import { getConfig, getPage, getSeoPage } from './data';
 import { buildLocalSeoPage, getLocalSeoPage } from './local-seo';
 import { buildTopicSeoPage, getTopicSeoPage } from './topic-seo';
-import { getSeoPageOverride, type SeoPageKind, type SeoPageOverride } from './seo-overrides';
+import { getSeoPageOverride, mergeSeoPageOverrides, type SeoPageKind, type SeoPageOverride } from './seo-overrides';
 
 interface SeoPageIslandPayload {
 	basePage: QueryResult<PageQuery>;
@@ -42,8 +42,10 @@ async function fetchSeoPageIsland(params: URLSearchParams): Promise<SeoPageIslan
 function propsFromSeoPageIsland(data: unknown): { data?: CmsPage } {
 	const payload = data as SeoPageIslandPayload;
 	const baseData = payload.basePage.data?.page;
-	const override = (payload.seoPage.data?.seoPage as unknown as SeoPageOverride | undefined)
-		?? getSeoPageOverride(payload.pageKind, payload.serviceSlug, payload.pageSlug);
+	const override = mergeSeoPageOverrides(
+		getSeoPageOverride(payload.pageKind, payload.serviceSlug, payload.pageSlug),
+		payload.seoPage.data?.seoPage as unknown as SeoPageOverride | undefined,
+	);
 	if (!baseData || !override) return { data: baseData as CmsPage | undefined };
 
 	const localPage = payload.pageKind === 'local'

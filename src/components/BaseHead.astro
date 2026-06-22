@@ -3,21 +3,17 @@
 import '../styles/kmb.css';
 // Fonts werden self-hosted ausgeliefert (DSGVO) — Familiennamen identisch zur
 // Google-Fonts-Einbindung der Originalseite, kmb.css greift unverändert.
-import '@fontsource/cormorant-garamond/latin-300-italic.css';
-import '@fontsource/cormorant-garamond/latin-400.css';
-import '@fontsource/cormorant-garamond/latin-400-italic.css';
-import '@fontsource/cormorant-garamond/latin-500.css';
-import '@fontsource/cormorant-garamond/latin-500-italic.css';
-import '@fontsource/manrope/latin-400.css';
-import '@fontsource/manrope/latin-500.css';
-import '@fontsource/manrope/latin-600.css';
-
 import { buildSrcset, isOptimizable, normalizeSrc, onVercel } from '../lib/img';
 import { canonicalUrl } from '../lib/url';
-// Kritische Schriftschnitte des Hero vorladen (Cormorant 400 + 300-italic für
-// den Namen, Manrope 600 für die Überzeile) — verkürzt das LCP-Render-Delay.
-import cormorant400 from '@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-normal.woff2?url';
+// Self-hosted font files with manual @font-face let us use font-display:optional
+// and preload the actual above-the-fold text cuts.
 import cormorant300it from '@fontsource/cormorant-garamond/files/cormorant-garamond-latin-300-italic.woff2?url';
+import cormorant400 from '@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-normal.woff2?url';
+import cormorant400it from '@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-italic.woff2?url';
+import cormorant500 from '@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2?url';
+import cormorant500it from '@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-italic.woff2?url';
+import manrope400 from '@fontsource/manrope/files/manrope-latin-400-normal.woff2?url';
+import manrope500 from '@fontsource/manrope/files/manrope-latin-500-normal.woff2?url';
 import manrope600 from '@fontsource/manrope/files/manrope-latin-600-normal.woff2?url';
 
 interface Props {
@@ -40,9 +36,21 @@ const {
 const image = normalizeSrc(rawImage) ?? rawImage;
 const absoluteImage = new URL(image, canonicalURL);
 
+const fontFaceCss = [
+	`@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:300;font-display:optional;src:url("${cormorant300it}") format("woff2");}`,
+	`@font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:400;font-display:optional;src:url("${cormorant400}") format("woff2");}`,
+	`@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:400;font-display:optional;src:url("${cormorant400it}") format("woff2");}`,
+	`@font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:500;font-display:optional;src:url("${cormorant500}") format("woff2");}`,
+	`@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:500;font-display:optional;src:url("${cormorant500it}") format("woff2");}`,
+	`@font-face{font-family:"Manrope";font-style:normal;font-weight:400;font-display:optional;src:url("${manrope400}") format("woff2");}`,
+	`@font-face{font-family:"Manrope";font-style:normal;font-weight:500;font-display:optional;src:url("${manrope500}") format("woff2");}`,
+	`@font-face{font-family:"Manrope";font-style:normal;font-weight:600;font-display:optional;src:url("${manrope600}") format("woff2");}`,
+].join('');
+
 // LCP: das Hero-Bild der Seite vorladen — mit demselben srcset wie im Markup,
 // damit Preload und <img> exakt dieselbe Variante treffen.
-const heroPreload = onVercel && isOptimizable(image) ? buildSrcset(image) : null;
+const heroPreloadSrcset = onVercel && isOptimizable(image) ? buildSrcset(image).srcset : undefined;
+const heroPreloadHref = !onVercel && isOptimizable(image) ? image : undefined;
 ---
 
 <meta charset="utf-8" />
@@ -57,12 +65,16 @@ const heroPreload = onVercel && isOptimizable(image) ? buildSrcset(image) : null
 <link rel="sitemap" href="/sitemap.xml" />
 <meta name="robots" content={noindex ? 'noindex,follow' : 'index,follow'} />
 
+<style is:inline set:html={fontFaceCss}></style>
 <link rel="preload" as="font" type="font/woff2" href={cormorant400} crossorigin />
-<link rel="preload" as="font" type="font/woff2" href={cormorant300it} crossorigin />
-<link rel="preload" as="font" type="font/woff2" href={manrope600} crossorigin />
+<link rel="preload" as="font" type="font/woff2" href={cormorant500} crossorigin />
+<link rel="preload" as="font" type="font/woff2" href={manrope400} crossorigin />
 
-{heroPreload && (
-	<link rel="preload" as="image" imagesrcset={heroPreload.srcset} imagesizes="100vw" fetchpriority="high" />
+{heroPreloadSrcset && (
+	<link rel="preload" as="image" imagesrcset={heroPreloadSrcset} imagesizes="100vw" fetchpriority="high" />
+)}
+{heroPreloadHref && (
+	<link rel="preload" as="image" href={heroPreloadHref} fetchpriority="high" />
 )}
 
 <link rel="canonical" href={canonicalURL.href} />

@@ -8,81 +8,73 @@
   "priority": "P3",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Viola Konzert Dortmund | Kultur & Event",
-  "seoDescription": "Viola Konzert Dortmund: Solo-Viola für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
+  "seoTitle": "Viola Konzert Dortmund | Viola für Events",
+  "seoDescription": "Viola Konzert Dortmund: kuratiertes Viola-Programm für Vernissage, Lesung und Kulturabend in Dortmund. Anfrage kostenlos.",
   "hero": {
-    "eyebrow": "Konzert & Event",
-    "title": "Viola Konzert in Dortmund für Kulturabende mit Dramaturgie.",
-    "lead": "Dortmund bietet moderne Eventorte, Kulturflächen, Phoenixsee-Umfeld und ein direktes Publikum im östlichen Ruhrgebiet. Ich kuratiere Solo-Viola-Programme für Konzert, Vernissage, Lesung, Salon und besondere Bühnen.",
-    "badge": "Kammermusik, Salon & Kulturformat"
+    "eyebrow": "Konzert & Event in Dortmund",
+    "title": "Viola Konzert in Dortmund für einen Raum, der wirklich zuhoert.",
+    "lead": "Kuratierte Viola-Programme für Vernissage, Lesung, Salonkonzert, Matinee, Empfang oder Kulturabend in Dortmund - passend zu Publikum, Raum und Dramaturgie.",
+    "badge": "Programm nach Anlass"
   },
   "split": {
-    "seal": "Dortmund\nKonzert\nViola",
+    "seal": "Dortmund\nViola Konzert\nlokal geplant",
     "sections": [
       {
-        "title": "Ein Viola-Programm in Dortmund muss zum Raum und Publikum passen.",
-        "lede": "Das Publikum reagiert gut auf klare Dramaturgie und persönliche Moderationen. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
+        "eyebrow": "Lokaler Rahmen",
+        "title": "Viola Konzert in Dortmund: worauf es vor Ort ankommt.",
+        "lede": "Dortmund steht hier für konkrete Orte und Wege zwischen Phoenix-See, Innenstadt, Westfalenhallen und festlichen Räumen im Ruhrgebiet. Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: Raum, Wege, Startsignal, Lautstärke, Wetteroption, Wunschmusik und die Rolle der Musik.",
         "paragraphs": [
-          "Dortmund bietet moderne Eventorte, Kulturflächen, Phoenixsee-Umfeld und ein direktes Publikum im östlichen Ruhrgebiet.",
-          "Passend sind Kulturabend, Vernissage, Lesung, Firmenkulturformat, Salonkonzert oder musikalischer Programmpunkt bei Empfang und Gala.",
-          "Bei weitläufigen Locations sollten Treffpunkt, Licht, Sitzordnung und Position zum Rednerpult vorab feststehen.",
-          "Das Publikum reagiert gut auf klare Dramaturgie und persönliche Moderationen.",
-          "Für Dortmund plane ich Programme, die nicht zu filigran beginnen, sondern schnell eine Atmosphäre setzen.",
-          "Für Viola Konzert Dortmund ist der Ton bewusst prägnant, warm und präsent. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
-          "Die Länge entsteht aus Anlass und Aufmerksamkeit: dreißig Minuten können perfekt sein, wenn sie präzise gebaut sind; ein längerer Abend braucht Pausen und Kontraste."
+          "Typische Rahmen sind Galerie, Salon, Kulturraum, Lesung, Vernissage, privater Konzertabend oder Empfang. Je nach Ort ist entscheidend, ob Musik sammelt, einen einzelnen Moment trägt oder über mehrere kurze Sets Atmosphäre schafft.",
+          "Ich kläre vorab nicht nur Stücke, sondern auch praktische Punkte: genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Diese Details entscheiden oft, ob der erste Ton ruhig beginnt oder unter Zeitdruck steht.",
+          "Gerade in Dortmund wirkt Solo-Viola stark, weil sie wenig Aufbau braucht, nah klingt und sich flexibel an kleinere Räume, größere Feiern oder kurze Übergänge anpassen lässt."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Dortmund mit Kim Marie Borger und Viola"
-        },
-        "imageFirst": false,
-        "eyebrow": "Lokaler Rahmen"
-      },
-      {
-        "title": "Viola Konzert Dortmund im Ablauf sinnvoll einsetzen.",
-        "lede": "Wenn Wunschstücke geplant sind, prüfe ich, ob sie solistisch tragen und wie sie dramaturgisch eingebettet werden können.",
-        "paragraphs": [
-          "Ich plane die Musik nicht als austauschbare Liste. Entscheidend ist, ob die Viola zuhören lässt, einen Text rahmt, Kunst begleitet oder einen Empfang kultivierter macht.",
-          "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
-          "Bei Vernissagen in Dortmund darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
-          "Bei Lesungen in Dortmund achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
-          "Für Salonkonzerte in Dortmund plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
-          "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Dortmund mit Kim Marie Borger und Viola"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
-        "paragraphs": [
-          "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
-          "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
-          "Die wichtigste Vorbereitung in Dortmund: weite Wege in Locations, Sitzordnung, Licht und Abstimmung mit Reden. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-          "Typisch für Dortmund sind direkte, gemischte Gäste, die klare Dramaturgie schätzen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-          "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Dortmund übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-          "Der Unterschied zu Recklinghausen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Dortmund mit Kim Marie Borger und Viola"
+          "alt": "Viola für Konzert und Kulturabend in Dortmund - Bild 1"
         },
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Dortmund passt und den Ablauf nicht künstlich aufbläht.",
+        "eyebrow": "Ablauf",
+        "title": "So wird Viola Konzert in Dortmund sinnvoll eingesetzt.",
+        "lede": "Ein guter lokaler Ablauf entsteht aus wenigen klaren Entscheidungen. Statt einfach eine lange Stückliste zu spielen, legen wir fest, welche musikalischen Momente wirklich Aufgabe und Bedeutung haben.",
         "paragraphs": [
-          "Wenn Viola Konzert Dortmund mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-          "Bei knappen Zeitfenstern in Dortmund ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
-          "Viola Konzert Dortmund in Dortmund ist keine reine Ortsvariante der Hauptseite. Entscheidend sind Phoenixsee, moderne Eventflaechen, Dortmunder U, Kulturorte und oestliches Ruhrgebiet, weil diese Umgebung beeinflusst, wie nah, sichtbar und flexibel die Musik eingesetzt werden kann."
+          "Mögliche Einsatzpunkte sind Ankommen, kuratierter Konzertblock, moderierter Übergang und Ausklang oder Empfang. Daraus entsteht ein Plan, der zum Anlass passt und Pausen, Worte, Wege und Gäste nicht überdeckt.",
+          "Für Dortmund ist die genaue Adresse wichtig, weil zwischen Phoenix-See, Innenstadt, Westfalenhallen und festlichen Räumen im Ruhrgebiet je nach Location andere Wege, Raumgrößen und Zeitfenster bedeuten kann.",
+          "Wenn mehrere Programmpunkte begleitet werden, plane ich kurze Spannungswechsel: ein ruhiger Beginn, ein tragender Kern und danach entweder ein heller Abschluss oder eine dezente Rücknahme."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Dortmund mit Kim Marie Borger und Viola"
+          "alt": "Viola für Konzert und Kulturabend in Dortmund - Bild 2"
+        },
+        "imageFirst": true
+      },
+      {
+        "eyebrow": "Anfrage & Preisrahmen",
+        "title": "Was ich für eine gute Anfrage in Dortmund brauche.",
+        "lede": "Die Kontaktaufnahme ist kostenlos und unverbindlich. Ein Preis entsteht erst, wenn Dauer, Ort, Aufwand, Wunschmusik, Anfahrt und Rahmen klar genug sind, damit ich ehrlich einschätzen kann, was sinnvoll ist.",
+        "paragraphs": [
+          "Hilfreich sind: Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Damit kann ich Verfügbarkeit, passenden Umfang und einen realistischen Preisrahmen einschätzen.",
+          "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
+          "Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klären wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin in Dortmund machbar ist."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Viola für Konzert und Kulturabend in Dortmund - Bild 3"
+        },
+        "imageFirst": false
+      },
+      {
+        "eyebrow": "Beispiel",
+        "title": "Ein realistischer Ablauf in Dortmund.",
+        "lede": "Ein Kulturabend in Dortmund kann aus einem kurzen kuratierten Block, einer persönlichen Anmoderation und einem offenen Ausklang bestehen.",
+        "paragraphs": [
+          "Wenn Raum und Publikum eher klein sind, funktioniert ein konzentriertes Programm oft stärker als ein zu langer Abend mit zu vielen Stilen.",
+          "So bleibt die Seite für Dortmund praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson und nächstem Schritt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Viola für Konzert und Kulturabend in Dortmund - Bild 4"
         },
         "imageFirst": true
       }
@@ -90,99 +82,103 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Viola Konzert Dortmund",
+    "title": "FAQ zu Viola Konzert in Dortmund",
     "items": [
       {
-        "question": "Spielst du Viola-Konzerte in Dortmund?",
-        "answer": "Ja. Ich gestalte Konzerte, Vernissagen, Lesungen, Salonabende, Kulturprogramme und besondere Eventformate in Dortmund mit Solo-Viola.",
+        "question": "Spielst du Konzerte und Kulturformate in Dortmund?",
+        "answer": "Ja. Ich gestalte Viola-Programme für Konzerte, Vernissagen, Lesungen, Kulturabende, private Events und Empfänge in Dortmund.",
         "open": true
       },
       {
-        "question": "Welche Formate passen in Dortmund?",
-        "answer": "Passend sind Kulturabend, Vernissage, Lesung, Firmenkulturformat, Salonkonzert oder musikalischer Programmpunkt bei Empfang und Gala. Die genaue Länge hängt davon ab, ob das Publikum zuhören, ankommen, Kunst betrachten oder zwischen Textblöcken wechseln soll."
-      },
-      {
-        "question": "Was ist organisatorisch in Dortmund wichtig?",
-        "answer": "Bei weitläufigen Locations sollten Treffpunkt, Licht, Sitzordnung und Position zum Rednerpult vorab feststehen."
-      },
-      {
-        "question": "Kann ein Wunschstück integriert werden?",
-        "answer": "Ja, wenn es auf Solo-Viola funktioniert und zum dramaturgischen Bogen passt. Ich prüfe Melodie, Tonart und Wirkung vorab."
-      },
-      {
-        "question": "Kannst du Stücke anmoderieren?",
-        "answer": "Ja. Kurze Anmoderationen können ein Programm zugänglicher machen, ohne den musikalischen Fluss zu unterbrechen."
-      },
-      {
-        "question": "Kann das Programm klassisch und modern sein?",
-        "answer": "Ja. Ich kombiniere klassische Stücke, romantische Miniaturen, moderne Linien oder persönliche Wünsche so, dass ein schlüssiger Bogen entsteht."
-      },
-      {
-        "question": "Warum passt Solo-Viola für Viola Konzert Dortmund?",
-        "answer": "Die Viola klingt warm, nah und selten genug, um Aufmerksamkeit zu wecken. Gleichzeitig bleibt sie schlank genug für kleine Räume, Galerien und private Konzertformate."
-      },
-      {
         "question": "Welche Angaben helfen für eine Anfrage in Dortmund?",
-        "answer": "Hilfreich sind Datum, Ort, Anlass, gewünschte Länge, Raumgröße, Publikum, Ablauf, Lichtsituation und ob Moderation gewünscht ist."
+        "answer": "Am hilfreichsten sind Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
       },
       {
-        "question": "Welche Details sind für Viola Konzert Dortmund besonders wichtig?",
-        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Dortmund plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+        "question": "Ist die Kontaktaufnahme kostenlos?",
+        "answer": "Ja. Die Anfrage und erste Klärung sind kostenlos und unverbindlich. Kostenloses Vorspielen vor Ort ist damit nicht gemeint."
       },
       {
-        "question": "Wie wird die Musik in Dortmund konkret geplant?",
-        "answer": "Hilfreich sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
+        "question": "Wie entsteht der Preis?",
+        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Vorbereitung, Wunschmusik und Aufwand. Ich nenne keinen pauschalen Fantasiepreis, sondern kläre den Rahmen persönlich."
+      },
+      {
+        "question": "Sind Wunschstücke möglich?",
+        "answer": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+      },
+      {
+        "question": "Was ist in Dortmund organisatorisch wichtig?",
+        "answer": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Dortmund steht hier für konkrete Orte und Wege zwischen Phoenix-See, Innenstadt, Westfalenhallen und festlichen Räumen im Ruhrgebiet. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
+      },
+      {
+        "question": "Kannst du ein Programm anmoderieren?",
+        "answer": "Ja. Kurze persönliche Anmoderationen können ein Programm zugänglicher machen, ohne den musikalischen Fokus zu verlieren."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola Konzert in Dortmund mit Kim Marie Borger und Viola"
+      "alt": "Viola für Konzert und Kulturabend in Dortmund - Bild 1"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Dortmund - Bild 2"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Dortmund - Bild 3"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Dortmund - Bild 4"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.",
   "contact": {
-    "eyebrow": "Konzert anfragen",
-    "title": "Viola Konzert Dortmund anfragen",
-    "lead": "Schick mir Datum, Ort, Format und gewünschte Programmlänge in Dortmund. Ich melde mich mit einer passenden Idee für Solo-Viola.",
+    "eyebrow": "Viola-Programm anfragen",
+    "title": "Viola Konzert in Dortmund anfragen",
+    "lead": "Schreib mir kurz Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
     "checklist": [
-      "Viola Konzert Dortmund",
-      "Konzert, Vernissage oder Lesung",
-      "Raum, Publikum & Programmlänge"
+      "Dortmund",
+      "Datum & Ort",
+      "Viola Konzert",
+      "Preis nach Rahmen"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt ein Viola-Programm in Dortmund?",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für ein Viola Konzert in Dortmund."
+    "formEyebrow": "Details senden",
+    "formTitle": "Verfügbarkeit und Preisrahmen in Dortmund klären",
+    "formSuccess": "Danke - ich prüfe deine Anfrage in Dortmund und melde mich persönlich mit den nächsten Schritten."
   },
   "focus": {
-    "eyebrow": "Programmidee",
-    "title": "Ein möglicher Bogen für Viola Konzert Dortmund.",
-    "heading": "Programm",
-    "subtitle": "Viola-Abend Dortmund",
+    "eyebrow": "Planung in Dortmund",
+    "title": "Vier Punkte, die Viola Konzert in Dortmund konkret machen.",
+    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
     "items": [
       {
-        "title": "Auftakt: ein ruhiger Raumöffner",
-        "detail": "Bach, Telemann oder eine freie Prélude-Idee für prägnant, warm und präsent"
+        "time": "1",
+        "kicker": "Ort",
+        "title": "Adresse und Raum in Dortmund klären",
+        "text": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. So weiß ich, wie viel Zeit für Ankunft, Stimmen und Aufbau realistisch ist."
       },
       {
-        "title": "Erzählende Mitte",
-        "detail": "Romantische Miniatur oder modernes Stück für Das Publikum reagiert gut auf klare Dramaturgie und persönliche Moderationen."
+        "time": "2",
+        "kicker": "Moment",
+        "title": "Musikalische Aufgabe festlegen",
+        "text": "Wir entscheiden, ob die Musik sammelt, einen Höhepunkt trägt, Gespräche begleitet oder als eigener Programmpunkt wirken soll."
       },
       {
-        "title": "Kurzer Übergang",
-        "detail": "Moderation, Textbezug oder bewusste Stille"
+        "time": "3",
+        "kicker": "Stücke",
+        "title": "Repertoire und Wunschmusik prüfen",
+        "text": "Viele passende Stücke sind ohne Aufpreis möglich. Bei einem Lied ohne verwendbare Noten bespreche ich vorher, ob ein neues Arrangement sinnvoll ist und welcher Zusatzaufwand entsteht."
       },
       {
-        "title": "Kontrast mit Bewegung",
-        "detail": "Piazzolla, Tanzform oder zeitgenössische Farbe"
-      },
-      {
-        "title": "Ausklang",
-        "detail": "Zugabe oder persönliches Wunschstück für in Dortmund"
+        "time": "4",
+        "kicker": "Rahmen",
+        "title": "Preis und Buchung ehrlich abstimmen",
+        "text": "Die Anfrage ist kostenlos. Der Preis richtet sich nach Dauer, Ort, Vorbereitung, Wunschmusik, Anfahrt und Aufwand - nicht nach einem pauschalen Versprechen."
       }
     ],
-    "footnote": "Das konkrete Programm für Viola Konzert Dortmund wird nach Raum, Anlass, Publikum und gewünschter Dauer zusammengestellt."
+    "footnote": "Für Dortmund sind besonders genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort hilfreich."
   },
   "elegy": {
     "passages": []

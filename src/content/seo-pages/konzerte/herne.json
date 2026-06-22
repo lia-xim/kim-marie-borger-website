@@ -8,82 +8,73 @@
   "priority": "P3",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Viola Konzert Herne | Kultur & Event",
-  "seoDescription": "Viola Konzert Herne: Solo-Viola für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.",
+  "seoTitle": "Viola Konzert Herne | Viola für Events",
+  "seoDescription": "Viola Konzert Herne: kuratiertes Viola-Programm für Vernissage, Lesung und Kulturabend in Herne. Anfrage kostenlos.",
   "hero": {
-    "eyebrow": "Konzert & Event",
-    "title": "Viola Konzert in Herne für Kulturabende mit Dramaturgie.",
-    "lead": "Herne liegt mitten im Ruhrgebiet und passt zu Kulturabenden, Lesungen und nahbaren Konzertformaten. Ich kuratiere Solo-Viola-Programme für Konzert, Vernissage, Lesung, Salon und besondere Bühnen.",
-    "badge": "Kammermusik, Salon & Kulturformat"
+    "eyebrow": "Konzert & Event in Herne",
+    "title": "Viola Konzert in Herne für einen Raum, der wirklich zuhoert.",
+    "lead": "Kuratierte Viola-Programme für Vernissage, Lesung, Salonkonzert, Matinee, Empfang oder Kulturabend in Herne - passend zu Publikum, Raum und Dramaturgie.",
+    "badge": "Programm nach Anlass"
   },
   "split": {
-    "seal": "Herne\nKonzert\nViola",
+    "seal": "Herne\nViola Konzert\nlokal geplant",
     "sections": [
       {
-        "title": "Ein Viola-Programm in Herne muss zum Raum und Publikum passen.",
-        "lede": "Das Publikum reagiert gut auf direkte Ansprache und warme musikalische Übergänge. Genau danach entstehen Länge, Stückfolge, Moderation und Klangwirkung.",
+        "eyebrow": "Lokaler Rahmen",
+        "title": "Viola Konzert in Herne: worauf es vor Ort ankommt.",
+        "lede": "Herne steht hier für konkrete Orte und Wege zwischen Schloss Strünkede, Wanne-Eickel, Bochum und Recklinghausen. Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: Raum, Wege, Startsignal, Lautstärke, Wetteroption, Wunschmusik und die Rolle der Musik.",
         "paragraphs": [
-          "Herne liegt mitten im Ruhrgebiet und passt zu Kulturabenden, Lesungen und nahbaren Konzertformaten.",
-          "Geeignet sind Lesung, Empfang, privates Konzert, Vernissage, Kulturabend oder ein kurzer Programmpunkt.",
-          "Timing, Eingang und Einsatzpunkt sollten klar gesetzt werden, weil viele Veranstaltungen kompakt laufen.",
-          "Das Publikum reagiert gut auf direkte Ansprache und warme musikalische Übergänge.",
-          "In Herne plane ich lieber präzise kurze Sets als ein zu langes Programm ohne Pause.",
-          "Für Viola Konzert Herne ist der Ton bewusst nahbar, klar und freundlich. Das Programm soll nicht wie ein beliebiger Musikblock wirken, sondern den Ort, den Anlass und die Aufmerksamkeit der Gäste aufnehmen.",
-          "Auch die Stille gehört zum Programm. Gerade bei Viola wirkt ein bewusst gesetzter Zwischenraum oft stärker als ein weiterer schneller Wechsel."
+          "Typische Rahmen sind Galerie, Salon, Kulturraum, Lesung, Vernissage, privater Konzertabend oder Empfang. Je nach Ort ist entscheidend, ob Musik sammelt, einen einzelnen Moment trägt oder über mehrere kurze Sets Atmosphäre schafft.",
+          "Ich kläre vorab nicht nur Stücke, sondern auch praktische Punkte: genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Diese Details entscheiden oft, ob der erste Ton ruhig beginnt oder unter Zeitdruck steht.",
+          "Gerade in Herne wirkt Solo-Viola stark, weil sie wenig Aufbau braucht, nah klingt und sich flexibel an kleinere Räume, größere Feiern oder kurze Übergänge anpassen lässt."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Herne mit Kim Marie Borger und Viola"
-        },
-        "imageFirst": false,
-        "eyebrow": "Lokaler Rahmen"
-      },
-      {
-        "title": "Viola Konzert Herne im Ablauf sinnvoll einsetzen.",
-        "lede": "Ein Konzertprogramm braucht nicht viele Stücke, sondern eine innere Richtung: ein Anfang, der den Raum öffnet, eine Mitte mit Tiefe und ein Schluss, der das Publikum nicht abrupt entlässt.",
-        "paragraphs": [
-          "Kurze Anmoderationen können helfen, besonders wenn das Publikum nicht aus einem klassischen Konzertkontext kommt.",
-          "Ich beginne die Planung mit der Frage, ob das Publikum wirklich zuhört oder ob Musik Kunst, Text, Empfang oder Gespräch rahmt. Daraus ergibt sich ein anderes Tempo und eine andere Stücklänge.",
-          "Bei Vernissagen in Herne darf die Musik den Blick auf Kunst nicht versperren. Kurze Sets, klare Pausen und eine seitliche Position sind oft stärker als ein durchgehendes Konzert.",
-          "Bei Lesungen in Herne achte ich auf Atemräume. Die Viola kann vor einem Text sammeln, nach einem Abschnitt nachklingen oder einen Themenwechsel weich vorbereiten.",
-          "Für Salonkonzerte in Herne plane ich persönlicher: mit Nähe zum Publikum, möglichen Anmoderationen und einer Stückfolge, die auch ohne großes Bühnenbild trägt.",
-          "Bei Empfangs- oder Eventformaten verändert sich die Aufgabe: Musik soll Qualität zeigen, aber den Anlass nicht übernehmen. Dann sind modulare Sets oft sinnvoller als ein langer Block."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Herne mit Kim Marie Borger und Viola"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Die Viola eignet sich für diese Formate, weil sie warm und ungewöhnlich klingt. Sie braucht wenig Fläche, kann akustisch sehr direkt wirken und ist trotzdem flexibel genug für unterschiedliche Räume.",
-        "paragraphs": [
-          "Wenn ein Wunschstück eingebunden werden soll, prüfe ich, ob es solo trägt und an welcher Stelle es dramaturgisch sinnvoll ist. Nicht jedes bekannte Stück wirkt ohne Begleitung gleich stark.",
-          "Für eine Anfrage reichen Datum, Ort, Raumart, Publikum, gewünschte Länge und grober Ablauf. Danach kann ich einschätzen, ob ein kurzes Kulturset, ein moderiertes Programm oder ein Salonabend passt.",
-          "Wer in Herne anfragt, hat meistens schon einen konkreten Rahmen vor Augen. zentrale Ruhrgebietslage, kompakte Veranstaltungsorte und persönliche Kulturformate bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
-          "Die wichtigste Vorbereitung in Herne: Timing, Eingang und Einsatzpunkt, weil viele Ablaeufe dicht geplant sind. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden.",
-          "Typisch für Herne sind Gäste, die direkte Ansprache und warme Übergänge schätzen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-          "Bei Konzerten und Kulturformaten zählen Raumklang, Aufmerksamkeit, Thema, Programmlänge und die Balance zwischen Kunst und Begegnung. In Herne übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Herne mit Kim Marie Borger und Viola"
+          "alt": "Viola für Konzert und Kulturabend in Herne - Bild 1"
         },
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Der Unterschied zu Wuppertal liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
+        "eyebrow": "Ablauf",
+        "title": "So wird Viola Konzert in Herne sinnvoll eingesetzt.",
+        "lede": "Ein guter lokaler Ablauf entsteht aus wenigen klaren Entscheidungen. Statt einfach eine lange Stückliste zu spielen, legen wir fest, welche musikalischen Momente wirklich Aufgabe und Bedeutung haben.",
         "paragraphs": [
-          "Für die Anfrage sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Herne passt und den Ablauf nicht künstlich aufbläht.",
-          "Wenn Viola Konzert Herne mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-          "Bei knappen Zeitfenstern in Herne ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt.",
-          "Der Unterschied zu Langenfeld liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt."
+          "Mögliche Einsatzpunkte sind Ankommen, kuratierter Konzertblock, moderierter Übergang und Ausklang oder Empfang. Daraus entsteht ein Plan, der zum Anlass passt und Pausen, Worte, Wege und Gäste nicht überdeckt.",
+          "Für Herne ist die genaue Adresse wichtig, weil zwischen Schloss Strünkede, Wanne-Eickel, Bochum und Recklinghausen je nach Location andere Wege, Raumgrößen und Zeitfenster bedeuten kann.",
+          "Wenn mehrere Programmpunkte begleitet werden, plane ich kurze Spannungswechsel: ein ruhiger Beginn, ein tragender Kern und danach entweder ein heller Abschluss oder eine dezente Rücknahme."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola Konzert in Herne mit Kim Marie Borger und Viola"
+          "alt": "Viola für Konzert und Kulturabend in Herne - Bild 2"
+        },
+        "imageFirst": true
+      },
+      {
+        "eyebrow": "Anfrage & Preisrahmen",
+        "title": "Was ich für eine gute Anfrage in Herne brauche.",
+        "lede": "Die Kontaktaufnahme ist kostenlos und unverbindlich. Ein Preis entsteht erst, wenn Dauer, Ort, Aufwand, Wunschmusik, Anfahrt und Rahmen klar genug sind, damit ich ehrlich einschätzen kann, was sinnvoll ist.",
+        "paragraphs": [
+          "Hilfreich sind: Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Damit kann ich Verfügbarkeit, passenden Umfang und einen realistischen Preisrahmen einschätzen.",
+          "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
+          "Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klären wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin in Herne machbar ist."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Viola für Konzert und Kulturabend in Herne - Bild 3"
+        },
+        "imageFirst": false
+      },
+      {
+        "eyebrow": "Beispiel",
+        "title": "Ein realistischer Ablauf in Herne.",
+        "lede": "Ein Kulturabend in Herne kann aus einem kurzen kuratierten Block, einer persönlichen Anmoderation und einem offenen Ausklang bestehen.",
+        "paragraphs": [
+          "Wenn Raum und Publikum eher klein sind, funktioniert ein konzentriertes Programm oft stärker als ein zu langer Abend mit zu vielen Stilen.",
+          "So bleibt die Seite für Herne praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson und nächstem Schritt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Viola für Konzert und Kulturabend in Herne - Bild 4"
         },
         "imageFirst": true
       }
@@ -91,99 +82,103 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Viola Konzert Herne",
+    "title": "FAQ zu Viola Konzert in Herne",
     "items": [
       {
-        "question": "Spielst du Viola-Konzerte in Herne?",
-        "answer": "Ja. Ich gestalte Konzerte, Vernissagen, Lesungen, Salonabende, Kulturprogramme und besondere Eventformate in Herne mit Solo-Viola.",
+        "question": "Spielst du Konzerte und Kulturformate in Herne?",
+        "answer": "Ja. Ich gestalte Viola-Programme für Konzerte, Vernissagen, Lesungen, Kulturabende, private Events und Empfänge in Herne.",
         "open": true
       },
       {
-        "question": "Welche Formate passen in Herne?",
-        "answer": "Geeignet sind Lesung, Empfang, privates Konzert, Vernissage, Kulturabend oder ein kurzer Programmpunkt. Die genaue Länge hängt davon ab, ob das Publikum zuhören, ankommen, Kunst betrachten oder zwischen Textblöcken wechseln soll."
-      },
-      {
-        "question": "Was ist organisatorisch in Herne wichtig?",
-        "answer": "Timing, Eingang und Einsatzpunkt sollten klar gesetzt werden, weil viele Veranstaltungen kompakt laufen."
-      },
-      {
-        "question": "Ist das eher Konzert oder Begleitung?",
-        "answer": "Beides ist möglich. Der Unterschied liegt im Fokus: Beim Konzert hört das Publikum bewusst zu, bei Begleitung rahmt die Musik andere Inhalte."
-      },
-      {
-        "question": "Brauchst du Technik?",
-        "answer": "In vielen Räumen reicht akustische Viola mit gutem Licht. Bei größeren Räumen oder offenen Flächen bespreche ich dezente Verstärkung."
-      },
-      {
-        "question": "Kann das Programm klassisch und modern sein?",
-        "answer": "Ja. Ich kombiniere klassische Stücke, romantische Miniaturen, moderne Linien oder persönliche Wünsche so, dass ein schlüssiger Bogen entsteht."
-      },
-      {
-        "question": "Warum passt Solo-Viola für Viola Konzert Herne?",
-        "answer": "Die Viola klingt warm, nah und selten genug, um Aufmerksamkeit zu wecken. Gleichzeitig bleibt sie schlank genug für kleine Räume, Galerien und private Konzertformate."
-      },
-      {
         "question": "Welche Angaben helfen für eine Anfrage in Herne?",
-        "answer": "Hilfreich sind Datum, Ort, Anlass, gewünschte Länge, Raumgröße, Publikum, Ablauf, Lichtsituation und ob Moderation gewünscht ist."
+        "answer": "Am hilfreichsten sind Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
       },
       {
-        "question": "Welche Details sind für Viola Konzert Herne besonders wichtig?",
-        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Herne plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
+        "question": "Ist die Kontaktaufnahme kostenlos?",
+        "answer": "Ja. Die Anfrage und erste Klärung sind kostenlos und unverbindlich. Kostenloses Vorspielen vor Ort ist damit nicht gemeint."
       },
       {
-        "question": "Wie wird die Musik in Herne konkret geplant?",
-        "answer": "Hilfreich sind Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
+        "question": "Wie entsteht der Preis?",
+        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Vorbereitung, Wunschmusik und Aufwand. Ich nenne keinen pauschalen Fantasiepreis, sondern kläre den Rahmen persönlich."
+      },
+      {
+        "question": "Sind Wunschstücke möglich?",
+        "answer": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+      },
+      {
+        "question": "Was ist in Herne organisatorisch wichtig?",
+        "answer": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Herne steht hier für konkrete Orte und Wege zwischen Schloss Strünkede, Wanne-Eickel, Bochum und Recklinghausen. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
+      },
+      {
+        "question": "Kannst du ein Programm anmoderieren?",
+        "answer": "Ja. Kurze persönliche Anmoderationen können ein Programm zugänglicher machen, ohne den musikalischen Fokus zu verlieren."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola Konzert in Herne mit Kim Marie Borger und Viola"
+      "alt": "Viola für Konzert und Kulturabend in Herne - Bild 1"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Herne - Bild 2"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Herne - Bild 3"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Konzert und Kulturabend in Herne - Bild 4"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.",
   "contact": {
-    "eyebrow": "Konzert anfragen",
-    "title": "Viola Konzert Herne anfragen",
-    "lead": "Schick mir Datum, Ort, Format und gewünschte Programmlänge in Herne. Ich melde mich mit einer passenden Idee für Solo-Viola.",
+    "eyebrow": "Viola-Programm anfragen",
+    "title": "Viola Konzert in Herne anfragen",
+    "lead": "Schreib mir kurz Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
     "checklist": [
-      "Viola Konzert Herne",
-      "Konzert, Vernissage oder Lesung",
-      "Raum, Publikum & Programmlänge"
+      "Herne",
+      "Datum & Ort",
+      "Viola Konzert",
+      "Preis nach Rahmen"
     ],
-    "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt ein Viola-Programm in Herne?",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für ein Viola Konzert in Herne."
+    "formEyebrow": "Details senden",
+    "formTitle": "Verfügbarkeit und Preisrahmen in Herne klären",
+    "formSuccess": "Danke - ich prüfe deine Anfrage in Herne und melde mich persönlich mit den nächsten Schritten."
   },
   "focus": {
-    "eyebrow": "Programmidee",
-    "title": "Ein möglicher Bogen für Viola Konzert Herne.",
-    "heading": "Programm",
-    "subtitle": "Viola-Abend Herne",
+    "eyebrow": "Planung in Herne",
+    "title": "Vier Punkte, die Viola Konzert in Herne konkret machen.",
+    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
     "items": [
       {
-        "title": "Auftakt: ein ruhiger Raumöffner",
-        "detail": "Bach, Telemann oder eine freie Prélude-Idee für nahbar, klar und freundlich"
+        "time": "1",
+        "kicker": "Ort",
+        "title": "Adresse und Raum in Herne klären",
+        "text": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. So weiß ich, wie viel Zeit für Ankunft, Stimmen und Aufbau realistisch ist."
       },
       {
-        "title": "Erzählende Mitte",
-        "detail": "Romantische Miniatur oder modernes Stück für Das Publikum reagiert gut auf direkte Ansprache und warme musikalische Übergänge."
+        "time": "2",
+        "kicker": "Moment",
+        "title": "Musikalische Aufgabe festlegen",
+        "text": "Wir entscheiden, ob die Musik sammelt, einen Höhepunkt trägt, Gespräche begleitet oder als eigener Programmpunkt wirken soll."
       },
       {
-        "title": "Kurzer Übergang",
-        "detail": "Moderation, Textbezug oder bewusste Stille"
+        "time": "3",
+        "kicker": "Stücke",
+        "title": "Repertoire und Wunschmusik prüfen",
+        "text": "Viele passende Stücke sind ohne Aufpreis möglich. Bei einem Lied ohne verwendbare Noten bespreche ich vorher, ob ein neues Arrangement sinnvoll ist und welcher Zusatzaufwand entsteht."
       },
       {
-        "title": "Kontrast mit Bewegung",
-        "detail": "Piazzolla, Tanzform oder zeitgenössische Farbe"
-      },
-      {
-        "title": "Ausklang",
-        "detail": "Zugabe oder persönliches Wunschstück für in Herne"
+        "time": "4",
+        "kicker": "Rahmen",
+        "title": "Preis und Buchung ehrlich abstimmen",
+        "text": "Die Anfrage ist kostenlos. Der Preis richtet sich nach Dauer, Ort, Vorbereitung, Wunschmusik, Anfahrt und Aufwand - nicht nach einem pauschalen Versprechen."
       }
     ],
-    "footnote": "Das konkrete Programm für Viola Konzert Herne wird nach Raum, Anlass, Publikum und gewünschter Dauer zusammengestellt."
+    "footnote": "Für Herne sind besonders genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort hilfreich."
   },
   "elegy": {
     "passages": []

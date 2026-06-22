@@ -4,7 +4,8 @@
  * - srcset über Vercel Image Optimization (AVIF/WebP, responsive Breiten)
  * - width/height aus dem Build-Manifest gegen Layout-Shift (CLS)
  * - außerhalb von Vercel (lokal): unverändertes Originalbild
- * Alle weiteren Attribute (class, loading, data-tina-field, …) werden
+ * Standard: lazy/async, außer das Bild ist explizit als LCP/Priorität markiert.
+ * Alle weiteren Attribute (class, data-tina-field, …) werden
  * 1:1 durchgereicht.
  */
 import { buildSrcset, imageDims, isOptimizable, normalizeSrc, onVercel } from '../lib/img';
@@ -17,21 +18,66 @@ interface Props {
 	[key: string]: unknown;
 }
 
-const { src: rawSrc, alt = '', sizes = '100vw', quality = 75, ...rest } = Astro.props;
+const {
+	src: rawSrc,
+	alt = '',
+	sizes = '100vw',
+	quality = 75,
+	loading: rawLoading,
+	decoding: rawDecoding,
+	fetchpriority: rawFetchPriority,
+	...rest
+} = Astro.props;
 
 const src = normalizeSrc(rawSrc);
 const dims = imageDims(src);
 const optimized = onVercel && isOptimizable(src);
 const set = optimized ? buildSrcset(src as string, quality) : undefined;
+const fetchPriority = rawFetchPriority === 'high' || rawFetchPriority === 'low' || rawFetchPriority === 'auto'
+	? rawFetchPriority
+	: undefined;
+const priority = fetchPriority === 'high';
+const loading = rawLoading === 'eager' || rawLoading === 'lazy'
+	? rawLoading
+	: (priority ? 'eager' : 'lazy');
+const decoding = rawDecoding === 'sync' || rawDecoding === 'async' || rawDecoding === 'auto'
+	? rawDecoding
+	: 'async';
+const deferImage = !priority && loading !== 'eager';
+const actualSrc = set ? set.fallback : src;
+const actualSrcset = set?.srcset;
+const placeholderSrc = 'data:image/gif;base64,R0lGODlhAQABAAAAACw=';
 ---
 {src && (
 	<img
-		src={set ? set.fallback : src}
-		srcset={set?.srcset}
-		sizes={set ? sizes : undefined}
+		src={deferImage ? placeholderSrc : actualSrc}
+		srcset={deferImage ? undefined : actualSrcset}
+		sizes={!deferImage && set ? sizes : undefined}
+		data-src={deferImage ? actualSrc : undefined}
+		data-srcset={deferImage ? actualSrcset : undefined}
+		data-sizes={deferImage && set ? sizes : undefined}
+		data-defer-image={deferImage ? 'true' : undefined}
 		alt={alt}
 		width={dims?.width}
 		height={dims?.height}
+		loading={loading}
+		decoding={decoding}
+		fetchpriority={fetchPriority}
 		{...rest}
 	/>
+)}
+{src && deferImage && (
+	<noscript>
+		<img
+			src={actualSrc}
+			srcset={actualSrcset}
+			sizes={set ? sizes : undefined}
+			alt={alt}
+			width={dims?.width}
+			height={dims?.height}
+			loading={loading}
+			decoding={decoding}
+			{...rest}
+		/>
+	</noscript>
 )}

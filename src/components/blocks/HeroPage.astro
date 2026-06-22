@@ -6,7 +6,7 @@ const { data } = Astro.props;
 const titleLines: string[] = (data.title ?? '').split('\n');
 ---
 <section class="hero hero-page">
-	<div class="hero-photo"><Img data-parallax="0.12" src={data.image?.src} alt={data.image?.alt ?? ''} sizes="100vw" fetchpriority="high" decoding="async" data-tina-field={tinaFieldFrom(data, 'image')} /></div>
+	<div class="hero-photo"><Img src={data.image?.src} alt={data.image?.alt ?? ''} sizes="100vw" fetchpriority="high" decoding="async" data-tina-field={tinaFieldFrom(data, 'image')} /></div>
 	<div class="hero-scrim" aria-hidden="true"></div>
 	<div class="hero-mat" aria-hidden="true"></div>
 	<div class="hero-content">

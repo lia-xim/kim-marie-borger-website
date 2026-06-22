@@ -4,6 +4,7 @@ import TinaIsland from '@tinacms/astro/TinaIsland.astro';
 import PageBody from '../components/islands/PageBody.astro';
 import { getConfig, getPage } from '../lib/data';
 import { islands } from '../lib/islands';
+import { firstBlockImage } from '../lib/seo';
 
 const slug = 'home';
 const page = await getPage(slug);
@@ -15,7 +16,7 @@ const config = (await getConfig()).data?.config ?? null;
 <Base
 	title={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
 	description={data.seoDescription || config?.seo?.description || ''}
-	image="/og-default.png"
+	image={firstBlockImage(data) ?? '/og-default.png'}
 	imageAlt="Kim Marie Borger mit Viola"
 	bodyClass={data.bodyClass ?? undefined}
 >

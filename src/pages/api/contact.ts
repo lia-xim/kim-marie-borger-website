@@ -27,6 +27,9 @@ export const POST: APIRoute = async ({ request }) => {
 
 	const name = str(body.name, 200);
 	const email = str(body.email, 200);
+	const occasion = str(body.anlass, 200);
+	const date = str(body.datum, 200);
+	const place = str(body.ort, 300);
 	const message = str(body.nachricht, 5000);
 
 	if (!name || !email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -50,7 +53,17 @@ export const POST: APIRoute = async ({ request }) => {
 			to: [to],
 			reply_to: email,
 			subject: `Neue Anfrage über die Website von ${name}`,
-			text: `Name: ${name}\nE-Mail: ${email}\n\nNachricht:\n${message || '(keine Nachricht)'}\n`,
+			text: [
+				`Name: ${name}`,
+				`E-Mail: ${email}`,
+				`Anlass: ${occasion || '(nicht angegeben)'}`,
+				`Datum / Zeitraum: ${date || '(nicht angegeben)'}`,
+				`Ort / Location: ${place || '(nicht angegeben)'}`,
+				'',
+				'Nachricht:',
+				message || '(keine Nachricht)',
+				'',
+			].join('\n'),
 		}),
 	});
 

@@ -158,6 +158,20 @@ export function getSeoPageOverrideByPath(
 	return override;
 }
 
+export function mergeSeoPageOverrides(
+	fallback?: SeoPageOverride,
+	primary?: SeoPageOverride,
+): SeoPageOverride | undefined {
+	if (!fallback) return primary;
+	if (!primary) return fallback;
+	return {
+		...fallback,
+		...primary,
+		seoTitle: primary.seoTitle ?? fallback.seoTitle,
+		seoDescription: primary.seoDescription ?? fallback.seoDescription,
+	};
+}
+
 export function applySeoPageOverride(data: PageData, override?: SeoPageOverride): PageData {
 	if (!override) return data;
 	const clone = { ...data };

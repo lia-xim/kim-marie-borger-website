@@ -183,7 +183,7 @@ em.ink{ font-style:italic; color:var(--bordeaux); }
    ================================================================= */
 .hero{ position:relative; min-height:100svh; display:flex; align-items:flex-end; overflow:hidden; background:var(--olive-2); }
 .hero-photo{ position:absolute; inset:0; z-index:1; }
-.hero-photo img{ width:100%; height:100%; object-fit:cover; object-position:50% 32%; transform:scale(1.08); animation:ken 26s ease-in-out infinite alternate; }
+.hero-photo img{ width:100%; height:100%; object-fit:cover; object-position:50% 32%; }
 @keyframes ken{ from{ transform:scale(1.06) translateY(0); } to{ transform:scale(1.16) translateY(-1.6%); } }
 .hero-scrim{ position:absolute; inset:0; z-index:2; pointer-events:none;
   background:
@@ -464,6 +464,7 @@ em.ink{ font-style:italic; color:var(--bordeaux); }
 .field textarea{ resize:vertical; min-height:120px; }
 .field select{ appearance:none; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23847460'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right 14px center; }
 .row-2{ display:grid; grid-template-columns:1fr 1fr; gap:0 20px; }
+.row-3{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:0 16px; }
 .form-ok{ display:none; padding:16px; border:1px solid var(--bordeaux); border-radius:5px; background:rgba(107,35,54,.08); color:var(--bordeaux); margin-top:8px; font-size:14px; }
 @media (max-width:860px){ .contact-card{ grid-template-columns:1fr; } }
 
@@ -518,7 +519,7 @@ em.ink{ font-style:italic; color:var(--bordeaux); }
   .footer-top{ grid-template-columns:1fr; gap:30px; }
   .footer-bottom{ flex-direction:column; align-items:flex-start; }
   .track{ grid-template-columns:26px 1fr auto; } .track .tg{ display:none; }
-  .row-2{ grid-template-columns:1fr; }
+  .row-2,.row-3{ grid-template-columns:1fr; }
 }
 
 /* =================================================================
@@ -1375,7 +1376,8 @@ a,button,summary{ touch-action:manipulation; }
    PERFORMANCE-OVERRIDE (bewusste Design-Entscheidung, Juni 2026):
    Die Hero-Intro-Animationen (aufsteigender Name, verzögertes Einblenden)
    kosteten ~1,2 s LCP. Speed > Animation — Hero-Inhalte rendern sofort.
-   Der Ken-Burns-Effekt des Hero-Fotos bleibt (kostet kein LCP).
+   Auch das Hero-Foto bleibt im ersten Viewport statisch: keine Parallax- oder
+   Ken-Burns-Arbeit auf dem LCP-Pfad.
    ===================================================================== */
 .ho{ opacity:1 !important; animation:none !important; }
 .hero-name .t{ transform:none !important; animation:none !important; letter-spacing:-.02em !important; }

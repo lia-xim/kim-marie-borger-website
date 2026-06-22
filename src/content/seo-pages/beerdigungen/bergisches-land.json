@@ -8,243 +8,125 @@
   "priority": "P3",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Trauermusik Bergisches Land | Live-Viola für Abschied",
-  "seoDescription": "Trauermusik Bergisches Land: Solo-Viola für Trauerfeier, Beerdigung, Bestattung und letzten Abschied. Ruhig geplant und persönlich abgestimmt.",
+  "seoTitle": "Trauermusik Bergisches Land | Viola für Abschied",
+  "seoDescription": "Trauermusik Bergisches Land: würdevolle Viola für Trauerfeier, Beerdigung und Abschied im Bergischen Land. Schnelle Rückmeldung.",
   "hero": {
-    "eyebrow": "Abschied im Bergischen Land",
-    "title": "Trauermusik im Bergischen Land, die den Abschied ruhig trägt.",
-    "lead": "Ob Trauerfeier, Beerdigung, Bestattung oder letzter Abschied: Ich begleite Abschiede im Bergischen Land mit Solo-Viola, abgestimmt auf Ort, Ablauf und die Menschen, die Abschied nehmen.",
-    "badge": "Behutsam geplant & persönlich abgestimmt"
+    "eyebrow": "Beerdigung & Trauerfeier im Bergischen Land",
+    "title": "Trauermusik im Bergischen Land für einen würdevollen Abschied.",
+    "lead": "Warme Viola-Klaenge für Trauerhalle, Kirche, Kapelle, Friedhof oder freie Abschiedsfeier im Bergischen Land - ruhig, behutsam und zuverlässig abgestimmt.",
+    "badge": "Schnelle Rückmeldung zur Verfügbarkeit"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
     "title": "FAQ zu Trauermusik im Bergischen Land",
     "items": [
       {
-        "question": "Spielst du Trauermusik im Bergischen Land?",
-        "answer": "Ja. Ich begleite Abschiede im Bergischen Land mit Solo-Viola, je nach Ablauf in Trauerhalle, Kirche, Kapelle, am Friedhof oder bei einer freien Abschiedsfeier.",
+        "question": "Begleitest du Trauerfeiern im Bergischen Land?",
+        "answer": "Ja. Ich spiele Trauermusik im Bergischen Land in Trauerhallen, Kirchen, Kapellen, am Grab oder bei freien Abschiedsfeiern.",
         "open": true
       },
       {
-        "question": "Was ist bei Trauermusik im Bergischen Land besonders wichtig?",
-        "answer": "Für das Bergische Land klären wir früh, ob Musik im Freien wirklich sinnvoll ist und wo ein ruhiger, trockener Alternativplatz liegt."
+        "question": "Welche Angaben helfen für eine Anfrage im Bergischen Land?",
+        "answer": "Am hilfreichsten sind Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
       },
       {
-        "question": "Kannst du dich mit dem Bestattungshaus abstimmen?",
-        "answer": "Ja. Ablauf, Ankunft, Platzierung, Einsätze und Rückfragen kann ich direkt mit Bestattungshaus, Trauerrednerin, Pfarrer oder Kontaktperson klären."
+        "question": "Ist die Kontaktaufnahme kostenlos?",
+        "answer": "Ja. Die Anfrage und erste Klärung sind kostenlos und unverbindlich. Kostenloses Vorspielen vor Ort ist damit nicht gemeint."
       },
       {
-        "question": "Welche Stücke passen zur Trauerfeier?",
-        "answer": "Häufig passen ein klassisches Stück, ein moderner Song in ruhiger Fassung und ein kurzer Auszug. Entscheidend ist, dass das Stück zur Person und zur konkreten Stelle im Ablauf passt."
+        "question": "Wie entsteht der Preis?",
+        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Vorbereitung, Wunschmusik und Aufwand. Ich nenne keinen pauschalen Fantasiepreis, sondern kläre den Rahmen persönlich."
       },
       {
-        "question": "Ist Musik draußen am Grab möglich?",
-        "answer": "Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Oft ist am Grab ein kurzer, sehr reduzierter Einsatz am passendsten."
+        "question": "Sind Wunschstücke möglich?",
+        "answer": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
       },
       {
-        "question": "Wie viele Musikstücke sind sinnvoll?",
-        "answer": "Häufig reichen zwei bis vier Einsätze. Ein Stück zum Beginn, ein ruhiger Moment nach Worten und Musik zum Auszug sind oft stimmiger als ein zu dichtes Programm."
+        "question": "Was ist im Bergischen Land organisatorisch wichtig?",
+        "answer": "Wichtig sind konkrete Stadt, Fahrtstrecke, Zeitpuffer, Treffpunkt, Raumtyp und eine Kontaktperson vor Ort. Bergisches Land ist eine größere Region zwischen Wuppertal, Solingen, Remscheid, Bergisch Gladbach und grünen Höhen. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
       },
       {
-        "question": "Kann die Musik sehr dezent bleiben?",
-        "answer": "Ja. Die Viola kann leise und nah spielen. Gerade bei Trauerfeiern ist Zurückhaltung oft wichtiger als Lautstärke oder ein besonders langer musikalischer Beitrag."
-      },
-      {
-        "question": "Welche Angaben brauchst du für eine Anfrage?",
-        "answer": "Hilfreich sind Datum, Uhrzeit, genauer Trauerort im Bergischen Land, der geplante Ablauf und ein Hinweis, ob Musik nur in der Trauerfeier oder auch am Grab gewünscht ist. Wenn es bereits ein Wunschstück gibt, prüfe ich direkt, ob es für Solo-Viola passt."
-      },
-      {
-        "question": "Sind kurzfristige Anfragen möglich?",
-        "answer": "Oft ja. Für Abschiede im Bergischen Land melde ich mich schnell zurück, sobald Datum, Ort und ungefähre Uhrzeit feststehen."
-      },
-      {
-        "question": "Welche Details sind für Trauermusik Bergisches Land besonders wichtig?",
-        "answer": "Wichtig sind der genaue Ort, die Raumgröße, der Ablauf, mögliche Wege zwischen den Programmpunkten und die Rolle der Musik. In Bergisches Land plane ich diese Punkte so, dass Klang, Timing und Aufbau zum Anlass passen."
-      },
-      {
-        "question": "Wie wird die Musik in Bergisches Land konkret geplant?",
-        "answer": "Hilfreich sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Danach kann ich einschätzen, ob ein einzelner Einsatz, mehrere kurze Sets oder eine längere Begleitung sinnvoll ist."
+        "question": "Kann die Abstimmung über das Bestattungshaus laufen?",
+        "answer": "Ja. Ablauf, Ankunft, Einsätze und Stückauswahl kläre ich gern direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie entlastet ist."
       }
     ]
   },
   "imageAlts": [
     {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Viola für Trauermusik im Bergischen Land - Bild 1"
+    },
+    {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
-      "alt": "Live-Viola als Trauermusik im Bergischen Land 1"
+      "alt": "Viola für Trauermusik im Bergischen Land - Bild 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola als Trauermusik im Bergischen Land 2"
+      "alt": "Viola für Trauermusik im Bergischen Land - Bild 3"
+    },
+    {
+      "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
+      "alt": "Viola für Trauermusik im Bergischen Land - Bild 4"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik im Bergischen Land anfragen",
-    "lead": "Schickt mir Datum, Trauerort im Bergischen Land, Ablauf und mögliche Wunschstücke. Ich melde mich ruhig und zeitnah mit einer realistischen musikalischen Einschätzung.",
+    "lead": "Schreib mir kurz Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
     "checklist": [
       "Bergisches Land",
-      "Trauerfeier oder Grab",
-      "Wunschstück"
+      "Datum & Ort",
+      "Trauermusik",
+      "Preis nach Rahmen"
     ],
-    "formEyebrow": "Termin prüfen",
-    "formTitle": "Trauermusik im Bergischen Land anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer behutsamen Idee für Trauermusik im Bergischen Land."
+    "formEyebrow": "Details senden",
+    "formTitle": "Verfügbarkeit und Preisrahmen im Bergischen Land klären",
+    "formSuccess": "Danke - ich prüfe deine Anfrage im Bergischen Land und melde mich persönlich mit den nächsten Schritten."
   },
   "split": {
     "seal": "Bergisches Land\nTrauerfeier & Abschied\nLive-Viola",
-    "sections": [
-      {
-        "title": "Trauermusik im Bergischen Land braucht Ruhe, Timing und verlässliche Abstimmung.",
-        "lede": "Bergisches Land bedeutet für Abschiede oft: Höhenlagen, kleine Orte, Friedhöfe und stille Abschiede zwischen Wupper und Dhünn. Deshalb plane ich Trauermusik nicht pauschal, sondern nach Trauerort, Raumklang, Weglänge und dem Punkt, an dem Musik wirklich helfen kann.",
-        "paragraphs": [
-          "Typische Rahmen sind Trauerhalle, Kirche, Kapelle, Hof oder Abschied im kleinen Kreis. Dort wirkt die Viola besonders gut, wenn sie gezielt eingesetzt wird: zum Beginn, nach Erinnerungsworten, während eines stillen Rituals, beim Auszug oder kurz am Grab.",
-          "Der Klang soll würdevoll, schlicht und nah sein. Solo-Viola bleibt nah an der menschlichen Stimme, braucht wenig Aufbau und kann auch in kleinen Kapellen, Trauerhallen oder draußen sehr direkt wirken.",
-          "Vorab klären wir, wer das Startsignal gibt und wann ein Stück enden darf. So entsteht kein Musikblock, sondern ein ruhiger Faden durch die Feier.",
-          "Für Bergisches Land kläre ich vorab auch die praktischen Details: Wetter, Wege und einen geschützten Platz für das Instrument früh klären. Das klingt nüchtern, entscheidet aber oft darüber, ob die Musik am Tag selbst still und sicher beginnen kann.",
-          "Ein Lieblingslied kann viel bedeuten, muss aber an der richtigen Stelle und in passender Länge erscheinen. Deshalb wählen wir nicht nur Stücke aus, sondern ordnen sie einem konkreten Punkt im Ablauf zu.",
-          "Das Repertoire kann ein klassisches Stück, ein moderner Song in ruhiger Fassung und ein kurzer Auszug verbinden. Wichtig ist, dass die Musik zur Person, zum Raum und zur Familie passt.",
-          "Die lokale Seite ist bewusst mehr als ein Ortsname: Wege, Akustik, Friedhofsablauf und Kontaktpersonen verändern die musikalische Planung.",
-          "Im Bergischen Land verändern Hügel, kleinere Friedhöfe, Kapellen, Höfe und wechselhaftes Wetter die Planung deutlich. Ich achte deshalb darauf, ob die Viola draußen geschützt steht und ob Wege über Kies, Wiese oder Steigung führen."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola als Trauermusik im Bergischen Land 2"
-        },
-        "imageFirst": false,
-        "eyebrow": "Lokaler Rahmen"
-      },
-      {
-        "title": "Trauermusik Bergisches Land im Ablauf sinnvoll einsetzen.",
-        "lede": "Für das Bergische Land klären wir früh, ob Musik im Freien wirklich sinnvoll ist und wo ein ruhiger, trockener Alternativplatz liegt.",
-        "paragraphs": [
-          "Viele Familien wünschen sich einen würdevollen Klang, aber keinen sichtbaren Konzertmoment. Deshalb halte ich Aufbau, Auftreten und Abstimmung so schlicht wie möglich.",
-          "Bei kurzfristigen Terminen helfen mir Datum, Uhrzeit, genaue Adresse, gewünschte Stücke und der Hinweis, ob Musik auch draußen geplant ist.",
-          "Der beste Platz ist nicht automatisch vorne. Manchmal trägt die Musik besser von der Seite, damit Blickachsen und Wege frei bleiben.",
-          "Zum Schluss geht es nicht um Wirkung, sondern um Halt. Ein schlichtes Ende hilft, wenn Menschen aufstehen, Blumen niederlegen oder aus der Halle gehen.",
-          "Bei Abschieden im Bergischen Land geht es nicht nur um die Liedauswahl. Entscheidend ist auch, ob die Musik vor der Ansprache, nach einem persönlichen Text, beim Auszug oder erst draußen ihren stärksten Platz hat.",
-          "Manchmal reicht ein einzelner musikalischer Gedanke. Gerade bei Beerdigungen kann ein kürzerer Ausschnitt stärker wirken als eine lange Fassung, wenn die Stimmung ohnehin sehr dicht ist.",
-          "Für Termine im Bergischen Land ist mir wichtig, dass die Musik nicht an organisatorischen Details hängt. Adresse, Ansprechpartner und Reihenfolge der Programmpunkte sollten vorab klar sein."
-        ],
-        "image": {
-          "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
-          "alt": "Live-Viola als Trauermusik im Bergischen Land 1"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Diese Ortsseite ersetzt keine allgemeine Repertoireseite. Sie beantwortet die lokale Frage: Wie lässt sich ein Abschied hier vor Ort musikalisch ruhig und zuverlässig begleiten?",
-        "paragraphs": [
-          "Wenn noch kein Stück feststeht, genügt eine Beschreibung der Stimmung: klassisch, modern, sehr schlicht, hoffnungsvoll oder besonders persönlich. Daraus lässt sich eine passende musikalische Richtung entwickeln.",
-          "Wenn Trauerhalle, Kirche, Kapelle, Hof oder Abschied im kleinen Kreis zusammenkommen, braucht die Musik eine klare Dramaturgie. Ein Stück kann den Anfang ordnen, ein zweites kann Erinnerung öffnen, und ein Schlussstück kann den Weg nach draußen halten.",
-          "Gerade draußen verändert sich der Klang schnell. Wind, Abstand und Bewegung auf dem Friedhof machen kurze, klare musikalische Formen oft sinnvoller als lange Fassungen.",
-          "Für Angehörige bedeutet das: Sie müssen keine perfekte musikalische Sprache finden. Es reicht, wenn sie erzählen, was der Moment ausdrücken soll; daraus kann ich eine passende musikalische Form ableiten.",
-          "Wenn mehrere Teile begleitet werden sollen, plane ich die Übergänge bewusst: ein stiller Beginn, ein kurzer Atemraum nach Worten, ein geführter Auszug und bei Bedarf ein sehr schlichter Moment am Grab.",
-          "Wer in Bergisches Land anfragt, hat meistens schon einen konkreten Rahmen vor Augen. Höhenlagen, Gutshoefer, Fachwerk, Kirchen, Villen und grüne Außenbereiche bringen andere Wege, Raumgrößen und Zeitfenster mit als eine abstrakte Leistungsseite.",
-          "Die wichtigste Vorbereitung in Bergisches Land: Wetteroption, Wege, Untergrund und geschützte Position für das Instrument. Wenn diese Punkte vorab klar sind, beginnt die Musik ruhiger und lässt sich besser mit Worten, Wegen, Empfang oder Unterrichtsstart verbinden."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola als Trauermusik im Bergischen Land 2"
-        },
-        "imageFirst": false
-      },
-      {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Typisch für Bergisches Land sind Menschen, die Nähe, Natur und kammermusikalische Ruhe schätzen. Darauf reagiere ich nicht mit mehr Programm, sondern mit einer genaueren Dosierung: manchmal reicht ein einzelner Schwerpunkt, manchmal sind kurze wiederkehrende Einsätze besser.",
-        "paragraphs": [
-          "Bei Abschieden geht es um Halt, Timing, Würde und darum, Angehoerige organisatorisch zu entlasten. In Bergisches Land übersetze ich das in konkrete Entscheidungen zu Position, Dauer, Lautstärke, Startsignal und Pausen.",
-          "Der Unterschied zu Solingen liegt selten in einem voellig anderen Repertoire. Wichtiger sind lokale Details wie Zugang, Raumklang, Wetteroption, Gästebewegung und die Frage, wie viel Präsenz der Moment verträgt.",
-          "Für die Anfrage sind Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist hilfreicher als eine lange Wunschliste. Aus diesen Angaben entsteht ein Vorschlag, der zu Bergisches Land passt und den Ablauf nicht künstlich aufbläht.",
-          "Wenn Trauermusik Bergisches Land mehrere Programmpunkte begleiten soll, plane ich kleine Spannungswechsel: erst Orientierung, dann ein tragender Mittelteil, danach ein offener Schluss oder eine dezente Ruecknahme.",
-          "Bei knappen Zeitfenstern in Bergisches Land ist weniger oft präziser. Ein gut gesetzter Einsatz wirkt stärker als ein zu langer Musikblock, der Reden, Gratulationen, Rituale oder Gespräche überdeckt."
-        ],
-        "image": {
-          "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
-          "alt": "Live-Viola als Trauermusik im Bergischen Land 1"
-        },
-        "imageFirst": true
-      }
-    ]
+    "sections": []
   },
   "elegy": {
-    "quote": "Trauermusik im Bergischen Land soll nicht erklären, sondern dem Abschied einen ruhigen Halt geben.",
+    "quote": "Trauermusik im Bergischen Land soll nicht größer sein als der Abschied - sie soll ihn halten.",
     "passages": [
       {
-        "strong": "Der Ort",
-        "text": "Höhenlagen, kleine Orte, Friedhöfe und stille Abschiede zwischen Wupper und Dhünn. Diese konkrete Umgebung beeinflusst, ob Musik eher im Raum, am Ausgang oder draußen am Grab sinnvoll ist."
+        "strong": "Lokaler Rahmen",
+        "text": "Bergisches Land ist eine größere Region zwischen Wuppertal, Solingen, Remscheid, Bergisch Gladbach und grünen Höhen. Für Trauerfeiern zählt vor Ort vor allem, ob der Abschied in Trauerhalle, Kirche, Kapelle, am Grab oder in einem freien Raum stattfindet. Danach richten sich Ankunft, Stücklänge, Position und Lautstärke."
       },
       {
-        "strong": "Der Klang",
-        "text": "Die Viola bleibt warm und zurückhaltend. Sie kann Trauer halten, ohne aus dem Abschied einen musikalischen Vortrag zu machen."
+        "strong": "Absprache",
+        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Wenn gewünscht, kläre ich Ablauf und Einsätze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt."
       },
       {
-        "strong": "Die Abstimmung",
-        "text": "Ich stimme mich bei Bedarf mit Bestattungshaus, Rednerin, Pfarrer oder Familie ab, damit Angehörige am Tag selbst nicht organisieren müssen."
-      },
-      {
-        "strong": "Lokaler Ablauf",
-        "text": "Bei Abschieden im Bergischen Land geht es nicht nur um die Liedauswahl. Entscheidend ist auch, ob die Musik vor der Ansprache, nach einem persönlichen Text, beim Auszug oder erst draußen ihren stärksten Platz hat. Für Termine im Bergischen Land ist mir wichtig, dass die Musik nicht an organisatorischen Details hängt. Adresse, Ansprechpartner und Reihenfolge der Programmpunkte sollten vorab klar sein."
-      },
-      {
-        "strong": "Bergisches Land konkret",
-        "text": "Im Bergischen Land verändern Hügel, kleinere Friedhöfe, Kapellen, Höfe und wechselhaftes Wetter die Planung deutlich. Ich achte deshalb darauf, ob die Viola draußen geschützt steht und ob Wege über Kies, Wiese oder Steigung führen."
-      },
-      {
-        "strong": "Praktische Details",
-        "text": "Für das Bergische Land klären wir früh, ob Musik im Freien wirklich sinnvoll ist und wo ein ruhiger, trockener Alternativplatz liegt."
-      },
-      {
-        "strong": "Räume und Wege",
-        "text": "Für Bergisches Land bedeutet Trauerhalle, Kirche, Kapelle, Hof oder Abschied im kleinen Kreis: Wetter, Wege und einen geschützten Platz für das Instrument früh klären. Der Rahmen Höhenlagen, kleine Orte, Friedhöfe und stille Abschiede zwischen Wupper und Dhünn verändert, ob die Musik nah bei den Angehörigen, am Ausgang, in einer Kapelle oder erst draußen sinnvoll wirkt."
-      },
-      {
-        "strong": "Wunschmusik",
-        "text": "Manchmal reicht ein einzelner musikalischer Gedanke. Gerade bei Beerdigungen kann ein kürzerer Ausschnitt stärker wirken als eine lange Fassung, wenn die Stimmung ohnehin sehr dicht ist. Gerade draußen verändert sich der Klang schnell. Wind, Abstand und Bewegung auf dem Friedhof machen kurze, klare musikalische Formen oft sinnvoller als lange Fassungen."
-      },
-      {
-        "strong": "Entlastung",
-        "text": "Für Angehörige bedeutet das: Sie müssen keine perfekte musikalische Sprache finden. Es reicht, wenn sie erzählen, was der Moment ausdrücken soll; daraus kann ich eine passende musikalische Form ableiten. Wenn noch kein Stück feststeht, genügt eine Beschreibung der Stimmung: klassisch, modern, sehr schlicht, hoffnungsvoll oder besonders persönlich. Daraus lässt sich eine passende musikalische Richtung entwickeln."
-      },
-      {
-        "strong": "Abgrenzung",
-        "text": "Diese Ortsseite ersetzt keine allgemeine Repertoireseite. Sie beantwortet die lokale Frage: Wie lässt sich ein Abschied hier vor Ort musikalisch ruhig und zuverlässig begleiten?"
+        "strong": "Wunschstück",
+        "text": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen. Gerade bei Abschieden bespreche ich vorher sehr klar, was musikalisch würdevoll machbar ist und welcher Aufwand entsteht."
       }
     ]
   },
   "solemn": {
-    "eyebrow": "Ablauf",
-    "title": "Wo Trauermusik im Bergischen Land sinnvoll wirken kann.",
-    "lead": "Die genaue Dramaturgie richtet sich nach Trauerort, Zeremonieform und dem gewünschten Abschiedston.",
+    "eyebrow": "Ablauf im Bergischen Land",
+    "title": "Trauermusik im Bergischen Land ruhig planen.",
+    "lead": "Der musikalische Rahmen richtet sich nach Ort, Abschiedsform und dem, was für die Familie wirklich hilfreich ist.",
     "cards": [
       {
-        "rom": "Beginn",
-        "title": "Den Raum sammeln",
-        "poet": "Ein ruhiges erstes Stück hilft, bevor die ersten Worte gesprochen werden.",
-        "list": [
-          "Ankommen",
-          "Kerze oder Foto",
-          "erster stiller Moment"
-        ]
+        "rom": "Vorab",
+        "title": "Ein Kontakt reicht",
+        "poet": "Datum, Uhrzeit, Trauerort, Ablauf und Wunschstücke genügen für den ersten Schritt. Die Anfrage ist kostenlos; der Preis wird nach Rahmen und Aufwand vereinbart."
       },
       {
-        "rom": "Abschluss",
-        "title": "Den Auszug halten",
-        "poet": "Ein schlichtes Schlussstück kann den Übergang aus Trauerhalle, Kirche oder Kapelle würdevoll führen.",
-        "list": [
-          "Auszug",
-          "Gang zum Grab",
-          "letzter Gruß"
-        ]
+        "rom": "Vor Ort",
+        "title": "Pünktlich, still, vorbereitet",
+        "poet": "Ich plane konkrete Stadt, Fahrtstrecke, Zeitpuffer, Treffpunkt, Raumtyp und eine Kontaktperson vor Ort, damit die Musik im Bergischen Land nicht unter Zeitdruck beginnt und der Abschied ruhig bleibt."
       }
     ],
-    "listLabel": "Mögliche Einsatzpunkte im Bergischen Land",
+    "listLabel": "Mögliche musikalische Momente im Bergischen Land",
     "list": [
-      "Beginn der Trauerfeier",
-      "nach persönlichen Erinnerungen",
-      "Kerzen- oder Blumenmoment",
-      "Auszug oder kurzer Moment am Grab"
+      "Einzug oder Beginn",
+      "Moment der Erinnerung",
+      "Abschied am Sarg oder an der Urne",
+      "Gang zum Grab oder stiller Ausklang"
     ]
   },
   "focus": {
