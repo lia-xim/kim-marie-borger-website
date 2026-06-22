@@ -38,6 +38,12 @@ const year = new Date().getFullYear();
 				<li><a href={normalizeHref('/ueber-mich')}>Über mich</a></li>
 				<li><a href={normalizeHref('/anfragen')}>Anfrage</a></li>
 			</ul></div>
+			<div><h4>Vor Ort</h4><ul>
+				<li><a href={normalizeHref('/hochzeiten/duesseldorf')}>Hochzeitsmusik Duesseldorf</a></li>
+				<li><a href={normalizeHref('/beerdigungen/wuppertal')}>Trauermusik Wuppertal</a></li>
+				<li><a href={normalizeHref('/unterricht/koeln')}>Bratschenunterricht Koeln</a></li>
+				<li><a href={normalizeHref('/firmenfeiern/duesseldorf')}>Firmenevent Musik Duesseldorf</a></li>
+			</ul></div>
 			<div><h4>Kontakt</h4><ul>
 				<li><a href={`mailto:${email}`}>{email}</a></li>
 				{footer?.instagram && <li><a href={footer.instagram} rel="noopener" target="_blank">Instagram</a></li>}

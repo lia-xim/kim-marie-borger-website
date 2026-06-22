@@ -1,0 +1,37 @@
+---
+import {
+	getRatgeberPagesForService,
+	ratgeberPath,
+} from '../lib/ratgeber';
+import { getLocalService } from '../lib/local-seo';
+
+interface Props {
+	serviceSlug: string;
+}
+
+const { serviceSlug } = Astro.props;
+const service = getLocalService(serviceSlug);
+const pages = getRatgeberPagesForService(serviceSlug);
+---
+
+{service && pages.length > 0 && (
+	<section class="section guide-related-links" aria-labelledby={`ratgeber-links-${service.slug}`}>
+		<div class="wrap">
+			<div class="local-links-head reveal">
+				<p class="eyebrow c">Ratgeber</p>
+				<h2 id={`ratgeber-links-${service.slug}`} class="display-m">
+					Wissen zu {service.parentLabel}
+				</h2>
+				<p class="lead">
+					Kurze, ruhige Orientierung für konkrete Planungsfragen, bevor es in Anfrage,
+					Repertoire oder Ortsseite geht.
+				</p>
+			</div>
+			<div class="local-link-cloud reveal d2">
+				{pages.map((page) => (
+					<a href={ratgeberPath(page)}>{page.shortTitle}</a>
+				))}
+			</div>
+		</div>
+	</section>
+)}

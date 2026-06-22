@@ -1,7 +1,15 @@
 import type { CmsPage } from './data';
 import { getLocalService, type LocalServiceSlug } from './local-seo';
 import { applySeoPageOverride, type SeoPageOverride } from './seo-overrides';
-import { canonicalUrl } from './url';
+import {
+	breadcrumbListNode,
+	coreServiceId,
+	graphJsonLd,
+	pageOfferNode,
+	pageUrl,
+	personId,
+	webPageNode,
+} from './schema';
 
 type PageData = NonNullable<CmsPage>;
 type AnyBlock = Record<string, any>;
@@ -1212,35 +1220,30 @@ export function buildTopicSeoPage(page: TopicSeoPage, basePage: PageData, overri
 }
 
 export function topicSeoJsonLd(site: URL, page: TopicSeoPage, override?: SeoPageOverride): object {
-	const url = canonicalUrl(site, topicPagePath(page)).href;
-	const parentUrl = canonicalUrl(site, `/${page.baseSlug}/`).href;
 	const parentName = getLocalService(page.serviceSlug)?.parentLabel ?? page.serviceSlug;
+	const pathname = topicPagePath(page);
+	const description = override?.seoDescription ?? page.seoDescription;
+	const offer = pageOfferNode(site, pathname, {
+		name: page.label,
+		description,
+		serviceSlug: page.serviceSlug,
+	});
+	const offerId = offer['@id'] as string;
 
-	return {
-		'@context': 'https://schema.org',
-		'@graph': [
-			{
-				'@type': 'BreadcrumbList',
-				'@id': `${url}#breadcrumb`,
-				itemListElement: [
-					{ '@type': 'ListItem', position: 1, name: 'Start', item: site.href },
-					{ '@type': 'ListItem', position: 2, name: parentName, item: parentUrl },
-					{ '@type': 'ListItem', position: 3, name: page.label, item: url },
-				],
-			},
-			{
-				'@type': 'Service',
-				'@id': `${url}#service`,
-				name: page.label,
-				description: override?.seoDescription ?? page.seoDescription,
-				serviceType: page.keyword,
-				provider: { '@id': new URL('/#person', site).href },
-				areaServed: { '@type': 'Country', name: 'Deutschland' },
-				url,
-				inLanguage: 'de',
-			},
-		],
-	};
+	return graphJsonLd([
+		breadcrumbListNode(site, pathname, [
+			{ name: 'Start', item: pageUrl(site, '/') },
+			{ name: parentName, item: pageUrl(site, `/${page.baseSlug}/`) },
+			{ name: page.label, item: pageUrl(site, pathname) },
+		]),
+		webPageNode(site, pathname, {
+			name: page.label,
+			description,
+			mainEntityId: offerId,
+			aboutIds: [personId(site), coreServiceId(site, page.serviceSlug)],
+		}),
+		offer,
+	]);
 }
 
 function rewriteTopicBlock(block: AnyBlock, page: TopicSeoPage): AnyBlock {

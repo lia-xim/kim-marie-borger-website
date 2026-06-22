@@ -71,6 +71,10 @@ npm run build:local
 | `npm run audit:prod` | Audit the production dependency surface |
 | `npm run audit:seo` | Generate SEO/content diagnostics |
 | `npm run qa:seo-pages` | Run SEO page island QA |
+| `npm run audit:seo:dist` | Run SEO diagnostics against `dist/client` explicitly |
+| `npm run audit:seo:vercel` | Run SEO diagnostics against `.vercel/output/static` explicitly |
+| `npm run qa:seo-pages:dist` | Run SEO page Tina QA against `dist/client` explicitly |
+| `npm run qa:seo-pages:vercel` | Run SEO page Tina QA against `.vercel/output/static` explicitly |
 | `npm run optimize:images` | Prepare uploaded images for the web |
 | `npm run optimize:audio` | Normalize master audio and export browser-ready MP3 files |
 
@@ -170,10 +174,17 @@ Run these before publishing meaningful changes:
 ```sh
 npm run audit:prod
 npm run build:local
+npm run audit:seo
+npm run qa:seo-pages
 ```
 
 GitHub Actions runs the same production audit and local build on pushes and
 pull requests to `main`.
+
+The SEO and Tina QA scripts auto-detect the newest valid static output from
+`dist/client` or `.vercel/output/static`. Use the explicit `:dist` or `:vercel`
+variants when you need to confirm a specific build artifact layout after an
+Astro or Vercel build.
 
 Note: full `npm audit` may still report dev-tooling advisories inside TinaCMS,
 Astro language tooling, or local editor dependencies. The production dependency

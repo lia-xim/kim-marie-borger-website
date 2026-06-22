@@ -5,136 +5,138 @@
   "route": "/beerdigungen/koeln/",
   "targetKeyword": "Trauermusik Köln",
   "intentCluster": "beerdigungen:local",
-  "priority": "P3",
-  "status": "risk-pass-2026-06-16-review-needed",
+  "priority": "P1",
+  "status": "manual-priority-local-seo-2026-06-22",
   "enabled": true,
   "seoTitle": "Trauermusik Köln | Viola für Abschied",
-  "seoDescription": "Trauermusik Köln: würdevolle Viola für Trauerfeier, Beerdigung und Abschied in Köln. Schnelle Rückmeldung.",
+  "seoDescription": "Trauermusik Köln: würdevolle Viola für Trauerfeier und Abschied in Köln. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
     "eyebrow": "Beerdigung & Trauerfeier in Köln",
-    "title": "Trauermusik in Köln für einen würdevollen Abschied.",
-    "lead": "Warme Viola-Klänge für Trauerhalle, Kirche, Kapelle, Friedhof oder freie Abschiedsfeier in Köln - ruhig, behutsam und zuverlässig abgestimmt.",
+    "title": "Trauermusik in Köln: ruhig geplant, nicht nur gebucht.",
+    "lead": "würdevolle Solo-Viola für Trauerfeier, Beerdigung und Abschied in Köln. Im Mittelpunkt stehen genauer Ort, Ablauf, Abstimmung mit Bestattungshaus oder Redner:in und ein Klang, der nicht drängt.",
     "badge": "Schnelle Rückmeldung zur Verfügbarkeit"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Trauermusik in Köln",
+    "title": "FAQ zu Trauermusik Köln",
     "items": [
       {
         "question": "Begleitest du Trauerfeiern in Köln?",
-        "answer": "Ja. Ich spiele Trauermusik in Köln in Trauerhallen, Kirchen, Kapellen, am Grab oder bei freien Abschiedsfeiern.",
+        "answer": "würdevolle Solo-Viola für Trauerfeier, Beerdigung und Abschied in Köln - in Trauerhalle, Kirche, Kapelle, am Grab oder bei einer freien Abschiedsfeier.",
         "open": true
       },
       {
-        "question": "Welche Angaben helfen für eine Anfrage in Köln?",
-        "answer": "Am hilfreichsten sind Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Rhein und Altstadt, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
-      },
-      {
-        "question": "Ist die Kontaktaufnahme kostenlos?",
-        "answer": "Ja. Die Anfrage und erste Klärung sind kostenlos und unverbindlich. Kostenloses Vorspielen vor Ort ist damit nicht gemeint."
+        "question": "Welche Angaben brauchst du für eine Anfrage in Köln?",
+        "answer": "Am hilfreichsten sind Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewuenschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Je genauer diese Angaben sind, desto schneller kann ich Verfügbarkeit, Ablauf und Preisrahmen einschätzen."
       },
       {
         "question": "Wie entsteht der Preis?",
-        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Vorbereitung, Wunschmusik und Aufwand. Ich nenne keinen pauschalen Fantasiepreis, sondern kläre den Rahmen persönlich."
+        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Abstimmung mit Bestattungshaus und Wunschmusik. Die erste Anfrage ist kostenlos und unverbindlich; ein Angebot wird erst sinnvoll, wenn der Rahmen klar ist."
       },
       {
-        "question": "Sind Wunschstücke möglich?",
-        "answer": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+        "question": "Sind Wunschstuecke möglich?",
+        "answer": "Ja, wenn sie musikalisch zu Solo-Viola und zum Anlass passen. Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+      },
+      {
+        "question": "Wann passt Solo-Viola besonders gut?",
+        "answer": "Solo-Viola passt, wenn ein warmer, zurueckhaltender Klang einen Abschied tragen soll. Das wirkt am besten, wenn der Moment zuhoeren darf und der Klang nicht gegen laute Umgebung anspielen muss."
+      },
+      {
+        "question": "Wann ist Solo-Viola nicht die richtige Loesung?",
+        "answer": "Nicht ideal ist Solo-Viola, wenn sehr laute Musik, technische Showwirkung oder spontane Stückwechsel ohne Vorbereitung erwartet werden. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
       },
       {
         "question": "Was ist in Köln organisatorisch wichtig?",
-        "answer": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Köln steht hier für konkrete Orte und Wege zwischen Rhein, Altstadt, Belgischem Viertel und besonderen Locations im Rheinland. Bei Terminen rund um Rhein, Altstadt und Belgischem Viertel plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
+        "answer": "In Köln veraendert die Lage linksrheinisch oder rechtsrheinisch, in der Innenstadt, in einem Veedel oder weiter draussen schnell den realistischen Zeitplan. Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklaert werden, weil Ortswechsel schnell mehr Puffer brauchen. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
       },
       {
-        "question": "Welche Orte passen für Trauermusik in Köln?",
-        "answer": "Das kann eine Trauerhalle, Kirche, Kapelle, ein Friedhof oder ein freier Abschiedsraum im Umfeld von Rhein, Altstadt und Belgischem Viertel sein. Wichtig ist weniger ein spektakulärer Ortsname als ein Raum, in dem Lautstärke, Startsignal und Ablauf funktionieren. Ja. Ablauf, Ankunft, Einsätze und Stückauswahl kläre ich gern direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie entlastet ist."
-      },
-      {
-        "question": "Warum ist die genaue Location in Köln so wichtig?",
-        "answer": "Ein Termin nahe Rhein braucht oft andere Zeitpuffer als ein Termin Richtung Altstadt; das beeinflusst Anfahrt, Aufbau und die Frage, wie knapp der Ablauf sein darf. Deshalb frage ich nach Adresse, Aufbauplatz, Kontaktperson vor Ort und möglichen Ortswechseln."
+        "question": "Was kann zusätzlich kosten?",
+        "answer": "Zusätzlich kosten können längere Wartezeit, ein zweiter Spielort, kurzfristige Verlaengerung, besondere Technik, sehr kurzfristige Buchung oder neue Notation für Wunschmusik."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola für Trauermusik in Köln - Bild 1"
+      "alt": "Trauermusik in Köln - Planungsbild 1"
     },
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
-      "alt": "Viola für Trauermusik in Köln - Bild 2"
+      "alt": "Trauermusik in Köln - Planungsbild 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola für Trauermusik in Köln - Bild 3"
+      "alt": "Trauermusik in Köln - Planungsbild 3"
     },
     {
       "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
-      "alt": "Viola für Trauermusik in Köln - Bild 4"
+      "alt": "Trauermusik in Köln - Planungsbild 4"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsaetzen und zusaetzlichen FAQ weiter ausgebaut.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
+  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik in Köln anfragen",
-    "lead": "Schreib mir kurz Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Hilfreich ist auch, ob der Ort eher bei Rhein und Altstadt oder eher außerhalb liegt. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
+    "lead": "Schreib mir kurz Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewuenschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Ich pruefe schnell, ob Trauermusik in Köln zeitlich und organisatorisch machbar ist, und stimme mich auf Wunsch direkt mit Bestattungshaus oder Redner:in ab.",
     "checklist": [
       "Köln",
-      "Datum & Ort",
-      "Wunschmusik",
-      "Preis nach Rahmen"
+      "Datum & Trauerort",
+      "Ablauf",
+      "Wunschstuecke",
+      "schnelle Rückmeldung"
     ],
     "defaultOccasion": "Trauerfeier",
     "sourceLabel": "Trauermusik Köln",
     "notes": [
       "Kontaktaufnahme kostenlos und unverbindlich",
       "Kein kostenloses Vorspielen vor Ort",
-      "Vorhandenes Repertoire ohne Aufpreis; neue Notation nach Aufwand, ca. 30 Euro pro Song"
+      "Vorhandenes Repertoire ohne Aufpreis; neue Notation oder Heraushoeren nach Aufwand, Orientierung ca. 30 Euro pro Song",
+      "Zusatzaufwand wie Wartezeit, Ortswechsel, Technik, Verlaengerung oder sehr kurzfristige Vorbereitung wird vor der Buchung geklaert"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Köln klären",
-    "formSuccess": "Danke - ich prüfe deine Anfrage in Köln und melde mich persönlich mit den nächsten Schritten."
+    "formSuccess": "Danke - ich pruefe deine Anfrage in Köln und melde mich persönlich mit den naechsten Schritten."
   },
   "split": {
     "seal": "Köln\nTrauerfeier & Abschied\nLive-Viola",
     "sections": []
   },
   "elegy": {
-    "quote": "Trauermusik in Köln soll nicht größer sein als der Abschied - sie soll ihn halten.",
+    "quote": "Trauermusik in Köln soll den Abschied halten, nicht größer machen als den Moment.",
     "passages": [
       {
-        "strong": "Lokaler Rahmen",
-        "text": "Köln steht hier für konkrete Orte und Wege zwischen Rhein, Altstadt, Belgischem Viertel und besonderen Locations im Rheinland. Das kann eine Trauerhalle, Kirche, Kapelle, ein Friedhof oder ein freier Abschiedsraum im Umfeld von Rhein, Altstadt und Belgischem Viertel sein. Für Trauerfeiern zählt vor Ort vor allem, ob der Abschied in Trauerhalle, Kirche, Kapelle, am Grab oder in einem freien Raum stattfindet. Danach richten sich Ankunft, Stücklänge, Position und Lautstärke."
+        "strong": "Ort und Ablauf",
+        "text": "Bei Trauerfeiern in Köln sollte früh klar sein, ob die Musik in Trauerhalle, Kirche, Kapelle, freiem Raum oder am Grab stattfindet und wer vor Ort das Startsignal gibt. Trauerhalle, Kirche, Kapelle, Friedhof, Bestattungshaus oder freie Abschiedsfeier haben unterschiedliche Wege, Raumregeln und Startsignale. Darum kläre ich vorab, wo genau gespielt wird, wie lange der musikalische Moment dauern soll und wer am Tag selbst ansprechbar ist."
       },
       {
-        "strong": "Absprache",
-        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, gewünschte Stücke, Kontakt zum Bestattungshaus und der geplante Ablauf. Bei Terminen rund um Rhein, Altstadt und Belgischem Viertel plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Rhein und Altstadt, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Wenn gewünscht, kläre ich Ablauf und Einsätze direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in, damit die Familie nicht noch eine weitere organisatorische Aufgabe bekommt."
+        "strong": "Entlastung",
+        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewuenschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Wenn es hilft, stimme ich Einsaetze, Ankunft und Stückfolge direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in ab, damit die Familie nicht zusätzlich koordinieren muss."
       },
       {
-        "strong": "Wunschstück",
-        "text": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen. Gerade bei Abschieden bespreche ich vorher sehr klar, was musikalisch würdevoll machbar ist und welcher Aufwand entsteht."
+        "strong": "Wunschstueck und Preis",
+        "text": "Vorhandene passende Stücke sind ohne Aufpreis möglich. Wenn ein persönliches Wunschstueck keine brauchbaren Noten hat, kläre ich neue Notation oder Heraushoeren vorher transparent; als Orientierung können etwa 30 Euro pro Song anfallen. Der Gesamtpreis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Abstimmung mit Bestattungshaus und Wunschmusik."
       }
     ]
   },
   "solemn": {
     "eyebrow": "Ablauf in Köln",
-    "title": "Trauermusik in Köln ruhig planen.",
-    "lead": "Der musikalische Rahmen richtet sich nach Ort, Abschiedsform und dem, was für die Familie wirklich hilfreich ist.",
+    "title": "Trauermusik in Köln mit ruhiger Abstimmung.",
+    "lead": "In Köln veraendert die Lage linksrheinisch oder rechtsrheinisch, in der Innenstadt, in einem Veedel oder weiter draussen schnell den realistischen Zeitplan. Für einen Abschied ist deshalb nicht wichtig, dass die Musik viel zeigt, sondern dass sie pünktlich, vorbereitet und passend eingesetzt wird.",
     "cards": [
       {
         "rom": "Vorab",
-        "title": "Ein Kontakt reicht",
-        "poet": "Datum, Uhrzeit, Trauerort, Ablauf und Wunschstücke genügen für den ersten Schritt. Die Anfrage ist kostenlos; der Preis wird nach Rahmen und Aufwand vereinbart. Wenn Zeremonie, Fotos und Empfang an zwei Orten zwischen Rhein und Altstadt liegen, plane ich nicht automatisch beides ein; erst die Wege und Zeiten zeigen, ob ein Ortswechsel musikalisch sinnvoll ist."
+        "title": "Ein klarer Kontakt reicht",
+        "poet": "Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewuenschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf reichen für den ersten Schritt. Danach kläre ich, ob der Termin passt und welcher musikalische Umfang sinnvoll ist."
       },
       {
         "rom": "Vor Ort",
-        "title": "Pünktlich, still, vorbereitet",
-        "poet": "Ich plane genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort, damit die Musik in Köln nicht unter Zeitdruck beginnt und der Abschied ruhig bleibt. Ein Termin nahe Rhein braucht oft andere Zeitpuffer als ein Termin Richtung Altstadt; das beeinflusst Anfahrt, Aufbau und die Frage, wie knapp der Ablauf sein darf."
+        "title": "Still, pünktlich, vorbereitet",
+        "poet": "Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklaert werden, weil Ortswechsel schnell mehr Puffer brauchen. Bei Musik am Grab pruefe ich zusätzlich Wetter, Untergrund, kurze Wege und ob das Instrument geschuetzt stehen kann."
       }
     ],
     "listLabel": "Mögliche musikalische Momente in Köln",
     "list": [
-      "Einzug oder Beginn",
+      "Beginn der Trauerfeier",
       "Moment der Erinnerung",
       "Abschied am Sarg oder an der Urne",
       "Gang zum Grab oder stiller Ausklang"

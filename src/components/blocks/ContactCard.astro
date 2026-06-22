@@ -5,6 +5,173 @@ import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 type ContactData = Record<string, any> & { checklist?: unknown[] };
+type ContextKey = 'hochzeit' | 'trauer' | 'unterricht' | 'firmenevent' | 'geburtstag' | 'taufe' | 'konzert' | 'generic';
+type FormContext = {
+	key: ContextKey;
+	label: string;
+	occasion: string;
+	intro: string;
+	submitLabel: string;
+	dateLabel: string;
+	datePlaceholder: string;
+	placeLabel: string;
+	placePlaceholder: string;
+	musicLabel: string;
+	musicPlaceholder: string;
+	musicHint: string;
+	scopeLabel: string;
+	scopePlaceholder: string;
+	messagePlaceholder: string;
+	note: string;
+};
+
+const formContexts: Record<ContextKey, FormContext> = {
+	hochzeit: {
+		key: 'hochzeit',
+		label: 'Hochzeitsmusik',
+		occasion: 'Hochzeit',
+		intro: 'Hilfreich sind Trauort, Zeitfenster und die Momente, die musikalisch begleitet werden sollen.',
+		submitLabel: 'Hochzeit anfragen',
+		dateLabel: 'Datum / Zeitfenster',
+		datePlaceholder: 'z. B. 14.09.2026, Trauung um 15 Uhr',
+		placeLabel: 'Ort / Location',
+		placePlaceholder: 'Standesamt, Kirche, freie Trauung oder Location',
+		musicLabel: 'Wunschmusik / Momente',
+		musicPlaceholder: 'Einzug, Ringtausch, Auszug, Lieblingslied',
+		musicHint: 'Vorhandenes Repertoire ist ohne Aufpreis möglich; neue Arrangements klären wir vorher.',
+		scopeLabel: 'Umfang / Dauer',
+		scopePlaceholder: 'z. B. Trauung, Sektempfang, Dinner, ca. 45 Min.',
+		messagePlaceholder: 'Was plant ihr genau? Gern mit Ablauf, Stilwunsch, Lieblingsstücken und offenen Fragen.',
+		note: 'Die Anfrage ist kostenlos und unverbindlich. Preise vereinbaren wir individuell nach Termin, Ort, Umfang und Vorbereitung; neue Wunschstücke mit Heraushör- oder Notationsaufwand klären wir vorher (Orientierung ca. 30 Euro pro Song).',
+	},
+	trauer: {
+		key: 'trauer',
+		label: 'Trauerfeier / Abschied',
+		occasion: 'Trauerfeier',
+		intro: 'Ein paar ruhige Eckdaten genügen: Termin, Ort, Ablauf und wer die Abstimmung übernimmt.',
+		submitLabel: 'Behutsam anfragen',
+		dateLabel: 'Termin / Uhrzeit',
+		datePlaceholder: 'z. B. Freitag, 11 Uhr oder noch in Klärung',
+		placeLabel: 'Ort der Feier',
+		placePlaceholder: 'Trauerhalle, Kirche, Friedhof oder Bestattungshaus',
+		musicLabel: 'Wunschstücke',
+		musicPlaceholder: 'z. B. Ave Maria, Amazing Grace, Lieblingslied',
+		musicHint: 'Wenn Noten fehlen, klären wir den Aufwand vorher transparent.',
+		scopeLabel: 'Ablauf / Dauer',
+		scopePlaceholder: 'z. B. Trauerfeier, Gang zum Grab, 2-3 Stücke',
+		messagePlaceholder: 'Wer koordiniert die Feier? Bestattungshaus, Redner:in, gewünschte Stücke oder Stimmung helfen sehr.',
+		note: 'Die Kontaktaufnahme ist kostenlos und unverbindlich. Der Preis wird passend zu Ort, Ablauf und Vorbereitung vereinbart; ein kostenloses Vorspielen vor Ort ist nicht Teil der Anfrage.',
+	},
+	unterricht: {
+		key: 'unterricht',
+		label: 'Bratschenunterricht / Viola-Unterricht',
+		occasion: 'Unterricht',
+		intro: 'Für Unterrichtsanfragen helfen Alter, Vorerfahrung, Ziel und passende Zeiten.',
+		submitLabel: 'Unterricht anfragen',
+		dateLabel: 'Mögliche Zeiten',
+		datePlaceholder: 'z. B. mittwochs ab 16 Uhr, vormittags flexibel',
+		placeLabel: 'Ort / Unterrichtsform',
+		placePlaceholder: 'Wohnort, online, bei mir oder noch offen',
+		musicLabel: 'Ziel / Repertoire',
+		musicPlaceholder: 'Anfänger:in, Wiedereinstieg, Bratsche lernen, Vorspiel',
+		musicHint: 'Auch hilfreich: Ist ein Instrument vorhanden oder wird Beratung dazu gebraucht?',
+		scopeLabel: 'Format',
+		scopePlaceholder: 'z. B. Einzelstunde, regelmäßig, Vorbereitung auf Vorspiel',
+		messagePlaceholder: 'Erzähl kurz von Vorerfahrung, Alter, Instrument, Ziel und was dir beim Lernen wichtig ist.',
+		note: 'Die erste Kontaktaufnahme ist kostenlos und unverbindlich. Unterrichtspreise und Rhythmus stimmen wir individuell ab.',
+	},
+	firmenevent: {
+		key: 'firmenevent',
+		label: 'Firmenevent / Business-Event',
+		occasion: 'Firmenevent',
+		intro: 'Für Business-Anfragen sind Anlass, Gästezahl, Zeitfenster und Rechnungsrahmen besonders hilfreich.',
+		submitLabel: 'Firmenevent anfragen',
+		dateLabel: 'Datum / Zeitfenster',
+		datePlaceholder: 'z. B. 03.12.2026, Empfang 18-19 Uhr',
+		placeLabel: 'Ort / Venue',
+		placePlaceholder: 'Location, Stadt, Innen/Außen, Bühne vorhanden?',
+		musicLabel: 'Wirkung / Musikrichtung',
+		musicPlaceholder: 'Elegant, dezent, festlich, Dinner, Produktlaunch',
+		musicHint: 'Vorhandenes Repertoire ist ohne Aufpreis möglich; Sonderwünsche klären wir vorher.',
+		scopeLabel: 'Umfang / Gäste',
+		scopePlaceholder: 'z. B. 80 Gäste, Empfang 45 Min., Dinner 2 Sets',
+		messagePlaceholder: 'Gern mit Anlass, Ziel der Musik, Ansprechperson, Technik und Rechnungsdaten.',
+		note: 'Die Anfrage ist kostenlos und unverbindlich. Preise werden individuell nach Termin, Ort, Dauer, Vorbereitung, Technik und Anfahrt vereinbart.',
+	},
+	geburtstag: {
+		key: 'geburtstag',
+		label: 'Geburtstag / private Feier',
+		occasion: 'Geburtstag',
+		intro: 'Sag kurz, ob es um Überraschung, Empfang, Dinner oder einen besonderen Moment geht.',
+		submitLabel: 'Feier anfragen',
+		dateLabel: 'Datum / Zeitfenster',
+		datePlaceholder: 'z. B. Samstagabend, Empfang ab 17 Uhr',
+		placeLabel: 'Ort / Rahmen',
+		placePlaceholder: 'Zuhause, Restaurant, Garten, Saal oder Stadt',
+		musicLabel: 'Wunschmusik',
+		musicPlaceholder: 'Lieblingslied, ruhige Stücke, festliche Musik',
+		musicHint: 'Wenn ein persönliches Wunschstück neu notiert werden muss, klären wir das vorher.',
+		scopeLabel: 'Umfang / Dauer',
+		scopePlaceholder: 'z. B. Überraschung, 20 Min., Dinner-Begleitung',
+		messagePlaceholder: 'Wer wird gefeiert, welche Stimmung passt und gibt es ein Lied mit persönlicher Bedeutung?',
+		note: 'Die Anfrage ist kostenlos und unverbindlich. Vorhandenes Repertoire ist ohne Aufpreis möglich; neue Wunschstücke mit zusätzlichem Aufwand klären wir vorher.',
+	},
+	taufe: {
+		key: 'taufe',
+		label: 'Taufe / Segnung',
+		occasion: 'Taufe',
+		intro: 'Für Taufen helfen Kirche oder Feierort, Ablaufpunkte und Liedideen.',
+		submitLabel: 'Taufe anfragen',
+		dateLabel: 'Datum / Uhrzeit',
+		datePlaceholder: 'z. B. Sonntag, 10:30 Uhr Gottesdienst',
+		placeLabel: 'Kirche / Feierort',
+		placePlaceholder: 'Kirche, Kapelle, Gemeindehaus oder private Feier',
+		musicLabel: 'Liedideen',
+		musicPlaceholder: 'Einzug, Tauflied, Segensmoment, Familienlied',
+		musicHint: 'Vorhandene Stücke sind ohne Aufpreis möglich; besondere Liedwünsche klären wir vorher.',
+		scopeLabel: 'Ablauf / Dauer',
+		scopePlaceholder: 'z. B. Gottesdienst, 2-3 Stücke, anschließender Empfang',
+		messagePlaceholder: 'Gern mit Ansprechpartner:in der Kirche, Ablauf und Liedwünschen.',
+		note: 'Die Anfrage ist kostenlos und unverbindlich. Preise vereinbaren wir individuell nach Ort, Umfang, Vorbereitung und Anfahrt.',
+	},
+	konzert: {
+		key: 'konzert',
+		label: 'Konzert / Kulturformat',
+		occasion: 'Konzert / Kultur',
+		intro: 'Für Kulturformate helfen Publikum, Dauer, Raum, Technik und gewünschter Programmschwerpunkt.',
+		submitLabel: 'Kulturformat anfragen',
+		dateLabel: 'Datum / Zeitraum',
+		datePlaceholder: 'z. B. Vernissage am 08.05.2026, 19 Uhr',
+		placeLabel: 'Ort / Bühne',
+		placePlaceholder: 'Galerie, Kirche, Saal, Bühne, Akustik oder Technik',
+		musicLabel: 'Programmidee',
+		musicPlaceholder: 'Klassik, moderne Stücke, Lesung, Vernissage',
+		musicHint: 'Programm und Preisrahmen entstehen nach Dauer, Vorbereitung und Format.',
+		scopeLabel: 'Umfang / Publikum',
+		scopePlaceholder: 'z. B. 30 Min., 2 Sets, ca. 60 Personen',
+		messagePlaceholder: 'Welche Atmosphäre soll entstehen? Gern mit Technik, Ablauf, Moderation und Programmlänge.',
+		note: 'Die Anfrage ist kostenlos und unverbindlich. Preise vereinbaren wir individuell; vorhandenes Repertoire ist ohne Aufpreis möglich.',
+	},
+	generic: {
+		key: 'generic',
+		label: 'Allgemeine Anfrage',
+		occasion: '',
+		intro: 'Mit Anlass, Datum, Ort und gewünschtem Umfang kann ich Verfügbarkeit und Preisrahmen schneller einschätzen.',
+		submitLabel: 'Anfrage senden',
+		dateLabel: 'Datum / Zeitraum',
+		datePlaceholder: 'z. B. 14.09.2026 oder noch offen',
+		placeLabel: 'Ort / Location',
+		placePlaceholder: 'Stadt, Location oder Raum',
+		musicLabel: 'Wunschmusik / Stücke',
+		musicPlaceholder: 'z. B. Ave Maria, Lieblingslied, noch offen',
+		musicHint: 'Vorhandenes Repertoire ist ohne Aufpreis möglich; neue Stücke klären wir vorher.',
+		scopeLabel: 'Umfang / Dauer',
+		scopePlaceholder: 'z. B. Trauung, 30 Min. Empfang, Unterricht',
+		messagePlaceholder: 'Erzähl mir kurz von Anlass, Datum, Ort, Wünschen und offenen Fragen.',
+		note: 'Die Anfrage ist kostenlos und unverbindlich. Preise werden individuell vereinbart; ein kostenloses Vorspielen vor Ort ist nicht Teil der Anfrage.',
+	},
+};
+
 const bgClass = data?.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
 const config = (await getConfig()).data?.config ?? null;
 const contactOverride = (data?.contact ?? null) as ContactData | null;
@@ -21,7 +188,22 @@ const notes = (contact?.notes ?? []).filter((c: unknown): c is string => typeof 
 const defaultOccasion = typeof contact?.defaultOccasion === 'string' ? contact.defaultOccasion : '';
 const sourceLabel = typeof contact?.sourceLabel === 'string' ? contact.sourceLabel : '';
 const sourcePath = Astro.url.pathname;
+const context = getFormContext(defaultOccasion, sourceLabel, sourcePath);
+const selectedOccasion = defaultOccasion || context.occasion;
+const sourceContext = sourceLabel || context.label;
 const occasionOptions = ['Hochzeit', 'Trauerfeier', 'Taufe', 'Geburtstag', 'Firmenevent', 'Konzert / Kultur', 'Unterricht', 'Anderer Anlass'];
+
+function getFormContext(defaultOccasion: string, sourceLabel: string, path: string): FormContext {
+	const haystack = `${defaultOccasion} ${sourceLabel} ${path}`.toLowerCase();
+	if (haystack.includes('hochzeit')) return formContexts.hochzeit;
+	if (haystack.includes('trauer') || haystack.includes('beerdigung') || haystack.includes('abschied')) return formContexts.trauer;
+	if (haystack.includes('unterricht') || haystack.includes('bratsche-lernen') || haystack.includes('viola-lernen')) return formContexts.unterricht;
+	if (haystack.includes('firma') || haystack.includes('firmen') || haystack.includes('business') || haystack.includes('messe') || haystack.includes('gala')) return formContexts.firmenevent;
+	if (haystack.includes('geburtstag') || haystack.includes('private-feier')) return formContexts.geburtstag;
+	if (haystack.includes('taufe') || haystack.includes('segnung') || haystack.includes('kommunion') || haystack.includes('konfirmation')) return formContexts.taufe;
+	if (haystack.includes('konzert') || haystack.includes('kultur') || haystack.includes('vernissage') || haystack.includes('lesung')) return formContexts.konzert;
+	return formContexts.generic;
+}
 ---
 <section class={`section${bgClass}`} id={data?.anchorId || 'kontakt'}>
 	<div class="wrap">
@@ -50,11 +232,13 @@ const occasionOptions = ['Hochzeit', 'Trauerfeier', 'Taufe', 'Geburtstag', 'Firm
 				<div class="fp-head reveal">
 					{contact?.formEyebrow && <p class="eyebrow" data-tina-field={contact ? tinaFieldFrom(contact, 'formEyebrow') : undefined}>{contact.formEyebrow}</p>}
 					{contact?.formTitle && <h3 class="display-s" style="margin-top:10px;" data-tina-field={contact ? tinaFieldFrom(contact, 'formTitle') : undefined}>{contact.formTitle}</h3>}
+					<p class="form-context">{context.intro}</p>
 				</div>
 				<form class="reveal d1" id="anfrageForm" novalidate>
 					<input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;height:0;width:0;opacity:0;" />
 					<input type="hidden" name="seite" value={sourcePath} />
-					{sourceLabel && <input type="hidden" name="seitenkontext" value={sourceLabel} />}
+					<input type="hidden" name="seitenkontext" value={sourceContext} />
+					<input type="hidden" name="formularvariante" value={context.label} />
 					<div class="row-2">
 						<div class="field"><label for="f-name">Name</label><input id="f-name" type="text" name="name" placeholder="Dein Name" required></div>
 						<div class="field"><label for="f-mail">E-Mail</label><input id="f-mail" type="email" name="email" placeholder="dein@email.de" required></div>
@@ -63,20 +247,21 @@ const occasionOptions = ['Hochzeit', 'Trauerfeier', 'Taufe', 'Geburtstag', 'Firm
 						<div class="field">
 							<label for="f-anlass">Anlass <span class="opt">(optional)</span></label>
 							<select id="f-anlass" name="anlass">
-								<option value="" selected={!defaultOccasion}>Bitte wählen</option>
-								{occasionOptions.map((option) => <option selected={option === defaultOccasion}>{option}</option>)}
+								<option value="" selected={!selectedOccasion}>Bitte wählen</option>
+								{occasionOptions.map((option) => <option value={option} selected={option === selectedOccasion}>{option}</option>)}
 							</select>
 						</div>
-						<div class="field"><label for="f-date">Datum / Zeitraum <span class="opt">(optional)</span></label><input id="f-date" type="text" name="datum" placeholder="z. B. 14.09.2026"></div>
-						<div class="field"><label for="f-place">Ort / Location <span class="opt">(optional)</span></label><input id="f-place" type="text" name="ort" placeholder="Stadt, Location oder Raum"></div>
+						<div class="field"><label for="f-date">{context.dateLabel} <span class="opt">(optional)</span></label><input id="f-date" type="text" name="datum" placeholder={context.datePlaceholder}></div>
+						<div class="field"><label for="f-place">{context.placeLabel} <span class="opt">(optional)</span></label><input id="f-place" type="text" name="ort" placeholder={context.placePlaceholder}></div>
 					</div>
 					<div class="row-2">
-						<div class="field"><label for="f-music">Wunschmusik / Stücke <span class="opt">(optional)</span></label><input id="f-music" type="text" name="wunschmusik" placeholder="z. B. Ave Maria, Lieblingslied, noch offen"></div>
-						<div class="field"><label for="f-scope">Umfang / Dauer <span class="opt">(optional)</span></label><input id="f-scope" type="text" name="umfang" placeholder="z. B. Trauung, 30 Min. Empfang, Probestunde"></div>
+						<div class="field"><label for="f-music">{context.musicLabel} <span class="opt">(optional)</span></label><input id="f-music" type="text" name="wunschmusik" placeholder={context.musicPlaceholder}><p class="field-hint">{context.musicHint}</p></div>
+						<div class="field"><label for="f-scope">{context.scopeLabel} <span class="opt">(optional)</span></label><input id="f-scope" type="text" name="umfang" placeholder={context.scopePlaceholder}></div>
 					</div>
-					<div class="field"><label for="f-msg">Nachricht <span class="opt">(optional)</span></label><textarea id="f-msg" name="nachricht" placeholder="Erzähl mir von deinem Anlass — gern mit Datum, Ort und Wünschen …"></textarea></div>
-					<button type="submit" class="btn btn-solid" style="width:100%;justify-content:center;">Anfrage senden <span class="ar">→</span></button>
-					<div class="form-ok" id="formOk" data-tina-field={contact ? tinaFieldFrom(contact, 'formSuccess') : undefined}>{contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'}</div>
+					<div class="field"><label for="f-msg">Nachricht <span class="opt">(optional)</span></label><textarea id="f-msg" name="nachricht" placeholder={context.messagePlaceholder}></textarea></div>
+					<p class="form-note">{context.note}</p>
+					<button type="submit" class="btn btn-solid" style="width:100%;justify-content:center;">{context.submitLabel} <span class="ar">→</span></button>
+					<div class="form-ok" id="formOk" role="status" aria-live="polite" data-success={contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'} data-tina-field={contact ? tinaFieldFrom(contact, 'formSuccess') : undefined}>{contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'}</div>
 				</form>
 			</div>
 		</div>

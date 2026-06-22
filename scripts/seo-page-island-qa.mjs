@@ -1,7 +1,7 @@
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
+import { relativePath, resolveStaticOutputDirOrExit, staticOutputArg, walkFiles } from './lib/static-output.mjs';
 
-const DIST = path.resolve('dist/client');
 const CONTENT_DIR = path.resolve('src/content/seo-pages');
 const PREVIEW_CONTENT_TYPE = 'application/x-tina-preview+json';
 
@@ -16,22 +16,11 @@ const args = new Map(
 
 const baseUrl = normalizeBaseUrl(args.get('base-url') ?? process.env.SEO_QA_BASE_URL ?? '');
 const failOnMissingHttp = args.get('require-http') === 'true';
-
-if (!existsSync(DIST)) {
-	console.error('dist/client not found. Run npm run build:local first.');
-	process.exit(1);
-}
+const output = resolveStaticOutputDirOrExit({ requestedDir: args.get('static-dir') ?? args.get('static-output') ?? staticOutputArg() });
 
 if (!existsSync(CONTENT_DIR)) {
 	console.error('src/content/seo-pages not found.');
 	process.exit(1);
-}
-
-function walk(dir) {
-	return readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
-		const full = path.join(dir, entry.name);
-		return entry.isDirectory() ? walk(full) : [full];
-	});
 }
 
 function normalizeBaseUrl(value) {
@@ -62,11 +51,11 @@ function readJson(file) {
 
 function routeFile(route) {
 	const relative = route.replace(/^\/|\/$/g, '');
-	return path.join(DIST, relative, 'index.html');
+	return path.join(output.root, relative, 'index.html');
 }
 
 function sitemapPaths() {
-	const xml = walk(DIST)
+	const xml = walkFiles(output.root)
 		.filter((file) => /sitemap.*\.xml$/i.test(path.basename(file)))
 		.map((file) => readFileSync(file, 'utf8'))
 		.join('\n');
@@ -238,7 +227,14 @@ async function fetchText(url, options = {}) {
 	return { response, text };
 }
 
-const docs = walk(CONTENT_DIR)
+function formatFailure(failure) {
+	const route = failure.route || '(no route)';
+	const file = failure.file ? ` [${relativePath(failure.file)}]` : '';
+	const status = failure.status ? ` status=${failure.status}` : '';
+	return `- ${failure.type} ${route}${status}: ${failure.message}${file}`;
+}
+
+const docs = walkFiles(CONTENT_DIR)
 	.filter((file) => file.endsWith('.json'))
 	.sort()
 	.map((file) => ({ file, doc: readJson(file) }));
@@ -293,7 +289,7 @@ for (const { file, doc } of docs) {
 		if (splitChunked) summary.longSplitChunking += 1;
 		else failures.push({ type: 'static-split-layout', route, file, message: `split has ${splitSectionCount || splitCount} text units but no supported continuation layout` });
 	} else {
-		failures.push({ type: 'static-route', route, file, message: 'route HTML not found in dist/client' });
+		failures.push({ type: 'static-route', route, file, message: `route HTML not found in ${relativePath(output.root)}` });
 	}
 
 	if (!baseUrl) continue;
@@ -350,6 +346,7 @@ for (const { file, doc } of docs) {
 summary.failures = failures.length;
 
 console.log('SEO page Tina QA');
+console.log(`- static output: ${output.relative} (${output.htmlCount} HTML files, ${output.sitemapCount} sitemap files)`);
 console.log(`- docs: ${summary.docs}`);
 console.log(`- CMS docs enabled/complete: ${summary.cmsDocs}/${summary.docs}`);
 console.log(`- static route HTML: ${summary.routeHtml}/${summary.docs}`);
@@ -374,7 +371,7 @@ if (failOnMissingHttp && !baseUrl) {
 if (failures.length > 0) {
 	console.log('\nFailure samples:');
 	for (const failure of failures.slice(0, 20)) {
-		console.log(`- ${failure.type} ${failure.route}: ${failure.message}${failure.status ? ` (${failure.status})` : ''}`);
+		console.log(formatFailure(failure));
 	}
 	process.exit(1);
 }

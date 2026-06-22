@@ -4,11 +4,14 @@ import TinaIsland from '@tinacms/astro/TinaIsland.astro';
 import PageBody from '../components/islands/PageBody.astro';
 import LocalLinks from '../components/LocalLinks.astro';
 import TopicLinks from '../components/TopicLinks.astro';
+import RatgeberLinks from '../components/RatgeberLinks.astro';
 import { getConfig, getPage, listPages } from '../lib/data';
 import { islands } from '../lib/islands';
 import { firstBlockImage, subpageJsonLd } from '../lib/seo';
 import { hasLocalService } from '../lib/local-seo';
 import { hasTopicService } from '../lib/topic-seo';
+
+export const prerender = true;
 
 export async function getStaticPaths() {
 	const pages = await listPages();
@@ -35,11 +38,12 @@ const heroImage = firstBlockImage(data);
 	preloadImage={heroImage}
 	imageAlt={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
 	bodyClass={data.bodyClass ?? undefined}
+	structuredData={jsonLd}
 >
-	<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 	<TinaIsland name="page/" wrapper={islands.page.wrapper} params={{ slug }} primary>
 		<PageBody data={data} />
 	</TinaIsland>
 	{hasTopicService(slug) && <TopicLinks serviceSlug={slug} />}
+	<RatgeberLinks serviceSlug={slug} />
 	{hasLocalService(slug) && <LocalLinks serviceSlug={slug} />}
 </Base>

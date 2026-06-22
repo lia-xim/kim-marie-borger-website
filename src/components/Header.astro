@@ -5,25 +5,26 @@ import { normalizeHref } from '../lib/url';
 
 interface Props {
 	config?: CmsConfig | null;
+	solid?: boolean;
 }
 
-const { config } = Astro.props;
+const { config, solid = false } = Astro.props;
 const brand = config?.brand ?? null;
 const email = config?.contact?.email ?? 'kim-marie.borger@t-online.de';
 
 const leistungen = [
-	{ href: normalizeHref('/hochzeiten'), label: 'Hochzeit' },
-	{ href: normalizeHref('/beerdigungen'), label: 'Beerdigung / Trauerfeier' },
-	{ href: normalizeHref('/geburtstage'), label: 'Geburtstag' },
-	{ href: normalizeHref('/taufen'), label: 'Taufe' },
-	{ href: normalizeHref('/konzerte'), label: 'Konzert / Event' },
-	{ href: normalizeHref('/firmenfeiern'), label: 'Firmenfeier' },
+	{ href: normalizeHref('/hochzeiten'), label: 'Hochzeitsmusik' },
+	{ href: normalizeHref('/beerdigungen'), label: 'Trauermusik' },
+	{ href: normalizeHref('/geburtstage'), label: 'Geburtstagsmusik' },
+	{ href: normalizeHref('/taufen'), label: 'Taufmusik' },
+	{ href: normalizeHref('/konzerte'), label: 'Konzerte & Events' },
+	{ href: normalizeHref('/firmenfeiern'), label: 'Firmenevents' },
 	{ href: normalizeHref('/anfragen'), label: 'Sonstiges' },
-	{ href: normalizeHref('/unterricht'), label: 'Unterricht' },
+	{ href: normalizeHref('/unterricht'), label: 'Bratschenunterricht' },
 ];
 ---
 
-<header class="nav" id="nav">
+<header class={`nav${solid ? ' solid' : ''}`} id="nav">
 	<a class="brand" href="/">
 		<span class="name" data-tina-field={brand ? tinaField(brand, 'name') : undefined}>{brand?.name ?? 'Kim Marie Borger'}</span>
 		<span class="sub" data-tina-field={brand ? tinaField(brand, 'sub') : undefined}>{brand?.sub ?? 'Viola · Live'}</span>
@@ -38,6 +39,7 @@ const leistungen = [
 		</span>
 		<a href={normalizeHref('/portfolio')}>Portfolio</a>
 		<a href={normalizeHref('/ueber-mich')}>Über mich</a>
+		<a href={normalizeHref('/ratgeber')}>Ratgeber</a>
 		<a href={normalizeHref('/anfragen')}>Anfragen</a>
 	</nav>
 	<button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
@@ -56,6 +58,7 @@ const leistungen = [
 	</div>
 	<a href={normalizeHref('/portfolio')}>Portfolio</a>
 	<a href={normalizeHref('/ueber-mich')}>Über mich</a>
+	<a href={normalizeHref('/ratgeber')}>Ratgeber</a>
 	<a href={normalizeHref('/anfragen')}>Anfragen</a>
 	<a class="mm-mail" href={`mailto:${email}`} data-tina-field={config?.contact ? tinaField(config.contact, 'email') : undefined}>{email}</a>
 </nav>

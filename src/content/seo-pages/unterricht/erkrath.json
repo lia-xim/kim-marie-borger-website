@@ -5,76 +5,76 @@
   "route": "/unterricht/erkrath/",
   "targetKeyword": "Bratschenunterricht Erkrath",
   "intentCluster": "unterricht:local",
-  "priority": "P3",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "priority": "P2",
+  "status": "manual-priority-local-seo-2026-06-22",
   "enabled": true,
   "seoTitle": "Bratschenunterricht Erkrath | Viola lernen",
-  "seoDescription": "Bratschenunterricht Erkrath: Viola- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg in Erkrath. Probestunde kostenlos.",
+  "seoDescription": "Bratschenunterricht Erkrath: Viola- und Bratschenunterricht für Kinder und Erwachsene in Erkrath. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
-    "eyebrow": "Unterricht in Erkrath",
-    "title": "Bratschenunterricht in Erkrath, der ruhig aufbaut und in deinen Alltag passt.",
-    "lead": "Viola lernen in Erkrath für Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene - mit Struktur, Geduld und klaren Übeaufgaben.",
+    "eyebrow": "Bratschenunterricht in Erkrath",
+    "title": "Bratschenunterricht in Erkrath: konkret geplant nach Ort und Ablauf.",
+    "lead": "Viola- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg in Erkrath. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, ob Unterrichtsort, Weg, Instrument und Wochenrhythmus wirklich passen.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Erkrath\nBratschenunterricht\nlokal geplant",
+    "seal": "Erkrath\nBratschenunterricht\nkonkret geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Bratschenunterricht in Erkrath: worauf es vor Ort ankommt.",
-        "lede": "Erkrath steht hier für konkrete Orte und Wege zwischen Neandertal, Hochdahl, Unterfeldhaus und der Nähe zu Düsseldorf. Der Alltag in Erkrath kann je nach Weg zwischen Neandertal, Hochdahl und Unterfeldhaus sehr unterschiedlich aussehen. Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: Lernstand, Unterrichtsort, Weg, Wochenrhythmus, Instrument und realistische Übezeit.",
+        "title": "Bratschenunterricht in Erkrath: was vor Ort wirklich zählt.",
+        "lede": "Für Unterricht in Erkrath ist die Frage, ob der Weg regelmäßig klein genug bleibt, besonders wichtig. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
         "paragraphs": [
-          "Typische Rahmen sind regelmäßiger Einzelunterricht, Wiedereinstieg, Anfänger:innen-Aufbau, Technikphase oder Vorbereitung auf ein Ziel. Je nach Alltag im Umfeld von Neandertal, Hochdahl und Unterfeldhaus kann eine klare Probestunde mehr helfen als ein vorschnell vereinbarter Unterrichtsplan. Entscheidend ist nicht nur der Ortsname, sondern ob Unterrichtsweg, Konzentration, Instrument und Übezeit im Alltag wirklich zusammenpassen.",
-          "Ich kläre vorab praktische Punkte: möglicher Unterrichtsort oder Treffpunkt, Instrument, Alter, Lernstand, Wochenrhythmus und Zeit zum Üben. Bei Wegen rund um Neandertal, Hochdahl und Unterfeldhaus ist wichtig, ob die Unterrichtszeit auch mit Schule, Arbeit, Familie und Übezeit zusammenpasst.",
-          "Gerade in Erkrath hilft ein klarer Aufbau: wenig Druck, genaue Klangarbeit und Aufgaben, die zwischen zwei Stunden wirklich wiederholt werden können. Die lokalen Marker Neandertal, Hochdahl und Unterfeldhaus helfen, den Termin nicht nur nach Stadtname, sondern nach echter Situation zu planen."
+          "Typische Situationen in Erkrath können Alt-Erkrath, Hochdahl, Unterfeldhaus, Kreis Mettmann oder Nähe Düsseldorf sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
+          "Genauer Ortsteil, Park- oder Haltemoeglichkeit, Raumzugang und Kontaktperson sollten vorab feststehen. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand veraendern."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Bratschenunterricht und Viola lernen in Erkrath - Bild 1"
+          "alt": "Bratschenunterricht in Erkrath - lokaler Planungsrahmen"
         },
         "imageFirst": false
       },
       {
-        "eyebrow": "Unterrichtsrahmen",
-        "title": "So wird Bratschenunterricht in Erkrath tragfähig.",
-        "lede": "Ein guter Unterrichtsrahmen entsteht aus wenigen klaren Entscheidungen: Was ist das Ziel, wie viel Übezeit ist realistisch und wie bleibt der nächste Schritt verständlich?",
+        "eyebrow": "Ablauf",
+        "title": "Probestunde und Wochenrhythmus in Erkrath.",
+        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob Weg, Alltag, Instrument und realistische Übezeit dauerhaft zusammenpassen.",
         "paragraphs": [
-          "Mögliche Schritte sind Lernstand klären, Probestunde, Übeplan und regelmäßiger Rhythmus. Daraus entsteht kein starres Programm, sondern ein Unterrichtsplan, der zu Lernstand, Alltag und Motivation passt.",
-          "Ein Unterrichtsweg nahe Neandertal kann sich anders anfuehlen als ein Termin Richtung Hochdahl; für regelmäßigen Unterricht ist das wichtiger als für einen einmaligen Auftritt. Genau deshalb frage ich nicht nur nach dem Ort, sondern auch nach Weg, Wochenrhythmus und realistischer Übezeit.",
-          "Wenn die Zeit knapp ist, wird der Unterricht nicht größer, sondern präziser: wenige Übeaufgaben, deutliche Prioritäten und ein Klangziel, das in der nächsten Stunde wieder aufgegriffen wird."
+          "Mögliche Einsatzpunkte sind Probestunde, Lernstandscheck, Technikaufbau, Übeplan und regelmäßiger Rhythmus. Ich plane lieber einen tragfaehigen Wochenrhythmus mit klaren Übezielen als eine Probestunde, nach der der Alltag den Unterricht sofort ausbremst.",
+          "Vorab klären wir, ob Instrument, Noten, Wunschstuecke, Lernstand, Probestunde und Übezeit realistisch zusammenpassen.",
+          "Gerade in Erkrath hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So wird Unterricht regelmäßig machbar, statt nur als einmaliger guter Vorsatz zu starten."
         ],
         "image": {
           "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-          "alt": "Bratschenunterricht und Viola lernen in Erkrath - Bild 2"
+          "alt": "Bratschenunterricht in Erkrath - Ablauf und Einsaetze"
         },
         "imageFirst": true
       },
       {
-        "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine gute Anfrage in Erkrath brauche.",
-        "lede": "Die Kontaktaufnahme ist kostenlos und unverbindlich. Ein Preis entsteht erst, wenn Dauer, Ort, Aufwand, Wunschmusik, Anfahrt und Rahmen klar genug sind, damit ich ehrlich einschätzen kann, was sinnvoll ist.",
+        "eyebrow": "Unterricht: passend oder nicht?",
+        "title": "Wann Bratschenunterricht in Erkrath die richtige Wahl ist.",
+        "lede": "Bratschenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
         "paragraphs": [
-          "Hilfreich sind: Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Übezeit und Frage zur Probestunde. Für Erkrath zählt vor allem, ob Weg und Wochenrhythmus rund um Neandertal und Hochdahl dauerhaft realistisch bleiben. Damit kann ich einschätzen, ob eine Probestunde, ein regelmäßiger Rhythmus oder zuerst eine kurze Orientierungsphase sinnvoll ist.",
-          "Wunschstücke können Teil des Unterrichts sein, wenn sie zum Lernstand passen. Der Fokus bleibt darauf, Technik und Musik sinnvoll aufzubauen.",
-          "Die Probestunde ist kostenlos und unverbindlich. Regelmäßiger Unterricht startet erst, wenn Ziel, Format, Rhythmus, Weg in Erkrath und Preisrahmen transparent geklärt sind."
+          "Nicht ideal ist Bratschenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann ist es ehrlicher, zuerst Ziel, Format, Material oder einen spaeteren Start zu klären.",
+          "Wenn ein Unterrichtsort vorgeschlagen wird, pruefe ich lieber früh, ob Raum, Lautstärke, Notenstaender, Sitzmoeglichkeit und Wiederholbarkeit des Weges passen.",
+          "Wenn Unterrichtsort, Weg oder Rhythmus unsicher sind, pruefe ich lieber früh, ob eine Probestunde oder ein anderer Rahmen sinnvoller ist."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Bratschenunterricht und Viola lernen in Erkrath - Bild 3"
+          "alt": "Bratschenunterricht in Erkrath - passend planen"
         },
         "imageFirst": false
       },
       {
-        "eyebrow": "Beispiel",
-        "title": "Ein realistischer Ablauf in Erkrath rund um Neandertal und Hochdahl.",
-        "lede": "Bratschenunterricht in Erkrath rund um Neandertal und Hochdahl kann mit einer Probestunde beginnen, danach einen Wochenrhythmus bekommen und mit klaren Übeaufgaben wachsen.",
+        "eyebrow": "Anfrage & Preisrahmen",
+        "title": "Was ich für eine seriöse Anfrage in Erkrath brauche.",
+        "lede": "Eine gute Unterrichtsanfrage nennt Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
-          "Wenn Alltag, Fahrweg und Übezeit rund um Neandertal knapp sind, ist ein realistischer Plan wichtiger als ein großes Versprechen: lieber wenige klare Aufgaben, die wirklich wiederholt werden.",
-          "Wenn Unterrichtsweg und Alltag rund um Neandertal anders aussehen als Richtung Hochdahl, plane ich lieber zuerst eine einzelne Probestunde statt sofort einen festen Rhythmus. Für die Buchung klären wir nach der kostenlosen Probestunde, ob Ziel, Weg, Rhythmus und Preisrahmen wirklich passen. So bleibt die Seite für Erkrath praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
+          "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
+          "Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Wunschstueck keine brauchbaren Noten hat und neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
+          "Zusätzlich kosten können längere Wartezeiten, kurzfristige Verlaengerungen, ein zweiter Spielort, besondere Technik oder sehr kurzfristige Neunotation. Es gibt kein kostenloses Vorspielen vor Ort; die musikalische Passung klären wir transparent in der Anfrage."
         ],
         "image": {
           "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-          "alt": "Bratschenunterricht und Viola lernen in Erkrath - Bild 4"
+          "alt": "Bratschenunterricht in Erkrath - Anfrage und Preisrahmen"
         },
         "imageFirst": true
       }
@@ -82,115 +82,116 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Bratschenunterricht in Erkrath",
+    "title": "FAQ zu Bratschenunterricht Erkrath",
     "items": [
       {
-        "question": "Bietest du Bratschenunterricht in Erkrath an?",
+        "question": "Bietest du Bratschenunterricht in Erkrath?",
         "answer": "Ja. Ich biete Viola- und Bratschenunterricht in Erkrath beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
         "open": true
       },
       {
-        "question": "Welche Angaben helfen für eine Anfrage in Erkrath?",
-        "answer": "Am hilfreichsten sind Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Übezeit und Frage zur Probestunde. Für Erkrath zählt vor allem, ob Weg und Wochenrhythmus rund um Neandertal und Hochdahl dauerhaft realistisch bleiben. Je konkreter Ziel, Weg und Rhythmus sind, desto ehrlicher lässt sich sagen, ob Unterricht regelmäßig Sinn ergibt."
+        "question": "Welche Angaben brauchst du für eine Anfrage in Erkrath?",
+        "answer": "Am hilfreichsten sind Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Je genauer diese Angaben sind, desto schneller kann ich Verfügbarkeit, Ablauf und Preisrahmen einschätzen."
       },
       {
-        "question": "Ist die Probestunde wirklich kostenlos?",
-        "answer": "Ja. Die Probestunde ist kostenlos und unverbindlich. Danach besprechen wir, ob Unterrichtsrhythmus, Ziel und Rahmen passen."
+        "question": "Wie entsteht der Preis?",
+        "answer": "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Die erste Anfrage ist kostenlos und unverbindlich; ein Angebot wird erst sinnvoll, wenn der Rahmen klar ist."
       },
       {
-        "question": "Wie werden Unterrichtspreise vereinbart?",
-        "answer": "Der Preis hängt von Unterrichtsformat, Dauer, Rhythmus und Rahmen ab. Das klären wir nach der Probestunde oder in der Anfrage transparent."
+        "question": "Sind Wunschstuecke möglich?",
+        "answer": "Ja, wenn sie zum Lernstand, Instrument und Unterrichtsziel passen. Vorhandenes Unterrichtsmaterial ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
       },
       {
-        "question": "Kann ich Wunschstücke im Unterricht spielen?",
-        "answer": "Ja. Wunschstücke können motivieren, wenn sie zum Lernstand passen. Ich achte darauf, dass sie technisch sinnvoll vorbereitet werden."
+        "question": "Wann passt Bratschenunterricht besonders gut?",
+        "answer": "Bratschenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Unterricht wirkt am besten, wenn Weg, Ziel, Übezeit und Regelmäßigkeit realistisch sind."
+      },
+      {
+        "question": "Wann ist Bratschenunterricht nicht die richtige Loesung?",
+        "answer": "Nicht ideal ist Bratschenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
       },
       {
         "question": "Was ist in Erkrath organisatorisch wichtig?",
-        "answer": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Erkrath steht hier für konkrete Orte und Wege zwischen Neandertal, Hochdahl, Unterfeldhaus und der Nähe zu Düsseldorf. Bei Wegen rund um Neandertal, Hochdahl und Unterfeldhaus ist wichtig, ob die Unterrichtszeit auch mit Schule, Arbeit, Familie und Übezeit zusammenpasst. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
+        "answer": "In Erkrath machen Alt-Erkrath, Hochdahl, Unterfeldhaus und die Nähe zu Düsseldorf für Wege und Puffer einen Unterschied. Genauer Ortsteil, Park- oder Haltemoeglichkeit, Raumzugang und Kontaktperson sollten vorab feststehen. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
       },
       {
-        "question": "Welche Unterrichtssituation passt in Erkrath?",
-        "answer": "Sinnvoll ist ein Rahmen, der regelmäßig machbar bleibt: Lernstand, Instrument, Weg, Übezeit und Alltag rund um Neandertal, Hochdahl und Unterfeldhaus muessen zusammenpassen. Die kostenlose Probestunde klärt genau das. Ja. Haltung, Bogenführung, Rhythmus, Ton und Notenlesen werden ruhig aufgebaut, damit der erste Fortschritt nicht nur zufällig entsteht."
-      },
-      {
-        "question": "Warum fragst du nach dem genauen Ort in Erkrath?",
-        "answer": "Ein Unterrichtsweg nahe Neandertal kann sich anders anfuehlen als ein Termin Richtung Hochdahl; für regelmäßigen Unterricht ist das wichtiger als für einen einmaligen Auftritt. Deshalb klären wir vorab Treffpunkt, Rhythmus und realistische Übezeit."
+        "question": "Was kostet nach der Probestunde extra?",
+        "answer": "Nach der kostenlosen Probestunde haengen die Kosten von Dauer, Rhythmus, Format und Unterrichtsort ab. Neue Notation, besonderes Material oder zusätzliche Vorbereitung bespreche ich vorher."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Bratschenunterricht und Viola lernen in Erkrath - Bild 1"
+      "alt": "Bratschenunterricht in Erkrath - Planungsbild 1"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-      "alt": "Bratschenunterricht und Viola lernen in Erkrath - Bild 2"
+      "alt": "Bratschenunterricht in Erkrath - Planungsbild 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Bratschenunterricht und Viola lernen in Erkrath - Bild 3"
+      "alt": "Bratschenunterricht in Erkrath - Planungsbild 3"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-      "alt": "Bratschenunterricht und Viola lernen in Erkrath - Bild 4"
+      "alt": "Bratschenunterricht in Erkrath - Planungsbild 4"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
+  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
     "title": "Bratschenunterricht in Erkrath anfragen",
-    "lead": "Schreib mir kurz Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Übezeit und Frage zur Probestunde. Hilfreich ist auch, ob der Ort eher bei Neandertal und Hochdahl oder eher außerhalb liegt. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
+    "lead": "Schreib mir kurz Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Danach klären wir, ob eine kostenlose Probestunde in Erkrath, ein regelmäßiger Rhythmus oder zuerst eine Orientierung sinnvoll ist.",
     "checklist": [
       "Erkrath",
       "Lernstand",
       "Probestunde",
-      "Weg & Rhythmus"
+      "Rhythmus",
+      "Preis nach Rahmen"
     ],
     "defaultOccasion": "Unterricht",
     "sourceLabel": "Bratschenunterricht Erkrath",
     "notes": [
       "Probestunde kostenlos und unverbindlich",
-      "Regelmäßiger Unterricht erst nach Ziel-, Weg- und Rhythmus-Check in Erkrath",
-      "Preis nach Dauer, Format und Unterrichtsrahmen",
-      "Neue Notation für Wunschstücke nach Aufwand, ca. 30 Euro pro Song"
+      "Kein kostenloses Vorspielen vor Ort",
+      "Vorhandenes Repertoire ohne Aufpreis; neue Notation oder Heraushoeren nach Aufwand, Orientierung ca. 30 Euro pro Song",
+      "Zusatzaufwand wie Wartezeit, Ortswechsel, Technik, Verlaengerung oder sehr kurzfristige Vorbereitung wird vor der Buchung geklaert"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Erkrath klären",
-    "formSuccess": "Danke - ich prüfe deine Anfrage in Erkrath und melde mich persönlich mit den nächsten Schritten."
+    "formSuccess": "Danke - ich pruefe deine Anfrage in Erkrath und melde mich persönlich mit den naechsten Schritten."
   },
   "focus": {
     "eyebrow": "Planung in Erkrath",
-    "title": "Vier Punkte, die Bratschenunterricht in Erkrath konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer ersten Unterrichtsidee einen realistischen Rhythmus und einen transparenten Preisrahmen zu machen.",
+    "title": "Vier Entscheidungen, die Bratschenunterricht in Erkrath konkret machen.",
+    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
     "items": [
       {
         "time": "1",
         "kicker": "Lernstand",
-        "title": "Vorerfahrung und Ziel sortieren",
-        "text": "Wir klären, ob es um den ersten Ton, Wiedereinstieg, Technik, Klang, Notenlesen oder ein konkretes musikalisches Ziel geht."
+        "title": "Lernstand und Ziel klären",
+        "text": "Wichtig sind Alter, Vorerfahrung, vorhandenes Instrument, Ziel und die Frage, ob der Weg in Erkrath regelmäßig machbar bleibt."
       },
       {
         "time": "2",
-        "kicker": "Probestunde",
-        "title": "Kostenlos ausprobieren",
-        "text": "Die Probestunde in Erkrath ist kostenlos und unverbindlich. Danach entscheiden wir, ob Unterrichtsart, Weg und Rhythmus passen. Bei Wegen rund um Neandertal, Hochdahl und Unterfeldhaus ist wichtig, ob die Unterrichtszeit auch mit Schule, Arbeit, Familie und Übezeit zusammenpasst."
+        "kicker": "Aufgabe",
+        "title": "Probestunde realistisch nutzen",
+        "text": "Die kostenlose Probestunde klärt, ob Unterrichtsart, Tempo, Klangarbeit, Übezeit und Rhythmus zusammenpassen."
       },
       {
         "time": "3",
-        "kicker": "Üben",
-        "title": "Ein kleiner, klarer Wochenplan",
-        "text": "Nach jeder Stunde soll klar sein, was als Nächstes wichtig ist: eine technische Aufgabe, ein musikalischer Ausschnitt und ein realistischer Übeumfang."
+        "kicker": "Material",
+        "title": "Wunschmusik und Notation pruefen",
+        "text": "Wunschstuecke können motivieren, wenn sie zum Lernstand passen. Neue Notation oder eigenes Material bespreche ich vorher transparent."
       },
       {
         "time": "4",
         "kicker": "Rahmen",
-        "title": "Preis und Unterrichtsformat abstimmen",
-        "text": "Der Preis richtet sich nach Dauer, Rhythmus und Rahmen des Unterrichts. Das klären wir offen, bevor regelmäßiger Unterricht beginnt."
+        "title": "Preis und Buchung ehrlich abstimmen",
+        "text": "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Für Erkrath sind Lernstand, möglicher Unterrichtsort oder Treffpunkt, Instrument und Wochenrhythmus besonders hilfreich. Die lokalen Marker Neandertal, Hochdahl und Unterfeldhaus helfen, den Termin nicht nur nach Stadtname, sondern nach echter Situation zu planen."
+    "footnote": "Bratschenunterricht in Erkrath wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
   },
   "elegy": {
     "passages": []

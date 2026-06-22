@@ -373,9 +373,11 @@ if(anfrageForm){
     e.preventDefault();
     const f=e.target; if(!f.checkValidity()){ f.reportValidity(); return; }
     const btn = f.querySelector('button[type=submit]');
-    const orig = btn.textContent;
-    btn.disabled = true; btn.textContent = 'Wird gesendet …';
+    const orig = btn.innerHTML;
     const ok = document.getElementById('formOk');
+    const successText = ok ? ok.dataset.success || ok.textContent : '';
+    if(ok){ ok.style.display='none'; ok.classList.remove('is-error'); ok.textContent = successText; }
+    btn.disabled = true; btn.setAttribute('aria-busy', 'true'); btn.textContent = 'Wird gesendet ...';
     try {
       const payload = Object.fromEntries(new FormData(f).entries());
       const res = await fetch('/api/contact', {
@@ -383,14 +385,28 @@ if(anfrageForm){
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
       });
-      if(!res.ok) throw new Error(String(res.status));
-      ok.style.display='block';
+      let result = {};
+      try { result = await res.json(); } catch(parseErr) {}
+      if(!res.ok) {
+        const err = new Error(result && result.error ? result.error : String(res.status));
+        err.status = res.status;
+        throw err;
+      }
+      if(ok){ ok.textContent = successText; ok.style.display='block'; }
+      btn.removeAttribute('aria-busy');
       btn.textContent='Gesendet';
     } catch(err) {
-      btn.disabled = false; btn.textContent = orig;
-      ok.style.display='block';
+      btn.disabled = false; btn.removeAttribute('aria-busy'); btn.innerHTML = orig;
       const mail = document.querySelector('.contact-aside a.cv');
-      ok.textContent = 'Das Senden hat leider nicht geklappt — schreib mir bitte direkt per E-Mail' + (mail ? ': ' + mail.textContent : '.');
+      if(ok){
+        ok.classList.add('is-error');
+        ok.style.display='block';
+        if(err && err.message === 'validation') {
+          ok.textContent = 'Bitte prüfe Name und E-Mail-Adresse. Danach kannst du die Anfrage erneut senden.';
+        } else {
+          ok.textContent = 'Das Senden hat leider nicht geklappt — schreib mir bitte direkt per E-Mail' + (mail ? ': ' + mail.textContent : '.');
+        }
+      }
     }
   });
 }

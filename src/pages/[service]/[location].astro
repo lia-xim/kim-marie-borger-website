@@ -21,6 +21,8 @@ import {
 	topicSeoJsonLd,
 } from '../../lib/topic-seo';
 
+export const prerender = true;
+
 export async function getStaticPaths() {
 	const localPaths = getLocalSeoPages().map((page) => ({
 		params: {
@@ -85,8 +87,8 @@ const heroImage = firstBlockImage(data);
 	preloadImage={heroImage}
 	imageAlt={data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola'}
 	bodyClass={data.bodyClass ?? undefined}
+	structuredData={jsonLd}
 >
-	<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 	<TinaIsland
 		name="seoPage/"
 		wrapper={islands.seoPage.wrapper}

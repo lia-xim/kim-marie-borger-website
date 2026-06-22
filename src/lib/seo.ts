@@ -1,48 +1,67 @@
 import type { CmsPage } from './data';
-import { canonicalUrl } from './url';
-
-/** Anlass-Seiten mit eigenem Service-Schema (Slug → Dienstleistung). */
-const SERVICE_PAGES: Record<string, string> = {
-	hochzeiten: 'Hochzeitsmusik mit Live-Viola',
-	beerdigungen: 'Trauermusik für Beerdigungen und Trauerfeiern',
-	geburtstage: 'Live-Musik für Geburtstage und private Feiern',
-	taufen: 'Musikalische Begleitung von Taufen',
-	konzerte: 'Konzerte und Veranstaltungen mit Viola',
-	firmenfeiern: 'Live-Musik für Firmenfeiern und Empfänge',
-	unterricht: 'Bratschen- und Musikunterricht',
-};
+import {
+	breadcrumbListNode,
+	coreServiceId,
+	coreServiceNode,
+	graphJsonLd,
+	offerCatalogId,
+	offerCatalogNode,
+	pageUrl,
+	personId,
+	webPageNode,
+} from './schema';
 
 /**
- * Strukturierte Daten für Unterseiten: BreadcrumbList immer,
- * Service-Schema zusätzlich auf den Anlass-Seiten.
+ * Strukturierte Daten für die Startseite: offizielle Personenseite plus
+ * sichtbarer Leistungskatalog aus den Startseiten-Kacheln.
+ */
+export function homeJsonLd(site: URL, pageTitle: string, pageDescription?: string): object {
+	return graphJsonLd([
+		webPageNode(site, '/', {
+			name: pageTitle,
+			description: pageDescription,
+			mainEntityId: personId(site),
+			aboutIds: [personId(site), offerCatalogId(site)],
+		}),
+		offerCatalogNode(site),
+	]);
+}
+
+/**
+ * Strukturierte Daten für CMS-Unterseiten: BreadcrumbList und WebPage immer,
+ * Core-Service nur auf den sieben sichtbaren Anlass-/Leistungsseiten.
  */
 export function subpageJsonLd(site: URL, slug: string, pageTitle: string, pageDescription?: string): object {
-	const pageUrl = canonicalUrl(site, `/${slug}/`).href;
-	const graph: object[] = [
-		{
-			'@type': 'BreadcrumbList',
-			'@id': `${pageUrl}#breadcrumb`,
-			itemListElement: [
-				{ '@type': 'ListItem', position: 1, name: 'Start', item: site.href },
-				{ '@type': 'ListItem', position: 2, name: pageTitle, item: pageUrl },
-			],
-		},
-	];
-	const service = SERVICE_PAGES[slug];
-	if (service) {
-		graph.push({
-			'@type': 'Service',
-			'@id': `${pageUrl}#service`,
-			name: service,
-			description: pageDescription,
-			serviceType: service,
-			provider: { '@id': new URL('/#person', site).href },
-			areaServed: { '@type': 'Country', name: 'Deutschland' },
-			url: pageUrl,
-			inLanguage: 'de',
-		});
-	}
-	return { '@context': 'https://schema.org', '@graph': graph };
+	const pagePath = `/${slug}/`;
+	const page = pageUrl(site, pagePath);
+	const breadcrumb = breadcrumbListNode(site, pagePath, [
+		{ name: 'Start', item: pageUrl(site, '/') },
+		{ name: pageTitle, item: page },
+	]);
+	const service = coreServiceNode(site, slug);
+	const isAboutPage = slug === 'ueber-mich';
+	const isCatalogPage = slug === 'leistungen';
+	const isContactPage = slug === 'anfragen';
+	const pageNode = webPageNode(site, pagePath, {
+		type: isAboutPage ? 'ProfilePage' : isCatalogPage ? 'CollectionPage' : isContactPage ? 'ContactPage' : 'WebPage',
+		name: pageTitle,
+		description: pageDescription,
+		mainEntityId: isAboutPage
+			? personId(site)
+			: isCatalogPage
+				? offerCatalogId(site)
+				: service
+					? coreServiceId(site, slug)
+					: undefined,
+		aboutIds: service ? [personId(site), coreServiceId(site, slug)] : [personId(site)],
+	});
+
+	return graphJsonLd([
+		breadcrumb,
+		pageNode,
+		service,
+		isCatalogPage ? offerCatalogNode(site) : undefined,
+	]);
 }
 
 /**

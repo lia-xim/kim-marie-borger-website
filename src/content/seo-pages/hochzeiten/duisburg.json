@@ -5,76 +5,76 @@
   "route": "/hochzeiten/duisburg/",
   "targetKeyword": "Hochzeitsmusik Duisburg",
   "intentCluster": "hochzeiten:local",
-  "priority": "P3",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "priority": "P2",
+  "status": "manual-priority-local-seo-2026-06-22",
   "enabled": true,
   "seoTitle": "Hochzeitsmusik Duisburg | Viola für Trauung",
-  "seoDescription": "Hochzeitsmusik Duisburg: Solo-Viola für Trauung, Empfang und Dinner in Duisburg. Anfrage kostenlos, Preis nach Rahmen.",
+  "seoDescription": "Hochzeitsmusik Duisburg: Solo-Viola für Trauung, Empfang und Dinner in Duisburg. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
-    "eyebrow": "Hochzeit in Duisburg",
-    "title": "Hochzeitsmusik in Duisburg, die eure Trauung persönlich trägt.",
-    "lead": "Live-Viola für Standesamt, Kirche, freie Trauung, Sektempfang oder Dinner in Duisburg - nach Ort, Ablauf, Wunschmusik und Raumklang geplant.",
-    "badge": "Anfrage kostenlos - Preise nach Rahmen"
+    "eyebrow": "Hochzeitsmusik in Duisburg",
+    "title": "Hochzeitsmusik in Duisburg: konkret geplant nach Ort und Ablauf.",
+    "lead": "Solo-Viola für Trauung, Empfang und Dinner in Duisburg. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, wann Solo-Viola wirklich passt.",
+    "badge": "Anfrage kostenlos - Preis nach Rahmen"
   },
   "split": {
-    "seal": "Duisburg\nHochzeitsmusik\nlokal geplant",
+    "seal": "Duisburg\nHochzeitsmusik\nkonkret geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Hochzeitsmusik in Duisburg: worauf es vor Ort ankommt.",
-        "lede": "Duisburg steht hier für konkrete Orte und Wege zwischen Innenhafen, Rhein, Landschaftspark und Rhein-Ruhr-Atmosphäre. Typische Orte und Routen liegen zum Beispiel im Umfeld von Innenhafen, Rhein und Landschaftspark; für Hochzeitsmusik verändert das Timing, Aufbau und Akustik. Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: Raum, Wege, Startsignal, Lautstärke, Wetteroption, Wunschmusik und die Rolle der Musik.",
+        "title": "Hochzeitsmusik in Duisburg: was vor Ort wirklich zählt.",
+        "lede": "In Duisburg können Rheinnähe, Innenhafen, größere Distanzen im Stadtgebiet und der Übergang Richtung Niederrhein oder Ruhrgebiet den Ablauf beeinflussen. Für Hochzeitsmusik heißt das: Einlass, Aufstellung, Startsignal, Wetteroption und Ortswechsel müssen zum Trauablauf passen. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
         "paragraphs": [
-          "Typische Rahmen sind Standesamt, Kirche, freie Trauung, Schloss-, Hotel-, Garten- oder Restaurantlocation. Gerade Hochzeiten wechseln häufig zwischen Zeremonie, Fotos und Empfang; rund um Innenhafen, Rhein und Landschaftspark sollte deshalb klar sein, wo die Musik wirklich gebraucht wird. Je nach Ort ist entscheidend, ob Musik sammelt, einen einzelnen Moment trägt oder über mehrere kurze Sets Atmosphäre schafft.",
-          "Ich kläre vorab nicht nur Stücke, sondern auch praktische Punkte: genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Bei Terminen rund um Innenhafen, Rhein und Landschaftspark plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein.",
-          "Gerade in Duisburg wirkt Solo-Viola stark, weil sie wenig Aufbau braucht, nah klingt und sich flexibel an kleinere Räume, größere Feiern oder kurze Übergänge anpassen lässt. Die lokalen Marker Innenhafen, Rhein und Landschaftspark helfen, den Termin nicht nur nach Stadtname, sondern nach echter Situation zu planen."
+          "Typische Situationen in Duisburg können Innenstadt, Innenhafen, Rheinnähe, Ruhrort, private Räume oder Firmenumfeld sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
+          "Genauer Stadtteil, Zugang zum Raum, Haltemoeglichkeit und ein realistisches Zeitfenster sind für den Musikbeginn wichtig. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand veraendern."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-          "alt": "Live-Viola als Hochzeitsmusik in Duisburg - Bild 1"
+          "alt": "Hochzeitsmusik in Duisburg - lokaler Planungsrahmen"
         },
         "imageFirst": false
       },
       {
         "eyebrow": "Ablauf",
-        "title": "So wird Hochzeitsmusik in Duisburg sinnvoll eingesetzt.",
-        "lede": "Ein guter lokaler Ablauf entsteht aus wenigen klaren Entscheidungen. Statt einfach eine lange Stückliste zu spielen, legen wir fest, welche musikalischen Momente wirklich Aufgabe und Bedeutung haben.",
+        "title": "Von Einzug bis Empfang in Duisburg.",
+        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob die Musik nur einen einzelnen Moment trägt oder mehrere Übergaenge eines Hochzeitstags verbindet.",
         "paragraphs": [
-          "Mögliche Einsatzpunkte sind Einzug, Ringtausch oder Ja-Wort, Auszug und Sektempfang oder Dinner. Daraus entsteht ein Plan, der zum Anlass passt und Pausen, Worte, Wege und Gäste nicht überdeckt.",
-          "Ein Termin nahe Innenhafen braucht oft andere Zeitpuffer als ein Termin Richtung Rhein; das beeinflusst Anfahrt, Aufbau und die Frage, wie knapp der Ablauf sein darf. Deshalb frage ich früh nach genauer Adresse, Raumtyp, Aufbauplatz und Kontaktperson.",
-          "Wenn mehrere Programmpunkte begleitet werden, plane ich kurze Spannungswechsel: ein ruhiger Beginn, ein tragender Kern und danach entweder ein heller Abschluss oder eine dezente Rücknahme."
+          "Mögliche Einsatzpunkte sind Einzug, Ringtausch oder Ja-Wort, Unterschrift, Auszug, Empfang und Dinner. Ich plane lieber wenige sichere Momente als einen langen Musikblock, der Wege, Reden oder Gespräche stoert.",
+          "Vorab klären wir, ob vorhandenes Repertoire reicht, ob ein Wunschstueck vorbereitet werden soll und ob die Einsaetze mit Standesamt, Kirche, Redner:in, Location oder Veranstaltungsleitung abgestimmt werden müssen.",
+          "Gerade in Duisburg hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So bleibt die Musik präsent, aber sie zwingt dem Anlass kein unpassendes Format auf."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola als Hochzeitsmusik in Duisburg - Bild 2"
+          "alt": "Hochzeitsmusik in Duisburg - Ablauf und Einsaetze"
         },
         "imageFirst": true
       },
       {
-        "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine gute Anfrage in Duisburg brauche.",
-        "lede": "Die Kontaktaufnahme ist kostenlos und unverbindlich. Ein Preis entsteht erst, wenn Dauer, Ort, Aufwand, Wunschmusik, Anfahrt und Rahmen klar genug sind, damit ich ehrlich einschätzen kann, was sinnvoll ist.",
+        "eyebrow": "Solo-Viola: passend oder nicht?",
+        "title": "Wann Solo-Viola in Duisburg die richtige Wahl ist.",
+        "lede": "Solo-Viola passt, wenn ein warmer, solistischer Klang die Zeremonie persönlich tragen soll, ohne den Raum zu überdecken. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
         "paragraphs": [
-          "Hilfreich sind: Datum, Trauort, Zeremonieform, ungefähre Uhrzeit, Gästezahl, Wunschmomente und erste Liedideen. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Innenhafen und Rhein, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Damit kann ich Verfügbarkeit, passenden Umfang und einen realistischen Preisrahmen einschätzen.",
-          "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
-          "Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klären wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin in Duisburg mit Anfahrt, Aufbau und Ablauf machbar ist."
+          "Nicht ideal ist Solo-Viola, wenn laute Tanzmusik, lange Partybeschallung oder ein sehr großes Ensemble erwartet wird. Dann ist es fairer, über DJ, Band, Technik oder ein anderes Format zu sprechen.",
+          "Bei Außenbereichen gilt: trockener, schattiger Stand, stabiler Untergrund und eine Innenoption sind für ein Streichinstrument wichtiger als ein besonders schöner Hintergrund.",
+          "Wenn mehrere Orte oder längere Wartezeiten geplant sind, pruefe ich vorab, ob der Wechsel musikalisch sinnvoll ist oder ob ein klar begrenzter Einsatz besser wirkt."
         ],
         "image": {
           "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-          "alt": "Live-Viola als Hochzeitsmusik in Duisburg - Bild 3"
+          "alt": "Hochzeitsmusik in Duisburg - passend planen"
         },
         "imageFirst": false
       },
       {
-        "eyebrow": "Beispiel",
-        "title": "Ein realistischer Ablauf in Duisburg rund um Innenhafen und Rhein.",
-        "lede": "Eine Trauung in Duisburg rund um Innenhafen und Rhein kann mit einem ruhigen Einzug beginnen, beim Ringtausch sehr reduziert werden und nach dem Auszug in leichte Empfangsmusik wechseln.",
+        "eyebrow": "Anfrage & Preisrahmen",
+        "title": "Was ich für eine seriöse Anfrage in Duisburg brauche.",
+        "lede": "Eine gute Hochzeitsanfrage nennt Datum, genaue Adresse, Trauform, Uhrzeit, Gaestezahl, Wunschmomente, erste Liedideen und eine Kontaktperson vor Ort. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
-          "Wenn die Location zwischen Innenhafen und Rhein mehrere Wege zwischen Trauung, Fotos und Empfang hat, plane ich lieber kürzere, sichere Einsätze als einen zu langen Musikblock.",
-          "Wenn Zeremonie, Fotos und Empfang an zwei Orten zwischen Innenhafen und Rhein liegen, plane ich nicht automatisch beides ein; erst die Wege und Zeiten zeigen, ob ein Ortswechsel musikalisch sinnvoll ist. Für die Buchung klären wir danach ehrlich, ob vorhandenes Repertoire reicht oder ob ein Wunschlied neu herausgehört beziehungsweise notiert werden muss. So bleibt die Seite für Duisburg praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
+          "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Ortswechsel, Vorbereitung und Wunschmusik. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
+          "Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Wunschstueck keine brauchbaren Noten hat und neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
+          "Zusätzlich kosten können längere Wartezeiten, kurzfristige Verlaengerungen, ein zweiter Spielort, besondere Technik oder sehr kurzfristige Neunotation. Es gibt kein kostenloses Vorspielen vor Ort; die musikalische Passung klären wir transparent in der Anfrage."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-          "alt": "Live-Viola als Hochzeitsmusik in Duisburg - Bild 4"
+          "alt": "Hochzeitsmusik in Duisburg - Anfrage und Preisrahmen"
         },
         "imageFirst": true
       }
@@ -82,101 +82,102 @@
   },
   "focus": {
     "eyebrow": "Planung in Duisburg",
-    "title": "Vier Punkte, die Hochzeitsmusik in Duisburg konkret machen.",
+    "title": "Vier Entscheidungen, die Hochzeitsmusik in Duisburg konkret machen.",
     "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
     "items": [
       {
         "time": "1",
         "kicker": "Ort",
-        "title": "Adresse und Raum in Duisburg klären",
-        "text": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. So weiß ich, wie viel Zeit für Ankunft, Stimmen und Aufbau realistisch ist. Bei Terminen rund um Innenhafen, Rhein und Landschaftspark plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein."
+        "title": "Adresse, Raum und Zugang klären",
+        "text": "Genauer Stadtteil, Zugang zum Raum, Haltemoeglichkeit und ein realistisches Zeitfenster sind für den Musikbeginn wichtig. Das beeinflusst Ankunft, Aufbau, Stimmen, Wartezeit und die Frage, ob ein Ortswechsel sinnvoll ist."
       },
       {
         "time": "2",
-        "kicker": "Moment",
+        "kicker": "Aufgabe",
         "title": "Musikalische Aufgabe festlegen",
-        "text": "Wir entscheiden, ob die Musik sammelt, einen Höhepunkt trägt, Gespräche begleitet oder als eigener Programmpunkt wirken soll."
+        "text": "Wir entscheiden, ob die Musik sammelt, begleitet, einen Höhepunkt trägt oder als eigener Programmpunkt wirkt."
       },
       {
         "time": "3",
         "kicker": "Stücke",
-        "title": "Repertoire und Wunschmusik prüfen",
-        "text": "Viele passende Stücke sind ohne Aufpreis möglich. Bei einem Lied ohne verwendbare Noten bespreche ich vorher, ob ein neues Arrangement sinnvoll ist und welcher Zusatzaufwand entsteht."
+        "title": "Wunschmusik und Notation pruefen",
+        "text": "Viele passende Stücke sind vorhanden. Wenn ein Wunschlied neu herausgehoert oder notiert werden muss, kläre ich Aufwand und Kosten vorab."
       },
       {
         "time": "4",
         "kicker": "Rahmen",
         "title": "Preis und Buchung ehrlich abstimmen",
-        "text": "Die Anfrage ist kostenlos. Der Preis richtet sich nach Dauer, Ort, Vorbereitung, Wunschmusik, Anfahrt und Aufwand - nicht nach einem pauschalen Versprechen."
+        "text": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Ortswechsel, Vorbereitung und Wunschmusik. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Für Duisburg sind besonders genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort hilfreich. Die lokalen Marker Innenhafen, Rhein und Landschaftspark helfen, den Termin nicht nur nach Stadtname, sondern nach echter Situation zu planen."
+    "footnote": "Hochzeitsmusik in Duisburg wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Hochzeitsmusik in Duisburg",
+    "title": "FAQ zu Hochzeitsmusik Duisburg",
     "items": [
       {
         "question": "Spielst du Hochzeitsmusik in Duisburg?",
-        "answer": "Ja. Ich begleite Hochzeiten in Duisburg mit Solo-Viola - je nach Ablauf zur Trauung, zum Einzug, zum Ringtausch, zum Auszug, zum Sektempfang oder zum Dinner.",
+        "answer": "Ja. Ich begleite Standesamt, Kirche, freie Trauung, Sektempfang oder Dinner in Duisburg mit Solo-Viola, wenn Ort, Ablauf und musikalische Aufgabe passen.",
         "open": true
       },
       {
-        "question": "Welche Angaben helfen für eine Anfrage in Duisburg?",
-        "answer": "Am hilfreichsten sind Datum, Trauort, Zeremonieform, ungefähre Uhrzeit, Gästezahl, Wunschmomente und erste Liedideen. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Innenhafen und Rhein, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
-      },
-      {
-        "question": "Ist die Kontaktaufnahme kostenlos?",
-        "answer": "Ja. Die Anfrage und erste Klärung sind kostenlos und unverbindlich. Kostenloses Vorspielen vor Ort ist damit nicht gemeint."
+        "question": "Welche Angaben brauchst du für eine Anfrage in Duisburg?",
+        "answer": "Am hilfreichsten sind Datum, genaue Adresse, Trauform, Uhrzeit, Gaestezahl, Wunschmomente, erste Liedideen und eine Kontaktperson vor Ort. Je genauer diese Angaben sind, desto schneller kann ich Verfügbarkeit, Ablauf und Preisrahmen einschätzen."
       },
       {
         "question": "Wie entsteht der Preis?",
-        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Vorbereitung, Wunschmusik und Aufwand. Ich nenne keinen pauschalen Fantasiepreis, sondern kläre den Rahmen persönlich."
+        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Ortswechsel, Vorbereitung und Wunschmusik. Die erste Anfrage ist kostenlos und unverbindlich; ein Angebot wird erst sinnvoll, wenn der Rahmen klar ist."
       },
       {
-        "question": "Sind Wunschstücke möglich?",
-        "answer": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+        "question": "Sind Wunschstuecke möglich?",
+        "answer": "Ja, wenn sie musikalisch zu Solo-Viola und zum Anlass passen. Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+      },
+      {
+        "question": "Wann passt Solo-Viola besonders gut?",
+        "answer": "Solo-Viola passt, wenn ein warmer, solistischer Klang die Zeremonie persönlich tragen soll, ohne den Raum zu überdecken. Das wirkt am besten, wenn der Moment zuhoeren darf und der Klang nicht gegen laute Umgebung anspielen muss."
+      },
+      {
+        "question": "Wann ist Solo-Viola nicht die richtige Loesung?",
+        "answer": "Nicht ideal ist Solo-Viola, wenn laute Tanzmusik, lange Partybeschallung oder ein sehr großes Ensemble erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
       },
       {
         "question": "Was ist in Duisburg organisatorisch wichtig?",
-        "answer": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Duisburg steht hier für konkrete Orte und Wege zwischen Innenhafen, Rhein, Landschaftspark und Rhein-Ruhr-Atmosphäre. Bei Terminen rund um Innenhafen, Rhein und Landschaftspark plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
+        "answer": "In Duisburg können Rheinnähe, Innenhafen, größere Distanzen im Stadtgebiet und der Übergang Richtung Niederrhein oder Ruhrgebiet den Ablauf beeinflussen. Genauer Stadtteil, Zugang zum Raum, Haltemoeglichkeit und ein realistisches Zeitfenster sind für den Musikbeginn wichtig. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
       },
       {
-        "question": "Welche Orte passen für Hochzeitsmusik in Duisburg?",
-        "answer": "Gerade Hochzeiten wechseln häufig zwischen Zeremonie, Fotos und Empfang; rund um Innenhafen, Rhein und Landschaftspark sollte deshalb klar sein, wo die Musik wirklich gebraucht wird. Wichtig ist weniger ein spektakulärer Ortsname als ein Raum, in dem Lautstärke, Startsignal und Ablauf funktionieren. Ja, wenn Wetter, Untergrund und Schutz für das Instrument stimmen. Eine Innenoption oder ein überdachter Platz ist immer sinnvoll."
-      },
-      {
-        "question": "Warum ist die genaue Location in Duisburg so wichtig?",
-        "answer": "Ein Termin nahe Innenhafen braucht oft andere Zeitpuffer als ein Termin Richtung Rhein; das beeinflusst Anfahrt, Aufbau und die Frage, wie knapp der Ablauf sein darf. Deshalb frage ich nach Adresse, Aufbauplatz, Kontaktperson vor Ort und möglichen Ortswechseln."
+        "question": "Was kann zusätzlich kosten?",
+        "answer": "Zusätzlich kosten können längere Wartezeit, ein zweiter Spielort, kurzfristige Verlaengerung, besondere Technik, sehr kurzfristige Buchung oder neue Notation für Wunschmusik."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-      "alt": "Live-Viola als Hochzeitsmusik in Duisburg - Bild 1"
+      "alt": "Hochzeitsmusik in Duisburg - Planungsbild 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola als Hochzeitsmusik in Duisburg - Bild 2"
+      "alt": "Hochzeitsmusik in Duisburg - Planungsbild 2"
     },
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-      "alt": "Live-Viola als Hochzeitsmusik in Duisburg - Bild 3"
+      "alt": "Hochzeitsmusik in Duisburg - Planungsbild 3"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-      "alt": "Live-Viola als Hochzeitsmusik in Duisburg - Bild 4"
+      "alt": "Hochzeitsmusik in Duisburg - Planungsbild 4"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
+  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
   "contact": {
     "eyebrow": "Hochzeitsmusik anfragen",
     "title": "Hochzeitsmusik in Duisburg anfragen",
-    "lead": "Schreib mir kurz Datum, Trauort, Zeremonieform, ungefähre Uhrzeit, Gästezahl, Wunschmomente und erste Liedideen. Hilfreich ist auch, ob der Ort eher bei Innenhafen und Rhein oder eher außerhalb liegt. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
+    "lead": "Schreib mir kurz Datum, genaue Adresse, Trauform, Uhrzeit, Gaestezahl, Wunschmomente, erste Liedideen und eine Kontaktperson vor Ort. Danach klären wir, wann Solo-Viola wirklich passt, wie der Ablauf aussehen kann und welcher Preisrahmen realistisch ist.",
     "checklist": [
       "Duisburg",
-      "Datum & Ort",
+      "Datum & Trauort",
+      "Ablauf",
       "Wunschmusik",
       "Preis nach Rahmen"
     ],
@@ -185,11 +186,12 @@
     "notes": [
       "Kontaktaufnahme kostenlos und unverbindlich",
       "Kein kostenloses Vorspielen vor Ort",
-      "Vorhandenes Repertoire ohne Aufpreis; neue Notation nach Aufwand, ca. 30 Euro pro Song"
+      "Vorhandenes Repertoire ohne Aufpreis; neue Notation oder Heraushoeren nach Aufwand, Orientierung ca. 30 Euro pro Song",
+      "Zusatzaufwand wie Wartezeit, Ortswechsel, Technik, Verlaengerung oder sehr kurzfristige Vorbereitung wird vor der Buchung geklaert"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Duisburg klären",
-    "formSuccess": "Danke - ich prüfe deine Anfrage in Duisburg und melde mich persönlich mit den nächsten Schritten."
+    "formSuccess": "Danke - ich pruefe deine Anfrage in Duisburg und melde mich persönlich mit den naechsten Schritten."
   },
   "elegy": {
     "passages": []

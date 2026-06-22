@@ -5,76 +5,76 @@
   "route": "/konzerte/mettmann/",
   "targetKeyword": "Viola Konzert Mettmann",
   "intentCluster": "konzerte:local",
-  "priority": "P3",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "priority": "P2",
+  "status": "manual-priority-local-seo-2026-06-22",
   "enabled": true,
   "seoTitle": "Viola Konzert Mettmann | Viola für Events",
-  "seoDescription": "Viola Konzert Mettmann: kuratiertes Viola-Programm für Vernissage, Lesung und Kulturabend in Mettmann. Anfrage kostenlos.",
+  "seoDescription": "Viola Konzert Mettmann: Viola-Programm für Vernissage, Lesung und Kulturabend in Mettmann. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
-    "eyebrow": "Konzert & Event in Mettmann",
-    "title": "Viola Konzert in Mettmann für einen Raum, der wirklich zuhoert.",
-    "lead": "Kuratierte Viola-Programme für Vernissage, Lesung, Salonkonzert, Matinee, Empfang oder Kulturabend in Mettmann - passend zu Publikum, Raum und Dramaturgie.",
-    "badge": "Programm nach Anlass"
+    "eyebrow": "Viola Konzert in Mettmann",
+    "title": "Viola Konzert in Mettmann: konkret geplant nach Ort und Ablauf.",
+    "lead": "kuratiertes Viola-Programm für Vernissage, Lesung und Kulturabend in Mettmann. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, welches Viola-Format wirklich zum Raum und Publikum passt.",
+    "badge": "Anfrage kostenlos - Preis nach Rahmen"
   },
   "split": {
-    "seal": "Mettmann\nViola Konzert\nlokal geplant",
+    "seal": "Mettmann\nViola Konzert\nkonkret geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Viola Konzert in Mettmann: worauf es vor Ort ankommt.",
-        "lede": "Mettmann steht hier für konkrete Orte und Wege zwischen Altstadt, Neandertal und den kurzen Wegen im Kreis Mettmann. Typische Orte und Routen liegen zum Beispiel im Umfeld von Altstadt, Neandertal und kurzen Wegen im Kreis Mettmann; für Viola Konzert verändert das Timing, Aufbau und Akustik. Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: Raum, Wege, Startsignal, Lautstärke, Wetteroption, Wunschmusik und die Rolle der Musik.",
+        "title": "Viola Konzert in Mettmann: was vor Ort wirklich zählt.",
+        "lede": "In Mettmann sind kurze Wege im Kreis Mettmann ein Vorteil, trotzdem entscheiden genaue Adresse, Raumzugang und Ortsteil über den Ablauf. Für Viola Konzert heißt das: Raumakustik, Sitzordnung, Licht, Publikumssituation und Technik entscheiden, ob akustische Viola trägt oder ob Verstärkung nötig ist. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
         "paragraphs": [
-          "Typische Rahmen sind Galerie, Salon, Kulturraum, Lesung, Vernissage, privater Konzertabend oder Empfang. Kulturformate rund um Altstadt, Neandertal und kurzen Wegen im Kreis Mettmann brauchen ein Programm, das zu Raum, Publikum und Dramaturgie passt, nicht einfach eine lange Liste schöner Stücke. Je nach Ort ist entscheidend, ob Musik sammelt, einen einzelnen Moment trägt oder über mehrere kurze Sets Atmosphäre schafft.",
-          "Ich kläre vorab nicht nur Stücke, sondern auch praktische Punkte: genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Bei Terminen rund um Altstadt, Neandertal und kurzen Wegen im Kreis Mettmann plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein.",
-          "Gerade in Mettmann wirkt Solo-Viola stark, weil sie wenig Aufbau braucht, nah klingt und sich flexibel an kleinere Räume, größere Feiern oder kurze Übergänge anpassen lässt. Die lokalen Marker Altstadt, Neandertal und kurzen Wegen im Kreis Mettmann helfen, den Termin nicht nur nach Stadtname, sondern nach echter Situation zu planen."
+          "Typische Situationen in Mettmann können Mettmann, Kreis Mettmann, Erkrath, Hilden, Ratingen oder ein ruhiger privater Rahmen sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
+          "Haltemoeglichkeit, Raum, Etage, Kontaktperson und ein kleiner Zeitpuffer sollten vorab geklaert werden. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand veraendern."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola für Konzert und Kulturabend in Mettmann - Bild 1"
+          "alt": "Viola Konzert in Mettmann - lokaler Planungsrahmen"
         },
         "imageFirst": false
       },
       {
         "eyebrow": "Ablauf",
-        "title": "So wird Viola Konzert in Mettmann sinnvoll eingesetzt.",
-        "lede": "Ein guter lokaler Ablauf entsteht aus wenigen klaren Entscheidungen. Statt einfach eine lange Stückliste zu spielen, legen wir fest, welche musikalischen Momente wirklich Aufgabe und Bedeutung haben.",
+        "title": "Programm und Raum in Mettmann.",
+        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob ein kurzes Rahmenprogramm oder ein eigener Konzertteil mit Dramaturgie gebraucht wird.",
         "paragraphs": [
-          "Mögliche Einsatzpunkte sind Ankommen, kuratierter Konzertblock, moderierter Übergang und Ausklang oder Empfang. Daraus entsteht ein Plan, der zum Anlass passt und Pausen, Worte, Wege und Gäste nicht überdeckt.",
-          "Ein Termin nahe Altstadt braucht oft andere Zeitpuffer als ein Termin Richtung Neandertal; das beeinflusst Anfahrt, Aufbau und die Frage, wie knapp der Ablauf sein darf. Deshalb frage ich früh nach genauer Adresse, Raumtyp, Aufbauplatz und Kontaktperson.",
-          "Wenn mehrere Programmpunkte begleitet werden, plane ich kurze Spannungswechsel: ein ruhiger Beginn, ein tragender Kern und danach entweder ein heller Abschluss oder eine dezente Rücknahme."
+          "Mögliche Einsatzpunkte sind Begruessung, konzentriertes Set, moderierter Programmpunkt, Pause und ruhiger Ausklang. Ich plane lieber ein klares Set mit Dramaturgie als eine unbestimmte Dauer, die weder Konzert noch Hintergrundmusik ist.",
+          "Vorab klären wir, ob Repertoire, Moderation, Licht, Sitzordnung, Technik, Pausen und Veranstaltungsleitung miteinander abgestimmt werden müssen.",
+          "Gerade in Mettmann hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So bekommt das Programm einen klaren Rahmen und bleibt für Publikum, Raum und Anlass nachvollziehbar."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola für Konzert und Kulturabend in Mettmann - Bild 2"
+          "alt": "Viola Konzert in Mettmann - Ablauf und Einsaetze"
         },
         "imageFirst": true
       },
       {
-        "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine gute Anfrage in Mettmann brauche.",
-        "lede": "Die Kontaktaufnahme ist kostenlos und unverbindlich. Ein Preis entsteht erst, wenn Dauer, Ort, Aufwand, Wunschmusik, Anfahrt und Rahmen klar genug sind, damit ich ehrlich einschätzen kann, was sinnvoll ist.",
+        "eyebrow": "Konzertformat: passend oder nicht?",
+        "title": "Wann ein Viola-Programm in Mettmann die richtige Wahl ist.",
+        "lede": "Viola-Programm passt, wenn ein Raum aufmerksam zuhoeren kann und ein kuratiertes Programm gefragt ist. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
         "paragraphs": [
-          "Hilfreich sind: Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Altstadt und Neandertal, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Damit kann ich Verfügbarkeit, passenden Umfang und einen realistischen Preisrahmen einschätzen.",
-          "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
-          "Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klären wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin in Mettmann mit Anfahrt, Aufbau und Ablauf machbar ist."
+          "Nicht ideal ist Viola-Programm, wenn die Musik nur neben sehr lauten Gesprächen laufen oder eine Party ersetzen soll. Dann ist es fairer, über Hintergrundmusik, DJ, Band, Technik oder ein anderes Format zu sprechen.",
+          "Bei Außenbereichen gilt: trockener, schattiger Stand, stabiler Untergrund und eine Innenoption sind für ein Streichinstrument wichtiger als ein besonders schöner Hintergrund.",
+          "Wenn mehrere Räume, Umbauten oder längere Wartezeiten geplant sind, pruefe ich vorab, ob ein klar begrenztes Set besser wirkt."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola für Konzert und Kulturabend in Mettmann - Bild 3"
+          "alt": "Viola Konzert in Mettmann - passend planen"
         },
         "imageFirst": false
       },
       {
-        "eyebrow": "Beispiel",
-        "title": "Ein realistischer Ablauf in Mettmann rund um Altstadt und Neandertal.",
-        "lede": "Ein Kulturabend in Mettmann rund um Altstadt und Neandertal kann aus einem kurzen kuratierten Block, einer persönlichen Anmoderation und einem offenen Ausklang bestehen.",
+        "eyebrow": "Anfrage & Preisrahmen",
+        "title": "Was ich für eine seriöse Anfrage in Mettmann brauche.",
+        "lede": "Eine gute Konzertanfrage nennt Datum, genaue Adresse, Format, gewuenschte Dauer, Raumgröße, Publikum, Moderationswunsch und Kontaktperson vor Ort. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
-          "Wenn Raum und Publikum im Umfeld von Altstadt eher klein sind, funktioniert ein konzentriertes Programm oft stärker als ein zu langer Abend mit zu vielen Stilen.",
-          "Wenn Zeremonie, Fotos und Empfang an zwei Orten zwischen Altstadt und Neandertal liegen, plane ich nicht automatisch beides ein; erst die Wege und Zeiten zeigen, ob ein Ortswechsel musikalisch sinnvoll ist. Für die Buchung klären wir danach ehrlich, ob vorhandenes Repertoire reicht oder ob ein Wunschlied neu herausgehört beziehungsweise notiert werden muss. So bleibt die Seite für Mettmann praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
+          "Der Preis richtet sich nach Dauer, Programmarbeit, Ort, Anfahrt, Moderation, Wartezeit, Technik und Wunschmusik. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
+          "Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Wunschstueck keine brauchbaren Noten hat und neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
+          "Zusätzlich kosten können längere Wartezeiten, kurzfristige Verlaengerungen, ein zweiter Spielort, besondere Technik oder sehr kurzfristige Neunotation. Es gibt kein kostenloses Vorspielen vor Ort; die musikalische Passung klären wir transparent in der Anfrage."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Viola für Konzert und Kulturabend in Mettmann - Bild 4"
+          "alt": "Viola Konzert in Mettmann - Anfrage und Preisrahmen"
         },
         "imageFirst": true
       }
@@ -82,114 +82,116 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Viola Konzert in Mettmann",
+    "title": "FAQ zu Viola Konzert Mettmann",
     "items": [
       {
-        "question": "Spielst du Konzerte und Kulturformate in Mettmann?",
-        "answer": "Ja. Ich gestalte Viola-Programme für Konzerte, Vernissagen, Lesungen, Kulturabende, private Events und Empfänge in Mettmann.",
+        "question": "Spielst du Viola Konzert in Mettmann?",
+        "answer": "Ja. Ich begleite Vernissage, Lesung, Salonkonzert, Kulturabend, Empfang oder privates Konzert in Mettmann mit Solo-Viola, wenn Ort, Ablauf und musikalische Aufgabe passen.",
         "open": true
       },
       {
-        "question": "Welche Angaben helfen für eine Anfrage in Mettmann?",
-        "answer": "Am hilfreichsten sind Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Altstadt und Neandertal, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
-      },
-      {
-        "question": "Ist die Kontaktaufnahme kostenlos?",
-        "answer": "Ja. Die Anfrage und erste Klärung sind kostenlos und unverbindlich. Kostenloses Vorspielen vor Ort ist damit nicht gemeint."
+        "question": "Welche Angaben brauchst du für eine Anfrage in Mettmann?",
+        "answer": "Am hilfreichsten sind Datum, genaue Adresse, Format, gewuenschte Dauer, Raumgröße, Publikum, Moderationswunsch und Kontaktperson vor Ort. Je genauer diese Angaben sind, desto schneller kann ich Verfügbarkeit, Ablauf und Preisrahmen einschätzen."
       },
       {
         "question": "Wie entsteht der Preis?",
-        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Vorbereitung, Wunschmusik und Aufwand. Ich nenne keinen pauschalen Fantasiepreis, sondern kläre den Rahmen persönlich."
+        "answer": "Der Preis richtet sich nach Dauer, Programmarbeit, Ort, Anfahrt, Moderation, Wartezeit, Technik und Wunschmusik. Die erste Anfrage ist kostenlos und unverbindlich; ein Angebot wird erst sinnvoll, wenn der Rahmen klar ist."
       },
       {
-        "question": "Sind Wunschstücke möglich?",
-        "answer": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+        "question": "Sind Wunschstuecke möglich?",
+        "answer": "Ja, wenn sie musikalisch zu Viola-Programm und zum Anlass passen. Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+      },
+      {
+        "question": "Wann passt Viola-Programm besonders gut?",
+        "answer": "Viola-Programm passt, wenn ein Raum aufmerksam zuhoeren kann und ein kuratiertes Programm gefragt ist. Das wirkt am besten, wenn der Moment zuhoeren darf und der Klang nicht gegen laute Umgebung anspielen muss."
+      },
+      {
+        "question": "Wann ist Viola-Programm nicht die richtige Loesung?",
+        "answer": "Nicht ideal ist Viola-Programm, wenn die Musik nur neben sehr lauten Gesprächen laufen oder eine Party ersetzen soll. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
       },
       {
         "question": "Was ist in Mettmann organisatorisch wichtig?",
-        "answer": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Mettmann steht hier für konkrete Orte und Wege zwischen Altstadt, Neandertal und den kurzen Wegen im Kreis Mettmann. Bei Terminen rund um Altstadt, Neandertal und kurzen Wegen im Kreis Mettmann plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
+        "answer": "In Mettmann sind kurze Wege im Kreis Mettmann ein Vorteil, trotzdem entscheiden genaue Adresse, Raumzugang und Ortsteil über den Ablauf. Haltemoeglichkeit, Raum, Etage, Kontaktperson und ein kleiner Zeitpuffer sollten vorab geklaert werden. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
       },
       {
-        "question": "Welche Orte passen für Viola Konzert in Mettmann?",
-        "answer": "Kulturformate rund um Altstadt, Neandertal und kurzen Wegen im Kreis Mettmann brauchen ein Programm, das zu Raum, Publikum und Dramaturgie passt, nicht einfach eine lange Liste schöner Stücke. Wichtig ist weniger ein spektakulärer Ortsname als ein Raum, in dem Lautstärke, Startsignal und Ablauf funktionieren. Ja. Kurze persönliche Anmoderationen können ein Programm zugänglicher machen, ohne den musikalischen Fokus zu verlieren."
-      },
-      {
-        "question": "Warum ist die genaue Location in Mettmann so wichtig?",
-        "answer": "Ein Termin nahe Altstadt braucht oft andere Zeitpuffer als ein Termin Richtung Neandertal; das beeinflusst Anfahrt, Aufbau und die Frage, wie knapp der Ablauf sein darf. Deshalb frage ich nach Adresse, Aufbauplatz, Kontaktperson vor Ort und möglichen Ortswechseln."
+        "question": "Was kann zusätzlich kosten?",
+        "answer": "Zusätzlich kosten können längere Wartezeit, ein zweiter Spielort, kurzfristige Verlaengerung, besondere Technik, sehr kurzfristige Buchung oder neue Notation für Wunschmusik."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola für Konzert und Kulturabend in Mettmann - Bild 1"
+      "alt": "Viola Konzert in Mettmann - Planungsbild 1"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola für Konzert und Kulturabend in Mettmann - Bild 2"
+      "alt": "Viola Konzert in Mettmann - Planungsbild 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola für Konzert und Kulturabend in Mettmann - Bild 3"
+      "alt": "Viola Konzert in Mettmann - Planungsbild 3"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola für Konzert und Kulturabend in Mettmann - Bild 4"
+      "alt": "Viola Konzert in Mettmann - Planungsbild 4"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
+  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
   "contact": {
-    "eyebrow": "Viola-Programm anfragen",
+    "eyebrow": "Konzert anfragen",
     "title": "Viola Konzert in Mettmann anfragen",
-    "lead": "Schreib mir kurz Datum, Ort, Publikum, gewünschte Dauer, Anlass, Programmschwerpunkt und vorhandene Technik. Hilfreich ist auch, ob der Ort eher bei Altstadt und Neandertal oder eher außerhalb liegt. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
+    "lead": "Schreib mir kurz Datum, genaue Adresse, Format, gewuenschte Dauer, Raumgröße, Publikum, Moderationswunsch und Kontaktperson vor Ort. Danach klären wir, welches Viola-Format wirklich zum Raum und Publikum passt, wie der Ablauf aussehen kann und welcher Preisrahmen realistisch ist.",
     "checklist": [
       "Mettmann",
-      "Datum & Ort",
-      "Wunschmusik",
+      "Format",
+      "Programmlaenge",
+      "Raum",
       "Preis nach Rahmen"
     ],
-    "defaultOccasion": "Konzert / Kultur",
+    "defaultOccasion": "Konzert/Event",
     "sourceLabel": "Viola Konzert Mettmann",
     "notes": [
       "Kontaktaufnahme kostenlos und unverbindlich",
       "Kein kostenloses Vorspielen vor Ort",
-      "Vorhandenes Repertoire ohne Aufpreis; neue Notation nach Aufwand, ca. 30 Euro pro Song"
+      "Vorhandenes Repertoire ohne Aufpreis; neue Notation oder Heraushoeren nach Aufwand, Orientierung ca. 30 Euro pro Song",
+      "Zusatzaufwand wie Wartezeit, Ortswechsel, Technik, Verlaengerung oder sehr kurzfristige Vorbereitung wird vor der Buchung geklaert"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Mettmann klären",
-    "formSuccess": "Danke - ich prüfe deine Anfrage in Mettmann und melde mich persönlich mit den nächsten Schritten."
+    "formSuccess": "Danke - ich pruefe deine Anfrage in Mettmann und melde mich persönlich mit den naechsten Schritten."
   },
   "focus": {
     "eyebrow": "Planung in Mettmann",
-    "title": "Vier Punkte, die Viola Konzert in Mettmann konkret machen.",
+    "title": "Vier Entscheidungen, die Viola Konzert in Mettmann konkret machen.",
     "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
     "items": [
       {
         "time": "1",
         "kicker": "Ort",
-        "title": "Adresse und Raum in Mettmann klären",
-        "text": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. So weiß ich, wie viel Zeit für Ankunft, Stimmen und Aufbau realistisch ist. Bei Terminen rund um Altstadt, Neandertal und kurzen Wegen im Kreis Mettmann plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein."
+        "title": "Adresse, Raum und Zugang klären",
+        "text": "Haltemoeglichkeit, Raum, Etage, Kontaktperson und ein kleiner Zeitpuffer sollten vorab geklaert werden. Das beeinflusst Ankunft, Aufbau, Stimmen, Wartezeit und die Frage, ob ein Ortswechsel sinnvoll ist."
       },
       {
         "time": "2",
-        "kicker": "Moment",
+        "kicker": "Aufgabe",
         "title": "Musikalische Aufgabe festlegen",
-        "text": "Wir entscheiden, ob die Musik sammelt, einen Höhepunkt trägt, Gespräche begleitet oder als eigener Programmpunkt wirken soll."
+        "text": "Wir entscheiden, ob die Musik sammelt, begleitet, einen Höhepunkt trägt oder als eigener Programmpunkt wirkt."
       },
       {
         "time": "3",
         "kicker": "Stücke",
-        "title": "Repertoire und Wunschmusik prüfen",
-        "text": "Viele passende Stücke sind ohne Aufpreis möglich. Bei einem Lied ohne verwendbare Noten bespreche ich vorher, ob ein neues Arrangement sinnvoll ist und welcher Zusatzaufwand entsteht."
+        "title": "Wunschmusik und Notation pruefen",
+        "text": "Viele passende Stücke sind vorhanden. Wenn ein Wunschlied neu herausgehoert oder notiert werden muss, kläre ich Aufwand und Kosten vorab."
       },
       {
         "time": "4",
         "kicker": "Rahmen",
         "title": "Preis und Buchung ehrlich abstimmen",
-        "text": "Die Anfrage ist kostenlos. Der Preis richtet sich nach Dauer, Ort, Vorbereitung, Wunschmusik, Anfahrt und Aufwand - nicht nach einem pauschalen Versprechen."
+        "text": "Der Preis richtet sich nach Dauer, Programmarbeit, Ort, Anfahrt, Moderation, Wartezeit, Technik und Wunschmusik. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Für Mettmann sind besonders genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort hilfreich. Die lokalen Marker Altstadt, Neandertal und kurzen Wegen im Kreis Mettmann helfen, den Termin nicht nur nach Stadtname, sondern nach echter Situation zu planen."
+    "footnote": "Viola Konzert in Mettmann wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
   },
   "elegy": {
     "passages": []

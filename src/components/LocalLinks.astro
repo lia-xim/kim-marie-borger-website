@@ -1,9 +1,10 @@
 ---
 import {
+	getContextLocalSeoPagesForService,
 	getLocalLocation,
-	getLocalSeoPagesForLocation,
-	getLocalSeoPagesForService,
 	getLocalService,
+	getPrimaryLocalSeoPagesForService,
+	getRelatedLocalSeoPagesForLocation,
 	keywordLabel,
 	localPagePath,
 } from '../lib/local-seo';
@@ -16,9 +17,13 @@ interface Props {
 const { serviceSlug, currentLocationSlug } = Astro.props;
 const service = getLocalService(serviceSlug);
 const currentLocation = currentLocationSlug ? getLocalLocation(currentLocationSlug) : undefined;
-const servicePages = service ? getLocalSeoPagesForService(service.slug) : [];
-const siblingServicePages = currentLocation
-	? getLocalSeoPagesForLocation(currentLocation.slug).filter((page) => page.service.slug !== serviceSlug)
+const servicePages = service
+	? currentLocation
+		? getContextLocalSeoPagesForService(service.slug, currentLocation.slug)
+		: getPrimaryLocalSeoPagesForService(service.slug)
+	: [];
+const siblingServicePages = currentLocation && service
+	? getRelatedLocalSeoPagesForLocation(service.slug, currentLocation.slug)
 	: [];
 ---
 
@@ -29,19 +34,19 @@ const siblingServicePages = currentLocation
 				<p class="eyebrow c">{service.linkHeading}</p>
 				<h2 id={`local-links-${service.slug}`} class="display-m">
 					{currentLocation
-						? `Weitere lokale Seiten für ${service.parentLabel}`
-						: `${service.parentLabel} in deiner Nähe`}
+						? `Naechste Schritte ${currentLocation.locative}`
+						: `${service.parentLabel}: wichtige Orte`}
 				</h2>
 				<p class="lead">
 					{currentLocation
-						? `Alle Ortsseiten übernehmen Aufbau und Bildwelt dieser Leistung, sind aber textlich auf die jeweilige Stadt oder Region zugeschnitten.`
-						: `Wähle deine Stadt oder Region und finde die passende Seite mit lokalen Informationen und direkter Anfrage.`}
+						? `Wenn der Anlass schon ortlich eingeordnet ist, fuehren diese Links zu verwandten Leistungen und nahe liegenden Ortsseiten.`
+						: `Die wichtigsten lokalen Einstiege fuehren zuerst zu Duesseldorf, Koeln, Wuppertal und den naheliegenden Regionen.`}
 				</p>
 			</div>
 
 			{currentLocation && siblingServicePages.length > 0 && (
 				<div class="local-related reveal d1">
-					<p class="ksmall">Weitere Leistungen {currentLocation.locative}</p>
+					<p class="ksmall">Verwandte Leistungen {currentLocation.locative}</p>
 					<div class="local-link-cloud local-link-cloud-compact">
 						{siblingServicePages.map((page) => (
 							<a href={localPagePath(page.service, page.location)}>
@@ -53,6 +58,7 @@ const siblingServicePages = currentLocation
 			)}
 
 			<div class="local-link-cloud reveal d2">
+				{currentLocation && <p class="ksmall local-cloud-label">Weitere wichtige Orte fuer {service.parentLabel}</p>}
 				{servicePages.map((page) => {
 					const active = currentLocationSlug === page.location.slug;
 					return (

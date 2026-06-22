@@ -1,24 +1,9 @@
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
+import { relativePath, resolveStaticOutputDirOrExit, routeFromHtmlFile, staticOutputArg, walkFiles } from './lib/static-output.mjs';
 
-const DIST = path.resolve('dist/client');
 const MAX_ISSUE_GROUPS_TO_PRINT = 40;
-
-if (!existsSync(DIST)) {
-	console.error('dist/client not found. Run npm run build:local first.');
-	process.exit(1);
-}
-
-function walk(dir) {
-	return readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
-		const full = path.join(dir, entry.name);
-		return entry.isDirectory() ? walk(full) : [full];
-	});
-}
-
-function relPage(file) {
-	return `/${path.relative(DIST, file).replace(/\\/g, '/').replace(/index.html$/, '').replace(/^404.html$/, '404')}`;
-}
+const output = resolveStaticOutputDirOrExit({ requestedDir: staticOutputArg() });
 
 function decodeHtml(value) {
 	return value
@@ -46,23 +31,221 @@ function attr(tag, name) {
 	return match[1] ?? match[2] ?? match[3] ?? '';
 }
 
+function shorten(value, max = 140) {
+	const text = String(value ?? '').replace(/\s+/g, ' ').trim();
+	return text.length > max ? `${text.slice(0, max - 1)}...` : text;
+}
+
+const REQUIRED_ID_TYPES = new Set([
+	'Article',
+	'BreadcrumbList',
+	'CollectionPage',
+	'ContactPage',
+	'FAQPage',
+	'ItemList',
+	'Offer',
+	'OfferCatalog',
+	'Person',
+	'ProfilePage',
+	'Service',
+	'WebPage',
+	'WebSite',
+]);
+const CORE_SERVICE_SLUGS = new Set([
+	'hochzeiten',
+	'beerdigungen',
+	'geburtstage',
+	'taufen',
+	'konzerte',
+	'firmenfeiern',
+	'unterricht',
+]);
+const LOCAL_BUSINESS_TYPES = new Set(['LocalBusiness', 'ProfessionalService']);
+const PHYSICAL_LOCATION_FIELDS = ['address', 'geo', 'openingHours', 'openingHoursSpecification'];
+
+function asArray(value) {
+	if (Array.isArray(value)) return value;
+	return value ? [value] : [];
+}
+
+function jsonLdTypes(node) {
+	return asArray(node?.['@type']).filter((value) => typeof value === 'string');
+}
+
+function stableJson(value) {
+	if (Array.isArray(value)) return `[${value.map(stableJson).join(',')}]`;
+	if (value && typeof value === 'object') {
+		return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${stableJson(value[key])}`).join(',')}}`;
+	}
+	return JSON.stringify(value);
+}
+
+function collectSchemaNodes(value, nodes = []) {
+	if (!value || typeof value !== 'object') return nodes;
+	if (Array.isArray(value)) {
+		for (const item of value) collectSchemaNodes(item, nodes);
+		return nodes;
+	}
+	if (value['@type'] || value['@id']) nodes.push(value);
+	for (const child of Object.values(value)) collectSchemaNodes(child, nodes);
+	return nodes;
+}
+
+function refIds(value, ids = []) {
+	if (!value || typeof value !== 'object') return ids;
+	if (Array.isArray(value)) {
+		for (const item of value) refIds(item, ids);
+		return ids;
+	}
+	if (typeof value['@id'] === 'string') ids.push(value['@id']);
+	for (const child of Object.values(value)) refIds(child, ids);
+	return ids;
+}
+
+function hasCoreServiceId(id) {
+	try {
+		const url = new URL(id);
+		const slug = url.pathname.replace(/^\/|\/$/g, '');
+		return url.hash === '#service' && CORE_SERVICE_SLUGS.has(slug);
+	} catch {
+		return false;
+	}
+}
+
+function recordSchemaDefinition(page, node) {
+	if (!node?.['@id'] || !node?.['@type']) return;
+	const id = node['@id'];
+	const signature = stableJson(node);
+	const existing = schemaDefinitions.get(id);
+	if (!existing) {
+		schemaDefinitions.set(id, { signature, pages: [page], conflicts: [] });
+		return;
+	}
+	existing.pages.push(page);
+	if (existing.signature !== signature && existing.conflicts.length < 4) {
+		existing.conflicts.push(page);
+	}
+}
+
+function auditJsonLdNode(page, node) {
+	const types = jsonLdTypes(node);
+	const id = typeof node['@id'] === 'string' ? node['@id'] : '';
+
+	if (types.some((type) => REQUIRED_ID_TYPES.has(type)) && !id) {
+		issues.push(['error', page, `schema ${types.join('|')} is missing stable @id`]);
+	}
+
+	if (id) {
+		try {
+			const url = new URL(id);
+			if (url.hostname === 'localhost') issues.push(['error', page, `schema @id uses localhost: ${id}`]);
+		} catch {
+			issues.push(['error', page, `schema @id is not an absolute URL: ${id}`]);
+		}
+	}
+
+	if (types.some((type) => LOCAL_BUSINESS_TYPES.has(type))) {
+		issues.push(['error', page, `LocalBusiness-like schema type is not allowed here: ${types.join('|')}`]);
+	}
+
+	for (const field of PHYSICAL_LOCATION_FIELDS) {
+		if (Object.hasOwn(node, field)) {
+			issues.push(['error', page, `schema contains unverified physical-location field: ${field}`]);
+		}
+	}
+
+	if (types.includes('Person') && id && !id.endsWith('/#person')) {
+		issues.push(['error', page, `Person schema uses unexpected @id: ${id}`]);
+	}
+
+	if (types.includes('WebSite') && id && !id.endsWith('/#website')) {
+		issues.push(['error', page, `WebSite schema uses unexpected @id: ${id}`]);
+	}
+
+	if (types.includes('Service') && id && !hasCoreServiceId(id)) {
+		issues.push(['error', page, `Service schema must use a core service @id, got: ${id}`]);
+	}
+
+	if (types.includes('Offer')) {
+		const itemIds = refIds(node.itemOffered);
+		if (!itemIds.some(hasCoreServiceId)) {
+			issues.push(['error', page, 'Offer schema must reference a core Service via itemOffered']);
+		}
+	}
+
+	if (node.sameAs) {
+		for (const sameAs of asArray(node.sameAs)) {
+			try {
+				const url = new URL(sameAs);
+				if (!['http:', 'https:'].includes(url.protocol)) throw new Error('unsupported protocol');
+			} catch {
+				issues.push(['error', page, `sameAs must be an absolute HTTP(S) URL: ${sameAs}`]);
+			}
+		}
+	}
+
+	recordSchemaDefinition(page, node);
+}
+
+function internalPageRouteFromHref(href, page) {
+	const value = decodeHtml(href).trim();
+	if (!value || value.startsWith('#')) return '';
+	if (/^(?:mailto|tel|javascript|data):/i.test(value)) return '';
+
+	let url;
+	try {
+		url = new URL(value, `https://local.test${page.endsWith('/') ? page : `${page}/`}`);
+	} catch {
+		return '';
+	}
+
+	if (url.origin !== 'https://local.test') return '';
+	if (/^\/(?:api|admin|_astro|uploads)\b/i.test(url.pathname)) return '';
+	if (/\.[a-z0-9]{2,8}$/i.test(url.pathname) && !/\.html$/i.test(url.pathname)) return '';
+
+	if (url.pathname === '/') return '/';
+	if (/\.html$/i.test(url.pathname)) return url.pathname;
+	return url.pathname.endsWith('/') ? url.pathname : `${url.pathname}/`;
+}
+
+function vercelNoindexHeaderOk(headers, source) {
+	const entry = headers.find((item) => item?.source === source);
+	return (entry?.headers ?? []).some((header) => {
+		return String(header?.key ?? '').toLowerCase() === 'x-robots-tag'
+			&& /noindex/i.test(String(header?.value ?? ''));
+	});
+}
+
 const issues = [];
-const htmlFiles = walk(DIST)
+const schemaDefinitions = new Map();
+const htmlFiles = walkFiles(output.root)
 	.filter((file) => file.endsWith('.html'))
 	.filter((file) => !file.includes(`${path.sep}admin${path.sep}`));
+const htmlRoutes = new Set(htmlFiles.map((file) => routeFromHtmlFile(output.root, file)));
 
 const canonicalUrls = new Map();
+const robotsByPage = new Map();
+
+console.log(`Using static output: ${output.relative} (${output.htmlCount} HTML files, ${output.sitemapCount} sitemap files)`);
+
+for (const file of htmlFiles) {
+	const route = routeFromHtmlFile(output.root, file);
+	const html = readFileSync(file, 'utf8');
+	robotsByPage.set(route, attr(html.match(/<meta\s+name=["']robots["'][^>]*>/i)?.[0] ?? '', 'content') ?? '');
+}
 
 for (const file of htmlFiles.sort()) {
-	const page = relPage(file);
+	const page = routeFromHtmlFile(output.root, file);
 	const html = readFileSync(file, 'utf8');
 	const is404 = page === '/404';
 	const title = stripHtml(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] ?? '');
 	const description = attr(html.match(/<meta\s+name=["']description["'][^>]*>/i)?.[0] ?? '', 'content') ?? '';
 	const canonical = attr(html.match(/<link\s+rel=["']canonical["'][^>]*>/i)?.[0] ?? '', 'href') ?? '';
 	const robots = attr(html.match(/<meta\s+name=["']robots["'][^>]*>/i)?.[0] ?? '', 'content') ?? '';
+	robotsByPage.set(page, robots);
 	const h1s = [...html.matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi)].map((match) => stripHtml(match[1]));
 	const imageTags = [...html.matchAll(/<img\b[^>]*>/gi)].map((match) => match[0]);
+	const linkHrefs = [...html.matchAll(/<a\b[^>]*href\s*=\s*["']([^"']+)["'][^>]*>/gi)].map((match) => match[1]);
 	const jsonLdBlocks = [...html.matchAll(/<script\s+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
 
 	if (!title) issues.push(['error', page, 'missing <title>']);
@@ -90,6 +273,7 @@ for (const file of htmlFiles.sort()) {
 
 	if (!robots) issues.push(['warn', page, 'missing robots meta tag']);
 	if (is404 && !/noindex/i.test(robots)) issues.push(['error', page, '404 page is missing noindex']);
+	if (!is404 && /noindex/i.test(robots)) issues.push(['error', page, 'indexable page has noindex robots meta']);
 	if (!is404 && h1s.length !== 1) issues.push(['error', page, `expected exactly one h1, found ${h1s.length}`]);
 
 	for (const tag of imageTags) {
@@ -106,11 +290,25 @@ for (const file of htmlFiles.sort()) {
 		issues.push(['error', page, 'contains link to legacy .html URL']);
 	}
 
-	for (const [, json] of jsonLdBlocks) {
+	for (const href of linkHrefs) {
+		const linkedRoute = internalPageRouteFromHref(href, page);
+		if (linkedRoute && /\.html$/i.test(linkedRoute)) continue;
+		if (linkedRoute && !htmlRoutes.has(linkedRoute)) {
+			issues.push(['error', page, `broken internal page link: ${shorten(href, 90)}`]);
+		}
+		if (linkedRoute && htmlRoutes.has(linkedRoute) && /noindex/i.test(robotsByPage.get(linkedRoute) ?? '')) {
+			issues.push(['error', page, `links to noindex page: ${linkedRoute}`]);
+		}
+	}
+
+	for (const [index, [, json]] of jsonLdBlocks.entries()) {
 		try {
-			JSON.parse(decodeHtml(json));
-		} catch {
-			issues.push(['error', page, 'invalid JSON-LD']);
+			const parsed = JSON.parse(decodeHtml(json));
+			for (const node of collectSchemaNodes(parsed)) {
+				auditJsonLdNode(page, node);
+			}
+		} catch (error) {
+			issues.push(['error', page, `invalid JSON-LD block ${index + 1}: ${shorten(error.message, 90)}`]);
 		}
 	}
 
@@ -119,9 +317,30 @@ for (const file of htmlFiles.sort()) {
 	}
 }
 
+if (existsSync('vercel.json')) {
+	try {
+		const vercel = JSON.parse(readFileSync('vercel.json', 'utf8'));
+		const headers = Array.isArray(vercel.headers) ? vercel.headers : [];
+		for (const source of ['/admin/(.*)', '/tina-island/(.*)', '/api/(.*)']) {
+			if (!vercelNoindexHeaderOk(headers, source)) {
+				issues.push(['error', 'vercel.json', `missing X-Robots-Tag noindex header for ${source}`]);
+			}
+		}
+	} catch (error) {
+		issues.push(['error', 'vercel.json', `cannot parse vercel.json: ${shorten(error.message, 90)}`]);
+	}
+}
+
 for (const [canonical, pages] of canonicalUrls.entries()) {
 	if (pages.length > 1) {
 		issues.push(['error', pages.join(', '), `duplicate canonical URL: ${canonical}`]);
+	}
+}
+
+for (const [id, entry] of schemaDefinitions.entries()) {
+	if (entry.conflicts.length > 0) {
+		const pages = [entry.pages[0], ...entry.conflicts].filter(Boolean).join(', ');
+		issues.push(['error', pages, `schema @id has inconsistent definitions across pages: ${id}`]);
 	}
 }
 
@@ -150,6 +369,6 @@ if (groupedIssues.length > MAX_ISSUE_GROUPS_TO_PRINT) {
 	console.log(`... ${groupedIssues.length - MAX_ISSUE_GROUPS_TO_PRINT} more issue groups hidden`);
 }
 
-console.log(`\nSEO audit: ${errors.length} errors, ${warnings.length} warnings across ${htmlFiles.length} HTML pages.`);
+console.log(`\nSEO audit: ${errors.length} errors, ${warnings.length} warnings across ${htmlFiles.length} HTML pages from ${relativePath(output.root)}.`);
 
 if (errors.length > 0) process.exit(1);

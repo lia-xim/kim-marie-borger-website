@@ -5,76 +5,76 @@
   "route": "/firmenfeiern/moenchengladbach/",
   "targetKeyword": "Live Musik Firmenevent Mönchengladbach",
   "intentCluster": "firmenfeiern:local",
-  "priority": "P3",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "priority": "P2",
+  "status": "manual-priority-local-seo-2026-06-22",
   "enabled": true,
-  "seoTitle": "Eventmusik Mönchengladbach | Solo-Viola",
-  "seoDescription": "Live Musik Firmenevent Mönchengladbach: Solo-Viola für Empfang, Dinner, Jubiläum und Messe in Mönchengladbach. Anfrage kostenlos.",
+  "seoTitle": "Live Musik Firmenevent Mönchengladbach | Viola fürs Event",
+  "seoDescription": "Live Musik Firmenevent Mönchengladbach: Solo-Viola für Empfang, Dinner und Business-Event in Mönchengladbach. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
-    "eyebrow": "Firmenevent in Mönchengladbach",
-    "title": "Live Musik für Firmenevents in Mönchengladbach, die hochwertig wirkt und Gespräche lässt.",
-    "lead": "Solo-Viola für Empfang, Dinner, Firmenjubilaeum, Messe, Eröffnung oder Kundenevent in Mönchengladbach - planbar, dezent und mit Rechnung.",
-    "badge": "Anfrage kostenlos - Angebot nach Rahmen"
+    "eyebrow": "Live Musik Firmenevent in Mönchengladbach",
+    "title": "Live Musik für Firmenevents in Mönchengladbach: konkret geplant nach Ort und Ablauf.",
+    "lead": "Solo-Viola für Empfang, Dinner, Jubiläum und Messe in Mönchengladbach. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, ob Solo-Viola, Zeitfenster und Lautstärke wirklich zum Event passen.",
+    "badge": "Anfrage kostenlos - Preis nach Rahmen"
   },
   "split": {
-    "seal": "Mönchengladbach\nLive Musik Firmenevent\nlokal geplant",
+    "seal": "Mönchengladbach\nLive Musik für Firmenevents\nkonkret geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Live Musik Firmenevent in Mönchengladbach: worauf es vor Ort ankommt.",
-        "lede": "Mönchengladbach steht hier für konkrete Orte und Wege zwischen Schloss Rheydt, Kaiser-Friedrich-Halle, Wickrath und dem linken Niederrhein. Typische Orte und Routen liegen zum Beispiel im Umfeld von Schloss Rheydt, Kaiser-Friedrich-Halle und Wickrath; für Live Musik Firmenevent verändert das Timing, Aufbau und Akustik. Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: Raum, Wege, Startsignal, Lautstärke, Wetteroption, Wunschmusik und die Rolle der Musik.",
+        "title": "Live Musik für Firmenevents in Mönchengladbach: was vor Ort wirklich zählt.",
+        "lede": "In Mönchengladbach können Innenstadt, Rheydt, Wickrath und Wege am linken Niederrhein den Ablauf unterschiedlich prägen. Für Live Musik für Firmenevents heißt das: Empfangswege, Reden, Lautstärke und Gesprächssituation bestimmen, ob akustische Viola reicht oder ob dezente Verstärkung sinnvoll ist. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
         "paragraphs": [
-          "Typische Rahmen sind Hotel, Foyer, Showroom, Galerie, Kanzlei, Agentur, Messe-Side-Event oder Dinnerraum. Firmenveranstaltungen brauchen oft einen pünktlichen, unauffälligen Aufbau; das gilt besonders bei engen Zeitfenstern im Umfeld von Schloss Rheydt, Kaiser-Friedrich-Halle und Wickrath. Je nach Ort ist entscheidend, ob Musik sammelt, einen einzelnen Moment trägt oder über mehrere kurze Sets Atmosphäre schafft.",
-          "Ich kläre vorab nicht nur Stücke, sondern auch praktische Punkte: genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Bei Terminen rund um Schloss Rheydt, Kaiser-Friedrich-Halle und Wickrath plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein.",
-          "Gerade in Mönchengladbach wirkt Solo-Viola stark, weil sie wenig Aufbau braucht, nah klingt und sich flexibel an kleinere Räume, größere Feiern oder kurze Übergänge anpassen lässt. Die lokalen Marker Schloss Rheydt, Kaiser-Friedrich-Halle und Wickrath helfen, den Termin nicht nur nach Stadtname, sondern nach echter Situation zu planen."
+          "Typische Situationen in Mönchengladbach können Innenstadt, Rheydt, Wickrath, linker Niederrhein oder private Räume sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
+          "Ortsteil, Park- oder Haltemoeglichkeit, Raumzugang und Kontaktperson sollten früh klar sein. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand veraendern."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für ein Firmenevent in Mönchengladbach - Bild 1"
+          "alt": "Live Musik für Firmenevents in Mönchengladbach - lokaler Planungsrahmen"
         },
         "imageFirst": false
       },
       {
         "eyebrow": "Ablauf",
-        "title": "So wird Live Musik Firmenevent in Mönchengladbach sinnvoll eingesetzt.",
-        "lede": "Ein guter lokaler Ablauf entsteht aus wenigen klaren Entscheidungen. Statt einfach eine lange Stückliste zu spielen, legen wir fest, welche musikalischen Momente wirklich Aufgabe und Bedeutung haben.",
+        "title": "Empfang, Dinner oder Programmpunkt in Mönchengladbach.",
+        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob Musik dezente Atmosphaere schaffen oder einen offiziellen Programmpunkt rahmen soll.",
         "paragraphs": [
-          "Mögliche Einsatzpunkte sind Ankommen der Gäste, Empfang, Dinner oder Redenpause und kuratierter Programmpunkt. Daraus entsteht ein Plan, der zum Anlass passt und Pausen, Worte, Wege und Gäste nicht überdeckt.",
-          "Ein Termin nahe Schloss Rheydt braucht oft andere Zeitpuffer als ein Termin Richtung Kaiser-Friedrich-Halle; das beeinflusst Anfahrt, Aufbau und die Frage, wie knapp der Ablauf sein darf. Deshalb frage ich früh nach genauer Adresse, Raumtyp, Aufbauplatz und Kontaktperson.",
-          "Wenn mehrere Programmpunkte begleitet werden, plane ich kurze Spannungswechsel: ein ruhiger Beginn, ein tragender Kern und danach entweder ein heller Abschluss oder eine dezente Rücknahme."
+          "Mögliche Einsatzpunkte sind Ankommen der Gäste, Networking, Dinner, Rede-Pausen, Ehrung und ein kurzer Programmpunkt. Ich plane lieber klar begrenzte Musikfenster als ein Dauerprogramm, das Reden, Empfang oder Networking überlagert.",
+          "Vorab klären wir, ob Repertoire, Wunschstuecke, Reden, Technik, Catering, Empfang oder Veranstaltungsleitung miteinander abgestimmt werden müssen.",
+          "Gerade in Mönchengladbach hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So bleibt die Musik hochwertig und gesprächsfreundlich, ohne den Ablauf des Events zu blockieren."
         ],
         "image": {
           "src": "/uploads/mq0uz92c-viola-1566624_1280.webp",
-          "alt": "Live-Viola für ein Firmenevent in Mönchengladbach - Bild 2"
+          "alt": "Live Musik für Firmenevents in Mönchengladbach - Ablauf und Einsaetze"
         },
         "imageFirst": true
       },
       {
-        "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine gute Anfrage in Mönchengladbach brauche.",
-        "lede": "Die Kontaktaufnahme ist kostenlos und unverbindlich. Ein Preis entsteht erst, wenn Dauer, Ort, Aufwand, Wunschmusik, Anfahrt und Rahmen klar genug sind, damit ich ehrlich einschätzen kann, was sinnvoll ist.",
+        "eyebrow": "Eventformat: passend oder nicht?",
+        "title": "Wann Solo-Viola für ein Firmenevent in Mönchengladbach die richtige Wahl ist.",
+        "lede": "Solo-Viola passt, wenn hochwertige, gesprächsfreundliche Live-Musik gefragt ist. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
         "paragraphs": [
-          "Hilfreich sind: Datum, Ort, Anlass, Gästezahl, Zeitfenster, gewünschte Wirkung und Rechnungsdaten. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Schloss Rheydt und Kaiser-Friedrich-Halle, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Damit kann ich Verfügbarkeit, passenden Umfang und einen realistischen Preisrahmen einschätzen.",
-          "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
-          "Es gibt kein kostenloses Vorspielen vor Ort. Stattdessen klären wir in der Anfrage transparent, welche Musik passt, welcher Aufwand entsteht und ob der Termin in Mönchengladbach mit Anfahrt, Aufbau und Ablauf machbar ist."
+          "Nicht ideal ist Solo-Viola, wenn ein lauter Showact, Partyband-Sound oder dauerhafte Beschallung für mehrere Stunden erwartet wird. Dann ist es fairer, über DJ, Band, Technik oder ein anderes Format zu sprechen.",
+          "Bei Außenbereichen gilt: trockener, schattiger Stand, stabiler Untergrund und eine Innenoption sind für ein Streichinstrument wichtiger als ein besonders schöner Hintergrund.",
+          "Wenn mehrere Räume, Sicherheitswege oder Wartezeiten geplant sind, pruefe ich vorab, ob der Wechsel musikalisch sinnvoll ist oder ob ein klar begrenzter Einsatz besser wirkt."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für ein Firmenevent in Mönchengladbach - Bild 3"
+          "alt": "Live Musik für Firmenevents in Mönchengladbach - passend planen"
         },
         "imageFirst": false
       },
       {
-        "eyebrow": "Beispiel",
-        "title": "Ein realistischer Ablauf in Mönchengladbach rund um Schloss Rheydt und Kaiser-Friedrich-Halle.",
-        "lede": "Ein Empfang in Mönchengladbach rund um Schloss Rheydt und Kaiser-Friedrich-Halle kann mit dezenter Musik starten, während Gäste ankommen, und später mit einem kurzen musikalischen Akzent in Reden oder Dinner übergehen.",
+        "eyebrow": "Anfrage & Preisrahmen",
+        "title": "Was ich für eine seriöse Anfrage in Mönchengladbach brauche.",
+        "lede": "Eine gute Eventanfrage nennt Datum, genaue Adresse, Zeitfenster, Raumgröße, Gaestezahl, Programmpunkte, Rechnungsadresse und Kontaktperson vor Ort. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
-          "Wenn Reden, Begruessung und Dinner rund um Schloss Rheydt eng getaktet sind, bleibt die Viola bewusst flexibel: wenige starke Einsätze statt dauerhafter Beschallung.",
-          "Wenn Zeremonie, Fotos und Empfang an zwei Orten zwischen Schloss Rheydt und Kaiser-Friedrich-Halle liegen, plane ich nicht automatisch beides ein; erst die Wege und Zeiten zeigen, ob ein Ortswechsel musikalisch sinnvoll ist. Für die Buchung klären wir danach ehrlich, ob vorhandenes Repertoire reicht oder ob ein Wunschlied neu herausgehört beziehungsweise notiert werden muss. So bleibt die Seite für Mönchengladbach praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
+          "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, technische Abstimmung, Rechnungsaufwand und Wunschmusik. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
+          "Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Wunschstueck keine brauchbaren Noten hat und neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
+          "Zusätzlich kosten können längere Wartezeiten, kurzfristige Verlaengerungen, ein zweiter Spielort, besondere Technik oder sehr kurzfristige Neunotation. Es gibt kein kostenloses Vorspielen vor Ort; die musikalische Passung klären wir transparent in der Anfrage."
         ],
         "image": {
           "src": "/uploads/mq0uz92c-viola-1566624_1280.webp",
-          "alt": "Live-Viola für ein Firmenevent in Mönchengladbach - Bild 4"
+          "alt": "Live Musik für Firmenevents in Mönchengladbach - Anfrage und Preisrahmen"
         },
         "imageFirst": true
       }
@@ -82,70 +82,71 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Live Musik Firmenevent in Mönchengladbach",
+    "title": "FAQ zu Live Musik Firmenevent Mönchengladbach",
     "items": [
       {
-        "question": "Spielst du auf Firmenfeiern in Mönchengladbach?",
-        "answer": "Ja. Ich begleite Firmenfeiern, Empfänge, Dinners, Messen, Eröffnungen und Jubilaeen in Mönchengladbach mit Solo-Viola.",
+        "question": "Spielst du Live Musik für Firmenevents in Mönchengladbach?",
+        "answer": "Ja. Ich begleite Empfang, Dinner, Jubiläum, Messe, Eröffnung oder Kundenevent in Mönchengladbach mit Solo-Viola, wenn Ort, Ablauf und musikalische Aufgabe passen.",
         "open": true
       },
       {
-        "question": "Welche Angaben helfen für eine Anfrage in Mönchengladbach?",
-        "answer": "Am hilfreichsten sind Datum, Ort, Anlass, Gästezahl, Zeitfenster, gewünschte Wirkung und Rechnungsdaten. Für ein seriöses Angebot brauche ich nicht nur den Stadtnamen, sondern die konkrete Adresse oder zumindest den Stadtbereich rund um Schloss Rheydt und Kaiser-Friedrich-Halle, weil Anfahrt, Aufbau und Ortswechsel sonst offen bleiben. Je konkreter diese Punkte sind, desto genauer kann ich Verfügbarkeit, Umfang und Preisrahmen einschätzen."
-      },
-      {
-        "question": "Ist die Kontaktaufnahme kostenlos?",
-        "answer": "Ja. Die Anfrage und erste Klärung sind kostenlos und unverbindlich. Kostenloses Vorspielen vor Ort ist damit nicht gemeint."
+        "question": "Welche Angaben brauchst du für eine Anfrage in Mönchengladbach?",
+        "answer": "Am hilfreichsten sind Datum, genaue Adresse, Zeitfenster, Raumgröße, Gaestezahl, Programmpunkte, Rechnungsadresse und Kontaktperson vor Ort. Je genauer diese Angaben sind, desto schneller kann ich Verfügbarkeit, Ablauf und Preisrahmen einschätzen."
       },
       {
         "question": "Wie entsteht der Preis?",
-        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Vorbereitung, Wunschmusik und Aufwand. Ich nenne keinen pauschalen Fantasiepreis, sondern kläre den Rahmen persönlich."
+        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, technische Abstimmung, Rechnungsaufwand und Wunschmusik. Die erste Anfrage ist kostenlos und unverbindlich; ein Angebot wird erst sinnvoll, wenn der Rahmen klar ist."
       },
       {
-        "question": "Sind Wunschstücke möglich?",
-        "answer": "Eine passende Auswahl an vorhandenen Stücken ist ohne Aufpreis möglich. Wenn ein Wunschlied keine verwendbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+        "question": "Sind Wunschstuecke möglich?",
+        "answer": "Ja, wenn sie musikalisch zu Solo-Viola und zum Anlass passen. Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+      },
+      {
+        "question": "Wann passt Solo-Viola besonders gut?",
+        "answer": "Solo-Viola passt, wenn hochwertige, gesprächsfreundliche Live-Musik gefragt ist. Das wirkt am besten, wenn der Moment zuhoeren darf und der Klang nicht gegen laute Umgebung anspielen muss."
+      },
+      {
+        "question": "Wann ist Solo-Viola nicht die richtige Loesung?",
+        "answer": "Nicht ideal ist Solo-Viola, wenn ein lauter Showact, Partyband-Sound oder dauerhafte Beschallung für mehrere Stunden erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
       },
       {
         "question": "Was ist in Mönchengladbach organisatorisch wichtig?",
-        "answer": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. Mönchengladbach steht hier für konkrete Orte und Wege zwischen Schloss Rheydt, Kaiser-Friedrich-Halle, Wickrath und dem linken Niederrhein. Bei Terminen rund um Schloss Rheydt, Kaiser-Friedrich-Halle und Wickrath plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein. Diese lokalen Details beeinflussen Timing, Aufbau und die Frage, wie viel Musik sinnvoll ist."
+        "answer": "In Mönchengladbach können Innenstadt, Rheydt, Wickrath und Wege am linken Niederrhein den Ablauf unterschiedlich prägen. Ortsteil, Park- oder Haltemoeglichkeit, Raumzugang und Kontaktperson sollten früh klar sein. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
       },
       {
-        "question": "Welche Orte passen für Live Musik Firmenevent in Mönchengladbach?",
-        "answer": "Firmenveranstaltungen brauchen oft einen pünktlichen, unauffälligen Aufbau; das gilt besonders bei engen Zeitfenstern im Umfeld von Schloss Rheydt, Kaiser-Friedrich-Halle und Wickrath. Wichtig ist weniger ein spektakulärer Ortsname als ein Raum, in dem Lautstärke, Startsignal und Ablauf funktionieren. Beides ist möglich. Die Viola kann Gespräche dezent rahmen oder als kurzer kuratierter Auftritt einen offiziellen Moment tragen."
-      },
-      {
-        "question": "Warum ist die genaue Location in Mönchengladbach so wichtig?",
-        "answer": "Ein Termin nahe Schloss Rheydt braucht oft andere Zeitpuffer als ein Termin Richtung Kaiser-Friedrich-Halle; das beeinflusst Anfahrt, Aufbau und die Frage, wie knapp der Ablauf sein darf. Deshalb frage ich nach Adresse, Aufbauplatz, Kontaktperson vor Ort und möglichen Ortswechseln."
+        "question": "Was kann zusätzlich kosten?",
+        "answer": "Zusätzlich kosten können längere Wartezeit, ein zweiter Spielort, kurzfristige Verlaengerung, besondere Technik, sehr kurzfristige Buchung oder neue Notation für Wunschmusik."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola für ein Firmenevent in Mönchengladbach - Bild 1"
+      "alt": "Live Musik für Firmenevents in Mönchengladbach - Planungsbild 1"
     },
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.webp",
-      "alt": "Live-Viola für ein Firmenevent in Mönchengladbach - Bild 2"
+      "alt": "Live Musik für Firmenevents in Mönchengladbach - Planungsbild 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola für ein Firmenevent in Mönchengladbach - Bild 3"
+      "alt": "Live Musik für Firmenevents in Mönchengladbach - Planungsbild 3"
     },
     {
       "src": "/uploads/mq0uz92c-viola-1566624_1280.webp",
-      "alt": "Live-Viola für ein Firmenevent in Mönchengladbach - Bild 4"
+      "alt": "Live Musik für Firmenevents in Mönchengladbach - Planungsbild 4"
     }
   ],
-  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
+  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
   "contact": {
     "eyebrow": "Firmenevent anfragen",
-    "title": "Live Musik für ein Firmenevent in Mönchengladbach anfragen",
-    "lead": "Schreib mir kurz Datum, Ort, Anlass, Gästezahl, Zeitfenster, gewünschte Wirkung und Rechnungsdaten. Hilfreich ist auch, ob der Ort eher bei Schloss Rheydt und Kaiser-Friedrich-Halle oder eher außerhalb liegt. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
+    "title": "Live Musik Firmenevent in Mönchengladbach anfragen",
+    "lead": "Schreib mir kurz Datum, genaue Adresse, Zeitfenster, Raumgröße, Gaestezahl, Programmpunkte, Rechnungsadresse und Kontaktperson vor Ort. Danach klären wir, ob Solo-Viola, Zeitfenster und Lautstärke wirklich zum Event passen, wie der Ablauf aussehen kann und welcher Preisrahmen realistisch ist.",
     "checklist": [
       "Mönchengladbach",
-      "Datum & Ort",
-      "Wunschmusik",
+      "Ablauf",
+      "Raum & Gaestezahl",
+      "Rechnung",
       "Preis nach Rahmen"
     ],
     "defaultOccasion": "Firmenevent",
@@ -153,43 +154,44 @@
     "notes": [
       "Kontaktaufnahme kostenlos und unverbindlich",
       "Kein kostenloses Vorspielen vor Ort",
-      "Vorhandenes Repertoire ohne Aufpreis; neue Notation nach Aufwand, ca. 30 Euro pro Song"
+      "Vorhandenes Repertoire ohne Aufpreis; neue Notation oder Heraushoeren nach Aufwand, Orientierung ca. 30 Euro pro Song",
+      "Zusatzaufwand wie Wartezeit, Ortswechsel, Technik, Verlaengerung oder sehr kurzfristige Vorbereitung wird vor der Buchung geklaert"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Mönchengladbach klären",
-    "formSuccess": "Danke - ich prüfe deine Anfrage in Mönchengladbach und melde mich persönlich mit den nächsten Schritten."
+    "formSuccess": "Danke - ich pruefe deine Anfrage in Mönchengladbach und melde mich persönlich mit den naechsten Schritten."
   },
   "focus": {
     "eyebrow": "Planung in Mönchengladbach",
-    "title": "Vier Punkte, die Live Musik Firmenevent in Mönchengladbach konkret machen.",
+    "title": "Vier Entscheidungen, die Live Musik für Firmenevents in Mönchengladbach konkret machen.",
     "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
     "items": [
       {
         "time": "1",
         "kicker": "Ort",
-        "title": "Adresse und Raum in Mönchengladbach klären",
-        "text": "Wichtig sind genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort. So weiß ich, wie viel Zeit für Ankunft, Stimmen und Aufbau realistisch ist. Bei Terminen rund um Schloss Rheydt, Kaiser-Friedrich-Halle und Wickrath plane ich lieber etwas Puffer für Halten, Parken, Stimmen und den Weg zum Raum ein."
+        "title": "Adresse, Raum und Zugang klären",
+        "text": "Ortsteil, Park- oder Haltemoeglichkeit, Raumzugang und Kontaktperson sollten früh klar sein. Das beeinflusst Ankunft, Aufbau, Stimmen, Wartezeit und die Frage, ob ein Ortswechsel sinnvoll ist."
       },
       {
         "time": "2",
-        "kicker": "Moment",
+        "kicker": "Aufgabe",
         "title": "Musikalische Aufgabe festlegen",
-        "text": "Wir entscheiden, ob die Musik sammelt, einen Höhepunkt trägt, Gespräche begleitet oder als eigener Programmpunkt wirken soll."
+        "text": "Wir entscheiden, ob die Musik sammelt, begleitet, einen Höhepunkt trägt oder als eigener Programmpunkt wirkt."
       },
       {
         "time": "3",
         "kicker": "Stücke",
-        "title": "Repertoire und Wunschmusik prüfen",
-        "text": "Viele passende Stücke sind ohne Aufpreis möglich. Bei einem Lied ohne verwendbare Noten bespreche ich vorher, ob ein neues Arrangement sinnvoll ist und welcher Zusatzaufwand entsteht."
+        "title": "Wunschmusik und Notation pruefen",
+        "text": "Viele passende Stücke sind vorhanden. Wenn ein Wunschlied neu herausgehoert oder notiert werden muss, kläre ich Aufwand und Kosten vorab."
       },
       {
         "time": "4",
         "kicker": "Rahmen",
         "title": "Preis und Buchung ehrlich abstimmen",
-        "text": "Die Anfrage ist kostenlos. Der Preis richtet sich nach Dauer, Ort, Vorbereitung, Wunschmusik, Anfahrt und Aufwand - nicht nach einem pauschalen Versprechen."
+        "text": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, technische Abstimmung, Rechnungsaufwand und Wunschmusik. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Für Mönchengladbach sind besonders genaue Adresse, Park- oder Haltemöglichkeit, Etage, Raum, Aufbauplatz und eine Kontaktperson vor Ort hilfreich. Die lokalen Marker Schloss Rheydt, Kaiser-Friedrich-Halle und Wickrath helfen, den Termin nicht nur nach Stadtname, sondern nach echter Situation zu planen."
+    "footnote": "Live Musik für Firmenevents in Mönchengladbach wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
   },
   "elegy": {
     "passages": []

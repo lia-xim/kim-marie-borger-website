@@ -1,6 +1,14 @@
 import type { CmsPage } from './data';
 import { applySeoPageOverride, type SeoPageOverride } from './seo-overrides';
-import { canonicalUrl } from './url';
+import {
+	breadcrumbListNode,
+	coreServiceId,
+	graphJsonLd,
+	pageOfferNode,
+	pageUrl,
+	personId,
+	webPageNode,
+} from './schema';
 
 type PageData = NonNullable<CmsPage>;
 type AnyBlock = Record<string, any>;
@@ -465,6 +473,77 @@ export function getLocalSeoPagesForService(serviceSlug: string): LocalSeoPage[] 
 	return LOCAL_LOCATIONS.map((location) => ({ service, location }));
 }
 
+const PRIMARY_LOCATION_SLUGS = [
+	'duesseldorf',
+	'koeln',
+	'wuppertal',
+	'essen',
+	'dortmund',
+	'duisburg',
+	'neuss',
+	'ratingen',
+	'kreis-mettmann',
+	'rheinland',
+	'bergisches-land',
+	'rhein-ruhr',
+];
+
+const LOCAL_CONTEXT_SLUGS: Record<string, string[]> = {
+	duesseldorf: ['koeln', 'wuppertal', 'neuss', 'ratingen', 'kreis-mettmann', 'rheinland'],
+	koeln: ['duesseldorf', 'wuppertal', 'leverkusen', 'bergisch-gladbach', 'rheinland', 'rhein-ruhr'],
+	wuppertal: ['duesseldorf', 'koeln', 'solingen', 'remscheid', 'bergisches-land', 'kreis-mettmann'],
+};
+
+const RELATED_SERVICE_SLUGS: Record<LocalServiceSlug, LocalServiceSlug[]> = {
+	hochzeiten: ['beerdigungen', 'taufen', 'geburtstage', 'firmenfeiern'],
+	beerdigungen: ['hochzeiten', 'taufen', 'konzerte', 'geburtstage'],
+	firmenfeiern: ['konzerte', 'hochzeiten', 'geburtstage', 'unterricht'],
+	geburtstage: ['hochzeiten', 'taufen', 'konzerte', 'firmenfeiern'],
+	taufen: ['hochzeiten', 'geburtstage', 'beerdigungen', 'unterricht'],
+	konzerte: ['firmenfeiern', 'hochzeiten', 'geburtstage', 'unterricht'],
+	unterricht: ['konzerte', 'hochzeiten', 'taufen', 'firmenfeiern'],
+};
+
+function pagesForServiceAndLocationSlugs(serviceSlug: string, locationSlugs: string[]): LocalSeoPage[] {
+	const service = getLocalService(serviceSlug);
+	if (!service) return [];
+	return locationSlugs.flatMap((slug) => {
+		const location = getLocalLocation(slug);
+		return location ? [{ service, location }] : [];
+	});
+}
+
+export function getPrimaryLocalSeoPagesForService(serviceSlug: string): LocalSeoPage[] {
+	return pagesForServiceAndLocationSlugs(serviceSlug, PRIMARY_LOCATION_SLUGS);
+}
+
+export function getContextLocalSeoPagesForService(
+	serviceSlug: string,
+	currentLocationSlug: string,
+): LocalSeoPage[] {
+	const contextSlugs = LOCAL_CONTEXT_SLUGS[currentLocationSlug] ?? PRIMARY_LOCATION_SLUGS;
+	return pagesForServiceAndLocationSlugs(
+		serviceSlug,
+		contextSlugs.filter((slug) => slug !== currentLocationSlug),
+	).slice(0, 8);
+}
+
+export function getRelatedLocalSeoPagesForLocation(
+	serviceSlug: string,
+	locationSlug: string,
+): LocalSeoPage[] {
+	const location = getLocalLocation(locationSlug);
+	if (!location) return [];
+	const service = getLocalService(serviceSlug);
+	if (!service) return [];
+	return RELATED_SERVICE_SLUGS[service.slug]
+		.flatMap((slug) => {
+			const relatedService = getLocalService(slug);
+			return relatedService ? [{ service: relatedService, location }] : [];
+		})
+		.slice(0, 4);
+}
+
 export function getLocalSeoPagesForLocation(locationSlug: string): LocalSeoPage[] {
 	const location = getLocalLocation(locationSlug);
 	if (!location) return [];
@@ -600,37 +679,41 @@ export function buildLocalSeoPage(page: LocalSeoPage, basePage: PageData, overri
 	return merged;
 }
 
+function areaServedForLocation(location: LocalSeoLocation) {
+	const type = location.kind === 'city'
+		? 'City'
+		: location.kind === 'region'
+			? 'Place'
+			: 'AdministrativeArea';
+
+	return { '@type': type, name: location.name };
+}
+
 export function localSeoJsonLd(site: URL, page: LocalSeoPage, override?: SeoPageOverride): object {
 	const { service, location } = page;
-	const url = canonicalUrl(site, localPagePath(service, location)).href;
-	const parentUrl = canonicalUrl(site, `/${service.baseSlug}/`).href;
-	const areaType = location.kind === 'city' ? 'City' : 'AdministrativeArea';
+	const pathname = localPagePath(service, location);
+	const offer = pageOfferNode(site, pathname, {
+		name: `${service.serviceType} ${location.locative}`,
+		description: localSeoDescription(page, override),
+		serviceSlug: service.slug,
+		areaServed: areaServedForLocation(location),
+	});
+	const offerId = offer['@id'] as string;
 
-	return {
-		'@context': 'https://schema.org',
-		'@graph': [
-			{
-				'@type': 'BreadcrumbList',
-				'@id': `${url}#breadcrumb`,
-				itemListElement: [
-					{ '@type': 'ListItem', position: 1, name: 'Start', item: site.href },
-					{ '@type': 'ListItem', position: 2, name: service.parentLabel, item: parentUrl },
-					{ '@type': 'ListItem', position: 3, name: keywordLabel(service, location), item: url },
-				],
-			},
-			{
-				'@type': 'Service',
-				'@id': `${url}#service`,
-				name: `${service.serviceType} ${location.locative}`,
-				description: localSeoDescription(page, override),
-				serviceType: service.serviceType,
-				provider: { '@id': new URL('/#person', site).href },
-				areaServed: { '@type': areaType, name: location.name },
-				url,
-				inLanguage: 'de',
-			},
-		],
-	};
+	return graphJsonLd([
+		breadcrumbListNode(site, pathname, [
+			{ name: 'Start', item: pageUrl(site, '/') },
+			{ name: service.parentLabel, item: pageUrl(site, `/${service.baseSlug}/`) },
+			{ name: keywordLabel(service, location), item: pageUrl(site, pathname) },
+		]),
+		webPageNode(site, pathname, {
+			name: keywordLabel(service, location),
+			description: localSeoDescription(page, override),
+			mainEntityId: offerId,
+			aboutIds: [personId(site), coreServiceId(site, service.slug)],
+		}),
+		offer,
+	]);
 }
 
 function rewriteBlock(block: AnyBlock, page: LocalSeoPage): AnyBlock {

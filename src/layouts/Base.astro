@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 import TinaIsland from '@tinacms/astro/TinaIsland.astro';
 import { getConfig } from '../lib/data';
 import { islands } from '../lib/islands';
+import { siteEntityJsonLd } from '../lib/schema';
 import kmbScriptUrl from '../scripts/kmb.js?url';
 
 interface Props {
@@ -14,64 +15,44 @@ interface Props {
 	imageAlt?: string;
 	preloadImage?: string;
 	bodyClass?: string;
+	solidNav?: boolean;
 	noindex?: boolean;
+	structuredData?: object | object[];
 }
 
-const { title, description, image, imageAlt, preloadImage, bodyClass, noindex } = Astro.props;
+const {
+	title,
+	description,
+	image,
+	imageAlt,
+	preloadImage,
+	bodyClass,
+	solidNav = !preloadImage,
+	noindex,
+	structuredData,
+} = Astro.props;
 const config = (await getConfig()).data?.config ?? null;
 const site = Astro.site ?? new URL(Astro.url.origin);
-const personId = new URL('/#person', site).href;
-
-// Structured data: musician + website, fed from the editable global config.
-const sameAs = [config?.footer?.instagram, config?.footer?.youtube].filter(Boolean);
-const jsonLd = {
-	'@context': 'https://schema.org',
-	'@graph': [
-		{
-			'@type': 'Person',
-			'@id': personId,
-			name: config?.brand?.name ?? 'Kim Marie Borger',
-			jobTitle: 'Bratschistin',
-			hasOccupation: {
-				'@type': 'Occupation',
-				name: 'Bratschistin',
-			},
-			description: config?.seo?.description,
-			email: config?.contact?.email ? `mailto:${config.contact.email}` : undefined,
-			url: site.href,
-			image: new URL(image ?? '/og-default.png', site).href,
-			knowsLanguage: ['de'],
-			contactPoint: config?.contact?.email ? {
-				'@type': 'ContactPoint',
-				email: config.contact.email,
-				contactType: 'booking request',
-				areaServed: 'DE',
-				availableLanguage: ['de'],
-			} : undefined,
-			...(sameAs.length ? { sameAs } : {}),
-			knowsAbout: ['Viola', 'Hochzeitsmusik', 'Trauermusik', 'Kammermusik', 'Musikunterricht'],
-		},
-		{
-			'@type': 'WebSite',
-			'@id': new URL('/#website', site).href,
-			name: config?.seo?.title ?? 'Kim Marie Borger · Viola',
-			url: site.href,
-			inLanguage: 'de',
-			publisher: { '@id': personId },
-		},
-	],
-};
+const globalJsonLd = siteEntityJsonLd(site, config);
+const structuredDataBlocks = Array.isArray(structuredData)
+	? structuredData
+	: structuredData
+		? [structuredData]
+		: [];
 ---
 
 <!doctype html>
 <html lang="de">
 	<head>
 		<BaseHead title={title} description={description} image={image} imageAlt={imageAlt} preloadImage={preloadImage} noindex={noindex} />
-		<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+		<script is:inline type="application/ld+json" set:html={JSON.stringify(globalJsonLd)} />
+		{structuredDataBlocks.map((block) => (
+			<script is:inline type="application/ld+json" set:html={JSON.stringify(block)} />
+		))}
 	</head>
 	<body class={bodyClass || undefined}>
 		<TinaIsland name="global/" wrapper={islands.global.wrapper}>
-			<Header config={config} />
+			<Header config={config} solid={solidNav} />
 		</TinaIsland>
 		<slot />
 		<TinaIsland name="global-footer/" wrapper={islands['global-footer'].wrapper}>
@@ -79,7 +60,7 @@ const jsonLd = {
 		</TinaIsland>
 		<script is:inline src={kmbScriptUrl}></script>
 		<script is:inline>
-			// Umami-Analytics (selbst gehostet, cookielos) — nur für echte
+			// Umami-Analytics (selbst gehostet, cookielos) -- nur fuer echte
 			// Besuche: nicht im Tina-Editor-iframe, nicht in lokaler Entwicklung.
 			if (window.self === window.top && !/^(localhost|127\.|192\.168\.)/.test(location.hostname)) {
 				var u = document.createElement('script');

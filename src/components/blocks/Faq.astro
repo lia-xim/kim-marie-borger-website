@@ -1,12 +1,17 @@
 ---
+import { faqPageId, webPageId } from '../../lib/schema';
 import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 const items = (data.items ?? []).filter((i: unknown) => i !== null);
+const site = Astro.site ?? new URL(Astro.url.origin);
+const pagePath = Astro.url.pathname;
 
 const faqJsonLd = {
 	'@context': 'https://schema.org',
 	'@type': 'FAQPage',
+	'@id': faqPageId(site, pagePath),
+	isPartOf: { '@id': webPageId(site, pagePath) },
 	mainEntity: items.map((item: any) => ({
 		'@type': 'Question',
 		name: item.question,

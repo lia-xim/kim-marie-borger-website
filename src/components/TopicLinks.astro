@@ -13,8 +13,17 @@ interface Props {
 
 const { serviceSlug, currentTopicSlug } = Astro.props;
 const service = getLocalService(serviceSlug);
-const pages = getTopicSeoPagesForService(serviceSlug);
+const allPages = getTopicSeoPagesForService(serviceSlug);
 const currentTopic = currentTopicSlug ? getTopicSeoPage(serviceSlug, currentTopicSlug) : undefined;
+const priorityRank = { P1: 0, P2: 1, P3: 2 };
+const sortedPages = [...allPages].sort((a, b) =>
+	priorityRank[a.priority] - priorityRank[b.priority]
+	|| b.volume - a.volume
+	|| a.label.localeCompare(b.label),
+);
+const pages = currentTopic
+	? [currentTopic, ...sortedPages.filter((page) => page.slug !== currentTopic.slug)].slice(0, 8)
+	: sortedPages.slice(0, 10);
 ---
 
 {service && pages.length > 0 && (
@@ -23,12 +32,12 @@ const currentTopic = currentTopicSlug ? getTopicSeoPage(serviceSlug, currentTopi
 			<div class="local-links-head reveal">
 				<p class="eyebrow c">{service.parentLabel} Themen</p>
 				<h2 id={`topic-links-${service.slug}`} class="display-m">
-					{currentTopic ? `Weitere Themen zu ${service.parentLabel}` : `${service.parentLabel}: wichtige Suchthemen`}
+					{currentTopic ? `Verwandte Themen zu ${service.parentLabel}` : `${service.parentLabel}: zentrale Themen`}
 				</h2>
 				<p class="lead">
 					{currentTopic
-						? `Diese Themenseiten bündeln wichtige Anfragen und verlinken danach gezielt zu den passenden lokalen Seiten.`
-						: `Starte mit dem passenden Thema. Die lokalen Seiten folgen darunter und ordnen sich diesen Hauptthemen unter.`}
+						? `Diese Seiten fuehren von der Detailfrage zur Hauptleistung, zu lokalen Einstiegen und zur Anfrage.`
+						: `Die wichtigsten Themen ordnen typische Suchanliegen, bevor es zu den lokalen Seiten geht.`}
 				</p>
 			</div>
 
