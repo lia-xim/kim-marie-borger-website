@@ -246,7 +246,8 @@ for (const file of htmlFiles.sort()) {
 	robotsByPage.set(page, robots);
 	const h1s = [...html.matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi)].map((match) => stripHtml(match[1]));
 	const imageTags = [...html.matchAll(/<img\b[^>]*>/gi)].map((match) => match[0]);
-	const linkHrefs = [...html.matchAll(/<a\b[^>]*href\s*=\s*["']([^"']+)["'][^>]*>/gi)].map((match) => match[1]);
+	const linkTags = [...html.matchAll(/<a\b[^>]*href\s*=\s*["'][^"']+["'][^>]*>/gi)].map((match) => match[0]);
+	const linkHrefs = linkTags.map((tag) => attr(tag, 'href') ?? '');
 	const jsonLdBlocks = [...html.matchAll(/<script\s+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
 
 	if (!title) issues.push(['error', page, 'missing <title>']);
@@ -284,6 +285,12 @@ for (const file of htmlFiles.sort()) {
 		if (!hasAlt) issues.push(['error', page, `image without alt: ${tag.slice(0, 90)}...`]);
 		if (hasAlt && alt.trim() === '' && !hidden) {
 			issues.push(['warn', page, `empty alt on non-hidden image: ${tag.slice(0, 90)}...`]);
+		}
+	}
+
+	for (const tag of linkTags) {
+		if (!attr(tag, 'title')?.trim()) {
+			issues.push(['error', page, `link without title attribute: ${tag.slice(0, 90)}...`]);
 		}
 	}
 
