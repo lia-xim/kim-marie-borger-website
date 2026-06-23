@@ -7,6 +7,7 @@ import {
 	getRelatedLocalSeoPagesForLocation,
 	keywordLabel,
 	localPagePath,
+	serviceLocationsHubPath,
 } from '../lib/local-seo';
 
 interface Props {
@@ -70,6 +71,9 @@ const siblingServicePages = currentLocation && service
 						</a>
 					);
 				})}
+				<a class="local-hub-link" href={serviceLocationsHubPath(service)}>
+					Alle Orte fuer {service.keyword}
+				</a>
 			</div>
 		</div>
 	</section>

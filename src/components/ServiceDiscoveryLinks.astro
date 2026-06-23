@@ -1,0 +1,101 @@
+---
+import {
+	getLocalService,
+	getPrimaryLocalSeoPagesForService,
+	keywordLabel,
+	localPagePath,
+	serviceLocationsHubPath,
+} from '../lib/local-seo';
+import {
+	getTopicSeoPagesForService,
+	serviceTopicsHubPath,
+	topicPagePath,
+} from '../lib/topic-seo';
+import {
+	getRatgeberPagesForService,
+	ratgeberPath,
+} from '../lib/ratgeber';
+
+interface Props {
+	serviceSlug: string;
+}
+
+const { serviceSlug } = Astro.props;
+const service = getLocalService(serviceSlug);
+const priorityRank = { P1: 0, P2: 1, P3: 2 };
+const topicPages = getTopicSeoPagesForService(serviceSlug)
+	.sort((a, b) =>
+		priorityRank[a.priority] - priorityRank[b.priority]
+		|| b.volume - a.volume
+		|| a.label.localeCompare(b.label),
+	)
+	.slice(0, 7);
+const localPages = getPrimaryLocalSeoPagesForService(serviceSlug).slice(0, 8);
+const guidePages = getRatgeberPagesForService(serviceSlug).slice(0, 3);
+---
+
+{service && (topicPages.length > 0 || localPages.length > 0 || guidePages.length > 0) && (
+	<section class="section bg-paper2 service-discovery" aria-labelledby={`service-discovery-${service.slug}`}>
+		<div class="wrap">
+			<div class="local-links-head reveal">
+				<p class="eyebrow c">Weiter planen</p>
+				<h2 id={`service-discovery-${service.slug}`} class="display-m">
+					{service.parentLabel}: Themen, Orte und Orientierung.
+				</h2>
+				<p class="lead">
+					Die wichtigsten Einstiege bleiben direkt erreichbar. Vollständige Übersichten
+					führen eine Ebene tiefer zu allen Orts- und Suchbegriffseiten.
+				</p>
+			</div>
+
+			<div class="service-discovery-grid reveal d2">
+				{topicPages.length > 0 && (
+					<div class="service-discovery-panel">
+						<p class="ksmall">Suchbegriffe & Themen</p>
+						<h3>Zentrale Fragen</h3>
+						<div class="service-discovery-links">
+							{topicPages.map((page) => (
+								<a href={topicPagePath(page)}>{page.linkLabel}</a>
+							))}
+						</div>
+						<a class="link-line" href={serviceTopicsHubPath(service.slug)}>
+							Alle Themen zu {service.parentLabel} <span class="ar" aria-hidden="true">→</span>
+						</a>
+					</div>
+				)}
+
+				{localPages.length > 0 && (
+					<div class="service-discovery-panel">
+						<p class="ksmall">Orte & Regionen</p>
+						<h3>Wichtige Orte</h3>
+						<div class="service-discovery-links">
+							{localPages.map((page) => (
+								<a href={localPagePath(page.service, page.location)}>
+									{keywordLabel(page.service, page.location)}
+								</a>
+							))}
+						</div>
+						<a class="link-line" href={serviceLocationsHubPath(service)}>
+							Alle Orte für {service.keyword} <span class="ar" aria-hidden="true">→</span>
+						</a>
+					</div>
+				)}
+
+				{guidePages.length > 0 && (
+					<div class="service-discovery-panel service-discovery-panel-quiet">
+						<p class="ksmall">Ratgeber</p>
+						<h3>Ruhige Orientierung</h3>
+						<div class="service-discovery-links">
+							{guidePages.map((page) => (
+								<a href={ratgeberPath(page)}>{page.shortTitle}</a>
+							))}
+						</div>
+						<a class="link-line" href="/ratgeber/">
+							Zum Ratgeber <span class="ar" aria-hidden="true">→</span>
+						</a>
+					</div>
+				)}
+			</div>
+		</div>
+	</section>
+)}

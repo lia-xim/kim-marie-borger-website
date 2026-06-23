@@ -1208,6 +1208,10 @@ export function topicPagePath(page: TopicSeoPage): string {
 	return `/${page.serviceSlug}/${page.slug}/`;
 }
 
+export function serviceTopicsHubPath(serviceSlug: string): string {
+	return `/${serviceSlug}/themen/`;
+}
+
 export function buildTopicSeoPage(page: TopicSeoPage, basePage: PageData, override?: SeoPageOverride): PageData {
 	const clone = JSON.parse(JSON.stringify(basePage)) as PageData;
 	clone.seoTitle = override?.seoTitle ?? page.seoTitle;

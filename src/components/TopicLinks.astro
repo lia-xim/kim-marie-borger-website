@@ -2,6 +2,7 @@
 import {
 	getTopicSeoPage,
 	getTopicSeoPagesForService,
+	serviceTopicsHubPath,
 	topicPagePath,
 } from '../lib/topic-seo';
 import { getLocalService } from '../lib/local-seo';
@@ -50,6 +51,9 @@ const pages = currentTopic
 						</a>
 					);
 				})}
+				<a class="local-hub-link" href={serviceTopicsHubPath(service.slug)}>
+					Alle Themen zu {service.parentLabel}
+				</a>
 			</div>
 		</div>
 	</section>

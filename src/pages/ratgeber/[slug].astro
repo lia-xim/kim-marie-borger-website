@@ -38,7 +38,7 @@ const jsonLd = ratgeberPageJsonLd(site, page);
 		<article>
 			<header class="guide-hero" aria-labelledby="guide-title">
 				<div class="guide-hero-media" aria-hidden="true">
-					<Img src={page.heroImage} alt="" sizes="100vw" loading="eager" fetchpriority="high" decoding="async" />
+					<Img src={page.heroImage} alt={page.heroImageAlt} sizes="100vw" loading="eager" fetchpriority="high" decoding="async" />
 				</div>
 				<div class="guide-hero-scrim"></div>
 				<div class="wrap guide-hero-content">

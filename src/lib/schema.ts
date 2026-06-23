@@ -176,6 +176,13 @@ export function siteEntityJsonLd(site: URL, config?: CmsConfig | null): SchemaNo
 			hasOfferCatalog: nodeRef(offerCatalogId(site)),
 			...(sameAs.length ? { sameAs } : {}),
 			knowsAbout: ['Viola', 'Bratsche', 'Hochzeitsmusik', 'Trauermusik', 'Kammermusik', 'Musikunterricht'],
+			award: [
+				'Jugend musiziert Regionalwettbewerb 2023: 1. Preis',
+				'Jugend musiziert Landeswettbewerb 2023: 1. Preis',
+				'Jugend musiziert Bundeswettbewerb 2023: 4. Preis',
+				'Jugend musiziert Regionalwettbewerb 2025: 1. Preis',
+				'Jugend musiziert Landeswettbewerb 2025: 2. Preis',
+			],
 		},
 		{
 			'@type': 'WebSite',

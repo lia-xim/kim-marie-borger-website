@@ -1,16 +1,4 @@
-import {
-	breadcrumbListNode,
-	coreServiceId,
-	coreServiceNode,
-	faqPageId,
-	graphJsonLd,
-	nodeRef,
-	pageUrl,
-	personId,
-	schemaId,
-	webPageId,
-	webPageNode,
-} from './schema';
+import { coreServiceNode } from './schema';
 import { canonicalUrl } from './url';
 
 export interface RatgeberLink {
@@ -516,6 +504,7 @@ export function ratgeberOverviewJsonLd(site: URL): object {
 				inLanguage: 'de',
 				mainEntity: {
 					'@type': 'ItemList',
+					'@id': `${url}#items`,
 					itemListElement: RATGEBER_PAGES.map((page, index) => ({
 						'@type': 'ListItem',
 						position: index + 1,
@@ -531,7 +520,7 @@ export function ratgeberOverviewJsonLd(site: URL): object {
 export function ratgeberPageJsonLd(site: URL, page: RatgeberPage): object {
 	const url = canonicalUrl(site, ratgeberPath(page)).href;
 	const overviewUrl = canonicalUrl(site, RATGEBER_BASE_PATH).href;
-	const serviceUrl = canonicalUrl(site, `/${page.serviceSlug}/`).href;
+	const serviceNode = coreServiceNode(site, page.serviceSlug);
 
 	return {
 		'@context': 'https://schema.org',
@@ -559,14 +548,7 @@ export function ratgeberPageJsonLd(site: URL, page: RatgeberPage): object {
 				isPartOf: { '@id': `${overviewUrl}#collection` },
 				url,
 			},
-			{
-				'@type': 'Service',
-				'@id': `${serviceUrl}#service`,
-				name: page.cluster,
-				url: serviceUrl,
-				provider: { '@id': new URL('/#person', site).href },
-				inLanguage: 'de',
-			},
+			...(serviceNode ? [serviceNode] : []),
 			{
 				'@type': 'FAQPage',
 				'@id': `${url}#faq`,

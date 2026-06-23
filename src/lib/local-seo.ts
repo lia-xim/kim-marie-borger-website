@@ -44,6 +44,12 @@ export interface LocalSeoPage {
 	location: LocalSeoLocation;
 }
 
+export interface LocalSeoLocationHubGroup {
+	title: string;
+	description: string;
+	pages: LocalSeoPage[];
+}
+
 export const LOCAL_SERVICES: LocalSeoService[] = [
 	{
 		slug: 'hochzeiten',
@@ -488,6 +494,88 @@ const PRIMARY_LOCATION_SLUGS = [
 	'rhein-ruhr',
 ];
 
+const LOCATION_HUB_GROUPS = [
+	{
+		title: 'Düsseldorf und Kreis Mettmann',
+		description: 'Nahe Orte rund um Düsseldorf, Erkrath, Ratingen und das direkte Umfeld.',
+		slugs: [
+			'duesseldorf',
+			'erkrath',
+			'ratingen',
+			'mettmann',
+			'hilden',
+			'haan',
+			'langenfeld',
+			'monheim-am-rhein',
+			'velbert',
+			'wuelfrath',
+			'heiligenhaus',
+			'kreis-mettmann',
+		],
+	},
+	{
+		title: 'Köln, Rheinland und Rhein-Kreis Neuss',
+		description: 'Rheinische Städte und Regionen zwischen Köln, Neuss, Leverkusen und Bonn.',
+		slugs: [
+			'koeln',
+			'leverkusen',
+			'bergisch-gladbach',
+			'dormagen',
+			'neuss',
+			'meerbusch',
+			'moenchengladbach',
+			'krefeld',
+			'moers',
+			'bonn',
+			'aachen',
+			'rhein-kreis-neuss',
+			'rheinland',
+		],
+	},
+	{
+		title: 'Wuppertal und Bergisches Land',
+		description: 'Bergische Orte mit kurzen Wegen nach Wuppertal, Solingen und Remscheid.',
+		slugs: [
+			'wuppertal',
+			'solingen',
+			'remscheid',
+			'bergisches-land',
+		],
+	},
+	{
+		title: 'Ruhrgebiet und Rhein-Ruhr',
+		description: 'Großstädte und Regionen im Ruhrgebiet und im weiteren Rhein-Ruhr-Raum.',
+		slugs: [
+			'essen',
+			'dortmund',
+			'duisburg',
+			'bochum',
+			'oberhausen',
+			'gelsenkirchen',
+			'muelheim-an-der-ruhr',
+			'bottrop',
+			'herne',
+			'hagen',
+			'recklinghausen',
+			'ruhrgebiet',
+			'rhein-ruhr',
+		],
+	},
+	{
+		title: 'Weitere NRW-Orte',
+		description: 'Weitere relevante Orte und Regionen in Nordrhein-Westfalen.',
+		slugs: [
+			'muenster',
+			'bielefeld',
+			'paderborn',
+			'siegen',
+			'iserlohn',
+			'unna',
+			'nordrhein-westfalen',
+		],
+	},
+];
+
 const LOCAL_CONTEXT_SLUGS: Record<string, string[]> = {
 	duesseldorf: ['koeln', 'wuppertal', 'neuss', 'ratingen', 'kreis-mettmann', 'rheinland'],
 	koeln: ['duesseldorf', 'wuppertal', 'leverkusen', 'bergisch-gladbach', 'rheinland', 'rhein-ruhr'],
@@ -515,6 +603,31 @@ function pagesForServiceAndLocationSlugs(serviceSlug: string, locationSlugs: str
 
 export function getPrimaryLocalSeoPagesForService(serviceSlug: string): LocalSeoPage[] {
 	return pagesForServiceAndLocationSlugs(serviceSlug, PRIMARY_LOCATION_SLUGS);
+}
+
+export function serviceLocationsHubPath(serviceOrSlug: LocalSeoService | string): string {
+	const slug = typeof serviceOrSlug === 'string' ? serviceOrSlug : serviceOrSlug.slug;
+	return `/${slug}/orte/`;
+}
+
+export function getLocationHubGroupsForService(serviceSlug: string): LocalSeoLocationHubGroup[] {
+	const grouped = LOCATION_HUB_GROUPS.map((group) => ({
+		title: group.title,
+		description: group.description,
+		pages: pagesForServiceAndLocationSlugs(serviceSlug, group.slugs),
+	})).filter((group) => group.pages.length > 0);
+
+	const known = new Set(LOCATION_HUB_GROUPS.flatMap((group) => group.slugs));
+	const missing = getLocalSeoPagesForService(serviceSlug)
+		.filter((page) => !known.has(page.location.slug));
+	if (missing.length > 0) {
+		grouped.push({
+			title: 'Weitere Orte',
+			description: 'Zusätzliche Ortsseiten für diesen Leistungsbereich.',
+			pages: missing,
+		});
+	}
+	return grouped;
 }
 
 export function getContextLocalSeoPagesForService(

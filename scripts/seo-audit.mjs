@@ -222,6 +222,7 @@ const htmlFiles = walkFiles(output.root)
 	.filter((file) => file.endsWith('.html'))
 	.filter((file) => !file.includes(`${path.sep}admin${path.sep}`));
 const htmlRoutes = new Set(htmlFiles.map((file) => routeFromHtmlFile(output.root, file)));
+const inboundLinks = new Map([...htmlRoutes].map((route) => [route, new Set()]));
 
 const canonicalUrls = new Map();
 const robotsByPage = new Map();
@@ -299,6 +300,9 @@ for (const file of htmlFiles.sort()) {
 		if (linkedRoute && htmlRoutes.has(linkedRoute) && /noindex/i.test(robotsByPage.get(linkedRoute) ?? '')) {
 			issues.push(['error', page, `links to noindex page: ${linkedRoute}`]);
 		}
+		if (linkedRoute && htmlRoutes.has(linkedRoute) && linkedRoute !== page) {
+			inboundLinks.get(linkedRoute)?.add(page);
+		}
 	}
 
 	for (const [index, [, json]] of jsonLdBlocks.entries()) {
@@ -334,6 +338,14 @@ if (existsSync('vercel.json')) {
 for (const [canonical, pages] of canonicalUrls.entries()) {
 	if (pages.length > 1) {
 		issues.push(['error', pages.join(', '), `duplicate canonical URL: ${canonical}`]);
+	}
+}
+
+for (const route of [...htmlRoutes].sort()) {
+	if (route === '/' || route === '/404') continue;
+	if (/noindex/i.test(robotsByPage.get(route) ?? '')) continue;
+	if ((inboundLinks.get(route)?.size ?? 0) === 0) {
+		issues.push(['error', route, 'indexable page has no visible internal inbound link']);
 	}
 }
 

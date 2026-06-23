@@ -1,0 +1,120 @@
+---
+import Base from '../../layouts/Base.astro';
+import {
+	LOCAL_SERVICES,
+	getLocationHubGroupsForService,
+	getLocalService,
+	keywordLabel,
+	localPagePath,
+	serviceLocationsHubPath,
+} from '../../lib/local-seo';
+import { serviceTopicsHubPath } from '../../lib/topic-seo';
+import { canonicalUrl } from '../../lib/url';
+
+export const prerender = true;
+
+export function getStaticPaths() {
+	return LOCAL_SERVICES.map((service) => ({
+		params: { service: service.slug },
+	}));
+}
+
+const serviceSlug = Astro.params.service?.toString() ?? '';
+const service = getLocalService(serviceSlug);
+if (!service) return new Response('Not Found', { status: 404 });
+
+const groups = getLocationHubGroupsForService(service.slug);
+const allPages = groups.flatMap((group) => group.pages);
+const route = serviceLocationsHubPath(service);
+const site = Astro.site ?? new URL(Astro.url.origin);
+const pageUrl = canonicalUrl(site, route).href;
+const jsonLd = {
+	'@context': 'https://schema.org',
+	'@graph': [
+		{
+			'@type': 'BreadcrumbList',
+			'@id': `${pageUrl}#breadcrumb`,
+			itemListElement: [
+				{ '@type': 'ListItem', position: 1, name: 'Start', item: site.href },
+				{ '@type': 'ListItem', position: 2, name: service.parentLabel, item: canonicalUrl(site, `/${service.slug}/`).href },
+				{ '@type': 'ListItem', position: 3, name: 'Orte', item: pageUrl },
+			],
+		},
+		{
+			'@type': 'CollectionPage',
+			'@id': `${pageUrl}#collection`,
+			name: `Alle Orte für ${service.keyword}`,
+			description: `Übersicht aller Ortsseiten für ${service.keyword} mit Kim Marie Borger.`,
+			url: pageUrl,
+			inLanguage: 'de',
+			mainEntity: {
+				'@type': 'ItemList',
+				'@id': `${pageUrl}#items`,
+				itemListElement: allPages.map((page, index) => ({
+					'@type': 'ListItem',
+					position: index + 1,
+					name: keywordLabel(page.service, page.location),
+					url: canonicalUrl(site, localPagePath(page.service, page.location)).href,
+				})),
+			},
+		},
+	],
+};
+---
+
+<Base
+	title={`Alle Orte für ${service.keyword} | Kim Marie Borger`}
+	description={`Alle Ortsseiten für ${service.keyword}: Düsseldorf, Köln, Wuppertal, Rheinland, Ruhrgebiet, Bergisches Land und weitere NRW-Orte.`}
+	bodyClass="page-link-hub"
+	structuredData={jsonLd}
+>
+	<main>
+		<section class="section link-hub-hero" aria-labelledby="orte-title">
+			<div class="wrap link-hub-hero-grid">
+				<div>
+					<p class="eyebrow">Ortsübersicht</p>
+					<h1 id="orte-title" class="display-l">Alle Orte für {service.keyword}.</h1>
+				</div>
+				<div>
+					<p class="lead">
+						Diese Übersicht bündelt alle lokalen Seiten zu {service.parentLabel}. Die wichtigsten
+						Orte bleiben direkt auf der Leistungsseite sichtbar; alle weiteren Städte und Regionen
+						sind hier sauber nach Nähe und Region geordnet.
+					</p>
+					<div class="link-hub-actions">
+						<a class="btn" href={`/${service.slug}/`}>Zur Leistung</a>
+						<a class="btn btn-ghost" href={serviceTopicsHubPath(service.slug)}>Alle Themen</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section bg-paper2 link-hub-list" aria-labelledby="orte-list">
+			<div class="wrap">
+				<div class="local-links-head">
+					<p class="eyebrow c">Alle lokalen Einstiege</p>
+					<h2 id="orte-list" class="display-m">Städte und Regionen in sinnvoller Reihenfolge.</h2>
+					<p class="lead">
+						Die Links führen jeweils auf eine eigene lokale Seite mit passender Leistung,
+						Ortsbezug und Anfrageweg.
+					</p>
+				</div>
+				<div class="link-hub-group-grid">
+					{groups.map((group, index) => (
+						<section class="link-hub-group" aria-labelledby={`${service.slug}-orte-${index}`}>
+							<h3 id={`${service.slug}-orte-${index}`}>{group.title}</h3>
+							<p>{group.description}</p>
+							<div class="service-discovery-links">
+								{group.pages.map((page) => (
+									<a href={localPagePath(page.service, page.location)}>
+										{keywordLabel(page.service, page.location)}
+									</a>
+								))}
+							</div>
+						</section>
+					))}
+				</div>
+			</div>
+		</section>
+	</main>
+</Base>

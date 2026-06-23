@@ -1,0 +1,170 @@
+---
+import Base from '../../layouts/Base.astro';
+import {
+	LOCAL_SERVICES,
+	getLocalService,
+	serviceLocationsHubPath,
+} from '../../lib/local-seo';
+import {
+	getTopicSeoPagesForService,
+	serviceTopicsHubPath,
+	topicPagePath,
+} from '../../lib/topic-seo';
+import {
+	getRatgeberPagesForService,
+	ratgeberPath,
+} from '../../lib/ratgeber';
+import { canonicalUrl } from '../../lib/url';
+
+export const prerender = true;
+
+export function getStaticPaths() {
+	return LOCAL_SERVICES
+		.filter((service) => getTopicSeoPagesForService(service.slug).length > 0)
+		.map((service) => ({
+			params: { service: service.slug },
+		}));
+}
+
+const serviceSlug = Astro.params.service?.toString() ?? '';
+const service = getLocalService(serviceSlug);
+const priorityRank = { P1: 0, P2: 1, P3: 2 };
+const allTopics = service
+	? getTopicSeoPagesForService(service.slug).sort((a, b) =>
+		priorityRank[a.priority] - priorityRank[b.priority]
+		|| b.volume - a.volume
+		|| a.label.localeCompare(b.label),
+	)
+	: [];
+if (!service || allTopics.length === 0) return new Response('Not Found', { status: 404 });
+
+const topicGroups = [
+	{
+		title: 'Zentrale Themen',
+		description: 'Die wichtigsten Suchanliegen, die direkt in Planung und Anfrage führen.',
+		pages: allTopics.filter((page) => page.priority === 'P1'),
+	},
+	{
+		title: 'Spezielle Planungsfragen',
+		description: 'Longtail-Seiten für konkrete Situationen, Abläufe und Repertoirefragen.',
+		pages: allTopics.filter((page) => page.priority === 'P2'),
+	},
+	{
+		title: 'Weitere Suchbegriffe',
+		description: 'Ergänzende Detailseiten, die die Themenabdeckung abrunden.',
+		pages: allTopics.filter((page) => page.priority === 'P3'),
+	},
+].filter((group) => group.pages.length > 0);
+const guidePages = getRatgeberPagesForService(service.slug);
+const route = serviceTopicsHubPath(service.slug);
+const site = Astro.site ?? new URL(Astro.url.origin);
+const pageUrl = canonicalUrl(site, route).href;
+const jsonLd = {
+	'@context': 'https://schema.org',
+	'@graph': [
+		{
+			'@type': 'BreadcrumbList',
+			'@id': `${pageUrl}#breadcrumb`,
+			itemListElement: [
+				{ '@type': 'ListItem', position: 1, name: 'Start', item: site.href },
+				{ '@type': 'ListItem', position: 2, name: service.parentLabel, item: canonicalUrl(site, `/${service.slug}/`).href },
+				{ '@type': 'ListItem', position: 3, name: 'Themen', item: pageUrl },
+			],
+		},
+		{
+			'@type': 'CollectionPage',
+			'@id': `${pageUrl}#collection`,
+			name: `Alle Themen zu ${service.parentLabel}`,
+			description: `Übersicht aller Themen- und Suchbegriffseiten zu ${service.parentLabel}.`,
+			url: pageUrl,
+			inLanguage: 'de',
+			mainEntity: {
+				'@type': 'ItemList',
+				'@id': `${pageUrl}#items`,
+				itemListElement: allTopics.map((page, index) => ({
+					'@type': 'ListItem',
+					position: index + 1,
+					name: page.linkLabel,
+					url: canonicalUrl(site, topicPagePath(page)).href,
+				})),
+			},
+		},
+	],
+};
+---
+
+<Base
+	title={`Alle Themen zu ${service.parentLabel} | Kim Marie Borger`}
+	description={`Alle Suchbegriffe und Themen zu ${service.parentLabel}: zentrale Fragen, konkrete Planung und passende nächste Schritte.`}
+	bodyClass="page-link-hub"
+	structuredData={jsonLd}
+>
+	<main>
+		<section class="section link-hub-hero" aria-labelledby="themen-title">
+			<div class="wrap link-hub-hero-grid">
+				<div>
+					<p class="eyebrow">Themenübersicht</p>
+					<h1 id="themen-title" class="display-l">Alle Themen zu {service.parentLabel}.</h1>
+				</div>
+				<div>
+					<p class="lead">
+						Diese Übersicht sammelt die Suchbegriff- und Themenseiten zu {service.parentLabel}.
+						Sie dient als zweite Ebene unter der Hauptleistung: ausführlich genug für SEO,
+						aber ruhig genug für echte Nutzerführung.
+					</p>
+					<div class="link-hub-actions">
+						<a class="btn" href={`/${service.slug}/`}>Zur Leistung</a>
+						<a class="btn btn-ghost" href={serviceLocationsHubPath(service)}>Alle Orte</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section bg-paper2 link-hub-list" aria-labelledby="themen-list">
+			<div class="wrap">
+				<div class="local-links-head">
+					<p class="eyebrow c">Alle Suchbegriffe</p>
+					<h2 id="themen-list" class="display-m">Vom Hauptthema zur Detailfrage.</h2>
+					<p class="lead">
+						Die wichtigsten Themen stehen zuerst. Spezifische Fragen bleiben erreichbar,
+						ohne die Hauptleistungsseite zu überladen.
+					</p>
+				</div>
+				<div class="link-hub-group-grid">
+					{topicGroups.map((group, index) => (
+						<section class="link-hub-group" aria-labelledby={`${service.slug}-themen-${index}`}>
+							<h3 id={`${service.slug}-themen-${index}`}>{group.title}</h3>
+							<p>{group.description}</p>
+							<div class="service-discovery-links">
+								{group.pages.map((page) => (
+									<a href={topicPagePath(page)}>{page.linkLabel}</a>
+								))}
+							</div>
+						</section>
+					))}
+				</div>
+			</div>
+		</section>
+
+		{guidePages.length > 0 && (
+			<section class="section guide-topic-map" aria-labelledby="themen-ratgeber">
+				<div class="wrap">
+					<div class="local-links-head">
+						<p class="eyebrow c">Ratgeber</p>
+						<h2 id="themen-ratgeber" class="display-m">Wissen, wenn die Entscheidung noch reift.</h2>
+						<p class="lead">
+							Der Ratgeber bleibt ein dezenter Orientierungspfad und ersetzt nicht den
+							direkten Weg zur Leistung oder Anfrage.
+						</p>
+					</div>
+					<div class="guide-service-links">
+						{guidePages.map((page) => (
+							<a href={ratgeberPath(page)}>{page.shortTitle}</a>
+						))}
+						<a href="/ratgeber/">Alle Ratgeber</a>
+					</div>
+				</div>
+			</section>
+		)}
+	</main>
+</Base>
