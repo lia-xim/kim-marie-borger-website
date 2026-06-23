@@ -45,9 +45,9 @@ const SERVICE_CONFIG = {
 	},
 	unterricht: {
 		label: 'Unterricht',
-		intent: 'bratschenunterricht',
-		titlePrefix: 'Bratschenunterricht',
-		keywordPrefix: 'Bratschenunterricht',
+		intent: 'geigenunterricht',
+		titlePrefix: 'Geigenunterricht',
+		keywordPrefix: 'Geigenunterricht',
 	},
 };
 

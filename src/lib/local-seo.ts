@@ -103,9 +103,9 @@ export const LOCAL_SERVICES: LocalSeoService[] = [
 		slug: 'unterricht',
 		baseSlug: 'unterricht',
 		parentLabel: 'Unterricht',
-		keyword: 'Bratschenunterricht',
-		serviceType: 'Bratschen- und Musikunterricht',
-		linkHeading: 'Bratschenunterricht vor Ort',
+		keyword: 'Geigenunterricht',
+		serviceType: 'Geigen- und Bratschenunterricht',
+		linkHeading: 'Geigenunterricht vor Ort',
 	},
 ];
 
@@ -688,7 +688,7 @@ export function keywordLabel(service: LocalSeoService, location: LocalSeoLocatio
 		case 'konzerte':
 			return `Viola Konzert ${location.name}`;
 		case 'unterricht':
-			return `Bratschenunterricht ${location.name}`;
+			return `Geigenunterricht ${location.name}`;
 	}
 }
 
@@ -707,7 +707,7 @@ function compactLocalSeoTitle(serviceSlug: LocalServiceSlug, locationName: strin
 		case 'konzerte':
 			return `Viola Konzert ${locationName} | Viola für Events`;
 		case 'unterricht':
-			return `Bratschenunterricht ${locationName} | Viola lernen`;
+			return `Geigenunterricht ${locationName} | Geige lernen`;
 	}
 }
 
@@ -730,7 +730,7 @@ function compactLocalSeoDescription(
 		case 'konzerte':
 			return `${keyword}: kuratiertes Viola-Programm für Vernissage, Lesung und Kulturabend ${locative}. Anfrage kostenlos.`;
 		case 'unterricht':
-			return `${keyword}: Viola- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg ${locative}. Probestunde kostenlos.`;
+			return `${keyword}: Geigen- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg ${locative}. Probestunde kostenlos.`;
 	}
 }
 
@@ -753,7 +753,7 @@ export function localSeoTitle(page: LocalSeoPage, override?: SeoPageOverride): s
 		case 'konzerte':
 			return `Viola Konzert ${location.name} | Musik für Event & Kulturabend`;
 		case 'unterricht':
-			return `Bratschenunterricht ${location.name} | Viola lernen`;
+			return `Geigenunterricht ${location.name} | Geige lernen`;
 	}
 }
 
@@ -776,7 +776,7 @@ export function localSeoDescription(page: LocalSeoPage, override?: SeoPageOverri
 		case 'konzerte':
 			return `Viola Konzert ${location.locative}: kuratierte Musik für Vernissage, Lesung, Salonkonzert, Kulturabend und besondere Events.`;
 		case 'unterricht':
-			return `Bratschenunterricht ${location.locative}: individueller Viola- und Musikunterricht für Anfänger, Kinder, Erwachsene und Fortgeschrittene.`;
+			return `Geigenunterricht ${location.locative}: individueller Geigen-, Bratschen- und Musikunterricht für Anfänger, Kinder, Erwachsene und Fortgeschrittene.`;
 	}
 }
 
@@ -1293,17 +1293,17 @@ function rewriteTeachingBlock(block: AnyBlock, page: LocalSeoPage): AnyBlock {
 			return {
 				...block,
 				eyebrow: `Unterricht ${location.locative}`,
-				title: `Bratschenunterricht ${location.locative}\nmit Ruhe & Struktur.`,
-				lead: `Viola lernen für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene ${location.locative} - mit geduldigem Aufbau und kostenloser Probestunde.`,
+				title: `Geigenunterricht ${location.locative}\nmit Ruhe & Struktur.`,
+				lead: `Geige und Bratsche lernen für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene ${location.locative} - mit geduldigem Aufbau und kostenloser Probestunde.`,
 				badge: 'Probestunde kostenlos & unverbindlich',
 			};
 		case 'PageBlocksSplit':
 			return {
 				...block,
 				eyebrow: 'Worum es geht',
-				title: `Viola lernen ${location.locative},\nohne Druck.`,
+				title: `Geige oder Bratsche lernen ${location.locative},\nohne Druck.`,
 				paragraphs: [
-					`Ob ${location.cue}: Bratschenunterricht funktioniert dann gut, wenn Haltung, Bogenführung, Klang und Üben von Anfang an verständlich aufgebaut werden. Genau darauf liegt der Fokus.`,
+					`Ob ${location.cue}: Geigenunterricht und Bratschenunterricht funktionieren dann gut, wenn Haltung, Bogenführung, Klang und Üben von Anfang an verständlich aufgebaut werden. Genau darauf liegt der Fokus.`,
 					`Der Unterricht richtet sich an Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene. Wir arbeiten in deinem Tempo, mit klaren Übungen und Stücken, die dich wirklich interessieren.`,
 				],
 			};
@@ -1317,11 +1317,11 @@ function rewriteTeachingBlock(block: AnyBlock, page: LocalSeoPage): AnyBlock {
 			return {
 				...block,
 				eyebrow: 'Gut zu wissen',
-				title: `Häufige Fragen zu Bratschenunterricht ${location.locative}.`,
+				title: `Häufige Fragen zu Geigenunterricht ${location.locative}.`,
 				items: [
 					{
-						question: `Bietest du Bratschenunterricht ${location.locative} an?`,
-						answer: `Ja. Ich biete individuellen Bratschen- und Violaunterricht ${location.locative} beziehungsweise nach Absprache im passenden Rahmen an.`,
+						question: `Bietest du Geigenunterricht ${location.locative} an?`,
+						answer: `Ja. Ich biete individuellen Geigen-, Bratschen- und Violaunterricht ${location.locative} beziehungsweise nach Absprache im passenden Rahmen an.`,
 						open: true,
 					},
 					{

@@ -1,0 +1,161 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "unterricht",
+  "pageSlug": "geigenunterricht-erwachsene",
+  "route": "/unterricht/geigenunterricht-erwachsene/",
+  "targetKeyword": "Geigenunterricht für Erwachsene",
+  "intentCluster": "unterricht:geigenunterricht-erwachsene",
+  "priority": "P2",
+  "status": "geige-expansion-2026-06-23-review-needed",
+  "enabled": true,
+  "seoTitle": "Geigenunterricht Erwachsene | Geige lernen",
+  "seoDescription": "Geigenunterricht für Erwachsene: Unterricht für Geige, Bratsche oder Viola mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
+  "hero": {
+    "eyebrow": "Geigenunterricht Erwachsene",
+    "title": "Geigenunterricht Erwachsene: ruhig aufgebaut, persönlich begleitet.",
+    "lead": "Geigenunterricht für Erwachsene mit klarem Fundament: Haltung, Bogenführung, Intonation, Übestruktur und Stücke, die wirklich motivieren.",
+    "badge": "Probestunde kostenlos & unverbindlich"
+  },
+  "split": {
+    "seal": "Erwachsene\nKlang & Technik\npersönlich",
+    "sections": [
+      {
+        "title": "Geigenunterricht für Erwachsene darf anders anfangen.",
+        "lede": "Erwachsene bringen Fragen mit, die im normalen Anfängertext oft fehlen: wenig Zeit, hohe Ansprüche, alte Bewegungsmuster oder der Wunsch, endlich ein Streichinstrument zu verstehen.",
+        "paragraphs": [
+          "Bei Erwachsenen schaue ich zuerst auf Alltag und Ziel: Wie viel Übezeit ist realistisch, was soll musikalisch möglich werden, und welche körperlichen Gewohnheiten helfen oder stören?",
+          "Ein später Einstieg ist kein Nachteil, wenn der Unterricht klar strukturiert ist. Erwachsene verstehen Zusammenhänge oft schnell; die Kunst liegt darin, Technik nicht zu verkopfen.",
+          "Wir arbeiten mit kleinen, überprüfbaren Aufgaben: Bogenkontakt, entspannte linke Hand, saubere Wechsel, sicherer Rhythmus und Stücke, die motivieren, ohne zu überfordern.",
+          "Wiedereinsteiger:innen brauchen eine andere Route als komplette Anfänger:innen. Alte Fähigkeiten werden geprüft, aber nicht romantisiert; was noch trägt, bleibt, was Spannung erzeugt, wird neu sortiert."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Geigen- und Geigenunterricht: Geigenunterricht Erwachsene - Bild 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Unterricht mit klarem Fokus"
+      },
+      {
+        "title": "Geigenunterricht Erwachsene im Ablauf sinnvoll einsetzen.",
+        "lede": "Diese Seite grenzt sich vom allgemeinen Geigenunterricht ab: Hier geht es um erwachsene Lernrealität, nicht um einen Einstieg für alle Altersgruppen.",
+        "paragraphs": [
+          "Für die Anfrage helfen Vorerfahrung, Wunschrepertoire, vorhandenes Instrument, Zeitfenster, Übemöglichkeit und die Frage, ob du eher neu anfängst oder zurückkehrst.",
+          "Fuer erwachsene Lernende ist die erste Frage selten nur technisch. Wichtig sind Zeitfenster, Koerpergefuehl, Vorerfahrung und die Frage, welche Musik wirklich motiviert. Daraus entsteht ein Uebeplan, der auch neben Beruf, Familie oder unregelmaessigen Wochen funktioniert.",
+          "Ich arbeite im Erwachsenenunterricht mit kleinen, nachvollziehbaren Schritten: Klang hoeren, Bewegung spueren, Ursache verstehen und erst dann die naechste Aufgabe ergaenzen. So bleibt Geige lernen konkret und wird nicht zu einer Sammlung abstrakter Korrekturen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+          "alt": "Geigen- und Geigenunterricht: Geigenunterricht Erwachsene - Bild 1"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Im naechsten Schritt geht es bei Erwachsenen oft um Selbstkorrektur: Wie erkenne ich, ob der Bogen wirklich ruhig laeuft, ob die linke Hand greift statt drueckt und ob eine Uebung gerade hilft oder nur Wiederholung erzeugt? Diese Fragen werden im Unterricht bewusst mitgeuebt.",
+        "paragraphs": [
+          "Gerade fuer Erwachsene ist auch der Umgang mit Frust wichtig. Kleine Tonleitern, kurze Stuecke und gezielte Wiederholungen werden so dosiert, dass Fortschritt hoerbar wird, ohne dass jede Stunde wie eine Pruefung wirkt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Geigen- und Geigenunterricht: Geigenunterricht Erwachsene - Bild 2"
+        },
+        "imageFirst": false
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "FAQ zu Geigenunterricht Erwachsene",
+    "items": [
+      {
+        "question": "Ist Geigenunterricht als Erwachsener realistisch?",
+        "answer": "Ja. Wichtig sind realistische Ziele, regelmäßige kleine Übeeinheiten und ein Unterricht, der körperliche Gewohnheiten ernst nimmt.",
+        "open": true
+      },
+      {
+        "question": "Muss ich Noten lesen können?",
+        "answer": "Nein. Notenlesen kann Schritt für Schritt mit dem Instrument aufgebaut werden."
+      },
+      {
+        "question": "Was ist anders als beim Kinderunterricht?",
+        "answer": "Erwachsene brauchen meist mehr Erklärung, flexible Übepläne und Repertoire, das Motivation und Technik sinnvoll verbindet."
+      },
+      {
+        "question": "Was soll ich für die Anfrage schreiben?",
+        "answer": "Vorerfahrung, Wunschziel, vorhandenes Instrument, verfügbare Übezeit und mögliche Termine für eine Probestunde."
+      },
+      {
+        "question": "Wie viel Uebezeit brauchen Erwachsene realistisch?",
+        "answer": "Lieber regelmaessige kurze Einheiten als seltene lange Bloecke. Schon klare 15 bis 20 Minuten mit einer konkreten Aufgabe koennen viel bewirken, wenn der Unterricht die Prioritaeten gut sortiert."
+      },
+      {
+        "question": "Kann ich auch mit alten Unsicherheiten wieder anfangen?",
+        "answer": "Ja. Wir pruefen, was noch traegt, und bauen Bewegungen neu auf, die Spannung, Frust oder klangliche Grenzen erzeugen."
+      },
+      {
+        "question": "Wie bleibt Geigenunterricht fuer Erwachsene langfristig motivierend?",
+        "answer": "Durch klare Etappen: ein technischer Schwerpunkt, ein musikalisches Ziel und kleine Aufgaben fuer zu Hause. So bleibt Fortschritt sichtbar, auch wenn nicht jede Woche gleich viel Uebezeit da ist."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+      "alt": "Geigen- und Geigenunterricht: Geigenunterricht Erwachsene - Bild 1"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Geigen- und Geigenunterricht: Geigenunterricht Erwachsene - Bild 2"
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsaetzen und zusaetzlichen FAQ weiter ausgebaut.\n\nLow Copy Follow-up 2026-06-16: verbliebene expand-copy-Seiten mit weiterem Fachkontext ergaenzt.",
+  "contact": {
+    "eyebrow": "Unterricht anfragen",
+    "title": "Geigenunterricht Erwachsene anfragen",
+    "lead": "Schreib mir kurz, für wen Geigenunterricht Erwachsene gedacht ist, welche Erfahrung vorhanden ist und welches Ziel im Raum steht. Danach schlage ich eine passende Probestunde oder einen Lernrhythmus vor.",
+    "checklist": [
+      "Geigenunterricht Erwachsene",
+      "Lernstand",
+      "Probestunde"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Geigenunterricht Erwachsene anfragen",
+    "formSuccess": "Danke - ich melde mich mit einem Vorschlag für Geigenunterricht Erwachsene.",
+    "sourceLabel": "Geigenunterricht für Erwachsene"
+  },
+  "focus": {
+    "eyebrow": "Unterrichtsaufbau",
+    "title": "Schwerpunkte im Geigenunterricht Erwachsene.",
+    "lead": "Der Unterricht berücksichtigt Kopf, Körper und knappe Zeit.",
+    "items": [
+      {
+        "kicker": "Alltag",
+        "title": "Realistisch üben",
+        "text": "Wir entwickeln Aufgaben, die auch mit Beruf, Familie oder unregelmäßigen Wochen funktionieren."
+      },
+      {
+        "kicker": "Körper",
+        "title": "Spannung abbauen",
+        "text": "Schulter, Nacken, linke Hand und Bogenarm werden so sortiert, dass Üben nicht verkrampft."
+      },
+      {
+        "kicker": "Verstehen",
+        "title": "Technik nachvollziehen",
+        "text": "Erklärungen bleiben praktisch: Du sollst wissen, warum eine Bewegung den Klang verändert."
+      },
+      {
+        "kicker": "Musik",
+        "title": "Wunschstücke einordnen",
+        "text": "Repertoire wird passend gewählt, damit Motivation bleibt und technische Schritte nicht übersprungen werden."
+      }
+    ],
+    "footnote": "Geigenunterricht Erwachsene wird nach Lernziel, Alter, Alltag und Vorerfahrung geplant."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
+  }
+}

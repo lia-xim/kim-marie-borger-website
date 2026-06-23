@@ -24,7 +24,7 @@ const SERVICE_KEYWORDS = {
 	geburtstage: 'Live Musik Geburtstag',
 	taufen: 'Taufmusik',
 	konzerte: 'Viola Konzert',
-	unterricht: 'Bratschenunterricht',
+	unterricht: 'Geigenunterricht',
 };
 
 if (!existsSync(DIST)) {

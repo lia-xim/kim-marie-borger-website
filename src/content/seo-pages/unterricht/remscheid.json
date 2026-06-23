@@ -3,25 +3,25 @@
   "serviceSlug": "unterricht",
   "pageSlug": "remscheid",
   "route": "/unterricht/remscheid/",
-  "targetKeyword": "Bratschenunterricht Remscheid",
+  "targetKeyword": "Geigenunterricht Remscheid",
   "intentCluster": "unterricht:local",
   "priority": "P2",
-  "status": "manual-priority-local-seo-2026-06-22",
+  "status": "geige-expansion-2026-06-23-review-needed",
   "enabled": true,
-  "seoTitle": "Bratschenunterricht Remscheid | Viola lernen",
-  "seoDescription": "Bratschenunterricht Remscheid: Viola- und Bratschenunterricht für Kinder und Erwachsene in Remscheid. Ablauf, Wunschmusik und Preis transparent klären.",
+  "seoTitle": "Geigenunterricht Remscheid | Geige lernen",
+  "seoDescription": "Geigenunterricht Remscheid: Geigen- und Bratschenunterricht für Kinder und Erwachsene in Remscheid. Probestunde, Ziele und Unterrichtsrhythmus transparent klären.",
   "hero": {
-    "eyebrow": "Bratschenunterricht in Remscheid",
-    "title": "Bratschenunterricht in Remscheid: konkret geplant nach Ort und Ablauf.",
-    "lead": "Viola- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg in Remscheid. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, ob Unterrichtsort, Weg, Instrument und Wochenrhythmus wirklich passen.",
+    "eyebrow": "Geigenunterricht in Remscheid",
+    "title": "Geigenunterricht in Remscheid: ruhig aufgebaut nach Ort und Lernziel.",
+    "lead": "Geigen- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg in Remscheid. Geplant wird nach Ort, Lernziel, Instrument, Übezeit, Anfahrt und der Frage, ob Unterrichtsort, Weg, Instrument und Wochenrhythmus wirklich passen.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Remscheid\nBratschenunterricht\nkonkret geplant",
+    "seal": "Remscheid\nGeigenunterricht\nkonkret geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Bratschenunterricht in Remscheid: was vor Ort wirklich zählt.",
+        "title": "Geigenunterricht in Remscheid: was vor Ort wirklich zählt.",
         "lede": "Für Unterricht in Remscheid zählt, ob Weg, Übezeit und Wochenrhythmus auch im Alltag stabil bleiben. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
         "paragraphs": [
           "Typische Situationen in Remscheid können Lennep, Lüttringhausen, Innenstadt, bergische Räume oder private Feiern sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
@@ -29,7 +29,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Bratschenunterricht in Remscheid - lokaler Planungsrahmen"
+          "alt": "Geigenunterricht in Remscheid - lokaler Planungsrahmen"
         },
         "imageFirst": false
       },
@@ -44,22 +44,22 @@
         ],
         "image": {
           "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-          "alt": "Bratschenunterricht in Remscheid - Ablauf und Einsaetze"
+          "alt": "Geigenunterricht in Remscheid - Ablauf und Einsaetze"
         },
         "imageFirst": true
       },
       {
         "eyebrow": "Unterricht: passend oder nicht?",
-        "title": "Wann Bratschenunterricht in Remscheid die richtige Wahl ist.",
-        "lede": "Bratschenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "title": "Wann Geigenunterricht in Remscheid die richtige Wahl ist.",
+        "lede": "Geigenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
         "paragraphs": [
-          "Nicht ideal ist Bratschenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann ist es ehrlicher, zuerst Ziel, Format, Material oder einen spaeteren Start zu klären.",
+          "Nicht ideal ist Geigenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann ist es ehrlicher, zuerst Ziel, Format, Material oder einen spaeteren Start zu klären.",
           "Wenn ein Unterrichtsort vorgeschlagen wird, pruefe ich lieber früh, ob Raum, Lautstärke, Notenstaender, Sitzmoeglichkeit und Wiederholbarkeit des Weges passen.",
           "Wenn Unterrichtsort, Weg oder Rhythmus unsicher sind, pruefe ich lieber früh, ob eine Probestunde oder ein anderer Rahmen sinnvoller ist."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Bratschenunterricht in Remscheid - passend planen"
+          "alt": "Geigenunterricht in Remscheid - passend planen"
         },
         "imageFirst": false
       },
@@ -74,7 +74,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-          "alt": "Bratschenunterricht in Remscheid - Anfrage und Preisrahmen"
+          "alt": "Geigenunterricht in Remscheid - Anfrage und Preisrahmen"
         },
         "imageFirst": true
       }
@@ -82,11 +82,11 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Bratschenunterricht Remscheid",
+    "title": "FAQ zu Geigenunterricht Remscheid",
     "items": [
       {
-        "question": "Bietest du Bratschenunterricht in Remscheid?",
-        "answer": "Ja. Ich biete Viola- und Bratschenunterricht in Remscheid beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
+        "question": "Bietest du Geigenunterricht in Remscheid?",
+        "answer": "Ja. Ich biete Geigen- und Bratschenunterricht in Remscheid beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
         "open": true
       },
       {
@@ -102,12 +102,12 @@
         "answer": "Ja, wenn sie zum Lernstand, Instrument und Unterrichtsziel passen. Vorhandenes Unterrichtsmaterial ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
       },
       {
-        "question": "Wann passt Bratschenunterricht besonders gut?",
-        "answer": "Bratschenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Unterricht wirkt am besten, wenn Weg, Ziel, Übezeit und Regelmäßigkeit realistisch sind."
+        "question": "Wann passt Geigenunterricht besonders gut?",
+        "answer": "Geigenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Unterricht wirkt am besten, wenn Weg, Ziel, Übezeit und Regelmäßigkeit realistisch sind."
       },
       {
-        "question": "Wann ist Bratschenunterricht nicht die richtige Loesung?",
-        "answer": "Nicht ideal ist Bratschenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "question": "Wann ist Geigenunterricht nicht die richtige Loesung?",
+        "answer": "Nicht ideal ist Geigenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
       },
       {
         "question": "Was ist in Remscheid organisatorisch wichtig?",
@@ -122,25 +122,25 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Bratschenunterricht in Remscheid - Planungsbild 1"
+      "alt": "Geigenunterricht in Remscheid - Planungsbild 1"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-      "alt": "Bratschenunterricht in Remscheid - Planungsbild 2"
+      "alt": "Geigenunterricht in Remscheid - Planungsbild 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Bratschenunterricht in Remscheid - Planungsbild 3"
+      "alt": "Geigenunterricht in Remscheid - Planungsbild 3"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-      "alt": "Bratschenunterricht in Remscheid - Planungsbild 4"
+      "alt": "Geigenunterricht in Remscheid - Planungsbild 4"
     }
   ],
   "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
-    "title": "Bratschenunterricht in Remscheid anfragen",
+    "title": "Geigenunterricht in Remscheid anfragen",
     "lead": "Schreib mir kurz Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Danach klären wir, ob eine kostenlose Probestunde in Remscheid, ein regelmäßiger Rhythmus oder zuerst eine Orientierung sinnvoll ist.",
     "checklist": [
       "Remscheid",
@@ -150,7 +150,7 @@
       "Preis nach Rahmen"
     ],
     "defaultOccasion": "Unterricht",
-    "sourceLabel": "Bratschenunterricht Remscheid",
+    "sourceLabel": "Geigenunterricht Remscheid",
     "notes": [
       "Probestunde kostenlos und unverbindlich",
       "Kein kostenloses Vorspielen vor Ort",
@@ -163,7 +163,7 @@
   },
   "focus": {
     "eyebrow": "Planung in Remscheid",
-    "title": "Vier Entscheidungen, die Bratschenunterricht in Remscheid konkret machen.",
+    "title": "Vier Entscheidungen, die Geigenunterricht in Remscheid konkret machen.",
     "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
     "items": [
       {
@@ -191,7 +191,7 @@
         "text": "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Bratschenunterricht in Remscheid wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Geigenunterricht in Remscheid wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
   },
   "elegy": {
     "passages": []

@@ -1,0 +1,187 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "unterricht",
+  "pageSlug": "geigenunterricht-kinder",
+  "route": "/unterricht/geigenunterricht-kinder/",
+  "targetKeyword": "Geigenunterricht für Kinder",
+  "intentCluster": "unterricht:geigenunterricht-kinder",
+  "priority": "P2",
+  "status": "geige-expansion-2026-06-23-review-needed",
+  "enabled": true,
+  "seoTitle": "Geigenunterricht Kinder | Geduldig lernen",
+  "seoDescription": "Geigenunterricht für Kinder: Unterricht für Geige, Bratsche oder Viola mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
+  "hero": {
+    "eyebrow": "Geigenunterricht Kinder",
+    "title": "Geigenunterricht Kinder: ruhig aufgebaut, persönlich begleitet.",
+    "lead": "Geigenunterricht für Kinder mit klarem Fundament: Haltung, Bogenführung, Intonation, Übestruktur und Stücke, die wirklich motivieren.",
+    "badge": "Probestunde kostenlos & unverbindlich"
+  },
+  "split": {
+    "seal": "Kinder\nKlang & Technik\npersönlich",
+    "sections": [
+      {
+        "title": "Geigenunterricht Kinder heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
+        "lede": "Wer nach Geigenunterricht Kinder sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht einen Unterricht, der Konzentration, Bewegung und Neugier in kindgerechte Schritte übersetzt. Diese Seite achtet besonders auf altersgerechte Instrumentengröße, kurze Aufgaben und Erfolgserlebnisse.",
+        "paragraphs": [
+          "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
+          "Kinder lernen über Klang, Bilder, Wiederholung und kleine Rituale, nicht über lange technische Vorträge.",
+          "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
+          "Einfache Lieder, Rhythmusspiele und kleine Stücke helfen, Technik mit Freude zu verbinden.",
+          "Für Eltern ist wichtig zu wissen, wie zu Hause geübt werden kann, ohne dass Musik zum Streitpunkt wird."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Geigenunterricht Kinder mit Viola und Bratsche 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Unterricht mit klarem Fokus"
+      },
+      {
+        "title": "Geigenunterricht Kinder im Ablauf sinnvoll einsetzen.",
+        "lede": "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
+        "paragraphs": [
+          "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
+          "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
+          "Bei Geigenunterricht Kinder steht spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Geigenunterricht.",
+          "Im Unterricht ist das Ziel nicht ein schneller Effekt, sondern ein tragfaehiger nächster Schritt. Geigenunterricht Kinder wird deshalb nach Lernstand, Körpergefühl, Klangvorstellung und Uebealltag geplant."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+          "alt": "Geigenunterricht Kinder mit Viola und Bratsche 1"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Der Kern von Geigenunterricht Kinder ist spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+        "paragraphs": [
+          "Für die Planung sind Bilder, Wiederholung, Elternkommunikation, passende Instrumentengroesse die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll.",
+          "Die klare Abgrenzung zu Geigenunterricht lautet: nicht erwachsene Übeziele übertragen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine verändert den Ton der Seite deutlich. Ein Wunschstück, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Bilder, Wiederholung, Elternkommunikation, passende Instrumentengroesse. Das verhindert, dass Geigenunterricht Kinder nur wie eine Variante der Hauptleistung klingt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Geigenunterricht Kinder mit Viola und Bratsche 2"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Auch spielerischer Einstieg, Konzentration, kurze Aufgaben, positive Routine ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+        "paragraphs": [
+          "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Geigenunterricht, Kinder. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+          "alt": "Geigenunterricht Kinder mit Viola und Bratsche 1"
+        },
+        "imageFirst": true
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "FAQ zu Geigenunterricht Kinder",
+    "items": [
+      {
+        "question": "Für wen passt Geigenunterricht Kinder?",
+        "answer": "Geigenunterricht Kinder passt für Kinder und Familien, die einen freundlichen Einstieg in die Geige oder Viola suchen. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
+        "open": true
+      },
+      {
+        "question": "Gibt es eine kostenlose Probestunde?",
+        "answer": "Ja. In der Probestunde schauen wir gemeinsam auf Instrument, Vorerfahrung, Ziele und die Frage, welcher Unterrichtsrhythmus realistisch ist."
+      },
+      {
+        "question": "Muss ich schon Noten lesen können?",
+        "answer": "Nein. Notenlesen kann Teil des Unterrichts sein und wird direkt mit dem Spielen verbunden, damit Theorie nicht losgelöst vom Instrument bleibt."
+      },
+      {
+        "question": "Kann ich als Erwachsene:r noch anfangen?",
+        "answer": "Ja. Erwachsene lernen oft sehr bewusst. Wichtig ist ein Übeplan, der in den Alltag passt und nicht mit unrealistischen Erwartungen beginnt."
+      },
+      {
+        "question": "Ist Unterricht auch für Kinder möglich?",
+        "answer": "Ja, wenn Instrumentengröße, Konzentrationsspanne und Aufgaben gut gewählt sind. Bei Kindern beziehe ich die Eltern mit ein, ohne das Üben zu Hause zu kompliziert zu machen."
+      },
+      {
+        "question": "Welche Musik wird im Unterricht gespielt?",
+        "answer": "Das hängt von Lernstand und Ziel ab. Klassische Grundlagen, kleine Melodien, Etüden, Filmmusik oder persönliche Wünsche können sinnvoll kombiniert werden."
+      },
+      {
+        "question": "Wann passt Geigenunterricht Kinder besonders gut?",
+        "answer": "Geigenunterricht Kinder passt, wenn genau dieser Lernschwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich klären, ob ein Unterrichtseinstieg, ein Technikfokus, ein Wiedereinstieg oder eine regelmäßige Begleitung passend ist."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+      "alt": "Geigenunterricht Kinder mit Viola und Bratsche 1"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Geigenunterricht Kinder mit Viola und Bratsche 2"
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "contact": {
+    "eyebrow": "Unterricht anfragen",
+    "title": "Geigenunterricht Kinder anfragen",
+    "lead": "Schreib mir kurz, ob du neu anfängst, wieder einsteigst oder für ein Kind suchst. Dann kann ich einschätzen, wie Geigenunterricht Kinder sinnvoll beginnen kann.",
+    "checklist": [
+      "Geigenunterricht Kinder",
+      "Lernstand",
+      "Probestunde"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Geigenunterricht Kinder zu dir?",
+    "formSuccess": "Danke - ich melde mich persönlich mit einer Idee für Geigenunterricht Kinder.",
+    "sourceLabel": "Geigenunterricht für Kinder"
+  },
+  "focus": {
+    "eyebrow": "Lernbereiche",
+    "title": "Schwerpunkte im Geigenunterricht Kinder.",
+    "lead": "Die Gewichtung verändert sich je nach Person. Damit der Unterricht greifbar bleibt, arbeiten wir mit klaren Bausteinen.",
+    "items": [
+      {
+        "time": "Körper",
+        "kicker": "Haltung",
+        "title": "Entspannt spielen statt gegen das Instrument arbeiten",
+        "text": "Eine gute Haltung macht den Klang freier und verhindert, dass Üben unnötig anstrengend wird."
+      },
+      {
+        "time": "Bogen",
+        "kicker": "Ton",
+        "title": "Klang bewusst formen",
+        "text": "Bogenkontakt, Geschwindigkeit und Gewicht werden so erklärt, dass du den Unterschied hören und wiederholen kannst."
+      },
+      {
+        "time": "Musik",
+        "kicker": "Stücke",
+        "title": "Übungen in echte Musik übertragen",
+        "text": "Jede Technik bekommt eine musikalische Anwendung, damit Fortschritt nicht nur im Übeheft stattfindet."
+      },
+      {
+        "time": "Alltag",
+        "kicker": "Üben",
+        "title": "Kleine Aufgaben mit klarer Wirkung",
+        "text": "Zu Hause geht es um wenige Prioritäten, die du verstehst und regelmäßig umsetzen kannst."
+      }
+    ],
+    "footnote": "Geigenunterricht Kinder wird nach Lernziel, Alter, Alltag und Vorerfahrung geplant."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
+  }
+}

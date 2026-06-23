@@ -880,7 +880,14 @@ const GENERATED_TOPIC_SEEDS: TopicSeed[] = [
 	{ serviceSlug: 'konzerte', slug: 'musik-kulturabend', label: 'Musik Kulturabend', keyword: 'Musik Kulturabend', kind: 'concert-format', priority: 'P3', angle: 'für Programme mit Gespräch, Text oder Kunst' },
 	{ serviceSlug: 'konzerte', slug: 'musik-salonkonzert', label: 'Musik Salonkonzert', keyword: 'Musik Salonkonzert', kind: 'concert-format', priority: 'P3', angle: 'für intime Räume und kuratierte Viola-Programme' },
 
-	// Unterricht: Bratsche/Viola, passend zur bestehenden Leistungsseite.
+	// Unterricht: Geige zuerst, Bratsche/Viola weiterhin als eigene Fachcluster.
+	{ serviceSlug: 'unterricht', slug: 'geigenunterricht', label: 'Geigenunterricht', keyword: 'Geigenunterricht', kind: 'lesson-format', priority: 'P1', volume: 900, angle: 'für Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene auf der Geige' },
+	{ serviceSlug: 'unterricht', slug: 'geige-lernen', label: 'Geige lernen', keyword: 'Geige lernen', kind: 'lesson-format', priority: 'P1', volume: 700, angle: 'für einen ruhigen Einstieg in Haltung, Bogen und Klang' },
+	{ serviceSlug: 'unterricht', slug: 'geige-unterricht', label: 'Geige Unterricht', keyword: 'Geige Unterricht', kind: 'lesson-format', priority: 'P2', volume: 350, angle: 'für Technik, Klang und musikalisches Verständnis' },
+	{ serviceSlug: 'unterricht', slug: 'geigenunterricht-erwachsene', label: 'Geigenunterricht Erwachsene', keyword: 'Geigenunterricht für Erwachsene', kind: 'lesson-format', priority: 'P2', volume: 250, angle: 'für Erwachsene, die neu anfangen oder wieder einsteigen' },
+	{ serviceSlug: 'unterricht', slug: 'geigenunterricht-kinder', label: 'Geigenunterricht Kinder', keyword: 'Geigenunterricht für Kinder', kind: 'lesson-format', priority: 'P2', volume: 200, angle: 'für geduldigen Aufbau und kindgerechte Schritte' },
+	{ serviceSlug: 'unterricht', slug: 'geigenunterricht-anfaenger', label: 'Geigenunterricht Anfänger', keyword: 'Geigenunterricht Anfänger', kind: 'lesson-format', priority: 'P2', volume: 180, angle: 'für Grundlagen ohne Druck' },
+	{ serviceSlug: 'unterricht', slug: 'musikunterricht-geige', label: 'Musikunterricht Geige', keyword: 'Musikunterricht Geige', kind: 'lesson-format', priority: 'P3', volume: 120, angle: 'für Unterricht mit Instrument, Theorie und musikalischer Praxis' },
 	{ serviceSlug: 'unterricht', slug: 'bratschenunterricht', label: 'Bratschenunterricht', keyword: 'Bratschenunterricht', kind: 'lesson-format', priority: 'P2', volume: 30, angle: 'für Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene' },
 	{ serviceSlug: 'unterricht', slug: 'bratsche-lernen', label: 'Bratsche lernen', keyword: 'Bratsche lernen', kind: 'lesson-format', priority: 'P3', volume: 40, angle: 'für einen ruhigen Einstieg in Haltung, Bogen und Klang' },
 	{ serviceSlug: 'unterricht', slug: 'viola-lernen', label: 'Viola lernen', keyword: 'Viola lernen', kind: 'lesson-format', priority: 'P3', angle: 'für alle, die den warmen Klang der Viola entdecken möchten' },
@@ -927,11 +934,19 @@ function createGeneratedTopicPage(seed: TopicSeed): TopicSeoPage {
 		heroLead: `${service.heroLead} Diese Seite bündelt den Suchintent "${seed.keyword}" ${angle}.`,
 		badge: service.badge,
 		splitTitle: kind.splitTitle,
-		splitLede: `${kind.splitLede} Für ${seed.label.toLowerCase()} zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.`,
+		splitLede: seed.kind === 'lesson-format'
+			? `${kind.splitLede} Für ${seed.label.toLowerCase()} zählt vor allem, dass Technik, Klang und Üben zum Menschen passen.`
+			: `${kind.splitLede} Für ${seed.label.toLowerCase()} zählt vor allem, dass Musik nicht allgemein wirkt, sondern zum konkreten Moment passt.`,
 		paragraphs: [
-			`${seed.label} wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für ${service.context}.`,
-			`Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was ${service.audience} für diesen Moment brauchen.`,
-			`Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist.`,
+			seed.kind === 'lesson-format'
+				? `${seed.label} wird auf Erfahrung, Ziele, Alter und Alltag abgestimmt. So entsteht kein starres Programm, sondern ein klarer Lernweg für ${service.context}.`
+				: `${seed.label} wird auf Anlass, Raum, Ablauf und gewünschte Stimmung abgestimmt. So entsteht kein austauschbarer Musikblock, sondern ein klarer musikalischer Rahmen für ${service.context}.`,
+			seed.kind === 'lesson-format'
+				? 'Im Unterricht geht es um ein tragfähiges Fundament auf Geige oder Bratsche: Haltung, Bogenführung, Intonation, Klang und eine Übestruktur, die in den Alltag passt.'
+				: `Die Viola bringt Wärme, Ruhe und Präsenz mit. Sie kann klassisch, modern, dezent oder sehr persönlich klingen - je nachdem, was ${service.audience} für diesen Moment brauchen.`,
+			seed.kind === 'lesson-format'
+				? 'Wunschstücke, Unterrichtsrhythmus und Übeziele werden gemeinsam besprochen, damit der Unterricht motivierend bleibt und Fortschritt hörbar wird.'
+				: `Wunschstücke, Einsatzzeiten und Übergänge werden vorab besprochen, damit die Musik am Tag selbst sicher eingebunden ist.`,
 		],
 		focusEyebrow: kind.focusEyebrow,
 		focusTitle: `${seed.label}: worauf es ankommt.`,
@@ -1005,10 +1020,10 @@ function generatedServiceCopy(serviceSlug: LocalServiceSlug) {
 			};
 		case 'unterricht':
 			return {
-				seoTitleSuffix: 'Bratschen- und Violaunterricht',
-				seoDescription: 'Bratschenunterricht und Violaunterricht für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene',
+				seoTitleSuffix: 'Geigen- und Bratschenunterricht',
+				seoDescription: 'Geigenunterricht, Bratschenunterricht und Violaunterricht für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene',
 				eyebrow: 'Unterricht',
-				heroLead: 'Bratschen- und Violaunterricht mit Ruhe, Struktur und musikalischer Neugier.',
+				heroLead: 'Geigen- und Bratschenunterricht mit Ruhe, Struktur und musikalischer Neugier.',
 				badge: 'Kostenlose Probestunde',
 				context: 'den Unterricht',
 				audience: 'Schüler:innen',
@@ -1024,7 +1039,7 @@ function generatedMetaDescription(seed: TopicSeed): string {
 		geburtstage: 'Live-Viola für Geburtstag und private Feier. Dezent, persönlich und passend zu Empfang, Dinner oder Überraschung.',
 		taufen: 'Sanfte Live-Viola für Taufe, Segnung und Familienfeier. Mit Kirche und Ablauf passend abgestimmt.',
 		konzerte: 'Kuratierte Viola-Musik für Konzert, Vernissage, Lesung oder Kulturabend. Programm passend zum Anlass.',
-		unterricht: 'Bratschen- und Violaunterricht mit ruhigem Aufbau, Probestunde und persönlichem Lernplan.',
+		unterricht: 'Geigen- und Bratschenunterricht mit ruhigem Aufbau, Probestunde und persönlichem Lernplan.',
 	};
 
 	return `${seed.keyword}: ${descriptions[seed.serviceSlug]}`;
@@ -1100,7 +1115,7 @@ function generatedKindCopy(kind: TopicTemplateKind) {
 				defaultAngle: 'für individuellen Unterricht mit klarer Struktur',
 				focusEyebrow: 'Lernen',
 				splitTitle: 'Guter Unterricht macht Klang verständlich.',
-				splitLede: 'Bratsche und Viola brauchen Geduld, Körpergefühl und einen Aufbau, der zum Menschen passt.',
+				splitLede: 'Geige, Bratsche und Viola brauchen Geduld, Körpergefühl und einen Aufbau, der zum Menschen passt.',
 			};
 	}
 }

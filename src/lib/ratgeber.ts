@@ -394,21 +394,21 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 	},
 	{
 		slug: 'bratschenunterricht-erwachsene',
-		title: 'Bratschenunterricht für Erwachsene',
-		shortTitle: 'Bratsche lernen',
-		seoTitle: 'Bratschenunterricht für Erwachsene | Bratsche lernen',
+		title: 'Geigen- und Bratschenunterricht für Erwachsene',
+		shortTitle: 'Geige oder Bratsche lernen',
+		seoTitle: 'Geigenunterricht für Erwachsene | Geige & Bratsche lernen',
 		seoDescription:
-			'Bratsche lernen als Erwachsene:r: Einstieg, Üben, Instrument, Unterrichtsrhythmus und realistische Ziele im Bratschenunterricht.',
-		intent: 'Erwachsene überlegen, ob sie Bratsche lernen können und wie der Einstieg realistisch gelingt.',
+			'Geige oder Bratsche lernen als Erwachsene:r: Einstieg, Üben, Instrument, Unterrichtsrhythmus und realistische Ziele im Unterricht.',
+		intent: 'Erwachsene überlegen, ob sie Geige oder Bratsche lernen können und wie der Einstieg realistisch gelingt.',
 		cluster: 'Unterricht',
 		serviceSlug: 'unterricht',
 		heroImage: '/uploads/mq0uz91n-violin-6635935_1280.webp',
 		heroImageAlt: 'Nahaufnahme eines Streichinstruments',
 		kicker: 'Unterricht',
 		lead:
-			'Bratsche lernen ist auch als Erwachsene:r möglich. Wichtig sind ein ruhiger Einstieg, ein passendes Instrument und Ziele, die zum Alltag passen.',
+			'Geige oder Bratsche lernen ist auch als Erwachsene:r möglich. Wichtig sind ein ruhiger Einstieg, ein passendes Instrument und Ziele, die zum Alltag passen.',
 		summary:
-			'Für Erwachsene, die mit Bratsche oder Viola beginnen, wieder einsteigen oder vom Geigenunterricht wechseln möchten.',
+			'Für Erwachsene, die mit Geige, Bratsche oder Viola beginnen, wieder einsteigen oder zwischen den Instrumenten wechseln möchten.',
 		keyPoints: [
 			'Der Anfang braucht Geduld mit Haltung, Bogen und Klang.',
 			'Kurze regelmäßige Übezeiten sind wirksamer als seltene lange Einheiten.',
@@ -416,16 +416,16 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 		],
 		sections: [
 			{
-				title: 'Ist Bratsche als Erwachsener realistisch?',
+				title: 'Ist Geige oder Bratsche als Erwachsener realistisch?',
 				body: [
-					'Ja, wenn der Einstieg sinnvoll aufgebaut wird. Erwachsene bringen oft ein gutes Verständnis für Musik, Motivation und klare Ziele mit. Gleichzeitig braucht das Instrument Geduld, weil Klang, Intonation und Haltung Zeit brauchen.',
+					'Ja, wenn der Einstieg sinnvoll aufgebaut wird. Erwachsene bringen oft ein gutes Verständnis für Musik, Motivation und klare Ziele mit. Gleichzeitig brauchen Geige und Bratsche Geduld, weil Klang, Intonation und Haltung Zeit brauchen.',
 					'Der Unterricht sollte nicht wie ein starres Kinderprogramm funktionieren. Sinnvoller ist ein Aufbau, der Körpergefühl, Hörtraining und musikalische Interessen verbindet.',
 				],
 			},
 			{
 				title: 'Was braucht man für den Start?',
 				body: [
-					'Zu Beginn müssen Instrumentengröße, Bogen, Schulterstütze und Haltung passen. Gerade bei Bratsche ist die körperliche Balance wichtig, weil das Instrument größer ist als eine Geige.',
+					'Zu Beginn müssen Instrumentengröße, Bogen, Schulterstütze und Haltung passen. Bei der Geige geht es oft um einen leichten, freien Start; bei der Bratsche zusätzlich um körperliche Balance, weil das Instrument größer ist.',
 					'Für den ersten Schritt ist eine Probestunde hilfreich. Dabei lässt sich klären, ob ein Leihinstrument sinnvoll ist, welche Vorerfahrung vorhanden ist und welcher Unterrichtsrhythmus realistisch passt.',
 				],
 			},
@@ -438,15 +438,15 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 			},
 		],
 		internalLinks: [
-			{ label: 'Bratschenunterricht', href: '/unterricht/' },
+			{ label: 'Geigen- und Bratschenunterricht', href: '/unterricht/' },
+			{ label: 'Geigenunterricht Erwachsene', href: '/unterricht/geigenunterricht-erwachsene/' },
+			{ label: 'Geige lernen', href: '/unterricht/geige-lernen/' },
 			{ label: 'Bratschenunterricht Erwachsene', href: '/unterricht/bratschenunterricht-erwachsene/' },
-			{ label: 'Bratsche lernen', href: '/unterricht/bratsche-lernen/' },
-			{ label: 'Viola Unterricht', href: '/unterricht/viola-unterricht/' },
 		],
 		nextStep: { label: 'Probestunde anfragen', href: '/anfragen/' },
 		faqs: [
 			{
-				question: 'Kann man als Erwachsene:r noch Bratsche lernen?',
+				question: 'Kann man als Erwachsene:r noch Geige oder Bratsche lernen?',
 				answer:
 					'Ja. Der Einstieg braucht Geduld und einen passenden Aufbau, ist aber auch ohne Kindheitsunterricht möglich.',
 			},
@@ -499,7 +499,7 @@ export function ratgeberOverviewJsonLd(site: URL): object {
 				'@id': `${url}#collection`,
 				name: 'Ratgeber Musikplanung',
 				description:
-					'Ruhige Wissensseiten zur musikalischen Planung von Hochzeit, Trauerfeier und Bratschenunterricht.',
+					'Ruhige Wissensseiten zur musikalischen Planung von Hochzeit, Trauerfeier und Geigen- oder Bratschenunterricht.',
 				url,
 				inLanguage: 'de',
 				mainEntity: {

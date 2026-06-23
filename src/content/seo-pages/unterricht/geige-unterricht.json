@@ -1,0 +1,188 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "unterricht",
+  "pageSlug": "geige-unterricht",
+  "route": "/unterricht/geige-unterricht/",
+  "targetKeyword": "Geige Unterricht",
+  "intentCluster": "unterricht:geige-unterricht",
+  "priority": "P2",
+  "status": "geige-expansion-2026-06-23-review-needed",
+  "enabled": true,
+  "seoTitle": "Geige Unterricht | Geigenunterricht strukturiert",
+  "seoDescription": "Geige Unterricht: Unterricht für Geige, Bratsche oder Viola mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
+  "hero": {
+    "eyebrow": "Geige Unterricht",
+    "title": "Geige Unterricht: ruhig aufgebaut, persönlich begleitet.",
+    "lead": "Geige Unterricht mit klarem Fundament: Haltung, Bogenführung, Intonation, Übestruktur und Stücke, die wirklich motivieren.",
+    "badge": "Probestunde kostenlos & unverbindlich"
+  },
+  "split": {
+    "seal": "Unterrichtsform\nKlang & Technik\npersönlich",
+    "sections": [
+      {
+        "title": "Geige Unterricht heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
+        "lede": "Geige Unterricht wird hier praktisch eingeordnet: Welche Rolle soll der Unterricht übernehmen, wie viel Raum braucht das Lernziel, und welche Vorbereitung macht den Einstieg leichter?",
+        "paragraphs": [
+          "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
+          "Jede Stunde hat einen Schwerpunkt, eine musikalische Anwendung und eine kleine Aufgabe für die nächste Woche.",
+          "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
+          "Stücke werden so gewählt, dass sie Technik, Klang und Motivation gleichzeitig bedienen.",
+          "Geige Unterricht funktioniert am besten, wenn Korrekturen direkt verständlich sind und zu Hause erinnerbar bleiben."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Geige Unterricht mit Viola und Bratsche 2"
+        },
+        "imageFirst": false,
+        "eyebrow": "Unterricht mit klarem Fokus"
+      },
+      {
+        "title": "Geige Unterricht im Ablauf sinnvoll einsetzen.",
+        "lede": "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
+        "paragraphs": [
+          "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
+          "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
+          "Bei Geige Unterricht steht klarer Ton, saubere Intonation, freier Bogen und musikalische Sicherheit im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Viola Unterricht.",
+          "Lernseiten dürfen nicht alle gleich klingen: Bratsche, Unterricht hat andere Fragen als Kinderunterricht, Erwachseneneinstieg, Fortgeschrittene oder reine Probestunde."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+          "alt": "Geige Unterricht mit Viola und Bratsche 1"
+        },
+        "imageFirst": true
+      },
+      {
+        "title": "Stückauswahl, Raum und Timing klären.",
+        "lede": "Der Kern von Geige Unterricht ist klarer Ton, saubere Intonation, freier Bogen und musikalische Sicherheit. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
+        "paragraphs": [
+          "Für die Planung sind Tonbildung, Resonanz, ruhige Artikulation, tragende Melodielinie die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll.",
+          "Die klare Abgrenzung zu Viola Unterricht lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+          "Lernbeziehung, Technik, Klang, Tempo, Vertrauen verändert den Ton der Seite deutlich. Ein Wunschstück, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+          "Bei der Abstimmung schaue ich besonders auf Probestunde, Wochenrhythmus, Übeplan, Ziele. Das verhindert, dass Geige Unterricht nur wie eine Variante der Hauptleistung klingt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Geige Unterricht mit Viola und Bratsche 2"
+        },
+        "imageFirst": false
+      },
+      {
+        "title": "Was für die Anfrage wichtig ist.",
+        "lede": "Auch Lernbeziehung, Technik, Klang, Tempo, Vertrauen ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+        "paragraphs": [
+          "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Redaktionell bleibt diese Seite eng bei Bratsche, Unterricht. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+          "Die klare Abgrenzung zu Geige lernen lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+          "alt": "Geige Unterricht mit Viola und Bratsche 1"
+        },
+        "imageFirst": true
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "FAQ zu Geige Unterricht",
+    "items": [
+      {
+        "question": "Für wen passt Geige Unterricht?",
+        "answer": "Geige Unterricht passt für Suchende, die nach konkretem Geige Unterricht statt allgemeiner Musikschule suchen. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
+        "open": true
+      },
+      {
+        "question": "Gibt es eine kostenlose Probestunde?",
+        "answer": "Ja. In der Probestunde schauen wir gemeinsam auf Instrument, Vorerfahrung, Ziele und die Frage, welcher Unterrichtsrhythmus realistisch ist."
+      },
+      {
+        "question": "Muss ich schon Noten lesen können?",
+        "answer": "Nein. Notenlesen kann Teil des Unterrichts sein und wird direkt mit dem Spielen verbunden, damit Theorie nicht losgelöst vom Instrument bleibt."
+      },
+      {
+        "question": "Kann ich als Erwachsene:r noch anfangen?",
+        "answer": "Ja. Erwachsene lernen oft sehr bewusst. Wichtig ist ein Übeplan, der in den Alltag passt und nicht mit unrealistischen Erwartungen beginnt."
+      },
+      {
+        "question": "Ist Unterricht auch für Kinder möglich?",
+        "answer": "Ja, wenn Instrumentengröße, Konzentrationsspanne und Aufgaben gut gewählt sind. Bei Kindern beziehe ich die Eltern mit ein, ohne das Üben zu Hause zu kompliziert zu machen."
+      },
+      {
+        "question": "Welche Musik wird im Unterricht gespielt?",
+        "answer": "Das hängt von Lernstand und Ziel ab. Klassische Grundlagen, kleine Melodien, Etüden, Filmmusik oder persönliche Wünsche können sinnvoll kombiniert werden."
+      },
+      {
+        "question": "Wann passt Geige Unterricht besonders gut?",
+        "answer": "Geige Unterricht passt, wenn genau dieser Lernschwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+      },
+      {
+        "question": "Welche Angaben helfen für eine erste Einschätzung?",
+        "answer": "Für eine schnelle Einordnung helfen Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich klären, ob ein Unterrichtseinstieg, ein Technikfokus, ein Wiedereinstieg oder eine regelmäßige Begleitung passend ist."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+      "alt": "Geige Unterricht mit Viola und Bratsche 1"
+    },
+    {
+      "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+      "alt": "Geige Unterricht mit Viola und Bratsche 2"
+    }
+  ],
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell pruefen, staerker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit staerker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.",
+  "contact": {
+    "eyebrow": "Unterricht anfragen",
+    "title": "Geige Unterricht anfragen",
+    "lead": "Schreib mir kurz, ob du neu anfängst, wieder einsteigst oder für ein Kind suchst. Dann kann ich einschätzen, wie Geige Unterricht sinnvoll beginnen kann.",
+    "checklist": [
+      "Geige Unterricht",
+      "Lernstand",
+      "Probestunde"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Geige Unterricht zu dir?",
+    "formSuccess": "Danke - ich melde mich persönlich mit einer Idee für Geige Unterricht.",
+    "sourceLabel": "Geige Unterricht"
+  },
+  "focus": {
+    "eyebrow": "Lernbereiche",
+    "title": "Schwerpunkte im Geige Unterricht.",
+    "lead": "Die Gewichtung verändert sich je nach Person. Damit der Unterricht greifbar bleibt, arbeiten wir mit klaren Bausteinen.",
+    "items": [
+      {
+        "time": "Körper",
+        "kicker": "Haltung",
+        "title": "Entspannt spielen statt gegen das Instrument arbeiten",
+        "text": "Eine gute Haltung macht den Klang freier und verhindert, dass Üben unnötig anstrengend wird."
+      },
+      {
+        "time": "Bogen",
+        "kicker": "Ton",
+        "title": "Klang bewusst formen",
+        "text": "Bogenkontakt, Geschwindigkeit und Gewicht werden so erklärt, dass du den Unterschied hören und wiederholen kannst."
+      },
+      {
+        "time": "Musik",
+        "kicker": "Stücke",
+        "title": "Übungen in echte Musik übertragen",
+        "text": "Jede Technik bekommt eine musikalische Anwendung, damit Fortschritt nicht nur im Übeheft stattfindet."
+      },
+      {
+        "time": "Alltag",
+        "kicker": "Üben",
+        "title": "Kleine Aufgaben mit klarer Wirkung",
+        "text": "Zu Hause geht es um wenige Prioritäten, die du verstehst und regelmäßig umsetzen kannst."
+      }
+    ],
+    "footnote": "Geige Unterricht wird nach Lernziel, Alter, Alltag und Vorerfahrung geplant."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
+  }
+}

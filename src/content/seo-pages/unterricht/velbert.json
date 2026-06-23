@@ -3,25 +3,25 @@
   "serviceSlug": "unterricht",
   "pageSlug": "velbert",
   "route": "/unterricht/velbert/",
-  "targetKeyword": "Bratschenunterricht Velbert",
+  "targetKeyword": "Geigenunterricht Velbert",
   "intentCluster": "unterricht:local",
   "priority": "P3",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "status": "geige-expansion-2026-06-23-review-needed",
   "enabled": true,
-  "seoTitle": "Bratschenunterricht Velbert | Viola lernen",
-  "seoDescription": "Bratschenunterricht Velbert: Viola- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg in Velbert. Probestunde kostenlos.",
+  "seoTitle": "Geigenunterricht Velbert | Geige lernen",
+  "seoDescription": "Geigenunterricht Velbert: Geigen- und Bratschenunterricht für Kinder und Erwachsene in Velbert. Probestunde, Ziele und Unterrichtsrhythmus transparent klären.",
   "hero": {
-    "eyebrow": "Unterricht in Velbert",
-    "title": "Bratschenunterricht in Velbert, der ruhig aufbaut und in deinen Alltag passt.",
-    "lead": "Viola lernen in Velbert für Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene - mit Struktur, Geduld und klaren Übeaufgaben.",
+    "eyebrow": "Geigenunterricht in Velbert",
+    "title": "Geigenunterricht in Velbert: ruhig aufgebaut nach Ort und Lernziel.",
+    "lead": "Geige lernen in Velbert für Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene - mit Struktur, Geduld und klaren Übeaufgaben.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Velbert\nBratschenunterricht\nlokal geplant",
+    "seal": "Velbert\nGeigenunterricht\nlokal geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Bratschenunterricht in Velbert: worauf es vor Ort ankommt.",
+        "title": "Geigenunterricht in Velbert: worauf es vor Ort ankommt.",
         "lede": "Velbert steht hier für konkrete Orte und Wege zwischen Langenberg, Neviges, Niederberg und grünen Höhen nahe Essen und Wuppertal. Der Alltag in Velbert kann je nach Weg zwischen Langenberg, Neviges und Niederberg sehr unterschiedlich aussehen. Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: Lernstand, Unterrichtsort, Weg, Wochenrhythmus, Instrument und realistische Übezeit.",
         "paragraphs": [
           "Typische Rahmen sind regelmäßiger Einzelunterricht, Wiedereinstieg, Anfänger:innen-Aufbau, Technikphase oder Vorbereitung auf ein Ziel. Unterricht kann als regelmäßiger Rhythmus, Wiedereinstieg oder Technikphase funktionieren, wenn Weg und Alltag rund um Langenberg, Neviges und Niederberg realistisch bleiben. Entscheidend ist nicht nur der Ortsname, sondern ob Unterrichtsweg, Konzentration, Instrument und Übezeit im Alltag wirklich zusammenpassen.",
@@ -30,13 +30,13 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Bratschenunterricht und Viola lernen in Velbert - Bild 1"
+          "alt": "Geigenunterricht und Geige lernen in Velbert - Bild 1"
         },
         "imageFirst": false
       },
       {
         "eyebrow": "Unterrichtsrahmen",
-        "title": "So wird Bratschenunterricht in Velbert tragfähig.",
+        "title": "So wird Geigenunterricht in Velbert tragfähig.",
         "lede": "Ein guter Unterrichtsrahmen entsteht aus wenigen klaren Entscheidungen: Was ist das Ziel, wie viel Übezeit ist realistisch und wie bleibt der nächste Schritt verständlich?",
         "paragraphs": [
           "Mögliche Schritte sind Lernstand klären, Probestunde, Übeplan und regelmäßiger Rhythmus. Daraus entsteht kein starres Programm, sondern ein Unterrichtsplan, der zu Lernstand, Alltag und Motivation passt.",
@@ -45,7 +45,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-          "alt": "Bratschenunterricht und Viola lernen in Velbert - Bild 2"
+          "alt": "Geigenunterricht und Geige lernen in Velbert - Bild 2"
         },
         "imageFirst": true
       },
@@ -60,21 +60,21 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Bratschenunterricht und Viola lernen in Velbert - Bild 3"
+          "alt": "Geigenunterricht und Geige lernen in Velbert - Bild 3"
         },
         "imageFirst": false
       },
       {
         "eyebrow": "Beispiel",
         "title": "Ein realistischer Ablauf in Velbert rund um Langenberg und Neviges.",
-        "lede": "Bratschenunterricht in Velbert rund um Langenberg und Neviges kann mit einer Probestunde beginnen, danach einen Wochenrhythmus bekommen und mit klaren Übeaufgaben wachsen.",
+        "lede": "Geigenunterricht in Velbert rund um Langenberg und Neviges kann mit einer Probestunde beginnen, danach einen Wochenrhythmus bekommen und mit klaren Übeaufgaben wachsen.",
         "paragraphs": [
           "Wenn Alltag, Fahrweg und Übezeit rund um Langenberg knapp sind, ist ein realistischer Plan wichtiger als ein großes Versprechen: lieber wenige klare Aufgaben, die wirklich wiederholt werden.",
           "Wenn Unterrichtsweg und Alltag rund um Langenberg anders aussehen als Richtung Neviges, plane ich lieber zuerst eine einzelne Probestunde statt sofort einen festen Rhythmus. Für die Buchung klären wir nach der kostenlosen Probestunde, ob Ziel, Weg, Rhythmus und Preisrahmen wirklich passen. So bleibt die Seite für Velbert praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
         ],
         "image": {
           "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-          "alt": "Bratschenunterricht und Viola lernen in Velbert - Bild 4"
+          "alt": "Geigenunterricht und Geige lernen in Velbert - Bild 4"
         },
         "imageFirst": true
       }
@@ -82,11 +82,11 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Bratschenunterricht in Velbert",
+    "title": "FAQ zu Geigenunterricht in Velbert",
     "items": [
       {
-        "question": "Bietest du Bratschenunterricht in Velbert an?",
-        "answer": "Ja. Ich biete Viola- und Bratschenunterricht in Velbert beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
+        "question": "Bietest du Geigenunterricht in Velbert an?",
+        "answer": "Ja. Ich biete Geigen- und Bratschenunterricht in Velbert beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
         "open": true
       },
       {
@@ -122,25 +122,25 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Bratschenunterricht und Viola lernen in Velbert - Bild 1"
+      "alt": "Geigenunterricht und Geige lernen in Velbert - Bild 1"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-      "alt": "Bratschenunterricht und Viola lernen in Velbert - Bild 2"
+      "alt": "Geigenunterricht und Geige lernen in Velbert - Bild 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Bratschenunterricht und Viola lernen in Velbert - Bild 3"
+      "alt": "Geigenunterricht und Geige lernen in Velbert - Bild 3"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-      "alt": "Bratschenunterricht und Viola lernen in Velbert - Bild 4"
+      "alt": "Geigenunterricht und Geige lernen in Velbert - Bild 4"
     }
   ],
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
-    "title": "Bratschenunterricht in Velbert anfragen",
+    "title": "Geigenunterricht in Velbert anfragen",
     "lead": "Schreib mir kurz Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Übezeit und Frage zur Probestunde. Hilfreich ist auch, ob der Ort eher bei Langenberg und Neviges oder eher außerhalb liegt. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
     "checklist": [
       "Velbert",
@@ -149,7 +149,7 @@
       "Weg & Rhythmus"
     ],
     "defaultOccasion": "Unterricht",
-    "sourceLabel": "Bratschenunterricht Velbert",
+    "sourceLabel": "Geigenunterricht Velbert",
     "notes": [
       "Probestunde kostenlos und unverbindlich",
       "Regelmäßiger Unterricht erst nach Ziel-, Weg- und Rhythmus-Check in Velbert",
@@ -162,7 +162,7 @@
   },
   "focus": {
     "eyebrow": "Planung in Velbert",
-    "title": "Vier Punkte, die Bratschenunterricht in Velbert konkret machen.",
+    "title": "Vier Punkte, die Geigenunterricht in Velbert konkret machen.",
     "lead": "Diese Punkte helfen, aus einer ersten Unterrichtsidee einen realistischen Rhythmus und einen transparenten Preisrahmen zu machen.",
     "items": [
       {

@@ -3,25 +3,25 @@
   "serviceSlug": "unterricht",
   "pageSlug": "duesseldorf",
   "route": "/unterricht/duesseldorf/",
-  "targetKeyword": "Bratschenunterricht Düsseldorf",
+  "targetKeyword": "Geigenunterricht Düsseldorf",
   "intentCluster": "unterricht:local",
   "priority": "P1",
-  "status": "manual-priority-local-seo-2026-06-22",
+  "status": "geige-expansion-2026-06-23-review-needed",
   "enabled": true,
-  "seoTitle": "Bratschenunterricht Düsseldorf | Viola lernen",
-  "seoDescription": "Bratschenunterricht Düsseldorf: Viola- und Bratschenunterricht für Kinder und Erwachsene in Düsseldorf. Ablauf, Wunschmusik und Preis transparent klären.",
+  "seoTitle": "Geigenunterricht Düsseldorf | Geige lernen",
+  "seoDescription": "Geigenunterricht Düsseldorf: Geigen- und Bratschenunterricht für Kinder und Erwachsene in Düsseldorf. Probestunde, Ziele und Unterrichtsrhythmus transparent klären.",
   "hero": {
-    "eyebrow": "Bratschenunterricht in Düsseldorf",
-    "title": "Bratschenunterricht in Düsseldorf: konkret geplant nach Ort und Ablauf.",
-    "lead": "Viola- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg in Düsseldorf. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, ob Unterrichtsort, Weg, Instrument und Wochenrhythmus wirklich passen.",
+    "eyebrow": "Geigenunterricht in Düsseldorf",
+    "title": "Geigenunterricht in Düsseldorf: ruhig aufgebaut nach Ort und Lernziel.",
+    "lead": "Geigen- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg in Düsseldorf. Geplant wird nach Ort, Lernziel, Instrument, Übezeit, Anfahrt und der Frage, ob Unterrichtsort, Weg, Instrument und Wochenrhythmus wirklich passen.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Düsseldorf\nBratschenunterricht\nkonkret geplant",
+    "seal": "Düsseldorf\nGeigenunterricht\nkonkret geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Bratschenunterricht in Düsseldorf: was vor Ort wirklich zählt.",
+        "title": "Geigenunterricht in Düsseldorf: was vor Ort wirklich zählt.",
         "lede": "Für regelmäßigen Unterricht ist der Stadtteil wichtiger als der bloße Stadtname: ein Weg durch die Innenstadt fühlt sich anders an als ein Termin im Norden, Süden oder linksrheinisch. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
         "paragraphs": [
           "Typische Situationen in Düsseldorf können Innenstadt, Altstadt, Rheinseite, Oberkassel, Benrath oder ein Hotel- und Restaurantumfeld sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
@@ -29,7 +29,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Bratschenunterricht in Düsseldorf - lokaler Planungsrahmen"
+          "alt": "Geigenunterricht in Düsseldorf - lokaler Planungsrahmen"
         },
         "imageFirst": false
       },
@@ -44,22 +44,22 @@
         ],
         "image": {
           "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-          "alt": "Bratschenunterricht in Düsseldorf - Ablauf und Einsaetze"
+          "alt": "Geigenunterricht in Düsseldorf - Ablauf und Einsaetze"
         },
         "imageFirst": true
       },
       {
         "eyebrow": "Unterricht: passend oder nicht?",
-        "title": "Wann Bratschenunterricht in Düsseldorf die richtige Wahl ist.",
-        "lede": "Bratschenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "title": "Wann Geigenunterricht in Düsseldorf die richtige Wahl ist.",
+        "lede": "Geigenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
         "paragraphs": [
-          "Nicht ideal ist Bratschenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann ist es ehrlicher, zuerst Ziel, Format, Material oder einen spaeteren Start zu klären.",
+          "Nicht ideal ist Geigenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann ist es ehrlicher, zuerst Ziel, Format, Material oder einen spaeteren Start zu klären.",
           "Wenn ein Unterrichtsort vorgeschlagen wird, pruefe ich lieber früh, ob Raum, Lautstärke, Notenstaender, Sitzmoeglichkeit und Wiederholbarkeit des Weges passen.",
           "Wenn Unterrichtsort, Weg oder Rhythmus unsicher sind, pruefe ich lieber früh, ob eine Probestunde oder ein anderer Rahmen sinnvoller ist."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Bratschenunterricht in Düsseldorf - passend planen"
+          "alt": "Geigenunterricht in Düsseldorf - passend planen"
         },
         "imageFirst": false
       },
@@ -74,7 +74,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-          "alt": "Bratschenunterricht in Düsseldorf - Anfrage und Preisrahmen"
+          "alt": "Geigenunterricht in Düsseldorf - Anfrage und Preisrahmen"
         },
         "imageFirst": true
       }
@@ -82,11 +82,11 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Bratschenunterricht Düsseldorf",
+    "title": "FAQ zu Geigenunterricht Düsseldorf",
     "items": [
       {
-        "question": "Bietest du Bratschenunterricht in Düsseldorf?",
-        "answer": "Ja. Ich biete Viola- und Bratschenunterricht in Düsseldorf beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
+        "question": "Bietest du Geigenunterricht in Düsseldorf?",
+        "answer": "Ja. Ich biete Geigen- und Bratschenunterricht in Düsseldorf beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
         "open": true
       },
       {
@@ -102,12 +102,12 @@
         "answer": "Ja, wenn sie zum Lernstand, Instrument und Unterrichtsziel passen. Vorhandenes Unterrichtsmaterial ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
       },
       {
-        "question": "Wann passt Bratschenunterricht besonders gut?",
-        "answer": "Bratschenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Unterricht wirkt am besten, wenn Weg, Ziel, Übezeit und Regelmäßigkeit realistisch sind."
+        "question": "Wann passt Geigenunterricht besonders gut?",
+        "answer": "Geigenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Unterricht wirkt am besten, wenn Weg, Ziel, Übezeit und Regelmäßigkeit realistisch sind."
       },
       {
-        "question": "Wann ist Bratschenunterricht nicht die richtige Loesung?",
-        "answer": "Nicht ideal ist Bratschenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "question": "Wann ist Geigenunterricht nicht die richtige Loesung?",
+        "answer": "Nicht ideal ist Geigenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
       },
       {
         "question": "Was ist in Düsseldorf organisatorisch wichtig?",
@@ -122,25 +122,25 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Bratschenunterricht in Düsseldorf - Planungsbild 1"
+      "alt": "Geigenunterricht in Düsseldorf - Planungsbild 1"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-      "alt": "Bratschenunterricht in Düsseldorf - Planungsbild 2"
+      "alt": "Geigenunterricht in Düsseldorf - Planungsbild 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Bratschenunterricht in Düsseldorf - Planungsbild 3"
+      "alt": "Geigenunterricht in Düsseldorf - Planungsbild 3"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-      "alt": "Bratschenunterricht in Düsseldorf - Planungsbild 4"
+      "alt": "Geigenunterricht in Düsseldorf - Planungsbild 4"
     }
   ],
   "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
-    "title": "Bratschenunterricht in Düsseldorf anfragen",
+    "title": "Geigenunterricht in Düsseldorf anfragen",
     "lead": "Schreib mir kurz Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Danach klären wir, ob eine kostenlose Probestunde in Düsseldorf, ein regelmäßiger Rhythmus oder zuerst eine Orientierung sinnvoll ist.",
     "checklist": [
       "Düsseldorf",
@@ -150,7 +150,7 @@
       "Preis nach Rahmen"
     ],
     "defaultOccasion": "Unterricht",
-    "sourceLabel": "Bratschenunterricht Düsseldorf",
+    "sourceLabel": "Geigenunterricht Düsseldorf",
     "notes": [
       "Probestunde kostenlos und unverbindlich",
       "Kein kostenloses Vorspielen vor Ort",
@@ -163,7 +163,7 @@
   },
   "focus": {
     "eyebrow": "Planung in Düsseldorf",
-    "title": "Vier Entscheidungen, die Bratschenunterricht in Düsseldorf konkret machen.",
+    "title": "Vier Entscheidungen, die Geigenunterricht in Düsseldorf konkret machen.",
     "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
     "items": [
       {
@@ -191,7 +191,7 @@
         "text": "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Bratschenunterricht in Düsseldorf wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Geigenunterricht in Düsseldorf wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
   },
   "elegy": {
     "passages": []

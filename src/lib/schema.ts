@@ -60,9 +60,9 @@ export const CORE_SERVICE_SCHEMA: Record<CoreServiceSlug, {
 		description: 'Dezente Live-Viola für Empfang, Dinner, Jubiläum, Messe und repräsentative Business-Anlässe.',
 	},
 	unterricht: {
-		name: 'Bratschen- und Musikunterricht',
-		serviceType: 'Bratschenunterricht und Violaunterricht',
-		description: 'Individueller Bratschen- und Violaunterricht für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene.',
+		name: 'Geigen- und Bratschenunterricht',
+		serviceType: 'Geigenunterricht, Bratschenunterricht und Violaunterricht',
+		description: 'Individueller Geigen-, Bratschen- und Violaunterricht für Kinder, Erwachsene, Anfänger:innen und Fortgeschrittene.',
 	},
 };
 
@@ -175,7 +175,7 @@ export function siteEntityJsonLd(site: URL, config?: CmsConfig | null): SchemaNo
 			} : undefined,
 			hasOfferCatalog: nodeRef(offerCatalogId(site)),
 			...(sameAs.length ? { sameAs } : {}),
-			knowsAbout: ['Viola', 'Bratsche', 'Hochzeitsmusik', 'Trauermusik', 'Kammermusik', 'Musikunterricht'],
+			knowsAbout: ['Viola', 'Bratsche', 'Geige', 'Geigenunterricht', 'Hochzeitsmusik', 'Trauermusik', 'Kammermusik', 'Musikunterricht'],
 			award: [
 				'Jugend musiziert Regionalwettbewerb 2023: 1. Preis',
 				'Jugend musiziert Landeswettbewerb 2023: 1. Preis',

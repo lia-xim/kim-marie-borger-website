@@ -64,7 +64,7 @@ const formContexts: Record<ContextKey, FormContext> = {
 	},
 	unterricht: {
 		key: 'unterricht',
-		label: 'Bratschenunterricht / Viola-Unterricht',
+		label: 'Geigen- / Bratschenunterricht',
 		occasion: 'Unterricht',
 		intro: 'Für Unterrichtsanfragen helfen Alter, Vorerfahrung, Ziel und passende Zeiten.',
 		submitLabel: 'Unterricht anfragen',
@@ -73,7 +73,7 @@ const formContexts: Record<ContextKey, FormContext> = {
 		placeLabel: 'Ort / Unterrichtsform',
 		placePlaceholder: 'Wohnort, online, bei mir oder noch offen',
 		musicLabel: 'Ziel / Repertoire',
-		musicPlaceholder: 'Anfänger:in, Wiedereinstieg, Bratsche lernen, Vorspiel',
+		musicPlaceholder: 'Anfänger:in, Wiedereinstieg, Geige lernen, Bratsche lernen, Vorspiel',
 		musicHint: 'Auch hilfreich: Ist ein Instrument vorhanden oder wird Beratung dazu gebraucht?',
 		scopeLabel: 'Format',
 		scopePlaceholder: 'z. B. Einzelstunde, regelmäßig, Vorbereitung auf Vorspiel',
@@ -197,7 +197,13 @@ function getFormContext(defaultOccasion: string, sourceLabel: string, path: stri
 	const haystack = `${defaultOccasion} ${sourceLabel} ${path}`.toLowerCase();
 	if (haystack.includes('hochzeit')) return formContexts.hochzeit;
 	if (haystack.includes('trauer') || haystack.includes('beerdigung') || haystack.includes('abschied')) return formContexts.trauer;
-	if (haystack.includes('unterricht') || haystack.includes('bratsche-lernen') || haystack.includes('viola-lernen')) return formContexts.unterricht;
+	if (
+		haystack.includes('unterricht')
+		|| haystack.includes('geige-lernen')
+		|| haystack.includes('geigenunterricht')
+		|| haystack.includes('bratsche-lernen')
+		|| haystack.includes('viola-lernen')
+	) return formContexts.unterricht;
 	if (haystack.includes('firma') || haystack.includes('firmen') || haystack.includes('business') || haystack.includes('messe') || haystack.includes('gala')) return formContexts.firmenevent;
 	if (haystack.includes('geburtstag') || haystack.includes('private-feier')) return formContexts.geburtstag;
 	if (haystack.includes('taufe') || haystack.includes('segnung') || haystack.includes('kommunion') || haystack.includes('konfirmation')) return formContexts.taufe;

@@ -3,25 +3,25 @@
   "serviceSlug": "unterricht",
   "pageSlug": "bergisches-land",
   "route": "/unterricht/bergisches-land/",
-  "targetKeyword": "Bratschenunterricht Bergisches Land",
+  "targetKeyword": "Geigenunterricht Bergisches Land",
   "intentCluster": "unterricht:local",
   "priority": "P3",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "status": "geige-expansion-2026-06-23-review-needed",
   "enabled": true,
-  "seoTitle": "Bratschenunterricht Bergisches Land | Viola lernen",
-  "seoDescription": "Bratschenunterricht Bergisches Land: Viola- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg im Bergischen Land. Probestunde kostenlos.",
+  "seoTitle": "Geigenunterricht Bergisches Land | Geige lernen",
+  "seoDescription": "Geigenunterricht Bergisches Land: Geigen- und Bratschenunterricht für Kinder und Erwachsene im Bergischen Land. Probestunde, Ziele und Unterrichtsrhythmus transparent klären.",
   "hero": {
-    "eyebrow": "Unterricht im Bergischen Land",
-    "title": "Bratschenunterricht im Bergischen Land, der ruhig aufbaut und in deinen Alltag passt.",
-    "lead": "Viola lernen im Bergischen Land für Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene - mit Struktur, Geduld und klaren Übeaufgaben.",
+    "eyebrow": "Geigenunterricht im Bergischen Land",
+    "title": "Geigenunterricht im Bergischen Land: ruhig aufgebaut nach Ort und Lernziel.",
+    "lead": "Geige lernen im Bergischen Land für Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene - mit Struktur, Geduld und klaren Übeaufgaben.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Bergisches Land\nBratschenunterricht\nlokal geplant",
+    "seal": "Bergisches Land\nGeigenunterricht\nlokal geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Bratschenunterricht im Bergischen Land: worauf es vor Ort ankommt.",
+        "title": "Geigenunterricht im Bergischen Land: worauf es vor Ort ankommt.",
         "lede": "Bergisches Land ist eine größere Region zwischen Wuppertal, Solingen, Remscheid, Bergisch Gladbach und grünen Höhen. Der Alltag im Bergischen Land kann je nach Weg zwischen Wuppertal, Solingen und Remscheid sehr unterschiedlich aussehen. Deshalb wird diese Seite nicht als reine Ortsvariante geplant, sondern vom konkreten Rahmen her: Lernstand, Unterrichtsort, Weg, Wochenrhythmus, Instrument und realistische Übezeit.",
         "paragraphs": [
           "Typische Rahmen sind regelmäßiger Einzelunterricht, Wiedereinstieg, Anfänger:innen-Aufbau, Technikphase oder Vorbereitung auf ein Ziel. Für Schüler:innen rund um Wuppertal, Solingen und Remscheid ist nicht nur die Stunde wichtig, sondern ob Üben, Fahrweg und Motivation zwischen den Terminen zusammenpassen. Entscheidend ist nicht nur der Ortsname, sondern ob Unterrichtsweg, Konzentration, Instrument und Übezeit im Alltag wirklich zusammenpassen.",
@@ -30,13 +30,13 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Bratschenunterricht und Viola lernen im Bergischen Land - Bild 1"
+          "alt": "Geigenunterricht und Geige lernen im Bergischen Land - Bild 1"
         },
         "imageFirst": false
       },
       {
         "eyebrow": "Unterrichtsrahmen",
-        "title": "So wird Bratschenunterricht im Bergischen Land tragfähig.",
+        "title": "So wird Geigenunterricht im Bergischen Land tragfähig.",
         "lede": "Ein guter Unterrichtsrahmen entsteht aus wenigen klaren Entscheidungen: Was ist das Ziel, wie viel Übezeit ist realistisch und wie bleibt der nächste Schritt verständlich?",
         "paragraphs": [
           "Mögliche Schritte sind Lernstand klären, Probestunde, Übeplan und regelmäßiger Rhythmus. Daraus entsteht kein starres Programm, sondern ein Unterrichtsplan, der zu Lernstand, Alltag und Motivation passt.",
@@ -45,7 +45,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-          "alt": "Bratschenunterricht und Viola lernen im Bergischen Land - Bild 2"
+          "alt": "Geigenunterricht und Geige lernen im Bergischen Land - Bild 2"
         },
         "imageFirst": true
       },
@@ -60,21 +60,21 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Bratschenunterricht und Viola lernen im Bergischen Land - Bild 3"
+          "alt": "Geigenunterricht und Geige lernen im Bergischen Land - Bild 3"
         },
         "imageFirst": false
       },
       {
         "eyebrow": "Beispiel",
         "title": "Ein realistischer Ablauf im Bergischen Land zwischen Wuppertal, Solingen und Remscheid.",
-        "lede": "Bratschenunterricht im Bergischen Land zwischen Wuppertal, Solingen und Remscheid kann mit einer Probestunde beginnen, danach einen Wochenrhythmus bekommen und mit klaren Übeaufgaben wachsen.",
+        "lede": "Geigenunterricht im Bergischen Land zwischen Wuppertal, Solingen und Remscheid kann mit einer Probestunde beginnen, danach einen Wochenrhythmus bekommen und mit klaren Übeaufgaben wachsen.",
         "paragraphs": [
           "Wenn Alltag, Fahrweg und Übezeit rund um Wuppertal knapp sind, ist ein realistischer Plan wichtiger als ein großes Versprechen: lieber wenige klare Aufgaben, die wirklich wiederholt werden.",
           "Wenn Bergisches Land nur als grober Suchraum gemeint ist, klären wir zuerst den echten Treffpunkt; ohne diesen Punkt lässt sich Unterricht nicht seriös planen. Für die Buchung klären wir nach der kostenlosen Probestunde, ob Ziel, Weg, Rhythmus und Preisrahmen wirklich passen. So bleibt die Seite für Bergisches Land praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
         ],
         "image": {
           "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-          "alt": "Bratschenunterricht und Viola lernen im Bergischen Land - Bild 4"
+          "alt": "Geigenunterricht und Geige lernen im Bergischen Land - Bild 4"
         },
         "imageFirst": true
       }
@@ -82,11 +82,11 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Bratschenunterricht im Bergischen Land",
+    "title": "FAQ zu Geigenunterricht im Bergischen Land",
     "items": [
       {
-        "question": "Bietest du Bratschenunterricht im Bergischen Land an?",
-        "answer": "Ja. Ich biete Viola- und Bratschenunterricht im Bergischen Land beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
+        "question": "Bietest du Geigenunterricht im Bergischen Land an?",
+        "answer": "Ja. Ich biete Geigen- und Bratschenunterricht im Bergischen Land beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
         "open": true
       },
       {
@@ -122,25 +122,25 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Bratschenunterricht und Viola lernen im Bergischen Land - Bild 1"
+      "alt": "Geigenunterricht und Geige lernen im Bergischen Land - Bild 1"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-      "alt": "Bratschenunterricht und Viola lernen im Bergischen Land - Bild 2"
+      "alt": "Geigenunterricht und Geige lernen im Bergischen Land - Bild 2"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Bratschenunterricht und Viola lernen im Bergischen Land - Bild 3"
+      "alt": "Geigenunterricht und Geige lernen im Bergischen Land - Bild 3"
     },
     {
       "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
-      "alt": "Bratschenunterricht und Viola lernen im Bergischen Land - Bild 4"
+      "alt": "Geigenunterricht und Geige lernen im Bergischen Land - Bild 4"
     }
   ],
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
-    "title": "Bratschenunterricht im Bergischen Land anfragen",
+    "title": "Geigenunterricht im Bergischen Land anfragen",
     "lead": "Schreib mir kurz Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Übezeit und Frage zur Probestunde. Hilfreich ist auch, ob der Ort eher in Wuppertal, Solingen oder einem anderen Teil der Region liegt. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
     "checklist": [
       "Bergisches Land",
@@ -149,7 +149,7 @@
       "Weg & Rhythmus"
     ],
     "defaultOccasion": "Unterricht",
-    "sourceLabel": "Bratschenunterricht Bergisches Land",
+    "sourceLabel": "Geigenunterricht Bergisches Land",
     "notes": [
       "Probestunde kostenlos und unverbindlich",
       "Regelmäßiger Unterricht erst nach Ziel-, Weg- und Rhythmus-Check im Bergischen Land",
@@ -162,7 +162,7 @@
   },
   "focus": {
     "eyebrow": "Planung im Bergischen Land",
-    "title": "Vier Punkte, die Bratschenunterricht im Bergischen Land konkret machen.",
+    "title": "Vier Punkte, die Geigenunterricht im Bergischen Land konkret machen.",
     "lead": "Diese Punkte helfen, aus einer ersten Unterrichtsidee einen realistischen Rhythmus und einen transparenten Preisrahmen zu machen.",
     "items": [
       {
