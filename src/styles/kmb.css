@@ -504,9 +504,9 @@ em.ink{ font-style:italic; color:var(--bordeaux); }
 /* =================================================================
    REVEAL
    ================================================================= */
-.reveal{ opacity:0; transform:translateY(28px); transition:opacity 1s var(--ease), transform 1s var(--ease); }
+.reveal{ opacity:0; transform:translateY(14px); transition:opacity .45s var(--ease), transform .45s var(--ease); }
 .reveal.in{ opacity:1; transform:none; }
-.reveal.d1{ transition-delay:.08s; } .reveal.d2{ transition-delay:.16s; } .reveal.d3{ transition-delay:.24s; } .reveal.d4{ transition-delay:.32s; }
+.reveal.d1{ transition-delay:.04s; } .reveal.d2{ transition-delay:.08s; } .reveal.d3{ transition-delay:.12s; } .reveal.d4{ transition-delay:.16s; }
 @media (prefers-reduced-motion:reduce){
   .reveal{ opacity:1; transform:none; transition:none; }
   .hero-photo img{ animation:none!important; }
@@ -1314,11 +1314,11 @@ a,button,summary{ touch-action:manipulation; }
    hover zooms and per-image filters stay untouched. */
 @media (prefers-reduced-motion: no-preference){
   img.ir{ opacity:0; }
-  img.ir.ir-in{ opacity:1; animation:img-in .9s var(--ease) var(--ird, 0ms) backwards; }
+  img.ir.ir-in{ opacity:1; animation:img-in .45s var(--ease) var(--ird, 0ms) backwards; }
 }
 @keyframes img-in{
-  from{ opacity:0; clip-path:inset(9% 9% 9% 9%); }
-  to{ opacity:1; clip-path:inset(0 0 0 0); }
+  from{ opacity:0; transform:translateY(10px); }
+  to{ opacity:1; transform:translateY(0); }
 }
 
 /* eyebrow rule draws in when its section reveals */
@@ -1403,6 +1403,100 @@ a,button,summary{ touch-action:manipulation; }
 .ho{ opacity:1 !important; animation:none !important; }
 .hero-name .t{ transform:none !important; animation:none !important; letter-spacing:-.02em !important; }
 body{ animation:none !important; }
+
+@media (min-width: 901px), (prefers-reduced-motion: reduce){
+  html{
+    scroll-behavior:auto;
+  }
+  body::after{
+    display:none;
+  }
+  .nav{
+    transition:none;
+  }
+  .nav.scrolled,
+  .nav.solid{
+    background:rgba(244,238,226,.97);
+    -webkit-backdrop-filter:none;
+    backdrop-filter:none;
+    box-shadow:none;
+  }
+  .nav:not(.scrolled):not(.solid) .brand .name{
+    text-shadow:none;
+  }
+  .bowline{
+    display:none;
+  }
+  .reveal,
+  .reveal.in{
+    opacity:1;
+    transform:none;
+    transition:none;
+  }
+  .notation .melody{
+    stroke-dashoffset:0!important;
+    transition:none;
+  }
+  .notation .note{
+    opacity:1;
+    transition:none;
+  }
+  .hero-photo img,
+  [data-parallax]{
+    transform:none!important;
+    animation:none!important;
+  }
+  .float-soft,
+  .marquee-track{
+    animation:none!important;
+  }
+  .polaroid,
+  .ld-card,
+  .gal-card img,
+  .ig-tile img,
+  .video-frame img,
+  .solemn-arch .arch-in img{
+    will-change:auto;
+  }
+  .gal-card img,
+  .solemn-arch .arch-in img,
+  .veil > img,
+  .ig-tile img,
+  .guide-hero-media img{
+    filter:none!important;
+  }
+  .figure .frame,
+  .gal-card,
+  .polaroid,
+  .player,
+  .video-frame,
+  .contact-card,
+  .programme,
+  .ld-card,
+  .guide-card,
+  .guide-hero-card{
+    box-shadow:none!important;
+  }
+  .gal-card img,
+  .solemn-arch .arch-in img,
+  .video-frame img,
+  .ig-tile img,
+  .polaroid,
+  .ld-card,
+  .ledger-row,
+  .word-row .w{
+    transition:none!important;
+  }
+  .gal-card:hover img,
+  .solemn-arch:hover .arch-in img,
+  .video-frame:hover img,
+  .ig-tile:hover img,
+  .polaroid:hover,
+  .ld-card:hover,
+  .word-row:hover .w{
+    transform:none!important;
+  }
+}
 
 /* Local SEO link sections */
 .topic-seo-links{

@@ -1,3 +1,25 @@
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+const desktopPerf = matchMedia('(min-width: 901px)');
+const canAnimate = () => !reduceMotion.matches;
+const useDesktopPerf = () => desktopPerf.matches;
+if(useDesktopPerf()) document.documentElement.classList.add('perf-scroll');
+
+const observeNearViewport = (target, { onEnter, onExit, rootMargin = '240px 0px' }) => {
+  if(!target || TINA_EDIT) return () => {};
+  if(!('IntersectionObserver' in window)){
+    onEnter();
+    return () => onExit && onExit();
+  }
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting) onEnter();
+      else if(onExit) onExit();
+    });
+  }, { rootMargin, threshold: 0 });
+  io.observe(target);
+  return () => io.disconnect();
+};
+
 /* ---------- deferred images: keep non-critical media off the initial path ---------- */
 const loadDeferredImage = (img) => {
   if(!img || img.dataset.deferLoaded === 'true') return;
@@ -52,6 +74,14 @@ if (TINA_EDIT) {
   }))).observe(document.body, { childList: true, subtree: true });
 }
 if(!TINA_EDIT) initDeferredImages(document);
+if(!TINA_EDIT && useDesktopPerf()){
+  document.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
+  document.querySelectorAll('.notation').forEach(svg => svg.classList.add('drawn'));
+  document.querySelectorAll('.timeline').forEach(tl => {
+    tl.style.setProperty('--tl', 1);
+    tl.querySelectorAll('li').forEach(li => li.classList.add('passed'));
+  });
+}
 
 /* ---------- year ---------- */
 const yearEl = document.getElementById('year');
@@ -60,8 +90,24 @@ if(yearEl) yearEl.textContent = new Date().getFullYear();
 /* ---------- nav scroll state + mobile menu ---------- */
 const nav = document.getElementById('nav');
 const navSolid = nav.classList.contains('solid');
-const onScroll = () => { if(!navSolid) nav.classList.toggle('scrolled', window.scrollY > 40); };
-onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+let navScrolled = false;
+let navTicking = false;
+const updateNav = () => {
+  navTicking = false;
+  if(navSolid) return;
+  const next = window.scrollY > 40;
+  if(next !== navScrolled){
+    navScrolled = next;
+    nav.classList.toggle('scrolled', next);
+  }
+};
+updateNav();
+window.addEventListener('scroll', () => {
+  if(!navTicking){
+    navTicking = true;
+    requestAnimationFrame(updateNav);
+  }
+}, {passive:true});
 
 const burger = document.getElementById('burger');
 const mobileMenu = document.getElementById('mobileMenu');
@@ -150,23 +196,30 @@ const sectionObs = new IntersectionObserver((entries)=>{
 
 /* ---------- bow line: scroll progress as a drawn string ---------- */
 (function(){
+  if(useDesktopPerf()) return;
   const line = document.createElement('div');
   line.className = 'bowline'; line.setAttribute('aria-hidden','true');
   const fill = document.createElement('i');
   line.appendChild(fill); document.body.appendChild(line);
   let ticking = false;
+  let last = -1;
   const upd = () => {
     ticking = false;
     const h = document.documentElement;
     const max = h.scrollHeight - innerHeight;
-    fill.style.transform = `scaleX(${max > 0 ? Math.min(1, h.scrollTop / max) : 0})`;
+    const progress = max > 0 ? Math.min(1, h.scrollTop / max) : 0;
+    const rounded = Math.round(progress * 1000) / 1000;
+    if(rounded !== last){
+      last = rounded;
+      fill.style.transform = `scaleX(${rounded})`;
+    }
   };
   addEventListener('scroll', () => { if(!ticking){ requestAnimationFrame(upd); ticking = true; } }, {passive:true});
   addEventListener('resize', upd); upd();
 })();
 
 /* ---------- reveal on scroll ---------- */
-if(!TINA_EDIT){
+if(!TINA_EDIT && !useDesktopPerf()){
   const revealObs = new IntersectionObserver((entries)=>{
     entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); revealObs.unobserve(e.target); } });
   },{ threshold:.12, rootMargin:'0px 0px -8% 0px' });
@@ -181,9 +234,13 @@ if(!TINA_EDIT){
   const len = path.getTotalLength();
   svg.style.setProperty('--len', len);
   path.style.strokeDasharray = len; path.style.strokeDashoffset = len;
-  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const reduce = !canAnimate() || useDesktopPerf();
   if(reduce){ path.style.strokeDashoffset = 0; svg.classList.add('drawn'); return; }
+  let active = false;
+  let ticking = false;
   const draw = () => {
+    ticking = false;
+    if(!active) return;
     const r = svg.getBoundingClientRect();
     const vh = innerHeight;
     let p = (vh - r.top) / (vh*0.7 + r.height);
@@ -191,24 +248,32 @@ if(!TINA_EDIT){
     path.style.strokeDashoffset = len * (1 - p);
     if(p > .9) svg.classList.add('drawn'); else svg.classList.remove('drawn');
   };
-  draw(); window.addEventListener('scroll', draw, {passive:true}); window.addEventListener('resize', draw);
+  const schedule = () => { if(!ticking){ ticking = true; requestAnimationFrame(draw); } };
+  const start = () => {
+    if(active) return;
+    active = true;
+    addEventListener('scroll', schedule, {passive:true});
+    addEventListener('resize', schedule);
+    schedule();
+  };
+  const stop = () => {
+    active = false;
+    removeEventListener('scroll', schedule);
+    removeEventListener('resize', schedule);
+  };
+  observeNearViewport(svg, { onEnter: start, onExit: stop, rootMargin: '180px 0px' });
 })();
 
-/* ---------- lightweight parallax ---------- */
+/* ---------- static media: parallax was costly on older desktop GPUs ---------- */
 (function(){
   if(TINA_EDIT) return;
-  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  const items = [...document.querySelectorAll('[data-parallax]')].map(el=>({el, k:parseFloat(el.dataset.parallax)}));
-  let ticking=false;
-  const upd=()=>{ const vh=innerHeight; items.forEach(({el,k})=>{ const r=el.getBoundingClientRect(); const c=r.top+r.height/2-vh/2; el.style.transform=`translate3d(0, ${(-c*k).toFixed(1)}px, 0) scale(1.08)`; }); ticking=false; };
-  addEventListener('scroll',()=>{ if(!ticking){ requestAnimationFrame(upd); ticking=true; } },{passive:true});
-  addEventListener('resize',upd); upd();
+  document.querySelectorAll('[data-parallax]').forEach(el => { el.style.transform = ''; });
 })();
 
 /* ---------- staged image reveal: images load in with a stagger ---------- */
 (function(){
   if(TINA_EDIT) return;
-  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if(!canAnimate() || useDesktopPerf()) return;
   const imgs = [...document.querySelectorAll(
     '.gal-card img, .polaroid img, .tframe img, .figure .frame img, .arch-in img, .video-frame > img'
   )];
@@ -237,26 +302,15 @@ if(!TINA_EDIT){
   imgs.forEach(img => io.observe(img));
 })();
 
-/* ---------- magnetic buttons (fine pointers only) ---------- */
+/* ---------- magnetic buttons: intentionally disabled for steadier desktop performance ---------- */
 (function(){
-  if(TINA_EDIT) return;
-  if(!matchMedia('(hover: hover) and (pointer: fine)').matches) return;
-  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  document.querySelectorAll('.btn').forEach(btn => {
-    btn.addEventListener('pointermove', e => {
-      const r = btn.getBoundingClientRect();
-      const x = (e.clientX - r.left - r.width / 2) / r.width;
-      const y = (e.clientY - r.top - r.height / 2) / r.height;
-      btn.style.transform = `translate(${(x * 10).toFixed(1)}px, ${(y * 7).toFixed(1)}px)`;
-    });
-    btn.addEventListener('pointerleave', () => { btn.style.transform = ''; });
-  });
+  return;
 })();
 
 /* ---------- wedding timeline: line draws while scrolling ---------- */
 (function(){
   const tl = document.querySelector('.timeline'); if(!tl) return;
-  if(TINA_EDIT){
+  if(TINA_EDIT || useDesktopPerf()){
     tl.style.setProperty('--tl', 1);
     tl.querySelectorAll('li').forEach(li => li.classList.add('passed'));
     return;
@@ -271,15 +325,29 @@ if(!TINA_EDIT){
     items.forEach(li => li.classList.add('passed'));
     return;
   }
+  let active = false;
   let ticking = false;
   const upd = () => {
     ticking = false;
+    if(!active) return;
     const r = tl.getBoundingClientRect();
     let p = (innerHeight * 0.65 - r.top) / r.height;
     tl.style.setProperty('--tl', Math.max(0, Math.min(1, p)).toFixed(3));
   };
-  addEventListener('scroll', () => { if(!ticking){ requestAnimationFrame(upd); ticking = true; } }, {passive:true});
-  addEventListener('resize', upd); upd();
+  const schedule = () => { if(!ticking){ requestAnimationFrame(upd); ticking = true; } };
+  const start = () => {
+    if(active) return;
+    active = true;
+    addEventListener('scroll', schedule, {passive:true});
+    addEventListener('resize', schedule);
+    schedule();
+  };
+  const stop = () => {
+    active = false;
+    removeEventListener('scroll', schedule);
+    removeEventListener('resize', schedule);
+  };
+  observeNearViewport(tl, { onEnter: start, onExit: stop, rootMargin: '220px 0px' });
 })();
 
 /* ---------- birthday moods: tab switcher (visible on phones) ---------- */
@@ -507,6 +575,7 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
     synthGain.gain.exponentialRampToValueAtTime(0.06, ctx.currentTime+0.9);
   }
   function animate(){
+    if(!playing) return;
     if(playing && analyser){
       analyser.getByteFrequencyData(data);
       for(let i=0;i<BARS;i++){ const v=data[i%data.length]/255; const h=6+v*94; bars[i].style.height=h+'%'; }
@@ -543,6 +612,7 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
   }
   function pause(){
     playing=false; player.classList.remove('playing');
+    cancelAnimationFrame(raf);
     playIcon.innerHTML='<path d="M8 5v14l11-7z"/>';
     if(mode==='media' && audioEl){ audioEl.pause(); }
     else if(ctx){ synthGain.gain.cancelScheduledValues(ctx.currentTime); synthGain.gain.setValueAtTime(synthGain.gain.value, ctx.currentTime); synthGain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime+0.4); setTimeout(stopNodes,420); }
