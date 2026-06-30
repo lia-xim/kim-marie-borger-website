@@ -64,7 +64,7 @@
     "@astrojs/vercel": "^10.0.8",
     "@fontsource/cormorant-garamond": "^5.2.11",
     "@fontsource/manrope": "^5.2.8",
-    "@tinacms/cli": "^2.5.0",
+    "@tinacms/cli": "^2.5.1",
     "@tinacms/astro": "^0.5.0",
     "@types/node": "^25.9.1",
     "astro": "^6.4.7",
