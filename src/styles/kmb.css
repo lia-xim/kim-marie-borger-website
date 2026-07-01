@@ -427,6 +427,10 @@ em.ink{ font-style:italic; color:var(--bordeaux); }
 .video-frame img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:.92; transition:transform 1s var(--ease), opacity .4s; }
 .video-frame::after{ content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(28,18,14,.1),rgba(28,18,14,.5)); }
 .video-frame:hover img{ transform:scale(1.05); }
+.video-frame.is-placeholder{ cursor:default; }
+.video-frame.is-placeholder img{ filter:saturate(.82) brightness(.78); }
+.video-frame.is-placeholder:hover img{ transform:none; }
+.video-frame.is-placeholder::after{ background:linear-gradient(180deg,rgba(28,18,14,.22),rgba(28,18,14,.66)); }
 .video-frame .play-ring{ position:absolute; inset:0; margin:auto; width:84px; height:84px; border-radius:50%; border:1px solid var(--brass-hi); display:grid; place-items:center; color:#fff; z-index:3; background:rgba(28,18,14,.32); backdrop-filter:blur(4px); transition:.4s var(--ease); }
 .video-frame:hover .play-ring{ background:var(--bordeaux); transform:scale(1.08); border-color:var(--bordeaux); }
 .video-frame .vcap{ position:absolute; left:18px; bottom:16px; z-index:3; color:#f4ecdf; font-size:12px; letter-spacing:.04em; }

@@ -481,10 +481,10 @@ if(anfrageForm){
 
 /* ---------- video facade ---------- */
 document.querySelectorAll('.video-frame').forEach(frame=>{
+  const id=frame.dataset.yt;
+  if(!id) return;
   const open=()=>{
-    const id=frame.dataset.yt;
-    if(id){ frame.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0" title="Video" allow="autoplay; encrypted-media" allowfullscreen></iframe>'; }
-    else{ const cap=frame.querySelector('.vcap'); if(cap) cap.innerHTML='<b>Video folgt</b>YouTube-ID eintragen, dann lädt das Video hier.'; frame.style.cursor='default'; }
+    frame.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0" title="Video" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
   };
   frame.addEventListener('click', open);
   frame.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); open(); } });
@@ -494,13 +494,6 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
    WebAudio-Analyser für die EQ-Bars; Tracks ohne Datei fallen auf die
    synthetische Klangskizze zurück ---------- */
 (function(){
-  const DEMO = [
-    { t:'Méditation',        c:'Jules Massenet · aus „Thaïs“',    tag:'Trauung',  dur:'5:10', root:293.66 },
-    { t:'Air',               c:'J. S. Bach · aus der Orchestersuite Nr. 3', tag:'Einzug', dur:'4:40', root:261.63 },
-    { t:'Cellosuite Nr. 1',  c:'J. S. Bach · Prélude (Arr. Viola)',tag:'Empfang', dur:'2:30', root:196.00 },
-    { t:'Salut d’Amour',     c:'Edward Elgar',                     tag:'Festakt', dur:'3:05', root:329.63 },
-    { t:'Ave Maria',         c:'Franz Schubert',                   tag:'Abschied',dur:'5:30', root:220.00 },
-  ];
   const playlist=document.getElementById('playlist');
   if(!playlist) return;
   const eq=document.getElementById('eq');
@@ -514,19 +507,9 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
   for(let i=0;i<BARS;i++){ const b=document.createElement('span'); b.className='bar'; eq.appendChild(b); }
   const bars=[...eq.children];
 
-  // Playlist: vom Server gerendert (CMS-Tracks) — sonst Demo aufbauen.
+  // Playlist: vom Server gerendert (CMS-Tracks).
   let buttons=[...playlist.querySelectorAll('.track')];
-  if(!buttons.length){
-    DEMO.forEach((tr,i)=>{
-      const btn=document.createElement('button'); btn.className='track'+(i===0?' active':''); btn.type='button';
-      btn.dataset.title=tr.t; btn.dataset.composer=tr.c; btn.dataset.dur=tr.dur; btn.dataset.root=tr.root;
-      btn.innerHTML='<span class="ti">'+String(i+1).padStart(2,'0')+'</span>'+
-        '<span><span class="tn">'+tr.t+'</span><span class="tc" style="display:block">'+tr.c+'</span></span>'+
-        '<span class="tg">'+tr.tag+'</span><span class="td">'+tr.dur+'</span>';
-      playlist.appendChild(btn);
-    });
-    buttons=[...playlist.children];
-  }
+  if(!buttons.length) return;
   const tracks=buttons.map(b=>({
     t: b.dataset.title || '', c: b.dataset.composer || '',
     src: b.dataset.src || '', root: parseFloat(b.dataset.root || '261.63'),

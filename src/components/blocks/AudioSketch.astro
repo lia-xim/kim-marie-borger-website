@@ -24,8 +24,8 @@ const pad2 = (n: number) => String(n).padStart(2, '0');
 				<div class="player-art"><Img src={data.art?.src ?? '/uploads/mq0uz91j-viola-6668608_1280.webp'} alt={data.art?.alt ?? ''} sizes="120px" data-tina-field={data.art ? tinaField(data, 'art') : undefined} /></div>
 				<div class="player-meta">
 					<div class="pk" id="npKick">Jetzt ausgewählt</div>
-					<div class="pt" id="npTitle">{first?.title ?? 'Méditation'}</div>
-					<div class="pc" id="npComposer">{first?.composer ?? 'Jules Massenet · aus „Thaïs“'}</div>
+					<div class="pt" id="npTitle">{first?.title ?? 'Hörprobe'}</div>
+					<div class="pc" id="npComposer">{first?.composer ?? ''}</div>
 				</div>
 				<div class="player-ctrl">
 					<button class="pbtn play" id="playBtn" aria-label="Abspielen">

@@ -4,6 +4,7 @@ import Img from '../Img.astro';
 import { normalizeHref } from '../../lib/url';
 
 const { data } = Astro.props;
+const hasVideo = Boolean(data.youtubeId?.trim?.());
 ---
 <section class="section" id={data.anchorId || undefined}>
 	<div class="wrap">
@@ -12,9 +13,16 @@ const { data } = Astro.props;
 			{data.title && <h2 class="display-m" style="margin-top:14px;" data-tina-field={tinaField(data, 'title')}>{data.title}</h2>}
 		</div>
 		<div class="video-grid reveal d1">
-			<div class="video-frame" data-yt={data.youtubeId ?? ''} role="button" tabindex="0" aria-label="Video abspielen">
+			<div
+				class={`video-frame${hasVideo ? '' : ' is-placeholder'}`}
+				data-yt={hasVideo ? data.youtubeId : undefined}
+				role={hasVideo ? 'button' : undefined}
+				tabindex={hasVideo ? '0' : undefined}
+				aria-label={hasVideo ? 'Video abspielen' : undefined}
+				aria-disabled={hasVideo ? undefined : 'true'}
+			>
 				<Img src={data.poster?.src} alt={data.poster?.alt ?? ''} sizes="(max-width: 1100px) 94vw, 980px" data-tina-field={tinaField(data, 'poster')} />
-				<span class="play-ring"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+				{hasVideo && <span class="play-ring"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>}
 				{(data.capTitle || data.capText) && <span class="vcap" data-tina-field={tinaField(data, 'capText')}><b data-tina-field={tinaField(data, 'capTitle')}>{data.capTitle}</b>{data.capText}</span>}
 			</div>
 			<div class="video-side">
