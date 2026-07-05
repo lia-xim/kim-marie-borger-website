@@ -1,12 +1,121 @@
 // @ts-check
+import { statSync } from 'node:fs';
 import { copyFile } from 'node:fs/promises';
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
-import sitemap from '@astrojs/sitemap';
+import sitemap, { ChangeFreqEnum } from '@astrojs/sitemap';
 import tina from '@tinacms/astro/integration';
 import { tinaAdminDevRedirect } from '@tinacms/astro/vite';
 import vercel from '@astrojs/vercel';
 import { addMissingLinkTitles } from './scripts/lib/link-title-postprocess.mjs';
+
+/** @typedef {import('@astrojs/sitemap').SitemapItem} SitemapItem */
+
+const CORE_SERVICE_SLUGS = new Set([
+	'hochzeiten',
+	'beerdigungen',
+	'firmenfeiern',
+	'geburtstage',
+	'taufen',
+	'konzerte',
+	'unterricht',
+]);
+
+const DEFAULT_SITEMAP_LASTMOD = new Date('2026-07-05T00:00:00.000Z').toISOString();
+
+/** @param {string} relativePath */
+function fileLastmod(relativePath) {
+	try {
+		return statSync(new URL(relativePath, import.meta.url)).mtime.toISOString();
+	} catch {
+		return DEFAULT_SITEMAP_LASTMOD;
+	}
+}
+
+/** @param {SitemapItem} item */
+function routeParts(item) {
+	const { pathname } = new URL(item.url);
+	return pathname.replace(/^\/|\/$/g, '').split('/').filter(Boolean);
+}
+
+/** @param {string[]} parts */
+function seoPageSourcePath(parts) {
+	if (parts.length !== 2 || !CORE_SERVICE_SLUGS.has(parts[0])) return '';
+	if (parts[1] === 'orte' || parts[1] === 'themen') return '';
+	return `./src/content/seo-pages/${parts[0]}/${parts[1]}.json`;
+}
+
+/** @param {SitemapItem} item */
+function sitemapLastmod(item) {
+	const parts = routeParts(item);
+	if (parts.length === 0) return fileLastmod('./src/content/page/home.mdx');
+	if (parts[0] === 'ratgeber') return fileLastmod('./src/lib/ratgeber.ts');
+	if (parts.length === 1) return fileLastmod(`./src/content/page/${parts[0]}.mdx`);
+	if (parts.length === 2 && CORE_SERVICE_SLUGS.has(parts[0])) {
+		if (parts[1] === 'orte') return fileLastmod('./src/pages/[service]/orte.astro');
+		if (parts[1] === 'themen') return fileLastmod('./src/pages/[service]/themen.astro');
+		return fileLastmod(seoPageSourcePath(parts));
+	}
+	return DEFAULT_SITEMAP_LASTMOD;
+}
+
+/** @param {SitemapItem} item */
+function sitemapPriority(item) {
+	const parts = routeParts(item);
+	if (parts.length === 0) return 1;
+	if (parts.length === 1 && CORE_SERVICE_SLUGS.has(parts[0])) return 0.9;
+	if (parts.length === 1) return parts[0] === 'impressum' || parts[0] === 'datenschutz' ? 0.2 : 0.7;
+	if (parts[0] === 'ratgeber') return parts.length === 1 ? 0.7 : 0.62;
+	if (parts.length === 2 && CORE_SERVICE_SLUGS.has(parts[0])) {
+		if (parts[1] === 'orte' || parts[1] === 'themen') return 0.78;
+		return 0.58;
+	}
+	return 0.5;
+}
+
+/**
+ * @param {SitemapItem} item
+ * @returns {import('sitemap').EnumChangefreq}
+ */
+function sitemapChangefreq(item) {
+	const parts = routeParts(item);
+	if (parts.length <= 1) return ChangeFreqEnum.WEEKLY;
+	if (parts[0] === 'ratgeber') return ChangeFreqEnum.MONTHLY;
+	if (parts.length === 2 && CORE_SERVICE_SLUGS.has(parts[0])) {
+		return parts[1] === 'orte' || parts[1] === 'themen' ? ChangeFreqEnum.WEEKLY : ChangeFreqEnum.MONTHLY;
+	}
+	return ChangeFreqEnum.MONTHLY;
+}
+
+/**
+ * @param {SitemapItem} item
+ * @returns {SitemapItem}
+ */
+function serializeSitemapItem(item) {
+	return {
+		...item,
+		lastmod: sitemapLastmod(item),
+		changefreq: sitemapChangefreq(item),
+		priority: sitemapPriority(item),
+	};
+}
+
+/** @param {SitemapItem} item */
+function isSeoDetailItem(item) {
+	return Boolean(seoPageSourcePath(routeParts(item)));
+}
+
+/** @param {SitemapItem} item */
+function isCoreOrHubItem(item) {
+	const parts = routeParts(item);
+	if (parts[0] === 'ratgeber') return false;
+	return parts.length <= 1 || (parts.length === 2 && CORE_SERVICE_SLUGS.has(parts[0]) && ['orte', 'themen'].includes(parts[1]));
+}
+
+/** @param {SitemapItem} item */
+function isGuideItem(item) {
+	return routeParts(item)[0] === 'ratgeber';
+}
 
 /** @returns {import('astro').AstroIntegration} */
 const sitemapXmlAlias = () => ({
@@ -49,7 +158,21 @@ export default defineConfig({
 			minimumCacheTTL: 2678400,
 		},
 	}),
-	integrations: [mdx(), sitemap({ xslURL: '/sitemap.xsl' }), sitemapXmlAlias(), linkTitleAttributes(), tina()],
+	integrations: [
+		mdx(),
+		sitemap({
+			xslURL: '/sitemap.xsl',
+			serialize: serializeSitemapItem,
+			chunks: {
+				core: (item) => isCoreOrHubItem(item) ? item : undefined,
+				seo: (item) => isSeoDetailItem(item) ? item : undefined,
+				ratgeber: (item) => isGuideItem(item) ? item : undefined,
+			},
+		}),
+		sitemapXmlAlias(),
+		linkTitleAttributes(),
+		tina(),
+	],
 	build: {
 		// Das eine gemeinsame Stylesheet (~33 KB) blockierte das Rendering
 		// ~450 ms; inline spart den Roundtrip auf dem kritischen Pfad.
