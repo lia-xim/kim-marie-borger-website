@@ -441,11 +441,17 @@ type PageBlocksAudioSketchArt {
   alt: String
 }
 
+type PageBlocksAudioSketchTracksArt {
+  src: String
+  alt: String
+}
+
 type PageBlocksAudioSketchTracks {
   title: String!
   composer: String
   tag: String
   dur: String
+  art: PageBlocksAudioSketchTracksArt
   src: String
 }
 
@@ -882,11 +888,17 @@ input PageBlocksAudioSketchArtFilter {
   alt: StringFilter
 }
 
+input PageBlocksAudioSketchTracksArtFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
 input PageBlocksAudioSketchTracksFilter {
   title: StringFilter
   composer: StringFilter
   tag: StringFilter
   dur: StringFilter
+  art: PageBlocksAudioSketchTracksArtFilter
   src: StringFilter
 }
 
@@ -1740,11 +1752,17 @@ input PageBlocksAudioSketchArtMutation {
   alt: String
 }
 
+input PageBlocksAudioSketchTracksArtMutation {
+  src: String
+  alt: String
+}
+
 input PageBlocksAudioSketchTracksMutation {
   title: String
   composer: String
   tag: String
   dur: String
+  art: PageBlocksAudioSketchTracksArtMutation
   src: String
 }
 

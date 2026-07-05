@@ -6,8 +6,11 @@ import { normalizeSrc } from '../../lib/img';
 const { data } = Astro.props;
 const tracks = (data.tracks ?? []).filter((t: unknown) => t !== null);
 const first = tracks[0];
+const firstTrack = first as any;
 const hasReal = tracks.some((t: any) => t.src);
 const pad2 = (n: number) => String(n).padStart(2, '0');
+const firstArt = firstTrack?.art?.src ?? data.art?.src ?? '/uploads/mq0uz91j-viola-6668608_1280.webp';
+const firstArtAlt = firstTrack?.art?.alt ?? data.art?.alt ?? '';
 ---
 <section class="section bg-paper2">
 	<div class="wrap audio-split">
@@ -21,7 +24,18 @@ const pad2 = (n: number) => String(n).padStart(2, '0');
 
 		<div class="player reveal d1" id="player">
 			<div class="player-now">
-				<div class="player-art"><Img src={data.art?.src ?? '/uploads/mq0uz91j-viola-6668608_1280.webp'} alt={data.art?.alt ?? ''} sizes="120px" data-tina-field={data.art ? tinaField(data, 'art') : undefined} /></div>
+				<div class="player-art">
+					<Img
+						class="player-art-current"
+						src={firstArt}
+						alt={firstArtAlt}
+						sizes="120px"
+						loading="eager"
+						fetchpriority="high"
+						data-tina-field={firstTrack?.art ? tinaField(firstTrack, 'art') : (data.art ? tinaField(data, 'art') : undefined)}
+					/>
+					<img class="player-art-next" alt="" aria-hidden="true" decoding="async" />
+				</div>
 				<div class="player-meta">
 					<div class="pk" id="npKick">Jetzt ausgewählt</div>
 					<div class="pt" id="npTitle">{first?.title ?? 'Hörprobe'}</div>
@@ -44,6 +58,8 @@ const pad2 = (n: number) => String(n).padStart(2, '0');
 						data-title={t.title}
 						data-composer={t.composer ?? ''}
 						data-dur={t.dur ?? ''}
+						data-art={normalizeSrc(t.art?.src) || undefined}
+						data-art-alt={t.art?.alt ?? ''}
 						data-tina-field={tinaField(t)}
 					>
 						<span class="ti">{pad2(i + 1)}</span>

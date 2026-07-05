@@ -138,5 +138,25 @@
 	"_DSC7458.webp": {
 		"width": 1333,
 		"height": 2000
+	},
+	"audio-covers/griechischer-wein.webp": {
+		"width": 800,
+		"height": 800
+	},
+	"audio-covers/love-in-the-dark.webp": {
+		"width": 800,
+		"height": 800
+	},
+	"audio-covers/sara-perche-ti-amo.webp": {
+		"width": 800,
+		"height": 800
+	},
+	"audio-covers/somewhere-over-the-rainbow.webp": {
+		"width": 800,
+		"height": 800
+	},
+	"audio-covers/video-games.webp": {
+		"width": 800,
+		"height": 800
 	}
 }

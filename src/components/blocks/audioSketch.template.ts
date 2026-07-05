@@ -25,6 +25,13 @@ export const audioSketchBlockSchema: Template = {
 				{ type: 'string', name: 'tag', label: 'Etikett (z. B. Trauung)' },
 				{ type: 'string', name: 'dur', label: 'Dauer (z. B. 3:05)' },
 				{
+					type: 'object', name: 'art', label: 'Cover-Bild (optional)',
+					fields: [
+						{ type: 'image', name: 'src', label: 'Bild' },
+						{ type: 'string', name: 'alt', label: 'Alt-Text' },
+					],
+				},
+				{
 					type: 'string', name: 'src', label: 'Audio-Datei (Pfad)',
 					description:
 						'z. B. /uploads/audio/meditation.mp3 — Datei vorher über den Media Manager hochladen (oder von Matthias mit npm run optimize:audio aufbereiten lassen). Leer = Demo-Klangskizze.',

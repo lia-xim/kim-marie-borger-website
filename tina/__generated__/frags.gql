@@ -314,6 +314,11 @@ fragment PageParts on Page {
         composer
         tag
         dur
+        art {
+          __typename
+          src
+          alt
+        }
         src
       }
       note
