@@ -1,16 +1,24 @@
 import type { APIRoute } from 'astro';
+import type { ContactAnalyticsDeliveryStatus, ContactOutboxRecord } from '../../lib/contact-delivery';
+import {
+	createOutboxRecord,
+	deliverContactRecord,
+	getContactAnalyticsConfig,
+	getContactDeliveryConfig,
+	getContactOutboxConfig,
+	markOutboxError,
+	readInquiry,
+	saveOutboxRecord,
+	trackContactServerEvent,
+	validateInquiry,
+} from '../../lib/contact-delivery';
 
 export const prerender = false;
 
 /**
- * Contact form endpoint. Sends the request via Resend (https://resend.com).
- * Required env vars (set in Vercel → Project → Environment Variables):
- *   RESEND_API_KEY      — API key from resend.com
- *   CONTACT_TO_EMAIL    — where enquiries are delivered
- *   CONTACT_FROM_EMAIL  — verified sender, e.g. "Website <anfrage@domain.de>"
- *                         (optional; falls back to Resend's onboarding sender)
- * Without RESEND_API_KEY the endpoint answers 503 and the client shows a
- * fallback message pointing to direct e-mail.
+ * Contact form endpoint. If CONTACT_OUTBOX_REST_URL/KV_REST_API_URL is
+ * configured, the inquiry is persisted before delivery so failed Resend calls
+ * can be retried by /api/contact-retry.
  */
 export const POST: APIRoute = async ({ request }) => {
 	let body: Record<string, unknown>;
@@ -25,70 +33,82 @@ export const POST: APIRoute = async ({ request }) => {
 		return json({ ok: true }, 200);
 	}
 
-	const name = str(body.name, 200);
-	const email = str(body.email, 200);
-	const occasion = str(body.anlass, 200);
-	const date = str(body.datum, 200);
-	const place = str(body.ort, 300);
-	const requestedMusic = str(body.wunschmusik, 500);
-	const scope = str(body.umfang, 300);
-	const sourcePage = str(body.seite, 500);
-	const sourceContext = str(body.seitenkontext, 300);
-	const formVariant = str(body.formularvariante, 300);
-	const message = str(body.nachricht, 5000);
-
-	if (!name || !email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+	const inquiry = readInquiry(body);
+	if (!validateInquiry(inquiry)) {
 		return json({ error: 'validation' }, 422);
 	}
 
-	const apiKey = import.meta.env.RESEND_API_KEY;
-	const to = import.meta.env.CONTACT_TO_EMAIL;
-	if (!apiKey || !to) {
+	const outboxConfig = getContactOutboxConfig(import.meta.env);
+	let outboxSaved = false;
+	let record = createOutboxRecord(inquiry);
+
+	if (outboxConfig) {
+		try {
+			await saveOutboxRecord(outboxConfig, record);
+			outboxSaved = true;
+		} catch (error) {
+			console.error('Contact outbox initial write failed', error);
+		}
+	}
+
+	const deliveryConfig = getContactDeliveryConfig(import.meta.env);
+	if (!deliveryConfig) {
+		if (outboxConfig && outboxSaved) {
+			record = markOutboxError(record, 'Resend is not configured');
+			await saveOutboxSafely(outboxConfig, record);
+		}
 		return json({ error: 'not-configured' }, 503);
 	}
 
-	const res = await fetch('https://api.resend.com/emails', {
-		method: 'POST',
-		headers: {
-			Authorization: `Bearer ${apiKey}`,
-			'Content-Type': 'application/json',
-		},
-		body: JSON.stringify({
-			from: import.meta.env.CONTACT_FROM_EMAIL || 'Website <onboarding@resend.dev>',
-			to: [to],
-			reply_to: email,
-			subject: `Neue ${occasion || formVariant || 'Anfrage'} über die Website von ${name}`,
-			text: [
-				`Name: ${name}`,
-				`E-Mail: ${email}`,
-				`Anlass: ${occasion || '(nicht angegeben)'}`,
-				`Datum / Zeitraum: ${date || '(nicht angegeben)'}`,
-				`Ort / Location: ${place || '(nicht angegeben)'}`,
-				`Wunschmusik / Stücke: ${requestedMusic || '(nicht angegeben)'}`,
-				`Umfang / Dauer: ${scope || '(nicht angegeben)'}`,
-				'',
-				'Quelle:',
-				`Seite: ${sourcePage || '(nicht angegeben)'}`,
-				`Seitenkontext: ${sourceContext || '(nicht angegeben)'}`,
-				`Formularvariante: ${formVariant || '(nicht angegeben)'}`,
-				'',
-				'Nachricht:',
-				message || '(keine Nachricht)',
-				'',
-			].join('\n'),
-		}),
-	});
+	const result = await deliverContactRecord(record, deliveryConfig);
+	record = result.record;
 
-	if (!res.ok) {
-		console.error('Resend error', res.status, await res.text());
-		return json({ error: 'send-failed' }, 502);
+	if (outboxConfig && outboxSaved) {
+		await saveOutboxSafely(outboxConfig, record);
 	}
 
-	return json({ ok: true }, 200);
+	if (result.ok) {
+		await trackContactAnalyticsSafely(record, 'sent');
+		return json({ ok: true, queued: false }, 200);
+	}
+
+	console.error('Contact delivery failed', result.errors);
+
+	if (outboxConfig && outboxSaved) {
+		await trackContactAnalyticsSafely(record, 'queued');
+		return json({ ok: true, queued: true }, 200);
+	}
+
+	if (record.delivery.internal.sentAt) {
+		await trackContactAnalyticsSafely(record, 'confirmation_failed');
+		return json({ ok: true, queued: false, warning: 'confirmation-failed' }, 200);
+	}
+
+	return json({ error: 'send-failed' }, 502);
 };
 
-function str(value: unknown, max: number): string {
-	return typeof value === 'string' ? value.trim().slice(0, max) : '';
+async function trackContactAnalyticsSafely(
+	record: ContactOutboxRecord,
+	deliveryStatus: ContactAnalyticsDeliveryStatus,
+): Promise<void> {
+	const analyticsConfig = getContactAnalyticsConfig(import.meta.env);
+	if (!analyticsConfig) return;
+	try {
+		await trackContactServerEvent(analyticsConfig, record, deliveryStatus);
+	} catch (error) {
+		console.error('Contact analytics event failed', error);
+	}
+}
+
+async function saveOutboxSafely(
+	config: NonNullable<ReturnType<typeof getContactOutboxConfig>>,
+	record: Parameters<typeof saveOutboxRecord>[1],
+): Promise<void> {
+	try {
+		await saveOutboxRecord(config, record);
+	} catch (error) {
+		console.error('Contact outbox update failed', error);
+	}
 }
 
 function json(payload: unknown, status: number): Response {

@@ -123,10 +123,56 @@ Use `.env.example` as the reference. Local secret files are ignored by Git.
 | `TINA_TOKEN` | For Tina Cloud | Read token for Tina content APIs |
 | `RESEND_API_KEY` | For contact form email delivery | Sends `/api/contact` mail |
 | `CONTACT_TO_EMAIL` | For contact form email delivery | Recipient address |
-| `CONTACT_FROM_EMAIL` | Recommended for email delivery | Verified sender address |
+| `CONTACT_FROM_EMAIL` | Recommended for email delivery | Verified sender address; also enables the customer confirmation email |
+| `CONTACT_REPLY_EMAIL` | Optional for contact form email delivery | Reply-To address for the customer confirmation; falls back to `CONTACT_TO_EMAIL` |
+| `KV_REST_API_URL` / `KV_REST_API_TOKEN` | Recommended for reliable contact delivery | Durable Vercel KV / Upstash REST outbox for contact form submissions |
+| `CONTACT_OUTBOX_REST_URL` / `CONTACT_OUTBOX_REST_TOKEN` | Optional for reliable contact delivery | Custom outbox REST credentials instead of the Vercel KV variable names |
+| `CONTACT_OUTBOX_PREFIX` | Optional for reliable contact delivery | Redis key prefix; defaults to `kmb:contact` |
+| `CONTACT_OUTBOX_RETENTION_DAYS` | Optional for reliable contact delivery | Outbox record retention; defaults to `90` |
+| `CONTACT_OUTBOX_BATCH_SIZE` | Optional for reliable contact delivery | Retry batch size; defaults to `10` |
+| `CONTACT_ALERT_EMAIL` | Optional for reliable contact delivery | Operations alert recipient; defaults to `matthiasramahi@web.de` |
+| `CONTACT_ALERT_AFTER_ATTEMPTS` | Optional for reliable contact delivery | Sends an alert after this many failed delivery attempts; defaults to `2` |
+| `CRON_SECRET` | Recommended for reliable contact delivery | Secret Vercel sends to `/api/contact-retry` as `Authorization: Bearer ...` |
+| `CONTACT_RETRY_SECRET` | Optional for reliable contact delivery | Manual/external scheduler secret when not using Vercel Cron |
+| `UMAMI_HOST_URL` | Optional for server-side analytics | Umami instance used by `/api/contact` for conversion events |
+| `UMAMI_WEBSITE_ID` | Optional for server-side analytics | Umami website ID for accepted contact-form conversions |
+| `UMAMI_HOSTNAME` | Optional for server-side analytics | Hostname attached to server-side Umami events |
+| `UMAMI_SERVER_USER_AGENT` | Optional for server-side analytics | User-Agent sent to Umami `/api/send` |
 
 Without Resend configuration, the contact form falls back to direct email
 instructions rather than failing hard.
+
+### Contact delivery reliability
+
+The contact endpoint uses a durable outbox when Vercel KV or compatible
+Upstash Redis REST credentials are configured. The request is stored before
+Resend delivery is attempted. If Resend or the network fails after the request
+is stored, the visitor still receives a success response and `/api/contact-retry`
+can send the missing internal or confirmation email later.
+
+Resend requests include per-message idempotency keys, so retrying the same
+outbox entry does not intentionally create duplicate emails. If the same outbox
+entry still fails after `CONTACT_ALERT_AFTER_ATTEMPTS` attempts, the system sends
+one operations alert to `CONTACT_ALERT_EMAIL` with the outbox ID, delivery status,
+last error, and the inquiry details needed for manual follow-up.
+
+The retry endpoint is protected by `CRON_SECRET`/`CONTACT_RETRY_SECRET`; Vercel
+Cron calls it daily by default from `vercel.json` so the schedule remains
+deployable on Hobby plans. On Pro plans, the schedule can be tightened to
+`*/10 * * * *` for faster retry latency.
+
+### Analytics tracking
+
+The public layout loads the self-hosted Umami tracker for production domains and
+the Vercel preview host. Browser events cover page engagement, CTA/link clicks,
+contact-form views, starts, validation errors, abandons, submissions, errors,
+portfolio image interactions, video plays, and portfolio audio interactions.
+
+When `UMAMI_WEBSITE_ID` is configured, `/api/contact` also emits a server-side
+`contact_form_server_success` event after an accepted submission. That payload
+only contains funnel metadata, attribution, form variant, optional-field flags,
+and delivery status; names, email addresses, locations, dates, and message text
+are not sent to Umami. See `TRACKING_EVENTS.md` for the event dictionary.
 
 ## Editorial Workflows
 

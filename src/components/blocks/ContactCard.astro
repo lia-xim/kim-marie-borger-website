@@ -240,7 +240,16 @@ function getFormContext(defaultOccasion: string, sourceLabel: string, path: stri
 					{contact?.formTitle && <h3 class="display-s" style="margin-top:10px;" data-tina-field={contact ? tinaFieldFrom(contact, 'formTitle') : undefined}>{contact.formTitle}</h3>}
 					<p class="form-context">{context.intro}</p>
 				</div>
-				<form class="reveal d1" id="anfrageForm" novalidate>
+				<form
+					class="reveal d1"
+					id="anfrageForm"
+					novalidate
+					data-track-form="contact"
+					data-track-context-key={context.key}
+					data-track-form-variant={context.label}
+					data-track-source-context={sourceContext}
+					data-track-default-occasion={selectedOccasion}
+				>
 					<input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;height:0;width:0;opacity:0;" />
 					<input type="hidden" name="seite" value={sourcePath} />
 					<input type="hidden" name="seitenkontext" value={sourceContext} />
@@ -266,7 +275,7 @@ function getFormContext(defaultOccasion: string, sourceLabel: string, path: stri
 					</div>
 					<div class="field"><label for="f-msg">Nachricht <span class="opt">(optional)</span></label><textarea id="f-msg" name="nachricht" placeholder={context.messagePlaceholder}></textarea></div>
 					<p class="form-note">{context.note}</p>
-					<button type="submit" class="btn btn-solid" style="width:100%;justify-content:center;">{context.submitLabel} <span class="ar">→</span></button>
+					<button type="submit" class="btn btn-solid" style="width:100%;justify-content:center;" data-track-label={context.submitLabel}>{context.submitLabel} <span class="ar">→</span></button>
 					<div class="form-ok" id="formOk" role="status" aria-live="polite" data-success={contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'} data-tina-field={contact ? tinaFieldFrom(contact, 'formSuccess') : undefined}>{contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'}</div>
 				</form>
 			</div>

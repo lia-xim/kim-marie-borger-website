@@ -56,6 +56,227 @@ const initDeferredImages = (root, eager=false) => {
    re-rendered content invisible (no .in class) — so in edit mode everything is
    forced visible and the scroll effects are skipped. ---------- */
 const TINA_EDIT = (() => { try { return window.self !== window.top; } catch (e) { return true; } })();
+const KMB_ANALYTICS = (() => {
+  const params = new URLSearchParams(location.search);
+  const localDebug = params.has('analytics-debug');
+  const productionHost = /(^|\.)kim-marie-borger\.(de|com)$/.test(location.hostname) || location.hostname === 'kim-marie-borger.vercel.app';
+  const enabled = !TINA_EDIT && (productionHost || localDebug);
+  const serviceRoots = new Set(['hochzeiten','beerdigungen','geburtstage','taufen','konzerte','firmenfeiern','unterricht']);
+  const queue = [];
+  const sentOnce = new Set();
+  let flushTimer = 0;
+  const attributionKey = 'kmb_attribution_v1';
+  const touchFields = [
+    'path',
+    'page_type',
+    'page_service',
+    'page_slug',
+    'referrer',
+    'utm_source',
+    'utm_medium',
+    'utm_campaign',
+    'utm_content',
+    'utm_term',
+    'has_gclid',
+    'has_fbclid',
+    'has_msclkid'
+  ];
+  const attributionFields = [
+    ...touchFields.map(field => 'first_' + field),
+    ...touchFields.map(field => 'last_' + field),
+    'first_seen_at',
+    'last_seen_at',
+    'last_cta_text',
+    'last_cta_area',
+    'last_cta_target',
+    'last_cta_kind',
+    'last_interaction_at',
+    'audio_engaged',
+    'audio_last_track',
+    'audio_last_index'
+  ];
+
+  const compact = (value, max = 180) => {
+    if(value === undefined || value === null) return undefined;
+    if(typeof value === 'boolean' || typeof value === 'number') return value;
+    const text = String(value).replace(/\s+/g, ' ').trim();
+    return text ? text.slice(0, max) : undefined;
+  };
+  const clean = (data) => {
+    const out = {};
+    Object.entries(data || {}).forEach(([key, value]) => {
+      const next = Array.isArray(value) ? compact(value.join(',')) : compact(value);
+      if(next !== undefined) out[key] = next;
+    });
+    return out;
+  };
+  const readStoredAttribution = () => {
+    try {
+      const raw = window.localStorage && localStorage.getItem(attributionKey);
+      return raw ? JSON.parse(raw) || {} : {};
+    } catch(e) {
+      return {};
+    }
+  };
+  const writeStoredAttribution = (value) => {
+    try {
+      if(window.localStorage) localStorage.setItem(attributionKey, JSON.stringify(clean(value)));
+    } catch(e) {}
+  };
+  const queryValue = (key) => compact(params.get(key), 180) || '';
+  const referrerValue = () => {
+    if(!document.referrer) return '';
+    try {
+      const ref = new URL(document.referrer);
+      if(ref.origin === location.origin) return '';
+      return compact(ref.hostname + ref.pathname, 240) || '';
+    } catch(e) {
+      return compact(document.referrer, 240) || '';
+    }
+  };
+  const pagePath = () => location.pathname.replace(/\/$/, '') || '/';
+  const pageType = () => {
+    const parts = pagePath().split('/').filter(Boolean);
+    if(!parts.length) return 'home';
+    if(parts[0] === 'portfolio') return 'portfolio';
+    if(parts[0] === 'anfragen') return 'inquiry';
+    if(parts[0] === 'ratgeber') return parts.length > 1 ? 'guide_article' : 'guide_index';
+    if(serviceRoots.has(parts[0])) return parts.length > 1 ? 'local_seo' : 'service';
+    return parts[0];
+  };
+  const pageDetails = () => {
+    const parts = pagePath().split('/').filter(Boolean);
+    const root = parts[0] || 'home';
+    return {
+      page_path: pagePath(),
+      page_type: pageType(),
+      page_service: serviceRoots.has(root) ? root : '',
+      page_slug: parts.slice(1).join('/'),
+      page_title: document.title
+    };
+  };
+  const currentTouch = () => ({
+    path: pagePath(),
+    page_type: pageType(),
+    page_service: pageDetails().page_service,
+    page_slug: pageDetails().page_slug,
+    referrer: referrerValue(),
+    utm_source: queryValue('utm_source'),
+    utm_medium: queryValue('utm_medium'),
+    utm_campaign: queryValue('utm_campaign'),
+    utm_content: queryValue('utm_content'),
+    utm_term: queryValue('utm_term'),
+    has_gclid: params.has('gclid'),
+    has_fbclid: params.has('fbclid'),
+    has_msclkid: params.has('msclkid')
+  });
+  const assignTouch = (target, prefix, touch) => {
+    touchFields.forEach(field => { target[prefix + '_' + field] = touch[field] || ''; });
+  };
+  const captureAttribution = () => {
+    if(TINA_EDIT) return {};
+    const stored = readStoredAttribution();
+    const touch = currentTouch();
+    const now = new Date().toISOString();
+    if(!stored.first_path){
+      assignTouch(stored, 'first', touch);
+      stored.first_seen_at = now;
+    }
+    assignTouch(stored, 'last', touch);
+    stored.last_seen_at = now;
+    writeStoredAttribution(stored);
+    return stored;
+  };
+  let attribution = captureAttribution();
+  const attributionData = () => {
+    const source = attribution || {};
+    const out = {};
+    attributionFields.forEach(field => {
+      if(source[field] !== undefined && source[field] !== '') out['attribution_' + field] = source[field];
+    });
+    return clean(out);
+  };
+  const rememberInteraction = (data = {}) => {
+    if(TINA_EDIT) return;
+    attribution = {
+      ...(attribution || {}),
+      ...clean(data),
+      last_interaction_at: new Date().toISOString()
+    };
+    writeStoredAttribution(attribution);
+  };
+  const eventData = (data) => clean({
+    ...pageDetails(),
+    ...data
+  });
+  const hasTracker = () => window.umami && typeof window.umami.track === 'function';
+  const flush = () => {
+    if(!hasTracker()) return;
+    while(queue.length){
+      const item = queue.shift();
+      try { window.umami.track(item.name, item.data); } catch(e) {}
+    }
+    if(flushTimer){
+      clearInterval(flushTimer);
+      flushTimer = 0;
+    }
+  };
+  const scheduleFlush = () => {
+    if(flushTimer) return;
+    flushTimer = window.setInterval(flush, 750);
+    window.setTimeout(() => {
+      if(flushTimer){
+        clearInterval(flushTimer);
+        flushTimer = 0;
+      }
+    }, 10000);
+  };
+  const track = (name, data = {}) => {
+    if(!enabled || !name) return;
+    const eventName = String(name).slice(0, 50);
+    const dataWithPage = eventData(data);
+    if(hasTracker()){
+      try { window.umami.track(eventName, dataWithPage); } catch(e) {}
+      return;
+    }
+    queue.push({ name: eventName, data: dataWithPage });
+    if(queue.length > 50) queue.shift();
+    scheduleFlush();
+  };
+  const trackOnce = (key, name, data = {}) => {
+    if(sentOnce.has(key)) return;
+    sentOnce.add(key);
+    track(name, data);
+  };
+
+  return { attributionData, compact, flush, rememberInteraction, track, trackOnce };
+})();
+window.kmbTrack = KMB_ANALYTICS.track;
+window.addEventListener('kmb:umami-ready', KMB_ANALYTICS.flush);
+
+const textForTracking = (el, max = 90) => KMB_ANALYTICS.compact(el ? (el.innerText || el.textContent || '') : '', max);
+const areaForTracking = (el) => {
+  if(!el) return 'unknown';
+  if(el.closest('.nav-links')) return 'nav_desktop';
+  if(el.closest('.mobile-menu')) return 'nav_mobile';
+  if(el.closest('.footer')) return 'footer';
+  if(el.closest('.contact-card')) return 'contact_card';
+  if(el.closest('.player')) return 'audio_player';
+  if(el.closest('.video-frame')) return 'video';
+  const section = el.closest('section[id]');
+  if(section && section.id) return 'section_' + section.id;
+  return 'body';
+};
+const socialPlatformForHost = (host) => {
+  const value = String(host || '').toLowerCase();
+  if(value.includes('instagram.')) return 'instagram';
+  if(value.includes('youtube.') || value.includes('youtu.be')) return 'youtube';
+  if(value.includes('facebook.')) return 'facebook';
+  if(value.includes('linkedin.')) return 'linkedin';
+  if(value.includes('tiktok.')) return 'tiktok';
+  if(value.includes('spotify.')) return 'spotify';
+  return '';
+};
 if (TINA_EDIT) {
   document.documentElement.classList.add('tina-edit');
   const force = (root) => {
@@ -161,6 +382,113 @@ document.querySelectorAll('#mobileMenu a').forEach(a => a.addEventListener('clic
 if(mmToggle){
   mmToggle.addEventListener('click', () => setMobileSubmenu(!mmGroup.classList.contains('open')));
 }
+
+/* ---------- analytics: navigation, CTAs, mail links, scroll depth ---------- */
+(function(){
+  document.addEventListener('click', e => {
+    const target = e.target;
+    if(!target || !target.closest) return;
+    const link = target.closest('a[href]');
+    if(!link) return;
+    const href = link.getAttribute('href');
+    if(!href || href === '#') return;
+    const area = areaForTracking(link);
+    const text = textForTracking(link);
+    const mail = href.startsWith('mailto:');
+    let targetPath = href;
+    let kind = 'internal';
+    try {
+      const url = new URL(href, location.href);
+      kind = url.protocol === 'mailto:' ? 'email' : (url.origin === location.origin ? 'internal' : 'external');
+      targetPath = kind === 'internal'
+        ? ((url.pathname.replace(/\/$/, '') || '/') + url.hash)
+        : (url.protocol === 'mailto:' ? 'mailto' : url.hostname);
+    } catch(e) {}
+
+    if(mail){
+      KMB_ANALYTICS.rememberInteraction({
+        last_cta_text: text,
+        last_cta_area: area,
+        last_cta_target: 'mailto',
+        last_cta_kind: 'contact_email_click'
+      });
+      KMB_ANALYTICS.track('contact_email_click', {
+        link_area: area,
+        link_text: text,
+        ...KMB_ANALYTICS.attributionData()
+      });
+      return;
+    }
+
+    const socialPlatform = kind === 'external' ? socialPlatformForHost(targetPath) : '';
+    const importantLink = area.startsWith('nav_')
+      || area === 'footer'
+      || link.classList.contains('btn')
+      || link.classList.contains('link-line')
+      || link.classList.contains('ig-tile')
+      || socialPlatform
+      || link.closest('.gal-card,.card,.hero-actions,.cta-band,.service-discovery,.topic-links,.local-links,.ratgeber-links');
+    if(!importantLink) return;
+
+    const inquiryTarget = targetPath.startsWith('/anfragen') || targetPath.includes('#kontakt');
+    const eventName = inquiryTarget ? 'inquiry_cta_click' : (socialPlatform ? 'social_click' : 'site_link_click');
+    KMB_ANALYTICS.rememberInteraction({
+      last_cta_text: text,
+      last_cta_area: area,
+      last_cta_target: targetPath,
+      last_cta_kind: eventName
+    });
+    KMB_ANALYTICS.track(eventName, {
+      link_area: area,
+      link_text: text,
+      link_target: targetPath,
+      link_kind: kind,
+      social_platform: socialPlatform,
+      ...KMB_ANALYTICS.attributionData()
+    });
+  });
+
+  if(TINA_EDIT) return;
+  const marks = [25, 50, 75, 90];
+  const sent = new Set();
+  let maxSeen = 0;
+  let ticking = false;
+  const depth = () => {
+    const h = document.documentElement;
+    const max = h.scrollHeight - innerHeight;
+    if(max <= 0) return 100;
+    return Math.max(0, Math.min(100, Math.round((h.scrollTop / max) * 100)));
+  };
+  const updateDepth = () => {
+    ticking = false;
+    maxSeen = Math.max(maxSeen, depth());
+    marks.forEach(mark => {
+      if(maxSeen >= mark && !sent.has(mark)){
+        sent.add(mark);
+        KMB_ANALYTICS.track('page_scroll_depth', {
+          depth: mark,
+          max_scroll: maxSeen
+        });
+      }
+    });
+  };
+  const scheduleDepth = () => {
+    if(!ticking){
+      ticking = true;
+      requestAnimationFrame(updateDepth);
+    }
+  };
+  addEventListener('scroll', scheduleDepth, { passive:true });
+  addEventListener('resize', scheduleDepth);
+  window.setTimeout(() => {
+    maxSeen = Math.max(maxSeen, depth());
+    KMB_ANALYTICS.trackOnce('engaged_30', 'page_engaged', { seconds: 30, max_scroll: maxSeen });
+  }, 30000);
+  window.setTimeout(() => {
+    maxSeen = Math.max(maxSeen, depth());
+    KMB_ANALYTICS.trackOnce('engaged_90', 'page_engaged', { seconds: 90, max_scroll: maxSeen });
+  }, 90000);
+})();
 
 /* ---------- horizontal strips (collage, stations): drag-to-scroll for mouse/pen ---------- */
 document.querySelectorAll('.collage, .way').forEach(el => {
@@ -407,6 +735,10 @@ if(!TINA_EDIT && !useDesktopPerf()){
   const open = i => {
     lastFocus = document.activeElement;
     showAt(i); lb.classList.add('open');
+    KMB_ANALYTICS.track('portfolio_image_open', {
+      image_index: cur + 1,
+      image_label: items[cur].cap || items[cur].alt
+    });
     document.body.style.overflow = 'hidden';
     lb.querySelector('.lb-close').focus();
   };
@@ -423,31 +755,144 @@ if(!TINA_EDIT && !useDesktopPerf()){
     p.addEventListener('keydown', e => { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); open(i); } });
   });
   lb.querySelector('.lb-close').addEventListener('click', close);
-  lb.querySelector('.lb-prev').addEventListener('click', () => showAt(cur - 1));
-  lb.querySelector('.lb-next').addEventListener('click', () => showAt(cur + 1));
+  const move = (delta, method) => {
+    showAt(cur + delta);
+    KMB_ANALYTICS.track('portfolio_image_nav', {
+      direction: delta < 0 ? 'previous' : 'next',
+      method,
+      image_index: cur + 1,
+      image_label: items[cur].cap || items[cur].alt
+    });
+  };
+  lb.querySelector('.lb-prev').addEventListener('click', () => move(-1, 'button'));
+  lb.querySelector('.lb-next').addEventListener('click', () => move(1, 'button'));
   lb.addEventListener('click', e => { if(e.target === lb) close(); });
   addEventListener('keydown', e => {
     if(!lb.classList.contains('open')) return;
     if(e.key === 'Escape') close();
-    if(e.key === 'ArrowLeft') showAt(cur - 1);
-    if(e.key === 'ArrowRight') showAt(cur + 1);
+    if(e.key === 'ArrowLeft') move(-1, 'keyboard');
+    if(e.key === 'ArrowRight') move(1, 'keyboard');
   });
 })();
 
 /* ---------- form ---------- */
+const bucketFormText = value => {
+  const len = String(value || '').trim().length;
+  if(!len) return 'empty';
+  if(len <= 80) return 'short';
+  if(len <= 240) return 'medium';
+  return 'long';
+};
+const getContactFormMeta = (f) => {
+  const occasion = f.querySelector('[name=anlass]');
+  return {
+    form_context: f.dataset.trackContextKey || '',
+    form_variant: f.dataset.trackFormVariant || '',
+    source_context: f.dataset.trackSourceContext || '',
+    default_occasion: f.dataset.trackDefaultOccasion || '',
+    selected_occasion: occasion ? occasion.value : ''
+  };
+};
+const getContactFormCompletion = (f) => {
+  const fd = new FormData(f);
+  const value = name => String(fd.get(name) || '').trim();
+  const fields = ['anlass','datum','ort','wunschmusik','umfang','nachricht'];
+  return {
+    occasion_selected: Boolean(value('anlass')),
+    has_date: Boolean(value('datum')),
+    has_place: Boolean(value('ort')),
+    has_music: Boolean(value('wunschmusik')),
+    has_scope: Boolean(value('umfang')),
+    message_bucket: bucketFormText(value('nachricht')),
+    optional_fields_count: fields.filter(name => Boolean(value(name))).length
+  };
+};
+const getContactFormTrackingData = (f) => ({
+  ...getContactFormMeta(f),
+  ...getContactFormCompletion(f),
+  ...KMB_ANALYTICS.attributionData()
+});
 const anfrageForm = document.getElementById('anfrageForm');
 if(anfrageForm){
+  let formStarted = false;
+  let formSubmitted = false;
+  let abandonTracked = false;
+  const trackFormStart = e => {
+    if(formStarted) return;
+    formStarted = true;
+    KMB_ANALYTICS.track('contact_form_start', {
+      ...getContactFormMeta(anfrageForm),
+      first_field: e.target && e.target.name ? e.target.name : '',
+      ...KMB_ANALYTICS.attributionData()
+    });
+  };
+  const trackFormAbandon = (trigger) => {
+    if(abandonTracked || !formStarted || formSubmitted) return;
+    abandonTracked = true;
+    KMB_ANALYTICS.track('contact_form_abandon', {
+      ...getContactFormTrackingData(anfrageForm),
+      abandon_trigger: trigger
+    });
+  };
+  if('IntersectionObserver' in window){
+    const viewObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          KMB_ANALYTICS.trackOnce('contact_form_view', 'contact_form_view', {
+            ...getContactFormMeta(anfrageForm),
+            ...KMB_ANALYTICS.attributionData()
+          });
+          viewObserver.disconnect();
+        }
+      });
+    }, { threshold: 0.35 });
+    viewObserver.observe(anfrageForm);
+  } else {
+    KMB_ANALYTICS.trackOnce('contact_form_view', 'contact_form_view', {
+      ...getContactFormMeta(anfrageForm),
+      ...KMB_ANALYTICS.attributionData()
+    });
+  }
+  window.addEventListener('pagehide', () => trackFormAbandon('pagehide'));
+  document.addEventListener('visibilitychange', () => {
+    if(document.visibilityState === 'hidden') trackFormAbandon('visibility_hidden');
+  });
+  anfrageForm.addEventListener('input', trackFormStart, true);
+  anfrageForm.addEventListener('change', trackFormStart, true);
   anfrageForm.addEventListener('submit', async e=>{
     e.preventDefault();
-    const f=e.target; if(!f.checkValidity()){ f.reportValidity(); return; }
+    const f=e.target;
+    if(!f.checkValidity()){
+      const invalid = [...f.elements]
+        .filter(el => el.willValidate && !el.checkValidity())
+        .map(el => el.name || el.id || el.type)
+        .filter(Boolean);
+      KMB_ANALYTICS.track('contact_form_validation_error', {
+        ...getContactFormMeta(f),
+        ...getContactFormCompletion(f),
+        invalid_count: invalid.length,
+        invalid_fields: invalid,
+        ...KMB_ANALYTICS.attributionData()
+      });
+      f.reportValidity();
+      return;
+    }
     const btn = f.querySelector('button[type=submit]');
     const orig = btn.innerHTML;
-    const ok = document.getElementById('formOk');
+    const ok = f.querySelector('#formOk,.form-ok');
     const successText = ok ? ok.dataset.success || ok.textContent : '';
     if(ok){ ok.style.display='none'; ok.classList.remove('is-error'); ok.textContent = successText; }
     btn.disabled = true; btn.setAttribute('aria-busy', 'true'); btn.textContent = 'Wird gesendet ...';
     try {
-      const payload = Object.fromEntries(new FormData(f).entries());
+      const attributionPayload = KMB_ANALYTICS.attributionData();
+      const payload = {
+        ...Object.fromEntries(new FormData(f).entries()),
+        ...attributionPayload
+      };
+      KMB_ANALYTICS.track(payload.website ? 'contact_form_honeypot_submit' : 'contact_form_submit_attempt', {
+        ...getContactFormTrackingData(f)
+      });
+      formSubmitted = true;
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -460,10 +905,19 @@ if(anfrageForm){
         err.status = res.status;
         throw err;
       }
+      KMB_ANALYTICS.track('contact_form_success', {
+        ...getContactFormTrackingData(f),
+        delivery: result && result.queued ? 'queued' : 'api'
+      });
       if(ok){ ok.textContent = successText; ok.style.display='block'; }
       btn.removeAttribute('aria-busy');
       btn.textContent='Gesendet';
     } catch(err) {
+      KMB_ANALYTICS.track('contact_form_error', {
+        ...getContactFormTrackingData(f),
+        error_type: err && err.message === 'validation' ? 'validation' : (err && err.status ? 'http_' + err.status : 'network'),
+        status: err && err.status ? err.status : undefined
+      });
       btn.disabled = false; btn.removeAttribute('aria-busy'); btn.innerHTML = orig;
       const mail = document.querySelector('.contact-aside a.cv');
       if(ok){
@@ -483,7 +937,15 @@ if(anfrageForm){
 document.querySelectorAll('.video-frame').forEach(frame=>{
   const id=frame.dataset.yt;
   if(!id) return;
+  let opened=false;
   const open=()=>{
+    if(opened) return;
+    opened=true;
+    KMB_ANALYTICS.track('video_play', {
+      video_provider: 'youtube_nocookie',
+      video_id: id,
+      link_area: areaForTracking(frame)
+    });
     frame.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0" title="Video" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
   };
   frame.addEventListener('click', open);
@@ -515,14 +977,59 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
   if(!buttons.length) return;
   const tracks=buttons.map(b=>({
     t: b.dataset.title || '', c: b.dataset.composer || '',
+    index: parseInt(b.dataset.index || '0', 10) || buttons.indexOf(b) + 1,
     src: b.dataset.src || '', root: parseFloat(b.dataset.root || '261.63'),
     art: b.dataset.art || '', artAlt: b.dataset.artAlt || '',
     durEl: b.querySelector('.td')
   }));
-  buttons.forEach((b,i)=>b.addEventListener('click',()=>select(i,true)));
+  const trackCount=tracks.length;
+  const realTrackCount=tracks.filter(t => Boolean(t.src)).length;
+  const audioMeta = (i, extra={}) => {
+    const tr=tracks[i] || {};
+    return {
+      track_index: tr.index || i + 1,
+      track_title: tr.t,
+      composer: tr.c,
+      has_audio: Boolean(tr.src),
+      track_count: trackCount,
+      real_track_count: realTrackCount,
+      ...extra
+    };
+  };
+  const rememberAudioInterest = (i, engaged=false) => {
+    const tr=tracks[i] || {};
+    const data = {
+      audio_last_track: tr.t,
+      audio_last_index: tr.index || i + 1
+    };
+    if(engaged) data.audio_engaged = true;
+    KMB_ANALYTICS.rememberInteraction(data);
+  };
+  if(player && 'IntersectionObserver' in window){
+    const playerViewObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          KMB_ANALYTICS.trackOnce('portfolio_audio_view', 'portfolio_audio_view', {
+            track_count: trackCount,
+            real_track_count: realTrackCount
+          });
+          playerViewObserver.disconnect();
+        }
+      });
+    }, { threshold: 0.35 });
+    playerViewObserver.observe(player);
+  } else {
+    KMB_ANALYTICS.trackOnce('portfolio_audio_view', 'portfolio_audio_view', {
+      track_count: trackCount,
+      real_track_count: realTrackCount
+    });
+  }
+  buttons.forEach((b,i)=>b.addEventListener('click',()=>select(i,true,'playlist')));
 
   let ctx, analyser, data, synthGain, mediaGain, audioEl=null, nodes=[];
   let current=0, playing=false, raf, startedAt=0, mode='synth', playAttempt=0;
+  const progressMarks = [25, 50, 75, 90];
+  const progressSent = new Set();
 
   function ensure(){
     if(ctx) return;
@@ -537,7 +1044,10 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
   function ensureAudioEl(){
     if(audioEl) return;
     audioEl=new Audio(); audioEl.preload='metadata';
-    audioEl.addEventListener('ended',()=>{ if(current<tracks.length-1){ select(current+1,true); } else { pause(); } });
+    audioEl.addEventListener('ended',()=>{
+      KMB_ANALYTICS.track('portfolio_audio_complete', audioMeta(current, { mode: 'media' }));
+      if(current<tracks.length-1){ select(current+1,true,'autoplay'); } else { pause('complete'); }
+    });
     audioEl.addEventListener('loadedmetadata',()=>{
       const tr=tracks[current];
       if(tr && tr.durEl && !tr.durEl.textContent.trim() && isFinite(audioEl.duration)){
@@ -568,6 +1078,21 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
       for(let i=0;i<BARS;i++){ const v=data[i%data.length]/255; const h=6+v*94; bars[i].style.height=h+'%'; }
       const s=Math.floor(mode==='media' && audioEl ? audioEl.currentTime : ctx.currentTime-startedAt);
       elapsedEl.textContent=Math.floor(s/60)+':'+String(s%60).padStart(2,'0');
+      if(mode==='media' && audioEl && isFinite(audioEl.duration) && audioEl.duration > 0){
+        const progress=Math.floor((audioEl.currentTime / audioEl.duration) * 100);
+        progressMarks.forEach(mark => {
+          const key=current + ':' + mark;
+          if(progress >= mark && !progressSent.has(key)){
+            progressSent.add(key);
+            KMB_ANALYTICS.track('portfolio_audio_progress', audioMeta(current, {
+              progress: mark,
+              elapsed_seconds: Math.round(audioEl.currentTime),
+              duration_seconds: Math.round(audioEl.duration),
+              mode: 'media'
+            }));
+          }
+        });
+      }
     }
     raf=requestAnimationFrame(animate);
   }
@@ -631,8 +1156,9 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
     bars.forEach(b=>b.style.height='6%');
     npKick.textContent=kick;
   }
-  function play(i){
+  function play(i, trigger){
     ensure(); if(!ctx){ return; }
+    const playTrigger=trigger || 'button';
     const attempt=++playAttempt;
     if(ctx.state==='suspended') ctx.resume();
     stopNodes();
@@ -645,21 +1171,41 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
       const abs=new URL(tr.src, location.href).href;
       if(audioEl.src!==abs){ audioEl.src=tr.src; }
       audioEl.play()
-        .then(()=>{ if(attempt!==playAttempt) return; npKick.textContent='Aufnahme läuft'; setPlaying(); })
-        .catch(()=>{ if(attempt!==playAttempt) return; setStopped('Wiedergabe nicht möglich'); });
+        .then(()=>{ if(attempt!==playAttempt) return; rememberAudioInterest(i, true); KMB_ANALYTICS.track('portfolio_audio_play', audioMeta(i, { trigger: playTrigger, mode: 'media' })); npKick.textContent='Aufnahme läuft'; setPlaying(); })
+        .catch(()=>{ if(attempt!==playAttempt) return; KMB_ANALYTICS.track('portfolio_audio_error', audioMeta(i, { trigger: playTrigger, mode: 'media', error_type: 'play_failed' })); setStopped('Wiedergabe nicht möglich'); });
       return;
     } else {
       mode='synth'; startVoice(tr.root); startedAt=ctx.currentTime;
       npKick.textContent='Klangskizze läuft';
     }
+    rememberAudioInterest(i, true);
+    KMB_ANALYTICS.track('portfolio_audio_play', audioMeta(i, { trigger: playTrigger, mode: 'synth' }));
     setPlaying();
   }
-  function pause(){
+  function pause(trigger){
     playAttempt++;
+    if(playing && trigger !== 'complete'){
+      KMB_ANALYTICS.track('portfolio_audio_pause', audioMeta(current, {
+        trigger: trigger || 'button',
+        mode,
+        elapsed_seconds: mode === 'media' && audioEl ? Math.round(audioEl.currentTime) : (ctx ? Math.round(ctx.currentTime - startedAt) : 0)
+      }));
+    }
     if(mode==='media' && audioEl){ audioEl.pause(); }
     else if(ctx){ synthGain.gain.cancelScheduledValues(ctx.currentTime); synthGain.gain.setValueAtTime(synthGain.gain.value, ctx.currentTime); synthGain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime+0.4); setTimeout(stopNodes,420); }
     setStopped('Pausiert');
   }
-  function select(i,autoplay){ current=i; if(playing){ play(i); } else { setMeta(i); npKick.textContent='Jetzt ausgewählt'; if(autoplay) play(i); } }
-  playBtn.addEventListener('click',()=>{ if(playing) pause(); else play(current); });
+  function select(i,autoplay,trigger){
+    if(trigger === 'playlist'){
+      rememberAudioInterest(i, false);
+      KMB_ANALYTICS.track('portfolio_audio_track_select', audioMeta(i, {
+        trigger,
+        autoplay: Boolean(autoplay)
+      }));
+    }
+    current=i;
+    if(playing){ play(i, trigger || 'select'); }
+    else { setMeta(i); npKick.textContent='Jetzt ausgewählt'; if(autoplay) play(i, trigger || 'select'); }
+  }
+  playBtn.addEventListener('click',()=>{ if(playing) pause('button'); else play(current,'button'); });
 })();

@@ -8,6 +8,7 @@ const tracks = (data.tracks ?? []).filter((t: unknown) => t !== null);
 const first = tracks[0];
 const firstTrack = first as any;
 const hasReal = tracks.some((t: any) => t.src);
+const realTrackCount = tracks.filter((t: any) => t?.src).length;
 const pad2 = (n: number) => String(n).padStart(2, '0');
 const firstArt = firstTrack?.art?.src ?? data.art?.src ?? '/uploads/mq0uz91j-viola-6668608_1280.webp';
 const firstArtAlt = firstTrack?.art?.alt ?? data.art?.alt ?? '';
@@ -22,7 +23,13 @@ const firstArtAlt = firstTrack?.art?.alt ?? data.art?.alt ?? '';
 			{data.castText && <p class="lead" style="margin-top:8px;" data-tina-field={tinaField(data, 'castText')}>{data.castText}</p>}
 		</div>
 
-		<div class="player reveal d1" id="player">
+		<div
+			class="player reveal d1"
+			id="player"
+			data-track-player="portfolio_audio"
+			data-track-count={tracks.length}
+			data-track-real-count={realTrackCount}
+		>
 			<div class="player-now">
 				<div class="player-art">
 					<Img
@@ -42,7 +49,7 @@ const firstArtAlt = firstTrack?.art?.alt ?? data.art?.alt ?? '';
 					<div class="pc" id="npComposer">{first?.composer ?? ''}</div>
 				</div>
 				<div class="player-ctrl">
-					<button class="pbtn play" id="playBtn" aria-label="Abspielen">
+					<button class="pbtn play" id="playBtn" aria-label="Abspielen" data-track-control="audio_toggle">
 						<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" id="playIcon"><path d="M8 5v14l11-7z"/></svg>
 					</button>
 				</div>
@@ -55,6 +62,7 @@ const firstArtAlt = firstTrack?.art?.alt ?? data.art?.alt ?? '';
 						class={`track${i === 0 ? ' active' : ''}`}
 						type="button"
 						data-src={normalizeSrc(t.src) || undefined}
+						data-index={i + 1}
 						data-title={t.title}
 						data-composer={t.composer ?? ''}
 						data-dur={t.dur ?? ''}
