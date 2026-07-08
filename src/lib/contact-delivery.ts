@@ -701,7 +701,8 @@ function createInternalEmail(inquiry: Inquiry, options: { from: string; to: stri
 
 function createConfirmationEmail(inquiry: Inquiry, options: { from: string; replyTo: string }): ResendEmailPayload {
 	const firstName = oneLine(inquiry.name).split(/\s+/)[0] || inquiry.name;
-	const label = inquiryLabel(inquiry);
+	const replySubject = `Ergänzung zu meiner Anfrage bei ${BRAND_NAME}`;
+	const replyHref = `mailto:${escapeAttr(options.replyTo)}?subject=${encodeURIComponent(replySubject)}`;
 
 	return {
 		from: options.from,
@@ -710,16 +711,14 @@ function createConfirmationEmail(inquiry: Inquiry, options: { from: string; repl
 		subject: `Danke für deine Anfrage bei ${BRAND_NAME}`,
 		text: createConfirmationText(inquiry, options.replyTo),
 		html: emailShell({
-			preheader: `Danke, ${firstName} - deine Anfrage ist angekommen.`,
+			preheader: 'Deine E-Mail ist angekommen.',
 			kicker: 'Anfrage erhalten',
 			title: `Danke, ${firstName}`,
-			intro: 'Deine Nachricht ist angekommen. Ich prüfe die Eckdaten und melde mich so bald wie möglich persönlich zurück.',
-			badge: label,
+			intro: 'Deine E-Mail ist angekommen. Ich melde mich so bald wie möglich persönlich bei dir zurück.',
+			badge: 'Anfrage angekommen',
 			body: `
-				${sectionTitle('Deine Angaben')}
-				${detailsTable(detailRows(inquiry, false))}
-				${messageBlock(inquiry.message, 'Deine Nachricht')}
-				${noticeBox('Falls du noch etwas ergänzen möchtest, antworte einfach auf diese E-Mail. Deine Antwort landet direkt bei mir.')}
+				${noticeBox(`Falls du noch etwas ergänzen möchtest, antworte einfach auf diese E-Mail oder schreibe direkt an ${options.replyTo}.`)}
+				${buttonLink(replyHref, 'Ergänzung senden')}
 			`,
 			footer: `${BRAND_NAME} · Viola, Unterricht und Musik für besondere Anlässe`,
 		}),
@@ -759,20 +758,10 @@ function createConfirmationText(inquiry: Inquiry, replyTo: string): string {
 	return [
 		`Hallo ${oneLine(inquiry.name)},`,
 		'',
-		'vielen Dank für deine Anfrage. Deine Nachricht ist angekommen.',
-		'Ich prüfe die Eckdaten und melde mich so bald wie möglich persönlich zurück.',
+		'vielen Dank für deine Anfrage. Deine E-Mail ist angekommen.',
+		'Ich melde mich so bald wie möglich persönlich bei dir zurück.',
 		'',
-		'Deine Angaben:',
-		`Anlass: ${inquiry.occasion || inquiry.formVariant || '(nicht angegeben)'}`,
-		`Datum / Zeitraum: ${inquiry.date || '(nicht angegeben)'}`,
-		`Ort / Location: ${inquiry.place || '(nicht angegeben)'}`,
-		`Wunschmusik / Stücke: ${inquiry.requestedMusic || '(nicht angegeben)'}`,
-		`Umfang / Dauer: ${inquiry.scope || '(nicht angegeben)'}`,
-		'',
-		'Nachricht:',
-		inquiry.message || '(keine Nachricht)',
-		'',
-		`Falls du noch etwas ergänzen möchtest, antworte einfach auf diese E-Mail oder schreibe an ${replyTo}.`,
+		`Falls du noch etwas ergänzen möchtest, antworte einfach auf diese E-Mail oder schreibe direkt an ${replyTo}.`,
 		'',
 		'Herzliche Grüße',
 		BRAND_NAME,
