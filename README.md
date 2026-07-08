@@ -123,7 +123,7 @@ Use `.env.example` as the reference. Local secret files are ignored by Git.
 | `TINA_TOKEN` | For Tina Cloud | Read token for Tina content APIs |
 | `RESEND_API_KEY` | For contact form email delivery | Sends `/api/contact` mail |
 | `CONTACT_TO_EMAIL` | For contact form email delivery | Recipient address |
-| `CONTACT_FROM_EMAIL` | Recommended for email delivery | Verified sender address; also enables the customer confirmation email |
+| `CONTACT_FROM_EMAIL` | Recommended for email delivery | Verified sender address with display name, e.g. `Kim Marie Borger <anfrage@kim-marie-borger.com>`; also enables the customer confirmation email |
 | `CONTACT_REPLY_EMAIL` | Optional for contact form email delivery | Reply-To address for the customer confirmation; falls back to `CONTACT_TO_EMAIL` |
 | `KV_REST_API_URL` / `KV_REST_API_TOKEN` | Recommended for reliable contact delivery | Durable Vercel KV / Upstash REST outbox for contact form submissions |
 | `CONTACT_OUTBOX_REST_URL` / `CONTACT_OUTBOX_REST_TOKEN` | Optional for reliable contact delivery | Custom outbox REST credentials instead of the Vercel KV variable names |

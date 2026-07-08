@@ -162,7 +162,7 @@ export function getContactDeliveryConfig(env: Record<string, unknown>): ContactD
 	const to = str(env.CONTACT_TO_EMAIL, 300);
 	if (!apiKey || !to) return null;
 
-	const configuredFrom = str(env.CONTACT_FROM_EMAIL, 300);
+	const configuredFrom = senderAddress(str(env.CONTACT_FROM_EMAIL, 300));
 	return {
 		apiKey,
 		to,
@@ -1044,6 +1044,15 @@ function oneLine(value: string): string {
 
 function subjectText(value: string): string {
 	return oneLine(value).replace(/<[^>]*>/g, '').replace(/[<>]/g, '');
+}
+
+function senderAddress(value: string): string {
+	const clean = oneLine(value);
+	if (!clean) return '';
+	if (/^[^<>\s@]+@[^<>\s@]+\.[^<>\s@]+$/.test(clean)) {
+		return `${BRAND_NAME} <${clean}>`;
+	}
+	return clean;
 }
 
 function nl2br(value: string): string {
