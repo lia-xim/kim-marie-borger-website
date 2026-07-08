@@ -6,6 +6,7 @@ import {
 	getContactAnalyticsConfig,
 	getContactDeliveryConfig,
 	getContactOutboxConfig,
+	getRuntimeEnv,
 	markOutboxError,
 	readInquiry,
 	saveOutboxRecord,
@@ -38,7 +39,8 @@ export const POST: APIRoute = async ({ request }) => {
 		return json({ error: 'validation' }, 422);
 	}
 
-	const outboxConfig = getContactOutboxConfig(import.meta.env);
+	const env = getRuntimeEnv(import.meta.env);
+	const outboxConfig = getContactOutboxConfig(env);
 	let outboxSaved = false;
 	let record = createOutboxRecord(inquiry);
 
@@ -51,7 +53,7 @@ export const POST: APIRoute = async ({ request }) => {
 		}
 	}
 
-	const deliveryConfig = getContactDeliveryConfig(import.meta.env);
+	const deliveryConfig = getContactDeliveryConfig(env);
 	if (!deliveryConfig) {
 		if (outboxConfig && outboxSaved) {
 			record = markOutboxError(record, 'Resend is not configured');
@@ -68,19 +70,19 @@ export const POST: APIRoute = async ({ request }) => {
 	}
 
 	if (result.ok) {
-		await trackContactAnalyticsSafely(record, 'sent');
+		await trackContactAnalyticsSafely(record, 'sent', env);
 		return json({ ok: true, queued: false }, 200);
 	}
 
 	console.error('Contact delivery failed', result.errors);
 
 	if (outboxConfig && outboxSaved) {
-		await trackContactAnalyticsSafely(record, 'queued');
+		await trackContactAnalyticsSafely(record, 'queued', env);
 		return json({ ok: true, queued: true }, 200);
 	}
 
 	if (record.delivery.internal.sentAt) {
-		await trackContactAnalyticsSafely(record, 'confirmation_failed');
+		await trackContactAnalyticsSafely(record, 'confirmation_failed', env);
 		return json({ ok: true, queued: false, warning: 'confirmation-failed' }, 200);
 	}
 
@@ -90,8 +92,9 @@ export const POST: APIRoute = async ({ request }) => {
 async function trackContactAnalyticsSafely(
 	record: ContactOutboxRecord,
 	deliveryStatus: ContactAnalyticsDeliveryStatus,
+	env: Record<string, unknown>,
 ): Promise<void> {
-	const analyticsConfig = getContactAnalyticsConfig(import.meta.env);
+	const analyticsConfig = getContactAnalyticsConfig(env);
 	if (!analyticsConfig) return;
 	try {
 		await trackContactServerEvent(analyticsConfig, record, deliveryStatus);

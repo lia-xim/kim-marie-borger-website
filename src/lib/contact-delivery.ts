@@ -129,6 +129,13 @@ const DEFAULT_ALERT_AFTER_ATTEMPTS = 2;
 const DEFAULT_UMAMI_HOST_URL = 'https://analytics.contextter.com';
 const DEFAULT_UMAMI_HOSTNAME = 'www.kim-marie-borger.de';
 
+export function getRuntimeEnv(metaEnv: Record<string, unknown>): Record<string, unknown> {
+	return {
+		...metaEnv,
+		...(typeof process !== 'undefined' ? process.env : {}),
+	};
+}
+
 export function readInquiry(body: Record<string, unknown>): Inquiry {
 	return {
 		name: str(body.name, 200),
