@@ -18,7 +18,7 @@ const { data } = Astro.props;
 				<span class="line"><span class="t" data-tina-field={tinaField(data, 'nameLine1')}>{data.nameLine1}</span></span>
 				<span class="line"><span class="t it" data-tina-field={tinaField(data, 'nameLine2')}>{data.nameLine2}</span></span>
 			</h1>
-			<p class="hero-tag ho ho-2" data-tina-field={tinaField(data, 'taglineBefore')}>{data.taglineBefore}&nbsp;<em style="color:var(--brass-hi)">{data.taglineAccent}</em></p>
+			<p class="hero-tag ho ho-2"><span data-tina-field={tinaField(data, 'taglineBefore')}>{data.taglineBefore}&nbsp;</span><em style="color:var(--brass-hi)" data-tina-field={tinaField(data, 'taglineAccent')}>{data.taglineAccent}</em></p>
 			{data.sub && <p class="hero-sub ho ho-2" data-tina-field={tinaField(data, 'sub')}>{data.sub}</p>}
 			<div class="hero-actions ho ho-3">
 				{data.primaryCta?.label && <a href={normalizeHref(data.primaryCta.link)} class="btn btn-solid" data-tina-field={tinaField(data, 'primaryCta')}>{data.primaryCta.label} <span class="ar">→</span></a>}

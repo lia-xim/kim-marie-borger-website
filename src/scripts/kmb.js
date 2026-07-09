@@ -47,7 +47,7 @@ const initDeferredImages = (root, eager=false) => {
       loadDeferredImage(e.target);
       io.unobserve(e.target);
     }
-  }), { rootMargin:'240px 0px', threshold:0.01 });
+  }), { rootMargin:'480px 0px', threshold:0.01 });
   imgs.forEach(img => io.observe(img));
 };
 
@@ -598,38 +598,6 @@ if(!TINA_EDIT && !useDesktopPerf()){
   document.querySelectorAll('[data-parallax]').forEach(el => { el.style.transform = ''; });
 })();
 
-/* ---------- staged image reveal: images load in with a stagger ---------- */
-(function(){
-  if(TINA_EDIT) return;
-  if(!canAnimate() || useDesktopPerf()) return;
-  const imgs = [...document.querySelectorAll(
-    '.gal-card img, .polaroid img, .tframe img, .figure .frame img, .arch-in img, .video-frame > img'
-  )];
-  if(!imgs.length) return;
-  const counts = new Map();
-  imgs.forEach(img => {
-    const group = img.closest('.gal, .collage, .twin') || img.parentElement;
-    const i = counts.get(group) || 0;
-    counts.set(group, i + 1);
-    img.style.setProperty('--ird', (Math.min(i, 11) * 90) + 'ms');
-    img.classList.add('ir');
-  });
-  const show = img => {
-    const reveal = () => img.classList.add('ir-in');
-    if(img.dataset.src && img.dataset.deferLoaded !== 'true'){
-      img.addEventListener('load', reveal, { once:true });
-      loadDeferredImage(img);
-      return;
-    }
-    if(img.complete && img.naturalWidth) reveal();
-    else img.addEventListener('load', reveal, { once:true });
-  };
-  const io = new IntersectionObserver(es => es.forEach(e => {
-    if(e.isIntersecting){ show(e.target); io.unobserve(e.target); }
-  }), { rootMargin:'0px 0px -6% 0px', threshold:.05 });
-  imgs.forEach(img => io.observe(img));
-})();
-
 /* ---------- magnetic buttons: intentionally disabled for steadier desktop performance ---------- */
 (function(){
   return;
@@ -1146,11 +1114,13 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
   }
   function setPlaying(){
     playing=true; player.classList.add('playing');
+    playBtn.setAttribute('aria-label','Pausieren');
     playIcon.innerHTML='<rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/>';
     cancelAnimationFrame(raf); animate();
   }
   function setStopped(kick){
     playing=false; player.classList.remove('playing');
+    playBtn.setAttribute('aria-label','Abspielen');
     cancelAnimationFrame(raf);
     playIcon.innerHTML='<path d="M8 5v14l11-7z"/>';
     bars.forEach(b=>b.style.height='6%');
@@ -1171,8 +1141,14 @@ document.querySelectorAll('.video-frame').forEach(frame=>{
       const abs=new URL(tr.src, location.href).href;
       if(audioEl.src!==abs){ audioEl.src=tr.src; }
       audioEl.play()
-        .then(()=>{ if(attempt!==playAttempt) return; rememberAudioInterest(i, true); KMB_ANALYTICS.track('portfolio_audio_play', audioMeta(i, { trigger: playTrigger, mode: 'media' })); npKick.textContent='Aufnahme läuft'; setPlaying(); })
-        .catch(()=>{ if(attempt!==playAttempt) return; KMB_ANALYTICS.track('portfolio_audio_error', audioMeta(i, { trigger: playTrigger, mode: 'media', error_type: 'play_failed' })); setStopped('Wiedergabe nicht möglich'); });
+        .then(()=>{ if(attempt!==playAttempt) return; player.removeAttribute('data-audio-error'); rememberAudioInterest(i, true); KMB_ANALYTICS.track('portfolio_audio_play', audioMeta(i, { trigger: playTrigger, mode: 'media' })); npKick.textContent='Aufnahme läuft'; setPlaying(); })
+        .catch((error)=>{
+          if(attempt!==playAttempt) return;
+          const errorName=error && error.name ? error.name : 'play_failed';
+          player.dataset.audioError=errorName;
+          KMB_ANALYTICS.track('portfolio_audio_error', audioMeta(i, { trigger: playTrigger, mode: 'media', error_type: 'play_failed', error_name: errorName }));
+          setStopped('Wiedergabe nicht möglich');
+        });
       return;
     } else {
       mode='synth'; startVoice(tr.root); startedAt=ctx.currentTime;

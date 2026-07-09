@@ -2,8 +2,9 @@
 import { tinaField } from '@tinacms/astro/tina-field';
 import Img from '../Img.astro';
 import { normalizeSrc } from '../../lib/img';
+import { normalizeHref } from '../../lib/url';
 
-const { data } = Astro.props;
+const { data, context = 'portfolio' } = Astro.props;
 const tracks = (data.tracks ?? []).filter((t: unknown) => t !== null);
 const first = tracks[0];
 const firstTrack = first as any;
@@ -13,7 +14,7 @@ const pad2 = (n: number) => String(n).padStart(2, '0');
 const firstArt = firstTrack?.art?.src ?? data.art?.src ?? '/uploads/mq0uz91j-viola-6668608_1280.webp';
 const firstArtAlt = firstTrack?.art?.alt ?? data.art?.alt ?? '';
 ---
-<section class="section bg-paper2">
+<section class={`section bg-paper2 audio-section audio-section-${context}`} data-audio-context={context}>
 	<div class="wrap audio-split">
 		<div class="reveal">
 			{data.eyebrow && <p class="eyebrow" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
@@ -37,8 +38,8 @@ const firstArtAlt = firstTrack?.art?.alt ?? data.art?.alt ?? '';
 						src={firstArt}
 						alt={firstArtAlt}
 						sizes="120px"
-						loading="eager"
-						fetchpriority="high"
+						loading="lazy"
+						fetchpriority="low"
 						data-tina-field={firstTrack?.art ? tinaField(firstTrack, 'art') : (data.art ? tinaField(data, 'art') : undefined)}
 					/>
 					<img class="player-art-next" alt="" aria-hidden="true" decoding="async" />
@@ -78,5 +79,10 @@ const firstArtAlt = firstTrack?.art?.alt ?? data.art?.alt ?? '';
 			</div>
 			{data.note && <div class="player-foot" data-tina-field={tinaField(data, 'note')}><span class="pip"></span>{data.note}</div>}
 		</div>
+		{context === 'home' && (
+			<div class="audio-home-link reveal">
+				<a href={normalizeHref('/portfolio')} class="link-line">Alle Hörproben &amp; Referenzen ansehen <span class="ar">&rarr;</span></a>
+			</div>
+		)}
 	</div>
 </section>

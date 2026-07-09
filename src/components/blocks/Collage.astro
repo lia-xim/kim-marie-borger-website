@@ -18,9 +18,9 @@ const items = (data.items ?? []).filter((i: unknown) => i !== null);
 		<div class="collage reveal d1">
 			{items.map((item: any, i: number) => (
 				<figure class={`polaroid p${i + 1}`} data-tina-field={tinaField(item)}>
-					<Img src={item.image?.src} alt={item.image?.alt ?? ''} sizes="(max-width: 700px) 62vw, 340px" />
-					{item.tag && <span class="pl-tag">{item.tag}</span>}
-					{item.label && <figcaption class="pl-label">{item.label}</figcaption>}
+					<Img src={item.image?.src} alt={item.image?.alt ?? ''} sizes="(max-width: 700px) 62vw, 340px" data-tina-field={tinaField(item, 'image')} />
+					{item.tag && <span class="pl-tag" data-tina-field={tinaField(item, 'tag')}>{item.tag}</span>}
+					{item.label && <figcaption class="pl-label" data-tina-field={tinaField(item, 'label')}>{item.label}</figcaption>}
 				</figure>
 			))}
 			{data.ribbon && <div class="ribbon" data-tina-field={tinaField(data, 'ribbon')}>{data.ribbon}</div>}

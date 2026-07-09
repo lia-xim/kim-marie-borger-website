@@ -13,8 +13,8 @@ const delays = ['', ' d1', ' d2'];
 			{items.map((item: any, i: number) => (
 				<div class={`step reveal${delays[i % 3]}`} data-tina-field={tinaField(item)}>
 					<span class="no">{item.num}</span>
-					<h3>{item.title}</h3>
-					<p>{item.text}</p>
+					<h3 data-tina-field={tinaField(item, 'title')}>{item.title}</h3>
+					<p data-tina-field={tinaField(item, 'text')}>{item.text}</p>
 				</div>
 			))}
 		</div>

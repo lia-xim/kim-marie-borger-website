@@ -19,20 +19,20 @@ const titleLines: string[] = (data.title ?? '').split('\n');
 		<div class="gal cols-4 reveal d1">
 			{items.map((item: any) => item.image?.src ? (
 				<a class="gal-card" href={normalizeHref(item.href)} data-tina-field={tinaField(item)}>
-					<Img src={item.image.src} alt={item.image.alt ?? ''} sizes="(max-width: 1100px) 46vw, 23vw" loading="lazy" decoding="async" />
+					<Img src={item.image.src} alt={item.image.alt ?? ''} sizes="(max-width: 1100px) 46vw, 23vw" loading="lazy" decoding="async" data-tina-field={tinaField(item, 'image')} />
 					<span class="gc-body">
-						<span class="gc-title">{item.title}</span>
-						<span class="gc-poet">{item.poet}</span>
-						<span class="gc-link">{item.linkLabel ?? 'Zum Kapitel'} <span class="ar">→</span></span>
+						<span class="gc-title" data-tina-field={tinaField(item, 'title')}>{item.title}</span>
+						<span class="gc-poet" data-tina-field={tinaField(item, 'poet')}>{item.poet}</span>
+						<span class="gc-link" data-tina-field={tinaField(item, 'linkLabel')}>{item.linkLabel ?? 'Zum Kapitel'} <span class="ar">→</span></span>
 					</span>
 				</a>
 			) : (
 				<a class="gal-card gc-plain" href={normalizeHref(item.href)} data-tina-field={tinaField(item)}>
 					<span class="gc-body">
-						<span class="gc-title">{item.title}</span>
+						<span class="gc-title" data-tina-field={tinaField(item, 'title')}>{item.title}</span>
 						<span class="gc-rule" aria-hidden="true"></span>
-						<span class="gc-poet">{item.poet}</span>
-						<span class="gc-link">{item.linkLabel ?? 'Zum Kapitel'} <span class="ar">→</span></span>
+						<span class="gc-poet" data-tina-field={tinaField(item, 'poet')}>{item.poet}</span>
+						<span class="gc-link" data-tina-field={tinaField(item, 'linkLabel')}>{item.linkLabel ?? 'Zum Kapitel'} <span class="ar">→</span></span>
 					</span>
 				</a>
 			))}

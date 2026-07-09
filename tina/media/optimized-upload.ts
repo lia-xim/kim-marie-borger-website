@@ -35,6 +35,7 @@ type MediaStoreLike = {
 
 type TinaCmsLike = {
 	media?: {
+		pageSize?: number;
 		store?: MediaStoreLike & { __kmbOptimizedUpload?: boolean };
 	};
 	alerts?: {
@@ -62,6 +63,12 @@ type OptimizedUpload = {
 export function installOptimizedMediaUpload(cms: TinaCmsLike): TinaCmsLike {
 	const store = cms.media?.store;
 	if (!store?.persist || store.__kmbOptimizedUpload) return cms;
+
+	// Tina's grid eagerly renders one thumbnail for every item on the current
+	// page. Keep the initial request deliberately small so image-heavy folders
+	// become usable quickly; the manager's existing pagination still exposes
+	// every remaining asset.
+	if (cms.media) cms.media.pageSize = 18;
 
 	const persist = store.persist.bind(store);
 	const list = store.list?.bind(store);
@@ -302,7 +309,11 @@ function withPreviewFallback(item: MediaItem): MediaItem {
 
 	const thumbnails = { ...(item.thumbnails ?? {}) };
 	for (const key of ['75x75', '400x400', '1000x1000']) {
-		if (!thumbnails[key] || /\.(webp|avif)(\?.*)?$/i.test(thumbnails[key])) {
+		// Tina's generated thumbnail URLs intentionally retain the source
+		// extension, e.g. image.webp?fit=crop&max-w=400. Replacing those URLs
+		// with directPreview makes the media grid download full-size originals.
+		// Only fall back when the store did not provide a thumbnail at all.
+		if (!thumbnails[key]) {
 			thumbnails[key] = directPreview;
 		}
 	}

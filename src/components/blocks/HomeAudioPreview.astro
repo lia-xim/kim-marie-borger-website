@@ -1,0 +1,10 @@
+---
+import { getPage, type PageBlock } from '../../lib/data';
+import AudioSketch from './AudioSketch.astro';
+
+const portfolio = await getPage('portfolio', {});
+const audioBlock = (portfolio.data?.page?.blocks ?? []).find(
+	(block): block is PageBlock => block?.__typename === 'PageBlocksAudioSketch',
+);
+---
+{audioBlock && <AudioSketch data={audioBlock} context="home" />}

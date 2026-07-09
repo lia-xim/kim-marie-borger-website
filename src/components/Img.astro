@@ -44,6 +44,7 @@ const decoding = rawDecoding === 'sync' || rawDecoding === 'async' || rawDecodin
 	? rawDecoding
 	: 'async';
 const deferImage = !priority && loading !== 'eager';
+const effectiveFetchPriority = fetchPriority ?? (deferImage ? 'low' : undefined);
 const actualSrc = set ? set.fallback : src;
 const actualSrcset = set?.srcset;
 const placeholderSrc = 'data:image/gif;base64,R0lGODlhAQABAAAAACw=';
@@ -62,7 +63,7 @@ const placeholderSrc = 'data:image/gif;base64,R0lGODlhAQABAAAAACw=';
 		height={dims?.height}
 		loading={loading}
 		decoding={decoding}
-		fetchpriority={fetchPriority}
+		fetchpriority={effectiveFetchPriority}
 		{...rest}
 	/>
 )}
@@ -77,6 +78,7 @@ const placeholderSrc = 'data:image/gif;base64,R0lGODlhAQABAAAAACw=';
 			height={dims?.height}
 			loading={loading}
 			decoding={decoding}
+			fetchpriority={effectiveFetchPriority}
 			{...rest}
 		/>
 	</noscript>

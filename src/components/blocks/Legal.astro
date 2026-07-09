@@ -11,8 +11,8 @@ const paragraphs = (text: string) => (text ?? '').split(/\n\s*\n/).filter((p: st
 		{data.intro && <p class="lead" style="margin-top:18px;" data-tina-field={tinaField(data, 'intro')}>{data.intro}</p>}
 		{sections.map((s: any) => (
 			<div style="margin-top:clamp(28px,4vw,44px);" data-tina-field={tinaField(s)}>
-				{s.heading && <h2 class="display-s" style="margin-bottom:12px;">{s.heading}</h2>}
-				{paragraphs(s.text).map((p: string) => <p class="lead" style="margin-top:10px;overflow-wrap:anywhere;">{p}</p>)}
+				{s.heading && <h2 class="display-s" style="margin-bottom:12px;" data-tina-field={tinaField(s, 'heading')}>{s.heading}</h2>}
+				{paragraphs(s.text).map((p: string) => <p class="lead" style="margin-top:10px;overflow-wrap:anywhere;" data-tina-field={tinaField(s, 'text')}>{p}</p>)}
 			</div>
 		))}
 	</div>

@@ -9,8 +9,8 @@ const beforeLines: string[] = (data.titleBefore ?? '').split('\n');
 <section class={`section statement${bgClass}`}>
 	<div class="wrap">
 		{data.eyebrow && <p class="eyebrow c reveal" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
-		<h2 class={small ? 'display-m reveal d1' : 'display-l reveal d1'} style={small ? 'max-width:22ch;margin:22px auto 0;' : undefined} data-tina-field={tinaFieldFrom(data, 'titleBefore')}>
-			{beforeLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}{data.highlight && <em class="ink">{data.highlight}</em>}{data.titleAfter}
+		<h2 class={small ? 'display-m reveal d1' : 'display-l reveal d1'} style={small ? 'max-width:22ch;margin:22px auto 0;' : undefined}>
+			<span data-tina-field={tinaFieldFrom(data, 'titleBefore')}>{beforeLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}</span>{data.highlight && <em class="ink" data-tina-field={tinaFieldFrom(data, 'highlight')}>{data.highlight}</em>}{data.titleAfter && <span data-tina-field={tinaFieldFrom(data, 'titleAfter')}>{data.titleAfter}</span>}
 		</h2>
 		{data.lead && !data.svgFirst && <p class="lead reveal d1" style="margin:18px auto 0;text-align:center;" data-tina-field={tinaFieldFrom(data, 'lead')}>{data.lead}</p>}
 		{data.showNotation !== false && (

@@ -25,6 +25,7 @@ import Steps from './Steps.astro';
 import Instagram from './Instagram.astro';
 import Words from './Words.astro';
 import AudioSketch from './AudioSketch.astro';
+import HomeAudioPreview from './HomeAudioPreview.astro';
 import VideoFeature from './VideoFeature.astro';
 import CtaBand from './CtaBand.astro';
 import Legal from './Legal.astro';
@@ -32,9 +33,10 @@ import type { CmsPage } from '../../lib/data';
 
 interface Props {
 	data?: CmsPage | null;
+	includeHomepageAudio?: boolean;
 }
 
-const { data } = Astro.props;
+const { data, includeHomepageAudio = false } = Astro.props;
 const blocks = (data?.blocks ?? []).filter((b) => b !== null);
 ---
 {blocks.map((block) => {
@@ -70,5 +72,11 @@ const blocks = (data?.blocks ?? []).filter((b) => b !== null);
 			case 'PageBlocksHtml': return <Html data={block} />;
 		}
 	})();
-	return <div data-tina-field={tinaField(block)}>{rendered}</div>;
+	const addHomepageAudio = includeHomepageAudio
+		&& block.__typename === 'PageBlocksCards'
+		&& block.anchorId === 'leistungen';
+	return <Fragment>
+		<div data-tina-field={tinaField(block)}>{rendered}</div>
+		{addHomepageAudio && <HomeAudioPreview />}
+	</Fragment>;
 })}
