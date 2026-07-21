@@ -23,5 +23,7 @@ export const instagramBlockSchema: Template = {
 			],
 		},
 		{ type: 'string', name: 'note', label: 'Hinweis neben dem Folgen-Button' },
+		{ type: 'string', name: 'googleProfileLabel', label: 'Google-Profil: Linktext' },
+		{ type: 'string', name: 'googleProfileUrl', label: 'Google-Profil: URL' },
 	],
 };

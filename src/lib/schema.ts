@@ -142,7 +142,11 @@ function validHttpUrl(value: unknown): value is string {
 }
 
 export function sameAsUrls(config?: CmsConfig | null): string[] {
-	return [config?.footer?.instagram, config?.footer?.youtube].filter(validHttpUrl);
+	return [
+		config?.footer?.instagram,
+		config?.footer?.youtube,
+		config?.footer?.googleBusinessProfile,
+	].filter(validHttpUrl);
 }
 
 export function siteEntityJsonLd(site: URL, config?: CmsConfig | null): SchemaNode {

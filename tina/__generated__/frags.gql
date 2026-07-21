@@ -288,6 +288,8 @@ fragment PageParts on Page {
         }
       }
       note
+      googleProfileLabel
+      googleProfileUrl
     }
     ... on PageBlocksWords {
       eyebrow
@@ -514,6 +516,7 @@ fragment ConfigParts on Config {
     sign
     instagram
     youtube
+    googleBusinessProfile
     impressum
     datenschutz
   }

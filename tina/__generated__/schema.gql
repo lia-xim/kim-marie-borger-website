@@ -424,6 +424,8 @@ type PageBlocksInstagram {
   url: String
   tiles: [PageBlocksInstagramTiles]
   note: String
+  googleProfileLabel: String
+  googleProfileUrl: String
 }
 
 type PageBlocksWordsItems {
@@ -871,6 +873,8 @@ input PageBlocksInstagramFilter {
   url: StringFilter
   tiles: PageBlocksInstagramTilesFilter
   note: StringFilter
+  googleProfileLabel: StringFilter
+  googleProfileUrl: StringFilter
 }
 
 input PageBlocksWordsItemsFilter {
@@ -1313,6 +1317,7 @@ type ConfigFooter {
   sign: String
   instagram: String
   youtube: String
+  googleBusinessProfile: String
   impressum: String
   datenschutz: String
 }
@@ -1355,6 +1360,7 @@ input ConfigFooterFilter {
   sign: StringFilter
   instagram: StringFilter
   youtube: StringFilter
+  googleBusinessProfile: StringFilter
   impressum: StringFilter
   datenschutz: StringFilter
 }
@@ -1735,6 +1741,8 @@ input PageBlocksInstagramMutation {
   url: String
   tiles: [PageBlocksInstagramTilesMutation]
   note: String
+  googleProfileLabel: String
+  googleProfileUrl: String
 }
 
 input PageBlocksWordsItemsMutation {
@@ -2019,6 +2027,7 @@ input ConfigFooterMutation {
   sign: String
   instagram: String
   youtube: String
+  googleBusinessProfile: String
   impressum: String
   datenschutz: String
 }

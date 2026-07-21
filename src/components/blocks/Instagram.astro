@@ -22,6 +22,7 @@ const url = data.url ?? '#';
 		<div class="reveal d2" style="margin-top:28px;display:flex;gap:18px;flex-wrap:wrap;align-items:center;">
 			{data.handle && <a href={url} target="_blank" rel="noopener" class="btn btn-solid" data-tina-field={tinaField(data, 'handle')}>@{data.handle} folgen <span class="ar">→</span></a>}
 			{data.note && <span class="ksmall" data-tina-field={tinaField(data, 'note')}>{data.note}</span>}
+			{data.googleProfileUrl && data.googleProfileLabel && <a href={data.googleProfileUrl} target="_blank" rel="noopener" class="link-line" data-tina-field={tinaField(data, 'googleProfileLabel')}>{data.googleProfileLabel} <span class="ar">→</span></a>}
 		</div>
 	</div>
 </section>

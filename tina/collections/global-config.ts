@@ -58,6 +58,7 @@ export const GlobalConfigCollection: Collection = {
 				{ name: 'sign', label: 'Signatur', type: 'string' },
 				{ name: 'instagram', label: 'Instagram-URL', type: 'string' },
 				{ name: 'youtube', label: 'YouTube-URL', type: 'string' },
+				{ name: 'googleBusinessProfile', label: 'Google-Unternehmensprofil-URL', type: 'string' },
 				{ name: 'impressum', label: 'Link Impressum', type: 'string' },
 				{ name: 'datenschutz', label: 'Link Datenschutz', type: 'string' },
 			],
