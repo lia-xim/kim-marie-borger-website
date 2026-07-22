@@ -3,11 +3,14 @@ import {
 	breadcrumbListNode,
 	coreServiceId,
 	coreServiceNode,
+	collectTestimonialVoices,
+	courseNode,
 	graphJsonLd,
 	offerCatalogId,
 	offerCatalogNode,
 	pageUrl,
 	personId,
+	reviewNodes,
 	webPageNode,
 } from './schema';
 
@@ -15,7 +18,7 @@ import {
  * Strukturierte Daten für die Startseite: offizielle Personenseite plus
  * sichtbarer Leistungskatalog aus den Startseiten-Kacheln.
  */
-export function homeJsonLd(site: URL, pageTitle: string, pageDescription?: string): object {
+export function homeJsonLd(site: URL, pageTitle: string, pageDescription?: string, blocks?: unknown): object {
 	return graphJsonLd([
 		webPageNode(site, '/', {
 			name: pageTitle,
@@ -24,6 +27,7 @@ export function homeJsonLd(site: URL, pageTitle: string, pageDescription?: strin
 			aboutIds: [personId(site), offerCatalogId(site)],
 		}),
 		offerCatalogNode(site),
+		...reviewNodes(site, collectTestimonialVoices(blocks)),
 	]);
 }
 
@@ -31,7 +35,7 @@ export function homeJsonLd(site: URL, pageTitle: string, pageDescription?: strin
  * Strukturierte Daten für CMS-Unterseiten: BreadcrumbList und WebPage immer,
  * Core-Service nur auf den sieben sichtbaren Anlass-/Leistungsseiten.
  */
-export function subpageJsonLd(site: URL, slug: string, pageTitle: string, pageDescription?: string): object {
+export function subpageJsonLd(site: URL, slug: string, pageTitle: string, pageDescription?: string, blocks?: unknown): object {
 	const pagePath = `/${slug}/`;
 	const page = pageUrl(site, pagePath);
 	const breadcrumb = breadcrumbListNode(site, pagePath, [
@@ -61,6 +65,10 @@ export function subpageJsonLd(site: URL, slug: string, pageTitle: string, pageDe
 		pageNode,
 		service,
 		isCatalogPage ? offerCatalogNode(site) : undefined,
+		slug === 'unterricht'
+			? courseNode(site, pagePath, { name: pageTitle, description: pageDescription })
+			: undefined,
+		...reviewNodes(site, collectTestimonialVoices(blocks)),
 	]);
 }
 

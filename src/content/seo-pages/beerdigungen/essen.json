@@ -27,22 +27,22 @@
       },
       {
         "question": "Welche Angaben brauchst du für eine Anfrage in Essen?",
-        "answer": "Am hilfreichsten sind Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewuenschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Je genauer diese Angaben sind, desto schneller kann ich Verfügbarkeit, Ablauf und Preisrahmen einschätzen."
+        "answer": "Am hilfreichsten sind Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewünschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Je genauer diese Angaben sind, desto schneller kann ich Verfügbarkeit, Ablauf und Preisrahmen einschätzen."
       },
       {
         "question": "Wie entsteht der Preis?",
         "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Abstimmung mit Bestattungshaus und Wunschmusik. Die erste Anfrage ist kostenlos und unverbindlich; ein Angebot wird erst sinnvoll, wenn der Rahmen klar ist."
       },
       {
-        "question": "Sind Wunschstuecke möglich?",
-        "answer": "Ja, wenn sie musikalisch zu Solo-Viola und zum Anlass passen. Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehoert oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+        "question": "Sind Wunschstücke möglich?",
+        "answer": "Ja, wenn sie musikalisch zu Solo-Viola und zum Anlass passen. Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
       },
       {
         "question": "Wann passt Solo-Viola besonders gut?",
-        "answer": "Solo-Viola passt, wenn ein warmer, zurueckhaltender Klang einen Abschied tragen soll. Das wirkt am besten, wenn der Moment zuhoeren darf und der Klang nicht gegen laute Umgebung anspielen muss."
+        "answer": "Solo-Viola passt, wenn ein warmer, zurückhaltender Klang einen Abschied tragen soll. Das wirkt am besten, wenn der Moment zuhören darf und der Klang nicht gegen laute Umgebung anspielen muss."
       },
       {
-        "question": "Wann ist Solo-Viola nicht die richtige Loesung?",
+        "question": "Wann ist Solo-Viola nicht die richtige Lösung?",
         "answer": "Nicht ideal ist Solo-Viola, wenn sehr laute Musik, technische Showwirkung oder spontane Stückwechsel ohne Vorbereitung erwartet werden. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
       },
       {
@@ -51,7 +51,7 @@
       },
       {
         "question": "Was kann zusätzlich kosten?",
-        "answer": "Zusätzlich kosten können längere Wartezeit, ein zweiter Spielort, kurzfristige Verlaengerung, besondere Technik, sehr kurzfristige Buchung oder neue Notation für Wunschmusik."
+        "answer": "Zusätzlich kosten können längere Wartezeit, ein zweiter Spielort, kurzfristige Verlängerung, besondere Technik, sehr kurzfristige Buchung oder neue Notation für Wunschmusik."
       }
     ]
   },
@@ -61,7 +61,7 @@
       "alt": "Trauermusik in Essen - Planungsbild 1"
     },
     {
-      "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
+      "src": "/uploads/_DSC7353.webp",
       "alt": "Trauermusik in Essen - Planungsbild 2"
     },
     {
@@ -69,7 +69,7 @@
       "alt": "Trauermusik in Essen - Planungsbild 3"
     },
     {
-      "src": "/uploads/mq0uz91j-viola-6668608_1280.webp",
+      "src": "/uploads/_DSC7353.webp",
       "alt": "Trauermusik in Essen - Planungsbild 4"
     }
   ],
@@ -77,12 +77,12 @@
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik in Essen anfragen",
-    "lead": "Schreib mir kurz Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewuenschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Ich pruefe schnell, ob Trauermusik in Essen zeitlich und organisatorisch machbar ist, und stimme mich auf Wunsch direkt mit Bestattungshaus oder Redner:in ab.",
+    "lead": "Schreib mir kurz Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewünschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Ich prüfe schnell, ob Trauermusik in Essen zeitlich und organisatorisch machbar ist, und stimme mich auf Wunsch direkt mit Bestattungshaus oder Redner:in ab.",
     "checklist": [
       "Essen",
       "Datum & Trauerort",
       "Ablauf",
-      "Wunschstuecke",
+      "Wunschstücke",
       "schnelle Rückmeldung"
     ],
     "defaultOccasion": "Trauerfeier",
@@ -90,12 +90,12 @@
     "notes": [
       "Kontaktaufnahme kostenlos und unverbindlich",
       "Kein kostenloses Vorspielen vor Ort",
-      "Vorhandenes Repertoire ohne Aufpreis; neue Notation oder Heraushoeren nach Aufwand, Orientierung ca. 30 Euro pro Song",
-      "Zusatzaufwand wie Wartezeit, Ortswechsel, Technik, Verlaengerung oder sehr kurzfristige Vorbereitung wird vor der Buchung geklaert"
+      "Vorhandenes Repertoire ohne Aufpreis; neue Notation oder Heraushören nach Aufwand, Orientierung ca. 30 Euro pro Song",
+      "Zusatzaufwand wie Wartezeit, Ortswechsel, Technik, Verlängerung oder sehr kurzfristige Vorbereitung wird vor der Buchung geklärt"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Essen klären",
-    "formSuccess": "Danke - ich pruefe deine Anfrage in Essen und melde mich persönlich mit den naechsten Schritten."
+    "formSuccess": "Danke - ich prüfe deine Anfrage in Essen und melde mich persönlich mit den nächsten Schritten."
   },
   "split": {
     "seal": "Essen\nTrauerfeier & Abschied\nLive-Viola",
@@ -110,11 +110,11 @@
       },
       {
         "strong": "Entlastung",
-        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewuenschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Wenn es hilft, stimme ich Einsaetze, Ankunft und Stückfolge direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in ab, damit die Familie nicht zusätzlich koordinieren muss."
+        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewünschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Wenn es hilft, stimme ich Einsätze, Ankunft und Stückfolge direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in ab, damit die Familie nicht zusätzlich koordinieren muss."
       },
       {
-        "strong": "Wunschstueck und Preis",
-        "text": "Vorhandene passende Stücke sind ohne Aufpreis möglich. Wenn ein persönliches Wunschstueck keine brauchbaren Noten hat, kläre ich neue Notation oder Heraushoeren vorher transparent; als Orientierung können etwa 30 Euro pro Song anfallen. Der Gesamtpreis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Abstimmung mit Bestattungshaus und Wunschmusik."
+        "strong": "Wunschstück und Preis",
+        "text": "Vorhandene passende Stücke sind ohne Aufpreis möglich. Wenn ein persönliches Wunschstück keine brauchbaren Noten hat, kläre ich neue Notation oder Heraushören vorher transparent; als Orientierung können etwa 30 Euro pro Song anfallen. Der Gesamtpreis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Abstimmung mit Bestattungshaus und Wunschmusik."
       }
     ]
   },
@@ -126,12 +126,12 @@
       {
         "rom": "Vorab",
         "title": "Ein klarer Kontakt reicht",
-        "poet": "Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewuenschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf reichen für den ersten Schritt. Danach kläre ich, ob der Termin passt und welcher musikalische Umfang sinnvoll ist."
+        "poet": "Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewünschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf reichen für den ersten Schritt. Danach kläre ich, ob der Termin passt und welcher musikalische Umfang sinnvoll ist."
       },
       {
         "rom": "Vor Ort",
         "title": "Still, pünktlich, vorbereitet",
-        "poet": "Adresse, Anfahrtsfenster, Park- oder Ladepunkt und Raumzugang sollten vorab benannt werden. Bei Musik am Grab pruefe ich zusätzlich Wetter, Untergrund, kurze Wege und ob das Instrument geschuetzt stehen kann."
+        "poet": "Adresse, Anfahrtsfenster, Park- oder Ladepunkt und Raumzugang sollten vorab benannt werden. Bei Musik am Grab prüfe ich zusätzlich Wetter, Untergrund, kurze Wege und ob das Instrument geschützt stehen kann."
       }
     ],
     "listLabel": "Mögliche musikalische Momente in Essen",

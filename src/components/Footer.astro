@@ -1,7 +1,7 @@
 ---
 import { tinaField } from '@tinacms/astro/tina-field';
 import type { CmsConfig } from '../lib/data';
-import { normalizeHref } from '../lib/url';
+import { formatPhone, instagramHandle, instagramHref, normalizeHref, telHref, whatsappHref } from '../lib/url';
 
 interface Props {
 	config?: CmsConfig | null;
@@ -10,7 +10,13 @@ interface Props {
 const { config } = Astro.props;
 const brand = config?.brand ?? null;
 const footer = config?.footer ?? null;
-const email = config?.contact?.email ?? 'kim-marie.borger@t-online.de';
+const contact = config?.contact ?? null;
+const email = contact?.email ?? 'kim-marie.borger@t-online.de';
+const phoneHref = telHref(contact?.phone);
+const phoneLabel = formatPhone(contact?.phone);
+const waHref = whatsappHref(contact?.whatsapp, 'Hallo Kim, ich habe eine Anfrage zu Live-Musik.');
+const igHref = instagramHref(contact?.instagram ?? footer?.instagram);
+const igHandle = instagramHandle(contact?.instagram ?? footer?.instagram);
 const year = new Date().getFullYear();
 ---
 
@@ -39,14 +45,16 @@ const year = new Date().getFullYear();
 				<li><a href={normalizeHref('/anfragen')}>Anfrage</a></li>
 			</ul></div>
 			<div><h4>Vor Ort</h4><ul>
-				<li><a href={normalizeHref('/hochzeiten/duesseldorf')}>Hochzeitsmusik Duesseldorf</a></li>
+				<li><a href={normalizeHref('/hochzeiten/duesseldorf')}>Hochzeitsmusik Düsseldorf</a></li>
 				<li><a href={normalizeHref('/beerdigungen/wuppertal')}>Trauermusik Wuppertal</a></li>
-				<li><a href={normalizeHref('/unterricht/koeln')}>Geigenunterricht Koeln</a></li>
-				<li><a href={normalizeHref('/firmenfeiern/duesseldorf')}>Firmenevent Musik Duesseldorf</a></li>
+				<li><a href={normalizeHref('/unterricht/koeln')}>Geigenunterricht Köln</a></li>
+				<li><a href={normalizeHref('/firmenfeiern/duesseldorf')}>Firmenevent Musik Düsseldorf</a></li>
 			</ul></div>
 			<div><h4>Kontakt</h4><ul>
 				<li><a href={`mailto:${email}`}>{email}</a></li>
-				{footer?.instagram && <li><a href={footer.instagram} rel="noopener" target="_blank">Instagram</a></li>}
+				{waHref && <li><a href={waHref} rel="noopener" target="_blank" data-track-label="whatsapp-footer">WhatsApp · {phoneLabel}</a></li>}
+					{phoneHref && <li><a href={phoneHref} data-track-label="phone-footer">{phoneLabel}</a></li>}
+					{igHref && <li><a href={igHref} rel="noopener me" target="_blank" data-track-label="instagram-footer">Instagram {igHandle ?? ''}</a></li>}
 				{footer?.youtube && <li><a href={footer.youtube} rel="noopener" target="_blank">YouTube</a></li>}
 				{footer?.googleBusinessProfile && <li><a href={footer.googleBusinessProfile} rel="noopener" target="_blank">Google-Profil &amp; Bewertungen</a></li>}
 			</ul></div>
@@ -56,6 +64,7 @@ const year = new Date().getFullYear();
 			<span style="display:flex;gap:22px;">
 				<a href={normalizeHref(footer?.impressum)}>Impressum</a>
 				<a href={normalizeHref(footer?.datenschutz)}>Datenschutz</a>
+				<a href={normalizeHref(footer?.agb ?? '/agb')}>AGB</a>
 			</span>
 		</div>
 	</div>

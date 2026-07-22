@@ -21,6 +21,20 @@ const CORE_SERVICE_SLUGS = new Set([
 	'unterricht',
 ]);
 
+/** Kernmaerkte: verdienen mehr Sitemap-Gewicht als der lange Ortsschwanz. */
+const PRIORITY_LOCATIONS = new Set([
+	'duesseldorf',
+	'koeln',
+	'wuppertal',
+	'essen',
+	'erkrath',
+	'mettmann',
+	'haan',
+	'hilden',
+	'velbert',
+	'wuelfrath',
+]);
+
 const DEFAULT_SITEMAP_LASTMOD = new Date('2026-07-05T00:00:00.000Z').toISOString();
 
 /** @param {string} relativePath */
@@ -64,11 +78,13 @@ function sitemapPriority(item) {
 	const parts = routeParts(item);
 	if (parts.length === 0) return 1;
 	if (parts.length === 1 && CORE_SERVICE_SLUGS.has(parts[0])) return 0.9;
-	if (parts.length === 1) return parts[0] === 'impressum' || parts[0] === 'datenschutz' ? 0.2 : 0.7;
+	if (parts.length === 1) return ['impressum', 'datenschutz', 'agb'].includes(parts[0]) ? 0.2 : 0.7;
 	if (parts[0] === 'ratgeber') return parts.length === 1 ? 0.7 : 0.62;
 	if (parts.length === 2 && CORE_SERVICE_SLUGS.has(parts[0])) {
-		if (parts[1] === 'orte' || parts[1] === 'themen') return 0.78;
-		return 0.58;
+		// Die Hub-Seiten sind reine Linklisten (~230 Woerter) und duerfen nicht
+		// hoeher priorisiert sein als die Detailseiten, auf die sie verweisen.
+		if (parts[1] === 'orte' || parts[1] === 'themen') return 0.5;
+		return PRIORITY_LOCATIONS.has(parts[1]) ? 0.7 : 0.58;
 	}
 	return 0.5;
 }

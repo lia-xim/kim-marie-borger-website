@@ -4,6 +4,7 @@ import TinaIsland from '@tinacms/astro/TinaIsland.astro';
 import PageBody from '../../components/islands/PageBody.astro';
 import LocalLinks from '../../components/LocalLinks.astro';
 import TopicLinks from '../../components/TopicLinks.astro';
+import RatgeberLinks from '../../components/RatgeberLinks.astro';
 import { getConfig, getPage, getSeoPage } from '../../lib/data';
 import { islands } from '../../lib/islands';
 import { firstBlockImage } from '../../lib/seo';
@@ -101,4 +102,6 @@ const heroImage = firstBlockImage(data);
 	{topicPage && <TopicLinks serviceSlug={topicPage.serviceSlug} currentTopicSlug={topicPage.slug} />}
 	{localPage && <LocalLinks serviceSlug={localPage.service.slug} currentLocationSlug={localPage.location.slug} />}
 	{topicPage && <LocalLinks serviceSlug={topicPage.serviceSlug} />}
+	{localPage && <RatgeberLinks serviceSlug={localPage.service.slug} />}
+	{topicPage && <RatgeberLinks serviceSlug={topicPage.serviceSlug} />}
 </Base>

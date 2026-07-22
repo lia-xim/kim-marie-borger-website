@@ -68,6 +68,12 @@ const heroPreloadHref = !onVercel && isOptimizable(preloadImage) ? preloadImage 
 <link rel="sitemap" href="/sitemap.xml" />
 <meta name="robots" content={noindex ? 'noindex,follow' : 'index,follow'} />
 
+{/* font-display:optional verwirft eine Schrift, die nicht im ~100ms-Fenster da
+    ist. Ohne diese Preloads saehen Erstbesucher praktisch nie Cormorant/Manrope.
+    Nur die beiden Above-the-fold-Schnitte, damit das LCP-Bild Vorrang behaelt. */}
+<link rel="preload" as="font" type="font/woff2" href={cormorant400} crossorigin="anonymous" />
+<link rel="preload" as="font" type="font/woff2" href={manrope400} crossorigin="anonymous" />
+
 <style is:inline set:html={fontFaceCss}></style>
 
 {heroPreloadSrcset && (

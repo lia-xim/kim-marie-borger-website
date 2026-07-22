@@ -35,13 +35,13 @@ const siblingServicePages = currentLocation && service
 				<p class="eyebrow c">{service.linkHeading}</p>
 				<h2 id={`local-links-${service.slug}`} class="display-m">
 					{currentLocation
-						? `Naechste Schritte ${currentLocation.locative}`
+						? `Nächste Schritte ${currentLocation.locative}`
 						: `${service.parentLabel}: wichtige Orte`}
 				</h2>
 				<p class="lead">
 					{currentLocation
-						? `Wenn der Anlass schon ortlich eingeordnet ist, fuehren diese Links zu verwandten Leistungen und nahe liegenden Ortsseiten.`
-						: `Die wichtigsten lokalen Einstiege fuehren zuerst zu Duesseldorf, Koeln, Wuppertal und den naheliegenden Regionen.`}
+						? `Wenn der Anlass schon örtlich eingeordnet ist, führen diese Links zu verwandten Leistungen und nahe liegenden Ortsseiten.`
+						: `Die wichtigsten lokalen Einstiege führen zuerst zu Düsseldorf, Köln, Wuppertal und den naheliegenden Regionen.`}
 				</p>
 			</div>
 
@@ -59,7 +59,7 @@ const siblingServicePages = currentLocation && service
 			)}
 
 			<div class="local-link-cloud reveal d2">
-				{currentLocation && <p class="ksmall local-cloud-label">Weitere wichtige Orte fuer {service.parentLabel}</p>}
+				{currentLocation && <p class="ksmall local-cloud-label">Weitere wichtige Orte für {service.parentLabel}</p>}
 				{servicePages.map((page) => {
 					const active = currentLocationSlug === page.location.slug;
 					return (
@@ -72,7 +72,7 @@ const siblingServicePages = currentLocation && service
 					);
 				})}
 				<a class="local-hub-link" href={serviceLocationsHubPath(service)}>
-					Alle Orte fuer {service.keyword}
+					Alle Orte für {service.keyword}
 				</a>
 			</div>
 		</div>

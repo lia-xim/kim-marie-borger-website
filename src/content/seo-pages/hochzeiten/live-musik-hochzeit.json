@@ -13,7 +13,7 @@
   "hero": {
     "eyebrow": "Live-Musik",
     "title": "Live-Musik zur Hochzeit, die den Ablauf begleitet und nicht nur eine Playlist ersetzt.",
-    "lead": "Live Musik Hochzeit richtet sich an Paare, die den Klang im Raum bewusst erleben moechten: beim Einzug, im Ringmoment, beim Auszug oder als leichter Rahmen danach.",
+    "lead": "Live Musik Hochzeit richtet sich an Paare, die den Klang im Raum bewusst erleben möchten: beim Einzug, im Ringmoment, beim Auszug oder als leichter Rahmen danach.",
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
@@ -23,10 +23,10 @@
         "title": "Live Musik Hochzeit braucht eine eigene musikalische Planung.",
         "lede": "Hier geht es um die Wirkung von Live-Musik selbst: echter Klang im Raum, flexibles Timing, sichtbare Präsenz und die Frage, welche Momente am Hochzeitstag nicht aus einer Playlist kommen sollen.",
         "paragraphs": [
-          "Live-Musik verändert eine Hochzeit, weil sie auf den Raum reagiert. Ein Atemzug vor dem Einzug, ein kurzer Blick zum Paar oder ein längerer Auszug koennen im Moment aufgefangen werden.",
+          "Live-Musik verändert eine Hochzeit, weil sie auf den Raum reagiert. Ein Atemzug vor dem Einzug, ein kurzer Blick zum Paar oder ein längerer Auszug können im Moment aufgefangen werden.",
           "Bei dieser Anfrage steht deshalb nicht zuerst die Buchung im Vordergrund, sondern die Rolle der Musik: Soll sie den Beginn öffnen, eine stille Phase tragen, einen Übergang weicher machen oder dem Empfang eine warme Farbe geben?",
           "Solo-Viola eignet sich besonders, wenn der Klang nah, beweglich und nicht technisch wirken soll. Sie braucht keine große Buehne und kann in Standesamt, Kirche, freier Trauung, Garten oder Foyer sehr unterschiedlich eingesetzt werden.",
-          "Ich plane die Musik nicht als durchgehende Beschallung. Wichtiger sind gut gesetzte Einsätze: ein klarer Anfang, ein natürliches Ende und genug Stille, damit Worte, Blicke und Rituale wirken koennen."
+          "Ich plane die Musik nicht als durchgehende Beschallung. Wichtiger sind gut gesetzte Einsätze: ein klarer Anfang, ein natürliches Ende und genug Stille, damit Worte, Blicke und Rituale wirken können."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
@@ -37,9 +37,9 @@
       },
       {
         "title": "Live Musik Hochzeit im Ablauf sinnvoll einsetzen.",
-        "lede": "Ein Wunschlied kann live sehr persönlich werden, wenn Melodie, Tonart und Länge zur Situation passen. Manchmal ist ein reduzierter Ausschnitt stärker als eine vollstaendige Version.",
+        "lede": "Ein Wunschlied kann live sehr persönlich werden, wenn Melodie, Tonart und Länge zur Situation passen. Manchmal ist ein reduzierter Ausschnitt stärker als eine vollständige Version.",
         "paragraphs": [
-          "Für Paare ist diese Seite hilfreich, wenn sie erst verstehen moechten, welche Live-Momente überhaupt sinnvoll sind. Daraus entsteht spaeter eine konkrete Anfrage, aber der erste Schritt ist die musikalische Dramaturgie.",
+          "Für Paare ist diese Seite hilfreich, wenn sie erst verstehen möchten, welche Live-Momente überhaupt sinnvoll sind. Daraus entsteht später eine konkrete Anfrage, aber der erste Schritt ist die musikalische Dramaturgie.",
           "Ich unterscheide zwischen Musik für die Zeremonie, Musik für Gratulationen und Musik für Empfang oder Dinner. Diese Bereiche brauchen unterschiedliche Lautstärke, andere Stücklängen und eine andere Präsenz im Raum.",
           "Wichtig ist auch die Grenze zur reinen Buchungsseite: Hier geht es um Idee, Wirkung und passende Einsatzmomente. Wenn Datum, Ort und Zeitfenster schon feststehen, ist die Buchungsseite der direktere nächste Schritt."
         ],
@@ -84,7 +84,7 @@
         "time": "Ablauf",
         "kicker": "Dramaturgie",
         "title": "Stille und Musik zusammendenken",
-        "text": "Ein guter Einsatz beginnt nicht zu frueh, endet nicht zu spaet und lässt dem nächsten Moment genug Raum."
+        "text": "Ein guter Einsatz beginnt nicht zu frueh, endet nicht zu spät und lässt dem nächsten Moment genug Raum."
       },
       {
         "time": "Ort",
@@ -114,7 +114,7 @@
       },
       {
         "question": "Welche Momente passen besser nicht zu Solo-Viola?",
-        "answer": "Für laute Partyphasen, Tanzflaeche oder dauerhafte Beschallung ist eine Band oder ein DJ sinnvoller. Solo-Viola ist stärker in persönlichen, festlichen und konzentrierten Momenten."
+        "answer": "Für laute Partyphasen, Tanzfläche oder dauerhafte Beschallung ist eine Band oder ein DJ sinnvoller. Solo-Viola ist stärker in persönlichen, festlichen und konzentrierten Momenten."
       },
       {
         "question": "Wie unterscheidet sich diese Seite von der Buchungsseite?",
@@ -136,7 +136,7 @@
       "alt": "Live-Viola für Live Musik Hochzeit 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 14: Medium-Seiten mit leserfreundlichen lokalen und intent-spezifischen Differenzierungsabsaetzen poliert.\n\nBatch 15: Intent klar von Live Musik Hochzeit buchen getrennt; Fokus auf Wirkung, Einsatzmomente und musikalische Dramaturgie.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 14: Medium-Seiten mit leserfreundlichen lokalen und intent-spezifischen Differenzierungsabsätzen poliert.\n\nBatch 15: Intent klar von Live Musik Hochzeit buchen getrennt; Fokus auf Wirkung, Einsatzmomente und musikalische Dramaturgie.",
   "contact": {
     "eyebrow": "Hochzeitsmusik planen",
     "title": "Live Musik Hochzeit anfragen",

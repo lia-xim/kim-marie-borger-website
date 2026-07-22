@@ -3,6 +3,7 @@ import { applySeoPageOverride, type SeoPageOverride } from './seo-overrides';
 import {
 	breadcrumbListNode,
 	coreServiceId,
+	courseNode,
 	graphJsonLd,
 	pageOfferNode,
 	pageUrl,
@@ -826,6 +827,15 @@ export function localSeoJsonLd(site: URL, page: LocalSeoPage, override?: SeoPage
 			aboutIds: [personId(site), coreServiceId(site, service.slug)],
 		}),
 		offer,
+		// Unterricht ist das groesste Keyword-Cluster; Course-Markup ist dort das
+		// einzige Rich-Result-Format, das Google fuer diese Seiten anbietet.
+		service.slug === 'unterricht'
+			? courseNode(site, pathname, {
+					name: keywordLabel(service, location),
+					description: localSeoDescription(page, override),
+					areaServed: areaServedForLocation(location),
+				})
+			: undefined,
 	]);
 }
 

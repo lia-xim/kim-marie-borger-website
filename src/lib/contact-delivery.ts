@@ -40,6 +40,7 @@ export type InquiryAttribution = {
 export type Inquiry = {
 	name: string;
 	email: string;
+	phone: string;
 	occasion: string;
 	date: string;
 	place: string;
@@ -124,7 +125,9 @@ type RedisCommand = Array<string | number>;
 const BRAND_NAME = 'Kim Marie Borger';
 const RESEND_ENDPOINT = 'https://api.resend.com/emails';
 const FALLBACK_FROM_EMAIL = 'Website <onboarding@resend.dev>';
-const DEFAULT_ALERT_EMAIL = 'matthiasramahi@web.de';
+// Bewusst keine Adresse im Quelltext: Das Repository ist oeffentlich. Ohne
+// CONTACT_ALERT_EMAIL gehen Betriebswarnungen an den Empfaenger der Anfragen.
+const DEFAULT_ALERT_EMAIL = '';
 const DEFAULT_ALERT_AFTER_ATTEMPTS = 2;
 const DEFAULT_UMAMI_HOST_URL = 'https://analytics.contextter.com';
 const DEFAULT_UMAMI_HOSTNAME = 'www.kim-marie-borger.de';
@@ -140,6 +143,7 @@ export function readInquiry(body: Record<string, unknown>): Inquiry {
 	return {
 		name: str(body.name, 200),
 		email: str(body.email, 200),
+		phone: str(body.telefon, 60),
 		occasion: str(body.anlass, 200),
 		date: str(body.datum, 200),
 		place: str(body.ort, 300),
@@ -169,7 +173,7 @@ export function getContactDeliveryConfig(env: Record<string, unknown>): ContactD
 		from: configuredFrom || FALLBACK_FROM_EMAIL,
 		configuredFrom,
 		replyTo: str(env.CONTACT_REPLY_EMAIL, 300) || to,
-		alertTo: str(env.CONTACT_ALERT_EMAIL, 300) || DEFAULT_ALERT_EMAIL,
+		alertTo: str(env.CONTACT_ALERT_EMAIL, 300) || DEFAULT_ALERT_EMAIL || to,
 		alertAfterAttempts: positiveInt(env.CONTACT_ALERT_AFTER_ATTEMPTS, DEFAULT_ALERT_AFTER_ATTEMPTS),
 	};
 }
@@ -530,6 +534,7 @@ function analyticsUrl(sourcePage: string): string {
 
 function optionalFieldsCount(inquiry: Inquiry): number {
 	return [
+		inquiry.phone,
 		inquiry.occasion,
 		inquiry.date,
 		inquiry.place,
@@ -730,6 +735,7 @@ function createInternalText(inquiry: Inquiry): string {
 	return [
 		`Name: ${inquiry.name}`,
 		`E-Mail: ${inquiry.email}`,
+		`Telefon: ${inquiry.phone || '(nicht angegeben)'}`,
 		`Anlass: ${inquiry.occasion || '(nicht angegeben)'}`,
 		`Datum / Zeitraum: ${inquiry.date || '(nicht angegeben)'}`,
 		`Ort / Location: ${inquiry.place || '(nicht angegeben)'}`,
@@ -825,6 +831,7 @@ function detailRows(inquiry: Inquiry, includeContact: boolean): Array<[string, s
 		return [
 			['Name', inquiry.name],
 			['E-Mail', inquiry.email],
+			['Telefon', inquiry.phone],
 			...rows,
 		];
 	}
@@ -964,6 +971,57 @@ async function sendResendEmail(
 			error: error instanceof Error ? error.message : String(error),
 		};
 	}
+}
+
+/**
+ * Fixed-window rate limit for the public contact endpoint.
+ *
+ * Uses the outbox Redis when configured. Without Redis it falls back to a
+ * per-instance counter — that only slows a single serverless instance down, but
+ * it is still better than an endpoint that accepts unlimited submissions.
+ */
+const memoryRateLimit = new Map<string, { count: number; resetAt: number }>();
+
+export async function consumeRateLimit(
+	config: ContactOutboxConfig | null,
+	key: string,
+	limit: number,
+	windowSeconds: number,
+): Promise<{ allowed: boolean; retryAfter: number }> {
+	if (config) {
+		try {
+			const redisKey = `${config.prefix}:rate:${key}`;
+			const count = Number(await redisCommand(config, ['INCR', redisKey]));
+			if (count === 1) await redisCommand(config, ['EXPIRE', redisKey, windowSeconds]);
+			return { allowed: count <= limit, retryAfter: windowSeconds };
+		} catch (error) {
+			// A broken rate limiter must never block real inquiries.
+			console.error('Rate limit check failed, allowing request', error);
+			return { allowed: true, retryAfter: 0 };
+		}
+	}
+
+	const now = Date.now();
+	const entry = memoryRateLimit.get(key);
+	if (!entry || entry.resetAt <= now) {
+		memoryRateLimit.set(key, { count: 1, resetAt: now + windowSeconds * 1000 });
+		if (memoryRateLimit.size > 5000) {
+			for (const [k, v] of memoryRateLimit) if (v.resetAt <= now) memoryRateLimit.delete(k);
+		}
+		return { allowed: true, retryAfter: windowSeconds };
+	}
+	entry.count += 1;
+	return {
+		allowed: entry.count <= limit,
+		retryAfter: Math.max(1, Math.ceil((entry.resetAt - now) / 1000)),
+	};
+}
+
+/** Best-effort client identity for rate limiting: Vercel's forwarded client IP. */
+export function clientKey(request: Request): string {
+	const forwarded = request.headers.get('x-forwarded-for') ?? '';
+	const ip = forwarded.split(',')[0]?.trim() || request.headers.get('x-real-ip') || 'unknown';
+	return ip.replace(/[^a-zA-Z0-9.:_-]/g, '').slice(0, 64) || 'unknown';
 }
 
 async function redisCommand(config: ContactOutboxConfig, command: RedisCommand): Promise<unknown> {

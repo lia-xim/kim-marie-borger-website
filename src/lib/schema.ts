@@ -1,5 +1,5 @@
 import type { CmsConfig } from './data';
-import { canonicalUrl } from './url';
+import { canonicalUrl, instagramHref } from './url';
 
 export type SchemaNode = Record<string, unknown>;
 
@@ -142,16 +142,24 @@ function validHttpUrl(value: unknown): value is string {
 }
 
 export function sameAsUrls(config?: CmsConfig | null): string[] {
-	return [
-		config?.footer?.instagram,
+	const urls = [
+		instagramHref(config?.contact?.instagram ?? config?.footer?.instagram),
 		config?.footer?.youtube,
 		config?.footer?.googleBusinessProfile,
 	].filter(validHttpUrl);
+	return [...new Set(urls)];
+}
+
+/** Normalized `+49…` phone for schema.org, or undefined when none is configured. */
+function schemaPhone(config?: CmsConfig | null): string | undefined {
+	const digits = (config?.contact?.phone ?? '').replace(/[^\d]/g, '');
+	return digits.length >= 6 ? `+${digits}` : undefined;
 }
 
 export function siteEntityJsonLd(site: URL, config?: CmsConfig | null): SchemaNode {
 	const email = config?.contact?.email?.trim();
 	const sameAs = sameAsUrls(config);
+	const telephone = schemaPhone(config);
 	const person = personId(site);
 
 	return graphJsonLd([
@@ -166,6 +174,7 @@ export function siteEntityJsonLd(site: URL, config?: CmsConfig | null): SchemaNo
 			},
 			description: config?.seo?.description,
 			email: email ? `mailto:${email}` : undefined,
+			...(telephone ? { telephone } : {}),
 			url: pageUrl(site, '/ueber-mich/'),
 			image: new URL(DEFAULT_PERSON_IMAGE, site).href,
 			mainEntityOfPage: nodeRef(profilePageId(site)),
@@ -173,6 +182,7 @@ export function siteEntityJsonLd(site: URL, config?: CmsConfig | null): SchemaNo
 			contactPoint: email ? {
 				'@type': 'ContactPoint',
 				email,
+				...(telephone ? { telephone } : {}),
 				contactType: 'booking request',
 				areaServed: 'DE',
 				availableLanguage: [SITE_LANGUAGE],
@@ -266,6 +276,115 @@ export function pageOfferNode(
 		itemOffered: nodeRef(coreServiceId(site, options.serviceSlug)),
 		...(options.areaServed ? { areaServed: options.areaServed } : {}),
 		inLanguage: SITE_LANGUAGE,
+	};
+}
+
+type TestimonialVoice = {
+	text?: string | null;
+	author?: string | null;
+	date?: string | null;
+	rating?: number | null;
+};
+
+/**
+ * Review- und AggregateRating-Nodes aus den Kundenstimmen einer Seite.
+ *
+ * Bewusst streng: Ohne echte Sternebewertung entsteht KEIN Rating-Markup.
+ * Erfundene oder hochgerechnete Sterne sind ein Google-Verstoss (und
+ * wettbewerbsrechtlich angreifbar), deshalb zaehlen nur explizit gepflegte
+ * Werte zwischen 1 und 5.
+ */
+export function reviewNodes(site: URL, voices: TestimonialVoice[]): SchemaNode[] {
+	const usable = voices.filter(
+		(v) => typeof v?.text === 'string' && v.text.trim() !== '' && typeof v?.author === 'string' && v.author.trim() !== '',
+	);
+	const rated = usable.filter((v) => typeof v.rating === 'number' && v.rating >= 1 && v.rating <= 5);
+	if (rated.length === 0) return [];
+
+	const person = personId(site);
+	const reviews: SchemaNode[] = rated.map((v) => ({
+		'@type': 'Review',
+		reviewBody: v.text?.trim(),
+		author: { '@type': 'Person', name: v.author?.trim() },
+		...(v.date && /^\d{4}(-\d{2}){0,2}$/.test(v.date) ? { datePublished: v.date } : {}),
+		reviewRating: {
+			'@type': 'Rating',
+			ratingValue: v.rating,
+			bestRating: 5,
+			worstRating: 1,
+		},
+		itemReviewed: nodeRef(person),
+	}));
+
+	const sum = rated.reduce((acc, v) => acc + (v.rating as number), 0);
+	const average = Math.round((sum / rated.length) * 10) / 10;
+
+	return [
+		{
+			'@type': 'AggregateRating',
+			'@id': schemaId(site, '/', 'aggregate-rating'),
+			itemReviewed: nodeRef(person),
+			ratingValue: average,
+			reviewCount: rated.length,
+			bestRating: 5,
+			worstRating: 1,
+		},
+		...reviews,
+	];
+}
+
+/** Sammelt Kundenstimmen aus den Blöcken einer Seite. */
+export function collectTestimonialVoices(blocks: unknown): TestimonialVoice[] {
+	if (!Array.isArray(blocks)) return [];
+	const out: TestimonialVoice[] = [];
+	for (const block of blocks) {
+		const b = block as { __typename?: string; _template?: string; voices?: unknown } | null;
+		if (!b) continue;
+		const isTestimonials = b.__typename === 'PageBlocksTestimonials' || b._template === 'testimonials';
+		if (isTestimonials && Array.isArray(b.voices)) out.push(...(b.voices as TestimonialVoice[]));
+	}
+	return out;
+}
+
+export function courseId(site: URL, pathname: string): string {
+	return schemaId(site, pathname, 'course');
+}
+
+/**
+ * Course-Node fuer die Unterrichtsseiten. Google wertet Course-Markup nur mit
+ * `hasCourseInstance` inklusive `courseMode` und `courseWorkload` aus, deshalb
+ * sind beide gesetzt. Preise bleiben bewusst offen (individuell nach Absprache).
+ */
+export function courseNode(
+	site: URL,
+	pathname: string,
+	options: { name: string; description?: string; areaServed?: SchemaNode },
+): SchemaNode {
+	return {
+		'@type': 'Course',
+		'@id': courseId(site, pathname),
+		name: options.name,
+		description: options.description,
+		url: pageUrl(site, pathname),
+		provider: nodeRef(personId(site)),
+		inLanguage: SITE_LANGUAGE,
+		educationalLevel: ['Anfänger', 'Fortgeschrittene'],
+		teaches: ['Geige spielen', 'Bratsche spielen', 'Notenlesen', 'Bogentechnik', 'Intonation'],
+		hasCourseInstance: [
+			{
+				'@type': 'CourseInstance',
+				courseMode: 'onsite',
+				courseWorkload: 'PT45M',
+				location: options.areaServed ?? COUNTRY_AREA,
+				inLanguage: SITE_LANGUAGE,
+			},
+			{
+				'@type': 'CourseInstance',
+				courseMode: 'online',
+				courseWorkload: 'PT45M',
+				inLanguage: SITE_LANGUAGE,
+			},
+		],
 	};
 }
 

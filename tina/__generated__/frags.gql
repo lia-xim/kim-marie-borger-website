@@ -147,6 +147,24 @@ fragment PageParts on Page {
       after
       attribution
     }
+    ... on PageBlocksTestimonials {
+      eyebrow
+      title
+      lead
+      bg
+      voices {
+        __typename
+        text
+        author
+        occasion
+        place
+        date
+        rating
+        source
+      }
+      ctaLabel
+      ctaHref
+    }
     ... on PageBlocksTimeline {
       bg
       eyebrow
@@ -500,6 +518,10 @@ fragment ConfigParts on Config {
   contact {
     __typename
     email
+    phone
+    whatsapp
+    instagram
+    channelNote
     area
     eyebrow
     title
@@ -519,5 +541,6 @@ fragment ConfigParts on Config {
     googleBusinessProfile
     impressum
     datenschutz
+    agb
   }
 }

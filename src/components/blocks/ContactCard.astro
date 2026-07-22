@@ -2,6 +2,7 @@
 import Img from '../Img.astro';
 import { getConfig } from '../../lib/data';
 import { tinaFieldFrom } from '../../lib/tina-fields';
+import { formatPhone, instagramHandle, instagramHref, normalizeHref, telHref, whatsappHref } from '../../lib/url';
 
 const { data } = Astro.props;
 type ContactData = Record<string, any> & { checklist?: unknown[] };
@@ -193,6 +194,21 @@ const selectedOccasion = defaultOccasion || context.occasion;
 const sourceContext = sourceLabel || context.label;
 const occasionOptions = ['Hochzeit', 'Trauerfeier', 'Taufe', 'Geburtstag', 'Firmenevent', 'Konzert / Kultur', 'Unterricht', 'Anderer Anlass'];
 
+// Direct channels next to the form. The form stays the primary route; these are
+// for people who need a faster or more personal way in (short-notice funerals).
+const phoneHref = telHref(contact?.phone);
+const phoneLabel = formatPhone(contact?.phone);
+const waHref = whatsappHref(
+	contact?.whatsapp,
+	context.key === 'generic'
+		? 'Hallo Kim, ich habe eine Anfrage zu Live-Musik.'
+		: `Hallo Kim, ich habe eine Anfrage zum Thema ${context.occasion || context.label}.`,
+);
+const igHref = instagramHref(contact?.instagram ?? config?.footer?.instagram);
+const igHandle = instagramHandle(contact?.instagram ?? config?.footer?.instagram);
+const channelNote = typeof contact?.channelNote === 'string' ? contact.channelNote.trim() : '';
+const privacyHref = normalizeHref(config?.footer?.datenschutz ?? '/datenschutz');
+
 function getFormContext(defaultOccasion: string, sourceLabel: string, path: string): FormContext {
 	const haystack = `${defaultOccasion} ${sourceLabel} ${path}`.toLowerCase();
 	if (haystack.includes('hochzeit')) return formContexts.hochzeit;
@@ -231,8 +247,12 @@ function getFormContext(defaultOccasion: string, sourceLabel: string, path: stri
 				)}
 				<div class="c-rows">
 					<div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><div><div class="ck">E-Mail</div><a class="cv" href={`mailto:${contact?.email ?? ''}`}>{contact?.email}</a></div></div>
-					<div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><div class="ck">Einsatzgebiet</div><span class="cv">{contact?.area}</span></div></div>
+					{waHref && <div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 1.67c2.2 0 4.27.86 5.83 2.42a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.25 8.24a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.25 8.25-8.25Zm-2.6 4.2c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.03 0 1.2.87 2.35.99 2.51.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.43-.58 1.63-1.15.2-.57.2-1.05.14-1.15-.06-.1-.22-.16-.46-.28-.24-.12-1.43-.71-1.65-.79-.22-.08-.38-.12-.54.12-.16.24-.62.79-.76.95-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.31-.74-1.79-.19-.46-.39-.4-.54-.41h-.46Z"/></svg></span><div><div class="ck">WhatsApp</div><a class="cv" href={waHref} rel="noopener" target="_blank" data-track-label="whatsapp-contactcard">{phoneLabel || 'Direkt schreiben'}</a></div></div>}
+						{phoneHref && <div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.2 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.1 9.9a16 16 0 0 0 6 6l1.26-1.26a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg></span><div><div class="ck">Telefon</div><a class="cv" href={phoneHref} data-track-label="phone-contactcard">{phoneLabel}</a></div></div>}
+						{igHref && <div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></svg></span><div><div class="ck">Instagram</div><a class="cv" href={igHref} rel="noopener me" target="_blank" data-track-label="instagram-contactcard">{igHandle ?? 'Instagram'}</a></div></div>}
+						<div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><div class="ck">Einsatzgebiet</div><span class="cv">{contact?.area}</span></div></div>
 				</div>
+				{channelNote && <p class="c-channel-note" data-tina-field={contact ? tinaFieldFrom(contact, 'channelNote') : undefined}>{channelNote}</p>}
 			</aside>
 			<div class="form-panel">
 				<div class="fp-head reveal">
@@ -254,9 +274,10 @@ function getFormContext(defaultOccasion: string, sourceLabel: string, path: stri
 					<input type="hidden" name="seite" value={sourcePath} />
 					<input type="hidden" name="seitenkontext" value={sourceContext} />
 					<input type="hidden" name="formularvariante" value={context.label} />
-					<div class="row-2">
+					<div class="row-3">
 						<div class="field"><label for="f-name">Name</label><input id="f-name" type="text" name="name" placeholder="Dein Name" required></div>
 						<div class="field"><label for="f-mail">E-Mail</label><input id="f-mail" type="email" name="email" placeholder="dein@email.de" required></div>
+						<div class="field"><label for="f-phone">Telefon <span class="opt">(optional)</span></label><input id="f-phone" type="tel" name="telefon" autocomplete="tel" placeholder="Für einen kurzen Rückruf"></div>
 					</div>
 					<div class="row-3">
 						<div class="field">
@@ -275,6 +296,7 @@ function getFormContext(defaultOccasion: string, sourceLabel: string, path: stri
 					</div>
 					<div class="field"><label for="f-msg">Nachricht <span class="opt">(optional)</span></label><textarea id="f-msg" name="nachricht" placeholder={context.messagePlaceholder}></textarea></div>
 					<p class="form-note">{context.note}</p>
+						<p class="form-privacy">Mit dem Absenden stimmst du der Verarbeitung deiner Angaben zur Bearbeitung der Anfrage zu. Details in der <a href={privacyHref}>Datenschutzerklärung</a>.</p>
 					<button type="submit" class="btn btn-solid" style="width:100%;justify-content:center;" data-track-label={context.submitLabel}>{context.submitLabel} <span class="ar">→</span></button>
 					<div class="form-ok" id="formOk" role="status" aria-live="polite" data-success={contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'} data-tina-field={contact ? tinaFieldFrom(contact, 'formSuccess') : undefined}>{contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'}</div>
 				</form>

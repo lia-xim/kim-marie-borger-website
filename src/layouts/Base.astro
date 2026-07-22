@@ -44,6 +44,12 @@ const structuredDataBlocks = Array.isArray(structuredData)
 <!doctype html>
 <html lang="de">
 	<head>
+		<script is:inline>
+			// Reveal-Animationen sind Opt-in: erst diese Klasse blendet Inhalte aus,
+			// damit kmb.js sie beim Scrollen einblenden kann. Ohne JS (oder wenn das
+			// Skript scheitert) bleibt der gesamte Seiteninhalt sichtbar.
+			document.documentElement.classList.add('js');
+		</script>
 		<BaseHead title={title} description={description} image={image} imageAlt={imageAlt} preloadImage={preloadImage} noindex={noindex} />
 		<script is:inline type="application/ld+json" set:html={JSON.stringify(globalJsonLd)} />
 		{structuredDataBlocks.map((block) => (
@@ -51,9 +57,13 @@ const structuredDataBlocks = Array.isArray(structuredData)
 		))}
 	</head>
 	<body class={bodyClass || undefined}>
+		<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
 		<TinaIsland name="global/" wrapper={islands.global.wrapper}>
 			<Header config={config} solid={solidNav} />
 		</TinaIsland>
+		{/* Fokusziel des Skip-Links. Der Island-Wrapper von <main> laesst keine
+		    id zu, deshalb steht der Anker direkt davor. */}
+		<span id="inhalt" tabindex="-1"></span>
 		<slot />
 		<TinaIsland name="global-footer/" wrapper={islands['global-footer'].wrapper}>
 			<Footer config={config} />

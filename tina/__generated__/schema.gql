@@ -256,6 +256,26 @@ type PageBlocksQuote {
   attribution: String
 }
 
+type PageBlocksTestimonialsVoices {
+  text: String!
+  author: String!
+  occasion: String
+  place: String
+  date: String
+  rating: Float
+  source: String
+}
+
+type PageBlocksTestimonials {
+  eyebrow: String
+  title: String
+  lead: String
+  bg: String
+  voices: [PageBlocksTestimonialsVoices]
+  ctaLabel: String
+  ctaHref: String
+}
+
 type PageBlocksTimelineItems {
   kicker: String
   title: String
@@ -511,7 +531,7 @@ type PageBlocksHtml {
   html: String
 }
 
-union PageBlocks = PageBlocksHeroHome | PageBlocksHeroPage | PageBlocksStatement | PageBlocksCards | PageBlocksSolemn | PageBlocksCollage | PageBlocksSplit | PageBlocksQuote | PageBlocksTimeline | PageBlocksSetlist | PageBlocksFaq | PageBlocksContactCard | PageBlocksMarquee | PageBlocksElegy | PageBlocksMoods | PageBlocksTriptych | PageBlocksProgramme | PageBlocksSched | PageBlocksLedger | PageBlocksLearnDeck | PageBlocksSteps | PageBlocksInstagram | PageBlocksWords | PageBlocksAudioSketch | PageBlocksVideoFeature | PageBlocksCtaBand | PageBlocksLegal | PageBlocksHtml
+union PageBlocks = PageBlocksHeroHome | PageBlocksHeroPage | PageBlocksStatement | PageBlocksCards | PageBlocksSolemn | PageBlocksCollage | PageBlocksSplit | PageBlocksQuote | PageBlocksTestimonials | PageBlocksTimeline | PageBlocksSetlist | PageBlocksFaq | PageBlocksContactCard | PageBlocksMarquee | PageBlocksElegy | PageBlocksMoods | PageBlocksTriptych | PageBlocksProgramme | PageBlocksSched | PageBlocksLedger | PageBlocksLearnDeck | PageBlocksSteps | PageBlocksInstagram | PageBlocksWords | PageBlocksAudioSketch | PageBlocksVideoFeature | PageBlocksCtaBand | PageBlocksLegal | PageBlocksHtml
 
 type Page implements Node & Document {
   seoTitle: String!
@@ -703,6 +723,36 @@ input PageBlocksQuoteFilter {
   mark: StringFilter
   after: StringFilter
   attribution: StringFilter
+}
+
+input NumberFilter {
+  lt: Float
+  lte: Float
+  gte: Float
+  gt: Float
+  eq: Float
+  exists: Boolean
+  in: [Float]
+}
+
+input PageBlocksTestimonialsVoicesFilter {
+  text: StringFilter
+  author: StringFilter
+  occasion: StringFilter
+  place: StringFilter
+  date: StringFilter
+  rating: NumberFilter
+  source: StringFilter
+}
+
+input PageBlocksTestimonialsFilter {
+  eyebrow: StringFilter
+  title: StringFilter
+  lead: StringFilter
+  bg: StringFilter
+  voices: PageBlocksTestimonialsVoicesFilter
+  ctaLabel: StringFilter
+  ctaHref: StringFilter
 }
 
 input PageBlocksTimelineItemsFilter {
@@ -969,6 +1019,7 @@ input PageBlocksFilter {
   collage: PageBlocksCollageFilter
   split: PageBlocksSplitFilter
   quote: PageBlocksQuoteFilter
+  testimonials: PageBlocksTestimonialsFilter
   timeline: PageBlocksTimelineFilter
   setlist: PageBlocksSetlistFilter
   faq: PageBlocksFaqFilter
@@ -1301,6 +1352,10 @@ type ConfigBrand {
 
 type ConfigContact {
   email: String!
+  phone: String
+  whatsapp: String
+  instagram: String
+  channelNote: String
   area: String
   eyebrow: String
   title: String
@@ -1320,6 +1375,7 @@ type ConfigFooter {
   googleBusinessProfile: String
   impressum: String
   datenschutz: String
+  agb: String
 }
 
 type Config implements Node & Document {
@@ -1344,6 +1400,10 @@ input ConfigBrandFilter {
 
 input ConfigContactFilter {
   email: StringFilter
+  phone: StringFilter
+  whatsapp: StringFilter
+  instagram: StringFilter
+  channelNote: StringFilter
   area: StringFilter
   eyebrow: StringFilter
   title: StringFilter
@@ -1363,6 +1423,7 @@ input ConfigFooterFilter {
   googleBusinessProfile: StringFilter
   impressum: StringFilter
   datenschutz: StringFilter
+  agb: StringFilter
 }
 
 input ConfigFilter {
@@ -1571,6 +1632,26 @@ input PageBlocksQuoteMutation {
   mark: String
   after: String
   attribution: String
+}
+
+input PageBlocksTestimonialsVoicesMutation {
+  text: String
+  author: String
+  occasion: String
+  place: String
+  date: String
+  rating: Float
+  source: String
+}
+
+input PageBlocksTestimonialsMutation {
+  eyebrow: String
+  title: String
+  lead: String
+  bg: String
+  voices: [PageBlocksTestimonialsVoicesMutation]
+  ctaLabel: String
+  ctaHref: String
 }
 
 input PageBlocksTimelineItemsMutation {
@@ -1837,6 +1918,7 @@ input PageBlocksMutation {
   collage: PageBlocksCollageMutation
   split: PageBlocksSplitMutation
   quote: PageBlocksQuoteMutation
+  testimonials: PageBlocksTestimonialsMutation
   timeline: PageBlocksTimelineMutation
   setlist: PageBlocksSetlistMutation
   faq: PageBlocksFaqMutation
@@ -2011,6 +2093,10 @@ input ConfigBrandMutation {
 
 input ConfigContactMutation {
   email: String
+  phone: String
+  whatsapp: String
+  instagram: String
+  channelNote: String
   area: String
   eyebrow: String
   title: String
@@ -2030,6 +2116,7 @@ input ConfigFooterMutation {
   googleBusinessProfile: String
   impressum: String
   datenschutz: String
+  agb: String
 }
 
 input ConfigMutation {

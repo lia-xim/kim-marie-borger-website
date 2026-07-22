@@ -40,11 +40,11 @@
         "lede": "Ein guter Unterrichtsrahmen entsteht aus wenigen klaren Entscheidungen: Was ist das Ziel, wie viel Übezeit ist realistisch und wie bleibt der nächste Schritt verständlich?",
         "paragraphs": [
           "Mögliche Schritte sind Lernstand klären, Probestunde, Übeplan und regelmäßiger Rhythmus. Daraus entsteht kein starres Programm, sondern ein Unterrichtsplan, der zu Lernstand, Alltag und Motivation passt.",
-          "Ein Unterrichtsweg nahe Schloss Strünkede kann sich anders anfuehlen als ein Termin Richtung Wanne-Eickel; für regelmäßigen Unterricht ist das wichtiger als für einen einmaligen Auftritt. Genau deshalb frage ich nicht nur nach dem Ort, sondern auch nach Weg, Wochenrhythmus und realistischer Übezeit.",
+          "Ein Unterrichtsweg nahe Schloss Strünkede kann sich anders anfühlen als ein Termin Richtung Wanne-Eickel; für regelmäßigen Unterricht ist das wichtiger als für einen einmaligen Auftritt. Genau deshalb frage ich nicht nur nach dem Ort, sondern auch nach Weg, Wochenrhythmus und realistischer Übezeit.",
           "Wenn die Zeit knapp ist, wird der Unterricht nicht größer, sondern präziser: wenige Übeaufgaben, deutliche Prioritäten und ein Klangziel, das in der nächsten Stunde wieder aufgegriffen wird."
         ],
         "image": {
-          "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+          "src": "/uploads/_DSC7270.webp",
           "alt": "Geigenunterricht und Geige lernen in Herne - Bild 2"
         },
         "imageFirst": true
@@ -73,7 +73,7 @@
           "Wenn Unterrichtsweg und Alltag rund um Schloss Strünkede anders aussehen als Richtung Wanne-Eickel, plane ich lieber zuerst eine einzelne Probestunde statt sofort einen festen Rhythmus. Für die Buchung klären wir nach der kostenlosen Probestunde, ob Ziel, Weg, Rhythmus und Preisrahmen wirklich passen. So bleibt die Seite für Herne praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
         ],
         "image": {
-          "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+          "src": "/uploads/_DSC7270.webp",
           "alt": "Geigenunterricht und Geige lernen in Herne - Bild 4"
         },
         "imageFirst": true
@@ -111,11 +111,11 @@
       },
       {
         "question": "Welche Unterrichtssituation passt in Herne?",
-        "answer": "Sinnvoll ist ein Rahmen, der regelmäßig machbar bleibt: Lernstand, Instrument, Weg, Übezeit und Alltag rund um Schloss Strünkede, Wanne-Eickel und Bochum muessen zusammenpassen. Die kostenlose Probestunde klärt genau das. Ja. Haltung, Bogenführung, Rhythmus, Ton und Notenlesen werden ruhig aufgebaut, damit der erste Fortschritt nicht nur zufällig entsteht."
+        "answer": "Sinnvoll ist ein Rahmen, der regelmäßig machbar bleibt: Lernstand, Instrument, Weg, Übezeit und Alltag rund um Schloss Strünkede, Wanne-Eickel und Bochum müssen zusammenpassen. Die kostenlose Probestunde klärt genau das. Ja. Haltung, Bogenführung, Rhythmus, Ton und Notenlesen werden ruhig aufgebaut, damit der erste Fortschritt nicht nur zufällig entsteht."
       },
       {
         "question": "Warum fragst du nach dem genauen Ort in Herne?",
-        "answer": "Ein Unterrichtsweg nahe Schloss Strünkede kann sich anders anfuehlen als ein Termin Richtung Wanne-Eickel; für regelmäßigen Unterricht ist das wichtiger als für einen einmaligen Auftritt. Deshalb klären wir vorab Treffpunkt, Rhythmus und realistische Übezeit."
+        "answer": "Ein Unterrichtsweg nahe Schloss Strünkede kann sich anders anfühlen als ein Termin Richtung Wanne-Eickel; für regelmäßigen Unterricht ist das wichtiger als für einen einmaligen Auftritt. Deshalb klären wir vorab Treffpunkt, Rhythmus und realistische Übezeit."
       }
     ]
   },
@@ -125,7 +125,7 @@
       "alt": "Geigenunterricht und Geige lernen in Herne - Bild 1"
     },
     {
-      "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+      "src": "/uploads/_DSC7270.webp",
       "alt": "Geigenunterricht und Geige lernen in Herne - Bild 2"
     },
     {
@@ -133,11 +133,11 @@
       "alt": "Geigenunterricht und Geige lernen in Herne - Bild 3"
     },
     {
-      "src": "/uploads/mq0uz91n-violin-6635935_1280.webp",
+      "src": "/uploads/_DSC7270.webp",
       "alt": "Geigenunterricht und Geige lernen in Herne - Bild 4"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
     "title": "Geigenunterricht in Herne anfragen",

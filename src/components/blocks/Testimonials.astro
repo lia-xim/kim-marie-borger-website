@@ -1,0 +1,65 @@
+---
+import { tinaFieldFrom } from '../../lib/tina-fields';
+import { normalizeHref } from '../../lib/url';
+
+const { data } = Astro.props;
+
+type Voice = {
+	text?: string | null;
+	author?: string | null;
+	occasion?: string | null;
+	place?: string | null;
+	date?: string | null;
+	rating?: number | null;
+	source?: string | null;
+};
+
+const voices = ((data?.voices ?? []) as Voice[]).filter(
+	(v) => typeof v?.text === 'string' && v.text.trim() !== '' && typeof v?.author === 'string' && v.author.trim() !== '',
+);
+const bgClass = data?.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
+
+/** Jahresangabe aus `2026-05` oder `2026-05-14`; leer, wenn nichts Brauchbares drinsteht. */
+function displayYear(date?: string | null): string {
+	const match = (date ?? '').match(/^(\d{4})/);
+	return match ? match[1] : '';
+}
+
+function meta(v: Voice): string {
+	return [v.occasion, v.place, displayYear(v.date)].filter((x) => typeof x === 'string' && x.trim() !== '').join(' · ');
+}
+---
+{voices.length > 0 && (
+	<section class={`section testimonials${bgClass}`} id={data?.anchorId || undefined}>
+		<div class="wrap">
+			<div class="testimonials-head reveal">
+				{data?.eyebrow && <p class="eyebrow c" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>}
+				{data?.title && <h2 class="display-m" data-tina-field={tinaFieldFrom(data, 'title')}>{data.title}</h2>}
+				{data?.lead && <p class="lead" data-tina-field={tinaFieldFrom(data, 'lead')}>{data.lead}</p>}
+			</div>
+			<div class="testimonial-grid reveal d1">
+				{voices.map((v, i) => (
+					<figure class="testimonial" data-tina-field={tinaFieldFrom(data, 'voices', i)}>
+						{typeof v.rating === 'number' && v.rating > 0 && (
+							<p class="testimonial-stars" aria-label={`${v.rating} von 5 Sternen`}>
+								<span aria-hidden="true">{'★'.repeat(Math.round(v.rating))}{'☆'.repeat(Math.max(0, 5 - Math.round(v.rating)))}</span>
+							</p>
+						)}
+						<blockquote>{v.text}</blockquote>
+						<figcaption>
+							<span class="testimonial-author">{v.author}</span>
+							{meta(v) && <span class="testimonial-meta">{meta(v)}</span>}
+						</figcaption>
+					</figure>
+				))}
+			</div>
+			{data?.ctaLabel && (
+				<p class="testimonials-cta reveal d2">
+					<a class="link-line" href={normalizeHref(data.ctaHref, '#kontakt')} rel={/^https?:/i.test(data.ctaHref ?? '') ? 'noopener' : undefined} target={/^https?:/i.test(data.ctaHref ?? '') ? '_blank' : undefined} data-tina-field={tinaFieldFrom(data, 'ctaLabel')}>
+						{data.ctaLabel} <span class="ar">→</span>
+					</a>
+				</p>
+			)}
+		</div>
+	</section>
+)}

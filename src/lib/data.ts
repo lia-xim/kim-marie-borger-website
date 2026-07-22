@@ -55,6 +55,7 @@ const blockTypenameByTemplate: Record<string, string> = {
 	split: 'PageBlocksSplit',
 	statement: 'PageBlocksStatement',
 	steps: 'PageBlocksSteps',
+	testimonials: 'PageBlocksTestimonials',
 	timeline: 'PageBlocksTimeline',
 	triptych: 'PageBlocksTriptych',
 	videoFeature: 'PageBlocksVideoFeature',

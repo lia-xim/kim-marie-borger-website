@@ -16,7 +16,7 @@ const config = (await getConfig()).data?.config ?? null;
 const title = data.seoTitle || config?.seo?.title || 'Kim Marie Borger · Viola';
 const description = data.seoDescription || config?.seo?.description || '';
 const heroImage = firstBlockImage(data);
-const jsonLd = homeJsonLd(Astro.site ?? new URL(Astro.url.origin), title, description);
+const jsonLd = homeJsonLd(Astro.site ?? new URL(Astro.url.origin), title, description, data.blocks);
 ---
 
 <Base

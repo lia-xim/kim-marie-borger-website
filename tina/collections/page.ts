@@ -7,6 +7,7 @@ import { solemnBlockSchema } from '../../src/components/blocks/solemn.template';
 import { collageBlockSchema } from '../../src/components/blocks/collage.template';
 import { splitBlockSchema } from '../../src/components/blocks/split.template';
 import { quoteBlockSchema } from '../../src/components/blocks/quote.template';
+import { testimonialsBlockSchema } from '../../src/components/blocks/testimonials.template';
 import { timelineBlockSchema } from '../../src/components/blocks/timeline.template';
 import { setlistBlockSchema } from '../../src/components/blocks/setlist.template';
 import { faqBlockSchema } from '../../src/components/blocks/faq.template';
@@ -75,6 +76,7 @@ export const PageCollection: Collection = {
 				collageBlockSchema,
 				splitBlockSchema,
 				quoteBlockSchema,
+				testimonialsBlockSchema,
 				timelineBlockSchema,
 				setlistBlockSchema,
 				faqBlockSchema,

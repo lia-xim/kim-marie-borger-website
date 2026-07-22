@@ -1,6 +1,8 @@
 import type { APIRoute } from 'astro';
 import type { ContactAnalyticsDeliveryStatus, ContactOutboxRecord } from '../../lib/contact-delivery';
 import {
+	clientKey,
+	consumeRateLimit,
 	createOutboxRecord,
 	deliverContactRecord,
 	getContactAnalyticsConfig,
@@ -21,6 +23,10 @@ export const prerender = false;
  * configured, the inquiry is persisted before delivery so failed Resend calls
  * can be retried by /api/contact-retry.
  */
+/** Submissions per IP per window. A real visitor never needs more than a few. */
+const RATE_LIMIT = 5;
+const RATE_WINDOW_SECONDS = 600;
+
 export const POST: APIRoute = async ({ request }) => {
 	let body: Record<string, unknown>;
 	try {
@@ -41,6 +47,20 @@ export const POST: APIRoute = async ({ request }) => {
 
 	const env = getRuntimeEnv(import.meta.env);
 	const outboxConfig = getContactOutboxConfig(env);
+
+	// Rate limit only after validation, so bots burn their budget on real-looking
+	// payloads rather than on cheap malformed ones.
+	const limit = await consumeRateLimit(
+		outboxConfig,
+		clientKey(request),
+		RATE_LIMIT,
+		RATE_WINDOW_SECONDS,
+	);
+	if (!limit.allowed) {
+		return json({ error: 'rate-limited' }, 429, {
+			'Retry-After': String(limit.retryAfter),
+		});
+	}
 	let outboxSaved = false;
 	let record = createOutboxRecord(inquiry);
 
@@ -114,9 +134,9 @@ async function saveOutboxSafely(
 	}
 }
 
-function json(payload: unknown, status: number): Response {
+function json(payload: unknown, status: number, headers: Record<string, string> = {}): Response {
 	return new Response(JSON.stringify(payload), {
 		status,
-		headers: { 'Content-Type': 'application/json' },
+		headers: { 'Content-Type': 'application/json', ...headers },
 	});
 }

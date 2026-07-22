@@ -13,7 +13,7 @@
   "hero": {
     "eyebrow": "Firmenevent in Herne",
     "title": "Live Musik für Firmenevents in Herne, die hochwertig wirkt und Gespräche lässt.",
-    "lead": "Solo-Viola für Empfang, Dinner, Firmenjubilaeum, Messe, Eröffnung oder Kundenevent in Herne - planbar, dezent und mit Rechnung.",
+    "lead": "Solo-Viola für Empfang, Dinner, Firmenjubiläum, Messe, Eröffnung oder Kundenevent in Herne - planbar, dezent und mit Rechnung.",
     "badge": "Anfrage kostenlos - Angebot nach Rahmen"
   },
   "split": {
@@ -44,7 +44,7 @@
           "Wenn mehrere Programmpunkte begleitet werden, plane ich kurze Spannungswechsel: ein ruhiger Beginn, ein tragender Kern und danach entweder ein heller Abschluss oder eine dezente Rücknahme."
         ],
         "image": {
-          "src": "/uploads/mq0uz92c-viola-1566624_1280.webp",
+          "src": "/uploads/_DSC7402.webp",
           "alt": "Live-Viola für ein Firmenevent in Herne - Bild 2"
         },
         "imageFirst": true
@@ -69,11 +69,11 @@
         "title": "Ein realistischer Ablauf in Herne rund um Schloss Strünkede und Wanne-Eickel.",
         "lede": "Ein Empfang in Herne rund um Schloss Strünkede und Wanne-Eickel kann mit dezenter Musik starten, während Gäste ankommen, und später mit einem kurzen musikalischen Akzent in Reden oder Dinner übergehen.",
         "paragraphs": [
-          "Wenn Reden, Begruessung und Dinner rund um Schloss Strünkede eng getaktet sind, bleibt die Viola bewusst flexibel: wenige starke Einsätze statt dauerhafter Beschallung.",
+          "Wenn Reden, Begrüßung und Dinner rund um Schloss Strünkede eng getaktet sind, bleibt die Viola bewusst flexibel: wenige starke Einsätze statt dauerhafter Beschallung.",
           "Wenn Zeremonie, Fotos und Empfang an zwei Orten zwischen Schloss Strünkede und Wanne-Eickel liegen, plane ich nicht automatisch beides ein; erst die Wege und Zeiten zeigen, ob ein Ortswechsel musikalisch sinnvoll ist. Für die Buchung klären wir danach ehrlich, ob vorhandenes Repertoire reicht oder ob ein Wunschlied neu herausgehört beziehungsweise notiert werden muss. So bleibt die Seite für Herne praktisch: Nicht der Ortsname macht sie relevant, sondern die Entscheidungshilfen zu Raum, Timing, Wunschmusik, Kontaktperson, Anfahrt und nächstem Schritt."
         ],
         "image": {
-          "src": "/uploads/mq0uz92c-viola-1566624_1280.webp",
+          "src": "/uploads/_DSC7402.webp",
           "alt": "Live-Viola für ein Firmenevent in Herne - Bild 4"
         },
         "imageFirst": true
@@ -86,7 +86,7 @@
     "items": [
       {
         "question": "Spielst du auf Firmenfeiern in Herne?",
-        "answer": "Ja. Ich begleite Firmenfeiern, Empfänge, Dinners, Messen, Eröffnungen und Jubilaeen in Herne mit Solo-Viola.",
+        "answer": "Ja. Ich begleite Firmenfeiern, Empfänge, Dinners, Messen, Eröffnungen und Jubiläen in Herne mit Solo-Viola.",
         "open": true
       },
       {
@@ -125,7 +125,7 @@
       "alt": "Live-Viola für ein Firmenevent in Herne - Bild 1"
     },
     {
-      "src": "/uploads/mq0uz92c-viola-1566624_1280.webp",
+      "src": "/uploads/_DSC7402.webp",
       "alt": "Live-Viola für ein Firmenevent in Herne - Bild 2"
     },
     {
@@ -133,11 +133,11 @@
       "alt": "Live-Viola für ein Firmenevent in Herne - Bild 3"
     },
     {
-      "src": "/uploads/mq0uz92c-viola-1566624_1280.webp",
+      "src": "/uploads/_DSC7402.webp",
       "alt": "Live-Viola für ein Firmenevent in Herne - Bild 4"
     }
   ],
-  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textbloeken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
+  "editorNotes": "Batch 9: Firmenfeier-Seiten vollständig nach Ort, Business-Format, Anlass und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
   "contact": {
     "eyebrow": "Firmenevent anfragen",
     "title": "Live Musik für ein Firmenevent in Herne anfragen",

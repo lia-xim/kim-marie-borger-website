@@ -13,7 +13,7 @@
   "hero": {
     "eyebrow": "Live buchen",
     "title": "Live-Musik zur Hochzeit buchen, mit klarer Planung statt Bauchgefühl allein.",
-    "lead": "Live Musik Hochzeit buchen richtet sich an Paare, die Termin, Ort und Ablauf schon grob kennen und jetzt klären moechten, ob Solo-Viola verbindlich passt.",
+    "lead": "Live Musik Hochzeit buchen richtet sich an Paare, die Termin, Ort und Ablauf schon grob kennen und jetzt klären möchten, ob Solo-Viola verbindlich passt.",
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
@@ -23,7 +23,7 @@
         "title": "Live Musik Hochzeit Buchen braucht eine eigene musikalische Planung.",
         "lede": "Hier steht die Buchungsentscheidung im Mittelpunkt: Verfügbarkeit, Angebot, Zeitfenster, Ablaufdaten, Wunschlied und die nächsten Schritte bis zur verbindlichen Zusage.",
         "paragraphs": [
-          "Wer Live Musik zur Hochzeit buchen moechte, braucht zuerst Planungssicherheit. Deshalb kläre ich Datum, Uhrzeit, Ort, gewünschte Dauer und die Rolle der Musik, bevor ich ein konkretes Angebot formuliere.",
+          "Wer Live Musik zur Hochzeit buchen möchte, braucht zuerst Planungssicherheit. Deshalb kläre ich Datum, Uhrzeit, Ort, gewünschte Dauer und die Rolle der Musik, bevor ich ein konkretes Angebot formuliere.",
           "Die Anfrage wird schneller belastbar, wenn der Ablauf schon grob steht: Trauung, Gratulation, Empfang, Dinner oder eine Kombination mehrerer Teile. Auch ungefaehre Gästezahl und Raumtyp helfen bei der Einschätzung.",
           "Bei einer Buchung geht es nicht nur um ein freies Datum. Wichtig sind auch Anfahrt, Aufbauzeit, Wetterschutz, Kontaktperson vor Ort und die Frage, ob Absprachen mit Standesamt, Kirche, Traurednerin oder Location noetig sind.",
           "Ich prüfe Wunschlieder frueh, damit klar ist, ob sie auf Solo-Viola funktionieren. Falls ein Titel nicht ideal passt, schlage ich eine musikalisch sichere Alternative oder einen geeigneten Ausschnitt vor."
@@ -41,7 +41,7 @@
         "paragraphs": [
           "Für Paare ist diese Buchungsseite richtig, wenn sie nicht mehr nur Inspiration suchen, sondern eine konkrete Entscheidung vorbereiten. Der Fokus liegt auf Verbindlichkeit, Ablauf und nächstem Schritt.",
           "Damit am Hochzeitstag nichts improvisiert werden muss, halte ich Startsignale, Position, Dauer und mögliche Pausen fest. So bleibt die Musik flexibel, aber die Organisation ist klar.",
-          "Auch kurzfristige Anfragen koennen funktionieren, wenn Datum, Ort und Zeitfenster sofort vorliegen. In der Hochzeitssaison ist fruehes Anfragen trotzdem deutlich entspannter."
+          "Auch kurzfristige Anfragen können funktionieren, wenn Datum, Ort und Zeitfenster sofort vorliegen. In der Hochzeitssaison ist frühes Anfragen trotzdem deutlich entspannter."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -51,7 +51,7 @@
       },
       {
         "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Die Buchung bleibt persönlich: Ihr bekommt keine Standardliste, sondern eine Einsch?tzung, welche musikalische Loesung zu eurem Ort, Ablauf und Wunschmoment passt.",
+        "lede": "Die Buchung bleibt persönlich: Ihr bekommt keine Standardliste, sondern eine Einsch?tzung, welche musikalische Lösung zu eurem Ort, Ablauf und Wunschmoment passt.",
         "paragraphs": [
           "Der Unterschied zur allgemeinen Live-Musik-Seite ist bewusst: Dort geht es um Wirkung und Einsatzideen, hier um die konkrete Anfrage, Prüfung und Reservierung."
         ],
@@ -110,15 +110,15 @@
       },
       {
         "question": "Kann ich erst unverbindlich anfragen?",
-        "answer": "Ja. Die erste Einsch?tzung ist unverbindlich. Danach koennen wir klären, ob Termin, Ablauf und musikalische Idee zusammenpassen."
+        "answer": "Ja. Die erste Einsch?tzung ist unverbindlich. Danach können wir klären, ob Termin, Ablauf und musikalische Idee zusammenpassen."
       },
       {
         "question": "Was passiert nach der Anfrage?",
-        "answer": "Ich prüfe Verfügbarkeit, stelle Rueckfragen zum Ablauf und schlage einen passenden musikalischen Rahmen vor. Danach koennen die Details verbindlich festgehalten werden."
+        "answer": "Ich prüfe Verfügbarkeit, stelle Rueckfragen zum Ablauf und schlage einen passenden musikalischen Rahmen vor. Danach können die Details verbindlich festgehalten werden."
       },
       {
         "question": "Was unterscheidet diese Seite von Live Musik Hochzeit?",
-        "answer": "Diese Seite ist für Paare gedacht, die konkret buchen moechten. Die allgemeine Live-Musik-Seite erklaert eher Wirkung, Einsatzmomente und musikalische Moeglichkeiten."
+        "answer": "Diese Seite ist für Paare gedacht, die konkret buchen möchten. Die allgemeine Live-Musik-Seite erklärt eher Wirkung, Einsatzmomente und musikalische Möglichkeiten."
       }
     ]
   },
@@ -136,7 +136,7 @@
       "alt": "Live-Viola für Live Musik Hochzeit buchen 3"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 14: Medium-Seiten mit leserfreundlichen lokalen und intent-spezifischen Differenzierungsabsaetzen poliert.\n\nBatch 15: Intent klar von Live Musik Hochzeit getrennt; Fokus auf Buchung, Verfuegbarkeit, Angebot und Ablaufdaten.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 14: Medium-Seiten mit leserfreundlichen lokalen und intent-spezifischen Differenzierungsabsätzen poliert.\n\nBatch 15: Intent klar von Live Musik Hochzeit getrennt; Fokus auf Buchung, Verfuegbarkeit, Angebot und Ablaufdaten.",
   "contact": {
     "eyebrow": "Hochzeitsmusik planen",
     "title": "Live Musik Hochzeit Buchen anfragen",

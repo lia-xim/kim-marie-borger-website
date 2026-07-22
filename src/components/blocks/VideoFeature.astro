@@ -5,6 +5,9 @@ import { normalizeHref } from '../../lib/url';
 
 const { data } = Astro.props;
 const hasVideo = Boolean(data.youtubeId?.trim?.());
+// Ohne Video, aber mit Weiterleitung (z. B. Instagram) ist das Standbild echter
+// Inhalt — nur ein Block ganz ohne Ziel wird als Platzhalter abgedunkelt.
+const isPlaceholder = !hasVideo && !data.linkHref?.trim?.();
 ---
 <section class="section" id={data.anchorId || undefined}>
 	<div class="wrap">
@@ -14,12 +17,12 @@ const hasVideo = Boolean(data.youtubeId?.trim?.());
 		</div>
 		<div class="video-grid reveal d1">
 			<div
-				class={`video-frame${hasVideo ? '' : ' is-placeholder'}`}
+				class={`video-frame${isPlaceholder ? ' is-placeholder' : ''}`}
 				data-yt={hasVideo ? data.youtubeId : undefined}
 				role={hasVideo ? 'button' : undefined}
 				tabindex={hasVideo ? '0' : undefined}
 				aria-label={hasVideo ? 'Video abspielen' : undefined}
-				aria-disabled={hasVideo ? undefined : 'true'}
+				aria-disabled={isPlaceholder ? 'true' : undefined}
 			>
 				<Img src={data.poster?.src} alt={data.poster?.alt ?? ''} sizes="(max-width: 1100px) 94vw, 980px" data-tina-field={tinaField(data, 'poster')} />
 				{hasVideo && <span class="play-ring"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>}

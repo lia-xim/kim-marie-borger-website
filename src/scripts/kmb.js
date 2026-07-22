@@ -861,7 +861,8 @@ if(anfrageForm){
         ...getContactFormTrackingData(f)
       });
       formSubmitted = true;
-      const res = await fetch('/api/contact', {
+      // Mit Slash: trailingSlash ist aktiv, sonst kostet jede Absendung einen 308.
+      const res = await fetch('/api/contact/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
@@ -893,6 +894,8 @@ if(anfrageForm){
         ok.style.display='block';
         if(err && err.message === 'validation') {
           ok.textContent = 'Bitte prüfe Name und E-Mail-Adresse. Danach kannst du die Anfrage erneut senden.';
+        } else if(err && (err.status === 429 || err.message === 'rate-limited')) {
+          ok.textContent = 'Es sind gerade sehr viele Anfragen von diesem Anschluss eingegangen. Bitte versuche es in ein paar Minuten erneut' + (mail ? ' oder schreib direkt an ' + mail.textContent + '.' : '.');
         } else {
           ok.textContent = 'Das Senden hat leider nicht geklappt — schreib mir bitte direkt per E-Mail' + (mail ? ': ' + mail.textContent : '.');
         }

@@ -68,7 +68,8 @@ npm run build:local
 | `npm run build` | Production build with Tina Cloud credentials |
 | `npm run build:local` | Production build from repository content, with `/admin` disabled |
 | `npm run build:vercel` | Vercel build entrypoint; chooses cloud or local mode automatically |
-| `npm run audit:prod` | Audit the production dependency surface |
+| `npm run check` | Type-check Astro components and TypeScript |
+| `npm run audit:prod` | Audit dependencies (reports dev-tooling advisories too) |
 | `npm run audit:seo` | Generate SEO/content diagnostics |
 | `npm run qa:seo-pages` | Run SEO page island QA |
 | `npm run audit:seo:dist` | Run SEO diagnostics against `dist/client` explicitly |
@@ -130,7 +131,7 @@ Use `.env.example` as the reference. Local secret files are ignored by Git.
 | `CONTACT_OUTBOX_PREFIX` | Optional for reliable contact delivery | Redis key prefix; defaults to `kmb:contact` |
 | `CONTACT_OUTBOX_RETENTION_DAYS` | Optional for reliable contact delivery | Outbox record retention; defaults to `90` |
 | `CONTACT_OUTBOX_BATCH_SIZE` | Optional for reliable contact delivery | Retry batch size; defaults to `10` |
-| `CONTACT_ALERT_EMAIL` | Optional for reliable contact delivery | Operations alert recipient; defaults to `matthiasramahi@web.de` |
+| `CONTACT_ALERT_EMAIL` | Recommended for reliable contact delivery | Operations alert recipient; falls back to `CONTACT_TO_EMAIL` (no address is hardcoded, because this repository is public) |
 | `CONTACT_ALERT_AFTER_ATTEMPTS` | Optional for reliable contact delivery | Sends an alert after this many failed delivery attempts; defaults to `2` |
 | `CRON_SECRET` | Recommended for reliable contact delivery | Secret Vercel sends to `/api/contact-retry` as `Authorization: Bearer ...` |
 | `CONTACT_RETRY_SECRET` | Optional for reliable contact delivery | Manual/external scheduler secret when not using Vercel Cron |
@@ -249,12 +250,17 @@ variables are present and falls back to local content builds otherwise.
 
 ## Known Launch Checks
 
-- Impressum and Datenschutz pages are implemented, but final legal details
-  should be reviewed before a custom-domain launch.
-- Guest quote copy on the home/about pages is still marked as placeholder
-  content.
-- Portfolio audio currently uses synthetic sketches unless real audio files and
-  optional video IDs are added.
+- Impressum and Datenschutz carry the full postal address, phone number, and
+  processing details. Two points still need the site owner's confirmation:
+  the VAT status (small-business rule under § 19 UStG vs. a VAT ID, which is
+  mandatory in the imprint if VAT-registered) and whether terms of service
+  (AGB) should be published for bookings with deposits or cancellations.
+- No video material exists yet. The portfolio's video block currently points to
+  Instagram instead of showing a "coming soon" placeholder. Once a real
+  recording exists, set `youtubeId` on that block and it becomes a player.
+- Only one customer testimonial is published site-wide. The Google Business
+  profile has more; moving them onto the site is the largest remaining
+  conversion gap and a prerequisite for `AggregateRating` markup.
 
 ## Security
 
