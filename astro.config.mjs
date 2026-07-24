@@ -1,6 +1,6 @@
 // @ts-check
-import { statSync } from 'node:fs';
 import { copyFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap, { ChangeFreqEnum } from '@astrojs/sitemap';
@@ -8,6 +8,7 @@ import tina from '@tinacms/astro/integration';
 import { tinaAdminDevRedirect } from '@tinacms/astro/vite';
 import vercel from '@astrojs/vercel';
 import { addMissingLinkTitles } from './scripts/lib/link-title-postprocess.mjs';
+import { buildGitLastmodMap } from './scripts/lib/git-lastmod.mjs';
 
 /** @typedef {import('@astrojs/sitemap').SitemapItem} SitemapItem */
 
@@ -37,13 +38,15 @@ const PRIORITY_LOCATIONS = new Set([
 
 const DEFAULT_SITEMAP_LASTMOD = new Date('2026-07-05T00:00:00.000Z').toISOString();
 
+// lastmod kommt aus der Git-Historie, NICHT aus Datei-mtimes: Vercel klont
+// das Repo bei jedem Build frisch, dadurch truegen sonst alle 500+ Seiten
+// die Build-Zeit als lastmod. Vollstaendig ist die Map nur mit kompletter
+// Historie — auf Vercel ist dafuer VERCEL_DEEP_CLONE=true gesetzt.
+const GIT_LASTMOD = buildGitLastmodMap(fileURLToPath(new URL('.', import.meta.url)));
+
 /** @param {string} relativePath */
 function fileLastmod(relativePath) {
-	try {
-		return statSync(new URL(relativePath, import.meta.url)).mtime.toISOString();
-	} catch {
-		return DEFAULT_SITEMAP_LASTMOD;
-	}
+	return GIT_LASTMOD.get(relativePath.replace(/^\.\//, '')) ?? DEFAULT_SITEMAP_LASTMOD;
 }
 
 /** @param {SitemapItem} item */

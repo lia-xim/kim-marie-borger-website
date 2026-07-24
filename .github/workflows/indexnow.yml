@@ -1,0 +1,68 @@
+name: IndexNow
+
+# Meldet nach jedem erfolgreichen Vercel-Production-Deployment die neuen bzw.
+# geaenderten URLs per IndexNow an Bing, Yandex, Seznam, Naver & Co.
+# Google unterstuetzt IndexNow nicht — dort zaehlen Sitemap + Search Console.
+#
+# Der zuletzt gemeldete Commit liegt im Actions-Cache. Faellt er raus
+# (Eviction nach ~7 Tagen ohne Zugriff), gibt es einmalig eine
+# Voll-Submission — unschoen, aber selbstheilend und unter dem
+# IndexNow-Limit von 10.000 URLs pro Request.
+
+on:
+  deployment_status:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Submission-Modus
+        type: choice
+        options:
+          - changed
+          - all
+        default: changed
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    name: Submit URLs
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.deployment_status.state == 'success' &&
+       github.event.deployment.environment == 'Production')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Deployten Stand auschecken; volle Historie fuer den Commit-Diff.
+          ref: ${{ github.event.deployment.sha || github.ref }}
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Restore submission state
+        uses: actions/cache/restore@v4
+        with:
+          path: .indexnow-state.json
+          key: indexnow-state-${{ github.run_id }}
+          restore-keys: |
+            indexnow-state-
+
+      # Das Skript ist dependency-frei — kein npm ci noetig.
+      - name: Submit to IndexNow
+        run: node scripts/indexnow-submit.mjs ${{ inputs.mode == 'all' && '--all' || '' }} --state .indexnow-state.json
+
+      # if: always() — schlaegt die Submission fehl, wird der alte State
+      # erneut gespeichert und der naechste Lauf holt den Diff nach.
+      - name: Save submission state
+        if: always() && hashFiles('.indexnow-state.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .indexnow-state.json
+          key: indexnow-state-${{ github.run_id }}
