@@ -131,21 +131,33 @@ function urlsForDiff(from, to, sitemapUrls) {
 async function submit(key, urls) {
 	for (let i = 0; i < urls.length; i += MAX_URLS_PER_POST) {
 		const chunk = urls.slice(i, i + MAX_URLS_PER_POST);
-		const res = await fetch(INDEXNOW_ENDPOINT, {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/json; charset=utf-8' },
-			body: JSON.stringify({
-				host: new URL(SITE).host,
-				key,
-				keyLocation: `${SITE}/${key}.txt`,
-				urlList: chunk,
-			}),
-		});
-		// 200 OK und 202 Accepted (Key wird spaeter validiert) sind Erfolg.
-		if (res.status !== 200 && res.status !== 202) {
-			throw new Error(`IndexNow antwortete HTTP ${res.status}: ${(await res.text()).slice(0, 500)}`);
+		// Direkt nach einem Deployment mit frischem Key antwortet IndexNow mit
+		// 403 SiteVerificationNotCompleted, bis es die Key-Datei asynchron
+		// verifiziert hat — darum begrenzt wiederholen statt sofort aufgeben.
+		for (let attempt = 1; ; attempt++) {
+			const res = await fetch(INDEXNOW_ENDPOINT, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json; charset=utf-8' },
+				body: JSON.stringify({
+					host: new URL(SITE).host,
+					key,
+					keyLocation: `${SITE}/${key}.txt`,
+					urlList: chunk,
+				}),
+			});
+			// 200 OK und 202 Accepted (Key wird spaeter validiert) sind Erfolg.
+			if (res.status === 200 || res.status === 202) {
+				console.log(`IndexNow: ${chunk.length} URL(s) gemeldet (HTTP ${res.status}).`);
+				break;
+			}
+			const body = (await res.text()).slice(0, 500);
+			if (res.status === 403 && attempt < 4) {
+				console.log(`IndexNow: HTTP 403 (Key-Verifikation steht noch aus) — neuer Versuch in 90 s (${attempt}/3): ${body}`);
+				await new Promise((resolve) => setTimeout(resolve, 90_000));
+				continue;
+			}
+			throw new Error(`IndexNow antwortete HTTP ${res.status}: ${body}`);
 		}
-		console.log(`IndexNow: ${chunk.length} URL(s) gemeldet (HTTP ${res.status}).`);
 	}
 }
 
