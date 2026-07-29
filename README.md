@@ -72,6 +72,8 @@ npm run build:local
 | `npm run audit:prod` | Audit dependencies (reports dev-tooling advisories too) |
 | `npm run audit:seo` | Generate SEO/content diagnostics |
 | `npm run qa:seo-pages` | Run SEO page island QA |
+| `npm run seo:clean-public-copy` | Preview deterministic public SEO copy cleanup |
+| `npm run seo:clean-public-copy -- --from-head --write` | Rebuild cleaned public SEO copy from the current Git base |
 | `npm run audit:seo:dist` | Run SEO diagnostics against `dist/client` explicitly |
 | `npm run audit:seo:vercel` | Run SEO diagnostics against `.vercel/output/static` explicitly |
 | `npm run qa:seo-pages:dist` | Run SEO page Tina QA against `dist/client` explicitly |

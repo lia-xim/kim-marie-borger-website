@@ -6,27 +6,27 @@
   "targetKeyword": "Hochzeitsmusik Düsseldorf",
   "intentCluster": "hochzeiten:local",
   "priority": "P1",
-  "status": "manual-priority-local-seo-2026-06-22",
+  "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Hochzeitsmusik Düsseldorf | Viola für Trauung",
   "seoDescription": "Hochzeitsmusik Düsseldorf: Solo-Viola für Trauung, Empfang und Dinner in Düsseldorf. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
     "eyebrow": "Hochzeitsmusik in Düsseldorf",
-    "title": "Hochzeitsmusik in Düsseldorf: konkret geplant nach Ort und Ablauf.",
-    "lead": "Solo-Viola für Trauung, Empfang und Dinner in Düsseldorf. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, wann Solo-Viola wirklich passt.",
-    "badge": "Anfrage kostenlos - Preis nach Rahmen"
+    "title": "Hochzeitsmusik in Düsseldorf für Trauung und Empfang.",
+    "lead": "Live gespielte Solo-Viola für Einzug, Trauung, Auszug oder Sektempfang. Vorab klären wir Wunschstücke, Einsätze, Wege und den Plan B für eine Feier im Freien.",
+    "badge": "Anfrage kostenlos · Preis nach Ablauf"
   },
   "split": {
     "seal": "Düsseldorf\nHochzeitsmusik\nkonkret geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Hochzeitsmusik in Düsseldorf: was vor Ort wirklich zählt.",
-        "lede": "In Düsseldorf macht es einen großen Unterschied, ob ein Termin innenstadtnah, am Rhein, linksrheinisch, in Benrath oder in einem Stadtteil weiter außerhalb liegt. Für Hochzeitsmusik heißt das: Einlass, Aufstellung, Startsignal, Wetteroption und Ortswechsel müssen zum Trauablauf passen. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
+        "title": "Damit die Musik im richtigen Moment beginnt.",
+        "lede": "Bei einer Trauung in Düsseldorf brauche ich nicht nur die Adresse. Wichtig sind der genaue Eingang, der Spielort im Raum, das Startsignal und die Frage, ob Einzug und Empfang an demselben Ort stattfinden.",
         "paragraphs": [
-          "Typische Situationen in Düsseldorf können Innenstadt, Altstadt, Rheinseite, Oberkassel, Benrath oder ein Hotel- und Restaurantumfeld sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
+          "Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
           "Halte- oder Parkmöglichkeit, genauer Eingang, Etage, Raum, Aufzug und Kontaktperson sollten vorab klar sein. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern.",
-          "Als Planungsbeispiele für standesamtliche Trauorte nennt die Stadt Düsseldorf unter anderem Schloss Benrath, das Stadtfenster im KAP1 und das Hetjens Museum. Das ist kein Erfahrungsbeleg, sondern ein Hinweis: Einlass, Zeitfenster, Raumregeln und Wege müssen vorab geklärt werden."
+          "Bei festen Zeitfenstern plane ich Ankunft und Aufbau so, dass die Musik bereit ist, bevor die ersten Gäste sitzen. Für einen Ortswechsel zwischen Trauung und Empfang braucht es dagegen einen realistischen Puffer."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
@@ -37,11 +37,11 @@
       {
         "eyebrow": "Ablauf",
         "title": "Von Einzug bis Empfang in Düsseldorf.",
-        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob die Musik nur einen einzelnen Moment trägt oder mehrere Übergaenge eines Hochzeitstags verbindet.",
+        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob die Musik nur einen einzelnen Moment trägt oder mehrere Übergänge eines Hochzeitstags verbindet.",
         "paragraphs": [
           "Mögliche Einsatzpunkte sind Einzug, Ringtausch oder Ja-Wort, Unterschrift, Auszug, Empfang und Dinner. Ich plane lieber wenige sichere Momente als einen langen Musikblock, der Wege, Reden oder Gespräche stört.",
           "Vorab klären wir, ob vorhandenes Repertoire reicht, ob ein Wunschstück vorbereitet werden soll und ob die Einsätze mit Standesamt, Kirche, Redner:in, Location oder Veranstaltungsleitung abgestimmt werden müssen.",
-          "Gerade in Düsseldorf hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So bleibt die Musik präsent, aber sie zwingt dem Anlass kein unpassendes Format auf."
+          "Bei festen Trauzeitfenstern notieren wir Einsätze, Startzeichen und einen erreichbaren Kontakt. So kann ich auf kleine Verzögerungen reagieren, ohne dass ihr euch während der Zeremonie darum kümmern müsst."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -52,7 +52,7 @@
       {
         "eyebrow": "Solo-Viola: passend oder nicht?",
         "title": "Wann Solo-Viola in Düsseldorf die richtige Wahl ist.",
-        "lede": "Solo-Viola passt, wenn ein warmer, solistischer Klang die Zeremonie persönlich tragen soll, ohne den Raum zu überdecken. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "lede": "Solo-Viola passt gut zu Momenten, in denen ein warmer, persönlicher Klang tragen darf, ohne Worte und Gespräche zu überdecken.",
         "paragraphs": [
           "Nicht ideal ist Solo-Viola, wenn laute Tanzmusik, lange Partybeschallung oder ein sehr großes Ensemble erwartet wird. Dann ist es fairer, über DJ, Band, Technik oder ein anderes Format zu sprechen.",
           "Bei Außenbereichen gilt: trockener, schattiger Stand, stabiler Untergrund und eine Innenoption sind für ein Streichinstrument wichtiger als ein besonders schöner Hintergrund.",
@@ -66,7 +66,7 @@
       },
       {
         "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine seriöse Anfrage in Düsseldorf brauche.",
+        "title": "Was ich für ein verlässliches Angebot brauche.",
         "lede": "Eine gute Hochzeitsanfrage nennt Datum, genaue Adresse, Trauform, Uhrzeit, Gästezahl, Wunschmomente, erste Liedideen und eine Kontaktperson vor Ort. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
           "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Ortswechsel, Vorbereitung und Wunschmusik. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
@@ -83,8 +83,8 @@
   },
   "focus": {
     "eyebrow": "Planung in Düsseldorf",
-    "title": "Vier Entscheidungen, die Hochzeitsmusik in Düsseldorf konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
+    "title": "Vier Fragen vor einer Hochzeit mit Live-Musik.",
+    "lead": "Wenn diese vier Punkte stehen, kann ich euch einen musikalischen Ablauf und einen nachvollziehbaren Preis nennen.",
     "items": [
       {
         "time": "1",
@@ -107,11 +107,11 @@
       {
         "time": "4",
         "kicker": "Rahmen",
-        "title": "Preis und Buchung ehrlich abstimmen",
+        "title": "Kosten und Buchungsumfang festhalten",
         "text": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Ortswechsel, Vorbereitung und Wunschmusik. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Hochzeitsmusik in Düsseldorf wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Wenn Ort, Einsätze, Wunschmusik und Kosten feststehen, könnt ihr die Musik ohne offene Detailfragen buchen."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
@@ -140,7 +140,7 @@
       },
       {
         "question": "Wann ist Solo-Viola nicht die richtige Lösung?",
-        "answer": "Nicht ideal ist Solo-Viola, wenn laute Tanzmusik, lange Partybeschallung oder ein sehr großes Ensemble erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "answer": "Für Tanzfläche, lange Partybeschallung oder den Klang eines großen Ensembles ist Solo-Viola nicht gedacht. Dafür passen DJ, Band oder eine größere Besetzung besser."
       },
       {
         "question": "Was ist in Düsseldorf organisatorisch wichtig?",
@@ -155,22 +155,22 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-      "alt": "Hochzeitsmusik in Düsseldorf - Planungsbild 1"
+      "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Hochzeitsmusik in Düsseldorf - Planungsbild 2"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-      "alt": "Hochzeitsmusik in Düsseldorf - Planungsbild 3"
+      "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-      "alt": "Hochzeitsmusik in Düsseldorf - Planungsbild 4"
+      "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Einstieg gekürzt, Düsseldorfer Ablaufkontext konkretisiert, unbelegte Ortsbeispiele entfernt und Angebot, Eignung sowie Grenzen in natürlicher Sprache geschärft.",
   "contact": {
     "eyebrow": "Hochzeitsmusik anfragen",
     "title": "Hochzeitsmusik in Düsseldorf anfragen",

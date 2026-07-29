@@ -6,27 +6,27 @@
   "targetKeyword": "Hochzeitsmusik Köln",
   "intentCluster": "hochzeiten:local",
   "priority": "P1",
-  "status": "manual-priority-local-seo-2026-06-22",
+  "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Hochzeitsmusik Köln | Viola für Trauung",
   "seoDescription": "Hochzeitsmusik Köln: Solo-Viola für Trauung, Empfang und Dinner in Köln. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
     "eyebrow": "Hochzeitsmusik in Köln",
-    "title": "Hochzeitsmusik in Köln: konkret geplant nach Ort und Ablauf.",
-    "lead": "Solo-Viola für Trauung, Empfang und Dinner in Köln. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, wann Solo-Viola wirklich passt.",
-    "badge": "Anfrage kostenlos - Preis nach Rahmen"
+    "title": "Hochzeitsmusik in Köln für Trauung und Empfang.",
+    "lead": "Solo-Viola für die stillen und festlichen Momente eures Hochzeitstags: vom Einzug bis zum Sektempfang, mit Wunschliedern und klar abgestimmten Einsätzen.",
+    "badge": "Anfrage kostenlos · Preis nach Ablauf"
   },
   "split": {
     "seal": "Köln\nHochzeitsmusik\nkonkret geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Hochzeitsmusik in Köln: was vor Ort wirklich zählt.",
-        "lede": "In Köln verändert die Lage linksrheinisch oder rechtsrheinisch, in der Innenstadt, in einem Veedel oder weiter draussen schnell den realistischen Zeitplan. Für Hochzeitsmusik heißt das: Einlass, Aufstellung, Startsignal, Wetteroption und Ortswechsel müssen zum Trauablauf passen. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
+        "title": "Trauort, Startsignal und Wege zusammendenken.",
+        "lede": "In Köln kann schon ein Wechsel zwischen Trauung und Empfang den Zeitplan bestimmen. Deshalb klären wir früh, auf welcher Rheinseite und in welchem Raum gespielt wird, wann der Einlass beginnt und wer mir das Startsignal gibt.",
         "paragraphs": [
-          "Typische Situationen in Köln können Innenstadt, Altstadt, Ehrenfeld, Nippes, Deutz, Porz oder ein anderes Veedel sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
-          "Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern.",
-          "Die Stadt Köln nennt für standesamtliche Trauungen unter anderem das Historische Rathaus, den Rathaus-Spanischen Bau und weitere Trauorte. Das ist kein Erfahrungsversprechen, sondern ein Planungsrahmen für Raum, Zeitfenster und Abstimmung."
+          "Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo ich mich mit der Viola aufstellen kann und ob ich den Einzug vom Spielort aus sehe.",
+          "Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern.",
+          "Bei einem engen standesamtlichen Zeitfenster halte ich den Aufbau bewusst klein. Für einen Empfang an einem zweiten Ort braucht es dagegen genügend Zeit für Weg, Aufbau und erneutes Stimmen."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
@@ -37,11 +37,11 @@
       {
         "eyebrow": "Ablauf",
         "title": "Von Einzug bis Empfang in Köln.",
-        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob die Musik nur einen einzelnen Moment trägt oder mehrere Übergaenge eines Hochzeitstags verbindet.",
+        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob die Musik nur einen einzelnen Moment trägt oder mehrere Übergänge eines Hochzeitstags verbindet.",
         "paragraphs": [
           "Mögliche Einsatzpunkte sind Einzug, Ringtausch oder Ja-Wort, Unterschrift, Auszug, Empfang und Dinner. Ich plane lieber wenige sichere Momente als einen langen Musikblock, der Wege, Reden oder Gespräche stört.",
           "Vorab klären wir, ob vorhandenes Repertoire reicht, ob ein Wunschstück vorbereitet werden soll und ob die Einsätze mit Standesamt, Kirche, Redner:in, Location oder Veranstaltungsleitung abgestimmt werden müssen.",
-          "Gerade in Köln hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So bleibt die Musik präsent, aber sie zwingt dem Anlass kein unpassendes Format auf."
+          "Wenn Trauung und Empfang an verschiedenen Orten liegen, planen wir den Wechsel mit einem echten Zeitpuffer. Ein enges Programm darf nicht davon abhängen, dass Verkehr und Einlass minutengenau funktionieren."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -52,7 +52,7 @@
       {
         "eyebrow": "Solo-Viola: passend oder nicht?",
         "title": "Wann Solo-Viola in Köln die richtige Wahl ist.",
-        "lede": "Solo-Viola passt, wenn ein warmer, solistischer Klang die Zeremonie persönlich tragen soll, ohne den Raum zu überdecken. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "lede": "Solo-Viola passt, wenn ihr einen warmen Live-Klang möchtet, der die Zeremonie trägt und trotzdem Platz für Worte, Applaus und Gespräche lässt.",
         "paragraphs": [
           "Nicht ideal ist Solo-Viola, wenn laute Tanzmusik, lange Partybeschallung oder ein sehr großes Ensemble erwartet wird. Dann ist es fairer, über DJ, Band, Technik oder ein anderes Format zu sprechen.",
           "Bei Außenbereichen gilt: trockener, schattiger Stand, stabiler Untergrund und eine Innenoption sind für ein Streichinstrument wichtiger als ein besonders schöner Hintergrund.",
@@ -66,7 +66,7 @@
       },
       {
         "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine seriöse Anfrage in Köln brauche.",
+        "title": "Was ich für ein verlässliches Angebot brauche.",
         "lede": "Eine gute Hochzeitsanfrage nennt Datum, genaue Adresse, Trauform, Uhrzeit, Gästezahl, Wunschmomente, erste Liedideen und eine Kontaktperson vor Ort. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
           "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Ortswechsel, Vorbereitung und Wunschmusik. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
@@ -83,14 +83,14 @@
   },
   "focus": {
     "eyebrow": "Planung in Köln",
-    "title": "Vier Entscheidungen, die Hochzeitsmusik in Köln konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
+    "title": "Vier Fragen vor einer Hochzeit mit Live-Musik.",
+    "lead": "Aus diesen vier Angaben entsteht ein Ablauf, der auch bei engem Zeitfenster nicht ins Rutschen gerät.",
     "items": [
       {
         "time": "1",
         "kicker": "Ort",
         "title": "Adresse, Raum und Zugang klären",
-        "text": "Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Das beeinflusst Ankunft, Aufbau, Stimmen, Wartezeit und die Frage, ob ein Ortswechsel sinnvoll ist."
+        "text": "Das beeinflusst Ankunft, Aufbau, Stimmen, Wartezeit und die Frage, ob ein Ortswechsel sinnvoll ist."
       },
       {
         "time": "2",
@@ -107,11 +107,11 @@
       {
         "time": "4",
         "kicker": "Rahmen",
-        "title": "Preis und Buchung ehrlich abstimmen",
+        "title": "Kosten und Buchungsumfang festhalten",
         "text": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Ortswechsel, Vorbereitung und Wunschmusik. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Hochzeitsmusik in Köln wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Wenn Ort, Einsätze, Wunschmusik und Kosten feststehen, könnt ihr die Musik ohne offene Detailfragen buchen."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
@@ -140,11 +140,11 @@
       },
       {
         "question": "Wann ist Solo-Viola nicht die richtige Lösung?",
-        "answer": "Nicht ideal ist Solo-Viola, wenn laute Tanzmusik, lange Partybeschallung oder ein sehr großes Ensemble erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "answer": "Für Tanzfläche, lange Partybeschallung oder den Klang eines großen Ensembles ist Solo-Viola nicht gedacht. Dafür passen DJ, Band oder eine größere Besetzung besser."
       },
       {
         "question": "Was ist in Köln organisatorisch wichtig?",
-        "answer": "In Köln verändert die Lage linksrheinisch oder rechtsrheinisch, in der Innenstadt, in einem Veedel oder weiter draussen schnell den realistischen Zeitplan. Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
+        "answer": "Wichtig sind Rheinseite, genauer Eingang, Spielraum und ein möglicher Ortswechsel. Diese Angaben entscheiden darüber, wie viel Zeit für Ankunft, Aufbau und erneutes Stimmen nötig ist."
       },
       {
         "question": "Was kann zusätzlich kosten?",
@@ -155,22 +155,22 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-      "alt": "Hochzeitsmusik in Köln - Planungsbild 1"
+      "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Hochzeitsmusik in Köln - Planungsbild 2"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-      "alt": "Hochzeitsmusik in Köln - Planungsbild 3"
+      "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-      "alt": "Hochzeitsmusik in Köln - Planungsbild 4"
+      "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Kölner Wege- und Zeitfensterlogik auf konkrete Nutzerfragen reduziert, unbelegte Trauortlisten entfernt und Eignung, Ablauf sowie Kosten verständlicher formuliert.",
   "contact": {
     "eyebrow": "Hochzeitsmusik anfragen",
     "title": "Hochzeitsmusik in Köln anfragen",

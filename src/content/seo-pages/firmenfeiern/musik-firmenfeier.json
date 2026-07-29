@@ -6,14 +6,14 @@
   "targetKeyword": "Musik Firmenfeier",
   "intentCluster": "firmenfeiern:topic",
   "priority": "P2",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "status": "manual-merge-candidate-reviewed-2026-07-29",
   "enabled": true,
   "seoTitle": "Musik Firmenfeier | Live-Viola für Business",
   "seoDescription": "Musik Firmenfeier: Solo-Viola für Business-Events. Dezent, hochwertig, gesprächsfreundlich und professionell planbar.",
   "hero": {
     "eyebrow": "Business-Musik",
     "title": "Musik für Firmenfeiern mit Stil und Gesprächsraum.",
-    "lead": "Bei Firmenfeiern geht es meistens um Wertschätzung, Atmosphäre und einen guten Übergang vom Arbeitsalltag in den Abend. Ich plane Solo-Viola so, dass Musik, Ablauf, Raum und geschäftlicher Anlass zusammenpassen.",
+    "lead": "Für eine Firmenfeier kann Solo-Viola den Empfang, ein Dinner oder einen eigenen Programmpunkt begleiten. Ob das passt, hängt von Gästezahl, Raum, Gesprächslautstärke und dem geplanten Zeitfenster ab.",
     "badge": "Live-Viola für Unternehmen"
   },
   "split": {
@@ -25,10 +25,9 @@
         "paragraphs": [
           "Bei Firmenfeiern geht es meistens um Wertschätzung, Atmosphäre und einen guten Übergang vom Arbeitsalltag in den Abend.",
           "Ich begleite Empfang, Dinner, kurze Ehrung oder einen ruhigen Programmpunkt mit Solo-Viola.",
-          "Diese Seite bleibt allgemein für Firmenfeiern; Spezialseiten wie Dinnermusik, Messe oder Eröffnung behandeln engere Situationen.",
           "Wichtig sind Gästezahl, Ablauf, Reden, Essen, Lautstärke, gewünschte Stimmung und Rechnungsdaten.",
           "Die Viola ist eine gute Lösung, wenn die Feier hochwertiger wirken soll, aber Gespräche weiterhin möglich bleiben müssen.",
-          "Bei Musik Firmenfeier beginne ich mit der Frage, welche Aufgabe die Musik im Business-Ablauf übernimmt: einladend, verbindend, festlich, dezent oder als klarer Akzent.",
+          "Ich beginne mit der Frage, welche Aufgabe die Musik im Business-Ablauf übernimmt: einladend, verbindend, festlich, dezent oder als klarer Akzent.",
           "Die Setlänge hängt nicht nur von der gebuchten Zeit ab. Wichtig ist, wann Gäste wirklich hören, wann sie sprechen, wann Service läuft und wann ein offizieller Programmpunkt Aufmerksamkeit braucht."
         ],
         "image": {
@@ -46,7 +45,7 @@
           "Auch die Platzierung im Raum gehört zur Planung. Zu nah am Buffet ist Musik oft im Weg, zu weit entfernt verliert sie Wirkung. Die beste Position unterstützt Bewegung und Blickrichtung der Gäste.",
           "Für Musik Firmenfeier kann klassische Musik passend sein, aber auch moderne Melodien, ruhige Pop-Bearbeitungen oder reduzierte instrumentale Linien. Entscheidend ist der Anlass, nicht eine starre Stil-Schublade.",
           "Ich plane deshalb nicht einfach eine Stückliste, sondern die Rolle der Musik im Ablauf: Ankommen, Begrüßung, Essen, Rede, Pause oder Ausklang.",
-          "Die organisatorische Seite bleibt bewusst klar: Termin, Ort, Kontaktperson, Rechnungsdaten, Dresscode, gewünschte Spielzeit und eventuelle Besonderheiten der Location.",
+          "Organisatorisch wichtig sind Termin, Ort, Kontaktperson, Rechnungsdaten, Dresscode, gewünschte Spielzeit und eventuelle Besonderheiten der Location.",
           "Wenn Agentur, Assistenz, Location und Unternehmen beteiligt sind, kann ich die musikalischen Eckpunkte kurz und verbindlich abstimmen, damit am Veranstaltungstag niemand lange erklären muss."
         ],
         "image": {
@@ -60,10 +59,7 @@
         "lede": "Für Unternehmen ist Planbarkeit genauso wichtig wie Atmosphäre. Deshalb gehören Ablauf, Rechnung, Kontaktperson und Timing zur musikalischen Vorbereitung.",
         "paragraphs": [
           "Für eine erste Einschätzung reichen wenige Angaben. Danach kann ich vorschlagen, ob ein durchgehender Rahmen, mehrere kurze Sets oder ein einzelner musikalischer Moment die sauberste Lösung ist.",
-          "Bei Musik Firmenfeier steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Eventmusikerin.",
-          "Bei Musik Firmenfeier steht musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Jubiläum.",
           "Bei Firmenformaten zählt nicht nur Schönheit, sondern Verlässlichkeit im Ablauf. Musik Firmenfeier muss Reden, Networking, Markenwirkung und Gästefluss zusammenhalten, ohne zur Hauptsache zu werden.",
-          "Der Kern von Musik Firmenfeier ist musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
           "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola repräsentativ, dezent, elegant, verbindend oder als kurzer Akzent wirken soll."
         ],
         "image": {
@@ -74,13 +70,9 @@
       },
       {
         "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Die klare Abgrenzung zu Musik Jubiläum lautet: nicht zu allgemein bleiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
+        "lede": "Entscheidend sind Anlass, Raum, Zeitfenster, Lautstärke und die gewünschte Rolle der Musik.",
         "paragraphs": [
-          "Team, Jahresabschluss, Jubiläum, Dank, gemeinsamer Abend verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-          "Bei der Abstimmung schaue ich besonders auf Dinner, Rede, Empfang, Ausklang, Lautstärke. Das verhindert, dass Musik Firmenfeier nur wie eine Variante der Hauptleistung klingt.",
-          "Auch Team, Jahresabschluss, Jubiläum, Dank, gemeinsamer Abend ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-          "Eine gute Anfrage nennt Eventformat, Location, Gästezahl, Zeitfenster, Reden, Dinnerablauf und die gewünschte Rolle der Musik. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-          "Redaktionell bleibt diese Seite eng bei Musik, Firmenfeier. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht."
+          "Eine gute Anfrage nennt Eventformat, Location, Gästezahl, Zeitfenster, Reden, Dinnerablauf und die gewünschte Rolle der Musik. Damit lässt sich schnell unterscheiden, ob Empfangsmusik, mehrere kurze Sets, Dinnerbegleitung oder ein eigener Programmpunkt passend ist."
         ],
         "image": {
           "src": "/uploads/_DSC7402.webp",
@@ -95,13 +87,13 @@
     "title": "FAQ zu Musik Firmenfeier",
     "items": [
       {
-        "question": "Für wen passt Musik Firmenfeier?",
-        "answer": "Musik Firmenfeier passt für Teams, Geschäftsführungen und Eventplaner, die eine Firmenfeier musikalisch aufwerten möchten. Entscheidend ist, dass die Musik im Ablauf eine klare Aufgabe bekommt.",
+        "question": "Für wen passt diese musikalische Begleitung?",
+        "answer": "Diese musikalische Begleitung passt für Teams, Geschäftsführungen und Eventplaner, die eine Firmenfeier musikalisch aufwerten möchten. Entscheidend ist, dass die Musik im Ablauf eine klare Aufgabe bekommt.",
         "open": true
       },
       {
         "question": "Was unterscheidet Musik Firmenfeier von allgemeiner Eventmusik?",
-        "answer": "Diese Seite bleibt allgemein für Firmenfeiern; Spezialseiten wie Dinnermusik, Messe oder Eröffnung behandeln engere Situationen."
+        "answer": "Entscheidend sind Anlass, Raum, Zeitfenster, Lautstärke und die gewünschte Rolle der Musik."
       },
       {
         "question": "Kann die Musik wirklich im Hintergrund bleiben?",
@@ -129,11 +121,11 @@
       },
       {
         "question": "Wann passt Musik Firmenfeier besonders gut?",
-        "answer": "Musik Firmenfeier passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+        "answer": "Diese musikalische Begleitung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
       },
       {
         "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Eventformat, Location, Gästezahl, Zeitfenster, Reden, Dinnerablauf und die gewünschte Rolle der Musik. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
+        "answer": "Für eine schnelle Einordnung helfen Eventformat, Location, Gästezahl, Zeitfenster, Reden, Dinnerablauf und die gewünschte Rolle der Musik. Damit lässt sich klären, ob Empfangsmusik, mehrere kurze Sets, Dinnerbegleitung oder ein eigener Programmpunkt passend ist."
       }
     ]
   },
@@ -163,12 +155,12 @@
   },
   "focus": {
     "eyebrow": "Planung",
-    "title": "Worauf es bei Musik Firmenfeier ankommt.",
+    "title": "Worauf es bei Musik für Firmenveranstaltungen ankommt.",
     "lead": "Der musikalische Rahmen wird so geplant, dass er zum Anlass passt und den geschäftlichen Zweck der Veranstaltung unterstützt.",
     "items": [
       {
         "time": "01",
-        "kicker": "Intent",
+        "kicker": "Worauf es ankommt",
         "title": "Die Rolle der Musik festlegen",
         "text": "Bei Firmenfeiern geht es meistens um Wertschätzung, Atmosphäre und einen guten Übergang vom Arbeitsalltag in den Abend. Daraus ergibt sich, ob Musik eher dezent, sichtbar, festlich oder verbindend eingesetzt wird."
       },
@@ -191,7 +183,7 @@
         "text": "Die Viola ist eine gute Lösung, wenn die Feier hochwertiger wirken soll, aber Gespräche weiterhin möglich bleiben müssen. Der Klang bleibt live, warm und zugleich kontrollierbar."
       }
     ],
-    "footnote": "Musik Firmenfeier wird passend zu Anlass, Raum, Familie und Ablauf geplant."
+    "footnote": "Die Musik wird passend zu Anlass, Raum, Zeitfenster und gewünschter Rolle geplant."
   },
   "elegy": {
     "passages": []

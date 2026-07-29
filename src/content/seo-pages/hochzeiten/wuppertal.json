@@ -6,27 +6,27 @@
   "targetKeyword": "Hochzeitsmusik Wuppertal",
   "intentCluster": "hochzeiten:local",
   "priority": "P1",
-  "status": "manual-priority-local-seo-2026-06-22",
+  "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Hochzeitsmusik Wuppertal | Viola für Trauung",
   "seoDescription": "Hochzeitsmusik Wuppertal: Solo-Viola für Trauung, Empfang und Dinner in Wuppertal. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
     "eyebrow": "Hochzeitsmusik in Wuppertal",
-    "title": "Hochzeitsmusik in Wuppertal: konkret geplant nach Ort und Ablauf.",
-    "lead": "Solo-Viola für Trauung, Empfang und Dinner in Wuppertal. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, wann Solo-Viola wirklich passt.",
-    "badge": "Anfrage kostenlos - Preis nach Rahmen"
+    "title": "Hochzeitsmusik in Wuppertal für euren besonderen Moment.",
+    "lead": "Solo-Viola für Einzug, Trauung, Auszug oder Empfang. Wir stimmen Wunschmusik, Aufstellung und Wege so ab, dass am Tag selbst kein Organisationsdetail die Musik ausbremst.",
+    "badge": "Anfrage kostenlos · Preis nach Ablauf"
   },
   "split": {
     "seal": "Wuppertal\nHochzeitsmusik\nkonkret geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Hochzeitsmusik in Wuppertal: was vor Ort wirklich zählt.",
-        "lede": "In Wuppertal ist die konkrete Lage zwischen Elberfeld, Barmen, Vohwinkel, Cronenberg, Ronsdorf oder einer Höhenlage für Timing und Aufbau wichtiger als die reine Entfernung. Für Hochzeitsmusik heißt das: Einlass, Aufstellung, Startsignal, Wetteroption und Ortswechsel müssen zum Trauablauf passen. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
+        "title": "Wege und Aufbau gehören zum musikalischen Ablauf.",
+        "lede": "In Wuppertal können Steigungen, Stufen und der Weg vom Parkplatz zum Raum mehr Zeit kosten, als die reine Entfernung vermuten lässt. Deshalb klären wir Zugang, Aufstellung und Startsignal vor dem Hochzeitstag.",
         "paragraphs": [
-          "Typische Situationen in Wuppertal können Elberfeld, Barmen, Vohwinkel, Cronenberg, Ronsdorf oder eine Feier in Höhenlage sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
+          "Entscheidend ist, ob Gäste sitzen oder stehen, wo ich mich mit der Viola aufstellen kann und ob ich den Einzug oder das Zeichen der Trauredner:in vom Spielort aus sehe.",
           "Stufen, Aufzug, Haltemöglichkeit, Weg vom Parkplatz zum Raum und Wetterpuffer sollten nicht erst am Termin auffallen. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern.",
-          "Die Stadt Wuppertal nennt für Eheschliessungen klassische und moderne Trausäle im Barmer Rathaus sowie Ambiente-Trauorte. Das ist kein Hinweis auf bisherige Auftritte, sondern ein Beispiel dafuer, warum Raum, Zeitfenster und Wege vorher geklärt werden müssen."
+          "Bei einer Feier im Freien gehört ein trockener, schattiger Ersatzplatz zum Ablauf. Das schützt das Instrument und verhindert, dass bei einem Wetterwechsel spontan neu geplant werden muss."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
@@ -37,11 +37,11 @@
       {
         "eyebrow": "Ablauf",
         "title": "Von Einzug bis Empfang in Wuppertal.",
-        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob die Musik nur einen einzelnen Moment trägt oder mehrere Übergaenge eines Hochzeitstags verbindet.",
+        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob die Musik nur einen einzelnen Moment trägt oder mehrere Übergänge eines Hochzeitstags verbindet.",
         "paragraphs": [
           "Mögliche Einsatzpunkte sind Einzug, Ringtausch oder Ja-Wort, Unterschrift, Auszug, Empfang und Dinner. Ich plane lieber wenige sichere Momente als einen langen Musikblock, der Wege, Reden oder Gespräche stört.",
           "Vorab klären wir, ob vorhandenes Repertoire reicht, ob ein Wunschstück vorbereitet werden soll und ob die Einsätze mit Standesamt, Kirche, Redner:in, Location oder Veranstaltungsleitung abgestimmt werden müssen.",
-          "Gerade in Wuppertal hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So bleibt die Musik präsent, aber sie zwingt dem Anlass kein unpassendes Format auf."
+          "Bei einem Wechsel zwischen Trauort und Empfang rechnen wir Wege, Aufbau und erneutes Stimmen mit ein. So bleibt die Musik auch dann entspannt, wenn eine Zufahrt oder Treppe länger dauert."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -52,7 +52,7 @@
       {
         "eyebrow": "Solo-Viola: passend oder nicht?",
         "title": "Wann Solo-Viola in Wuppertal die richtige Wahl ist.",
-        "lede": "Solo-Viola passt, wenn ein warmer, solistischer Klang die Zeremonie persönlich tragen soll, ohne den Raum zu überdecken. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "lede": "Solo-Viola passt, wenn ihr einen warmen, persönlichen Klang möchtet, der die Zeremonie trägt, ohne Worte oder Raum zu überdecken.",
         "paragraphs": [
           "Nicht ideal ist Solo-Viola, wenn laute Tanzmusik, lange Partybeschallung oder ein sehr großes Ensemble erwartet wird. Dann ist es fairer, über DJ, Band, Technik oder ein anderes Format zu sprechen.",
           "Bei Außenbereichen gilt: trockener, schattiger Stand, stabiler Untergrund und eine Innenoption sind für ein Streichinstrument wichtiger als ein besonders schöner Hintergrund.",
@@ -66,7 +66,7 @@
       },
       {
         "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine seriöse Anfrage in Wuppertal brauche.",
+        "title": "Was ich für ein verlässliches Angebot brauche.",
         "lede": "Eine gute Hochzeitsanfrage nennt Datum, genaue Adresse, Trauform, Uhrzeit, Gästezahl, Wunschmomente, erste Liedideen und eine Kontaktperson vor Ort. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
           "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Ortswechsel, Vorbereitung und Wunschmusik. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
@@ -83,8 +83,8 @@
   },
   "focus": {
     "eyebrow": "Planung in Wuppertal",
-    "title": "Vier Entscheidungen, die Hochzeitsmusik in Wuppertal konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
+    "title": "Vier Fragen vor einer Hochzeit mit Live-Musik.",
+    "lead": "Mit diesen vier Punkten lassen sich Musik, Wege und Zeitpuffer verbindlich aufeinander abstimmen.",
     "items": [
       {
         "time": "1",
@@ -107,11 +107,11 @@
       {
         "time": "4",
         "kicker": "Rahmen",
-        "title": "Preis und Buchung ehrlich abstimmen",
+        "title": "Kosten und Buchungsumfang festhalten",
         "text": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Ortswechsel, Vorbereitung und Wunschmusik. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Hochzeitsmusik in Wuppertal wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Wenn Ort, Einsätze, Wunschmusik und Kosten feststehen, könnt ihr die Musik ohne offene Detailfragen buchen."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
@@ -140,7 +140,7 @@
       },
       {
         "question": "Wann ist Solo-Viola nicht die richtige Lösung?",
-        "answer": "Nicht ideal ist Solo-Viola, wenn laute Tanzmusik, lange Partybeschallung oder ein sehr großes Ensemble erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "answer": "Für Tanzfläche, lange Partybeschallung oder den Klang eines großen Ensembles ist Solo-Viola nicht gedacht. Dafür passen DJ, Band oder eine größere Besetzung besser."
       },
       {
         "question": "Was ist in Wuppertal organisatorisch wichtig?",
@@ -155,22 +155,22 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-      "alt": "Hochzeitsmusik in Wuppertal - Planungsbild 1"
+      "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Hochzeitsmusik in Wuppertal - Planungsbild 2"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-      "alt": "Hochzeitsmusik in Wuppertal - Planungsbild 3"
+      "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-      "alt": "Hochzeitsmusik in Wuppertal - Planungsbild 4"
+      "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Wuppertaler Zugangs- und Wetterfragen konkretisiert, austauschbare Ortslisten entfernt und Angebot, Grenzen sowie Anfrageweg menschlich und klar formuliert.",
   "contact": {
     "eyebrow": "Hochzeitsmusik anfragen",
     "title": "Hochzeitsmusik in Wuppertal anfragen",

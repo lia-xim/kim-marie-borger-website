@@ -6,14 +6,14 @@
   "targetKeyword": "Trauermusik Düsseldorf",
   "intentCluster": "beerdigungen:local",
   "priority": "P1",
-  "status": "manual-priority-local-seo-2026-06-22",
+  "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Trauermusik Düsseldorf | Viola für Abschied",
   "seoDescription": "Trauermusik Düsseldorf: würdevolle Viola für Trauerfeier und Abschied in Düsseldorf. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
     "eyebrow": "Beerdigung & Trauerfeier in Düsseldorf",
-    "title": "Trauermusik in Düsseldorf: ruhig geplant, nicht nur gebucht.",
-    "lead": "würdevolle Solo-Viola für Trauerfeier, Beerdigung und Abschied in Düsseldorf. Im Mittelpunkt stehen genauer Ort, Ablauf, Abstimmung mit Bestattungshaus oder Redner:in und ein Klang, der nicht drängt.",
+    "title": "Trauermusik in Düsseldorf — ruhig und verlässlich abgestimmt.",
+    "lead": "Würdevolle Solo-Viola für Trauerfeier, Beerdigung oder Abschied am Grab. Auf Wunsch kläre ich Einsätze und Ablauf direkt mit Bestattungshaus oder Trauerredner:in.",
     "badge": "Schnelle Rückmeldung zur Verfügbarkeit"
   },
   "faq": {
@@ -22,7 +22,7 @@
     "items": [
       {
         "question": "Begleitest du Trauerfeiern in Düsseldorf?",
-        "answer": "würdevolle Solo-Viola für Trauerfeier, Beerdigung und Abschied in Düsseldorf - in Trauerhalle, Kirche, Kapelle, am Grab oder bei einer freien Abschiedsfeier.",
+        "answer": "Ja. Ich spiele bei Trauerfeiern und Beerdigungen in Düsseldorf — in Trauerhalle, Kirche oder Kapelle, am Grab und bei freien Abschiedsfeiern.",
         "open": true
       },
       {
@@ -43,7 +43,7 @@
       },
       {
         "question": "Wann ist Solo-Viola nicht die richtige Lösung?",
-        "answer": "Nicht ideal ist Solo-Viola, wenn sehr laute Musik, technische Showwirkung oder spontane Stückwechsel ohne Vorbereitung erwartet werden. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "answer": "Für sehr laute Beschallung, eine Bühnenshow oder spontane Stückwechsel ohne Vorbereitung ist Solo-Viola nicht das passende Format. Bei einem stillen Abschied kann sie dagegen auch ohne große Technik tragen."
       },
       {
         "question": "Was ist in Düsseldorf organisatorisch wichtig?",
@@ -58,22 +58,22 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Trauermusik in Düsseldorf - Planungsbild 1"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7353.webp",
-      "alt": "Trauermusik in Düsseldorf - Planungsbild 2"
+      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Trauermusik in Düsseldorf - Planungsbild 3"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7353.webp",
-      "alt": "Trauermusik in Düsseldorf - Planungsbild 4"
+      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Einstieg sprachlich beruhigt, Düsseldorfer Zugang und Wege konkret beschrieben, organisatorische Entlastung hervorgehoben und unpersönliche SEO-Sprache entfernt.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik in Düsseldorf anfragen",
@@ -121,7 +121,7 @@
   "solemn": {
     "eyebrow": "Ablauf in Düsseldorf",
     "title": "Trauermusik in Düsseldorf mit ruhiger Abstimmung.",
-    "lead": "In Düsseldorf macht es einen großen Unterschied, ob ein Termin innenstadtnah, am Rhein, linksrheinisch, in Benrath oder in einem Stadtteil weiter außerhalb liegt. Für einen Abschied ist deshalb nicht wichtig, dass die Musik viel zeigt, sondern dass sie pünktlich, vorbereitet und passend eingesetzt wird.",
+    "lead": "Für einen Abschied in Düsseldorf zählen der genaue Eingang, ein erreichbarer Kontakt und genügend Zeit für den Weg zur Halle, Kirche oder Grabstelle. So ist die Musik bereit, ohne dass die Familie am Tag selbst nachsteuern muss.",
     "cards": [
       {
         "rom": "Vorab",

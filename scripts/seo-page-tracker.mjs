@@ -196,12 +196,18 @@ function groupBy(values, keyFn) {
 
 function isRewrittenStatus(status) {
 	const value = String(status ?? '').toLowerCase();
-	return value === 'ready' || value.startsWith('rewritten-') || value.startsWith('risk-pass-');
+	return value === 'ready'
+		|| value.startsWith('rewritten-')
+		|| value.startsWith('risk-pass-')
+		|| value.startsWith('manual-');
 }
 
 const htmlFiles = walk(DIST).filter((file) => file.endsWith('index.html') && !file.includes(`${path.sep}admin${path.sep}`));
 const htmlByRoute = new Map(htmlFiles.map((file) => [routeFromFile(file), readFileSync(file, 'utf8')]));
-const sitemapXml = walk(DIST).filter((file) => /sitemap-\d+\.xml$/.test(file)).map((file) => readFileSync(file, 'utf8')).join('\n');
+const sitemapXml = walk(DIST)
+	.filter((file) => /^sitemap-(?:core|seo|ratgeber)-\d+\.xml$/.test(path.basename(file)))
+	.map((file) => readFileSync(file, 'utf8'))
+	.join('\n');
 const sitemapPaths = new Set([...sitemapXml.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => normalizePath(match[1])));
 
 const linksByRoute = new Map([...htmlByRoute.entries()].map(([route, html]) => [route, linksFromHtml(html)]));
@@ -215,12 +221,15 @@ for (const [source, links] of linksByRoute) {
 const rows = [...htmlByRoute.entries()]
 	.filter(([route]) => {
 		const parts = route.split('/').filter(Boolean);
-		return parts.length === 2 && SERVICES.includes(parts[0]);
+		return parts.length === 2
+			&& SERVICES.includes(parts[0])
+			&& parts[1] !== 'orte'
+			&& parts[1] !== 'themen';
 	})
 	.map(([route, html]) => {
 		const [, service, slug] = route.match(/^\/([^/]+)\/([^/]+)\/$/);
-		const pageKind = LOCAL_SLUGS.has(slug) ? 'local' : 'topic';
 		const override = readOverride(service, slug);
+		const pageKind = override.data?.pageKind ?? (LOCAL_SLUGS.has(slug) ? 'local' : 'topic');
 		const title = stripHtml(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] ?? '');
 		const description = attr(html.match(/<meta\s+name=["']description["'][^>]*>/i)?.[0] ?? '', 'content');
 		const h1 = stripHtml(html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? '');
@@ -389,6 +398,7 @@ const report = `# SEO Page Tracker
 Generiert: ${new Date().toISOString()}
 
 Dieser Tracker prueft lokale Seiten und Topic-Seiten gemeinsam. Ziel ist, Seiten zu finden, die technisch existieren, aber noch zu aehnlich, zu duenn, nicht sauber im CMS gepflegt oder bei Keywords zu nah an anderen Seiten sind.
+Die 14 redaktionellen Discovery-Hubs unter \`/orte/\` und \`/themen/\` werden separat gepflegt und sind bewusst nicht als SEO-Detailseiten enthalten.
 
 ## Gesamtstatus
 

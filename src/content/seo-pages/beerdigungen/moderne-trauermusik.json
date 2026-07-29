@@ -13,7 +13,7 @@
   "hero": {
     "eyebrow": "Modern",
     "title": "Moderne Trauermusik, ruhig als Solo-Viola geplant.",
-    "lead": "Moderne Trauermusik braucht eine eigene Entscheidung: Pop, Film oder Lieblingssong reduziert. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
+    "lead": "Besonders wichtig für die Planung: Pop, Film oder Lieblingssong reduziert. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
     "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
@@ -22,7 +22,7 @@
     "items": [
       {
         "question": "Wann passt Moderne Trauermusik?",
-        "answer": "Moderne Trauermusik passt, wenn Pop, Film oder Lieblingssong reduziert im Mittelpunkt steht und nicht nur allgemein Musik für den Abschied gesucht wird.",
+        "answer": "Diese musikalische Begleitung passt, wenn Pop, Film oder Lieblingssong reduziert im Mittelpunkt steht und nicht nur allgemein Musik für den Abschied gesucht wird.",
         "open": true
       },
       {
@@ -30,8 +30,8 @@
         "answer": "Ja. Ich prüfe, ob eine vollständige Fassung, ein Ausschnitt oder eine reduzierte Viola-Version besser zur Situation passt."
       },
       {
-        "question": "Was unterscheidet diese Seite von anderen Trauerseiten?",
-        "answer": "Hier geht es gezielt um persönliches Lied. Andere Seiten behandeln Ortsbezug, Buchung, Repertoire oder einen anderen Moment im Ablauf."
+        "question": "Worauf kommt es bei der Planung besonders an?",
+        "answer": "Im Mittelpunkt: persönliches Lied."
       },
       {
         "question": "Welche Informationen helfen für die Anfrage?",
@@ -39,7 +39,7 @@
       },
       {
         "question": "Für welchen Abschied passt Moderne Trauermusik?",
-        "answer": "Moderne Trauermusik passt besonders für Familien mit Pop-Song, Filmmusik oder persönlicher Erinnerung. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
+        "answer": "Diese musikalische Begleitung passt besonders für Familien mit Pop-Song, Filmmusik oder persönlicher Erinnerung. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
@@ -56,18 +56,18 @@
       },
       {
         "question": "Wie wird Moderne Trauermusik konkret vorbereitet?",
-        "answer": "Ich kläre Anlass, Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich, ob Moderne Trauermusik als einzelner Moment, als Uebergang oder als Teil einer kleinen Abfolge auf Solo-Viola am stärksten wirkt."
+        "answer": "Ich kläre Anlass, Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich, ob Moderne Trauermusik als einzelner Moment, als Übergang oder als Teil einer kleinen Abfolge auf Solo-Viola am stärksten wirkt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/_DSC7353.webp",
-      "alt": "Live-Viola für Trauermusik: Moderne Trauermusik - Bild 1"
+      "alt": "Kim Marie Borger hält ihre Viola vor einem See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola für Trauermusik: Moderne Trauermusik - Bild 2"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.",
@@ -88,8 +88,8 @@
     "seal": "Modern\nAbschied\nLive-Viola",
     "sections": [
       {
-        "title": "Moderne Trauermusik braucht eine eigene musikalische Planung.",
-        "lede": "Der Intent ist Repertoire mit persönlicher Sprache: moderne Musik soll würdevoll reduziert werden. Gesucht wird keine austauschbare Hintergrundmusik, sondern eine Lösung für freie Trauerfeier, Trauerhalle, Kirche oder kleiner Abschied.",
+        "title": "Trauermusik bewusst in den Ablauf einfügen.",
+        "lede": "Hier steht persönliches Repertoire im Mittelpunkt: moderne Musik soll würdevoll reduziert werden. Gesucht wird keine austauschbare Hintergrundmusik, sondern eine Lösung für freie Trauerfeier, Trauerhalle, Kirche oder kleiner Abschied.",
         "paragraphs": [
           "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
           "Nicht jedes Lied funktioniert auf Solo-Viola. Ich prüfe Melodie, Wiedererkennbarkeit und emotionales Gewicht.",
@@ -101,7 +101,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Trauermusik: Moderne Trauermusik - Bild 2"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false,
         "eyebrow": "Einordnung"
@@ -119,7 +119,7 @@
         ],
         "image": {
           "src": "/uploads/_DSC7353.webp",
-          "alt": "Live-Viola für Trauermusik: Moderne Trauermusik - Bild 1"
+          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
         },
         "imageFirst": true
       },
@@ -128,32 +128,26 @@
         "lede": "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
         "paragraphs": [
           "Wichtig ist, dass Moderne Trauermusik nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
-          "Bei Moderne Trauermusik steht aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Bestattung.",
-          "Der Kern von Moderne Trauermusik ist aktuelle Melodien, reduzierte Bearbeitung, persönlicher Bezug. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-          "Für die Planung sind Arrangement, Tonart, Wiedererkennbarkeit, Stilbruch vermeiden die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll.",
-          "Die klare Abgrenzung zu Musik Bestattung lautet: nicht beliebig poppig werden. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-          "Würde, Halt, Lieblingslied, letzte Erinnerung, ruhiger Klang verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht."
+          "Für die Planung sind Arrangement, Tonart, Wiedererkennbarkeit, Stilbruch vermeiden die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Trauermusik: Moderne Trauermusik - Bild 2"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false
       },
       {
         "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Bei der Abstimmung schaue ich besonders auf Einsatzstellen, Raum, Auszug, Grab, Kontaktperson. Das verhindert, dass Moderne Trauermusik nur wie eine Variante der Hauptleistung klingt.",
+        "lede": "Entscheidend sind ein ruhiger Ablauf, klare Absprachen und eine Stückauswahl, die zur Person und zum Abschied passt.",
         "paragraphs": [
-          "Auch Würde, Halt, Lieblingslied, letzte Erinnerung, ruhiger Klang ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-          "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-          "Redaktionell bleibt diese Seite eng bei Moderne, Trauermusik. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
-          "Trauermusik braucht eine andere Sprache als Eventmusik. Diese Seite behandelt Moderne, Trauermusik mit Blick auf Würde, Tempo, Ansprechpersonen und die Belastung der Angehörigen.",
+          "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein einzelnes Abschiedsstück, mehrere ruhige Einsätze, Musik am Grab oder eine Begleitung der gesamten Feier passend ist.",
+          "Trauermusik braucht eine andere Sprache als Eventmusik. Bei Moderne, Trauermusik geht es um Würde, Tempo, Ansprechpersonen und die Belastung der Angehörigen.",
           "Bei Moderne Trauermusik prüfe ich zusätzlich die Abstimmung mit Rede, Ritual oder letztem Weg. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle wirklich Raum lässt und nicht gegen Worte oder Stille arbeitet.",
-          "So unterscheidet sich diese Seite von benachbarten Trauermusik-Themen: Moderne Trauermusik wird als kurze Setzung gedacht. Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung."
+          "Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung."
         ],
         "image": {
           "src": "/uploads/_DSC7353.webp",
-          "alt": "Live-Viola für Trauermusik: Moderne Trauermusik - Bild 1"
+          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
         },
         "imageFirst": true
       }
@@ -163,12 +157,12 @@
     "quote": "Moderne Trauermusik wirkt am stärksten, wenn die musikalische Aufgabe vorher klar ist.",
     "passages": [
       {
-        "strong": "Suchintention",
+        "strong": "Worauf es ankommt",
         "text": "Wer Moderne Trauermusik sucht, meint nicht einfach irgendeine Trauermusik. Im Mittelpunkt stehen persönliches Lied, die passende Stelle im Ablauf und die Frage, ob Solo-Viola den Moment wirklich tragen kann."
       },
       {
-        "strong": "Abgrenzung",
-        "text": "Diese Seite grenzt sich bewusst von allgemeine Repertoirelisten ab. Der Fokus liegt auf Wiedererkennung ohne Show, damit Angehörige schneller entscheiden können, ob genau dieser musikalische Schwerpunkt passt."
+        "strong": "Schwerpunkt",
+        "text": "Der Fokus liegt auf Wiedererkennung ohne Show, damit Angehörige schneller entscheiden können, ob genau dieser musikalische Schwerpunkt passt."
       },
       {
         "strong": "Einsatzpunkt",
@@ -186,8 +180,8 @@
   },
   "solemn": {
     "eyebrow": "Einordnung",
-    "title": "Worauf es bei Moderne Trauermusik konkret ankommt.",
-    "lead": "Der Schwerpunkt entscheidet über Tempo, Länge und Wirkung. Deshalb wird diese Seite anders formuliert als allgemeine Trauermusik-Seiten.",
+    "title": "Worauf es bei der Planung von Trauermusik ankommt.",
+    "lead": "Der Schwerpunkt entscheidet über Tempo, Länge und Wirkung.",
     "cards": [
       {
         "rom": "Rolle",

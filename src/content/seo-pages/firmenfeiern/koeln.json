@@ -6,14 +6,14 @@
   "targetKeyword": "Live Musik Firmenevent Köln",
   "intentCluster": "firmenfeiern:local",
   "priority": "P1",
-  "status": "manual-priority-local-seo-2026-06-22",
+  "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Live Musik Firmenevent Köln | Viola fürs Event",
   "seoDescription": "Live Musik Firmenevent Köln: Solo-Viola für Empfang, Dinner und Business-Event in Köln. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
     "eyebrow": "Live Musik Firmenevent in Köln",
-    "title": "Live Musik für Firmenevents in Köln: konkret geplant nach Ort und Ablauf.",
-    "lead": "Solo-Viola für Empfang, Dinner, Jubiläum und Messe in Köln. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, ob Solo-Viola, Zeitfenster und Lautstärke wirklich zum Event passen.",
+    "title": "Live-Musik für Firmenevents in Köln — präsent, aber nicht zu laut.",
+    "lead": "Solo-Viola für Empfang, Dinner, Jubiläum oder Business-Event. Musikfenster, Reden und Networking werden so abgestimmt, dass Gäste sich weiterhin gut unterhalten können.",
     "badge": "Anfrage kostenlos - Preis nach Rahmen"
   },
   "split": {
@@ -21,11 +21,11 @@
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Live Musik für Firmenevents in Köln: was vor Ort wirklich zählt.",
-        "lede": "In Köln verändert die Lage linksrheinisch oder rechtsrheinisch, in der Innenstadt, in einem Veedel oder weiter draussen schnell den realistischen Zeitplan. Für Live Musik für Firmenevents heißt das: Empfangswege, Reden, Lautstärke und Gesprächssituation bestimmen, ob akustische Viola reicht oder ob dezente Verstärkung sinnvoll ist. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
+        "title": "Ankunft, Aufbau und Programmpunkte zusammendenken.",
+        "lede": "In Köln kann die Rheinseite oder ein Wechsel zwischen Veranstaltungsteilen den Aufbau beeinflussen. Für die Musik wichtiger sind jedoch Raum, Gästezahl, Reden und die Frage, ob ein ruhiger Empfang oder ein eigener Programmpunkt geplant ist.",
         "paragraphs": [
-          "Typische Situationen in Köln können Innenstadt, Altstadt, Ehrenfeld, Nippes, Deutz, Porz oder ein anderes Veedel sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
-          "Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern."
+          "Entscheidend ist, ob die Gäste sitzen, netzwerken oder zwischen Räumen wechseln, wo ich mich aufstellen kann und wer Änderungen im Ablauf freigibt.",
+          "Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -40,7 +40,7 @@
         "paragraphs": [
           "Mögliche Einsatzpunkte sind Ankommen der Gäste, Networking, Dinner, Rede-Pausen, Ehrung und ein kurzer Programmpunkt. Ich plane lieber klar begrenzte Musikfenster als ein Dauerprogramm, das Reden, Empfang oder Networking überlagert.",
           "Vorab klären wir, ob Repertoire, Wunschstücke, Reden, Technik, Catering, Empfang oder Veranstaltungsleitung miteinander abgestimmt werden müssen.",
-          "Gerade in Köln hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So bleibt die Musik hochwertig und gesprächsfreundlich, ohne den Ablauf des Events zu blockieren."
+          "Bei einem Kölner Termin mit mehreren Räumen oder einem Wechsel über den Rhein plane ich Aufbau und Spielphasen getrennt. Dadurch bleiben Reden und Empfang auch bei Verzögerungen sauber voneinander abgegrenzt."
         ],
         "image": {
           "src": "/uploads/_DSC7402.webp",
@@ -51,7 +51,7 @@
       {
         "eyebrow": "Eventformat: passend oder nicht?",
         "title": "Wann Solo-Viola für ein Firmenevent in Köln die richtige Wahl ist.",
-        "lede": "Solo-Viola passt, wenn hochwertige, gesprächsfreundliche Live-Musik gefragt ist. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "lede": "Solo-Viola passt, wenn ein Empfang oder Dinner einen eigenständigen Live-Klang bekommen soll, ohne zum lauten Bühnenprogramm zu werden.",
         "paragraphs": [
           "Nicht ideal ist Solo-Viola, wenn ein lauter Showact, Partyband-Sound oder dauerhafte Beschallung für mehrere Stunden erwartet wird. Dann ist es fairer, über DJ, Band, Technik oder ein anderes Format zu sprechen.",
           "Bei Außenbereichen gilt: trockener, schattiger Stand, stabiler Untergrund und eine Innenoption sind für ein Streichinstrument wichtiger als ein besonders schöner Hintergrund.",
@@ -65,7 +65,7 @@
       },
       {
         "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine seriöse Anfrage in Köln brauche.",
+        "title": "Welche Angaben ein belastbares Angebot braucht.",
         "lede": "Eine gute Eventanfrage nennt Datum, genaue Adresse, Zeitfenster, Raumgröße, Gästezahl, Programmpunkte, Rechnungsadresse und Kontaktperson vor Ort. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
           "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, technische Abstimmung, Rechnungsaufwand und Wunschmusik. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
@@ -107,11 +107,11 @@
       },
       {
         "question": "Wann ist Solo-Viola nicht die richtige Lösung?",
-        "answer": "Nicht ideal ist Solo-Viola, wenn ein lauter Showact, Partyband-Sound oder dauerhafte Beschallung für mehrere Stunden erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "answer": "Für einen lauten Showact, Partyband-Sound oder stundenlange Dauerbeschallung ist Solo-Viola nicht gedacht. In diesem Fall sind Band, DJ oder ein anderes technisches Setup die bessere Wahl."
       },
       {
         "question": "Was ist in Köln organisatorisch wichtig?",
-        "answer": "In Köln verändert die Lage linksrheinisch oder rechtsrheinisch, in der Innenstadt, in einem Veedel oder weiter draussen schnell den realistischen Zeitplan. Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
+        "answer": "Rheinseite, genauer Eingang, Ladeweg und mögliche Raumwechsel helfen mir, Ankunft und Aufbau realistisch zu planen. Für die Musik selbst sind Gästezahl, Reden und gewünschte Lautstärke entscheidend."
       },
       {
         "question": "Was kann zusätzlich kosten?",
@@ -122,22 +122,22 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live Musik für Firmenevents in Köln - Planungsbild 1"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7402.webp",
-      "alt": "Live Musik für Firmenevents in Köln - Planungsbild 2"
+      "alt": "Kim Marie Borger spielt Viola am See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live Musik für Firmenevents in Köln - Planungsbild 3"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7402.webp",
-      "alt": "Live Musik für Firmenevents in Köln - Planungsbild 4"
+      "alt": "Kim Marie Borger spielt Viola am See"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Kölner Business-Seite auf Rheinseite nur als Wegfaktor reduziert und Inhalt auf Networking, Reden, Raumklang und technische Entscheidung geschärft.",
   "contact": {
     "eyebrow": "Firmenevent anfragen",
     "title": "Live Musik Firmenevent in Köln anfragen",
@@ -163,14 +163,14 @@
   },
   "focus": {
     "eyebrow": "Planung in Köln",
-    "title": "Vier Entscheidungen, die Live Musik für Firmenevents in Köln konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
+    "title": "Vier Fragen vor Live-Musik beim Firmenevent.",
+    "lead": "Mit diesen vier Punkten lässt sich schnell erkennen, ob akustische Viola genügt und welche Spielzeiten den Ablauf unterstützen.",
     "items": [
       {
         "time": "1",
         "kicker": "Ort",
         "title": "Adresse, Raum und Zugang klären",
-        "text": "Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Das beeinflusst Ankunft, Aufbau, Stimmen, Wartezeit und die Frage, ob ein Ortswechsel sinnvoll ist."
+        "text": "Das beeinflusst Ankunft, Aufbau, Stimmen, Wartezeit und die Frage, ob ein Ortswechsel sinnvoll ist."
       },
       {
         "time": "2",
@@ -187,11 +187,11 @@
       {
         "time": "4",
         "kicker": "Rahmen",
-        "title": "Preis und Buchung ehrlich abstimmen",
+        "title": "Leistungsumfang und Kosten festhalten",
         "text": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, technische Abstimmung, Rechnungsaufwand und Wunschmusik. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Live Musik für Firmenevents in Köln wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Sind Raum, Programmpunkte, Lautstärke und Technik geklärt, steht der musikalische Rahmen für das Event."
   },
   "elegy": {
     "passages": []

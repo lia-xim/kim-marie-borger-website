@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kim Marie Borger SEO"
+  short_description: "SEO strategy for Kim Marie Borger"
+  default_prompt: "Use $grow-kim-marie-borger-seo to audit the current SEO state and prioritize the next evidence-backed improvement."

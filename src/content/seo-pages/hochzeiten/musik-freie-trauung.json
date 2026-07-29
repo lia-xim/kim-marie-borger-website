@@ -6,14 +6,14 @@
   "targetKeyword": "Musik freie Trauung",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "risk-pass-2026-06-16-review-needed",
+  "status": "manual-indexing-strengthened-2026-07-29",
   "enabled": true,
   "seoTitle": "Musik Freie Trauung | Live-Viola Hochzeit",
   "seoDescription": "Musik freie Trauung: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
   "hero": {
     "eyebrow": "Freie Trauung",
     "title": "Musik für die freie Trauung, flexibel, persönlich und eng am Ablauf.",
-    "lead": "Musik freie Trauung wird bei mir nicht als Standardpaket geplant. Ich stimme Live-Viola auf Garten, Hof, Schloss oder Terrasse, Wunschlied, Raumklang und den Punkt im Ablauf ab, an dem Musik wirklich tragen soll.",
+    "lead": "Bei einer freien Trauung kann Musik Einzug, Rituale, persönliche Worte und Auszug miteinander verbinden. Ich stimme die Einsätze mit euch und der Traurednerin oder dem Trauredner ab; draußen gehören Wetterschutz und ein verlässlicher Plan B dazu.",
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
@@ -21,28 +21,28 @@
     "sections": [
       {
         "title": "Musik freie Trauung: der Schwerpunkt entscheidet über Klang und Timing.",
-        "lede": "Diese Seite behandelt gezielt freie Zeremonie. Dadurch unterscheidet sie sich von allgemeinen Hochzeitsmusik-Seiten: Nicht die Menge der Stücke ist entscheidend, sondern die Funktion im Ablauf.",
+        "lede": "Im Mittelpunkt steht freie Zeremonie. Nicht die Menge der Stücke zählt, sondern ihre Funktion im Ablauf.",
         "paragraphs": [
-          "Bei Musik freie Trauung steht Rituale, Texte und persönliche Übergänge im Mittelpunkt. Ich kläre zuerst, ob Musik sammeln, begleiten, einen Übergang öffnen oder bewusst im Hintergrund bleiben soll.",
+          "Im Mittelpunkt: Rituale, Texte und persönliche Übergänge. Ich kläre zuerst, ob Musik sammeln, begleiten, einen Übergang öffnen oder bewusst im Hintergrund bleiben soll.",
           "Für Garten, Hof, Schloss oder Terrasse sind Startsignal, Weglänge, Raumakustik und Lautstärke wichtiger als eine lange Wunschliste. Ein Solo-Instrument kann sehr flexibel reagieren, wenn der Ablauf emotional oder organisatorisch anders läuft als geplant.",
           "Die Viola wirkt warm und elegant, ohne eine große Bühne aufzubauen. Sie kann ein Wunschlied tragen, klassische Musik öffnen oder moderne Melodien so reduzieren, dass sie persönlich bleiben."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-          "alt": "Live-Viola für Hochzeitsmusik: Musik freie Trauung - Bild 2"
+          "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
         },
         "imageFirst": false,
         "eyebrow": "Einordnung"
       },
       {
         "title": "Musik freie Trauung im Ablauf sinnvoll einsetzen.",
-        "lede": "Die Abgrenzung liegt bei flexibel mit Trauredner:in abgestimmt. Deshalb formuliere ich Stückauswahl, FAQ und Kontaktfragen hier anders als auf Ortsseiten oder allgemeinen Momentseiten.",
+        "lede": "Entscheidend ist die flexible Abstimmung mit der Traurednerin oder dem Trauredner.",
         "paragraphs": [
           "Für die Anfrage helfen Datum, Ort, Zeremonieform, gewünschter Einsatzpunkt, Lieblingslied und die Frage, ob nach der Trauung noch Empfangs- oder Dinnermusik geplant ist."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Hochzeitsmusik: Musik freie Trauung - Bild 3"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": true
       }
@@ -51,7 +51,7 @@
   "focus": {
     "eyebrow": "Ablaufentscheidung",
     "title": "Wie Musik freie Trauung sinnvoll eingebunden wird.",
-    "lead": "Die vier Punkte helfen, den Schwerpunkt sauber von ähnlichen Hochzeitsseiten zu trennen.",
+    "lead": "Entscheidend sind Zeremonieform, Einsatzpunkt, Raum, Wunschmusik und die gewünschte Wirkung.",
     "items": [
       {
         "kicker": "Aufgabe",
@@ -85,7 +85,7 @@
     "items": [
       {
         "question": "Wann ist Musik freie Trauung sinnvoll?",
-        "answer": "Musik freie Trauung passt, wenn freie Zeremonie für euren Ablauf eine eigene Rolle spielt und nicht nur allgemeine Musik gesucht wird.",
+        "answer": "Diese musikalische Begleitung passt, wenn freie Zeremonie für euren Ablauf eine eigene Rolle spielt und nicht nur allgemeine Musik gesucht wird.",
         "open": true
       },
       {
@@ -93,8 +93,8 @@
         "answer": "Ja. Ich prüfe Tonart, Länge und Wirkung und schlage eine Fassung vor, die zu Garten, Hof, Schloss oder Terrasse passt."
       },
       {
-        "question": "Wie unterscheidet sich diese Seite von Hochzeitsmusik allgemein?",
-        "answer": "Hier geht es gezielt um flexibel mit Trauredner:in abgestimmt; Ortsseiten und allgemeine Hochzeitsseiten beantworten andere Fragen."
+        "question": "Was ist bei der Planung besonders wichtig?",
+        "answer": "Entscheidend sind Zeremonieform, Einsatzpunkt, Raum, Wunschmusik und die gewünschte Wirkung."
       },
       {
         "question": "Welche Angaben brauchst du?",
@@ -102,7 +102,7 @@
       },
       {
         "question": "Für welche Hochzeit passt Musik freie Trauung?",
-        "answer": "Musik Freie Trauung passt besonders für freie Trauungen mit Trauredner:in, Ritualen und eigenen Texten. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
+        "answer": "Diese musikalische Begleitung passt besonders für freie Trauungen mit Trauredner:in, Ritualen und eigenen Texten. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
@@ -122,15 +122,15 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-      "alt": "Live-Viola für Hochzeitsmusik: Musik freie Trauung - Bild 1"
+      "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-      "alt": "Live-Viola für Hochzeitsmusik: Musik freie Trauung - Bild 2"
+      "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola für Hochzeitsmusik: Musik freie Trauung - Bild 3"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.",

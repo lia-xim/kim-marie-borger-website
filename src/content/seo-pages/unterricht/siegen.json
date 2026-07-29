@@ -17,7 +17,7 @@
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Siegen\nGeigenunterricht\nlokal geplant",
+    "seal": "Siegen\nGeigenunterricht\nalltagstauglich geplant",
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
@@ -30,7 +30,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Geigenunterricht und Geige lernen in Siegen - Bild 1"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false
       },
@@ -45,7 +45,7 @@
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
-          "alt": "Geigenunterricht und Geige lernen in Siegen - Bild 2"
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
         },
         "imageFirst": true
       },
@@ -60,7 +60,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Geigenunterricht und Geige lernen in Siegen - Bild 3"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false
       },
@@ -74,7 +74,7 @@
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
-          "alt": "Geigenunterricht und Geige lernen in Siegen - Bild 4"
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
         },
         "imageFirst": true
       }
@@ -107,7 +107,7 @@
       },
       {
         "question": "Was ist in Siegen organisatorisch wichtig?",
-        "answer": "Wichtig sind Unterrichtsort oder Treffpunkt, erreichbare Zeiten, vorhandenes Instrument, Park- oder Haltemöglichkeit und eine Kontaktmöglichkeit für Rückfragen. Bei Anfragen aus Siegen beeinflussen Weg, Alltag und Übezeit, ob ein regelmäßiger Rhythmus sinnvoll ist."
+        "answer": "Für regelmäßigen Unterricht in Siegen sollten Unterrichtsort, Weg, Schul- oder Arbeitszeiten und realistische Übezeit zusammenpassen. Das klären wir in der Probestunde."
       },
       {
         "question": "Welche Unterrichtssituation passt in Siegen?",
@@ -122,19 +122,19 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Geigenunterricht und Geige lernen in Siegen - Bild 1"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Geigenunterricht und Geige lernen in Siegen - Bild 2"
+      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Geigenunterricht und Geige lernen in Siegen - Bild 3"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Geigenunterricht und Geige lernen in Siegen - Bild 4"
+      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     }
   ],
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",

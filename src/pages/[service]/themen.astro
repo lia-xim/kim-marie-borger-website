@@ -7,6 +7,7 @@ import {
 } from '../../lib/local-seo';
 import {
 	getTopicSeoPagesForService,
+	getTopicNavigationGroups,
 	serviceTopicsHubPath,
 	topicPagePath,
 } from '../../lib/topic-seo';
@@ -28,33 +29,12 @@ export function getStaticPaths() {
 
 const serviceSlug = Astro.params.service?.toString() ?? '';
 const service = getLocalService(serviceSlug);
-const priorityRank = { P1: 0, P2: 1, P3: 2 };
 const allTopics = service
-	? getTopicSeoPagesForService(service.slug).sort((a, b) =>
-		priorityRank[a.priority] - priorityRank[b.priority]
-		|| b.volume - a.volume
-		|| a.label.localeCompare(b.label),
-	)
+	? getTopicSeoPagesForService(service.slug).sort((a, b) => a.label.localeCompare(b.label))
 	: [];
 if (!service || allTopics.length === 0) return new Response('Not Found', { status: 404 });
 
-const topicGroups = [
-	{
-		title: 'Zentrale Themen',
-		description: 'Die wichtigsten Suchanliegen, die direkt in Planung und Anfrage führen.',
-		pages: allTopics.filter((page) => page.priority === 'P1'),
-	},
-	{
-		title: 'Spezielle Planungsfragen',
-		description: 'Longtail-Seiten für konkrete Situationen, Abläufe und Repertoirefragen.',
-		pages: allTopics.filter((page) => page.priority === 'P2'),
-	},
-	{
-		title: 'Weitere Suchbegriffe',
-		description: 'Ergänzende Detailseiten, die die Themenabdeckung abrunden.',
-		pages: allTopics.filter((page) => page.priority === 'P3'),
-	},
-].filter((group) => group.pages.length > 0);
+const topicGroups = getTopicNavigationGroups(service.slug);
 const guidePages = getRatgeberPagesForService(service.slug);
 const route = serviceTopicsHubPath(service.slug);
 const site = Astro.site ?? new URL(Astro.url.origin);
@@ -74,8 +54,8 @@ const jsonLd = {
 		{
 			'@type': 'CollectionPage',
 			'@id': `${pageUrl}#collection`,
-			name: `Alle Themen zu ${service.parentLabel}`,
-			description: `Übersicht aller Themen- und Suchbegriffseiten zu ${service.parentLabel}.`,
+			name: `${service.parentLabel}: Fragen und Möglichkeiten`,
+			description: `Übersicht zu Abläufen, Anlässen, Stücken, Besetzung und Buchung rund um ${service.parentLabel}.`,
 			url: pageUrl,
 			inLanguage: 'de',
 			mainEntity: {
@@ -94,8 +74,8 @@ const jsonLd = {
 ---
 
 <Base
-	title={`Alle Themen zu ${service.parentLabel} | Kim Marie Borger`}
-	description={`Alle Suchbegriffe und Themen zu ${service.parentLabel}: zentrale Fragen, konkrete Planung und passende nächste Schritte.`}
+	title={`${service.keyword}: Themen & Möglichkeiten | Kim Marie Borger`}
+	description={`Alle Fragen und Formate zu ${service.parentLabel}: Abläufe, Stücke, Besetzung, Buchung und passende nächste Schritte.`}
 	bodyClass="page-link-hub"
 	structuredData={jsonLd}
 >
@@ -104,13 +84,12 @@ const jsonLd = {
 			<div class="wrap link-hub-hero-grid">
 				<div>
 					<p class="eyebrow">Themenübersicht</p>
-					<h1 id="themen-title" class="display-l">Alle Themen zu {service.parentLabel}.</h1>
+					<h1 id="themen-title" class="display-l">{service.parentLabel}: Fragen und Möglichkeiten.</h1>
 				</div>
 				<div>
 					<p class="lead">
-						Diese Übersicht sammelt die Suchbegriff- und Themenseiten zu {service.parentLabel}.
-						Sie dient als zweite Ebene unter der Hauptleistung: ausführlich genug für SEO,
-						aber ruhig genug für echte Nutzerführung.
+						Wähle den Anlass oder die Planungsfrage, die gerade ansteht. Von dort geht es
+						zu Ablauf, Stückauswahl, Besetzung und einer konkreten Anfrage.
 					</p>
 					<div class="link-hub-actions">
 						<a class="btn" href={`/${service.slug}/`}>Zur Leistung</a>
@@ -123,11 +102,11 @@ const jsonLd = {
 		<section class="section bg-paper2 link-hub-list" aria-labelledby="themen-list">
 			<div class="wrap">
 				<div class="local-links-head">
-					<p class="eyebrow c">Alle Suchbegriffe</p>
-					<h2 id="themen-list" class="display-m">Vom Hauptthema zur Detailfrage.</h2>
+					<p class="eyebrow c">Planung nach Anlass</p>
+					<h2 id="themen-list" class="display-m">Schnell zur passenden Entscheidung.</h2>
 					<p class="lead">
-						Die wichtigsten Themen stehen zuerst. Spezifische Fragen bleiben erreichbar,
-						ohne die Hauptleistungsseite zu überladen.
+						Die Themen folgen typischen Entscheidungen – vom Ablauf über die Stückauswahl
+						und Besetzung bis zur konkreten Anfrage.
 					</p>
 				</div>
 				<div class="link-hub-group-grid">

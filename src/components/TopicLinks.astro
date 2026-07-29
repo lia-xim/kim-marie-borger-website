@@ -1,7 +1,7 @@
 ---
 import {
+	getFeaturedTopicSeoPagesForService,
 	getTopicSeoPage,
-	getTopicSeoPagesForService,
 	serviceTopicsHubPath,
 	topicPagePath,
 } from '../lib/topic-seo';
@@ -14,14 +14,8 @@ interface Props {
 
 const { serviceSlug, currentTopicSlug } = Astro.props;
 const service = getLocalService(serviceSlug);
-const allPages = getTopicSeoPagesForService(serviceSlug);
 const currentTopic = currentTopicSlug ? getTopicSeoPage(serviceSlug, currentTopicSlug) : undefined;
-const priorityRank = { P1: 0, P2: 1, P3: 2 };
-const sortedPages = [...allPages].sort((a, b) =>
-	priorityRank[a.priority] - priorityRank[b.priority]
-	|| b.volume - a.volume
-	|| a.label.localeCompare(b.label),
-);
+const sortedPages = getFeaturedTopicSeoPagesForService(serviceSlug);
 const pages = currentTopic
 	? [currentTopic, ...sortedPages.filter((page) => page.slug !== currentTopic.slug)].slice(0, 8)
 	: sortedPages.slice(0, 10);
@@ -37,8 +31,8 @@ const pages = currentTopic
 				</h2>
 				<p class="lead">
 					{currentTopic
-						? `Diese Seiten führen von der Detailfrage zur Hauptleistung, zu lokalen Einstiegen und zur Anfrage.`
-						: `Die wichtigsten Themen ordnen typische Suchanliegen, bevor es zu den lokalen Seiten geht.`}
+						? `Von dieser Detailfrage geht es weiter zur Hauptleistung, zu passenden Orten und zur Anfrage.`
+						: `Die wichtigsten Themen ordnen typische Entscheidungen, bevor es zu den lokalen Angeboten geht.`}
 				</p>
 			</div>
 

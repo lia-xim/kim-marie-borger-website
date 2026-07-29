@@ -52,7 +52,7 @@ const jsonLd = ratgeberPageJsonLd(site, page);
 			<section class="section guide-article" aria-labelledby="guide-orientierung">
 				<div class="wrap guide-article-grid">
 					<aside class="guide-aside" aria-label="Kurzüberblick">
-						<p class="ksmall">Suchintention</p>
+						<p class="ksmall">Worum geht es?</p>
 						<p>{page.intent}</p>
 						<ul>
 							{page.keyPoints.map((point) => <li>{point}</li>)}
@@ -77,8 +77,8 @@ const jsonLd = ratgeberPageJsonLd(site, page);
 						<p class="eyebrow">Weiter planen</p>
 						<h2 id="guide-links" class="display-m">Passende Seiten auf der Website.</h2>
 						<p class="lead">
-							Diese Ratgeberseite ist mit den konkreten Leistungs- und Themenseiten
-							verbunden, damit aus Orientierung eine praktische Anfrage werden kann.
+							Von der ersten Orientierung geht es direkt zu den passenden Leistungen,
+							konkreten Planungsthemen und zur persönlichen Anfrage.
 						</p>
 						<a class="btn btn-solid" href={page.nextStep.href}>{page.nextStep.label}</a>
 					</div>

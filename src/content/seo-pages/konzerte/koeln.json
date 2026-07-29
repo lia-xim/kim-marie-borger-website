@@ -6,14 +6,14 @@
   "targetKeyword": "Viola Konzert Köln",
   "intentCluster": "konzerte:local",
   "priority": "P1",
-  "status": "manual-priority-local-seo-2026-06-22",
+  "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Viola Konzert Köln | Viola für Events",
   "seoDescription": "Viola Konzert Köln: Viola-Programm für Vernissage, Lesung und Kulturabend in Köln. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
     "eyebrow": "Viola Konzert in Köln",
-    "title": "Viola Konzert in Köln: konkret geplant nach Ort und Ablauf.",
-    "lead": "kuratiertes Viola-Programm für Vernissage, Lesung und Kulturabend in Köln. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, welches Viola-Format wirklich zum Raum und Publikum passt.",
+    "title": "Viola-Konzert in Köln — als Programm, nicht als Hintergrundrauschen.",
+    "lead": "Solo-Viola für Kulturabend, Lesung oder Vernissage: mit einer Dramaturgie, die zu Raum, Publikum und den übrigen Beiträgen passt.",
     "badge": "Anfrage kostenlos - Preis nach Rahmen"
   },
   "split": {
@@ -21,11 +21,11 @@
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Viola Konzert in Köln: was vor Ort wirklich zählt.",
-        "lede": "In Köln verändert die Lage linksrheinisch oder rechtsrheinisch, in der Innenstadt, in einem Veedel oder weiter draussen schnell den realistischen Zeitplan. Für Viola Konzert heißt das: Raumakustik, Sitzordnung, Licht, Publikumssituation und Technik entscheiden, ob akustische Viola trägt oder ob Verstärkung nötig ist. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
+        "title": "Zuhörsituation und Übergänge zuerst festlegen.",
+        "lede": "In Köln beeinflusst die Rheinseite vor allem Ankunft und Aufbau. Das Programm selbst richtet sich nach Akustik, Sitzordnung und der Frage, ob die Viola im Mittelpunkt steht oder zwischen Lesung, Gespräch und Kunst vermittelt.",
         "paragraphs": [
-          "Typische Situationen in Köln können Innenstadt, Altstadt, Ehrenfeld, Nippes, Deutz, Porz oder ein anderes Veedel sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
-          "Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern."
+          "Entscheidend ist, ob das Publikum sitzt oder sich durch den Raum bewegt, wie stark Gespräche weiterlaufen und wer die Übergänge zu Lesung, Gespräch oder Kunstbeitrag moderiert.",
+          "Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -40,7 +40,7 @@
         "paragraphs": [
           "Mögliche Einsatzpunkte sind Begrüßung, konzentriertes Set, moderierter Programmpunkt, Pause und ruhiger Ausklang. Ich plane lieber ein klares Set mit Dramaturgie als eine unbestimmte Dauer, die weder Konzert noch Hintergrundmusik ist.",
           "Vorab klären wir, ob Repertoire, Moderation, Licht, Sitzordnung, Technik, Pausen und Veranstaltungsleitung miteinander abgestimmt werden müssen.",
-          "Gerade in Köln hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So bekommt das Programm einen klaren Rahmen und bleibt für Publikum, Raum und Anlass nachvollziehbar."
+          "Wenn mehrere Beiträge oder Räume beteiligt sind, bekommt jeder musikalische Teil einen klaren Anfang und ein klares Ende. Das hält den Abend zusammen, auch wenn sich ein Gespräch verlängert."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -51,7 +51,7 @@
       {
         "eyebrow": "Konzertformat: passend oder nicht?",
         "title": "Wann ein Viola-Programm in Köln die richtige Wahl ist.",
-        "lede": "Viola-Programm passt, wenn ein Raum aufmerksam zuhören kann und ein kuratiertes Programm gefragt ist. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "lede": "Ein Viola-Programm passt, wenn Musik einen eigenen Platz im Abend bekommt und das Publikum zumindest für einzelne Abschnitte aufmerksam zuhören kann.",
         "paragraphs": [
           "Nicht ideal ist Viola-Programm, wenn die Musik nur neben sehr lauten Gesprächen laufen oder eine Party ersetzen soll. Dann ist es fairer, über Hintergrundmusik, DJ, Band, Technik oder ein anderes Format zu sprechen.",
           "Bei Außenbereichen gilt: trockener, schattiger Stand, stabiler Untergrund und eine Innenoption sind für ein Streichinstrument wichtiger als ein besonders schöner Hintergrund.",
@@ -65,7 +65,7 @@
       },
       {
         "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine seriöse Anfrage in Köln brauche.",
+        "title": "Welche Angaben ich für einen Programmvorschlag brauche.",
         "lede": "Eine gute Konzertanfrage nennt Datum, genaue Adresse, Format, gewünschte Dauer, Raumgröße, Publikum, Moderationswunsch und Kontaktperson vor Ort. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
           "Der Preis richtet sich nach Dauer, Programmarbeit, Ort, Anfahrt, Moderation, Wartezeit, Technik und Wunschmusik. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
@@ -107,11 +107,11 @@
       },
       {
         "question": "Wann ist Viola-Programm nicht die richtige Lösung?",
-        "answer": "Nicht ideal ist Viola-Programm, wenn die Musik nur neben sehr lauten Gesprächen laufen oder eine Party ersetzen soll. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "answer": "Wenn die Musik gegen sehr laute Gespräche anspielen oder eine Party ersetzen soll, ist ein Viola-Konzert nicht das passende Format. Dann braucht es eine andere Besetzung oder technische Lösung."
       },
       {
         "question": "Was ist in Köln organisatorisch wichtig?",
-        "answer": "In Köln verändert die Lage linksrheinisch oder rechtsrheinisch, in der Innenstadt, in einem Veedel oder weiter draussen schnell den realistischen Zeitplan. Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
+        "answer": "Für Ankunft und Aufbau helfen Rheinseite, Eingang und Ladeweg. Für das Programm selbst brauche ich Angaben zu Akustik, Sitzordnung, Licht und weiteren Beiträgen."
       },
       {
         "question": "Was kann zusätzlich kosten?",
@@ -122,22 +122,22 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola Konzert in Köln - Planungsbild 1"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola Konzert in Köln - Planungsbild 2"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola Konzert in Köln - Planungsbild 3"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Viola Konzert in Köln - Planungsbild 4"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Köln auf Anfahrt begrenzt und Inhalt klar nach Zuhörsituation, Programmdramaturgie sowie Übergängen zu Text und Kunst differenziert.",
   "contact": {
     "eyebrow": "Konzert anfragen",
     "title": "Viola Konzert in Köln anfragen",
@@ -163,14 +163,14 @@
   },
   "focus": {
     "eyebrow": "Planung in Köln",
-    "title": "Vier Entscheidungen, die Viola Konzert in Köln konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
+    "title": "Vier Fragen vor der Programmzusage.",
+    "lead": "Mit Raum, Publikumssituation, Dauer und weiteren Beiträgen kann ich eine nachvollziehbare Programmlänge empfehlen.",
     "items": [
       {
         "time": "1",
         "kicker": "Ort",
         "title": "Adresse, Raum und Zugang klären",
-        "text": "Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Das beeinflusst Ankunft, Aufbau, Stimmen, Wartezeit und die Frage, ob ein Ortswechsel sinnvoll ist."
+        "text": "Das beeinflusst Ankunft, Aufbau, Stimmen, Wartezeit und die Frage, ob ein Ortswechsel sinnvoll ist."
       },
       {
         "time": "2",
@@ -187,11 +187,11 @@
       {
         "time": "4",
         "kicker": "Rahmen",
-        "title": "Preis und Buchung ehrlich abstimmen",
+        "title": "Programmumfang und Kosten festhalten",
         "text": "Der Preis richtet sich nach Dauer, Programmarbeit, Ort, Anfahrt, Moderation, Wartezeit, Technik und Wunschmusik. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Viola Konzert in Köln wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Wenn Raum, Publikum, Programmlänge und Technik feststehen, kann ich Repertoire und Dramaturgie passend zusammenstellen."
   },
   "elegy": {
     "passages": []

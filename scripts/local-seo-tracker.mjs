@@ -2,6 +2,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import path from 'node:path';
 
 const DIST = path.resolve('dist/client');
+const CONTENT_DIR = path.resolve('src/content/seo-pages');
 const OUT_DIR = path.resolve('seo');
 const CSV_FILE = path.join(OUT_DIR, 'local-page-tracker.csv');
 const REPORT_FILE = path.join(OUT_DIR, 'local-page-tracker.md');
@@ -201,6 +202,16 @@ function walk(dir) {
 
 function routeFromFile(file) {
 	return `/${path.relative(DIST, file).replace(/\\/g, '/').replace(/index.html$/, '').replace(/^404.html$/, '404')}`;
+}
+
+function readSeoPageData(serviceSlug, pageSlug) {
+	const file = path.join(CONTENT_DIR, serviceSlug, `${pageSlug}.json`);
+	if (!existsSync(file)) return null;
+	try {
+		return JSON.parse(readFileSync(file, 'utf8'));
+	} catch {
+		return null;
+	}
 }
 
 function decodeHtml(value) {
@@ -515,9 +526,10 @@ for (const file of htmlFiles) {
 	htmlByRoute.set(routeFromFile(file), readFileSync(file, 'utf8'));
 }
 
-const sitemapXml = existsSync(path.join(DIST, 'sitemap-0.xml'))
-	? readFileSync(path.join(DIST, 'sitemap-0.xml'), 'utf8')
-	: '';
+const sitemapXml = walk(DIST)
+	.filter((file) => /^sitemap-(?:core|seo|ratgeber)-\d+\.xml$/.test(path.basename(file)))
+	.map((file) => readFileSync(file, 'utf8'))
+	.join('\n');
 const sitemapPaths = new Set(
 	[...sitemapXml.matchAll(/<loc>(.*?)<\/loc>/g)]
 		.map((match) => normalizePath(match[1])),
@@ -550,10 +562,14 @@ for (const serviceSlug of Object.keys(SERVICE_CONFIG)) {
 
 const localRoutePattern = new RegExp(`^/(${Object.keys(SERVICE_CONFIG).join('|')})/([^/]+)/$`);
 const rows = [...htmlByRoute.entries()]
-	.filter(([route]) => localRoutePattern.test(route))
+	.filter(([route]) => {
+		const match = route.match(localRoutePattern);
+		return Boolean(match && readSeoPageData(match[1], match[2])?.pageKind === 'local');
+	})
 	.map(([route, html]) => {
 		const [, serviceSlug, locationSlug] = route.match(localRoutePattern);
 		const config = SERVICE_CONFIG[serviceSlug];
+		const pageData = readSeoPageData(serviceSlug, locationSlug);
 		const title = stripHtml(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] ?? '');
 		const titleLead = title.split('|')[0].trim();
 		const description = attr(html.match(/<meta\s+name=["']description["'][^>]*>/i)?.[0] ?? '', 'content') ?? '';
@@ -585,8 +601,8 @@ const rows = [...htmlByRoute.entries()]
 			locationSlug,
 			route,
 			url: `https://kim-marie-borger.com${route}`,
-			priority: priorityFor(serviceSlug, locationSlug),
-			targetKeyword: `${config.keywordPrefix} ${locationName}`,
+			priority: pageData?.priority ?? priorityFor(serviceSlug, locationSlug),
+			targetKeyword: pageData?.targetKeyword ?? `${config.keywordPrefix} ${locationName}`,
 			title,
 			titleLength: title.length,
 			description,

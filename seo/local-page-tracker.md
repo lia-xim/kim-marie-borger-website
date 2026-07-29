@@ -1,6 +1,6 @@
 # Local SEO Seiten-Tracker
 
-Generiert: 2026-06-16T20:45:55.965Z
+Generiert: 2026-07-29T19:35:51.891Z
 
 Dieser Tracker bewertet die lokalen Seiten aus dem gerenderten HTML in `dist/client`. Die komplette Matrix liegt in `seo/local-page-tracker.csv`; diese Datei ist die Arbeitsgrundlage fuer Filter, Priorisierung und SEO-Software.
 
@@ -25,92 +25,115 @@ Dieser Tracker bewertet die lokalen Seiten aus dem gerenderten HTML in `dist/cli
 
 | Kennzahl | Wert |
 | --- | ---: |
-| Lokale Seiten | 480 |
-| High-Risk Content-Aehnlichkeit | 0 |
-| Medium-Risk Content-Aehnlichkeit | 0 |
-| Durchschnitt SEO-Score | 100 |
-| Durchschnitt Content-Score | 95 |
-| Durchschnitt Shingle Similarity Same Service | 48.6% |
-| Durchschnitt Template Similarity Same Service | 87.8% |
-| Durchschnitt Location-Masked Template Similarity | 90.5% |
-| Durchschnitt Similarity Base Service | 1.1% |
+| Lokale Seiten | 343 |
+| High-Risk Content-Aehnlichkeit | 155 |
+| Medium-Risk Content-Aehnlichkeit | 130 |
+| Durchschnitt SEO-Score | 93 |
+| Durchschnitt Content-Score | 84 |
+| Durchschnitt Shingle Similarity Same Service | 60% |
+| Durchschnitt Template Similarity Same Service | 93.7% |
+| Durchschnitt Location-Masked Template Similarity | 96.5% |
+| Durchschnitt Similarity Base Service | 2.1% |
 
 ## Status-Verteilung
 
 | Status | Seiten |
 | --- | ---: |
-| ready | 480 |
+| improve-copy | 130 |
+| priority-rewrite | 83 |
+| ready | 130 |
 
 ## Service-Cluster
 
 | Service | Seiten | Avg SEO | Avg Content | Avg Shingle | Avg Template | Avg Masked Template | High Risk |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| beerdigungen | 69 | 100 | 84 | 50.4% | 90.3% | 93.7% | 0 |
-| firmenfeiern | 69 | 100 | 100 | 45.5% | 82.5% | 84.9% | 0 |
-| geburtstage | 65 | 100 | 95 | 49.8% | 89.3% | 92.1% | 0 |
-| hochzeiten | 91 | 100 | 94 | 48.7% | 88.2% | 90.7% | 0 |
-| konzerte | 59 | 100 | 100 | 46.6% | 86.5% | 89.5% | 0 |
-| taufen | 68 | 99 | 97 | 49.3% | 88.3% | 90.4% | 0 |
-| unterricht | 59 | 100 | 95 | 50% | 89.5% | 92.5% | 0 |
+| beerdigungen | 49 | 93 | 81 | 60.9% | 93.4% | 96.2% | 23 |
+| firmenfeiern | 49 | 93 | 84 | 60.6% | 93.9% | 96.4% | 17 |
+| geburtstage | 49 | 93 | 84 | 60.7% | 93.9% | 96.6% | 27 |
+| hochzeiten | 49 | 93 | 83 | 61.3% | 93.6% | 96.3% | 35 |
+| konzerte | 49 | 93 | 87 | 58.4% | 93.4% | 96.4% | 13 |
+| taufen | 49 | 93 | 84 | 60.8% | 93.8% | 96.4% | 27 |
+| unterricht | 49 | 93 | 86 | 57% | 94% | 97.5% | 13 |
 
 ## High-Risk Content-Paare
 
-Keine High-Risk Content-Paare gefunden.
+| Seite | Shingle | Template | Masked Template | Naechste aehnliche Seite |
+| --- | ---: | ---: | ---: | --- |
+| [Geigenunterricht Duisburg](https://kim-marie-borger.com/unterricht/duisburg/) | 67.4% | 96.6% | 99% | /unterricht/moenchengladbach/ |
+| [Geigenunterricht Mönchengladbach](https://kim-marie-borger.com/unterricht/moenchengladbach/) | 67.4% | 97% | 99.4% | /unterricht/duisburg/ |
+| [Geigenunterricht Essen](https://kim-marie-borger.com/unterricht/essen/) | 67.4% | 97.2% | 99.6% | /unterricht/ratingen/ |
+| [Geigenunterricht Ratingen](https://kim-marie-borger.com/unterricht/ratingen/) | 67.4% | 97.2% | 99.6% | /unterricht/essen/ |
+| [Geigenunterricht Mettmann](https://kim-marie-borger.com/unterricht/mettmann/) | 67.3% | 96.6% | 99% | /unterricht/duisburg/ |
+| [Geigenunterricht Remscheid](https://kim-marie-borger.com/unterricht/remscheid/) | 67.3% | 96.8% | 99.2% | /unterricht/duisburg/ |
+| [Geigenunterricht Erkrath](https://kim-marie-borger.com/unterricht/erkrath/) | 67.2% | 97% | 99.4% | /unterricht/duisburg/ |
+| [Geigenunterricht Hilden](https://kim-marie-borger.com/unterricht/hilden/) | 67.2% | 96.9% | 99.3% | /unterricht/duisburg/ |
+| [Geigenunterricht Leverkusen](https://kim-marie-borger.com/unterricht/leverkusen/) | 67.1% | 96.6% | 99.2% | /unterricht/ratingen/ |
+| [Geigenunterricht Bochum](https://kim-marie-borger.com/unterricht/bochum/) | 67.1% | 96.5% | 98.9% | /unterricht/duisburg/ |
+| [Geigenunterricht Dortmund](https://kim-marie-borger.com/unterricht/dortmund/) | 66.9% | 96.6% | 99% | /unterricht/duisburg/ |
+| [Geigenunterricht Solingen](https://kim-marie-borger.com/unterricht/solingen/) | 66.9% | 96.7% | 99.1% | /unterricht/duisburg/ |
+| [Geigenunterricht Neuss](https://kim-marie-borger.com/unterricht/neuss/) | 66.8% | 96.7% | 99.2% | /unterricht/duisburg/ |
+| [Hochzeitsmusik Mettmann](https://kim-marie-borger.com/hochzeiten/mettmann/) | 66.6% | 93.3% | 96% | /hochzeiten/solingen/ |
+| [Hochzeitsmusik Solingen](https://kim-marie-borger.com/hochzeiten/solingen/) | 66.6% | 93.7% | 95.7% | /hochzeiten/mettmann/ |
+| [Hochzeitsmusik Leverkusen](https://kim-marie-borger.com/hochzeiten/leverkusen/) | 66.5% | 93.3% | 96% | /hochzeiten/solingen/ |
+| [Hochzeitsmusik Hilden](https://kim-marie-borger.com/hochzeiten/hilden/) | 66.3% | 93.8% | 95.8% | /hochzeiten/ratingen/ |
+| [Hochzeitsmusik Ratingen](https://kim-marie-borger.com/hochzeiten/ratingen/) | 66.3% | 95.2% | 97.2% | /hochzeiten/hilden/ |
+| [Hochzeitsmusik Erkrath](https://kim-marie-borger.com/hochzeiten/erkrath/) | 66% | 94% | 96.1% | /hochzeiten/remscheid/ |
+| [Hochzeitsmusik Remscheid](https://kim-marie-borger.com/hochzeiten/remscheid/) | 66% | 93.7% | 95.7% | /hochzeiten/erkrath/ |
 
 ## Priorisierter Rewrite-Backlog
 
 | Prio | Status | Risiko | Seite | Content | Shingle | Template | Masked Template | Naechste aehnliche Seite |
 | --- | --- | --- | --- | ---: | ---: | ---: | ---: | --- |
-| P1 | ready | low | [Trauermusik Düsseldorf](https://kim-marie-borger.com/beerdigungen/duesseldorf/) | 80 | 52.6% | 92.5% | 96.1% | /beerdigungen/leverkusen/ |
-| P1 | ready | low | [Trauermusik Köln](https://kim-marie-borger.com/beerdigungen/koeln/) | 80 | 52% | 92.5% | 96% | /beerdigungen/bonn/ |
-| P1 | ready | low | [Trauermusik Mettmann](https://kim-marie-borger.com/beerdigungen/mettmann/) | 80 | 52.1% | 92.1% | 95.8% | /beerdigungen/remscheid/ |
-| P1 | ready | low | [Trauermusik Essen](https://kim-marie-borger.com/beerdigungen/essen/) | 80 | 52.7% | 92.2% | 95.8% | /beerdigungen/moers/ |
-| P1 | ready | low | [Trauermusik Erkrath](https://kim-marie-borger.com/beerdigungen/erkrath/) | 80 | 52.7% | 92.2% | 95.7% | /beerdigungen/dormagen/ |
-| P1 | ready | low | [Trauermusik Ratingen](https://kim-marie-borger.com/beerdigungen/ratingen/) | 80 | 52.3% | 92.1% | 95.7% | /beerdigungen/leverkusen/ |
-| P1 | ready | low | [Trauermusik Neuss](https://kim-marie-borger.com/beerdigungen/neuss/) | 80 | 52.5% | 92% | 95.6% | /beerdigungen/bottrop/ |
-| P1 | ready | low | [Trauermusik Dortmund](https://kim-marie-borger.com/beerdigungen/dortmund/) | 80 | 51.7% | 92% | 95.5% | /beerdigungen/bonn/ |
-| P1 | ready | low | [Trauermusik Hilden](https://kim-marie-borger.com/beerdigungen/hilden/) | 80 | 51.7% | 91.9% | 95.4% | /beerdigungen/langenfeld/ |
-| P1 | ready | low | [Trauermusik Rheinland](https://kim-marie-borger.com/beerdigungen/rheinland/) | 80 | 52% | 91.6% | 94.9% | /beerdigungen/ruhrgebiet/ |
-| P1 | ready | low | [Trauermusik Ruhrgebiet](https://kim-marie-borger.com/beerdigungen/ruhrgebiet/) | 80 | 51.8% | 91.6% | 94.9% | /beerdigungen/rheinland/ |
-| P1 | ready | low | [Trauermusik Kreis Mettmann](https://kim-marie-borger.com/beerdigungen/kreis-mettmann/) | 80 | 48% | 86.8% | 94.8% | /beerdigungen/nordrhein-westfalen/ |
-| P1 | ready | low | [Bratschenunterricht Rhein-Kreis Neuss](https://kim-marie-borger.com/unterricht/rhein-kreis-neuss/) | 94 | 50.2% | 90.3% | 95.8% | /unterricht/langenfeld/ |
-| P1 | ready | low | [Bratschenunterricht Kreis Mettmann](https://kim-marie-borger.com/unterricht/kreis-mettmann/) | 94 | 49.7% | 89.4% | 95.6% | /unterricht/nordrhein-westfalen/ |
-| P1 | ready | low | [Bratschenunterricht Neuss](https://kim-marie-borger.com/unterricht/neuss/) | 94 | 52.7% | 92.4% | 95.5% | /unterricht/wuelfrath/ |
-| P1 | ready | low | [Bratschenunterricht Düsseldorf](https://kim-marie-borger.com/unterricht/duesseldorf/) | 94 | 52.9% | 92.8% | 95.5% | /unterricht/rhein-kreis-neuss/ |
-| P1 | ready | low | [Bratschenunterricht Erkrath](https://kim-marie-borger.com/unterricht/erkrath/) | 94 | 53.2% | 92.4% | 95.2% | /unterricht/koeln/ |
-| P1 | ready | low | [Bratschenunterricht Köln](https://kim-marie-borger.com/unterricht/koeln/) | 94 | 52.7% | 92.4% | 95.2% | /unterricht/erkrath/ |
-| P1 | ready | low | [Bratschenunterricht Essen](https://kim-marie-borger.com/unterricht/essen/) | 94 | 53% | 92.4% | 95.1% | /unterricht/unna/ |
-| P1 | ready | low | [Bratschenunterricht Ratingen](https://kim-marie-borger.com/unterricht/ratingen/) | 94 | 52.4% | 92.3% | 95% | /unterricht/iserlohn/ |
-| P1 | ready | low | [Bratschenunterricht Mettmann](https://kim-marie-borger.com/unterricht/mettmann/) | 94 | 51% | 91.3% | 94.3% | /unterricht/ratingen/ |
-| P1 | ready | low | [Bratschenunterricht Dortmund](https://kim-marie-borger.com/unterricht/dortmund/) | 94 | 52.3% | 91.4% | 94.3% | /unterricht/krefeld/ |
-| P1 | ready | low | [Bratschenunterricht Ruhrgebiet](https://kim-marie-borger.com/unterricht/ruhrgebiet/) | 94 | 51.7% | 91.2% | 94.1% | /unterricht/duisburg/ |
-| P1 | ready | low | [Bratschenunterricht Hilden](https://kim-marie-borger.com/unterricht/hilden/) | 94 | 50.6% | 90.3% | 94% | /unterricht/muelheim-an-der-ruhr/ |
-| P1 | ready | low | [Bratschenunterricht Rheinland](https://kim-marie-borger.com/unterricht/rheinland/) | 94 | 51.3% | 90.3% | 93.3% | /unterricht/dortmund/ |
-| P1 | ready | low | [Hochzeitsmusik Hilden](https://kim-marie-borger.com/hochzeiten/hilden/) | 94 | 50.2% | 90.4% | 93.3% | /hochzeiten/oberhausen/ |
-| P1 | ready | low | [Hochzeitsmusik Neuss](https://kim-marie-borger.com/hochzeiten/neuss/) | 94 | 50.8% | 90.5% | 93.2% | /hochzeiten/wuelfrath/ |
-| P1 | ready | low | [Hochzeitsmusik Erkrath](https://kim-marie-borger.com/hochzeiten/erkrath/) | 94 | 51.2% | 90.5% | 93.1% | /hochzeiten/krefeld/ |
-| P1 | ready | low | [Hochzeitsmusik Ratingen](https://kim-marie-borger.com/hochzeiten/ratingen/) | 94 | 50.7% | 90.2% | 92.9% | /hochzeiten/haan/ |
-| P1 | ready | low | [Hochzeitsmusik Dortmund](https://kim-marie-borger.com/hochzeiten/dortmund/) | 94 | 50.4% | 90.2% | 92.8% | /hochzeiten/koeln/ |
-| P1 | ready | low | [Hochzeitsmusik Köln](https://kim-marie-borger.com/hochzeiten/koeln/) | 94 | 50.6% | 90.2% | 92.8% | /hochzeiten/dortmund/ |
-| P1 | ready | low | [Hochzeitsmusik Mettmann](https://kim-marie-borger.com/hochzeiten/mettmann/) | 94 | 50.7% | 90% | 92.8% | /hochzeiten/hilden/ |
-| P1 | ready | low | [Hochzeitsmusik Düsseldorf](https://kim-marie-borger.com/hochzeiten/duesseldorf/) | 94 | 50.2% | 90.4% | 92.7% | /hochzeiten/mettmann/ |
-| P1 | ready | low | [Hochzeitsmusik Essen](https://kim-marie-borger.com/hochzeiten/essen/) | 94 | 50.7% | 90% | 92.7% | /hochzeiten/unna/ |
-| P1 | ready | low | [Hochzeitsmusik Rheinland](https://kim-marie-borger.com/hochzeiten/rheinland/) | 98 | 50% | 89.3% | 92% | /hochzeiten/paderborn/ |
-| P1 | ready | low | [Hochzeitsmusik Kreis Mettmann](https://kim-marie-borger.com/hochzeiten/kreis-mettmann/) | 98 | 48.1% | 86.8% | 90.8% | /hochzeiten/nordrhein-westfalen/ |
-| P1 | ready | low | [Hochzeitsmusik Ruhrgebiet](https://kim-marie-borger.com/hochzeiten/ruhrgebiet/) | 98 | 50.2% | 87.7% | 90.2% | /hochzeiten/rheinland/ |
-| P1 | ready | low | [Trauermusik Rhein-Kreis Neuss](https://kim-marie-borger.com/beerdigungen/rhein-kreis-neuss/) | 98 | 53.4% | 84.8% | 88.9% | /beerdigungen/rhein-ruhr/ |
-| P1 | ready | low | [Hochzeitsmusik Rhein-Kreis Neuss](https://kim-marie-borger.com/hochzeiten/rhein-kreis-neuss/) | 100 | 45.3% | 84.3% | 89.2% | /hochzeiten/velbert/ |
-| P2 | ready | low | [Trauermusik Bonn](https://kim-marie-borger.com/beerdigungen/bonn/) | 80 | 53.3% | 92.6% | 96.1% | /beerdigungen/dormagen/ |
-| P2 | ready | low | [Trauermusik Dormagen](https://kim-marie-borger.com/beerdigungen/dormagen/) | 80 | 53.3% | 92.6% | 96.1% | /beerdigungen/bonn/ |
-| P2 | ready | low | [Trauermusik Leverkusen](https://kim-marie-borger.com/beerdigungen/leverkusen/) | 80 | 52.5% | 92.5% | 96.1% | /beerdigungen/duesseldorf/ |
-| P2 | ready | low | [Trauermusik Hagen](https://kim-marie-borger.com/beerdigungen/hagen/) | 80 | 52.1% | 92.4% | 96% | /beerdigungen/muenster/ |
-| P2 | ready | low | [Trauermusik Münster](https://kim-marie-borger.com/beerdigungen/muenster/) | 80 | 52.3% | 92.4% | 96% | /beerdigungen/hagen/ |
-| P2 | ready | low | [Trauermusik Siegen](https://kim-marie-borger.com/beerdigungen/siegen/) | 80 | 52.3% | 92.4% | 95.9% | /beerdigungen/muenster/ |
-| P2 | ready | low | [Trauermusik Iserlohn](https://kim-marie-borger.com/beerdigungen/iserlohn/) | 80 | 52.6% | 92.4% | 95.9% | /beerdigungen/remscheid/ |
-| P2 | ready | low | [Trauermusik Remscheid](https://kim-marie-borger.com/beerdigungen/remscheid/) | 80 | 52.4% | 92.4% | 95.9% | /beerdigungen/iserlohn/ |
-| P2 | ready | low | [Trauermusik Wuppertal](https://kim-marie-borger.com/beerdigungen/wuppertal/) | 80 | 52.4% | 92.4% | 95.9% | /beerdigungen/remscheid/ |
-| P2 | ready | low | [Trauermusik Moers](https://kim-marie-borger.com/beerdigungen/moers/) | 80 | 52.8% | 92.2% | 95.8% | /beerdigungen/essen/ |
-| P2 | ready | low | [Trauermusik Bottrop](https://kim-marie-borger.com/beerdigungen/bottrop/) | 80 | 52.5% | 92% | 95.6% | /beerdigungen/neuss/ |
+| P1 | improve-copy | medium | [Geigenunterricht Düsseldorf](https://kim-marie-borger.com/unterricht/duesseldorf/) | 86 | 56% | 90.9% | 92.7% | /unterricht/wuppertal/ |
+| P1 | improve-copy | medium | [Geigenunterricht Köln](https://kim-marie-borger.com/unterricht/koeln/) | 86 | 56% | 90.4% | 92.3% | /unterricht/duesseldorf/ |
+| P1 | improve-copy | medium | [Geigenunterricht Wuppertal](https://kim-marie-borger.com/unterricht/wuppertal/) | 90 | 55.8% | 90.9% | 92.7% | /unterricht/duesseldorf/ |
+| P1 | ready | low | [Trauermusik Köln](https://kim-marie-borger.com/beerdigungen/koeln/) | 90 | 51.3% | 85.8% | 87.9% | /beerdigungen/duesseldorf/ |
+| P1 | ready | low | [Live Musik Geburtstag Köln](https://kim-marie-borger.com/geburtstage/koeln/) | 94 | 53.8% | 88% | 89.8% | /geburtstage/wuppertal/ |
+| P1 | ready | low | [Viola Konzert Köln](https://kim-marie-borger.com/konzerte/koeln/) | 94 | 51.7% | 87.8% | 89.2% | /konzerte/wuppertal/ |
+| P1 | ready | low | [Viola Konzert Wuppertal](https://kim-marie-borger.com/konzerte/wuppertal/) | 94 | 51.7% | 87.8% | 89.2% | /konzerte/koeln/ |
+| P1 | ready | low | [Viola Konzert Düsseldorf](https://kim-marie-borger.com/konzerte/duesseldorf/) | 94 | 50.8% | 87% | 88.6% | /konzerte/wuppertal/ |
+| P1 | ready | low | [Trauermusik Düsseldorf](https://kim-marie-borger.com/beerdigungen/duesseldorf/) | 94 | 53.3% | 86.1% | 88.1% | /beerdigungen/wuppertal/ |
+| P1 | ready | low | [Trauermusik Wuppertal](https://kim-marie-borger.com/beerdigungen/wuppertal/) | 94 | 53.3% | 86.1% | 88.1% | /beerdigungen/duesseldorf/ |
+| P1 | ready | low | [Taufmusik Köln](https://kim-marie-borger.com/taufen/koeln/) | 98 | 52.6% | 88.7% | 90.1% | /taufen/wuppertal/ |
+| P1 | ready | low | [Taufmusik Wuppertal](https://kim-marie-borger.com/taufen/wuppertal/) | 98 | 52.6% | 88.7% | 90.1% | /taufen/koeln/ |
+| P1 | ready | low | [Live Musik Geburtstag Wuppertal](https://kim-marie-borger.com/geburtstage/wuppertal/) | 98 | 53.8% | 88% | 89.8% | /geburtstage/koeln/ |
+| P1 | ready | low | [Live Musik Firmenevent Köln](https://kim-marie-borger.com/firmenfeiern/koeln/) | 98 | 53.4% | 88.3% | 89.6% | /firmenfeiern/wuppertal/ |
+| P1 | ready | low | [Live Musik Firmenevent Wuppertal](https://kim-marie-borger.com/firmenfeiern/wuppertal/) | 98 | 53.4% | 88.3% | 89.6% | /firmenfeiern/koeln/ |
+| P1 | ready | low | [Live Musik Geburtstag Düsseldorf](https://kim-marie-borger.com/geburtstage/duesseldorf/) | 98 | 52.5% | 87.4% | 89.1% | /geburtstage/wuppertal/ |
+| P1 | ready | low | [Taufmusik Düsseldorf](https://kim-marie-borger.com/taufen/duesseldorf/) | 98 | 52.6% | 87.7% | 89.1% | /taufen/wuppertal/ |
+| P1 | ready | low | [Live Musik Firmenevent Düsseldorf](https://kim-marie-borger.com/firmenfeiern/duesseldorf/) | 98 | 53.1% | 87.6% | 88.7% | /firmenfeiern/koeln/ |
+| P1 | ready | low | [Hochzeitsmusik Düsseldorf](https://kim-marie-borger.com/hochzeiten/duesseldorf/) | 100 | 47.5% | 84.9% | 86.2% | /hochzeiten/koeln/ |
+| P1 | ready | low | [Hochzeitsmusik Köln](https://kim-marie-borger.com/hochzeiten/koeln/) | 100 | 47.1% | 84.9% | 86.2% | /hochzeiten/duesseldorf/ |
+| P1 | ready | low | [Hochzeitsmusik Wuppertal](https://kim-marie-borger.com/hochzeiten/wuppertal/) | 100 | 47.5% | 84.5% | 85.9% | /hochzeiten/koeln/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Essen](https://kim-marie-borger.com/unterricht/essen/) | 67 | 67.4% | 97.2% | 99.6% | /unterricht/ratingen/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Ratingen](https://kim-marie-borger.com/unterricht/ratingen/) | 67 | 67.4% | 97.2% | 99.6% | /unterricht/essen/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Erkrath](https://kim-marie-borger.com/unterricht/erkrath/) | 67 | 67.2% | 97% | 99.4% | /unterricht/moenchengladbach/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Mönchengladbach](https://kim-marie-borger.com/unterricht/moenchengladbach/) | 67 | 67.4% | 97% | 99.4% | /unterricht/erkrath/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Hilden](https://kim-marie-borger.com/unterricht/hilden/) | 67 | 67.2% | 96.9% | 99.3% | /unterricht/ratingen/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Remscheid](https://kim-marie-borger.com/unterricht/remscheid/) | 67 | 67.3% | 96.8% | 99.2% | /unterricht/moenchengladbach/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Leverkusen](https://kim-marie-borger.com/unterricht/leverkusen/) | 67 | 67.1% | 96.6% | 99.2% | /unterricht/neuss/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Neuss](https://kim-marie-borger.com/unterricht/neuss/) | 67 | 66.8% | 96.7% | 99.2% | /unterricht/leverkusen/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Solingen](https://kim-marie-borger.com/unterricht/solingen/) | 67 | 66.9% | 96.7% | 99.1% | /unterricht/remscheid/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Dortmund](https://kim-marie-borger.com/unterricht/dortmund/) | 67 | 66.9% | 96.6% | 99% | /unterricht/ratingen/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Duisburg](https://kim-marie-borger.com/unterricht/duisburg/) | 67 | 67.4% | 96.6% | 99% | /unterricht/erkrath/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Mettmann](https://kim-marie-borger.com/unterricht/mettmann/) | 67 | 67.3% | 96.6% | 99% | /unterricht/moenchengladbach/ |
+| P2 | priority-rewrite | high | [Geigenunterricht Bochum](https://kim-marie-borger.com/unterricht/bochum/) | 67 | 67.1% | 96.5% | 98.9% | /unterricht/essen/ |
+| P2 | priority-rewrite | high | [Live Musik Geburtstag Mönchengladbach](https://kim-marie-borger.com/geburtstage/moenchengladbach/) | 75 | 64.2% | 95.1% | 97.2% | /geburtstage/ratingen/ |
+| P2 | priority-rewrite | high | [Live Musik Geburtstag Ratingen](https://kim-marie-borger.com/geburtstage/ratingen/) | 75 | 64.7% | 95.1% | 97.2% | /geburtstage/moenchengladbach/ |
+| P2 | priority-rewrite | high | [Hochzeitsmusik Mönchengladbach](https://kim-marie-borger.com/hochzeiten/moenchengladbach/) | 75 | 65.4% | 95.2% | 97.2% | /hochzeiten/ratingen/ |
+| P2 | priority-rewrite | high | [Hochzeitsmusik Ratingen](https://kim-marie-borger.com/hochzeiten/ratingen/) | 75 | 66.3% | 95.2% | 97.2% | /hochzeiten/moenchengladbach/ |
+| P2 | priority-rewrite | high | [Taufmusik Mönchengladbach](https://kim-marie-borger.com/taufen/moenchengladbach/) | 75 | 64.3% | 95.2% | 97.2% | /taufen/ratingen/ |
+| P2 | priority-rewrite | high | [Taufmusik Ratingen](https://kim-marie-borger.com/taufen/ratingen/) | 75 | 65.2% | 95.2% | 97.2% | /taufen/moenchengladbach/ |
+| P2 | priority-rewrite | high | [Live Musik Firmenevent Mönchengladbach](https://kim-marie-borger.com/firmenfeiern/moenchengladbach/) | 75 | 64.5% | 95.2% | 97% | /firmenfeiern/ratingen/ |
+| P2 | priority-rewrite | high | [Live Musik Firmenevent Ratingen](https://kim-marie-borger.com/firmenfeiern/ratingen/) | 75 | 65.3% | 95.2% | 97% | /firmenfeiern/moenchengladbach/ |
+| P2 | priority-rewrite | high | [Live Musik Geburtstag Leverkusen](https://kim-marie-borger.com/geburtstage/leverkusen/) | 75 | 64.7% | 93.5% | 96.2% | /geburtstage/mettmann/ |
+| P2 | priority-rewrite | high | [Live Musik Geburtstag Mettmann](https://kim-marie-borger.com/geburtstage/mettmann/) | 75 | 64.6% | 93.5% | 96.2% | /geburtstage/leverkusen/ |
+| P2 | priority-rewrite | high | [Live Musik Geburtstag Erkrath](https://kim-marie-borger.com/geburtstage/erkrath/) | 75 | 64.4% | 94% | 96.1% | /geburtstage/hilden/ |
+| P2 | priority-rewrite | high | [Live Musik Geburtstag Hilden](https://kim-marie-borger.com/geburtstage/hilden/) | 75 | 64.7% | 94% | 96.1% | /geburtstage/erkrath/ |
+| P2 | priority-rewrite | high | [Hochzeitsmusik Erkrath](https://kim-marie-borger.com/hochzeiten/erkrath/) | 75 | 66% | 94% | 96.1% | /hochzeiten/ratingen/ |
+| P2 | priority-rewrite | high | [Hochzeitsmusik Leverkusen](https://kim-marie-borger.com/hochzeiten/leverkusen/) | 75 | 66.5% | 93.3% | 96% | /hochzeiten/mettmann/ |
+| P2 | priority-rewrite | high | [Hochzeitsmusik Mettmann](https://kim-marie-borger.com/hochzeiten/mettmann/) | 75 | 66.6% | 93.3% | 96% | /hochzeiten/leverkusen/ |
+| P2 | priority-rewrite | high | [Live Musik Firmenevent Erkrath](https://kim-marie-borger.com/firmenfeiern/erkrath/) | 75 | 65.1% | 94% | 96% | /firmenfeiern/ratingen/ |
 
 ## Spalten in der CSV
 

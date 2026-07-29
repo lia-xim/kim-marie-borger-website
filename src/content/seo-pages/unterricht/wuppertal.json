@@ -6,14 +6,14 @@
   "targetKeyword": "Geigenunterricht Wuppertal",
   "intentCluster": "unterricht:local",
   "priority": "P1",
-  "status": "geige-expansion-2026-06-23-review-needed",
+  "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Geigenunterricht Wuppertal | Geige lernen",
   "seoDescription": "Geigenunterricht Wuppertal: Geigen- und Bratschenunterricht für Kinder und Erwachsene in Wuppertal. Probestunde, Ziele und Unterrichtsrhythmus transparent klären.",
   "hero": {
     "eyebrow": "Geigenunterricht in Wuppertal",
-    "title": "Geigenunterricht in Wuppertal: ruhig aufgebaut nach Ort und Lernziel.",
-    "lead": "Geigen- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg in Wuppertal. Geplant wird nach Ort, Lernziel, Instrument, Übezeit, Anfahrt und der Frage, ob Unterrichtsort, Weg, Instrument und Wochenrhythmus wirklich passen.",
+    "title": "Geigenunterricht in Wuppertal mit Ruhe und klaren nächsten Schritten.",
+    "lead": "Geigen- und Bratschenunterricht für Kinder und Erwachsene — vom ersten Ton bis zum Wiedereinstieg. Probestunde, Weg und Übeplan werden gemeinsam realistisch eingeordnet.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
@@ -21,11 +21,10 @@
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Geigenunterricht in Wuppertal: was vor Ort wirklich zählt.",
-        "lede": "Für Unterricht in Wuppertal zählt, ob der Weg durch die Talachse oder auf die Höhen regelmäßig realistisch bleibt und ob genug Ruhe für die Stunde vorhanden ist. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
+        "title": "Tal, Höhen und Alltag in einen Rhythmus bringen.",
+        "lede": "Für regelmäßigen Unterricht in Wuppertal zählt, ob der Weg durch die Talachse oder auf die Höhen Woche für Woche machbar bleibt. Ein guter Termin lässt außerdem noch Raum zum Üben und beginnt nicht schon mit Zeitdruck.",
         "paragraphs": [
-          "Typische Situationen in Wuppertal können Elberfeld, Barmen, Vohwinkel, Cronenberg, Ronsdorf oder eine Feier in Höhenlage sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
-          "Stufen, Aufzug, Haltemöglichkeit, Weg vom Parkplatz zum Raum und Wetterpuffer sollten nicht erst am Termin auffallen. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern."
+          "Vor der Probestunde klären wir Lernstand, Instrument, Ziel, möglichen Unterrichtsort und einen Rhythmus, der im Alltag in Wuppertal regelmäßig funktioniert."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -40,7 +39,7 @@
         "paragraphs": [
           "Mögliche Einsatzpunkte sind Probestunde, Lernstandscheck, Technikaufbau, Übeplan und regelmäßiger Rhythmus. Ich plane lieber einen tragfähigen Wochenrhythmus mit klaren Übezielen als eine Probestunde, nach der der Alltag den Unterricht sofort ausbremst.",
           "Vorab klären wir, ob Instrument, Noten, Wunschstücke, Lernstand, Probestunde und Übezeit realistisch zusammenpassen.",
-          "Gerade in Wuppertal hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So wird Unterricht regelmäßig machbar, statt nur als einmaliger guter Vorsatz zu starten."
+          "Ein Weg aus der Talachse auf die Höhen kann je nach Uhrzeit unterschiedlich lang sein. Darum wählen wir einen Termin, der nicht jede Woche unter Zeitdruck beginnt."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
@@ -51,7 +50,7 @@
       {
         "eyebrow": "Unterricht: passend oder nicht?",
         "title": "Wann Geigenunterricht in Wuppertal die richtige Wahl ist.",
-        "lede": "Geigenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "lede": "Der Unterricht passt, wenn du geduldig an Klang und Technik arbeiten und zwischen den Stunden mit überschaubaren Aufgaben weiterkommen möchtest.",
         "paragraphs": [
           "Nicht ideal ist Geigenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann ist es ehrlicher, zuerst Ziel, Format, Material oder einen späteren Start zu klären.",
           "Wenn ein Unterrichtsort vorgeschlagen wird, prüfe ich lieber früh, ob Raum, Lautstärke, Notenständer, Sitzmöglichkeit und Wiederholbarkeit des Weges passen.",
@@ -65,12 +64,12 @@
       },
       {
         "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine seriöse Anfrage in Wuppertal brauche.",
+        "title": "Was ich vor der Probestunde wissen möchte.",
         "lede": "Eine gute Unterrichtsanfrage nennt Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
           "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
           "Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Wunschstück keine brauchbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
-          "Zusätzlich kosten können längere Wartezeiten, kurzfristige Verlängerungen, ein zweiter Spielort, besondere Technik oder sehr kurzfristige Neunotation. Es gibt kein kostenloses Vorspielen vor Ort; die musikalische Passung klären wir transparent in der Anfrage."
+          "Zusätzlicher Aufwand kann durch neu zu erstellende Noten oder besonderes Unterrichtsmaterial entstehen. Das bespreche ich vorab; der reguläre Unterricht wird transparent nach Dauer, Rhythmus und Ort vereinbart."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
@@ -107,11 +106,11 @@
       },
       {
         "question": "Wann ist Geigenunterricht nicht die richtige Lösung?",
-        "answer": "Nicht ideal ist Geigenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "answer": "Ohne Zeit zum Üben kann Unterricht wenig verändern. Wenn du dagegen Musik für einen einzelnen Anlass suchst, ist eine Auftrittsanfrage passender als regelmäßiger Geigenunterricht."
       },
       {
         "question": "Was ist in Wuppertal organisatorisch wichtig?",
-        "answer": "In Wuppertal ist die konkrete Lage zwischen Elberfeld, Barmen, Vohwinkel, Cronenberg, Ronsdorf oder einer Höhenlage für Timing und Aufbau wichtiger als die reine Entfernung. Stufen, Aufzug, Haltemöglichkeit, Weg vom Parkplatz zum Raum und Wetterpuffer sollten nicht erst am Termin auffallen. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
+        "answer": "Für regelmäßigen Unterricht in Wuppertal sollten Unterrichtsort, Weg, Schul- oder Arbeitszeiten und realistische Übezeit zusammenpassen. Das klären wir in der Probestunde."
       },
       {
         "question": "Was kostet nach der Probestunde extra?",
@@ -122,22 +121,22 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Geigenunterricht in Wuppertal - Planungsbild 1"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Geigenunterricht in Wuppertal - Planungsbild 2"
+      "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Geigenunterricht in Wuppertal - Planungsbild 3"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Geigenunterricht in Wuppertal - Planungsbild 4"
+      "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Wuppertaler Unterrichtsseite auf Tal-Höhen-Weg, Wochenrhythmus und machbare Übezeit fokussiert; unpersönliche SEO-Sprache entfernt.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
     "title": "Geigenunterricht in Wuppertal anfragen",
@@ -153,9 +152,9 @@
     "sourceLabel": "Geigenunterricht Wuppertal",
     "notes": [
       "Probestunde kostenlos und unverbindlich",
-      "Kein kostenloses Vorspielen vor Ort",
+      "Unterrichtsort, Rhythmus und möglicher Materialaufwand werden vorab geklärt",
       "Vorhandenes Repertoire ohne Aufpreis; neue Notation oder Heraushören nach Aufwand, Orientierung ca. 30 Euro pro Song",
-      "Zusatzaufwand wie Wartezeit, Ortswechsel, Technik, Verlängerung oder sehr kurzfristige Vorbereitung wird vor der Buchung geklärt"
+      "Neue Notation oder besonderes Unterrichtsmaterial wird nur nach vorheriger Absprache berechnet"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Wuppertal klären",
@@ -163,8 +162,8 @@
   },
   "focus": {
     "eyebrow": "Planung in Wuppertal",
-    "title": "Vier Entscheidungen, die Geigenunterricht in Wuppertal konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
+    "title": "Vier Fragen vor dem regelmäßigen Unterricht.",
+    "lead": "Wenn Lernziel, Anfahrt, Instrument und Übezeit zusammenpassen, wird aus der Probestunde ein verlässlicher Lernweg.",
     "items": [
       {
         "time": "1",
@@ -187,11 +186,11 @@
       {
         "time": "4",
         "kicker": "Rahmen",
-        "title": "Preis und Buchung ehrlich abstimmen",
+        "title": "Rhythmus und Kosten vereinbaren",
         "text": "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Geigenunterricht in Wuppertal wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Nach der Probestunde sollten Unterrichtsort, Terminrhythmus, Übeziel und Kosten für beide Seiten klar sein."
   },
   "elegy": {
     "passages": []

@@ -6,24 +6,24 @@
   "targetKeyword": "Geige lernen",
   "intentCluster": "unterricht:geige-lernen",
   "priority": "P1",
-  "status": "geige-expansion-2026-06-23-review-needed",
+  "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Geige lernen | Unterricht mit Probestunde",
-  "seoDescription": "Geige lernen: Unterricht für Geige, Bratsche oder Viola mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
+  "seoDescription": "Geige lernen ohne Vorkenntnisse: Was du für den Einstieg brauchst, wie die ersten Stunden ablaufen und wie ein machbarer Übeplan entsteht. Probestunde kostenlos.",
   "hero": {
     "eyebrow": "Geige lernen",
-    "title": "Geige lernen: ein ruhiger Einstieg mit klarem Fundament.",
-    "lead": "Geige lernen bedeutet nicht alles auf einmal: Haltung, Bogenführung, Intonation und kleine Stücke werden Schritt für Schritt aufgebaut.",
+    "title": "Geige lernen: Was du für einen guten Anfang wirklich brauchst.",
+    "lead": "Kein Talenttest und kein Übemarathon: Am Anfang zählen ein passendes Instrument, verständliche Bewegungen und wenige Aufgaben, die du zu Hause wiederholen kannst.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
     "seal": "Lernweg\nKlang & Technik\npersönlich",
     "sections": [
       {
-        "title": "Geige lernen heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
-        "lede": "Wer nach Geige lernen sucht, braucht meist keine allgemeine Musikfloskel, sondern Orientierung. Im Mittelpunkt steht Orientierung vor und während des Einstiegs. Diese Seite beantwortet nicht nur Unterrichtsfragen, sondern auch die Grundfrage: Wie fühlt sich Geige lernen eigentlich an?",
+        "title": "Der Einstieg beginnt nicht mit einem Berg Theorie.",
+        "lede": "In der Probestunde finden wir heraus, wie sich das Instrument anfühlt, was du lernen möchtest und welcher nächste Schritt für dich oder dein Kind realistisch ist.",
         "paragraphs": [
-          "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
+          "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse oder ein bestimmtes Ziel? Wenn noch nichts davon da ist, ist das ebenfalls ein völlig normaler Ausgangspunkt.",
           "Wir beginnen mit Klang, Haltung und einfachen Bewegungen, damit das Instrument nicht fremd bleibt.",
           "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
           "Schon früh können kleine Melodien, Kanons oder bekannte Motive auftauchen, solange sie technisch sinnvoll bleiben.",
@@ -31,53 +31,48 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Geige lernen mit Viola und Bratsche 2"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese im Abendlicht"
         },
         "imageFirst": false,
         "eyebrow": "Unterricht mit klarem Fokus"
       },
       {
-        "title": "Geige lernen im Ablauf sinnvoll einsetzen.",
+        "title": "Was zwischen zwei Unterrichtsstunden passiert.",
         "lede": "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
         "paragraphs": [
           "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
-          "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
-          "Bei Geige lernen steht klarer Ton, saubere Intonation, freier Bogen und musikalische Sicherheit im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Geige Unterricht.",
-          "Bei Geige lernen steht klarer Ton, saubere Intonation, freier Bogen und musikalische Sicherheit im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Viola Lernen."
+          "Wenn du noch unsicher bist, ob die Geige zu dir passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
-          "alt": "Geige lernen mit Viola und Bratsche 1"
+          "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
         },
         "imageFirst": true
       },
       {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Lernseiten dürfen nicht alle gleich klingen: Bratsche, Lernen hat andere Fragen als Kinderunterricht, Erwachseneneinstieg, Fortgeschrittene oder reine Probestunde.",
+        "title": "Die ersten Wochen: klein anfangen, genau hinhören.",
+        "lede": "Am Anfang geht es nicht darum, möglichst schnell viele Stücke durchzuspielen. Du lernst, wie Haltung, Bogen und linke Hand zusammenarbeiten und woran du einen freien Ton erkennst.",
         "paragraphs": [
-          "Der Kern von Geige lernen ist klarer Ton, saubere Intonation, freier Bogen und musikalische Sicherheit. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-          "Für die Planung sind Tonbildung, Resonanz, ruhige Artikulation, tragende Melodielinie die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll.",
-          "Die klare Abgrenzung zu Viola Lernen lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-          "Aufbau, Wiederholung, Körpergefühl, kleine Fortschritte verändert den Ton der Seite deutlich. Ein Wunschstück, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht."
+          "Kurze Übungen helfen dir, eine Bewegung bewusst zu wiederholen, statt Fehler nur häufiger zu spielen.",
+          "Erste Melodien kommen früh dazu. Sie werden so gewählt, dass du das Gelernte musikalisch anwenden kannst und nicht nur trockene Bewegungsabläufe übst.",
+          "Fortschritt kann anfangs klein sein: ein entspannterer Griff, ein gerader Bogen oder ein Ton, der zweimal hintereinander so klingt, wie du ihn hören wolltest."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Geige lernen mit Viola und Bratsche 2"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese im Abendlicht"
         },
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Bei der Abstimmung schaue ich besonders auf Übeplan, Technik, Klang, Geduld, nächstes Ziel. Das verhindert, dass Geige lernen nur wie eine Variante der Hauptleistung klingt.",
+        "title": "Was ich vor der Probestunde wissen möchte.",
+        "lede": "Ein paar kurze Angaben genügen: Alter, Vorerfahrung, vorhandenes Instrument, möglicher Terminrhythmus und das, was dich an der Geige interessiert.",
         "paragraphs": [
-          "Auch Aufbau, Wiederholung, Körpergefühl, kleine Fortschritte ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-          "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-          "Redaktionell bleibt diese Seite eng bei Bratsche, Lernen. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
-          "Die klare Abgrenzung zu Geige Unterricht lautet: nicht wie helle Violine formulieren. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+          "Du musst für die Anfrage noch keinen fertigen Lernplan haben. Gerade wenn du neu anfängst, klären wir Instrument, Ziel und realistische Übezeit gemeinsam.",
+          "Nach der Probestunde entscheidest du in Ruhe, ob du weitermachen möchtest und welcher Rhythmus zu deinem Alltag passt."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
-          "alt": "Geige lernen mit Viola und Bratsche 1"
+          "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
         },
         "imageFirst": true
       }
@@ -88,8 +83,8 @@
     "title": "FAQ zu Geige lernen",
     "items": [
       {
-        "question": "Für wen passt Geige lernen?",
-        "answer": "Geige lernen passt für alle, die noch prüfen, ob die Geige das richtige Instrument für sie ist. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
+        "question": "Für wen passt der Unterricht?",
+        "answer": "Der Unterricht passt für alle, die noch prüfen, ob die Geige das richtige Instrument für sie ist. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
         "open": true
       },
       {
@@ -114,7 +109,7 @@
       },
       {
         "question": "Wann passt Geige lernen besonders gut?",
-        "answer": "Geige lernen passt, wenn genau dieser Lernschwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+        "answer": "Das passt besonders, wenn Lernstand, Ziel und verfügbare Übezeit gemeinsam geplant werden sollen."
       },
       {
         "question": "Welche Angaben helfen für eine erste Einschätzung?",
@@ -125,18 +120,18 @@
   "imageAlts": [
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Geige lernen mit Viola und Bratsche 1"
+      "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Geige lernen mit Viola und Bratsche 2"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese im Abendlicht"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Seite klar vom allgemeinen Geigenunterricht abgegrenzt und als Einstiegsentscheidung aufgebaut; generierte Anlasssprache entfernt, erste Wochen konkret beschrieben und Bildtexte am Motiv ausgerichtet.",
   "contact": {
     "eyebrow": "Unterricht anfragen",
     "title": "Geige lernen anfragen",
-    "lead": "Schreib mir kurz, ob du neu anfängst, wieder einsteigst oder für ein Kind suchst. Dann kann ich einschätzen, wie Geige lernen sinnvoll beginnen kann.",
+    "lead": "Schreib mir kurz, ob du selbst anfangen möchtest oder für ein Kind suchst, ob schon ein Instrument vorhanden ist und welche Zeiten grundsätzlich passen. Den Rest klären wir in der Probestunde.",
     "checklist": [
       "Geige lernen",
       "Lernstand",

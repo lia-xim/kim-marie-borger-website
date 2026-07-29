@@ -13,7 +13,7 @@
   "hero": {
     "eyebrow": "Trauermusikerin",
     "title": "Trauermusikerin, ruhig als Solo-Viola geplant.",
-    "lead": "Trauermusikerin braucht eine eigene Entscheidung: ruhige Präsenz und klare Verantwortung. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
+    "lead": "Besonders wichtig für die Planung: ruhige Präsenz und klare Verantwortung. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
     "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
@@ -22,7 +22,7 @@
     "items": [
       {
         "question": "Wann passt Trauermusikerin?",
-        "answer": "Trauermusikerin passt, wenn ruhige Präsenz und klare Verantwortung im Mittelpunkt steht und nicht nur allgemein Musik für den Abschied gesucht wird.",
+        "answer": "Diese musikalische Begleitung passt, wenn ruhige Präsenz und klare Verantwortung im Mittelpunkt steht und nicht nur allgemein Musik für den Abschied gesucht wird.",
         "open": true
       },
       {
@@ -30,8 +30,8 @@
         "answer": "Ja. Ich prüfe, ob eine vollständige Fassung, ein Ausschnitt oder eine reduzierte Viola-Version besser zur Situation passt."
       },
       {
-        "question": "Was unterscheidet diese Seite von anderen Trauerseiten?",
-        "answer": "Hier geht es gezielt um Rolle der Musikerin. Andere Seiten behandeln Ortsbezug, Buchung, Repertoire oder einen anderen Moment im Ablauf."
+        "question": "Worauf kommt es bei der Planung besonders an?",
+        "answer": "Im Mittelpunkt: Rolle der Musikerin."
       },
       {
         "question": "Welche Informationen helfen für die Anfrage?",
@@ -39,7 +39,7 @@
       },
       {
         "question": "Für welchen Abschied passt Trauermusikerin?",
-        "answer": "Trauermusikerin passt besonders für Menschen, die eine einzelne Musikerin für einen Abschied suchen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
+        "answer": "Diese musikalische Begleitung passt besonders für Menschen, die eine einzelne Musikerin für einen Abschied suchen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
@@ -56,22 +56,22 @@
       },
       {
         "question": "Wie wird Trauermusikerin konkret vorbereitet?",
-        "answer": "Ich kläre Anlass, Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich, ob Trauermusikerin als einzelner Moment, als Uebergang oder als Teil einer kleinen Abfolge auf Solo-Viola am stärksten wirkt."
+        "answer": "Ich kläre Anlass, Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich, ob Trauermusikerin als einzelner Moment, als Übergang oder als Teil einer kleinen Abfolge auf Solo-Viola am stärksten wirkt."
       },
       {
-        "question": "Welche Entscheidung ist bei Trauermusikerin oft wichtiger als die Stueckauswahl?",
-        "answer": "Die genaue Aufgabe der Musik. Ein Stueck kann sammeln, eine Rede nachklingen lassen, einen Weg begleiten oder einen Abschluss halten. Erst daraus entsteht die passende musikalische Form."
+        "question": "Welche Entscheidung ist bei Trauermusikerin oft wichtiger als die Stückauswahl?",
+        "answer": "Die genaue Aufgabe der Musik. Ein Stück kann sammeln, eine Rede nachklingen lassen, einen Weg begleiten oder einen Abschluss halten. Erst daraus entsteht die passende musikalische Form."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/_DSC7353.webp",
-      "alt": "Live-Viola für Trauermusik: Trauermusikerin - Bild 1"
+      "alt": "Kim Marie Borger hält ihre Viola vor einem See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola für Trauermusik: Trauermusikerin - Bild 2"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nLow Copy Follow-up 2026-06-16: verbliebene expand-copy-Seiten mit weiterem Fachkontext ergänzt.",
@@ -92,12 +92,11 @@
     "seal": "Trauermusikerin\nAbschied\nLive-Viola",
     "sections": [
       {
-        "title": "Trauermusikerin braucht eine eigene musikalische Planung.",
-        "lede": "Trauermusikerin wird hier praktisch eingeordnet: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
+        "title": "Trauermusik bewusst in den Ablauf einfügen.",
+        "lede": "Für die Planung sind drei Fragen wichtig: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
         "paragraphs": [
           "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
           "Als Solo-Musikerin bringe ich wenig Aufbau, klare Abstimmung und einen warmen Streichklang mit.",
-          "Diese Seite erklärt Rolle, Haltung und Klang einer Trauermusikerin, nicht nur ein einzelnes Stück.",
           "Die Musik bekommt eine klare Aufgabe im Ablauf, damit sie nicht wie eine zufällige Einlage wirkt. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
           "Gerade bei Abschieden entlastet eine klare Vorabstimmung die Familie, weil am Tag selbst möglichst wenig erklärt werden muss.",
           "Wenn ein Lied stark mit der verstorbenen Person verbunden ist, plane ich lieber einen passenden Ausschnitt als eine vollständige Version, die den Moment zu lang macht.",
@@ -106,7 +105,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Trauermusik: Trauermusikerin - Bild 2"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false,
         "eyebrow": "Einordnung"
@@ -117,15 +116,13 @@
         "paragraphs": [
           "Nicht jedes bekannte Lied passt automatisch. Manche Stücke wirken auf einem Solo-Instrument sehr klar, andere verlieren ohne Text oder Begleitung ihren eigentlichen Sinn.",
           "Für Angehörige ist oft schon viel organisiert. Darum formuliere ich die musikalischen Optionen möglichst konkret: welcher Moment, welche Länge, welches Signal, welche Alternative, falls sich etwas verschiebt.",
-          "Damit die Seite nicht mit anderen Trauerseiten konkurriert, bekommt Trauermusikerin einen eigenen Schwerpunkt: Zielperson, Einsatzpunkt, Klangentscheidung und Anfrage unterscheiden sich bewusst vom allgemeinen Trauermusik-Text.",
           "Falls noch kein Wunschstück feststeht, ist das kein Problem. Dann geht es zuerst um die Stimmung: getragen, schlicht, hoffnungsvoll, klassisch, modern oder sehr persönlich.",
           "Wenn Trauermusikerin in einer freien Trauerfeier eingesetzt wird, kann die Musik flexibler atmen. In einer Kirche oder bei einer eng getakteten Beisetzung braucht sie dagegen klarere Einsatzpunkte.",
-          "Der Raum macht einen großen Unterschied: Trauerhalle, Kirche, Friedhof oder freie Abschiedsfeier kann warm, hallig, trocken, eng oder offen wirken. Darum entscheide ich Tempo, Länge und Dynamik nie unabhängig von der Akustik.",
-          "Die Seite soll deshalb nicht jeden verwandten Begriff übernehmen. Sie verweist innerlich auf Nachbarseiten, bleibt aber im Text bei der Frage, wie Trauermusikerin praktisch und musikalisch gelöst wird."
+          "Der Raum macht einen großen Unterschied: Trauerhalle, Kirche, Friedhof oder freie Abschiedsfeier kann warm, hallig, trocken, eng oder offen wirken. Darum entscheide ich Tempo, Länge und Dynamik nie unabhängig von der Akustik."
         ],
         "image": {
           "src": "/uploads/_DSC7353.webp",
-          "alt": "Live-Viola für Trauermusik: Trauermusikerin - Bild 1"
+          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
         },
         "imageFirst": true
       },
@@ -135,33 +132,27 @@
         "paragraphs": [
           "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
           "Wichtig ist, dass Trauermusikerin nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
-          "Bei Trauermusikerin steht konkrete Anfrage, Klang, Ablauf und Erwartung im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Geige Beerdigung.",
           "Bei Abschieden muss Musik nicht groß werden, um tragend zu sein. Trauermusikerin wird hier so gedacht, dass Stille, Rede, Erinnerung und ein möglicher Weg zum Grab genug Raum behalten.",
-          "Der Kern von Trauermusikerin ist konkrete Anfrage, Klang, Ablauf und Erwartung. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-          "Für die Planung sind Dauer, Position, Raum, Timing die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll.",
-          "Die klare Abgrenzung zu Musikerin Traürfeier lautet: nicht als austauschbare Variante behandeln. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung."
+          "Für die Planung sind Dauer, Position, Raum, Timing die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Trauermusik: Trauermusikerin - Bild 2"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false
       },
       {
         "title": "Was für die Anfrage wichtig ist.",
-        "lede": "konkrete Anfrage, Klang, Ablauf und Erwartung verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
+        "lede": "Entscheidend sind ein ruhiger Ablauf, klare Absprachen und eine Stückauswahl, die zur Person und zum Abschied passt.",
         "paragraphs": [
-          "Bei der Abstimmung schaue ich besonders auf Dauer, Position, Raum, Timing. Das verhindert, dass Trauermusikerin nur wie eine Variante der Hauptleistung klingt.",
-          "Auch konkrete Anfrage, Klang, Ablauf und Erwartung ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
-          "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-          "Redaktionell bleibt diese Seite eng bei Trauermusikerin. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+          "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein einzelnes Abschiedsstück, mehrere ruhige Einsätze, Musik am Grab oder eine Begleitung der gesamten Feier passend ist.",
           "Bei Trauermusikerin prüfe ich zusätzlich den Unterschied zwischen bekanntem Lied und ruhiger Bearbeitung. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle wirklich Raum lässt und nicht gegen Worte oder Stille arbeitet.",
-          "So unterscheidet sich diese Seite von benachbarten Trauermusik-Themen: Trauermusikerin wird als persönlicher Wunschmoment gedacht. Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung.",
-          "Als fachlichen Zusatz kläre ich bei Trauermusikerin auch die Balance zwischen Wiedererkennung und stiller Zurückhaltung. Dadurch bekommt die Seite mehr als eine Repertoire-Antwort: Sie beschreibt, wie Musik in einer Trauersituation praktisch, klanglich und menschlich eingesetzt wird."
+          "Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung.",
+          "Zusätzlich kläre ich die Balance zwischen Wiedererkennung und stiller Zurückhaltung."
         ],
         "image": {
           "src": "/uploads/_DSC7353.webp",
-          "alt": "Live-Viola für Trauermusik: Trauermusikerin - Bild 1"
+          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
         },
         "imageFirst": true
       }
@@ -171,12 +162,12 @@
     "quote": "Trauermusikerin wirkt am stärksten, wenn die musikalische Aufgabe vorher klar ist.",
     "passages": [
       {
-        "strong": "Suchintention",
+        "strong": "Worauf es ankommt",
         "text": "Wer Trauermusikerin sucht, meint nicht einfach irgendeine Trauermusik. Im Mittelpunkt stehen Rolle der Musikerin, die passende Stelle im Ablauf und die Frage, ob Solo-Viola den Moment wirklich tragen kann."
       },
       {
-        "strong": "Abgrenzung",
-        "text": "Diese Seite grenzt sich bewusst von verwandte Trauerseiten ab. Der Fokus liegt auf Haltung, Klang und Verlässlichkeit, damit Angehörige schneller entscheiden können, ob genau dieser musikalische Schwerpunkt passt."
+        "strong": "Schwerpunkt",
+        "text": "Der Fokus liegt auf Haltung, Klang und Verlässlichkeit, damit Angehörige schneller entscheiden können, ob genau dieser musikalische Schwerpunkt passt."
       },
       {
         "strong": "Einsatzpunkt",
@@ -194,8 +185,8 @@
   },
   "solemn": {
     "eyebrow": "Einordnung",
-    "title": "Worauf es bei Trauermusikerin konkret ankommt.",
-    "lead": "Der Schwerpunkt entscheidet über Tempo, Länge und Wirkung. Deshalb wird diese Seite anders formuliert als allgemeine Trauermusik-Seiten.",
+    "title": "Worauf es bei der Planung von Trauermusik ankommt.",
+    "lead": "Der Schwerpunkt entscheidet über Tempo, Länge und Wirkung.",
     "cards": [
       {
         "rom": "Rolle",

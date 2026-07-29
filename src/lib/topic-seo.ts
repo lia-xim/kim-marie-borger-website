@@ -53,6 +53,117 @@ export interface TopicSeoPage {
 	faqs: TopicFaq[];
 }
 
+export interface TopicNavigationGroup {
+	key: string;
+	title: string;
+	description: string;
+	pages: TopicSeoPage[];
+}
+
+const FEATURED_TOPIC_SLUGS: Partial<Record<LocalServiceSlug, readonly string[]>> = {
+	beerdigungen: [
+		'trauermusik-repertoire',
+		'musik-am-grab',
+		'moderne-trauermusik',
+		'klassische-musik-beerdigung',
+		'trauermusik-buchen',
+		'ave-maria-beerdigung',
+		'live-musik-trauerfeier',
+	],
+	firmenfeiern: [
+		'musik-messe',
+		'dinnermusik-firmenevent',
+		'musik-gala',
+		'musik-produktpraesentation',
+		'musik-jubilaeum',
+		'empfangsmusik-firmenevent',
+		'musik-networking-event',
+	],
+	geburtstage: [
+		'private-feier',
+		'musik-familienfeier',
+		'musik-gartenfest',
+		'dinner-geburtstag',
+		'sektempfang-geburtstag',
+		'musikalische-ueberraschung-geburtstag',
+		'hintergrundmusik-geburtstag',
+	],
+	hochzeiten: [
+		'musik-zur-trauung',
+		'musik-standesamt',
+		'musik-freie-trauung',
+		'musik-brauteinzug',
+		'sektempfang',
+		'musik-hochzeitsdinner',
+		'hochzeitsmusik-buchen',
+	],
+	konzerte: [
+		'musik-vernissage',
+		'musik-lesung',
+		'musik-salonkonzert',
+		'musik-kulturabend',
+		'viola-konzert',
+		'klassische-musik-event',
+		'live-musik-konzert',
+	],
+	taufen: [
+		'musik-gottesdienst-taufe',
+		'musik-segnung',
+		'musik-familienfeier-taufe',
+		'musik-kommunion',
+		'musik-konfirmation',
+		'klassische-musik-taufe',
+		'moderne-musik-taufe',
+	],
+	unterricht: [
+		'geigenunterricht',
+		'bratschenunterricht',
+		'geigenunterricht-erwachsene',
+		'geigenunterricht-kinder',
+		'geigenunterricht-anfaenger',
+		'bratschenunterricht-erwachsene',
+		'viola-lernen',
+	],
+};
+
+const TOPIC_GROUP_COPY: Record<LocalServiceSlug, readonly [string, string, string][]> = {
+	beerdigungen: [
+		['ablauf', 'Ablauf & Abschied', 'Musik für Trauerfeier, Beisetzung, Grab und letzte Abschiedsmomente.'],
+		['klang', 'Stücke & Klang', 'Repertoire, bekannte Stücke und die Wahl zwischen klassischem, modernem und instrumentalem Klang.'],
+		['buchung', 'Musikerin & Buchung', 'Persönliche Abstimmung, Besetzung und konkrete Buchungsfragen.'],
+	],
+	firmenfeiern: [
+		['anlass', 'Business-Anlässe', 'Messe, Gala, Eröffnung, Jubiläum, Networking und Produktpräsentation.'],
+		['begleitung', 'Empfang & Begleitung', 'Musik für Ankommen, Gespräche, Dinner und einen dezenten Rahmen.'],
+		['besetzung', 'Musikerin & Besetzung', 'Live-Musik, Instrumentenwahl und der passende Auftritt für Unternehmen.'],
+	],
+	geburtstage: [
+		['feier', 'Feier & Ablauf', 'Familienfeier, Gartenfest, Dinner, Sektempfang und private Formate.'],
+		['geschenk', 'Geschenk & Überraschung', 'Persönliche Musikmomente für die gefeierte Person.'],
+		['klang', 'Klang & Besetzung', 'Live-, Instrumental- und Streichmusik sowie die Wahl des Instruments.'],
+	],
+	hochzeiten: [
+		['ablauf', 'Trauung & Ablauf', 'Einzug, Ja-Wort, Ringtausch, Standesamt, freie oder kirchliche Trauung und Auszug.'],
+		['klang', 'Stil & Besetzung', 'Klassisch, modern, dezent oder emotional – mit Geige, Viola oder Streichklang.'],
+		['buchung', 'Feier & Buchung', 'Empfang, Dinner, Hochzeitsfeier und die konkrete Auswahl einer Musikerin.'],
+	],
+	konzerte: [
+		['format', 'Konzertformate', 'Vernissage, Lesung, Salonkonzert und Kulturabend.'],
+		['programm', 'Programm & Instrument', 'Viola, Bratsche, Programmlänge und die musikalische Dramaturgie.'],
+		['event', 'Konzert oder Event', 'Live- und klassische Musik für Veranstaltungen mit Zuhör- oder Rahmenprogramm.'],
+	],
+	taufen: [
+		['feier', 'Gottesdienst & Familienfeier', 'Taufe, Segnung, Kommunion, Konfirmation und der anschließende Familienrahmen.'],
+		['stil', 'Stil & Wirkung', 'Klassische, moderne, sanfte oder instrumentale Musik.'],
+		['besetzung', 'Musikerin & Instrument', 'Live-Musik und die Wahl zwischen Geige, Viola, Bratsche und Streichklang.'],
+	],
+	unterricht: [
+		['instrument', 'Instrument wählen', 'Geige, Bratsche oder Viola kennenlernen und den passenden Einstieg finden.'],
+		['lernstand', 'Alter & Lernstand', 'Unterricht für Kinder, Erwachsene und Anfänger:innen.'],
+		['format', 'Unterrichtsform', 'Lernen, regelmäßiger Unterricht, Ziele und ein alltagstauglicher Rhythmus.'],
+	],
+};
+
 const CORE_TOPIC_SEO_PAGES: TopicSeoPage[] = [
 	{
 		serviceSlug: 'beerdigungen',
@@ -931,7 +1042,7 @@ function createGeneratedTopicPage(seed: TopicSeed): TopicSeoPage {
 		seoDescription: generatedMetaDescription(seed),
 		eyebrow: service.eyebrow,
 		heroTitle: `${seed.label}, persönlich geplant und live begleitet.`,
-		heroLead: `${service.heroLead} Diese Seite bündelt den Suchintent "${seed.keyword}" ${angle}.`,
+		heroLead: `${service.heroLead} Geplant wird ${angle}; außerdem stimmen wir Raum, Ablauf und gewünschte Wirkung konkret ab.`,
 		badge: service.badge,
 		splitTitle: kind.splitTitle,
 		splitLede: seed.kind === 'lesson-format'
@@ -950,8 +1061,10 @@ function createGeneratedTopicPage(seed: TopicSeed): TopicSeoPage {
 		],
 		focusEyebrow: kind.focusEyebrow,
 		focusTitle: `${seed.label}: worauf es ankommt.`,
-		focusLead: `Die folgenden Punkte trennen diese Suchintention bewusst von allgemeineren Seiten und helfen bei der Planung.`,
-		items: generatedItems(seed, service, kind),
+		focusLead: seed.kind === 'lesson-format'
+			? `Die folgenden Punkte helfen, ${seed.keyword} nach Lernstand, Unterrichtsrhythmus, Übezeit und Ziel zu planen.`
+			: `Die folgenden Punkte helfen, ${seed.keyword} konkret nach Ablauf, Raum und gewünschter Wirkung zu planen.`,
+		items: generatedItems(seed, service),
 		faqs: generatedFaqs(seed, service, kind),
 	};
 }
@@ -1120,7 +1233,7 @@ function generatedKindCopy(kind: TopicTemplateKind) {
 	}
 }
 
-function generatedItems(seed: TopicSeed, service: ReturnType<typeof generatedServiceCopy>, kind: ReturnType<typeof generatedKindCopy>): TopicItem[] {
+function generatedItems(seed: TopicSeed, service: ReturnType<typeof generatedServiceCopy>): TopicItem[] {
 	if (seed.kind === 'lesson-format') {
 		return [
 			{ kicker: 'Start', title: 'Standort klären', text: `${seed.label} beginnt mit einem Blick auf Erfahrung, Ziele und musikalische Wünsche.` },
@@ -1209,6 +1322,79 @@ export function getTopicSeoPages(): TopicSeoPage[] {
 
 export function getTopicSeoPagesForService(serviceSlug: string): TopicSeoPage[] {
 	return TOPIC_SEO_PAGES.filter((page) => page.serviceSlug === serviceSlug);
+}
+
+function topicNavigationKey(page: TopicSeoPage): string {
+	const slug = page.slug;
+
+	switch (page.serviceSlug) {
+		case 'beerdigungen':
+			if (/buchen|musikerin|trauermusikerin/.test(slug)) return 'buchung';
+			if (/repertoire|ave-maria|amazing-grace|klassische|moderne|instrumental|geige|bratsche|viola/.test(slug)) return 'klang';
+			return 'ablauf';
+		case 'firmenfeiern':
+			if (/messe|gala|jubilaeum|eroeffnung|produktpraesentation|networking/.test(slug)) return 'anlass';
+			if (/dinner|empfang|hintergrund|kundenempfang|firmenempfang/.test(slug)) return 'begleitung';
+			return 'besetzung';
+		case 'geburtstage':
+			if (/ueberraschung|geschenk/.test(slug)) return 'geschenk';
+			if (/private-feier|familienfeier|garten|dinner|sektempfang/.test(slug)) return 'feier';
+			return 'klang';
+		case 'hochzeiten':
+			if (/auszug|brauteinzug|brautpaar|freie-trauung|ja-wort|kirchliche-trauung|ringtausch|standesamt|unterschrift|waehrend-trauung|zur-trauung|hochzeitszeremonie|schloss-hochzeit/.test(slug)) {
+				return 'ablauf';
+			}
+			if (/klassische|moderne|romantische|emotionale|elegante|dezente|hintergrund|instrumental|streich|geige|violin|viola|bratsch/.test(slug)) {
+				return 'klang';
+			}
+			return 'buchung';
+		case 'konzerte':
+			if (/vernissage|lesung|salonkonzert|kulturabend/.test(slug)) return 'format';
+			if (/viola|bratsche|bratschenkonzert|live-musik-konzert/.test(slug)) return 'programm';
+			return 'event';
+		case 'taufen':
+			if (/gottesdienst|kirche|kirchliche|segnung|kommunion|konfirmation|familienfeier/.test(slug)) return 'feier';
+			if (/klassische|moderne|emotionale|sanfte|instrumental/.test(slug)) return 'stil';
+			return 'besetzung';
+		case 'unterricht':
+			if (/kinder|erwachsene|anfaenger/.test(slug)) return 'lernstand';
+			if (/lernen/.test(slug)) return 'format';
+			return 'instrument';
+		default:
+			return 'format';
+	}
+}
+
+export function getFeaturedTopicSeoPagesForService(serviceSlug: string): TopicSeoPage[] {
+	const pages = getTopicSeoPagesForService(serviceSlug);
+	const featuredSlugs = FEATURED_TOPIC_SLUGS[serviceSlug as LocalServiceSlug] ?? [];
+	const bySlug = new Map(pages.map((page) => [page.slug, page]));
+	const featured = featuredSlugs
+		.map((slug) => bySlug.get(slug))
+		.filter((page): page is TopicSeoPage => Boolean(page));
+	const used = new Set(featured.map((page) => page.slug));
+	const fallback = pages
+		.filter((page) => !used.has(page.slug))
+		.sort((a, b) => b.volume - a.volume || a.label.localeCompare(b.label));
+	return [...featured, ...fallback];
+}
+
+export function getTopicNavigationGroups(serviceSlug: string): TopicNavigationGroup[] {
+	const service = serviceSlug as LocalServiceSlug;
+	const copy = TOPIC_GROUP_COPY[service];
+	if (!copy) return [];
+	const pages = getTopicSeoPagesForService(serviceSlug);
+
+	return copy
+		.map(([key, title, description]) => ({
+			key,
+			title,
+			description,
+			pages: pages
+				.filter((page) => topicNavigationKey(page) === key)
+				.sort((a, b) => a.label.localeCompare(b.label)),
+		}))
+		.filter((group) => group.pages.length > 0);
 }
 
 export function getTopicSeoPage(serviceSlug: string, topicSlug: string): TopicSeoPage | undefined {

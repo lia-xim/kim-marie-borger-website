@@ -13,7 +13,7 @@
   "hero": {
     "eyebrow": "Live Trauerfeier",
     "title": "Live Musik Trauerfeier, ruhig als Solo-Viola geplant.",
-    "lead": "Live Musik Trauerfeier braucht eine eigene Entscheidung: Einsatz zwischen Worten und Stille. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
+    "lead": "Besonders wichtig für die Planung: Einsatz zwischen Worten und Stille. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
     "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
@@ -22,7 +22,7 @@
     "items": [
       {
         "question": "Wann passt Live Musik Trauerfeier?",
-        "answer": "Live Musik Trauerfeier passt, wenn Einsatz zwischen Worten und Stille im Mittelpunkt steht und nicht nur allgemein Musik für den Abschied gesucht wird.",
+        "answer": "Diese musikalische Begleitung passt, wenn Einsatz zwischen Worten und Stille im Mittelpunkt steht und nicht nur allgemein Musik für den Abschied gesucht wird.",
         "open": true
       },
       {
@@ -30,8 +30,8 @@
         "answer": "Ja. Ich prüfe, ob eine vollständige Fassung, ein Ausschnitt oder eine reduzierte Viola-Version besser zur Situation passt."
       },
       {
-        "question": "Was unterscheidet diese Seite von anderen Trauerseiten?",
-        "answer": "Hier geht es gezielt um Zeremonie. Andere Seiten behandeln Ortsbezug, Buchung, Repertoire oder einen anderen Moment im Ablauf."
+        "question": "Worauf kommt es bei der Planung besonders an?",
+        "answer": "Im Mittelpunkt: Zeremonie."
       },
       {
         "question": "Welche Informationen helfen für die Anfrage?",
@@ -39,7 +39,7 @@
       },
       {
         "question": "Für welchen Abschied passt Live Musik Trauerfeier?",
-        "answer": "Live Musik Trauerfeier passt besonders für Trauerfeiern mit Reden, Ritualen und stillen Übergängen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
+        "answer": "Diese musikalische Begleitung passt besonders für Trauerfeiern mit Reden, Ritualen und stillen Übergängen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
@@ -56,18 +56,18 @@
       },
       {
         "question": "Wie wird Live Musik Trauerfeier konkret vorbereitet?",
-        "answer": "Ich kläre Anlass, Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich, ob Live Musik Trauerfeier als einzelner Moment, als Uebergang oder als Teil einer kleinen Abfolge auf Solo-Viola am stärksten wirkt."
+        "answer": "Ich kläre Anlass, Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich, ob Live Musik Trauerfeier als einzelner Moment, als Übergang oder als Teil einer kleinen Abfolge auf Solo-Viola am stärksten wirkt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/_DSC7353.webp",
-      "alt": "Live-Viola für Trauermusik: Live Musik Trauerfeier - Bild 1"
+      "alt": "Kim Marie Borger hält ihre Viola vor einem See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola für Trauermusik: Live Musik Trauerfeier - Bild 2"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 2: Trauer-Topicseiten mit eigener Suchintention, eigenen Abschnitten, eigenen FAQs und eigener Kontaktcopy differenziert. Fachlich im CMS final prüfen.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.",
@@ -88,12 +88,12 @@
     "quote": "Live Musik Trauerfeier wirkt am stärksten, wenn die musikalische Aufgabe vorher klar ist.",
     "passages": [
       {
-        "strong": "Suchintention",
+        "strong": "Worauf es ankommt",
         "text": "Wer Live Musik Trauerfeier sucht, meint nicht einfach irgendeine Trauermusik. Im Mittelpunkt stehen Zeremonie, die passende Stelle im Ablauf und die Frage, ob Solo-Viola den Moment wirklich tragen kann."
       },
       {
-        "strong": "Abgrenzung",
-        "text": "Diese Seite grenzt sich bewusst von unspezifische Beerdigungsmusik ab. Der Fokus liegt auf Ablauf atmen lassen, damit Angehörige schneller entscheiden können, ob genau dieser musikalische Schwerpunkt passt."
+        "strong": "Schwerpunkt",
+        "text": "Der Fokus liegt auf Ablauf atmen lassen, damit Angehörige schneller entscheiden können, ob genau dieser musikalische Schwerpunkt passt."
       },
       {
         "strong": "Einsatzpunkt",
@@ -111,8 +111,8 @@
   },
   "solemn": {
     "eyebrow": "Einordnung",
-    "title": "Worauf es bei Live Musik Trauerfeier konkret ankommt.",
-    "lead": "Der Schwerpunkt entscheidet über Tempo, Länge und Wirkung. Deshalb wird diese Seite anders formuliert als allgemeine Trauermusik-Seiten.",
+    "title": "Worauf es bei der Planung von Trauermusik ankommt.",
+    "lead": "Der Schwerpunkt entscheidet über Tempo, Länge und Wirkung.",
     "cards": [
       {
         "rom": "Rolle",
@@ -147,12 +147,11 @@
     "seal": "Live Trauerfeier\nAbschied\nLive-Viola",
     "sections": [
       {
-        "title": "Live Musik Trauerfeier braucht eine eigene musikalische Planung.",
-        "lede": "Live Musik Trauerfeier wird hier praktisch eingeordnet: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
+        "title": "Trauermusik bewusst in den Ablauf einfügen.",
+        "lede": "Für die Planung sind drei Fragen wichtig: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
         "paragraphs": [
           "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
           "Live-Viola kann warten, früher enden, eine Pause halten oder den Auszug organisch begleiten.",
-          "Diese Seite bleibt bei der Zeremonie selbst und grenzt sich von Live Musik Beerdigung mit Grab- und Wegmomenten ab.",
           "Wenn ein Wunschlied geplant ist, prüfe ich Melodie, Tonart und Wirkung für Solo-Viola. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
           "Organisatorisch wichtig sind Ankunft, Raumzugang, Kontaktperson, Einsatzpunkt und die Frage, ob draußen gespielt werden soll.",
           "Besonders wichtig ist der Abstand zwischen Musik und Sprache. Ein Stück darf Worte nachklingen lassen, sollte sie aber nicht kommentieren oder ersetzen.",
@@ -161,7 +160,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Trauermusik: Live Musik Trauerfeier - Bild 2"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false,
         "eyebrow": "Einordnung"
@@ -180,7 +179,7 @@
         ],
         "image": {
           "src": "/uploads/_DSC7353.webp",
-          "alt": "Live-Viola für Trauermusik: Live Musik Trauerfeier - Bild 1"
+          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
         },
         "imageFirst": true
       },
@@ -188,33 +187,26 @@
         "title": "Stückauswahl, Raum und Timing klären.",
         "lede": "Wichtig ist, dass Live Musik Trauerfeier nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
         "paragraphs": [
-          "Der Fokus bleibt eng genug, damit Angehörige sofort erkennen, ob diese Seite zu ihrer Frage passt. Andere Seiten behandeln Ort, Buchung, Instrument oder einzelne Lieder; hier geht es genau um Live Musik Trauerfeier.",
-          "Bei Live Musik Trauerfeier steht im Raum entstehender Klang, Reaktion, Flexibilität, echte Präsenz im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Musik Am Grab.",
-          "Der Kern von Live Musik Trauerfeier ist im Raum entstehender Klang, Reaktion, Flexibilität, echte Präsenz. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-          "Für die Planung sind Startsignal, Dauer, Lautstärke, Anpassung die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll.",
-          "Die klare Abgrenzung zu Musik Abschied lautet: nicht wie Playlist beschreiben. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-          "musikalischer Rahmen, Anlass, Wirkung, Stückauswahl, Ablauf verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-          "Bei der Abstimmung schaue ich besonders auf Dauer, Position, Lautstärke, Wunschstücke, Übergänge. Das verhindert, dass Live Musik Trauerfeier nur wie eine Variante der Hauptleistung klingt."
+          "Für die Planung sind Startsignal, Dauer, Lautstärke, Anpassung die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Trauermusik: Live Musik Trauerfeier - Bild 2"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false
       },
       {
         "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Auch Rede, Stille, Erinnerung, Auszug, Familie ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+        "lede": "Entscheidend sind ein ruhiger Ablauf, klare Absprachen und eine Stückauswahl, die zur Person und zum Abschied passt.",
         "paragraphs": [
-          "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-          "Redaktionell bleibt diese Seite eng bei Live, Musik, Trauerfeier. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
-          "Trauermusik braucht eine andere Sprache als Eventmusik. Diese Seite behandelt Live, Musik, Trauerfeier mit Blick auf Würde, Tempo, Ansprechpersonen und die Belastung der Angehörigen.",
-          "Bei Live Musik Trauerfeier prüfe ich zusätzlich die passende Laenge des Stuecks. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle wirklich Raum lässt und nicht gegen Worte oder Stille arbeitet.",
-          "So unterscheidet sich diese Seite von benachbarten Trauermusik-Themen: Live Musik Trauerfeier wird als leiser Abschluss gedacht. Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung."
+          "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein einzelnes Abschiedsstück, mehrere ruhige Einsätze, Musik am Grab oder eine Begleitung der gesamten Feier passend ist.",
+          "Trauermusik braucht eine andere Sprache als Eventmusik. Bei Live, Musik, Trauerfeier geht es um Würde, Tempo, Ansprechpersonen und die Belastung der Angehörigen.",
+          "Bei Live Musik Trauerfeier prüfe ich zusätzlich die passende Länge des Stücks. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle wirklich Raum lässt und nicht gegen Worte oder Stille arbeitet.",
+          "Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung."
         ],
         "image": {
           "src": "/uploads/_DSC7353.webp",
-          "alt": "Live-Viola für Trauermusik: Live Musik Trauerfeier - Bild 1"
+          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
         },
         "imageFirst": true
       }

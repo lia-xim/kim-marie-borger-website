@@ -7,7 +7,7 @@ import {
 	serviceLocationsHubPath,
 } from '../lib/local-seo';
 import {
-	getTopicSeoPagesForService,
+	getFeaturedTopicSeoPagesForService,
 	serviceTopicsHubPath,
 	topicPagePath,
 } from '../lib/topic-seo';
@@ -22,14 +22,7 @@ interface Props {
 
 const { serviceSlug } = Astro.props;
 const service = getLocalService(serviceSlug);
-const priorityRank = { P1: 0, P2: 1, P3: 2 };
-const topicPages = getTopicSeoPagesForService(serviceSlug)
-	.sort((a, b) =>
-		priorityRank[a.priority] - priorityRank[b.priority]
-		|| b.volume - a.volume
-		|| a.label.localeCompare(b.label),
-	)
-	.slice(0, 7);
+const topicPages = getFeaturedTopicSeoPagesForService(serviceSlug).slice(0, 7);
 const localPages = getPrimaryLocalSeoPagesForService(serviceSlug).slice(0, 8);
 const guidePages = getRatgeberPagesForService(serviceSlug).slice(0, 3);
 const panelCount = Number(topicPages.length > 0) + Number(localPages.length > 0) + Number(guidePages.length > 0);
@@ -45,14 +38,14 @@ const panelCount = Number(topicPages.length > 0) + Number(localPages.length > 0)
 				</h2>
 				<p class="lead">
 					Die wichtigsten Einstiege bleiben direkt erreichbar. Vollständige Übersichten
-					führen eine Ebene tiefer zu allen Orts- und Suchbegriffseiten.
+					führen eine Ebene tiefer zu allen Orten, Abläufen und musikalischen Möglichkeiten.
 				</p>
 			</div>
 
 			<div class={`service-discovery-grid service-discovery-grid-${panelCount} reveal d2`}>
 				{topicPages.length > 0 && (
 					<div class="service-discovery-panel">
-						<p class="ksmall">Suchbegriffe & Themen</p>
+						<p class="ksmall">Anlässe & Fragen</p>
 						<h3>Zentrale Fragen</h3>
 						<div class="service-discovery-links">
 							{topicPages.map((page) => (
@@ -68,7 +61,7 @@ const panelCount = Number(topicPages.length > 0) + Number(localPages.length > 0)
 				{localPages.length > 0 && (
 					<div class="service-discovery-panel">
 						<p class="ksmall">Orte & Regionen</p>
-						<h3>Wichtige Orte</h3>
+						<h3>Direkt zu Ortsseiten</h3>
 						<div class="service-discovery-links">
 							{localPages.map((page) => (
 								<a href={localPagePath(page.service, page.location)}>
@@ -77,7 +70,7 @@ const panelCount = Number(topicPages.length > 0) + Number(localPages.length > 0)
 							))}
 						</div>
 						<a class="link-line" href={serviceLocationsHubPath(service)}>
-							Alle Orte für {service.keyword} <span class="ar" aria-hidden="true">→</span>
+							Vollständige Ortsübersicht <span class="ar" aria-hidden="true">→</span>
 						</a>
 					</div>
 				)}

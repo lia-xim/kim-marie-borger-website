@@ -6,14 +6,14 @@
   "targetKeyword": "Live Musik Firmenevent Düsseldorf",
   "intentCluster": "firmenfeiern:local",
   "priority": "P1",
-  "status": "manual-priority-local-seo-2026-06-22",
+  "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Live Musik Firmenevent Düsseldorf | Viola fürs Event",
   "seoDescription": "Live Musik Firmenevent Düsseldorf: Solo-Viola für Empfang, Dinner und Business-Event in Düsseldorf. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
     "eyebrow": "Live Musik Firmenevent in Düsseldorf",
-    "title": "Live Musik für Firmenevents in Düsseldorf: konkret geplant nach Ort und Ablauf.",
-    "lead": "Solo-Viola für Empfang, Dinner, Jubiläum und Messe in Düsseldorf. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, ob Solo-Viola, Zeitfenster und Lautstärke wirklich zum Event passen.",
+    "title": "Live-Musik für Firmenevents in Düsseldorf, die Gespräche zulässt.",
+    "lead": "Solo-Viola für Empfang, Dinner, Jubiläum oder Messe. Wir stimmen Lautstärke, Spielzeiten und Übergänge so ab, dass Musik Atmosphäre schafft, ohne Reden oder Gespräche zu überlagern.",
     "badge": "Anfrage kostenlos - Preis nach Rahmen"
   },
   "split": {
@@ -21,10 +21,10 @@
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Live Musik für Firmenevents in Düsseldorf: was vor Ort wirklich zählt.",
-        "lede": "In Düsseldorf macht es einen großen Unterschied, ob ein Termin innenstadtnah, am Rhein, linksrheinisch, in Benrath oder in einem Stadtteil weiter außerhalb liegt. Für Live Musik für Firmenevents heißt das: Empfangswege, Reden, Lautstärke und Gesprächssituation bestimmen, ob akustische Viola reicht oder ob dezente Verstärkung sinnvoll ist. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
+        "title": "Raum, Reden und Empfang zuerst klären.",
+        "lede": "Bei einem Firmenevent in Düsseldorf entscheiden Raumgröße, Gästezahl und Gesprächslautstärke darüber, ob die Viola akustisch trägt oder dezent verstärkt werden sollte. Auch Akkreditierung, Reden und Catering geben die sinnvollen Spielzeiten vor.",
         "paragraphs": [
-          "Typische Situationen in Düsseldorf können Innenstadt, Altstadt, Rheinseite, Oberkassel, Benrath oder ein Hotel- und Restaurantumfeld sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
+          "Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
           "Halte- oder Parkmöglichkeit, genauer Eingang, Etage, Raum, Aufzug und Kontaktperson sollten vorab klar sein. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern."
         ],
         "image": {
@@ -40,7 +40,7 @@
         "paragraphs": [
           "Mögliche Einsatzpunkte sind Ankommen der Gäste, Networking, Dinner, Rede-Pausen, Ehrung und ein kurzer Programmpunkt. Ich plane lieber klar begrenzte Musikfenster als ein Dauerprogramm, das Reden, Empfang oder Networking überlagert.",
           "Vorab klären wir, ob Repertoire, Wunschstücke, Reden, Technik, Catering, Empfang oder Veranstaltungsleitung miteinander abgestimmt werden müssen.",
-          "Gerade in Düsseldorf hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So bleibt die Musik hochwertig und gesprächsfreundlich, ohne den Ablauf des Events zu blockieren."
+          "Bei Empfang und Dinner lege ich die Spielphasen um Begrüßung, Reden und Service herum. So entsteht Atmosphäre, ohne dass Musik und Programmpunkte gegeneinander arbeiten."
         ],
         "image": {
           "src": "/uploads/_DSC7402.webp",
@@ -51,7 +51,7 @@
       {
         "eyebrow": "Eventformat: passend oder nicht?",
         "title": "Wann Solo-Viola für ein Firmenevent in Düsseldorf die richtige Wahl ist.",
-        "lede": "Solo-Viola passt, wenn hochwertige, gesprächsfreundliche Live-Musik gefragt ist. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "lede": "Solo-Viola passt zu Empfängen und Dinnerformaten, bei denen Live-Musik wertig wirken und Gespräche trotzdem möglich bleiben sollen.",
         "paragraphs": [
           "Nicht ideal ist Solo-Viola, wenn ein lauter Showact, Partyband-Sound oder dauerhafte Beschallung für mehrere Stunden erwartet wird. Dann ist es fairer, über DJ, Band, Technik oder ein anderes Format zu sprechen.",
           "Bei Außenbereichen gilt: trockener, schattiger Stand, stabiler Untergrund und eine Innenoption sind für ein Streichinstrument wichtiger als ein besonders schöner Hintergrund.",
@@ -65,7 +65,7 @@
       },
       {
         "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine seriöse Anfrage in Düsseldorf brauche.",
+        "title": "Welche Angaben ein belastbares Angebot braucht.",
         "lede": "Eine gute Eventanfrage nennt Datum, genaue Adresse, Zeitfenster, Raumgröße, Gästezahl, Programmpunkte, Rechnungsadresse und Kontaktperson vor Ort. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
           "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, technische Abstimmung, Rechnungsaufwand und Wunschmusik. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
@@ -107,7 +107,7 @@
       },
       {
         "question": "Wann ist Solo-Viola nicht die richtige Lösung?",
-        "answer": "Nicht ideal ist Solo-Viola, wenn ein lauter Showact, Partyband-Sound oder dauerhafte Beschallung für mehrere Stunden erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "answer": "Für einen lauten Showact, Partyband-Sound oder stundenlange Dauerbeschallung ist Solo-Viola nicht gedacht. In diesem Fall sind Band, DJ oder ein anderes technisches Setup die bessere Wahl."
       },
       {
         "question": "Was ist in Düsseldorf organisatorisch wichtig?",
@@ -122,22 +122,22 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live Musik für Firmenevents in Düsseldorf - Planungsbild 1"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7402.webp",
-      "alt": "Live Musik für Firmenevents in Düsseldorf - Planungsbild 2"
+      "alt": "Kim Marie Borger spielt Viola am See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live Musik für Firmenevents in Düsseldorf - Planungsbild 3"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7402.webp",
-      "alt": "Live Musik für Firmenevents in Düsseldorf - Planungsbild 4"
+      "alt": "Kim Marie Borger spielt Viola am See"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Düsseldorfer Business-Intent auf Gesprächslautstärke, Reden, Catering und Technik fokussiert; austauschbare Orts- und SEO-Formeln entfernt.",
   "contact": {
     "eyebrow": "Firmenevent anfragen",
     "title": "Live Musik Firmenevent in Düsseldorf anfragen",
@@ -163,8 +163,8 @@
   },
   "focus": {
     "eyebrow": "Planung in Düsseldorf",
-    "title": "Vier Entscheidungen, die Live Musik für Firmenevents in Düsseldorf konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
+    "title": "Vier Fragen vor Live-Musik beim Firmenevent.",
+    "lead": "Diese vier Angaben reichen meist, um Besetzung, Spielzeiten und technischen Aufwand sinnvoll einzuordnen.",
     "items": [
       {
         "time": "1",
@@ -187,11 +187,11 @@
       {
         "time": "4",
         "kicker": "Rahmen",
-        "title": "Preis und Buchung ehrlich abstimmen",
+        "title": "Leistungsumfang und Kosten festhalten",
         "text": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, technische Abstimmung, Rechnungsaufwand und Wunschmusik. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Live Musik für Firmenevents in Düsseldorf wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Sind Raum, Programmpunkte, Lautstärke und Technik geklärt, steht der musikalische Rahmen für das Event."
   },
   "elegy": {
     "passages": []

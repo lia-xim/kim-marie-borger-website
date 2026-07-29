@@ -6,14 +6,14 @@
   "targetKeyword": "Ave Maria Beerdigung",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "risk-pass-2026-06-16-review-needed",
+  "status": "manual-indexing-strengthened-2026-07-29",
   "enabled": true,
   "seoTitle": "Ave Maria Beerdigung | Live-Viola für Abschied",
   "seoDescription": "Ave Maria Beerdigung: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
   "hero": {
     "eyebrow": "Ave Maria",
     "title": "Ave Maria, ruhig als Solo-Viola geplant.",
-    "lead": "Ave Maria braucht eine eigene Entscheidung: ruhige Fassung und passende Tonart. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
+    "lead": "Ave Maria kann bei einer Trauerfeier sehr vertraut wirken. Ich prüfe, welche Fassung zur Solo-Viola passt, an welcher Stelle das Stück genug Ruhe bekommt und ob eine vollständige oder gekürzte Version besser trägt.",
     "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
@@ -30,8 +30,8 @@
         "answer": "Ja. Ich prüfe, ob eine vollständige Fassung, ein Ausschnitt oder eine reduzierte Viola-Version besser zur Situation passt."
       },
       {
-        "question": "Was unterscheidet diese Seite von anderen Trauerseiten?",
-        "answer": "Hier geht es gezielt um klassischer Abschied. Andere Seiten behandeln Ortsbezug, Buchung, Repertoire oder einen anderen Moment im Ablauf."
+        "question": "Worauf kommt es bei der Planung besonders an?",
+        "answer": "Ave Maria passt besonders zu einem ruhigen, klassischen Abschiedsrahmen, wenn das Stück für die Familie eine erkennbare Bedeutung hat."
       },
       {
         "question": "Welche Informationen helfen für die Anfrage?",
@@ -39,7 +39,7 @@
       },
       {
         "question": "Für welchen Abschied passt Ave Maria Beerdigung?",
-        "answer": "Ave Maria Beerdigung passt besonders für Familien, die ein bekanntes klassisches Stück für den Abschied suchen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
+        "answer": "Diese musikalische Begleitung passt besonders für Familien, die ein bekanntes klassisches Stück für den Abschied suchen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
@@ -56,18 +56,18 @@
       },
       {
         "question": "Wie wird Ave Maria Beerdigung konkret vorbereitet?",
-        "answer": "Ich kläre Anlass, Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich, ob Ave Maria Beerdigung als einzelner Moment, als Uebergang oder als Teil einer kleinen Abfolge auf Solo-Viola am stärksten wirkt."
+        "answer": "Ich kläre Anlass, Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich, ob Ave Maria Beerdigung als einzelner Moment, als Übergang oder als Teil einer kleinen Abfolge auf Solo-Viola am stärksten wirkt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/_DSC7353.webp",
-      "alt": "Live-Viola für Trauermusik: Ave Maria Beerdigung - Bild 1"
+      "alt": "Kim Marie Borger hält ihre Viola vor einem See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola für Trauermusik: Ave Maria Beerdigung - Bild 2"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.",
@@ -88,8 +88,8 @@
     "seal": "Ave Maria\nAbschied\nLive-Viola",
     "sections": [
       {
-        "title": "Ave Maria Beerdigung braucht eine eigene musikalische Planung.",
-        "lede": "Ave Maria Beerdigung wird hier praktisch eingeordnet: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
+        "title": "Trauermusik bewusst in den Ablauf einfügen.",
+        "lede": "Für die Planung sind drei Fragen wichtig: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
         "paragraphs": [
           "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
           "Ich prüfe, welche Fassung und welcher Ausschnitt zur Solo-Viola, zur Raumakustik und zum Ablauf passt.",
@@ -102,26 +102,26 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Trauermusik: Ave Maria Beerdigung - Bild 2"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false,
         "eyebrow": "Einordnung"
       },
       {
         "title": "Ave Maria Beerdigung im Ablauf sinnvoll einsetzen.",
-        "lede": "Für Ave Maria Beerdigung beginne ich nicht mit einer pauschalen Stückliste, sondern mit der Rolle im Ablauf. Erst wenn klar ist, ob die Musik sammeln, erinnern oder verabschieden soll, wird die Auswahl wirklich passend.",
+        "lede": "Bei der Planung beginne ich nicht mit einer pauschalen Stückliste, sondern mit der Rolle im Ablauf. Erst wenn klar ist, ob die Musik sammeln, erinnern oder verabschieden soll, wird die Auswahl wirklich passend.",
         "paragraphs": [
           "Klassische Musik, moderne Lieder und persönliche Wunschstücke brauchen unterschiedliche Bearbeitungen. Entscheidend ist, dass die Melodie auf der Viola trägt und der Moment nicht überladen wird.",
           "Gerade bei emotionalen Terminen sollte Musik nicht noch eine zusätzliche Aufgabe für die Familie werden. Sie soll einen Moment halten und die Organisation im Hintergrund einfacher machen.",
           "Für eine Anfrage zu Ave Maria Beerdigung reichen zuerst Datum, Ort, Uhrzeit, geplanter Einsatzpunkt und mögliche Wunschmusik. Danach lässt sich klären, ob ein Stück, mehrere Einsätze oder ein sehr kurzer musikalischer Moment sinnvoll sind.",
-          "Der Begriff Ave Maria Beerdigung kann je nach Familie sehr Unterschiedliches meinen. Deshalb kläre ich, ob es um Inspiration, konkrete Buchung, ein bestimmtes Lied, ein Instrument oder eine einzelne Stelle im Ablauf geht.",
+          "Vorab klären wir, welche Ave-Maria-Fassung gemeint ist und ob sie zu Beginn, zwischen Worten, beim Auszug oder am Grab erklingen soll.",
           "Wenn Kirche, Trauerhalle, Beginn, Meditation oder Auszug mit einem anschließenden Gang zum Grab verbunden ist, plane ich die Musik eher als Übergang. Dann zählt weniger das einzelne Stück als die ruhige Führung durch den Moment.",
           "Für die Familie soll der Prozess möglichst leicht bleiben. Ich kann mit einer kurzen Empfehlung starten, danach Stücke konkretisieren und die musikalischen Einsätze mit den beteiligten Personen abstimmen.",
           "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden."
         ],
         "image": {
           "src": "/uploads/_DSC7353.webp",
-          "alt": "Live-Viola für Trauermusik: Ave Maria Beerdigung - Bild 1"
+          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
         },
         "imageFirst": true
       },
@@ -129,32 +129,26 @@
         "title": "Stückauswahl, Raum und Timing klären.",
         "lede": "Wichtig ist, dass Ave Maria Beerdigung nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
         "paragraphs": [
-          "Bei Ave Maria Beerdigung steht Trauerhalle, Kapelle, Auszug, Friedhofsweg, Würde im Vordergrund. Dieser Schwerpunkt führt zu einer anderen Planung als verwandte Anfragen wie Viola Beerdigung.",
-          "Bei Abschieden muss Musik nicht groß werden, um tragend zu sein. Ave Maria Beerdigung wird hier so gedacht, dass Stille, Rede, Erinnerung und ein möglicher Weg zum Grab genug Raum behalten.",
-          "Der Kern von Ave Maria Beerdigung ist Trauerhalle, Kapelle, Auszug, Friedhofsweg, Würde. Deshalb beginne ich nicht mit einer Standardliste, sondern mit der Frage, welcher Moment tatsächlich gelöst werden soll.",
-          "Für die Planung sind zwei bis vier Einsätze, klare Abstimmung, wetterfeste Planung die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll.",
-          "Die klare Abgrenzung zu Viola Beerdigung lautet: keine Konzertwirkung erzwingen. Dadurch behalten Überschrift, Beispiele, Kontaktfragen und FAQ eine eigene Richtung.",
-          "Trauerhalle, Kapelle, Auszug, Friedhofsweg, Würde verändert den Ton der Seite deutlich. Ein Wunschlied, ein Raumwechsel oder ein Lernziel wird anders vorbereitet, wenn dieser Punkt im Mittelpunkt steht.",
-          "Bei der Abstimmung schaue ich besonders auf zwei bis vier Einsätze, klare Abstimmung, wetterfeste Planung. Das verhindert, dass Ave Maria Beerdigung nur wie eine Variante der Hauptleistung klingt."
+          "Ave Maria muss nicht groß inszeniert werden, um zu tragen. Stille, Rede, Erinnerung und ein möglicher Weg zum Grab behalten bewusst ihren Raum.",
+          "Für die Planung sind zwei bis vier Einsätze, klare Abstimmung, wetterfeste Planung die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Trauermusik: Ave Maria Beerdigung - Bild 2"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false
       },
       {
         "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Auch Trauerhalle, Kapelle, Auszug, Friedhofsweg, Würde ist relevant. Je nachdem, ob dieser Aspekt stark oder nur nebenbei gemeint ist, verändert sich die Auswahl von Stücken, Übungen, Pausen oder Kontaktangaben.",
+        "lede": "Entscheidend sind ein ruhiger Ablauf, klare Absprachen und eine Stückauswahl, die zur Person und zum Abschied passt.",
         "paragraphs": [
-          "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
-          "Redaktionell bleibt diese Seite eng bei Ave, Maria, Beerdigung. Andere Seiten dürfen verwandte Begriffe auffangen; hier geht es um die praktische Entscheidung, die hinter genau dieser Suche steht.",
+          "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein einzelnes Abschiedsstück, mehrere ruhige Einsätze, Musik am Grab oder eine Begleitung der gesamten Feier passend ist.",
           "Bei Ave Maria Beerdigung prüfe ich zusätzlich den genauen Einsatz im Ablauf. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle wirklich Raum lässt und nicht gegen Worte oder Stille arbeitet.",
-          "So unterscheidet sich diese Seite von benachbarten Trauermusik-Themen: Ave Maria Beerdigung wird als tragender Mittelteil gedacht. Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung."
+          "Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung."
         ],
         "image": {
           "src": "/uploads/_DSC7353.webp",
-          "alt": "Live-Viola für Trauermusik: Ave Maria Beerdigung - Bild 1"
+          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
         },
         "imageFirst": true
       }
@@ -164,12 +158,12 @@
     "quote": "Ave Maria wirkt am stärksten, wenn die musikalische Aufgabe vorher klar ist.",
     "passages": [
       {
-        "strong": "Suchintention",
+        "strong": "Worauf es ankommt",
         "text": "Wer Ave Maria sucht, meint nicht einfach irgendeine Trauermusik. Im Mittelpunkt stehen klassischer Abschied, die passende Stelle im Ablauf und die Frage, ob Solo-Viola den Moment wirklich tragen kann."
       },
       {
-        "strong": "Abgrenzung",
-        "text": "Diese Seite grenzt sich bewusst von reine Ortsseiten ab. Der Fokus liegt auf würdevoll, aber nicht schwerer als nötig, damit Angehörige schneller entscheiden können, ob genau dieser musikalische Schwerpunkt passt."
+        "strong": "Schwerpunkt",
+        "text": "Der Fokus liegt auf würdevoll, aber nicht schwerer als nötig, damit Angehörige schneller entscheiden können, ob genau dieser musikalische Schwerpunkt passt."
       },
       {
         "strong": "Einsatzpunkt",
@@ -188,7 +182,7 @@
   "solemn": {
     "eyebrow": "Einordnung",
     "title": "Worauf es bei Ave Maria konkret ankommt.",
-    "lead": "Der Schwerpunkt entscheidet über Tempo, Länge und Wirkung. Deshalb wird diese Seite anders formuliert als allgemeine Trauermusik-Seiten.",
+    "lead": "Der Schwerpunkt entscheidet über Tempo, Länge und Wirkung.",
     "cards": [
       {
         "rom": "Rolle",

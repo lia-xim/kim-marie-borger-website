@@ -6,14 +6,14 @@
   "targetKeyword": "Taufmusik Köln",
   "intentCluster": "taufen:local",
   "priority": "P1",
-  "status": "manual-priority-local-seo-2026-06-22",
+  "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Taufmusik Köln | Viola zur Taufe",
   "seoDescription": "Taufmusik Köln: Solo-Viola für Taufe, Segnung und Familienfeier in Köln. Ablauf, Wunschmusik und Preis transparent klären.",
   "hero": {
     "eyebrow": "Taufmusik in Köln",
-    "title": "Taufmusik in Köln: konkret geplant nach Ort und Ablauf.",
-    "lead": "Solo-Viola für Taufe, Segnung, Gottesdienst und Familienfeier in Köln. Geplant wird nach Ort, Ablauf, Raumklang, Wunschmusik, Anfahrt und der Frage, ob Solo-Viola, Gottesdienst und Familienfeier wirklich zusammenpassen.",
+    "title": "Taufmusik in Köln — sanft, persönlich und gut abgestimmt.",
+    "lead": "Solo-Viola für Taufe, Segnung oder Familienfeier. Wir klären früh, welche Stücke möglich sind und wie sich die Musik ruhig in den Gottesdienst einfügt.",
     "badge": "Anfrage kostenlos - Preis nach Rahmen"
   },
   "split": {
@@ -21,11 +21,11 @@
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Taufmusik in Köln: was vor Ort wirklich zählt.",
-        "lede": "In Köln verändert die Lage linksrheinisch oder rechtsrheinisch, in der Innenstadt, in einem Veedel oder weiter draussen schnell den realistischen Zeitplan. Für Taufmusik heißt das: Kirchenraum, Gemeindeablauf, Akustik, Kinderlautstärke und ein möglicher Wechsel zur Familienfeier bestimmen den musikalischen Rahmen. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
+        "title": "Gemeinde, Einsätze und Ortswechsel früh klären.",
+        "lede": "In Köln kann die Familienfeier auf der anderen Rheinseite oder in einem zweiten Raum stattfinden. Für die musikalische Planung kommen deshalb Gemeindeablauf, Weg und die Frage zusammen, ob nur im Gottesdienst oder auch danach gespielt wird.",
         "paragraphs": [
-          "Typische Situationen in Köln können Innenstadt, Altstadt, Ehrenfeld, Nippes, Deutz, Porz oder ein anderes Veedel sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
-          "Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern."
+          "Entscheidend ist, an welchen Stellen die Gemeinde Musik vorsieht, wo ich im Kirchenraum stehen kann und ob nach dem Gottesdienst an einem zweiten Ort weitergespielt wird.",
+          "Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
@@ -38,9 +38,9 @@
         "title": "Gottesdienst und Familienfeier in Köln.",
         "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob die Musik Teil des Gottesdienstes, ein Familienlied oder Begleitung des Empfangs sein soll.",
         "paragraphs": [
-          "Mögliche Einsatzpunkte sind Einzug, Taufhandlung, Segen, Auszug, Empfang und ein ruhiger Familienmoment. Ich plane lieber wenige ruhige Einsätze als einen langen Musikblock, der Gottesdienst, Segnung oder Familienfeier überlaedt.",
+          "Mögliche Einsatzpunkte sind Einzug, Taufhandlung, Segen, Auszug, Empfang und ein ruhiger Familienmoment. Ich plane lieber wenige ruhige Einsätze als einen langen Musikblock, der Gottesdienst, Segnung oder Familienfeier überlädt.",
           "Vorab klären wir, ob vorhandenes Repertoire reicht, ob ein Familienlied vorbereitet werden soll und ob die Einsätze mit Gemeinde, Pfarrer:in, Redner:in, Familie oder Feierort abgestimmt werden müssen.",
-          "Gerade in Köln hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So bleibt die Musik warm und klar eingebunden, ohne dem Anlass ein zu großes Format aufzudrücken."
+          "Liegt die Familienfeier an einem zweiten Ort, plane ich den Weg unabhängig vom Ende des Gottesdienstes. So wartet die Familie nicht auf einen zu knapp kalkulierten Aufbau."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -51,7 +51,7 @@
       {
         "eyebrow": "Taufformat: passend oder nicht?",
         "title": "Wann Solo-Viola zur Taufe in Köln die richtige Wahl ist.",
-        "lede": "Solo-Viola passt, wenn ein weicher, ruhiger Klang den Anlass wärmen soll. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "lede": "Solo-Viola passt zu einer Taufe, wenn die Musik Wärme geben und trotzdem Raum für Worte, Kinder und Gemeinde lassen soll.",
         "paragraphs": [
           "Nicht ideal ist Solo-Viola, wenn sehr laute Unterhaltung, lange Programmblöcke oder spontane Wunschlisten ohne Vorbereitung erwartet werden. Dann ist es fairer, über Gemeindemusik, Gesang, Technik oder ein anderes Format zu sprechen.",
           "Bei Außenbereichen gilt: trockener, schattiger Stand, stabiler Untergrund und eine Innenoption sind für ein Streichinstrument wichtiger als ein besonders schöner Hintergrund.",
@@ -65,7 +65,7 @@
       },
       {
         "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine seriöse Anfrage in Köln brauche.",
+        "title": "Was ich für die Abstimmung wissen muss.",
         "lede": "Eine gute Taufanfrage nennt Datum, genaue Adresse, Kirche oder Feierort, Uhrzeit, Ablauf, gewünschte Stücke und Kontakt zur Gemeinde oder zur Ansprechperson vor Ort. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
           "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Absprache mit Gemeinde oder Redner:in, Wartezeit und Wunschmusik. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
@@ -86,7 +86,7 @@
     "items": [
       {
         "question": "Spielst du Taufmusik in Köln?",
-        "answer": "Ja. Ich begleite Taufe, Segnung, Willkommensfest, Gottesdienst oder anschliessende Familienfeier in Köln mit Solo-Viola, wenn Ort, Ablauf und musikalische Aufgabe passen.",
+        "answer": "Ja. Ich begleite Taufen, Segnungen, Willkommensfeste, Gottesdienste und anschließende Familienfeiern in Köln, wenn Ablauf und Raum zur Solo-Viola passen.",
         "open": true
       },
       {
@@ -107,11 +107,11 @@
       },
       {
         "question": "Wann ist Solo-Viola nicht die richtige Lösung?",
-        "answer": "Nicht ideal ist Solo-Viola, wenn sehr laute Unterhaltung, lange Programmblöcke oder spontane Wunschlisten ohne Vorbereitung erwartet werden. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "answer": "Für sehr laute Unterhaltung, lange Programmblöcke oder eine spontane Wunschliste ist Solo-Viola nicht das richtige Format. Am stärksten wirkt sie an wenigen bewusst gewählten Stellen."
       },
       {
         "question": "Was ist in Köln organisatorisch wichtig?",
-        "answer": "In Köln verändert die Lage linksrheinisch oder rechtsrheinisch, in der Innenstadt, in einem Veedel oder weiter draussen schnell den realistischen Zeitplan. Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
+        "answer": "Wichtig sind Gemeinde, genauer Kirchenraum und die Frage, ob die Familienfeier auf derselben Rheinseite oder an einem zweiten Ort stattfindet. Daraus ergeben sich Einsätze und Zeitpuffer."
       },
       {
         "question": "Was kann zusätzlich kosten?",
@@ -122,22 +122,22 @@
   "imageAlts": [
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Taufmusik in Köln - Planungsbild 1"
+      "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Taufmusik in Köln - Planungsbild 2"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7458.webp",
-      "alt": "Taufmusik in Köln - Planungsbild 3"
+      "alt": "Kim Marie Borger mit Viola und Bogen am See"
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Taufmusik in Köln - Planungsbild 4"
+      "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Kölner Wegelogik mit Gemeinde- und Familienfeierablauf verbunden, Ortslisten entfernt und Taufmusik in natürlicher Entscheidungssprache erklärt.",
   "contact": {
     "eyebrow": "Taufmusik anfragen",
     "title": "Taufmusik in Köln anfragen",
@@ -163,14 +163,14 @@
   },
   "focus": {
     "eyebrow": "Planung in Köln",
-    "title": "Vier Entscheidungen, die Taufmusik in Köln konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
+    "title": "Vier Fragen vor der musikalischen Taufbegleitung.",
+    "lead": "Wenn Gottesdienst, zweiter Spielort und gewünschte Musik feststehen, kann ich Einsätze und Zeitaufwand klar empfehlen.",
     "items": [
       {
         "time": "1",
         "kicker": "Ort",
         "title": "Adresse, Raum und Zugang klären",
-        "text": "Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Das beeinflusst Ankunft, Aufbau, Stimmen, Wartezeit und die Frage, ob ein Ortswechsel sinnvoll ist."
+        "text": "Das beeinflusst Ankunft, Aufbau, Stimmen, Wartezeit und die Frage, ob ein Ortswechsel sinnvoll ist."
       },
       {
         "time": "2",
@@ -187,11 +187,11 @@
       {
         "time": "4",
         "kicker": "Rahmen",
-        "title": "Preis und Buchung ehrlich abstimmen",
+        "title": "Spielumfang und Kosten festhalten",
         "text": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Absprache mit Gemeinde oder Redner:in, Wartezeit und Wunschmusik. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Taufmusik in Köln wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Sind Gemeinde, Einsätze, Wunschstücke und ein möglicher zweiter Spielort geklärt, fügt sich die Musik ruhig in die Feier ein."
   },
   "elegy": {
     "passages": []

@@ -20,14 +20,14 @@
     "seal": "Streichmusik Taufe\nTaufe\nLive-Viola",
     "sections": [
       {
-        "title": "Streichmusik Taufe braucht einen eigenen Schwerpunkt.",
+        "title": "Musik passend zu Ablauf und Feier planen.",
         "lede": "Familien, die den Klang von Streichinstrumenten für die Taufe suchen, meinen oft einen warmen, ruhigen Rahmen für Kirche, Kapelle, freie Segnung, Einzug, Segen oder Auszug. Solo-Viola kann genau diesen Streicherklang geben, ohne dass ein großes Ensemble nötig wird.",
         "paragraphs": [
           "Streichmusik meint Eleganz und Wärme, aber nicht zwingend ein ganzes Ensemble.",
           "Ich spiele Solo-Viola als schlanke, persönliche Form von Streichmusik.",
           "Wichtig ist, ob ein klassischer, moderner oder sehr schlichter Streicherklang gewünscht ist.",
           "Solo-Streichmusik braucht wenig Platz und passt auch in kleine Taufrahmen.",
-          "Bei Streichmusik Taufe geht es zuerst um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
+          "Zuerst geht es um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
           "Wenn mehrere Kinder getauft werden, plane ich die Musik so, dass der Gottesdienst nicht unnötig länger wird.",
           "Nach der Taufhandlung kann ein kurzer musikalischer Moment stärker wirken als ein langes Zusatzprogramm."
         ],
@@ -76,9 +76,8 @@
         "title": "Was für die Anfrage wichtig ist.",
         "lede": "Für eine gute Anfrage helfen konkrete Angaben zu Kind, Familie, Segen, Kirchenraum oder freier Feier. Daraus entsteht kein starres Programm, sondern ein Ablauf, der den Tag ruhig trägt.",
         "paragraphs": [
-          "Bei der Abstimmung schaue ich besonders auf Taufhandlung, Lesung, Segen, Auszug und die Frage, ob nach dem Gottesdienst noch ein Empfang oder eine kleine Familienfeier geplant ist.",
           "Wenn ein Wunschlied wichtig ist, prüfe ich, ob Melodie, Tonart und Länge auf Solo-Viola tragen. Manchmal wirkt ein kurzer Ausschnitt an der richtigen Stelle stärker als eine vollständige Version.",
-          "Eine gute Anfrage nennt Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich schnell unterscheiden, ob ein kurzer Akzent, ein längerer Bogen, ein Technikfokus oder eine bewusst dezente Begleitung passend ist.",
+          "Eine gute Anfrage nennt Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich schnell unterscheiden, ob einzelne Stücke im Gottesdienst, Musik zur Taufhandlung, der Auszug oder der anschließende Empfang passend ist.",
           "Hilfreich ist außerdem, ob eine Pfarrperson, Rednerin oder Kirchenmusikerin eingebunden ist. Dann können Einsätze, Erlaubnis und Übergänge vorab ruhig geklärt werden."
         ],
         "image": {
@@ -94,8 +93,8 @@
     "title": "FAQ zu Streichmusik Taufe",
     "items": [
       {
-        "question": "Für wen passt Streichmusik Taufe?",
-        "answer": "Streichmusik Taufe passt für Familien, die den Klang von Streichinstrumenten für die Taufe suchen. Entscheidend ist, dass die Musik zum Raum, zur Familie und zum Ablauf passt.",
+        "question": "Für wen passt diese musikalische Begleitung?",
+        "answer": "Diese musikalische Begleitung passt für Familien, die den Klang von Streichinstrumenten für die Taufe suchen. Entscheidend ist, dass die Musik zum Raum, zur Familie und zum Ablauf passt.",
         "open": true
       },
       {
@@ -120,11 +119,11 @@
       },
       {
         "question": "Wann passt Streichmusik Taufe besonders gut?",
-        "answer": "Streichmusik Taufe passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
+        "answer": "Diese musikalische Begleitung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
       },
       {
         "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich klären, ob ein kurzer Akzent, ein festlicher Rahmen, eine dezente Begleitung oder ein längerer musikalischer Bogen passend ist."
+        "answer": "Für eine schnelle Einordnung helfen Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich klären, ob einzelne Stücke im Gottesdienst, Musik zur Taufhandlung, der Auszug oder der anschließende Empfang passend ist."
       }
     ]
   },
@@ -158,12 +157,12 @@
   },
   "focus": {
     "eyebrow": "Planung",
-    "title": "Worauf es bei Streichmusik Taufe ankommt.",
+    "title": "Worauf es bei Taufmusik ankommt.",
     "lead": "Die Musik wird nicht als Programmpunkt gedacht, sondern als ruhiger Faden durch Taufe, Segnung oder Familienmoment.",
     "items": [
       {
         "time": "I.",
-        "kicker": "Intent",
+        "kicker": "Worauf es ankommt",
         "title": "Die Aufgabe der Musik klären",
         "text": "Streichmusik meint Eleganz und Wärme, aber nicht zwingend ein ganzes Ensemble. Daraus ergibt sich, ob ein einzelnes Stück, mehrere Einsätze oder ein kurzer Rahmen sinnvoll ist."
       },
@@ -180,7 +179,7 @@
         "text": "Ich spiele Solo-Viola als schlanke, persönliche Form von Streichmusik. Die Auswahl bleibt kindgerecht, warm und nicht zu groß."
       }
     ],
-    "footnote": "Streichmusik Taufe wird passend zu Anlass, Raum, Familie und Ablauf geplant."
+    "footnote": "Die Musik wird passend zu Feierform, Raum, Familie und Ablauf geplant."
   },
   "elegy": {
     "passages": []

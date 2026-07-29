@@ -342,7 +342,7 @@ function priorityFor(row, decision, fit) {
 	return 'P3';
 }
 
-function noteFor(row, cluster, topic, decision, place, fit) {
+function noteFor(cluster, topic, decision, place, fit) {
 	if (fit.seoAction === 'exclude' || fit.seoAction === 'support-only') return fit.note;
 	if (decision === 'requires-offer-confirmation') {
 		return 'Nur optimieren, wenn Geige/Violine wirklich angeboten wird; sonst Suchversprechen nicht sauber.';
@@ -434,7 +434,7 @@ const opportunities = rawRows.map((row) => {
 		place_slug: place?.slug ?? '',
 		cannibalization_group: `${cluster}:${canonicalIntent}`,
 		serp_intent_note: fit.note,
-		reason: noteFor(row, cluster, canonicalIntent, decision, place, fit),
+		reason: noteFor(cluster, canonicalIntent, decision, place, fit),
 	};
 });
 

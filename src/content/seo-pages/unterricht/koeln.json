@@ -6,14 +6,14 @@
   "targetKeyword": "Geigenunterricht Köln",
   "intentCluster": "unterricht:local",
   "priority": "P1",
-  "status": "geige-expansion-2026-06-23-review-needed",
+  "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Geigenunterricht Köln | Geige lernen",
   "seoDescription": "Geigenunterricht Köln: Geigen- und Bratschenunterricht für Kinder und Erwachsene in Köln. Probestunde, Ziele und Unterrichtsrhythmus transparent klären.",
   "hero": {
     "eyebrow": "Geigenunterricht in Köln",
-    "title": "Geigenunterricht in Köln: ruhig aufgebaut nach Ort und Lernziel.",
-    "lead": "Geigen- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg in Köln. Geplant wird nach Ort, Lernziel, Instrument, Übezeit, Anfahrt und der Frage, ob Unterrichtsort, Weg, Instrument und Wochenrhythmus wirklich passen.",
+    "title": "Geigenunterricht in Köln für Kinder, Erwachsene und Wiedereinstieg.",
+    "lead": "Geige oder Bratsche lernen mit klaren, machbaren Übeaufgaben. Die kostenlose Probestunde zeigt, ob Lernziel, Unterrichtsweg und Wochenrhythmus zusammenpassen.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
@@ -21,11 +21,10 @@
     "sections": [
       {
         "eyebrow": "Lokaler Rahmen",
-        "title": "Geigenunterricht in Köln: was vor Ort wirklich zählt.",
-        "lede": "Für Unterricht in Köln ist entscheidend, ob der Weg regelmäßig machbar bleibt - besonders, wenn die Rheinseite gewechselt wird oder die Stunde nach Schule oder Arbeit liegen soll. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
+        "title": "Regelmäßigkeit beginnt mit einem machbaren Weg.",
+        "lede": "In Köln sollte ein Unterrichtstermin auch bei Berufsverkehr und im normalen Schul- oder Arbeitsalltag erreichbar bleiben. Ob links- oder rechtsrheinisch, klären wir deshalb zusammen mit Uhrzeit und Rhythmus.",
         "paragraphs": [
-          "Typische Situationen in Köln können Innenstadt, Altstadt, Ehrenfeld, Nippes, Deutz, Porz oder ein anderes Veedel sein. Entscheidend ist, ob Gäste sitzen oder stehen, wie laut gesprochen wird, wo die Viola aufgebaut werden kann und wer vor Ort das Startsignal gibt.",
-          "Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Ohne diese Punkte bleibt ein Angebot ungenau, weil Anfahrt, Aufbau, Wartezeit und mögliche Ortswechsel den Aufwand verändern."
+          "Vor der Probestunde klären wir Lernstand, Instrument, Ziel, möglichen Unterrichtsort und einen Rhythmus, der im Alltag in Köln regelmäßig funktioniert."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -40,7 +39,7 @@
         "paragraphs": [
           "Mögliche Einsatzpunkte sind Probestunde, Lernstandscheck, Technikaufbau, Übeplan und regelmäßiger Rhythmus. Ich plane lieber einen tragfähigen Wochenrhythmus mit klaren Übezielen als eine Probestunde, nach der der Alltag den Unterricht sofort ausbremst.",
           "Vorab klären wir, ob Instrument, Noten, Wunschstücke, Lernstand, Probestunde und Übezeit realistisch zusammenpassen.",
-          "Gerade in Köln hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So wird Unterricht regelmäßig machbar, statt nur als einmaliger guter Vorsatz zu starten."
+          "Ein regelmäßiger Termin sollte auch bei Kölner Berufsverkehr erreichbar bleiben. In der Probestunde prüfen wir deshalb nicht nur den Lernstand, sondern auch den tatsächlichen Wochenweg."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
@@ -51,7 +50,7 @@
       {
         "eyebrow": "Unterricht: passend oder nicht?",
         "title": "Wann Geigenunterricht in Köln die richtige Wahl ist.",
-        "lede": "Geigenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "lede": "Der Unterricht passt, wenn du regelmäßig lernen, verständliche Rückmeldung bekommen und zu Hause mit wenigen klaren Aufgaben weiterarbeiten möchtest.",
         "paragraphs": [
           "Nicht ideal ist Geigenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann ist es ehrlicher, zuerst Ziel, Format, Material oder einen späteren Start zu klären.",
           "Wenn ein Unterrichtsort vorgeschlagen wird, prüfe ich lieber früh, ob Raum, Lautstärke, Notenständer, Sitzmöglichkeit und Wiederholbarkeit des Weges passen.",
@@ -65,12 +64,12 @@
       },
       {
         "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine seriöse Anfrage in Köln brauche.",
+        "title": "Was ich vor der Probestunde wissen möchte.",
         "lede": "Eine gute Unterrichtsanfrage nennt Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
         "paragraphs": [
           "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
           "Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Wunschstück keine brauchbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
-          "Zusätzlich kosten können längere Wartezeiten, kurzfristige Verlängerungen, ein zweiter Spielort, besondere Technik oder sehr kurzfristige Neunotation. Es gibt kein kostenloses Vorspielen vor Ort; die musikalische Passung klären wir transparent in der Anfrage."
+          "Zusätzlicher Aufwand kann durch neu zu erstellende Noten oder besonderes Unterrichtsmaterial entstehen. Das bespreche ich vorab; der reguläre Unterricht wird transparent nach Dauer, Rhythmus und Ort vereinbart."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
@@ -107,11 +106,11 @@
       },
       {
         "question": "Wann ist Geigenunterricht nicht die richtige Lösung?",
-        "answer": "Nicht ideal ist Geigenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "answer": "Ohne Zeit zum Üben kann Unterricht wenig verändern. Wenn du dagegen Musik für einen einzelnen Anlass suchst, ist eine Auftrittsanfrage passender als regelmäßiger Geigenunterricht."
       },
       {
         "question": "Was ist in Köln organisatorisch wichtig?",
-        "answer": "In Köln verändert die Lage linksrheinisch oder rechtsrheinisch, in der Innenstadt, in einem Veedel oder weiter draussen schnell den realistischen Zeitplan. Adresse, Stadtteil, Rheinseite, Ladepunkt, Einlass und Kontaktperson sollten früh geklärt werden, weil Ortswechsel schnell mehr Puffer brauchen. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
+        "answer": "Für regelmäßigen Unterricht in Köln sollten Unterrichtsort, Weg, Schul- oder Arbeitszeiten und realistische Übezeit zusammenpassen. Das klären wir in der Probestunde."
       },
       {
         "question": "Was kostet nach der Probestunde extra?",
@@ -122,22 +121,22 @@
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Geigenunterricht in Köln - Planungsbild 1"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Geigenunterricht in Köln - Planungsbild 2"
+      "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Geigenunterricht in Köln - Planungsbild 3"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Geigenunterricht in Köln - Planungsbild 4"
+      "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Kölner Unterrichtsseite nach Rheinseite, Uhrzeit und tatsächlicher Wochenroutine konkretisiert; generische Orts- und Verkaufssprache entfernt.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
     "title": "Geigenunterricht in Köln anfragen",
@@ -153,9 +152,9 @@
     "sourceLabel": "Geigenunterricht Köln",
     "notes": [
       "Probestunde kostenlos und unverbindlich",
-      "Kein kostenloses Vorspielen vor Ort",
+      "Unterrichtsort, Rhythmus und möglicher Materialaufwand werden vorab geklärt",
       "Vorhandenes Repertoire ohne Aufpreis; neue Notation oder Heraushören nach Aufwand, Orientierung ca. 30 Euro pro Song",
-      "Zusatzaufwand wie Wartezeit, Ortswechsel, Technik, Verlängerung oder sehr kurzfristige Vorbereitung wird vor der Buchung geklärt"
+      "Neue Notation oder besonderes Unterrichtsmaterial wird nur nach vorheriger Absprache berechnet"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Köln klären",
@@ -163,8 +162,8 @@
   },
   "focus": {
     "eyebrow": "Planung in Köln",
-    "title": "Vier Entscheidungen, die Geigenunterricht in Köln konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
+    "title": "Vier Fragen vor dem regelmäßigen Unterricht.",
+    "lead": "Aus Lernziel, Instrument, Weg und verfügbarer Übezeit ergibt sich ein Rhythmus, der nicht schon am Alltag scheitert.",
     "items": [
       {
         "time": "1",
@@ -187,11 +186,11 @@
       {
         "time": "4",
         "kicker": "Rahmen",
-        "title": "Preis und Buchung ehrlich abstimmen",
+        "title": "Rhythmus und Kosten vereinbaren",
         "text": "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
       }
     ],
-    "footnote": "Geigenunterricht in Köln wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Nach der Probestunde sollten Unterrichtsort, Terminrhythmus, Übeziel und Kosten für beide Seiten klar sein."
   },
   "elegy": {
     "passages": []

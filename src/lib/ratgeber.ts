@@ -44,11 +44,11 @@ export const RATGEBER_BASE_PATH = '/ratgeber/';
 export const RATGEBER_PAGES: RatgeberPage[] = [
 	{
 		slug: 'musik-zur-trauung',
-		title: 'Musik zur Trauung planen',
-		shortTitle: 'Musik zur Trauung',
-		seoTitle: 'Musik zur Trauung planen | Ablauf, Stücke & Live-Viola',
+		title: 'Ablaufplan für Musik zur Trauung',
+		shortTitle: 'Ablaufplan Trauungsmusik',
+		seoTitle: 'Ablaufplan Trauungsmusik | Einzug bis Auszug',
 		seoDescription:
-			'Ratgeber zur Musik bei der Trauung: Einzug, Ringtausch, Ja-Wort, Unterschrift und Auszug sinnvoll mit Live-Viola planen.',
+			'Checkliste für Trauungsmusik: Einzug, Ringtausch, Ja-Wort, Unterschrift und Auszug in eine stimmige Reihenfolge bringen.',
 		intent: 'Paare suchen Orientierung, welche Musik an welcher Stelle der Trauung sinnvoll ist.',
 		cluster: 'Hochzeit',
 		serviceSlug: 'hochzeiten',
@@ -114,11 +114,11 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 	},
 	{
 		slug: 'musik-im-standesamt',
-		title: 'Musik im Standesamt',
-		shortTitle: 'Musik im Standesamt',
-		seoTitle: 'Musik im Standesamt | Live-Musik zur Trauung planen',
+		title: 'Checkliste für Live-Musik im Standesamt',
+		shortTitle: 'Checkliste Standesamt',
+		seoTitle: 'Live-Musik im Standesamt | Checkliste für den Ablauf',
 		seoDescription:
-			'Was bei Musik im Standesamt wichtig ist: kurze Abläufe, passende Stücke, Abstimmung mit dem Standesamt und Live-Viola ohne großen Aufbau.',
+			'Checkliste für Live-Musik im Standesamt: Erlaubnis, Zeitfenster, Stückzahl, Raum und Ablauf vor der Trauung klären.',
 		intent: 'Paare möchten wissen, ob und wie Live-Musik im Standesamt organisatorisch funktioniert.',
 		cluster: 'Hochzeit',
 		serviceSlug: 'hochzeiten',
@@ -254,11 +254,11 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 	},
 	{
 		slug: 'trauermusik-repertoire',
-		title: 'Trauermusik-Repertoire auswählen',
-		shortTitle: 'Trauermusik Repertoire',
-		seoTitle: 'Trauermusik Repertoire | Stücke für Beerdigung',
+		title: 'Trauermusik auswählen: eine ruhige Entscheidungshilfe',
+		shortTitle: 'Trauermusik auswählen',
+		seoTitle: 'Trauermusik auswählen | Wirkung, Ablauf & Stücke',
 		seoDescription:
-			'Orientierung für Trauermusik-Repertoire: klassische Stücke, Ave Maria, Amazing Grace, Lieblingslieder und ruhige Instrumentalmusik.',
+			'Entscheidungshilfe für Trauermusik: Stücke nach Person, Wirkung und Einsatzpunkt auswählen – von Klassik bis Lieblingslied.',
 		intent: 'Angehörige suchen passende Stücke für Beerdigung, Trauerfeier oder Abschied.',
 		cluster: 'Trauerfeier',
 		serviceSlug: 'beerdigungen',
@@ -324,11 +324,11 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 	},
 	{
 		slug: 'musik-zur-trauerfeier',
-		title: 'Musik zur Trauerfeier planen',
-		shortTitle: 'Musik zur Trauerfeier',
-		seoTitle: 'Musik zur Trauerfeier | Ablauf & Stückauswahl',
+		title: 'Ablaufcheck für Musik bei der Trauerfeier',
+		shortTitle: 'Ablaufcheck Trauerfeier',
+		seoTitle: 'Musik bei der Trauerfeier | Ablaufcheck & Abstimmung',
 		seoDescription:
-			'Ratgeber zur Musik bei der Trauerfeier: Ablauf, Stückauswahl, Abstimmung mit Bestattungshaus, Kirche oder Trauerredner:in.',
+			'Ablaufcheck für Musik bei der Trauerfeier: Einsatzpunkte und Abstimmung mit Bestattungshaus, Kirche oder Trauerredner:in klären.',
 		intent: 'Angehörige möchten wissen, wie Musik in den Ablauf einer Trauerfeier eingebunden wird.',
 		cluster: 'Trauerfeier',
 		serviceSlug: 'beerdigungen',
@@ -394,11 +394,11 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 	},
 	{
 		slug: 'bratschenunterricht-erwachsene',
-		title: 'Geigen- und Bratschenunterricht für Erwachsene',
+		title: 'Geige oder Bratsche als Erwachsene:r lernen?',
 		shortTitle: 'Geige oder Bratsche lernen',
-		seoTitle: 'Geigenunterricht für Erwachsene | Geige & Bratsche lernen',
+		seoTitle: 'Geige oder Bratsche lernen? Entscheidungshilfe für Erwachsene',
 		seoDescription:
-			'Geige oder Bratsche lernen als Erwachsene:r: Einstieg, Üben, Instrument, Unterrichtsrhythmus und realistische Ziele im Unterricht.',
+			'Entscheidungshilfe für Erwachsene: Geige oder Bratsche wählen, Einstieg planen, Übezeit einschätzen und realistische Ziele setzen.',
 		intent: 'Erwachsene überlegen, ob sie Geige oder Bratsche lernen können und wie der Einstieg realistisch gelingt.',
 		cluster: 'Unterricht',
 		serviceSlug: 'unterricht',

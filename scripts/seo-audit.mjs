@@ -60,6 +60,28 @@ const CORE_SERVICE_SLUGS = new Set([
 	'firmenfeiern',
 	'unterricht',
 ]);
+const PUBLIC_OPERATOR_PATTERNS = [
+	[/\b(?:redaktionell|Suchintention|Suchbegriff|Suchintent|Keyword|Cluster|Abgrenzung)\b/i, 'visible SEO/editorial operator language'],
+	[/\b(?:Der Planungsfrage|ein eigener Planungsfrage)\b/i, 'visible replacement artifact'],
+	[/\bfür SEO\b/i, 'visible copy addresses SEO instead of the customer'],
+	[/\b(?:Diese Seiten?|So bleibt die Seite|Andere Seiten)\b/i, 'visible copy talks about the page system'],
+	[/kurzer Akzent, ein längerer Bogen, ein Technikfokus/i, 'visible stretched-template phrase'],
+	[/\bbraucht (?:eine eigene Entscheidung|einen eigenen Schwerpunkt|eine eigene musikalische Planung)\b/i, 'visible generator-style differentiation phrase'],
+	[/\b(?:Variante der Hauptleistung|verwandte Anfragen wie|allgemeine Musikfloskel)\b/i, 'visible generator-style comparison phrase'],
+	[/\bTypische Orte und Routen liegen zum Beispiel\b/i, 'visible decorative locality template'],
+	[/\bDie lokalen Marker\b/i, 'visible locality-generator language'],
+	[/\bNicht der Ortsname macht sie relevant\b/i, 'visible editorial locality explanation'],
+	[/\bsteht hier für konkrete Orte und Wege zwischen\b/i, 'visible location-template framing'],
+	[/\bWenn Zeremonie, Fotos und Empfang an zwei Orten\b/i, 'visible cross-service event template'],
+	[/\banschliessende\b/i, 'visible German orthography error'],
+	[/\b(?:suchen Musik für|nicht wirkt hier als|wird hier praktisch eingeordnet)\b/i, 'visible generated grammar artifact'],
+	[/\b(?:Als fachlichen Zusatz kläre ich|Hier geht es gezielt um)\b/i, 'visible generated filler phrase'],
+	[/\b(?:Einsch\?tzung|Traürfeier|Traürmusik)\b/i, 'visible encoding artifact'],
+	[/\bAnfäNger\b/, 'visible casing artifact'],
+	[/\b(?:Fuer|Koerper\p{L}*|Uebe\p{L}*|Stueck\p{L}*|Uebergang|frueh|wuenscht|beruehrt)\b/iu, 'visible ASCII umlaut transcription'],
+];
+const TEACHING_EVENT_COPY =
+	/\b(?:private Feiern|Unternehmensumfeld|Einlass|Ladepunkt|Wartezeit|Ortswechsel|Spielort|Vorspielen vor Ort|besondere Technik|Aufbauplatz)\b/i;
 const LOCAL_BUSINESS_TYPES = new Set(['LocalBusiness', 'ProfessionalService']);
 const PHYSICAL_LOCATION_FIELDS = ['address', 'geo', 'openingHours', 'openingHoursSpecification'];
 
@@ -238,6 +260,7 @@ for (const file of htmlFiles) {
 for (const file of htmlFiles.sort()) {
 	const page = routeFromHtmlFile(output.root, file);
 	const html = readFileSync(file, 'utf8');
+	const visibleText = stripHtml(html);
 	const is404 = page === '/404';
 	const title = stripHtml(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] ?? '');
 	const description = attr(html.match(/<meta\s+name=["']description["'][^>]*>/i)?.[0] ?? '', 'content') ?? '';
@@ -277,6 +300,15 @@ for (const file of htmlFiles.sort()) {
 	if (is404 && !/noindex/i.test(robots)) issues.push(['error', page, '404 page is missing noindex']);
 	if (!is404 && /noindex/i.test(robots)) issues.push(['error', page, 'indexable page has noindex robots meta']);
 	if (!is404 && h1s.length !== 1) issues.push(['error', page, `expected exactly one h1, found ${h1s.length}`]);
+
+	if (!is404) {
+		for (const [pattern, message] of PUBLIC_OPERATOR_PATTERNS) {
+			if (pattern.test(visibleText)) issues.push(['error', page, message]);
+		}
+	}
+	if (/^\/unterricht\/[^/]+\/$/.test(page) && TEACHING_EVENT_COPY.test(visibleText)) {
+		issues.push(['error', page, 'teaching page contains event-only planning language']);
+	}
 
 	for (const tag of imageTags) {
 		const hasAlt = attr(tag, 'alt') !== undefined;
@@ -323,7 +355,7 @@ for (const file of htmlFiles.sort()) {
 		}
 	}
 
-	if (/\[(?:VORNAME|NACHNAME|MONAT|JAHR|OPTIONAL|HINWEIS)\b|Platzhalter|echtes Gästezitat folgt/i.test(stripHtml(html))) {
+	if (/\[(?:VORNAME|NACHNAME|MONAT|JAHR|OPTIONAL|HINWEIS)\b|Platzhalter|echtes Gästezitat folgt/i.test(visibleText)) {
 		issues.push(['warn', page, 'visible placeholder text remains']);
 	}
 }
