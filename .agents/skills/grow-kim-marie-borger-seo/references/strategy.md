@@ -63,8 +63,9 @@ Non-goals:
 | Current GSC index snapshot | 466 indexed URLs in total; 431/487 SEO detail pages indexed, including 307/343 local and 124/144 topic pages | The SEO estate is largely indexed. Indexation alone does not prove differentiation, but it makes blanket pruning or migration unjustified. |
 | Current GSC non-indexed snapshot | 56 SEO detail pages: 50 discovered/not indexed and 6 crawled/not indexed; `/agb/` is a seventh crawled/non-indexed non-SEO URL | Prioritize the six crawled URLs and the three non-indexed P1 local URLs; do not treat all non-indexed states as the same problem. |
 | Priority inventory | 23 P1, 232 P2, 232 P3 | The current estate is not concentrated on a small high-value set. |
-| Editorial status | 23 P1 documents and 25 unique indexing/intent-cohort documents have current manual decisions; 361 documents still carry `review-needed`, while 78 carry an older `manual-priority-local` status without the current measurement contract | Technical QA and older batch status must not be reported as current editorial approval. |
-| Fresh similarity trackers | 487 detail rows and 343 local rows; strict tracker flags 82 High-Risk details, consisting of 72 non-P1 local pages and 10 teaching topic pages. The local tracker rates the 21 P1 local pages as 18 low and 3 medium, none high | The priority cohort is materially differentiated; the remaining scaled estate still needs evidence-led cohort work. |
+| Editorial status | 23 P1 documents, 25 unique indexing/intent-cohort documents, and 10 teaching topic documents have current manual decisions; 329 documents still carry `review-needed`, while 28 carry an older `manual-priority-local` status without the current measurement contract | Technical QA and older batch status must not be reported as current editorial approval. |
+| Local evidence hold | 72 strict High-Risk local details are classified as `manual-local-hold-for-evidence-2026-07-29` | This is an explicit retention-and-measurement decision, not editorial approval or proof of unique local value. |
+| Fresh similarity trackers | 487 detail rows and 343 local rows; the strict tracker flags 72 High-Risk details, all in the local evidence-hold cohort. The 10 previously High-Risk teaching topics are no longer strict High Risk after manual intent differentiation. The broader local tracker still reports 155 high, 130 medium, and 58 low; the 21 P1 local pages remain 18 low and 3 medium | The priority and teaching cohorts are materially differentiated, while the remaining scaled local estate still needs evidence-led cohort work. |
 | Visible copy remediation | Public operator/generator language and known grammar, encoding, casing, and ASCII-umlaut artifacts were removed from affected SEO documents and hubs; deterministic cleanup reports zero pending files and rendered lint reports zero errors and warnings | The remediated content is released; broad editorial usefulness still requires cohort review. |
 | Production release | Full HTTP QA passed on `dpl_3RkDDwWimddeB9TBDXBcokzFmfRF`; the current commit-bound `main` deployment is Ready and aliased to the apex and `www` domains | The committed 2026-07-29 SEO batch is public. |
 | Full live SEO-page QA | 487/487 public SEO routes, 487/487 Tina island endpoints, and 487/487 primary form payloads passed against `https://kim-marie-borger.com` | Live route, CMS, and attribution plumbing match the tested release. |
@@ -148,7 +149,7 @@ See `seo-knowledge.md` for adoption and rejection rules.
 
 ## 4. Current blockers and gaps
 
-### P0: Public copy cleanup pending release and live verification
+### Completed P0: Public copy cleanup; broad usefulness review continues
 
 The largest immediate quality problem is not missing metadata. It is copy that talks about the page-generation process instead of the customer's decision.
 
@@ -175,7 +176,7 @@ Decision and current status:
 - Freeze net-new SEO URL creation.
 - The 2026-07-29 worktree removes known public operator phrases across the affected inventory, replaces subject-matter mistakes on teaching pages, and normalizes known grammar, encoding, casing, and ASCII-umlaut artifacts.
 - Rendered content-quality lint now rejects the known phrase and encoding families so the failure cannot silently return.
-- Do not describe this as live-fixed until it is released and verified on production.
+- The original cleanup was released and verified on production. The later teaching-intent batch is locally build- and audit-verified but remains pending release.
 - Continue manual usefulness and voice review by commercial priority; absence of banned phrases is not editorial approval.
 
 ### P0: Query and conversion baseline is still incomplete
@@ -227,6 +228,7 @@ Decision:
 - Preserve the current local estate by default because 307/343 local pages are indexed and local search has generated qualified inquiries.
 - Strengthen high-value and non-indexed local pages with real decision details.
 - Merge or noindex a local page only when current queries, service fit, links, and inquiry evidence justify it; do not apply a blanket geographic reduction.
+- Keep the 72 strict High-Risk local URLs in the documented evidence-hold cohort until query, inquiry, confirmed service-area, or real local-proof evidence supports the next action. Do not rewrite them merely to lower a similarity score.
 
 ### P1: Topic overlap and cannibalization risk
 
@@ -241,6 +243,7 @@ Decision:
 - Preserve narrow pages only when the SERP/user decision is genuinely distinct.
 - Keep Ratgeber informational questions separate from commercial detail intent.
 - Keep self-canonicals while a page has a distinct search role. For an equivalent synonym family, merge useful content into one winner, then use a 301 and update sitemap/internal links; do not use cross-canonicals to keep several synonym pages ranking.
+- The 10 previously strict High-Risk teaching topics now answer separate user jobs for regular lessons, beginners, children, adults, and broader musical understanding. Keep measuring them as a cohort; manual differentiation does not rule out a later evidence-led merge.
 
 ### P1: Owned-site video and case studies are missing
 

@@ -6,42 +6,42 @@
   "targetKeyword": "Geigenunterricht für Erwachsene",
   "intentCluster": "unterricht:geigenunterricht-erwachsene",
   "priority": "P2",
-  "status": "geige-expansion-2026-06-23-review-needed",
+  "status": "manual-intent-differentiated-2026-07-29",
   "enabled": true,
   "seoTitle": "Geigenunterricht Erwachsene | Geige lernen",
   "seoDescription": "Geigenunterricht für Erwachsene: Unterricht für Geige, Bratsche oder Viola mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
   "hero": {
     "eyebrow": "Geigenunterricht Erwachsene",
-    "title": "Geigenunterricht Erwachsene: ruhig aufgebaut, persönlich begleitet.",
-    "lead": "Geigenunterricht für Erwachsene mit klarem Fundament: Haltung, Bogenführung, Intonation, Übestruktur und Stücke, die wirklich motivieren.",
+    "title": "Geigenunterricht für Erwachsene – neu anfangen oder wieder einsteigen.",
+    "lead": "Erwachsene bringen Neugier, Erwartungen und einen vollen Alltag mit. Der Unterricht verbindet diese Voraussetzungen mit einem Lernweg, der weder kindlich erklärt noch künstlich beschleunigt wird.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Erwachsene\nKlang & Technik\npersönlich",
+    "seal": "Erwachsene\nneu oder wieder\nmit eigenem Ziel",
     "sections": [
       {
-        "title": "Geigenunterricht für Erwachsene darf anders anfangen.",
-        "lede": "Erwachsene bringen Fragen mit, die im normalen Anfängertext oft fehlen: wenig Zeit, hohe Ansprüche, alte Bewegungsmuster oder der Wunsch, endlich ein Streichinstrument zu verstehen.",
+        "eyebrow": "Neustart oder Rückkehr",
+        "title": "Vorerfahrung zählt, bestimmt aber nicht alles.",
+        "lede": "Manche Erwachsene halten zum ersten Mal eine Geige. Andere erinnern sich an Unterricht aus der Schulzeit, aber nicht mehr an jede Bewegung.",
         "paragraphs": [
-          "Bei Erwachsenen schaue ich zuerst auf Alltag und Ziel: Wie viel Übezeit ist realistisch, was soll musikalisch möglich werden, und welche körperlichen Gewohnheiten helfen oder stören?",
-          "Ein später Einstieg ist kein Nachteil, wenn der Unterricht klar strukturiert ist. Erwachsene verstehen Zusammenhänge oft schnell; die Kunst liegt darin, Technik nicht zu verkopfen.",
-          "Wir arbeiten mit kleinen, überprüfbaren Aufgaben: Bogenkontakt, entspannte linke Hand, saubere Wechsel, sicherer Rhythmus und Stücke, die motivieren, ohne zu überfordern.",
-          "Wiedereinsteiger:innen brauchen eine andere Route als komplette Anfänger:innen. Alte Fähigkeiten werden geprüft, aber nicht romantisiert; was noch trägt, bleibt, was Spannung erzeugt, wird neu sortiert."
+          "Beim Wiedereinstieg prüfen wir, was der Körper noch kennt und welche alten Gewohnheiten heute eher bremsen. Niemand muss an genau der Stelle weitermachen, an der früher aufgehört wurde.",
+          "Wer neu beginnt, erhält erwachsenengerechte Erklärungen und darf technische Zusammenhänge verstehen. Trotzdem bleibt Hören wichtiger als ein theoretischer Vortrag.",
+          "Das erste Ziel entsteht aus deiner Motivation: ein bestimmtes Stück, gemeinsames Musizieren, ein freierer Klang oder einfach die Freude an einem neuen Instrument."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
-        "imageFirst": false,
-        "eyebrow": "Unterricht mit klarem Fokus"
+        "imageFirst": false
       },
       {
-        "title": "Geigenunterricht Erwachsene im Ablauf sinnvoll einsetzen.",
-        "lede": "Entscheidend sind Lernstand, Instrument, Ziel, Unterrichtsort, Wochenrhythmus und realistische Übezeit.",
+        "eyebrow": "Körper und Klang",
+        "title": "Nicht gegen das Instrument arbeiten.",
+        "lede": "Erwachsene versuchen häufig, neue Bewegungen besonders kontrolliert auszuführen. Zu viel Kontrolle kann Schultern, Hände und Bogen jedoch fest machen.",
         "paragraphs": [
-          "Für die Anfrage helfen Vorerfahrung, Wunschrepertoire, vorhandenes Instrument, Zeitfenster, Übemöglichkeit und die Frage, ob du eher neu anfängst oder zurückkehrst.",
-          "Für erwachsene Lernende ist die erste Frage selten nur technisch. Wichtig sind Zeitfenster, Körpergefühl, Vorerfahrung und die Frage, welche Musik wirklich motiviert. Daraus entsteht ein Übeplan, der auch neben Beruf, Familie oder unregelmäßigen Wochen funktioniert.",
-          "Ich arbeite im Erwachsenenunterricht mit kleinen, nachvollziehbaren Schritten: Klang hören, Bewegung spüren, Ursache verstehen und erst dann die nächste Aufgabe ergänzen. So bleibt Geige lernen konkret und wird nicht zu einer Sammlung abstrakter Korrekturen."
+          "Wir suchen eine Haltung, die zum eigenen Körper passt, und unterscheiden notwendige Stabilität von unnötiger Spannung.",
+          "Der Ton wird nicht durch Kraft „schön gemacht“. Kontaktstelle, Bogenweg und Bewegungsfreiheit lassen sich gezielt hören und verändern.",
+          "Bei Beschwerden ersetzt Unterricht keine medizinische Behandlung. Bewegungen können aber so angepasst werden, dass Warnsignale früh ernst genommen werden."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
@@ -50,51 +50,61 @@
         "imageFirst": true
       },
       {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Im nächsten Schritt geht es bei Erwachsenen oft um Selbstkorrektur: Wie erkenne ich, ob der Bogen wirklich ruhig läuft, ob die linke Hand greift statt drückt und ob eine Übung gerade hilft oder nur Wiederholung erzeugt? Diese Fragen werden im Unterricht bewusst mitgeübt.",
+        "eyebrow": "Ein voller Kalender",
+        "title": "Üben muss in eine echte Woche passen.",
+        "lede": "Ein Plan ist nur hilfreich, wenn er neben Arbeit, Familie und anderen Verpflichtungen wiederholbar bleibt.",
         "paragraphs": [
-          "Gerade für Erwachsene ist auch der Umgang mit Frust wichtig. Kleine Tonleitern, kurze Stücke und gezielte Wiederholungen werden so dosiert, dass Fortschritt hörbar wird, ohne dass jede Stunde wie eine Prüfung wirkt."
+          "Wir vereinbaren kleine Prioritäten, die auch an kurzen Tagen möglich sind. An ruhigeren Tagen kann daraus eine längere musikalische Einheit werden.",
+          "Unterbrechungen sind kein moralisches Versagen. Nach einer vollen Woche klären wir, was trotzdem hängen geblieben ist, und setzen dort wieder an.",
+          "Ein realistischer Terminrhythmus schützt die Freude besser als ein ambitionierter Plan, der nach wenigen Wochen nicht mehr funktioniert."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false
+      },
+      {
+        "eyebrow": "Eigene Musik",
+        "title": "Stücke dürfen einen persönlichen Grund haben.",
+        "lede": "Erwachsene wissen oft sehr genau, welche Musik sie berührt. Wünsche werden deshalb nicht bis zu einem abstrakten „später“ vertagt.",
+        "paragraphs": [
+          "Wir prüfen, welcher Ausschnitt oder welches Arrangement zum aktuellen Stand passt und welche Technik das Stück verlangt.",
+          "Klassische Grundlagen, Filmmusik, Melodien oder Ensembleliteratur können nebeneinanderstehen, wenn sie den Lernweg sinnvoll unterstützen.",
+          "In der Anfrage helfen Vorerfahrung, Instrument, Wunschstücke, zeitlicher Rahmen und die Frage, ob du neu beginnst oder wieder einsteigst."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
+        },
+        "imageFirst": true
       }
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Geigenunterricht Erwachsene",
+    "title": "Fragen zu Geigenunterricht für Erwachsene",
     "items": [
       {
-        "question": "Ist Geigenunterricht als Erwachsener realistisch?",
-        "answer": "Ja. Wichtig sind realistische Ziele, regelmäßige kleine Übeeinheiten und ein Unterricht, der körperliche Gewohnheiten ernst nimmt.",
+        "question": "Bin ich zu alt, um Geige zu lernen?",
+        "answer": "Ein Einstieg ist auch im Erwachsenenalter möglich. Lernweg und Tempo richten sich nach Körpergefühl, Vorerfahrung, Ziel und verfügbarer Zeit.",
         "open": true
       },
       {
-        "question": "Muss ich Noten lesen können?",
-        "answer": "Nein. Notenlesen kann Schritt für Schritt mit dem Instrument aufgebaut werden."
+        "question": "Was passiert bei einem Wiedereinstieg?",
+        "answer": "Wir prüfen zuerst, was noch sicher ist und wo alte Gewohnheiten oder fehlende Grundlagen das Spielen erschweren. Daraus entsteht ein neuer Ausgangspunkt."
       },
       {
-        "question": "Was ist anders als beim Kinderunterricht?",
-        "answer": "Erwachsene brauchen meist mehr Erklärung, flexible Übepläne und Repertoire, das Motivation und Technik sinnvoll verbindet."
+        "question": "Muss ich täglich lange üben?",
+        "answer": "Nein. Regelmäßige, klare Aufgaben sind wichtiger als eine pauschale lange Dauer. Der Plan wird an deine tatsächliche Woche angepasst."
       },
       {
-        "question": "Was soll ich für die Anfrage schreiben?",
-        "answer": "Vorerfahrung, Wunschziel, vorhandenes Instrument, verfügbare Übezeit und mögliche Termine für eine Probestunde."
+        "question": "Kann ich ein Wunschstück mitbringen?",
+        "answer": "Ja. Wir schauen, ob das Original, ein Ausschnitt oder eine angepasste Fassung zum aktuellen Stand passt."
       },
       {
-        "question": "Wie viel Übezeit brauchen Erwachsene realistisch?",
-        "answer": "Lieber regelmäßige kurze Einheiten als seltene lange Blöcke. Schon klare 15 bis 20 Minuten mit einer konkreten Aufgabe können viel bewirken, wenn der Unterricht die Prioritäten gut sortiert."
-      },
-      {
-        "question": "Kann ich auch mit alten Unsicherheiten wieder anfangen?",
-        "answer": "Ja. Wir prüfen, was noch trägt, und bauen Bewegungen neu auf, die Spannung, Frust oder klangliche Grenzen erzeugen."
-      },
-      {
-        "question": "Wie bleibt Geigenunterricht für Erwachsene langfristig motivierend?",
-        "answer": "Durch klare Etappen: ein technischer Schwerpunkt, ein musikalisches Ziel und kleine Aufgaben für zu Hause. So bleibt Fortschritt sichtbar, auch wenn nicht jede Woche gleich viel Übezeit da ist."
+        "question": "Was, wenn ich sehr selbstkritisch bin?",
+        "answer": "Im Unterricht wird Rückmeldung konkret und überprüfbar. Ziel ist nicht, jeden Ton sofort zu bewerten, sondern Ursachen zu verstehen und Fortschritt hörbar zu machen."
       }
     ]
   },
@@ -108,14 +118,15 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nLow Copy Follow-up 2026-06-16: verbliebene expand-copy-Seiten mit weiterem Fachkontext ergänzt.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nLow Copy Follow-up 2026-06-16: verbliebene expand-copy-Seiten mit weiterem Fachkontext ergänzt.\n\nManuell redaktionell differenziert am 29.07.2026: eigenständige Nutzeraufgabe, natürlicher Einstieg, konkrete Lernentscheidungen und passende FAQ; URL bleibt bis zu Query- und Conversiondaten als Messseite bestehen.",
   "contact": {
     "eyebrow": "Unterricht anfragen",
-    "title": "Geigenunterricht Erwachsene anfragen",
-    "lead": "Schreib mir kurz, für wen Geigenunterricht Erwachsene gedacht ist, welche Erfahrung vorhanden ist und welches Ziel im Raum steht. Danach schlage ich eine passende Probestunde oder einen Lernrhythmus vor.",
+    "title": "Geigenunterricht für Erwachsene anfragen",
+    "lead": "Schreib mir, ob du neu anfängst oder wieder einsteigst, welche Musik du spielen möchtest und welcher Rhythmus in deinem Alltag realistisch ist.",
     "checklist": [
-      "Geigenunterricht Erwachsene",
+      "Geigenunterricht für Erwachsene",
       "Lernstand",
+      "Instrument",
       "Probestunde"
     ],
     "formEyebrow": "Direkt anfragen",
@@ -125,31 +136,35 @@
   },
   "focus": {
     "eyebrow": "Unterrichtsaufbau",
-    "title": "Schwerpunkte im Geigenunterricht Erwachsene.",
-    "lead": "Der Unterricht berücksichtigt Kopf, Körper und knappe Zeit.",
+    "title": "Worum es bei Geigenunterricht für Erwachsene konkret geht.",
+    "lead": "Vier Punkte, an denen sich diese Unterrichtsaufgabe von den benachbarten Einstiegen unterscheidet.",
     "items": [
       {
-        "kicker": "Alltag",
-        "title": "Realistisch üben",
-        "text": "Wir entwickeln Aufgaben, die auch mit Beruf, Familie oder unregelmäßigen Wochen funktionieren."
+        "time": "Biografie",
+        "kicker": "Ausgangspunkt",
+        "title": "Die eigene Vorgeschichte nutzen",
+        "text": "Frühere Erfahrungen, heutige Motivation und mögliche Unsicherheiten gehören in die Planung."
       },
       {
-        "kicker": "Körper",
-        "title": "Spannung abbauen",
-        "text": "Schulter, Nacken, linke Hand und Bogenarm werden so sortiert, dass Üben nicht verkrampft."
+        "time": "Körper",
+        "kicker": "Bewegung",
+        "title": "Spannung rechtzeitig erkennen",
+        "text": "Haltung und Bogenführung werden an den eigenen Körper angepasst."
       },
       {
-        "kicker": "Verstehen",
-        "title": "Technik nachvollziehen",
-        "text": "Erklärungen bleiben praktisch: Du sollst wissen, warum eine Bewegung den Klang verändert."
+        "time": "Zeit",
+        "kicker": "Routine",
+        "title": "Eine echte Woche planen",
+        "text": "Die Aufgaben müssen auch neben Beruf und Familie wiederholbar bleiben."
       },
       {
-        "kicker": "Musik",
-        "title": "Wunschstücke einordnen",
-        "text": "Repertoire wird passend gewählt, damit Motivation bleibt und technische Schritte nicht übersprungen werden."
+        "time": "Musik",
+        "kicker": "Wunschstücke",
+        "title": "Persönliche Ziele hörbar machen",
+        "text": "Repertoire wird so gewählt oder angepasst, dass es motiviert und technisch weiterführt."
       }
     ],
-    "footnote": "Geigenunterricht Erwachsene wird nach Lernziel, Alter, Alltag und Vorerfahrung geplant."
+    "footnote": "Die genaue Gewichtung entsteht aus Lernstand, Instrument, Ziel und dem Alltag zwischen zwei Terminen."
   },
   "elegy": {
     "passages": []

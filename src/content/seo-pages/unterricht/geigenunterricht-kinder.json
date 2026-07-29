@@ -6,55 +6,27 @@
   "targetKeyword": "Geigenunterricht für Kinder",
   "intentCluster": "unterricht:geigenunterricht-kinder",
   "priority": "P2",
-  "status": "geige-expansion-2026-06-23-review-needed",
+  "status": "manual-intent-differentiated-2026-07-29",
   "enabled": true,
   "seoTitle": "Geigenunterricht Kinder | Geduldig lernen",
   "seoDescription": "Geigenunterricht für Kinder: Unterricht für Geige, Bratsche oder Viola mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
   "hero": {
     "eyebrow": "Geigenunterricht Kinder",
-    "title": "Geigenunterricht Kinder: ruhig aufgebaut, persönlich begleitet.",
-    "lead": "Geigenunterricht für Kinder mit klarem Fundament: Haltung, Bogenführung, Intonation, Übestruktur und Stücke, die wirklich motivieren.",
+    "title": "Geigenunterricht für Kinder: neugierig beginnen, verlässlich begleiten.",
+    "lead": "Kindgerechter Unterricht heißt nicht, Anforderungen zu verstecken. Bewegungen, Hören und kleine musikalische Aufgaben werden so erklärt, dass ein Kind selbst versteht, was es ausprobieren kann.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Kinder\nKlang & Technik\npersönlich",
+    "seal": "Kinder\nNeugier und Ruhe\nmit Begleitung",
     "sections": [
       {
-        "title": "Geigenunterricht Kinder heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
-        "lede": "Im Mittelpunkt steht ein Unterricht, der Konzentration, Bewegung und Neugier in kindgerechte Schritte übersetzt.",
+        "eyebrow": "Ist der Zeitpunkt passend?",
+        "title": "Nicht nur das Alter entscheidet.",
+        "lede": "Für den Einstieg sind Neugier, Konzentrationsspanne, Körpergefühl und die Bereitschaft wichtig, eine kleine Aufgabe mehrmals zu versuchen.",
         "paragraphs": [
-          "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
-          "Kinder lernen über Klang, Bilder, Wiederholung und kleine Rituale, nicht über lange technische Vorträge.",
-          "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
-          "Einfache Lieder, Rhythmusspiele und kleine Stücke helfen, Technik mit Freude zu verbinden.",
-          "Für Eltern ist wichtig zu wissen, wie zu Hause geübt werden kann, ohne dass Musik zum Streitpunkt wird."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
-        },
-        "imageFirst": false,
-        "eyebrow": "Unterricht mit klarem Fokus"
-      },
-      {
-        "title": "Geigenunterricht Kinder im Ablauf sinnvoll einsetzen.",
-        "lede": "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
-        "paragraphs": [
-          "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
-          "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
-          "Im Unterricht ist das Ziel nicht ein schneller Effekt, sondern ein tragfähiger nächster Schritt. Deshalb richtet sich die Planung nach Lernstand, Körpergefühl, Klangvorstellung und Übealltag."
-        ],
-        "image": {
-          "src": "/uploads/_DSC7270.webp",
-          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Entscheidend sind Lernstand, Instrument, Ziel, Unterrichtsort, Wochenrhythmus und realistische Übezeit.",
-        "paragraphs": [
-          "Für die Planung sind Bilder, Wiederholung, Elternkommunikation, passende Instrumentengröße die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll."
+          "Eine Probestunde zeigt mehr als eine feste Altersgrenze. Das Kind darf Instrument und Bogen kennenlernen, zuhören und eine erste Bewegung ausprobieren.",
+          "Wenn das Interesse nur von Erwachsenen ausgeht, sprechen wir offen darüber. Dauerhafte Motivation lässt sich nicht verordnen.",
+          "Ein späterer Start kann die bessere Entscheidung sein. Die Probestunde ist deshalb Orientierung und keine Prüfung."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -63,10 +35,43 @@
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Entscheidend sind Lernstand, Instrument, Ziel, Unterrichtsort, Wochenrhythmus und realistische Übezeit.",
+        "eyebrow": "Instrument und Bewegung",
+        "title": "Die Geige muss körperlich handhabbar sein.",
+        "lede": "Größe, Gewicht, Schultergefühl und die Länge des Bogens beeinflussen, ob ein Kind entspannt lernen kann.",
         "paragraphs": [
-          "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob eine Probestunde, regelmäßiger Unterricht, ein Technikschwerpunkt oder die Vorbereitung auf ein konkretes Ziel passend ist."
+          "Vor einem Kauf sollte geklärt werden, welche Instrumentengröße passt. Ein zu großes Instrument macht viele Bewegungen unnötig schwer.",
+          "Im Unterricht wechseln Hörspiele, Rhythmus, Bewegung und kurze Spielphasen. Erklärungen bleiben konkret und werden direkt ausprobiert.",
+          "Sauberkeit entsteht schrittweise. Zuerst soll das Kind Unterschiede hören und eine Bewegung wiedererkennen können."
+        ],
+        "image": {
+          "src": "/uploads/_DSC7270.webp",
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
+        },
+        "imageFirst": true
+      },
+      {
+        "eyebrow": "Rolle der Eltern",
+        "title": "Unterstützen, ohne jede Probe zu kontrollieren.",
+        "lede": "Eltern brauchen genug Einblick, um zu Hause helfen zu können, aber das Instrument soll nicht zum täglichen Konflikt werden.",
+        "paragraphs": [
+          "Nach der Stunde sind wenige Aufgaben klar benannt. Bei jüngeren Kindern kann eine erwachsene Person helfen, die Reihenfolge zu erinnern oder das Instrument sicher vorzubereiten.",
+          "Korrigieren in jedem Moment ist nicht nötig. Besser ist eine ruhige Übezeit, in der das Kind selbst hören und ausprobieren darf.",
+          "Wenn etwas regelmäßig zu Frust führt, gehört diese Beobachtung in die nächste Stunde. Dann verändern wir Aufgabe, Umfang oder Erklärung."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
+        },
+        "imageFirst": false
+      },
+      {
+        "eyebrow": "Motivation",
+        "title": "Fortschritt soll für das Kind erkennbar sein.",
+        "lede": "Ein Lernziel wirkt besser, wenn es nicht nur Erwachsenen wichtig ist.",
+        "paragraphs": [
+          "Kleine Melodien, Rhythmusaufgaben und persönliche Musikwünsche geben neuen Bewegungen einen hörbaren Sinn.",
+          "Lob bleibt konkret: etwa für einen ruhigen Bogenweg, aufmerksames Zuhören oder eine Stelle, die selbstständig gelöst wurde.",
+          "Für die Anfrage helfen Alter, bisheriger Kontakt mit Musik, vorhandenes Instrument, Interessen und mögliche Termine."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
@@ -78,40 +83,28 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Geigenunterricht Kinder",
+    "title": "Fragen zu Geigenunterricht für Kinder",
     "items": [
       {
-        "question": "Für wen passt der Unterricht?",
-        "answer": "Geigenunterricht Kinder passt für Kinder und Familien, die einen freundlichen Einstieg in die Geige oder Viola suchen. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
+        "question": "Ab welchem Alter ist Geigenunterricht sinnvoll?",
+        "answer": "Eine pauschale Altersgrenze reicht nicht. Neugier, Aufmerksamkeit, Körpergefühl und passende Instrumentengröße werden in einer Probestunde gemeinsam betrachtet.",
         "open": true
       },
       {
-        "question": "Gibt es eine kostenlose Probestunde?",
-        "answer": "Ja. In der Probestunde schauen wir gemeinsam auf Instrument, Vorerfahrung, Ziele und die Frage, welcher Unterrichtsrhythmus realistisch ist."
+        "question": "Müssen Eltern beim Üben helfen?",
+        "answer": "Bei jüngeren Kindern oft ja, vor allem beim Vorbereiten des Instruments und Erinnern der Aufgabe. Die Verantwortung soll aber schrittweise beim Kind wachsen."
       },
       {
-        "question": "Muss ich schon Noten lesen können?",
-        "answer": "Nein. Notenlesen kann Teil des Unterrichts sein und wird direkt mit dem Spielen verbunden, damit Theorie nicht losgelöst vom Instrument bleibt."
+        "question": "Sollte vor der Probestunde eine Geige gekauft werden?",
+        "answer": "Nein. Die passende Größe sollte zuerst fachlich geklärt werden, damit ein ungeeignetes Instrument den Einstieg nicht erschwert."
       },
       {
-        "question": "Kann ich als Erwachsene:r noch anfangen?",
-        "answer": "Ja. Erwachsene lernen oft sehr bewusst. Wichtig ist ein Übeplan, der in den Alltag passt und nicht mit unrealistischen Erwartungen beginnt."
+        "question": "Was, wenn mein Kind nicht üben möchte?",
+        "answer": "Dann ist wichtig zu verstehen, ob Aufgabe, Zeitpunkt, Umfang oder das grundsätzliche Interesse nicht passen. Der Unterrichtsplan kann angepasst werden; Motivation lässt sich nicht erzwingen."
       },
       {
-        "question": "Ist Unterricht auch für Kinder möglich?",
-        "answer": "Ja, wenn Instrumentengröße, Konzentrationsspanne und Aufgaben gut gewählt sind. Bei Kindern beziehe ich die Eltern mit ein, ohne das Üben zu Hause zu kompliziert zu machen."
-      },
-      {
-        "question": "Welche Musik wird im Unterricht gespielt?",
-        "answer": "Das hängt von Lernstand und Ziel ab. Klassische Grundlagen, kleine Melodien, Etüden, Filmmusik oder persönliche Wünsche können sinnvoll kombiniert werden."
-      },
-      {
-        "question": "Wann passt Geigenunterricht Kinder besonders gut?",
-        "answer": "Das passt besonders, wenn Lernstand, Ziel und verfügbare Übezeit gemeinsam geplant werden sollen."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich klären, ob ein Unterrichtseinstieg, ein Technikfokus, ein Wiedereinstieg oder eine regelmäßige Begleitung passend ist."
+        "question": "Werden auch Wunschlieder gespielt?",
+        "answer": "Ja, wenn eine passende Fassung gefunden werden kann. Wünsche können sehr motivierend sein und werden mit den gerade wichtigen Grundlagen verbunden."
       }
     ]
   },
@@ -125,14 +118,15 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nManuell redaktionell differenziert am 29.07.2026: eigenständige Nutzeraufgabe, natürlicher Einstieg, konkrete Lernentscheidungen und passende FAQ; URL bleibt bis zu Query- und Conversiondaten als Messseite bestehen.",
   "contact": {
     "eyebrow": "Unterricht anfragen",
-    "title": "Geigenunterricht Kinder anfragen",
-    "lead": "Schreib mir kurz, ob du neu anfängst, wieder einsteigst oder für ein Kind suchst. Dann kann ich einschätzen, wie Geigenunterricht Kinder sinnvoll beginnen kann.",
+    "title": "Geigenunterricht für ein Kind anfragen",
+    "lead": "Nenne mir Alter, musikalische Vorerfahrung, vorhandenes Instrument und das Interesse des Kindes. Dann können wir eine Probestunde sinnvoll vorbereiten.",
     "checklist": [
-      "Geigenunterricht Kinder",
+      "Geigenunterricht für Kinder",
       "Lernstand",
+      "Instrument",
       "Probestunde"
     ],
     "formEyebrow": "Direkt anfragen",
@@ -142,35 +136,35 @@
   },
   "focus": {
     "eyebrow": "Lernbereiche",
-    "title": "Schwerpunkte im Geigenunterricht Kinder.",
-    "lead": "Die Gewichtung verändert sich je nach Person. Damit der Unterricht greifbar bleibt, arbeiten wir mit klaren Bausteinen.",
+    "title": "Worum es bei Geigenunterricht für Kinder konkret geht.",
+    "lead": "Vier Punkte, an denen sich diese Unterrichtsaufgabe von den benachbarten Einstiegen unterscheidet.",
     "items": [
       {
-        "time": "Körper",
-        "kicker": "Haltung",
-        "title": "Entspannt spielen statt gegen das Instrument arbeiten",
-        "text": "Eine gute Haltung macht den Klang freier und verhindert, dass Üben unnötig anstrengend wird."
+        "time": "Bereit?",
+        "kicker": "Probestunde",
+        "title": "Interesse und Aufmerksamkeit beobachten",
+        "text": "Der Einstieg wird nicht allein aus dem Geburtsdatum abgeleitet."
       },
       {
-        "time": "Bogen",
-        "kicker": "Ton",
-        "title": "Klang bewusst formen",
-        "text": "Bogenkontakt, Geschwindigkeit und Gewicht werden so erklärt, dass du den Unterschied hören und wiederholen kannst."
+        "time": "Passend?",
+        "kicker": "Instrument",
+        "title": "Größe und Handhabung klären",
+        "text": "Ein geeignetes Instrument erleichtert Haltung, Bogenweg und selbstständiges Lernen."
       },
       {
-        "time": "Musik",
-        "kicker": "Stücke",
-        "title": "Übungen in echte Musik übertragen",
-        "text": "Jede Technik bekommt eine musikalische Anwendung, damit Fortschritt nicht nur im Übeheft stattfindet."
+        "time": "Verstanden?",
+        "kicker": "Aufgabe",
+        "title": "In Bildern, Klang und Bewegung erklären",
+        "text": "Das Kind soll selbst wissen, was es als Nächstes ausprobieren kann."
       },
       {
-        "time": "Alltag",
-        "kicker": "Üben",
-        "title": "Kleine Aufgaben mit klarer Wirkung",
-        "text": "Zu Hause geht es um wenige Prioritäten, die du verstehst und regelmäßig umsetzen kannst."
+        "time": "Begleitet?",
+        "kicker": "Eltern",
+        "title": "Hilfe ohne Dauerkontrolle",
+        "text": "Eltern erhalten klare Hinweise, während musikalische Verantwortung langsam beim Kind wächst."
       }
     ],
-    "footnote": "Geigenunterricht Kinder wird nach Lernziel, Alter, Alltag und Vorerfahrung geplant."
+    "footnote": "Die genaue Gewichtung entsteht aus Lernstand, Instrument, Ziel und dem Alltag zwischen zwei Terminen."
   },
   "elegy": {
     "passages": []

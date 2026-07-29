@@ -4,57 +4,29 @@
   "pageSlug": "bratschenunterricht-kinder",
   "route": "/unterricht/bratschenunterricht-kinder/",
   "targetKeyword": "Bratschenunterricht Kinder",
-  "intentCluster": "unterricht:topic",
+  "intentCluster": "unterricht:bratschenunterricht-kinder",
   "priority": "P2",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "status": "manual-intent-differentiated-2026-07-29",
   "enabled": true,
   "seoTitle": "Bratschenunterricht Kinder | Viola lernen",
   "seoDescription": "Bratschenunterricht Kinder: Unterricht für Viola oder Bratsche mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
   "hero": {
     "eyebrow": "Kinder",
-    "title": "Bratschenunterricht für Kinder, spielerisch, geduldig und mit stabilem Fundament.",
-    "lead": "Bratschenunterricht Kinder richtet sich an Kinder und Familien, die einen freundlichen Einstieg in die Bratsche oder Viola suchen. Der Unterricht verbindet geduldige Technik, musikalische Neugier und Aufgaben, die zwischen den Stunden wirklich funktionieren.",
+    "title": "Bratschenunterricht für Kinder: passt der tiefe Klang zum Kind?",
+    "lead": "Eine Probestunde klärt Neugier, Instrumentengröße und Spielgefühl. Der Unterricht verbindet kindgerechte Schritte mit dem eigenständigen Charakter der Bratsche.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Kinder\nKlang & Technik\npersönlich",
+    "seal": "Kinder\nBratsche entdecken\npassend begleitet",
     "sections": [
       {
-        "title": "Bratschenunterricht Kinder heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
-        "lede": "Im Mittelpunkt steht ein Unterricht, der Konzentration, Bewegung und Neugier in kindgerechte Schritte übersetzt.",
+        "eyebrow": "Interesse",
+        "title": "Die Bratsche darf eine bewusste Wahl sein.",
+        "lede": "Nicht jedes Kind muss automatisch mit der Geige beginnen. Manche reagieren gerade auf den dunkleren, tieferen Klang der Bratsche.",
         "paragraphs": [
-          "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
-          "Kinder lernen über Klang, Bilder, Wiederholung und kleine Rituale, nicht über lange technische Vorträge.",
-          "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
-          "Einfache Lieder, Rhythmusspiele und kleine Stücke helfen, Technik mit Freude zu verbinden.",
-          "Für Eltern ist wichtig zu wissen, wie zu Hause geübt werden kann, ohne dass Musik zum Streitpunkt wird."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
-        },
-        "imageFirst": false,
-        "eyebrow": "Unterricht mit klarem Fokus"
-      },
-      {
-        "title": "Bratschenunterricht Kinder im Ablauf sinnvoll einsetzen.",
-        "lede": "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
-        "paragraphs": [
-          "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
-          "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt.",
-          "Im Unterricht ist das Ziel nicht ein schneller Effekt, sondern ein tragfähiger nächster Schritt. Deshalb richtet sich die Planung nach Lernstand, Körpergefühl, Klangvorstellung und Übealltag."
-        ],
-        "image": {
-          "src": "/uploads/_DSC7270.webp",
-          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Entscheidend sind Lernstand, Instrument, Ziel, Unterrichtsort, Wochenrhythmus und realistische Übezeit.",
-        "paragraphs": [
-          "Für die Planung sind Bilder, Wiederholung, Elternkommunikation, passende Instrumentengröße die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll."
+          "In der Probestunde hören und vergleichen wir, ohne eine Entscheidung zu erzwingen.",
+          "Entscheidend sind echtes Interesse, Aufmerksamkeit und die Bereitschaft, eine Bewegung mehrmals auszuprobieren.",
+          "Wenn das Instrument noch nicht passt, kann ein späterer Einstieg sinnvoller sein. Die Probestunde ist Orientierung."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -63,10 +35,43 @@
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Entscheidend sind Lernstand, Instrument, Ziel, Unterrichtsort, Wochenrhythmus und realistische Übezeit.",
+        "eyebrow": "Größe",
+        "title": "Das Instrument muss sicher handhabbar bleiben.",
+        "lede": "Bei Kindern ist die Auswahl einer passenden Bratsche besonders wichtig, weil Gewicht, Länge und Bogen die Bewegungsfreiheit beeinflussen.",
         "paragraphs": [
-          "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob eine Probestunde, regelmäßiger Unterricht, ein Technikschwerpunkt oder die Vorbereitung auf ein konkretes Ziel passend ist."
+          "Vor Kauf oder Miete sollte die Größe geprüft werden. Ein Kind soll das Instrument nicht durch ständiges Festhalten sichern müssen.",
+          "Haltung wird über kurze Bewegungsaufgaben aufgebaut. Klang, Rhythmus und Pausen wechseln einander ab.",
+          "Die tiefen Saiten reagieren gut, wenn der Bogen ruhig Kontakt findet. Kraft ist keine Ersatzlösung für ein ungeeignetes Instrument."
+        ],
+        "image": {
+          "src": "/uploads/_DSC7270.webp",
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
+        },
+        "imageFirst": true
+      },
+      {
+        "eyebrow": "Lernen",
+        "title": "Altschlüssel in kleinen musikalischen Schritten.",
+        "lede": "Notation wird nicht als trockene Besonderheit der Bratsche vorgestellt, sondern direkt gespielt und gehört.",
+        "paragraphs": [
+          "Einzelne Töne, Muster und kleine Melodien schaffen wiedererkennbare Griffbilder.",
+          "Rhythmus kann zuerst gesprochen oder bewegt werden. Dadurch bleibt Aufmerksamkeit für Instrument und Bogen.",
+          "Das Kind erhält Aufgaben, die es selbst erklären kann. Was nur Erwachsene verstanden haben, ist zu Hause schwer wiederholbar."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
+        },
+        "imageFirst": false
+      },
+      {
+        "eyebrow": "Begleitung",
+        "title": "Eltern schaffen den Rahmen, das Kind macht Musik.",
+        "lede": "Bei jüngeren Kindern helfen Eltern beim sicheren Umgang mit dem Instrument und bei einer ruhigen Übezeit.",
+        "paragraphs": [
+          "Nach der Stunde sind Reihenfolge und Ziel der Aufgabe klar. Dauer und Umfang richten sich nach Aufmerksamkeit und Alltag.",
+          "Wenn Motivation oder Körpergefühl kippen, wird nicht einfach mehr Druck aufgebaut. Die Beobachtung gehört in den Unterricht.",
+          "Für die Anfrage helfen Alter, musikalische Erfahrung, vorhandenes Instrument und die Frage, warum sich das Kind für die Bratsche interessiert."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
@@ -78,40 +83,28 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Bratschenunterricht Kinder",
+    "title": "Fragen zu Bratschenunterricht Kinder",
     "items": [
       {
-        "question": "Für wen passt der Unterricht?",
-        "answer": "Der Unterricht passt für Kinder und Familien, die einen freundlichen Einstieg in die Bratsche oder Viola suchen. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
+        "question": "Können Kinder direkt mit der Bratsche beginnen?",
+        "answer": "Ja, wenn Interesse, Instrumentengröße und körperliche Handhabung passen. Ein vorheriger Geigenunterricht ist nicht zwingend.",
         "open": true
       },
       {
-        "question": "Gibt es eine kostenlose Probestunde?",
-        "answer": "Ja. In der Probestunde schauen wir gemeinsam auf Instrument, Vorerfahrung, Ziele und die Frage, welcher Unterrichtsrhythmus realistisch ist."
+        "question": "Wie wird die richtige Größe gefunden?",
+        "answer": "Instrument und Bogen sollten fachlich angepasst werden. Entscheidend sind nicht nur Alter oder Körpergröße, sondern das tatsächliche Spielgefühl."
       },
       {
-        "question": "Muss ich schon Noten lesen können?",
-        "answer": "Nein. Notenlesen kann Teil des Unterrichts sein und wird direkt mit dem Spielen verbunden, damit Theorie nicht losgelöst vom Instrument bleibt."
+        "question": "Ist der Altschlüssel für Kinder zu schwierig?",
+        "answer": "Er kann von Anfang an in kleinen Griff- und Klangmustern gelernt werden. Die Notation wird direkt mit dem Instrument verbunden."
       },
       {
-        "question": "Kann ich als Erwachsene:r noch anfangen?",
-        "answer": "Ja. Erwachsene lernen oft sehr bewusst. Wichtig ist ein Übeplan, der in den Alltag passt und nicht mit unrealistischen Erwartungen beginnt."
+        "question": "Welche Rolle haben Eltern?",
+        "answer": "Sie unterstützen bei Instrumentenpflege, Überoutine und Erinnerung. Das musikalische Ausprobieren und die wachsende Verantwortung bleiben beim Kind."
       },
       {
-        "question": "Ist Unterricht auch für Kinder möglich?",
-        "answer": "Ja, wenn Instrumentengröße, Konzentrationsspanne und Aufgaben gut gewählt sind. Bei Kindern beziehe ich die Eltern mit ein, ohne das Üben zu Hause zu kompliziert zu machen."
-      },
-      {
-        "question": "Welche Musik wird im Unterricht gespielt?",
-        "answer": "Das hängt von Lernstand und Ziel ab. Klassische Grundlagen, kleine Melodien, Etüden, Filmmusik oder persönliche Wünsche können sinnvoll kombiniert werden."
-      },
-      {
-        "question": "Wann passt Bratschenunterricht Kinder besonders gut?",
-        "answer": "Das passt besonders, wenn Lernstand, Ziel und verfügbare Übezeit gemeinsam geplant werden sollen."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich klären, ob ein Unterrichtseinstieg, ein Technikfokus, ein Wiedereinstieg oder eine regelmäßige Begleitung passend ist."
+        "question": "Was, wenn mein Kind doch lieber Geige spielen möchte?",
+        "answer": "Dann ist ein ehrlicher Vergleich sinnvoll. Die Probestunde soll eine passende Instrumentenwahl ermöglichen und keine einmal getroffene Entscheidung verteidigen."
       }
     ]
   },
@@ -125,14 +118,15 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nManuell redaktionell differenziert am 29.07.2026: eigenständige Nutzeraufgabe, natürlicher Einstieg, konkrete Lernentscheidungen und passende FAQ; URL bleibt bis zu Query- und Conversiondaten als Messseite bestehen.",
   "contact": {
     "eyebrow": "Unterricht anfragen",
-    "title": "Bratschenunterricht Kinder anfragen",
-    "lead": "Schreib mir kurz, ob du neu anfängst, wieder einsteigst oder für ein Kind suchst. Dann kann ich einschätzen, wie Bratschenunterricht Kinder sinnvoll beginnen kann.",
+    "title": "Bratschenunterricht für ein Kind anfragen",
+    "lead": "Nenne mir Alter, bisherige Musikerfahrung, vorhandenes Instrument und was das Kind am Bratschenklang interessiert. Dann bereiten wir die Probestunde vor.",
     "checklist": [
       "Bratschenunterricht Kinder",
       "Lernstand",
+      "Instrument",
       "Probestunde"
     ],
     "formEyebrow": "Direkt anfragen",
@@ -141,35 +135,35 @@
   },
   "focus": {
     "eyebrow": "Lernbereiche",
-    "title": "Was bei Bratschenunterricht Kinder konkret aufgebaut wird.",
-    "lead": "Die Gewichtung verändert sich je nach Person. Damit der Unterricht greifbar bleibt, arbeiten wir mit klaren Bausteinen.",
+    "title": "Worum es bei Bratschenunterricht Kinder konkret geht.",
+    "lead": "Vier Punkte, an denen sich diese Unterrichtsaufgabe von den benachbarten Einstiegen unterscheidet.",
     "items": [
       {
-        "time": "Körper",
-        "kicker": "Haltung",
-        "title": "Entspannt spielen statt gegen das Instrument arbeiten",
-        "text": "Eine gute Haltung macht den Klang freier und verhindert, dass Üben unnötig anstrengend wird."
+        "time": "Hören",
+        "kicker": "Instrumentenwahl",
+        "title": "Den tieferen Klang vergleichen",
+        "text": "Das Kind darf herausfinden, ob die Bratsche musikalisch wirklich anspricht."
       },
       {
-        "time": "Bogen",
-        "kicker": "Ton",
-        "title": "Klang bewusst formen",
-        "text": "Bogenkontakt, Geschwindigkeit und Gewicht werden so erklärt, dass du den Unterschied hören und wiederholen kannst."
+        "time": "Tragen",
+        "kicker": "Größe",
+        "title": "Ein handhabbares Instrument finden",
+        "text": "Gute Balance verhindert, dass neue Bewegungen durch unnötiges Gewicht blockiert werden."
       },
       {
-        "time": "Musik",
-        "kicker": "Stücke",
-        "title": "Übungen in echte Musik übertragen",
-        "text": "Jede Technik bekommt eine musikalische Anwendung, damit Fortschritt nicht nur im Übeheft stattfindet."
+        "time": "Lesen",
+        "kicker": "Altschlüssel",
+        "title": "Zeichen sofort spielen",
+        "text": "Kurze Muster verbinden Notation, Griff und gehörten Ton."
       },
       {
-        "time": "Alltag",
-        "kicker": "Üben",
-        "title": "Kleine Aufgaben mit klarer Wirkung",
-        "text": "Zu Hause geht es um wenige Prioritäten, die du verstehst und regelmäßig umsetzen kannst."
+        "time": "Begleiten",
+        "kicker": "Eltern",
+        "title": "Einen ruhigen Rahmen schaffen",
+        "text": "Eltern helfen bei Organisation und Sicherheit, ohne jede musikalische Entscheidung zu übernehmen."
       }
     ],
-    "footnote": "Bratschenunterricht Kinder wird je nach Alter, Vorerfahrung und Ziel individuell geplant."
+    "footnote": "Die genaue Gewichtung entsteht aus Lernstand, Instrument, Ziel und dem Alltag zwischen zwei Terminen."
   },
   "elegy": {
     "passages": []

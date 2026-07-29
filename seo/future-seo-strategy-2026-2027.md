@@ -2,7 +2,7 @@
 
 Stand: 2026-07-29  
 Verantwortung: Website-Inhaberin und SEO/Entwicklung  
-Status: verbindliches Arbeitsdokument; SEO-Arbeitsstand am 29.07.2026 veröffentlicht und live verifiziert  
+Status: verbindliches Arbeitsdokument; veröffentlichte Basis live verifiziert, aktueller No-GSC-Batch lokal deploybereit
 Nächste Strategiereview: nach dem ersten vollständigen 90-Tage-GSC- und Anfrage-Datensatz, spätestens 2026-10-31
 
 ## 1. Ziel
@@ -42,11 +42,13 @@ Nicht-Ziele:
 | Nicht indexierte SEO-Detailseiten | 56 | 50 wurden gefunden, aber nicht gecrawlt; sechs wurden gecrawlt, aber nicht indexiert. |
 | Bekannte Anfrageorte | unter anderem Bottrop, Köln, Leichlingen, Soest, Düsseldorf und Solingen | Lokale Nachfrage ist real; die genaue Landingpage-Zuordnung fehlt noch. |
 | Eigener Proof auf der Website | Biografie, fünf Audioaufnahmen, eine sichtbare Rezension und Instagram-Verweis | Die Beleglage ist im Verhältnis zum Seiteninventar zu klein. |
-| Dokumentierte manuelle Kohorten | 23 P1-Seiten und 25 eindeutige Indexierungs-/Intent-Seiten | Diese 48 Seiten besitzen eine aktuelle Einzelentscheidung; das ersetzt noch keine Such- oder Conversionmessung. |
-| Redaktioneller Reststatus | 361 Dokumente mit `review-needed`; 78 ältere `manual-priority-local`-Status ohne aktuellen Messvertrag | Automatische oder ältere Batch-Status sind keine aktuelle menschliche Freigabe. |
+| Dokumentierte manuelle Kohorten | 23 P1-Seiten, 25 eindeutige Indexierungs-/Intent-Seiten und 10 eigenständig differenzierte Unterrichtsseiten | Diese 58 Seiten besitzen eine aktuelle Einzelentscheidung; das ersetzt noch keine Such- oder Conversionmessung. |
+| Lokale Evidenz-Holds | 72 strenge High-Risk-Ortsseiten | Die URLs bleiben vorerst indexierbar und selbstkanonisch; ihr Hold-Status ist eine bewusste Warteentscheidung, keine redaktionelle Freigabe. |
+| Redaktioneller Reststatus | 329 Dokumente mit `review-needed`; 28 ältere `manual-priority-local`-Status ohne aktuellen Messvertrag | Automatische oder ältere Batch-Status sind keine aktuelle menschliche Freigabe. |
 | Frischer technischer Prüfstand | 487/487 CMS-Dokumente gerendert, editierbar und in der Sitemap; Audit 0 Fehler/0 Warnungen | Lokaler und Vercel-statischer Build sind grün. |
-| Produktionsprüfung | Der vollständige HTTP-Prüflauf bestand auf `dpl_3RkDDwWimddeB9TBDXBcokzFmfRF`; der aktuelle commitgebundene `main`-Stand ist `READY` und auf der Hauptdomain | 487/487 öffentliche Routen, Tina-Endpunkte und Formular-Payloads waren fehlerfrei; der gesicherte Arbeitsstand ist live. |
-| Aktueller Ähnlichkeitstracker | 82 strenge High-Risk-Detailseiten: 72 lokale Nicht-P1-Seiten und 10 Unterrichts-Themenseiten | Kein pauschaler Rewrite: zuerst echte Ortsbelege beziehungsweise Query-/Intentdaten beschaffen. |
+| Produktionsprüfung | Der vollständige HTTP-Prüflauf bestand auf `dpl_3RkDDwWimddeB9TBDXBcokzFmfRF`; der zuvor commitgebundene `main`-Stand ist `READY` und auf der Hauptdomain | 487/487 öffentliche Routen, Tina-Endpunkte und Formular-Payloads der veröffentlichten Basis waren fehlerfrei; der aktuelle No-GSC-Batch ist noch nicht veröffentlicht. |
+| Aktueller Ähnlichkeitstracker | 72 strenge High-Risk-Detailseiten, vollständig in der lokalen Evidenz-Hold-Kohorte; die zuvor auffälligen 10 Unterrichtsseiten liegen nach manueller Differenzierung nicht mehr im strengen High-Risk-Bereich | Ortsseiten nicht künstlich auf Ähnlichkeitswerte optimieren; echte Ortsbelege beziehungsweise Query-/Intentdaten beschaffen. |
+| Breiter lokaler Tracker | 155 High-, 130 Medium- und 58 Low-Risk-Ortsseiten; die 21 P1-Ortsseiten bleiben 18 Low und 3 Medium | Das große Ortsraster bleibt ein strukturelles Risiko, auch wenn die engere Detailprüfung nur 72 Seiten als High Risk markiert. |
 
 Die vollständige aktuelle URL-Klassifikation steht im
 [Indexierungs- und Cluster-Aktionsplan](./indexing-and-cluster-action-plan-2026-07-29.md).
@@ -183,6 +185,19 @@ vorläufigen Rollen stehen in der
 Merge-Kandidaten bleiben bis zu aktuellen Query-, Klick- und Anfragedaten
 eigenständig indexierbar.
 
+Die zehn zuvor im strengen Tracker auffälligen Unterrichts-Themenseiten wurden
+anschließend manuell nach tatsächlicher Nutzeraufgabe differenziert: regelmäßiger
+Unterricht, Neueinstieg, Kinder, Erwachsene sowie breiteres Musikverständnis werden
+je Instrument getrennt beantwortet. Das ist noch keine dauerhafte Garantie für zehn
+eigenständige Suchrollen. Eine spätere Zusammenführung bleibt möglich, wenn
+Seite-Abfrage- und Conversiondaten keine eigenständige Nachfrage zeigen.
+
+Die 72 verbleibenden strengen High-Risk-Ortsseiten besitzen jetzt den Status
+`manual-local-hold-for-evidence-2026-07-29`. Die vollständige Kohorte, die
+Entscheidungsregel und die benötigten Nachweise stehen im
+[Local-Evidence-Hold](./local-evidence-hold-cohort-2026-07-29.md). Der Status
+bedeutet ausdrücklich nicht „fertig redigiert“.
+
 ## 8. Proof-Roadmap
 
 Es werden keine Nachweise erfunden oder vorweggenommen. Nach Freigabe sollen
@@ -285,6 +300,10 @@ Verantwortung: SEO/Entwicklung für Daten und Technik, Inhaberin für fachliche 
 - [x] Intent-Map für Unterricht, Beerdigungen und Hochzeiten anlegen
 - [x] Tracker auf 487 Detailseiten und 14 getrennte Hubs korrigieren und gegen
   den frischen Build neu erzeugen
+- [x] zehn strenge High-Risk-Unterrichtsseiten manuell nach Nutzeraufgabe
+  differenzieren
+- [x] 72 strenge High-Risk-Ortsseiten ohne erfundene Ortsdetails in eine
+  dokumentierte Evidenz-Hold-Kohorte überführen
 - Ausgangswerte vor URL-, Titel- oder Indexierungsänderungen sichern
 
 Exit:
@@ -382,9 +401,11 @@ alten Struktur entgegensteht.
    - Geige / Viola / Streicherin bei Hochzeiten
    - Viola-Unterricht / Bratschenunterricht / Musikunterricht Viola
 9. Erst danach eine kleine Konsolidierungskohorte freigeben.
-10. Die 72 strengen High-Risk-Ortsseiten nur mit echtem Orts-/Anfragebeleg
-    redaktionell ausbauen; die zehn Unterrichts-Synonymseiten zuerst per
-    Seite-Abfrage-Report auf Eigenständigkeit prüfen.
+10. [x] Die 72 strengen High-Risk-Ortsseiten als Evidenz-Hold dokumentieren;
+    redaktioneller Ausbau weiterhin nur mit echtem Orts-/Anfragebeleg.
+11. [x] Die zehn Unterrichts-Synonymseiten manuell nach Nutzeraufgabe
+    differenzieren; ihre dauerhafte Eigenständigkeit später per
+    Seite-Abfrage- und Conversionreport prüfen.
 
 ## 16. Risiken
 

@@ -6,7 +6,7 @@
   "targetKeyword": "Trauermusik Mettmann",
   "intentCluster": "beerdigungen:local",
   "priority": "P2",
-  "status": "manual-priority-local-seo-2026-06-22",
+  "status": "manual-local-hold-for-evidence-2026-07-29",
   "enabled": true,
   "seoTitle": "Trauermusik Mettmann | Viola für Abschied",
   "seoDescription": "Trauermusik Mettmann: würdevolle Viola für Trauerfeier und Abschied in Mettmann. Ablauf, Wunschmusik und Preis transparent klären.",
@@ -73,7 +73,7 @@
       "alt": "Kim Marie Borger hält ihre Viola vor einem See"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.\n\nLocal Evidence Hold 2026-07-29: Die URL bleibt indexierbar und selbstkanonisch, weil ohne aktuelle GSC- und Anfrage-Daten keine belastbare Zusammenlegung, Weiterleitung oder Deindexierung entschieden werden kann. Bis reale lokale Belege, bestätigtes Einsatzgebiet oder seitenspezifische Nachfrage vorliegen, werden keine zusätzlichen Ortsbehauptungen erfunden.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik in Mettmann anfragen",

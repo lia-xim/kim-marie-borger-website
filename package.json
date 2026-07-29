@@ -33,6 +33,7 @@
     "tracker:local-seo": "node scripts/local-seo-tracker.mjs",
     "tracker:seo-pages": "node scripts/seo-page-tracker.mjs",
     "seo:clean-public-copy": "node scripts/clean-public-seo-copy.mjs",
+    "seo:classify-local-hold": "node scripts/classify-local-evidence-hold-cohort.mjs",
     "seo:sync-overrides": "node scripts/sync-seo-page-overrides.mjs",
     "keywords:map": "node scripts/build-keyword-opportunities.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",

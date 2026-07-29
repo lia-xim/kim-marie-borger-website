@@ -6,7 +6,7 @@
   "targetKeyword": "Geigenunterricht Duisburg",
   "intentCluster": "unterricht:local",
   "priority": "P2",
-  "status": "geige-expansion-2026-06-23-review-needed",
+  "status": "manual-local-hold-for-evidence-2026-07-29",
   "enabled": true,
   "seoTitle": "Geigenunterricht Duisburg | Geige lernen",
   "seoDescription": "Geigenunterricht Duisburg: Geigen- und Bratschenunterricht für Kinder und Erwachsene in Duisburg. Probestunde, Ziele und Unterrichtsrhythmus transparent klären.",
@@ -136,7 +136,7 @@
       "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.",
+  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.\n\nLocal Evidence Hold 2026-07-29: Die URL bleibt indexierbar und selbstkanonisch, weil ohne aktuelle GSC- und Anfrage-Daten keine belastbare Zusammenlegung, Weiterleitung oder Deindexierung entschieden werden kann. Bis reale lokale Belege, bestätigtes Einsatzgebiet oder seitenspezifische Nachfrage vorliegen, werden keine zusätzlichen Ortsbehauptungen erfunden.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
     "title": "Geigenunterricht in Duisburg anfragen",

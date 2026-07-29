@@ -196,6 +196,7 @@ function groupBy(values, keyFn) {
 
 function isRewrittenStatus(status) {
 	const value = String(status ?? '').toLowerCase();
+	if (value.startsWith('manual-local-hold-for-evidence-')) return false;
 	return value === 'ready'
 		|| value.startsWith('rewritten-')
 		|| value.startsWith('risk-pass-')
@@ -310,6 +311,7 @@ for (const row of rows) {
 	else row.risk = 'low';
 
 	if (!row.cmsOverride) row.action = 'create-cms-doc';
+	else if (String(row.editorStatus).startsWith('manual-local-hold-for-evidence-')) row.action = 'hold-for-evidence';
 	else if (row.risk === 'high') row.action = 'rewrite-differentiate';
 	else if (row.faqCount < 3) row.action = 'add-faq';
 	else if (row.emptyAltCount > 0 || row.uniqueAltCount < Math.min(2, row.uniqueImageSrcCount)) row.action = 'improve-image-alts';

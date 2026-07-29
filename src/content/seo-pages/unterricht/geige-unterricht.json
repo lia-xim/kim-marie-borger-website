@@ -4,56 +4,29 @@
   "pageSlug": "geige-unterricht",
   "route": "/unterricht/geige-unterricht/",
   "targetKeyword": "Geige Unterricht",
-  "intentCluster": "unterricht:geige-unterricht",
+  "intentCluster": "unterricht:regelmaessiger-geigenunterricht",
   "priority": "P2",
-  "status": "geige-expansion-2026-06-23-review-needed",
+  "status": "manual-intent-differentiated-2026-07-29",
   "enabled": true,
   "seoTitle": "Geige Unterricht | Geigenunterricht strukturiert",
   "seoDescription": "Geige Unterricht: Unterricht für Geige, Bratsche oder Viola mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
   "hero": {
     "eyebrow": "Geige Unterricht",
-    "title": "Geige Unterricht: ruhig aufgebaut, persönlich begleitet.",
-    "lead": "Geige Unterricht mit klarem Fundament: Haltung, Bogenführung, Intonation, Übestruktur und Stücke, die wirklich motivieren.",
+    "title": "Geigenunterricht mit einem klaren Ziel für jede Stunde.",
+    "lead": "Regelmäßiger Unterricht für alle, die nicht nur Stücke wiederholen, sondern Klang, Haltung und Sicherheit nachvollziehbar weiterentwickeln möchten.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Unterrichtsform\nKlang & Technik\npersönlich",
+    "seal": "Geige\nStunde für Stunde\nweiterkommen",
     "sections": [
       {
-        "title": "Geige Unterricht heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
-        "lede": "Für die Planung sind drei Fragen wichtig: Welche Rolle soll der Unterricht übernehmen, wie viel Raum braucht das Lernziel, und welche Vorbereitung macht den Einstieg leichter?",
+        "eyebrow": "Die Probestunde",
+        "title": "Zuerst hören, dann planen.",
+        "lede": "In der ersten Stunde geht es nicht darum, möglichst viel Stoff unterzubringen. Ich möchte hören und sehen, was bereits funktioniert und wo das Spielen unnötig schwer wird.",
         "paragraphs": [
-          "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
-          "Jede Stunde hat einen Schwerpunkt, eine musikalische Anwendung und eine kleine Aufgabe für die nächste Woche.",
-          "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
-          "Stücke werden so gewählt, dass sie Technik, Klang und Motivation gleichzeitig bedienen.",
-          "Geige Unterricht funktioniert am besten, wenn Korrekturen direkt verständlich sind und zu Hause erinnerbar bleiben."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
-        },
-        "imageFirst": false,
-        "eyebrow": "Unterricht mit klarem Fokus"
-      },
-      {
-        "title": "Geige Unterricht im Ablauf sinnvoll einsetzen.",
-        "lede": "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
-        "paragraphs": [
-          "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
-          "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt."
-        ],
-        "image": {
-          "src": "/uploads/_DSC7270.webp",
-          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Entscheidend sind Lernstand, Instrument, Ziel, Unterrichtsort, Wochenrhythmus und realistische Übezeit.",
-        "paragraphs": [
-          "Für die Planung sind Tonbildung, Resonanz, ruhige Artikulation, tragende Melodielinie die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll."
+          "Wir schauen auf Instrument, Haltung, Bogenweg, linke Hand und Rhythmus. Wer schon spielt, bringt am besten ein Stück oder eine Stelle mit, die gerade Fragen aufwirft.",
+          "Danach legen wir ein erstes Ziel fest. Das kann ein freierer Ton, eine sichere Griffstelle, ein besser lesbarer Rhythmus oder der Wiedereinstieg in ein früher gespieltes Stück sein.",
+          "So entsteht kein Standardprogramm, sondern ein Unterrichtsweg, der zum tatsächlichen Stand passt."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -62,10 +35,43 @@
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
+        "eyebrow": "In der Stunde",
+        "title": "Eine Priorität, die hörbar wird.",
+        "lede": "Eine gute Unterrichtsstunde hat einen roten Faden. Wir wählen einen Schwerpunkt und übertragen ihn direkt in Musik.",
+        "paragraphs": [
+          "Ich erkläre eine Bewegung oder Klangidee, spiele sie vor und lasse Zeit zum Ausprobieren. Rückmeldung gibt es so konkret, dass du den Unterschied selbst hören oder spüren kannst.",
+          "Technik bleibt dabei kein isoliertes Training. Ein Bogenwechsel, eine Griffverbindung oder eine rhythmische Stelle wird immer an einem musikalischen Zusammenhang geübt.",
+          "Wenn ein Ansatz nicht funktioniert, suchen wir einen anderen. Unterricht soll Probleme verständlicher machen, nicht zusätzliche Rätsel erzeugen."
+        ],
+        "image": {
+          "src": "/uploads/_DSC7270.webp",
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
+        },
+        "imageFirst": true
+      },
+      {
+        "eyebrow": "Zwischen den Terminen",
+        "title": "Üben ohne vages „noch einmal spielen“.",
+        "lede": "Am Ende der Stunde ist klar, welche wenigen Aufgaben bis zum nächsten Termin wichtig sind.",
+        "paragraphs": [
+          "Zu jeder Aufgabe gehört ein hörbares oder spürbares Ziel: etwa ein ruhiger Bogenkontakt, eine saubere Verbindung oder ein Rhythmus, der ohne Stocken läuft.",
+          "Kurze, wiederholbare Abschnitte sind meist hilfreicher als ein kompletter Durchlauf mit denselben Unsicherheiten. Der Übeplan wird deshalb an die verfügbare Zeit angepasst.",
+          "Beim nächsten Termin prüfen wir zuerst, was sich verändert hat, und entscheiden dann über den nächsten Schritt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
+        },
+        "imageFirst": false
+      },
+      {
+        "eyebrow": "Passt das?",
+        "title": "Regelmäßigkeit ist wichtiger als Tempo.",
         "lede": "Entscheidend sind Lernstand, Instrument, Ziel, Unterrichtsort, Wochenrhythmus und realistische Übezeit.",
         "paragraphs": [
-          "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob eine Probestunde, regelmäßiger Unterricht, ein Technikschwerpunkt oder die Vorbereitung auf ein konkretes Ziel passend ist."
+          "Du musst weder vorspielen können noch ein bestimmtes Niveau erreicht haben. Wichtig ist die Bereitschaft, Fragen offen anzuschauen und kleine Veränderungen zu wiederholen.",
+          "Wenn du erst klären möchtest, ob die Geige überhaupt zu dir passt, ist die Seite „Geige lernen“ der passendere Einstieg. Für Kinder und Erwachsene gibt es außerdem eigene Entscheidungshilfen.",
+          "In der Anfrage helfen Alter, Vorerfahrung, Instrument, Ziel und ein realistischer Terminrhythmus."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
@@ -77,40 +83,28 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Geige Unterricht",
+    "title": "Fragen zu Geige Unterricht",
     "items": [
       {
-        "question": "Für wen passt der Unterricht?",
-        "answer": "Der Unterricht passt für Suchende, die nach konkretem Geige Unterricht statt allgemeiner Musikschule suchen. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
+        "question": "Was unterscheidet regelmäßigen Geigenunterricht von einer einzelnen Beratung?",
+        "answer": "Im regelmäßigen Unterricht bauen die Stunden aufeinander auf. Veränderungen bei Klang, Haltung, Rhythmus und Repertoire werden überprüft und Schritt für Schritt weitergeführt.",
         "open": true
       },
       {
-        "question": "Gibt es eine kostenlose Probestunde?",
-        "answer": "Ja. In der Probestunde schauen wir gemeinsam auf Instrument, Vorerfahrung, Ziele und die Frage, welcher Unterrichtsrhythmus realistisch ist."
+        "question": "Muss ich ein Stück vorspielen?",
+        "answer": "Nein. Wenn du bereits spielst, ist ein aktuelles Stück hilfreich, aber keine Prüfung. Anfänger:innen können ohne vorbereitetes Repertoire beginnen."
       },
       {
-        "question": "Muss ich schon Noten lesen können?",
-        "answer": "Nein. Notenlesen kann Teil des Unterrichts sein und wird direkt mit dem Spielen verbunden, damit Theorie nicht losgelöst vom Instrument bleibt."
+        "question": "Wie sieht eine Übeaufgabe aus?",
+        "answer": "Sie benennt eine konkrete Stelle, eine Vorgehensweise und ein hörbares oder spürbares Ziel. So ist zu Hause klar, woran du arbeitest."
       },
       {
-        "question": "Kann ich als Erwachsene:r noch anfangen?",
-        "answer": "Ja. Erwachsene lernen oft sehr bewusst. Wichtig ist ein Übeplan, der in den Alltag passt und nicht mit unrealistischen Erwartungen beginnt."
+        "question": "Kann der Schwerpunkt im Verlauf wechseln?",
+        "answer": "Ja. Lernziele verändern sich. Wir überprüfen regelmäßig, ob Technik, Stückauswahl und Unterrichtsrhythmus noch zum Alltag und zum musikalischen Ziel passen."
       },
       {
-        "question": "Ist Unterricht auch für Kinder möglich?",
-        "answer": "Ja, wenn Instrumentengröße, Konzentrationsspanne und Aufgaben gut gewählt sind. Bei Kindern beziehe ich die Eltern mit ein, ohne das Üben zu Hause zu kompliziert zu machen."
-      },
-      {
-        "question": "Welche Musik wird im Unterricht gespielt?",
-        "answer": "Das hängt von Lernstand und Ziel ab. Klassische Grundlagen, kleine Melodien, Etüden, Filmmusik oder persönliche Wünsche können sinnvoll kombiniert werden."
-      },
-      {
-        "question": "Wann passt Geige Unterricht besonders gut?",
-        "answer": "Das passt besonders, wenn Lernstand, Ziel und verfügbare Übezeit gemeinsam geplant werden sollen."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich klären, ob ein Unterrichtseinstieg, ein Technikfokus, ein Wiedereinstieg oder eine regelmäßige Begleitung passend ist."
+        "question": "Welche Angaben gehören in die erste Anfrage?",
+        "answer": "Hilfreich sind Alter, Vorerfahrung, vorhandenes Instrument, aktuelles Ziel, mögliche Termine und die Zeit, die zwischen zwei Stunden realistisch zum Üben bleibt."
       }
     ]
   },
@@ -124,14 +118,15 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nManuell redaktionell differenziert am 29.07.2026: eigenständige Nutzeraufgabe, natürlicher Einstieg, konkrete Lernentscheidungen und passende FAQ; URL bleibt bis zu Query- und Conversiondaten als Messseite bestehen.",
   "contact": {
     "eyebrow": "Unterricht anfragen",
-    "title": "Geige Unterricht anfragen",
-    "lead": "Schreib mir kurz, ob du neu anfängst, wieder einsteigst oder für ein Kind suchst. Dann kann ich einschätzen, wie Geige Unterricht sinnvoll beginnen kann.",
+    "title": "Regelmäßigen Geigenunterricht anfragen",
+    "lead": "Schreib mir, was du gerade spielst oder neu lernen möchtest und wo es hakt. Dann klären wir, ob eine Probestunde und welcher Unterrichtsrhythmus sinnvoll sind.",
     "checklist": [
       "Geige Unterricht",
       "Lernstand",
+      "Instrument",
       "Probestunde"
     ],
     "formEyebrow": "Direkt anfragen",
@@ -141,35 +136,35 @@
   },
   "focus": {
     "eyebrow": "Lernbereiche",
-    "title": "Schwerpunkte im Geige Unterricht.",
-    "lead": "Die Gewichtung verändert sich je nach Person. Damit der Unterricht greifbar bleibt, arbeiten wir mit klaren Bausteinen.",
+    "title": "Worum es bei Geige Unterricht konkret geht.",
+    "lead": "Vier Punkte, an denen sich diese Unterrichtsaufgabe von den benachbarten Einstiegen unterscheidet.",
     "items": [
       {
-        "time": "Körper",
-        "kicker": "Haltung",
-        "title": "Entspannt spielen statt gegen das Instrument arbeiten",
-        "text": "Eine gute Haltung macht den Klang freier und verhindert, dass Üben unnötig anstrengend wird."
+        "time": "Hören",
+        "kicker": "Bestandsaufnahme",
+        "title": "Erkennen, was schon trägt",
+        "text": "Wir beginnen bei deinem tatsächlichen Klang und nicht bei einem vorgegebenen Lehrplan."
       },
       {
-        "time": "Bogen",
-        "kicker": "Ton",
-        "title": "Klang bewusst formen",
-        "text": "Bogenkontakt, Geschwindigkeit und Gewicht werden so erklärt, dass du den Unterschied hören und wiederholen kannst."
+        "time": "Verstehen",
+        "kicker": "Rückmeldung",
+        "title": "Eine Änderung nachvollziehen",
+        "text": "Hinweise werden vorgespielt, ausprobiert und so formuliert, dass du sie selbst überprüfen kannst."
       },
       {
-        "time": "Musik",
-        "kicker": "Stücke",
-        "title": "Übungen in echte Musik übertragen",
-        "text": "Jede Technik bekommt eine musikalische Anwendung, damit Fortschritt nicht nur im Übeheft stattfindet."
+        "time": "Übertragen",
+        "kicker": "Musik",
+        "title": "Technik im Stück anwenden",
+        "text": "Jeder technische Schwerpunkt bekommt sofort einen musikalischen Zusammenhang."
       },
       {
-        "time": "Alltag",
-        "kicker": "Üben",
-        "title": "Kleine Aufgaben mit klarer Wirkung",
-        "text": "Zu Hause geht es um wenige Prioritäten, die du verstehst und regelmäßig umsetzen kannst."
+        "time": "Fortsetzen",
+        "kicker": "Übeplan",
+        "title": "Mit wenigen Aufgaben weiterarbeiten",
+        "text": "Zwischen den Terminen bleibt eine überschaubare Priorität statt einer langen Wunschliste."
       }
     ],
-    "footnote": "Geige Unterricht wird nach Lernziel, Alter, Alltag und Vorerfahrung geplant."
+    "footnote": "Die genaue Gewichtung entsteht aus Lernstand, Instrument, Ziel und dem Alltag zwischen zwei Terminen."
   },
   "elegy": {
     "passages": []

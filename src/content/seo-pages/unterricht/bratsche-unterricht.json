@@ -4,56 +4,29 @@
   "pageSlug": "bratsche-unterricht",
   "route": "/unterricht/bratsche-unterricht/",
   "targetKeyword": "Bratsche Unterricht",
-  "intentCluster": "unterricht:topic",
+  "intentCluster": "unterricht:regelmaessiger-bratschenunterricht",
   "priority": "P2",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "status": "manual-intent-differentiated-2026-07-29",
   "enabled": true,
   "seoTitle": "Bratsche Unterricht | Viola lernen",
   "seoDescription": "Bratsche Unterricht: Unterricht für Viola oder Bratsche mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
   "hero": {
     "eyebrow": "Unterrichtsform",
-    "title": "Bratsche Unterricht mit klarer Struktur und persönlichem Tempo.",
-    "lead": "Bratsche Unterricht richtet sich an Suchende, die nach konkretem Bratsche Unterricht statt allgemeiner Musikschule suchen. Der Unterricht verbindet geduldige Technik, musikalische Neugier und Aufgaben, die zwischen den Stunden wirklich funktionieren.",
+    "title": "Bratschenunterricht für einen tragfähigen, warmen Klang.",
+    "lead": "Regelmäßige Begleitung für Bratschist:innen, die Bogenkontakt, linke Hand, Altschlüssel und musikalische Sicherheit gezielt weiterentwickeln möchten.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Unterrichtsform\nKlang & Technik\npersönlich",
+    "seal": "Bratsche\nKlang tragen\nsicher spielen",
     "sections": [
       {
-        "title": "Bratsche Unterricht heißt: nicht alles gleichzeitig, sondern der nächste sinnvolle Schritt.",
-        "lede": "Für die Planung sind drei Fragen wichtig: Welche Rolle soll der Unterricht übernehmen, wie viel Raum braucht das Lernziel, und welche Vorbereitung macht den Einstieg leichter?",
+        "eyebrow": "Ausgangspunkt",
+        "title": "Bratsche neu beginnen oder von der Geige wechseln.",
+        "lede": "Die Bratsche ähnelt der Geige, reagiert aber nicht in jeder Bewegung gleich. Größe, Saitenansprache und die eigene Klangvorstellung brauchen Aufmerksamkeit.",
         "paragraphs": [
-          "Der Unterricht beginnt mit einer ehrlichen Bestandsaufnahme: Gibt es Vorerfahrung, ein eigenes Instrument, Notenkenntnisse, ein bestimmtes Ziel oder eher den Wunsch, überhaupt erst herauszufinden, ob Bratsche oder Viola passt?",
-          "Jede Stunde hat einen Schwerpunkt, eine musikalische Anwendung und eine kleine Aufgabe für die nächste Woche.",
-          "Technisch arbeiten wir an Haltung, Bogenführung, linker Hand, Intonation und Rhythmus. Diese Begriffe bleiben aber nicht abstrakt: Wir übersetzen sie in konkrete Bewegungen, kleine Hörziele und Stücke, die zum aktuellen Stand passen.",
-          "Stücke werden so gewählt, dass sie Technik, Klang und Motivation gleichzeitig bedienen.",
-          "Bratsche Unterricht funktioniert am besten, wenn Korrekturen direkt verständlich sind und zu Hause erinnerbar bleiben."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
-        },
-        "imageFirst": false,
-        "eyebrow": "Unterricht mit klarem Fokus"
-      },
-      {
-        "title": "Bratsche Unterricht im Ablauf sinnvoll einsetzen.",
-        "lede": "Eine gute Stunde endet nicht mit einem vagen „üb das mal“. Du bekommst eine überschaubare Aufgabe, einen musikalischen Fokus und einen Hinweis, woran du zu Hause merkst, dass es besser wird.",
-        "paragraphs": [
-          "Außerdem sprechen wir darüber, wie Lernen zwischen zwei Terminen aussieht. Manche brauchen eine feste Reihenfolge, andere kurze Klangaufgaben oder eine Stelle, die jeden Tag nur wenige Minuten Aufmerksamkeit bekommt.",
-          "Wenn du unsicher bist, ob Bratsche oder Viola für dich passt, ist die Probestunde der richtige Einstieg. Dort klären wir Körpergefühl, Klangvorstellung, mögliche Instrumentengröße und den nächsten realistischen Schritt."
-        ],
-        "image": {
-          "src": "/uploads/_DSC7270.webp",
-          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Entscheidend sind Lernstand, Instrument, Ziel, Unterrichtsort, Wochenrhythmus und realistische Übezeit.",
-        "paragraphs": [
-          "Für die Planung sind Tonbildung, Resonanz, ruhige Artikulation, tragende Melodielinie die ersten Stellschrauben. Aus ihnen ergibt sich, ob der Unterricht geduldig, technisch, klanglich, motivierend oder prüfend wirken soll."
+          "Wer von der Geige kommt, bringt viel mit, muss aber nicht jede Gewohnheit unverändert übertragen. Wir prüfen Bogenkontakt, Griffabstände und die Balance des Instruments neu.",
+          "Wer direkt mit der Bratsche beginnt, baut Haltung, Ton und Notation ohne Umweg auf.",
+          "In der Probestunde klären wir, welches Instrument vorhanden ist, wie es sich körperlich anfühlt und welches musikalische Ziel im Vordergrund steht."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -62,10 +35,43 @@
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Entscheidend sind Lernstand, Instrument, Ziel, Unterrichtsort, Wochenrhythmus und realistische Übezeit.",
+        "eyebrow": "Tonbildung",
+        "title": "Die tiefen Saiten brauchen Kontakt, keine Härte.",
+        "lede": "Ein voller Bratschenklang entsteht aus einem passenden Verhältnis von Bogenweg, Geschwindigkeit, Gewicht und Kontaktstelle.",
         "paragraphs": [
-          "Eine gute Anfrage nennt Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich schnell unterscheiden, ob eine Probestunde, regelmäßiger Unterricht, ein Technikschwerpunkt oder die Vorbereitung auf ein konkretes Ziel passend ist."
+          "Wir hören, wann der Ton trägt und wann mehr Druck ihn nur enger macht. Die Veränderung wird direkt auf langen Tönen und im aktuellen Stück erprobt.",
+          "Saitenwechsel werden so vorbereitet, dass der Klang nicht an jedem Übergang abreißt.",
+          "Die linke Hand bleibt beweglich, damit größere Griffabstände nicht durch unnötiges Festhalten kompensiert werden."
+        ],
+        "image": {
+          "src": "/uploads/_DSC7270.webp",
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
+        },
+        "imageFirst": true
+      },
+      {
+        "eyebrow": "Lesen und Zusammenspiel",
+        "title": "Altschlüssel und innere Stimme sicher erfassen.",
+        "lede": "Der Altschlüssel wird nicht als isolierte Zusatzaufgabe behandelt, sondern mit Griff, Ton und musikalischem Verlauf verbunden.",
+        "paragraphs": [
+          "Kurze Lesemuster helfen, vertraute Griffbilder aufzubauen. Bei einem Wechsel von der Geige trennen wir bewusst alte Lesereflexe von der neuen Notation.",
+          "Ensemble- oder Orchesterstellen können einbezogen werden. Gerade Mittelstimmen verlangen ein gutes Gefühl für Puls, Harmonie und die Stimmen um sie herum.",
+          "So entsteht Sicherheit nicht nur beim Alleinspielen, sondern auch in der musikalischen Funktion der Bratsche."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
+        },
+        "imageFirst": false
+      },
+      {
+        "eyebrow": "Regelmäßiger Weg",
+        "title": "Unterricht, der am aktuellen Repertoire ansetzt.",
+        "lede": "Der Schwerpunkt kann zwischen Klang, Technik, Lesesicherheit und Vorbereitung auf Zusammenspiel wechseln.",
+        "paragraphs": [
+          "Jede Stunde endet mit wenigen klaren Aufgaben und einer Vorstellung davon, woran Fortschritt hörbar wird.",
+          "Wenn du erst herausfinden möchtest, ob die Bratsche zu dir passt, ist „Bratsche lernen“ der passendere Einstieg. Altersbezogene Fragen werden auf den Kinder- und Erwachsenenseiten beantwortet.",
+          "Für eine Anfrage helfen Vorerfahrung, Instrument, aktuelle Stücke, Ensemblebezug und mögliche Unterrichtstermine."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
@@ -77,40 +83,28 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Bratsche Unterricht",
+    "title": "Fragen zu Bratsche Unterricht",
     "items": [
       {
-        "question": "Für wen passt der Unterricht?",
-        "answer": "Der Unterricht passt für Suchende, die nach konkretem Bratsche Unterricht statt allgemeiner Musikschule suchen. Entscheidend ist nicht Perfektion, sondern ein Unterrichtsrahmen, der zu Lernstand und Alltag passt.",
+        "question": "Kann ich von der Geige zur Bratsche wechseln?",
+        "answer": "Ja. Viele Grundlagen lassen sich nutzen, während Größe, Ansprache, Griffabstände und Altschlüssel bewusst neu eingeordnet werden.",
         "open": true
       },
       {
-        "question": "Gibt es eine kostenlose Probestunde?",
-        "answer": "Ja. In der Probestunde schauen wir gemeinsam auf Instrument, Vorerfahrung, Ziele und die Frage, welcher Unterrichtsrhythmus realistisch ist."
+        "question": "Wird der Altschlüssel im Unterricht erklärt?",
+        "answer": "Ja. Er wird direkt mit Griffbildern, Hören und dem aktuellen Repertoire verbunden."
       },
       {
-        "question": "Muss ich schon Noten lesen können?",
-        "answer": "Nein. Notenlesen kann Teil des Unterrichts sein und wird direkt mit dem Spielen verbunden, damit Theorie nicht losgelöst vom Instrument bleibt."
+        "question": "Kann ich Orchesterstellen mitbringen?",
+        "answer": "Ja. Ensemble- und Orchesterliteratur eignet sich gut, um Puls, Klangfunktion, Lesesicherheit und technische Fragen zusammenzubringen."
       },
       {
-        "question": "Kann ich als Erwachsene:r noch anfangen?",
-        "answer": "Ja. Erwachsene lernen oft sehr bewusst. Wichtig ist ein Übeplan, der in den Alltag passt und nicht mit unrealistischen Erwartungen beginnt."
+        "question": "Brauche ich bereits eine eigene Bratsche?",
+        "answer": "Für regelmäßiges Üben wird ein passendes Instrument benötigt. Vor Kauf oder Miete sollte Größe und Spielbarkeit geklärt werden."
       },
       {
-        "question": "Ist Unterricht auch für Kinder möglich?",
-        "answer": "Ja, wenn Instrumentengröße, Konzentrationsspanne und Aufgaben gut gewählt sind. Bei Kindern beziehe ich die Eltern mit ein, ohne das Üben zu Hause zu kompliziert zu machen."
-      },
-      {
-        "question": "Welche Musik wird im Unterricht gespielt?",
-        "answer": "Das hängt von Lernstand und Ziel ab. Klassische Grundlagen, kleine Melodien, Etüden, Filmmusik oder persönliche Wünsche können sinnvoll kombiniert werden."
-      },
-      {
-        "question": "Wann passt Bratsche Unterricht besonders gut?",
-        "answer": "Das passt besonders, wenn Lernstand, Ziel und verfügbare Übezeit gemeinsam geplant werden sollen."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Lernstand, Alter, Ziel, bisheriges Instrument, Unterrichtsrhythmus, Übezeit und mögliche Probestunde. Damit lässt sich klären, ob ein Unterrichtseinstieg, ein Technikfokus, ein Wiedereinstieg oder eine regelmäßige Begleitung passend ist."
+        "question": "Was sollte in meiner Anfrage stehen?",
+        "answer": "Hilfreich sind Vorerfahrung auf Bratsche oder Geige, Instrument, Repertoire, Ziel, Ensemblebezug und mögliche Termine."
       }
     ]
   },
@@ -124,14 +118,15 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nManuell redaktionell differenziert am 29.07.2026: eigenständige Nutzeraufgabe, natürlicher Einstieg, konkrete Lernentscheidungen und passende FAQ; URL bleibt bis zu Query- und Conversiondaten als Messseite bestehen.",
   "contact": {
     "eyebrow": "Unterricht anfragen",
-    "title": "Bratsche Unterricht anfragen",
-    "lead": "Schreib mir kurz, ob du neu anfängst, wieder einsteigst oder für ein Kind suchst. Dann kann ich einschätzen, wie Bratsche Unterricht sinnvoll beginnen kann.",
+    "title": "Regelmäßigen Bratschenunterricht anfragen",
+    "lead": "Schreib mir, ob du direkt mit der Bratsche beginnst, von der Geige wechselst oder an konkretem Repertoire arbeitest. Dann planen wir die Probestunde.",
     "checklist": [
       "Bratsche Unterricht",
       "Lernstand",
+      "Instrument",
       "Probestunde"
     ],
     "formEyebrow": "Direkt anfragen",
@@ -140,35 +135,35 @@
   },
   "focus": {
     "eyebrow": "Lernbereiche",
-    "title": "Was bei Bratsche Unterricht konkret aufgebaut wird.",
-    "lead": "Die Gewichtung verändert sich je nach Person. Damit der Unterricht greifbar bleibt, arbeiten wir mit klaren Bausteinen.",
+    "title": "Worum es bei Bratsche Unterricht konkret geht.",
+    "lead": "Vier Punkte, an denen sich diese Unterrichtsaufgabe von den benachbarten Einstiegen unterscheidet.",
     "items": [
       {
-        "time": "Körper",
-        "kicker": "Haltung",
-        "title": "Entspannt spielen statt gegen das Instrument arbeiten",
-        "text": "Eine gute Haltung macht den Klang freier und verhindert, dass Üben unnötig anstrengend wird."
+        "time": "Balance",
+        "kicker": "Instrument",
+        "title": "Größe und Haltung abstimmen",
+        "text": "Die Bratsche soll getragen werden, ohne dass Schulter und linke Hand dauerhaft festhalten."
       },
       {
-        "time": "Bogen",
-        "kicker": "Ton",
-        "title": "Klang bewusst formen",
-        "text": "Bogenkontakt, Geschwindigkeit und Gewicht werden so erklärt, dass du den Unterschied hören und wiederholen kannst."
+        "time": "Resonanz",
+        "kicker": "Bogen",
+        "title": "Tiefe Saiten frei ansprechen",
+        "text": "Bogenweg und Kontakt werden so angepasst, dass der Ton trägt statt gedrückt zu wirken."
       },
       {
-        "time": "Musik",
-        "kicker": "Stücke",
-        "title": "Übungen in echte Musik übertragen",
-        "text": "Jede Technik bekommt eine musikalische Anwendung, damit Fortschritt nicht nur im Übeheft stattfindet."
+        "time": "Orientierung",
+        "kicker": "Altschlüssel",
+        "title": "Lesen mit Hören verbinden",
+        "text": "Notation wird direkt in Griffbilder und musikalische Zusammenhänge übersetzt."
       },
       {
-        "time": "Alltag",
-        "kicker": "Üben",
-        "title": "Kleine Aufgaben mit klarer Wirkung",
-        "text": "Zu Hause geht es um wenige Prioritäten, die du verstehst und regelmäßig umsetzen kannst."
+        "time": "Funktion",
+        "kicker": "Ensemble",
+        "title": "Die innere Stimme gestalten",
+        "text": "Puls, Harmonie und das Hören auf andere Stimmen gehören zum Bratschenspiel."
       }
     ],
-    "footnote": "Bratsche Unterricht wird je nach Alter, Vorerfahrung und Ziel individuell geplant."
+    "footnote": "Die genaue Gewichtung entsteht aus Lernstand, Instrument, Ziel und dem Alltag zwischen zwei Terminen."
   },
   "elegy": {
     "passages": []

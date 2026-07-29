@@ -1,6 +1,6 @@
 # Local SEO Seiten-Tracker
 
-Generiert: 2026-07-29T19:35:51.891Z
+Generiert: 2026-07-29T21:29:09.260Z
 
 Dieser Tracker bewertet die lokalen Seiten aus dem gerenderten HTML in `dist/client`. Die komplette Matrix liegt in `seo/local-page-tracker.csv`; diese Datei ist die Arbeitsgrundlage fuer Filter, Priorisierung und SEO-Software.
 
