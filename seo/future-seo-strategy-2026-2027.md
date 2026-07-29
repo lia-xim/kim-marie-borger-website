@@ -45,7 +45,7 @@ Nicht-Ziele:
 | Dokumentierte manuelle Kohorten | 23 P1-Seiten und 25 eindeutige Indexierungs-/Intent-Seiten | Diese 48 Seiten besitzen eine aktuelle Einzelentscheidung; das ersetzt noch keine Such- oder Conversionmessung. |
 | Redaktioneller Reststatus | 361 Dokumente mit `review-needed`; 78 ältere `manual-priority-local`-Status ohne aktuellen Messvertrag | Automatische oder ältere Batch-Status sind keine aktuelle menschliche Freigabe. |
 | Frischer technischer Prüfstand | 487/487 CMS-Dokumente gerendert, editierbar und in der Sitemap; Audit 0 Fehler/0 Warnungen | Lokaler und Vercel-statischer Build sind grün. |
-| Produktionsprüfung | Deployment `dpl_3RkDDwWimddeB9TBDXBcokzFmfRF` ist `READY`; 487/487 öffentliche Routen, Tina-Endpunkte und Formular-Payloads bestanden die HTTP-Prüfung | Der Arbeitsstand ist auf der Hauptdomain technisch live bestätigt. |
+| Produktionsprüfung | Der vollständige HTTP-Prüflauf bestand auf `dpl_3RkDDwWimddeB9TBDXBcokzFmfRF`; das commitgebundene Deployment `dpl_E5RcpzotAihJhuXHwQgh9MQiSjJr` ist `READY` und aktuell auf der Hauptdomain | 487/487 öffentliche Routen, Tina-Endpunkte und Formular-Payloads waren fehlerfrei; der gesicherte Arbeitsstand ist live. |
 | Aktueller Ähnlichkeitstracker | 82 strenge High-Risk-Detailseiten: 72 lokale Nicht-P1-Seiten und 10 Unterrichts-Themenseiten | Kein pauschaler Rewrite: zuerst echte Ortsbelege beziehungsweise Query-/Intentdaten beschaffen. |
 
 Die vollständige aktuelle URL-Klassifikation steht im
@@ -415,7 +415,9 @@ AI-Detektoren oder Sonderzeichenregeln werden nicht als belastbare Strategie
 übernommen.
 
 Der Stand dieses Dokuments beschreibt Repository-, Planungs- und Releasearbeit.
-Die neuen Copy-, Hub- und Ratgeberänderungen sind seit dem Deployment
-`dpl_3RkDDwWimddeB9TBDXBcokzFmfRF` öffentlich und per Live-HTTP geprüft.
+Die neuen Copy-, Hub- und Ratgeberänderungen wurden auf
+`dpl_3RkDDwWimddeB9TBDXBcokzFmfRF` vollständig per Live-HTTP geprüft. Das
+commitgebundene Folge-Deployment `dpl_E5RcpzotAihJhuXHwQgh9MQiSjJr` liefert
+denselben öffentlichen Seitenstand auf der Hauptdomain aus.
 Auswirkungen auf Indexierung, Rankings und Anfragen werden erst nach erneutem Crawl
 und dem definierten Messfenster bewertet.

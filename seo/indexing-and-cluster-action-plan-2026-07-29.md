@@ -195,8 +195,10 @@ per 301 auf die intentgleiche Gewinner-URL weitergeleitet.
 - [x] Tracker gegen den frischen Build neu erzeugen: 487 Detailseiten,
   487 CMS-Dokumente und 487 Sitemap-Treffer.
 - [x] Änderungen veröffentlichen und anschließend auf der Hauptdomain
-  verifizieren: Deployment `dpl_3RkDDwWimddeB9TBDXBcokzFmfRF`, 487/487
-  öffentliche SEO-Routen, Tina-Endpunkte und Formular-Payloads bestanden.
+  verifizieren: vollständiger Prüflauf auf
+  `dpl_3RkDDwWimddeB9TBDXBcokzFmfRF`, commitgebundener Live-Stand
+  `dpl_E5RcpzotAihJhuXHwQgh9MQiSjJr`; 487/487 öffentliche SEO-Routen,
+  Tina-Endpunkte und Formular-Payloads bestanden.
 
 ### Nach dem nächsten Crawl
 
