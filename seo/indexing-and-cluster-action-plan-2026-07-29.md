@@ -196,9 +196,9 @@ per 301 auf die intentgleiche Gewinner-URL weitergeleitet.
   487 CMS-Dokumente und 487 Sitemap-Treffer.
 - [x] Änderungen veröffentlichen und anschließend auf der Hauptdomain
   verifizieren: vollständiger Prüflauf auf
-  `dpl_3RkDDwWimddeB9TBDXBcokzFmfRF`, commitgebundener Live-Stand
-  `dpl_E5RcpzotAihJhuXHwQgh9MQiSjJr`; 487/487 öffentliche SEO-Routen,
-  Tina-Endpunkte und Formular-Payloads bestanden.
+  `dpl_3RkDDwWimddeB9TBDXBcokzFmfRF`; der aktuelle commitgebundene
+  `main`-Stand ist `READY`. 487/487 öffentliche SEO-Routen, Tina-Endpunkte
+  und Formular-Payloads bestanden.
 
 ### Nach dem nächsten Crawl
 
