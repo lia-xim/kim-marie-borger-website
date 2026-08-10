@@ -898,7 +898,7 @@ function rewriteWeddingBlock(block: AnyBlock, page: LocalSeoPage): AnyBlock {
 						kicker: 'Das Versprechen',
 						title: 'Trauung & Ringe',
 						text: 'Leise Musik für Ringtausch, Ja-Wort oder Unterschrift - flexibel abgestimmt auf den Ablauf.',
-						piece: 'z. B. Méditation · Massenet',
+						piece: 'z. B. Marry You · Bruno Mars',
 					},
 					{
 						kicker: 'Der Jubel',

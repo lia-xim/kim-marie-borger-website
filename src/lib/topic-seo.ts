@@ -274,7 +274,7 @@ const CORE_TOPIC_SEO_PAGES: TopicSeoPage[] = [
 				kicker: 'Versprechen',
 				title: 'Ringtausch & Ja-Wort',
 				text: 'Leise Musik kann einen stillen Moment rahmen, ohne Worte oder Blicke zu überdecken.',
-				piece: 'z. B. Meditation',
+				piece: 'z. B. Marry You · Bruno Mars',
 			},
 			{
 				kicker: 'Formales',
