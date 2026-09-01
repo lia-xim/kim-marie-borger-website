@@ -6,9 +6,9 @@
   "targetKeyword": "Trauermusik buchen",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "risk-pass-2026-06-16-review-needed",
+  "status": "manual-copy-strengthened-2026-08-31-review-needed",
   "enabled": true,
-  "seoTitle": "Trauermusik Buchen | Live-Viola für Abschied",
+  "seoTitle": "Trauermusik buchen | Live-Viola für Abschied",
   "seoDescription": "Trauermusik buchen: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
   "hero": {
     "eyebrow": "Buchen",
@@ -21,8 +21,8 @@
     "title": "FAQ zu Trauermusik buchen",
     "items": [
       {
-        "question": "Wann passt Trauermusik buchen?",
-        "answer": "Diese musikalische Begleitung passt, wenn Datum, Ort, Ablauf und Wunschstücke im Mittelpunkt steht und nicht nur allgemein Musik für den Abschied gesucht wird.",
+        "question": "Wann ist eine konkrete Anfrage sinnvoll?",
+        "answer": "Sobald Termin, Ort oder Ablauf ungefähr feststehen, kann ich Verfügbarkeit und musikalische Möglichkeiten einschätzen. Ein Wunschstück muss dafür noch nicht entschieden sein.",
         "open": true
       },
       {
@@ -31,15 +31,15 @@
       },
       {
         "question": "Worauf kommt es bei der Planung besonders an?",
-        "answer": "Im Mittelpunkt: konkrete Anfrage."
+        "answer": "Wichtig sind der gewünschte Moment im Ablauf, die Wirkung der Musik und verlässliche Absprachen mit einer Kontaktperson vor Ort."
       },
       {
         "question": "Welche Informationen helfen für die Anfrage?",
         "answer": "Datum, Ort, Ablaufpunkt, Wunschstück und die Frage, ob Musik innen, draußen oder an beiden Stellen gewünscht ist."
       },
       {
-        "question": "Für welchen Abschied passt Trauermusik buchen?",
-        "answer": "Diese musikalische Begleitung passt besonders für Angehörige mit konkretem Termin oder Bestattungshäuser mit Anfrage. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
+        "question": "Für welche Abschiedsformen ist Live-Musik geeignet?",
+        "answer": "Solo-Viola kann eine Trauerfeier, Beerdigung oder einen Abschied am Grab begleiten. Entscheidend ist, dass die Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
       {
@@ -55,8 +55,8 @@
         "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
       },
       {
-        "question": "Wie wird Trauermusik buchen konkret vorbereitet?",
-        "answer": "Ich kläre Anlass, Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich, ob Trauermusik buchen als einzelner Moment, als Übergang oder als Teil einer kleinen Abfolge auf Solo-Viola am stärksten wirkt."
+        "question": "Wie wird die Musik konkret vorbereitet?",
+        "answer": "Ich kläre Raum, Zeitpunkt und gewünschte Wirkung. Danach lässt sich entscheiden, ob ein einzelnes Stück, ein Übergang oder eine kleine Abfolge auf Solo-Viola am besten zum Abschied passt."
       }
     ]
   },
@@ -73,16 +73,16 @@
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.",
   "contact": {
     "eyebrow": "Trauermusik planen",
-    "title": "Trauermusik Buchen anfragen",
-    "lead": "Schickt mir Datum, Ort und den konkreten Moment, für den ihr Trauermusik buchen plant. Ich melde mich mit einer ruhigen Einschätzung zu Stück, Länge und Ablauf.",
+    "title": "Trauermusik anfragen",
+    "lead": "Schickt mir Datum, Ort und den geplanten musikalischen Moment. Ich melde mich mit einer ruhigen Einschätzung zu Stück, Länge und Ablauf.",
     "checklist": [
-      "Trauermusik buchen",
+      "Datum und Ort",
       "Trauerfeier oder Beerdigung",
       "Wunschstück oder Schwerpunkt"
     ],
     "formEyebrow": "Anfrage senden",
     "formTitle": "Trauermusik buchen anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für Trauermusik buchen."
+    "formSuccess": "Danke - ich melde mich mit einer passenden musikalischen Einschätzung."
   },
   "split": {
     "seal": "Buchen\nAbschied\nLive-Viola",
@@ -107,14 +107,14 @@
         "eyebrow": "Einordnung"
       },
       {
-        "title": "Trauermusik buchen im Ablauf sinnvoll einsetzen.",
-        "lede": "Ich trenne bei Trauermusik buchen zwischen musikalischer Wirkung und Organisation. Beides muss stimmen, damit Angehörige am Tag selbst nicht erklären, suchen oder entscheiden müssen.",
+        "title": "Musik und Organisation gemeinsam planen.",
+        "lede": "Klang und Organisation gehören zusammen. Beides muss stimmen, damit Angehörige am Tag selbst möglichst wenig erklären oder entscheiden müssen.",
         "paragraphs": [
           "Nicht jedes bekannte Lied passt automatisch. Manche Stücke wirken auf einem Solo-Instrument sehr klar, andere verlieren ohne Text oder Begleitung ihren eigentlichen Sinn.",
           "Für Angehörige ist oft schon viel organisiert. Darum formuliere ich die musikalischen Optionen möglichst konkret: welcher Moment, welche Länge, welches Signal, welche Alternative, falls sich etwas verschiebt.",
           "Falls noch kein Wunschstück feststeht, ist das kein Problem. Dann geht es zuerst um die Stimmung: getragen, schlicht, hoffnungsvoll, klassisch, modern oder sehr persönlich.",
-          "Wenn Trauermusik buchen in einer freien Trauerfeier eingesetzt wird, kann die Musik flexibler atmen. In einer Kirche oder bei einer eng getakteten Beisetzung braucht sie dagegen klarere Einsatzpunkte.",
-          "Der Raum macht einen großen Unterschied: Trauerfeier, Beerdigung, Bestattung oder Abschied am Grab kann warm, hallig, trocken, eng oder offen wirken. Darum entscheide ich Tempo, Länge und Dynamik nie unabhängig von der Akustik."
+          "Bei einer freien Trauerfeier kann die Musik oft flexibler atmen. In einer Kirche oder bei einer eng getakteten Beisetzung braucht sie dagegen klarere Einsatzpunkte.",
+          "Der Raum macht einen großen Unterschied: Eine Halle, Kirche, Kapelle oder ein Platz am Grab kann warm, hallig, trocken, eng oder offen wirken. Darum werden Tempo, Länge und Dynamik nicht unabhängig von der Akustik geplant."
         ],
         "image": {
           "src": "/uploads/_DSC7353.webp",
@@ -127,8 +127,8 @@
         "lede": "Musik bei Abschieden braucht Verlässlichkeit. Deshalb gehören neben dem Klang auch Pünktlichkeit, Kleidung, diskrete Kommunikation und ein ruhiger Aufbau zur eigentlichen musikalischen Leistung.",
         "paragraphs": [
           "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
-          "Wichtig ist, dass Trauermusik buchen nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
-          "Bei Abschieden muss Musik nicht groß werden, um tragend zu sein. Trauermusik buchen wird hier so gedacht, dass Stille, Rede, Erinnerung und ein möglicher Weg zum Grab genug Raum behalten.",
+          "Musik sollte nicht isoliert geplant werden. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
+          "Bei Abschieden muss Musik nicht groß werden, um tragend zu sein. Stille, Rede, Erinnerung und ein möglicher Weg zum Grab sollen genug Raum behalten.",
           "Für die Planung sind Einsatzstellen, Raum, Auszug, Grab, Kontaktperson die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll."
         ],
         "image": {
@@ -142,7 +142,7 @@
         "lede": "Entscheidend sind ein ruhiger Ablauf, klare Absprachen und eine Stückauswahl, die zur Person und zum Abschied passt.",
         "paragraphs": [
           "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein einzelnes Abschiedsstück, mehrere ruhige Einsätze, Musik am Grab oder eine Begleitung der gesamten Feier passend ist.",
-          "Bei Trauermusik buchen prüfe ich zusätzlich den Unterschied zwischen bekanntem Lied und ruhiger Bearbeitung. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle wirklich Raum lässt und nicht gegen Worte oder Stille arbeitet.",
+          "Bei einem bekannten Lied prüfe ich außerdem, ob eine ruhige Bearbeitung sinnvoll ist. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle Raum lässt und nicht gegen Worte oder Stille arbeitet.",
           "Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung."
         ],
         "image": {
@@ -154,11 +154,11 @@
     ]
   },
   "elegy": {
-    "quote": "Trauermusik buchen wirkt am stärksten, wenn die musikalische Aufgabe vorher klar ist.",
+    "quote": "Trauermusik trägt am stärksten, wenn ihre Aufgabe im Abschied vorher klar ist.",
     "passages": [
       {
         "strong": "Worauf es ankommt",
-        "text": "Wer Trauermusik buchen sucht, meint nicht einfach irgendeine Trauermusik. Im Mittelpunkt stehen konkrete Anfrage, die passende Stelle im Ablauf und die Frage, ob Solo-Viola den Moment wirklich tragen kann."
+        "text": "Wer Trauermusik buchen möchte, sucht keine beliebige Einlage. Im Mittelpunkt stehen der passende Moment im Ablauf und die Frage, ob Solo-Viola die gewünschte Stimmung tragen kann."
       },
       {
         "strong": "Schwerpunkt",
@@ -196,7 +196,7 @@
       {
         "rom": "Ablauf",
         "title": "Den Moment nicht überladen",
-        "poet": "Bei Trauermusik buchen bleibt die Viola nah am Abschied: sie beginnt klar, lässt Stille zu und endet so, dass Worte, Wege oder der Grabmoment weitertragen können.",
+        "poet": "Die Viola bleibt nah am Abschied: Sie beginnt klar, lässt Stille zu und endet so, dass Worte, Wege oder der Moment am Grab weitertragen können.",
         "list": [
           "Startsignal",
           "Raumklang",
@@ -204,7 +204,7 @@
         ]
       }
     ],
-    "listLabel": "Planung für Trauermusik buchen",
+    "listLabel": "Planung der Trauermusik",
     "list": [
       "konkrete Anfrage",
       "Datum, Ort, Ablauf und Wunschstücke",

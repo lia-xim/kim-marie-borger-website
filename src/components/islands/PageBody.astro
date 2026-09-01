@@ -5,8 +5,9 @@ import type { CmsPage } from '../../lib/data';
 interface Props {
 	data?: CmsPage | null;
 	includeHomepageAudio?: boolean;
+	includeHomepageSocial?: boolean;
 }
 
-const { data, includeHomepageAudio = false } = Astro.props;
+const { data, includeHomepageAudio = false, includeHomepageSocial = false } = Astro.props;
 ---
-{data && <Blocks data={data} includeHomepageAudio={includeHomepageAudio} />}
+{data && <Blocks data={data} includeHomepageAudio={includeHomepageAudio} includeHomepageSocial={includeHomepageSocial} />}

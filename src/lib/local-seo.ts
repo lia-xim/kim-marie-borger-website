@@ -833,7 +833,6 @@ export function localSeoJsonLd(site: URL, page: LocalSeoPage, override?: SeoPage
 			? courseNode(site, pathname, {
 					name: keywordLabel(service, location),
 					description: localSeoDescription(page, override),
-					areaServed: areaServedForLocation(location),
 				})
 			: undefined,
 	]);

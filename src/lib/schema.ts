@@ -351,14 +351,17 @@ export function courseId(site: URL, pathname: string): string {
 }
 
 /**
- * Course-Node fuer die Unterrichtsseiten. Google wertet Course-Markup nur mit
- * `hasCourseInstance` inklusive `courseMode` und `courseWorkload` aus, deshalb
- * sind beide gesetzt. Preise bleiben bewusst offen (individuell nach Absprache).
+ * Wahrheitsgetreuer Course-Node fuer die Unterrichtsseiten.
+ *
+ * Lieferform, Ort und Dauer bleiben bewusst ausserhalb des Markups: Die
+ * sichtbare Seite nennt 45 oder 60 Minuten, waehrend Online-Unterricht noch
+ * nicht als bestaetigtes Angebot dokumentiert ist. Das generische Markup soll
+ * den Inhalt beschreiben und beansprucht ohne Course-Liste kein Rich Result.
  */
 export function courseNode(
 	site: URL,
 	pathname: string,
-	options: { name: string; description?: string; areaServed?: SchemaNode },
+	options: { name: string; description?: string },
 ): SchemaNode {
 	return {
 		'@type': 'Course',
@@ -370,21 +373,6 @@ export function courseNode(
 		inLanguage: SITE_LANGUAGE,
 		educationalLevel: ['Anfänger', 'Fortgeschrittene'],
 		teaches: ['Geige spielen', 'Bratsche spielen', 'Notenlesen', 'Bogentechnik', 'Intonation'],
-		hasCourseInstance: [
-			{
-				'@type': 'CourseInstance',
-				courseMode: 'onsite',
-				courseWorkload: 'PT45M',
-				location: options.areaServed ?? COUNTRY_AREA,
-				inLanguage: SITE_LANGUAGE,
-			},
-			{
-				'@type': 'CourseInstance',
-				courseMode: 'online',
-				courseWorkload: 'PT45M',
-				inLanguage: SITE_LANGUAGE,
-			},
-		],
 	};
 }
 

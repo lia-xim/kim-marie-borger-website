@@ -206,6 +206,9 @@ const waHref = whatsappHref(
 );
 const igHref = instagramHref(contact?.instagram ?? config?.footer?.instagram);
 const igHandle = instagramHandle(contact?.instagram ?? config?.footer?.instagram);
+const googleProfileHref = typeof config?.footer?.googleBusinessProfile === 'string'
+	? config.footer.googleBusinessProfile.trim()
+	: '';
 const channelNote = typeof contact?.channelNote === 'string' ? contact.channelNote.trim() : '';
 const privacyHref = normalizeHref(config?.footer?.datenschutz ?? '/datenschutz');
 
@@ -251,6 +254,18 @@ function getFormContext(defaultOccasion: string, sourceLabel: string, path: stri
 						{phoneHref && <div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.2 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.1 9.9a16 16 0 0 0 6 6l1.26-1.26a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg></span><div><div class="ck">Telefon</div><a class="cv" href={phoneHref} data-track-label="phone-contactcard">{phoneLabel}</a></div></div>}
 						{igHref && <div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></svg></span><div><div class="ck">Instagram</div><a class="cv" href={igHref} rel="noopener me" target="_blank" data-track-label="instagram-contactcard">{igHandle ?? 'Instagram'}</a></div></div>}
 						<div class="c-row"><span class="ci"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><div class="ck">Einsatzgebiet</div><span class="cv">{contact?.area}</span></div></div>
+				</div>
+				<div class="contact-proof-links" aria-label="Hörproben und Bewertungen">
+					<a href={normalizeHref('/portfolio')} data-track-label="portfolio-contactcard">
+						<span>Hörproben</span>
+						<strong>Viola anhören <span aria-hidden="true">→</span></strong>
+					</a>
+					{googleProfileHref && (
+						<a href={googleProfileHref} target="_blank" rel="noopener" data-track-label="google-reviews-contactcard">
+							<span>Bewertungen</span>
+							<strong>Google-Profil ansehen <span aria-hidden="true">→</span></strong>
+						</a>
+					)}
 				</div>
 				{channelNote && <p class="c-channel-note" data-tina-field={contact ? tinaFieldFrom(contact, 'channelNote') : undefined}>{channelNote}</p>}
 			</aside>

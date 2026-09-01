@@ -6,21 +6,21 @@
   "targetKeyword": "Musik zur Trauung",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "risk-pass-2026-06-16-review-needed",
+  "status": "evidence-led-human-rewrite-2026-08-31",
   "enabled": true,
-  "seoTitle": "Musik zur Trauung | Live-Viola Hochzeit",
-  "seoDescription": "Musik zur Trauung: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
+  "seoTitle": "Musik zur Trauung | Live-Viola für eure Zeremonie",
+  "seoDescription": "Live-Viola für Einzug, Ringmoment und Auszug. Wunschlied, Länge und Einsatz werden passend zu Standesamt, Kirche oder freier Trauung geplant.",
   "hero": {
     "eyebrow": "Trauung",
-    "title": "Musik zur Trauung, als klarer musikalischer Bogen für eure Zeremonie.",
-    "lead": "Musik zur Trauung wird bei mir nicht als Standardpaket geplant. Ich stimme Live-Viola auf Standesamt, Kirche oder freie Trauung, Wunschlied, Raumklang und den Punkt im Ablauf ab, an dem Musik wirklich tragen soll.",
+    "title": "Musik zur Trauung, die eure Zeremonie hörbar verbindet.",
+    "lead": "Kein Standardpaket: Ich stimme die Live-Viola auf Standesamt, Kirche oder freie Trauung, euer Wunschlied und genau die Momente ab, in denen Musik wirklich tragen soll.",
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
     "seal": "Trauung\nHochzeit\nLive-Viola",
     "sections": [
       {
-        "title": "Musik zur Trauung: der Schwerpunkt entscheidet über Klang und Timing.",
+        "title": "Der Moment entscheidet über Klang und Timing.",
         "lede": "Im Mittelpunkt steht der gesamte Zeremoniebogen. Nicht die Menge der Stücke zählt, sondern ihre Funktion im Ablauf.",
         "paragraphs": [
           "Im Mittelpunkt: Einzug, Ringe, Ja-Wort und Auszug verbinden. Ich kläre zuerst, ob Musik sammeln, begleiten, einen Übergang öffnen oder bewusst im Hintergrund bleiben soll.",
@@ -35,7 +35,7 @@
         "eyebrow": "Einordnung"
       },
       {
-        "title": "Musik zur Trauung im Ablauf sinnvoll einsetzen.",
+        "title": "Einzug, Ringmoment und Auszug unterschiedlich gestalten.",
         "lede": "Entscheidend ist ein roter Faden statt einzelner Lieder.",
         "paragraphs": [
           "Für die Anfrage helfen Datum, Ort, Zeremonieform, gewünschter Einsatzpunkt, Lieblingslied und die Frage, ob nach der Trauung noch Empfangs- oder Dinnermusik geplant ist."
@@ -50,7 +50,7 @@
   },
   "focus": {
     "eyebrow": "Ablaufentscheidung",
-    "title": "Wie Musik zur Trauung sinnvoll eingebunden wird.",
+    "title": "Wie Live-Musik sinnvoll in die Zeremonie eingebunden wird.",
     "lead": "Entscheidend sind Zeremonieform, Einsatzpunkt, Raum, Wunschmusik und die gewünschte Wirkung.",
     "items": [
       {
@@ -77,14 +77,14 @@
         "text": "Ort, Ablaufpunkt, Gästezahl und Wunschlied zeigen schnell, welche musikalische Lösung wirklich sinnvoll ist."
       }
     ],
-    "footnote": "Musik zur Trauung wird individuell nach Ablauf und Raum geplant."
+    "footnote": "Die Musik wird individuell nach Ablauf, Raum und Wunschlied geplant."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Musik zur Trauung",
+    "title": "Fragen zur Live-Musik bei der Trauung",
     "items": [
       {
-        "question": "Wann ist Musik zur Trauung sinnvoll?",
+        "question": "Welche Momente eignen sich für Live-Musik?",
         "answer": "Diese musikalische Begleitung passt, wenn ganzer Zeremoniebogen für euren Ablauf eine eigene Rolle spielt und nicht nur allgemeine Musik gesucht wird.",
         "open": true
       },
@@ -101,7 +101,7 @@
         "answer": "Datum, Ort, Zeremonieform, gewünschter Einsatzpunkt, Wunschlied und ob weitere Sets für Empfang oder Dinner geplant sind."
       },
       {
-        "question": "Für welche Hochzeit passt Musik zur Trauung?",
+        "question": "Passt Solo-Viola zu jeder Form der Trauung?",
         "answer": "Diese musikalische Begleitung passt besonders für Paare, die Einzug, Ringe, Ja-Wort und Auszug zusammen planen möchten. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
@@ -137,7 +137,7 @@
   "contact": {
     "eyebrow": "Hochzeitsmusik planen",
     "title": "Musik zur Trauung anfragen",
-    "lead": "Schickt mir Datum, Ort, Ablaufpunkt und eure Idee zu Musik zur Trauung. Ich prüfe, welche Viola-Fassung, Länge und Platzierung dafür am besten funktioniert.",
+    "lead": "Schickt mir Datum, Ort, Ablaufpunkte und eure Liedidee. Ich prüfe, welche Viola-Fassung, Länge und Platzierung dafür am besten funktioniert.",
     "checklist": [
       "Musik zur Trauung",
       "Standesamt, Kirche oder freie Trauung",
@@ -145,7 +145,7 @@
     ],
     "formEyebrow": "Anfrage senden",
     "formTitle": "Musik zur Trauung anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik zur Trauung."
+    "formSuccess": "Danke - ich melde mich mit einer passenden Idee für eure Trauung."
   },
   "elegy": {
     "passages": []

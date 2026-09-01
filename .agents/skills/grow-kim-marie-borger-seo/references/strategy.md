@@ -2,6 +2,19 @@
 
 Updated: 2026-07-29
 
+## Current evidence note: 2026-08-31
+
+The required `contextter_kim_marie` workspace check confirmed
+`kim-marie-borger.com` and workspace `ws_qb11y09uro0j`. Contextter now has
+fresh bounded domain, backlink, and partial competitor evidence. Keyword
+research and metrics remain blocked; Search Console, rank tracking, Site Audit,
+and opportunity evidence are still unavailable or not configured. The current
+live sitemap exposes 29 core, 487 SEO, and 7 Ratgeber URLs. The dated evidence
+register, action matrix, and 30/60/90 plan are recorded in
+`seo/contextter-evidence-audit-2026-08-31.md`. Until current page-query and
+conversion evidence exists, no bulk merge, redirect, noindex, removal, or new
+location-page batch is approved.
+
 ## Contents
 
 1. Direction and business outcome
@@ -24,15 +37,14 @@ Primary outcome:
 
 - Qualified inquiries and bookings for live viola, violin/viola teaching, and suitable ensemble formats.
 
-Priority commercial clusters:
+Priority commercial clusters (owner direction, 2026-08-31):
 
-1. Teaching
-2. Funeral and memorial music
-3. Wedding music
-4. Corporate events
-5. Birthdays and private celebrations
-6. Baptisms and family ceremonies
-7. Concert and cultural formats
+1. Wedding music and funeral/memorial music (joint P1)
+2. Teaching (P2)
+3. Corporate events
+4. Birthdays and private celebrations
+5. Baptisms and family ceremonies
+6. Concert and cultural formats
 
 Geographic model:
 
@@ -311,7 +323,7 @@ The main service page should curate the strongest next steps. Full inventories s
 | `/anfragen/` | Conversion | Keep, measure | Low-friction context-aware form exists | Qualified inquiry and booking rate |
 | `/hochzeiten/` | P1 commercial pillar | Strengthen | High supported demand and strong media potential | Qualified wedding inquiries |
 | `/beerdigungen/` | P1 commercial pillar | Strengthen | High supported demand and sensitive decision intent | Qualified memorial inquiries |
-| `/unterricht/` | P1 commercial pillar | Strengthen and confirm delivery scope by city | Highest tool-estimated demand; service is visibly offered | Trial lessons and retained students |
+| `/unterricht/` | P2 commercial pillar | Strengthen selectively and confirm delivery scope by city | High supported demand, but the owner has explicitly placed teaching behind weddings and funeral/memorial music | Trial lessons and retained students |
 | `/firmenfeiern/` | P2 commercial pillar | Strengthen with B2B proof | Smaller volume, potentially valuable leads | Qualified corporate inquiries |
 | `/geburtstage/`, `/taufen/`, `/konzerte/` | Focused commercial pillars | Keep, test | Real offers with smaller or mixed demand | Qualified cluster inquiries |
 | 14 topic/location hubs | Discovery hubs | Keep task-based curation; measure | Public SEO/meta language is removed in the current worktree and topic hubs are grouped by customer task | Child discovery and crawl |
@@ -445,3 +457,36 @@ Require user or business confirmation when implementation depends on:
 - Current Google Business Profile ownership and directory profile status
 - Access to GSC, analytics, inquiry, and booking data
 - Whether a weak page should merge, noindex, or remain for a real customer journey
+
+## 12. Contextter refresh decision record, 2026-09-01
+
+- The verified workspace remained `ws_qb11y09uro0j` for
+  `kim-marie-borger.com`; no other workspace supplied evidence.
+- Fresh domain evidence found one ranking only: `geigenunterricht koeln`,
+  position 19, volume 90, mapped to `/unterricht/koeln/`. Preserve that URL and
+  do not create a competing Cologne teaching page.
+- Wedding and funeral queries had no visible ranking in the bounded own-domain
+  snapshot. This supports strengthening existing P1 intent pages, not adding
+  more pages.
+- The own backlink sample contains 12 links from 11 domains, with only two
+  obviously relevant wedding platforms in the returned sample. Authority work
+  remains relationship- and relevance-led rather than count-led.
+- Five like-for-like competitor snapshots were acquired. Aggregate domain and
+  backlink metrics are available, but the comparison stored zero keyword result
+  rows. Competitor keyword gaps therefore remain `NOT PROVEN`.
+- Fresh keyword research and metric refresh were attempted serially after full
+  authorization. Contextter rejected them before provider execution with
+  `KEYWORD_RESEARCH_SOURCE_RESERVATION_INVALID` and
+  `KEYWORD_DATA_SOURCE_RESERVATION_INVALID`; both settled at zero cost.
+- An independent retry on 2026-09-01 verified an active 5 EUR keyword grant
+  with zero reserved and settled spend. The research admission then failed
+  without an operation or quote as `CTX-AGP-500-INTERNAL_ERROR` / `CTX-INF-001`
+  (`retryable: false`). A new task-bound 5 EUR authorization request
+  `arq_nm8azzud6o9e` remains required before another paid retry. The metric job
+  and three target lists stay blocked until fresh research candidates exist.
+- The stored competitor comparison was re-read and still contains zero result
+  rows. Competitor keyword gaps therefore remain `NOT PROVEN`.
+- The implemented cohort is limited to two funeral and three wedding topic
+  pages with already distinct user jobs. Titles, descriptions, H1s, first-screen
+  answers, and mechanical exact-match passages were rewritten. No URL,
+  canonical, index directive, sitemap entry, redirect, or new page was changed.

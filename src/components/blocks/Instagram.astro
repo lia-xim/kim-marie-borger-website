@@ -2,27 +2,31 @@
 import { tinaField } from '@tinacms/astro/tina-field';
 import Img from '../Img.astro';
 
-const { data } = Astro.props;
+const { data, context = 'page' } = Astro.props;
 const tiles = (data.tiles ?? []).filter((t: unknown) => t !== null);
 const url = data.url ?? '#';
 ---
-<section class="section bg-rose">
+<section class={`section social-follow social-follow-${context}`}>
 	<div class="wrap">
-		{data.eyebrow && <p class="eyebrow reveal" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
-		{data.title && <h2 class="display-m reveal" style="margin-top:14px;max-width:22ch;" data-tina-field={tinaField(data, 'title')}>{data.title}</h2>}
-		{data.lead && <p class="lead reveal d1" style="margin-top:14px;" data-tina-field={tinaField(data, 'lead')}>{data.lead}</p>}
-		<div class="ig-grid reveal d1">
-			{tiles.map((tile: any) => (
-				<a class="ig-tile" href={url} target="_blank" rel="noopener" data-tina-field={tinaField(tile)}>
-					<Img src={tile.image?.src} alt={tile.image?.alt ?? ''} sizes="(max-width: 700px) 94vw, 31vw" loading="lazy" decoding="async" />
-					<span class="ig-ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></span>
-				</a>
-			))}
-		</div>
-		<div class="reveal d2" style="margin-top:28px;display:flex;gap:18px;flex-wrap:wrap;align-items:center;">
-			{data.handle && <a href={url} target="_blank" rel="noopener" class="btn btn-solid" data-tina-field={tinaField(data, 'handle')}>@{data.handle} folgen <span class="ar">→</span></a>}
-			{data.note && <span class="ksmall" data-tina-field={tinaField(data, 'note')}>{data.note}</span>}
-			{data.googleProfileUrl && data.googleProfileLabel && <a href={data.googleProfileUrl} target="_blank" rel="noopener" class="link-line" data-tina-field={tinaField(data, 'googleProfileLabel')}>{data.googleProfileLabel} <span class="ar">→</span></a>}
+		<div class="social-follow-stage reveal">
+			<div class="social-follow-media">
+				{tiles.map((tile: any) => (
+					<div class="social-follow-photo" data-tina-field={tinaField(tile)}>
+						<Img src={tile.image?.src} alt={tile.image?.alt ?? ''} sizes="(max-width: 700px) 50vw, 34vw" loading="lazy" decoding="async" />
+					</div>
+				))}
+			</div>
+			<div class="social-follow-card">
+				{data.eyebrow && <p class="eyebrow c" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
+				{data.title && <h2 class="display-m" data-tina-field={tinaField(data, 'title')}>{data.title}</h2>}
+				{data.lead && <p class="lead" data-tina-field={tinaField(data, 'lead')}>{data.lead}</p>}
+				<div class="social-follow-actions">
+					{data.handle && <a href={url} target="_blank" rel="noopener me" class="btn btn-solid" data-track-label={`instagram-follow-${context}`} data-tina-field={tinaField(data, 'handle')}>Auf Instagram folgen <span class="ar">→</span></a>}
+					{data.googleProfileUrl && data.googleProfileLabel && <a href={data.googleProfileUrl} target="_blank" rel="noopener" class="social-follow-link" data-track-label={`google-reviews-${context}`} data-tina-field={tinaField(data, 'googleProfileLabel')}>{data.googleProfileLabel} <span class="ar">→</span></a>}
+				</div>
+				{data.handle && <p class="social-follow-handle">@{data.handle}</p>}
+				{data.note && <p class="social-follow-note" data-tina-field={tinaField(data, 'note')}>{data.note}</p>}
+			</div>
 		</div>
 	</div>
 </section>

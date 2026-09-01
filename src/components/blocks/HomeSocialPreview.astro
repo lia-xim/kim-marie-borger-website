@@ -1,0 +1,10 @@
+---
+import { getPage, type PageBlock } from '../../lib/data';
+import Instagram from './Instagram.astro';
+
+const inquiryPage = await getPage('anfragen', {});
+const instagramBlock = (inquiryPage.data?.page?.blocks ?? []).find(
+	(block): block is PageBlock => block?.__typename === 'PageBlocksInstagram',
+);
+---
+{instagramBlock && <Instagram data={instagramBlock} context="home" />}

@@ -29,6 +29,6 @@ const jsonLd = homeJsonLd(Astro.site ?? new URL(Astro.url.origin), title, descri
 	structuredData={jsonLd}
 >
 	<TinaIsland name="page/" wrapper={islands.page.wrapper} params={{ slug }} primary>
-		<PageBody data={data} includeHomepageAudio />
+		<PageBody data={data} includeHomepageAudio includeHomepageSocial />
 	</TinaIsland>
 </Base>

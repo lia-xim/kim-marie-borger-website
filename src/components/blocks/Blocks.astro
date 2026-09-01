@@ -27,6 +27,7 @@ import Instagram from './Instagram.astro';
 import Words from './Words.astro';
 import AudioSketch from './AudioSketch.astro';
 import HomeAudioPreview from './HomeAudioPreview.astro';
+import HomeSocialPreview from './HomeSocialPreview.astro';
 import VideoFeature from './VideoFeature.astro';
 import CtaBand from './CtaBand.astro';
 import Legal from './Legal.astro';
@@ -35,9 +36,10 @@ import type { CmsPage } from '../../lib/data';
 interface Props {
 	data?: CmsPage | null;
 	includeHomepageAudio?: boolean;
+	includeHomepageSocial?: boolean;
 }
 
-const { data, includeHomepageAudio = false } = Astro.props;
+const { data, includeHomepageAudio = false, includeHomepageSocial = false } = Astro.props;
 const blocks = (data?.blocks ?? []).filter((b) => b !== null);
 ---
 {blocks.map((block) => {
@@ -77,8 +79,11 @@ const blocks = (data?.blocks ?? []).filter((b) => b !== null);
 	const addHomepageAudio = includeHomepageAudio
 		&& block.__typename === 'PageBlocksCards'
 		&& block.anchorId === 'leistungen';
+	const addHomepageSocial = includeHomepageSocial
+		&& block.__typename === 'PageBlocksQuote';
 	return <Fragment>
 		<div data-tina-field={tinaField(block)}>{rendered}</div>
 		{addHomepageAudio && <HomeAudioPreview />}
+		{addHomepageSocial && <HomeSocialPreview />}
 	</Fragment>;
 })}

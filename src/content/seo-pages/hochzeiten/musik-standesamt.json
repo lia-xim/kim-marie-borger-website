@@ -6,14 +6,14 @@
   "targetKeyword": "Musik Standesamt Hochzeit",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "rewritten-batch-16-stretched-review-needed",
+  "status": "evidence-led-human-rewrite-2026-08-31",
   "enabled": true,
-  "seoTitle": "Musik Standesamt Hochzeit | Live-Viola Hochzeit",
-  "seoDescription": "Musik Standesamt Hochzeit: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
+  "seoTitle": "Musik im Standesamt | Live-Viola für eure Trauung",
+  "seoDescription": "Live-Viola für Einzug, Unterschrift, Ringmoment oder Auszug im Standesamt. Kurz, persönlich und passend zum Zeitfenster geplant.",
   "hero": {
     "eyebrow": "Standesamt",
     "title": "Musik im Standesamt, kurz, präzise und emotional auf den Ablauf abgestimmt.",
-    "lead": "Musik Standesamt Hochzeit richtet sich an standesamtliche Trauungen mit wenig Zeit und klaren Programmpunkten. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf wirklich zu eurem Hochzeitstag passen.",
+    "lead": "Im Standesamt sind Zeitfenster oft kurz und Programmpunkte klar gesetzt. Ich plane die Solo-Viola so, dass Wunschlied, Einsatz und Länge genau zu eurer Trauung passen.",
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
@@ -37,11 +37,11 @@
         "eyebrow": "Einordnung"
       },
       {
-        "title": "Musik Standesamt Hochzeit im Ablauf sinnvoll einsetzen.",
+        "title": "Live-Musik im knappen Ablauf sinnvoll einsetzen.",
         "lede": "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
         "paragraphs": [
-          "Wichtig ist, dass Musik Standesamt Hochzeit nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
-          "Bei Hochzeiten entscheidet die Reihenfolge der Momente: Einzug, Worte, Ringmoment und Auszug dürfen musikalisch nicht gleich klingen. Musik Standesamt Hochzeit bekommt deshalb einen eigenen Bogen statt nur ein weiteres Wunschlied."
+          "Die Musik wird nicht isoliert geplant. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
+          "Einzug, Worte, Ringmoment und Auszug dürfen musikalisch nicht gleich klingen. Deshalb bekommt die standesamtliche Trauung einen kleinen Bogen statt nur ein weiteres Wunschlied."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -80,7 +80,7 @@
         "time": "Vorab",
         "kicker": "Rolle",
         "title": "Die Aufgabe der Musik festlegen",
-        "text": "Bei Musik Standesamt Hochzeit klären wir zuerst, ob die Musik Mittelpunkt, Übergang, Hintergrund oder persönliches Zeichen sein soll."
+        "text": "Wir klären zuerst, ob die Musik Mittelpunkt, Übergang oder ein persönliches Zeichen sein soll."
       },
       {
         "time": "Stück",
@@ -101,14 +101,14 @@
         "text": "Die Viola soll hörbar und sichtbar sein, ohne Laufwege, Reden oder Gäste zu stören."
       }
     ],
-    "footnote": "Musik Standesamt Hochzeit wird mit euch passend zu Zeremonie, Location und Gästen geplant."
+    "footnote": "Die Musik wird mit euch passend zu Zeremonie, Trauzimmer und Gästen geplant."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Musik Standesamt Hochzeit",
+    "title": "Fragen zur Musik im Standesamt",
     "items": [
       {
-        "question": "Für welche Hochzeit passt Musik Standesamt Hochzeit?",
+        "question": "Wann passt Live-Viola zu einer standesamtlichen Trauung?",
         "answer": "Diese musikalische Begleitung passt besonders für standesamtliche Trauungen mit wenig Zeit und klaren Programmpunkten. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
@@ -133,7 +133,7 @@
         "answer": "Sobald Datum und Ort feststehen, ist eine Anfrage sinnvoll. Besonders Termine in der Hochzeitssaison sind oft früh vergeben."
       },
       {
-        "question": "Wann passt Musik Standesamt Hochzeit besonders gut?",
+        "question": "Welche Momente eignen sich besonders gut?",
         "answer": "Diese musikalische Begleitung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
       },
       {
@@ -159,16 +159,16 @@
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
   "contact": {
     "eyebrow": "Hochzeitsmusik planen",
-    "title": "Musik Standesamt Hochzeit anfragen",
-    "lead": "Schickt mir Datum, Ort, Zeremonieform und den Moment, für den ihr Musik Standesamt Hochzeit plant. Ich melde mich mit einer passenden musikalischen Idee.",
+    "title": "Musik für das Standesamt anfragen",
+    "lead": "Schickt mir Datum, Ort und die vorgesehenen Programmpunkte. Ich melde mich mit einer passenden Idee für Wunschlied, Länge und Einsatz.",
     "checklist": [
       "Musik Standesamt Hochzeit",
       "Trauung oder Empfang",
       "Wunschlied"
     ],
     "formEyebrow": "Anfrage senden",
-    "formTitle": "Musik Standesamt Hochzeit anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Standesamt Hochzeit."
+    "formTitle": "Live-Musik fürs Standesamt anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer passenden musikalischen Idee."
   },
   "elegy": {
     "passages": []

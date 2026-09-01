@@ -6,14 +6,14 @@
   "targetKeyword": "Live Musik Hochzeit",
   "intentCluster": "hochzeiten:topic",
   "priority": "P2",
-  "status": "rewritten-batch-15-intent-split-review-needed",
+  "status": "evidence-led-human-rewrite-2026-08-31",
   "enabled": true,
-  "seoTitle": "Live Musik Hochzeit | Live-Viola Hochzeit",
-  "seoDescription": "Live Musik Hochzeit: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
+  "seoTitle": "Live-Musik zur Hochzeit | Solo-Viola für besondere Momente",
+  "seoDescription": "Live-Viola für Trauung, Gratulation oder Empfang. Persönlich geplant mit Wunschlied, passenden Einsätzen und einem Klang, der zum Raum passt.",
   "hero": {
     "eyebrow": "Live-Musik",
     "title": "Live-Musik zur Hochzeit, die den Ablauf begleitet und nicht nur eine Playlist ersetzt.",
-    "lead": "Live Musik Hochzeit richtet sich an Paare, die den Klang im Raum bewusst erleben möchten: beim Einzug, im Ringmoment, beim Auszug oder als leichter Rahmen danach.",
+    "lead": "Für Paare, die echten Klang im Raum erleben möchten: beim Einzug, im Ringmoment, beim Auszug oder als leichter musikalischer Rahmen danach.",
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
@@ -36,7 +36,7 @@
         "eyebrow": "Einordnung"
       },
       {
-        "title": "Live Musik Hochzeit im Ablauf sinnvoll einsetzen.",
+        "title": "Live-Musik im Tagesablauf gezielt einsetzen.",
         "lede": "Ein Wunschlied kann live sehr persönlich werden, wenn Melodie, Tonart und Länge zur Situation passen. Manchmal ist ein reduzierter Ausschnitt stärker als eine vollständige Version.",
         "paragraphs": [
           "Daraus entsteht später eine konkrete Anfrage, aber der erste Schritt ist die musikalische Dramaturgie.",
@@ -53,7 +53,7 @@
         "title": "Stückauswahl, Raum und Timing klären.",
         "lede": "Für eine erste musikalische Einschätzung helfen Zeremonieform, geplante Momente, Wunschlied, Gästezahl und die Stimmung, die ihr euch für den Tag wünscht.",
         "paragraphs": [
-          "So bleibt Live Musik Hochzeit als Thema eigenständig: Es beantwortet nicht nur die Frage, ob Musik verfügbar ist, sondern welche Art von Live-Klang eure Hochzeit wirklich tragen kann."
+          "Entscheidend ist nicht nur, ob Musik verfügbar ist, sondern welche Art von Live-Klang eure Hochzeit wirklich tragen kann."
         ],
         "image": {
           "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
@@ -93,11 +93,11 @@
         "text": "Trauzimmer, Kirche, Garten und Foyer brauchen unterschiedliche Längen, Lautstärken und Positionen."
       }
     ],
-    "footnote": "Live Musik Hochzeit wird als musikalisches Konzept geplant, bevor daraus eine konkrete Buchung wird."
+    "footnote": "Die Live-Musik wird zuerst als musikalischer Ablauf geplant; daraus entsteht anschließend die konkrete Buchung."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Live Musik Hochzeit",
+    "title": "Fragen zur Live-Musik bei eurer Hochzeit",
     "items": [
       {
         "question": "Wann lohnt sich Live-Musik bei einer Hochzeit besonders?",
@@ -139,7 +139,7 @@
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 1: redaktionell gegen den nächsten Keyword-/Intent-Nachbarn differenziert. Fachlich im CMS final prüfen.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 14: Medium-Seiten mit leserfreundlichen lokalen und intent-spezifischen Differenzierungsabsätzen poliert.\n\nBatch 15: Intent klar von Live Musik Hochzeit buchen getrennt; Fokus auf Wirkung, Einsatzmomente und musikalische Dramaturgie.",
   "contact": {
     "eyebrow": "Hochzeitsmusik planen",
-    "title": "Live Musik Hochzeit anfragen",
+    "title": "Live-Musik zur Hochzeit anfragen",
     "lead": "Schickt mir gern, welche Momente euch musikalisch wichtig sind. Ich ordne ein, wo Live-Viola an eurem Hochzeitstag am meisten Wirkung entfaltet.",
     "checklist": [
       "Live Musik Hochzeit",
@@ -147,8 +147,8 @@
       "Wunschlied"
     ],
     "formEyebrow": "Anfrage senden",
-    "formTitle": "Live Musik Hochzeit anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für Live Musik Hochzeit."
+    "formTitle": "Live-Musik zur Hochzeit anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer passenden musikalischen Idee."
   },
   "elegy": {
     "passages": []

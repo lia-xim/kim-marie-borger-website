@@ -6,22 +6,22 @@
   "targetKeyword": "Musik Trauerfeier",
   "intentCluster": "beerdigungen:topic",
   "priority": "P2",
-  "status": "risk-pass-2026-06-16-review-needed",
+  "status": "evidence-led-human-rewrite-2026-08-31",
   "enabled": true,
-  "seoTitle": "Musik Trauerfeier | Live-Viola für Abschied",
-  "seoDescription": "Musik Trauerfeier: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
+  "seoTitle": "Musik für die Trauerfeier | Live-Viola zum Abschied",
+  "seoDescription": "Live-Viola für Beginn, Erinnerung, Ritual oder Auszug einer Trauerfeier. Wunschstück, Länge und Einsatz werden behutsam abgestimmt.",
   "hero": {
     "eyebrow": "Trauerfeier",
-    "title": "Musik Trauerfeier, ruhig als Solo-Viola geplant.",
-    "lead": "Besonders wichtig für die Planung: Beginn, Rede, Ritual und Auszug. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
+    "title": "Musik für die Trauerfeier, ruhig und persönlich gespielt.",
+    "lead": "Beginn, Erinnerung, Ritual und Auszug brauchen nicht dieselbe Musik. Ich stimme Stück, Länge und Klang auf den jeweiligen Moment ab, damit die Viola trägt und zugleich Stille zulässt.",
     "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Musik Trauerfeier",
+    "title": "Fragen zur Musik für eine Trauerfeier",
     "items": [
       {
-        "question": "Wann passt Musik Trauerfeier?",
+        "question": "Welche Momente einer Trauerfeier lassen sich begleiten?",
         "answer": "Diese musikalische Begleitung passt, wenn Beginn, Rede, Ritual und Auszug im Mittelpunkt steht und nicht nur allgemein Musik für den Abschied gesucht wird.",
         "open": true
       },
@@ -38,7 +38,7 @@
         "answer": "Datum, Ort, Ablaufpunkt, Wunschstück und die Frage, ob Musik innen, draußen oder an beiden Stellen gewünscht ist."
       },
       {
-        "question": "Für welchen Abschied passt Musik Trauerfeier?",
+        "question": "Für welche Form der Trauerfeier passt Solo-Viola?",
         "answer": "Diese musikalische Begleitung passt besonders für Trauerfeiern mit Ansprache, Erinnerung, Ritualen und Auszug. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
         "open": true
       },
@@ -55,8 +55,8 @@
         "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
       },
       {
-        "question": "Wie wird Musik Trauerfeier konkret vorbereitet?",
-        "answer": "Ich kläre Anlass, Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich, ob Musik Trauerfeier als einzelner Moment, als Übergang oder als Teil einer kleinen Abfolge auf Solo-Viola am stärksten wirkt."
+        "question": "Wie wird die Musik konkret vorbereitet?",
+        "answer": "Ich kläre Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich mit euch, ob ein einzelner Moment, ein Übergang oder eine kleine Folge auf Solo-Viola am stärksten wirkt."
       }
     ]
   },
@@ -73,23 +73,23 @@
   "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 2: Trauer-Topicseiten mit eigener Suchintention, eigenen Abschnitten, eigenen FAQs und eigener Kontaktcopy differenziert. Fachlich im CMS final prüfen.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.",
   "contact": {
     "eyebrow": "Trauermusik planen",
-    "title": "Musik Trauerfeier anfragen",
-    "lead": "Schickt mir Datum, Ort und den konkreten Moment, für den ihr Musik Trauerfeier plant. Ich melde mich mit einer ruhigen Einschätzung zu Stück, Länge und Ablauf.",
+    "title": "Musik für die Trauerfeier anfragen",
+    "lead": "Schickt mir Datum, Ort und den vorgesehenen Moment. Ich melde mich mit einer ruhigen Einschätzung zu Stück, Länge und Ablauf.",
     "checklist": [
       "Musik Trauerfeier",
       "Trauerhalle, Kirche oder Kapelle",
       "Wunschstück oder Schwerpunkt"
     ],
     "formEyebrow": "Anfrage senden",
-    "formTitle": "Musik Trauerfeier anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Trauerfeier."
+    "formTitle": "Trauermusik anfragen",
+    "formSuccess": "Danke - ich melde mich mit einer passenden musikalischen Idee."
   },
   "elegy": {
-    "quote": "Musik Trauerfeier wirkt am stärksten, wenn die musikalische Aufgabe vorher klar ist.",
+    "quote": "Musik wirkt in einer Trauerfeier am stärksten, wenn ihre Aufgabe vorher klar ist.",
     "passages": [
       {
         "strong": "Worauf es ankommt",
-        "text": "Wer Musik Trauerfeier sucht, meint nicht einfach irgendeine Trauermusik. Im Mittelpunkt stehen Zeremonie im Raum, die passende Stelle im Ablauf und die Frage, ob Solo-Viola den Moment wirklich tragen kann."
+        "text": "Gesucht ist nicht irgendeine Trauermusik. Im Mittelpunkt stehen die Zeremonie, die passende Stelle im Ablauf und die Frage, ob Solo-Viola diesen Moment wirklich tragen kann."
       },
       {
         "strong": "Schwerpunkt",
@@ -127,7 +127,7 @@
       {
         "rom": "Ablauf",
         "title": "Den Moment nicht überladen",
-        "poet": "Bei Musik Trauerfeier bleibt die Viola nah am Abschied: sie beginnt klar, lässt Stille zu und endet so, dass Worte, Wege oder der Grabmoment weitertragen können.",
+        "poet": "Die Viola bleibt nah am Abschied: Sie beginnt klar, lässt Stille zu und endet so, dass Worte, Wege oder der Moment am Grab weitertragen können.",
         "list": [
           "Startsignal",
           "Raumklang",
@@ -135,7 +135,7 @@
         ]
       }
     ],
-    "listLabel": "Planung für Musik Trauerfeier",
+    "listLabel": "Planung der Trauermusik",
     "list": [
       "Zeremonie im Raum",
       "Beginn, Rede, Ritual und Auszug",
@@ -166,13 +166,13 @@
         "eyebrow": "Einordnung"
       },
       {
-        "title": "Musik Trauerfeier im Ablauf sinnvoll einsetzen.",
+        "title": "Musik sinnvoll in die Trauerfeier einfügen.",
         "lede": "Bei der Planung beginne ich nicht mit einer pauschalen Stückliste, sondern mit der Rolle im Ablauf. Erst wenn klar ist, ob die Musik sammeln, erinnern oder verabschieden soll, wird die Auswahl wirklich passend.",
         "paragraphs": [
           "Klassische Musik, moderne Lieder und persönliche Wunschstücke brauchen unterschiedliche Bearbeitungen. Entscheidend ist, dass die Melodie auf der Viola trägt und der Moment nicht überladen wird.",
           "Gerade bei emotionalen Terminen sollte Musik nicht noch eine zusätzliche Aufgabe für die Familie werden. Sie soll einen Moment halten und die Organisation im Hintergrund einfacher machen.",
-          "Für eine Anfrage zu Musik Trauerfeier reichen zuerst Datum, Ort, Uhrzeit, geplanter Einsatzpunkt und mögliche Wunschmusik. Danach lässt sich klären, ob ein Stück, mehrere Einsätze oder ein sehr kurzer musikalischer Moment sinnvoll sind.",
-          "Der Begriff Musik Trauerfeier kann je nach Familie sehr Unterschiedliches meinen. Deshalb kläre ich, ob es um Inspiration, konkrete Buchung, ein bestimmtes Lied, ein Instrument oder eine einzelne Stelle im Ablauf geht.",
+          "Für eine erste Anfrage reichen Datum, Ort, Uhrzeit, geplanter Einsatzpunkt und mögliche Wunschmusik. Danach lässt sich klären, ob ein Stück, mehrere Einsätze oder ein sehr kurzer musikalischer Moment sinnvoll sind.",
+          "Jede Familie verbindet mit Trauermusik etwas anderes. Deshalb kläre ich, ob es um ein bestimmtes Lied, eine einzelne Stelle im Ablauf oder mehrere ruhige Einsätze geht.",
           "Wenn Trauerhalle, Kirche, Kapelle oder freie Zeremonie mit einem anschließenden Gang zum Grab verbunden ist, plane ich die Musik eher als Übergang. Dann zählt weniger das einzelne Stück als die ruhige Führung durch den Moment.",
           "Für die Familie soll der Prozess möglichst leicht bleiben. Ich kann mit einer kurzen Empfehlung starten, danach Stücke konkretisieren und die musikalischen Einsätze mit den beteiligten Personen abstimmen."
         ],
@@ -186,8 +186,8 @@
         "title": "Stückauswahl, Raum und Timing klären.",
         "lede": "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
         "paragraphs": [
-          "Wichtig ist, dass Musik Trauerfeier nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
-          "Bei Abschieden muss Musik nicht groß werden, um tragend zu sein. Musik Trauerfeier wird hier so gedacht, dass Stille, Rede, Erinnerung und ein möglicher Weg zum Grab genug Raum behalten.",
+          "Die Musik wird nicht isoliert geplant. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
+          "Bei Abschieden muss Musik nicht groß werden, um tragend zu sein. Stille, Rede, Erinnerung und ein möglicher Weg zum Grab behalten deshalb genug Raum.",
           "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll."
         ],
         "image": {
@@ -201,7 +201,7 @@
         "lede": "Entscheidend sind ein ruhiger Ablauf, klare Absprachen und eine Stückauswahl, die zur Person und zum Abschied passt.",
         "paragraphs": [
           "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein einzelnes Abschiedsstück, mehrere ruhige Einsätze, Musik am Grab oder eine Begleitung der gesamten Feier passend ist.",
-          "Bei Musik Trauerfeier prüfe ich zusätzlich den genauen Einsatz im Ablauf. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle wirklich Raum lässt und nicht gegen Worte oder Stille arbeitet.",
+          "Ich prüfe den genauen Einsatz im Ablauf. Nicht die Bekanntheit eines Titels entscheidet, sondern ob die Melodie an der vorgesehenen Stelle Raum lässt und nicht gegen Worte oder Stille arbeitet.",
           "Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung."
         ],
         "image": {
