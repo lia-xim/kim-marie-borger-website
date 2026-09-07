@@ -129,7 +129,7 @@ const FALLBACK_FROM_EMAIL = 'Website <onboarding@resend.dev>';
 // CONTACT_ALERT_EMAIL gehen Betriebswarnungen an den Empfaenger der Anfragen.
 const DEFAULT_ALERT_EMAIL = '';
 const DEFAULT_ALERT_AFTER_ATTEMPTS = 2;
-const DEFAULT_UMAMI_HOST_URL = 'https://analytics.contextter.com';
+const DEFAULT_UMAMI_HOST_URL = 'https://analytics.crawlfoundry.com';
 const DEFAULT_UMAMI_HOSTNAME = 'www.kim-marie-borger.de';
 
 export function getRuntimeEnv(metaEnv: Record<string, unknown>): Record<string, unknown> {
