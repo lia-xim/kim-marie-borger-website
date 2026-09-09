@@ -25,8 +25,8 @@ const items = (data.items ?? []).filter((i: unknown) => i !== null);
 					</figcaption>
 				</figure>
 			))}
-			{data.ribbon && <div class="ribbon" data-tina-field={tinaField(data, 'ribbon')}>{data.ribbon}</div>}
 		</div>
+		{data.ribbon && <p class="collage-note reveal" data-tina-field={tinaField(data, 'ribbon')}>{data.ribbon}</p>}
 		{data.footerLabel && (
 			<div class="reveal" style="text-align:center;margin-top:clamp(28px,3.5vw,44px);"><a href={normalizeHref(data.footerHref)} class="link-line" data-tina-field={tinaField(data, 'footerLabel')}>{data.footerLabel} <span class="ar">→</span></a></div>
 		)}

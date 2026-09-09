@@ -375,7 +375,7 @@ em.ink{ font-style:italic; color:var(--bordeaux); }
 .polaroid .pl-tag{ display:block; font-size:0.6875rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--bordeaux); }
 .polaroid .pl-label{ display:block; margin-top:.35rem; font-family:var(--display); font-size:1.5rem; line-height:1.2; color:var(--ink); }
 .polaroid:focus-visible{ outline:2px solid var(--bordeaux); outline-offset:5px; }
-.collage .ribbon{ align-self:center; padding:1.5rem; text-align:center; font-family:var(--display); font-style:italic; font-size:clamp(1.375rem,1.8vw,1.75rem); line-height:1.5; color:var(--bordeaux); }
+.collage-note{ margin:clamp(24px,3vw,40px) auto 0; max-width:38ch; text-align:center; font-family:var(--display); font-style:italic; font-size:clamp(1.375rem,1.8vw,1.75rem); line-height:1.5; color:var(--bordeaux); }
 @media (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
   .polaroid:hover,.polaroid:focus-visible{ border-color:var(--brass); box-shadow:0 12px 32px -20px rgba(42,32,28,.3); }
   .polaroid:hover img,.polaroid:focus-visible img{ transform:scale(1.035); }
