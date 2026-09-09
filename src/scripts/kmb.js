@@ -490,8 +490,8 @@ if(mmToggle){
   }, 90000);
 })();
 
-/* ---------- horizontal strips (collage, stations): drag-to-scroll for mouse/pen ---------- */
-document.querySelectorAll('.collage, .way').forEach(el => {
+/* ---------- horizontal strips (stations): drag-to-scroll for mouse/pen ---------- */
+document.querySelectorAll('.way').forEach(el => {
   let down=false, startX=0, startL=0, moved=false;
   el.addEventListener('pointerdown', e => {
     if(e.pointerType === 'touch') return;

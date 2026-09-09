@@ -9,7 +9,7 @@ const titleLines: string[] = (data.title ?? '').split('\n');
 ---
 <section class="section" id={data.anchorId || undefined}>
 	<div class="wrap">
-		<div class="reveal" style="text-align:center;max-width:740px;margin-inline:auto;">
+		<div class="reveal" style="text-align:center;max-width:46.25rem;margin-inline:auto;">
 			{data.eyebrow && <p class="eyebrow c" data-tina-field={tinaField(data, 'eyebrow')}>{data.eyebrow}</p>}
 			{data.title && <h2 class="display-l" style="margin-top:18px;" data-tina-field={tinaField(data, 'title')}>
 				{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
