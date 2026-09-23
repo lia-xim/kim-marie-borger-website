@@ -22,7 +22,6 @@ type FormContext = {
 	musicHint: string;
 	scopeLabel: string;
 	scopePlaceholder: string;
-	messagePlaceholder: string;
 	note: string;
 };
 
@@ -42,7 +41,6 @@ const formContexts: Record<ContextKey, FormContext> = {
 		musicHint: 'Vorhandenes Repertoire ist ohne Aufpreis möglich; neue Arrangements klären wir vorher.',
 		scopeLabel: 'Umfang / Dauer',
 		scopePlaceholder: 'z. B. Trauung, Sektempfang, Dinner, ca. 45 Min.',
-		messagePlaceholder: 'Was plant ihr genau? Gern mit Ablauf, Stilwunsch, Lieblingsstücken und offenen Fragen.',
 		note: 'Die Anfrage ist kostenlos und unverbindlich. Preise vereinbaren wir individuell nach Termin, Ort, Umfang und Vorbereitung; neue Wunschstücke mit Heraushör- oder Notationsaufwand klären wir vorher (Orientierung ca. 30 Euro pro Song).',
 	},
 	trauer: {
@@ -60,7 +58,6 @@ const formContexts: Record<ContextKey, FormContext> = {
 		musicHint: 'Wenn Noten fehlen, klären wir den Aufwand vorher transparent.',
 		scopeLabel: 'Ablauf / Dauer',
 		scopePlaceholder: 'z. B. Trauerfeier, Gang zum Grab, 2-3 Stücke',
-		messagePlaceholder: 'Wer koordiniert die Feier? Bestattungshaus, Redner:in, gewünschte Stücke oder Stimmung helfen sehr.',
 		note: 'Die Kontaktaufnahme ist kostenlos und unverbindlich. Der Preis wird passend zu Ort, Ablauf und Vorbereitung vereinbart; ein kostenloses Vorspielen vor Ort ist nicht Teil der Anfrage.',
 	},
 	unterricht: {
@@ -78,7 +75,6 @@ const formContexts: Record<ContextKey, FormContext> = {
 		musicHint: 'Auch hilfreich: Ist ein Instrument vorhanden oder wird Beratung dazu gebraucht?',
 		scopeLabel: 'Format',
 		scopePlaceholder: 'z. B. Einzelstunde, regelmäßig, Vorbereitung auf Vorspiel',
-		messagePlaceholder: 'Erzähl kurz von Vorerfahrung, Alter, Instrument, Ziel und was dir beim Lernen wichtig ist.',
 		note: 'Die erste Kontaktaufnahme ist kostenlos und unverbindlich. Unterrichtspreise und Rhythmus stimmen wir individuell ab.',
 	},
 	firmenevent: {
@@ -96,7 +92,6 @@ const formContexts: Record<ContextKey, FormContext> = {
 		musicHint: 'Vorhandenes Repertoire ist ohne Aufpreis möglich; Sonderwünsche klären wir vorher.',
 		scopeLabel: 'Umfang / Gäste',
 		scopePlaceholder: 'z. B. 80 Gäste, Empfang 45 Min., Dinner 2 Sets',
-		messagePlaceholder: 'Gern mit Anlass, Ziel der Musik, Ansprechperson, Technik und Rechnungsdaten.',
 		note: 'Die Anfrage ist kostenlos und unverbindlich. Preise werden individuell nach Termin, Ort, Dauer, Vorbereitung, Technik und Anfahrt vereinbart.',
 	},
 	geburtstag: {
@@ -114,7 +109,6 @@ const formContexts: Record<ContextKey, FormContext> = {
 		musicHint: 'Wenn ein persönliches Wunschstück neu notiert werden muss, klären wir das vorher.',
 		scopeLabel: 'Umfang / Dauer',
 		scopePlaceholder: 'z. B. Überraschung, 20 Min., Dinner-Begleitung',
-		messagePlaceholder: 'Wer wird gefeiert, welche Stimmung passt und gibt es ein Lied mit persönlicher Bedeutung?',
 		note: 'Die Anfrage ist kostenlos und unverbindlich. Vorhandenes Repertoire ist ohne Aufpreis möglich; neue Wunschstücke mit zusätzlichem Aufwand klären wir vorher.',
 	},
 	taufe: {
@@ -132,7 +126,6 @@ const formContexts: Record<ContextKey, FormContext> = {
 		musicHint: 'Vorhandene Stücke sind ohne Aufpreis möglich; besondere Liedwünsche klären wir vorher.',
 		scopeLabel: 'Ablauf / Dauer',
 		scopePlaceholder: 'z. B. Gottesdienst, 2-3 Stücke, anschließender Empfang',
-		messagePlaceholder: 'Gern mit Ansprechpartner:in der Kirche, Ablauf und Liedwünschen.',
 		note: 'Die Anfrage ist kostenlos und unverbindlich. Preise vereinbaren wir individuell nach Ort, Umfang, Vorbereitung und Anfahrt.',
 	},
 	konzert: {
@@ -150,7 +143,6 @@ const formContexts: Record<ContextKey, FormContext> = {
 		musicHint: 'Programm und Preisrahmen entstehen nach Dauer, Vorbereitung und Format.',
 		scopeLabel: 'Umfang / Publikum',
 		scopePlaceholder: 'z. B. 30 Min., 2 Sets, ca. 60 Personen',
-		messagePlaceholder: 'Welche Atmosphäre soll entstehen? Gern mit Technik, Ablauf, Moderation und Programmlänge.',
 		note: 'Die Anfrage ist kostenlos und unverbindlich. Preise vereinbaren wir individuell; vorhandenes Repertoire ist ohne Aufpreis möglich.',
 	},
 	generic: {
@@ -168,7 +160,6 @@ const formContexts: Record<ContextKey, FormContext> = {
 		musicHint: 'Vorhandenes Repertoire ist ohne Aufpreis möglich; neue Stücke klären wir vorher.',
 		scopeLabel: 'Umfang / Dauer',
 		scopePlaceholder: 'z. B. Trauung, 30 Min. Empfang, Unterricht',
-		messagePlaceholder: 'Erzähl mir kurz von Anlass, Datum, Ort, Wünschen und offenen Fragen.',
 		note: 'Die Anfrage ist kostenlos und unverbindlich. Preise werden individuell vereinbart; ein kostenloses Vorspielen vor Ort ist nicht Teil der Anfrage.',
 	},
 };
@@ -233,10 +224,66 @@ function getFormContext(defaultOccasion: string, sourceLabel: string, path: stri
 <section class={`section${bgClass}`} id={data?.anchorId || 'kontakt'}>
 	<div class="wrap">
 		<div class="contact-card form-first">
+			<div class="form-panel">
+				<div class="fp-head reveal">
+					{contact?.formEyebrow && <p class="eyebrow" data-tina-field={contact ? tinaFieldFrom(contact, 'formEyebrow') : undefined}>{contact.formEyebrow}</p>}
+					{contact?.formTitle && <h2 class="display-s" style="margin-top:10px;" data-tina-field={contact ? tinaFieldFrom(contact, 'formTitle') : undefined}>{contact.formTitle}</h2>}
+					<p class="form-context">Ein kurzer Satz reicht für den Anfang. Alles Weitere besprechen wir persönlich.</p>
+				</div>
+				<form
+					class="reveal d1"
+					id="anfrageForm"
+					novalidate
+					data-track-form="contact"
+					data-track-context-key={context.key}
+					data-track-form-variant={context.label}
+					data-track-source-context={sourceContext}
+					data-track-default-occasion={selectedOccasion}
+				>
+					<input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;height:0;width:0;opacity:0;" />
+					<input type="hidden" name="seite" value={sourcePath} />
+					<input type="hidden" name="seitenkontext" value={sourceContext} />
+					<input type="hidden" name="formularvariante" value={context.label} />
+					<div class="row-2">
+						<div class="field"><label for="f-name">Dein Name</label><input id="f-name" type="text" name="name" autocomplete="name" placeholder="Wie heißt du?" required></div>
+						<div class="field"><label for="f-mail">Deine E-Mail-Adresse</label><input id="f-mail" type="email" name="email" autocomplete="email" placeholder="dein@email.de" required></div>
+					</div>
+					<div class="field"><label for="f-msg">Worum geht es?</label><textarea id="f-msg" name="nachricht" rows="3" placeholder="Ein Satz genügt – zum Beispiel: Ich suche Musik für eine Feier im Juni." required></textarea></div>
+					<details class="form-more">
+						<summary>Weitere Angaben machen <span>freiwillig</span></summary>
+						<div class="form-more-fields">
+							<p class="form-more-intro">{context.intro}</p>
+							<div class="row-2">
+								<div class="field">
+									<label for="f-anlass">Anlass</label>
+									<select id="f-anlass" name="anlass">
+										<option value="" selected={!selectedOccasion}>Noch offen</option>
+										{occasionOptions.map((option) => <option value={option} selected={option === selectedOccasion}>{option}</option>)}
+									</select>
+								</div>
+								<div class="field"><label for="f-phone">Telefon</label><input id="f-phone" type="tel" name="telefon" autocomplete="tel" placeholder="Falls du einen Rückruf möchtest"></div>
+							</div>
+							<div class="row-2">
+								<div class="field"><label for="f-date">{context.dateLabel}</label><input id="f-date" type="text" name="datum" placeholder={context.datePlaceholder}></div>
+								<div class="field"><label for="f-place">{context.placeLabel}</label><input id="f-place" type="text" name="ort" placeholder={context.placePlaceholder}></div>
+							</div>
+							<div class="row-2">
+								<div class="field"><label for="f-music">{context.musicLabel}</label><input id="f-music" type="text" name="wunschmusik" placeholder={context.musicPlaceholder}><p class="field-hint">{context.musicHint}</p></div>
+								<div class="field"><label for="f-scope">{context.scopeLabel}</label><input id="f-scope" type="text" name="umfang" placeholder={context.scopePlaceholder}></div>
+							</div>
+							<p class="form-note">{context.note}</p>
+						</div>
+					</details>
+					<p class="form-reassurance">Kostenlos und unverbindlich. Ich melde mich persönlich bei dir.</p>
+					<p class="form-privacy">Mit dem Absenden stimmst du der Verarbeitung deiner Angaben zur Bearbeitung der Anfrage zu. Details in der <a href={privacyHref}>Datenschutzerklärung</a>.</p>
+					<button type="submit" class="btn btn-solid" style="width:100%;justify-content:center;" data-track-label={context.submitLabel}>{context.submitLabel} <span class="ar">→</span></button>
+					<div class="form-ok" id="formOk" role="status" aria-live="polite" data-success={contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'} data-tina-field={contact ? tinaFieldFrom(contact, 'formSuccess') : undefined}>{contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'}</div>
+				</form>
+			</div>
 			<aside class="contact-aside reveal">
 				{contact?.asideImage && <Img class="c-bg" src={contact.asideImage} alt="" sizes="(max-width: 900px) 94vw, 42vw" aria-hidden="true" loading="lazy" />}
 				{contact?.eyebrow && <p class="eyebrow" data-tina-field={contact ? tinaFieldFrom(contact, 'eyebrow') : undefined}>{contact.eyebrow}</p>}
-				{contact?.title && <h2 class="display-s" style="margin:16px 0 14px;" data-tina-field={contact ? tinaFieldFrom(contact, 'title') : undefined}>{contact.title}</h2>}
+				{contact?.title && <h3 class="display-s" style="margin:16px 0 14px;" data-tina-field={contact ? tinaFieldFrom(contact, 'title') : undefined}>{contact.title}</h3>}
 				{contact?.lead && <p class="lead" data-tina-field={contact ? tinaFieldFrom(contact, 'lead') : undefined}>{contact.lead}</p>}
 				{checklist.length > 0 && (
 					<div class="checklist">
@@ -269,53 +316,6 @@ function getFormContext(defaultOccasion: string, sourceLabel: string, path: stri
 				</div>
 				{channelNote && <p class="c-channel-note" data-tina-field={contact ? tinaFieldFrom(contact, 'channelNote') : undefined}>{channelNote}</p>}
 			</aside>
-			<div class="form-panel">
-				<div class="fp-head reveal">
-					{contact?.formEyebrow && <p class="eyebrow" data-tina-field={contact ? tinaFieldFrom(contact, 'formEyebrow') : undefined}>{contact.formEyebrow}</p>}
-					{contact?.formTitle && <h3 class="display-s" style="margin-top:10px;" data-tina-field={contact ? tinaFieldFrom(contact, 'formTitle') : undefined}>{contact.formTitle}</h3>}
-					<p class="form-context">{context.intro}</p>
-				</div>
-				<form
-					class="reveal d1"
-					id="anfrageForm"
-					novalidate
-					data-track-form="contact"
-					data-track-context-key={context.key}
-					data-track-form-variant={context.label}
-					data-track-source-context={sourceContext}
-					data-track-default-occasion={selectedOccasion}
-				>
-					<input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;height:0;width:0;opacity:0;" />
-					<input type="hidden" name="seite" value={sourcePath} />
-					<input type="hidden" name="seitenkontext" value={sourceContext} />
-					<input type="hidden" name="formularvariante" value={context.label} />
-					<div class="row-3">
-						<div class="field"><label for="f-name">Name</label><input id="f-name" type="text" name="name" placeholder="Dein Name" required></div>
-						<div class="field"><label for="f-mail">E-Mail</label><input id="f-mail" type="email" name="email" placeholder="dein@email.de" required></div>
-						<div class="field"><label for="f-phone">Telefon <span class="opt">(optional)</span></label><input id="f-phone" type="tel" name="telefon" autocomplete="tel" placeholder="Für einen kurzen Rückruf"></div>
-					</div>
-					<div class="row-3">
-						<div class="field">
-							<label for="f-anlass">Anlass <span class="opt">(optional)</span></label>
-							<select id="f-anlass" name="anlass">
-								<option value="" selected={!selectedOccasion}>Bitte wählen</option>
-								{occasionOptions.map((option) => <option value={option} selected={option === selectedOccasion}>{option}</option>)}
-							</select>
-						</div>
-						<div class="field"><label for="f-date">{context.dateLabel} <span class="opt">(optional)</span></label><input id="f-date" type="text" name="datum" placeholder={context.datePlaceholder}></div>
-						<div class="field"><label for="f-place">{context.placeLabel} <span class="opt">(optional)</span></label><input id="f-place" type="text" name="ort" placeholder={context.placePlaceholder}></div>
-					</div>
-					<div class="row-2">
-						<div class="field"><label for="f-music">{context.musicLabel} <span class="opt">(optional)</span></label><input id="f-music" type="text" name="wunschmusik" placeholder={context.musicPlaceholder}><p class="field-hint">{context.musicHint}</p></div>
-						<div class="field"><label for="f-scope">{context.scopeLabel} <span class="opt">(optional)</span></label><input id="f-scope" type="text" name="umfang" placeholder={context.scopePlaceholder}></div>
-					</div>
-					<div class="field"><label for="f-msg">Nachricht <span class="opt">(optional)</span></label><textarea id="f-msg" name="nachricht" placeholder={context.messagePlaceholder}></textarea></div>
-					<p class="form-note">{context.note}</p>
-						<p class="form-privacy">Mit dem Absenden stimmst du der Verarbeitung deiner Angaben zur Bearbeitung der Anfrage zu. Details in der <a href={privacyHref}>Datenschutzerklärung</a>.</p>
-					<button type="submit" class="btn btn-solid" style="width:100%;justify-content:center;" data-track-label={context.submitLabel}>{context.submitLabel} <span class="ar">→</span></button>
-					<div class="form-ok" id="formOk" role="status" aria-live="polite" data-success={contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'} data-tina-field={contact ? tinaFieldFrom(contact, 'formSuccess') : undefined}>{contact?.formSuccess ?? 'Vielen Dank — deine Anfrage ist eingegangen.'}</div>
-				</form>
-			</div>
 		</div>
 	</div>
 </section>
