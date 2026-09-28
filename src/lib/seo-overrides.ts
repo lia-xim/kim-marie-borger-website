@@ -89,6 +89,7 @@ export interface SeoPageOverride {
 		title?: string;
 		lede?: string;
 		paragraphs?: string[];
+		ctas?: Array<{ label: string; link: string; style?: string }>;
 		sections?: SeoOverrideSplitSection[];
 		seal?: string;
 	};

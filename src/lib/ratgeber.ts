@@ -114,11 +114,11 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 	},
 	{
 		slug: 'musik-im-standesamt',
-		title: 'Checkliste für Live-Musik im Standesamt',
+		title: 'Musik im Standesamt: Ablauf und Checkliste',
 		shortTitle: 'Checkliste Standesamt',
-		seoTitle: 'Live-Musik im Standesamt | Checkliste für den Ablauf',
+		seoTitle: 'Musik im Standesamt: Was ist möglich? | Ablauf & Checkliste',
 		seoDescription:
-			'Checkliste für Live-Musik im Standesamt: Erlaubnis, Zeitfenster, Stückzahl, Raum und Ablauf vor der Trauung klären.',
+			'Musik bei der standesamtlichen Trauung planen: Was erlaubt das Standesamt? Welche Momente eignen sich für Einzug, Unterschrift und Auszug? Checkliste für euren Ablauf.',
 		intent: 'Paare möchten wissen, ob und wie Live-Musik im Standesamt organisatorisch funktioniert.',
 		cluster: 'Hochzeit',
 		serviceSlug: 'hochzeiten',
@@ -126,7 +126,7 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 		heroImageAlt: 'Kim Marie Borger spielt Viola im Abendlicht',
 		kicker: 'Standesamt',
 		lead:
-			'Standesamtliche Trauungen sind oft kurz. Gerade deshalb kann ein einzelnes live gespieltes Stück den Raum sofort persönlicher und festlicher machen.',
+			'Live-Musik im Standesamt kann Einzug, Unterschrift oder Auszug begleiten. Klärt zuerst mit dem jeweiligen Standesamt, welche Einsätze und Zeitfenster vor Ort möglich sind.',
 		summary:
 			'Für Paare, die eine schlichte standesamtliche Trauung musikalisch aufwerten möchten, ohne den Ablauf zu überladen.',
 		keyPoints: [
@@ -152,8 +152,15 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 			{
 				title: 'Was sollte vorab geklärt werden?',
 				body: [
-					'Fragt beim Standesamt nach Dauer, erlaubten Musikmomenten und Ankunftszeit. Auch die Raumakustik und der Platz für die Musikerin sind relevant.',
+					'Fragt beim Standesamt nach Dauer, erlaubten Musikmomenten, Ankunftszeit und dem Zugang zum Trauraum. Auch die Raumakustik, ein Platz für die Musikerin und eine Kontaktperson für das Startsignal sind relevant.',
 					'Wenn danach ein Sektempfang oder Fototermin folgt, kann die Musik dort weitergeführt werden. So entsteht ein ruhiger Übergang vom offiziellen Teil in den gemeinsamen Tag.',
+				],
+			},
+			{
+				title: 'Kurze Checkliste für euren Ablauf',
+				body: [
+					'Notiert Trautermin und Adresse, das bestätigte Zeitfenster für Musik, den gewünschten Einsatzpunkt und ein bis drei Liedideen. Fragt nach, wer am Tag selbst Einlass und Startsignal koordiniert.',
+					'Soll ein Wunschlied erklingen, schickt es frühzeitig. Ich prüfe, ob Melodie und Länge auf Solo-Viola funktionieren; danach können wir den Einsatz mit dem tatsächlichen Ablauf abstimmen.',
 				],
 			},
 		],

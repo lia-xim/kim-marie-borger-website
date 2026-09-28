@@ -2,6 +2,21 @@
 
 Updated: 2026-07-29
 
+## Current evidence note: 2026-09-28
+
+The new GSC export records 142 clicks and 2,036 impressions for the property in
+its available daily rows (2026-06-11 through 2026-09-26). The coverage snapshot
+shows 519 indexed and seven excluded URLs as of 2026-09-21. These are dated
+observations, not a page-query join or conversion evidence. The complete
+occasion-keyword and page-action analysis is in
+`seo/keyword-recherche-anlaesse-2026-09-28.md`. Wedding, funeral, birthday,
+private-celebration and standesamt pages are being strengthened as a bounded
+seven-URL title, description and content experiment. Review their page-query
+visibility, clicks and qualified inquiries six to eight weeks after confirmed
+crawl. Fresh Crawl Foundry MCP keyword research in the exact workspace and
+query-by-page data remain open; the older note below remains a historical
+snapshot.
+
 ## Current evidence note: 2026-08-31
 
 The required `contextter_kim_marie` workspace check confirmed
