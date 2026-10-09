@@ -414,6 +414,12 @@ fragment SeoPageParts on SeoPage {
       title
       lede
       paragraphs
+      ctas {
+        __typename
+        label
+        link
+        style
+      }
       image {
         __typename
         src

@@ -169,6 +169,7 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 			{ label: 'Hochzeitsmusik', href: '/hochzeiten/' },
 			{ label: 'Musik zur Unterschrift', href: '/hochzeiten/musik-unterschrift-standesamt/' },
 			{ label: 'Musik zum Auszug', href: '/hochzeiten/musik-auszug/' },
+			{ label: 'Hochzeitsmusik in Düsseldorf', href: '/hochzeiten/duesseldorf/', note: 'Trauung und Empfang vor Ort abstimmen' },
 		],
 		nextStep: { label: 'Termin im Standesamt anfragen', href: '/anfragen/' },
 		faqs: [
@@ -449,6 +450,8 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 			{ label: 'Geigenunterricht Erwachsene', href: '/unterricht/geigenunterricht-erwachsene/' },
 			{ label: 'Geige lernen', href: '/unterricht/geige-lernen/' },
 			{ label: 'Bratschenunterricht Erwachsene', href: '/unterricht/bratschenunterricht-erwachsene/' },
+			{ label: 'Geigen- und Bratschenunterricht in Düsseldorf', href: '/unterricht/duesseldorf/', note: 'Probestunde für Geige oder Viola anfragen' },
+			{ label: 'Geigenunterricht in Köln', href: '/unterricht/koeln/', note: 'Einstieg oder Wiedereinstieg persönlich abstimmen' },
 		],
 		nextStep: { label: 'Probestunde anfragen', href: '/anfragen/' },
 		faqs: [

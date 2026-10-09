@@ -8,113 +8,154 @@
   "priority": "P1",
   "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
-  "seoTitle": "Geigenunterricht Düsseldorf | Geige lernen",
-  "seoDescription": "Geigenunterricht Düsseldorf: Geigen- und Bratschenunterricht für Kinder und Erwachsene in Düsseldorf. Probestunde, Ziele und Unterrichtsrhythmus transparent klären.",
+  "seoTitle": "Geigen- und Bratschenunterricht Düsseldorf | Probestunde",
+  "seoDescription": "Geigen- und Bratschenunterricht in Düsseldorf für Kinder, Erwachsene und Wiedereinsteiger. Geige oder Viola lernen: kostenlose, unverbindliche Probestunde.",
   "hero": {
-    "eyebrow": "Geigenunterricht in Düsseldorf",
-    "title": "Geigenunterricht in Düsseldorf mit einem realistischen Lernplan.",
-    "lead": "Geigen- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinsteiger:innen. In der kostenlosen Probestunde klären wir Lernziel, Instrument und einen Rhythmus, der auch nach den ersten Wochen noch in den Alltag passt.",
+    "eyebrow": "Geige & Viola lernen",
+    "title": "Geigen- und Bratschenunterricht in Düsseldorf.",
+    "lead": "Ich unterrichte Geige und Bratsche für Kinder, Jugendliche und Erwachsene. Ob du neu anfängst, das Instrument wechselst oder wieder einsteigst: Wir arbeiten an Klang, Technik und einem Übeplan, der zu deinem Alltag passt.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
     "seal": "Düsseldorf\nGeigenunterricht\nkonkret geplant",
     "sections": [
       {
-        "eyebrow": "Lokaler Rahmen",
-        "title": "Ein Unterrichtsweg, der jede Woche funktioniert.",
-        "lede": "Für regelmäßigen Unterricht in Düsseldorf ist nicht der Stadtname entscheidend, sondern ob der Weg nach Schule oder Arbeit dauerhaft machbar bleibt. Das prüfen wir zusammen mit Lernziel und verfügbarer Übezeit.",
+        "eyebrow": "Geige oder Bratsche?",
+        "title": "Die Instrumentenwahl darf am Anfang noch offen sein.",
+        "lede": "Du möchtest ein Streichinstrument lernen, bist dir aber bei Geige und Viola noch unsicher? Wir besprechen die Unterschiede anhand deiner Fragen.",
         "paragraphs": [
-          "Vor der Probestunde klären wir Lernstand, Instrument, Ziel, möglichen Unterrichtsort und einen Rhythmus, der im Alltag in Düsseldorf regelmäßig funktioniert."
+          "Vielleicht hast du eine bestimmte Melodie im Ohr oder magst besonders den warmen Klang der Bratsche. Für die Wahl zählen neben dem Klang auch Handhabung, vorhandenes Instrument und die Musik, die du spielen möchtest.",
+          "Im Geigenunterricht bauen wir Haltung, Bogenführung, Intonation und Rhythmus auf. Beim Bratschenunterricht arbeiten wir ebenso an diesen Grundlagen, mit Blick auf das konkrete Instrument und deinen Lernstand.",
+          "Für einen Unterrichtstermin in Düsseldorf stimmen wir Ort, Format und mögliche Zeiten persönlich ab. Nenne bei der Anfrage dein gewünschtes Instrument oder schreib dazu, wenn du erst Orientierung brauchst. Ein Instrumentenkauf muss für diese erste Anfrage noch nicht entschieden sein."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Geigenunterricht in Düsseldorf - lokaler Planungsrahmen"
         },
-        "imageFirst": false
+        "imageFirst": false,
+        "ctas": [
+          {
+            "label": "Geige oder Bratsche als Erwachsene:r lernen?",
+            "link": "/ratgeber/bratschenunterricht-erwachsene/",
+            "style": "link-line"
+          },
+          {
+            "label": "Über meinen Weg als Bratschistin",
+            "link": "/ueber-mich/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "eyebrow": "Ablauf",
-        "title": "Probestunde und Wochenrhythmus in Düsseldorf.",
-        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob Weg, Alltag, Instrument und realistische Übezeit dauerhaft zusammenpassen.",
+        "eyebrow": "Bratschenunterricht in Düsseldorf",
+        "title": "Viola lernen oder von der Geige wechseln.",
+        "lede": "Bratsche und Viola sind zwei Namen für dasselbe Instrument. Im Unterricht geht es darum, seinen Klang bewusst zu gestalten.",
         "paragraphs": [
-          "Mögliche Einsatzpunkte sind Probestunde, Lernstandscheck, Technikaufbau, Übeplan und regelmäßiger Rhythmus. Ich plane lieber einen tragfähigen Wochenrhythmus mit klaren Übezielen als eine Probestunde, nach der der Alltag den Unterricht sofort ausbremst.",
-          "Vorab klären wir, ob Instrument, Noten, Wunschstücke, Lernstand, Probestunde und Übezeit realistisch zusammenpassen.",
-          "Ein fester Termin hilft nur, wenn der Weg nach Schule oder Arbeit noch Energie für die Stunde lässt. Deshalb besprechen wir Rhythmus und Uhrzeit bereits in der Probestunde."
+          "Als Anfänger:in lernst du zuerst, Instrument und Bogen zu führen und auf den entstehenden Ton zu hören. Daraus entwickeln wir kleine Melodien, sichere Tonfolgen und einen verständlichen Zugang zu Noten und Rhythmus.",
+          "Wenn du von der Geige zur Bratsche wechseln möchtest, bringst du bereits musikalische Erfahrung mit. Wir prüfen gemeinsam, welche Bewegungen sich übertragen lassen und wo Haltung, Bogenführung oder Orientierung auf dem Instrument angepasst werden müssen.",
+          "Beim Wiedereinstieg geht es um deine aktuelle Situation: Was fühlt sich noch vertraut an, welche Stücke möchtest du spielen und welche technischen Fragen bremsen dich? Daraus leiten wir die nächsten Übeaufgaben ab."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
           "alt": "Geigenunterricht in Düsseldorf - Ablauf und Einsätze"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "ctas": [
+          {
+            "label": "Mehr über Inhalte im Bratschenunterricht",
+            "link": "/unterricht/bratschenunterricht/",
+            "style": "link-line"
+          },
+          {
+            "label": "Bratsche lernen als Erwachsene:r",
+            "link": "/unterricht/bratschenunterricht-erwachsene/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "eyebrow": "Unterricht: passend oder nicht?",
-        "title": "Wann Geigenunterricht in Düsseldorf die richtige Wahl ist.",
-        "lede": "Der Unterricht passt, wenn du Klang und Technik Schritt für Schritt aufbauen und zwischen den Terminen regelmäßig üben möchtest.",
+        "eyebrow": "Persönlicher Lernplan",
+        "title": "Ein Stück zeigt, woran wir arbeiten können.",
+        "lede": "Klangarbeit, Musiktheorie und Technik werden nicht zu getrennten Baustellen. Sie helfen dir beim Spielen deiner Musik.",
         "paragraphs": [
-          "Nicht ideal ist Geigenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann ist es ehrlicher, zuerst Ziel, Format, Material oder einen späteren Start zu klären.",
-          "Wenn ein Unterrichtsort vorgeschlagen wird, prüfe ich lieber früh, ob Raum, Lautstärke, Notenständer, Sitzmöglichkeit und Wiederholbarkeit des Weges passen.",
-          "Wenn Unterrichtsort, Weg oder Rhythmus unsicher sind, prüfe ich lieber früh, ob eine Probestunde oder ein anderer Rahmen sinnvoller ist."
+          "Bei einem unsicheren Ton schauen wir beispielsweise auf das Hören und die Orientierung der linken Hand. Bei einer unruhigen Phrase prüfen wir Bogenführung und Rhythmus. Die Übung soll ein konkretes Problem im Stück verständlicher machen.",
+          "Kinder und Jugendliche brauchen Aufgaben, die zu ihrem Alter und ihrer bisherigen Erfahrung passen. Erwachsene bringen oft konkrete Wünsche mit. In beiden Fällen vereinbaren wir überschaubare Schritte statt einer langen Liste für die Woche.",
+          "Wie viel und wie oft du üben kannst, fließt in den Plan ein. Unterricht, Weg durch Düsseldorf und Zeit zu Hause müssen zusammenpassen. Regelmäßigkeit entsteht leichter, wenn der Rahmen tatsächlich machbar ist."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Geigenunterricht in Düsseldorf - passend planen"
         },
-        "imageFirst": false
+        "imageFirst": false,
+        "ctas": []
       },
       {
-        "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich vor der Probestunde wissen möchte.",
-        "lede": "Eine gute Unterrichtsanfrage nennt Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
+        "eyebrow": "Die erste Stunde",
+        "title": "In der Probestunde klären wir Instrument, Ziel und Rahmen.",
+        "lede": "Die Probestunde ist kostenlos und unverbindlich – für Geige ebenso wie für Bratsche.",
         "paragraphs": [
-          "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
-          "Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Wunschstück keine brauchbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
-          "Zusätzlicher Aufwand kann durch neu zu erstellende Noten oder besonderes Unterrichtsmaterial entstehen. Das bespreche ich vorab; der reguläre Unterricht wird transparent nach Dauer, Rhythmus und Ort vereinbart."
+          "Schreib mir Alter, Vorerfahrung, gewünschtes Instrument und mögliche Zeitfenster. Wenn du schon spielst, können vorhandene Noten oder ein vertrautes Stück zeigen, wo du gerade stehst. Ein vorbereitetes Vorspiel ist keine Voraussetzung.",
+          "Falls du noch kein Instrument hast, sag es vor dem Termin. Wir klären, welches Instrument und welche Vorbereitung für den Einstieg nötig sind. Ort und Format sprechen wir ebenfalls vorher ab.",
+          "Bevor regelmäßiger Unterricht beginnt, vereinbaren wir Dauer, Rhythmus und Preis. Vorhandenes Repertoire ist ohne Aufpreis möglich; besondere Vorbereitung oder neue Notation für Wunschmusik wird vorher besprochen."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
           "alt": "Geigenunterricht in Düsseldorf - Anfrage und Preisrahmen"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "ctas": [
+          {
+            "label": "Probestunde für Geige oder Bratsche in Düsseldorf anfragen",
+            "link": "/anfragen/",
+            "style": "link-line"
+          }
+        ]
       }
     ]
   },
   "faq": {
-    "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Geigenunterricht Düsseldorf",
+    "eyebrow": "Geige & Bratsche",
+    "title": "Fragen zum Unterricht in Düsseldorf.",
     "items": [
       {
-        "question": "Bietest du Geigenunterricht in Düsseldorf?",
-        "answer": "Ja. Ich biete Geigen- und Bratschenunterricht in Düsseldorf beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
+        "question": "Bietest du Bratschenunterricht in Düsseldorf an?",
+        "answer": "Ja. Neben Geigenunterricht biete ich auch Unterricht für Bratsche beziehungsweise Viola an. Kinder, Jugendliche, Erwachsene und Wiedereinsteiger können eine kostenlose, unverbindliche Probestunde anfragen. Ort, Format und Verfügbarkeit stimmen wir vorab persönlich ab.",
         "open": true
       },
       {
-        "question": "Welche Angaben brauchst du für eine Anfrage in Düsseldorf?",
-        "answer": "Am hilfreichsten sind Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Je genauer diese Angaben sind, desto schneller kann ich Verfügbarkeit, Ablauf und Preisrahmen einschätzen."
+        "question": "Ist Viola dasselbe wie Bratsche?",
+        "answer": "Ja, beide Bezeichnungen meinen dasselbe Instrument. Du kannst bei der Anfrage beide Begriffe verwenden. Wenn du zwischen Geige und Bratsche schwankst, sprechen wir über deine Klangvorstellungen, das Instrument und deine musikalischen Ziele.",
+        "open": false
       },
       {
-        "question": "Wie entsteht der Preis?",
-        "answer": "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Die erste Anfrage ist kostenlos und unverbindlich; ein Angebot wird erst sinnvoll, wenn der Rahmen klar ist."
+        "question": "Kann ich von der Geige auf die Bratsche wechseln?",
+        "answer": "Ja. Wir greifen deine vorhandenen Kenntnisse auf und schauen auf Haltung, Bogenführung, Klang und die Orientierung am Instrument. Der Unterricht setzt bei deinem Lernstand an und muss nicht alle Grundlagen von vorn behandeln.",
+        "open": false
       },
       {
-        "question": "Sind Wunschstücke möglich?",
-        "answer": "Ja, wenn sie zum Lernstand, Instrument und Unterrichtsziel passen. Vorhandenes Unterrichtsmaterial ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+        "question": "Kann ich ohne Notenkenntnisse anfangen?",
+        "answer": "Ja. Notenlesen, Rhythmus und Gehör werden zusammen mit dem Spielen aufgebaut. Für den ersten Kontakt oder die Probestunde ist kein vorbereitetes Vorspiel nötig.",
+        "open": false
       },
       {
-        "question": "Wann passt Geigenunterricht besonders gut?",
-        "answer": "Geigenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Unterricht wirkt am besten, wenn Weg, Ziel, Übezeit und Regelmäßigkeit realistisch sind."
+        "question": "Ist der Unterricht auch für Kinder geeignet?",
+        "answer": "Ja. Inhalte und Aufgaben werden an Alter und Lernstand angepasst. Bitte nenne bei der Anfrage das Alter und ob bereits ein Instrument und Unterrichtserfahrung vorhanden sind.",
+        "open": false
       },
       {
-        "question": "Wann ist Geigenunterricht nicht die richtige Lösung?",
-        "answer": "Ohne Zeit zum Üben kann Unterricht wenig verändern. Wenn du dagegen Musik für einen einzelnen Anlass suchst, ist eine Auftrittsanfrage passender als regelmäßiger Geigenunterricht."
+        "question": "Wo findet der Geigen- oder Bratschenunterricht in Düsseldorf statt?",
+        "answer": "Den Unterrichtsort, das Format und passende Zeitfenster vereinbaren wir persönlich. Teile mir deinen Ausgangsort beziehungsweise Stadtteil mit, damit wir einen regelmäßig machbaren Rahmen prüfen können.",
+        "open": false
       },
       {
-        "question": "Was ist in Düsseldorf organisatorisch wichtig?",
-        "answer": "Für regelmäßigen Unterricht in Düsseldorf sollten Unterrichtsort, Weg, Schul- oder Arbeitszeiten und realistische Übezeit zusammenpassen. Das klären wir in der Probestunde."
+        "question": "Brauche ich vor der Probestunde ein eigenes Instrument?",
+        "answer": "Teile mir vorab mit, ob du ein Instrument hast. Wir klären die Instrumentenfrage und die Vorbereitung für den Termin gemeinsam. Kaufe nicht allein für die erste Anfrage ein Instrument, ohne Größe und Eignung besprochen zu haben.",
+        "open": false
       },
       {
-        "question": "Was kostet nach der Probestunde extra?",
-        "answer": "Nach der kostenlosen Probestunde hängen die Kosten von Dauer, Rhythmus, Format und Unterrichtsort ab. Neue Notation, besonderes Material oder zusätzliche Vorbereitung bespreche ich vorher."
+        "question": "Welche Kosten entstehen nach der Probestunde?",
+        "answer": "Die Probestunde ist kostenlos und unverbindlich. Der Preis für regelmäßigen Unterricht hängt von Dauer, Rhythmus, Format und Ort ab und wird vorher vereinbart. Zusätzliche Vorbereitung oder besonderes Material besprechen wir ebenfalls vorab.",
+        "open": false
       }
     ]
   },
@@ -136,11 +177,11 @@
       "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
     }
   ],
-  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Düsseldorfer Unterrichtsseite auf dauerhaft machbaren Wochenweg, Probestunde und realistische Übezeit fokussiert; Verkaufssprache entfernt.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Düsseldorfer Unterrichtsseite auf dauerhaft machbaren Wochenweg, Probestunde und realistische Übezeit fokussiert; Verkaufssprache entfernt.\n\nSEO-Ausbau 09.10.2026: Suchabsicht, konkrete Entscheidungshilfen und weiterführende Links anhand der GSC-Auswertung geschärft. Bestehende URL und Freigabestatus beibehalten.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
-    "title": "Geigenunterricht in Düsseldorf anfragen",
-    "lead": "Schreib mir kurz Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Danach klären wir, ob eine kostenlose Probestunde in Düsseldorf, ein regelmäßiger Rhythmus oder zuerst eine Orientierung sinnvoll ist.",
+    "title": "Geigen- oder Bratschenunterricht in Düsseldorf anfragen",
+    "lead": "Schreib mir Alter, Vorerfahrung, gewünschtes oder vorhandenes Instrument und mögliche Zeitfenster. Danach stimmen wir Ort, Format und eine kostenlose, unverbindliche Probestunde für Geige oder Bratsche ab.",
     "checklist": [
       "Düsseldorf",
       "Lernstand",
@@ -149,7 +190,7 @@
       "Preis nach Rahmen"
     ],
     "defaultOccasion": "Unterricht",
-    "sourceLabel": "Geigenunterricht Düsseldorf",
+    "sourceLabel": "Geigen- und Bratschenunterricht Düsseldorf",
     "notes": [
       "Probestunde kostenlos und unverbindlich",
       "Unterrichtsort, Rhythmus und möglicher Materialaufwand werden vorab geklärt",
@@ -161,36 +202,36 @@
     "formSuccess": "Danke - ich prüfe deine Anfrage in Düsseldorf und melde mich persönlich mit den nächsten Schritten."
   },
   "focus": {
-    "eyebrow": "Planung in Düsseldorf",
-    "title": "Vier Fragen vor dem regelmäßigen Unterricht.",
-    "lead": "Lernstand, Ziel, Weg und Übezeit zeigen schnell, welcher Unterrichtsrhythmus wirklich tragfähig ist.",
+    "eyebrow": "Dein Einstieg",
+    "title": "Welcher Ausgangspunkt passt zu dir?",
+    "lead": "Nicht alle beginnen bei derselben Aufgabe. Dein bisheriger Weg bestimmt den Einstieg.",
     "items": [
       {
         "time": "1",
-        "kicker": "Lernstand",
-        "title": "Lernstand und Ziel klären",
-        "text": "Wichtig sind Alter, Vorerfahrung, vorhandenes Instrument, Ziel und die Frage, ob der Weg in Düsseldorf regelmäßig machbar bleibt."
+        "kicker": "Anfang",
+        "title": "Ohne Vorerfahrung starten",
+        "text": "Wir beginnen beim Umgang mit Instrument und Bogen und verbinden erste Töne mit kleinen musikalischen Aufgaben."
       },
       {
         "time": "2",
-        "kicker": "Aufgabe",
-        "title": "Probestunde realistisch nutzen",
-        "text": "Die kostenlose Probestunde klärt, ob Unterrichtsart, Tempo, Klangarbeit, Übezeit und Rhythmus zusammenpassen."
+        "kicker": "Wechsel",
+        "title": "Von Geige zu Bratsche",
+        "text": "Vorhandene Erfahrung wird aufgegriffen. Wir schauen gezielt auf das, was sich am neuen Instrument anders anfühlt."
       },
       {
         "time": "3",
-        "kicker": "Material",
-        "title": "Wunschmusik und Notation prüfen",
-        "text": "Wunschstücke können motivieren, wenn sie zum Lernstand passen. Neue Notation oder eigenes Material bespreche ich vorher transparent."
+        "kicker": "Wiedereinstieg",
+        "title": "Nach einer Pause weiterlernen",
+        "text": "Vertraute Grundlagen und Stücke zeigen, was wir auffrischen und was du als Nächstes aufbauen möchtest."
       },
       {
         "time": "4",
-        "kicker": "Rahmen",
-        "title": "Rhythmus und Kosten vereinbaren",
-        "text": "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
+        "kicker": "Vertiefung",
+        "title": "An einem konkreten Stück arbeiten",
+        "text": "Klang, Intonation, Rhythmus und Bogenführung werden an den musikalischen Stellen bearbeitet, die Fragen aufwerfen."
       }
     ],
-    "footnote": "Nach der Probestunde sollten Unterrichtsort, Terminrhythmus, Übeziel und Kosten für beide Seiten klar sein."
+    "footnote": "In der Probestunde wählen wir gemeinsam einen passenden Ausgangspunkt."
   },
   "elegy": {
     "passages": []

@@ -31,6 +31,7 @@ export interface SeoOverrideSplitSection {
 	title?: string;
 	lede?: string;
 	paragraphs?: string[];
+	ctas?: Array<{ label: string; link: string; style?: string }>;
 	image?: {
 		src?: string;
 		alt?: string;

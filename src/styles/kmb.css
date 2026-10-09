@@ -656,6 +656,7 @@ html.js .reveal.in{ opacity:1; transform:none; }
   font-family:var(--display); font-weight:400; color:#f6ecdd;
   font-size:clamp(2.75rem,7vw,6.5rem); line-height:1.02; letter-spacing:-.02em;
   max-width:16ch; text-shadow:0 2px 40px rgba(0,0,0,.35); margin-top:22px;
+  overflow-wrap:anywhere; hyphens:auto;
 }
 .hero-page .hp-lead{
   margin-top:20px; max-width:54ch; color:rgba(246,236,221,.88);

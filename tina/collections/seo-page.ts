@@ -36,6 +36,18 @@ const splitSectionFields = [
 	{ type: 'string' as const, name: 'paragraphs', label: 'Absatztexte', list: true, ui: { component: 'textarea' } },
 	{
 		type: 'object' as const,
+		name: 'ctas',
+		label: 'Weiterfuehrende Links',
+		list: true,
+		ui: { itemProps: (item) => ({ label: item?.label ?? 'Link' }) },
+		fields: [
+			{ type: 'string' as const, name: 'label', label: 'Link-Beschriftung', required: true },
+			{ type: 'string' as const, name: 'link', label: 'Link-Ziel', required: true },
+			{ type: 'string' as const, name: 'style', label: 'Darstellung', options: ['link-line', 'btn-ghost'] },
+		],
+	},
+	{
+		type: 'object' as const,
 		name: 'image',
 		label: 'Bild',
 		fields: [

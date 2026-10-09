@@ -8,93 +8,143 @@
   "priority": "P2",
   "status": "risk-pass-2026-06-16-review-needed",
   "enabled": true,
-  "seoTitle": "Bratschenunterricht | Viola lernen",
-  "seoDescription": "Bratschenunterricht: Unterricht für Viola oder Bratsche mit Probestunde, Übeplan, Klang, Haltung und Bogenführung.",
+  "seoTitle": "Bratschenunterricht | Viola lernen mit Kim Marie Borger",
+  "seoDescription": "Bratsche lernen für Kinder, Erwachsene und Wiedereinsteiger: Klang, Bogenführung, Noten und Übeplan. Auch für den Wechsel von Geige zu Viola. Probestunde anfragen.",
   "hero": {
-    "eyebrow": "Bratsche lernen",
-    "title": "Bratschenunterricht mit warmem Klang, klarer Technik und realistischem Übeplan.",
-    "lead": "Bratschenunterricht beginnt mit einem tragfähigen Fundament: Haltung, Bogen, erster Klang, Notenlesen und Üben werden so aufgebaut, dass Fortschritt verständlich bleibt.",
+    "eyebrow": "Bratsche / Viola",
+    "title": "Bratschenunterricht für deinen Einstieg und deinen Klang.",
+    "lead": "Bratsche lernen beginnt mit Hören, Haltung und Bogenführung. Ich unterrichte Anfänger:innen, Erwachsene, Kinder und Wiedereinsteiger und begleite auch den Wechsel von der Geige zur Viola.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
     "seal": "Bratsche lernen\nKlang & Technik\npersönlich",
     "sections": [
       {
-        "title": "Bratschenunterricht: ein solides Fundament für Klang und Technik.",
-        "lede": "Im Mittelpunkt stehen Grundlagen und Aufbau.",
+        "title": "Einen Ton spielen – und verstehen, wie er entsteht.",
+        "lede": "Die Bratsche heißt auch Viola. Im Unterricht arbeiten wir an ihrem Klang und an Bewegungen, die du bewusst steuern kannst.",
         "paragraphs": [
-          "Im allgemeinen Bratschenunterricht steht das Fundament im Vordergrund: Instrument halten, Bogen führen, Ton hören, Noten verstehen und regelmäßig sinnvoll üben.",
-          "Der Unterricht ist offen für Kinder, Jugendliche, Erwachsene und Wiedereinsteiger:innen. Die Inhalte ändern sich je nach Alter, aber die Grundidee bleibt: ein entspannter Körper und ein tragender Klang.",
-          "Wir verbinden Technik sofort mit Musik. Eine Bogenübung bleibt nicht abstrakt, sondern taucht in kleinen Melodien, Etüden oder Wunschstücken wieder auf.",
-          "Ein gutes Fundament spart später viele Korrekturen. Deshalb werden Haltung, Intonation und Rhythmus langsam genug aufgebaut, damit sie wirklich verstanden werden."
+          "Am Anfang stehen Instrumentenhaltung, Bogenführung und das Hören. Du lernst, wie ein Ton anspricht und wie sich Klang durch den Umgang mit dem Bogen verändert. Kleine Melodien verbinden diese Grundlagen mit Musik.",
+          "Notenlesen, Rhythmus und Intonation kommen Schritt für Schritt dazu. Eine technische Übung soll dir helfen, eine konkrete Stelle im Stück zu spielen. Deshalb betrachten wir Theorie und Praxis zusammen.",
+          "Kinder, Jugendliche und Erwachsene können beginnen. Der Aufbau richtet sich nach Alter, Vorerfahrung und deinen Fragen. Du musst vor der ersten Stunde weder Noten lesen noch ein vorbereitetes Stück spielen können."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false,
-        "eyebrow": "Unterricht mit klarem Fokus"
+        "eyebrow": "Die Grundlagen",
+        "ctas": [
+          {
+            "label": "Meinen Weg als Bratschistin kennenlernen",
+            "link": "/ueber-mich/",
+            "style": "link-line"
+          },
+          {
+            "label": "Geige oder Bratsche: Orientierung für Erwachsene",
+            "link": "/ratgeber/bratschenunterricht-erwachsene/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "title": "Bratschenunterricht im Ablauf sinnvoll einsetzen.",
-        "lede": "Entscheidend sind Lernstand, Instrument, Ziel, Unterrichtsort, Wochenrhythmus und realistische Übezeit.",
+        "title": "Mit Geigenerfahrung fängst du nicht bei null an.",
+        "lede": "Wenn du von der Geige zur Bratsche wechselst, nutzen wir deine vorhandene musikalische Erfahrung.",
         "paragraphs": [
-          "Für die Anfrage helfen Alter, Lernstand, vorhandenes Instrument, musikalisches Ziel und die Frage, ob zuerst eine Probestunde gewünscht ist.",
-          "Allgemeiner Bratschenunterricht braucht ein Fundament, das für verschiedene Altersgruppen funktioniert. Haltung, Bogen, linke Hand, Rhythmus und Notenlesen werden deshalb nicht isoliert behandelt, sondern immer wieder mit kleinen musikalischen Aufgaben verbunden.",
-          "Wenn Kinder, Jugendliche oder Erwachsene starten, verändert sich die Sprache des Unterrichts, aber nicht das Ziel: ein entspannter Körper, ein tragender Ton und ein Übeweg, der zu Hause wirklich machbar bleibt."
+          "Gemeinsam schauen wir, welche Bewegungen bereits sicher sind und was am anderen Instrument neu organisiert werden muss. Dazu gehören Haltung, Bogenführung, Klangvorstellung und Orientierung. Ein vertrautes Stück kann zeigen, wo sich der Wechsel bemerkbar macht.",
+          "Auch nach einer längeren Pause prüfen wir zunächst, was noch vertraut ist. Du kannst Noten oder Stücke aus deinem bisherigen Unterricht mitbringen. Der neue Plan ergibt sich aus deinem aktuellen Stand und der Musik, die du spielen möchtest.",
+          "Für Erwachsene dürfen Ziele konkret und überschaubar sein: ein Stück erarbeiten, Klang und Intonation verbessern oder wieder regelmäßig musizieren. Die verfügbaren Übezeiten gehören zu dieser Entscheidung."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
           "alt": "Kim Marie Borger steht mit ihrer Viola am See"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "eyebrow": "Wechsel & Wiedereinstieg",
+        "ctas": [
+          {
+            "label": "Bratschenunterricht für Erwachsene",
+            "link": "/unterricht/bratschenunterricht-erwachsene/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Nach den ersten Grundlagen wird der Unterricht feiner: Wir achten darauf, ob ein Ton nur irgendwie entsteht oder ob Bogenrichtung, Kontaktstelle und linke Hand zusammenarbeiten. Diese Unterscheidung hilft, später musikalischer und sicherer zu spielen.",
+        "title": "Eine gute Übeaufgabe hat einen klaren Schwerpunkt.",
+        "lede": "Du sollst nach der Stunde wissen, was du übst und worauf du dabei hörst oder achtest.",
         "paragraphs": [
-          "Zum Unterricht gehört auch, wie zu Hause geübt wird. Kurze Aufgaben mit klarem Ziel sind wertvoller als langes Durchspielen ohne Aufmerksamkeit. Deshalb endet jede Stunde mit einer konkreten Idee für die nächsten Tage."
+          "Wir nehmen zum Beispiel einen Bogenwechsel, einen Rhythmus oder eine kurze Tonfolge aus dem Stück heraus. Erst bearbeiten wir diese Stelle, dann setzen wir sie wieder in den musikalischen Zusammenhang. So bekommt Wiederholung einen Zweck.",
+          "Wunschstücke werden nach Lernstand und Spielbarkeit ausgewählt. Vorhandenes Repertoire ist ohne Aufpreis möglich. Für neue Notation oder zusätzliche Vorbereitung klären wir den Aufwand vorher.",
+          "Die Probestunde hilft dabei, Lernziel, Instrument und Unterrichtsrahmen abzustimmen. Sag bitte vorher, ob du bereits eine Bratsche hast. Dauer, Rhythmus, Format, Ort und Preis für regelmäßigen Unterricht werden vor einer Buchung vereinbart."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
-        "imageFirst": false
+        "imageFirst": false,
+        "eyebrow": "Unterricht & Üben",
+        "ctas": []
+      },
+      {
+        "title": "Bratschenunterricht in Düsseldorf persönlich abstimmen.",
+        "lede": "Du suchst vor Ort nach Unterricht für Viola? Auf der Düsseldorfer Seite findest du die Informationen für die erste Anfrage.",
+        "paragraphs": [
+          "Die Seite umfasst den Einstieg auf Geige und Bratsche, den Instrumentenwechsel und die kostenlose Probestunde. Nenne bei deiner Anfrage deinen Ausgangsort, deine Vorerfahrung und mögliche Zeitfenster; Unterrichtsort und Verfügbarkeit klären wir persönlich.",
+          "Für regelmäßigen Unterricht suchen wir einen Rahmen, der in deinen Alltag passt. Unterrichtsort, Format und Zeiten stehen fest, bevor du dich für eine Buchung entscheidest. Wenn du aus einem anderen Ort anfragst, schreib ihn bitte dazu."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
+        },
+        "imageFirst": false,
+        "eyebrow": "Unterricht in Düsseldorf",
+        "ctas": [
+          {
+            "label": "Geigen- und Bratschenunterricht in Düsseldorf",
+            "link": "/unterricht/duesseldorf/",
+            "style": "link-line"
+          }
+        ]
       }
     ]
   },
   "faq": {
-    "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Bratschenunterricht",
+    "eyebrow": "Viola lernen",
+    "title": "Fragen zum Bratschenunterricht.",
     "items": [
       {
-        "question": "Für wen passt der Unterricht?",
-        "answer": "Für Kinder, Jugendliche, Erwachsene, Anfänger:innen und Wiedereinsteiger:innen, die Klang, Technik und Üben strukturiert aufbauen möchten.",
+        "question": "Sind Bratsche und Viola dasselbe Instrument?",
+        "answer": "Ja. Beide Namen bezeichnen dasselbe Instrument. Bei deiner Anfrage kannst du von Bratschenunterricht oder Viola-Unterricht sprechen.",
         "open": true
       },
       {
-        "question": "Brauche ich sofort ein eigenes Instrument?",
-        "answer": "Nicht unbedingt. Für den Start kann ein passendes Leihinstrument sinnvoll sein; Größe und Zustand sollten zur Person passen."
+        "question": "Kann ich als Anfänger:in direkt mit Bratsche beginnen?",
+        "answer": "Ja. Wir bauen Haltung, Bogenführung, Tonbildung, Notenlesen und Rhythmus Schritt für Schritt auf. Geigenunterricht als Voraussetzung ist dafür nicht nötig.",
+        "open": false
       },
       {
-        "question": "Wie läuft eine Probestunde ab?",
-        "answer": "Wir sprechen über Ziele, probieren Klang und Haltung aus und klären, welcher Unterrichtsrhythmus realistisch ist."
+        "question": "Was verändert sich beim Wechsel von Geige zu Bratsche?",
+        "answer": "Wir betrachten den Umgang mit dem konkreten Instrument: Haltung, Bewegungen, Bogenführung, Klang und Orientierung. Deine vorhandenen Kenntnisse fließen ein. Welche Anpassungen nötig sind, zeigt sich beim gemeinsamen Spielen.",
+        "open": false
       },
       {
-        "question": "Was sollte ich vorab schreiben?",
-        "answer": "Alter, Vorerfahrung, vorhandenes Instrument, Ziel und mögliche Unterrichtszeiten reichen für eine erste Einschätzung."
+        "question": "Ist Bratschenunterricht auch für Erwachsene möglich?",
+        "answer": "Ja, sowohl für einen ersten Einstieg als auch nach einer längeren Pause. Lernziele und Übeaufgaben werden so gewählt, dass sie zu deinem Lernstand und Alltag passen.",
+        "open": false
       },
       {
-        "question": "Wie wird der Unterricht an unterschiedliche Altersgruppen angepasst?",
-        "answer": "Kinder brauchen andere Bilder und kürzere Aufgaben als Erwachsene. Die technischen Ziele bleiben ähnlich, aber Tempo, Material und Übeplan werden persönlich angepasst."
+        "question": "Was brauche ich für die Probestunde?",
+        "answer": "Teile mir mit, ob du bereits ein Instrument besitzt und welche Vorerfahrung du hast. Falls vorhanden, helfen Instrument, Bogen und bisherige Noten. Die Instrumentenfrage und den Terminrahmen klären wir vorher.",
+        "open": false
       },
       {
-        "question": "Was ist am Anfang wichtiger: Noten oder Klang?",
-        "answer": "Beides gehört zusammen. Klang motiviert, Noten geben Orientierung. Im Unterricht werden beide Bereiche so verbunden, dass Musik nicht nur Theorie bleibt."
+        "question": "Wo kann ich Bratschenunterricht in Düsseldorf anfragen?",
+        "answer": "Auf der Seite für Geigen- und Bratschenunterricht in Düsseldorf findest du die örtlichen Anfrageinformationen. Die Probestunde ist kostenlos und unverbindlich. Unterrichtsort, Format und verfügbare Zeiten stimmen wir persönlich ab.",
+        "open": false
       },
       {
-        "question": "Wie wird aus Technik Musik?",
-        "answer": "Technik wird sofort in kleine Melodien, Rhythmen oder Stücke eingebunden. So bleibt sie kein Selbstzweck, sondern ein Werkzeug für besseren Klang und mehr Sicherheit."
+        "question": "Was kostet regelmäßiger Bratschenunterricht?",
+        "answer": "Den Preis vereinbaren wir vorab anhand von Dauer, Rhythmus, Format und Ort. Vorhandenes Repertoire ist ohne Aufpreis möglich. Zusätzliche Notation, besonderes Material oder Vorbereitung wird vorher besprochen.",
+        "open": false
       }
     ]
   },
@@ -108,7 +158,7 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nLow Copy Follow-up 2026-06-16: verbliebene expand-copy-Seiten mit weiterem Fachkontext ergänzt.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nLow Copy Follow-up 2026-06-16: verbliebene expand-copy-Seiten mit weiterem Fachkontext ergänzt.\n\nSEO-Ausbau 09.10.2026: Suchabsicht, konkrete Entscheidungshilfen und weiterführende Links anhand der GSC-Auswertung geschärft. Bestehende URL und Freigabestatus beibehalten.",
   "contact": {
     "eyebrow": "Unterricht anfragen",
     "title": "Bratschenunterricht anfragen",

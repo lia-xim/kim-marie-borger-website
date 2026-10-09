@@ -1067,6 +1067,12 @@ type SeoPageHero {
   badge: String
 }
 
+type SeoPageSplitSectionsCtas {
+  label: String!
+  link: String!
+  style: String
+}
+
 type SeoPageSplitSectionsImage {
   src: String
   alt: String
@@ -1077,6 +1083,7 @@ type SeoPageSplitSections {
   title: String
   lede: String
   paragraphs: [String]
+  ctas: [SeoPageSplitSectionsCtas]
   image: SeoPageSplitSectionsImage
   imageFirst: Boolean
   figureClass: String
@@ -1203,6 +1210,12 @@ input SeoPageHeroFilter {
   badge: StringFilter
 }
 
+input SeoPageSplitSectionsCtasFilter {
+  label: StringFilter
+  link: StringFilter
+  style: StringFilter
+}
+
 input SeoPageSplitSectionsImageFilter {
   src: ImageFilter
   alt: StringFilter
@@ -1213,6 +1226,7 @@ input SeoPageSplitSectionsFilter {
   title: StringFilter
   lede: StringFilter
   paragraphs: StringFilter
+  ctas: SeoPageSplitSectionsCtasFilter
   image: SeoPageSplitSectionsImageFilter
   imageFirst: BooleanFilter
   figureClass: StringFilter
@@ -1955,6 +1969,12 @@ input SeoPageHeroMutation {
   badge: String
 }
 
+input SeoPageSplitSectionsCtasMutation {
+  label: String
+  link: String
+  style: String
+}
+
 input SeoPageSplitSectionsImageMutation {
   src: String
   alt: String
@@ -1965,6 +1985,7 @@ input SeoPageSplitSectionsMutation {
   title: String
   lede: String
   paragraphs: [String]
+  ctas: [SeoPageSplitSectionsCtasMutation]
   image: SeoPageSplitSectionsImageMutation
   imageFirst: Boolean
   figureClass: String
