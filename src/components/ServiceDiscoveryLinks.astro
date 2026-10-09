@@ -24,7 +24,7 @@ const { serviceSlug } = Astro.props;
 const service = getLocalService(serviceSlug);
 const topicPages = getFeaturedTopicSeoPagesForService(serviceSlug).slice(0, 7);
 const localPages = getPrimaryLocalSeoPagesForService(serviceSlug).slice(0, 8);
-const guidePages = getRatgeberPagesForService(serviceSlug).slice(0, 3);
+const guidePages = getRatgeberPagesForService(serviceSlug).slice(0, 4);
 const panelCount = Number(topicPages.length > 0) + Number(localPages.length > 0) + Number(guidePages.length > 0);
 ---
 

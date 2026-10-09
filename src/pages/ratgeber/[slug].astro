@@ -65,6 +65,13 @@ const jsonLd = ratgeberPageJsonLd(site, page);
 							<section class="guide-copy-section">
 								<h3>{section.title}</h3>
 								{section.body.map((paragraph) => <p>{paragraph}</p>)}
+								{section.links && (
+									<ul>
+										{section.links.map((link) => (
+											<li><a class="link-line" href={link.href}>{link.label}</a></li>
+										))}
+									</ul>
+								)}
 							</section>
 						))}
 					</div>
@@ -116,6 +123,7 @@ const jsonLd = ratgeberPageJsonLd(site, page);
 					<div class="guide-service-links guide-service-links-dark">
 						{getRatgeberPages()
 							.filter((item) => item.slug !== page.slug)
+							.sort((a, b) => Number(b.serviceSlug === page.serviceSlug) - Number(a.serviceSlug === page.serviceSlug))
 							.slice(0, 5)
 							.map((item) => (
 								<a href={ratgeberPath(item)}>{item.shortTitle}</a>

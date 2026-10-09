@@ -8,114 +8,137 @@
   "priority": "P3",
   "status": "geige-expansion-2026-06-23-review-needed",
   "enabled": true,
-  "seoTitle": "Geigenunterricht Siegen | Geige lernen",
-  "seoDescription": "Geigenunterricht Siegen: Geigen- und Bratschenunterricht für Kinder und Erwachsene in Siegen. Probestunde, Ziele und Unterrichtsrhythmus transparent klären.",
+  "seoTitle": "Geigenunterricht Siegen: Einstieg & Probestunde",
+  "seoDescription": "Geigen- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg: Anfragen aus Siegen, Lernziele und Unterrichtsort persönlich klären. Kostenlose Probestunde.",
   "hero": {
     "eyebrow": "Geigenunterricht in Siegen",
-    "title": "Geigenunterricht in Siegen: ruhig aufgebaut nach Ort und Lernziel.",
-    "lead": "Geige lernen bei Anfragen aus Siegen und dem Siegerland: für Kinder, Erwachsene, Anfänger:innen, Wiedereinsteiger:innen und Fortgeschrittene - mit Struktur, Geduld und klaren Übeaufgaben.",
+    "title": "Geigenunterricht für Siegen: beginnen oder wieder einsteigen.",
+    "lead": "Du möchtest Geige lernen oder nach einer Pause wieder spielen? Für Anfragen aus Siegen und dem Siegerland klären wir Lernstand, Instrument, Ziele und einen erreichbaren Unterrichtsrahmen. Eine kostenlose Probestunde hilft, die nächsten Schritte zu besprechen.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Siegen\nGeigenunterricht\nalltagstauglich geplant",
+    "seal": "Siegen\nGeige & Bratsche\nSchritt für Schritt",
     "sections": [
       {
-        "eyebrow": "Lokaler Rahmen",
-        "title": "Geigenunterricht in Siegen: worauf es bei einer Anfrage ankommt.",
-        "lede": "Wer aus Siegen oder dem Siegerland Geigenunterricht sucht, braucht zuerst eine ehrliche Klärung: Passt der Unterrichtsrahmen zum Lernstand, zum Fahrweg, zum Wochenrhythmus und zur realistischen Übezeit?",
+        "eyebrow": "Einstieg",
+        "title": "Nach einer Pause wieder zur Geige finden",
+        "lede": "Bisherige Noten oder ein vertrautes Stück geben uns einen Ausgangspunkt. In der Probestunde schauen wir, was noch sicher gelingt und welche Grundlagen wir auffrischen sollten. Das kann die Bogenführung, die Intonation, den Rhythmus oder das Lesen der Noten betreffen.",
         "paragraphs": [
-          "Typische Anfragen drehen sich um regelmäßigen Einzelunterricht, Wiedereinstieg, Anfänger:innen-Aufbau, eine Technikphase oder die Vorbereitung auf ein konkretes Ziel. Eine Probestunde hilft, bevor ein fester Unterrichtsplan vereinbart wird.",
-          "Ich kläre vorab praktische Punkte: möglicher Unterrichtsort oder Treffpunkt, Instrument, Alter, Lernstand, Wochenrhythmus, Fahrzeit und Zeit zum Üben. Gerade bei längeren Wegen ist wichtig, ob der Termin dauerhaft in Schule, Arbeit oder Familienalltag passt.",
-          "Der Unterricht soll nicht nur auf dem Papier funktionieren. Sinnvoll ist ein Rahmen, in dem Konzentration, Instrument, Weg und Übezeit so zusammenpassen, dass zwischen zwei Stunden wirklich Fortschritt entstehen kann."
+          "Der Wiedereinstieg muss weder sofort mit früheren schwierigen Stücken beginnen noch pauschal alle Anfängerübungen wiederholen. Wir wählen Aufgaben, die an deinen tatsächlichen Stand anschließen und dir zeigen, woran du als Nächstes arbeiten kannst."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
-        "imageFirst": false
+        "imageFirst": false,
+        "ctas": [
+          {
+            "label": "Geigen- und Bratschenunterricht",
+            "link": "/unterricht/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "eyebrow": "Unterrichtsrahmen",
-        "title": "So wird Geigenunterricht in Siegen tragfähig.",
-        "lede": "Ein guter Unterrichtsrahmen entsteht aus wenigen klaren Entscheidungen: Was ist das Ziel, wie viel Übezeit ist realistisch und wie bleibt der nächste Schritt verständlich?",
+        "eyebrow": "Lernziele",
+        "title": "Geige lernen ohne musikalische Vorerfahrung",
+        "lede": "Wenn du neu beginnst, lernen wir Instrument und Bogen kennen und arbeiten an Haltung und Tonbildung. Hören, Rhythmus und Notenlesen werden mit dem praktischen Spielen verbunden. Fragen zur Handhabung gehören zum Einstieg dazu.",
         "paragraphs": [
-          "Mögliche Schritte sind Lernstand klären, Probestunde, Übeplan und regelmäßiger Rhythmus. Daraus entsteht kein starres Programm, sondern ein Unterrichtsplan, der zu Lernstand, Alltag und Motivation passt.",
-          "Ein Unterrichtsweg aus Siegen kann je nach Stadtteil, Verkehr und Alltag sehr unterschiedlich wirken. Für regelmäßigen Unterricht ist das wichtiger als ein einmaliger Termin, deshalb frage ich nicht nur nach dem Ort, sondern auch nach Weg, Rhythmus und realistischer Übezeit.",
-          "Wenn die Zeit knapp ist, wird der Unterricht nicht größer, sondern präziser: wenige Übeaufgaben, deutliche Prioritäten und ein Klangziel, das in der nächsten Stunde wieder aufgegriffen wird."
+          "Für Kinder und Erwachsene wird der Anfang passend zu Alter, Lernstand und Ziel geplant. Falls du noch keine Geige hast, nenne das bei der Anfrage. Welche Ausstattung du für die Probestunde brauchst, klären wir vor einem Termin."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
           "alt": "Kim Marie Borger steht mit ihrer Viola am See"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "ctas": [
+          {
+            "label": "Bratsche als Erwachsener beginnen",
+            "link": "/ratgeber/bratschenunterricht-erwachsene/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine gute Anfrage in Siegen brauche.",
-        "lede": "Die Kontaktaufnahme ist kostenlos und unverbindlich. Ein Preis entsteht erst, wenn Dauer, Ort, Aufwand, Wunschmusik, Anfahrt und Rahmen klar genug sind, damit ich ehrlich einschätzen kann, was sinnvoll ist.",
+        "eyebrow": "Üben",
+        "title": "Stücke und Übeaufgaben aufeinander abstimmen",
+        "lede": "Ein Stück zeigt oft mehrere Aufgaben zugleich: einen Rhythmus, einen Saitenwechsel oder eine Tonfolge. Wir nehmen einen überschaubaren Ausschnitt und besprechen, wie du ihn üben kannst. Technik und musikalische Gestaltung werden dabei miteinander verbunden.",
         "paragraphs": [
-          "Hilfreich sind: Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Übezeit und Frage zur Probestunde. Für Anfragen aus Siegen zählt besonders, ob Weg und Wochenrhythmus dauerhaft realistisch bleiben.",
-          "Wunschstücke können Teil des Unterrichts sein, wenn sie zum Lernstand passen. Der Fokus bleibt darauf, Technik und Musik sinnvoll aufzubauen.",
-          "Die Probestunde ist kostenlos und unverbindlich. Regelmäßiger Unterricht startet erst, wenn Ziel, Format, Rhythmus, Weg in Siegen und Preisrahmen transparent geklärt sind."
+          "Wunschstücke sind ein guter Gesprächseinstieg. Ob sie jetzt zum Unterricht passen oder erst später sinnvoll sind, hängt vom Lernstand ab. Teile mir mit, welche Musik dich interessiert; wir wählen daraus passende nächste Ziele."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
-        "imageFirst": false
+        "imageFirst": false,
+        "ctas": [
+          {
+            "label": "Bratschenunterricht kennenlernen",
+            "link": "/unterricht/bratschenunterricht/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "eyebrow": "Beispiel",
-        "title": "Ein realistischer Ablauf für Geigenunterricht aus Siegen.",
-        "lede": "Geigenunterricht kann mit einer kostenlosen Probestunde beginnen, danach einen passenden Wochenrhythmus bekommen und mit klaren Übeaufgaben wachsen.",
+        "eyebrow": "Probestunde",
+        "title": "Ein erreichbarer Unterrichtsrahmen für Siegen",
+        "lede": "Nenne bei der Anfrage deinen Ausgangsort im Raum Siegen, mögliche Zeitfenster und die Zeit, die dir zum Üben bleibt. Unterrichtsort, Verfügbarkeit und Format werden persönlich abgestimmt. Erst dann lässt sich beurteilen, ob der Weg und der Wochenrhythmus dauerhaft passen.",
         "paragraphs": [
-          "Wenn Alltag, Fahrweg und Übezeit knapp sind, ist ein realistischer Plan wichtiger als ein großes Versprechen: lieber wenige klare Aufgaben, die wirklich wiederholt werden.",
-          "Nach der Probestunde klären wir, ob Ziel, Weg, Rhythmus und Preisrahmen wirklich passen. So bleibt die Anfrage praktisch: Nicht der Ortsname entscheidet, sondern ob Unterrichtsort, Timing, Instrument, Motivation und nächster Schritt tragfähig sind."
+          "Die Probestunde ist kostenlos und unverbindlich. Danach vereinbaren wir bei Interesse Dauer, Rhythmus und Preis des weiteren Unterrichts. Vorhandenes Instrument und Noten sind hilfreich; besonderes Material oder zusätzlicher Vorbereitungsaufwand wird vorher besprochen."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
           "alt": "Kim Marie Borger steht mit ihrer Viola am See"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "ctas": [
+          {
+            "label": "Kostenlose Probestunde anfragen",
+            "link": "/anfragen/",
+            "style": "link-line"
+          }
+        ]
       }
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Geigenunterricht in Siegen",
+    "title": "Fragen zum Geigenunterricht für Siegen",
     "items": [
       {
-        "question": "Bietest du Geigenunterricht in Siegen an?",
-        "answer": "Ja. Ich biete Geigen- und Bratschenunterricht in Siegen beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
+        "question": "Kann ich aus Siegen Unterricht nach einer längeren Pause anfragen?",
+        "answer": "Ja. Nenne deine bisherigen Erfahrungen und bring, falls vorhanden, Instrument und frühere Noten mit. Wir schauen auf deinen aktuellen Stand und wählen die nächsten Aufgaben daraus aus.",
         "open": true
       },
       {
-        "question": "Welche Angaben helfen für eine Anfrage in Siegen?",
-        "answer": "Am hilfreichsten sind Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Übezeit und Frage zur Probestunde. Bei Anfragen aus Siegen zählt vor allem, ob Weg und Wochenrhythmus dauerhaft realistisch bleiben. Je konkreter Ziel, Weg und Rhythmus sind, desto ehrlicher lässt sich sagen, ob Unterricht regelmäßig Sinn ergibt."
+        "question": "Kann ich ohne Notenkenntnisse beginnen?",
+        "answer": "Ja, der Unterricht kann ohne musikalische Vorkenntnisse beginnen. Notenlesen, Rhythmus, Hören und praktisches Spielen werden Schritt für Schritt miteinander verbunden.",
+        "open": false
       },
       {
-        "question": "Ist die Probestunde wirklich kostenlos?",
-        "answer": "Ja. Die Probestunde ist kostenlos und unverbindlich. Danach besprechen wir, ob Unterrichtsrhythmus, Ziel und Rahmen passen."
+        "question": "Bietest du auch Unterricht für Kinder an?",
+        "answer": "Ja. Alter, Vorerfahrung und die Möglichkeit zum Üben zu Hause helfen bei der Planung. Lerninhalte und Aufgaben werden passend zum Kind besprochen.",
+        "open": false
       },
       {
-        "question": "Wie werden Unterrichtspreise vereinbart?",
-        "answer": "Der Preis hängt von Unterrichtsformat, Dauer, Rhythmus und Rahmen ab. Das klären wir nach der Probestunde oder in der Anfrage transparent."
+        "question": "Wie wird der Unterrichtsort für Anfragen aus Siegen vereinbart?",
+        "answer": "Ort, Format und verfügbare Zeiten klären wir persönlich vor dem Termin. Nenne deinen Ausgangsort und passende Zeitfenster, damit wir Weg und regelmäßigen Rhythmus prüfen können.",
+        "open": false
       },
       {
-        "question": "Kann ich Wunschstücke im Unterricht spielen?",
-        "answer": "Ja. Wunschstücke können motivieren, wenn sie zum Lernstand passen. Ich achte darauf, dass sie technisch sinnvoll vorbereitet werden."
+        "question": "Kann ich mein Lieblingsstück im Unterricht spielen?",
+        "answer": "Wir prüfen, welche Anforderungen das Stück hat und ob es zu deinem Lernstand passt. Manchmal eignet sich ein Ausschnitt oder zunächst eine vorbereitende Aufgabe.",
+        "open": false
       },
       {
-        "question": "Was ist in Siegen organisatorisch wichtig?",
-        "answer": "Für regelmäßigen Unterricht in Siegen sollten Unterrichtsort, Weg, Schul- oder Arbeitszeiten und realistische Übezeit zusammenpassen. Das klären wir in der Probestunde."
+        "question": "Unterrichtest du auch Bratsche?",
+        "answer": "Ja, Geige und Bratsche gehören zum Unterrichtsangebot. Nenne dein Instrument oder deinen Wechselwunsch; Lernstand und nächste Schritte werden persönlich besprochen.",
+        "open": false
       },
       {
-        "question": "Welche Unterrichtssituation passt in Siegen?",
-        "answer": "Sinnvoll ist ein Rahmen, der regelmäßig machbar bleibt: Lernstand, Instrument, Weg, Übezeit und Alltag müssen zusammenpassen. Die kostenlose Probestunde klärt genau das. Haltung, Bogenführung, Rhythmus, Ton und Notenlesen werden ruhig aufgebaut, damit der erste Fortschritt nicht nur zufällig entsteht."
-      },
-      {
-        "question": "Warum fragst du nach dem genauen Ort in Siegen?",
-        "answer": "Weil regelmäßiger Unterricht nur dann trägt, wenn der Weg dauerhaft machbar bleibt. Deshalb klären wir vorab Treffpunkt, Rhythmus, Fahrzeit und realistische Übezeit."
+        "question": "Ist die Probestunde kostenlos?",
+        "answer": "Ja, die Probestunde ist kostenlos und unverbindlich. Für regelmäßigen Unterricht vereinbaren wir danach den Preis nach Dauer, Rhythmus, Format und Unterrichtsrahmen.",
+        "open": false
       }
     ]
   },
@@ -137,11 +160,11 @@
       "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nLocal Uniqueness Pass 2026-06-22: lokale Seiten mit konkreterer Ortslogik, Anfrage-/Buchungsinfos, Wunschmusik- und Preisrahmen-Transparenz neu aufgebaut.\n\nLocal Signal Pass 2026-06-22: lokale Seiten mit stärkeren Ortsmarkern, typischen Location-Situationen, Anfahrts-/Aufbaulogik, lokalen FAQ und ehrlicher Buchungslogik weiter differenziert.\n\nLocal Intent Pass 2026-06-22: lokale Seiten mit konkreter Entscheidungshilfe zu Ortstyp, zwei Adressen, Preisreife, Anfragequelle und ehrlicher Kontaktlogik weiter differenziert.\n\nSEO-Ausbau 09.10.2026, zweite Runde: GSC-Sichtbarkeit als Anlass für konkrete Unterrichtsinhalte, Fragen und interne Links. Keine neue Standortbehauptung; Freigabestatus und URL unverändert.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
     "title": "Geigenunterricht in Siegen anfragen",
-    "lead": "Schreib mir kurz Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Übezeit und Frage zur Probestunde. Hilfreich ist auch, welcher Treffpunkt oder Unterrichtsort aus Siegen realistisch erreichbar wäre. Die Anfrage ist kostenlos und unverbindlich; danach klären wir Verfügbarkeit, passenden Umfang und Preisrahmen persönlich.",
+    "lead": "Nenne Alter, Lernstand, Instrument und deinen Ausgangsort im Raum Siegen. Welche Zeitfenster und Übezeiten passen in deinen Alltag? Unterrichtsort und verfügbare Termine klären wir persönlich vor der kostenlosen Probestunde.",
     "checklist": [
       "Siegen",
       "Lernstand",
@@ -152,45 +175,45 @@
     "sourceLabel": "Geigenunterricht Siegen",
     "notes": [
       "Probestunde kostenlos und unverbindlich",
-      "Regelmäßiger Unterricht erst nach Ziel-, Weg- und Rhythmus-Check in Siegen",
-      "Preis nach Dauer, Format und Unterrichtsrahmen",
-      "Neue Notation für Wunschstücke nach Aufwand, ca. 30 Euro pro Song"
+      "Unterrichtsort und verfügbare Termine werden persönlich abgestimmt",
+      "Preis für regelmäßigen Unterricht nach Dauer, Rhythmus und Rahmen",
+      "Besonderes Material oder zusätzliche Vorbereitung nur nach vorheriger Absprache"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Siegen klären",
     "formSuccess": "Danke - ich prüfe deine Anfrage in Siegen und melde mich persönlich mit den nächsten Schritten."
   },
   "focus": {
-    "eyebrow": "Planung in Siegen",
-    "title": "Vier Punkte, die Geigenunterricht in Siegen konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer ersten Unterrichtsidee einen realistischen Rhythmus und einen transparenten Preisrahmen zu machen.",
+    "eyebrow": "Lerninhalte",
+    "title": "Vier Lernbereiche im Geigen- und Bratschenunterricht.",
+    "lead": "Wir wählen die nächsten sinnvollen Aufgaben aus deinem Lernstand und deinen Zielen.",
     "items": [
       {
         "time": "1",
-        "kicker": "Lernstand",
-        "title": "Vorerfahrung und Ziel sortieren",
-        "text": "Wir klären, ob es um den ersten Ton, Wiedereinstieg, Technik, Klang, Notenlesen oder ein konkretes musikalisches Ziel geht."
+        "kicker": "Start",
+        "title": "Lernstand und Ziel",
+        "text": "Erster Einstieg, Wiedereinstieg oder Weiterlernen: Deine Erfahrung bestimmt die nächsten Schritte."
       },
       {
         "time": "2",
-        "kicker": "Probestunde",
-        "title": "Kostenlos ausprobieren",
-        "text": "Die Probestunde ist kostenlos und unverbindlich. Danach entscheiden wir, ob Unterrichtsart, Weg und Rhythmus passen. Bei Anfragen aus Siegen ist wichtig, ob die Unterrichtszeit auch mit Schule, Arbeit, Familie und Übezeit zusammenpasst."
+        "kicker": "Klang",
+        "title": "Instrument und Bogen",
+        "text": "Haltung, Bogenführung, Tonbildung und Intonation werden mit dem Spielen verbunden."
       },
       {
         "time": "3",
-        "kicker": "Üben",
-        "title": "Ein kleiner, klarer Wochenplan",
-        "text": "Nach jeder Stunde soll klar sein, was als Nächstes wichtig ist: eine technische Aufgabe, ein musikalischer Ausschnitt und ein realistischer Übeumfang."
+        "kicker": "Musik",
+        "title": "Rhythmus und Noten",
+        "text": "Hören, Notenlesen und Rhythmus werden an überschaubaren musikalischen Aufgaben geübt."
       },
       {
         "time": "4",
-        "kicker": "Rahmen",
-        "title": "Preis und Unterrichtsformat abstimmen",
-        "text": "Der Preis richtet sich nach Dauer, Rhythmus und Rahmen des Unterrichts. Das klären wir offen, bevor regelmäßiger Unterricht beginnt."
+        "kicker": "Alltag",
+        "title": "Ein machbarer Übeplan",
+        "text": "Zwischen den Stunden gibt es klare Aufgaben, die an Lernstand und verfügbare Übezeit angepasst sind."
       }
     ],
-    "footnote": "Für Anfragen aus Siegen sind Lernstand, möglicher Unterrichtsort oder Treffpunkt, Instrument und Wochenrhythmus besonders hilfreich. Entscheidend ist die echte Unterrichtssituation, nicht nur der Stadtname."
+    "footnote": "Unterrichtsort, Termine und Rhythmus werden vor der kostenlosen Probestunde persönlich abgestimmt."
   },
   "elegy": {
     "passages": []

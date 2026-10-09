@@ -8,113 +8,137 @@
   "priority": "P2",
   "status": "manual-local-hold-for-evidence-2026-07-29",
   "enabled": true,
-  "seoTitle": "Geigenunterricht Duisburg | Geige lernen",
-  "seoDescription": "Geigenunterricht Duisburg: Geigen- und Bratschenunterricht für Kinder und Erwachsene in Duisburg. Probestunde, Ziele und Unterrichtsrhythmus transparent klären.",
+  "seoTitle": "Geigenunterricht Duisburg: Einstieg & Probestunde",
+  "seoDescription": "Geigen- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg: Anfragen aus Duisburg, Lernziele und Unterrichtsort persönlich klären. Kostenlose Probestunde.",
   "hero": {
     "eyebrow": "Geigenunterricht in Duisburg",
-    "title": "Geigenunterricht in Duisburg: ruhig aufgebaut nach Ort und Lernziel.",
-    "lead": "Geigen- und Bratschenunterricht für Kinder, Erwachsene und Wiedereinstieg in Duisburg. Geplant wird nach Ort, Lernziel, Instrument, Übezeit, Anfahrt und der Frage, ob Unterrichtsort, Weg, Instrument und Wochenrhythmus wirklich passen.",
+    "title": "Geigenunterricht in Duisburg: ein Einstieg, der zu dir passt.",
+    "lead": "Geige oder Bratsche lernen: für Kinder, Erwachsene und den Wiedereinstieg. Wir schauen auf deinen Lernstand, deine Ziele und die Zeit zum Üben. Unterrichtsort, mögliche Termine und der regelmäßige Rhythmus werden persönlich abgestimmt.",
     "badge": "Probestunde kostenlos & unverbindlich"
   },
   "split": {
-    "seal": "Duisburg\nGeigenunterricht\nkonkret geplant",
+    "seal": "Duisburg\nGeige & Bratsche\nSchritt für Schritt",
     "sections": [
       {
-        "eyebrow": "Lokaler Rahmen",
-        "title": "Geigenunterricht in Duisburg: was vor Ort wirklich zählt.",
-        "lede": "Für Unterricht in Duisburg ist der regelmäßige Weg entscheidend, nicht nur die Entfernung auf der Karte. Es geht nicht darum, möglichst viele Ortsnamen zu nennen, sondern den konkreten Rahmen für Musik realistisch zu planen.",
+        "eyebrow": "Einstieg",
+        "title": "Ohne Vorkenntnisse mit der Geige beginnen",
+        "lede": "Am Anfang geht es um Instrumentenhaltung, Bogenführung und die ersten Töne. Notenlesen, Rhythmus und Hören kommen Schritt für Schritt hinzu. Du brauchst vor dem ersten Gespräch weder ein vorbereitetes Stück noch einen fertigen Übeplan.",
         "paragraphs": [
-          "Vor der Probestunde klären wir Lernstand, Instrument, Ziel, möglichen Unterrichtsort und einen Rhythmus, der im Alltag in Duisburg regelmäßig funktioniert."
+          "Wenn du noch kein Instrument hast, teile mir das bei der Anfrage mit. Wir klären vor der kostenlosen Probestunde, was du für den Termin brauchst. Die Instrumentenfrage sollte besprochen werden, bevor du dich auf einen Kauf festlegst."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Geigenunterricht in Duisburg - lokaler Planungsrahmen"
         },
-        "imageFirst": false
+        "imageFirst": false,
+        "ctas": [
+          {
+            "label": "Geigen- und Bratschenunterricht",
+            "link": "/unterricht/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "eyebrow": "Ablauf",
-        "title": "Probestunde und Wochenrhythmus in Duisburg.",
-        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob Weg, Alltag, Instrument und realistische Übezeit dauerhaft zusammenpassen.",
+        "eyebrow": "Lernziele",
+        "title": "Geigenunterricht für Erwachsene und Kinder",
+        "lede": "Für Erwachsene kann ein eigenes musikalisches Ziel den Einstieg erleichtern: ein vertrautes Lied, der Wunsch nach einem neuen Hobby oder die Rückkehr zu einem früheren Instrument. Die nächsten Aufgaben werden an deinen Lernstand angepasst.",
         "paragraphs": [
-          "Mögliche Einsatzpunkte sind Probestunde, Lernstandscheck, Technikaufbau, Übeplan und regelmäßiger Rhythmus. Ich plane lieber einen tragfähigen Wochenrhythmus mit klaren Übezielen als eine Probestunde, nach der der Alltag den Unterricht sofort ausbremst.",
-          "Vorab klären wir, ob Instrument, Noten, Wunschstücke, Lernstand, Probestunde und Übezeit realistisch zusammenpassen.",
-          "Gerade in Duisburg hilft ein Ablaufplan mit Uhrzeiten, Ansprechpartner und Puffer. So wird Unterricht regelmäßig machbar, statt nur als einmaliger guter Vorsatz zu starten."
+          "Bei Kindern besprechen wir Alter, Vorerfahrung und die Unterstützung beim Üben zu Hause. Der Unterricht verbindet praktische Klangarbeit mit überschaubaren Aufgaben. Tempo und Stückauswahl richten sich nach den aktuellen Fähigkeiten, nicht nach einem vorgegebenen Fortschrittsversprechen."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
           "alt": "Geigenunterricht in Duisburg - Ablauf und Einsätze"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "ctas": [
+          {
+            "label": "Bratsche als Erwachsener beginnen",
+            "link": "/ratgeber/bratschenunterricht-erwachsene/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "eyebrow": "Unterricht: passend oder nicht?",
-        "title": "Wann Geigenunterricht in Duisburg die richtige Wahl ist.",
-        "lede": "Geigenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Das passt nicht automatisch zu jedem Anliegen - und genau das sollte vor der Buchung klar sein.",
+        "eyebrow": "Üben",
+        "title": "Mit klaren Aufgaben zwischen den Stunden üben",
+        "lede": "Ein Übeauftrag kann etwa einen Bogenstrich, eine kleine Tonfolge oder einen Rhythmus betreffen. Wir halten fest, worauf du beim Wiederholen hören und achten sollst. So kannst du auch mit begrenzter Übezeit an einer konkreten Aufgabe arbeiten.",
         "paragraphs": [
-          "Nicht ideal ist Geigenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann ist es ehrlicher, zuerst Ziel, Format, Material oder einen späteren Start zu klären.",
-          "Wenn ein Unterrichtsort vorgeschlagen wird, prüfe ich lieber früh, ob Raum, Lautstärke, Notenständer, Sitzmöglichkeit und Wiederholbarkeit des Weges passen.",
-          "Wenn Unterrichtsort, Weg oder Rhythmus unsicher sind, prüfe ich lieber früh, ob eine Probestunde oder ein anderer Rahmen sinnvoller ist."
+          "Nach einer längeren Pause schauen wir zunächst auf vertraute Grundlagen und bisherige Stücke. Daraus entsteht ein Plan für das Auffrischen von Klang, Intonation, Notenlesen oder Technik. Du musst nicht pauschal wieder am Anfang beginnen."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Geigenunterricht in Duisburg - passend planen"
         },
-        "imageFirst": false
+        "imageFirst": false,
+        "ctas": [
+          {
+            "label": "Bratschenunterricht kennenlernen",
+            "link": "/unterricht/bratschenunterricht/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "eyebrow": "Anfrage & Preisrahmen",
-        "title": "Was ich für eine seriöse Anfrage in Duisburg brauche.",
-        "lede": "Eine gute Unterrichtsanfrage nennt Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Erst damit lassen sich Verfügbarkeit, sinnvoller Umfang und Preisrahmen ehrlich einschätzen.",
+        "eyebrow": "Probestunde",
+        "title": "Probestunde und Unterrichtsrahmen für Duisburg klären",
+        "lede": "Schreib mir deinen Ausgangsort, passende Zeitfenster, Alter und Lernstand. Falls vorhanden, nenne dein Instrument und bisherige Noten. Vor einem Termin klären wir persönlich, welcher Unterrichtsort und welche verfügbaren Zeiten in Frage kommen.",
         "paragraphs": [
-          "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Eine erste Anfrage ist kostenlos und unverbindlich; ein verbindliches Angebot entsteht erst, wenn der Rahmen klar ist.",
-          "Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Wunschstück keine brauchbaren Noten hat und neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
-          "Zusätzlicher Aufwand kann durch neu zu erstellende Noten oder besonderes Unterrichtsmaterial entstehen. Das bespreche ich vorab; der reguläre Unterricht wird transparent nach Dauer, Rhythmus und Ort vereinbart."
+          "Die Probestunde ist kostenlos und unverbindlich. Für den anschließenden Unterricht werden Dauer, Rhythmus, Format und Preis besprochen. Entscheidend ist, dass Weg, Unterricht und Üben auf Dauer in deinen Alltag passen."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
           "alt": "Geigenunterricht in Duisburg - Anfrage und Preisrahmen"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "ctas": [
+          {
+            "label": "Kostenlose Probestunde anfragen",
+            "link": "/anfragen/",
+            "style": "link-line"
+          }
+        ]
       }
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Geigenunterricht Duisburg",
+    "title": "Fragen zum Geigenunterricht für Duisburg",
     "items": [
       {
-        "question": "Bietest du Geigenunterricht in Duisburg?",
-        "answer": "Ja. Ich biete Geigen- und Bratschenunterricht in Duisburg beziehungsweise nach Absprache in einem passenden regionalen Rahmen an.",
+        "question": "Kann ich in Duisburg als Anfänger:in Geigenunterricht anfragen?",
+        "answer": "Ja, du kannst ohne Vorkenntnisse anfragen. Vor der Probestunde klären wir deine Ziele, die Instrumentenfrage, mögliche Zeiten und den Unterrichtsort.",
         "open": true
       },
       {
-        "question": "Welche Angaben brauchst du für eine Anfrage in Duisburg?",
-        "answer": "Am hilfreichsten sind Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Je genauer diese Angaben sind, desto schneller kann ich Verfügbarkeit, Ablauf und Preisrahmen einschätzen."
+        "question": "Ist Geigenunterricht auch für Erwachsene möglich?",
+        "answer": "Ja. Der Unterricht kann beim ersten Einstieg oder nach einer Pause ansetzen. Lerninhalte und Übeaufgaben werden an Vorerfahrung, Ziel und Alltag angepasst.",
+        "open": false
       },
       {
-        "question": "Wie entsteht der Preis?",
-        "answer": "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Die erste Anfrage ist kostenlos und unverbindlich; ein Angebot wird erst sinnvoll, wenn der Rahmen klar ist."
+        "question": "Was muss mein Kind zur Probestunde mitbringen?",
+        "answer": "Falls vorhanden Instrument, Bogen und bisherige Noten. Nenne Alter und Vorerfahrung vorab. Wenn noch kein Instrument vorhanden ist, klären wir vor dem Termin, was benötigt wird.",
+        "open": false
       },
       {
-        "question": "Sind Wunschstücke möglich?",
-        "answer": "Ja, wenn sie zum Lernstand, Instrument und Unterrichtsziel passen. Vorhandenes Unterrichtsmaterial ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+        "question": "Wo findet der Unterricht für Duisburg statt?",
+        "answer": "Unterrichtsort, verfügbare Zeiten und Format werden persönlich vor einem Termin abgestimmt. Nenne deinen Ausgangsort und mögliche Zeitfenster, damit wir die tatsächliche Erreichbarkeit prüfen können.",
+        "open": false
       },
       {
-        "question": "Wann passt Geigenunterricht besonders gut?",
-        "answer": "Geigenunterricht passt, wenn regelmäßiger Unterricht, klare Übeaufgaben und geduldige Klangarbeit gesucht werden. Unterricht wirkt am besten, wenn Weg, Ziel, Übezeit und Regelmäßigkeit realistisch sind."
+        "question": "Kann ich statt Geige auch Bratsche lernen?",
+        "answer": "Ja, ich unterrichte Geige und Bratsche. Wir besprechen Klangvorstellung, Instrument und musikalisches Ziel; auch ein Wechsel kann nach deinem Lernstand geplant werden.",
+        "open": false
       },
       {
-        "question": "Wann ist Geigenunterricht nicht die richtige Lösung?",
-        "answer": "Nicht ideal ist Geigenunterricht, wenn ein sehr schneller Effekt ohne Üben oder nur kurzfristige Eventmusik erwartet wird. Dann sage ich das lieber ehrlich, statt ein unpassendes Format zu verkaufen."
+        "question": "Wie oft sollte ich üben?",
+        "answer": "Wir vereinbaren Aufgaben und einen Übeumfang, der zu Lernstand und Alltag passt. Regelmäßige kurze Einheiten mit einer konkreten Aufgabe helfen dabei, die Inhalte der Stunde wieder aufzugreifen.",
+        "open": false
       },
       {
-        "question": "Was ist in Duisburg organisatorisch wichtig?",
-        "answer": "Für regelmäßigen Unterricht in Duisburg sollten Unterrichtsort, Weg, Schul- oder Arbeitszeiten und realistische Übezeit zusammenpassen. Das klären wir in der Probestunde."
-      },
-      {
-        "question": "Was kostet nach der Probestunde extra?",
-        "answer": "Nach der kostenlosen Probestunde hängen die Kosten von Dauer, Rhythmus, Format und Unterrichtsort ab. Neue Notation, besonderes Material oder zusätzliche Vorbereitung bespreche ich vorher."
+        "question": "Was kostet der Unterricht?",
+        "answer": "Die Probestunde ist kostenlos und unverbindlich. Der Preis für regelmäßigen Unterricht hängt von Dauer, Rhythmus, Format und Ort ab. Besonderes Material oder zusätzliche Vorbereitung wird vorher besprochen.",
+        "open": false
       }
     ]
   },
@@ -136,11 +160,11 @@
       "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     }
   ],
-  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.\n\nLocal Evidence Hold 2026-07-29: Die URL bleibt indexierbar und selbstkanonisch, weil ohne aktuelle GSC- und Anfrage-Daten keine belastbare Zusammenlegung, Weiterleitung oder Deindexierung entschieden werden kann. Bis reale lokale Belege, bestätigtes Einsatzgebiet oder seitenspezifische Nachfrage vorliegen, werden keine zusätzlichen Ortsbehauptungen erfunden.",
+  "editorNotes": "Manual Priority Local SEO Pass 2026-06-22: redaktionell kuratierte Entscheidungsseiten mit anlassbezogener Ortslogik, Anfrage-, Preis- und Wunschmusiktransparenz.\n\nLocal Evidence Hold 2026-07-29: Die URL bleibt indexierbar und selbstkanonisch, weil ohne aktuelle GSC- und Anfrage-Daten keine belastbare Zusammenlegung, Weiterleitung oder Deindexierung entschieden werden kann. Bis reale lokale Belege, bestätigtes Einsatzgebiet oder seitenspezifische Nachfrage vorliegen, werden keine zusätzlichen Ortsbehauptungen erfunden.\n\nSEO-Ausbau 09.10.2026, zweite Runde: GSC-Sichtbarkeit als Anlass für konkrete Unterrichtsinhalte, Fragen und interne Links. Keine neue Standortbehauptung; Freigabestatus und URL unverändert.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
     "title": "Geigenunterricht in Duisburg anfragen",
-    "lead": "Schreib mir kurz Alter, Lernstand, vorhandenes Instrument, Ziel, möglicher Unterrichtsrhythmus, Weg, Übezeit und Frage zur Probestunde. Danach klären wir, ob eine kostenlose Probestunde in Duisburg, ein regelmäßiger Rhythmus oder zuerst eine Orientierung sinnvoll ist.",
+    "lead": "Nenne Alter, Lernstand, Instrument und deinen Ausgangsort im Raum Duisburg. Welche Zeitfenster und Übezeiten passen in deinen Alltag? Unterrichtsort und verfügbare Termine klären wir persönlich vor der kostenlosen Probestunde.",
     "checklist": [
       "Duisburg",
       "Lernstand",
@@ -152,45 +176,45 @@
     "sourceLabel": "Geigenunterricht Duisburg",
     "notes": [
       "Probestunde kostenlos und unverbindlich",
-      "Unterrichtsort, Rhythmus und möglicher Materialaufwand werden vorab geklärt",
-      "Vorhandenes Repertoire ohne Aufpreis; neue Notation oder Heraushören nach Aufwand, Orientierung ca. 30 Euro pro Song",
-      "Neue Notation oder besonderes Unterrichtsmaterial wird nur nach vorheriger Absprache berechnet"
+      "Unterrichtsort und verfügbare Termine werden persönlich abgestimmt",
+      "Preis für regelmäßigen Unterricht nach Dauer, Rhythmus und Rahmen",
+      "Besonderes Material oder zusätzliche Vorbereitung nur nach vorheriger Absprache"
     ],
     "formEyebrow": "Details senden",
     "formTitle": "Verfügbarkeit und Preisrahmen in Duisburg klären",
     "formSuccess": "Danke - ich prüfe deine Anfrage in Duisburg und melde mich persönlich mit den nächsten Schritten."
   },
   "focus": {
-    "eyebrow": "Planung in Duisburg",
-    "title": "Vier Entscheidungen, die Geigenunterricht in Duisburg konkret machen.",
-    "lead": "Diese Punkte helfen, aus einer allgemeinen Idee einen realistischen Ablauf und einen fairen Preisrahmen zu machen.",
+    "eyebrow": "Lerninhalte",
+    "title": "Vier Lernbereiche im Geigen- und Bratschenunterricht.",
+    "lead": "Wir wählen die nächsten sinnvollen Aufgaben aus deinem Lernstand und deinen Zielen.",
     "items": [
       {
         "time": "1",
-        "kicker": "Lernstand",
-        "title": "Lernstand und Ziel klären",
-        "text": "Wichtig sind Alter, Vorerfahrung, vorhandenes Instrument, Ziel und die Frage, ob der Weg in Duisburg regelmäßig machbar bleibt."
+        "kicker": "Start",
+        "title": "Lernstand und Ziel",
+        "text": "Erster Einstieg, Wiedereinstieg oder Weiterlernen: Deine Erfahrung bestimmt die nächsten Schritte."
       },
       {
         "time": "2",
-        "kicker": "Aufgabe",
-        "title": "Probestunde realistisch nutzen",
-        "text": "Die kostenlose Probestunde klärt, ob Unterrichtsart, Tempo, Klangarbeit, Übezeit und Rhythmus zusammenpassen."
+        "kicker": "Klang",
+        "title": "Instrument und Bogen",
+        "text": "Haltung, Bogenführung, Tonbildung und Intonation werden mit dem Spielen verbunden."
       },
       {
         "time": "3",
-        "kicker": "Material",
-        "title": "Wunschmusik und Notation prüfen",
-        "text": "Wunschstücke können motivieren, wenn sie zum Lernstand passen. Neue Notation oder eigenes Material bespreche ich vorher transparent."
+        "kicker": "Musik",
+        "title": "Rhythmus und Noten",
+        "text": "Hören, Notenlesen und Rhythmus werden an überschaubaren musikalischen Aufgaben geübt."
       },
       {
         "time": "4",
-        "kicker": "Rahmen",
-        "title": "Preis und Buchung ehrlich abstimmen",
-        "text": "Der Preis richtet sich nach Dauer, Rhythmus, Format, Unterrichtsort, Vorbereitung und Materialaufwand. Die Anfrage ist kostenlos; die Buchung erfolgt erst nach klarer Abstimmung."
+        "kicker": "Alltag",
+        "title": "Ein machbarer Übeplan",
+        "text": "Zwischen den Stunden gibt es klare Aufgaben, die an Lernstand und verfügbare Übezeit angepasst sind."
       }
     ],
-    "footnote": "Geigenunterricht in Duisburg wird belastbar, wenn Ort, Ablauf, Wunschmusik, Kontaktperson und Preisrahmen vor der Zusage klar sind."
+    "footnote": "Unterrichtsort, Termine und Rhythmus werden vor der kostenlosen Probestunde persönlich abgestimmt."
   },
   "elegy": {
     "passages": []

@@ -10,6 +10,7 @@ export interface RatgeberLink {
 export interface RatgeberSection {
 	title: string;
 	body: string[];
+	links?: RatgeberLink[];
 }
 
 export interface RatgeberFaq {
@@ -24,8 +25,8 @@ export interface RatgeberPage {
 	seoTitle: string;
 	seoDescription: string;
 	intent: string;
-	cluster: 'Hochzeit' | 'Trauerfeier' | 'Unterricht';
-	serviceSlug: 'hochzeiten' | 'beerdigungen' | 'unterricht';
+	cluster: 'Hochzeit' | 'Trauerfeier' | 'Unterricht' | 'Geburtstag' | 'Firmenevent';
+	serviceSlug: 'hochzeiten' | 'beerdigungen' | 'unterricht' | 'geburtstage' | 'firmenfeiern';
 	heroImage: string;
 	heroImageAlt: string;
 	kicker: string;
@@ -126,42 +127,48 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 		heroImageAlt: 'Kim Marie Borger spielt Viola im Abendlicht',
 		kicker: 'Standesamt',
 		lead:
-			'Live-Musik im Standesamt kann Einzug, Unterschrift oder Auszug begleiten. Klärt zuerst mit dem jeweiligen Standesamt, welche Einsätze und Zeitfenster vor Ort möglich sind.',
+			'Wann kann Musik bei der standesamtlichen Trauung erklingen? Mögliche Momente sind Einzug, Unterschrift und Auszug. Welche davon in eurem Termin Platz haben, klärt ihr zuerst mit dem Standesamt. Daraus entsteht ein kurzer, abgestimmter Musikplan.',
 		summary:
 			'Für Paare, die eine schlichte standesamtliche Trauung musikalisch aufwerten möchten, ohne den Ablauf zu überladen.',
 		keyPoints: [
 			'Vorher klären, ob und wann Live-Musik im Raum erlaubt ist.',
-			'Ein bis drei kurze Stücke sind meist ausreichend.',
-			'Solo-Viola braucht wenig Platz und keinen großen technischen Aufbau.',
+			'Mögliche Momente: Einzug, Unterschrift und Auszug.',
+			'Zugang, Spielplatz und Startsignal vorher vereinbaren.',
 		],
 		sections: [
 			{
 				title: 'Was ist im Standesamt realistisch?',
 				body: [
-					'Viele Standesämter erlauben Live-Musik, wenn sie kurz und gut abgestimmt ist. Wichtig sind Raum, Zeitfenster, Zugang und die Frage, ob Musik vor, während oder nach der offiziellen Trauung möglich ist.',
-					'Eine Solo-Viola ist organisatorisch unaufwendig: ein Platz, ein Stuhl und ein klarer Ablauf reichen in vielen Situationen aus.',
+					'Ob Live-Musik möglich ist, entscheidet das jeweilige Standesamt für den konkreten Trauraum und Termin. Fragt nach zugelassenen Musikmomenten, maximaler Dauer und der Möglichkeit, vorher in den Raum zu kommen. Haltet die bestätigten Angaben fest, bevor ihr Stücke verbindlich plant.',
+					'Für die Solo-Viola klären wir einen geeigneten Spielplatz und die Hörsituation im Raum. Fotos, Raumgröße und Gästezahl helfen bei der Einschätzung. Falls technische Anforderungen bestehen, werden sie mit dem Standesamt vor der Buchung abgestimmt.',
 				],
 			},
 			{
 				title: 'Welche Stellen eignen sich?',
 				body: [
-					'Der Einzug, die Unterschrift und der Auszug sind die häufigsten Einsatzpunkte. Wenn die Trauung sehr kurz ist, reicht ein Stück zum Einzug oder ein persönliches Lied nach dem Ja-Wort.',
-					'Die Stücke sollten nicht zu lang geplant werden. Besser ist eine klare Fassung, die bei Bedarf natürlich enden kann.',
+					'Zum Einzug kann ein vereinbartes Stück den Weg in den Raum begleiten. Während der Unterschrift kann Musik eine Wartephase füllen, wenn das im Ablauf vorgesehen ist. Für den Auszug wird ein eigener Einsatz nach dem offiziellen Abschluss abgestimmt. Nicht jeder Termin bietet Platz für alle drei Momente.',
+					'Ordnet jedem bestätigten Einsatz ein Stück und ein Startsignal zu. Ist das Zeitfenster knapp, entscheidet euch für die Momente, die euch am wichtigsten sind. Länge und Schluss der Fassung werden so geplant, dass sie zum tatsächlichen Ablauf passen.',
+				],
+				links: [
+					{ label: 'Musik während der Unterschrift', href: '/hochzeiten/musik-unterschrift-standesamt/' },
+					{ label: 'Musik zum Auszug', href: '/hochzeiten/musik-auszug/' },
 				],
 			},
 			{
 				title: 'Was sollte vorab geklärt werden?',
 				body: [
-					'Fragt beim Standesamt nach Dauer, erlaubten Musikmomenten, Ankunftszeit und dem Zugang zum Trauraum. Auch die Raumakustik, ein Platz für die Musikerin und eine Kontaktperson für das Startsignal sind relevant.',
-					'Wenn danach ein Sektempfang oder Fototermin folgt, kann die Musik dort weitergeführt werden. So entsteht ein ruhiger Übergang vom offiziellen Teil in den gemeinsamen Tag.',
+					'Klärt den genauen Eingang, die Ankunftszeit und den Zugang zum Trauraum. Kann die Musikerin vor dem Eintreffen der Gäste aufbauen und stimmen? Wer ist am Termin erreichbar? Eine Kontaktperson koordiniert den Einlass und das vereinbarte Startsignal, damit ihr euch während der Trauung darum nicht kümmern müsst.',
+					'Wenn anschließend ein Empfang an einem anderen Ort geplant ist, behandelt ihn als eigene Spielphase. Wege, Aufbau und Wartezeiten müssen zum gebuchten Umfang passen. Auch eine Außenfläche braucht einen trockenen, schattigen Spielplatz und eine abgestimmte Innenalternative.',
 				],
+				links: [{ label: 'Empfang und Hochzeitsfeier weiterplanen', href: '/ratgeber/musikplanung-hochzeitsfeier/' }],
 			},
 			{
 				title: 'Kurze Checkliste für euren Ablauf',
 				body: [
-					'Notiert Trautermin und Adresse, das bestätigte Zeitfenster für Musik, den gewünschten Einsatzpunkt und ein bis drei Liedideen. Fragt nach, wer am Tag selbst Einlass und Startsignal koordiniert.',
-					'Soll ein Wunschlied erklingen, schickt es frühzeitig. Ich prüfe, ob Melodie und Länge auf Solo-Viola funktionieren; danach können wir den Einsatz mit dem tatsächlichen Ablauf abstimmen.',
+					'In euren Musikplan gehören Datum, Adresse und Raum, die bestätigten Einsatzpunkte, das jeweilige Stück, die mögliche Länge und die Person für das Startsignal. Ergänzt die Ankunftszeit und, falls vorgesehen, den Ort des anschließenden Empfangs. Gebt die abgestimmte Fassung an Standesamt, Musikerin und Kontaktperson weiter.',
+					'Schickt Wunschlieder frühzeitig mit Titel und Interpret:in. Ich prüfe, ob sie für Solo-Viola geeignet sind und wie sie zum Zeitfenster passen. Neue Bearbeitung oder Notation wird vorab besprochen. Hörproben helfen euch, euch den Instrumentalklang vorzustellen, bevor ihr eure Auswahl festlegt.',
 				],
+				links: [{ label: 'Viola-Hörproben anhören', href: '/portfolio/' }, { label: 'Wunschmusik vorbereiten', href: '/ratgeber/wunschmusik-hochzeit/' }],
 			},
 		],
 		internalLinks: [
@@ -176,17 +183,29 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 			{
 				question: 'Ist Live-Musik im Standesamt erlaubt?',
 				answer:
-					'Das entscheidet das jeweilige Standesamt. In vielen Fällen ist es möglich, wenn Dauer und Ablauf vorher abgestimmt werden.',
+					'Das entscheidet das jeweilige Standesamt für euren Trauraum und Termin. Lasst Musikmomente, Dauer, Zugang und mögliche technische Anforderungen bestätigen, bevor ihr verbindlich plant.',
 			},
 			{
 				question: 'Wie viele Stücke braucht eine standesamtliche Trauung?',
 				answer:
-					'Oft reichen ein bis drei Stücke: Einzug, Unterschrift und Auszug. Bei sehr kurzen Terminen kann auch ein einzelnes Wunschlied genügen.',
+					'Mögliche Einsätze sind Einzug, Unterschrift und Auszug. Ob ein, zwei oder drei Stücke Platz haben, ergibt sich aus dem bestätigten Ablauf und dem verfügbaren Zeitfenster.',
 			},
 			{
 				question: 'Braucht Solo-Viola Technik im Standesamt?',
 				answer:
-					'In kleinen bis mittleren Räumen meist nicht. Bei größeren Sälen kann die Akustik vorab eingeschätzt werden.',
+					'Das wird anhand von Raum, Gästezahl und Akustik eingeschätzt. Wenn Technik benötigt wird, stimmen wir deren Einsatz vorher mit dem Standesamt ab.',
+			},
+			{
+				question: 'Wann beginnt die Musik bei der standesamtlichen Trauung?',
+				answer: 'Jeder bestätigte Musikeinsatz bekommt ein Startsignal, etwa zum Einzug oder nach der Unterschrift. Wer das Signal gibt, wird mit Standesamt und Kontaktperson vor dem Termin vereinbart.',
+			},
+			{
+				question: 'Kann ein modernes Lieblingslied gespielt werden?',
+				answer: 'Schickt Titel und Interpret:in. Ich prüfe die Eignung für Solo-Viola sowie Länge und Vorbereitung. Das Stück wird erst nach dieser Prüfung und der Abstimmung mit dem Ablauf vereinbart.',
+			},
+			{
+				question: 'Kann die Musik beim anschließenden Empfang weitergehen?',
+				answer: 'Ein Empfang kann als eigene Spielphase angefragt werden. Ort, Wege, Aufbau, Spielzeit und mögliche Wartezeiten werden dafür gemeinsam abgestimmt und im Angebot berücksichtigt.',
 			},
 		],
 	},
@@ -472,6 +491,352 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 			},
 		],
 	},
+{
+	"slug": "musikplanung-hochzeitsfeier",
+	"title": "Musikplanung für die Hochzeitsfeier",
+	"shortTitle": "Musikplanung Hochzeitsfeier",
+	"seoTitle": "Musikplanung Hochzeitsfeier: Empfang & Dinner | Ratgeber",
+	"seoDescription": "Musik für eure Hochzeitsfeier planen: Empfang, Dinner, Reden und Übergänge abstimmen. Checkliste für Spielzeiten, Ortswechsel und die Übergabe an DJ oder Band.",
+	"intent": "Paare möchten den musikalischen Ablauf nach der Trauung bis zum Beginn der Party planen.",
+	"cluster": "Hochzeit",
+	"serviceSlug": "hochzeiten",
+	"heroImage": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
+	"heroImageAlt": "Kim Marie Borger spielt Viola im Abendlicht",
+	"kicker": "Hochzeitsfeier",
+	"lead": "Nach der Trauung geht es oft an einem anderen Ort weiter. Für Empfang und Dinner helfen klare Spielzeiten, Pausen für Reden und eine abgestimmte Übergabe an die Abendmusik. So weiß jede beteiligte Person, wann sie gefragt ist.",
+	"summary": "Eine Checkliste für die Musik nach der Trauung: Sektempfang, Essen, Reden, Raumwechsel und der Übergang zur Party.",
+	"keyPoints": [
+		"Jede Spielphase bekommt einen Zweck und ein Zeitfenster.",
+		"Reden und Moderation brauchen vereinbarte Musikpausen.",
+		"Anfahrt, Aufbau und Übergaben gehören in den Ablaufplan."
+	],
+	"sections": [
+		{
+			"title": "1. Den Empfang vom weiteren Abend unterscheiden",
+			"body": [
+				"Beim Empfang kommen Gäste an, gratulieren und unterhalten sich. Hier kann Solo-Viola die Begrüßung begleiten. Vereinbart Beginn und Ende der Musik sowie den Platz für den Auftritt. Plant auch, ob das Paar währenddessen beim Fototermin ist oder die Musik gemeinsam mit den Gästen erleben möchte.",
+				"Ein persönliches Lieblingsstück braucht einen erkennbaren Moment. Wenn es zwischen Gesprächen und Gratulationen erklingt, hören möglicherweise nicht alle bewusst zu. Soll das Stück ein Höhepunkt sein, haltet dafür einen eigenen kurzen Programmpunkt fest."
+			],
+			"links": [
+				{
+					"label": "Live-Musik zum Sektempfang",
+					"href": "/hochzeiten/sektempfang/"
+				}
+			]
+		},
+		{
+			"title": "2. Dinner, Reden und Service aufeinander abstimmen",
+			"body": [
+				"Für das Dinner besprecht ihr mit der Location und der Musikerin, wann Essen serviert wird und welche Reden geplant sind. Musikfenster lassen sich um diese Punkte herum legen. Während einer Ansprache pausiert die Musik, damit die Worte verständlich bleiben.",
+				"Ob die Viola akustisch ausreicht, hängt von Raum, Gästezahl und Umgebungsgeräuschen ab. Fotos des Raums und eine grobe Sitzordnung helfen bei der Einschätzung. Technische Anforderungen werden vor der Buchung geklärt; ein großer Saal ist kein Anlass für eine pauschale Zusage zur Lautstärke."
+			],
+			"links": [
+				{
+					"label": "Hörproben der Solo-Viola",
+					"href": "/portfolio/"
+				}
+			]
+		},
+		{
+			"title": "3. Ortswechsel und die Übergabe zur Party planen",
+			"body": [
+				"Wenn Trauung, Empfang und Dinner an verschiedenen Orten stattfinden, notiert die Wege und die jeweiligen Ankunftszeiten. Auch Ausladen, Aufbauen und Stimmen brauchen Platz im Plan. Klärt, wer Zugang zum nächsten Raum ermöglicht und welche Wartezeit zwischen den Einsätzen entsteht.",
+				"Für den Übergang zur Party vereinbart ihr mit DJ oder Band das Ende der Live-Musik und den nächsten Einsatz. Ist ein gemeinsamer Übergang gewünscht, müssen Ablauf und technische Voraussetzungen vorher besprochen werden. Ein festes Startsignal ist verlässlicher als mehrere Personen, die gleichzeitig Änderungen weitergeben."
+			],
+			"links": [
+				{
+					"label": "Musik für eure Hochzeit anfragen",
+					"href": "/hochzeiten/"
+				}
+			]
+		},
+		{
+			"title": "4. Eine gemeinsame Ablaufübersicht verschicken",
+			"body": [
+				"Für jede Musikphase reichen zunächst diese Angaben: Ort, Beginn, Ende, Aufgabe der Musik und zuständige Kontaktperson. Ergänzt Reden, Pausen, Ortswechsel, gewünschte Stücke und das Startsignal. Gebt die bestätigte Fassung an Location, Musikerin und die Personen weiter, die den Abend koordinieren.",
+				"Für einen Empfang im Freien braucht es einen trockenen, schattigen Platz mit stabilem Untergrund und eine Innenalternative. Haltet fest, wer die Entscheidung bei Wetteränderungen trifft. Für das Angebot zählen außerdem Anfahrt, Vorbereitung, Wartezeiten und der vereinbarte musikalische Umfang."
+			],
+			"links": [
+				{
+					"label": "Wunschmusik und Vorbereitung",
+					"href": "/ratgeber/wunschmusik-hochzeit/"
+				}
+			]
+		}
+	],
+	"internalLinks": [
+		{
+			"label": "Hochzeitsmusik mit Solo-Viola",
+			"href": "/hochzeiten/"
+		},
+		{
+			"label": "Ablauf der Trauungsmusik",
+			"href": "/ratgeber/musik-zur-trauung/"
+		},
+		{
+			"label": "Musik zum Empfang",
+			"href": "/hochzeiten/sektempfang/"
+		},
+		{
+			"label": "Hochzeitsmusik in Düsseldorf",
+			"href": "/hochzeiten/duesseldorf/"
+		}
+	],
+	"nextStep": {
+		"label": "Musik für Empfang und Dinner anfragen",
+		"href": "/anfragen/"
+	},
+	"faqs": [
+		{
+			"question": "Wie plane ich die Musik für die Hochzeitsfeier?",
+			"answer": "Trennt Empfang, Dinner, Reden und Party in einzelne Phasen. Notiert je Phase Ort, Zeitfenster, Aufgabe der Musik und eine Kontaktperson. Danach werden Wunschstücke, Pausen und Übergaben abgestimmt."
+		},
+		{
+			"question": "Kann Solo-Viola Empfang und Dinner begleiten?",
+			"answer": "Ja, diese Einsätze können vereinbart werden. Ob die Musik akustisch oder mit abgestimmter Technik passend hörbar ist, prüfen wir anhand des Raums, der Gästezahl und des Ablaufs."
+		},
+		{
+			"question": "Spielt die Musik während der Hochzeitsreden weiter?",
+			"answer": "Für geplante Ansprachen werden Musikpausen vereinbart. Eine Kontaktperson gibt das Signal für die Pause und den nächsten Einsatz."
+		},
+		{
+			"question": "Sind mehrere Spielorte an einem Tag möglich?",
+			"answer": "Das wird anhand der Wege und Zeitfenster geprüft. Anfahrt, Aufbau, Wartezeiten und Zugang zu den Räumen müssen in Ablauf und Angebot berücksichtigt werden."
+		},
+		{
+			"question": "Wann beginnt die Tanzmusik?",
+			"answer": "Das bestimmt euer Ablauf mit DJ oder Band. Haltet das Ende der Solo-Viola und den Beginn der anschließenden Musik gemeinsam fest; es gibt dafür keine allgemeine Uhrzeit."
+		}
+	]
+},
+{
+	"slug": "live-musik-geburtstagsgeschenk",
+	"title": "Live-Musik als Geburtstagsgeschenk",
+	"shortTitle": "Live-Musik als Geburtstagsgeschenk",
+	"seoTitle": "Live-Musik als Geburtstagsgeschenk | Überraschung planen",
+	"seoDescription": "Ein Ständchen mit Solo-Viola zum Geburtstag verschenken: Lieblingslied, Zeitpunkt, Kontaktperson, Raum und diskrete Ankunft vor dem Auftritt abstimmen.",
+	"intent": "Menschen möchten einen persönlichen Musikauftritt zum Geburtstag verschenken und die Überraschung organisieren.",
+	"cluster": "Geburtstag",
+	"serviceSlug": "geburtstage",
+	"heroImage": "/uploads/mq0uvvd3-20250327-DSC01769.webp",
+	"heroImageAlt": "Porträt von Kim Marie Borger mit ihrer Viola",
+	"kicker": "Musik verschenken",
+	"lead": "Ein Lieblingslied, live auf der Viola gespielt, kann ein persönliches Geburtstagsgeschenk sein. Damit die Überraschung gelingt, braucht sie einen passenden Moment und eine Person, die Ankunft, Raum und Startsignal im Blick behält.",
+	"summary": "Vom Lieblingslied zum vereinbarten Auftritt: So bereitet ihr ein persönliches Ständchen vor, ohne die Überraschung vorzeitig zu verraten.",
+	"keyPoints": [
+		"Wunschlied und Spielbarkeit vor der Buchung prüfen.",
+		"Eine eingeweihte Person koordiniert Ankunft und Start.",
+		"Dauer, Kosten und Bedingungen gemeinsam festhalten."
+	],
+	"sections": [
+		{
+			"title": "Welches Stück passt zur beschenkten Person?",
+			"body": [
+				"Beginnt mit einem Lied, das der Person etwas bedeutet: etwa Musik aus einem Lieblingsfilm oder ein Stück, mit dem sie eine gemeinsame Erinnerung verbindet. Ein kurzer Hinweis zur Bedeutung hilft bei der Auswahl. Eine größere Wunschliste ist für ein einzelnes Ständchen nicht nötig.",
+				"Schickt Titel und Interpret:in frühzeitig. Ich prüfe, ob das Stück für Solo-Viola geeignet ist und welche Fassung zum Auftritt passt. Wenn eine neue Bearbeitung oder Notation nötig ist, bespreche ich den Aufwand vorher. Die Buchung setzt keine Zusage voraus, jedes gewünschte Lied spielen zu können."
+			],
+			"links": [
+				{
+					"label": "So klingt die Viola",
+					"href": "/portfolio/"
+				}
+			]
+		},
+		{
+			"title": "Ein Ständchen oder Begleitung für die ganze Feier?",
+			"body": [
+				"Ein Ständchen ist ein eigener Moment: Die beschenkte Person und die Gäste können zuhören. Begleitung zum Empfang oder Dinner erfüllt eine andere Aufgabe und wird als eigener Umfang vereinbart. Entscheidet deshalb zuerst, ob ihr ein einzelnes musikalisches Geschenk oder mehrere Einsätze schenken möchtet.",
+				"Plant den Beginn so, dass die Person tatsächlich anwesend ist und gerade kein anderer Programmpunkt läuft. Wenn ein Essen oder eine Rede vorgesehen ist, stimmt das Zeitfenster mit der gastgebenden Person ab. Eine klare Absprache hilft mehr als ein minutengenauer Überraschungsplan ohne Puffer."
+			],
+			"links": [
+				{
+					"label": "Musik für Geburtstage und private Feiern",
+					"href": "/geburtstage/"
+				}
+			]
+		},
+		{
+			"title": "Ankunft und Startsignal diskret organisieren",
+			"body": [
+				"Eine eingeweihte Kontaktperson sollte vor Ort erreichbar sein. Sie kennt den Eingang, ermöglicht den Zugang und gibt das vereinbarte Startsignal. Klärt auch, wo ich vor dem Auftritt warten und mich vorbereiten kann, ohne die Überraschung unbeabsichtigt vorwegzunehmen.",
+				"Teilt mir bei der Anfrage mit, über welchen Kontakt die Absprachen laufen sollen. Wenn die Feier in einem Restaurant oder Veranstaltungsraum stattfindet, muss die verantwortliche Person dort den Auftritt ebenfalls kennen und dem geplanten Platz und Zeitfenster zustimmen."
+			]
+		},
+		{
+			"title": "Raum, Wetter und Angebot klären",
+			"body": [
+				"Für einen Auftritt zu Hause sind Platz zum Spielen und eine ruhige Hörsituation wichtig. Beschreibt den Raum und die ungefähre Gästezahl. Bei einer Gartenfeier brauche ich einen trockenen, schattigen Platz auf stabilem Untergrund; für Regen oder starke Sonne wird vorab eine Innenalternative vereinbart.",
+				"Für die Anfrage nennt Datum, Adresse, gewünschte Spielzeit, Anlass und Liedidee. Der Preis hängt unter anderem von Anfahrt, Dauer, Vorbereitung und möglichen Wartezeiten ab. Ihr bekommt den vereinbarten Umfang vor der Buchung genannt; besondere Wünsche werden vorher besprochen."
+			],
+			"links": [
+				{
+					"label": "Persönlichen Musikauftritt anfragen",
+					"href": "/anfragen/"
+				}
+			]
+		}
+	],
+	"internalLinks": [
+		{
+			"label": "Live-Musik zum Geburtstag",
+			"href": "/geburtstage/"
+		},
+		{
+			"label": "Musik für private Feiern",
+			"href": "/geburtstage/private-feier/"
+		},
+		{
+			"label": "Hörproben im Portfolio",
+			"href": "/portfolio/"
+		},
+		{
+			"label": "Über Kim Marie Borger",
+			"href": "/ueber-mich/"
+		}
+	],
+	"nextStep": {
+		"label": "Geburtstagsüberraschung anfragen",
+		"href": "/anfragen/"
+	},
+	"faqs": [
+		{
+			"question": "Kann ein Auftritt eine Überraschung bleiben?",
+			"answer": "Ja, Ankunft und Start werden mit einer eingeweihten Kontaktperson abgestimmt. Sagt bei der Anfrage, wer erreichbar ist und über welchen Kontakt die weitere Planung laufen soll."
+		},
+		{
+			"question": "Kann ich ein Lieblingslied verschenken?",
+			"answer": "Schick mir den Titel und die gewünschte Situation. Ich prüfe die Eignung für Solo-Viola und bespreche einen möglichen Bearbeitungsaufwand, bevor wir das Stück verbindlich vereinbaren."
+		},
+		{
+			"question": "Wie lange dauert ein musikalisches Geburtstagsgeschenk?",
+			"answer": "Ein einzelnes Ständchen und die Begleitung eines Empfangs haben unterschiedliche Umfänge. Dauer und Anzahl der Einsätze werden passend zu eurem Wunsch im Angebot festgehalten."
+		},
+		{
+			"question": "Ist ein Auftritt im Garten möglich?",
+			"answer": "Bei einem trockenen, schattigen Spielplatz mit stabilem Untergrund kann das möglich sein. Eine Innenalternative und die Entscheidung bei Wetteränderungen werden vorab abgestimmt."
+		},
+		{
+			"question": "Was kostet Live-Musik als Geburtstagsgeschenk?",
+			"answer": "Der Preis wird individuell für Datum, Ort, Anfahrt, Spielzeit und Vorbereitung genannt. Zusätzlicher Aufwand für Wunschmusik oder Wartezeiten wird vor der Buchung geklärt."
+		}
+	]
+},
+{
+	"slug": "musik-firmenevent-ablauf",
+	"title": "Musik beim Firmenevent planen",
+	"shortTitle": "Ablaufcheckliste Firmenevent",
+	"seoTitle": "Musik beim Firmenevent planen | Ablauf & Checkliste",
+	"seoDescription": "Checkliste für Live-Musik beim Firmenevent: Spielzeiten, Reden, Dinner, Raum, Lautstärke und Kontaktperson vor der Buchung mit Location und Veranstaltungsleitung klären.",
+	"intent": "Organisator:innen suchen einen Ablaufplan für Live-Musik, der zu Empfang, Reden, Networking und Dinner passt.",
+	"cluster": "Firmenevent",
+	"serviceSlug": "firmenfeiern",
+	"heroImage": "/uploads/_DSC7402.webp",
+	"heroImageAlt": "Kim Marie Borger spielt Viola am See",
+	"kicker": "Eventplanung",
+	"lead": "Beim Firmenevent teilen sich Musik, Gespräche, Reden und Service denselben Raum. Legt die musikalische Aufgabe und die Spielzeiten zuerst fest. Daraus ergeben sich der passende Platz, die Lautstärke und die Abstimmung mit der Veranstaltungsleitung.",
+	"summary": "Eine Ablaufcheckliste für Veranstaltungsleitung und Location: von der Begrüßung bis zu Musikpausen, Technik und Rechnungsangaben.",
+	"keyPoints": [
+		"Empfangsbegleitung und Konzertmoment getrennt planen.",
+		"Reden und Moderation mit klaren Pausensignalen abstimmen.",
+		"Raum, Zugang, Technik und Leistungsumfang vorab klären."
+	],
+	"sections": [
+		{
+			"title": "Welche Aufgabe soll die Musik übernehmen?",
+			"body": [
+				"Beim Empfang begleitet die Musik das Ankommen. Beim Dinner kann sie vereinbarte Phasen zwischen den Programmpunkten füllen. Ein kurzer Konzertmoment verlangt dagegen Aufmerksamkeit: Die Gäste sollten wissen, dass jetzt ein musikalischer Beitrag beginnt. Diese Aufgaben beeinflussen Stückauswahl, Platz und Spielzeit.",
+				"Notiert für jeden Einsatz Beginn, Ende und die gewünschte Funktion. Solo-Viola kann für eine Begrüßung, einen Empfang oder ein Dinner angefragt werden. Für einen eigenen musikalischen Programmpunkt wird der Umfang gesondert abgestimmt. Eine Hörprobe hilft, den Klang in die Planung einzuordnen."
+			],
+			"links": [
+				{
+					"label": "Live-Musik für Firmenfeiern",
+					"href": "/firmenfeiern/musik-firmenfeier/"
+				},
+				{
+					"label": "Solo-Viola hören",
+					"href": "/portfolio/"
+				}
+			]
+		},
+		{
+			"title": "Reden, Catering und Musikpausen koordinieren",
+			"body": [
+				"Haltet Begrüßung, Reden, Ehrungen und Moderation im gemeinsamen Ablauf fest. Vereinbart, wann die Musik pausiert und wer das Signal für den nächsten Einsatz gibt. Die Kontaktperson sollte auch bei kurzfristigen Verschiebungen erreichbar sein.",
+				"Besprecht mit Location oder Catering, wann Servicewege besonders stark genutzt werden. Der Spielplatz sollte diese Wege frei halten. Wenn ein Beitrag später beginnt, braucht es eine abgestimmte Entscheidung über Musikpause, Verlängerung oder einen verschobenen Einsatz; zusätzliche Zeiten werden nicht stillschweigend vorausgesetzt."
+			]
+		},
+		{
+			"title": "Raum und Technik vor der Buchung einschätzen",
+			"body": [
+				"Gästezahl, Raumgröße, Sitzordnung und Geräuschpegel helfen bei der Einschätzung, wie die Viola hörbar wird. Sendet bei Bedarf Raumfotos und nennt geplante Mikrofone oder andere Beschallung. Ob akustisches Spiel ausreicht oder eine technische Abstimmung nötig ist, wird anhand der tatsächlichen Situation geklärt.",
+				"Gebt den genauen Eingang, Etage, Aufzug und eine mögliche Haltemöglichkeit an. Bei mehreren Räumen werden Wege und Aufbauzeiten mitgeplant. Im Freien braucht das Instrument einen trockenen, schattigen Platz auf stabilem Untergrund und eine vereinbarte Innenalternative."
+			],
+			"links": [
+				{
+					"label": "Firmenevent in Düsseldorf anfragen",
+					"href": "/firmenfeiern/duesseldorf/"
+				}
+			]
+		},
+		{
+			"title": "Diese Angaben gehören in die Anfrage",
+			"body": [
+				"Nennt Datum, Adresse, Veranstaltungstyp, ungefähre Gästezahl und gewünschte Spielzeiten. Ergänzt die geplanten Reden, mögliche Ortswechsel, eine Kontaktperson für den Veranstaltungstag und Rechnungsangaben. Eine Liedidee könnt ihr mitschicken, damit Eignung und Vorbereitungsaufwand geprüft werden können.",
+				"Im Angebot werden der musikalische Umfang und die vereinbarten Bedingungen festgehalten. Anfahrt, Vorbereitung, Wartezeiten, Ortswechsel und technische Anforderungen können den Preis beeinflussen. Verfügbarkeit und Kosten lassen sich deshalb erst mit dem konkreten Veranstaltungsrahmen zuverlässig abstimmen."
+			],
+			"links": [
+				{
+					"label": "Verfügbarkeit und Umfang klären",
+					"href": "/anfragen/"
+				}
+			]
+		}
+	],
+	"internalLinks": [
+		{
+			"label": "Firmenfeiern und Empfänge",
+			"href": "/firmenfeiern/"
+		},
+		{
+			"label": "Musik für die Firmenfeier",
+			"href": "/firmenfeiern/musik-firmenfeier/"
+		},
+		{
+			"label": "Firmenevents in Düsseldorf",
+			"href": "/firmenfeiern/duesseldorf/"
+		},
+		{
+			"label": "Hörproben",
+			"href": "/portfolio/"
+		}
+	],
+	"nextStep": {
+		"label": "Musik für das Firmenevent anfragen",
+		"href": "/anfragen/"
+	},
+	"faqs": [
+		{
+			"question": "Wann passt Live-Musik in ein Firmenevent?",
+			"answer": "Mögliche Einsätze sind Empfang, Dinner und ein eigener musikalischer Programmpunkt. Aufgabe und Zeitfenster werden mit dem übrigen Ablauf abgestimmt."
+		},
+		{
+			"question": "Wer gibt das Signal für Musikpausen?",
+			"answer": "Vorab wird eine erreichbare Kontaktperson benannt, etwa aus der Veranstaltungsleitung. Sie koordiniert Pausen für Reden sowie Änderungen und den nächsten Musikeinsatz."
+		},
+		{
+			"question": "Ist Solo-Viola beim Networking zu hören?",
+			"answer": "Das hängt von Raum, Gästezahl und Gesprächslautstärke ab. Die Hörsituation und ein möglicher technischer Bedarf werden vor der Buchung eingeschätzt."
+		},
+		{
+			"question": "Kann der Auftritt zwischen mehreren Räumen wechseln?",
+			"answer": "Das kann nach Prüfung von Wegen, Zugang und Aufbauzeit vereinbart werden. Die Wechsel und mögliche Wartezeiten gehören in Ablauf und Angebot."
+		},
+		{
+			"question": "Welche Informationen braucht ein Angebot?",
+			"answer": "Hilfreich sind Datum, genaue Adresse, Gästezahl, Raum, Spielzeiten, Programmpunkte, Kontaktperson und Rechnungsangaben. Wunschmusik und besondere Technik werden ebenfalls vorab besprochen."
+		}
+	]
+},
 ];
 
 export function getRatgeberPages(): RatgeberPage[] {
@@ -509,7 +874,7 @@ export function ratgeberOverviewJsonLd(site: URL): object {
 				'@id': `${url}#collection`,
 				name: 'Ratgeber Musikplanung',
 				description:
-					'Ruhige Wissensseiten zur musikalischen Planung von Hochzeit, Trauerfeier und Geigen- oder Bratschenunterricht.',
+					'Ratgeber zur Musikplanung für Hochzeit, Trauerfeier, Geburtstag und Firmenevent sowie zum Geigen- und Bratschenunterricht.',
 				url,
 				inLanguage: 'de',
 				mainEntity: {
