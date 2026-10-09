@@ -36,11 +36,12 @@ jobs:
         run: npm run audit:prod
         continue-on-error: true
 
-      - name: Type check
-        run: npm run check
-
+      # Generate the ignored Tina client and types before checking a clean checkout.
       - name: Build local site
         run: npm run build:local
+
+      - name: Type check
+        run: npm run check
 
       - name: SEO audit
         run: npm run audit:seo:dist
