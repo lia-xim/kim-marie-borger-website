@@ -465,6 +465,7 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 			},
 		],
 		internalLinks: [
+			{ label: 'Bratsche und Geige: Klang und Größe vergleichen', href: '/ratgeber/bratsche-geige-unterschied/' },
 			{ label: 'Geigen- und Bratschenunterricht', href: '/unterricht/' },
 			{ label: 'Geigenunterricht Erwachsene', href: '/unterricht/geigenunterricht-erwachsene/' },
 			{ label: 'Geige lernen', href: '/unterricht/geige-lernen/' },
@@ -834,6 +835,138 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 		{
 			"question": "Welche Informationen braucht ein Angebot?",
 			"answer": "Hilfreich sind Datum, genaue Adresse, Gästezahl, Raum, Spielzeiten, Programmpunkte, Kontaktperson und Rechnungsangaben. Wunschmusik und besondere Technik werden ebenfalls vorab besprochen."
+		}
+	]
+},
+{
+	"slug": "bratsche-geige-unterschied",
+	"title": "Bratsche oder Geige: Was ist der Unterschied?",
+	"shortTitle": "Bratsche und Geige im Vergleich",
+	"seoTitle": "Bratsche oder Geige? Unterschiede in Klang & Größe",
+	"seoDescription": "Bratsche, Viola und Geige unterscheiden: Stimmung, Klang, Größe und musikalische Rolle verständlich erklärt. Mit Orientierung für die erste Probestunde.",
+	"intent": "Klang, Stimmung und Größe von Bratsche und Geige vergleichen und die Instrumentenwahl für den Unterricht vorbereiten.",
+	"cluster": "Unterricht",
+	"serviceSlug": "unterricht",
+	"heroImage": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+	"heroImageAlt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese",
+	"kicker": "Instrumente kennenlernen",
+	"lead": "Die Bratsche heißt auch Viola, die Geige auch Violine. Beide gehören zu den Streichinstrumenten und werden ähnlich gehalten. Der Unterschied liegt vor allem in Stimmung, Größe und Klang — und damit auch in der musikalischen Aufgabe.",
+	"summary": "Was Bratsche, Viola und Geige unterscheidet und worauf es bei der Instrumentenwahl für den Unterricht ankommt.",
+	"keyPoints": [
+		"Bratsche und Viola bezeichnen dasselbe Instrument.",
+		"Die Bratsche ist tiefer gestimmt als die Geige.",
+		"Für die Instrumentenwahl zählen Klanginteresse und eine passende Größe."
+	],
+	"sections": [
+		{
+			"title": "Stimmung und Klang: die tiefe C-Saite statt der hohen E-Saite",
+			"body": [
+				"Die Geige hat eine hohe E-Saite. Bei der Bratsche steht an deren Stelle eine tiefe C-Saite; sie ist eine Quinte tiefer gestimmt. Dadurch erhält die Viola ihren tieferen Tonbereich und die oft als dunkler beschriebene Klangfarbe.",
+				"Diese Grundrichtung ist eine Orientierung, keine Grenze für den Ausdruck. Wer den Klang der Viola kennenlernen möchte, kann sich zunächst Hörbeispiele anhören. Für den direkten Vergleich lohnt es sich, beide Instrumente im Unterricht auszuprobieren."
+			],
+			"links": [
+				{
+					"label": "Viola-Hörbeispiele von Kim Marie Borger",
+					"href": "/portfolio/"
+				}
+			]
+		},
+		{
+			"title": "Größe und Haltung: das Instrument muss zur Person passen",
+			"body": [
+				"Eine Bratsche ist gewöhnlich größer als eine Geige. Eine feste Zentimeterzahl entscheidet den Vergleich aber nicht: Für den Unterricht wird eine passende Instrumentengröße gewählt. Dabei schauen wir auf Haltung, Griffwege und eine freie Bogenbewegung.",
+				"Gerade vor einem Kauf hilft eine persönliche Einschätzung. Kinder, Jugendliche und Erwachsene brauchen ein Instrument, das sich gut halten und spielen lässt. Die Entscheidung sollte deshalb nicht allein anhand eines Fotos oder einer Größenangabe fallen."
+			]
+		},
+		{
+			"title": "Musikalische Rolle: Mittelstimme und Solo",
+			"body": [
+				"Im Orchester und in der Kammermusik übernimmt die Bratsche häufig eine Mittelstimme. Zugleich hat sie eigenes Solo-Repertoire und kann als eigenständiges Instrument im Mittelpunkt stehen. Geige und Bratsche unterscheiden sich also nicht einfach in „Melodie“ und „Begleitung“.",
+				"Kim Marie Borger spielt Solo-Viola bei Konzerten und Kulturformaten sowie bei persönlichen Anlässen. Wer eine Buchung plant, findet bei den Konzertformaten Beispiele für Programme; wer selbst lernen möchte, kann sich über Geigen- und Bratschenunterricht informieren."
+			],
+			"links": [
+				{
+					"label": "Konzerte und Kulturformate mit Viola",
+					"href": "/konzerte/"
+				},
+				{
+					"label": "Geigen- und Bratschenunterricht",
+					"href": "/unterricht/"
+				}
+			]
+		},
+		{
+			"title": "Geige oder Bratsche lernen: die erste Entscheidung",
+			"body": [
+				"Für den Einstieg helfen zwei Fragen: Welcher Klang interessiert dich, und wie fühlt sich das passende Instrument an? In einer Probestunde können wir Vorerfahrung, Haltung und erste Ziele besprechen. Bei Kim Marie Borger ist diese Probestunde kostenlos und unverbindlich.",
+				"Haltung, Bogenführung, Ton, Intonation und Gehör gehören bei beiden Instrumenten zum Unterricht. Ein Wechsel zwischen Geige und Bratsche wird auf die vorhandenen Kenntnisse abgestimmt. Für den Einstieg als Erwachsene:r gibt es zusätzlich eine eigene Entscheidungshilfe."
+			],
+			"links": [
+				{
+					"label": "Als Erwachsene:r mit Geige oder Bratsche beginnen",
+					"href": "/ratgeber/bratschenunterricht-erwachsene/"
+				},
+				{
+					"label": "Bratschenunterricht kennenlernen",
+					"href": "/unterricht/bratschenunterricht/"
+				}
+			]
+		},
+		{
+			"title": "Zum Weiterlesen über das Instrument",
+			"body": [
+				"Die Hinweise zur tieferen Stimmung und Klangfarbe lassen sich in der Instrumentenerklärung der Elbphilharmonie nachlesen. Der Landesmusikrat Berlin zeigt in seiner Broschüre die Bratsche als Orchester-, Kammermusik- und Solo-Instrument."
+			],
+			"links": [
+				{
+					"label": "Elbphilharmonie: Klang und Bauweise der Bratsche",
+					"href": "https://www.elbphilharmonie.de/de/mediathek/die-ostfriesen-des-orchesters/491"
+				},
+				{
+					"label": "Landesmusikrat Berlin: Bratsche – Instrument des Jahres 2014 (PDF)",
+					"href": "https://www.landesmusikrat-berlin.de/fileadmin/projekte/LMR_Bratsche_Instr_d_Jahres_2014_web_EF.pdf"
+				}
+			]
+		}
+	],
+	"internalLinks": [
+		{
+			"label": "Geigen- und Bratschenunterricht",
+			"href": "/unterricht/"
+		},
+		{
+			"label": "Bratschenunterricht",
+			"href": "/unterricht/bratschenunterricht/"
+		},
+		{
+			"label": "Geigenunterricht",
+			"href": "/unterricht/geigenunterricht/"
+		}
+	],
+	"nextStep": {
+		"label": "Kostenlose Probestunde anfragen",
+		"href": "/anfragen/"
+	},
+	"faqs": [
+		{
+			"question": "Sind Bratsche und Viola dasselbe?",
+			"answer": "Ja. Bratsche ist die deutsche Bezeichnung für die Viola. Die Geige wird auch Violine genannt."
+		},
+		{
+			"question": "Warum klingt die Bratsche tiefer als die Geige?",
+			"answer": "Die Bratsche ist eine Quinte tiefer gestimmt. Anstelle der hohen E-Saite der Geige hat sie eine tiefe C-Saite."
+		},
+		{
+			"question": "Ist die Bratsche immer größer als die Geige?",
+			"answer": "Eine Bratsche ist gewöhnlich größer. Für den Unterricht zählt jedoch die passende Instrumentengröße für die jeweilige Person, nicht nur ein allgemeiner Größenvergleich."
+		},
+		{
+			"question": "Kann man direkt mit Bratsche beginnen?",
+			"answer": "Der Unterricht kann mit Bratsche beginnen. In einer Probestunde werden Instrumentengröße, Haltung und erste Ziele persönlich besprochen."
+		},
+		{
+			"question": "Ist Bratsche leichter zu lernen als Geige?",
+			"answer": "Eine pauschale Rangfolge hilft bei der Wahl wenig. Beide Instrumente brauchen Arbeit an Haltung, Bogen, Ton und Intonation. Klanginteresse, ein passendes Instrument und regelmäßiges Üben sind hilfreicher für die Entscheidung."
 		}
 	]
 },

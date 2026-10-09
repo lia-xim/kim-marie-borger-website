@@ -9,7 +9,7 @@
   "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Trauermusik Wuppertal | Viola für Abschied",
-  "seoDescription": "Trauermusik Wuppertal: würdevolle Viola für Trauerfeier und Abschied in Wuppertal. Ablauf, Wunschmusik und Preis transparent klären.",
+  "seoDescription": "Live-Trauermusik in Wuppertal: Solo-Viola in Trauerhalle, Kirche oder am Grab. Stücke, Einsätze und Termin mit Familie oder Bestattungshaus abstimmen.",
   "hero": {
     "eyebrow": "Beerdigung & Trauerfeier in Wuppertal",
     "title": "Trauermusik in Wuppertal — warm, zurückhaltend und vorbereitet.",
@@ -38,16 +38,16 @@
         "answer": "Ja, wenn sie musikalisch zu Solo-Viola und zum Anlass passen. Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
       },
       {
-        "question": "Wann passt Solo-Viola besonders gut?",
-        "answer": "Solo-Viola passt, wenn ein warmer, zurückhaltender Klang einen Abschied tragen soll. Das wirkt am besten, wenn der Moment zuhören darf und der Klang nicht gegen laute Umgebung anspielen muss."
+        "question": "Können wir auch kurzfristig Trauermusik anfragen?",
+        "answer": "Ja. Nennt mir Datum, Uhrzeit und Trauerort. Ich prüfe die Verfügbarkeit und welche Stücke sich in der verbleibenden Zeit vorbereiten lassen. Eine Zusage erfolgt erst nach dieser Prüfung."
       },
       {
-        "question": "Wann ist Solo-Viola nicht die richtige Lösung?",
-        "answer": "Für sehr laute Beschallung, eine Bühnenshow oder spontane Stückwechsel ohne Vorbereitung ist Solo-Viola nicht das passende Format. Bei einem stillen Abschied kann sie dagegen auch ohne große Technik tragen."
+        "question": "Kann die Abstimmung über das Bestattungshaus laufen?",
+        "answer": "Ja. Auf Wunsch kläre ich Ablauf, Stückfolge, Ankunft und Einsätze direkt mit dem Bestattungshaus, der Trauerredner:in oder Gemeinde. Eine erreichbare Kontaktperson hilft auch bei Änderungen am Tag selbst."
       },
       {
-        "question": "Was ist in Wuppertal organisatorisch wichtig?",
-        "answer": "In Wuppertal ist die konkrete Lage zwischen Elberfeld, Barmen, Vohwinkel, Cronenberg, Ronsdorf oder einer Höhenlage für Timing und Aufbau wichtiger als die reine Entfernung. Stufen, Aufzug, Haltemöglichkeit, Weg vom Parkplatz zum Raum und Wetterpuffer sollten nicht erst am Termin auffallen. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
+        "question": "Kannst du in der Trauerhalle und anschließend am Grab spielen?",
+        "answer": "Das kann nach Prüfung von Ablauf, Weg und Wetter vereinbart werden. Wir halten fest, wo Musik erklingt und wie viel Zeit der Wechsel braucht. Am Grab muss ein geeigneter geschützter Platz für das Instrument vorhanden sein."
       },
       {
         "question": "Was kann zusätzlich kosten?",
@@ -73,7 +73,7 @@
       "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     }
   ],
-  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Zugang, Hanglage und Wetterschutz als echte Wuppertaler Planungsfragen herausgearbeitet, Einstieg korrigiert und Grenzen ohne Verkaufssprache erklärt.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Zugang, Hanglage und Wetterschutz als echte Wuppertaler Planungsfragen herausgearbeitet, Einstieg korrigiert und Grenzen ohne Verkaufssprache erklärt.\nSEO-Ausbau 09.10.2026: Stückwahl, kurzfristige Machbarkeitsprüfung und Abstimmung zwischen Trauerhalle und Grabstelle konkretisiert.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik in Wuppertal anfragen",
@@ -105,33 +105,37 @@
     "quote": "Trauermusik in Wuppertal soll den Abschied halten, nicht größer machen als den Moment.",
     "passages": [
       {
-        "strong": "Ort und Ablauf",
-        "text": "Bei Trauerfeiern in Wuppertal sind Zugang, Wetter, Hanglage, Raumgröße und die Abstimmung mit Bestattungshaus oder Redner:in besonders wichtig. Trauerhalle, Kirche, Kapelle, Friedhof, Bestattungshaus oder freie Abschiedsfeier haben unterschiedliche Wege, Raumregeln und Startsignale. Darum kläre ich vorab, wo genau gespielt wird, wie lange der musikalische Moment dauern soll und wer am Tag selbst ansprechbar ist."
+        "strong": "Stücke und musikalische Momente",
+        "text": "Zum Beginn, nach einer Rede oder beim letzten Abschied kann ein einzelnes Stück Raum für die Erinnerung geben. Ihr müsst nicht schon eine fertige Auswahl haben. Nennt mir gern ein wichtiges Lied oder die gewünschte Stimmung; danach prüfen wir geeignete Musik für Solo-Viola."
       },
       {
-        "strong": "Entlastung",
-        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewünschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Wenn es hilft, stimme ich Einsätze, Ankunft und Stückfolge direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in ab, damit die Familie nicht zusätzlich koordinieren muss."
+        "strong": "Abstimmung mit dem Bestattungshaus",
+        "text": "Für den ersten Kontakt reichen Datum, Uhrzeit, genauer Trauerort in Wuppertal und die bisher bekannten Wünsche. Die weitere Absprache kann auf Wunsch direkt über Bestattungshaus, Trauerredner:in oder Gemeinde laufen. Dabei klären wir Stückfolge, Startsignale, Ankunft und die Länge der musikalischen Einsätze."
       },
       {
-        "strong": "Wunschstück und Preis",
-        "text": "Vorhandene passende Stücke sind ohne Aufpreis möglich. Wenn ein persönliches Wunschstück keine brauchbaren Noten hat, kläre ich neue Notation oder Heraushören vorher transparent; als Orientierung können etwa 30 Euro pro Song anfallen. Der Gesamtpreis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Abstimmung mit Bestattungshaus und Wunschmusik."
+        "strong": "Kurzfristige Anfrage und Preis",
+        "text": "Auch kurzfristig könnt ihr anfragen. Ich prüfe den Termin und sage, welche Musik in der verbleibenden Zeit vorbereitet werden kann. Der Preis richtet sich nach Spielzeit, Anfahrt, Vorbereitung und möglichen Wartezeiten oder Ortswechseln. Vorhandenes Repertoire ist ohne Aufpreis möglich; neuen Notations- oder Arrangementaufwand vereinbaren wir vorher."
       }
     ]
   },
   "solemn": {
     "eyebrow": "Ablauf in Wuppertal",
-    "title": "Trauermusik in Wuppertal mit ruhiger Abstimmung.",
-    "lead": "In Wuppertal gehören Steigungen, Stufen und der Weg zur Grabstelle zur Vorbereitung. Gerade bei Musik im Freien kläre ich deshalb Zugang, Wetter und einen geschützten Stand, bevor ich zusage.",
+    "title": "Trauerhalle und Grabstelle gemeinsam planen.",
+    "lead": "Wenn der Abschied an mehreren Stellen stattfindet, gehören die Wege und ein geschützter Platz für die Viola zur Vorbereitung. Das klären wir vorab mit der zuständigen Kontaktperson.",
     "cards": [
       {
-        "rom": "Vorab",
-        "title": "Ein klarer Kontakt reicht",
-        "poet": "Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewünschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf reichen für den ersten Schritt. Danach kläre ich, ob der Termin passt und welcher musikalische Umfang sinnvoll ist."
+        "rom": "In der Trauerhalle",
+        "title": "Einsätze nach dem Ablauf",
+        "poet": "Wir legen fest, wo die Viola stehen kann, wer das Zeichen zum Beginn gibt und wann für Rede oder gemeinsame Worte eine Musikpause bleibt.",
+        "linkLabel": "Stücke und Ablauf einer Trauerfeier",
+        "href": "/ratgeber/musik-zur-trauerfeier/"
       },
       {
-        "rom": "Vor Ort",
-        "title": "Still, pünktlich, vorbereitet",
-        "poet": "Stufen, Aufzug, Haltemöglichkeit, Weg vom Parkplatz zum Raum und Wetterpuffer sollten nicht erst am Termin auffallen. Bei Musik am Grab prüfe ich zusätzlich Wetter, Untergrund, kurze Wege und ob das Instrument geschützt stehen kann."
+        "rom": "Am Grab",
+        "title": "Wege und Wetter berücksichtigen",
+        "poet": "Für den Wechsel zur Grabstelle prüfen wir Weg, Zugang und Zeit. Draußen braucht das Instrument einen trockenen, geschützten Stand und einen stabilen Untergrund; bei ungeeignetem Wetter wird eine Alternative abgesprochen.",
+        "linkLabel": "Musik für den Abschied am Grab",
+        "href": "/beerdigungen/musik-am-grab/"
       }
     ],
     "listLabel": "Mögliche musikalische Momente in Wuppertal",

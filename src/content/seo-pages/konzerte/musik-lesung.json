@@ -8,120 +8,124 @@
   "priority": "P2",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Lesung | Solo-Viola",
-  "seoDescription": "Musik Lesung: kuratiertes Solo-Viola-Programm für Konzert, Kulturabend, Vernissage, Lesung oder Event.",
+  "seoTitle": "Musik für Lesungen & Literaturabende | Solo-Viola",
+  "seoDescription": "Musikalische Lesung mit Solo-Viola planen: Stücke zwischen Textblöcken, Auftakt und Ausklang abstimmen. Für Literaturabende, Buchpremieren und Kulturformate.",
   "hero": {
     "eyebrow": "Konzert & Kultur",
     "title": "Musik für Lesungen, die Text atmen lässt.",
-    "lead": "Bei Lesungen darf Musik den Text nicht kommentieren, sondern Übergänge und Atemräume schaffen. Ich plane Solo-Viola so, dass Programm, Raum, Publikum und Anlass zusammenpassen.",
+    "lead": "Ein Auftakt, ein Nachklang oder eine Pause zwischen Texten: Solo-Viola kann einer Lesung eigene musikalische Momente geben. Mit euch stimme ich ab, wie Text und Musik im Abend zusammenwirken.",
     "badge": "Kuratierte Programme mit Viola"
   },
   "split": {
     "seal": "Musik Lesung\nKultur\nViola",
     "sections": [
       {
-        "title": "Musik Lesung braucht eine eigene dramaturgische Aufgabe.",
-        "lede": "Für die Planung sind drei Fragen wichtig: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
+        "title": "Welche Rolle soll die Musik in der Lesung haben?",
+        "lede": "Eine musikalische Lesung kann Text und Musik abwechseln lassen oder einzelne Übergänge gestalten. Das Verhältnis wird vor der Stückauswahl geklärt.",
         "paragraphs": [
-          "Bei Lesungen darf Musik den Text nicht kommentieren, sondern Übergänge und Atemräume schaffen.",
-          "Ich plane kurze musikalische Inseln vor, zwischen oder nach Textblöcken.",
-          "Wichtig sind Textlänge, Anzahl der Leseblöcke, Mikrofon, Licht, Sitzordnung und gewünschte Stimmung.",
-          "Solo-Viola eignet sich für Lesungen, weil sie wenig Technik braucht und sehr fein auf Sprache reagieren kann.",
-          "Ein Lesungsprogramm nutzt Miniaturen, Pausen und Motive statt langer Konzertstücke.",
-          "Zuerst geht es um die Hörsituation. Sitzt das Publikum konzentriert, bewegt es sich durch eine Ausstellung, hört es einer Lesung zu oder entsteht der musikalische Moment zwischen Gesprächen?",
-          "Ein Konzertprogramm braucht nicht viele Stücke, sondern eine innere Richtung: ein Anfang, der den Raum öffnet, eine Mitte mit Tiefe und ein Schluss, der das Publikum nicht abrupt entlässt."
+          "Bei einer Buchpremiere kann ein kurzes Stück die Begrüßung eröffnen. Bei einem Literaturabend können mehrere Textblöcke mit musikalischen Zwischenstücken verbunden werden. Soll ein Motiv wiederkehren oder eine Stimmung aufgegriffen werden, planen wir dies gemeinsam.",
+          "Musik muss den Text weder durchgehend begleiten noch seine Aussage vorgeben. Wichtig ist die Absprache mit der lesenden Person: Welche Stellen brauchen Ruhe, welche einen Nachklang und wo beginnt ein eigenständiger musikalischer Abschnitt?"
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Live-Viola für Musik Lesung mit Kim Marie Borger und Viola"
         },
         "imageFirst": false,
-        "eyebrow": "Einordnung"
+        "eyebrow": "Text & Musik",
+        "ctas": [
+          {
+            "label": "Hörbeispiele der Viola",
+            "link": "/portfolio/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "title": "Musik Lesung im Ablauf sinnvoll einsetzen.",
-        "lede": "Kurze Anmoderationen können helfen, besonders wenn das Publikum nicht aus einem klassischen Konzertkontext kommt.",
+        "title": "Textlängen, Pausen und Startsignale festhalten.",
+        "lede": "Ein Ablauf mit ungefährer Länge der Leseblöcke hilft, die Musik sinnvoll zwischen den Texten zu platzieren.",
         "paragraphs": [
-          "Auch die Stille gehört zum Programm. Gerade bei Viola wirkt ein bewusst gesetzter Zwischenraum oft stärker als ein weiterer schneller Wechsel.",
-          "Ich wähle Stücke danach aus, ob sie solistisch auf der Viola tragen und zum Format passen. Ein Werk, das im Konzertsaal stark ist, kann bei einer Vernissage zu groß wirken; eine Miniatur kann dagegen genau richtig sein.",
-          "Auch Moderation wird bewusst entschieden. Manchmal braucht das Publikum einen kurzen Einstieg in das Instrument oder den Komponisten, manchmal soll Musik ohne Erklärung zwischen zwei Texten stehen.",
-          "Die Dauer folgt nicht einer Standardliste. Ein konzentrierter Block von dreißig Minuten kann stärker sein als ein langer Abend, wenn das Format eigentlich auf Begegnung oder Kunstbetrachtung zielt.",
-          "Bei längeren Programmen plane ich Kontraste: warme Linie, rhythmischer Impuls, Stille, ein bekanntes Stück und ein überraschender Schluss."
+          "Nennt mir Textabschnitte, geplante Gesprächsrunden und die Gesamtdauer. Wir legen fest, wann die lesende Person endet, ob ein kurzer stiller Abstand bleibt und wer den Musikeinsatz signalisiert.",
+          "Kurze Anmoderationen zu Instrument oder Stück sind auf Wunsch möglich. Bei einer bereits moderierten Lesung stimmen wir sie mit der Veranstaltungsleitung ab. So bleiben Einführungen, Text und Musik zeitlich überschaubar."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Live-Viola für Musik Lesung mit Kim Marie Borger und Viola"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "eyebrow": "Ablauf & Einsätze"
       },
       {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Für eine Anfrage reichen Datum, Ort, Publikum, Anlass, gewünschte Länge und die Frage, ob Musik im Mittelpunkt steht oder einen anderen Inhalt rahmt.",
+        "title": "Sprache verständlich halten, Musik gut hörbar machen.",
+        "lede": "Für die Hörsituation zählen Sitzordnung, Raumgröße, Gästezahl und vorhandene Mikrofone.",
         "paragraphs": [
-          "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt.",
-          "Bei Konzertformaten steht das Zuhören stärker im Mittelpunkt als bei Begleitmusik. Das Format braucht deshalb ein Programm, einen dramaturgischen Bogen, passende Moderation und ein klares Verhältnis zum Raum.",
-          "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, kammermusikalisch, moderiert, begleitend oder konzentriert wirken soll."
+          "Wir besprechen, wo die lesende Person sitzt oder steht und wo die Viola spielen kann. Gute Sicht und Licht helfen bei Einsätzen; Eingänge und Laufwege bleiben frei. Ein Sprachmikrofon ersetzt nicht automatisch eine geeignete Verstärkung für das Instrument.",
+          "In einem ruhigen kleinen Raum kann akustische Viola ausreichen. Bei größeren Räumen prüfen wir die Technik gemeinsam. Gleichzeitiges Lesen und Spielen braucht eine eigene Abstimmung und wird nicht ohne Vorbereitung vorausgesetzt."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Live-Viola für Musik Lesung mit Kim Marie Borger und Viola"
         },
-        "imageFirst": false
+        "imageFirst": false,
+        "eyebrow": "Buchhandlung & Kulturraum",
+        "ctas": [
+          {
+            "label": "Musik für eine Ausstellungseröffnung",
+            "link": "/konzerte/musik-vernissage/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Entscheidend sind Anlass, Publikum, Programmlänge, Raum und die gewünschte Nähe zwischen Musik und Gästen.",
+        "title": "Das Programm am Text und am Zeitrahmen ausrichten.",
+        "lede": "Für eine erste Anfrage helfen Thema, Datum, Ort, Publikum, Textlängen und gewünschte Musikzeiten.",
         "paragraphs": [
-          "Eine gute Anfrage nennt Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich schnell unterscheiden, ob ein kurzer Programmpunkt, ein moderiertes Set, ein Programm mit Pause oder ein abendfüllendes Konzert passend ist."
+          "Ich prüfe, welche Stücke solistisch auf der Viola zum Format passen. Für persönliche Wunschmusik klären wir Eignung, Noten und Vorbereitungsaufwand vorab. Das kann ein einzelnes Stück oder mehrere abgestimmte musikalische Abschnitte sein.",
+          "Ein Angebot berücksichtigt Spielzeit, Vorbereitung, Anfahrt sowie mögliche Wartezeiten. Die erste Anfrage ist unverbindlich und kostenlos. Soll eine weitere musikalische Besetzung mitwirken, muss deren Verfügbarkeit zuerst geklärt werden."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Live-Viola für Musik Lesung mit Kim Marie Borger und Viola"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "eyebrow": "Stücke & Angebot",
+        "ctas": [
+          {
+            "label": "Konzertformate mit Viola",
+            "link": "/konzerte/",
+            "style": "link-line"
+          }
+        ]
       }
     ]
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Musik Lesung",
+    "title": "Fragen zur musikalischen Lesung",
     "items": [
       {
-        "question": "Für wen passt diese musikalische Begleitung?",
-        "answer": "Diese musikalische Begleitung passt für Autorinnen, Veranstalter, Buchhandlungen, Kulturorte und private Gastgeber mit Lesungsformat. Entscheidend ist, ob Musik zuhören lässt, rahmt oder einen Übergang gestaltet.",
+        "question": "Für welche Lesungsformate passt Solo-Viola?",
+        "answer": "Solo-Viola kann Buchpremieren, Literaturabende und andere Lesungsformate begleiten. Wir planen die Einsätze passend zu Textblöcken, Gespräch und Gesamtdauer.",
         "open": true
       },
       {
-        "question": "Ist das eher Konzert oder Begleitung?",
-        "answer": "Beides ist möglich. Der Unterschied liegt im Fokus: Beim Konzert hört das Publikum bewusst zu, bei Begleitung rahmt die Musik andere Inhalte."
+        "question": "Spielst du auch während des gesprochenen Textes?",
+        "answer": "Das wird gesondert vereinbart. Häufig wechseln sich Text und Musik ab. Für ein gleichzeitiges Format müssen Lautstärke, Einsätze und die Verständlichkeit der Sprache vorab abgestimmt werden."
       },
       {
-        "question": "Brauchst du Technik?",
-        "answer": "In vielen Räumen reicht akustische Viola mit gutem Licht. Bei größeren Räumen oder offenen Flächen bespreche ich dezente Verstärkung."
+        "question": "Muss der Text vorab vorliegen?",
+        "answer": "Thema, ungefährer Ablauf und Länge der Textblöcke helfen bei der Planung. Für genauer auf den Text bezogene Musik besprechen wir, welche Ausschnitte ich für die Vorbereitung brauche."
       },
       {
-        "question": "Wie wird das Programm geplant?",
-        "answer": "Wichtig sind Textlänge, Anzahl der Leseblöcke, Mikrofon, Licht, Sitzordnung und gewünschte Stimmung. Danach entsteht ein Programm mit Anfang, Kontrast, möglicher Pause und passendem Schluss."
+        "question": "Sind Wunschstücke und kurze Anmoderationen möglich?",
+        "answer": "Ja, nach Abstimmung. Ich prüfe Wunschstücke auf Eignung für Solo-Viola und Vorbereitung. Kurze Anmoderationen zum Instrument oder Programm können mit der lesenden Person und Moderation vereinbart werden."
       },
       {
-        "question": "Kannst du moderieren?",
-        "answer": "Ja. Kurze, persönliche Einordnungen zu Stücken oder zum Instrument machen ein Konzert oft nahbarer."
+        "question": "Braucht eine musikalische Lesung besondere Technik?",
+        "answer": "In einem ruhigen kleinen Raum kann die Viola akustisch spielen. Raum, Gästezahl, Sitzordnung und Sprachmikrofone werden vorab besprochen; bei Bedarf prüfen wir Verstärkung für das Instrument."
       },
       {
-        "question": "Ist Solo-Viola auch für kleine Räume geeignet?",
-        "answer": "Ja. Gerade in kleinen Räumen trägt die Viola sehr direkt und braucht meist keine große Technik."
-      },
-      {
-        "question": "Welche Angaben brauchst du für Musik Lesung?",
-        "answer": "Datum, Ort, Raum, Publikum, gewünschte Dauer, Anlass, Ablauf und vorhandene Wunschstücke reichen für eine erste Einschätzung."
-      },
-      {
-        "question": "Wann passt Musik Lesung besonders gut?",
-        "answer": "Diese musikalische Begleitung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich klären, ob ein kurzer Programmpunkt, ein moderiertes Set, ein Programm mit Pause oder ein abendfüllendes Konzert passend ist."
+        "question": "Wie lang sind die musikalischen Abschnitte?",
+        "answer": "Die Länge folgt dem Textablauf. Kurze Zwischenstücke und ein musikalischer Auftakt sind ebenso denkbar wie ein längerer eigener Block. Die Gesamtspielzeit steht vor der Buchung fest."
       }
     ]
   },
@@ -131,48 +135,45 @@
       "alt": "Live-Viola für Musik Lesung mit Kim Marie Borger und Viola"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\nSEO-Ausbau 09.10.2026: Ablauf, Sprache, Raum und Anfrage konkretisiert; bisheriger Prüfstatus bleibt erhalten.",
   "contact": {
     "eyebrow": "Programm anfragen",
-    "title": "Musik Lesung anfragen",
-    "lead": "Schick mir Datum, Ort, Publikum und gewünschte Länge für Musik Lesung. Ich melde mich mit einer passenden Programmidee für Solo-Viola.",
+    "title": "Musik für eure Lesung anfragen",
+    "lead": "Schickt mir Datum, Ort, Thema, Gästezahl und die geplante Reihenfolge der Textblöcke. Wir besprechen Spielzeiten, Stücke und das Zusammenspiel mit der lesenden Person.",
     "checklist": [
-      "Musik Lesung",
-      "Lesung, Literaturabend, Buchpremiere, Gespräch, Vernissage mit Text oder Salonabend",
-      "Dauer, Raum & Publikum"
+      "Datum & Kulturort",
+      "Thema & Textblöcke",
+      "Musikzeiten",
+      "Raum & Mikrofone"
     ],
     "formEyebrow": "Direkt anfragen",
-    "formTitle": "Passt Musik Lesung zu deinem Format?",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Lesung."
+    "formTitle": "Termin und musikalischen Rahmen klären",
+    "formSuccess": "Danke — ich prüfe eure Anfrage und melde mich persönlich."
   },
   "focus": {
     "eyebrow": "Programmidee",
-    "title": "Ein möglicher Aufbau für Musik Lesung.",
+    "title": "Text und Musik abwechselnd planen.",
     "heading": "Programm",
-    "subtitle": "Musik Lesung",
+    "subtitle": "Musikalische Lesung",
     "items": [
       {
-        "title": "Eröffnung",
-        "detail": "Ein Stück, das den Raum sammelt und die Klangfarbe der Viola vorstellt"
+        "title": "Auftakt",
+        "detail": "Ein musikalischer Einstieg vor Begrüßung oder erstem Text"
       },
       {
-        "title": "Kontext",
-        "detail": "Kurze Moderation oder thematische Brücke für Lesung, Literaturabend, Buchpremiere, Gespräch, Vernissage mit Text oder Salonabend"
+        "title": "Erster Textblock",
+        "detail": "Musikpause für die Lesung"
       },
       {
-        "title": "Kernstück",
-        "detail": "Ein Lesungsprogramm nutzt Miniaturen, Pausen und Motive statt langer Konzertstücke."
+        "title": "Zwischenstück",
+        "detail": "Abgestimmter Einsatz nach dem Text, mit klarer Länge"
       },
       {
-        "title": "Kontrast",
-        "detail": "Moderne Farbe, Tanzimpuls oder persönliche Bearbeitung"
-      },
-      {
-        "title": "Schluss",
-        "detail": "Ruhiger Ausklang oder Zugabe mit offenem Gesprächscharakter"
+        "title": "Gespräch & Schluss",
+        "detail": "Pause für Fragen und ein vereinbarter musikalischer Ausklang"
       }
     ],
-    "footnote": "Musik Lesung wird je nach Anlass als Konzert, Rahmung oder kuratierter Programmpunkt geplant."
+    "footnote": "Dieser Ablauf dient als Planungsbeispiel. Spielzeiten, Stücke und Einsätze werden für eure Veranstaltung vereinbart."
   },
   "elegy": {
     "passages": []

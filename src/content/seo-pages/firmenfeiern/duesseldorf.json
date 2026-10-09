@@ -9,11 +9,11 @@
   "status": "manual-human-editorial-final-2026-07-29",
   "enabled": true,
   "seoTitle": "Live Musik Firmenevent Düsseldorf | Viola fürs Event",
-  "seoDescription": "Live Musik Firmenevent Düsseldorf: Solo-Viola für Empfang, Dinner und Business-Event in Düsseldorf. Ablauf, Wunschmusik und Preis transparent klären.",
+  "seoDescription": "Solo-Viola für Firmenevents in Düsseldorf: Empfang, Dinner, Jubiläum und Weihnachtsfeier. Musikzeiten, Reden, Raum und Wunschstücke persönlich abstimmen.",
   "hero": {
     "eyebrow": "Live Musik Firmenevent in Düsseldorf",
     "title": "Live-Musik für Firmenevents in Düsseldorf, die Gespräche zulässt.",
-    "lead": "Solo-Viola für Empfang, Dinner, Jubiläum oder Messe. Wir stimmen Lautstärke, Spielzeiten und Übergänge so ab, dass Musik Atmosphäre schafft, ohne Reden oder Gespräche zu überlagern.",
+    "lead": "Solo-Viola für Empfang, Dinner, Jubiläum, Messe oder Firmenweihnachtsfeier. Wir stimmen Lautstärke, Spielzeiten und Übergänge so ab, dass Musik Atmosphäre schafft und Reden ihren eigenen Raum behalten.",
     "badge": "Anfrage kostenlos - Preis nach Rahmen"
   },
   "split": {
@@ -34,19 +34,31 @@
         "imageFirst": false
       },
       {
-        "eyebrow": "Ablauf",
-        "title": "Empfang, Dinner oder Programmpunkt in Düsseldorf.",
-        "lede": "Ein sinnvoller Ablauf entsteht aus der Aufgabe der Musik: ob Musik dezente Atmosphäre schaffen oder einen offiziellen Programmpunkt rahmen soll.",
+        "eyebrow": "Weihnachtsfeier & Dinner",
+        "title": "Musik für eure Firmenweihnachtsfeier in Düsseldorf.",
+        "lede": "Bei einer Weihnachtsfeier liegen Empfang, Jahresrückblick, Ehrungen und Essen oft dicht beieinander. Vereinbarte Musikzeiten helfen, diese Teile zu verbinden.",
         "paragraphs": [
-          "Mögliche Einsatzpunkte sind Ankommen der Gäste, Networking, Dinner, Rede-Pausen, Ehrung und ein kurzer Programmpunkt. Ich plane lieber klar begrenzte Musikfenster als ein Dauerprogramm, das Reden, Empfang oder Networking überlagert.",
-          "Vorab klären wir, ob Repertoire, Wunschstücke, Reden, Technik, Catering, Empfang oder Veranstaltungsleitung miteinander abgestimmt werden müssen.",
-          "Bei Empfang und Dinner lege ich die Spielphasen um Begrüßung, Reden und Service herum. So entsteht Atmosphäre, ohne dass Musik und Programmpunkte gegeneinander arbeiten."
+          "Zum Empfang kann die Viola das Ankommen begleiten; für Begrüßung, Jahresrückblick und Ehrungen planen wir Musikpausen. Beim Dinner klären wir die Spielphasen mit dem Service und benennen eine Person, die Änderungen weitergibt.",
+          "Ob ihr ein weihnachtliches Programm, vertraute Melodien oder eine Auswahl ohne saisonalen Schwerpunkt möchtet, besprechen wir vorab. Wunschstücke werden auf Eignung für Solo-Viola und Vorbereitungsaufwand geprüft.",
+          "Für die Terminprüfung helfen das genaue Datum und ein realistisches Zeitfenster. Auch Wartezeiten zwischen Empfang und Essen oder ein Raumwechsel gehören ins Angebot. Die Verfügbarkeit wird für eure Anfrage geprüft."
         ],
         "image": {
           "src": "/uploads/_DSC7402.webp",
           "alt": "Live Musik für Firmenevents in Düsseldorf - Ablauf und Einsätze"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "ctas": [
+          {
+            "label": "Musikablauf für Firmenevents planen",
+            "link": "/ratgeber/musik-firmenevent-ablauf/",
+            "style": "link-line"
+          },
+          {
+            "label": "Hörproben vor der Anfrage",
+            "link": "/portfolio/",
+            "style": "link-line"
+          }
+        ]
       },
       {
         "eyebrow": "Eventformat: passend oder nicht?",
@@ -82,11 +94,11 @@
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Live Musik Firmenevent Düsseldorf",
+    "title": "Fragen zur Firmenmusik in Düsseldorf",
     "items": [
       {
-        "question": "Spielst du Live Musik für Firmenevents in Düsseldorf?",
-        "answer": "Ja. Ich begleite Empfang, Dinner, Jubiläum, Messe, Eröffnung oder Kundenevent in Düsseldorf mit Solo-Viola, wenn Ort, Ablauf und musikalische Aufgabe passen.",
+        "question": "Spielst du auch bei Firmenweihnachtsfeiern in Düsseldorf?",
+        "answer": "Ja. Solo-Viola kann Empfang, Dinner und einzelne Programmpunkte einer Firmenweihnachtsfeier begleiten. Wir stimmen Spielzeiten, Musikpausen für Reden und gewünschte Stücke ab; die Terminverfügbarkeit wird individuell geprüft.",
         "open": true
       },
       {
@@ -110,8 +122,8 @@
         "answer": "Für einen lauten Showact, Partyband-Sound oder stundenlange Dauerbeschallung ist Solo-Viola nicht gedacht. In diesem Fall sind Band, DJ oder ein anderes technisches Setup die bessere Wahl."
       },
       {
-        "question": "Was ist in Düsseldorf organisatorisch wichtig?",
-        "answer": "In Düsseldorf macht es einen großen Unterschied, ob ein Termin innenstadtnah, am Rhein, linksrheinisch, in Benrath oder in einem Stadtteil weiter außerhalb liegt. Halte- oder Parkmöglichkeit, genauer Eingang, Etage, Raum, Aufzug und Kontaktperson sollten vorab klar sein. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
+        "question": "Muss das Programm ausschließlich weihnachtlich sein?",
+        "answer": "Nein. Wir besprechen, ob weihnachtliche Stücke, vertraute Melodien oder ein Programm ohne saisonalen Schwerpunkt passen. Persönliche Wunschstücke prüfe ich auf Spielbarkeit und Vorbereitungsaufwand."
       },
       {
         "question": "Was kann zusätzlich kosten?",
@@ -137,10 +149,10 @@
       "alt": "Kim Marie Borger spielt Viola am See"
     }
   ],
-  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Düsseldorfer Business-Intent auf Gesprächslautstärke, Reden, Catering und Technik fokussiert; austauschbare Orts- und SEO-Formeln entfernt.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Düsseldorfer Business-Intent auf Gesprächslautstärke, Reden, Catering und Technik fokussiert; austauschbare Orts- und SEO-Formeln entfernt.\nSEO-Ausbau 09.10.2026: verifiziertes Angebot für Firmenweihnachtsfeiern ergänzt, mit Ablaufplanung verlinkt.",
   "contact": {
     "eyebrow": "Firmenevent anfragen",
-    "title": "Live Musik Firmenevent in Düsseldorf anfragen",
+    "title": "Firmenmusik in Düsseldorf anfragen",
     "lead": "Schreib mir kurz Datum, genaue Adresse, Zeitfenster, Raumgröße, Gästezahl, Programmpunkte, Rechnungsadresse und Kontaktperson vor Ort. Danach klären wir, ob Solo-Viola, Zeitfenster und Lautstärke wirklich zum Event passen, wie der Ablauf aussehen kann und welcher Preisrahmen realistisch ist.",
     "checklist": [
       "Düsseldorf",
