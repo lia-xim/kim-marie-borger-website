@@ -4,6 +4,10 @@ export const testimonialsBlockSchema: Template = {
 	name: 'testimonials',
 	label: 'Kundenstimmen (mehrere)',
 	fields: [
+		{ type: 'string', name: 'appearance', label: 'Darstellung', options: [{ label: 'Klassische Kundenstimmen', value: 'classic' }, { label: 'Google-Rezensionssektion', value: 'google' }] },
+		{ type: 'number', name: 'googleRating', label: 'Google: Gesamtbewertung (1–5)', description: 'Angezeigter Wert des echten Google-Profils; nur für die Google-Darstellung.' },
+		{ type: 'number', name: 'googleReviewCount', label: 'Google: Anzahl der Rezensionen', description: 'Gesamtzahl im Google-Profil, nicht die Anzahl ausgewählter Karten.' },
+		{ type: 'string', name: 'googleCheckedOn', label: 'Google: Bewertungsstand (JJJJ-MM-TT)', description: 'Datum, an dem Gesamtbewertung und Anzahl geprüft wurden.' },
 		{ type: 'string', name: 'eyebrow', label: 'Kleine Überzeile' },
 		{ type: 'string', name: 'title', label: 'Überschrift' },
 		{ type: 'string', name: 'lead', label: 'Einleitung (optional)', ui: { component: 'textarea' } },

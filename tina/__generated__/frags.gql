@@ -148,6 +148,10 @@ fragment PageParts on Page {
       attribution
     }
     ... on PageBlocksTestimonials {
+      appearance
+      googleRating
+      googleReviewCount
+      googleCheckedOn
       eyebrow
       title
       lead

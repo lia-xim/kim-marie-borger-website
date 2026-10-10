@@ -1,6 +1,7 @@
 ---
 import { tinaFieldFrom } from '../../lib/tina-fields';
 import { normalizeHref } from '../../lib/url';
+import GoogleReviews from './GoogleReviews.astro';
 
 const { data } = Astro.props;
 
@@ -29,7 +30,9 @@ function meta(v: Voice): string {
 	return [v.occasion, v.place, displayYear(v.date)].filter((x) => typeof x === 'string' && x.trim() !== '').join(' · ');
 }
 ---
-{voices.length > 0 && (
+{voices.length > 0 && (data?.appearance === 'google' ? (
+	<GoogleReviews data={data} voices={voices} />
+) : (
 	<section class={`section testimonials${bgClass}`} id={data?.anchorId || undefined}>
 		<div class="wrap">
 			<div class="testimonials-head reveal">
@@ -62,4 +65,4 @@ function meta(v: Voice): string {
 			)}
 		</div>
 	</section>
-)}
+))}

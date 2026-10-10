@@ -1,0 +1,98 @@
+---
+import GoogleMark from './GoogleMark.astro';
+import { tinaFieldFrom } from '../../lib/tina-fields';
+import { normalizeHref } from '../../lib/url';
+
+const { data, voices } = Astro.props;
+const googleVoices = voices.filter((voice: { source?: string | null }) => voice.source === 'Google');
+const rating = typeof data.googleRating === 'number' && data.googleRating >= 1 && data.googleRating <= 5 ? data.googleRating : null;
+const count = Number.isInteger(data.googleReviewCount) && data.googleReviewCount > 0 ? data.googleReviewCount : null;
+const checked = typeof data.googleCheckedOn === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(data.googleCheckedOn)
+	? data.googleCheckedOn.split('-').reverse().join('.') : '';
+const bgClass = data?.bg && data.bg !== 'none' ? ` bg-${data.bg}` : '';
+const profileHref = normalizeHref(data.ctaHref, '/kundenstimmen/');
+const external = /^https?:/i.test(profileHref);
+const avatarColors = ['teal', 'blue', 'rose'];
+function hasRating(value: unknown): value is number {
+	return typeof value === 'number' && value >= 1 && value <= 5;
+}
+function initials(author: string): string {
+	return author.trim().split(/\s+/).filter((word) => /[\p{L}\p{N}]/u.test(word)).slice(0, 2).map((word) => word.replace(/[^\p{L}\p{N}]/gu, '').charAt(0)).join('').toUpperCase();
+}
+---
+{googleVoices.length > 0 && (
+	<section class={`section google-reviews${bgClass}`} id="google-rezensionen" aria-labelledby="google-reviews-heading">
+		<div class="wrap">
+			<div class="google-reviews-intro reveal">
+				<p class="eyebrow c" data-tina-field={tinaFieldFrom(data, 'eyebrow')}>{data.eyebrow}</p>
+				<h2 class="display-m" id="google-reviews-heading" data-tina-field={tinaFieldFrom(data, 'title')}>{data.title}</h2>
+				{data.lead && <p class="lead" data-tina-field={tinaFieldFrom(data, 'lead')}>{data.lead}</p>}
+			</div>
+			<div class="google-reviews-panel reveal d1">
+				<div class="google-reviews-summary">
+					<div class="google-reviews-profile">
+						<div class="google-reviews-source"><GoogleMark /><span>Google-Rezensionen</span></div>
+						{rating !== null && count !== null && (
+							<div class="google-reviews-rating">
+								<strong data-tina-field={tinaFieldFrom(data, 'googleRating')}>{rating.toLocaleString('de-DE', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}</strong>
+								<div>
+									<span class="google-review-stars" role="img" aria-label={`${rating} von 5 Sternen`}><span aria-hidden="true">★★★★★</span><span class="google-review-stars-fill" style={`width:${rating / 5 * 100}%`} aria-hidden="true">★★★★★</span></span>
+									<p><span data-tina-field={tinaFieldFrom(data, 'googleReviewCount')}>{count}</span> Rezensionen auf Google</p>
+								</div>
+							</div>
+						)}
+					</div>
+					{data.ctaLabel && <a class="google-reviews-button" href={profileHref} target={external ? '_blank' : undefined} rel={external ? 'noopener' : undefined} data-track-label="google-reviews-home" data-tina-field={tinaFieldFrom(data, 'ctaLabel')}>{data.ctaLabel}<span aria-hidden="true">↗</span></a>}
+				</div>
+				<div class="google-review-grid">
+					{googleVoices.map((voice: any, index: number) => (
+						<figure class="google-review-card" data-tina-field={tinaFieldFrom(voice)}>
+							<figcaption class="google-review-person">
+								<span class={`google-review-avatar ${avatarColors[index % avatarColors.length]}`} aria-hidden="true">{initials(voice.author)}</span>
+								<div><span class="google-review-author" data-tina-field={tinaFieldFrom(voice, 'author')}>{voice.author}</span><span class="google-review-source" data-tina-field={tinaFieldFrom(voice, 'source')}>Google-Rezension</span></div>
+								<GoogleMark />
+							</figcaption>
+							{hasRating(voice.rating) && <span class="google-review-stars" role="img" aria-label={`${voice.rating} von 5 Sternen`} data-tina-field={tinaFieldFrom(voice, 'rating')}><span aria-hidden="true">★★★★★</span><span class="google-review-stars-fill" style={`width:${voice.rating / 5 * 100}%`} aria-hidden="true">★★★★★</span></span>}
+							<blockquote data-tina-field={tinaFieldFrom(voice, 'text')}>{voice.text}</blockquote>
+							{voice.occasion && <p class="google-review-occasion" data-tina-field={tinaFieldFrom(voice, 'occasion')}>{voice.occasion}</p>}
+						</figure>
+					))}
+				</div>
+				<p class="google-reviews-note">Ausgewählte Auszüge{checked && <> · Bewertungsstand <span data-tina-field={tinaFieldFrom(data, 'googleCheckedOn')}>{checked}</span></>}. Die vollständigen Rezensionen findet ihr im Google-Profil.</p>
+			</div>
+		</div>
+	</section>
+)}
+
+<style>
+	.google-reviews-intro { max-width: 64ch; margin: 0 auto clamp(32px, 4vw, 48px); text-align: center; }
+	.google-reviews-intro h2 { margin-top: 14px; }
+	.google-reviews-intro .lead { margin-top: 16px; }
+	.google-reviews-panel { color: #202124; background: #fff; border: 1px solid #e4e7eb; border-radius: 20px; padding: clamp(20px, 3vw, 36px); box-shadow: 0 6px 28px rgb(39 32 24 / 5%); }
+	.google-reviews-summary { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+	.google-reviews-source { display: flex; align-items: center; gap: 10px; font-size: 1.125rem; font-weight: 600; letter-spacing: -.02em; }
+	.google-reviews-rating { display: flex; align-items: center; gap: 16px; margin-top: 16px; }
+	.google-reviews-rating strong { font-size: 2.5rem; font-weight: 600; line-height: 1; letter-spacing: -.06em; }
+	.google-reviews-rating p { margin: 3px 0 0; font-size: .8125rem; color: #5f6368; }
+	.google-review-stars { display: inline-block; position: relative; width: max-content; line-height: 1.25; font-family: Arial, sans-serif; font-size: 1.125rem; letter-spacing: 2px; color: #dadce0; }
+	.google-review-stars-fill { position: absolute; top: 0; left: 0; overflow: hidden; white-space: nowrap; color: #fbbc04; }
+	.google-reviews-button { display: inline-flex; align-items: center; justify-content: center; gap: 14px; min-height: 46px; padding: 12px 22px; background: #1a73e8; border: 1px solid #1a73e8; border-radius: 999px; color: #fff; font-size: .875rem; font-weight: 600; text-decoration: none; }
+	.google-reviews-button:hover { background: #1558b6; border-color: #1558b6; }
+	.google-reviews-button:focus-visible { outline: 3px solid #1a73e8; outline-offset: 4px; }
+	.google-review-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+	.google-review-card { margin: 0; padding: 24px; border: 1px solid #e4e7eb; border-radius: 12px; background: #fff; display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
+	.google-review-person { display: flex; align-items: center; gap: 10px; width: 100%; }
+	.google-review-person > div { min-width: 0; flex: 1; }
+	.google-review-person :global(svg) { flex: 0 0 20px; width: 20px; height: 20px; }
+	.google-review-avatar { display: grid; place-items: center; flex: 0 0 40px; width: 40px; height: 40px; border-radius: 50%; color: white; font-size: .875rem; font-weight: 600; letter-spacing: .02em; }
+	.google-review-avatar.teal { background: #26766d; }
+	.google-review-avatar.blue { background: #456db3; }
+	.google-review-avatar.rose { background: #a15770; }
+	.google-review-author { display: block; font-size: .875rem; font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
+	.google-review-source { display: block; margin-top: 2px; font-size: .6875rem; line-height: 1.4; color: #5f6368; }
+	.google-review-card blockquote { margin: 0; font-family: inherit; font-style: normal; font-size: .9375rem; line-height: 1.7; color: #3c4043; }
+	.google-review-occasion { margin: auto 0 0; padding-top: 4px; font-size: .75rem; color: #5f6368; }
+	.google-reviews-note { margin: 20px 0 0; font-size: .75rem; line-height: 1.7; color: #5f6368; }
+	@media (max-width: 1000px) { .google-review-grid { grid-template-columns: 1fr; } .google-review-card { padding: 22px; } }
+	@media (max-width: 640px) { .google-reviews-summary { align-items: flex-start; flex-direction: column; gap: 20px; } .google-reviews-button { width: 100%; padding-inline: 16px; } .google-reviews-panel { border-radius: 16px; } }
+</style>

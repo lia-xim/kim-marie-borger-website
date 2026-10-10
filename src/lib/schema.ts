@@ -338,10 +338,12 @@ export function collectTestimonialVoices(blocks: unknown): TestimonialVoice[] {
 	if (!Array.isArray(blocks)) return [];
 	const out: TestimonialVoice[] = [];
 	for (const block of blocks) {
-		const b = block as { __typename?: string; _template?: string; voices?: unknown } | null;
+		const b = block as { __typename?: string; _template?: string; appearance?: string | null; voices?: unknown } | null;
 		if (!b) continue;
 		const isTestimonials = b.__typename === 'PageBlocksTestimonials' || b._template === 'testimonials';
-		if (isTestimonials && Array.isArray(b.voices)) out.push(...(b.voices as TestimonialVoice[]));
+		// A curated Google excerpt section displays the full profile's rating separately.
+		// Its selected cards must not become a new aggregate calculated from this subset.
+		if (isTestimonials && b.appearance !== 'google' && Array.isArray(b.voices)) out.push(...(b.voices as TestimonialVoice[]));
 	}
 	return out;
 }

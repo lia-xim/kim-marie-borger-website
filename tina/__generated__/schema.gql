@@ -267,6 +267,10 @@ type PageBlocksTestimonialsVoices {
 }
 
 type PageBlocksTestimonials {
+  appearance: String
+  googleRating: Float
+  googleReviewCount: Float
+  googleCheckedOn: String
   eyebrow: String
   title: String
   lead: String
@@ -746,6 +750,10 @@ input PageBlocksTestimonialsVoicesFilter {
 }
 
 input PageBlocksTestimonialsFilter {
+  appearance: StringFilter
+  googleRating: NumberFilter
+  googleReviewCount: NumberFilter
+  googleCheckedOn: StringFilter
   eyebrow: StringFilter
   title: StringFilter
   lead: StringFilter
@@ -1659,6 +1667,10 @@ input PageBlocksTestimonialsVoicesMutation {
 }
 
 input PageBlocksTestimonialsMutation {
+  appearance: String
+  googleRating: Float
+  googleReviewCount: Float
+  googleCheckedOn: String
   eyebrow: String
   title: String
   lead: String
