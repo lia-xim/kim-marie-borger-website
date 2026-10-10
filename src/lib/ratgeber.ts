@@ -25,8 +25,8 @@ export interface RatgeberPage {
 	seoTitle: string;
 	seoDescription: string;
 	intent: string;
-	cluster: 'Hochzeit' | 'Trauerfeier' | 'Unterricht' | 'Geburtstag' | 'Firmenevent';
-	serviceSlug: 'hochzeiten' | 'beerdigungen' | 'unterricht' | 'geburtstage' | 'firmenfeiern';
+	cluster: 'Hochzeit' | 'Trauerfeier' | 'Unterricht' | 'Geburtstag' | 'Firmenevent' | 'Taufe';
+	serviceSlug: 'hochzeiten' | 'beerdigungen' | 'unterricht' | 'geburtstage' | 'firmenfeiern' | 'taufen';
 	heroImage: string;
 	heroImageAlt: string;
 	kicker: string;
@@ -89,6 +89,7 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 			},
 		],
 		internalLinks: [
+			{ label: 'Hochzeitsmusik im Freien: Wetter und Standort planen', href: '/ratgeber/hochzeitsmusik-im-freien/' },
 			{ label: 'Hochzeitsmusik buchen', href: '/hochzeiten/', note: 'Leistungsseite mit Anfrage' },
 			{ label: 'Musik zur Trauung', href: '/hochzeiten/musik-zur-trauung/', note: 'passende Themenseite' },
 			{ label: 'Musik zur freien Trauung', href: '/hochzeiten/musik-freie-trauung/' },
@@ -970,6 +971,244 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 		}
 	]
 },
+{
+	"slug": "hochzeitsmusik-im-freien",
+	"title": "Hochzeitsmusik im Freien planen",
+	"shortTitle": "Hochzeitsmusik im Freien",
+	"seoTitle": "Hochzeitsmusik im Freien: Wetter, Klang & Plan B",
+	"seoDescription": "Live-Musik für eine Hochzeit im Garten oder auf der Terrasse planen: geschützter Standort, Hörsituation, Ersatzraum und Wechsel zum Sektempfang.",
+	"intent": "Standort, Hörsituation und Wetteralternative für eine Trauung oder einen Empfang im Freien abstimmen.",
+	"cluster": "Hochzeit",
+	"serviceSlug": "hochzeiten",
+	"heroImage": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
+	"heroImageAlt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht",
+	"kicker": "Draußen heiraten",
+	"lead": "Eine Trauung im Garten oder ein Empfang auf der Terrasse braucht auch für die Musik einen vorbereiteten Platz. Neben den Stücken klärt ihr Standort, Hörsituation und eine Alternative für ungeeignetes Wetter.",
+	"summary": "Eine Planungshilfe für Live-Musik draußen: geschützter Standort, Gäste, Ersatzraum und Wechsel zwischen Trauung und Empfang.",
+	"keyPoints": [
+		"Ein trockener, schattiger und stabiler Platz gehört zur Vorbereitung.",
+		"Die Hörsituation wird mit Gästezahl, Sitzordnung und Umgebung eingeschätzt.",
+		"Ein Ersatzraum und die Entscheidung über einen Wechsel stehen vor dem Hochzeitstag fest."
+	],
+	"sections": [
+		{
+			"title": "1. Den Platz für die Viola konkret abstimmen",
+			"body": [
+				"Beschreibt den vorgesehenen Standort oder schickt ein Foto der Fläche. Für Solo-Viola braucht es einen trockenen, schattigen und geschützten Standort auf stabilem Untergrund. Gemeinsam mit der Location wird geklärt, ob der Platz für den vereinbarten Auftritt geeignet ist.",
+				"Die Musikerin sollte das Startsignal erkennen können, während Zugänge und der Einzugsweg frei bleiben. Plant auch einen geschützten Ort für die Vorbereitung und einen erreichbaren Weg zum Ersatzraum."
+			],
+			"links": [
+				{
+					"label": "Musik für eine freie Trauung",
+					"href": "/hochzeiten/musik-freie-trauung/"
+				}
+			]
+		},
+		{
+			"title": "2. Gästezahl und Hörsituation besprechen",
+			"body": [
+				"Draußen unterscheidet sich die Hörsituation von einem geschlossenen Raum. Nennt Gästezahl und Sitzordnung sowie mögliche Geräusche aus der Umgebung. Für einen Sektempfang ist zusätzlich wichtig, ob die Gäste nahe beieinander stehen oder sich über eine größere Fläche verteilen.",
+				"Wir prüfen vorab, ob akustische Viola passt oder dezente Verstärkung sinnvoll ist. Falls Technik vorgesehen ist, werden Platz, Versorgung und Zuständigkeit mit der Location geklärt. Die Anlage für eine Rede ist nicht automatisch schon das passende Setup für das Instrument."
+			],
+			"links": [
+				{
+					"label": "Musik zum Sektempfang planen",
+					"href": "/hochzeiten/sektempfang/"
+				}
+			]
+		},
+		{
+			"title": "3. Einen konkreten Plan B vereinbaren",
+			"body": [
+				"Legt einen geeigneten Ersatzort fest und prüft, wie Gäste und Musikerin dorthin wechseln können. Eine vage Zusage wie „irgendwo drinnen geht es schon“ reicht für den Ablauf nicht. Der alternative Standort und seine Hörsituation werden ebenfalls besprochen.",
+				"Eine benannte Kontaktperson stimmt mit Location und Musikerin ab, wann nach dem vereinbarten Wetterplan gewechselt wird. Für Wege und einen möglichen neuen Aufbau wird Zeit eingeplant. Der Wechsel muss in der Ablaufplanung Platz haben, bevor Gäste bereits sitzen."
+			]
+		},
+		{
+			"title": "4. Trauung und Empfang als zwei Spielorte planen",
+			"body": [
+				"Soll nach der Zeremonie auch beim Sektempfang Musik erklingen, nennt beide Plätze und die Wege dazwischen. Ein Umzug mit Instrument und gegebenenfalls Technik benötigt eine abgesprochene Unterbrechung. Spielzeit, Pause, Aufbau und mögliche Wartezeit werden als Teile des Umfangs vereinbart.",
+				"Für eine Anfrage helfen Datum, genaue Adresse, Gästezahl, die beiden Standorte, gewünschte Musikzeiten und der Ersatzort. Nennt eine erreichbare Kontaktperson und eure Wunschstücke. So lässt sich der Auftritt mit Ablauf, Vorbereitung und Preisrahmen prüfen."
+			],
+			"links": [
+				{
+					"label": "Musik nach der Trauung bis zum Dinner planen",
+					"href": "/ratgeber/musikplanung-hochzeitsfeier/"
+				},
+				{
+					"label": "Hochzeitsmusik persönlich anfragen",
+					"href": "/anfragen/"
+				}
+			]
+		}
+	],
+	"internalLinks": [
+		{
+			"label": "Hochzeitsmusik mit Solo-Viola",
+			"href": "/hochzeiten/"
+		},
+		{
+			"label": "Ablaufplan für die Trauungsmusik",
+			"href": "/ratgeber/musik-zur-trauung/"
+		},
+		{
+			"label": "Musik für eine freie Trauung",
+			"href": "/hochzeiten/musik-freie-trauung/"
+		},
+		{
+			"label": "Viola-Hörbeispiele",
+			"href": "/portfolio/"
+		}
+	],
+	"nextStep": {
+		"label": "Außenauftritt und Termin abstimmen",
+		"href": "/anfragen/"
+	},
+	"faqs": [
+		{
+			"question": "Kannst du bei einer Hochzeit draußen spielen?",
+			"answer": "Das ist nach Abstimmung von Wetter, geschütztem Standort, Untergrund und Ablauf möglich. Für ungeeignete Außenbedingungen wird vorab ein geeigneter Ersatzort vereinbart."
+		},
+		{
+			"question": "Reicht ein Platz unter einem Baum?",
+			"answer": "Ein schöner Hintergrund genügt für die Planung nicht. Wir prüfen, ob der tatsächliche Standort trocken, schattig, geschützt und stabil ist und ob ein erreichbarer Ersatzort zur Verfügung steht."
+		},
+		{
+			"question": "Ist im Freien immer Verstärkung nötig?",
+			"answer": "Das hängt von Gästezahl, Sitzordnung, Abstand und Geräuschen aus der Umgebung ab. Ob die Viola akustisch spielen kann oder Verstärkung sinnvoll ist, wird vor der Buchung eingeschätzt."
+		},
+		{
+			"question": "Kannst du nach der Trauung zum Sektempfang wechseln?",
+			"answer": "Das kann vereinbart werden. Dafür werden die beiden Plätze, der Weg, Aufbau und eine passende Unterbrechung eingeplant. Ein Ortswechsel ist Teil des abgestimmten Umfangs."
+		},
+		{
+			"question": "Wer entscheidet bei schlechtem Wetter über den Ersatzort?",
+			"answer": "Vorab wird eine Kontaktperson benannt. Sie stimmt den Wechsel nach dem vereinbarten Wetterplan mit Location und Musikerin ab und informiert die Beteiligten über die Ablaufänderung."
+		}
+	]
+},
+{
+	"slug": "taufmusik-planen",
+	"title": "Musik zur Taufe planen",
+	"shortTitle": "Taufmusik: Ablauf und Stücke",
+	"seoTitle": "Musik zur Taufe planen: Ablauf & Wunschstücke",
+	"seoDescription": "Taufmusik mit Solo-Viola planen: Musikmomente mit der Gemeinde klären, Wunschstücke prüfen und Gesang, Instrumentalmusik sowie Empfang aufeinander abstimmen.",
+	"intent": "Musikalische Wünsche für die Taufe vorbereiten und Einsätze mit Gemeinde, Musikerin und Familie abstimmen.",
+	"cluster": "Taufe",
+	"serviceSlug": "taufen",
+	"heroImage": "/uploads/_DSC7458.webp",
+	"heroImageAlt": "Kim Marie Borger mit Viola und Bogen, Blick auf das Instrument",
+	"kicker": "Taufe vorbereiten",
+	"lead": "Ein persönliches Lied oder ein Instrumentalstück kann die Taufe musikalisch begleiten. Für die Planung helfen ein abgestimmter Ablauf, eine überschaubare Stückauswahl und eine klare Absprache mit der Gemeinde.",
+	"summary": "Von der ersten Liedidee zum abgestimmten Ablauf: Fragen fürs Taufgespräch, Musikmomente, Wunschstücke und anschließender Empfang.",
+	"keyPoints": [
+		"Die musikalischen Möglichkeiten werden im Taufgespräch geklärt.",
+		"Gemeinsamer Gesang und ein Solo-Instrumentalstück erfüllen unterschiedliche Aufgaben.",
+		"Wunschstücke werden auf Eignung und nötige Vorbereitung geprüft."
+	],
+	"sections": [
+		{
+			"title": "1. Den Rahmen mit der Gemeinde klären",
+			"body": [
+				"Findet die Taufe in einem regulären Gottesdienst oder in einer eigenen Feier statt? Gibt es weitere Taufen am selben Termin? Die Form der Feier bestimmt mit, wie viel Raum für eure musikalischen Wünsche vorhanden ist. Fragt im Taufgespräch nach den vorgesehenen Musikstellen und den zuständigen Ansprechpartner:innen.",
+				"Besprecht auch, welche Kirchenmusik bereits eingeplant ist und wie eine zusätzliche Solo-Viola eingebunden werden kann. Für ein freies Willkommensfest wird der musikalische Ablauf stattdessen mit der gastgebenden und der moderierenden Person abgestimmt."
+			],
+			"links": [
+				{
+					"label": "evangelisch.de: Das erwartet Sie im Taufgespräch",
+					"href": "https://tbapp.evangelisch.de/taufbegleiter/244751/das-erwartet-sie-im-taufgespraech"
+				},
+				{
+					"label": "katholisch.de: Checkliste fürs Taufgespräch (PDF)",
+					"href": "https://www.katholisch.de/media/pdf/katholisch-de_Checkliste_Taufgespraech.pdf"
+				}
+			]
+		},
+		{
+			"title": "2. Musikmomente auswählen, nicht jeden Abschnitt füllen",
+			"body": [
+				"Einzug, ein eigener Moment zum Zuhören und Auszug können mögliche Stellen sein. Welche davon tatsächlich passen, wird mit der Gemeinde vereinbart. Für gesprochene Worte und die Taufhandlung klären wir, wo Stille sinnvoll ist und wo ein Musikeinsatz ausdrücklich vorgesehen wird.",
+				"Haltet die Reihenfolge mit ungefährer Länge der Stücke fest. Eine Kontaktperson gibt das Signal für den Beginn. Wenn sich ein Abschnitt verlängert, hilft diese Absprache mehr als ein Ablauf, der ausschließlich auf feste Uhrzeiten vertraut."
+			],
+			"links": [
+				{
+					"label": "Solo-Viola im Taufgottesdienst",
+					"href": "/taufen/musik-gottesdienst-taufe/"
+				}
+			]
+		},
+		{
+			"title": "3. Wunschlied, Gemeindegesang und Instrumentalstück unterscheiden",
+			"body": [
+				"Wenn alle mitsingen sollen, müssen Liedauswahl und Begleitung mit der Gemeinde geklärt werden. Ein Solo-Stück gibt dagegen einen Moment zum Zuhören. Für die Anfrage sollte deshalb deutlich sein, welche Aufgabe eure Liedidee in der Feier übernehmen soll.",
+				"Für ein persönliches Wunschstück schickt Titel und gewünschte Version. Kim Marie Borger prüft, ob die Melodie für Solo-Viola passt, welche Noten vorliegen und wie viel Vorbereitung nötig ist. Vorhandenes Repertoire ist ohne Aufpreis möglich; zusätzliche Bearbeitung oder neue Notation wird vorab vereinbart."
+			],
+			"links": [
+				{
+					"label": "Den Klang der Viola in Hörbeispielen kennenlernen",
+					"href": "/portfolio/"
+				}
+			]
+		},
+		{
+			"title": "4. Spielort, Empfang und Anfrage zusammenbringen",
+			"body": [
+				"Klärt mit der Gemeinde den Platz für die Musikerin, Ankunft, Zugang und die vorhandene Hörsituation. Gästezahl, Licht und mögliche Technik werden vorab besprochen. Für die erste Anfrage helfen Datum, Uhrzeit, genaue Adresse, Ablauf, Wunschstücke und die Kontaktperson der Gemeinde.",
+				"Soll nach der Taufe beim Empfang Musik erklingen, wird das als eigener Abschnitt geplant. Nennt den zweiten Ort und die gewünschten Spielzeiten. Anfahrt, Vorbereitung, Wartezeiten und ein möglicher Ortswechsel fließen in den vereinbarten Umfang ein. Bei einem Empfang draußen werden Wetterschutz und eine Alternative abgestimmt."
+			],
+			"links": [
+				{
+					"label": "Musik für Taufe und Willkommensfest",
+					"href": "/taufen/"
+				},
+				{
+					"label": "Taufmusik persönlich anfragen",
+					"href": "/anfragen/"
+				}
+			]
+		}
+	],
+	"internalLinks": [
+		{
+			"label": "Taufmusik mit Solo-Viola",
+			"href": "/taufen/"
+		},
+		{
+			"label": "Musik im Taufgottesdienst",
+			"href": "/taufen/musik-gottesdienst-taufe/"
+		},
+		{
+			"label": "Hörproben im Portfolio",
+			"href": "/portfolio/"
+		}
+	],
+	"nextStep": {
+		"label": "Musikmomente und Termin anfragen",
+		"href": "/anfragen/"
+	},
+	"faqs": [
+		{
+			"question": "Wie viele Musikstücke braucht eine Taufe?",
+			"answer": "Eine feste Anzahl passt nicht zu jeder Feier. Einzug, ein eigenes Instrumentalstück und Auszug können mögliche Stellen sein. Die Auswahl richtet sich nach dem Ablauf und wird mit der Gemeinde abgestimmt."
+		},
+		{
+			"question": "Können wir ein persönliches Lied wünschen?",
+			"answer": "Ja. Nennt Titel und gewünschte Version. Die Musikerin prüft Eignung für Solo-Viola, vorhandene Noten und Vorbereitung; bei einer kirchlichen Taufe wird auch der Einsatz mit der Gemeinde abgestimmt."
+		},
+		{
+			"question": "Begleitest du den Gemeindegesang mit der Viola?",
+			"answer": "Gemeinsamer Gesang braucht eine gesonderte Absprache mit der Gemeinde und den bereits beteiligten Kirchenmusiker:innen. Bei der Anfrage klären wir, ob ein Solo-Instrumentalstück oder eine musikalische Zusammenarbeit gemeint ist."
+		},
+		{
+			"question": "Kann beim Empfang nach der Taufe auch Musik gespielt werden?",
+			"answer": "Das kann als zusätzlicher Abschnitt vereinbart werden. Spielzeiten, Empfangsort, Wege, mögliche Wartezeit und bei einem Außenauftritt die Wetteralternative werden vorab geklärt."
+		},
+		{
+			"question": "Welche Angaben helfen für die erste Anfrage?",
+			"answer": "Datum, Uhrzeit, genaue Adresse, Form der Feier, Gästezahl, Ablauf, Wunschstücke und eine Kontaktperson der Gemeinde helfen bei der Einschätzung. Ein anschließender Empfang wird ebenfalls genannt."
+		}
+	]
+},
 ];
 
 export function getRatgeberPages(): RatgeberPage[] {
@@ -1007,7 +1246,7 @@ export function ratgeberOverviewJsonLd(site: URL): object {
 				'@id': `${url}#collection`,
 				name: 'Ratgeber Musikplanung',
 				description:
-					'Ratgeber zur Musikplanung für Hochzeit, Trauerfeier, Geburtstag und Firmenevent sowie zum Geigen- und Bratschenunterricht.',
+					'Ratgeber zur Musikplanung für Hochzeit, Taufe, Trauerfeier, Geburtstag und Firmenevent sowie zum Geigen- und Bratschenunterricht.',
 				url,
 				inLanguage: 'de',
 				mainEntity: {

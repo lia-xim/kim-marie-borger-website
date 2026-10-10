@@ -8,141 +8,167 @@
   "priority": "P2",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Sektempfang Hochzeit | Live-Viola Hochzeit",
-  "seoDescription": "Musik Sektempfang Hochzeit: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
+  "seoTitle": "Musik zum Sektempfang der Hochzeit | Solo-Viola",
+  "seoDescription": "Solo-Viola beim Sektempfang: Gratulationen, Fotos und Gespräche musikalisch begleiten. Spielzeiten, Standort, Lautstärke und Wunschstücke gemeinsam planen.",
   "hero": {
     "eyebrow": "Sektempfang",
     "title": "Musik zum Sektempfang, wenn Gratulationen, Fotos und erste Gespräche zusammenkommen.",
-    "lead": "Musik Sektempfang Hochzeit richtet sich an Empfang direkt nach Trauung oder vor dem Dinner. Ich plane Solo-Viola so, dass Klang, Timing und Ablauf wirklich zu eurem Hochzeitstag passen.",
+    "lead": "Beim Sektempfang kommen Gäste an, gratulieren und unterhalten sich. Solo-Viola kann diesen Empfang begleiten oder einem persönlichen Stück einen eigenen Moment geben. Spielzeiten und Lautstärke stimmen wir auf eure Gäste und den Ort ab.",
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
     "seal": "Sektempfang\nHochzeit\nLive-Viola",
     "sections": [
       {
-        "title": "Hochzeitsmusik bewusst in den Ablauf einfügen.",
-        "lede": "Der Sektempfang ist lebendig und oft etwas unübersichtlich. Musik schafft einen feierlichen Rahmen. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Foyer, Garten, Terrasse, Innenhof oder Schlosspark.",
+        "title": "Musik für die Begegnung nach der Trauung.",
+        "lede": "Der Sektempfang gibt Raum für Gratulationen, Fotos und erste Gespräche. Die Musik wird auf diese Hörsituation abgestimmt.",
         "paragraphs": [
-          "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
-          "Solo-Viola kann zwischen Gratulationen, Fotos und Gesprächen flexibel in Sets spielen.",
-          "Wichtig ist, dass die Musik hörbar bleibt, ohne aus dem Empfang ein Konzert zu machen.",
-          "Wenn ein Wunschlied geplant ist, prüfe ich Melodie, Tonart und Wirkung für Solo-Viola. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
-          "Für die Planung klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll."
+          "Wir besprechen, wann die Gäste eintreffen und ob das Paar während der Musik dabei ist oder zum Fototermin geht. So lässt sich entscheiden, ob die Viola das Ankommen begleitet oder ein eigener Musikmoment für euch und eure Gäste geplant wird.",
+          "Für ein persönliches Lieblingsstück hilft ein kurzer angekündigter Zeitpunkt. Zwischen vielen Gesprächen wird nicht jedes Stück bewusst gehört. Wenn ihr gemeinsam zuhören möchtet, halten wir dafür einen eigenen Abschnitt fest."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
           "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
         },
         "imageFirst": false,
-        "eyebrow": "Einordnung"
+        "eyebrow": "Ankommen & Gratulieren",
+        "ctas": [
+          {
+            "label": "Den Klang der Viola anhören",
+            "link": "/portfolio/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "title": "Musik Sektempfang Hochzeit im Ablauf sinnvoll einsetzen.",
-        "lede": "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+        "title": "Beginn und Ende des Empfangs im Ablauf festhalten.",
+        "lede": "Nennt das vorgesehene Zeitfenster und die weiteren Programmpunkte. Für Begrüßung, Fotos oder einen gemeinsamen Toast werden Pausen vereinbart.",
         "paragraphs": [
-          "Wichtig ist, dass Musik Sektempfang Hochzeit nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
-          "Gerade bei Hochzeiten hilft eine klare Begrenzung."
+          "Eine erreichbare Kontaktperson gibt das Startsignal und hält mich über Änderungen auf dem Laufenden. Auch wenn die Trauung länger dauert oder sich der Fototermin verschiebt, braucht es eine klare Absprache für die Musikzeiten.",
+          "Soll beim Dinner ebenfalls Musik erklingen, wird das als eigener Abschnitt besprochen. Spielphasen, Pause, Wartezeit und eine mögliche Verlängerung gehören in den vereinbarten Umfang."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "eyebrow": "Spielzeiten & Pausen",
+        "ctas": [
+          {
+            "label": "Musikplanung für Empfang und Dinner",
+            "link": "/ratgeber/musikplanung-hochzeitsfeier/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Entscheidend sind Zeremonieform, Einsatzpunkt, Raum, Wunschmusik und die gewünschte Wirkung.",
+        "title": "Standort und Gesprächslautstärke zusammen prüfen.",
+        "lede": "Gästezahl, Abstand und Umgebung entscheiden mit, ob die Viola akustisch trägt oder Verstärkung sinnvoll ist.",
         "paragraphs": [
-          "Für die Planung sind kurze Sets, Lautstärke, flexible Pausen, Außenoption die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll."
+          "Wir suchen einen Platz, an dem die Musikerin gut zu sehen ist und Laufwege frei bleiben. Wenn die Gäste sich über mehrere Bereiche verteilen, besprechen wir, welcher Teil des Empfangs musikalisch begleitet werden soll.",
+          "Draußen braucht das Instrument einen trockenen, schattigen und stabilen Standort. Für ungeeignetes Wetter wird ein Ersatzort vereinbart. Ein Wechsel von der Zeremonie zum Empfang muss mit Weg und Aufbauzeit geplant sein."
         ],
         "image": {
           "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
           "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
         },
-        "imageFirst": false
+        "imageFirst": false,
+        "eyebrow": "Garten, Terrasse oder Foyer",
+        "ctas": [
+          {
+            "label": "Außenauftritt mit Wetteralternative planen",
+            "link": "/ratgeber/hochzeitsmusik-im-freien/",
+            "style": "link-line"
+          }
+        ]
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Entscheidend sind Zeremonieform, Einsatzpunkt, Raum, Wunschmusik und die gewünschte Wirkung.",
+        "title": "Mit den Empfangsdetails zur passenden Auswahl.",
+        "lede": "Für ein Angebot helfen Datum, Adresse, Gästezahl, Zeitfenster, Standort und eure musikalischen Wünsche.",
         "paragraphs": [
-          "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein einzelner Einsatz, mehrere Momente der Trauung, Empfangsmusik oder eine längere Begleitung passend ist."
+          "Klassische Stücke, vertraute Melodien oder ein persönliches Wunschlied werden auf ihre Wirkung beim Empfang und Eignung für Solo-Viola geprüft. Nennt Titel und gewünschte Version möglichst früh.",
+          "Vorhandenes Repertoire ist ohne Aufpreis möglich. Neue Notation oder Bearbeitung besprechen wir vorab. Dauer, Anfahrt, Vorbereitung, Wartezeit und ein möglicher Ortswechsel bestimmen den individuellen Preisrahmen."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
           "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "eyebrow": "Wunschmusik & Angebot",
+        "ctas": [
+          {
+            "label": "Musik für eine freie Trauung",
+            "link": "/hochzeiten/musik-freie-trauung/",
+            "style": "link-line"
+          }
+        ]
       }
     ]
   },
   "focus": {
     "eyebrow": "Planung",
-    "title": "Worauf es bei Hochzeitsmusik ankommt.",
-    "lead": "Die Details unterscheiden sich je nach Zeremonie und Location. Diese Punkte sollten vor der Hochzeit sauber geklärt sein.",
+    "title": "Vier Absprachen vor der Empfangsmusik.",
+    "lead": "Ablauf, Wunschstücke, Startsignal und Spielort werden vor der Buchung gemeinsam geklärt.",
     "items": [
       {
-        "time": "Vorab",
-        "kicker": "Rolle",
-        "title": "Die Aufgabe der Musik festlegen",
-        "text": "Bei Musik Sektempfang Hochzeit klären wir zuerst, ob die Musik Mittelpunkt, Übergang, Hintergrund oder persönliches Zeichen sein soll."
+        "time": "1",
+        "kicker": "Ablauf",
+        "title": "Musikzeiten auswählen",
+        "text": "Empfangszeitfenster, Gratulationen, Fotos und weitere Programmpunkte zusammen betrachten."
       },
       {
-        "time": "Stück",
-        "kicker": "Repertoire",
-        "title": "Klassisch, modern oder Wunschlied auswählen",
-        "text": "Die Auswahl folgt nicht nur Geschmack, sondern auch Weglänge, Raumakustik und emotionaler Dichte."
+        "time": "2",
+        "kicker": "Stücke",
+        "title": "Wunschmusik prüfen",
+        "text": "Titel und gewünschte Version nennen; Eignung, Länge und Vorbereitungsaufwand besprechen."
       },
       {
-        "time": "Ablauf",
-        "kicker": "Timing",
-        "title": "Start und Ende sicher abstimmen",
-        "text": "Ein Blickzeichen, eine Kontaktperson oder ein klares Stichwort verhindert Unsicherheit am Hochzeitstag."
+        "time": "3",
+        "kicker": "Signale",
+        "title": "Kontaktperson benennen",
+        "text": "Beginn, Ende und Pausen vereinbaren; Änderungen laufen über eine erreichbare Person."
       },
       {
-        "time": "Ort",
-        "kicker": "Klang",
-        "title": "Den Platz im Raum sinnvoll wählen",
-        "text": "Die Viola soll hörbar und sichtbar sein, ohne Laufwege, Reden oder Gäste zu stören."
+        "time": "4",
+        "kicker": "Ort",
+        "title": "Standort und Wege klären",
+        "text": "Hörsituation und Zugang prüfen; draußen Standort und Wetteralternative vorab abstimmen."
       }
     ],
-    "footnote": "Musik Sektempfang Hochzeit wird mit euch passend zu Zeremonie, Location und Gästen geplant."
+    "footnote": "Spielzeiten, Stücke und mögliche Ortswechsel werden für euren Hochzeitstag vereinbart."
   },
   "faq": {
     "eyebrow": "Gut zu wissen",
-    "title": "FAQ zu Musik Sektempfang Hochzeit",
+    "title": "Fragen zur Musik beim Sektempfang",
     "items": [
       {
-        "question": "Für welche Hochzeit passt Musik Sektempfang Hochzeit?",
-        "answer": "Diese musikalische Begleitung passt besonders für Empfang direkt nach Trauung oder vor dem Dinner. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
+        "question": "Welche Aufgabe hat Musik beim Sektempfang?",
+        "answer": "Sie kann Ankommen, Gratulationen und Gespräche begleiten. Ein persönliches Stück kann auch als eigener angekündigter Moment geplant werden, wenn das Paar und die Gäste gemeinsam zuhören sollen.",
         "open": true
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
+        "question": "Muss das Brautpaar während der Musik anwesend sein?",
+        "answer": "Das besprechen wir anhand eures Ablaufs. Wenn ihr beim Fototermin seid, kann die Musik den Empfang der Gäste begleiten. Für ein persönliches gemeinsames Musikstück wählen wir einen Zeitpunkt mit euch."
       },
       {
-        "question": "Passt das auch zu Standesamt, Kirche und freier Trauung?",
-        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für kleine Trausäle, Kirchen, freie Trauungen und Empfänge sehr flexibel."
+        "question": "Wie lange spielst du beim Sektempfang?",
+        "answer": "Die Spielzeit wird individuell aus dem Empfangsablauf vereinbart. Nennt Beginn, Ende und weitere Programmpunkte. Musikpausen und mögliche Wartezeiten werden im Umfang festgehalten."
       },
       {
-        "question": "Wie wird der Einsatz abgestimmt?",
-        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Trauredner:in, Kirche, Standesamt oder Location."
+        "question": "Kann der Empfang draußen musikalisch begleitet werden?",
+        "answer": "Das kann nach Prüfung von Wetter, Hörsituation und Standort vereinbart werden. Ein trockener, schattiger, stabiler Platz und ein geeigneter Ersatzort gehören zur Vorbereitung."
       },
       {
-        "question": "Ist draußen spielen möglich?",
-        "answer": "Ja, wenn Wetter, Schatten, Untergrund und Schutz für das Instrument stimmen. Ein Plan B ist bei Hochzeiten im Freien immer sinnvoll."
+        "question": "Ist bei vielen Gästen Verstärkung nötig?",
+        "answer": "Das hängt von Gästezahl, Verteilung, Abstand und Gesprächslautstärke ab. Ob akustische Viola passt oder dezente Verstärkung sinnvoll ist, wird vor der Buchung eingeschätzt."
       },
       {
-        "question": "Wie früh sollten wir anfragen?",
-        "answer": "Sobald Datum und Ort feststehen, ist eine Anfrage sinnvoll. Besonders Termine in der Hochzeitssaison sind oft früh vergeben."
+        "question": "Kannst du von der Trauung zum Empfang wechseln?",
+        "answer": "Ja, nach Abstimmung der beiden Orte, Wege und Aufbauzeit. Für den Wechsel wird eine passende Unterbrechung eingeplant; mögliche Wartezeit ist Teil des Angebots."
       },
       {
-        "question": "Wann passt Musik Sektempfang Hochzeit besonders gut?",
-        "answer": "Diese musikalische Begleitung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich klären, ob ein einzelner Einsatz, mehrere Momente der Trauung, Empfangsmusik oder eine längere Begleitung passend ist."
+        "question": "Sind persönliche Wunschstücke möglich?",
+        "answer": "Ich prüfe gewünschte Stücke auf Eignung für Solo-Viola und Vorbereitung. Vorhandenes Repertoire ist ohne Aufpreis möglich; neue Bearbeitung oder Notation wird vorab vereinbart."
       }
     ]
   },
@@ -160,19 +186,20 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\nSEO-Ausbau 10.10.2026: Anlassablauf konkretisiert, doppelte FAQ entfernt und Wetterplanung verlinkt; bisheriger Prüfstatus bleibt erhalten.",
   "contact": {
     "eyebrow": "Hochzeitsmusik planen",
-    "title": "Musik Sektempfang Hochzeit anfragen",
-    "lead": "Schickt mir Datum, Ort, Zeremonieform und den Moment, für den ihr Musik Sektempfang Hochzeit plant. Ich melde mich mit einer passenden musikalischen Idee.",
+    "title": "Musik für euren Sektempfang anfragen",
+    "lead": "Schickt mir Datum, genaue Adresse, Gästezahl, das Empfangszeitfenster und eure Wunschmusik. Nennt auch den Standort und einen möglichen Wechsel von der Trauung. Dann prüfen wir Termin und Umfang.",
     "checklist": [
-      "Musik Sektempfang Hochzeit",
-      "Trauung oder Empfang",
-      "Wunschlied"
+      "Datum & Empfangsort",
+      "Zeitfenster & Gäste",
+      "Wunschmusik",
+      "Standort & Wetteralternative"
     ],
     "formEyebrow": "Anfrage senden",
-    "formTitle": "Musik Sektempfang Hochzeit anfragen",
-    "formSuccess": "Danke - ich melde mich mit einer Idee für Musik Sektempfang Hochzeit."
+    "formTitle": "Termin und Musikablauf klären",
+    "formSuccess": "Danke — ich prüfe eure Anfrage und melde mich persönlich."
   },
   "elegy": {
     "passages": []
