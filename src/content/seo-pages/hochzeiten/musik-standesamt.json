@@ -8,8 +8,8 @@
   "priority": "P2",
   "status": "evidence-led-human-rewrite-2026-08-31",
   "enabled": true,
-  "seoTitle": "Musik für die standesamtliche Trauung | Solo-Viola",
-  "seoDescription": "Live-Musik im Standesamt: Solo-Viola für Einzug, Unterschrift oder Auszug. Wunschstück, Zeitfenster und Ablauf der standesamtlichen Trauung gemeinsam klären.",
+  "seoTitle": "Musik im Standesamt | Live-Viola zur Trauung",
+  "seoDescription": "Live-Viola für die standesamtliche Trauung: Erlaubnis, kurze Musikmomente, Zeitfenster und Wunschstücke mit dem Trauort abstimmen.",
   "hero": {
     "eyebrow": "Standesamt",
     "title": "Musik für eure standesamtliche Trauung.",
@@ -20,55 +20,71 @@
     "seal": "Standesamt\nHochzeit\nLive-Viola",
     "sections": [
       {
-        "title": "Welche Musik passt in den Ablauf im Standesamt?",
-        "lede": "Instrumentalmusik im Standesamt kann auch bei einem kurzen Termin einen persönlichen Moment schaffen.",
+        "title": "Die Erlaubnis für Live-Musik am Trauort klären.",
         "paragraphs": [
-          "Manche Paare wünschen sich Musik beim Einzug, andere während der Unterschrift oder zum Auszug. Welche Einsätze möglich sind, klären wir mit dem jeweiligen Standesamt, bevor wir Stücke und Länge festlegen.",
-          "Ich stimme den Beginn mit einer Kontaktperson oder einem Blickzeichen ab. So kann die Viola auf einen etwas längeren Einzug oder eine Pause im Ablauf reagieren, ohne Worte und Zeremonie zu überdecken."
+          "Fragt das zuständige Standesamt ausdrücklich nach Live-Instrumenten, möglichen Einsatzstellen und dem Zeitfenster für Musik. Die Regeln sind ortsabhängig. In Düsseldorf nennt die Stadt mehrere Trauorte mit Einschränkungen für abgespielte Musik; eine pauschale Zusage wäre deshalb unpassend.",
+          "Gebt mir den bestätigten Rahmen weiter. Wenn in der Zeremonie keine Musik möglich ist, können wir einen Empfang außerhalb des Trautermins prüfen. Auch dort werden Spielort und Erlaubnis gesondert abgestimmt."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
           "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
         },
-        "imageFirst": false,
-        "eyebrow": "Einordnung"
+        "ctas": [
+          {
+            "label": "Offizielle Düsseldorfer Hinweise",
+            "link": "https://www.duesseldorf.de/standesamt/heirat/fragen",
+            "style": "link-line"
+          },
+          {
+            "label": "Hochzeitsmusik in Düsseldorf",
+            "link": "/hochzeiten/duesseldorf/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
       },
       {
-        "title": "Ein Wunschlied als Solo-Viola im Trausaal",
-        "lede": "Nicht jedes Lied braucht eine vollständige Fassung.",
+        "title": "Ein klarer Musikmoment passt besser als ein gedrängter Ablauf.",
         "paragraphs": [
-          "Schickt mir Titel und Interpretin oder Interpreten. Ich prüfe Tonumfang, Noten und Vorbereitungszeit und sage euch, ob ein Ausschnitt oder eine Bearbeitung für Solo-Viola sinnvoll ist.",
-          "Für kleine Räume stimmen wir Standort und Lautstärke ab. Wenn nach dem Termin noch Musik zum Sektempfang gewünscht ist, planen wir diesen Teil als eigenen Einsatz."
+          "Bei einer kurzen Trauung können Einzug, Unterschrift oder Auszug mögliche Stellen sein, sofern der Trauort sie erlaubt. Ihr müsst nicht alle Stellen besetzen. Ein persönliches Stück kann auch als kurzer, bewusst gewählter Ausschnitt wirken.",
+          "Wir halten Beginn, ungefähre Dauer und ein eindeutiges Signal fest. Die Musik endet so, dass die nächste Ansprache verständlich beginnen kann. Raum und gewünschter Klang bestimmen die Platzierung; eine technische Ausstattung wird nicht vorausgesetzt."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
+        "ctas": [
+          {
+            "label": "Checkliste für das Standesamt",
+            "link": "/ratgeber/musik-im-standesamt/",
+            "style": "link-line"
+          }
+        ],
         "imageFirst": true
       },
       {
-        "title": "Trauort und Zeitfenster vorab klären",
-        "lede": "Trausäle, Außenstellen und Rathaussäle haben unterschiedliche Abläufe.",
+        "title": "Datum, Saal und Zeitfenster zur Anfrage hinzufügen.",
         "paragraphs": [
-          "Mit Datum, Ort und geplanter Uhrzeit kann ich prüfen, ob Ankunft, Aufbau und gewünschte Musik im vorgesehenen Zeitfenster möglich sind. Vorgaben des Standesamts berücksichtigen wir vor der Zusage."
+          "Nennt Standesamt oder Location, Datum, Uhrzeit und die erlaubten Musikmomente. Ein Stückwunsch mit Interpret:in hilft bei der Prüfung einer Solo-Viola-Fassung. Hörproben geben euch zuvor einen Eindruck vom Instrument.",
+          "Für einen anschließenden Empfang brauchen wir dessen Ort, Beginn und Dauer. Anfahrt, Vorbereitung, weitere Einsätze und mögliche Wartezeit fließen in das individuelle Angebot ein."
         ],
         "image": {
           "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-          "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
+          "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
         },
-        "imageFirst": false
-      },
-      {
-        "title": "So fragt ihr die Musik für das Standesamt an",
-        "lede": "Die ersten Angaben reichen für eine konkrete Rückmeldung.",
-        "paragraphs": [
-          "Nennt Datum, Standesamt, Beginn der Trauung, gewünschte Einsatzpunkte und euer Lied. Ich melde mich mit einer Einschätzung zu Dauer, Vorbereitung und einem individuellen Angebot."
+        "ctas": [
+          {
+            "label": "Hörproben",
+            "link": "/portfolio/",
+            "style": "link-line"
+          },
+          {
+            "label": "Kosten und Umfang",
+            "link": "/ratgeber/hochzeitsmusik-kosten/",
+            "style": "link-line"
+          }
         ],
-        "image": {
-          "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-          "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
-        },
-        "imageFirst": true
+        "imageFirst": false
       }
     ]
   },
@@ -109,32 +125,27 @@
     "title": "Fragen zur Musik für die standesamtliche Trauung",
     "items": [
       {
-        "question": "Dürfen wir im Standesamt Live-Musik einplanen?",
-        "answer": "Das hängt vom Standesamt und seinem Ablauf ab. Klärt dort, welche Programmpunkte musikalisch begleitet werden dürfen; danach plane ich die Einsätze passend zum Zeitfenster.",
-        "open": true
+        "question": "Darf bei jeder standesamtlichen Trauung Live-Musik gespielt werden?",
+        "answer": "Das entscheidet der jeweilige Trauort. Fragt ausdrücklich nach Live-Instrumenten und den erlaubten Einsatzstellen, bevor eine Buchung für die Zeremonie vereinbart wird."
       },
       {
-        "question": "Welche Momente eignen sich für Solo-Viola?",
-        "answer": "Häufig kommen Einzug, Unterschrift oder Auszug infrage. Wir wählen den Moment nach eurem Ablauf und den Vorgaben des Trauorts."
+        "question": "Wie viele Stücke brauchen wir?",
+        "answer": "Das hängt vom erlaubten Zeitfenster ab. Ein einzelner gut platzierter Moment kann genügen; die Anzahl wird mit dem Ablauf abgestimmt."
       },
       {
-        "question": "Kann unser Wunschlied gespielt werden?",
-        "answer": "Schickt mir Titel und Interpretin oder Interpreten. Ich prüfe, ob Melodie, Länge und Vorbereitung für Solo-Viola passen, und bespreche eine geeignete Fassung mit euch."
+        "question": "Brauchen wir eine Musikanlage?",
+        "answer": "Für Solo-Viola wird zuerst geprüft, ob der akustische Klang im Raum passt. Technik und mögliche Vorgaben des Standesamts werden individuell geklärt."
       },
       {
-        "question": "Was, wenn die Trauung länger dauert?",
-        "answer": "Wir vereinbaren ein klares Startsignal und wählen einen Einsatz, der sich musikalisch an den tatsächlichen Moment anpassen lässt."
-      },
-      {
-        "question": "Welche Angaben braucht eine Anfrage?",
-        "answer": "Datum, Standesamt, Uhrzeit, gewünschte Einsatzpunkte und Liedwünsche. Falls auch Musik zum Sektempfang geplant ist, nennt dafür Ort und ungefähren Beginn."
+        "question": "Kann der Empfang anschließend ebenfalls begleitet werden?",
+        "answer": "Nach Abstimmung ja. Ort, Erlaubnis, Beginn, Dauer und ein möglicher Wechsel werden als eigener Abschnitt geplant."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-      "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
+      "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
@@ -145,7 +156,7 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nSEO-Goal 10.10.2026: Live-Erlaubnis, kurze Musikmomente und Amt-/Empfangsgrenze konkretisiert. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Hochzeitsmusik planen",
     "title": "Musik für das Standesamt anfragen",

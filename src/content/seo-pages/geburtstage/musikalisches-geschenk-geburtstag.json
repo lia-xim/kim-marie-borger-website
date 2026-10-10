@@ -8,8 +8,8 @@
   "priority": "P2",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Musikalisches Geschenk Geburtstag | Live-Viola Geburtstag",
-  "seoDescription": "Musikalisches Geschenk Geburtstag: Solo-Viola für private Geburtstage, Empfang, Dinner oder Überraschung. Persönlich und dezent geplant.",
+  "seoTitle": "Musik als Geburtstagsgeschenk | Persönliche Live-Viola",
+  "seoDescription": "Live-Musik zum Geburtstag verschenken: Musikgeschmack, Überraschung, Spielort und Umfang vorher mit Gastgeber:innen abstimmen.",
   "hero": {
     "eyebrow": "Geschenk",
     "title": "Ein musikalisches Geschenk zum Geburtstag, das persönlicher wirkt als etwas Verpacktes.",
@@ -19,53 +19,66 @@
   "split": {
     "sections": [
       {
-        "title": "Musikalisches Geschenk Geburtstag braucht eine andere Planung als allgemeine Partymusik.",
-        "lede": "Wer nach Musikalisches Geschenk Geburtstag sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
+        "title": "Die beschenkte Person steht am Anfang der Auswahl.",
         "paragraphs": [
-          "Der wichtigste Unterschied liegt im Maß: Die Musik soll nah an der Person bleiben. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
-          "Für Menschen, die ein besonderes Geburtstagsgeschenk suchen eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
-          "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
-          "die Musik bekommt klare Einsätze statt Dauerbeschallung. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst.",
-          "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif."
+          "Welche Musik hört sie gern und welche Stücke verbinden sie mit Familie oder Freunden? Nennt ein bis zwei persönliche Titel. Eine Solo-Viola-Fassung wird auf Melodie, Vorbereitung und passende Länge geprüft.",
+          "Ein musikalisches Geschenk kann ein angekündigter Hörmoment sein oder eine Überraschung innerhalb der Feier. Klärt zuerst, ob die Person sich über einen solchen Mittelpunkt freuen würde und wie der Auftritt zum geplanten Geburtstag passt."
         ],
         "image": {
           "src": "/uploads/mq0uvvd3-20250327-DSC01769.webp",
-          "alt": "Kim Marie Borger sitzt mit ihrer Viola in festlicher Kleidung auf einer Wiese"
+          "alt": "Porträt von Kim Marie Borger mit ihrer Viola"
         },
-        "imageFirst": false,
-        "eyebrow": "Einordnung"
+        "ctas": [
+          {
+            "label": "Hörproben",
+            "link": "/portfolio/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
       },
       {
-        "title": "Musikalisches Geschenk Geburtstag im Ablauf sinnvoll einsetzen.",
-        "lede": "Praktisch bedeutet das: Ich bespreche nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei Menschen, die ein besonderes Geburtstagsgeschenk suchen, macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
+        "title": "Eine Überraschung braucht eine eingeweihte Kontaktperson.",
         "paragraphs": [
-          "Musikalisches, Geschenk, Geburtstag bekommt hier einen eigenen Rahmen und keine austauschbare Partymusik."
+          "Die Gastgeber:innen oder eine vertraute Person stimmen Ankunft, Zugang, Platz und Startsignal ab. So bleibt die Überraschung persönlich, während der praktische Ablauf vorbereitet ist. Ein kurzfristiger spontaner Auftritt wird nicht einfach vorausgesetzt.",
+          "Nennt, ob die Musik nach einer Rede, beim Überreichen des Geschenks oder als eigener Beitrag vorgesehen ist. Die beschenkte Person und die Gäste sollten genug Zeit zum Zuhören haben; ein enger Speise- oder Programmpunkt kann sonst dazwischenkommen."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
+        "ctas": [
+          {
+            "label": "Kundenstimme zum Geburtstag",
+            "link": "/kundenstimmen/",
+            "style": "link-line"
+          }
+        ],
         "imageFirst": true
       },
       {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Für die Planung sind geheimer Ablauf, Vertrauensperson, Wunschlied, Timing die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-        "paragraphs": [],
+        "title": "Ein Geschenkauftritt und die Begleitung der Feier unterscheiden.",
+        "paragraphs": [
+          "Wenn neben dem Geschenk weitere Musik beim Empfang oder Essen gewünscht ist, plant diese Abschnitte mit eigenen Zeitfenstern. Gästezahl, Raum und mögliche Außenmusik bestimmen den geeigneten Rahmen.",
+          "Für die Anfrage helfen Datum, Adresse, Kontaktperson, ungefährer Ablauf und Stückwünsche. Spielumfang, Vorbereitung, Anfahrt und gegebenenfalls weitere Besetzung werden im individuellen Angebot geklärt."
+        ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
           "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
         },
+        "ctas": [
+          {
+            "label": "Geburtstagsmusik im Überblick",
+            "link": "/geburtstage/",
+            "style": "link-line"
+          },
+          {
+            "label": "Gartenfest planen",
+            "link": "/ratgeber/live-musik-gartenfest-planen/",
+            "style": "link-line"
+          }
+        ],
         "imageFirst": false
-      },
-      {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Eine gute Anfrage nennt Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich schnell unterscheiden, ob ein Überraschungsmoment, Empfangsmusik, Dinnerbegleitung oder mehrere kurze Sets passend ist.",
-        "paragraphs": [],
-        "image": {
-          "src": "/uploads/mq0uvvd3-20250327-DSC01769.webp",
-          "alt": "Kim Marie Borger sitzt mit ihrer Viola in festlicher Kleidung auf einer Wiese"
-        },
-        "imageFirst": true
       }
     ]
   },
@@ -74,37 +87,20 @@
     "title": "FAQ zu Musikalisches Geschenk Geburtstag",
     "items": [
       {
-        "question": "Für welche Geburtstage passt Musikalisches Geschenk Geburtstag?",
-        "answer": "Diese musikalische Begleitung passt besonders zu Menschen, die ein besonderes Geburtstagsgeschenk suchen. Wichtig ist, dass der musikalische Moment zum Menschen und nicht nur zum Anlass passt.",
-        "open": true
+        "question": "Kann der Auftritt eine Überraschung bleiben?",
+        "answer": "Eine eingeweihte Kontaktperson kann Ankunft, Zugang und Startsignal diskret abstimmen. Der praktische Rahmen muss trotzdem vorher geklärt sein."
       },
       {
-        "question": "Kann ein Lieblingslied eingebunden werden?",
-        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage gegebenenfalls einen passenden Ausschnitt vor."
+        "question": "Kann das Lieblingslied gespielt werden?",
+        "answer": "Wenn eine passende Viola-Fassung möglich ist. Titel, Noten und Vorbereitungszeit werden geprüft; Zusatzaufwand wird vorher besprochen."
       },
       {
-        "question": "Wie lang sollte die Musik dauern?",
-        "answer": "Für ein Geschenk reichen oft wenige Stücke. Für Empfang, Dinner oder Hintergrundmusik sind mehrere kurze Sets sinnvoller als ein langer Block."
+        "question": "Gibt es einen fertigen Gutschein?",
+        "answer": "Hier wird kein standardisierter Gutschein zugesagt. Termin, Umfang und eine mögliche Geschenkvereinbarung werden persönlich geklärt."
       },
       {
-        "question": "Ist die Musik auch im kleinen privaten Rahmen passend?",
-        "answer": "Ja. Gerade in kurzes Ständchen, Wunschlied oder kleiner Auftritt funktioniert Solo-Viola gut, weil der Klang nah bleibt und keine große Bühne braucht."
-      },
-      {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären Startsignal, Platz im Raum, gewünschte Stimmung und mögliche Pausen. So bleibt Musikalisches Geschenk Geburtstag am Tag selbst entspannt."
-      },
-      {
-        "question": "Kann die Musik draußen gespielt werden?",
-        "answer": "Ja, wenn ein geschützter Platz vorhanden ist. Für Garten oder Terrasse besprechen wir Schatten, Wetteroption und Abstand zu Gesprächen."
-      },
-      {
-        "question": "Wann passt Musikalisches Geschenk Geburtstag besonders gut?",
-        "answer": "Diese musikalische Begleitung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich klären, ob ein Überraschungsmoment, Empfangsmusik, Dinnerbegleitung oder mehrere kurze Sets passend ist."
+        "question": "Kann danach weitergespielt werden?",
+        "answer": "Weitere Begleitung wird mit eigenen Zeitfenstern und Musikaufgaben in das Angebot aufgenommen."
       }
     ]
   },
@@ -115,14 +111,14 @@
     },
     {
       "src": "/uploads/mq0uvvd3-20250327-DSC01769.webp",
-      "alt": "Kim Marie Borger sitzt mit ihrer Viola in festlicher Kleidung auf einer Wiese"
+      "alt": "Porträt von Kim Marie Borger mit ihrer Viola"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 5: Geburtstagsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 5: Geburtstagsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nSEO-Goal 10.10.2026: Geschenkauftritt auf Person, Überraschungskontakt und abgegrenzten Umfang zugeschnitten. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Geburtstagsmusik planen",
     "title": "Musikalisches Geschenk Geburtstag anfragen",
@@ -138,35 +134,29 @@
   },
   "focus": {
     "eyebrow": "Planung",
-    "title": "Typische Einsatzpunkte für Musikalisches Geschenk Geburtstag.",
-    "lead": "Nicht jeder Geburtstag braucht dieselbe musikalische Länge. Entscheidend ist, welche Aufgabe die Musik übernehmen soll.",
+    "title": "Das musikalische Geschenk vorbereiten.",
+    "lead": "Die konkrete Musik wird mit eurem Ablauf und dem Spielort abgestimmt.",
     "items": [
       {
-        "time": "Vor Beginn",
-        "kicker": "Ankommen",
-        "title": "Den Raum öffnen",
-        "text": "Ein erstes Set schafft Atmosphäre, während Gäste eintreffen und noch nicht alle Gespräche sortiert sind."
+        "time": "1",
+        "kicker": "Planung",
+        "title": "Musikgeschmack",
+        "text": "Ein persönliches Lied oder eine gewünschte Stimmung nennen."
       },
       {
-        "time": "Hauptmoment",
-        "kicker": "Persönlich",
-        "title": "Ein Stück mit Bedeutung",
-        "text": "Ein Wunschlied oder eine vertraute Melodie macht Musikalisches Geschenk Geburtstag besonders, ohne viele Worte zu brauchen."
+        "time": "2",
+        "kicker": "Planung",
+        "title": "Vertrauter Kontakt",
+        "text": "Zugang und Einsatzsignal mit einer eingeweihten Person abstimmen."
       },
       {
-        "time": "Während der Feier",
-        "kicker": "Begleitung",
-        "title": "Musik als ruhiger Rahmen",
-        "text": "Kurze Sets können Gratulationen, Essen oder lockere Begegnungen tragen, ohne die Feier anzuhalten."
-      },
-      {
-        "time": "Nach einer Rede",
-        "kicker": "Übergang",
-        "title": "Worte nachklingen lassen",
-        "text": "Nach Toast, Rede oder Geschenk kann Musik den Moment lösen und den nächsten Teil des Geburtstags öffnen."
+        "time": "3",
+        "kicker": "Planung",
+        "title": "Geschenk und Feier",
+        "text": "Eigenen Hörmoment und weitere Begleitung getrennt planen."
       }
     ],
-    "footnote": "Die konkrete Länge richtet sich nach Raum, Gästezahl, Anlass und gewünschter Wirkung."
+    "footnote": "Die konkrete Musik wird mit eurem Ablauf und dem Spielort abgestimmt."
   },
   "elegy": {
     "passages": []

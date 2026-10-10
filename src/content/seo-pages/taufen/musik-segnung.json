@@ -8,78 +8,78 @@
   "priority": "P2",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Segnung | Live-Viola",
-  "seoDescription": "Musik Segnung: sanfte Solo-Viola für Taufe, Segnung, Gottesdienst und Familienfeier. Persönlich und ruhig geplant.",
+  "seoTitle": "Musik für Segnung & Willkommensfest | Live-Viola",
+  "seoDescription": "Solo-Viola für Segnung oder freies Willkommensfest: Familienablauf, Wünsche, Musikmomente und optionalen Empfang persönlich abstimmen.",
   "hero": {
     "eyebrow": "Taufmusik",
-    "title": "Musik zur Segnung mit ruhigem Live-Klang.",
-    "lead": "Segnung ist breiter und freier als Taufe; Musik muss deshalb sehr genau auf das Ritual reagieren. Ich plane Solo-Viola so, dass Musik, Worte, Raum und Familie zusammenpassen.",
+    "title": "Musik für eine Segnung oder ein freies Willkommensfest.",
+    "lead": "Die Familie plant den Anlass: ein persönlicher Willkommenstext, ein Ritual oder ein gemeinsamer Moment. Wir stimmen die Solo-Viola auf die tatsächlich gewünschte Feierform ab.",
     "badge": "Sanfte Viola für Familie & Kirche"
   },
   "split": {
     "seal": "Musik Segnung\nTaufe\nLive-Viola",
     "sections": [
       {
-        "title": "Musik passend zu Ablauf und Feier planen.",
-        "lede": "Familien, die eine freie oder kirchliche Segnung musikalisch begleiten lassen möchten, wünschen sich eine musikalische Begleitung für ihre Feier. Mögliche Einsatzorte und Momente sind freie Segnung, Willkommensfest, kirchlicher Segen oder Familienritual.",
+        "title": "Eine freie Feier beginnt mit eurem Familienablauf.",
         "paragraphs": [
-          "Segnung ist breiter und freier als Taufe; Musik muss deshalb sehr genau auf das Ritual reagieren.",
-          "Ich begleite Worte, Kerzen, Patenbeiträge oder einen stillen Segensmoment mit weicher Viola.",
-          "Entscheidend sind der Ablauf der Feier, die vorgesehenen Musikmomente, der Raum und die gewünschte Stimmung.",
-          "Wichtig sind Art der Segnung, Textanteile, Rituale, gewünschte Nähe und der Übergang zur Familienfeier.",
-          "Solo-Viola kann einen Segensmoment halten, ohne ihn religiös festzulegen.",
-          "Zuerst geht es um die Aufgabe der Musik. Soll sie beruhigen, sammeln, einen Segen halten, ein Wunschlied tragen oder die Familienfeier danach öffnen?",
-          "Ein persönliches Familienlied kann anstelle einer langen Stückliste den ganzen Tag zusammenhalten."
+          "Ein Willkommensfest kann ohne kirchlichen Gottesdienst gestaltet werden. Vielleicht gibt es persönliche Worte, ein gemeinsames Ritual oder einen bewusst gewählten Musikmoment. Beschreibt, was ihr plant und wer durch die Feier führt.",
+          "Bei einer kirchlichen Segnung bleibt dagegen die zuständige Gemeinde beteiligt. Beide Formen brauchen eigene Absprachen. Die musikalische Planung richtet sich nach eurem tatsächlichen Rahmen, ohne ein festes religiöses Ritual vorauszusetzen."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
-          "alt": "Live-Viola für Musik Segnung im ruhigen Tauf- und Familienrahmen"
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
         },
-        "imageFirst": false,
-        "eyebrow": "Einordnung"
-      },
-      {
-        "title": "Musik Segnung im Ablauf sinnvoll einsetzen.",
-        "lede": "Wenn mehrere Kinder getauft werden, plane ich die Musik so, dass der Gottesdienst nicht unnötig länger wird.",
-        "paragraphs": [
-          "Danach geht es um die konkreten Einsatzpunkte, damit Musik nicht zufällig beginnt, sondern dem Ablauf wirklich Halt gibt.",
-          "Die Auswahl der Stücke entsteht aus Raum, Familiengefühl und gewünschter Stimmung, nicht aus einer pauschalen Taufmusik-Liste.",
-          "Wenn eine Pfarrperson, Rednerin oder Kirchenmusikerin beteiligt ist, können die musikalischen Stellen vorab ruhig abgestimmt werden.",
-          "Ich wähle Stücke danach aus, ob sie auf der Viola wirklich funktionieren. Nicht jedes bekannte Lied behält ohne Text dieselbe Wirkung, und nicht jeder Klassiker passt automatisch zu Kind, Raum und Familie.",
-          "Die Länge ist ebenfalls wichtig. Ein kurzer musikalischer Ausschnitt kann stärker sein als eine vollständige Version, wenn er genau an der richtigen Stelle steht.",
-          "In der Kirche braucht Musik andere Übergänge als bei einer freien Segnung. Dort muss sie Gebet, Lesung, Taufhandlung oder Gemeindelied respektieren und darf keine liturgischen Stellen verdecken."
+        "ctas": [
+          {
+            "label": "Musik im kirchlichen Gottesdienst",
+            "link": "/taufen/musik-gottesdienst-taufe/",
+            "style": "link-line"
+          }
         ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Kim Marie Borger spielt Live-Viola für Musik Segnung"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Bei einer freien Feier kann der Klang persönlicher gesetzt werden: rund um Kerzen, Worte der Paten, ein Willkommensritual oder einen Moment, in dem Eltern kurz innehalten möchten.",
-        "paragraphs": [
-          "Auch nach der Taufe verändert sich die Rolle der Musik. Beim Empfang geht es weniger um Liturgie und mehr um eine warme Atmosphäre, in der Familie, Kinder und Gäste gut miteinander ankommen.",
-          "Für eine Anfrage reichen Datum, Ort, Art der Feier, gewünschte musikalische Momente und vorhandene Liedideen. Danach lässt sich ein schlanker, passender Ablauf entwickeln.",
-          "Kirchliche Feiern wirken schnell überladen, wenn jeder Moment Musik bekommt. Sinnvoll ist eine Planung nach Ritual, Lesung, Segen, Auszug und anschließender Familienfeier."
-        ],
-        "image": {
-          "src": "/uploads/_DSC7458.webp",
-          "alt": "Live-Viola für Musik Segnung mit sanfter Live-Viola"
-        },
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
+        "title": "Worte und Musik bekommen jeweils einen eigenen Platz.",
         "paragraphs": [
-          "Eine gute Anfrage nennt Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich schnell unterscheiden, ob einzelne Stücke im Gottesdienst, Musik zur Taufhandlung, der Auszug oder der anschließende Empfang passend ist."
+          "Ein Stück kann zu Beginn die Runde sammeln, nach einem persönlichen Text stehen oder die Feier abschließen. Wir vereinbaren mit Familie oder Moderation ein Startsignal und ein sinnvolles Ende. Nicht jede kleine Pause muss musikalisch gefüllt werden.",
+          "Ein persönliches Wunschlied wird auf seine geeignete Viola-Fassung geprüft. Titel, gewünschte Stelle und Vorbereitungszeit helfen dabei. Die Hörproben zeigen den Klang des Solo-Instruments; eine zusätzliche Besetzung wird gesondert abgestimmt."
         ],
         "image": {
-          "src": "/uploads/_DSC7270.webp",
-          "alt": "Live-Viola für Musik Segnung im ruhigen Tauf- und Familienrahmen"
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
+        "ctas": [
+          {
+            "label": "Hörproben",
+            "link": "/portfolio/",
+            "style": "link-line"
+          }
+        ],
         "imageFirst": true
+      },
+      {
+        "title": "Empfang und Standort als weiteren Abschnitt planen.",
+        "paragraphs": [
+          "Wenn nach der Zeremonie Kaffee, Essen oder ein Empfang folgt, nennt Ort und Zeitfenster. Eine gesprächsfreundliche Begleitung bekommt andere Spielphasen als der gemeinsame Hörmoment. Bei einem Ortswechsel berücksichtigen wir den Weg.",
+          "Für ein Gartenformat brauchen wir einen trockenen Schattenplatz und einen nutzbaren Ersatzort. Zur Anfrage gehören Datum, Adresse, Gästezahl, Feierform, gewünschte Musikmomente und eine Kontaktperson."
+        ],
+        "image": {
+          "src": "/uploads/_DSC7458.webp",
+          "alt": "Kim Marie Borger hält ihre Viola und den Bogen am Ufer eines Sees"
+        },
+        "ctas": [
+          {
+            "label": "Musik für die Familienfeier",
+            "link": "/taufen/musik-familienfeier-taufe/",
+            "style": "link-line"
+          },
+          {
+            "label": "Gartenstandort vorbereiten",
+            "link": "/ratgeber/live-musik-gartenfest-planen/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
       }
     ]
   },
@@ -88,59 +88,38 @@
     "title": "FAQ zu Musik Segnung",
     "items": [
       {
-        "question": "Für wen passt diese musikalische Begleitung?",
-        "answer": "Diese musikalische Begleitung passt für Familien, die eine freie oder kirchliche Segnung musikalisch begleiten lassen möchten. Entscheidend ist, dass die Musik zum Raum, zur Familie und zum Ablauf passt.",
-        "open": true
+        "question": "Kann Musik bei einem freien Willkommensfest gespielt werden?",
+        "answer": "Ein freier Familienablauf kann angefragt werden. Worte, Rituale, Stücke und Startsignale werden mit Familie oder Moderation abgestimmt."
       },
       {
-        "question": "Worauf kommt es bei der Planung besonders an?",
-        "answer": "Entscheidend sind der Ablauf der Feier, die vorgesehenen Musikmomente, der Raum und die gewünschte Stimmung."
+        "question": "Muss die Feier religiös sein?",
+        "answer": "Ein freies Willkommensfest kann ohne kirchlichen Gottesdienst gestaltet werden. Bei einer kirchlichen Segnung wird die Gemeinde einbezogen."
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist und zum Rahmen passt. Ich prüfe Tonart, Länge und Wirkung vorab."
+        "question": "Können wir Wunschstücke einbringen?",
+        "answer": "Ja. Die geeignete Viola-Fassung, Länge und Vorbereitung werden vor der Zusage geprüft."
       },
       {
-        "question": "Wie wird die Musik im Ablauf platziert?",
-        "answer": "Wichtig sind Art der Segnung, Textanteile, Rituale, gewünschte Nähe und der Übergang zur Familienfeier. Meist sind wenige klare Einsätze stärker als durchgehende Musik."
-      },
-      {
-        "question": "Wie viele Stücke sind sinnvoll?",
-        "answer": "Meist reichen zwei bis vier musikalische Momente. Dadurch bleibt die Taufe leicht und jeder Einsatz hat eine klare Aufgabe."
-      },
-      {
-        "question": "Ist die Viola für Kirche und kleine Räume geeignet?",
-        "answer": "Ja. Sie klingt warm und trägt gut, bleibt aber auch in kleinen Räumen oder halligen Kirchen kontrollierbar."
-      },
-      {
-        "question": "Welche Angaben brauchst du für Musik Segnung?",
-        "answer": "Datum, Ort, Uhrzeit, Art der Feier, gewünschte Momente, vorhandene Liedideen und eine Kontaktperson für Rückfragen reichen für den Anfang."
-      },
-      {
-        "question": "Wann passt Musik Segnung besonders gut?",
-        "answer": "Diese musikalische Begleitung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Kirche oder Feierort, Ablauf, gewünschte Stücke, Familienmoment, Patenbezug und mögliche Musik nach dem Gottesdienst. Damit lässt sich klären, ob einzelne Stücke im Gottesdienst, Musik zur Taufhandlung, der Auszug oder der anschließende Empfang passend ist."
+        "question": "Kann danach beim Empfang weitergespielt werden?",
+        "answer": "Nach Abstimmung von Spielort, Zeitfenster, Umfang und geeigneten Bedingungen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/_DSC7458.webp",
-      "alt": "Live-Viola für Musik Segnung mit sanfter Live-Viola"
+      "alt": "Kim Marie Borger hält ihre Viola und den Bogen am Ufer eines Sees"
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Live-Viola für Musik Segnung im ruhigen Tauf- und Familienrahmen"
+      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Kim Marie Borger spielt Live-Viola für Musik Segnung"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Batch 10: Taufseiten vollständig nach Ort, Feierform, Instrument, Gottesdienst und Familien-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nSEO-Goal 10.10.2026: Willkommensfest-Kandidat auf vorhandener Segnungsseite umgesetzt; freie und kirchliche Feier sowie Empfang differenziert. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Taufe planen",
     "title": "Musik Segnung anfragen",
@@ -156,29 +135,29 @@
   },
   "focus": {
     "eyebrow": "Planung",
-    "title": "Worauf es bei Taufmusik ankommt.",
-    "lead": "Die Musik wird nicht als Programmpunkt gedacht, sondern als ruhiger Faden durch Taufe, Segnung oder Familienmoment.",
+    "title": "Euer Willkommen musikalisch gestalten.",
+    "lead": "Die konkrete Musik wird mit eurem Ablauf und dem Spielort abgestimmt.",
     "items": [
       {
-        "time": "I.",
-        "kicker": "Worauf es ankommt",
-        "title": "Die Aufgabe der Musik klären",
-        "text": "Segnung ist breiter und freier als Taufe; Musik muss deshalb sehr genau auf das Ritual reagieren. Daraus ergibt sich, ob ein einzelnes Stück, mehrere Einsätze oder ein kurzer Rahmen sinnvoll ist."
+        "time": "1",
+        "kicker": "Planung",
+        "title": "Feierform",
+        "text": "Freies Familienfest oder kirchliche Segnung nennen."
       },
       {
-        "time": "II.",
-        "kicker": "Raum",
-        "title": "Kirche, Garten oder Familienraum",
-        "text": "freie Segnung, Willkommensfest, kirchlicher Segen oder Familienritual verändert Lautstärke, Tempo und Länge der Musik deutlich."
+        "time": "2",
+        "kicker": "Planung",
+        "title": "Einsätze",
+        "text": "Musik nach Worten und Ritualen bewusst einplanen."
       },
       {
-        "time": "III.",
-        "kicker": "Repertoire",
-        "title": "Wunschlied oder klassischer Rahmen",
-        "text": "Ich begleite Worte, Kerzen, Patenbeiträge oder einen stillen Segensmoment mit weicher Viola. Die Auswahl bleibt kindgerecht, warm und nicht zu groß."
+        "time": "3",
+        "kicker": "Planung",
+        "title": "Empfang",
+        "text": "Ort und Zeit für weitere Begleitung getrennt abstimmen."
       }
     ],
-    "footnote": "Die Musik wird passend zu Feierform, Raum, Familie und Ablauf geplant."
+    "footnote": "Die konkrete Musik wird mit eurem Ablauf und dem Spielort abgestimmt."
   },
   "elegy": {
     "passages": []

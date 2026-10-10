@@ -1,0 +1,3241 @@
+{
+  "title": "50-Seiten-Plan: qualifizierte Longtail-Sichtbarkeit für Kim Marie Borger",
+  "date": "2026-10-10",
+  "status": "Alle 50 Positionen umgesetzt und lokal geprüft; Veröffentlichung ausstehend",
+  "domain": "kim-marie-borger.com",
+  "businessGoal": "Mehr passende Anfragen für Unterricht und Live-Viola; gemessen an Probestunden und tatsächlich durchführbaren Buchungsanfragen.",
+  "horizon": "6–12 Monate, erste Umsetzung in drei großen Paketen",
+  "target": "Angestrebtes Ergebnis, keine Prognose: 30–50 passende nichtmarkenbezogene Querygruppen mit wiederkehrender Top-10-Sichtbarkeit, darunter ausgewählte lokale/Viola-Nischen Richtung Top 3–5. Breite Begriffe bleiben längerfristig und unsicher.",
+  "inventory": {
+    "seoPages": 487,
+    "local": 343,
+    "topics": 144,
+    "guides": 12,
+    "gscIndexedAt20261004": 518,
+    "notIndexedAt20261004": 8
+  },
+  "totals": {
+    "clicks": 157,
+    "impressions": 2420,
+    "ctr": 0.065,
+    "position": 12.3
+  },
+  "fullPeriod": [
+    "2026-06-11",
+    "2026-10-06"
+  ],
+  "comparisonPeriods": {
+    "current": [
+      "2026-09-09",
+      "2026-10-06"
+    ],
+    "previous": [
+      "2026-08-12",
+      "2026-09-08"
+    ]
+  },
+  "sourceRegister": [
+    {
+      "id": "gsc",
+      "label": "Verified",
+      "title": "Search Console Export, sc-domain:kim-marie-borger.com",
+      "period": [
+        "2026-06-11",
+        "2026-10-06"
+      ],
+      "path": "C:/Users/matth/Documents/Codex/2026-10-09/kim-marie-seo-analysis/raw",
+      "limitation": "Export am 09.10.; Leistungsdaten bis 06.10., Indexstand 04.10. Queryzeilen sind unvollständig/anonymisiert. Exportperiode ist kein 28-Tage-Monat."
+    },
+    {
+      "id": "repo",
+      "label": "Verified",
+      "title": "Aktuelles kanonisches Repository",
+      "path": "C:/Users/matth/Documents/KimMarieBorger/site",
+      "limitation": "Inventar/Metadaten geprüft, keine neue vollständige Inhaltsprüfung aller 487 Seiten in diesem Planungsschritt."
+    },
+    {
+      "id": "cf",
+      "label": "Verified",
+      "title": "Crawl Foundry, ws_qb11y09uro0j",
+      "path": "C:/Users/matth/Documents/Codex/2026-10-10/kim-marie-seo-roadmap/crawl-foundry-evidence.json",
+      "limitation": "Nur ein gespeichertes Keyword. Opportunity-Snapshot needsRefresh; keine Empfehlungen daraus abgeleitet. Zeitstempel im Tool beweist nicht eigenständige Live-SERP-Abfrage."
+    },
+    {
+      "id": "business",
+      "label": "Verified",
+      "title": "Bestätigtes Projektprofil",
+      "path": "C:/Users/matth/Documents/DomainPortfolio/strategy/projects/kim-marie-borger.md",
+      "limitation": "Leistungen belegt; konkrete Termine, Kooperationen, Orte und Fallbeispiele vor Veröffentlichung erneut klären."
+    },
+    {
+      "id": "helpful",
+      "label": "Verified",
+      "title": "Google: Helpful content",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+    },
+    {
+      "id": "spam",
+      "label": "Verified",
+      "title": "Google: Doorway und scaled content abuse",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+    },
+    {
+      "id": "teaching-serp",
+      "label": "Supported",
+      "title": "Musikschule Emotio: Geigenunterricht Düsseldorf",
+      "url": "https://www.musikschule-emotio.de/geigenunterricht-duesseldorf/",
+      "limitation": "Anbieterseite zeigt Angebots-/Probestundenintent; kein Suchvolumen- oder Rankingbeleg für Kim."
+    },
+    {
+      "id": "business-serp",
+      "label": "Supported",
+      "title": "Dialog Quartett: Firmenmusik",
+      "url": "https://www.dialog-quartett.de/streichquartett-firmenevent.html",
+      "limitation": "Eigenes Angebot dieses Anbieters, keine Zusammenarbeit mit Kim. Empfang und Dinner als konkrete Buchungsaufgaben."
+    },
+    {
+      "id": "church",
+      "label": "Supported",
+      "title": "evangelisch.de: Trauungsfragen",
+      "url": "https://www.evangelisch.de/inhalte/253935/17-04-2026/24-antworten-auf-haufige-fragen-zur-trauung",
+      "limitation": "Musikwünsche werden mit der Gemeinde abgestimmt. Nicht als allgemeine Erlaubnis für jede Kirche verwenden."
+    }
+  ],
+  "querySignals": [
+    {
+      "query": "kim marie borger",
+      "clicks": 30,
+      "impressions": 70,
+      "ctrPercent": 42.9,
+      "position": 1.2
+    },
+    {
+      "query": "geige kurs",
+      "clicks": 1,
+      "impressions": 5,
+      "ctrPercent": 20,
+      "position": 11
+    },
+    {
+      "query": "gesangsunterricht kleve",
+      "clicks": 1,
+      "impressions": 2,
+      "ctrPercent": 50,
+      "position": 7
+    },
+    {
+      "query": "geigenunterricht köln",
+      "clicks": 0,
+      "impressions": 281,
+      "ctrPercent": 0,
+      "position": 21.8
+    },
+    {
+      "query": "hochzeit musik in düsseldorf",
+      "clicks": 0,
+      "impressions": 70,
+      "ctrPercent": 0,
+      "position": 24.9
+    },
+    {
+      "query": "musikplanung für hochzeitsfeier",
+      "clicks": 0,
+      "impressions": 34,
+      "ctrPercent": 0,
+      "position": 47.3
+    },
+    {
+      "query": "kim marie",
+      "clicks": 0,
+      "impressions": 24,
+      "ctrPercent": 0,
+      "position": 5.8
+    },
+    {
+      "query": "geigenunterricht kaiserswerth",
+      "clicks": 0,
+      "impressions": 15,
+      "ctrPercent": 0,
+      "position": 30.9
+    },
+    {
+      "query": "viola geburtstag",
+      "clicks": 0,
+      "impressions": 14,
+      "ctrPercent": 0,
+      "position": 6.3
+    },
+    {
+      "query": "taufmusik",
+      "clicks": 0,
+      "impressions": 13,
+      "ctrPercent": 0,
+      "position": 11.2
+    },
+    {
+      "query": "kundenevent an der messe düsseldorf",
+      "clicks": 0,
+      "impressions": 13,
+      "ctrPercent": 0,
+      "position": 69.2
+    },
+    {
+      "query": "geigenunterricht düsseldorf",
+      "clicks": 0,
+      "impressions": 11,
+      "ctrPercent": 0,
+      "position": 17.7
+    },
+    {
+      "query": "musik firmenfeier",
+      "clicks": 0,
+      "impressions": 10,
+      "ctrPercent": 0,
+      "position": 9.7
+    },
+    {
+      "query": "bratschenunterricht",
+      "clicks": 0,
+      "impressions": 10,
+      "ctrPercent": 0,
+      "position": 44.1
+    },
+    {
+      "query": "bratschenunterricht düsseldorf",
+      "clicks": 0,
+      "impressions": 8,
+      "ctrPercent": 0,
+      "position": 8.4
+    },
+    {
+      "query": "hochzeit musik in nordrhein-westfalen",
+      "clicks": 0,
+      "impressions": 8,
+      "ctrPercent": 0,
+      "position": 44.2
+    },
+    {
+      "query": "trauung musik nrw",
+      "clicks": 0,
+      "impressions": 7,
+      "ctrPercent": 0,
+      "position": 16.9
+    },
+    {
+      "query": "geigenunterricht erwachsene",
+      "clicks": 0,
+      "impressions": 6,
+      "ctrPercent": 0,
+      "position": 36.2
+    },
+    {
+      "query": "geigenunterricht ratingen",
+      "clicks": 0,
+      "impressions": 5,
+      "ctrPercent": 0,
+      "position": 6.2
+    },
+    {
+      "query": "künstler kleve",
+      "clicks": 0,
+      "impressions": 5,
+      "ctrPercent": 0,
+      "position": 6.4
+    },
+    {
+      "query": "kimmarie",
+      "clicks": 0,
+      "impressions": 5,
+      "ctrPercent": 0,
+      "position": 7.6
+    },
+    {
+      "query": "viola düsseldorf",
+      "clicks": 0,
+      "impressions": 5,
+      "ctrPercent": 0,
+      "position": 10.4
+    },
+    {
+      "query": "bratschenunterricht köln",
+      "clicks": 0,
+      "impressions": 5,
+      "ctrPercent": 0,
+      "position": 13.6
+    },
+    {
+      "query": "trauerfeier location ratingen",
+      "clicks": 0,
+      "impressions": 4,
+      "ctrPercent": 0,
+      "position": 4.5
+    },
+    {
+      "query": "live-musik für kirchliche und freie trauung",
+      "clicks": 0,
+      "impressions": 4,
+      "ctrPercent": 0,
+      "position": 37
+    },
+    {
+      "query": "firmenevent aktivitäten ratingen",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 2
+    },
+    {
+      "query": "geigenunterricht in der nähe",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 3
+    },
+    {
+      "query": "kim borger",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 5
+    },
+    {
+      "query": "location trauerfeier ratingen",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 5
+    },
+    {
+      "query": "marie",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 8
+    },
+    {
+      "query": "geige lernen köln",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 8.7
+    },
+    {
+      "query": "beste musik für betriebsfest",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 9.7
+    },
+    {
+      "query": "geige unterricht",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 9.7
+    },
+    {
+      "query": "firmenfeier musik",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 10
+    },
+    {
+      "query": "hochzeitsfeier musik emotional abstimmen",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 16.7
+    },
+    {
+      "query": "trauerfeier planen dortmund",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 44.3
+    },
+    {
+      "query": "geigenunterricht für erwachsene",
+      "clicks": 0,
+      "impressions": 3,
+      "ctrPercent": 0,
+      "position": 49
+    },
+    {
+      "query": "geigenunterricht",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 6.5
+    },
+    {
+      "query": "borger.dj",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 8
+    },
+    {
+      "query": "kim jürgens",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 9
+    },
+    {
+      "query": "firmenevent musik",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 9.5
+    },
+    {
+      "query": "violine lernen erwachsene",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 12
+    },
+    {
+      "query": "firmenevent duisburg",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 14
+    },
+    {
+      "query": "live musik paderborn",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 14
+    },
+    {
+      "query": "bratsche lernen erwachsene",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 16.5
+    },
+    {
+      "query": "geigenlehrer köln",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 28
+    },
+    {
+      "query": "firmenfeier hagen",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 30.5
+    },
+    {
+      "query": "trauerfeier wuppertal",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 44
+    },
+    {
+      "query": "geige lernen erwachsener",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 46
+    },
+    {
+      "query": "wann beginnt tanzmusik auf hochzeit",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 72.5
+    },
+    {
+      "query": "firmenveranstaltungen musik",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 86
+    },
+    {
+      "query": "hochzeitssängerin düsseldorf",
+      "clicks": 0,
+      "impressions": 2,
+      "ctrPercent": 0,
+      "position": 89.5
+    },
+    {
+      "query": "künstler",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 1
+    },
+    {
+      "query": "querflötenunterricht in der nähe",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 1
+    },
+    {
+      "query": "violin lessons",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 1
+    },
+    {
+      "query": "am grab",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 3
+    },
+    {
+      "query": "musik für firmenevent",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 5
+    },
+    {
+      "query": "bratschenunterricht bonn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 7
+    },
+    {
+      "query": "viola dortmund",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 7
+    },
+    {
+      "query": "viola events",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 7
+    },
+    {
+      "query": "geigenunterricht kinder",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 8
+    },
+    {
+      "query": "viola musik",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 8
+    },
+    {
+      "query": "kim bagger",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 9
+    },
+    {
+      "query": "trauerfeier mönchengladbach",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 10
+    },
+    {
+      "query": "viola konzerte",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 10
+    },
+    {
+      "query": "violine lernen als erwachsener",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 10
+    },
+    {
+      "query": "ablauf standesamtliche trauung musik",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 11
+    },
+    {
+      "query": "firmenevent siegen",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 11
+    },
+    {
+      "query": "musik im standesamt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 12
+    },
+    {
+      "query": "beerdigungen düsseldorf",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 13
+    },
+    {
+      "query": "firmenevent neuss",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 13
+    },
+    {
+      "query": "geigenunterricht essen",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 18
+    },
+    {
+      "query": "beerdigungskaffee ratingen",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 19
+    },
+    {
+      "query": "schilder kranenburg",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 22
+    },
+    {
+      "query": "trauungsmusik",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 26
+    },
+    {
+      "query": "wann musik bei standesamtlicher trauung",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 28
+    },
+    {
+      "query": "musik standesamt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 29
+    },
+    {
+      "query": "trauermusiker",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 41
+    },
+    {
+      "query": "wunschmusik",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 44
+    },
+    {
+      "query": "musiker trauung",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 45
+    },
+    {
+      "query": "borger see",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 50
+    },
+    {
+      "query": "musikalische umrahmung",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 75
+    },
+    {
+      "query": "geigenkurse für anfänger",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 87
+    },
+    {
+      "query": "weihnachtsfeier dinnermusik",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 88
+    },
+    {
+      "query": "restaurant trauerfeier ratingen",
+      "clicks": 0,
+      "impressions": 1,
+      "ctrPercent": 0,
+      "position": 93
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "cluster": "Unterricht",
+      "route": "/unterricht/",
+      "title": "Unterricht als zentrale Einstiegsseite",
+      "queries": [
+        "Geigenunterricht",
+        "Bratschenunterricht",
+        "Geigenunterricht Kosten"
+      ],
+      "primaryIntent": "Unterrichtsangebot vergleichen und Probestunde anfragen",
+      "deliverables": [
+        "Geige und Bratsche klar trennen",
+        "Stundenformat, Orte und Preisbildung erklären",
+        "Zielgruppen und passende Hör-/Lehrbeispiele verlinken"
+      ],
+      "requiredProof": "Aktuelle tatsächliche Unterrichtsformate, Kapazität, Treffpunkte und Konditionen bestätigen.",
+      "overlapControl": "Hub beschreibt das Gesamtangebot; Zielgruppenseiten behandeln spezielle Voraussetzungen.",
+      "parent": "/unterricht/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistung / Hub",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 0,
+        "impressions": 18,
+        "ctrPercent": 0,
+        "position": 6.2
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 5,
+          "position": 2.2
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 8,
+          "position": 7.8
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/page/unterricht.mdx",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 2,
+      "cluster": "Unterricht",
+      "route": "/unterricht/koeln/",
+      "title": "Geigenunterricht Köln",
+      "queries": [
+        "Geigenunterricht Köln",
+        "Geigenunterricht Köln Erwachsene"
+      ],
+      "primaryIntent": "Eine erreichbare Lehrkraft für Köln finden",
+      "deliverables": [
+        "Konkrete organisatorische Erreichbarkeit statt Ortsfloskeln",
+        "Leistungsbeleg und Ablauf einer Probestunde",
+        "Ein gemeinsamer Abschnitt für Geige und Bratsche"
+      ],
+      "requiredProof": "Tatsächlicher Unterrichtsort/Modus und aktuelle Verfügbarkeit für Köln; kein erfundenes Studio.",
+      "overlapControl": "Keine neuen Erwachsenen-/Kinder-/Stadtteil-Köln-URLs ohne getrennte Nachfrage und echte Ortsleistung.",
+      "parent": "/unterricht/",
+      "action": "Bestehend ausbauen",
+      "role": "Ortsseite",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 1,
+        "impressions": 331,
+        "ctrPercent": 0.3,
+        "position": 20.2
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 136,
+          "position": 16.4
+        },
+        "previous": {
+          "clicks": 1,
+          "impressions": 134,
+          "position": 19.1
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/seo-pages/unterricht/koeln.json",
+      "currentEditorialStatus": "manual-human-editorial-final-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 3,
+      "cluster": "Unterricht",
+      "route": "/unterricht/duesseldorf/",
+      "title": "Geigen- und Bratschenunterricht Düsseldorf",
+      "queries": [
+        "Geigenunterricht Düsseldorf",
+        "Bratschenunterricht Düsseldorf",
+        "Geigenunterricht Kaiserswerth"
+      ],
+      "primaryIntent": "Passenden Unterricht im Einsatzgebiet Düsseldorf finden",
+      "deliverables": [
+        "Einstieg und Wiedereinstieg unterscheiden",
+        "Ortsorganisation verbindlich beschreiben",
+        "Probestunde und passende Zielgruppen verlinken"
+      ],
+      "requiredProof": "Unterrichtsorganisation in Düsseldorf bestätigen; Kaiserswerth nur mit realem Angebot als Abschnitt.",
+      "overlapControl": "Geige und Bratsche auf derselben lokalen URL; keine Stadtteil-Multiplikation.",
+      "parent": "/unterricht/",
+      "action": "Bestehend ausbauen",
+      "role": "Ortsseite",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 0,
+        "impressions": 4,
+        "ctrPercent": 0,
+        "position": 17
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 1,
+          "position": 14
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 2,
+          "position": 8
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/seo-pages/unterricht/duesseldorf.json",
+      "currentEditorialStatus": "manual-human-editorial-final-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 4,
+      "cluster": "Unterricht",
+      "route": "/unterricht/geigenunterricht-erwachsene/",
+      "title": "Geigenunterricht für Erwachsene",
+      "queries": [
+        "Geigenunterricht Erwachsene",
+        "Geige lernen mit 40",
+        "Geige lernen mit 60"
+      ],
+      "primaryIntent": "Als erwachsene Person einen passenden Lernweg buchen",
+      "deliverables": [
+        "Anfänger und Wiedereinsteiger separat beantworten",
+        "Alltagsübung und erste Unterrichtsziele",
+        "Einen echten anonymisierten Unterrichtsablauf zeigen"
+      ],
+      "requiredProof": "Kim bestätigt Unterrichtspraxis; kein garantiertes Lerntempo.",
+      "overlapControl": "Altersvarianten sind Abschnitte dieser Seite, keine neuen URLs.",
+      "parent": "/unterricht/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 0,
+        "impressions": 3,
+        "ctrPercent": 0,
+        "position": 30.3
+      },
+      "gsc28DayComparison": null,
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/seo-pages/unterricht/geigenunterricht-erwachsene.json",
+      "currentEditorialStatus": "manual-intent-differentiated-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 5,
+      "cluster": "Unterricht",
+      "route": "/unterricht/geigenunterricht-kinder/",
+      "title": "Geigenunterricht für Kinder",
+      "queries": [
+        "Geigenunterricht Kinder",
+        "Ab wann Geige lernen",
+        "Geigenunterricht Kind Probestunde"
+      ],
+      "primaryIntent": "Eltern beurteilen Einstieg und Unterrichtsform",
+      "deliverables": [
+        "Reife und Instrumentenpassung erklären",
+        "Elternrolle und Übeorganisation",
+        "Probestunde ohne pauschales Mindestalter"
+      ],
+      "requiredProof": "Tatsächliche pädagogische Vorgehensweise; Bilder Minderjähriger nur mit geklärter Einwilligung.",
+      "overlapControl": "Altersfragen und Größenfragen einbinden, nicht pro Alter eine Seite.",
+      "parent": "/unterricht/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 8
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 1,
+          "position": 8
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 0,
+          "position": null
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/seo-pages/unterricht/geigenunterricht-kinder.json",
+      "currentEditorialStatus": "manual-intent-differentiated-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 6,
+      "cluster": "Unterricht",
+      "route": "/unterricht/geigenunterricht-anfaenger/",
+      "title": "Geigenunterricht ohne Vorkenntnisse",
+      "queries": [
+        "Geigenunterricht Anfänger",
+        "Geige lernen ohne Notenkenntnisse"
+      ],
+      "primaryIntent": "Den ersten Unterricht ohne Vorerfahrung buchen",
+      "deliverables": [
+        "Erste Stunde anschaulich beschreiben",
+        "Was mitzubringen und vorab zu klären ist",
+        "Haltung, Ton und Noten schrittweise einordnen"
+      ],
+      "requiredProof": "Realer Stundenablauf und Instrumentenorganisation; Leihinstrument nicht als eigenes Angebot erfinden.",
+      "overlapControl": "Buchungsseite; /unterricht/geige-lernen/ beantwortet Orientierung vor der Buchung.",
+      "parent": "/unterricht/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 87
+      },
+      "gsc28DayComparison": null,
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/seo-pages/unterricht/geigenunterricht-anfaenger.json",
+      "currentEditorialStatus": "manual-intent-differentiated-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 7,
+      "cluster": "Unterricht",
+      "route": "/unterricht/bratschenunterricht/",
+      "title": "Bratschenunterricht als eigenständiges Angebot",
+      "queries": [
+        "Bratschenunterricht",
+        "Viola Unterricht"
+      ],
+      "primaryIntent": "Unterricht ausdrücklich für Viola finden",
+      "deliverables": [
+        "Bratschenklang und Lerninhalte zeigen",
+        "Geige-Wechsel und Einsteiger unterscheiden",
+        "Passende echte Hörprobe und Probestunde"
+      ],
+      "requiredProof": "Kim bestätigt Lehrangebot und Rechte der Medien.",
+      "overlapControl": "Viola-/Bratsche-Synonymseiten gemeinsam vergleichen; Gewinnerentscheidung erst nach Querydaten.",
+      "parent": "/unterricht/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/unterricht/bratschenunterricht.json",
+      "currentEditorialStatus": "risk-pass-2026-06-16-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 8,
+      "cluster": "Unterricht",
+      "route": "/unterricht/bratschenunterricht-erwachsene/",
+      "title": "Bratschenunterricht für Erwachsene",
+      "queries": [
+        "Bratschenunterricht Erwachsene",
+        "Bratsche lernen Erwachsene"
+      ],
+      "primaryIntent": "Erwachsenengerechten Viola-Unterricht buchen",
+      "deliverables": [
+        "Neustart, Instrumentwechsel und Wiedereinstieg",
+        "Konkretes erstes Unterrichtsziel",
+        "Instrumentenwahl und Übeplanung verlinken"
+      ],
+      "requiredProof": "Tatsächlicher Unterrichtsablauf; keine Erfolgsgarantie.",
+      "overlapControl": "Bestehender Erwachsenen-Ratgeber orientiert, diese URL erklärt die buchbare Leistung.",
+      "parent": "/unterricht/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/unterricht/bratschenunterricht-erwachsene.json",
+      "currentEditorialStatus": "manual-intent-differentiated-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 9,
+      "cluster": "Unterricht",
+      "route": "/ratgeber/geigen-probestunde/",
+      "title": "Probestunde vorbereiten",
+      "queries": [
+        "Geigenunterricht Probestunde",
+        "Was braucht man zur Geigen Probestunde"
+      ],
+      "primaryIntent": "Eine Probestunde vorbereitet besuchen",
+      "deliverables": [
+        "Mitbring- und Fragencheckliste",
+        "Mit oder ohne eigenes Instrument klären",
+        "Wie man Lernziele für die Stunde formuliert"
+      ],
+      "requiredProof": "Kim bestätigt den Ablauf ihrer kostenlosen unverbindlichen Probestunde.",
+      "overlapControl": "Nur eigenständig, wenn ausführliche Vorbereitung entsteht; kurze FAQ bleibt auf Unterricht.",
+      "parent": "/unterricht/",
+      "action": "Neu anlegen",
+      "role": "Ratgeber",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/lib/ratgeber.ts",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 10,
+      "cluster": "Unterricht",
+      "route": "/ratgeber/geige-bratsche-instrument-start/",
+      "title": "Das erste Instrument auswählen",
+      "queries": [
+        "Geige Anfänger kaufen oder mieten",
+        "Welche Bratsche für Anfänger"
+      ],
+      "primaryIntent": "Vor dem Unterricht die Instrumentenbeschaffung klären",
+      "deliverables": [
+        "Kaufen, leihen und mieten als Entscheidungswege",
+        "Größe, Zubehör und persönliche Anpassung",
+        "Checkliste für Rücksprache mit Lehrkraft/Fachgeschäft"
+      ],
+      "requiredProof": "Kim fachlich prüfen lassen; keine erfundenen Händler, Mietangebote oder Produktpreise.",
+      "overlapControl": "Vergleichsratgeber Geige/Bratsche beantwortet Instrumentenart; hier geht es um Beschaffung und Passung.",
+      "parent": "/unterricht/",
+      "action": "Neu anlegen",
+      "role": "Ratgeber",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/lib/ratgeber.ts",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 11,
+      "cluster": "Unterricht",
+      "route": "/ratgeber/geige-bratsche-ueben-alltag/",
+      "title": "Üben im Alltag organisieren",
+      "queries": [
+        "Geige üben Erwachsene",
+        "Bratsche Übeplan Anfänger"
+      ],
+      "primaryIntent": "Zwischen Unterrichtsstunden sinnvoll üben",
+      "deliverables": [
+        "Kurze flexible Übeeinheiten",
+        "Hör-, Bogen- und Rhythmusziele",
+        "Eine ausfüllbare Übenotiz als Planungshilfe; keine unbelegte Freigabe durch Kim"
+      ],
+      "requiredProof": "Eigene fachlich geprüfte Übeanleitung, ohne medizinische oder zeitliche Lernerfolgsversprechen.",
+      "overlapControl": "Keine einzelnen URLs für jede Übedauer; kein Ersatz für eine Unterrichts-Buchungsseite.",
+      "parent": "/unterricht/",
+      "action": "Neu anlegen",
+      "role": "Ratgeber",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/lib/ratgeber.ts",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 12,
+      "cluster": "Unterricht",
+      "route": "/ratgeber/geige-wiedereinstieg/",
+      "title": "Nach langer Pause wieder Geige spielen",
+      "queries": [
+        "Geige Wiedereinstieg",
+        "Geige spielen nach langer Pause"
+      ],
+      "primaryIntent": "Vorkenntnisse einschätzen und die Rückkehr planen",
+      "deliverables": [
+        "Instrument prüfen lassen",
+        "Vorerfahrung und erstes Ziel erfassen",
+        "Behutsamer Wiedereinstiegsplan als Vorlage"
+      ],
+      "requiredProof": "Kims reale Vorgehensweise beim Wiedereinstieg; kein erfundener Schülerfall.",
+      "overlapControl": "Zielgruppenseite verkauft Unterricht; der Ratgeber löst das konkrete Wiederanfangsproblem.",
+      "parent": "/unterricht/",
+      "action": "Neu anlegen",
+      "role": "Ratgeber",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/lib/ratgeber.ts",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/unterricht/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 13,
+      "cluster": "Hochzeit",
+      "route": "/hochzeiten/",
+      "title": "Hochzeitsmusik als Angebot",
+      "queries": [
+        "Live Hochzeitsmusik",
+        "Viola Hochzeit",
+        "Hochzeitsmusik buchen"
+      ],
+      "primaryIntent": "Passende Live-Musik für die Hochzeit auswählen",
+      "deliverables": [
+        "Trauform, Empfang und Dinner als Auswahlweg",
+        "Echte Hörproben pro Anlass",
+        "Leistungsumfang und individuelle Preisfaktoren"
+      ],
+      "requiredProof": "Bestätigtes Repertoire, Rechte der Aufnahmen und realer Angebotsprozess.",
+      "overlapControl": "Hub kuratiert Detailseiten und enthält keine zusätzliche Synonym-Landingpage.",
+      "parent": "/hochzeiten/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistung / Hub",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 0,
+        "impressions": 38,
+        "ctrPercent": 0,
+        "position": 7.2
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 7,
+          "position": 7.7
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 14,
+          "position": 6.6
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/page/hochzeiten.mdx",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/hochzeiten/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 14,
+      "cluster": "Hochzeit",
+      "route": "/hochzeiten/duesseldorf/",
+      "title": "Hochzeitsmusik Düsseldorf",
+      "queries": [
+        "Hochzeit Musik Düsseldorf",
+        "Live Musik Trauung Düsseldorf"
+      ],
+      "primaryIntent": "Live-Viola für einen Hochzeitstermin in Düsseldorf anfragen",
+      "deliverables": [
+        "Anfahrt und mehrere Spielorte konkret klären",
+        "Offizielle Quellen zu lokalen Abläufen prüfen",
+        "Reale lokale Auftrittsbelege nur falls vorhanden"
+      ],
+      "requiredProof": "Tatsächliche Buchbarkeit; keine Auftritte an namentlichen Locations erfinden.",
+      "overlapControl": "Keine neue URL für jede Trauform plus Stadt; Abschnitte auf dieser Seite.",
+      "parent": "/hochzeiten/",
+      "action": "Bestehend ausbauen",
+      "role": "Ortsseite",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 2,
+        "impressions": 116,
+        "ctrPercent": 1.7,
+        "position": 21
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 49,
+          "position": 12.1
+        },
+        "previous": {
+          "clicks": 2,
+          "impressions": 48,
+          "position": 14.9
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/seo-pages/hochzeiten/duesseldorf.json",
+      "currentEditorialStatus": "manual-human-editorial-final-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/hochzeiten/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 15,
+      "cluster": "Hochzeit",
+      "route": "/hochzeiten/musik-kirchliche-trauung/",
+      "title": "Musik für kirchliche Trauungen",
+      "queries": [
+        "Live Musik kirchliche Trauung",
+        "Instrumentalmusik Kirche Hochzeit"
+      ],
+      "primaryIntent": "Solo-Viola für einen abgestimmten Gottesdienst buchen",
+      "deliverables": [
+        "Solo-Stück und Gemeindegesang unterscheiden",
+        "Abstimmung mit Gemeinde/Kirchenmusik",
+        "Musikmomente, Platz und Anfrageumfang"
+      ],
+      "requiredProof": "Gemeinde entscheidet im Einzelfall; evangelische und katholische Regeln nicht verallgemeinern.",
+      "overlapControl": "Leistungsseite, getrennt vom neuen Gesprächs- und Abstimmungsratgeber.",
+      "parent": "/hochzeiten/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 29
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 0,
+          "position": null
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 1,
+          "position": 29
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/seo-pages/hochzeiten/musik-kirchliche-trauung.json",
+      "currentEditorialStatus": "risk-pass-2026-06-16-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/hochzeiten/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 16,
+      "cluster": "Hochzeit",
+      "route": "/hochzeiten/musik-standesamt/",
+      "title": "Live-Musik im Standesamt",
+      "queries": [
+        "Live Musik Standesamt",
+        "Instrumentalmusik standesamtliche Trauung"
+      ],
+      "primaryIntent": "Live-Viola für die standesamtliche Zeremonie buchen",
+      "deliverables": [
+        "Kurze Musikmomente und Zeitfenster",
+        "Live-Instrument statt pauschaler Technikzusage",
+        "Ablauf und Ort mit dem Amt abstimmen"
+      ],
+      "requiredProof": "Tatsächliche Amtsbedingungen direkt mit Veranstaltern prüfen; keine kommunalen Regeln erfinden.",
+      "overlapControl": "Bestehender Standesamt-Ratgeber liefert Checkliste; diese Seite erklärt die Leistung.",
+      "parent": "/hochzeiten/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": {
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 2
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 0,
+          "position": null
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 1,
+          "position": 2
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/seo-pages/hochzeiten/musik-standesamt.json",
+      "currentEditorialStatus": "evidence-led-human-rewrite-2026-08-31",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/hochzeiten/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 17,
+      "cluster": "Hochzeit",
+      "route": "/hochzeiten/musik-brauteinzug/",
+      "title": "Musik zum Einzug",
+      "queries": [
+        "Musik Brauteinzug live",
+        "Instrumentalmusik Einzug Hochzeit"
+      ],
+      "primaryIntent": "Einzugsstück und musikalischen Start planen",
+      "deliverables": [
+        "Weglänge und Tempo",
+        "Startsignal und mögliche Wiederholung",
+        "Bestätigte passende Fassungen mit Hörbeispiel"
+      ],
+      "requiredProof": "Konkrete spielbare Fassungen bestätigen; keine Noten oder Songtexte kopieren.",
+      "overlapControl": "Kein neues Einzug-Lied-URL-Raster; Wunschstücke auf derselben Seite erklären.",
+      "parent": "/hochzeiten/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/hochzeiten/musik-brauteinzug.json",
+      "currentEditorialStatus": "manual-indexing-strengthened-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/hochzeiten/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 18,
+      "cluster": "Hochzeit",
+      "route": "/hochzeiten/musik-auszug/",
+      "title": "Musik zum Auszug",
+      "queries": [
+        "Musik Auszug Hochzeit live",
+        "Instrumentalmusik Auszug Trauung"
+      ],
+      "primaryIntent": "Auszug und Übergang in Gratulationen gestalten",
+      "deliverables": [
+        "Beginn nach Ende der Zeremonie",
+        "Dauer und Übergang zu Fotos/Empfang",
+        "Andere musikalische Aufgabe als beim Einzug"
+      ],
+      "requiredProof": "Spielbare Auswahl und Startsignal aus realem Ablauf.",
+      "overlapControl": "Ja-Wort und Ringtausch nicht durch weitere ähnliche Auszugsseiten vervielfachen.",
+      "parent": "/hochzeiten/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/hochzeiten/musik-auszug.json",
+      "currentEditorialStatus": "risk-pass-2026-06-16-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/hochzeiten/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 19,
+      "cluster": "Hochzeit",
+      "route": "/hochzeiten/musik-hochzeitsdinner/",
+      "title": "Musik zum Hochzeitsdinner",
+      "queries": [
+        "Live Musik Hochzeitsdinner",
+        "Dezente Musik Hochzeit Essen"
+      ],
+      "primaryIntent": "Begleitung für Dinner und Reden buchen",
+      "deliverables": [
+        "Tischgespräche und Lautstärke",
+        "Spielblöcke und Redepausen",
+        "Wechsel vom Empfang zum Dinner"
+      ],
+      "requiredProof": "Reale Ablaufplanung, keine festen Paketzeiten.",
+      "overlapControl": "Mit /hochzeiten/dinnermusik-hochzeit/ Queryüberlappung prüfen; keine automatische Weiterleitung.",
+      "parent": "/hochzeiten/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/hochzeiten/musik-hochzeitsdinner.json",
+      "currentEditorialStatus": "rewritten-batch-16-stretched-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/hochzeiten/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 20,
+      "cluster": "Hochzeit",
+      "route": "/hochzeiten/hochzeitsmusik-buchen/",
+      "title": "Hochzeitsmusik buchen",
+      "queries": [
+        "Hochzeitsmusik buchen Kosten",
+        "Musikerin Hochzeit anfragen"
+      ],
+      "primaryIntent": "Verfügbarkeit und ein konkretes Angebot erhalten",
+      "deliverables": [
+        "Fragen für die Anfrage",
+        "Umfang, Anfahrt, Wunschmusik und Wartezeit",
+        "Was vor einer Zusage geprüft wird"
+      ],
+      "requiredProof": "Bestätigter Buchungsprozess, individuelle Angebote.",
+      "overlapControl": "Mit live-musik-hochzeit-buchen vergleichen; ein Gewinner pro tatsächlichem Buchungsjob.",
+      "parent": "/hochzeiten/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/hochzeiten/hochzeitsmusik-buchen.json",
+      "currentEditorialStatus": "manual-copy-strengthened-2026-08-31-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/hochzeiten/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 21,
+      "cluster": "Hochzeit",
+      "route": "/ratgeber/hochzeitsmusik-kosten/",
+      "title": "Kosten für Hochzeitsmusik verstehen",
+      "queries": [
+        "Was kostet Live Musik Hochzeit",
+        "Hochzeitsmusik Kosten Standesamt Sektempfang"
+      ],
+      "primaryIntent": "Ein Angebot und seinen Umfang richtig vergleichen",
+      "deliverables": [
+        "Zeremonie gegenüber Empfang/Dinner",
+        "Anfahrt, Vorbereitung, Wechsel und Wartezeiten",
+        "Ausfüllbare Budget- und Anfragecheckliste"
+      ],
+      "requiredProof": "Aktuelle echte Preislogik von Kim, Euro-Beispiele nur mit Freigabe.",
+      "overlapControl": "Keine Preis-Landingpage pro Stadt oder Dauer; Buchungsseite erklärt Anfrage, Ratgeber erklärt Angebotsvergleich.",
+      "parent": "/hochzeiten/",
+      "action": "Neu anlegen",
+      "role": "Ratgeber",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/lib/ratgeber.ts",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/hochzeiten/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 22,
+      "cluster": "Hochzeit",
+      "route": "/ratgeber/musik-kirchliche-trauung-planen/",
+      "title": "Kirchliche Trauungsmusik abstimmen",
+      "queries": [
+        "Kirchliche Trauung Musik planen",
+        "Wunschlied Kirche Trauung abstimmen"
+      ],
+      "primaryIntent": "Musikabsprachen für das Traugespräch vorbereiten",
+      "deliverables": [
+        "Fragen an Gemeinde und Kirchenmusik",
+        "Gemeindegesang versus Solo",
+        "Zuständigkeiten und Einsatzliste als Vorlage"
+      ],
+      "requiredProof": "Aktuelle offizielle kirchliche Quellen und konkrete Zustimmung; keine allgemeine liturgische Erlaubnis behaupten.",
+      "overlapControl": "Bestehender Trauungsratgeber behandelt alle Formen; dieser vertieft ausschließlich die Abstimmung im Gottesdienst.",
+      "parent": "/hochzeiten/",
+      "action": "Neu anlegen",
+      "role": "Ratgeber",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/lib/ratgeber.ts",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/hochzeiten/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 23,
+      "cluster": "Trauer",
+      "route": "/beerdigungen/",
+      "title": "Trauermusik als zentrale Leistung",
+      "queries": [
+        "Live Trauermusik",
+        "Musik Beerdigung live"
+      ],
+      "primaryIntent": "Persönliche Musik für einen Abschied anfragen",
+      "deliverables": [
+        "Anfrage ruhig und einfach halten",
+        "Halle, Kirche und Grab unterscheiden",
+        "Echte passende Hörproben"
+      ],
+      "requiredProof": "Fakten zu Verfügbarkeit und Ablauf; keine Trauerbewältigungsversprechen.",
+      "overlapControl": "Hub orientiert; konkrete Spielorte, Stückwahl und Buchung haben eigene Aufgaben.",
+      "parent": "/beerdigungen/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistung / Hub",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 1,
+        "impressions": 27,
+        "ctrPercent": 3.7,
+        "position": 9.8
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 8,
+          "position": 8.5
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 9,
+          "position": 12.1
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/page/beerdigungen.mdx",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/beerdigungen/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 24,
+      "cluster": "Trauer",
+      "route": "/beerdigungen/duesseldorf/",
+      "title": "Trauermusik Düsseldorf",
+      "queries": [
+        "Live Trauermusik Düsseldorf",
+        "Musik Beerdigung Düsseldorf"
+      ],
+      "primaryIntent": "Eine Musikerin für einen Abschied in Düsseldorf finden",
+      "deliverables": [
+        "Anfahrt, Trauerhalle und anschließender Weg",
+        "Abstimmung mit Bestattungshaus",
+        "Kurze nötige Anfrageangaben"
+      ],
+      "requiredProof": "Tatsächliche regionale Buchbarkeit, Friedhofsregeln nur mit offizieller Quelle.",
+      "overlapControl": "Kein neuer Friedhof-/Stadtteil-Batch ohne eigene Nachfrage und nachprüfbare Besonderheiten.",
+      "parent": "/beerdigungen/",
+      "action": "Bestehend ausbauen",
+      "role": "Ortsseite",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 2,
+        "impressions": 11,
+        "ctrPercent": 18.2,
+        "position": 8
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 2,
+          "impressions": 8,
+          "position": 9.1
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 3,
+          "position": 5
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/seo-pages/beerdigungen/duesseldorf.json",
+      "currentEditorialStatus": "manual-human-editorial-final-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/beerdigungen/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 25,
+      "cluster": "Trauer",
+      "route": "/beerdigungen/trauermusik-buchen/",
+      "title": "Trauermusik buchen",
+      "queries": [
+        "Trauermusik buchen",
+        "Live Musik Beerdigung kurzfristig"
+      ],
+      "primaryIntent": "Machbarkeit und Angebot für einen konkreten Termin prüfen",
+      "deliverables": [
+        "Nötige Angaben früh beantworten",
+        "Kurzer Vorlauf als Prüfung, nicht Zusage",
+        "Koordination mit Bestattungshaus und Preisfaktoren"
+      ],
+      "requiredProof": "Aktueller Buchungsprozess; keine Verfügbarkeit garantieren.",
+      "overlapControl": "Synonyme Trauermusikerin/Musikerin-Trauerfeier vor weiteren Textvarianten vergleichen.",
+      "parent": "/beerdigungen/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/beerdigungen/trauermusik-buchen.json",
+      "currentEditorialStatus": "manual-copy-strengthened-2026-08-31-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/beerdigungen/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 26,
+      "cluster": "Trauer",
+      "route": "/beerdigungen/musik-am-grab/",
+      "title": "Musik am Grab",
+      "queries": [
+        "Live Musik am Grab",
+        "Instrumentalmusik Beisetzung draußen"
+      ],
+      "primaryIntent": "Musik für den Außenmoment einer Beisetzung planen",
+      "deliverables": [
+        "Weg und Standort",
+        "Wetterschutz und Alternativen",
+        "Signal und Übergang nach der Halle"
+      ],
+      "requiredProof": "Tatsächliche örtliche Bedingungen mit Bestattungshaus/Friedhof klären.",
+      "overlapControl": "Spielort begründet eigene Seite; Outdoor-Hochzeitsratgeber erfüllt einen anderen Anlass.",
+      "parent": "/beerdigungen/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/beerdigungen/musik-am-grab.json",
+      "currentEditorialStatus": "risk-pass-2026-06-16-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/beerdigungen/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 27,
+      "cluster": "Trauer",
+      "route": "/beerdigungen/ave-maria-beerdigung/",
+      "title": "Ave Maria als Wunschstück prüfen",
+      "queries": [
+        "Ave Maria Beerdigung instrumental",
+        "Ave Maria live Trauerfeier"
+      ],
+      "primaryIntent": "Fassung, Eignung und Zeitpunkt eines konkreten Stückes klären",
+      "deliverables": [
+        "Fassungen nicht verwechseln",
+        "Solo-Viola-Machbarkeit",
+        "Abstimmung und optional echte rechtegeklärte Hörprobe"
+      ],
+      "requiredProof": "Kim bestätigt konkrete Fassung und Aufführbarkeit; Medienrechte separat prüfen.",
+      "overlapControl": "Einzelstück-Seiten nur bei eigener Frage und Beleg; kein 50-Song-Batch.",
+      "parent": "/beerdigungen/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": {
+        "clicks": 0,
+        "impressions": 4,
+        "ctrPercent": 0,
+        "position": 6.8
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 4,
+          "position": 6.8
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 0,
+          "position": null
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/seo-pages/beerdigungen/ave-maria-beerdigung.json",
+      "currentEditorialStatus": "manual-indexing-strengthened-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/beerdigungen/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 28,
+      "cluster": "Trauer",
+      "route": "/beerdigungen/trauermusik-repertoire/",
+      "title": "Tatsächlich spielbares Trauerrepertoire",
+      "queries": [
+        "Trauermusik Repertoire Viola",
+        "Instrumentale Trauermusik auswählen"
+      ],
+      "primaryIntent": "Konkrete spielbare Stücke auswählen",
+      "deliverables": [
+        "Bestätigte Auswahl statt allgemeiner Liederliste",
+        "Stimmung und Einsatzmoment",
+        "Wunschstücke und Vorbereitung klar markieren"
+      ],
+      "requiredProof": "Kim bestätigt jedes gelistete Stück und Version; Hörprobe nur mit Rechten.",
+      "overlapControl": "Ratgeber trauermusik-repertoire erklärt die Entscheidung; Leistungsseite zeigt das wirklich spielbare Angebot.",
+      "parent": "/beerdigungen/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/beerdigungen/trauermusik-repertoire.json",
+      "currentEditorialStatus": "manual-indexing-strengthened-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/beerdigungen/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 29,
+      "cluster": "Trauer",
+      "route": "/ratgeber/trauermusik-kosten/",
+      "title": "Kosten für Live-Trauermusik einordnen",
+      "queries": [
+        "Was kostet Live Musik Beerdigung",
+        "Trauermusik Kosten"
+      ],
+      "primaryIntent": "Ein persönliches Angebot ohne unangenehme Unklarheiten verstehen",
+      "deliverables": [
+        "Zeremonie und Außenmoment",
+        "Vorbereitung, Anfahrt und Wartezeit",
+        "Kurze Vorlage für Angaben an Bestattungshaus/Musikerin"
+      ],
+      "requiredProof": "Kims echte Preisbildung, keine übernommenen Anbieterpreise.",
+      "overlapControl": "Kein pauschaler Preisrechner; Buchungsseite führt zur Anfrage.",
+      "parent": "/beerdigungen/",
+      "action": "Neu anlegen",
+      "role": "Ratgeber",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/lib/ratgeber.ts",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/beerdigungen/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 30,
+      "cluster": "Trauer",
+      "route": "/fuer-bestattungshaeuser/",
+      "title": "Abstimmung für Bestattungshäuser",
+      "queries": [
+        "Trauermusik für Bestatter",
+        "Musikerin Trauerfeier Zusammenarbeit"
+      ],
+      "primaryIntent": "Als koordinierendes Bestattungshaus eine Musikerin einplanen",
+      "deliverables": [
+        "Ein Ansprechpartner und Übergabe der Eckdaten",
+        "Startsignale, Ablaufänderungen und Außenweg",
+        "Machbarkeit, Unterlagen und Kontaktprozess"
+      ],
+      "requiredProof": "Kim bestätigt diesen Koordinationsprozess; keine Partnerlogos oder bestehenden Kooperationen erfinden.",
+      "overlapControl": "B2B-Koordination, nicht zweite allgemeine Trauermusik-Buchungsseite.",
+      "parent": "/beerdigungen/",
+      "action": "Neu anlegen",
+      "role": "Leistung / Hub",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/content/page/fuer-bestattungshaeuser.mdx",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/beerdigungen/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 31,
+      "cluster": "Firmen",
+      "route": "/firmenfeiern/",
+      "title": "Live-Viola für Firmenanlässe",
+      "queries": [
+        "Live Musik Firmenfeier",
+        "Instrumentalmusik Firmenevent"
+      ],
+      "primaryIntent": "Live-Musik für ein Business-Event einordnen",
+      "deliverables": [
+        "Empfang, Dinner und Bühnenmoment trennen",
+        "Organisation, Raum und individuelle Preisfaktoren",
+        "Echte Programmausschnitte"
+      ],
+      "requiredProof": "Bestätigte Angebote und Medienrechte, keine Kundenlogos ohne Erlaubnis.",
+      "overlapControl": "Hub erklärt Formate; Detailseiten lösen den jeweiligen Eventauftrag.",
+      "parent": "/firmenfeiern/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistung / Hub",
+      "wave": "A",
+      "priority": "P1",
+      "gscFullPeriod": {
+        "clicks": 0,
+        "impressions": 12,
+        "ctrPercent": 0,
+        "position": 11
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 7,
+          "position": 13.4
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 2,
+          "position": 8
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/page/firmenfeiern.mdx",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/firmenfeiern/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 32,
+      "cluster": "Firmen",
+      "route": "/firmenfeiern/duesseldorf/",
+      "title": "Firmenmusik Düsseldorf",
+      "queries": [
+        "Musik Firmenfeier Düsseldorf",
+        "Live Musik Kundenevent Düsseldorf"
+      ],
+      "primaryIntent": "Lokale Durchführung eines Firmenevents anfragen",
+      "deliverables": [
+        "Venue- und Terminorganisation",
+        "Anfahrt und Spielorte",
+        "Messebegleitender Empfang als Abschnitt"
+      ],
+      "requiredProof": "Reale Einsatzmöglichkeiten, keine Messepartnerschaft/Standorte behaupten.",
+      "overlapControl": "Messe-Düsseldorf ist Anlasskontext, keine automatische neue Location-URL.",
+      "parent": "/firmenfeiern/",
+      "action": "Bestehend ausbauen",
+      "role": "Ortsseite",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": {
+        "clicks": 0,
+        "impressions": 54,
+        "ctrPercent": 0,
+        "position": 25.9
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 15,
+          "position": 14.6
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 28,
+          "position": 30.3
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/seo-pages/firmenfeiern/duesseldorf.json",
+      "currentEditorialStatus": "manual-human-editorial-final-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/firmenfeiern/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 33,
+      "cluster": "Firmen",
+      "route": "/firmenfeiern/empfangsmusik-firmenevent/",
+      "title": "Musik zum Firmenempfang",
+      "queries": [
+        "Live Musik Firmenempfang",
+        "Musik Empfang Networking"
+      ],
+      "primaryIntent": "Gespräche beim Ankommen musikalisch begleiten",
+      "deliverables": [
+        "Raum, Gästeverteilung und Gesprächslautstärke",
+        "Spielphasen und Begrüßungsrede",
+        "Akustisch oder abgestimmte Verstärkung"
+      ],
+      "requiredProof": "Konkreter Ablauf und Technikprüfung.",
+      "overlapControl": "Firmenempfang/Kundenempfang/Hintergrundmusik als Queryfamilie prüfen.",
+      "parent": "/firmenfeiern/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/firmenfeiern/empfangsmusik-firmenevent.json",
+      "currentEditorialStatus": "manual-indexing-strengthened-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/firmenfeiern/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 34,
+      "cluster": "Firmen",
+      "route": "/firmenfeiern/dinnermusik-firmenevent/",
+      "title": "Dinnermusik für Unternehmen",
+      "queries": [
+        "Live Musik Firmen Dinner",
+        "Hintergrundmusik Business Dinner"
+      ],
+      "primaryIntent": "Ein sitzendes Essen mit Musik und Redepausen planen",
+      "deliverables": [
+        "Service und Reden",
+        "Raum und Lautstärke",
+        "Spielblöcke mit Veranstalter abstimmen"
+      ],
+      "requiredProof": "Keine festen Paketzeiten, reales Technik- und Ablaufbriefing.",
+      "overlapControl": "Vom Empfang unterscheiden; Hochzeitsdinner behandelt andere Planungspersonen und Ablauf.",
+      "parent": "/firmenfeiern/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/firmenfeiern/dinnermusik-firmenevent.json",
+      "currentEditorialStatus": "rewritten-batch-16-stretched-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/firmenfeiern/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 35,
+      "cluster": "Firmen",
+      "route": "/firmenfeiern/musik-messe/",
+      "title": "Messe- und kundenseitige Eventmusik",
+      "queries": [
+        "Live Musik Messe Empfang",
+        "Musik Kundenevent Messe Düsseldorf"
+      ],
+      "primaryIntent": "Messebegleitenden Empfang oder Termin musikalisch planen",
+      "deliverables": [
+        "Standprogramm gegenüber externem Abendempfang",
+        "Zugang und Aufbau mit Veranstalter klären",
+        "Dialog mit Rede/Präsentation"
+      ],
+      "requiredProof": "Veranstaltungsort und Betreiberbedingungen konkret prüfen; keine Messeauftritte erfinden.",
+      "overlapControl": "Düsseldorf-Seite bedient Ortsbuchung; diese erklärt Messeformat und Logistik.",
+      "parent": "/firmenfeiern/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/firmenfeiern/musik-messe.json",
+      "currentEditorialStatus": "rewritten-batch-16-stretched-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/firmenfeiern/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 36,
+      "cluster": "Firmen",
+      "route": "/firmenfeiern/musik-jubilaeum/",
+      "title": "Musik zum Firmenjubiläum",
+      "queries": [
+        "Live Musik Firmenjubiläum",
+        "Instrumentalmusik Jubiläumsfeier"
+      ],
+      "primaryIntent": "Einen festlichen Jubiläumsablauf musikalisch gestalten",
+      "deliverables": [
+        "Empfang und Aufmerksamkeitsmoment",
+        "Reden, Ehrungen und Pausen",
+        "Programm passend zur Gästerunde"
+      ],
+      "requiredProof": "Reale Programmauswahl; keine Kundengeschichte ohne Beleg.",
+      "overlapControl": "Jubiläum hat eigenständigen Anlass; keine Variante pro Firmenalter.",
+      "parent": "/firmenfeiern/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/firmenfeiern/musik-jubilaeum.json",
+      "currentEditorialStatus": "rewritten-batch-16-stretched-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/firmenfeiern/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 37,
+      "cluster": "Firmen",
+      "route": "/ratgeber/live-musik-firmenevent-kosten/",
+      "title": "Budget für Firmenmusik planen",
+      "queries": [
+        "Live Musik Firmenevent Kosten",
+        "Musiker Firmenfeier Preis"
+      ],
+      "primaryIntent": "Ein B2B-Angebot vollständig briefen und vergleichen",
+      "deliverables": [
+        "Musikaufgabe und Spielumfang",
+        "Technik, Aufbau, Wartezeit und Ortswechsel",
+        "Anfragevorlage für Office-/Eventteams"
+      ],
+      "requiredProof": "Aktuelle Angebotslogik, steuerliche/rechtliche Details nur verifiziert oder weglassen.",
+      "overlapControl": "Bestehender Firmenevent-Ratgeber behandelt Ablauf; hier Schwerpunkt Angebotsumfang/Budget.",
+      "parent": "/firmenfeiern/",
+      "action": "Neu anlegen",
+      "role": "Ratgeber",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/lib/ratgeber.ts",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/firmenfeiern/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 38,
+      "cluster": "Firmen",
+      "route": "/fuer-eventplaner/",
+      "title": "Planungsbriefing für Veranstalter",
+      "queries": [
+        "Live Musikerin Eventplanung",
+        "Viola Musikerin für Veranstalter"
+      ],
+      "primaryIntent": "Als Agentur oder Veranstalter die Durchführung abstimmen",
+      "deliverables": [
+        "Briefingvorlage und Ansprechpartner",
+        "Signalplan und Übergaben",
+        "Technik-/Ortsabsprachen und Machbarkeitsprüfung"
+      ],
+      "requiredProof": "Kim bestätigt Workflow und Formate; keine Partnernetzwerke, Riders oder Kapazitäten erfinden.",
+      "overlapControl": "Organisatorischer B2B-Einstieg, keine zweite allgemeine Firmenfeiern-Leistung.",
+      "parent": "/firmenfeiern/",
+      "action": "Neu anlegen",
+      "role": "Leistung / Hub",
+      "wave": "B",
+      "priority": "P2",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/content/page/fuer-eventplaner.mdx",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/firmenfeiern/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 39,
+      "cluster": "Familie",
+      "route": "/geburtstage/musikalisches-geschenk-geburtstag/",
+      "title": "Live-Musik als Geschenk buchen",
+      "queries": [
+        "Musikerin als Geburtstagsgeschenk",
+        "Live Musik Geschenk Geburtstag"
+      ],
+      "primaryIntent": "Ein tatsächlich durchführbares musikalisches Geschenk anfragen",
+      "deliverables": [
+        "Beschenkte Person und musikalische Wünsche",
+        "Geschenk versus Begleitung ganzer Feier",
+        "Anfrageumfang und diskrete Abstimmung"
+      ],
+      "requiredProof": "Kein Gutscheinprodukt oder fixer Geschenkpreis, solange nicht bestätigt.",
+      "overlapControl": "Bestehender Geschenkratgeber erklärt Planung; Leistungsseite erklärt Buchbarkeit.",
+      "parent": "/geburtstage/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/geburtstage/musikalisches-geschenk-geburtstag.json",
+      "currentEditorialStatus": "rewritten-batch-16-stretched-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/geburtstage/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 40,
+      "cluster": "Familie",
+      "route": "/geburtstage/musik-gartenfest/",
+      "title": "Musik für Gartenfeste",
+      "queries": [
+        "Live Musik Gartenfest",
+        "Instrumentalmusik Gartenparty"
+      ],
+      "primaryIntent": "Solo-Viola für eine private Feier draußen buchen",
+      "deliverables": [
+        "Musik neben Gesprächen",
+        "Geschützter Standort und Plan B",
+        "Nachbarschaft, Wege und Redepausen organisatorisch klären"
+      ],
+      "requiredProof": "Konkrete Platzprüfung, keine pauschalen Lärmschutz- oder Spielbarkeitserlaubnisse.",
+      "overlapControl": "Mit musik-gartenfeier vergleichen; nicht zwei ähnliche Garten-Leistungsseiten weiter aufblasen.",
+      "parent": "/geburtstage/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/geburtstage/musik-gartenfest.json",
+      "currentEditorialStatus": "rewritten-batch-16-stretched-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/geburtstage/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 41,
+      "cluster": "Familie",
+      "route": "/taufen/musik-gottesdienst-taufe/",
+      "title": "Musik im Taufgottesdienst",
+      "queries": [
+        "Live Musik Taufgottesdienst",
+        "Instrumentalmusik Taufe Kirche"
+      ],
+      "primaryIntent": "Solo-Viola in eine gemeindlich abgestimmte Taufe einbinden",
+      "deliverables": [
+        "Solo und Gemeindegesang",
+        "Verfügbare Musikmomente",
+        "Gemeindekontakt und Anfrageangaben"
+      ],
+      "requiredProof": "Zustimmung im konkreten Gottesdienst; keine universelle Taufordnung.",
+      "overlapControl": "Mit musik-kirche-taufe vergleichen; bestehender Tauf-Ratgeber übernimmt Vorbereitung.",
+      "parent": "/taufen/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/taufen/musik-gottesdienst-taufe.json",
+      "currentEditorialStatus": "rewritten-batch-16-stretched-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/taufen/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 42,
+      "cluster": "Familie",
+      "route": "/taufen/musik-familienfeier-taufe/",
+      "title": "Musik beim Empfang nach der Taufe",
+      "queries": [
+        "Live Musik Empfang Taufe",
+        "Musik Familienfeier nach Taufe"
+      ],
+      "primaryIntent": "Musik für das private Beisammensein nach der Zeremonie buchen",
+      "deliverables": [
+        "Zweiter Spielort und Wege",
+        "Gesprächslautstärke und Spielzeiten",
+        "Indoor-/Outdoor-Organisation"
+      ],
+      "requiredProof": "Tatsächlicher Angebotsumfang, individuelle Preisbildung.",
+      "overlapControl": "Vom Gottesdienst unterscheiden; Familientreffen ist eine eigene Musikaufgabe.",
+      "parent": "/taufen/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/taufen/musik-familienfeier-taufe.json",
+      "currentEditorialStatus": "manual-indexing-strengthened-2026-07-29",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/taufen/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 43,
+      "cluster": "Familie",
+      "route": "/taufen/musik-segnung/",
+      "title": "Musik für Segnung und freies Willkommensfest",
+      "queries": [
+        "Musik Willkommensfest",
+        "Musik freie Taufe"
+      ],
+      "primaryIntent": "Musik für eine nichtkirchliche Begrüßungsfeier buchen",
+      "deliverables": [
+        "Freier Ablauf mit Familie/Moderation",
+        "Musikeinsätze und Wunschstückprüfung",
+        "Empfang als optionaler zweiter Abschnitt"
+      ],
+      "requiredProof": "Im Projektprofil belegtes Angebot; keine religiöse Gleichstellung oder Wirkung versprechen.",
+      "overlapControl": "Willkommensfest als freies Familienformat auf bestehender Segnungsseite klar vom Gottesdienst unterscheiden.",
+      "parent": "/taufen/",
+      "action": "Bestehende Seite ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/content/seo-pages/taufen/musik-segnung.json",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/taufen/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend",
+      "originalRoute": "/taufen/musik-willkommensfest/",
+      "decision": "Der vorhandene Inhalt nennt bereits Segnung, Willkommensfest und freie Zeremonie. Der eigenständige Leserauftrag wird dort vertieft; keine zweite URL für dieselbe Aufgabe.",
+      "overlapEvidence": "Vorhandener Topic-Seed musik-segnung nannte bereits Willkommensfest und freie Zeremonie. Ausbau auf derselben URL."
+    },
+    {
+      "id": 44,
+      "cluster": "Familie",
+      "route": "/ratgeber/live-musik-gartenfest-planen/",
+      "title": "Privates Gartenfest mit Musik planen",
+      "queries": [
+        "Live Musik Gartenfest planen",
+        "Musiker Gartenparty Standort Wetter"
+      ],
+      "primaryIntent": "Als Gastgeber Platz, Hörsituation und Wetteralternative vorbereiten",
+      "deliverables": [
+        "Gästeverteilung und Gesprächsbereiche",
+        "Konkreter Standort-/Ersatzraumcheck",
+        "Briefingvorlage für Gastgeber"
+      ],
+      "requiredProof": "Kims geprüfte organisatorische Anforderungen; keine allgemeinen Rechtstipps.",
+      "overlapControl": "Hochzeits-Outdoor-Ratgeber behandelt Zeremonie und Ortswechsel; Gartenfest-Ratgeber das private Zusammenkommen.",
+      "parent": "/geburtstage/",
+      "action": "Neu anlegen",
+      "role": "Ratgeber",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/lib/ratgeber.ts",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/geburtstage/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 45,
+      "cluster": "Profil & Kultur",
+      "route": "/portfolio/",
+      "title": "Hörproben als überprüfbarer Leistungsbeleg",
+      "queries": [
+        "Viola Hörproben",
+        "Kim Marie Borger Repertoire"
+      ],
+      "primaryIntent": "Den tatsächlichen Klang vor einer Buchung hören",
+      "deliverables": [
+        "Bestehende fünf Aufnahmen nach Anlässen erklären",
+        "Fassung und Besetzung kennzeichnen",
+        "Passende Buchungsseiten und echte Einblicke verlinken"
+      ],
+      "requiredProof": "Jede Aufnahme samt Nutzungsrechten; keine Spielbarkeitszusage allein aus einem Songtitel.",
+      "overlapControl": "Keine neue /hoerproben/-Seite mit demselben Inhalt.",
+      "parent": "/portfolio/",
+      "action": "Bestehend ausbauen",
+      "role": "Nachweis / Profil",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": {
+        "clicks": 2,
+        "impressions": 116,
+        "ctrPercent": 1.7,
+        "position": 4.6
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 55,
+          "position": 2.9
+        },
+        "previous": {
+          "clicks": 1,
+          "impressions": 31,
+          "position": 4.6
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/page/portfolio.mdx",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/portfolio/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 46,
+      "cluster": "Profil & Kultur",
+      "route": "/ueber-mich/",
+      "title": "Person und Erfahrung nachvollziehbar zeigen",
+      "queries": [
+        "Kim Marie Borger Bratschistin",
+        "Kim Marie Borger Unterricht"
+      ],
+      "primaryIntent": "Qualifikation und Arbeitsweise einer echten Musikerin prüfen",
+      "deliverables": [
+        "Biografie aktuell verifizieren",
+        "Reale Arbeitsweise je Anlass",
+        "Autor-/Fachprüfung für Ratgeber korrekt ausweisen"
+      ],
+      "requiredProof": "Ausbildung, Stationen und Zeitangaben nachprüfen; fachliche Freigabe nicht nur behaupten.",
+      "overlapControl": "Profil stärkt Vertrauen; ersetzt keine allgemeine Keyword-Landingpage.",
+      "parent": "/portfolio/",
+      "action": "Bestehend ausbauen",
+      "role": "Nachweis / Profil",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": {
+        "clicks": 5,
+        "impressions": 209,
+        "ctrPercent": 2.4,
+        "position": 4.2
+      },
+      "gsc28DayComparison": {
+        "current": {
+          "clicks": 0,
+          "impressions": 74,
+          "position": 4
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 48,
+          "position": 4.3
+        }
+      },
+      "evidence": "Supported",
+      "evidenceReason": "Seitenleistung im exportierten GSC-Datensatz beobachtet; keine automatische exakte Query-URL-Zuordnung.",
+      "source": "src/content/page/ueber-mich.mdx",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/portfolio/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 47,
+      "cluster": "Profil & Kultur",
+      "route": "/konzerte/musik-salonkonzert/",
+      "title": "Salonkonzert als Kulturformat",
+      "queries": [
+        "Salonkonzert buchen",
+        "Viola Hauskonzert"
+      ],
+      "primaryIntent": "Ein kuratiertes Konzert statt Hintergrundmusik veranstalten",
+      "deliverables": [
+        "Hörformat und programmatischer Ablauf",
+        "Raum, Publikum und Anmoderation",
+        "Reale mögliche Programme von 30–90 Minuten bestätigen"
+      ],
+      "requiredProof": "Kim bestätigt konkrete Programme, Moderation und Besetzung; Repertoire-/Medienrechte.",
+      "overlapControl": "Format von Vernissage/Lesung und instrumentalspezifischen Synonymen unterscheiden.",
+      "parent": "/portfolio/",
+      "action": "Bestehend ausbauen",
+      "role": "Leistungsdetail",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Hypothesis",
+      "evidenceReason": "URL und Angebot existieren; Nachfrage und Nutzen der Erweiterung sind zu messen.",
+      "source": "src/content/seo-pages/konzerte/musik-salonkonzert.json",
+      "currentEditorialStatus": "rewritten-batch-16-stretched-review-needed",
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/portfolio/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 48,
+      "cluster": "Profil & Kultur",
+      "route": "/",
+      "title": "Kundenstimmen auf der Startseite",
+      "queries": [
+        "Kim Marie Borger Bewertungen",
+        "Kim Marie Borger Erfahrungen"
+      ],
+      "primaryIntent": "Echte Rückmeldungen vor einer Anfrage nachvollziehen.",
+      "deliverables": [
+        "Ausgewählte kurze Rezensionsexzerpte korrekt zuordnen",
+        "Google-Profil als Quelle verlinken",
+        "Aktuellen Bewertungsstand mit Datum kennzeichnen"
+      ],
+      "requiredProof": "Neun Rezensionen und 5,0 im verlinkten Google-Profil am 10.10.2026 tatsächlich sichtbar; Textauszüge vom Nutzer bereitgestellt.",
+      "overlapControl": "Startseite zeigt Auswahl; vollständige Quellenübersicht auf kundenstimmen. Keine erfundene Hochzeitsgeschichte.",
+      "parent": "/portfolio/",
+      "action": "Bestehend ausbauen",
+      "role": "Hub / Nachweis",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Verified",
+      "evidenceReason": "Nutzer hat Originalrezensionen bereitgestellt; Google-Profil im Browser geprüft.",
+      "source": "src/content/page/home.mdx",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/portfolio/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 49,
+      "cluster": "Profil & Kultur",
+      "route": "/kundenstimmen/",
+      "title": "Kundenstimmen mit Google-Quellenlink",
+      "queries": [
+        "Kim Marie Borger Kundenstimmen",
+        "Kim Marie Borger Hochzeit Erfahrungen"
+      ],
+      "primaryIntent": "Reale Rückmeldungen nach Anlass einordnen und im Original nachlesen.",
+      "deliverables": [
+        "Kurze unveränderte Textauszüge aus echten Rezensionen",
+        "Anlass und angezeigten Autor korrekt zuordnen",
+        "Quelle, Auszugscharakter und Bewertungsstand offenlegen"
+      ],
+      "requiredProof": "Bereitgestellte Rezensionen und sichtbares echtes Google-Profil. Keine Event-Fallstudie oder Foto-Veröffentlichung ableiten.",
+      "overlapControl": "Portfolio zeigt Klang und Medien; kundenstimmen zeigt nachvollziehbare Rückmeldungen. Kein doppeltes Hörprobenportfolio.",
+      "parent": "/portfolio/",
+      "action": "Neu anlegen",
+      "role": "Nachweis",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Verified",
+      "evidenceReason": "Nutzer steuert von Fallbeispielen auf Kundenstimmen; keine belegte Firmenevent-Rezension vorhanden.",
+      "source": "src/content/page/kundenstimmen.mdx",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/portfolio/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    },
+    {
+      "id": 50,
+      "cluster": "Profil & Kultur",
+      "route": "/ratgeber/solo-viola-oder-ensemble/",
+      "title": "Solo-Viola oder mehrere Musiker?",
+      "queries": [
+        "Solo Musiker Hochzeit oder Duo",
+        "Viola Solo Empfang",
+        "Streicher Besetzung Event"
+      ],
+      "primaryIntent": "Die passende Besetzung für Raum und Musikaufgabe wählen",
+      "deliverables": [
+        "Soloklang, Raum und Hörbeispiele",
+        "Begleitung gegenüber Konzertmoment",
+        "Duo/Ensemble nur nach bestätigter Zusammenarbeit"
+      ],
+      "requiredProof": "Kims reale Solostärke, verfügbare Partner und Medieneinwilligungen prüfen.",
+      "overlapControl": "Instrumentenvergleich Geige/Bratsche erklärt Klang; hier Entscheidung über Besetzungsgröße, ohne Band/DJ-Angebot zu behaupten.",
+      "parent": "/portfolio/",
+      "action": "Neu anlegen",
+      "role": "Ratgeber",
+      "wave": "C",
+      "priority": "P3",
+      "gscFullPeriod": null,
+      "gsc28DayComparison": null,
+      "evidence": "Experiment",
+      "evidenceReason": "Eigenständige Nutzeraufgabe und belegtes Angebot; keine gemessene Nachfrage für diese neue URL.",
+      "source": "src/lib/ratgeber.ts",
+      "currentEditorialStatus": null,
+      "conversion": "/anfragen/",
+      "links": {
+        "parent": "/portfolio/",
+        "proof": "/portfolio/",
+        "profile": "/ueber-mich/",
+        "conversion": "/anfragen/"
+      },
+      "measurement": "Indexierter Self-Canonical; passende nichtmarkenbezogene Querygruppe; Klicks und qualifizierte Anfragen nach 28/56/90 Tagen. Bei geringer Stichprobe keine CTR-/Positionswirkung behaupten.",
+      "releaseGate": "Eigenständige Antwort, Fakten und Rechte geprüft, Fachprüfung tatsächlich erfolgt, klare interne Links, Mobile/CMS/Metadaten/Sitemap geprüft; keine Mindestwortzahl.",
+      "status": "Lokal geprüft; Veröffentlichung ausstehend"
+    }
+  ],
+  "waves": {
+    "A": {
+      "total": 20,
+      "existing": 16,
+      "new": 4
+    },
+    "B": {
+      "total": 18,
+      "existing": 12,
+      "new": 6
+    },
+    "C": {
+      "total": 12,
+      "existing": 9,
+      "new": 3
+    }
+  },
+  "monitorWithoutImmediateRewrite": [
+    "/ratgeber/taufmusik-planen/",
+    "/ratgeber/hochzeitsmusik-im-freien/",
+    "/hochzeiten/musik-freie-trauung/",
+    "/hochzeiten/sektempfang/",
+    "/ratgeber/musikplanung-hochzeitsfeier/",
+    "/ratgeber/live-musik-geburtstagsgeschenk/",
+    "/ratgeber/musik-firmenevent-ablauf/",
+    "/ratgeber/bratsche-geige-unterschied/",
+    "/beerdigungen/wuppertal/",
+    "/unterricht/siegen/",
+    "/unterricht/duisburg/",
+    "/konzerte/musik-vernissage/",
+    "/konzerte/musik-lesung/"
+  ],
+  "synonymAudits": [
+    {
+      "family": "Bratsche / Viola Unterricht",
+      "routes": [
+        "/unterricht/bratschenunterricht/",
+        "/unterricht/viola-unterricht/",
+        "/unterricht/musikunterricht-viola/",
+        "/unterricht/bratsche-unterricht/"
+      ],
+      "decision": "Query-/Conversionvergleich. Begriffe auf einer Gewinnerseite bündeln, nur nach bestätigtem identischem Job und geprüftem Redirect-Ziel."
+    },
+    {
+      "family": "Hochzeitsdinner",
+      "routes": [
+        "/hochzeiten/musik-hochzeitsdinner/",
+        "/hochzeiten/dinnermusik-hochzeit/"
+      ],
+      "decision": "Leistungsaufgabe ist sehr nah. Gewinner anhand Querygruppen, Links und Anfragen bestimmen."
+    },
+    {
+      "family": "Hochzeitsbuchung",
+      "routes": [
+        "/hochzeiten/hochzeitsmusik-buchen/",
+        "/hochzeiten/live-musik-hochzeit-buchen/"
+      ],
+      "decision": "Unterschiedliche Buchungsjobs belegen oder nützliche Inhalte bündeln; keine automatische Migration."
+    },
+    {
+      "family": "Ja-Wort / Ringtausch",
+      "routes": [
+        "/hochzeiten/musik-ja-wort/",
+        "/hochzeiten/musik-nach-ja-wort/",
+        "/hochzeiten/musik-ringtausch/"
+      ],
+      "decision": "Zuerst mit dem Ablauf und Querygruppen abgleichen; Fragen dürfen Abschnitte einer stärkeren URL sein."
+    },
+    {
+      "family": "Trauermusik allgemein",
+      "routes": [
+        "/beerdigungen/musik-beerdigung/",
+        "/beerdigungen/musik-trauerfeier/",
+        "/beerdigungen/musik-bestattung/"
+      ],
+      "decision": "Allgemeines Wording allein rechtfertigt keine separaten URLs; derzeit erhalten, Daten prüfen."
+    },
+    {
+      "family": "Gartenfest",
+      "routes": [
+        "/geburtstage/musik-gartenfest/",
+        "/geburtstage/musik-gartenfeier/"
+      ],
+      "decision": "Spielort- und Buchungsjob vergleichen, keine weiteren Wortvarianten anlegen."
+    },
+    {
+      "family": "Taufe in der Kirche",
+      "routes": [
+        "/taufen/musik-gottesdienst-taufe/",
+        "/taufen/musik-kirche-taufe/"
+      ],
+      "decision": "Gottesdienst versus Ort vermutlich nahe; konkrete Nachfrage und Eigenleistung prüfen."
+    },
+    {
+      "family": "Firmenempfang",
+      "routes": [
+        "/firmenfeiern/empfangsmusik-firmenevent/",
+        "/firmenfeiern/musik-firmenempfang/",
+        "/firmenfeiern/musik-kundenempfang/"
+      ],
+      "decision": "Empfangsaufgabe und Publikum untersuchen; ein Synonym allein genügt nicht."
+    }
+  ],
+  "linkArchitecture": [
+    {
+      "cluster": "Unterricht",
+      "hub": "/unterricht/",
+      "children": [
+        "/unterricht/",
+        "/unterricht/koeln/",
+        "/unterricht/duesseldorf/",
+        "/unterricht/geigenunterricht-erwachsene/",
+        "/unterricht/geigenunterricht-kinder/",
+        "/unterricht/geigenunterricht-anfaenger/",
+        "/unterricht/bratschenunterricht/",
+        "/unterricht/bratschenunterricht-erwachsene/",
+        "/ratgeber/geigen-probestunde/",
+        "/ratgeber/geige-bratsche-instrument-start/",
+        "/ratgeber/geige-bratsche-ueben-alltag/",
+        "/ratgeber/geige-wiedereinstieg/"
+      ],
+      "journey": "Leistung → passende Detail-/Ortsseite oder Ratgeber → tatsächliche Hörprobe/Fakten → Anfrage",
+      "rules": [
+        "Hub verlinkt kuratierte passende Kinder, nicht sämtliche Keywords.",
+        "Jede neue Seite erhält mindestens einen passenden eingehenden Kontextlink und Link zur zuständigen Leistung.",
+        "Proofseiten verlinken relevante Leistungen. Keine vollständige Geschwister-Mesh."
+      ]
+    },
+    {
+      "cluster": "Hochzeit",
+      "hub": "/hochzeiten/",
+      "children": [
+        "/hochzeiten/",
+        "/hochzeiten/duesseldorf/",
+        "/hochzeiten/musik-kirchliche-trauung/",
+        "/hochzeiten/musik-standesamt/",
+        "/hochzeiten/musik-brauteinzug/",
+        "/hochzeiten/musik-auszug/",
+        "/hochzeiten/musik-hochzeitsdinner/",
+        "/hochzeiten/hochzeitsmusik-buchen/",
+        "/ratgeber/hochzeitsmusik-kosten/",
+        "/ratgeber/musik-kirchliche-trauung-planen/"
+      ],
+      "journey": "Leistung → passende Detail-/Ortsseite oder Ratgeber → tatsächliche Hörprobe/Fakten → Anfrage",
+      "rules": [
+        "Hub verlinkt kuratierte passende Kinder, nicht sämtliche Keywords.",
+        "Jede neue Seite erhält mindestens einen passenden eingehenden Kontextlink und Link zur zuständigen Leistung.",
+        "Proofseiten verlinken relevante Leistungen. Keine vollständige Geschwister-Mesh."
+      ]
+    },
+    {
+      "cluster": "Trauer",
+      "hub": "/beerdigungen/",
+      "children": [
+        "/beerdigungen/",
+        "/beerdigungen/duesseldorf/",
+        "/beerdigungen/trauermusik-buchen/",
+        "/beerdigungen/musik-am-grab/",
+        "/beerdigungen/ave-maria-beerdigung/",
+        "/beerdigungen/trauermusik-repertoire/",
+        "/ratgeber/trauermusik-kosten/",
+        "/fuer-bestattungshaeuser/"
+      ],
+      "journey": "Leistung → passende Detail-/Ortsseite oder Ratgeber → tatsächliche Hörprobe/Fakten → Anfrage",
+      "rules": [
+        "Hub verlinkt kuratierte passende Kinder, nicht sämtliche Keywords.",
+        "Jede neue Seite erhält mindestens einen passenden eingehenden Kontextlink und Link zur zuständigen Leistung.",
+        "Proofseiten verlinken relevante Leistungen. Keine vollständige Geschwister-Mesh."
+      ]
+    },
+    {
+      "cluster": "Firmen",
+      "hub": "/firmenfeiern/",
+      "children": [
+        "/firmenfeiern/",
+        "/firmenfeiern/duesseldorf/",
+        "/firmenfeiern/empfangsmusik-firmenevent/",
+        "/firmenfeiern/dinnermusik-firmenevent/",
+        "/firmenfeiern/musik-messe/",
+        "/firmenfeiern/musik-jubilaeum/",
+        "/ratgeber/live-musik-firmenevent-kosten/",
+        "/fuer-eventplaner/"
+      ],
+      "journey": "Leistung → passende Detail-/Ortsseite oder Ratgeber → tatsächliche Hörprobe/Fakten → Anfrage",
+      "rules": [
+        "Hub verlinkt kuratierte passende Kinder, nicht sämtliche Keywords.",
+        "Jede neue Seite erhält mindestens einen passenden eingehenden Kontextlink und Link zur zuständigen Leistung.",
+        "Proofseiten verlinken relevante Leistungen. Keine vollständige Geschwister-Mesh."
+      ]
+    },
+    {
+      "cluster": "Familie",
+      "hub": "/taufen/",
+      "children": [
+        "/geburtstage/musikalisches-geschenk-geburtstag/",
+        "/geburtstage/musik-gartenfest/",
+        "/taufen/musik-gottesdienst-taufe/",
+        "/taufen/musik-familienfeier-taufe/",
+        "/taufen/musik-willkommensfest/",
+        "/ratgeber/live-musik-gartenfest-planen/"
+      ],
+      "journey": "Leistung → passende Detail-/Ortsseite oder Ratgeber → tatsächliche Hörprobe/Fakten → Anfrage",
+      "rules": [
+        "Hub verlinkt kuratierte passende Kinder, nicht sämtliche Keywords.",
+        "Jede neue Seite erhält mindestens einen passenden eingehenden Kontextlink und Link zur zuständigen Leistung.",
+        "Proofseiten verlinken relevante Leistungen. Keine vollständige Geschwister-Mesh."
+      ]
+    },
+    {
+      "cluster": "Profil & Kultur",
+      "hub": "/portfolio/",
+      "children": [
+        "/portfolio/",
+        "/ueber-mich/",
+        "/konzerte/musik-salonkonzert/",
+        "/einblicke/hochzeitsmusik-abstimmen/",
+        "/einblicke/live-musik-firmenevent/",
+        "/ratgeber/solo-viola-oder-ensemble/"
+      ],
+      "journey": "Leistung → passende Detail-/Ortsseite oder Ratgeber → tatsächliche Hörprobe/Fakten → Anfrage",
+      "rules": [
+        "Hub verlinkt kuratierte passende Kinder, nicht sämtliche Keywords.",
+        "Jede neue Seite erhält mindestens einen passenden eingehenden Kontextlink und Link zur zuständigen Leistung.",
+        "Proofseiten verlinken relevante Leistungen. Keine vollständige Geschwister-Mesh."
+      ]
+    }
+  ],
+  "roadmap": [
+    {
+      "window": "Tage 1–30",
+      "wave": "A",
+      "pages": 20,
+      "work": "Basis messen, 16 bestehende Seiten vertiefen und vier Entscheidungsratgeber erstellen; Fakten/Ortsorganisation von Kim klären; Übergang Guide → Leistung → Anfrage sichtbar machen."
+    },
+    {
+      "window": "Tage 31–60",
+      "wave": "B",
+      "pages": 18,
+      "work": "12 bestehende Leistungsdetails plus sechs eigenständige Guides/B2B-Seiten; vor Produktion Query-/SERP- und Faktenprüfung, dann jeweils einzeln fachlich prüfen."
+    },
+    {
+      "window": "Tage 61–90",
+      "wave": "C",
+      "pages": 12,
+      "work": "Neun vorhandene Seiten vertiefen und drei eigenständige Seiten ergänzen. Willkommensfest auf vorhandener Segnungsseite; echte Kundenstimmen statt unbelegter Fallstudien."
+    },
+    {
+      "window": "Monate 4–6",
+      "work": "Erfolgreiche Querygruppen weiter vertiefen, acht Synonymfamilien familienweise entscheiden, echte Auftritts-/Lehrbelege sammeln. Neuer Ortsausbau nur mit Nachfrage und eigener Leistung."
+    },
+    {
+      "window": "Monate 7–12",
+      "work": "Lokale Top-10-Sichtbarkeit stabilisieren, ausgewählte Nischen Richtung Top 3–5 entwickeln, echte Presse-/Veranstalter-/Kulturbelege gewinnen; Pflege statt jährlich duplizierter Landingpages."
+    }
+  ],
+  "measurement": {
+    "baseline": "Vor jedem Paket GSC Query + Landingpage + Gerät + Land für aktuelle 28 und vorige 28 Tage exportieren. Markenqueries separat. Qualifizierte Anfrage zählt nur mit passendem Anlass/Ort/Format, keine CTA-Klicks als Buchungen ausgeben.",
+    "reviews": "28, 56 und 90 Tage ab tatsächlichem Deploy; danach quartalsweise. Termin ist relativ, keine Automation erstellt.",
+    "cohort": "Neue URLs separat von Überarbeitungen; vergleichbare nicht bearbeitete URLs beobachten. Änderungen an Querymix, Saison und Sichtbarkeit dokumentieren; keine reine Kausalitätsbehauptung aus Vorher/Nachher.",
+    "success": [
+      "Technisch: 100% der veröffentlichten Zielseiten HTTP200, korrekt selbstkanonisch, intern verlinkt, im vorgesehenen Sitemapbestand und CMS-fähig.",
+      "Suche: richtige Ziel-URL für passende nichtmarkenbezogene Longtails; Impressionen, Klicks und Top-10-Anteil mit genügender Stichprobe.",
+      "Geschäft: qualifizierte Unterrichts-/Buchungsanfragen je Cluster, organischer Landingpagebezug, abgeschlossene Buchungen getrennt.",
+      "Medien/Autorität: Rechte-geklärte Audio-/Videobelege und relevante natürliche Erwähnungen; Image-/Video-Suchleistung separat prüfen."
+    ],
+    "notProven": [
+      "Frisches Suchvolumen und Keyword Difficulty für die 13 neuen Seitenthemen.",
+      "Exakte Query-URL-Zuordnung und Conversionwerte aller Planseiten.",
+      "Aktuelles Ranking nach dem heutigen Deployment."
+    ]
+  },
+  "riskRegister": [
+    {
+      "risk": "Synonyme teilen denselben Suchjob",
+      "mitigation": "Acht Messfamilien. Keine Redirects, Löschung oder noindex ohne Traffic-, Query-, Link-, Conversion- und Zielprüfung."
+    },
+    {
+      "risk": "Zu viele ähnliche Ortsseiten",
+      "mitigation": "Bestehendes 49×7-Raster vor neuen Ortsvarianten prüfen; Stadtteil-/Dienstleistungskombinationen als Abschnitte, wenn kein eigenständiger Wert."
+    },
+    {
+      "risk": "Neue Seite wiederholt vorhandenen Ratgeber",
+      "mitigation": "Eigenständigen Leserauftrag im Briefing und SERP-Abgleich belegen; sonst neuen Stoff als Abschnitt übernehmen. 13 neue URLs sind eine Planung, keine Veröffentlichungsquote."
+    },
+    {
+      "risk": "Rechte, Preise, Partner oder Leistungsorte nicht bestätigt",
+      "mitigation": "Fakten- und Rechtegate pro Seite; Keine Fallgeschichte ohne echte Belege; IDs48/49 verwenden stattdessen die vom Nutzer gelieferten Google-Kundenstimmen."
+    },
+    {
+      "risk": "Seitenzahl und Indexierung werden als Rankings verkauft",
+      "mitigation": "Top-10-Ziele und Geschäftserfolg als Messziele kennzeichnen, nie als Garantie."
+    }
+  ],
+  "rejected": [
+    "Weitere 50 generische Städte- oder Stadtteilkopien.",
+    "Seiten für Gesangsunterricht/Band/DJ als eigenes Angebot.",
+    "Eine neue Seite für jedes Hochzeitslied, jede Alterszahl oder jede ähnliche Formulierung.",
+    "Erfundene Rezensionen, Fallstudien, Partnerlogos oder Unterrichtsstandorte.",
+    "Pauschale Konsolidierung aller nicht rankenden Seiten oder automatische Änderung von Indexability."
+  ],
+  "offsitePlan": [
+    "Kim sammelt freigegebene echte Kundenfragen, Fotos/Clips und Veranstaltungsdaten.",
+    "Vorhandenes Google-Profil auf richtige Leistungen, Kontaktdaten und reale Rezensionen prüfen; keine erfundenen Niederlassungen.",
+    "Öffentliche Veranstalterprogramme, Kulturverzeichnisse und Pressebeiträge nur bei realem Anlass und Fakten nutzen.",
+    "Kooperationen persönlich abstimmen; im Plan keine Kontaktaufnahme, kein Linkkauf und keine Publikation auslösen."
+  ],
+  "revisions": [
+    {
+      "date": "2026-10-10",
+      "reason": "Nutzer bevorzugt echte Google-Rezensionen gegenüber einzelnen Fallbeschreibungen; IDs48/49 werden Startseite und Kundenstimmen statt erfundener Fallstudien.",
+      "counts": {
+        "existing": 36,
+        "new": 14
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "reason": "ID43 auf bestehender Segnungsseite umgesetzt, da diese bereits Willkommensfest und freie Zeremonie nennt. Kein zweiter URL-Kandidat mit derselben Aufgabe.",
+      "counts": {
+        "existing": 37,
+        "new": 13
+      }
+    }
+  ],
+  "implementationCounts": {
+    "total": 50,
+    "existing": 37,
+    "new": 13
+  }
+}

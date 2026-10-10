@@ -8,8 +8,8 @@
   "priority": "P2",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Hochzeitsdinner | Live-Viola Hochzeit",
-  "seoDescription": "Musik Hochzeitsdinner: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
+  "seoTitle": "Musik zum Hochzeitsdinner | Dezente Live-Viola",
+  "seoDescription": "Solo-Viola beim Hochzeitsdinner: Gesprächslautstärke, Service, Spielblöcke und Redepausen mit Paar und Location abstimmen.",
   "hero": {
     "eyebrow": "Hochzeitsdinner",
     "title": "Musik zum Hochzeitsdinner, dezent zwischen Menü, Reden und Gesprächen.",
@@ -20,58 +20,66 @@
     "seal": "Hochzeitsdinner\nHochzeit\nLive-Viola",
     "sections": [
       {
-        "title": "Hochzeitsmusik bewusst in den Ablauf einfügen.",
-        "lede": "Beim Dinner darf Musik nie gegen Gespräche oder Service arbeiten. Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Restaurant, Saal, Schloss, Terrasse oder privater Raum.",
+        "title": "Das Essen und die Tischgespräche geben den Rahmen vor.",
         "paragraphs": [
-          "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
-          "Mehrere kurze Sets zwischen Gängen, Toasts oder Reden sind meist eleganter als Dauerbegleitung.",
-          "Die Viola kann den Raum wärmen und trotzdem leise genug bleiben, damit Tische miteinander sprechen.",
-          "Vorab klären wir Startsignal, gewünschte Länge, mögliche Pausen und den Punkt, an dem das Stück natürlich enden darf. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
-          "Für die Planung klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll."
+          "Beim Hochzeitsdinner sitzen Gäste länger am selben Platz. Klärt, ob Musik einzelne Phasen begleitet oder als angekündigter Moment Aufmerksamkeit bekommen soll. Für dezente Begleitung sind Raum, Tischanordnung und der Abstand zur Viola wichtig.",
+          "Ein Platz direkt neben einem Tisch kann dort sehr präsent wirken und weiter entfernte Gäste kaum erreichen. Deshalb prüfen wir die Position und den akustischen Rahmen gemeinsam mit der Location. Zusätzliche Technik wird nur nach Abstimmung eingeplant."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
           "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
         },
-        "imageFirst": false,
-        "eyebrow": "Einordnung"
+        "ctas": [
+          {
+            "label": "Hörproben des Soloklangs",
+            "link": "/portfolio/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
       },
       {
-        "title": "Musik Hochzeitsdinner im Ablauf sinnvoll einsetzen.",
-        "lede": "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+        "title": "Spielblöcke zwischen Service und Reden vereinbaren.",
         "paragraphs": [
-          "Wichtig ist, dass Musik Hochzeitsdinner nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
-          "Gerade bei Hochzeiten hilft eine klare Begrenzung."
+          "Nennt geplante Menüzeiten, Toasts und Reden. Für gesprochene Beiträge bekommt die Musik eine Pause. Auch der Service sollte wissen, wann ein bewusstes Zuhörstück vorgesehen ist, damit es nicht mit einem hektischen Gangwechsel zusammenfällt.",
+          "Spielphasen und Pausen werden im Ablauf festgehalten. Wenn eine Rede später beginnt, hilft eine zuständige Person beim rechtzeitigen Wechsel. Die Musik begleitet den vereinbarten Umfang; eine beliebig lange Verlängerung ist keine automatische Zusage."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
+        "ctas": [
+          {
+            "label": "Kostenfaktoren und Zeitraum",
+            "link": "/ratgeber/hochzeitsmusik-kosten/",
+            "style": "link-line"
+          }
+        ],
         "imageFirst": true
       },
       {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Entscheidend sind Zeremonieform, Einsatzpunkt, Raum, Wunschmusik und die gewünschte Wirkung.",
+        "title": "Den Wechsel vom Empfang zum Dinner mitdenken.",
         "paragraphs": [
-          "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll."
+          "Empfang und Dinner können am gleichen Ort stattfinden, aber eine andere Position oder Vorbereitung brauchen. Wenn die Location wechselt, gebt Wege und Zeiten an. Auch eine längere Pause zwischen den Abschnitten gehört in die Anfrage.",
+          "Für das Angebot helfen Datum, Adresse, Gästezahl, Tischanordnung, Dinnerzeitfenster und Reden. Wunschstücke und eine persönliche Kontaktperson ergänzen das Briefing. Ein Partyprogramm für die Tanzfläche ist ein anderer musikalischer Auftrag."
         ],
         "image": {
           "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-          "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
+          "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
         },
-        "imageFirst": false
-      },
-      {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Entscheidend sind Zeremonieform, Einsatzpunkt, Raum, Wunschmusik und die gewünschte Wirkung.",
-        "paragraphs": [
-          "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein einzelner Einsatz, mehrere Momente der Trauung, Empfangsmusik oder eine längere Begleitung passend ist."
+        "ctas": [
+          {
+            "label": "Sektempfang begleiten",
+            "link": "/hochzeiten/sektempfang/",
+            "style": "link-line"
+          },
+          {
+            "label": "Musikablauf buchen",
+            "link": "/hochzeiten/hochzeitsmusik-buchen/",
+            "style": "link-line"
+          }
         ],
-        "image": {
-          "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-          "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
-        },
-        "imageFirst": true
+        "imageFirst": false
       }
     ]
   },
@@ -112,44 +120,27 @@
     "title": "FAQ zu Musik Hochzeitsdinner",
     "items": [
       {
-        "question": "Für welche Hochzeit passt Musik Hochzeitsdinner?",
-        "answer": "Diese musikalische Begleitung passt besonders für sitzende Hochzeitsessen und festliche Abendessen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
-        "open": true
+        "question": "Können Gäste sich beim Dinner unterhalten?",
+        "answer": "Die gewünschte Gesprächslautstärke ist Teil der Planung. Raum und Position werden geprüft; bei Reden macht die Musik Pause."
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
+        "question": "Wird während des ganzen Menüs gespielt?",
+        "answer": "Spielphasen und Pausen werden individuell vereinbart. Service, Reden und die gewünschte Präsenz der Musik bestimmen den Umfang."
       },
       {
-        "question": "Passt das auch zu Standesamt, Kirche und freier Trauung?",
-        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für kleine Trausäle, Kirchen, freie Trauungen und Empfänge sehr flexibel."
+        "question": "Kann Empfang und Dinner kombiniert werden?",
+        "answer": "Ja, nach Abstimmung von Orten, Übergang, Zeiten und Vorbereitung. Der gesamte Zeitraum wird im Angebot berücksichtigt."
       },
       {
-        "question": "Wie wird der Einsatz abgestimmt?",
-        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Trauredner:in, Kirche, Standesamt oder Location."
-      },
-      {
-        "question": "Ist draußen spielen möglich?",
-        "answer": "Ja, wenn Wetter, Schatten, Untergrund und Schutz für das Instrument stimmen. Ein Plan B ist bei Hochzeiten im Freien immer sinnvoll."
-      },
-      {
-        "question": "Wie früh sollten wir anfragen?",
-        "answer": "Sobald Datum und Ort feststehen, ist eine Anfrage sinnvoll. Besonders Termine in der Hochzeitssaison sind oft früh vergeben."
-      },
-      {
-        "question": "Wann passt Musik Hochzeitsdinner besonders gut?",
-        "answer": "Diese musikalische Begleitung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich klären, ob ein einzelner Einsatz, mehrere Momente der Trauung, Empfangsmusik oder eine längere Begleitung passend ist."
+        "question": "Ist Dinnermusik gleichzeitig Musik für die Tanzfläche?",
+        "answer": "Solo-Viola wird hier als Dinnerbegleitung oder einzelner Hörmoment geplant. Für eine Party braucht ihr einen entsprechend abgestimmten weiteren musikalischen Rahmen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-      "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
+      "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
@@ -160,7 +151,7 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nSEO-Goal 10.10.2026: Dinner auf Tischgespräche, Menüservice, Redeunterbrechung und Empfangswechsel konzentriert. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Hochzeitsmusik planen",
     "title": "Musik Hochzeitsdinner anfragen",

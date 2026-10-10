@@ -8,8 +8,8 @@
   "priority": "P2",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Salonkonzert | Solo-Viola",
-  "seoDescription": "Musik Salonkonzert: kuratiertes Solo-Viola-Programm für Konzert, Kulturabend, Vernissage, Lesung oder Event.",
+  "seoTitle": "Salonkonzert mit Viola | Programm & Hörformat",
+  "seoDescription": "Ein Salonkonzert mit Viola planen: konzentriertes Zuhören, Programmlänge, Publikum, Raum, Pausen und optionale Anmoderation abstimmen.",
   "hero": {
     "eyebrow": "Konzert & Kultur",
     "title": "Musik für Salonkonzerte mit Nähe zum Publikum.",
@@ -20,67 +20,66 @@
     "seal": "Musik Salonkonzert\nKultur\nViola",
     "sections": [
       {
-        "title": "Musik Salonkonzert braucht eine eigene dramaturgische Aufgabe.",
-        "lede": "Für die Planung sind drei Fragen wichtig: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
+        "title": "Ein Salonkonzert braucht eine gemeinsame Hörsituation.",
         "paragraphs": [
-          "Salonkonzert meint ein intimes Konzertformat, bei dem Publikum, Raum und Moderation nah beieinander sind.",
-          "Ich kuratiere Programme mit persönlicher Ansprache, überschaubarer Länge und klarer Dramaturgie.",
-          "Im Vergleich zu Live-Musik-Event steht Zuhören und kammermusikalische Nähe im Mittelpunkt.",
-          "Wir klären Raumgröße, Sitzplätze, Pause, Dauer, Moderation und ob Wünsche in das Programm integriert werden sollen.",
-          "Viola funktioniert im Salon besonders gut, weil ihr Klang warm und direkt erlebbar ist.",
-          "Ein Salonprogramm kann wie ein Gespräch gebaut sein: Ankommen, Vertiefung, Pause, Ausklang.",
-          "Zuerst geht es um die Hörsituation. Sitzt das Publikum konzentriert, bewegt es sich durch eine Ausstellung, hört es einer Lesung zu oder entsteht der musikalische Moment zwischen Gesprächen?"
+          "Ein Salon, Wohnzimmer, kleiner Saal oder eine Galerie kann Raum für einen konzentrierten Konzertmoment geben. Nennt, ob Gäste sitzen und gemeinsam zuhören oder sich während einer Ausstellung bewegen. Diese Form bestimmt das passende Programm.",
+          "Ein angekündigtes Salonkonzert hat einen anderen Rahmen als Hintergrundmusik neben Gesprächen. Sitzplätze, Sicht, Akustik und ein ruhiger Beginn helfen, die Aufmerksamkeit für die Viola zu sammeln."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Musik Salonkonzert mit Kim Marie Borger und Viola"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
-        "imageFirst": false,
-        "eyebrow": "Einordnung"
-      },
-      {
-        "title": "Musik Salonkonzert im Ablauf sinnvoll einsetzen.",
-        "lede": "Ein Konzertprogramm braucht nicht viele Stücke, sondern eine innere Richtung: ein Anfang, der den Raum öffnet, eine Mitte mit Tiefe und ein Schluss, der das Publikum nicht abrupt entlässt.",
-        "paragraphs": [
-          "Kurze Anmoderationen können helfen, besonders wenn das Publikum nicht aus einem klassischen Konzertkontext kommt.",
-          "Auch die Stille gehört zum Programm. Gerade bei Viola wirkt ein bewusst gesetzter Zwischenraum oft stärker als ein weiterer schneller Wechsel.",
-          "Ich wähle Stücke danach aus, ob sie solistisch auf der Viola tragen und zum Format passen. Ein Werk, das im Konzertsaal stark ist, kann bei einer Vernissage zu groß wirken; eine Miniatur kann dagegen genau richtig sein.",
-          "Auch Moderation wird bewusst entschieden. Manchmal braucht das Publikum einen kurzen Einstieg in das Instrument oder den Komponisten, manchmal soll Musik ohne Erklärung zwischen zwei Texten stehen.",
-          "Die Dauer folgt nicht einer Standardliste. Ein konzentrierter Block von dreißig Minuten kann stärker sein als ein langer Abend, wenn das Format eigentlich auf Begegnung oder Kunstbetrachtung zielt.",
-          "Bei längeren Programmen plane ich Kontraste: warme Linie, rhythmischer Impuls, Stille, ein bekanntes Stück und ein überraschender Schluss."
+        "ctas": [
+          {
+            "label": "Hörproben des Instruments",
+            "link": "/portfolio/",
+            "style": "link-line"
+          }
         ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Musik Salonkonzert mit Kim Marie Borger und Viola"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Entscheidend sind Anlass, Publikum, Programmlänge, Raum und die gewünschte Nähe zwischen Musik und Gästen.",
-        "paragraphs": [
-          "Für eine Anfrage reichen Datum, Ort, Publikum, Anlass, gewünschte Länge und die Frage, ob Musik im Mittelpunkt steht oder einen anderen Inhalt rahmt.",
-          "So entsteht ein Konzertformat, das nicht nur schön klingt, sondern die Aufmerksamkeit im Raum bewusst führt.",
-          "Bei Konzertformaten steht das Zuhören stärker im Mittelpunkt als bei Begleitmusik. Das Format braucht deshalb ein Programm, einen dramaturgischen Bogen, passende Moderation und ein klares Verhältnis zum Raum.",
-          "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, kammermusikalisch, moderiert, begleitend oder konzentriert wirken soll."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Musik Salonkonzert mit Kim Marie Borger und Viola"
-        },
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Entscheidend sind Anlass, Publikum, Programmlänge, Raum und die gewünschte Nähe zwischen Musik und Gästen.",
+        "title": "Programm, Länge und mögliche Moderation vereinbaren.",
         "paragraphs": [
-          "Eine gute Anfrage nennt Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich schnell unterscheiden, ob ein kurzer Programmpunkt, ein moderiertes Set, ein Programm mit Pause oder ein abendfüllendes Konzert passend ist."
+          "Kuratierte Kulturprogramme können nach Absprache im Rahmen von 30 bis 90 Minuten geplant werden. Ob ein kurzer Block, ein Programm mit Pause oder ein längerer Abend passt, hängt von Publikum, Thema und Raum ab. Die konkrete Stückfolge wird persönlich abgestimmt.",
+          "Kurze Anmoderationen können das Instrument oder eine musikalische Idee einführen. Sie werden nur eingeplant, wenn sie zum Format passen. Bei einer Lesung oder Vernissage braucht die Musik einen eigenen Platz zwischen den weiteren Beiträgen."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Live-Viola für Musik Salonkonzert mit Kim Marie Borger und Viola"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
+        "ctas": [
+          {
+            "label": "Solo oder weitere Besetzung",
+            "link": "/ratgeber/solo-viola-oder-ensemble/",
+            "style": "link-line"
+          }
+        ],
         "imageFirst": true
+      },
+      {
+        "title": "Mit Raum, Publikum und Anlass anfragen.",
+        "paragraphs": [
+          "Nennt Datum, Adresse, Gästezahl, Sitzsituation, gewünschte Dauer und das Thema des Abends. Beschreibt auch, ob Musik allein im Mittelpunkt steht oder mit Text, Ausstellung oder Begegnung verbunden wird.",
+          "Vorbereitung, Repertoire, Besetzung und mögliche Technik werden auf diesen Rahmen geprüft. Ein Duo oder Ensemble wird erst nach bestätigter Zusammenarbeit und Verfügbarkeit vereinbart."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
+        },
+        "ctas": [
+          {
+            "label": "Konzerte und Kulturformate",
+            "link": "/konzerte/",
+            "style": "link-line"
+          },
+          {
+            "label": "Kulturabend anfragen",
+            "link": "/anfragen/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
       }
     ]
   },
@@ -89,55 +88,30 @@
     "title": "FAQ zu Musik Salonkonzert",
     "items": [
       {
-        "question": "Für wen passt diese musikalische Begleitung?",
-        "answer": "Diese musikalische Begleitung passt für Private Gastgeber, Kulturorte und kleine Reihen, die ein konzentriertes Konzert im nahen Raum planen. Entscheidend ist, ob Musik zuhören lässt, rahmt oder einen Übergang gestaltet.",
-        "open": true
+        "question": "Wie lang kann ein Salonprogramm sein?",
+        "answer": "Programme von 30 bis 90 Minuten oder ein weiterer individuell vereinbarter Rahmen werden auf Anlass, Publikum, Repertoire und Vorbereitung abgestimmt."
       },
       {
-        "question": "Worauf kommt es bei der Planung besonders an?",
-        "answer": "Im Vergleich zu Live-Musik-Event steht Zuhören und kammermusikalische Nähe im Mittelpunkt."
+        "question": "Ist Moderation möglich?",
+        "answer": "Optional nach Absprache. Sie kann einen kurzen Zugang zum Instrument oder Programm geben und richtet sich nach dem Format."
       },
       {
-        "question": "Ist das eher Konzert oder Begleitung?",
-        "answer": "Beides ist möglich. Der Unterschied liegt im Fokus: Beim Konzert hört das Publikum bewusst zu, bei Begleitung rahmt die Musik andere Inhalte."
+        "question": "Kann das Publikum währenddessen sprechen?",
+        "answer": "Für ein Salonkonzert planen wir gemeinsame Aufmerksamkeit. Wenn Gespräche im Mittelpunkt bleiben sollen, wird ein geeigneter Begleitmusikrahmen geprüft."
       },
       {
-        "question": "Brauchst du Technik?",
-        "answer": "In vielen Räumen reicht akustische Viola mit gutem Licht. Bei größeren Räumen oder offenen Flächen bespreche ich dezente Verstärkung."
-      },
-      {
-        "question": "Wie wird das Programm geplant?",
-        "answer": "Wir klären Raumgröße, Sitzplätze, Pause, Dauer, Moderation und ob Wünsche in das Programm integriert werden sollen. Danach entsteht ein Programm mit Anfang, Kontrast, möglicher Pause und passendem Schluss."
-      },
-      {
-        "question": "Kannst du moderieren?",
-        "answer": "Ja. Kurze, persönliche Einordnungen zu Stücken oder zum Instrument machen ein Konzert oft nahbarer."
-      },
-      {
-        "question": "Ist Solo-Viola auch für kleine Räume geeignet?",
-        "answer": "Ja. Gerade in kleinen Räumen trägt die Viola sehr direkt und braucht meist keine große Technik."
-      },
-      {
-        "question": "Welche Angaben brauchst du für Musik Salonkonzert?",
-        "answer": "Datum, Ort, Raum, Publikum, gewünschte Dauer, Anlass, Ablauf und vorhandene Wunschstücke reichen für eine erste Einschätzung."
-      },
-      {
-        "question": "Wann passt Musik Salonkonzert besonders gut?",
-        "answer": "Diese musikalische Begleitung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Format, Raum, Publikum, Programmlänge, Moderation, thematischer Anlass und mögliche Wunschstücke. Damit lässt sich klären, ob ein kurzer Programmpunkt, ein moderiertes Set, ein Programm mit Pause oder ein abendfüllendes Konzert passend ist."
+        "question": "Ist ein Ensemble fest dabei?",
+        "answer": "Das Ausgangsformat ist Solo-Viola. Weitere Musiker:innen werden auf passende Zusammenarbeit und Verfügbarkeit geprüft."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-      "alt": "Live-Viola für Musik Salonkonzert mit Kim Marie Borger und Viola"
+      "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Batch 11: Konzert- und Kulturseiten vollständig nach Ort, Format, Instrument und Programm-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nSEO-Goal 10.10.2026: Kulturformat auf echte Hörsituation, vorhandenen Programmrahmen30–90Minuten und optionale Moderation zugeschnitten. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Programm anfragen",
     "title": "Musik Salonkonzert anfragen",
@@ -153,32 +127,28 @@
   },
   "focus": {
     "eyebrow": "Programmidee",
-    "title": "Ein möglicher Aufbau für Musik Salonkonzert.",
+    "title": "Ein möglicher Programmbogen.",
     "heading": "Programm",
     "subtitle": "Musik Salonkonzert",
     "items": [
       {
-        "title": "Eröffnung",
-        "detail": "Ein Stück, das den Raum sammelt und die Klangfarbe der Viola vorstellt"
+        "title": "Ankommen",
+        "detail": "Ein angekündigter Beginn mit gemeinsamem Zuhören."
       },
       {
-        "title": "Kontext",
-        "detail": "Kurze Moderation oder thematische Brücke für Salon, Wohnzimmer, Villa, Galerie, kleiner Saal oder privater Konzertabend"
+        "title": "Vertiefung",
+        "detail": "Abgestimmte Stückfolge mit passenden Kontrasten."
       },
       {
-        "title": "Kernstück",
-        "detail": "Ein Salonprogramm kann wie ein Gespräch gebaut sein: Ankommen, Vertiefung, Pause, Ausklang."
-      },
-      {
-        "title": "Kontrast",
-        "detail": "Moderne Farbe, Tanzimpuls oder persönliche Bearbeitung"
+        "title": "Pause oder Moderation",
+        "detail": "Nur soweit das konkrete Format dies braucht."
       },
       {
         "title": "Schluss",
-        "detail": "Ruhiger Ausklang oder Zugabe mit offenem Gesprächscharakter"
+        "detail": "Ein vereinbartes Ende und Übergang zum weiteren Abend."
       }
     ],
-    "footnote": "Musik Salonkonzert wird je nach Anlass als Konzert, Rahmung oder kuratierter Programmpunkt geplant."
+    "footnote": "Die konkrete Stückfolge, Dauer und mögliche Moderation werden für euren Anlass vereinbart."
   },
   "elegy": {
     "passages": []

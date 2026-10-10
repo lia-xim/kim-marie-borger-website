@@ -30,7 +30,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Geigenunterricht in Düsseldorf - lokaler Planungsrahmen"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false,
         "ctas": [
@@ -57,7 +57,7 @@
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
-          "alt": "Geigenunterricht in Düsseldorf - Ablauf und Einsätze"
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
         },
         "imageFirst": true,
         "ctas": [
@@ -84,29 +84,38 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Geigenunterricht in Düsseldorf - passend planen"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false,
         "ctas": []
       },
       {
         "eyebrow": "Die erste Stunde",
-        "title": "In der Probestunde klären wir Instrument, Ziel und Rahmen.",
+        "title": "Termin, Instrument und persönliche Passung klären.",
         "lede": "Die Probestunde ist kostenlos und unverbindlich – für Geige ebenso wie für Bratsche.",
         "paragraphs": [
-          "Schreib mir Alter, Vorerfahrung, gewünschtes Instrument und mögliche Zeitfenster. Wenn du schon spielst, können vorhandene Noten oder ein vertrautes Stück zeigen, wo du gerade stehst. Ein vorbereitetes Vorspiel ist keine Voraussetzung.",
-          "Falls du noch kein Instrument hast, sag es vor dem Termin. Wir klären, welches Instrument und welche Vorbereitung für den Einstieg nötig sind. Ort und Format sprechen wir ebenfalls vorher ab.",
-          "Bevor regelmäßiger Unterricht beginnt, vereinbaren wir Dauer, Rhythmus und Preis. Vorhandenes Repertoire ist ohne Aufpreis möglich; besondere Vorbereitung oder neue Notation für Wunschmusik wird vorher besprochen."
+          "Köln, Düsseldorf und Umgebung bilden den regionalen Schwerpunkt. Den konkreten Unterrichtsort, das Format und mögliche Termine stimmen wir persönlich ab. Stundenlänge und Preis sind variabel und werden vor regelmäßigen Terminen vereinbart.",
+          "Nenne bei der Anfrage dein Instrument, deine Vorerfahrung und die Zeitfenster, die in deinen Alltag passen. Ohne eigenes Instrument klären wir vor dem Termin die Vorbereitung. Die Probestunde dient dem gegenseitigen Kennenlernen. Danach entscheiden wir gemeinsam, ob Unterricht und Rahmen für beide Seiten passen."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
-          "alt": "Geigenunterricht in Düsseldorf - Anfrage und Preisrahmen"
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
         },
         "imageFirst": true,
         "ctas": [
           {
             "label": "Probestunde für Geige oder Bratsche in Düsseldorf anfragen",
             "link": "/anfragen/",
+            "style": "link-line"
+          },
+          {
+            "label": "Die kostenlose Probestunde vorbereiten",
+            "link": "/ratgeber/geigen-probestunde/",
+            "style": "link-line"
+          },
+          {
+            "label": "Das erste Instrument auswählen",
+            "link": "/ratgeber/geige-bratsche-instrument-start/",
             "style": "link-line"
           }
         ]
@@ -156,6 +165,14 @@
         "question": "Welche Kosten entstehen nach der Probestunde?",
         "answer": "Die Probestunde ist kostenlos und unverbindlich. Der Preis für regelmäßigen Unterricht hängt von Dauer, Rhythmus, Format und Ort ab und wird vorher vereinbart. Zusätzliche Vorbereitung oder besonderes Material besprechen wir ebenfalls vorab.",
         "open": false
+      },
+      {
+        "question": "Wie werden Stundenlänge und Preis vereinbart?",
+        "answer": "Preis und Stundenlänge werden individuell vereinbart. Vor dem Beginn regelmäßiger Termine klären wir Dauer, Rhythmus, Ort und die weiteren Absprachen. Der Schwerpunkt liegt in Köln, Düsseldorf und Umgebung."
+      },
+      {
+        "question": "Was passiert nach der Probestunde?",
+        "answer": "Die Probestunde dient dem gegenseitigen Kennenlernen. Danach entscheiden wir gemeinsam, ob Unterricht und Rahmen für beide Seiten passen. Falls wir regelmäßige Termine vereinbaren, werden Ort, Umfang und Konditionen vorher geklärt."
       }
     ]
   },
@@ -166,7 +183,7 @@
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
+      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -174,10 +191,10 @@
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
+      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     }
   ],
-  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Düsseldorfer Unterrichtsseite auf dauerhaft machbaren Wochenweg, Probestunde und realistische Übezeit fokussiert; Verkaufssprache entfernt.\n\nSEO-Ausbau 09.10.2026: Suchabsicht, konkrete Entscheidungshilfen und weiterführende Links anhand der GSC-Auswertung geschärft. Bestehende URL und Freigabestatus beibehalten.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Düsseldorfer Unterrichtsseite auf dauerhaft machbaren Wochenweg, Probestunde und realistische Übezeit fokussiert; Verkaufssprache entfernt.\n\nSEO-Ausbau 09.10.2026: Suchabsicht, konkrete Entscheidungshilfen und weiterführende Links anhand der GSC-Auswertung geschärft. Bestehende URL und Freigabestatus beibehalten.\n\nSEO-Goal 10.10.2026: bestätigter regionaler Schwerpunkt Köln/Düsseldorf/Umgebung; Preis und Stundenlänge individuell. Probestunden-Vorbereitung, Kontextlinks und persönliche Passung ergänzt. Vorhandener redaktioneller Status bleibt erhalten; keine neue Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
     "title": "Geigen- oder Bratschenunterricht in Düsseldorf anfragen",

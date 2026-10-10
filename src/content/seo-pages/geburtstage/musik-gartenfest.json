@@ -8,7 +8,7 @@
   "priority": "P2",
   "status": "rewritten-batch-16-stretched-review-needed",
   "enabled": true,
-  "seoTitle": "Musik Gartenfest | Live-Viola Geburtstag",
+  "seoTitle": "Musik zum Gartenfest | Live-Viola & Wetterschutz",
   "seoDescription": "Musik Gartenfest: Solo-Viola für private Geburtstage, Empfang, Dinner oder Überraschung. Persönlich und dezent geplant.",
   "hero": {
     "eyebrow": "Gartenfest",
@@ -19,57 +19,66 @@
   "split": {
     "sections": [
       {
-        "title": "Musik Gartenfest braucht eine andere Planung als allgemeine Partymusik.",
-        "lede": "Wer nach Musik Gartenfest sucht, möchte meistens keinen lauten Showblock. Gesucht wird ein musikalischer Moment, der den Geburtstag besonders macht und trotzdem zur privaten Atmosphäre passt.",
+        "title": "Musik neben Gesprächen oder als eigener Hörmoment planen.",
         "paragraphs": [
-          "Der wichtigste Unterschied liegt im Maß: Die Musik soll den Raum nicht beschallen. Deshalb kläre ich zuerst, ob sie als Geschenk, als Empfang, als Hintergrund oder als bewusster Mittelpunkt gedacht ist.",
-          "Für größere Geburtstage im Freien eignet sich Solo-Viola besonders, weil sie warm klingt und wenig technischen Aufwand braucht. Sie kann ein Zimmer, einen Garten oder ein Restaurant füllen, ohne die Feier zu übernehmen.",
-          "Im Mittelpunkt steht immer die Person, die Geburtstag hat. Ein Lieblingslied, ein bestimmter Stil oder ein kurzer musikalischer Gruß kann stärker wirken als ein langes Set ohne Bezug.",
-          "der Ablauf bleibt flexibel, aber nicht zufällig. So entsteht ein Ablauf, bei dem die Musik natürlich beginnt, rechtzeitig wieder Platz macht und den richtigen Moment nicht verpasst."
+          "Bei einem Gartenfest können Gäste in kleinen Gruppen verteilt stehen oder sitzen. Nennt Gästezahl, Platzaufteilung und die gewünschte Aufgabe der Musik. Für einen gemeinsamen Hörmoment muss die Runde sich an einem geeigneten Ort sammeln können.",
+          "Hintergrundmusik braucht eine andere Position als ein angekündigtes Stück. Ein einzelnes akustisches Instrument erreicht nicht automatisch weit auseinanderliegende Bereiche; Raum, Umgebung und mögliche Technik werden vorab geprüft."
         ],
         "image": {
           "src": "/uploads/mq0uvvd3-20250327-DSC01769.webp",
-          "alt": "Kim Marie Borger sitzt mit ihrer Viola in festlicher Kleidung auf einer Wiese"
+          "alt": "Porträt von Kim Marie Borger mit ihrer Viola"
         },
-        "imageFirst": false,
-        "eyebrow": "Einordnung"
+        "ctas": [
+          {
+            "label": "Klangbeispiele",
+            "link": "/portfolio/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
       },
       {
-        "title": "Musik Gartenfest im Ablauf sinnvoll einsetzen.",
-        "lede": "Wenn mehrere Gäste etwas beitragen möchten, kann Musik auch verbinden: vor einer Rede, nach einem Toast oder als ruhiger Übergang zum Essen. Dadurch wirkt der Tag geordnet, aber nicht steif.",
+        "title": "Geschützten Spielplatz und Ersatzort vorbereiten.",
         "paragraphs": [
-          "Praktisch bedeutet das: Ich bespreche nicht nur die Stückauswahl, sondern auch die soziale Situation. Bei größere Geburtstage im Freien macht es einen Unterschied, ob Gäste stehen, sitzen, essen oder auf eine Überraschung warten.",
-          "Musik, Gartenfest bekommt hier einen eigenen Rahmen und keine austauschbare Partymusik."
+          "Die Viola braucht einen trockenen, schattigen Standort mit sicherem Untergrund. Berücksichtigt Sonne, Wind und die Wege von Gästen oder Service. Der Spielplatz sollte in Ruhe nutzbar sein und das Instrument schützen.",
+          "Bei ungeeignetem Wetter braucht es einen tatsächlich nutzbaren Innenraum oder eine andere abgestimmte Lösung. Besprecht mit Gastgeber:innen auch Nachbarschaft, Lautstärke und zulässige Zeiten vor Ort. Eine allgemeine Wetterfestigkeit wird nicht zugesagt."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
+        "ctas": [
+          {
+            "label": "Standort- und Wettercheck",
+            "link": "/ratgeber/live-musik-gartenfest-planen/",
+            "style": "link-line"
+          }
+        ],
         "imageFirst": true
       },
       {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Entscheidend sind die gefeierte Person, der Ablauf, der Raum und die Frage, ob die Musik begleiten oder einen besonderen Moment eröffnen soll.",
+        "title": "Spielphasen zwischen Begrüßung, Essen und Reden vereinbaren.",
         "paragraphs": [
-          "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll."
+          "Eine kurze Rede oder ein Geschenk bekommt eine Musikpause. Nennt Beginn und Ende des Festes sowie die tatsächlich gewünschten Spielphasen. Eine Kontaktperson gibt Start- und Pausensignale weiter.",
+          "Für das Angebot helfen Datum, Adresse, Gästezahl, Standort, Ersatzraum und Stückwünsche. Anfahrt, Vorbereitung, Spielzeit und Pausen werden persönlich vereinbart."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
           "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
         },
-        "imageFirst": false
-      },
-      {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Entscheidend sind die gefeierte Person, der Ablauf, der Raum und die Frage, ob die Musik begleiten oder einen besonderen Moment eröffnen soll.",
-        "paragraphs": [
-          "Eine gute Anfrage nennt Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich schnell unterscheiden, ob ein Überraschungsmoment, Empfangsmusik, Dinnerbegleitung oder mehrere kurze Sets passend ist."
+        "ctas": [
+          {
+            "label": "Geburtstag musikalisch begleiten",
+            "link": "/geburtstage/",
+            "style": "link-line"
+          },
+          {
+            "label": "Musik als Geschenk",
+            "link": "/geburtstage/musikalisches-geschenk-geburtstag/",
+            "style": "link-line"
+          }
         ],
-        "image": {
-          "src": "/uploads/mq0uvvd3-20250327-DSC01769.webp",
-          "alt": "Kim Marie Borger sitzt mit ihrer Viola in festlicher Kleidung auf einer Wiese"
-        },
-        "imageFirst": true
+        "imageFirst": false
       }
     ]
   },
@@ -78,37 +87,20 @@
     "title": "FAQ zu Musik Gartenfest",
     "items": [
       {
-        "question": "Für welche Geburtstage passt Musik Gartenfest?",
-        "answer": "Diese musikalische Begleitung passt besonders zu größere Geburtstage im Freien. Wichtig ist, dass der musikalische Moment zum Menschen und nicht nur zum Anlass passt.",
-        "open": true
+        "question": "Spielt die Viola bei jedem Wetter draußen?",
+        "answer": "Nein. Instrument und Musikerin brauchen einen geschützten, trockenen Platz und geeignete Bedingungen. Eine verlässliche Alternative wird vorab besprochen."
       },
       {
-        "question": "Kann ein Lieblingslied eingebunden werden?",
-        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage gegebenenfalls einen passenden Ausschnitt vor."
+        "question": "Können Gäste dabei sprechen?",
+        "answer": "Gesprächsfreundliche Begleitung kann geplant werden. Gästeverteilung, Umgebung und Position bestimmen den passenden Klangrahmen."
       },
       {
-        "question": "Wie lang sollte die Musik dauern?",
-        "answer": "Für ein Geschenk reichen oft wenige Stücke. Für Empfang, Dinner oder Hintergrundmusik sind mehrere kurze Sets sinnvoller als ein langer Block."
+        "question": "Was gehört zum Plan B?",
+        "answer": "Ein tatsächlich nutzbarer geschützter Ort, erreichbare Wege und eine zuständige Person für die Entscheidung bei Wetteränderungen."
       },
       {
-        "question": "Ist die Musik auch im kleinen privaten Rahmen passend?",
-        "answer": "Ja. Gerade in Garten, Hof, Pavillon oder lockere Stehtische funktioniert Solo-Viola gut, weil der Klang nah bleibt und keine große Bühne braucht."
-      },
-      {
-        "question": "Wie wird der Ablauf abgestimmt?",
-        "answer": "Wir klären Startsignal, Platz im Raum, gewünschte Stimmung und mögliche Pausen. So bleibt Musik Gartenfest am Tag selbst entspannt."
-      },
-      {
-        "question": "Kann die Musik draußen gespielt werden?",
-        "answer": "Ja, wenn ein geschützter Platz vorhanden ist. Für Garten oder Terrasse besprechen wir Schatten, Wetteroption und Abstand zu Gesprächen."
-      },
-      {
-        "question": "Wann passt Musik Gartenfest besonders gut?",
-        "answer": "Diese musikalische Begleitung passt, wenn genau dieser musikalische Schwerpunkt gesucht wird. Entscheidend sind Rolle, Ablauf, Klangwirkung und die konkrete Erwartung hinter der Anfrage."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Datum, Ort, Alter oder Anlass, Gästezahl, Wunschlied, Überraschungsmoment und die geplante Setlänge. Damit lässt sich klären, ob ein Überraschungsmoment, Empfangsmusik, Dinnerbegleitung oder mehrere kurze Sets passend ist."
+        "question": "Welche Angaben helfen für das Gartenfest?",
+        "answer": "Termin, Adresse, Gästezahl, gewünschte Spielphasen, geplanter Standort und Ersatzort."
       }
     ]
   },
@@ -119,14 +111,14 @@
     },
     {
       "src": "/uploads/mq0uvvd3-20250327-DSC01769.webp",
-      "alt": "Kim Marie Borger sitzt mit ihrer Viola in festlicher Kleidung auf einer Wiese"
+      "alt": "Porträt von Kim Marie Borger mit ihrer Viola"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 5: Geburtstagsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 5: Geburtstagsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nSEO-Goal 10.10.2026: Gartenfest auf Gästeverteilung, trockenen Schattenplatz, Ersatzraum und organisierte Spielphasen vertieft. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Geburtstagsmusik planen",
     "title": "Musik Gartenfest anfragen",
@@ -142,35 +134,29 @@
   },
   "focus": {
     "eyebrow": "Planung",
-    "title": "Typische Einsatzpunkte für Musik Gartenfest.",
-    "lead": "Nicht jeder Geburtstag braucht dieselbe musikalische Länge. Entscheidend ist, welche Aufgabe die Musik übernehmen soll.",
+    "title": "Der Garten als Spielort.",
+    "lead": "Die konkrete Musik wird mit eurem Ablauf und dem Spielort abgestimmt.",
     "items": [
       {
-        "time": "Vor Beginn",
-        "kicker": "Ankommen",
-        "title": "Den Raum öffnen",
-        "text": "Ein erstes Set schafft Atmosphäre, während Gäste eintreffen und noch nicht alle Gespräche sortiert sind."
+        "time": "1",
+        "kicker": "Planung",
+        "title": "Gästeverteilung",
+        "text": "Musikaufgabe und Hörbereich festlegen."
       },
       {
-        "time": "Hauptmoment",
-        "kicker": "Persönlich",
-        "title": "Ein Stück mit Bedeutung",
-        "text": "Ein Wunschlied oder eine vertraute Melodie macht Musik Gartenfest besonders, ohne viele Worte zu brauchen."
+        "time": "2",
+        "kicker": "Planung",
+        "title": "Wetter",
+        "text": "Trockenen Schattenplatz und nutzbaren Ersatzraum vereinbaren."
       },
       {
-        "time": "Während der Feier",
-        "kicker": "Begleitung",
-        "title": "Musik als ruhiger Rahmen",
-        "text": "Kurze Sets können Gratulationen, Essen oder lockere Begegnungen tragen, ohne die Feier anzuhalten."
-      },
-      {
-        "time": "Nach einer Rede",
-        "kicker": "Übergang",
-        "title": "Worte nachklingen lassen",
-        "text": "Nach Toast, Rede oder Geschenk kann Musik den Moment lösen und den nächsten Teil des Geburtstags öffnen."
+        "time": "3",
+        "kicker": "Planung",
+        "title": "Ablauf",
+        "text": "Begrüßung, Essen und Redepausen mit einer Person koordinieren."
       }
     ],
-    "footnote": "Die konkrete Länge richtet sich nach Raum, Gästezahl, Anlass und gewünschter Wirkung."
+    "footnote": "Die konkrete Musik wird mit eurem Ablauf und dem Spielort abgestimmt."
   },
   "elegy": {
     "passages": []

@@ -1,0 +1,1181 @@
+{
+  "goalStatus": "active",
+  "planFile": "seo/growth-plan-2026-10-10.json",
+  "createdAt": "2026-10-10T09:54:37.066Z",
+  "currentWave": "release",
+  "currentItem": null,
+  "confirmedFacts": [
+    {
+      "source": "Direkte Nutzerauskunft 10.10.2026",
+      "facts": [
+        "Unterrichtsschwerpunkt Köln, Düsseldorf und Umgebung.",
+        "Preise werden individuell abgesprochen.",
+        "Stundenlängen sind variabel.",
+        "Probestunde zum gegenseitigen Kennenlernen; danach persönliche Passung gemeinsam klären."
+      ]
+    },
+    {
+      "source": "Google-Profil und Nutzerauskunft 10.10.2026",
+      "facts": [
+        "5,0 bei neun sichtbaren Rezensionen im Browser.",
+        "Kundenstimmen statt erfundener Hochzeits-/Firmenfallstudien."
+      ]
+    },
+    {
+      "source": "Direkte Nutzerauskunft 10.10.2026",
+      "facts": [
+        "Viola-Studium seit2025 an der Robert-Schumann-Hochschule Düsseldorf bei Prof. Guy Ben-Ziony unverändert bestätigt. Keine neuen biografischen Stationen."
+      ]
+    }
+  ],
+  "sourceRegister": [
+    {
+      "url": "https://www.stadt-koeln.de/leben-in-koeln/rheinische-musikschule/instrumentenverleih",
+      "checkedOn": "2026-10-10",
+      "usedFor": "Leihinstrument-Angebot ist abhängig von Unterrichtsplatz und Verfügbarkeit; nicht als Kims Angebot darstellen."
+    },
+    {
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/",
+      "checkedOn": "2026-10-10",
+      "usedFor": "Fachkundige Beratung bei Instrumentenwahl."
+    },
+    {
+      "url": "https://www.duesseldorf.de/standesamt/heirat/fragen",
+      "checkedOn": "2026-10-10",
+      "usedFor": "Keine pauschale Musikzusage für jedes Düsseldorfer Standesamt; Live-Instrumente ausdrücklich vorab klären."
+    },
+    {
+      "url": "https://gemeinden.erzbistum-koeln.de/kirchenmusik_kaarst/Hochzeit/index.html",
+      "checkedOn": "2026-10-10",
+      "usedFor": "Früher Kirchenmusik-Kontakt; eigene Gemeinde bleibt für ihren Ablauf zuständig."
+    },
+    {
+      "url": "https://schubert-online.at/activpage/werke_einzelansicht.php?herkunft=allewerke&lang=D&top=7&werke_id=406",
+      "checkedOn": "2026-10-10",
+      "usedFor": "Schuberts Ave Maria als D839 identifizieren; keine Noten oder Aufnahme übernommen."
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "wave": "A",
+      "route": "/unterricht/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Inhalt oder Entscheidungsratgeber umgesetzt",
+        "Kontextlinks und persönliche Unterrichtsabsprachen ergänzt"
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 2,
+      "wave": "A",
+      "route": "/unterricht/koeln/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Inhalt oder Entscheidungsratgeber umgesetzt",
+        "Kontextlinks und persönliche Unterrichtsabsprachen ergänzt"
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 3,
+      "wave": "A",
+      "route": "/unterricht/duesseldorf/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Inhalt oder Entscheidungsratgeber umgesetzt",
+        "Kontextlinks und persönliche Unterrichtsabsprachen ergänzt"
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 4,
+      "wave": "A",
+      "route": "/unterricht/geigenunterricht-erwachsene/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Inhalt oder Entscheidungsratgeber umgesetzt",
+        "Kontextlinks und persönliche Unterrichtsabsprachen ergänzt"
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 5,
+      "wave": "A",
+      "route": "/unterricht/geigenunterricht-kinder/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Inhalt oder Entscheidungsratgeber umgesetzt",
+        "Kontextlinks und persönliche Unterrichtsabsprachen ergänzt"
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 6,
+      "wave": "A",
+      "route": "/unterricht/geigenunterricht-anfaenger/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Inhalt oder Entscheidungsratgeber umgesetzt",
+        "Kontextlinks und persönliche Unterrichtsabsprachen ergänzt"
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 7,
+      "wave": "A",
+      "route": "/unterricht/bratschenunterricht/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Inhalt oder Entscheidungsratgeber umgesetzt",
+        "Kontextlinks und persönliche Unterrichtsabsprachen ergänzt"
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 8,
+      "wave": "A",
+      "route": "/unterricht/bratschenunterricht-erwachsene/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Inhalt oder Entscheidungsratgeber umgesetzt",
+        "Kontextlinks und persönliche Unterrichtsabsprachen ergänzt"
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 9,
+      "wave": "A",
+      "route": "/ratgeber/geigen-probestunde/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Inhalt oder Entscheidungsratgeber umgesetzt",
+        "Kontextlinks und persönliche Unterrichtsabsprachen ergänzt"
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Ratgeber-Architektur und Übersicht geprüft; Inhalt weiterhin in TypeScript gepflegt"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 10,
+      "wave": "A",
+      "route": "/ratgeber/geige-bratsche-instrument-start/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Inhalt oder Entscheidungsratgeber umgesetzt",
+        "Kontextlinks und persönliche Unterrichtsabsprachen ergänzt"
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Ratgeber-Architektur und Übersicht geprüft; Inhalt weiterhin in TypeScript gepflegt"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 11,
+      "wave": "B",
+      "route": "/ratgeber/geige-bratsche-ueben-alltag/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Üben zwischen den Unterrichtsstunden: ein klares Ziel, kurze Aufgaben und eine ausfüllbare Übenotiz für Geige oder Bratsche."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Ratgeber-Architektur und Übersicht geprüft; Inhalt weiterhin in TypeScript gepflegt"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 12,
+      "wave": "B",
+      "route": "/ratgeber/geige-wiedereinstieg/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Wiedereinstieg auf Geige oder Bratsche: Instrument prüfen, frühere Erfahrungen einordnen und ein realistisches erstes Lernziel vereinbaren."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Ratgeber-Architektur und Übersicht geprüft; Inhalt weiterhin in TypeScript gepflegt"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 13,
+      "wave": "A",
+      "route": "/hochzeiten/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Auswahlweg Trauung/Empfang/Dinner, Leistungsumfang und Kontextlinks zum Kostenratgeber ergänzt. Besetzung nach Prüfung formuliert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 14,
+      "wave": "A",
+      "route": "/hochzeiten/duesseldorf/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Düsseldorfer Musikregel des Standesamts mit offizieller Quelle ergänzt, Ortswechsel und Angebotsprüfung konkretisiert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 15,
+      "wave": "A",
+      "route": "/hochzeiten/musik-kirchliche-trauung/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Kirchliche Solo-Stücke, Gemeindegesang, Kirchenmusik-Kontakt und Einsatzliste differenziert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 16,
+      "wave": "B",
+      "route": "/hochzeiten/musik-standesamt/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Live-Erlaubnis, kurze Musikmomente und Amt-/Empfangsgrenze konkretisiert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 17,
+      "wave": "B",
+      "route": "/hochzeiten/musik-brauteinzug/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Einzug anhand Weg, Reihenfolge, Startsignal und musikalischem Ende statt generischer Hochzeitstexte ausgearbeitet."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 18,
+      "wave": "B",
+      "route": "/hochzeiten/musik-auszug/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Auszug auf Abschluss-Signal, Gästereihenfolge und Empfangsübergang differenziert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 19,
+      "wave": "B",
+      "route": "/hochzeiten/musik-hochzeitsdinner/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Dinner auf Tischgespräche, Menüservice, Redeunterbrechung und Empfangswechsel konzentriert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 20,
+      "wave": "A",
+      "route": "/hochzeiten/hochzeitsmusik-buchen/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Buchungsprozess von Terminanfrage bis Einsatzliste vollständig ersetzt; Umfang, Angebot und Zusage getrennt."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 21,
+      "wave": "A",
+      "route": "/ratgeber/hochzeitsmusik-kosten/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Was beeinflusst den Preis für Live-Viola zur Hochzeit? Trauung, Empfang, Anfahrt und Vorbereitung mit einer Anfragevorlage planen."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Ratgeber-Architektur und Übersicht geprüft; Inhalt weiterhin in TypeScript gepflegt"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 22,
+      "wave": "B",
+      "route": "/ratgeber/musik-kirchliche-trauung-planen/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Kirchenmusik, Solo-Viola und Gemeindegesang abstimmen: Fragen an die Gemeinde und eine Vorlage für Stücke, Zuständigkeiten und Startsignale."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Ratgeber-Architektur und Übersicht geprüft; Inhalt weiterhin in TypeScript gepflegt"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 23,
+      "wave": "A",
+      "route": "/beerdigungen/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Halle/Kirche/Grab, ruhiger Anfrageweg, Preisfaktoren und Weitergabe an Bestattungshaus ergänzt."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 24,
+      "wave": "A",
+      "route": "/beerdigungen/duesseldorf/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Düsseldorfer Halle-Grab-Wechsel, Ansprechpartner und kurze Anfrageangaben präzisiert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 25,
+      "wave": "A",
+      "route": "/beerdigungen/trauermusik-buchen/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Lange wiederholte Absätze durch einen ruhigen vierteiligen Anfrage- und Buchungsweg ersetzt."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 26,
+      "wave": "B",
+      "route": "/beerdigungen/musik-am-grab/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Außenmoment mit Transport, Wetterschutz und Signal präzisiert; vermeintlich wetterfestes Instrument korrigiert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 27,
+      "wave": "B",
+      "route": "/beerdigungen/ave-maria-beerdigung/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Ave-Maria-Werkidentifikation, Solo-Fassung und tatsächliche Hörprobenverfügbarkeit mit Primärquelle klargestellt."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 28,
+      "wave": "B",
+      "route": "/beerdigungen/trauermusik-repertoire/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Vier vorhandene Repertoireideen, persönliche Wunschprüfung und echte Aufnahmegrenze klar getrennt."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 29,
+      "wave": "A",
+      "route": "/ratgeber/trauermusik-kosten/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Preisfaktoren für Trauermusik mit Viola: Halle, Kirche oder Grab, Anfahrt und Vorbereitung. Eine kurze Vorlage hilft bei der Anfrage."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Ratgeber-Architektur und Übersicht geprüft; Inhalt weiterhin in TypeScript gepflegt"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 30,
+      "wave": "B",
+      "route": "/fuer-bestattungshaeuser/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Neue organisatorische B2B-Seite mit Übergabevorlage, fester Kontaktperson, Signal- und Außenwegplanung ohne erfundene Partner."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 31,
+      "wave": "A",
+      "route": "/firmenfeiern/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Empfang, Dinner und Bühnenmoment als eigenständige Aufgaben erklärt, Technikpauschale korrigiert und B2B/Kostenwege verlinkt."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 32,
+      "wave": "B",
+      "route": "/firmenfeiern/duesseldorf/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Düsseldorfer Venue-Briefing, Messestand versus Abendempfang und getrennte Ort-/Zeitplanung ergänzt."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 33,
+      "wave": "B",
+      "route": "/firmenfeiern/empfangsmusik-firmenevent/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Gästefluss, akustische Raumgrenzen, Begrüßungspause und Spielphasen als Empfangsaufgabe vertieft."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 34,
+      "wave": "B",
+      "route": "/firmenfeiern/dinnermusik-firmenevent/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Dinner um Tischanordnung, Servicekoordination, Spielphasen und Redepausen konkretisiert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 35,
+      "wave": "B",
+      "route": "/firmenfeiern/musik-messe/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Messestand gegenüber externem Abendempfang, Zugangsgate und Präsentationspausen differenziert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 36,
+      "wave": "B",
+      "route": "/firmenfeiern/musik-jubilaeum/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Jubiläum auf Gästerunde, Würdigung, Redefolge und eigene Hörmomente zugeschnitten."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 37,
+      "wave": "B",
+      "route": "/ratgeber/live-musik-firmenevent-kosten/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Kostenfaktoren für Live-Viola beim Firmenevent: Musikaufgabe, Zeitplan, Aufbau, Technik und Ortswechsel mit einer Briefingvorlage abstimmen."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Ratgeber-Architektur und Übersicht geprüft; Inhalt weiterhin in TypeScript gepflegt"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 38,
+      "wave": "B",
+      "route": "/fuer-eventplaner/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Neue Eventteam-Seite mit konkretem Briefing und Signalübergaben; Technik und Besetzung nach Prüfung."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 39,
+      "wave": "C",
+      "route": "/geburtstage/musikalisches-geschenk-geburtstag/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Geschenkauftritt auf Person, Überraschungskontakt und abgegrenzten Umfang zugeschnitten."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 40,
+      "wave": "C",
+      "route": "/geburtstage/musik-gartenfest/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Gartenfest auf Gästeverteilung, trockenen Schattenplatz, Ersatzraum und organisierte Spielphasen vertieft."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 41,
+      "wave": "C",
+      "route": "/taufen/musik-gottesdienst-taufe/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Gemeindegottesdienst, separate Taufe, Solo/Gemeindegesang und Anschlussfeier klar abgegrenzt."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 42,
+      "wave": "C",
+      "route": "/taufen/musik-familienfeier-taufe/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Familienfeier als eigenen Spielort und gesprächsfreundliche Aufgabe nach der Taufe konkretisiert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 43,
+      "wave": "C",
+      "route": "/taufen/musik-segnung/",
+      "action": "Bestehende Seite ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Willkommensfest-Kandidat auf vorhandener Segnungsseite umgesetzt; freie und kirchliche Feier sowie Empfang differenziert."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 44,
+      "wave": "C",
+      "route": "/ratgeber/live-musik-gartenfest-planen/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Gästeverteilung, Spielplatz, Wetterschutz und Ersatzraum für Live-Viola im Garten prüfen. Eine Briefingvorlage hilft Gastgeber:innen."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Ratgeber-Architektur und Übersicht geprüft; Inhalt weiterhin in TypeScript gepflegt"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 45,
+      "wave": "C",
+      "route": "/portfolio/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Fünf unveränderte Audioquellen erhalten, Anlassentscheidung und Fassungs-/Besetzungsprüfung erklärt, Kundenstimmen korrekt verlinkt."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 46,
+      "wave": "C",
+      "route": "/ueber-mich/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Studium seit2025 und keine neuen Stationen vom Nutzer bestätigt; vorhandene Biografie erhalten, reale Arbeitsweise und Reichweite allgemeiner Ratgeber erklärt."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 47,
+      "wave": "C",
+      "route": "/konzerte/musik-salonkonzert/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Kulturformat auf echte Hörsituation, vorhandenen Programmrahmen30–90Minuten und optionale Moderation zugeschnitten."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 48,
+      "wave": "C",
+      "route": "/",
+      "action": "Bestehend ausbauen",
+      "state": "verified_locally",
+      "changes": [
+        "Echte kurze Google-Auszüge für drei Anlässe statt zusammengesetztem Zitat; Quelle und datierter Stand 5,0/9 sichtbar."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 49,
+      "wave": "C",
+      "route": "/kundenstimmen/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Neue Quellenübersicht mit neun unveränderten kurzen Rezensionsexzerpten, angezeigten Autorennamen und Anlässen; keine erfundene Firmenreferenz."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Tina-POST-Vorschau mit aktuellem Inhalt: HTTP 200"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    },
+    {
+      "id": 50,
+      "wave": "C",
+      "route": "/ratgeber/solo-viola-oder-ensemble/",
+      "action": "Neu anlegen",
+      "state": "verified_locally",
+      "changes": [
+        "Soloklang, Raum und musikalische Aufgabe vergleichen. Duo oder Ensemble werden mit geeigneten Kolleg:innen und bestätigter Verfügbarkeit vereinbart."
+      ],
+      "checks": [
+        "Produktionsbuild bestanden",
+        "Astro: 0 Fehler, 0 Warnungen, 0 Hinweise",
+        "Titel, Beschreibung, Canonical, Sitemap, FAQ und sichtbarer Inhalt gegen Quelle geprüft",
+        "Interne Linkziele und Medien geprüft",
+        "Ratgeber-Architektur und Übersicht geprüft; Inhalt weiterhin in TypeScript gepflegt"
+      ],
+      "unresolved": [
+        "Veröffentlichung und Live-Abgleich ausstehend"
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "checkedAt": "2026-10-10T10:47:35.307Z",
+      "type": "local-release-gates",
+      "result": "passed",
+      "evidence": [
+        "build-validated.log",
+        "astro-check-release.log",
+        "seo-audit.log",
+        "cms-audit.log",
+        "verification-local.json",
+        "responsive-local.json"
+      ]
+    }
+  ],
+  "authorization": {
+    "implementation": true,
+    "deployment": "Bestehende explizite Deploy-Autorisierung der Unterhaltung; geprüften Scope veröffentlichen.",
+    "externalMessages": false,
+    "memoryUpdates": false
+  },
+  "seoOutcome": "NOT PROVEN",
+  "updatedAt": "2026-10-10T10:47:35.307Z",
+  "additionalChanges": [
+    {
+      "route": "/geburtstage/",
+      "reason": "Nutzerwunsch: echte passende Geburtstagsrezension ergänzen."
+    },
+    {
+      "source": "src/lib/seo-overrides.ts",
+      "reason": "Übersichtsblöcke nur im Hub; denselben Fokusblock nicht mehrfach auf einer SEO-Detailseite rendern."
+    },
+    {
+      "source": "src/components/blocks/Moods.astro",
+      "reason": "SEO-Planungskarten mit vorhandenen Tina-Feldzuordnungen rendern; bestehende Mood-Listen erhalten."
+    },
+    {
+      "source": "scripts/seo-page-island-qa.mjs",
+      "reason": "Regressionstest gegen doppelte SEO-Überschriften."
+    },
+    {
+      "source": "scripts/seo-audit.mjs",
+      "reason": "Externe Quellenadressen mit .html erlauben; interne Legacy-Adressen weiterhin prüfen."
+    }
+  ],
+  "synonymAudit": {
+    "families": 8,
+    "checked": "Keyword, Intent, aktuelle Quellmetadaten und vorhandene GSC-Landingpagezeilen verglichen.",
+    "decision": "Keine belegte Gewinnerzuordnung; URLs behalten und Query-URL/Anfragen später messen.",
+    "evidenceFile": "C:\\Users\\matth\\Documents\\Codex\\2026-10-10\\kim-marie-seo-goal\\synonym-audit.json",
+    "indexabilityChanged": false
+  },
+  "baseline": {
+    "exportThrough": "2026-10-06",
+    "fullPeriod": [
+      "2026-06-11",
+      "2026-10-06"
+    ],
+    "latestExportRefreshed": false,
+    "proofBoundary": "Frische API-GSC-Daten und Conversionwerte nicht verfügbar; keine aktuellen Rankings behaupten.",
+    "sourceDirectory": "C:/Users/matth/Documents/Codex/2026-10-09/kim-marie-seo-analysis/raw"
+  },
+  "measurement": {
+    "offsetDays": [
+      28,
+      56,
+      90
+    ],
+    "start": "Tatsächliche Veröffentlichung dieses Batches",
+    "automationCreated": false,
+    "metrics": [
+      "Indexstatus",
+      "Nichtmarken-Query-Landingpage-Zuordnung",
+      "Impressionen und Klicks",
+      "Top10-Anteil mit ausreichender Stichprobe",
+      "Qualifizierte Anfragen und Buchungen getrennt"
+    ]
+  },
+  "localVerification": {
+    "checkedAt": "2026-10-10T10:47:35.307Z",
+    "build": "passed",
+    "astro": {
+      "files": 120,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "seo": {
+      "htmlPages": 543,
+      "errors": 0,
+      "warnings": 0
+    },
+    "cms": {
+      "detailPages": 487,
+      "editable": 487,
+      "failures": 0
+    },
+    "planPages": 50,
+    "tinaPreviews": 40,
+    "internalTargets": 208,
+    "guides": 22,
+    "audioTracksUnchanged": 5,
+    "responsiveEvidence": "responsive-local.json",
+    "responsiveRouteChecks": 16,
+    "faqKeyboardInteraction": "Preis-FAQ /unterricht/ mit Enter geöffnet; richtige Antwort sichtbar.",
+    "boundaries": [
+      "Kein authentifizierter Tina-Editor-Login geprüft",
+      "Keine Testanfrage oder Buchung abgeschickt",
+      "Ranking- und Conversionwirkung noch nicht messbar"
+    ]
+  }
+}

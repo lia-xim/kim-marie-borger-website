@@ -230,8 +230,21 @@ export function applySeoPageOverride(data: PageData, override?: SeoPageOverride)
 	const clone = { ...data };
 	if (override.seoTitle) clone.seoTitle = override.seoTitle;
 	if (override.seoDescription) clone.seoDescription = override.seoDescription;
+	const focusTypes = new Set([
+		'PageBlocksTimeline', 'PageBlocksSched', 'PageBlocksProgramme',
+		'PageBlocksTriptych', 'PageBlocksMoods', 'PageBlocksLedger',
+		'PageBlocksSetlist', 'PageBlocksLearnDeck',
+	]);
+	let hasFocusBlock = false;
 	clone.blocks = (clone.blocks ?? [])
 		.filter(Boolean)
+		.filter((block) => !String((block as AnyBlock).anchorId ?? '').startsWith('hub-extra-'))
+		.filter((block) => {
+			if (!override.focus?.items?.length || !focusTypes.has((block as AnyBlock).__typename)) return true;
+			if (hasFocusBlock) return false;
+			hasFocusBlock = true;
+			return true;
+		})
 		.map((block) => applyBlockOverride(block as AnyBlock, override) as any);
 	return clone;
 }

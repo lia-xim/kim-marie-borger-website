@@ -20,96 +20,95 @@
     "seal": "Düsseldorf\nHochzeitsmusik\nkonkret geplant",
     "sections": [
       {
-        "eyebrow": "Trauung & Empfang",
-        "title": "Welche Musik passt zu eurer Hochzeit?",
-        "lede": "Zur Trauung wird ein Stück zum Mittelpunkt. Beim Empfang darf die Musik Raum für Gespräche lassen.",
+        "title": "Den konkreten Düsseldorfer Trauort zuerst prüfen.",
         "paragraphs": [
-          "Bei Solo-Viola hört ihr ein einzelnes Streichinstrument mit warmem Klang. Das passt zu einem bewusst gewählten Moment während der Zeremonie und zu einer ruhigeren Begleitung beim Ankommen oder Essen. Hört euch zuerst die Hörproben an: Sie geben euch einen Eindruck, ob dieser Klang zu euch passt.",
-          "Ihr könnt einzelne Musikmomente buchen oder Trauung und Empfang verbinden. Dafür brauche ich die gewünschte Spieldauer und die Information, ob alles am selben Ort stattfindet. Eine Feier mit Tanzfläche braucht zusätzlich eine passende Lösung für die Party."
+          "Die Möglichkeiten für Musik unterscheiden sich je nach Trauort. Das Standesamt Düsseldorf nennt in seinen häufigen Fragen mehrere Orte, an denen keine Musik abgespielt werden darf. Für andere Trauorte verweist es an den jeweiligen Veranstalter. Klärt deshalb ausdrücklich, ob Live-Viola an eurem Termin erlaubt ist.",
+          "Eine Location-Zusage und die musikalische Buchung sind zwei eigene Absprachen. Wenn Musik in der Zeremonie nicht möglich ist, können wir einen getrennten Empfang prüfen. Auch dessen Ort, Zeitfenster und Erlaubnis müssen feststehen."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-          "alt": "Hochzeitsmusik in Düsseldorf - lokaler Planungsrahmen"
+          "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
         },
-        "imageFirst": false,
         "ctas": [
           {
-            "label": "Solo-Viola in den Hörproben anhören",
-            "link": "/portfolio/",
+            "label": "Offizielle Hinweise des Standesamts Düsseldorf",
+            "link": "https://www.duesseldorf.de/standesamt/heirat/fragen",
             "style": "link-line"
           },
           {
-            "label": "Musik für den Sektempfang",
-            "link": "/hochzeiten/sektempfang/",
+            "label": "Hörproben der Solo-Viola",
+            "link": "/portfolio/",
             "style": "link-line"
           }
-        ]
+        ],
+        "imageFirst": false
       },
       {
-        "eyebrow": "Standesamt, Kirche oder freie Trauung",
-        "title": "Die Einsätze richten sich nach eurer Zeremonie.",
-        "lede": "Einzug, Unterschrift und Auszug sind mögliche Ankerpunkte. Welche davon passen, klären wir mit der Person, die euch traut.",
+        "title": "Trauung und Empfang an einem oder zwei Spielorten.",
         "paragraphs": [
-          "Im Standesamt zählt das verfügbare Zeitfenster. Fragt vorab, ob Live-Musik erlaubt ist und an welcher Stelle sie eingesetzt werden kann. Bei einem kurzen Termin ist ein gut platzierter musikalischer Moment oft stimmiger als mehrere Stücke, die den Ablauf drängen.",
-          "Bei einer kirchlichen Trauung stimmen wir die Musik mit der Gemeinde beziehungsweise Pfarrer:in ab. Bei einer freien Trauung hilft der Ablaufplan der Rednerin oder des Redners: Wo endet ein Text, wer gibt das Startsignal und wann darf das nächste Stück beginnen?",
-          "Für Ringtausch, Ja-Wort oder Unterschrift entscheiden wir gemeinsam, ob die Musik einen eigenen Raum bekommt oder einen Übergang begleitet. Gesprochene Worte sollen verständlich bleiben. Beim Auszug darf die Stimmung anschließend heller und bewegter werden."
+          "Schreibt, ob die Gäste nach der Zeremonie im gleichen Gebäude bleiben oder zu einer anderen Location fahren. Beim Wechsel brauchen wir genügend Zeit für Weg, Instrumententransport und Vorbereitung. Ein kurzer Übergang im Ablauf kann sonst zum Engpass werden.",
+          "Für den Spielort helfen genauer Eingang, erreichbare Kontaktperson und eine Haltemöglichkeit. Draußen klären wir zusätzlich einen trockenen, schattigen Platz und einen verlässlich nutzbaren Ersatzraum. Ein unbestätigter Außenplatz gehört noch nicht als feste Zusage in den Musikplan."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Hochzeitsmusik in Düsseldorf - Ablauf und Einsätze"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
-        "imageFirst": true,
         "ctas": [
           {
-            "label": "Checkliste für Musik im Standesamt",
-            "link": "/ratgeber/musik-im-standesamt/",
+            "label": "Empfangsmusik planen",
+            "link": "/hochzeiten/sektempfang/",
+            "style": "link-line"
+          },
+          {
+            "label": "Wetter und Standort für Hochzeitsmusik",
+            "link": "/ratgeber/hochzeitsmusik-im-freien/",
             "style": "link-line"
           }
-        ]
+        ],
+        "imageFirst": true
       },
       {
-        "eyebrow": "Repertoire & Wunschstücke",
-        "title": "Euer Lieblingslied muss auch auf der Viola funktionieren.",
-        "lede": "Schickt mir den Titel und, wenn möglich, einen Link zur gewünschten Version. Ich prüfe, wie sich das Stück solistisch spielen lässt.",
+        "title": "Ein Wunschlied braucht die passende Fassung.",
         "paragraphs": [
-          "Manche Lieder leben von ihrer Melodie, andere vor allem von Gesang, Rhythmus oder einer großen Besetzung. Deshalb wählen wir nicht nur nach dem Titel: Entscheidend ist, ob die Melodie auf Solo-Viola erkennbar bleibt und ob Charakter und Länge zum jeweiligen Einsatz passen.",
-          "Vorhandenes Repertoire ist ohne Aufpreis möglich. Muss ein Wunschstück neu herausgehört oder notiert werden, bespreche ich den Aufwand vorher mit euch; als Orientierung können etwa 30 Euro pro Song anfallen. Erst danach entscheidet ihr, ob ihr das Arrangement möchtet.",
-          "Ihr müsst noch keine fertige Setlist haben. Eine gewünschte Stimmung und ein oder zwei persönliche Stücke reichen für den ersten Austausch. Daraus entwickeln wir eine Auswahl für die Trauung und gegebenenfalls den Empfang."
+          "Schickt Titel und Interpret:in sowie den vorgesehenen Moment. Wir prüfen, ob die Melodie auf Solo-Viola trägt und welche Länge zu Einzug, Zeremonie oder Auszug passt. Die Hörproben zeigen den Klang des Instruments; eine konkrete Wunschfassung wird persönlich abgestimmt.",
+          "Vorhandenes Repertoire ist ohne Aufpreis möglich. Neue Notation oder das Heraushören eines Liedes wird vorab vereinbart. Wenn ihr eine größere Besetzung wünscht, prüfen wir passende Kolleg:innen und die Verfügbarkeit gesondert."
         ],
         "image": {
           "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-          "alt": "Hochzeitsmusik in Düsseldorf - passend planen"
+          "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
         },
-        "imageFirst": false,
         "ctas": [
           {
-            "label": "Wunschmusik für die Hochzeit auswählen",
+            "label": "Wunschstücke auswählen",
             "link": "/ratgeber/wunschmusik-hochzeit/",
             "style": "link-line"
           }
-        ]
+        ],
+        "imageFirst": false
       },
       {
-        "eyebrow": "Buchung in Düsseldorf",
-        "title": "Datum, Spielort und Zeitfenster machen das Angebot konkret.",
-        "lede": "Für die erste Anfrage reichen euer Datum, die genaue Location, die Art der Trauung und die gewünschten Musikmomente.",
+        "title": "Mit Datum und Ablauf zum konkreten Angebot.",
         "paragraphs": [
-          "Wenn Trauung und Empfang an verschiedenen Orten in Düsseldorf stattfinden, planen wir den Wechsel mit ein. Schreibt dazu, wann die Gäste weitergehen und wie viel Zeit bis zum nächsten musikalischen Einsatz bleibt. Auch der genaue Eingang, eine Haltemöglichkeit und die Ansprechperson vor Ort helfen bei der Abstimmung.",
-          "Bei einer Trauung oder einem Empfang draußen brauche ich einen trockenen, geschützten Spielplatz ohne direkte Sonne und eine Ausweichmöglichkeit bei schlechtem Wetter. Das klären wir vor der Buchung mit euch oder der Location.",
-          "Der Preis hängt unter anderem von Spieldauer, Anfahrt, Wartezeiten, Ortswechseln und Vorbereitung ab. Ihr bekommt ein Angebot für euren konkreten Ablauf. Die Anfrage ist kostenlos und unverbindlich; zum Kennenlernen des Klangs stehen die Hörproben bereit."
+          "Für die erste Anfrage genügen Datum, genaue Location in Düsseldorf, Trauform und die gewünschten Musikabschnitte. Gebt ungefähre Zeiten und mögliche Ortswechsel an. Die Stückliste darf noch offen sein.",
+          "Das Angebot berücksichtigt Vorbereitung, Anfahrt, vereinbarten Spielumfang und Zeiten dazwischen. Nach der Prüfung von Termin und Rahmen bekommt ihr die Konditionen für euren Tag. Die Anfrage ist kostenlos und unverbindlich."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
-          "alt": "Hochzeitsmusik in Düsseldorf - Anfrage und Preisrahmen"
+          "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
         },
-        "imageFirst": true,
         "ctas": [
           {
-            "label": "Termin und Hochzeitsmusik anfragen",
+            "label": "Kosten und Anfrage-Checkliste",
+            "link": "/ratgeber/hochzeitsmusik-kosten/",
+            "style": "link-line"
+          },
+          {
+            "label": "Hochzeitsmusik anfragen",
             "link": "/anfragen/",
             "style": "link-line"
           }
-        ]
+        ],
+        "imageFirst": true
       }
     ]
   },
@@ -150,39 +149,24 @@
     "title": "Fragen zur Hochzeitsmusik in Düsseldorf.",
     "items": [
       {
-        "question": "Begleitest du standesamtliche und freie Trauungen in Düsseldorf?",
-        "answer": "Ja, ebenso kirchliche Trauungen. Wir stimmen die Einsätze mit dem Standesamt, der Gemeinde oder der Traurednerin beziehungsweise dem Trauredner ab. Die genauen Möglichkeiten hängen vom Ablauf und den Vorgaben am Spielort ab.",
-        "open": true
+        "question": "Ist Live-Musik in jedem Düsseldorfer Trausaal erlaubt?",
+        "answer": "Das darf nicht vorausgesetzt werden. Die Stadt nennt Trauorte mit Einschränkungen für abgespielte Musik. Klärt ausdrücklich Live-Instrumente, Einsatzstellen und Zeitfenster mit dem Standesamt oder Veranstalter, bevor ihr Musik für die Zeremonie bucht."
       },
       {
-        "question": "Kannst du nach der Trauung beim Sektempfang weiterspielen?",
-        "answer": "Ja, das ist nach Absprache möglich. Dafür klären wir Dauer, Gästezahl und Spielort. Wenn sich die Location ändert, berücksichtigen wir Wege, Transport und die Zeit bis zum nächsten Einsatz.",
-        "open": false
+        "question": "Kann die Viola beim anschließenden Empfang spielen?",
+        "answer": "Nach Abstimmung ja. Ort, Erlaubnis, Dauer und gegebenenfalls ein Wechsel der Location werden vor der Zusage geklärt."
       },
       {
-        "question": "Welche Stücke passen zur Trauung?",
-        "answer": "Das hängt von eurem Geschmack und dem Einsatz ab: ein ruhiger Einzug, ein persönliches Stück während der Zeremonie oder ein bewegter Auszug. Die Hörproben geben euch einen ersten Klangeindruck. Eure Wunschstücke prüfe ich auf Spielbarkeit für Solo-Viola.",
-        "open": false
+        "question": "Was brauchen wir für ein Angebot?",
+        "answer": "Datum, genaue Adresse, Trauform, gewünschte Abschnitte und ungefähre Zeiten. Dazu helfen Ortswechsel, Wunschstücke und die Kontaktperson am Spielort."
       },
       {
-        "question": "Sind Wunschlieder im Preis enthalten?",
-        "answer": "Vorhandenes Repertoire ist ohne Aufpreis möglich. Neue Notation oder das Heraushören eines Liedes bedeutet zusätzliche Vorbereitung. Den Aufwand kläre ich vorher; als Orientierung können etwa 30 Euro pro Song anfallen.",
-        "open": false
+        "question": "Wie werden Preis und Wunschstücke vereinbart?",
+        "answer": "Der Preis richtet sich nach dem konkreten Umfang. Vorhandenes Repertoire ist ohne Aufpreis möglich; neue Bearbeitung oder Notation und eine zusätzliche Besetzung werden vor der Buchung geklärt."
       },
       {
-        "question": "Was kostet Live-Musik für unsere Hochzeit?",
-        "answer": "Ich kalkuliere nach Datum, Ort, Spieldauer, Anfahrt, Wartezeiten, Ortswechseln und Vorbereitung. Schickt mir euren geplanten Rahmen, dann kann ich Verfügbarkeit und Preis konkret beantworten. Die Anfrage ist kostenlos und unverbindlich.",
-        "open": false
-      },
-      {
-        "question": "Kann die Musik draußen stattfinden?",
-        "answer": "Nach Abstimmung ja. Das Instrument braucht einen trockenen, geschützten Platz ohne direkte Sonne. Wir vereinbaren außerdem eine Ausweichmöglichkeit bei Regen oder ungeeigneter Witterung.",
-        "open": false
-      },
-      {
-        "question": "Was braucht ihr für die erste Anfrage?",
-        "answer": "Datum, genaue Location in Düsseldorf, Art der Trauung, gewünschte Musikmomente und ungefähre Zeitfenster. Wunschstücke und eine Kontaktperson vor Ort helfen zusätzlich. Ein fertiger Ablaufplan ist für den ersten Kontakt noch nicht nötig.",
-        "open": false
+        "question": "Kann der Auftritt draußen stattfinden?",
+        "answer": "Nur mit abgestimmtem Wetterschutz: trocken, schattig und sicher für Instrument und Musikerin, mit einem nutzbaren Plan B."
       }
     ]
   },
@@ -197,14 +181,14 @@
     },
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-      "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
+      "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
       "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
     }
   ],
-  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Einstieg gekürzt, Düsseldorfer Ablaufkontext konkretisiert, unbelegte Ortsbeispiele entfernt und Angebot, Eignung sowie Grenzen in natürlicher Sprache geschärft.\n\nSEO-Ausbau 09.10.2026: Suchabsicht, konkrete Entscheidungshilfen und weiterführende Links anhand der GSC-Auswertung geschärft. Bestehende URL und Freigabestatus beibehalten.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Einstieg gekürzt, Düsseldorfer Ablaufkontext konkretisiert, unbelegte Ortsbeispiele entfernt und Angebot, Eignung sowie Grenzen in natürlicher Sprache geschärft.\n\nSEO-Ausbau 09.10.2026: Suchabsicht, konkrete Entscheidungshilfen und weiterführende Links anhand der GSC-Auswertung geschärft. Bestehende URL und Freigabestatus beibehalten.\n\nSEO-Goal 10.10.2026: Düsseldorfer Musikregel des Standesamts mit offizieller Quelle ergänzt, Ortswechsel und Angebotsprüfung konkretisiert. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Hochzeitsmusik anfragen",
     "title": "Hochzeitsmusik in Düsseldorf anfragen",

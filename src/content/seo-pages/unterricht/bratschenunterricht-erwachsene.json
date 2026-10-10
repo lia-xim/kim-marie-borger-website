@@ -65,19 +65,30 @@
         "imageFirst": false
       },
       {
-        "eyebrow": "Alltag und Repertoire",
-        "title": "Musik, die den Aufwand wert ist.",
-        "lede": "Ein voller Erwachsenenalltag braucht einen Unterricht, dessen Aufgaben überschaubar und musikalisch sinnvoll bleiben.",
+        "eyebrow": "Vor dem ersten Termin",
+        "title": "Deinen Ausgangspunkt für die Probestunde beschreiben.",
+        "lede": "Die kostenlose Probestunde hilft, Lernziel und Unterrichtsrahmen abzustimmen.",
         "paragraphs": [
-          "Ensembleliteratur, Solostücke oder persönliche Wünsche können den roten Faden bilden.",
-          "Der Übeplan unterscheidet zwischen kurzer Erhaltung, gezielter Problemlösung und längerer musikalischer Arbeit.",
-          "Für die Anfrage helfen Vorerfahrung, Instrument, Wunschrepertoire, Ensemblepläne und ein realistischer Terminrhythmus."
+          "Nenne mir, ob du erstmals Bratsche lernen möchtest, von der Geige wechselst oder bereits Bratsche gespielt hast. Vorhandene Noten und ein vertrautes Stück können zeigen, welche Fragen gerade wichtig sind. Auch ein Wunsch, künftig im Ensemble zu spielen, hilft bei der Zielwahl.",
+          "Sag vor dem Termin, ob eine Bratsche vorhanden ist. Ort und Format im Raum Köln, Düsseldorf und Umgebung werden persönlich abgestimmt. Preis, Stundenlänge und Rhythmus sind variabel. Die Probestunde dient dem gegenseitigen Kennenlernen. Danach entscheiden wir gemeinsam, ob Unterricht und Rahmen für beide Seiten passen."
         ],
         "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
+          "src": "/uploads/_DSC7270.webp",
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
         },
-        "imageFirst": true
+        "imageFirst": true,
+        "ctas": [
+          {
+            "label": "Probestunde vorbereiten",
+            "link": "/ratgeber/geigen-probestunde/",
+            "style": "link-line"
+          },
+          {
+            "label": "Die passende Bratsche für den Einstieg klären",
+            "link": "/ratgeber/geige-bratsche-instrument-start/",
+            "style": "link-line"
+          }
+        ]
       }
     ]
   },
@@ -105,6 +116,14 @@
       {
         "question": "Kann ich Ensembleliteratur vorbereiten?",
         "answer": "Ja. Stimmen aus Ensemble oder Orchester können Teil des Unterrichts sein und verbinden Technik mit der realen musikalischen Funktion."
+      },
+      {
+        "question": "Wie plane ich Bratschenunterricht neben Beruf und Alltag?",
+        "answer": "Preis und Stundenlänge werden individuell vereinbart. Vor dem Beginn regelmäßiger Termine klären wir Dauer, Rhythmus, Ort und die weiteren Absprachen. Der Schwerpunkt liegt in Köln, Düsseldorf und Umgebung."
+      },
+      {
+        "question": "Was passiert nach der Probestunde?",
+        "answer": "Die Probestunde dient dem gegenseitigen Kennenlernen. Danach entscheiden wir gemeinsam, ob Unterricht und Rahmen für beide Seiten passen. Falls wir regelmäßige Termine vereinbaren, werden Ort, Umfang und Konditionen vorher geklärt."
       }
     ]
   },
@@ -118,7 +137,7 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nLow Copy Follow-up 2026-06-16: verbliebene expand-copy-Seiten mit weiterem Fachkontext ergänzt.\n\nManuell redaktionell differenziert am 29.07.2026: eigenständige Nutzeraufgabe, natürlicher Einstieg, konkrete Lernentscheidungen und passende FAQ; URL bleibt bis zu Query- und Conversiondaten als Messseite bestehen.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nLow Copy Follow-up 2026-06-16: verbliebene expand-copy-Seiten mit weiterem Fachkontext ergänzt.\n\nManuell redaktionell differenziert am 29.07.2026: eigenständige Nutzeraufgabe, natürlicher Einstieg, konkrete Lernentscheidungen und passende FAQ; URL bleibt bis zu Query- und Conversiondaten als Messseite bestehen.\n\nSEO-Goal 10.10.2026: bestätigter regionaler Schwerpunkt Köln/Düsseldorf/Umgebung; Preis und Stundenlänge individuell. Probestunden-Vorbereitung, Kontextlinks und persönliche Passung ergänzt. Vorhandener redaktioneller Status bleibt erhalten; keine neue Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Unterricht anfragen",
     "title": "Bratschenunterricht für Erwachsene anfragen",

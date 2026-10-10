@@ -1209,6 +1209,1018 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 		}
 	]
 },
+{
+  "cluster": "Unterricht",
+  "serviceSlug": "unterricht",
+  "heroImage": "/uploads/_DSC7270.webp",
+  "heroImageAlt": "Kim Marie Borger steht mit ihrer Viola am See",
+  "slug": "geigen-probestunde",
+  "title": "Eine Geigen- oder Bratschen-Probestunde vorbereiten",
+  "shortTitle": "Checkliste für die Probestunde",
+  "seoTitle": "Geigenunterricht Probestunde: Vorbereitung & Ablauf",
+  "seoDescription": "Geigen- oder Bratschen-Probestunde vorbereiten: Instrument, Vorerfahrung, Lernziel und Termine klären. Bei Kim Marie Borger kostenlos und unverbindlich.",
+  "intent": "Den ersten Termin für Geige oder Bratsche vorbereiten und offene Fragen vor regelmäßigem Unterricht klären.",
+  "kicker": "Vor der ersten Stunde",
+  "lead": "Für eine Probestunde brauchst du noch kein fertiges Vorspiel. Wichtiger sind dein Ausgangspunkt, deine musikalischen Wünsche und eine vorher geklärte Instrumentenfrage.",
+  "summary": "Mitbringliste, Fragen und organisatorische Absprachen für die kostenlose Probestunde auf Geige oder Bratsche.",
+  "keyPoints": [
+    "Instrument und Vorbereitung vor dem Termin klären.",
+    "Vorerfahrung und ein persönliches Lernziel nennen.",
+    "Nach der Probestunde gemeinsam über regelmäßigen Unterricht entscheiden."
+  ],
+  "sections": [
+    {
+      "title": "1. Deinen Ausgangspunkt in wenigen Sätzen nennen",
+      "body": [
+        "Hast du noch nie ein Streichinstrument gespielt, kommst du von der Geige zur Bratsche oder möchtest du nach einer Pause zurückkehren? Diese Information hilft bei der Vorbereitung. Notenkenntnisse oder ein vorbereitetes Stück sind für eine erste Anfrage keine Voraussetzung.",
+        "Sag auch, welche Musik dich interessiert. Ein Stückwunsch, ein Ensembleziel oder der Wunsch, zunächst einen sicheren Ton zu spielen, gibt dem Gespräch eine Richtung. Für Kinder sind Alter und bisherige musikalische Erfahrungen hilfreich."
+      ]
+    },
+    {
+      "title": "2. Instrument, Bogen und Noten absprechen",
+      "body": [
+        "Wenn ein Instrument vorhanden ist, teile es vor dem Termin mit. Instrument, Bogen, bisherige Noten und vertrautes Zubehör können hilfreich sein. Ob du etwas mitbringen sollst, wird für die vereinbarte Probestunde geklärt.",
+        "Ohne eigenes Instrument sprich die Frage vorher an. Kaufe nicht allein wegen des ersten Termins ein unbekanntes Instrument. Größe, Handhabung und Zustand sollten fachlich eingeschätzt werden; ein Leih- oder Mietinstrument ist keine automatisch zugesagte Leistung von Kim."
+      ],
+      "links": [
+        {
+          "label": "Das erste Instrument für Geige oder Bratsche auswählen",
+          "href": "/ratgeber/geige-bratsche-instrument-start/"
+        }
+      ]
+    },
+    {
+      "title": "3. Ort und Zeit mit deinem Alltag verbinden",
+      "body": [
+        "Der Unterrichtsschwerpunkt liegt in Köln, Düsseldorf und Umgebung. Nenne deinen Ausgangsort und mögliche Zeitfenster, damit Unterrichtsort und Format persönlich abgestimmt werden können. Eine Ortsseite beschreibt das Einsatzgebiet und keinen garantierten freien Termin.",
+        "Überlege, welche Zeit zwischen den Stunden für das Üben verfügbar ist. Stundenlänge, Preis und regelmäßiger Rhythmus sind variabel und werden vor einer Buchung vereinbart. Du kannst die Probestunde nutzen, um diese Punkte zu besprechen."
+      ],
+      "links": [
+        {
+          "label": "Unterricht in Köln",
+          "href": "/unterricht/koeln/"
+        },
+        {
+          "label": "Unterricht in Düsseldorf",
+          "href": "/unterricht/duesseldorf/"
+        }
+      ]
+    },
+    {
+      "title": "4. Nach der Probestunde in Ruhe entscheiden",
+      "body": [
+        "Die Probestunde bei Kim Marie Borger ist kostenlos und unverbindlich. Sie dient dem gegenseitigen Kennenlernen und der Orientierung über Instrument, Lernziel und Rahmen. Danach entscheiden beide Seiten, ob regelmäßiger Unterricht passt.",
+        "Halte anschließend fest, welcher erste Lernschritt sinnvoll erscheint, wie Unterricht und Üben in deine Woche passen und welche Bedingungen vereinbart wurden. Wenn Fragen offenbleiben, kläre sie vor der regelmäßigen Buchung."
+      ]
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Geigen- und Bratschenunterricht",
+      "href": "/unterricht/"
+    },
+    {
+      "label": "Unterricht für Erwachsene",
+      "href": "/unterricht/geigenunterricht-erwachsene/"
+    },
+    {
+      "label": "Geigenunterricht für Kinder",
+      "href": "/unterricht/geigenunterricht-kinder/"
+    }
+  ],
+  "nextStep": {
+    "label": "Kostenlose Probestunde persönlich anfragen",
+    "href": "/anfragen/"
+  },
+  "faqs": [
+    {
+      "question": "Muss ich für die Probestunde Noten lesen können?",
+      "answer": "Nein. Nenne bei der Anfrage deine Vorerfahrung. Der Einstieg und die Vorbereitung werden so abgestimmt, dass sie zu deinem aktuellen Lernstand passen."
+    },
+    {
+      "question": "Brauche ich schon eine eigene Geige oder Bratsche?",
+      "answer": "Teile vor dem Termin mit, ob ein Instrument vorhanden ist. Die Instrumentenfrage wird persönlich geklärt. Ein Leih- oder Mietinstrument wird nicht automatisch zugesagt."
+    },
+    {
+      "question": "Was kann ich mitbringen, wenn ich schon gespielt habe?",
+      "answer": "Nach Absprache können Instrument, Bogen, bisherige Noten oder ein vertrautes Stück helfen, deinen Ausgangspunkt zu erkennen. Ein vorbereitetes Vorspiel ist keine Voraussetzung für die Anfrage."
+    },
+    {
+      "question": "Was kostet die Probestunde?",
+      "answer": "Bei Kim Marie Borger ist die Probestunde kostenlos und unverbindlich. Preise und Stundenlängen für regelmäßigen Unterricht werden individuell vereinbart."
+    },
+    {
+      "question": "Verpflichte ich mich danach zu regelmäßigem Unterricht?",
+      "answer": "Die Probestunde dient dem gegenseitigen Kennenlernen. Danach entscheiden wir gemeinsam, ob Unterricht und Rahmen für beide Seiten passen. Die kostenlose Probestunde ist unverbindlich."
+    }
+  ]
+},
+{
+  "cluster": "Unterricht",
+  "serviceSlug": "unterricht",
+  "heroImage": "/uploads/_DSC7270.webp",
+  "heroImageAlt": "Kim Marie Borger steht mit ihrer Viola am See",
+  "slug": "geige-bratsche-instrument-start",
+  "title": "Das erste Instrument für Geige oder Bratsche auswählen",
+  "shortTitle": "Das erste Instrument auswählen",
+  "seoTitle": "Geige oder Bratsche für Anfänger: kaufen, mieten, leihen",
+  "seoDescription": "Vor dem Unterricht Größe, Zustand und Zubehör für Geige oder Bratsche klären. Entscheidungshilfe zum Kaufen, Mieten oder Leihen ohne pauschale Produktempfehlung.",
+  "intent": "Die Beschaffung eines passenden ersten Instruments vor dem Unterricht vorbereiten.",
+  "kicker": "Instrumentenwahl",
+  "lead": "Für den Anfang muss das Instrument zu dir und zum vorgesehenen Unterricht passen. Größe, Zustand und Zubehör klärst du am besten vor einem Kauf oder Mietvertrag mit einer Lehrkraft oder einem Fachgeschäft.",
+  "summary": "Instrumentengröße, vorhandene Instrumente und Fragen für Kauf, Miete oder Leihe vor dem Unterricht sortieren.",
+  "keyPoints": [
+    "Instrumentenart und Größe vor der Beschaffung klären.",
+    "Ein vorhandenes Instrument fachlich ansehen lassen.",
+    "Kauf, Miete und Leihe samt Zubehör und Bedingungen vergleichen."
+  ],
+  "sections": [
+    {
+      "title": "1. Instrumentenart und Handhabung zuerst klären",
+      "body": [
+        "Geige und Bratsche unterscheiden sich unter anderem in Klang und Größe. Wenn du noch unentschieden bist, beginne mit deinen Klangvorstellungen und dem Gespräch über den Unterricht. Bratsche und Viola bezeichnen dasselbe Instrument.",
+        "Bei Kindern ebenso wie bei Erwachsenen sollte die Handhabung des konkreten Instruments geprüft werden. Eine Größenangabe im Angebot ersetzt das Ausprobieren nicht. Lege dich deshalb nicht allein anhand von Alter oder Körpergröße auf ein Instrument fest."
+      ],
+      "links": [
+        {
+          "label": "Geige und Bratsche: Klang und Unterschiede",
+          "href": "/ratgeber/bratsche-geige-unterschied/"
+        }
+      ]
+    },
+    {
+      "title": "2. Kaufen, mieten oder leihen bewusst vergleichen",
+      "body": [
+        "Beim Kauf gehört das Instrument dir; bei Miete oder Leihe gelten die jeweiligen Bedingungen des Anbieters. Vergleiche, was enthalten ist, wie lange du dich bindest, wie ein Größenwechsel geregelt wird und welche Kosten bei Schäden oder Rückgabe entstehen können.",
+        "Musikschulische Leihangebote können an einen Unterrichtsplatz und verfügbare Instrumente gebunden sein. Die Rheinische Musikschule Köln beschreibt zum Beispiel Beratung durch die Instrumentallehrkraft und anschließende Verfügbarkeitsprüfung. Daraus ergibt sich kein Anspruch auf ein Leihinstrument bei Kim oder einer anderen Anbieterin."
+      ],
+      "links": [
+        {
+          "label": "Stadt Köln: Bedingungen zum Instrumentenverleih",
+          "href": "https://www.stadt-koeln.de/leben-in-koeln/rheinische-musikschule/instrumentenverleih"
+        }
+      ]
+    },
+    {
+      "title": "3. Ein vorhandenes Instrument mitprüfen lassen",
+      "body": [
+        "Wenn bereits eine Geige oder Bratsche vorhanden ist, notiere Herkunft, Größe und bekannte Besonderheiten. Teile vor der Probestunde mit, ob auch Bogen, Etui und Zubehör vorhanden sind. Bei längerer Lagerung oder einem unklaren Zustand ist eine fachliche Einschätzung sinnvoll.",
+        "Auch beim Neukauf hilft sachkundige Begleitung: Yamaha empfiehlt Anfänger:innen die Beratung durch ein vertrauenswürdiges Fachgeschäft und nach Möglichkeit eine fachkundige Person bei der Auswahl. Entscheidend bleibt das konkret ausprobierte Instrument."
+      ],
+      "links": [
+        {
+          "label": "Yamaha: Ein Instrument mit fachkundiger Beratung auswählen",
+          "href": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/"
+        }
+      ]
+    },
+    {
+      "title": "4. Zubehör und ersten Unterricht zusammen abstimmen",
+      "body": [
+        "Frage, ob Bogen, Etui und benötigtes Zubehör im Angebot enthalten sind und was noch fehlt. Schulterstütze und weitere Anpassungen sollten zum Instrument und zur Person passen. Eine lange allgemeine Einkaufsliste ist für die erste Anfrage nicht nötig.",
+        "Für den Unterricht bei Kim helfen die Instrumentenangaben, dein Lernstand und der Ausgangsort in Köln, Düsseldorf oder Umgebung. Vor dem Termin klärst du, was mitgebracht wird. Preis und Stundenlänge werden individuell vereinbart; die Probestunde ist kostenlos und unverbindlich."
+      ],
+      "links": [
+        {
+          "label": "Checkliste für die Probestunde",
+          "href": "/ratgeber/geigen-probestunde/"
+        }
+      ]
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Geigen- und Bratschenunterricht",
+      "href": "/unterricht/"
+    },
+    {
+      "label": "Geigenunterricht für Kinder",
+      "href": "/unterricht/geigenunterricht-kinder/"
+    },
+    {
+      "label": "Bratschenunterricht",
+      "href": "/unterricht/bratschenunterricht/"
+    }
+  ],
+  "nextStep": {
+    "label": "Instrument und Probestunde abstimmen",
+    "href": "/anfragen/"
+  },
+  "faqs": [
+    {
+      "question": "Soll ich schon vor der Probestunde ein Instrument kaufen?",
+      "answer": "Kläre zuerst Instrumentenart, Größe, Handhabung und Vorbereitung. Teile bei der Anfrage mit, ob schon ein Instrument vorhanden ist. Ein spontaner Kauf ist für die Anfrage nicht nötig."
+    },
+    {
+      "question": "Ist Mieten für Anfänger:innen immer besser als Kaufen?",
+      "answer": "Das hängt von Instrument, Nutzungsdauer und den Bedingungen des Anbieters ab. Vergleiche den Gesamtumfang, Größenwechsel, Rückgabe und mögliche Zusatzkosten."
+    },
+    {
+      "question": "Verleiht Kim selbst Instrumente?",
+      "answer": "Ein eigener Instrumentenverleih ist hier nicht zugesagt. Wenn du kein Instrument hast, sprich die Frage vor dem Termin an, damit die Vorbereitung persönlich geklärt wird."
+    },
+    {
+      "question": "Kann ich eine Geige aus der Familie mitbringen?",
+      "answer": "Teile Größe und bekannten Zustand vor dem Termin mit. Nach Absprache kann ein vorhandenes Instrument für die erste Orientierung hilfreich sein; seine Eignung muss am konkreten Instrument geprüft werden."
+    },
+    {
+      "question": "Reicht eine Instrumentengröße nach Alterstabelle?",
+      "answer": "Eine Tabelle kann zur Orientierung dienen. Für die Auswahl zählen die Handhabung und die fachliche Einschätzung am konkreten Instrument, besonders bei Kindern."
+    }
+  ]
+},
+{
+  "slug": "hochzeitsmusik-kosten",
+  "title": "Hochzeitsmusik: Kosten und Leistungsumfang klären",
+  "shortTitle": "Hochzeitsmusik: Kosten und Leistungsumfang klären",
+  "seoTitle": "Hochzeitsmusik: Kosten und Leistungsumfang klären",
+  "seoDescription": "Was beeinflusst den Preis für Live-Viola zur Hochzeit? Trauung, Empfang, Anfahrt und Vorbereitung mit einer Anfragevorlage planen.",
+  "intent": "Was beeinflusst den Preis für Live-Viola zur Hochzeit? Trauung, Empfang, Anfahrt und Vorbereitung mit einer Anfragevorlage planen.",
+  "cluster": "Hochzeit",
+  "serviceSlug": "hochzeiten",
+  "heroImage": "/uploads/_DSC7270.webp",
+  "heroImageAlt": "Kim Marie Borger steht mit ihrer Viola am See",
+  "kicker": "Hochzeit",
+  "lead": "Was beeinflusst den Preis für Live-Viola zur Hochzeit? Trauung, Empfang, Anfahrt und Vorbereitung mit einer Anfragevorlage planen.",
+  "summary": "Was beeinflusst den Preis für Live-Viola zur Hochzeit? Trauung, Empfang, Anfahrt und Vorbereitung mit einer Anfragevorlage planen.",
+  "keyPoints": [
+    "Trauung, Empfang und Dinner getrennt beschreiben",
+    "Vorbereitung, Anfahrt und Zeit dazwischen berücksichtigen",
+    "Angebote anhand desselben Ablaufs vergleichen"
+  ],
+  "sections": [
+    {
+      "title": "Trauung, Empfang und Dinner getrennt beschreiben",
+      "body": [
+        "Für die Zeremonie zählen ausgewählte Musikmomente und ihre Vorbereitung. Ein anschließender Empfang braucht ein weiteres Zeitfenster; beim Dinner kommen Spielblöcke und Redepausen hinzu. Nennt deshalb zuerst die Abschnitte, die ihr musikalisch begleiten möchtet.",
+        "Wenn Trauung und Feier an verschiedenen Orten stattfinden, plant den Wechsel mit ein. Auch ein längerer Abstand bis zum Dinner verändert den Zeitraum vor Ort. Erst dieser Ablauf macht den gewünschten Leistungsumfang verständlich."
+      ]
+    },
+    {
+      "title": "Vorbereitung, Anfahrt und Zeit dazwischen berücksichtigen",
+      "body": [
+        "Der Aufwand umfasst mehr als die Minuten, in denen Musik zu hören ist. Vorbereitung, Anfahrt und die vereinbarten Zeiten vor Ort gehören in die Abstimmung. Bei getrennten Einsätzen sollten auch Wartephasen und ein möglicher zweiter Spielort sichtbar sein.",
+        "Ein Wunschstück aus vorhandenem Repertoire ist ohne Aufpreis möglich. Muss Musik neu eingerichtet oder notiert werden, wird der zusätzliche Aufwand vorher besprochen. Auch eine größere Besetzung oder besondere Technik braucht eine eigene Prüfung."
+      ]
+    },
+    {
+      "title": "Angebote anhand desselben Ablaufs vergleichen",
+      "body": [
+        "Gebt bei mehreren Anfragen denselben Zeitplan und dieselben Einsatzorte an. Fragt, welche Spielphasen, Vorbereitung und Wege enthalten sind und wie Änderungen behandelt werden. Ein einzelnes Zeremoniestück und mehrere Stunden Begleitung sind unterschiedliche Umfänge.",
+        "Für Kim Marie Borger gibt es hier keine erfundene Pauschale. Der konkrete Preis wird persönlich nach Termin, Ort und musikalischer Aufgabe vereinbart. Die kostenlose Anfrage hilft zuerst, Verfügbarkeit und Rahmen zu prüfen."
+      ]
+    },
+    {
+      "title": "Vorlage für eure Anfrage und Budgetplanung",
+      "body": [
+        "Zum Kopieren: Datum: … · Trauform und Location: … · Musikmomente mit Uhrzeiten: … · Empfang oder Dinner: … · zweiter Spielort: … · Wunschstücke: … · Kontaktperson: … · Außenplatz und Ersatzort: …",
+        "Ergänzt euren vorgesehenen Budgetrahmen, falls er bereits feststeht. Markiert, welche Angaben bestätigt sind und welche noch offen bleiben. Ihr bekommt dann eine Rückmeldung zum möglichen Umfang und zu den Konditionen für euren Tag."
+      ],
+      "links": [
+        {
+          "label": "Anfrage mit euren Eckdaten",
+          "href": "/anfragen/"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Warum steht hier kein fester Preis?",
+      "answer": "Termin, Ort, Umfang, Vorbereitung und weitere Absprachen unterscheiden sich. Ein belastbares Angebot entsteht aus eurem konkreten Ablauf."
+    },
+    {
+      "question": "Kosten Wunschstücke zusätzlich?",
+      "answer": "Vorhandenes Repertoire ist ohne Aufpreis möglich. Neue Bearbeitung oder Notation wird vorab geprüft und gesondert vereinbart."
+    },
+    {
+      "question": "Zählt auch Zeit ohne Musik?",
+      "answer": "Wartezeiten zwischen vereinbarten Einsätzen und Ortswechsel können zum Aufwand gehören. Ihr klärt sie im Angebot, damit der gesamte Zeitraum nachvollziehbar ist."
+    },
+    {
+      "question": "Wie bekommen wir ein konkretes Angebot?",
+      "answer": "Schickt Datum, Spielorte, gewünschte Musikabschnitte, ungefähre Zeiten und gegebenenfalls Wunschstücke. Ein fertiger Ablaufplan ist für den ersten Kontakt nicht erforderlich."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Leistungsumfang kennenlernen",
+      "href": "/hochzeiten/"
+    },
+    {
+      "label": "Hörproben der Viola",
+      "href": "/portfolio/"
+    }
+  ],
+  "nextStep": {
+    "label": "Termin und Ablauf anfragen",
+    "href": "/anfragen/"
+  }
+},
+{
+  "slug": "trauermusik-kosten",
+  "title": "Trauermusik: Kosten und Einsatzumfang klären",
+  "shortTitle": "Trauermusik: Kosten und Einsatzumfang klären",
+  "seoTitle": "Trauermusik: Kosten und Einsatzumfang klären",
+  "seoDescription": "Preisfaktoren für Trauermusik mit Viola: Halle, Kirche oder Grab, Anfahrt und Vorbereitung. Eine kurze Vorlage hilft bei der Anfrage.",
+  "intent": "Preisfaktoren für Trauermusik mit Viola: Halle, Kirche oder Grab, Anfahrt und Vorbereitung. Eine kurze Vorlage hilft bei der Anfrage.",
+  "cluster": "Trauerfeier",
+  "serviceSlug": "beerdigungen",
+  "heroImage": "/uploads/_DSC7353.webp",
+  "heroImageAlt": "Kim Marie Borger mit ihrer Viola am See in der Abenddämmerung",
+  "kicker": "Trauerfeier",
+  "lead": "Preisfaktoren für Trauermusik mit Viola: Halle, Kirche oder Grab, Anfahrt und Vorbereitung. Eine kurze Vorlage hilft bei der Anfrage.",
+  "summary": "Preisfaktoren für Trauermusik mit Viola: Halle, Kirche oder Grab, Anfahrt und Vorbereitung. Eine kurze Vorlage hilft bei der Anfrage.",
+  "keyPoints": [
+    "Halle, Kirche und Grab als einzelne Einsätze klären",
+    "Vorbereitung, Anfahrt und Zeit dazwischen berücksichtigen",
+    "Angebote anhand desselben Ablaufs vergleichen"
+  ],
+  "sections": [
+    {
+      "title": "Halle, Kirche und Grab als einzelne Einsätze klären",
+      "body": [
+        "Ein Stück zu Beginn der Trauerfeier hat einen anderen Umfang als mehrere Momente und ein zweiter Einsatz an der Grabstelle. Nennt, wo Musik gebraucht wird; eine Stückliste darf zunächst offen sein.",
+        "Beim Weg von der Halle zum Grab berücksichtigen wir Zeit, Transport und einen geeigneten Standort. Das Bestattungshaus kann diese Angaben übernehmen, wenn die Familie die weitere Organisation abgeben möchte."
+      ]
+    },
+    {
+      "title": "Vorbereitung, Anfahrt und Zeit dazwischen berücksichtigen",
+      "body": [
+        "Der Aufwand umfasst mehr als die Minuten, in denen Musik zu hören ist. Vorbereitung, Anfahrt und die vereinbarten Zeiten vor Ort gehören in die Abstimmung. Bei getrennten Einsätzen sollten auch Wartephasen und ein möglicher zweiter Spielort sichtbar sein.",
+        "Ein Wunschstück aus vorhandenem Repertoire ist ohne Aufpreis möglich. Muss Musik neu eingerichtet oder notiert werden, wird der zusätzliche Aufwand vorher besprochen. Auch eine größere Besetzung oder besondere Technik braucht eine eigene Prüfung."
+      ]
+    },
+    {
+      "title": "Angebote anhand desselben Ablaufs vergleichen",
+      "body": [
+        "Gebt bei mehreren Anfragen denselben Zeitplan und dieselben Einsatzorte an. Fragt, welche Spielphasen, Vorbereitung und Wege enthalten sind und wie Änderungen behandelt werden. Ein einzelnes Zeremoniestück und mehrere Stunden Begleitung sind unterschiedliche Umfänge.",
+        "Für Kim Marie Borger gibt es hier keine erfundene Pauschale. Der konkrete Preis wird persönlich nach Termin, Ort und musikalischer Aufgabe vereinbart. Die kostenlose Anfrage hilft zuerst, Verfügbarkeit und Rahmen zu prüfen."
+      ]
+    },
+    {
+      "title": "Vorlage für eure Anfrage und Budgetplanung",
+      "body": [
+        "Kurze Vorlage: Termin und Uhrzeit: … · Trauerort oder Friedhof: … · Musik in Halle, Kirche oder am Grab: … · Wunschstück, falls vorhanden: … · Kontakt zum Bestattungshaus: …",
+        "Diese wenigen Angaben reichen für den ersten Austausch. Weitere Details können danach mit einer festen Kontaktperson geklärt werden. Kurzfristige Verfügbarkeit und geeignete Fassungen werden geprüft, bevor eine Zusage erfolgt."
+      ],
+      "links": [
+        {
+          "label": "Anfrage mit euren Eckdaten",
+          "href": "/anfragen/"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Warum steht hier kein fester Preis?",
+      "answer": "Termin, Ort, Umfang, Vorbereitung und weitere Absprachen unterscheiden sich. Ein belastbares Angebot entsteht aus eurem konkreten Ablauf."
+    },
+    {
+      "question": "Kosten Wunschstücke zusätzlich?",
+      "answer": "Vorhandenes Repertoire ist ohne Aufpreis möglich. Neue Bearbeitung oder Notation wird vorab geprüft und gesondert vereinbart."
+    },
+    {
+      "question": "Zählt auch Zeit ohne Musik?",
+      "answer": "Wartezeiten zwischen vereinbarten Einsätzen und Ortswechsel können zum Aufwand gehören. Ihr klärt sie im Angebot, damit der gesamte Zeitraum nachvollziehbar ist."
+    },
+    {
+      "question": "Wie bekommen wir ein konkretes Angebot?",
+      "answer": "Nennt Termin, Uhrzeit, Ort und gewünschte Einsatzstellen. Eine Kontaktperson beim Bestattungshaus kann die weiteren Angaben übermitteln."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Leistungsumfang kennenlernen",
+      "href": "/beerdigungen/"
+    },
+    {
+      "label": "Hörproben der Viola",
+      "href": "/portfolio/"
+    }
+  ],
+  "nextStep": {
+    "label": "Termin und Ablauf anfragen",
+    "href": "/anfragen/"
+  }
+},
+{
+  "slug": "geige-bratsche-ueben-alltag",
+  "title": "Geige und Bratsche im Alltag üben",
+  "shortTitle": "Geige und Bratsche im Alltag üben",
+  "seoTitle": "Geige und Bratsche im Alltag üben",
+  "seoDescription": "Üben zwischen den Unterrichtsstunden: ein klares Ziel, kurze Aufgaben und eine ausfüllbare Übenotiz für Geige oder Bratsche.",
+  "intent": "Üben zwischen den Unterrichtsstunden: ein klares Ziel, kurze Aufgaben und eine ausfüllbare Übenotiz für Geige oder Bratsche.",
+  "cluster": "Unterricht",
+  "serviceSlug": "unterricht",
+  "heroImage": "/uploads/_DSC7270.webp",
+  "heroImageAlt": "Kim Marie Borger steht mit ihrer Viola am See",
+  "kicker": "Unterricht",
+  "lead": "Üben zwischen den Unterrichtsstunden: ein klares Ziel, kurze Aufgaben und eine ausfüllbare Übenotiz für Geige oder Bratsche.",
+  "summary": "Üben zwischen den Unterrichtsstunden: ein klares Ziel, kurze Aufgaben und eine ausfüllbare Übenotiz für Geige oder Bratsche.",
+  "keyPoints": [
+    "Ein konkretes Ziel für die nächste Einheit wählen",
+    "Hören, Rhythmus und Bogen getrennt betrachten",
+    "Übezeit an die tatsächliche Woche anpassen"
+  ],
+  "sections": [
+    {
+      "title": "Ein konkretes Ziel für die nächste Einheit wählen",
+      "body": [
+        "„Das Stück üben“ ist ein großes Vorhaben. Eine kleinere Aufgabe kann heißen: den Rhythmus einer Stelle verstehen, einen Übergang zwischen zwei Saiten wiederholen oder den Beginn mit ruhigem Bogen spielen. Wähle den Schwerpunkt zusammen mit deiner Lehrkraft.",
+        "Notiere, woran du eine Veränderung hören oder erkennen möchtest. Ein kurzer Ausschnitt gibt dir die Möglichkeit, denselben Vorgang aufmerksam zu wiederholen. Er ersetzt nicht das spätere Zusammenspiel der gesamten Phrase."
+      ],
+      "links": []
+    },
+    {
+      "title": "Hören, Rhythmus und Bogen getrennt betrachten",
+      "body": [
+        "Wenn eine Stelle noch nicht gelingt, unterscheiden sich mögliche Ursachen. Ist die Notenfolge unklar, stimmt der Rhythmus noch nicht oder braucht die Bogenbewegung Aufmerksamkeit? Im Unterricht lässt sich klären, welche Aufgabe zuerst sinnvoll ist.",
+        "Du kannst vereinbarte Rhythmen zunächst sprechen oder klopfen und beim Spielen einen kurzen Ausschnitt untersuchen. Ein Metronom ist ein Hilfsmittel für einen gewählten Schwerpunkt, keine Vorgabe, jede Übeeinheit gleich aufzubauen. Umfang und Schwierigkeit bleiben an deinem Lernstand ausgerichtet."
+      ],
+      "links": []
+    },
+    {
+      "title": "Übezeit an die tatsächliche Woche anpassen",
+      "body": [
+        "Plane Zeitfenster, die zwischen Arbeit, Schule und anderen Terminen wirklich möglich sind. Eine überschaubare Aufgabe ist auch an einem kurzen Tag machbar. Du musst nicht jede Sitzung mit dem ganzen Stück beginnen.",
+        "Für Kinder hilft eine gemeinsame Absprache, wer an die Aufgabe erinnert und wann das Instrument bereitliegt. Erwachsene können notieren, welche Tage regelmäßig frei sind. Wenn ein Plan im Alltag nicht funktioniert, wird er im Unterricht angepasst."
+      ],
+      "links": [
+        {
+          "label": "Unterricht für Kinder",
+          "href": "/unterricht/geigenunterricht-kinder/"
+        },
+        {
+          "label": "Unterricht für Erwachsene",
+          "href": "/unterricht/geigenunterricht-erwachsene/"
+        }
+      ]
+    },
+    {
+      "title": "Eine Übenotiz zum Kopieren nutzen",
+      "body": [
+        "Vorlage: Datum: … · heutiges Ziel: … · Stelle oder Takte: … · vereinbarte Vorgehensweise: … · was wurde klarer: … · Frage für die nächste Stunde: …",
+        "Diese Vorlage ist eine allgemeine Planungshilfe und kein persönlich festgelegter Übeplan. Bring die Notiz zum nächsten Termin mit. So kann aus einer konkreten Beobachtung die nächste passende Aufgabe entstehen."
+      ],
+      "links": [
+        {
+          "label": "Lernziel in der Probestunde besprechen",
+          "href": "/ratgeber/geigen-probestunde/"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wie lange sollte ich täglich üben?",
+      "answer": "Die passende Dauer hängt von Lernstand, Aufgabe und Alltag ab. Vereinbare einen realistischen Umfang im Unterricht; hier wird keine universelle Minutenzahl vorgegeben."
+    },
+    {
+      "question": "Was mache ich, wenn eine Stelle nicht besser wird?",
+      "answer": "Notiere den Ausschnitt und deine Frage. Die Lehrkraft kann unterscheiden, ob Rhythmus, Tonfolge, Bogen oder ein anderer Schwerpunkt zuerst bearbeitet werden sollte."
+    },
+    {
+      "question": "Brauche ich immer ein Metronom?",
+      "answer": "Es kann für einen bestimmten Rhythmusschwerpunkt sinnvoll sein. Ob und wie es eingesetzt wird, richtet sich nach der vereinbarten Aufgabe."
+    },
+    {
+      "question": "Wie passe ich die Übenotiz an meinen Unterricht an?",
+      "answer": "Nimm die vereinbarte Aufgabe aus deiner Stunde als Ziel und notiere Beobachtungen und Fragen dazu. Dein persönlicher Lern- und Übeplan entsteht im Unterricht."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Geigen- und Bratschenunterricht",
+      "href": "/unterricht/"
+    },
+    {
+      "label": "Nach einer Pause wieder einsteigen",
+      "href": "/ratgeber/geige-wiedereinstieg/"
+    }
+  ],
+  "nextStep": {
+    "label": "Probestunde anfragen",
+    "href": "/anfragen/"
+  }
+},
+{
+  "slug": "geige-wiedereinstieg",
+  "title": "Nach einer Pause wieder Geige spielen",
+  "shortTitle": "Nach einer Pause wieder Geige spielen",
+  "seoTitle": "Nach einer Pause wieder Geige spielen",
+  "seoDescription": "Wiedereinstieg auf Geige oder Bratsche: Instrument prüfen, frühere Erfahrungen einordnen und ein realistisches erstes Lernziel vereinbaren.",
+  "intent": "Wiedereinstieg auf Geige oder Bratsche: Instrument prüfen, frühere Erfahrungen einordnen und ein realistisches erstes Lernziel vereinbaren.",
+  "cluster": "Unterricht",
+  "serviceSlug": "unterricht",
+  "heroImage": "/uploads/_DSC7270.webp",
+  "heroImageAlt": "Kim Marie Borger steht mit ihrer Viola am See",
+  "kicker": "Unterricht",
+  "lead": "Wiedereinstieg auf Geige oder Bratsche: Instrument prüfen, frühere Erfahrungen einordnen und ein realistisches erstes Lernziel vereinbaren.",
+  "summary": "Wiedereinstieg auf Geige oder Bratsche: Instrument prüfen, frühere Erfahrungen einordnen und ein realistisches erstes Lernziel vereinbaren.",
+  "keyPoints": [
+    "Das vorhandene Instrument vor dem Start prüfen lassen",
+    "Frühere Erfahrungen ohne Vorspieldruck beschreiben",
+    "Ein erstes Ziel wählen, das zum heutigen Alltag passt"
+  ],
+  "sections": [
+    {
+      "title": "Das vorhandene Instrument vor dem Start prüfen lassen",
+      "body": [
+        "Wenn Geige oder Bratsche lange im Kasten lag, ist ein fachlicher Blick auf Zustand und Spielbarkeit sinnvoll. Dazu gehören auch Bogen und Zubehör. Versuche nicht, unbekannte Schäden selbst zu reparieren oder allein deshalb sofort ein neues Instrument zu kaufen.",
+        "Teile vor der Probestunde mit, welches Instrument vorhanden ist und wann es zuletzt gespielt wurde. Falls du keines mehr hast, wird die Vorbereitung für den Termin persönlich geklärt. Miete oder Leihe ist keine automatisch zugesagte Leistung von Kim."
+      ],
+      "links": [
+        {
+          "label": "Instrument kaufen, mieten oder leihen",
+          "href": "/ratgeber/geige-bratsche-instrument-start/"
+        }
+      ]
+    },
+    {
+      "title": "Frühere Erfahrungen ohne Vorspieldruck beschreiben",
+      "body": [
+        "Wie lange hast du gespielt, welche Noten kennst du noch und was hat dir früher Freude gemacht? Alte Hefte oder ein vertrautes Stück helfen, den Ausgangspunkt zu erkennen. Eine Pause bedeutet nicht, dass jeder Bereich wieder auf demselben Stand beginnt.",
+        "Vielleicht liest du Noten noch sicher, während Bogenführung oder Orientierung auf dem Griffbrett mehr Aufmerksamkeit brauchen. In der Probestunde wird daraus eine passende erste Aufgabe. Du musst dich nicht an deiner früheren schwierigsten Leistung messen."
+      ],
+      "links": []
+    },
+    {
+      "title": "Ein erstes Ziel wählen, das zum heutigen Alltag passt",
+      "body": [
+        "Ein vertrautes Stück wieder sicher spielen, einen warmen Ton finden oder später im Ensemble mitwirken: Nenne den Wunsch möglichst konkret. Für den Anfang wird ein erreichbarer Teil davon gewählt. Ein Konzertziel kann längerfristig bleiben.",
+        "Dauer, Rhythmus und Preis des Unterrichts werden individuell vereinbart. Im Raum Köln, Düsseldorf und Umgebung wird auch der konkrete Ort abgestimmt. Plane die Zeit zwischen den Terminen mit ein, damit die Aufgabe in deiner Woche Platz findet."
+      ],
+      "links": [
+        {
+          "label": "Geigenunterricht für Erwachsene",
+          "href": "/unterricht/geigenunterricht-erwachsene/"
+        },
+        {
+          "label": "Bratschenunterricht für Erwachsene",
+          "href": "/unterricht/bratschenunterricht-erwachsene/"
+        }
+      ]
+    },
+    {
+      "title": "Eine einfache Wiedereinstiegsnotiz mitbringen",
+      "body": [
+        "Vorlage: Früheres Instrument und Unterricht: … · letzter aktiver Zeitraum: … · vorhandene Noten und Instrument: … · Musik, die ich wieder spielen möchte: … · mögliche Termine und Übezeiten: … · offene Fragen: …",
+        "Die Notiz dient der Orientierung. Sie ist kein Versprechen, in einer festen Anzahl von Wochen den früheren Stand zu erreichen. Nach dem ersten Termin entscheiden wir gemeinsam, ob Unterricht und Rahmen für beide Seiten passen."
+      ],
+      "links": [
+        {
+          "label": "Kostenlose Probestunde vorbereiten",
+          "href": "/ratgeber/geigen-probestunde/"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Muss ich nach Jahren Pause von vorn anfangen?",
+      "answer": "Das wird anhand deiner vorhandenen Kenntnisse und Spielpraxis eingeschätzt. Verschiedene Bereiche können unterschiedliche Aufmerksamkeit brauchen."
+    },
+    {
+      "question": "Soll ich mein altes Instrument sofort ersetzen?",
+      "answer": "Lass Zustand und Eignung fachlich prüfen, bevor du dich für Reparatur, Miete oder Neukauf entscheidest."
+    },
+    {
+      "question": "Brauche ich ein vorbereitetes Vorspiel?",
+      "answer": "Für die erste Anfrage nicht. Vorhandene Noten und ein vertrautes Stück können helfen; die konkrete Vorbereitung wird persönlich vereinbart."
+    },
+    {
+      "question": "Wie schnell erreiche ich meinen früheren Stand?",
+      "answer": "Dafür gibt es keine pauschale Zusage. Ausgangspunkt, Lernziel und verfügbare Übezeit bestimmen den individuellen Weg."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Unterricht kennenlernen",
+      "href": "/unterricht/"
+    },
+    {
+      "label": "Üben im Alltag planen",
+      "href": "/ratgeber/geige-bratsche-ueben-alltag/"
+    }
+  ],
+  "nextStep": {
+    "label": "Probestunde anfragen",
+    "href": "/anfragen/"
+  }
+},
+{
+  "slug": "musik-kirchliche-trauung-planen",
+  "title": "Kirchliche Trauungsmusik gemeinsam planen",
+  "shortTitle": "Kirchliche Trauungsmusik gemeinsam planen",
+  "seoTitle": "Kirchliche Trauungsmusik gemeinsam planen",
+  "seoDescription": "Kirchenmusik, Solo-Viola und Gemeindegesang abstimmen: Fragen an die Gemeinde und eine Vorlage für Stücke, Zuständigkeiten und Startsignale.",
+  "intent": "Kirchenmusik, Solo-Viola und Gemeindegesang abstimmen: Fragen an die Gemeinde und eine Vorlage für Stücke, Zuständigkeiten und Startsignale.",
+  "cluster": "Hochzeit",
+  "serviceSlug": "hochzeiten",
+  "heroImage": "/uploads/_DSC7270.webp",
+  "heroImageAlt": "Kim Marie Borger steht mit ihrer Viola am See",
+  "kicker": "Hochzeit",
+  "lead": "Kirchenmusik, Solo-Viola und Gemeindegesang abstimmen: Fragen an die Gemeinde und eine Vorlage für Stücke, Zuständigkeiten und Startsignale.",
+  "summary": "Kirchenmusik, Solo-Viola und Gemeindegesang abstimmen: Fragen an die Gemeinde und eine Vorlage für Stücke, Zuständigkeiten und Startsignale.",
+  "keyPoints": [
+    "Den Ablauf der eigenen Gemeinde als Grundlage nehmen",
+    "Gemeindegesang und Solo-Stücke getrennt aufführen",
+    "Wunschstück, Position und Signal mit den Beteiligten klären"
+  ],
+  "sections": [
+    {
+      "title": "Den Ablauf der eigenen Gemeinde als Grundlage nehmen",
+      "body": [
+        "Fragt nach dem Ablauf eurer Trauung und den möglichen Musikstellen. Ein Wortgottesdienst und eine Trauung innerhalb einer Messe können verschiedene Beiträge vorsehen. Die konkrete Gemeinde klärt den Rahmen.",
+        "Die Kirchenmusik Kaarst empfiehlt, den Organisten bereits beim Beginn der Planung einzubeziehen. Das ist eine hilfreiche Orientierung, aber keine allgemeine Zusage zu bestimmten Stücken in jeder Kirche. Nehmt den zuständigen Kontakt eurer Traukirche in die Abstimmung auf."
+      ],
+      "links": [
+        {
+          "label": "Hinweise der Kirchenmusik Kaarst",
+          "href": "https://gemeinden.erzbistum-koeln.de/kirchenmusik_kaarst/Hochzeit/index.html"
+        }
+      ]
+    },
+    {
+      "title": "Gemeindegesang und Solo-Stücke getrennt aufführen",
+      "body": [
+        "Beim Gemeindegesang brauchen Gäste eine singbare Auswahl und passende Begleitung. Ein instrumentales Solo-Stück gibt dagegen Raum zum Zuhören. Notiert, wer welchen Beitrag übernimmt: Kirchenmusik, Chor, Gesang oder Viola.",
+        "Eine gemeinsame Besetzung muss musikalisch und organisatorisch vorbereitet werden. Noten, Tonart und mögliche Probe werden gesondert vereinbart. Bucht ein Solo-Instrument deshalb nicht automatisch als vollständigen Ersatz für alle musikalischen Aufgaben des Gottesdienstes."
+      ],
+      "links": []
+    },
+    {
+      "title": "Wunschstück, Position und Signal mit den Beteiligten klären",
+      "body": [
+        "Nennt persönliche Stückwünsche und die gewünschte Stelle. Die Gemeinde prüft den gottesdienstlichen Rahmen; Kim prüft die Viola-Fassung. Ein Werk kann für einen eigenen Hörmoment passen und für eine andere Stelle ungeeignet sein.",
+        "Besprecht außerdem den Spielplatz, die Sicht zur leitenden Person und das Ende des Stücks. Beim Einzug zählen Weg und Reihenfolge, beim Auszug der Abschluss der Zeremonie. Dazwischen müssen Worte und gemeinsame Lieder verständlich bleiben."
+      ],
+      "links": [
+        {
+          "label": "Einzug vorbereiten",
+          "href": "/hochzeiten/musik-brauteinzug/"
+        },
+        {
+          "label": "Auszug planen",
+          "href": "/hochzeiten/musik-auszug/"
+        }
+      ]
+    },
+    {
+      "title": "Eine gemeinsame Einsatzliste zum Kopieren nutzen",
+      "body": [
+        "Vorlage je Beitrag: Ablaufstelle: … · Stück und Fassung: … · zuständige Musiker:innen: … · Startsignal von: … · gewünschtes Ende oder Dauer: … · Zustimmung der Gemeinde: … · noch offene Frage: …",
+        "Fügt Datum, Kirche, Uhrzeit und den Kontakt zur Kirchenmusik hinzu. Ein anschließender Empfang erhält einen eigenen Abschnitt mit Spielort und Zeitfenster. Die bestätigte Liste wird vor dem Hochzeitstag mit allen musikalisch Beteiligten abgestimmt."
+      ],
+      "links": [
+        {
+          "label": "Kirchliche Trauung mit Viola anfragen",
+          "href": "/hochzeiten/musik-kirchliche-trauung/"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wer muss an der Musikplanung beteiligt werden?",
+      "answer": "Das Paar, die zuständige Gemeinde und Kirchenmusik sowie die gebuchten Musiker:innen. Für jeden Beitrag sollte eine zuständige Person klar sein."
+    },
+    {
+      "question": "Darf unser Lieblingslied in der Kirche gespielt werden?",
+      "answer": "Die Gemeinde klärt den gottesdienstlichen Rahmen. Zusätzlich wird die geeignete Viola-Fassung und notwendige Vorbereitung geprüft."
+    },
+    {
+      "question": "Übernimmt Solo-Viola den gesamten Gemeindegesang?",
+      "answer": "Das ist keine automatische Leistung. Gemeinsame Begleitung braucht passende Noten, Tonart, Beteiligte und eine eigene Vereinbarung."
+    },
+    {
+      "question": "Brauchen wir für jeden Einsatz ein Signal?",
+      "answer": "Eine eindeutig vereinbarte Stelle oder zuständige Person hilft. Vor allem Einzug und Ende der Zeremonie sollten musikalisch klar abgestimmt sein."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Hochzeitsmusik kennenlernen",
+      "href": "/hochzeiten/"
+    },
+    {
+      "label": "Kosten und Leistungsumfang",
+      "href": "/ratgeber/hochzeitsmusik-kosten/"
+    }
+  ],
+  "nextStep": {
+    "label": "Termin und Ablauf anfragen",
+    "href": "/anfragen/"
+  }
+},
+{
+  "slug": "live-musik-firmenevent-kosten",
+  "title": "Live-Musik beim Firmenevent: Kosten klären",
+  "shortTitle": "Live-Musik beim Firmenevent: Kosten klären",
+  "seoTitle": "Live-Musik beim Firmenevent: Kosten klären",
+  "seoDescription": "Kostenfaktoren für Live-Viola beim Firmenevent: Musikaufgabe, Zeitplan, Aufbau, Technik und Ortswechsel mit einer Briefingvorlage abstimmen.",
+  "intent": "Kostenfaktoren für Live-Viola beim Firmenevent: Musikaufgabe, Zeitplan, Aufbau, Technik und Ortswechsel mit einer Briefingvorlage abstimmen.",
+  "cluster": "Firmenevent",
+  "serviceSlug": "firmenfeiern",
+  "heroImage": "/uploads/_DSC7270.webp",
+  "heroImageAlt": "Kim Marie Borger steht mit ihrer Viola am See",
+  "kicker": "Firmenevent",
+  "lead": "Kostenfaktoren für Live-Viola beim Firmenevent: Musikaufgabe, Zeitplan, Aufbau, Technik und Ortswechsel mit einer Briefingvorlage abstimmen.",
+  "summary": "Kostenfaktoren für Live-Viola beim Firmenevent: Musikaufgabe, Zeitplan, Aufbau, Technik und Ortswechsel mit einer Briefingvorlage abstimmen.",
+  "keyPoints": [
+    "Musikaufgabe und Zeitraum unterscheiden",
+    "Zugang, Aufbau und Technik früh klären",
+    "Repertoire und gewünschte Besetzung im Umfang festhalten"
+  ],
+  "sections": [
+    {
+      "title": "Musikaufgabe und Zeitraum unterscheiden",
+      "body": [
+        "Ein Empfang, mehrere Dinner-Spielphasen und ein eigener Bühnenmoment sind verschiedene Umfänge. Nennt die Aufgabe der Musik und den Zeitraum, in dem sie gebraucht wird. Auch Pausen zwischen Reden oder Menüphasen gehören in den Ablauf.",
+        "Wenn mehrere Orte oder Räume beteiligt sind, führt sie getrennt auf. Ein längerer Zeitraum vor Ort besteht nicht nur aus hörbarer Spielzeit. Vorbereitung, Bereitschaft zwischen Einsätzen und mögliche Wechsel müssen im Angebot nachvollziehbar sein."
+      ],
+      "links": []
+    },
+    {
+      "title": "Zugang, Aufbau und Technik früh klären",
+      "body": [
+        "Für die Location helfen genaue Adresse, Aufbauzugang, Park- oder Haltemöglichkeit, Etage und Kontaktperson. Bei Messen kommen Akkreditierung und Veranstaltervorgaben hinzu. Diese Angaben beeinflussen, welcher Rahmen zuverlässig geplant werden kann.",
+        "Raumgröße, Gästeverteilung und Umgebung bestimmen, ob Solo-Viola akustisch geeignet ist oder Technik abgestimmt werden muss. Eine große Anlage, ein eigener Techniker oder zusätzliche Musiker:innen sind keine automatisch enthaltenen Leistungen."
+      ],
+      "links": [
+        {
+          "label": "Musik rund um die Messe",
+          "href": "/firmenfeiern/musik-messe/"
+        }
+      ]
+    },
+    {
+      "title": "Repertoire und gewünschte Besetzung im Umfang festhalten",
+      "body": [
+        "Vorhandenes Repertoire ist ohne Aufpreis möglich. Ein neu einzurichtendes Wunschstück wird auf Noten, Solo-Fassung und Vorbereitungszeit geprüft. Eine größere Besetzung braucht passende Kolleg:innen und bestätigte Verfügbarkeit.",
+        "Der Preis wird individuell für den Termin und den vereinbarten Leistungsumfang kalkuliert. Vergleicht Angebote anhand desselben Briefings: Spielphasen, Pausen, Anfahrt, Vorbereitung, Technik und Konditionen für Änderungen sollten erkennbar sein."
+      ],
+      "links": []
+    },
+    {
+      "title": "Briefingvorlage für Office- und Eventteams",
+      "body": [
+        "Zum Kopieren: Unternehmen und Anlass: … · Datum: … · Location und Räume: … · Gästezahl: … · Musikaufgabe: … · Spielphasen und Reden: … · Aufbauzugang: … · Technik vor Ort: … · Ortswechsel: … · Wunschstücke: … · Ansprechpartner:in und Rechnungsdaten: …",
+        "Markiert bestätigte Angaben und offene Fragen. Ein vorhandener Budgetrahmen kann helfen, passende Optionen zu prüfen. Die erste Anfrage ist kostenlos und unverbindlich; verbindliche Konditionen entstehen aus der persönlichen Abstimmung."
+      ],
+      "links": [
+        {
+          "label": "Briefing an Kim weitergeben",
+          "href": "/fuer-eventplaner/"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Gibt es einen festen Stundenpreis?",
+      "answer": "Hier wird keine allgemeine Pauschale behauptet. Termin, Aufgabe, Vorbereitung und Zeit vor Ort ergeben das individuelle Angebot."
+    },
+    {
+      "question": "Was zählt bei mehreren Spielphasen?",
+      "answer": "Der vereinbarte Zeitraum, Spielphasen, Pausen und mögliche Wechsel werden gemeinsam betrachtet. Das Angebot soll den gesamten Rahmen verständlich abbilden."
+    },
+    {
+      "question": "Ist Technik enthalten?",
+      "answer": "Notwendige Technik und Zuständigkeiten werden vor der Buchung abgestimmt. Eine große Beschallung wird nicht automatisch zugesagt."
+    },
+    {
+      "question": "Können wir zuerst einen Budgetrahmen nennen?",
+      "answer": "Ja. Gebt dazu Datum, Location, Musikaufgabe und Zeitplan an, damit passende Möglichkeiten geprüft werden können."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Live-Musik für Firmenfeiern",
+      "href": "/firmenfeiern/"
+    },
+    {
+      "label": "Empfangsmusik",
+      "href": "/firmenfeiern/empfangsmusik-firmenevent/"
+    },
+    {
+      "label": "Dinnermusik",
+      "href": "/firmenfeiern/dinnermusik-firmenevent/"
+    }
+  ],
+  "nextStep": {
+    "label": "Termin und Ablauf anfragen",
+    "href": "/anfragen/"
+  }
+},
+{
+  "slug": "live-musik-gartenfest-planen",
+  "title": "Live-Musik beim Gartenfest planen",
+  "shortTitle": "Live-Musik beim Gartenfest planen",
+  "seoTitle": "Live-Musik beim Gartenfest planen",
+  "seoDescription": "Gästeverteilung, Spielplatz, Wetterschutz und Ersatzraum für Live-Viola im Garten prüfen. Eine Briefingvorlage hilft Gastgeber:innen.",
+  "intent": "Gästeverteilung, Spielplatz, Wetterschutz und Ersatzraum für Live-Viola im Garten prüfen. Eine Briefingvorlage hilft Gastgeber:innen.",
+  "cluster": "Geburtstag",
+  "serviceSlug": "geburtstage",
+  "heroImage": "/uploads/_DSC7270.webp",
+  "heroImageAlt": "Kim Marie Borger steht mit ihrer Viola am See",
+  "kicker": "Geburtstag",
+  "lead": "Gästeverteilung, Spielplatz, Wetterschutz und Ersatzraum für Live-Viola im Garten prüfen. Eine Briefingvorlage hilft Gastgeber:innen.",
+  "summary": "Gästeverteilung, Spielplatz, Wetterschutz und Ersatzraum für Live-Viola im Garten prüfen. Eine Briefingvorlage hilft Gastgeber:innen.",
+  "keyPoints": [
+    "Die Musikaufgabe und den Hörbereich festlegen",
+    "Einen trockenen Schattenplatz auswählen",
+    "Den Plan B als tatsächlich nutzbaren Ort prüfen"
+  ],
+  "sections": [
+    {
+      "title": "Die Musikaufgabe und den Hörbereich festlegen",
+      "body": [
+        "Soll Musik das Ankommen begleiten oder versammelt sich die Runde zu einem persönlichen Stück? Nennt Gästezahl und die Bereiche, in denen Menschen stehen oder sitzen. Ein einzelner akustischer Spielort erreicht nicht automatisch den ganzen Garten.",
+        "Bei einem eigenen Hörmoment kann eine kurze Ankündigung helfen. Für Begleitung neben Gesprächen prüfen wir Position und Umgebungslärm. Musik steht weder im Serviceweg noch direkt zwischen den wichtigsten Gesprächsgruppen."
+      ]
+    },
+    {
+      "title": "Einen trockenen Schattenplatz auswählen",
+      "body": [
+        "Die Viola ist ein empfindliches Instrument und braucht geeignete Bedingungen. Prüft trockenen Schutz, Schatten im geplanten Zeitfenster, sicheren Untergrund und Wind. Ein Platz, der morgens geschützt aussieht, kann beim späteren Musikblock in direkter Sonne liegen.",
+        "Plant Zugang und Transportweg sowie ausreichend freien Raum für Instrument und Musikerin. Gastgeber:innen klären die örtlichen Vorgaben zu Lautstärke und Zeiten und sprechen bei Bedarf mit Location oder Nachbarschaft."
+      ]
+    },
+    {
+      "title": "Den Plan B als tatsächlich nutzbaren Ort prüfen",
+      "body": [
+        "Ein möglicher Ersatzraum muss erreichbar, verfügbar und für die Gäste geeignet sein. Klärt, wer bei einer Wetteränderung entscheidet und wie viel Zeit für den Wechsel gebraucht wird. Eine bloße Idee für später schützt das Instrument noch nicht.",
+        "Stimmen Standort oder Wetter nicht, wird Außenmusik nicht pauschal zugesagt. Die passende Alternative gehört in die persönliche Absprache. Auch eine Änderung des Zeitplans kann den vereinbarten Spielumfang betreffen."
+      ],
+      "links": [
+        {
+          "label": "Musik beim Gartenfest anfragen",
+          "href": "/geburtstage/musik-gartenfest/"
+        }
+      ]
+    },
+    {
+      "title": "Briefingvorlage für Gastgeber:innen",
+      "body": [
+        "Zum Kopieren: Datum und Adresse: … · Gästezahl und Bereiche: … · Musikaufgabe: … · Spielphasen: … · Reden oder Geschenke: … · geschützter Standort: … · Ersatzraum: … · Zugang: … · Entscheidung und Signal durch: … · Wunschstücke: …",
+        "Kennzeichnet offene Punkte vor der Anfrage. Ein Gartenfest nach Taufe oder Willkommensfest kann ebenfalls einen eigenen Musikabschnitt bekommen. Zeitpunkt, Vorbereitung und Wege werden für diesen Anlass vereinbart."
+      ],
+      "links": [
+        {
+          "label": "Musik nach der Taufe",
+          "href": "/taufen/musik-familienfeier-taufe/"
+        },
+        {
+          "label": "Segnung oder freies Willkommensfest",
+          "href": "/taufen/musik-segnung/"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Reicht ein Sonnenschirm als Plan B?",
+      "answer": "Der konkrete Schutz muss Trockenheit, Schatten, Wind und sicheren Stand gewährleisten. Eine geeignete Alternative wird persönlich geprüft; ein beliebiger Schirm ist keine pauschale Zusage."
+    },
+    {
+      "question": "Kann bei Regen einfach weitergespielt werden?",
+      "answer": "Die Viola braucht trockenen Schutz und geeignete Bedingungen. Ein nutzbarer Ersatzort wird vorab abgestimmt."
+    },
+    {
+      "question": "Wie verteilen wir Musik und Gespräche?",
+      "answer": "Beschreibt Gästezahl und Gartenbereiche. Ein eigener Hörmoment kann die Runde sammeln; Begleitmusik braucht eine passende Position und Lautstärke."
+    },
+    {
+      "question": "Wer entscheidet über den Standortwechsel?",
+      "answer": "Vorher wird eine zuständige Person benannt. Sie stimmt Wetter, Wechselzeit und den weiteren Ablauf mit Kim ab."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Geburtstagsmusik kennenlernen",
+      "href": "/geburtstage/"
+    },
+    {
+      "label": "Hörproben",
+      "href": "/portfolio/"
+    }
+  ],
+  "nextStep": {
+    "label": "Termin und Ablauf anfragen",
+    "href": "/anfragen/"
+  }
+},
+{
+  "slug": "solo-viola-oder-ensemble",
+  "title": "Solo-Viola oder Ensemble: Welche Besetzung passt?",
+  "shortTitle": "Solo-Viola oder Ensemble: Welche Besetzung passt?",
+  "seoTitle": "Solo-Viola oder Ensemble: Welche Besetzung passt?",
+  "seoDescription": "Soloklang, Raum und musikalische Aufgabe vergleichen. Duo oder Ensemble werden mit geeigneten Kolleg:innen und bestätigter Verfügbarkeit vereinbart.",
+  "intent": "Soloklang, Raum und musikalische Aufgabe vergleichen. Duo oder Ensemble werden mit geeigneten Kolleg:innen und bestätigter Verfügbarkeit vereinbart.",
+  "cluster": "Hochzeit",
+  "serviceSlug": "hochzeiten",
+  "heroImage": "/uploads/_DSC7270.webp",
+  "heroImageAlt": "Kim Marie Borger steht mit ihrer Viola am See",
+  "kicker": "Hochzeit",
+  "lead": "Soloklang, Raum und musikalische Aufgabe vergleichen. Duo oder Ensemble werden mit geeigneten Kolleg:innen und bestätigter Verfügbarkeit vereinbart.",
+  "summary": "Soloklang, Raum und musikalische Aufgabe vergleichen. Duo oder Ensemble werden mit geeigneten Kolleg:innen und bestätigter Verfügbarkeit vereinbart.",
+  "keyPoints": [
+    "Den Soloklang zuerst in den Hörproben kennenlernen",
+    "Raum und Musikaufgabe gemeinsam betrachten",
+    "Weitere Besetzung ausdrücklich vereinbaren"
+  ],
+  "sections": [
+    {
+      "title": "Den Soloklang zuerst in den Hörproben kennenlernen",
+      "body": [
+        "Eine einzelne Viola trägt eine melodische Linie mit einer eigenen Klangfarbe. Die vorhandenen Aufnahmen geben euch einen Eindruck davon. Ein bekanntes Lied mit Gesang, Schlagzeug oder großem Arrangement klingt als Solofassung anders.",
+        "Nennt deshalb nicht nur den Songtitel, sondern auch die Wirkung, die euch wichtig ist. Manche Wünsche passen zu einer klaren Melodie, andere brauchen harmonische Begleitung oder weitere Stimmen. Die konkrete Fassung wird vor der Zusage geprüft."
+      ],
+      "links": [
+        {
+          "label": "Fünf veröffentlichte Hörproben",
+          "href": "/portfolio/"
+        }
+      ]
+    },
+    {
+      "title": "Raum und Musikaufgabe gemeinsam betrachten",
+      "body": [
+        "Ein einzelner Trauungsmoment, dezente Begleitung beim Empfang und ein angekündigtes Konzertstück brauchen verschiedene Hörsituationen. Kleine ruhige Räume können für akustische Solo-Musik geeignet sein; große oder laute Bereiche werden gesondert geprüft.",
+        "Mehr Musiker:innen lösen nicht automatisch jedes Raumproblem. Position, Gästeverteilung und Technik müssen zum Format passen. Gebt an, ob Gespräche weiterlaufen oder alle Gäste zuhören sollen."
+      ]
+    },
+    {
+      "title": "Weitere Besetzung ausdrücklich vereinbaren",
+      "body": [
+        "Ein Duo oder kleines Ensemble kann für einen bestimmten Wunsch geprüft werden. Dafür braucht es passende Kolleg:innen, verfügbare Termine, geeignete Noten und abgestimmte Vorbereitung. Eine in einer Rezension genannte frühere Zusammenarbeit ist keine Zusage für dieselbe Besetzung bei jedem Termin.",
+        "Das Angebot nennt den vereinbarten Umfang und die Besetzung. Weitere Musiker:innen, gemeinsame Vorbereitung und gegebenenfalls Technik werden vor der Buchung besprochen. Solo-Viola bleibt der Ausgangspunkt der Anfrage."
+      ],
+      "links": [
+        {
+          "label": "Echte Kundenstimmen",
+          "href": "/kundenstimmen/"
+        }
+      ]
+    },
+    {
+      "title": "Die passenden Angaben für die Besetzungsfrage senden",
+      "body": [
+        "Vorlage: Anlass: … · Datum und Location: … · Raum und Gästezahl: … · Musik zum Zuhören oder neben Gesprächen: … · gewünschte Stücke: … · vorhandene Technik: … · Zeitfenster: … · gewünschte Besetzung: …",
+        "Mit diesen Angaben kann Kim musikalische Möglichkeiten und Verfügbarkeit prüfen. Ihr müsst nicht vorher selbst Instrumente zusammenstellen. Wichtig ist, dass der tatsächliche Klang und der geplante Einsatz zu eurem Anlass passen."
+      ],
+      "links": [
+        {
+          "label": "Hochzeitsmusik buchen",
+          "href": "/hochzeiten/hochzeitsmusik-buchen/"
+        },
+        {
+          "label": "Briefing für Eventteams",
+          "href": "/fuer-eventplaner/"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Kann die Viola eine Trauung allein begleiten?",
+      "answer": "Solo-Viola kann vereinbarte instrumentale Momente übernehmen. Die konkrete Fassung, Einsatzstelle und Raumsituation werden geprüft."
+    },
+    {
+      "question": "Ist Duo oder Ensemble immer verfügbar?",
+      "answer": "Nein. Passende Kolleg:innen, Termin und Vorbereitung müssen bestätigt sein. Eine zusätzliche Besetzung wird ausdrücklich vereinbart."
+    },
+    {
+      "question": "Braucht ein großer Raum automatisch mehr Musiker:innen?",
+      "answer": "Besetzung und Raumwirkung hängen auch von Position, Umgebung und Technik ab. Der konkrete Rahmen wird geprüft."
+    },
+    {
+      "question": "Können wir zunächst nur ein Lied nennen?",
+      "answer": "Ja. Titel, Interpret:in und gewünschter Einsatz helfen bei der Prüfung, ob Solo-Viola oder eine andere Besetzung sinnvoll ist."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Hochzeitsmusik",
+      "href": "/hochzeiten/"
+    },
+    {
+      "label": "Firmenevents",
+      "href": "/firmenfeiern/"
+    },
+    {
+      "label": "Salonkonzert",
+      "href": "/konzerte/musik-salonkonzert/"
+    }
+  ],
+  "nextStep": {
+    "label": "Termin und Ablauf anfragen",
+    "href": "/anfragen/"
+  }
+}
 ];
 
 export function getRatgeberPages(): RatgeberPage[] {

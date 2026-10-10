@@ -30,7 +30,7 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Geigenunterricht in Köln - lokaler Planungsrahmen"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false,
         "ctas": [
@@ -57,7 +57,7 @@
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
-          "alt": "Geigenunterricht in Köln - Ablauf und Einsätze"
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
         },
         "imageFirst": true,
         "ctas": [
@@ -79,29 +79,38 @@
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Geigenunterricht in Köln - passend planen"
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
         "imageFirst": false,
         "ctas": []
       },
       {
         "eyebrow": "Kostenlose Probestunde",
-        "title": "Wir finden deinen Ausgangspunkt.",
+        "title": "Eine Probestunde mit dem passenden Instrument vorbereiten.",
         "lede": "Du brauchst keinen vorbereiteten Auftritt. Die erste Stunde dient dazu, dein Instrument, deine Fragen und deine Ziele kennenzulernen.",
         "paragraphs": [
-          "Wenn du bereits spielst, kannst du ein vertrautes Stück, deine Noten oder eine schwierige Stelle mitbringen. Ohne Vorerfahrung sprechen wir über den Einstieg und arbeiten am ersten Umgang mit Instrument und Bogen. Sag bitte vorab, ob du ein Instrument hast; die Instrumentenfrage klären wir vor dem Termin.",
-          "Danach besprechen wir einen möglichen Unterrichtsrhythmus und passende Aufgaben für zu Hause. Die Probestunde verpflichtet dich zu keiner Buchung.",
-          "Für regelmäßigen Unterricht vereinbaren wir Dauer, Format, Ort und Preis. Es gibt hier keinen pauschalen Preis für alle Unterrichtsformen. Du erfährst die Bedingungen, bevor du dich entscheidest."
+          "Der regionale Schwerpunkt umfasst Köln, Düsseldorf und Umgebung. Bei einer Anfrage aus Köln hilft dein Stadtteil oder Ausgangsort, damit wir den Unterrichtsort und einen realistischen Weg abstimmen können. Preis und Stundenlänge werden individuell vereinbart.",
+          "Wenn noch keine Geige oder Bratsche vorhanden ist, schreib es vor dem Termin. Ein spontaner Kauf ist für die erste Anfrage nicht nötig. Wir klären, welches Instrument und welches Zubehör gebraucht werden; bei einem vorhandenen Instrument helfen auch bisherige Noten oder ein vertrautes Stück."
         ],
         "image": {
           "src": "/uploads/_DSC7270.webp",
-          "alt": "Geigenunterricht in Köln - Anfrage und Preisrahmen"
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
         },
         "imageFirst": true,
         "ctas": [
           {
             "label": "Kostenlose Probestunde in Köln anfragen",
             "link": "/anfragen/",
+            "style": "link-line"
+          },
+          {
+            "label": "Checkliste für die Probestunde",
+            "link": "/ratgeber/geigen-probestunde/",
+            "style": "link-line"
+          },
+          {
+            "label": "Instrument kaufen, mieten oder leihen?",
+            "link": "/ratgeber/geige-bratsche-instrument-start/",
             "style": "link-line"
           }
         ]
@@ -151,6 +160,14 @@
         "question": "Kann ich auch Bratsche statt Geige lernen?",
         "answer": "Ja, ich unterrichte beide Instrumente. Wenn du noch unentschieden bist, sprechen wir über Klang, Handhabung und dein musikalisches Ziel. Die allgemeinen Informationen zum Bratschenunterricht findest du auf der entsprechenden Themenseite.",
         "open": false
+      },
+      {
+        "question": "Wie werden Stundenlänge und Preis vereinbart?",
+        "answer": "Preis und Stundenlänge werden individuell vereinbart. Vor dem Beginn regelmäßiger Termine klären wir Dauer, Rhythmus, Ort und die weiteren Absprachen. Der Schwerpunkt liegt in Köln, Düsseldorf und Umgebung."
+      },
+      {
+        "question": "Was passiert nach der Probestunde?",
+        "answer": "Die Probestunde dient dem gegenseitigen Kennenlernen. Danach entscheiden wir gemeinsam, ob Unterricht und Rahmen für beide Seiten passen. Falls wir regelmäßige Termine vereinbaren, werden Ort, Umfang und Konditionen vorher geklärt."
       }
     ]
   },
@@ -161,7 +178,7 @@
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
+      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -169,10 +186,10 @@
     },
     {
       "src": "/uploads/_DSC7270.webp",
-      "alt": "Kim Marie Borger steht mit ihrer Viola an einem See"
+      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
     }
   ],
-  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Kölner Unterrichtsseite nach Rheinseite, Uhrzeit und tatsächlicher Wochenroutine konkretisiert; generische Orts- und Verkaufssprache entfernt.\n\nSEO-Ausbau 09.10.2026: Suchabsicht, konkrete Entscheidungshilfen und weiterführende Links anhand der GSC-Auswertung geschärft. Bestehende URL und Freigabestatus beibehalten.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Kölner Unterrichtsseite nach Rheinseite, Uhrzeit und tatsächlicher Wochenroutine konkretisiert; generische Orts- und Verkaufssprache entfernt.\n\nSEO-Ausbau 09.10.2026: Suchabsicht, konkrete Entscheidungshilfen und weiterführende Links anhand der GSC-Auswertung geschärft. Bestehende URL und Freigabestatus beibehalten.\n\nSEO-Goal 10.10.2026: bestätigter regionaler Schwerpunkt Köln/Düsseldorf/Umgebung; Preis und Stundenlänge individuell. Probestunden-Vorbereitung, Kontextlinks und persönliche Passung ergänzt. Vorhandener redaktioneller Status bleibt erhalten; keine neue Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Probestunde anfragen",
     "title": "Geigenunterricht in Köln anfragen",

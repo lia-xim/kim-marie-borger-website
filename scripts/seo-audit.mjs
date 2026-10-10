@@ -221,7 +221,7 @@ function internalPageRouteFromHref(href, page) {
 		return '';
 	}
 
-	if (url.origin !== 'https://local.test') return '';
+	if (!['https://local.test', 'https://kim-marie-borger.com', 'https://www.kim-marie-borger.com'].includes(url.origin)) return '';
 	if (/^\/(?:api|admin|_astro|uploads)\b/i.test(url.pathname)) return '';
 	if (/\.[a-z0-9]{2,8}$/i.test(url.pathname) && !/\.html$/i.test(url.pathname)) return '';
 
@@ -326,7 +326,7 @@ for (const file of htmlFiles.sort()) {
 		}
 	}
 
-	if (/<a\b[^>]*href=["'][^"']+\.html(?:[#?][^"']*)?["']/i.test(html)) {
+	if (linkHrefs.some((href) => /\.html$/i.test(internalPageRouteFromHref(href, page)))) {
 		issues.push(['error', page, 'contains link to legacy .html URL']);
 	}
 

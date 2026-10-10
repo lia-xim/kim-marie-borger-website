@@ -13,7 +13,7 @@
   "hero": {
     "eyebrow": "Buchen",
     "title": "Trauermusik buchen, ruhig als Solo-Viola geplant.",
-    "lead": "Besonders wichtig für die Planung: Datum, Ort, Ablauf und Wunschstücke. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
+    "lead": "Datum, Ort und eine Kontaktperson genügen für die erste Anfrage. Danach klären wir behutsam Musikmomente, Stücke, Organisation und das individuelle Angebot.",
     "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
@@ -21,56 +21,38 @@
     "title": "FAQ zu Trauermusik buchen",
     "items": [
       {
-        "question": "Wann ist eine konkrete Anfrage sinnvoll?",
-        "answer": "Sobald Termin, Ort oder Ablauf ungefähr feststehen, kann ich Verfügbarkeit und musikalische Möglichkeiten einschätzen. Ein Wunschstück muss dafür noch nicht entschieden sein.",
-        "open": true
+        "question": "Müssen wir schon ein Lied ausgewählt haben?",
+        "answer": "Nein. Für den Anfang genügen Termin, Ort und gewünschte Einsatzstellen. Die Stückauswahl kann danach in Ruhe entstehen."
       },
       {
-        "question": "Kannst du das Stück oder den Schwerpunkt anpassen?",
-        "answer": "Ja. Ich prüfe, ob eine vollständige Fassung, ein Ausschnitt oder eine reduzierte Viola-Version besser zur Situation passt."
+        "question": "Wie kurzfristig können wir anfragen?",
+        "answer": "Auch bei kurzem Vorlauf ist eine Anfrage möglich. Ich prüfe Verfügbarkeit und vorbereitbare Stücke; eine kurzfristige Zusage kann nicht pauschal versprochen werden."
       },
       {
-        "question": "Worauf kommt es bei der Planung besonders an?",
-        "answer": "Wichtig sind der gewünschte Moment im Ablauf, die Wirkung der Musik und verlässliche Absprachen mit einer Kontaktperson vor Ort."
+        "question": "Kann die Organisation über das Bestattungshaus laufen?",
+        "answer": "Ja. Eine feste Kontaktperson kann Ablauf, Zugang, Startsignale und mögliche Außenmomente mit mir abstimmen."
       },
       {
-        "question": "Welche Informationen helfen für die Anfrage?",
-        "answer": "Datum, Ort, Ablaufpunkt, Wunschstück und die Frage, ob Musik innen, draußen oder an beiden Stellen gewünscht ist."
+        "question": "Was gehört zum Preis?",
+        "answer": "Der individuell vereinbarte Umfang einschließlich Vorbereitung und Anfahrt. Wartezeiten, Ortswechsel oder neue Wunschfassungen werden vor der Zusage geklärt."
       },
       {
-        "question": "Für welche Abschiedsformen ist Live-Musik geeignet?",
-        "answer": "Solo-Viola kann eine Trauerfeier, Beerdigung oder einen Abschied am Grab begleiten. Entscheidend ist, dass die Musik eine klare Aufgabe im Ablauf bekommt.",
-        "open": true
-      },
-      {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
-      },
-      {
-        "question": "Passt das zu Trauerhalle, Kirche und Friedhof?",
-        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für Trauerhallen, Kirchen, Kapellen und kurze Außenmomente flexibel."
-      },
-      {
-        "question": "Wie wird der Einsatz abgestimmt?",
-        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
-      },
-      {
-        "question": "Wie wird die Musik konkret vorbereitet?",
-        "answer": "Ich kläre Raum, Zeitpunkt und gewünschte Wirkung. Danach lässt sich entscheiden, ob ein einzelnes Stück, ein Übergang oder eine kleine Abfolge auf Solo-Viola am besten zum Abschied passt."
+        "question": "Ist eine Anfrage verbindlich?",
+        "answer": "Die erste Anfrage ist kostenlos und unverbindlich. Gebucht wird erst nach persönlicher Abstimmung von Termin, Umfang und Konditionen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/_DSC7353.webp",
-      "alt": "Kim Marie Borger hält ihre Viola vor einem See"
+      "alt": "Kim Marie Borger mit ihrer Viola am See in der Abenddämmerung"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nSEO-Goal 10.10.2026: Lange wiederholte Absätze durch einen ruhigen vierteiligen Anfrage- und Buchungsweg ersetzt. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Trauermusik planen",
     "title": "Trauermusik anfragen",
@@ -88,67 +70,84 @@
     "seal": "Buchen\nAbschied\nLive-Viola",
     "sections": [
       {
-        "title": "Trauermusik bewusst in den Ablauf einfügen.",
-        "lede": "Hier geht es um die konkrete Buchung: Gesucht wird nicht nur Inspiration, sondern eine verlässliche Buchung. Gesucht wird keine austauschbare Hintergrundmusik, sondern eine Lösung für Trauerfeier, Beerdigung, Bestattung oder Abschied am Grab.",
+        "title": "Für die erste Anfrage reichen wenige Angaben.",
         "paragraphs": [
-          "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
-          "Ich frage Datum, Ort, Ablauf, Wunschstücke und Kontaktperson ab und gebe schnell Rückmeldung.",
-          "Die Musik bekommt eine klare Aufgabe im Ablauf, damit sie nicht wie eine zufällige Einlage wirkt. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
-          "Gerade bei Abschieden entlastet eine klare Vorabstimmung die Familie, weil am Tag selbst möglichst wenig erklärt werden muss.",
-          "Wenn ein Lied stark mit der verstorbenen Person verbunden ist, plane ich lieber einen passenden Ausschnitt als eine vollständige Version, die den Moment zu lang macht.",
-          "Für die Anfrage reichen zunächst wenige Informationen: Termin, Ort, gewünschter Moment und falls vorhanden ein Stückwunsch. Alles Weitere kann danach ruhig abgestimmt werden.",
-          "Weil die Viola ohne große Technik auskommt, kann sie sehr diskret platziert werden. Das hilft besonders bei kleinen Abschieden oder engen Zeitfenstern."
+          "Schreibt Datum, Uhrzeit und den Ort der Trauerfeier. Nennt, ob Musik in der Halle, Kirche, am Grab oder an mehreren Stellen gewünscht ist. Ein Kontakt zum Bestattungshaus oder zur Trauerrednerin hilft bei weiteren Fragen.",
+          "Wenn noch kein Stück feststeht, ist das in Ordnung. Wir können zuerst über den Abschied und die gewünschte Stimmung sprechen. Bei kurzem Vorlauf prüfe ich, ob der Termin und eine geeignete Vorbereitung möglich sind."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
-        "imageFirst": false,
-        "eyebrow": "Einordnung"
-      },
-      {
-        "title": "Musik und Organisation gemeinsam planen.",
-        "lede": "Klang und Organisation gehören zusammen. Beides muss stimmen, damit Angehörige am Tag selbst möglichst wenig erklären oder entscheiden müssen.",
-        "paragraphs": [
-          "Nicht jedes bekannte Lied passt automatisch. Manche Stücke wirken auf einem Solo-Instrument sehr klar, andere verlieren ohne Text oder Begleitung ihren eigentlichen Sinn.",
-          "Für Angehörige ist oft schon viel organisiert. Darum formuliere ich die musikalischen Optionen möglichst konkret: welcher Moment, welche Länge, welches Signal, welche Alternative, falls sich etwas verschiebt.",
-          "Falls noch kein Wunschstück feststeht, ist das kein Problem. Dann geht es zuerst um die Stimmung: getragen, schlicht, hoffnungsvoll, klassisch, modern oder sehr persönlich.",
-          "Bei einer freien Trauerfeier kann die Musik oft flexibler atmen. In einer Kirche oder bei einer eng getakteten Beisetzung braucht sie dagegen klarere Einsatzpunkte.",
-          "Der Raum macht einen großen Unterschied: Eine Halle, Kirche, Kapelle oder ein Platz am Grab kann warm, hallig, trocken, eng oder offen wirken. Darum werden Tempo, Länge und Dynamik nicht unabhängig von der Akustik geplant."
+        "ctas": [
+          {
+            "label": "Trauermusik anfragen",
+            "link": "/anfragen/",
+            "style": "link-line"
+          }
         ],
-        "image": {
-          "src": "/uploads/_DSC7353.webp",
-          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Musik bei Abschieden braucht Verlässlichkeit. Deshalb gehören neben dem Klang auch Pünktlichkeit, Kleidung, diskrete Kommunikation und ein ruhiger Aufbau zur eigentlichen musikalischen Leistung.",
-        "paragraphs": [
-          "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
-          "Musik sollte nicht isoliert geplant werden. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt.",
-          "Bei Abschieden muss Musik nicht groß werden, um tragend zu sein. Stille, Rede, Erinnerung und ein möglicher Weg zum Grab sollen genug Raum behalten.",
-          "Für die Planung sind Einsatzstellen, Raum, Auszug, Grab, Kontaktperson die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
-        },
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Entscheidend sind ein ruhiger Ablauf, klare Absprachen und eine Stückauswahl, die zur Person und zum Abschied passt.",
+        "title": "Das persönliche Stück auf seine Fassung prüfen.",
         "paragraphs": [
-          "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein einzelnes Abschiedsstück, mehrere ruhige Einsätze, Musik am Grab oder eine Begleitung der gesamten Feier passend ist.",
-          "Bei einem bekannten Lied prüfe ich außerdem, ob eine ruhige Bearbeitung sinnvoll ist. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle Raum lässt und nicht gegen Worte oder Stille arbeitet.",
-          "Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung."
+          "Ein bekanntes Lied kann mit einer Person eng verbunden sein. Schickt dafür Titel und Interpret:in. Bei einem klassischen Werk hilft auch die gewünschte Fassung. Wir klären, ob die Melodie solistisch trägt und welcher Ausschnitt zum vorgesehenen Moment passt.",
+          "Vorhandenes Repertoire ist ohne Aufpreis möglich. Neue Notation oder zusätzliche Bearbeitung wird vorher abgesprochen. Ihr müsst keine lange Liste auswählen: Ein bewusst gesetztes Stück kann dem Abschied genügend Raum geben."
         ],
         "image": {
           "src": "/uploads/_DSC7353.webp",
-          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
+          "alt": "Kim Marie Borger mit ihrer Viola am See in der Abenddämmerung"
         },
+        "ctas": [
+          {
+            "label": "Trauermusik-Repertoire",
+            "link": "/beerdigungen/trauermusik-repertoire/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": true
+      },
+      {
+        "title": "Einsätze mit dem Bestattungshaus abstimmen.",
+        "paragraphs": [
+          "Auf Wunsch läuft die organisatorische Abstimmung direkt über das Bestattungshaus. Dazu gehören Zugang, musikalische Einsatzstellen, ein Startsignal und das Ende des jeweiligen Stücks. Rede, Erinnerung und Stille behalten ihre eigenen Zeiten.",
+          "Bei Musik am Grab klären wir zusätzlich Weg, Instrumententransport und einen geschützten Platz. Änderungen im Ablauf werden mit einer zuständigen Person besprochen. Musik während eines Weges wird nicht automatisch als mitlaufender Einsatz zugesagt."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
+          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
+        },
+        "ctas": [
+          {
+            "label": "Musik am Grab",
+            "link": "/beerdigungen/musik-am-grab/",
+            "style": "link-line"
+          },
+          {
+            "label": "Informationen für Bestattungshäuser",
+            "link": "/fuer-bestattungshaeuser/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
+      },
+      {
+        "title": "Umfang und Preis vor der Zusage vereinbaren.",
+        "paragraphs": [
+          "Das Angebot umfasst die vereinbarten Musikmomente und die dazugehörige Vorbereitung. Anfahrt, Wartezeit und ein zweiter Spielort können den Aufwand verändern. Ein besonderer Stückwunsch wird auf Machbarkeit geprüft, bevor er Bestandteil der Zusage wird.",
+          "Die erste Anfrage ist kostenlos und unverbindlich. Nach der Prüfung bekommt ihr eine klare Rückmeldung zu Termin, Musik und Kosten. Danach kann die Buchung mit dem besprochenen Rahmen vereinbart werden."
+        ],
+        "image": {
+          "src": "/uploads/_DSC7353.webp",
+          "alt": "Kim Marie Borger mit ihrer Viola am See in der Abenddämmerung"
+        },
+        "ctas": [
+          {
+            "label": "Kostenfaktoren und kurze Anfragevorlage",
+            "link": "/ratgeber/trauermusik-kosten/",
+            "style": "link-line"
+          }
+        ],
         "imageFirst": true
       }
     ]

@@ -21,37 +21,24 @@
     "title": "FAQ zu Trauermusik Düsseldorf",
     "items": [
       {
-        "question": "Begleitest du Trauerfeiern in Düsseldorf?",
-        "answer": "Ja. Ich spiele bei Trauerfeiern und Beerdigungen in Düsseldorf — in Trauerhalle, Kirche oder Kapelle, am Grab und bei freien Abschiedsfeiern.",
-        "open": true
+        "question": "Welche Angaben reichen für eine Anfrage in Düsseldorf?",
+        "answer": "Datum, Uhrzeit, genaue Location oder Friedhof, gewünschte Einsatzorte und eine erreichbare Kontaktperson. Falls vorhanden, helfen Ablauf und Liedwunsch."
       },
       {
-        "question": "Welche Angaben brauchst du für eine Anfrage in Düsseldorf?",
-        "answer": "Am hilfreichsten sind Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewünschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Je genauer diese Angaben sind, desto schneller kann ich Verfügbarkeit, Ablauf und Preisrahmen einschätzen."
+        "question": "Kann das Bestattungshaus die Abstimmung übernehmen?",
+        "answer": "Ja. Auf Wunsch kläre ich Zugang, Einsatzstellen, Startsignale und Änderungen direkt mit dem Bestattungshaus oder der Trauerrednerin beziehungsweise dem Trauerredner."
       },
       {
-        "question": "Wie entsteht der Preis?",
-        "answer": "Der Preis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Abstimmung mit Bestattungshaus und Wunschmusik. Die erste Anfrage ist kostenlos und unverbindlich; ein Angebot wird erst sinnvoll, wenn der Rahmen klar ist."
+        "question": "Ist Musik in der Halle und am Grab möglich?",
+        "answer": "Das prüfen wir gemeinsam. Weg, Zeitfenster, Wetterschutz und Instrumententransport müssen für beide Einsätze passen."
       },
       {
-        "question": "Sind Wunschstücke möglich?",
-        "answer": "Ja, wenn sie musikalisch zu Solo-Viola und zum Anlass passen. Vorhandenes Repertoire ist ohne Aufpreis möglich. Wenn ein Stück neu herausgehört oder notiert werden muss, kläre ich den Zusatzaufwand vorher; als Orientierung können etwa 30 Euro pro Song anfallen."
+        "question": "Sind kurzfristige Termine möglich?",
+        "answer": "Nennt den Termin auch bei kurzem Vorlauf. Verfügbarkeit und zuverlässig vorbereitbare Stücke werden geprüft; eine spontane Anfrage ist noch keine Zusage."
       },
       {
-        "question": "Wann passt Solo-Viola besonders gut?",
-        "answer": "Solo-Viola passt, wenn ein warmer, zurückhaltender Klang einen Abschied tragen soll. Das wirkt am besten, wenn der Moment zuhören darf und der Klang nicht gegen laute Umgebung anspielen muss."
-      },
-      {
-        "question": "Wann ist Solo-Viola nicht die richtige Lösung?",
-        "answer": "Für sehr laute Beschallung, eine Bühnenshow oder spontane Stückwechsel ohne Vorbereitung ist Solo-Viola nicht das passende Format. Bei einem stillen Abschied kann sie dagegen auch ohne große Technik tragen."
-      },
-      {
-        "question": "Was ist in Düsseldorf organisatorisch wichtig?",
-        "answer": "In Düsseldorf macht es einen großen Unterschied, ob ein Termin innenstadtnah, am Rhein, linksrheinisch, in Benrath oder in einem Stadtteil weiter außerhalb liegt. Halte- oder Parkmöglichkeit, genauer Eingang, Etage, Raum, Aufzug und Kontaktperson sollten vorab klar sein. Diese Details beeinflussen Timing, Aufbau, Wartezeit und mögliche Zusatzkosten."
-      },
-      {
-        "question": "Was kann zusätzlich kosten?",
-        "answer": "Zusätzlich kosten können längere Wartezeit, ein zweiter Spielort, kurzfristige Verlängerung, besondere Technik, sehr kurzfristige Buchung oder neue Notation für Wunschmusik."
+        "question": "Was beeinflusst den Preis?",
+        "answer": "Vereinbarte Einsätze, Vorbereitung, Anfahrt, Wartezeit und Ortswechsel. Neue Bearbeitungen persönlicher Stücke werden vorab besprochen."
       }
     ]
   },
@@ -62,7 +49,7 @@
     },
     {
       "src": "/uploads/_DSC7353.webp",
-      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
+      "alt": "Kim Marie Borger mit ihrer Viola am See in der Abenddämmerung"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -70,10 +57,10 @@
     },
     {
       "src": "/uploads/_DSC7353.webp",
-      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
+      "alt": "Kim Marie Borger mit ihrer Viola am See in der Abenddämmerung"
     }
   ],
-  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Einstieg sprachlich beruhigt, Düsseldorfer Zugang und Wege konkret beschrieben, organisatorische Entlastung hervorgehoben und unpersönliche SEO-Sprache entfernt.",
+  "editorNotes": "Manuell redaktionell finalisiert am 29.07.2026: Einstieg sprachlich beruhigt, Düsseldorfer Zugang und Wege konkret beschrieben, organisatorische Entlastung hervorgehoben und unpersönliche SEO-Sprache entfernt.\n\nSEO-Goal 10.10.2026: Düsseldorfer Halle-Grab-Wechsel, Ansprechpartner und kurze Anfrageangaben präzisiert. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Trauermusik anfragen",
     "title": "Trauermusik in Düsseldorf anfragen",
@@ -105,16 +92,16 @@
     "quote": "Trauermusik in Düsseldorf soll den Abschied halten, nicht größer machen als den Moment.",
     "passages": [
       {
-        "strong": "Ort und Ablauf",
-        "text": "Bei Trauerfeiern in Düsseldorf zählen vor allem genaue Adresse, Raumzugang, Bestattungshaus-Kontakt und ob Musik nur in der Halle, in der Kirche oder auch am Grab gebraucht wird. Trauerhalle, Kirche, Kapelle, Friedhof, Bestattungshaus oder freie Abschiedsfeier haben unterschiedliche Wege, Raumregeln und Startsignale. Darum kläre ich vorab, wo genau gespielt wird, wie lange der musikalische Moment dauern soll und wer am Tag selbst ansprechbar ist."
+        "strong": "Erste Anfrage",
+        "text": "Datum, Uhrzeit, genauer Trauerort in Düsseldorf und ein Kontakt zum Bestattungshaus reichen für die erste Prüfung. Ein Liedwunsch oder fertiger Ablauf muss noch nicht vorliegen."
       },
       {
-        "strong": "Entlastung",
-        "text": "Eine gute Anfrage nennt Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewünschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf. Wenn es hilft, stimme ich Einsätze, Ankunft und Stückfolge direkt mit Bestattungshaus, Pfarrer:in oder Trauerredner:in ab, damit die Familie nicht zusätzlich koordinieren muss."
+        "strong": "Halle und Grab",
+        "text": "Nennt beide Einsatzorte, wenn nach der Feier auch Musik am Grab gewünscht ist. Weg, Zeit für den Wechsel, Standort und Wetterschutz werden getrennt abgestimmt. Ein Außenmoment wird erst nach dieser Prüfung zugesagt."
       },
       {
-        "strong": "Wunschstück und Preis",
-        "text": "Vorhandene passende Stücke sind ohne Aufpreis möglich. Wenn ein persönliches Wunschstück keine brauchbaren Noten hat, kläre ich neue Notation oder Heraushören vorher transparent; als Orientierung können etwa 30 Euro pro Song anfallen. Der Gesamtpreis richtet sich nach Dauer, Ort, Anfahrt, Wartezeit, Abstimmung mit Bestattungshaus und Wunschmusik."
+        "strong": "Musik und Angebot",
+        "text": "Nach der Terminprüfung klären wir Stücke, Einsatzstellen und Leistungsumfang. Das individuelle Angebot berücksichtigt Vorbereitung, Anfahrt, Spielzeit, Wartezeiten und gegebenenfalls Ortswechsel."
       }
     ]
   },
@@ -125,13 +112,17 @@
     "cards": [
       {
         "rom": "Vorab",
-        "title": "Ein klarer Kontakt reicht",
-        "poet": "Datum, Uhrzeit, genaue Adresse, Abschiedsform, gewünschte Stücke, Kontakt zum Bestattungshaus und geplanter Ablauf reichen für den ersten Schritt. Danach kläre ich, ob der Termin passt und welcher musikalische Umfang sinnvoll ist."
+        "title": "Eine erreichbare Kontaktperson",
+        "poet": "Das Bestattungshaus kann den vorhandenen Ablauf, Zugang zur Halle, Grabstelle und die zuständige Person am Tag übermitteln. Die Familie muss nicht jede organisatorische Rückfrage selbst beantworten.",
+        "linkLabel": "Zusammenarbeit mit Bestattungshäusern",
+        "href": "/fuer-bestattungshaeuser/"
       },
       {
         "rom": "Vor Ort",
-        "title": "Still, pünktlich, vorbereitet",
-        "poet": "Halte- oder Parkmöglichkeit, genauer Eingang, Etage, Raum, Aufzug und Kontaktperson sollten vorab klar sein. Bei Musik am Grab prüfe ich zusätzlich Wetter, Untergrund, kurze Wege und ob das Instrument geschützt stehen kann."
+        "title": "Den Übergang zur Grabstelle klären",
+        "poet": "Die Musik in der Halle endet an einem vereinbarten Punkt. Für den zweiten Einsatz klären wir den Weg und das Signal an der Grabstelle. Ein wechselnder Standort während des Spielens wird nicht vorausgesetzt.",
+        "linkLabel": "Musik am Grab",
+        "href": "/beerdigungen/musik-am-grab/"
       }
     ],
     "listLabel": "Mögliche musikalische Momente in Düsseldorf",

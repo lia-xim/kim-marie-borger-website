@@ -283,6 +283,16 @@ for (const { file, doc } of docs) {
 
 		const splitCount = doc.split?.paragraphs?.length ?? 0;
 		const splitSectionCount = doc.split?.sections?.length ?? 0;
+		const headings = [...html.matchAll(/<h2\b[^>]*>([\s\S]*?)<\/h2>/gi)]
+			.map((match) => decodeHtml(match[1].replace(/<[^>]*>/g, '')).replace(/\s+/g, ' ').trim());
+		const expectedHeadings = [
+			...(doc.split?.sections ?? []).map((section) => section.title),
+			...(doc.focus?.items?.length ? [doc.focus.title] : []),
+		].filter(Boolean).map((title) => title.replace(/\s+/g, ' ').trim());
+		for (const title of new Set(expectedHeadings)) {
+			const count = headings.filter((heading) => heading === title).length;
+			if (count > 1) failures.push({ type: 'static-duplicate-content', route, file, message: `SEO heading rendered ${count} times: ${title}` });
+		}
 		const splitChunked = splitSectionCount > 0
 			? splitSectionCount <= 4 && html.includes('split-section')
 			: splitCount <= 5 || html.includes('split-more');

@@ -8,12 +8,12 @@
   "priority": "P2",
   "status": "risk-pass-2026-06-16-review-needed",
   "enabled": true,
-  "seoTitle": "Musik am Grab | Live-Viola für Abschied",
-  "seoDescription": "Musik am Grab: Solo-Viola für Trauerfeier, Beerdigung oder Abschied. Wunschmusik, Timing und Ablauf behutsam geplant.",
+  "seoTitle": "Musik am Grab | Viola für den Abschied",
+  "seoDescription": "Live-Viola an der Grabstelle: Stücklänge, Weg von der Halle, Standort, Wetterschutz und Startsignal mit dem Bestattungshaus klären.",
   "hero": {
     "eyebrow": "Grab",
     "title": "Musik am Grab, ruhig als Solo-Viola geplant.",
-    "lead": "Besonders wichtig für die Planung: kurz, wetterfest und konzentriert. Ich stimme Stück, Länge, Einsatzpunkt und Klang so ab, dass die Musik im Abschied trägt und nicht wie ein austauschbarer Programmpunkt wirkt.",
+    "lead": "Ein ruhiger musikalischer Moment an der Grabstelle wird mit Weg, Standort und Wetter abgestimmt. Das Bestattungshaus kann die organisatorischen Angaben übernehmen.",
     "badge": "Behutsam gespielt & ruhig abgestimmt"
   },
   "faq": {
@@ -21,56 +21,34 @@
     "title": "FAQ zu Musik am Grab",
     "items": [
       {
-        "question": "Wann passt Musik am Grab?",
-        "answer": "Diese musikalische Begleitung passt, wenn kurz, wetterfest und konzentriert im Mittelpunkt steht und nicht nur allgemein Musik für den Abschied gesucht wird.",
-        "open": true
+        "question": "Kann die Viola während des Weges zum Grab spielen?",
+        "answer": "Ein mitlaufender Einsatz wird nicht automatisch zugesagt. Wir planen einen geeigneten festen Standort und den Transport zwischen den Musikmomenten."
       },
       {
-        "question": "Kannst du das Stück oder den Schwerpunkt anpassen?",
-        "answer": "Ja. Ich prüfe, ob eine vollständige Fassung, ein Ausschnitt oder eine reduzierte Viola-Version besser zur Situation passt."
+        "question": "Was passiert bei Regen?",
+        "answer": "Die Viola braucht Schutz. Eine geeignete Alternative wird vorab besprochen; ohne sicheren Rahmen kann Außenmusik nicht zugesagt werden."
       },
       {
-        "question": "Worauf kommt es bei der Planung besonders an?",
-        "answer": "Im Mittelpunkt: Außenmoment."
+        "question": "Wer gibt das Startsignal an der Grabstelle?",
+        "answer": "Eine vorher benannte Person vom Bestattungshaus oder aus der Leitung der Feier stimmt den Einsatz ab."
       },
       {
-        "question": "Welche Informationen helfen für die Anfrage?",
-        "answer": "Datum, Ort, Ablaufpunkt, Wunschstück und die Frage, ob Musik innen, draußen oder an beiden Stellen gewünscht ist."
-      },
-      {
-        "question": "Für welchen Abschied passt Musik am Grab?",
-        "answer": "Diese musikalische Begleitung passt besonders für Beisetzungen mit einem letzten musikalischen Moment draußen. Entscheidend ist, dass Musik eine klare Aufgabe im Ablauf bekommt.",
-        "open": true
-      },
-      {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
-      },
-      {
-        "question": "Passt das zu Trauerhalle, Kirche und Friedhof?",
-        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für Trauerhallen, Kirchen, Kapellen und kurze Außenmomente flexibel."
-      },
-      {
-        "question": "Wie wird der Einsatz abgestimmt?",
-        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Bestattungshaus, Rednerin, Kirche oder Familie."
-      },
-      {
-        "question": "Wie wird Musik am Grab konkret vorbereitet?",
-        "answer": "Ich kläre Anlass, Raum, Zeitpunkt und gewünschte Wirkung. Danach entscheide ich, ob Musik am Grab als einzelner Moment, als Übergang oder als Teil einer kleinen Abfolge auf Solo-Viola am stärksten wirkt."
+        "question": "Welche Angaben brauchen wir?",
+        "answer": "Termin, Friedhof und Grabstelle, geplanter Ablauf, gewünschtes Stück falls vorhanden sowie einen erreichbaren organisatorischen Kontakt."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/_DSC7353.webp",
-      "alt": "Kim Marie Borger hält ihre Viola vor einem See"
+      "alt": "Kim Marie Borger mit ihrer Viola am See in der Abenddämmerung"
     },
     {
       "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nSEO-Goal 10.10.2026: Außenmoment mit Transport, Wetterschutz und Signal präzisiert; vermeintlich wetterfestes Instrument korrigiert. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Trauermusik planen",
     "title": "Musik am Grab anfragen",
@@ -88,128 +66,74 @@
     "seal": "Grab\nAbschied\nLive-Viola",
     "sections": [
       {
-        "title": "Trauermusik bewusst in den Ablauf einfügen.",
-        "lede": "Für die Planung sind drei Fragen wichtig: Welche Rolle soll die Musik übernehmen, wie viel Raum braucht der Moment, und welche Vorbereitung macht den Ablauf sicher?",
+        "title": "Den zweiten Einsatz in das Angebot aufnehmen.",
         "paragraphs": [
-          "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, erinnern, beruhigen oder einen letzten Moment halten.",
-          "Ein kurzes Stück, ein einzelner Vers oder ein ruhiger Abschluss kann stärker wirken als ein langer Vortrag.",
-          "Wenn ein Wunschlied geplant ist, prüfe ich Melodie, Tonart und Wirkung für Solo-Viola. Dadurch bleibt der Ablauf sicher, auch wenn eine Rede länger dauert, Angehörige einen Moment brauchen oder Wege langsamer sind als geplant.",
-          "Organisatorisch wichtig sind Ankunft, Raumzugang, Kontaktperson, Einsatzpunkt und die Frage, ob draußen gespielt werden soll.",
-          "Besonders wichtig ist der Abstand zwischen Musik und Sprache. Ein Stück darf Worte nachklingen lassen, sollte sie aber nicht kommentieren oder ersetzen.",
-          "Bei einer freien Trauerfeier lässt sich Musik oft flexibler setzen, sollte aber trotzdem nicht jede Pause füllen.",
-          "Die Viola klingt tiefer und dunkler als eine Geige. Dadurch wirkt sie in Trauerräumen oft weniger hell und weniger exponiert, bleibt aber klar melodisch.",
-          "Der praktische Ablauf entscheidet viel: Ein Stück vor der ersten Rede braucht eine andere Ruhe als ein musikalischer Gruß am Grab oder ein kurzer Moment nach dem Kerzenritual."
+          "Musik in der Halle und am Grab sind zwei vereinbarte Einsatzorte. Vorbereitung, Anfahrt, Wartezeit und der Wechsel werden im individuellen Angebot berücksichtigt. Ein Wunschstück darf für die erste Anfrage noch offen sein.",
+          "Nennt Datum, Uhrzeit, Friedhof, Ablauf und die Kontaktperson beim Bestattungshaus. Danach kann ich sagen, ob Termin und Außenrahmen möglich sind."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
-        "imageFirst": false,
-        "eyebrow": "Einordnung"
-      },
-      {
-        "title": "Musik am Grab im Ablauf sinnvoll einsetzen.",
-        "lede": "Wenn ein Stück mit einer konkreten Erinnerung verbunden ist, behandle ich es anders als neutrale Hintergrundmusik. Dann ist die Platzierung im Ablauf besonders wichtig.",
-        "paragraphs": [
-          "Wenn Unsicherheit bei der Liedwahl besteht, kann ich zwei bis drei Richtungen vorschlagen: klassisch, modern reduziert oder sehr schlicht. Daraus entsteht meist schnell ein passender Rahmen.",
-          "Wenn der Termin kurzfristig ist, helfen klare Angaben mehr als lange Erklärungen. Ich prüfe Verfügbarkeit, musikalische Machbarkeit und die Abstimmung mit den beteiligten Personen so zügig wie möglich.",
-          "Für Musik am Grab ist ein gutes Ergebnis nicht möglichst viel Musik. Passender ist ein Moment, der den Abschied trägt, ohne ihn zu verlängern oder die Aufmerksamkeit von der verstorbenen Person wegzunehmen.",
-          "Für Friedhof, Grabstelle, Urnengrab oder kurzer Weg im Freien ist die Frage nach Verstärkung meist zweitrangig. Wichtiger ist, ob die Viola nahe genug am Geschehen steht und ob das Ende des Stücks ohne Hektik ausklingen kann.",
-          "Wenn ein Wunschlied emotional sehr aufgeladen ist, bespreche ich behutsam, ob es vollständig, gekürzt oder an einer anderen Stelle besser funktioniert. Manchmal schützt eine kurze Fassung den Moment.",
-          "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trauerhalle, Kirche, Kapelle, kleinem Raum oder draußen unterschiedlich eingesetzt werden.",
-          "Wichtig ist, dass Musik am Grab nicht isoliert geplant wird. Ein Stück verändert den Moment davor und danach: Ein Beginn braucht Sammlung, ein Zwischenraum braucht Stille, ein Auszug braucht Halt."
+        "ctas": [
+          {
+            "label": "Trauermusik buchen",
+            "link": "/beerdigungen/trauermusik-buchen/",
+            "style": "link-line"
+          },
+          {
+            "label": "Kostenfaktoren",
+            "link": "/ratgeber/trauermusik-kosten/",
+            "style": "link-line"
+          }
         ],
-        "image": {
-          "src": "/uploads/_DSC7353.webp",
-          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
-        },
-        "imageFirst": true
-      },
-      {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Entscheidend sind ein ruhiger Ablauf, klare Absprachen und eine Stückauswahl, die zur Person und zum Abschied passt.",
-        "paragraphs": [
-          "Für die Planung sind Dauer, Position, Lautstärke, Wunschstücke, Übergänge die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola zurückhaltend, rituell, tragend, still oder als klarer Abschiedsmoment wirken soll."
-        ],
-        "image": {
-          "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
-          "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
-        },
         "imageFirst": false
-      },
-      {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Eine gute Anfrage nennt Datum, Uhrzeit, Trauerort, Ablauf, Wunschstücke und die Information, ob Musik auch draußen oder am Grab gewünscht ist. Damit lässt sich schnell unterscheiden, ob ein einzelnes Abschiedsstück, mehrere ruhige Einsätze, Musik am Grab oder eine Begleitung der gesamten Feier passend ist.",
-        "paragraphs": [
-          "Trauermusik braucht eine andere Sprache als Eventmusik. Bei Musik, Am, Grab geht es um Würde, Tempo, Ansprechpersonen und die Belastung der Angehörigen.",
-          "Bei Musik am Grab prüfe ich zusätzlich die passende Länge des Stücks. Gerade bei Trauerfeiern entscheidet nicht die reine Bekanntheit eines Titels, sondern ob die Melodie an der vorgesehenen Stelle wirklich Raum lässt und nicht gegen Worte oder Stille arbeitet.",
-          "Daraus ergeben sich andere Fragen zu Tonart, Tempo, Wiederholung, Position im Raum und dazu, ob ein Ausschnitt würdevoller ist als eine vollständige Fassung."
-        ],
-        "image": {
-          "src": "/uploads/_DSC7353.webp",
-          "alt": "Kim Marie Borger hält ihre Viola vor einem See"
-        },
-        "imageFirst": true
       }
     ]
   },
   "elegy": {
-    "quote": "Musik am Grab wirkt am stärksten, wenn die musikalische Aufgabe vorher klar ist.",
+    "quote": "Ein eigener Musikmoment an der Grabstelle.",
     "passages": [
       {
-        "strong": "Worauf es ankommt",
-        "text": "Wer Musik am Grab sucht, meint nicht einfach irgendeine Trauermusik. Im Mittelpunkt stehen Außenmoment, die passende Stelle im Ablauf und die Frage, ob Solo-Viola den Moment wirklich tragen kann."
+        "strong": "Weg von der Halle",
+        "text": "Wenn bereits in der Trauerhalle gespielt wird, planen wir den Wechsel zur Grabstelle mit ausreichend Zeit. Instrumententransport und ein vorbereiteter Standort werden gesondert geklärt; Spielen während des Gehens wird nicht vorausgesetzt."
       },
       {
-        "strong": "Schwerpunkt",
-        "text": "Der Fokus liegt auf ein letzter Ton statt langer Vortrag, damit Angehörige schneller entscheiden können, ob genau dieser musikalische Schwerpunkt passt."
+        "strong": "Standort und Wetter",
+        "text": "Die Viola braucht einen trockenen, geschützten Platz ohne direkte Sonne sowie sicheren Untergrund. Bei ungünstigem Wetter besprechen wir eine geeignete Alternative. Außenmusik wird erst nach dieser Prüfung zugesagt."
       },
       {
-        "strong": "Einsatzpunkt",
-        "text": "Geeignet ist Grabstelle, Urnengrab oder letzter Weg. Dort entscheidet die Länge: ein zu langer Einsatz kann belasten, ein zu kurzer kann beliebig wirken. Ich plane deshalb mit klaren Start- und Endpunkten."
-      },
-      {
-        "strong": "Klang und Fassung",
-        "text": "Auf Solo-Viola wird die Melodie reduziert und wärmer. Ich prüfe Tonart, Register und Tempo, damit der Klang ruhig bleibt und dennoch erkennbar genug ist."
-      },
-      {
-        "strong": "Anfrage",
-        "text": "Für eine Einschätzung reichen Datum, Ort, Ablaufstelle und vorhandene Liedidee. Danach kann ich sagen, ob eine vollständige Fassung, ein Ausschnitt oder ein anderes Stück sinnvoller ist."
+        "strong": "Beginn und Ende",
+        "text": "Mit Bestattungshaus oder Redner:in klären wir die Stelle im Ablauf, ein eindeutiges Signal und die gewünschte Länge. Worte, letzte Handlungen und Stille behalten ihren Raum."
       }
     ]
   },
   "solemn": {
     "eyebrow": "Einordnung",
-    "title": "Worauf es bei der Planung von Trauermusik ankommt.",
-    "lead": "Der Schwerpunkt entscheidet über Tempo, Länge und Wirkung.",
+    "title": "Den Außenmoment mit wenigen Angaben vorbereiten.",
+    "lead": "Grabstelle, Weg, Wetterschutz und ein Kontakt reichen für die erste Abstimmung.",
     "cards": [
       {
-        "rom": "Rolle",
-        "title": "Außenmoment musikalisch ernst nehmen",
-        "poet": "kurz, wetterfest und konzentriert verlangt eine andere Vorbereitung als eine neutrale Hintergrundmusik. Ich plane erst die Aufgabe, dann das Stück.",
-        "list": [
-          "musikalische Aufgabe",
-          "passende Länge",
-          "ruhiger Schluss"
-        ]
+        "rom": "Ort",
+        "title": "Die genaue Grabstelle nennen",
+        "poet": "Friedhof, Treffpunkt, Zugangsweg und zuständige Person erleichtern die Vorbereitung. Auch die Zeit zwischen Halle und Grab ist wichtig.",
+        "href": "/fuer-bestattungshaeuser/",
+        "linkLabel": "Abstimmung über das Bestattungshaus"
       },
       {
-        "rom": "Ablauf",
-        "title": "Den Moment nicht überladen",
-        "poet": "Bei Musik am Grab bleibt die Viola nah am Abschied: sie beginnt klar, lässt Stille zu und endet so, dass Worte, Wege oder der Grabmoment weitertragen können.",
-        "list": [
-          "Startsignal",
-          "Raumklang",
-          "Kontaktperson"
-        ]
+        "rom": "Musik",
+        "title": "Ein passendes Stück auswählen",
+        "poet": "Ein persönliches Lied oder ruhiges Repertoire wird auf Solo-Fassung und Länge geprüft. Es muss kein langer Vortrag entstehen.",
+        "href": "/beerdigungen/trauermusik-repertoire/",
+        "linkLabel": "Repertoire als Orientierung"
       }
     ],
-    "listLabel": "Planung für Musik am Grab",
+    "listLabel": "Vor dem Außenmoment klären",
     "list": [
-      "Außenmoment",
-      "kurz, wetterfest und konzentriert",
-      "Grabstelle, Urnengrab oder letzter Weg",
-      "ein letzter Ton statt langer Vortrag"
+      "Weg und Zeit für den Wechsel",
+      "Trockener, schattiger Standort",
+      "Ersatz bei ungeeignetem Wetter",
+      "Startsignal und musikalischer Schluss"
     ]
   },
   "focus": {

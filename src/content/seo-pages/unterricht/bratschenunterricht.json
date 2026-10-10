@@ -85,11 +85,11 @@
         "ctas": []
       },
       {
-        "title": "Bratschenunterricht in Düsseldorf persönlich abstimmen.",
+        "title": "Bratschenunterricht in Köln, Düsseldorf und Umgebung abstimmen.",
         "lede": "Du suchst vor Ort nach Unterricht für Viola? Auf der Düsseldorfer Seite findest du die Informationen für die erste Anfrage.",
         "paragraphs": [
-          "Die Seite umfasst den Einstieg auf Geige und Bratsche, den Instrumentenwechsel und die kostenlose Probestunde. Nenne bei deiner Anfrage deinen Ausgangsort, deine Vorerfahrung und mögliche Zeitfenster; Unterrichtsort und Verfügbarkeit klären wir persönlich.",
-          "Für regelmäßigen Unterricht suchen wir einen Rahmen, der in deinen Alltag passt. Unterrichtsort, Format und Zeiten stehen fest, bevor du dich für eine Buchung entscheidest. Wenn du aus einem anderen Ort anfragst, schreib ihn bitte dazu."
+          "Der regionale Schwerpunkt liegt in Köln, Düsseldorf und Umgebung. Du kannst Unterricht für Bratsche oder Viola anfragen; beide Begriffe bezeichnen dasselbe Instrument. Nenne deinen Ausgangsort, deinen Lernstand und mögliche Termine, damit wir Ort und Format abstimmen können.",
+          "Wenn du von der Geige wechselst, sag dazu, ob bereits eine Bratsche vorhanden ist. Für Anfänger:innen klären wir die Instrumentenfrage ebenfalls vor der Probestunde. Preis und Stundenlänge werden individuell vereinbart. Die Probestunde dient dem gegenseitigen Kennenlernen. Danach entscheiden wir gemeinsam, ob Unterricht und Rahmen für beide Seiten passen."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
@@ -101,6 +101,16 @@
           {
             "label": "Geigen- und Bratschenunterricht in Düsseldorf",
             "link": "/unterricht/duesseldorf/",
+            "style": "link-line"
+          },
+          {
+            "label": "Geigen- und Bratschenunterricht in Köln",
+            "link": "/unterricht/koeln/",
+            "style": "link-line"
+          },
+          {
+            "label": "Instrumentenwahl vor dem Einstieg",
+            "link": "/ratgeber/geige-bratsche-instrument-start/",
             "style": "link-line"
           }
         ]
@@ -145,6 +155,14 @@
         "question": "Was kostet regelmäßiger Bratschenunterricht?",
         "answer": "Den Preis vereinbaren wir vorab anhand von Dauer, Rhythmus, Format und Ort. Vorhandenes Repertoire ist ohne Aufpreis möglich. Zusätzliche Notation, besonderes Material oder Vorbereitung wird vorher besprochen.",
         "open": false
+      },
+      {
+        "question": "Wie werden Stundenlänge und Preis vereinbart?",
+        "answer": "Preis und Stundenlänge werden individuell vereinbart. Vor dem Beginn regelmäßiger Termine klären wir Dauer, Rhythmus, Ort und die weiteren Absprachen. Der Schwerpunkt liegt in Köln, Düsseldorf und Umgebung."
+      },
+      {
+        "question": "Was passiert nach der Probestunde?",
+        "answer": "Die Probestunde dient dem gegenseitigen Kennenlernen. Danach entscheiden wir gemeinsam, ob Unterricht und Rahmen für beide Seiten passen. Falls wir regelmäßige Termine vereinbaren, werden Ort, Umfang und Konditionen vorher geklärt."
       }
     ]
   },
@@ -158,7 +176,7 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nLow Copy Follow-up 2026-06-16: verbliebene expand-copy-Seiten mit weiterem Fachkontext ergänzt.\n\nSEO-Ausbau 09.10.2026: Suchabsicht, konkrete Entscheidungshilfen und weiterführende Links anhand der GSC-Auswertung geschärft. Bestehende URL und Freigabestatus beibehalten.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 6: Unterrichtsseiten vollständig nach Orts- und Topic-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nLow Copy Follow-up 2026-06-16: verbliebene expand-copy-Seiten mit weiterem Fachkontext ergänzt.\n\nSEO-Ausbau 09.10.2026: Suchabsicht, konkrete Entscheidungshilfen und weiterführende Links anhand der GSC-Auswertung geschärft. Bestehende URL und Freigabestatus beibehalten.\n\nSEO-Goal 10.10.2026: bestätigter regionaler Schwerpunkt Köln/Düsseldorf/Umgebung; Preis und Stundenlänge individuell. Probestunden-Vorbereitung, Kontextlinks und persönliche Passung ergänzt. Vorhandener redaktioneller Status bleibt erhalten; keine neue Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Unterricht anfragen",
     "title": "Bratschenunterricht anfragen",

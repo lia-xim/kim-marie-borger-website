@@ -9,64 +9,100 @@
   "status": "manual-copy-strengthened-2026-08-31-review-needed",
   "enabled": true,
   "seoTitle": "Hochzeitsmusik buchen | Live-Viola zur Hochzeit",
-  "seoDescription": "Hochzeitsmusik buchen: Solo-Viola für Hochzeit, Trauung oder Empfang. Wunschlied, Timing und Ablauf persönlich geplant.",
+  "seoDescription": "Hochzeitsmusik mit Solo-Viola buchen: Termin prüfen, Musikmomente und Wunschstücke abstimmen, individuellen Umfang und Preis vor der Zusage klären.",
   "hero": {
     "eyebrow": "Buchen",
     "title": "Hochzeitsmusik buchen, wenn Datum, Ort und musikalische Momente langsam konkret werden.",
-    "lead": "Wenn Datum und Ort feststehen, kann die musikalische Planung konkret werden. Ich stimme Solo-Viola so ab, dass Klang, Timing und Ablauf wirklich zu eurem Hochzeitstag passen.",
+    "lead": "Mit Datum, Ort und euren gewünschten Musikmomenten beginnt die Anfrage. Danach prüfen wir Verfügbarkeit, passende Fassungen und den Leistungsumfang für euren Tag.",
     "badge": "Erstgespräch kostenlos & unverbindlich"
   },
   "split": {
     "seal": "Buchen\nHochzeit\nLive-Viola",
     "sections": [
       {
-        "title": "Hochzeitsmusik bewusst in den Ablauf einfügen.",
-        "lede": "Gesucht wird kein austauschbarer Musikblock, sondern eine Lösung für Trauung, Empfang, Dinner oder Paket aus mehreren Einsätzen.",
+        "title": "1. Termin und gewünschte Abschnitte nennen.",
         "paragraphs": [
-          "Am Anfang steht die Frage, welche Aufgabe die Musik übernehmen soll: sammeln, tragen, überleiten, feiern, beruhigen oder einen ganz persönlichen Bezug hörbar machen.",
-          "Datum, Ort, Zeremonieform, Wunschlied und gewünschte Einsatzpunkte reichen für den ersten Schritt.",
-          "Buchen heißt nicht sofort festlegen. Zuerst prüfen wir Verfügbarkeit, Klangvorstellung und Ablauf.",
-          "Ich plane den Einsatz so, dass die Musik weder zu früh beginnt noch den Moment unnötig verlängert. Dadurch bleibt der Ablauf sicher, auch wenn ein Weg länger dauert, Gäste noch stehen oder ein emotionaler Moment mehr Zeit braucht.",
-          "Für die Planung klären wir vorab, welcher Programmpunkt wirklich gemeint ist und wie lange die Musik dort wirken soll."
+          "Für den Anfang reichen Datum, Location und Trauform. Schreibt dazu, ob ihr einen einzelnen Moment, die gesamte Zeremonie oder zusätzlich Empfang und Dinner begleiten lassen möchtet. Ungefähre Uhrzeiten helfen auch dann, wenn der Ablauf noch nicht fertig ist.",
+          "Die Anfrage ist kostenlos und unverbindlich. Ein angefragter Termin ist erst nach gemeinsamer Vereinbarung gebucht. Ich prüfe zunächst, ob Termin und musikalischer Rahmen möglich sind."
         ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
           "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
         },
-        "imageFirst": false,
-        "eyebrow": "Einordnung"
+        "ctas": [
+          {
+            "label": "Hochzeitsanfrage senden",
+            "link": "/anfragen/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
       },
       {
-        "title": "Hochzeitsmusik buchen im Ablauf sinnvoll einsetzen.",
-        "lede": "Solo-Viola eignet sich dafür besonders gut, weil der Klang warm, direkt und beweglich bleibt. Sie braucht wenig Aufbau und kann in Trausaal, Kirche, Garten, Schloss, Restaurant oder Foyer unterschiedlich eingesetzt werden.",
+        "title": "2. Klang und Wunschmusik abgleichen.",
         "paragraphs": [
-          "Musik sollte nicht isoliert geplant werden. Ein Stück verändert den Moment davor und danach: Ein Einzug braucht Stille, ein Ringtausch braucht Zurückhaltung, ein Auszug braucht Öffnung.",
-          "Bei Hochzeiten entscheidet die Reihenfolge der Momente: Einzug, Worte, Ringmoment und Auszug dürfen musikalisch nicht gleich klingen. Deshalb entsteht ein eigener musikalischer Bogen statt nur einer Liste von Wunschliedern."
+          "Hört vorab in die Aufnahmen hinein. Solo-Viola hat einen eigenen Klang und andere Möglichkeiten als eine Band oder ein Lied mit Gesang. Nennt ein oder zwei persönliche Stücke und den Moment, für den sie gedacht sind.",
+          "Wir prüfen vorhandenes Repertoire, die Wirkung der Melodie und die nötige Länge. Neue Notation oder Bearbeitung sowie ein gewünschtes Duo werden vor einer Zusage geklärt. Ein Songtitel allein legt noch keine Besetzung oder vollständige Fassung fest."
         ],
         "image": {
           "src": "/uploads/mq0uvva2-20250327-DSC01714.webp",
           "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
         },
+        "ctas": [
+          {
+            "label": "Hörproben",
+            "link": "/portfolio/",
+            "style": "link-line"
+          },
+          {
+            "label": "Wunschmusik vorbereiten",
+            "link": "/ratgeber/wunschmusik-hochzeit/",
+            "style": "link-line"
+          }
+        ],
         "imageFirst": true
       },
       {
-        "title": "Stückauswahl, Raum und Timing klären.",
-        "lede": "Für die Planung sind Termin, Ort, Dauer, Ablauf, Rückmeldung, nächster Schritt die ersten Stellschrauben. Aus ihnen ergibt sich, ob die Viola präsent, dezent, rituell, festlich oder begleitend wirken soll.",
-        "paragraphs": [],
+        "title": "3. Den gesamten Aufwand im Angebot festhalten.",
+        "paragraphs": [
+          "Anfahrt, Vorbereitung und vereinbarte Spielzeit gehören zum Umfang. Bei mehreren Locations brauchen wir auch Wechselzeiten. Längere Zwischenräume zwischen Trauung und Dinner sollten sichtbar im Ablauf stehen, damit Wartezeit und weitere Einsätze verständlich kalkuliert werden.",
+          "Besprecht, wer die Musik am Trauort erlaubt, wo sie stattfinden kann und ob Technik benötigt wird. Bei Außenmusik wird ein nutzbarer Ersatzort vereinbart. Der Preis ergibt sich aus diesen Absprachen; verbindliche Konditionen nennt das individuelle Angebot."
+        ],
         "image": {
           "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-          "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
+          "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
         },
+        "ctas": [
+          {
+            "label": "Kostenfaktoren und Anfragevorlage",
+            "link": "/ratgeber/hochzeitsmusik-kosten/",
+            "style": "link-line"
+          }
+        ],
         "imageFirst": false
       },
       {
-        "title": "Was für die Anfrage wichtig ist.",
-        "lede": "Eine gute Anfrage nennt Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich schnell unterscheiden, ob ein einzelner Einsatz, mehrere Momente der Trauung, Empfangsmusik oder eine längere Begleitung passend ist.",
-        "paragraphs": [],
+        "title": "4. Einsätze und Kontakt vor dem Hochzeitstag bestätigen.",
+        "paragraphs": [
+          "Für jeden Musikmoment halten wir Stück, Startsignal und sinnvolles Ende fest. Eine Kontaktperson aus Gemeinde, Moderation oder Location hilft am Tag selbst. Bei Änderungen klären wir gemeinsam, ob Umfang oder Vorbereitung angepasst werden müssen.",
+          "Bei kirchlicher oder standesamtlicher Trauung bleibt der dort bestätigte Rahmen maßgeblich. So wissen alle Beteiligten, wann die Viola spielt und wann Worte, Gemeindegesang oder andere Beiträge ihren eigenen Platz haben."
+        ],
         "image": {
           "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
           "alt": "Kim Marie Borger spielt Viola auf einer Wiese im Abendlicht"
         },
+        "ctas": [
+          {
+            "label": "Musikablauf zur Trauung",
+            "link": "/ratgeber/musik-zur-trauung/",
+            "style": "link-line"
+          },
+          {
+            "label": "Kirchliche Trauung abstimmen",
+            "link": "/hochzeiten/musik-kirchliche-trauung/",
+            "style": "link-line"
+          }
+        ],
         "imageFirst": true
       }
     ]
@@ -108,44 +144,31 @@
     "title": "FAQ: Hochzeitsmusik buchen",
     "items": [
       {
-        "question": "Für welche Momente passt Live-Musik?",
-        "answer": "Solo-Viola kann einzelne Momente der Trauung, den Empfang oder mehrere Abschnitte des Tages begleiten. Entscheidend ist, dass die Musik eine klare Aufgabe im Ablauf bekommt.",
-        "open": true
+        "question": "Was muss bei der ersten Anfrage schon feststehen?",
+        "answer": "Datum, ungefährer Spielort und der gewünschte Rahmen reichen für die erste Prüfung. Stücke und genaue Einsatzzeiten können anschließend gemeinsam entstehen."
       },
       {
-        "question": "Kann ein Wunschlied gespielt werden?",
-        "answer": "Ja, wenn die Melodie für Solo-Viola geeignet ist. Ich prüfe Tonart, Länge und Wirkung und schlage bei Bedarf einen passenden Ausschnitt vor."
+        "question": "Ist eine Anfrage bereits eine Buchung?",
+        "answer": "Nein. Zunächst werden Verfügbarkeit, Machbarkeit und Angebot geklärt. Die Buchung wird persönlich vereinbart."
       },
       {
-        "question": "Passt das auch zu Standesamt, Kirche und freier Trauung?",
-        "answer": "Ja. Die genaue Planung unterscheidet sich je nach Ort, aber Solo-Viola ist für kleine Trausäle, Kirchen, freie Trauungen und Empfänge sehr flexibel."
+        "question": "Gibt es feste Hochzeitspakete?",
+        "answer": "Der Umfang wird für euren Ablauf kalkuliert. Ein einzelner Trauungsmoment, Empfang und mehrere Spielorte bedeuten unterschiedliche Vorbereitung und Zeitplanung."
       },
       {
-        "question": "Wie wird der Einsatz abgestimmt?",
-        "answer": "Wir klären vorab Startsignal, Dauer, Platz im Raum, gewünschte Stimmung und mögliche Rückfragen mit Trauredner:in, Kirche, Standesamt oder Location."
+        "question": "Was passiert bei einem neuen Wunschstück?",
+        "answer": "Ich prüfe die geeignete Fassung und verfügbare Noten. Zusätzliche Vorbereitung wird vor der Buchung besprochen."
       },
       {
-        "question": "Ist draußen spielen möglich?",
-        "answer": "Ja, wenn Wetter, Schatten, Untergrund und Schutz für das Instrument stimmen. Ein Plan B ist bei Hochzeiten im Freien immer sinnvoll."
-      },
-      {
-        "question": "Wie früh sollten wir anfragen?",
-        "answer": "Sobald Datum und Ort feststehen, ist eine Anfrage sinnvoll. Besonders Termine in der Hochzeitssaison sind oft früh vergeben."
-      },
-      {
-        "question": "Wann ist eine konkrete Anfrage sinnvoll?",
-        "answer": "Sobald Datum, Ort und Zeremonieform feststehen, kann ich Verfügbarkeit und Möglichkeiten einschätzen. Wunschlieder und genaue Einsatzpunkte können anschließend gemeinsam geklärt werden."
-      },
-      {
-        "question": "Welche Angaben helfen für eine erste Einschätzung?",
-        "answer": "Für eine schnelle Einordnung helfen Zeremonieform, Trauort, Ablaufpunkte, Wunschlied, Gästezahl und die Frage, ob nach der Trauung Empfangsmusik geplant ist. Damit lässt sich klären, ob ein einzelner Einsatz, mehrere Momente der Trauung, Empfangsmusik oder eine längere Begleitung passend ist."
+        "question": "Wer gibt am Hochzeitstag das Startsignal?",
+        "answer": "Für jeden Einsatz vereinbaren wir eine zuständige Person oder einen eindeutigen Ablaufpunkt. Der Kontakt kann aus Gemeinde, Traurednerteam oder Location kommen."
       }
     ]
   },
   "imageAlts": [
     {
       "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
-      "alt": "Kim Marie Borger spielt Viola in festlicher Kleidung"
+      "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
     },
     {
       "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
@@ -156,7 +179,7 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 7: Hochzeitsseiten vollständig nach Orts-, Moment-, Format- und Instrument-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nSEO-Goal 10.10.2026: Buchungsprozess von Terminanfrage bis Einsatzliste vollständig ersetzt; Umfang, Angebot und Zusage getrennt. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
   "contact": {
     "eyebrow": "Hochzeitsmusik planen",
     "title": "Hochzeitsmusik anfragen",

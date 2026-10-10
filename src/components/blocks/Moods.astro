@@ -3,6 +3,7 @@ import { tinaFieldFrom } from '../../lib/tina-fields';
 
 const { data } = Astro.props;
 const moods = (data.moods ?? []).filter((m: unknown) => m !== null);
+const focusItems = (data.items ?? []).filter((item: unknown) => item !== null);
 const delay = ['', ' d1', ' d2'];
 const titleLines: string[] = (data.title ?? '').split('\n');
 ---
@@ -13,7 +14,12 @@ const titleLines: string[] = (data.title ?? '').split('\n');
 			{titleLines.map((line, i) => (<Fragment>{i > 0 && <br />}{line}</Fragment>))}
 		</h2>}
 		<div class="moods">
-			{moods.map((mood: any, i: number) => (
+			{focusItems.length > 0 ? focusItems.map((item: any, i: number) => (
+				<div class={`mood reveal${delay[i % 3]}`} data-tina-field={tinaFieldFrom(item)}>
+					<h3 data-tina-field={tinaFieldFrom(item, 'title')}>{item.title}</h3>
+					{item.text && <p data-tina-field={tinaFieldFrom(item, 'text')}>{item.text}</p>}
+				</div>
+			)) : moods.map((mood: any, i: number) => (
 				<div class={`mood reveal${delay[i % 3]}`} data-tina-field={tinaFieldFrom(mood)}>
 					<h3 data-tina-field={tinaFieldFrom(mood, 'title')}>{mood.title}</h3>
 					<ul>
