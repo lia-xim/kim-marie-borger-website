@@ -72,7 +72,24 @@ Technik:
 - Neue Themen in `FEATURED_TOPIC_SLUGS` und Navigationsgruppen aufgenommen (Hub-Verlinkung).
 - Prüfung 10.11.2026: Build ok, `audit:seo:dist` 0 Fehler, `qa:seo-pages:dist` 489/489 ohne Fehler.
 
-## 4. Offene Punkte
+## 4. Vergleichsbasis vor dem Live-Gang
+
+Live seit 10.11.2026 (Commit `bd5565a`, IndexNow-Lauf erfolgreich).
+
+Crawl-Foundry-Domain-Snapshot `snap_pjgadw4di9gq` (10.11.2026, DE, Drittanbieter-Datenbank): nur 2 erfasste Rankings.
+
+| Keyword | Position | Volumen |
+| --- | ---: | ---: |
+| geigenunterricht köln | 10 (31.08.: 19) | 90 |
+| geige lernen in der nähe | 28 | 90 |
+
+Keines der Winter-Keywords (trauermusik, musiker für beerdigung, lieder beerdigung, adventskonzert, musik weihnachtsfeier, musiker geburtstag) ist in den Top 100 erfasst. Diese Liste bei der Nachmessung erneut abfragen.
+
+Ranking-Tracking konnte nicht eingerichtet werden: Der Agent-Verbindung fehlen die Berechtigungen `tracking:read`/`tracking:write`; ein Organisations-Admin muss sie in Crawl Foundry freischalten. Der Nutzer hat ein Monatsbudget von max. 5 € genehmigt.
+
+Hinweis: Ein erster Snapshot-Versuch lief versehentlich im Workspace `ws_mhrkui0q8ryg` (matthiasramahi.de), weil die MCP-Sitzung die Workspace-Auswahl verloren hatte (0,13 €). Vor jedem Crawl-Foundry-Aufruf den aktiven Workspace prüfen.
+
+## 5. Offene Punkte
 
 1. Durch Kim prüfen: genannte Weihnachts- und Trauerstücke (Beispiele, keine Repertoire-Zusage).
 2. GSC: URL-Liste „Gecrawlt – zurzeit nicht indexiert“ (34) exportieren; danach gezielt stärken, zusammenführen oder auf noindex setzen.
