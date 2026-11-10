@@ -71,6 +71,7 @@ const FEATURED_TOPIC_SLUGS: Partial<Record<LocalServiceSlug, readonly string[]>>
 		'live-musik-trauerfeier',
 	],
 	firmenfeiern: [
+		'musik-weihnachtsfeier',
 		'musik-messe',
 		'dinnermusik-firmenevent',
 		'musik-gala',
@@ -98,6 +99,7 @@ const FEATURED_TOPIC_SLUGS: Partial<Record<LocalServiceSlug, readonly string[]>>
 		'hochzeitsmusik-buchen',
 	],
 	konzerte: [
+		'adventskonzert',
 		'musik-vernissage',
 		'musik-lesung',
 		'musik-salonkonzert',
@@ -133,7 +135,7 @@ const TOPIC_GROUP_COPY: Record<LocalServiceSlug, readonly [string, string, strin
 		['buchung', 'Musikerin & Buchung', 'Persönliche Abstimmung, Besetzung und konkrete Buchungsfragen.'],
 	],
 	firmenfeiern: [
-		['anlass', 'Business-Anlässe', 'Messe, Gala, Eröffnung, Jubiläum, Networking und Produktpräsentation.'],
+		['anlass', 'Business-Anlässe', 'Weihnachtsfeier, Messe, Gala, Eröffnung, Jubiläum, Networking und Produktpräsentation.'],
 		['begleitung', 'Empfang & Begleitung', 'Musik für Ankommen, Gespräche, Dinner und einen dezenten Rahmen.'],
 		['besetzung', 'Musikerin & Besetzung', 'Live-Musik, Instrumentenwahl und der passende Auftritt für Unternehmen.'],
 	],
@@ -148,7 +150,7 @@ const TOPIC_GROUP_COPY: Record<LocalServiceSlug, readonly [string, string, strin
 		['buchung', 'Feier & Buchung', 'Empfang, Dinner, Hochzeitsfeier und die konkrete Auswahl einer Musikerin.'],
 	],
 	konzerte: [
-		['format', 'Konzertformate', 'Vernissage, Lesung, Salonkonzert und Kulturabend.'],
+		['format', 'Konzertformate', 'Adventskonzert, Vernissage, Lesung, Salonkonzert und Kulturabend.'],
 		['programm', 'Programm & Instrument', 'Viola, Bratsche, Programmlänge und die musikalische Dramaturgie.'],
 		['event', 'Konzert oder Event', 'Live- und klassische Musik für Veranstaltungen mit Zuhör- oder Rahmenprogramm.'],
 	],
@@ -940,6 +942,7 @@ const GENERATED_TOPIC_SEEDS: TopicSeed[] = [
 	{ serviceSlug: 'firmenfeiern', slug: 'musik-eroeffnung', label: 'Musik Eröffnung', keyword: 'Musik Eröffnung', kind: 'business-format', priority: 'P3', angle: 'für Auftakt, Ribbon-Cut oder feierliche Begrüßung' },
 	{ serviceSlug: 'firmenfeiern', slug: 'musik-produktpraesentation', label: 'Musik Produktpräsentation', keyword: 'Musik Produktpräsentation', kind: 'business-format', priority: 'P3', angle: 'für Launch, Präsentation und markante Übergänge' },
 	{ serviceSlug: 'firmenfeiern', slug: 'musik-jubilaeum', label: 'Musik Jubiläum', keyword: 'Musik Jubiläum', kind: 'business-format', priority: 'P3', angle: 'für Firmenjubiläum, Ehrung und festliche Reden' },
+	{ serviceSlug: 'firmenfeiern', slug: 'musik-weihnachtsfeier', label: 'Musik Weihnachtsfeier', keyword: 'Musik Weihnachtsfeier', kind: 'business-format', priority: 'P1', volume: 40, angle: 'für Empfang, Dinner und einen festlichen Moment im Dezember' },
 
 	// Geburtstag / private Feier, ohne den falschen SERP-Intent "Geburtstagsständchen".
 	{ serviceSlug: 'geburtstage', slug: 'live-musik-geburtstag', label: 'Live Musik Geburtstag', keyword: 'Live Musik Geburtstag', kind: 'private-format', priority: 'P3', angle: 'für Empfang, Dinner oder einen persönlichen Musikmoment' },
@@ -989,6 +992,7 @@ const GENERATED_TOPIC_SEEDS: TopicSeed[] = [
 	{ serviceSlug: 'konzerte', slug: 'musik-vernissage', label: 'Musik Vernissage', keyword: 'Musik Vernissage', kind: 'concert-format', priority: 'P3', volume: 10, angle: 'für Ausstellungseröffnung und ruhige Begegnungen' },
 	{ serviceSlug: 'konzerte', slug: 'musik-lesung', label: 'Musik Lesung', keyword: 'Musik Lesung', kind: 'concert-format', priority: 'P3', volume: 10, angle: 'für Übergänge, Pausen und literarische Atmosphäre' },
 	{ serviceSlug: 'konzerte', slug: 'musik-kulturabend', label: 'Musik Kulturabend', keyword: 'Musik Kulturabend', kind: 'concert-format', priority: 'P3', angle: 'für Programme mit Gespräch, Text oder Kunst' },
+	{ serviceSlug: 'konzerte', slug: 'adventskonzert', label: 'Adventskonzert', keyword: 'Adventskonzert', kind: 'concert-format', priority: 'P1', volume: 1000, angle: 'für Adventsabend, Hauskonzert und weihnachtliche Programme' },
 	{ serviceSlug: 'konzerte', slug: 'musik-salonkonzert', label: 'Musik Salonkonzert', keyword: 'Musik Salonkonzert', kind: 'concert-format', priority: 'P3', angle: 'für intime Räume und kuratierte Viola-Programme' },
 
 	// Unterricht: Geige zuerst, Bratsche/Viola weiterhin als eigene Fachcluster.
@@ -1333,7 +1337,7 @@ function topicNavigationKey(page: TopicSeoPage): string {
 			if (/repertoire|ave-maria|amazing-grace|klassische|moderne|instrumental|geige|bratsche|viola/.test(slug)) return 'klang';
 			return 'ablauf';
 		case 'firmenfeiern':
-			if (/messe|gala|jubilaeum|eroeffnung|produktpraesentation|networking/.test(slug)) return 'anlass';
+			if (/weihnachtsfeier|messe|gala|jubilaeum|eroeffnung|produktpraesentation|networking/.test(slug)) return 'anlass';
 			if (/dinner|empfang|hintergrund|kundenempfang|firmenempfang/.test(slug)) return 'begleitung';
 			return 'besetzung';
 		case 'geburtstage':
@@ -1349,7 +1353,7 @@ function topicNavigationKey(page: TopicSeoPage): string {
 			}
 			return 'buchung';
 		case 'konzerte':
-			if (/vernissage|lesung|salonkonzert|kulturabend/.test(slug)) return 'format';
+			if (/adventskonzert|vernissage|lesung|salonkonzert|kulturabend/.test(slug)) return 'format';
 			if (/viola|bratsche|bratschenkonzert|live-musik-konzert/.test(slug)) return 'programm';
 			return 'event';
 		case 'taufen':

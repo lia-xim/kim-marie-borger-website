@@ -2,7 +2,23 @@
 
 Updated: 2026-07-29
 
-## Current evidence note: 2026-09-28
+## Current evidence note: 2026-11-10 (winter season)
+
+GSC export of 2026-11-10 (last 3 months): 146 clicks and about 4,000
+impressions. Daily impressions tripled from 2026-10-20 while CTR fell from about
+6 % to 1.5 % at a stable average position of about 11. Not-indexed URLs rose
+from 4 to 49 (34 crawled-not-indexed). Fresh Crawl Foundry metrics (DE) confirm
+funeral music as the largest winter demand ("lieder beerdigung" 8,100,
+"trauermusik" 1,300, "musiker für beerdigung" 1,000, "trauermusik instrumental"
+880) plus "adventskonzert" 1,000. Decision: two new seasonal URLs
+(`/firmenfeiern/musik-weihnachtsfeier/`, `/konzerte/adventskonzert/`), the
+funeral repertoire guide retargeted to "Lieder für die Beerdigung", and winter
+sections on the funeral, birthday, corporate, concert and home pages (pillar-only
+via `hub-extra-winter`). Full record and open items:
+`seo/winter-seo-2026-11-10.md`. Review 6–8 weeks after crawl; obtain the
+crawled-not-indexed URL list before any merge or noindex action.
+
+## Evidence note: 2026-09-28
 
 The new GSC export records 142 clicks and 2,036 impressions for the property in
 its available daily rows (2026-06-11 through 2026-09-26). The coverage snapshot

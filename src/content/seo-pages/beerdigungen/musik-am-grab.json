@@ -29,6 +29,10 @@
         "answer": "Die Viola braucht Schutz. Eine geeignete Alternative wird vorab besprochen; ohne sicheren Rahmen kann Außenmusik nicht zugesagt werden."
       },
       {
+        "question": "Geht Musik am Grab auch im Winter?",
+        "answer": "Ja, wenn es einen geschützten Standort gibt und das Stück kurz bleibt. Bei Frost, Schnee oder Regen spielen wir den letzten Musikmoment alternativ in der Trauerhalle, direkt vor dem Gang zum Grab."
+      },
+      {
         "question": "Wer gibt das Startsignal an der Grabstelle?",
         "answer": "Eine vorher benannte Person vom Bestattungshaus oder aus der Leitung der Feier stimmt den Einsatz ab."
       },
@@ -48,7 +52,7 @@
       "alt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese"
     }
   ],
-  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nSEO-Goal 10.10.2026: Außenmoment mit Transport, Wetterschutz und Signal präzisiert; vermeintlich wetterfestes Instrument korrigiert. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.",
+  "editorNotes": "Automatisch aus dem aktuellen Build geseedet. Bitte redaktionell prüfen, stärker differenzieren und bei wichtigen Seiten als ready markieren.\n\nBatch 8: Beerdigungsseiten vollständig nach Ort, Abschiedsform, Instrument und Lied-Intent umgeschrieben. Fachlich im CMS final prüfen.\n\nBatch 16: Medium- und Low-Seiten mit stärker unterscheidbaren lokalen und thematischen Textblöcken weiter differenziert.\n\nRisk Pass 2026-06-16: High- und Medium-Risk-Seiten aus dem Local-SEO-Tracker mit sichtbaren eigenen Textmodulen, FAQ und Kontaktcopy weiter differenziert.\n\nLow Copy Pass 2026-06-16: expand-copy-Seiten mit sichtbaren Detailabsätzen und zusätzlichen FAQ weiter ausgebaut.\n\nSEO-Goal 10.10.2026: Außenmoment mit Transport, Wetterschutz und Signal präzisiert; vermeintlich wetterfestes Instrument korrigiert. Bestehender Status erhalten; keine neue fachliche Freigabe durch Kim behauptet.\n\nWinter-SEO 10.11.2026: Titel/Beschreibung auf Crawl-Foundry-Suchvolumen ausgerichtet (DE, 10.11.2026). Keine neuen Fakten behauptet.",
   "contact": {
     "eyebrow": "Trauermusik planen",
     "title": "Musik am Grab anfragen",
@@ -100,7 +104,7 @@
       },
       {
         "strong": "Standort und Wetter",
-        "text": "Die Viola braucht einen trockenen, geschützten Platz ohne direkte Sonne sowie sicheren Untergrund. Bei ungünstigem Wetter besprechen wir eine geeignete Alternative. Außenmusik wird erst nach dieser Prüfung zugesagt."
+        "text": "Die Viola braucht einen trockenen, geschützten Platz ohne direkte Sonne sowie sicheren Untergrund. Im Winter kommen Kälte und Nässe dazu: Bei Frost verstimmen sich die Saiten schnell, und das Holz verträgt keine Feuchtigkeit. Dann planen wir ein kurzes Stück an einem geschützten Platz oder verlegen den letzten Musikmoment in die Halle. Außenmusik wird erst nach dieser Prüfung zugesagt."
       },
       {
         "strong": "Beginn und Ende",

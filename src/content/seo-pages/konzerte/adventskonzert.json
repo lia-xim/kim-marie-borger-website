@@ -1,0 +1,173 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "konzerte",
+  "pageSlug": "adventskonzert",
+  "route": "/konzerte/adventskonzert/",
+  "targetKeyword": "Adventskonzert",
+  "intentCluster": "konzerte:topic",
+  "priority": "P1",
+  "status": "winter-2026-11-10-review-needed",
+  "enabled": true,
+  "seoTitle": "Adventskonzert mit Viola buchen | Weihnachtliches Programm",
+  "seoDescription": "Viola für Adventskonzert, weihnachtliches Hauskonzert oder Adventsabend in Gemeinde, Verein oder Firma. Programm 30–90 Minuten, auf Wunsch moderiert.",
+  "hero": {
+    "eyebrow": "Advent & Weihnachten",
+    "title": "Ein Adventskonzert mit Viola – warm, ruhig und zum Zuhören.",
+    "lead": "Ihr plant einen Adventsabend in der Gemeinde, ein weihnachtliches Hauskonzert oder einen besinnlichen Programmpunkt für Verein oder Unternehmen? Ich stelle ein Viola-Programm zusammen, das zu Raum, Publikum und Länge passt.",
+    "badge": "Für Veranstalter, Gemeinden & private Gastgeber"
+  },
+  "split": {
+    "seal": "Advent\nKonzert\nViola",
+    "sections": [
+      {
+        "title": "Für wen ein Adventskonzert mit Viola passt.",
+        "paragraphs": [
+          "Typische Rahmen sind ein Adventsnachmittag im Gemeindehaus, ein Konzert in einer kleinen Kirche oder Kapelle, ein weihnachtliches Hauskonzert im Wohnzimmer, ein Kulturabend im Verein oder ein besinnlicher Moment bei einer Firmenveranstaltung im Dezember.",
+          "Die Viola klingt tiefer und wärmer als die Geige. In kleineren Räumen trägt sie ohne Verstärkung und lädt zum Zuhören ein. Für größere Räume klären wir vorher, ob Akustik und Platzierung passen."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
+          "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
+        },
+        "ctas": [
+          {
+            "label": "Viola-Hörproben",
+            "link": "/portfolio/",
+            "style": "link-line"
+          },
+          {
+            "label": "Salonkonzert planen",
+            "link": "/konzerte/musik-salonkonzert/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
+      },
+      {
+        "title": "Ein Programm zwischen Besinnung und Vorfreude.",
+        "paragraphs": [
+          "Ein Adventsprogramm kann bekannte Weihnachtsmelodien in instrumentaler Fassung mit ruhiger Klassik verbinden, etwa Bach, Händel oder romantischen Stücken. Möglich sind kompakte 30 Minuten, ein Programm um die 60 bis 90 Minuten oder mehrere kurze Musikblöcke zwischen Lesungen und Grußworten.",
+          "Wünscht ihr euch bestimmte Lieder, zum Beispiel zum Mitsingen am Ende, nennt sie früh. Ich prüfe, welche Fassungen für Solo-Viola tragen und ob eine Begleitung sinnvoll ist. Eine kurze Anmoderation zu den Stücken ist auf Wunsch möglich."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
+          "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+        },
+        "ctas": [
+          {
+            "label": "Musik für eine Lesung",
+            "link": "/konzerte/musik-lesung/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": true
+      },
+      {
+        "title": "Was ich für die Planung brauche.",
+        "paragraphs": [
+          "Nennt Datum, Uhrzeit, Ort, ungefähre Zahl der Gäste und die gewünschte Länge. Hilfreich ist auch, ob es neben der Musik Lesungen, Gebete oder Ansprachen gibt und ob die Veranstaltung öffentlich oder privat ist.",
+          "Die Adventswochenenden sind früh verplant. Eine frühe Anfrage lässt mehr Spielraum für Termin, Programm und eine mögliche zweite Stimme. Das Angebot berücksichtigt Programmlänge, Vorbereitung und Anfahrt."
+        ],
+        "image": {
+          "src": "/uploads/_DSC7270.webp",
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
+        },
+        "ctas": [
+          {
+            "label": "Viola-Konzert",
+            "link": "/konzerte/viola-konzert/",
+            "style": "link-line"
+          },
+          {
+            "label": "Weihnachtsfeier in der Firma",
+            "link": "/firmenfeiern/musik-weihnachtsfeier/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Fragen zum Adventskonzert",
+    "items": [
+      {
+        "question": "Wie lang kann ein Adventsprogramm sein?",
+        "answer": "Programme von etwa 30 bis 90 Minuten oder mehrere kürzere Musikblöcke. Die genaue Länge und eventuelle Pausen legen wir gemeinsam fest."
+      },
+      {
+        "question": "Spielst du auch bekannte Weihnachtslieder?",
+        "answer": "Ja, als instrumentale Fassungen für Viola. Welche Lieder ihr euch wünscht, klären wir vorab; ich sage euch, was zur Solo-Viola passt."
+      },
+      {
+        "question": "Ist ein Adventskonzert auch im Wohnzimmer möglich?",
+        "answer": "Ja. Ein weihnachtliches Hauskonzert braucht einen ruhigen Platz zum Spielen und Gäste, die zuhören möchten. Die Raumgröße besprechen wir vorher."
+      },
+      {
+        "question": "Kann ein weiteres Instrument dazukommen?",
+        "answer": "Auf Anfrage prüfe ich passende Kolleg:innen und deren Verfügbarkeit. Eine größere Besetzung wird ausdrücklich vereinbart."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
+      "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
+    },
+    {
+      "src": "/uploads/mq0uvv7v-20250327-DSC01550.webp",
+      "alt": "Kim Marie Borger spielt Viola im Abendlicht"
+    },
+    {
+      "src": "/uploads/_DSC7270.webp",
+      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
+    }
+  ],
+  "editorNotes": "Winter-SEO 10.11.2026: Neue Saisonseite. Crawl Foundry 10.11.2026: 'adventskonzert' ca. 1.000 Suchen/Monat (DE), geringe Konkurrenz. Zielgruppe sind Veranstalter und Gastgeber, nicht Konzertbesucher. Programmrahmen 30-90 Minuten laut Projektprofil. Konkrete Weihnachtsstücke durch Kim bestätigen lassen.",
+  "contact": {
+    "eyebrow": "Programm anfragen",
+    "title": "Adventskonzert anfragen",
+    "lead": "Schickt mir Datum, Ort, Publikum und gewünschte Länge. Ich melde mich mit einer Programmidee für euren Adventsabend.",
+    "checklist": [
+      "Adventskonzert, Hauskonzert oder Adventsfeier",
+      "Gemeinde, Verein, Firma oder privat",
+      "Länge, Lesungen & Wunschlieder"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Viola zu eurem Adventsabend?",
+    "formSuccess": "Danke – ich melde mich mit einer Idee für euer Adventskonzert."
+  },
+  "focus": {
+    "eyebrow": "Programmidee",
+    "title": "Ein möglicher Adventsabend.",
+    "heading": "Programm",
+    "subtitle": "Adventskonzert mit Viola",
+    "items": [
+      {
+        "title": "Ankommen",
+        "detail": "Ein ruhiger Beginn, während die Gäste Platz nehmen."
+      },
+      {
+        "title": "Besinnung",
+        "detail": "Klassische Stücke und getragene Weihnachtsmelodien, gern zwischen Lesungen."
+      },
+      {
+        "title": "Vorfreude",
+        "detail": "Hellere, bekannte Melodien – auf Wunsch zum Mitsingen."
+      },
+      {
+        "title": "Ausklang",
+        "detail": "Ein vereinbarter Schluss und Übergang zu Punsch, Gebäck oder Gespräch."
+      }
+    ],
+    "footnote": "Stückfolge, Dauer und mögliche Anmoderation werden für euren Anlass vereinbart."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
+  }
+}

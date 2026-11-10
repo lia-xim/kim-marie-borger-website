@@ -282,71 +282,124 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 	},
 	{
 		slug: 'trauermusik-repertoire',
-		title: 'Trauermusik auswählen: eine ruhige Entscheidungshilfe',
-		shortTitle: 'Trauermusik auswählen',
-		seoTitle: 'Trauermusik auswählen | Wirkung, Ablauf & Stücke',
+		title: 'Lieder für die Beerdigung: Musik auswählen, die zum Menschen passt',
+		shortTitle: 'Lieder für die Beerdigung',
+		seoTitle: 'Lieder für die Beerdigung: klassisch, modern & instrumental',
 		seoDescription:
-			'Entscheidungshilfe für Trauermusik: Stücke nach Person, Wirkung und Einsatzpunkt auswählen – von Klassik bis Lieblingslied.',
-		intent: 'Angehörige suchen passende Stücke für Beerdigung, Trauerfeier oder Abschied.',
+			'Welche Lieder passen zur Beerdigung von Mutter, Vater, Oma oder Opa? Klassische Trauermusik, moderne Lieder und Instrumentalfassungen – sortiert nach Moment im Ablauf.',
+		intent: 'Angehörige suchen passende Lieder und Musikstücke für Beerdigung, Trauerfeier oder Abschied am Grab.',
 		cluster: 'Trauerfeier',
 		serviceSlug: 'beerdigungen',
 		heroImage: '/uploads/mq0uz91j-viola-6668608_1280.webp',
 		heroImageAlt: 'Viola, stille Detailaufnahme im warmen Licht',
 		kicker: 'Abschied',
 		lead:
-			'Trauermusik soll Halt geben, nicht überfordern. Ein kleines, gut gewähltes Repertoire hilft, die Trauerfeier würdevoll und persönlich zu rahmen.',
+			'Die Musik für eine Beerdigung wird meist in wenigen Tagen ausgesucht. Diese Übersicht ordnet häufig gewählte Lieder nach Stil und Moment im Ablauf – und hilft, das eine Stück zu finden, das wirklich zur verstorbenen Person passt.',
 		summary:
-			'Für Angehörige, die unter Zeitdruck Musik auswählen und eine ruhige Orientierung brauchen.',
+			'Für Angehörige, die unter Zeitdruck Lieder für die Trauerfeier auswählen und eine ruhige Orientierung brauchen – klassisch, kirchlich, modern oder instrumental.',
 		keyPoints: [
-			'Ruhige Klassiker sind eine sichere Basis.',
-			'Ein Lieblingslied kann persönlicher sein als ein bekanntes Trauerstück.',
-			'Instrumentalmusik lässt Raum für Erinnerung, Gebet und Stille.',
+			'Zwei bis vier Musikstücke reichen für die meisten Trauerfeiern.',
+			'Das persönlichste Lied ist oft wichtiger als das bekannteste Trauerstück.',
+			'Instrumentalfassungen machen auch laute oder textlastige Lieblingslieder passend.',
+			'Ob ein Wunschlied live auf der Viola trägt, lässt sich vorab prüfen.',
 		],
 		sections: [
 			{
-				title: 'Welche Stücke werden häufig gewählt?',
+				title: 'Klassische Trauermusik: vertraut und ruhig',
 				body: [
-					'Klassische Trauermusik wie Ave Maria, Air oder Meditation wird häufig gewählt, weil sie vielen Menschen vertraut ist und einen ruhigen Rahmen schafft.',
-					'Amazing Grace oder ein persönliches Lieblingslied können stärker biografisch wirken. Entscheidend ist, ob das Stück zur verstorbenen Person und zum Ort der Feier passt.',
+					'Klassische Stücke werden bei Beerdigungen häufig gewählt, weil sie vielen Gästen vertraut sind und ohne Worte Trost geben. Dazu gehören das Ave Maria von Franz Schubert, die Air aus Bachs Orchestersuite Nr. 3, das Largo „Ombra mai fu“ von Händel, die Méditation aus „Thaïs“ von Massenet oder Schuberts „Der Lindenbaum“.',
+					'Diese Stücke haben eine klare, gesangliche Melodie. Auf der Viola klingen sie etwas dunkler und wärmer als auf der Geige – nah an einer menschlichen Stimme, ohne den Raum zu füllen. Sie eignen sich besonders für den Beginn der Feier oder eine stille Phase nach der Trauerrede.',
+				],
+				links: [
+					{ label: 'Ave Maria zur Beerdigung', href: '/beerdigungen/ave-maria-beerdigung/' },
+					{ label: 'Klassische Musik zur Beerdigung', href: '/beerdigungen/klassische-musik-beerdigung/' },
 				],
 			},
 			{
-				title: 'Wie viele Musikmomente braucht eine Trauerfeier?',
+				title: 'Kirchliche Lieder und Choräle',
 				body: [
-					'Oft reichen zwei bis vier musikalische Momente: Beginn, eine stille Phase, der Auszug und bei Bedarf Musik am Grab. Mehr Musik ist nicht automatisch besser.',
-					'Die Musik sollte Pausen nicht füllen, sondern bewusst markieren. Gerade Stille darf bei einer Trauerfeier ihren Platz behalten.',
+					'In einer kirchlichen Trauerfeier haben Choräle ihren festen Platz. Häufig gewünscht sind „So nimm denn meine Hände“, „Von guten Mächten wunderbar geborgen“ oder „Amazing Grace“. Ob die Gemeinde mitsingt oder ein Lied nur instrumental erklingt, wird mit Pfarrerin, Pfarrer oder Kirchenmusik abgestimmt.',
+					'Wenn eine Orgel spielt, kann die Viola einzelne Momente übernehmen, etwa zum Einzug oder nach dem Segen. Die Reihenfolge klären wir gemeinsam mit der Gemeinde, damit sich Musik und Liturgie nicht überschneiden.',
+				],
+				links: [{ label: 'Amazing Grace zur Beerdigung', href: '/beerdigungen/amazing-grace-beerdigung/' }],
+			},
+			{
+				title: 'Moderne Lieder und Popsongs als Instrumentalfassung',
+				body: [
+					'Immer mehr Familien wählen ein Lied, das die verstorbene Person selbst gern gehört hat. Bei Trauerfeiern oft gewünscht werden zum Beispiel „Hallelujah“ von Leonard Cohen, „Tears in Heaven“ von Eric Clapton, „Time to Say Goodbye“, „Der Weg“ von Herbert Grönemeyer, „Über sieben Brücken musst du gehn“ oder „Somewhere Over the Rainbow“.',
+					'Als Instrumentalfassung auf der Viola bleibt die Melodie erkennbar, während der Text in der Erinnerung der Gäste mitklingt. Das hilft besonders bei Liedern, die im Original laut, schnell oder sehr textlastig sind. Ob ein Wunschlied als Solo-Viola trägt und wie viel Vorbereitung es braucht, prüfe ich vor der Zusage.',
+				],
+				links: [{ label: 'Moderne Trauermusik', href: '/beerdigungen/moderne-trauermusik/' }],
+			},
+			{
+				title: 'Welches Lied für welchen Moment?',
+				body: [
+					'Zum Beginn: ein ruhiges Stück, das die Gäste sammelt, während sie Platz nehmen. Klassik oder ein bekannter Choral eignen sich hier gut. Nach der Trauerrede: der persönlichste Moment – hier passt das Lieblingslied, damit Erinnerung und Musik zusammenkommen.',
+					'Zum Auszug oder Abschied: ein etwas helleres, tröstliches Stück, das den Übergang nach draußen begleitet. Am Grab: ein kurzes Stück, oft nur eine Strophe oder ein Thema, weil Wetter, Weg und Kondolenz ihren Raum brauchen.',
+				],
+				links: [{ label: 'Musik am Grab planen', href: '/beerdigungen/musik-am-grab/' }],
+			},
+			{
+				title: 'Das passende Lied für Mutter, Vater, Oma oder Opa finden',
+				body: [
+					'Hilfreiche Fragen: Welche Musik lief bei ihr oder ihm zu Hause? Gab es ein Lied, das sie gesungen, gesummt oder zu dem sie getanzt haben? Ein Stück von der eigenen Hochzeit, aus dem Chor, aus der Kirche oder aus einem Lieblingsfilm? Oft ist die Antwort ein einziges Lied, an das sofort alle denken.',
+					'Wenn die Familie sich nicht einigen kann, hilft eine Kombination: ein vertrautes klassisches Stück für alle und ein persönliches Lied für den Moment nach der Rede. Musik muss nicht alles ausdrücken – Stille zwischen den Stücken gehört ebenfalls zum Abschied.',
 				],
 			},
 			{
-				title: 'Wie persönlich darf Trauermusik sein?',
+				title: 'Beerdigung in der Advents- und Weihnachtszeit',
 				body: [
-					'Sehr persönlich, wenn es zum Abschied passt. Ein Lieblingslied kann eine Erinnerung öffnen, ohne viele Worte zu brauchen.',
-					'Wenn ein Lied im Original sehr laut oder textlastig ist, kann eine reduzierte Viola-Fassung helfen. Sie nimmt die Melodie auf und hält den Rahmen stiller.',
+					'Stirbt ein Mensch im Winter, findet die Trauerfeier manchmal mitten in der Adventszeit oder zwischen den Jahren statt. Manche Familien wünschen sich dann bewusst ein vertrautes Weihnachtslied, zum Beispiel „Es ist ein Ros entsprungen“ oder „Stille Nacht“ als leise Instrumentalfassung – vor allem, wenn die verstorbene Person Weihnachten geliebt hat.',
+					'Das ist kein Muss. Wichtig ist nur, was zur Familie passt. Für Termine rund um die Feiertage lohnt sich eine schnelle Anfrage, weil Trauerhallen, Kirchen und Bestattungshäuser in dieser Zeit oft dicht geplant sind.',
 				],
+				links: [{ label: 'Trauermusik kurzfristig anfragen', href: '/beerdigungen/trauermusik-buchen/' }],
+			},
+			{
+				title: 'Live gespielt oder vom Band?',
+				body: [
+					'Musik von CD oder Playlist braucht eine funktionierende Anlage in Trauerhalle oder Kirche und jemanden, der im richtigen Moment startet und ausblendet. Live-Musik kann dagegen warten, leiser werden oder an der passenden Stelle enden, wenn sich der Ablauf verschiebt.',
+					'Für viele Familien ist es außerdem ein Unterschied, ob ein Lied abgespielt oder für den Menschen gespielt wird. Beides ist richtig – entscheidend ist, was euch im Moment des Abschieds hilft.',
+				],
+				links: [{ label: 'Instrumentale Trauermusik live', href: '/beerdigungen/instrumentalmusik-trauerfeier/' }],
 			},
 		],
 		internalLinks: [
-			{ label: 'Trauermusik Repertoire', href: '/beerdigungen/trauermusik-repertoire/', note: 'passende Themenseite' },
-			{ label: 'Musik zur Trauerfeier', href: '/beerdigungen/' },
-			{ label: 'Ave Maria Beerdigung', href: '/beerdigungen/ave-maria-beerdigung/' },
-			{ label: 'Amazing Grace Beerdigung', href: '/beerdigungen/amazing-grace-beerdigung/' },
+			{ label: 'Trauermusik live mit Viola', href: '/beerdigungen/', note: 'Leistung & Ablauf' },
+			{ label: 'Trauermusik-Repertoire', href: '/beerdigungen/trauermusik-repertoire/', note: 'Stücke für Solo-Viola' },
+			{ label: 'Kosten für Trauermusik', href: '/ratgeber/trauermusik-kosten/' },
+			{ label: 'Hörproben der Viola', href: '/portfolio/' },
 		],
 		nextStep: { label: 'Trauermusik anfragen', href: '/anfragen/' },
 		faqs: [
 			{
-				question: 'Welche Trauermusik ist angemessen?',
+				question: 'Welche Lieder passen zur Beerdigung?',
 				answer:
-					'Angemessen ist Musik, die zur Person, zum Ort und zur Familie passt. Klassische Stücke, ruhige Instrumentalmusik oder ein Lieblingslied können gleichermaßen sinnvoll sein.',
+					'Passend ist, was zur verstorbenen Person und zur Familie gehört. Häufig gewählt werden klassische Stücke wie das Ave Maria oder Bachs Air, Choräle wie „So nimm denn meine Hände“ und persönliche Lieblingslieder als Instrumentalfassung.',
+			},
+			{
+				question: 'Wie viele Lieder spielt man auf einer Trauerfeier?',
+				answer:
+					'Meist zwei bis vier: zum Beginn, nach der Trauerrede, zum Auszug und auf Wunsch ein kurzes Stück am Grab. Mehr Musik ist nicht automatisch besser.',
+			},
+			{
+				question: 'Darf man auf einer Beerdigung Popsongs spielen?',
+				answer:
+					'Ja. Viele Familien wählen ein Lied, das die verstorbene Person geliebt hat. In einer Kirche sollte das vorher mit der Gemeinde abgestimmt werden.',
+			},
+			{
+				question: 'Welche Musik passt zur Beerdigung der Mutter oder des Vaters?',
+				answer:
+					'Am stärksten wirkt meist ein Lied mit persönlicher Geschichte: ein Stück von der Hochzeit, aus dem Chor oder aus dem Alltag zu Hause. Ergänzend gibt ein ruhiges klassisches Stück allen Gästen Halt.',
+			},
+			{
+				question: 'Kann ein Wunschlied live auf der Viola gespielt werden?',
+				answer:
+					'Oft ja. Ich prüfe vor der Zusage, ob das Lied als Solo-Viola trägt und wie viel Vorbereitung nötig ist. Vorhandenes Repertoire ist ohne Aufpreis möglich.',
 			},
 			{
 				question: 'Kann Musik am Grab gespielt werden?',
 				answer:
-					'Das ist oft möglich, muss aber mit Friedhof, Bestattungshaus und Wetterbedingungen abgestimmt werden.',
-			},
-			{
-				question: 'Sind Ave Maria und Amazing Grace immer passend?',
-				answer:
-					'Sie sind vertraute Stücke, aber nicht automatisch die beste Wahl. Entscheidend ist, ob sie zur Person und zur gewünschten Atmosphäre passen.',
+					'Das ist oft möglich, muss aber mit Friedhof, Bestattungshaus und Wetter abgestimmt werden. Bei Regen oder Frost planen wir einen geschützten Standort oder spielen nur in der Halle.',
 			},
 		],
 	},
@@ -727,8 +780,8 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 	"slug": "musik-firmenevent-ablauf",
 	"title": "Musik beim Firmenevent planen",
 	"shortTitle": "Ablaufcheckliste Firmenevent",
-	"seoTitle": "Musik beim Firmenevent planen | Ablauf & Checkliste",
-	"seoDescription": "Checkliste für Live-Musik beim Firmenevent: Spielzeiten, Reden, Dinner, Raum, Lautstärke und Kontaktperson vor der Buchung mit Location und Veranstaltungsleitung klären.",
+	"seoTitle": "Musik für die Firmenfeier organisieren | Checkliste",
+	"seoDescription": "Musik für Firmenfeier oder Weihnachtsfeier professionell organisieren: Spielzeiten, Reden, Dinner, Raum und Lautstärke – Checkliste für Eventteams.",
 	"intent": "Organisator:innen suchen einen Ablaufplan für Live-Musik, der zu Empfang, Reden, Networking und Dinner passt.",
 	"cluster": "Firmenevent",
 	"serviceSlug": "firmenfeiern",
@@ -757,6 +810,23 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 				{
 					"label": "Solo-Viola hören",
 					"href": "/portfolio/"
+				}
+			]
+		},
+		{
+			"title": "Sonderfall Weihnachtsfeier und Neujahrsempfang",
+			"body": [
+				"Bei der Weihnachtsfeier ist die Musik oft der Moment, der den Abend vom Arbeitsalltag trennt: Ankommen mit Glühwein oder Sekt, eine kurze Rede der Geschäftsführung, dann das Essen. Live-Viola passt hier zum Empfang und zum Dinner, ein kurzer weihnachtlicher Programmpunkt kann nach der Begrüßung stehen. Legt fest, wie viel Weihnachtsmusik gewünscht ist – viele Teams mögen eine Mischung aus bekannten Weihnachtsmelodien, ruhiger Klassik und leichteren Stücken.",
+				"Freitage und Samstage im Dezember sind früh vergeben. Beim Neujahrsempfang im Januar steht dagegen meist die Begrüßung von Kundschaft und Partnern im Mittelpunkt; hier reicht oft Musik zum Ankommen und zwischen den Ansprachen."
+			],
+			"links": [
+				{
+					"label": "Live-Musik für die Weihnachtsfeier",
+					"href": "/firmenfeiern/musik-weihnachtsfeier/"
+				},
+				{
+					"label": "Empfangsmusik",
+					"href": "/firmenfeiern/empfangsmusik-firmenevent/"
 				}
 			]
 		},
@@ -843,15 +913,15 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
 	"slug": "bratsche-geige-unterschied",
 	"title": "Bratsche oder Geige: Was ist der Unterschied?",
 	"shortTitle": "Bratsche und Geige im Vergleich",
-	"seoTitle": "Bratsche oder Geige? Unterschiede in Klang & Größe",
-	"seoDescription": "Bratsche, Viola und Geige unterscheiden: Stimmung, Klang, Größe und musikalische Rolle verständlich erklärt. Mit Orientierung für die erste Probestunde.",
+	"seoTitle": "Unterschied Viola & Violine (Bratsche vs. Geige) erklärt",
+	"seoDescription": "Die Viola (Bratsche) ist größer als die Violine (Geige), eine Quinte tiefer gestimmt (C–G–D–A statt G–D–A–E) und klingt dunkler und wärmer.",
 	"intent": "Klang, Stimmung und Größe von Bratsche und Geige vergleichen und die Instrumentenwahl für den Unterricht vorbereiten.",
 	"cluster": "Unterricht",
 	"serviceSlug": "unterricht",
 	"heroImage": "/uploads/mq0uvva2-20250327-DSC01714.webp",
 	"heroImageAlt": "Kim Marie Borger sitzt mit ihrer Viola auf einer Wiese",
 	"kicker": "Instrumente kennenlernen",
-	"lead": "Die Bratsche heißt auch Viola, die Geige auch Violine. Beide gehören zu den Streichinstrumenten und werden ähnlich gehalten. Der Unterschied liegt vor allem in Stimmung, Größe und Klang — und damit auch in der musikalischen Aufgabe.",
+	"lead": "Die Bratsche heißt auch Viola, die Geige auch Violine. Der Unterschied in einem Satz: Die Viola ist etwas größer, eine Quinte tiefer gestimmt (C–G–D–A statt G–D–A–E), wird im Altschlüssel notiert und klingt dunkler und wärmer. Gehalten und gespielt werden beide ähnlich — die musikalische Aufgabe ist aber eine andere.",
 	"summary": "Was Bratsche, Viola und Geige unterscheidet und worauf es bei der Instrumentenwahl für den Unterricht ankommt.",
 	"keyPoints": [
 		"Bratsche und Viola bezeichnen dasselbe Instrument.",
@@ -1521,16 +1591,16 @@ export const RATGEBER_PAGES: RatgeberPage[] = [
   "slug": "trauermusik-kosten",
   "title": "Trauermusik: Kosten und Einsatzumfang klären",
   "shortTitle": "Trauermusik: Kosten und Einsatzumfang klären",
-  "seoTitle": "Trauermusik: Kosten und Einsatzumfang klären",
-  "seoDescription": "Preisfaktoren für Trauermusik mit Viola: Halle, Kirche oder Grab, Anfahrt und Vorbereitung. Eine kurze Vorlage hilft bei der Anfrage.",
-  "intent": "Preisfaktoren für Trauermusik mit Viola: Halle, Kirche oder Grab, Anfahrt und Vorbereitung. Eine kurze Vorlage hilft bei der Anfrage.",
+  "seoTitle": "Was kostet Trauermusik live? Preisfaktoren für Musiker",
+  "seoDescription": "Was kostet ein Musiker für die Beerdigung? Wovon der Preis für Trauermusik abhängt: Halle, Kirche oder Grab, Anfahrt und Wunschstücke – mit Vorlage.",
+  "intent": "Angehörige und Bestattungshäuser möchten verstehen, wovon die Kosten für live gespielte Trauermusik abhängen und wie sie Angebote vergleichen.",
   "cluster": "Trauerfeier",
   "serviceSlug": "beerdigungen",
   "heroImage": "/uploads/_DSC7353.webp",
   "heroImageAlt": "Kim Marie Borger mit ihrer Viola am See in der Abenddämmerung",
   "kicker": "Trauerfeier",
-  "lead": "Preisfaktoren für Trauermusik mit Viola: Halle, Kirche oder Grab, Anfahrt und Vorbereitung. Eine kurze Vorlage hilft bei der Anfrage.",
-  "summary": "Preisfaktoren für Trauermusik mit Viola: Halle, Kirche oder Grab, Anfahrt und Vorbereitung. Eine kurze Vorlage hilft bei der Anfrage.",
+  "lead": "Für live gespielte Trauermusik gibt es keinen Einheitspreis. Was ein Musiker oder eine Musikerin für die Beerdigung kostet, hängt vor allem davon ab, wo und wie oft gespielt wird, wie weit die Anfahrt ist und ob Wunschstücke neu vorbereitet werden müssen.",
+  "summary": "Die wichtigsten Preisfaktoren für Trauermusik mit Viola – und eine kurze Vorlage, mit der ihr in wenigen Minuten ein vergleichbares Angebot anfragt.",
   "keyPoints": [
     "Halle, Kirche und Grab als einzelne Einsätze klären",
     "Vorbereitung, Anfahrt und Zeit dazwischen berücksichtigen",

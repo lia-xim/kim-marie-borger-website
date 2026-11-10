@@ -1,0 +1,184 @@
+{
+  "pageKind": "topic",
+  "serviceSlug": "firmenfeiern",
+  "pageSlug": "musik-weihnachtsfeier",
+  "route": "/firmenfeiern/musik-weihnachtsfeier/",
+  "targetKeyword": "Musik Weihnachtsfeier",
+  "intentCluster": "firmenfeiern:topic",
+  "priority": "P1",
+  "status": "winter-2026-11-10-review-needed",
+  "enabled": true,
+  "seoTitle": "Live-Musik für die Weihnachtsfeier | Viola für Firmen",
+  "seoDescription": "Musik für eure Firmen-Weihnachtsfeier: Solo-Viola zum Empfang, als Dinnermusik oder als festlicher Programmpunkt. Weihnachtliche Stücke, Reden und Zeitplan abstimmen.",
+  "hero": {
+    "eyebrow": "Weihnachtsfeier",
+    "title": "Live-Musik für eure Weihnachtsfeier – festlich, ohne die Gespräche zu übertönen.",
+    "lead": "Bei der Weihnachtsfeier soll das Team ankommen, anstoßen und ins Gespräch finden. Ich spiele Solo-Viola zum Empfang, dezent zum Dinner oder als kurzen weihnachtlichen Programmpunkt – abgestimmt auf Ablauf, Raum und Reden.",
+    "badge": "Dezember-Termine früh anfragen"
+  },
+  "split": {
+    "seal": "Weihnachtsfeier\nTeam & Gäste\nLive-Viola",
+    "sections": [
+      {
+        "title": "Empfang, Dinner oder ein eigener Musikmoment.",
+        "paragraphs": [
+          "Die meisten Weihnachtsfeiern haben drei Phasen: Ankommen mit Glühwein oder Sekt, das gemeinsame Essen und danach den lockeren Teil. Live-Viola passt am besten in die ersten beiden Phasen – zum Empfang als warmer Klangteppich, beim Dinner zwischen den Gängen in Gesprächslautstärke.",
+          "Soll die Musik bewusst gehört werden, planen wir einen kurzen Programmpunkt mit zwei oder drei Stücken, zum Beispiel direkt nach der Begrüßung durch die Geschäftsführung. Danach kann die Musik wieder in den Hintergrund treten oder an DJ oder Playlist übergeben."
+        ],
+        "image": {
+          "src": "/uploads/_DSC7402.webp",
+          "alt": "Kim Marie Borger spielt Viola am Ufer eines Sees"
+        },
+        "ctas": [
+          {
+            "label": "Hörproben anhören",
+            "link": "/portfolio/",
+            "style": "link-line"
+          },
+          {
+            "label": "Dinnermusik für Firmenevents",
+            "link": "/firmenfeiern/dinnermusik-firmenevent/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
+      },
+      {
+        "title": "Weihnachtlich, klassisch oder lieber modern.",
+        "paragraphs": [
+          "Nicht jedes Team möchte den ganzen Abend Weihnachtslieder hören. Oft funktioniert eine Mischung: zum Empfang bekannte weihnachtliche Melodien als Instrumentalfassung, zum Dinner ruhige Klassik wie Bachs Air und danach leichtere Pop- und Filmmusik.",
+          "Wenn ihr bestimmte Stücke wünscht – etwa ein Lied, das im Unternehmen eine Geschichte hat –, schickt mir den Titel früh. Ich prüfe, ob es als Solo-Viola-Fassung trägt und wie viel Vorbereitung nötig ist. Vorhandenes Repertoire kostet keinen Aufpreis; neue Bearbeitungen besprechen wir vorher."
+        ],
+        "image": {
+          "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
+          "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
+        },
+        "ctas": [
+          {
+            "label": "Solo-Viola oder Ensemble?",
+            "link": "/ratgeber/solo-viola-oder-ensemble/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": true
+      },
+      {
+        "title": "Was ich für das Angebot brauche.",
+        "paragraphs": [
+          "Nennt Datum, Uhrzeit, Location, ungefähre Gästezahl und den geplanten Ablauf mit Reden, Essen und Programmpunkten. Gut zu wissen ist auch, ob die Feier im Büro, im Restaurant oder in einer Eventlocation stattfindet – davon hängen Platz, Lautstärke und Aufbau ab.",
+          "Freitage und Samstage im Dezember sind für Weihnachtsfeiern besonders gefragt. Wer früh anfragt, hat die größere Terminauswahl. Ihr bekommt ein individuelles Angebot mit Spielzeit, Anfahrt und Vorbereitung und eine reguläre Rechnung für die Buchhaltung."
+        ],
+        "image": {
+          "src": "/uploads/_DSC7270.webp",
+          "alt": "Kim Marie Borger steht mit ihrer Viola am See"
+        },
+        "ctas": [
+          {
+            "label": "Briefing für Eventplaner",
+            "link": "/fuer-eventplaner/",
+            "style": "link-line"
+          },
+          {
+            "label": "Kosten beim Firmenevent",
+            "link": "/ratgeber/live-musik-firmenevent-kosten/",
+            "style": "link-line"
+          }
+        ],
+        "imageFirst": false
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Fragen zur Musik bei der Weihnachtsfeier",
+    "items": [
+      {
+        "question": "Spielst du auch Weihnachtslieder?",
+        "answer": "Ja, auf Wunsch als instrumentale Fassung für Viola. Welche Lieder ihr euch vorstellt, klären wir vorab; ich sage euch, was zur Solo-Viola passt und was zusätzliche Vorbereitung braucht."
+      },
+      {
+        "question": "Wie lange sollte die Musik bei einer Weihnachtsfeier laufen?",
+        "answer": "Das richtet sich nach eurem Ablauf. Häufig reicht Musik für Empfang und Dinner oder ein kurzer Programmpunkt. Spielzeit und Pausen stehen im Angebot."
+      },
+      {
+        "question": "Ist Live-Viola auch für eine kleine Teamfeier im Büro möglich?",
+        "answer": "Ja, solange es einen ruhigen Platz zum Spielen gibt. Gerade in kleineren Räumen wirkt Solo-Viola ohne Verstärkung angenehm und bleibt gesprächsfreundlich."
+      },
+      {
+        "question": "Kann ein Duo oder kleines Ensemble spielen?",
+        "answer": "Auf Anfrage prüfe ich passende Kolleg:innen und deren Verfügbarkeit. Im Dezember sollte eine größere Besetzung besonders früh angefragt werden."
+      },
+      {
+        "question": "Bekommen wir eine Rechnung für die Firma?",
+        "answer": "Ja, eine reguläre Rechnung mit allen Angaben für eure Buchhaltung."
+      }
+    ]
+  },
+  "imageAlts": [
+    {
+      "src": "/uploads/_DSC7402.webp",
+      "alt": "Kim Marie Borger spielt Viola am Ufer eines Sees"
+    },
+    {
+      "src": "/uploads/mq0uvv3p-20250327-DSC01349.webp",
+      "alt": "Kim Marie Borger mit ihrer Viola in festlicher Kleidung"
+    },
+    {
+      "src": "/uploads/_DSC7270.webp",
+      "alt": "Kim Marie Borger steht mit ihrer Viola am See"
+    }
+  ],
+  "editorNotes": "Winter-SEO 10.11.2026: Neue Saisonseite für Firmen-Weihnachtsfeiern. Anlass: GSC zeigt 'weihnachtsfeier dinnermusik' (Pos. 88) ohne passende Zielseite; Weihnachtsfeier war bisher nur ein Stichwort auf /firmenfeiern/. Keine Preise, keine erfundenen Referenzen. Konkrete Weihnachtsstücke bitte durch Kim bestätigen lassen.",
+  "contact": {
+    "eyebrow": "Anfrage",
+    "title": "Musik für eure Weihnachtsfeier anfragen",
+    "lead": "Schickt mir Datum, Location, Gästezahl und den geplanten Ablauf. Ich melde mich mit einer Einschätzung zu Spielzeit, Stückauswahl und Angebot.",
+    "checklist": [
+      "Weihnachtsfeier mit Team, Kund:innen oder Partnern",
+      "Empfang, Dinner oder festlicher Programmpunkt",
+      "Termin, Ablauf & Rechnung"
+    ],
+    "formEyebrow": "Direkt anfragen",
+    "formTitle": "Passt Live-Viola zu eurer Weihnachtsfeier?",
+    "formSuccess": "Danke – ich melde mich mit einer Idee für eure Weihnachtsfeier."
+  },
+  "focus": {
+    "eyebrow": "Planung",
+    "title": "Worauf es bei Musik zur Weihnachtsfeier ankommt.",
+    "lead": "Die Weihnachtsfeier ist für viele Teams der einzige Abend im Jahr, an dem alle zusammenkommen. Musik soll das unterstützen, nicht übertönen.",
+    "items": [
+      {
+        "time": "01",
+        "kicker": "Rolle",
+        "title": "Hintergrund oder Höhepunkt",
+        "text": "Legt fest, ob die Musik Gespräche begleitet oder einen eigenen Moment bekommt. Beides lässt sich an einem Abend kombinieren."
+      },
+      {
+        "time": "02",
+        "kicker": "Ablauf",
+        "title": "Reden bekommen Pausen",
+        "text": "Begrüßung, Jahresrückblick oder Ehrungen laufen ohne Musik. Eine benannte Person gibt mir die Einsätze."
+      },
+      {
+        "time": "03",
+        "kicker": "Stücke",
+        "title": "Weihnachtlich dosieren",
+        "text": "Bekannte Weihnachtsmelodien zum Empfang, ruhige Klassik zum Essen, leichtere Stücke zum Ausklang – oder ganz nach eurem Wunsch."
+      },
+      {
+        "time": "04",
+        "kicker": "Termin",
+        "title": "Früh anfragen",
+        "text": "Wochenenden im Dezember sind schnell verplant. Eine frühe Anfrage hält Termin und Besetzung offen."
+      }
+    ],
+    "footnote": "Spielzeit, Anfahrt und Vorbereitung werden im individuellen Angebot berücksichtigt."
+  },
+  "elegy": {
+    "passages": []
+  },
+  "solemn": {
+    "cards": [],
+    "list": []
+  }
+}
